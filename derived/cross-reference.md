@@ -27,6 +27,7 @@
 
 ## 圖片來源結論
 
+- **青衫之友截圖**：⭐ **最強圖源**。repo 內每款 intro 頁附截圖資料夾；對映出 **2241 款 master 遊戲、8556 張**（`derived/chiuinan-screenshots.json`，每筆含 intro URL + 截圖 URL 清單）。每款多為 1–3 張，少數含全攻略（最多 406 張）。尚未下載——待定範圍（代表性 N 張 vs 全部）。
 - **rwv 封面**：1300 張已下載（`raw/rwv/img/`，gitignored，manifest 記源）。
 - **Fandom 主圖**：717 張已下載（`raw/fandom/img/`，CC-BY-SA）。
 - **omega 內頁**：⛔ **不適合補圖**。抽樣 15 篇僅 2 篇有圖（外連 imgur，易失效），產出率 ~13%。omega 是文字討論區，價值在**標題 metadata + 討論連結**（`viewthread.php`），非圖片。
