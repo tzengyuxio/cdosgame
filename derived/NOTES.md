@@ -7,9 +7,11 @@
 - `chiuinan-games.json` — **原始層**：list-1.htm 解析的 3834 筆 + cgame/egame 補的 content_language/genre，保留 rating、publisher_original 等全部來源資料。
 - `chiuinan-titles.txt` — chiuinan `list-2.txt` 的 3830 筆繁中標題（純清單，備查）。
 - `rwv-games.json` — rwv `games.json` 正規化的 1898 筆。
-- `master-list.json` — **catalog 層**：以 chiuinan 為骨幹、台灣產品導向的精簡條目（含 localization_level、publisher_tw、genre、rwv 封面；不含 rating/publisher_original）。
+- `omega-threads.json` / `fandom-games.json` / `boneash-games.json` — 次要來源清單（見 `cross-reference.md`）。
+- `master-list.json` — **catalog 層**：以 chiuinan 為骨幹、台灣產品導向的精簡條目（含 localization_level、developer_region、publisher_tw、genre、rwv 封面、references；不含 rating/publisher_original）。
+- `cross-reference.md` — 多來源覆蓋與重疊報告、合併 backlog。
 
-產生流程：`parse_chiuinan.py` → `enrich_chiuinan.py` → `build_master.py`（腳本在 `scripts/`）。
+產生流程：`parse_chiuinan.py` → `enrich_chiuinan.py` → `parse_extra_sources.py` → `build_master.py`（腳本在 `scripts/`）。
 
 ## 重大發現：chiuinan list-1.htm 是結構化總表
 

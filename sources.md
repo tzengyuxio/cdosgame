@@ -82,9 +82,25 @@
 - **⚠ 刪檔陷阱**：本機 `rm`/`rmdir` 被 alias 成 trash 且對非空目錄照丟，raw 的 HTML/img 很容易被誤掃。清理時**只搬不刪**，要刪先確認 artifact 已搬妥。
 - 若 raw 體積大或有版權疑慮（封面/ROM），考慮 gitignore raw 資產、只版控 derived 與 provenance。
 
+## 擷取狀態（2026-06-14）
+
+| 來源 | 狀態 | 產出 |
+|------|------|------|
+| chiuinan | ✅ 已抓+解析 | `derived/chiuinan-games.json`（骨幹 3834）|
+| rwv | ✅ 已抓+配對 | `derived/rwv-games.json`；封面 300 已 join |
+| omega 數位典藏區 | ✅ 37 頁已抓+解析 | `derived/omega-threads.json`（903）+ 參考連結 |
+| Fandom | ✅ API 全量 | `derived/fandom-games.json`（732）+ 參考連結 |
+| boneash | ✅ 9 類子頁已抓+解析 | `derived/boneash-games.json`（427，早期段）|
+| vvv.nde.tw | ⏸ 擱置 | JS 動態清單，靜態抓不到；攻略連結待瀏覽器/人工 |
+| 維基列表 | ❌ 不適用 | 專頁已不存在，改作單款條目參考 |
+| MobyGames | ⏳ 待做 | 建議逐款查詢，待 schema 穩定 |
+| Instagram | ⏳ 待做 | 登入/動態，人工或 web-access；價值在照片 |
+
+詳見 `derived/cross-reference.md`。
+
 ## 下一步
 
-1. 先抓「易擷取且高價值」的清單來源建初始目錄：rwv `games.json`、chiuinan repo、維基列表。
-2. 三方比對去重，拼出主清單（title 中/英 + 廠商 + 年）。
-3. 再逐款從 omega 典藏區、骨灰集散地、IG、攻略站補介紹與圖片。
+1. ~~抓易擷取高價值清單源~~（chiuinan/rwv/omega/fandom/boneash 已完成）。
+2. **新遊戲合併**：各源 master 沒有的候選（omega 556 / fandom 247 / boneash 316），需 fuzzy 複核 + scope 篩選 + region 標記後再併。
+3. 逐款補介紹與圖片：MobyGames（英文原名/封面）、IG（實體照片）、omega 單篇內文。
 4. 收到一定量後，從實際資料**反推 schema**（schema-on-read），再定 `schema.md`。

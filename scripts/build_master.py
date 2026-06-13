@@ -13,6 +13,8 @@ from pathlib import Path
 CHIUINAN = Path("derived/chiuinan-games.json")
 RWV = Path("derived/rwv-games.json")
 REGIONS = Path("data/developer-regions.json")
+OMEGA = Path("derived/omega-threads.json")
+FANDOM = Path("derived/fandom-games.json")
 OUT = Path("derived/master-list.json")
 CHINESE_REGIONS = {"TW", "HK", "CN", "MO"}
 
@@ -84,6 +86,14 @@ def main():
 
     simplified = to_simplified([g["title_zh"] for g in chiuinan])
 
+    # reference-link indexes: normalized simplified name -> source ref
+    omega = json.loads(OMEGA.read_text(encoding="utf-8"))
+    fandom = json.loads(FANDOM.read_text(encoding="utf-8"))
+    omega_idx = {norm(s): r["link"]
+                 for r, s in zip(omega, to_simplified([r["name"] for r in omega]))}
+    fandom_idx = {norm(s): r["fandom_title"]
+                  for r, s in zip(fandom, to_simplified([r["name"] for r in fandom]))}
+
     # rwv lookup tables (keys are 簡中, already simplified)
     rwv_exact, rwv_edstrip = {}, {}
     rwv_alt = {}  # digit-removed -> set of identifiers (for 1:1 uniqueness check)
@@ -145,8 +155,16 @@ def main():
             "intro_todo": g["intro_todo"],
             "cover": None,
             "external_links": {},
+            "references": {},
             "provenance": list(g["provenance"]),
         }
+        nk = norm(simp)
+        if nk in omega_idx:
+            entry["references"]["omega"] = omega_idx[nk]
+            entry["provenance"].append("omega@forumid=68")
+        if nk in fandom_idx:
+            entry["references"]["fandom"] = fandom_idx[nk]
+            entry["provenance"].append("fandom@cn-dos-games")
         if r:
             matched += 1
             entry["cover"] = r["cover"]
@@ -166,6 +184,9 @@ def main():
     print("developer_region:", dict(reg))
     corrected = sum(1 for e in master if e["localization_basis"].startswith("region-correction"))
     print(f"A->B region corrections: {corrected}")
+    print(f"references: omega={sum(1 for e in master if 'omega' in e['references'])}"
+          f"  fandom={sum(1 for e in master if 'fandom' in e['references'])}"
+          f"  any={sum(1 for e in master if e['references'])}")
 
 
 if __name__ == "__main__":
