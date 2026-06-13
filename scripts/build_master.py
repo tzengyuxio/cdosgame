@@ -14,12 +14,25 @@ CHIUINAN = Path("derived/chiuinan-games.json")
 RWV = Path("derived/rwv-games.json")
 OUT = Path("derived/master-list.json")
 
-PUNCT = re.compile(r"[\s：:・·／/、，,．.\-—–_!！?？’'\"“”()（）\[\]【】]+")
+PUNCT = re.compile(r"[\s：:・·／/、，,．.\-—–_!！?？’'\"“”()（）\[\]【】~～·]+")
 CJK = re.compile(r"[一-鿿㐀-䶿]")
+EDITIONS = ["光盘版", "光碟版", "加强版", "加強版", "增强版", "增強版", "梦幻版", "夢幻版",
+            "典藏版", "完整版", "重制版", "重製版", "硬盘版", "硬碟版", "简体版", "繁体版",
+            "繁體版", "dos版", "windows版", "win版", "cd版", "豪华版", "豪華版", "纪念版", "紀念版"]
 
 
 def norm(s: str) -> str:
     return PUNCT.sub("", s or "").lower()
+
+
+def strip_edition(s: str) -> str:
+    for e in EDITIONS:
+        s = s.replace(e, "")
+    return s
+
+
+def no_digits(s: str) -> str:
+    return re.sub(r"\d+", "", s)
 
 
 def has_cjk(s) -> bool:
@@ -45,6 +58,10 @@ def classify_localization(content_language, developer, publisher_tw):
         if publisher_tw:
             return "D", "en-content + tw-publisher"
         return "foreign", "en-content + no-tw-publisher"
+    # content_language unknown (not in a genre page): backfill from developer.
+    # A CJK developer is a strong signal for a native Chinese game.
+    if has_cjk(developer):
+        return "A", "backfill: cjk-developer (no genre page)"
     return None, "unknown content_language"
 
 
@@ -62,16 +79,42 @@ def main():
     chiuinan = json.loads(CHIUINAN.read_text(encoding="utf-8"))
     rwv = json.loads(RWV.read_text(encoding="utf-8"))
 
-    # index rwv by normalized 簡中 identifier
-    rwv_idx = {}
-    for g in rwv:
-        rwv_idx.setdefault(norm(g["identifier"]), g)
-
     simplified = to_simplified([g["title_zh"] for g in chiuinan])
 
+    # rwv lookup tables (keys are 簡中, already simplified)
+    rwv_exact, rwv_edstrip = {}, {}
+    rwv_alt = {}  # digit-removed -> set of identifiers (for 1:1 uniqueness check)
+    for g in rwv:
+        k = norm(g["identifier"])
+        rwv_exact.setdefault(k, g)
+        rwv_edstrip.setdefault(norm(strip_edition(g["identifier"])), g)
+        rwv_alt.setdefault(no_digits(k), set()).add(g["identifier"])
+        if g.get("title_zh_hant"):  # the 42 with explicit 繁中
+            rwv_exact.setdefault(norm(g["title_zh_hant"]), g)
+    # chiuinan-side digit-removed uniqueness (avoid 三國志N series collisions)
+    chiu_alt_count = {}
+    for s in simplified:
+        chiu_alt_count[no_digits(norm(s))] = chiu_alt_count.get(no_digits(norm(s)), 0) + 1
+
+    def match_rwv(simp, title_zh):
+        for k in (norm(simp), norm(title_zh), norm(strip_edition(simp))):
+            if k in rwv_exact:
+                return rwv_exact[k], "exact"
+            if k in rwv_edstrip:
+                return rwv_edstrip[k], "edition"
+        # digit-removed match, only when unambiguous on BOTH sides
+        ka = no_digits(norm(simp))
+        cands = rwv_alt.get(ka)
+        if cands and len(cands) == 1 and chiu_alt_count.get(ka, 0) == 1:
+            return rwv_exact[norm(next(iter(cands)))], "alt"
+        return None, None
+
     master, matched = [], 0
+    tiers = {"exact": 0, "edition": 0, "alt": 0}
     for g, simp in zip(chiuinan, simplified):
-        r = rwv_idx.get(norm(simp)) or rwv_idx.get(norm(g["title_zh"]))
+        r, tier = match_rwv(simp, g["title_zh"])
+        if tier:
+            tiers[tier] += 1
         level, basis = classify_localization(
             g.get("content_language"), g.get("developer"), g.get("publisher_tw"))
         # Catalog entry: Taiwan-product focus. Drops rating + publisher_original
@@ -99,11 +142,12 @@ def main():
             entry["cover"] = r["cover"]
             entry["external_links"] = r["external_links"]
             entry["rwv_source_id"] = r["source_id"]
+            entry["rwv_match"] = tier
             entry["provenance"] += r["provenance"]
         master.append(entry)
 
     OUT.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"chiuinan: {len(chiuinan)}  rwv: {len(rwv)}  matched: {matched}")
+    print(f"chiuinan: {len(chiuinan)}  rwv: {len(rwv)}  matched: {matched}  tiers: {tiers}")
     print(f"matched with cover: {sum(1 for e in master if e.get('cover'))}")
     from collections import Counter
     dist = Counter(e["localization_level"] for e in master)

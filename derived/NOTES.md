@@ -51,11 +51,13 @@
 
 | level | 意義 | 條件 | 數量 |
 |-------|------|------|------|
-| A | 原生中文開發 | zh-content + 中文 developer | 765 |
+| A | 原生中文開發 | zh-content + 中文 developer | 1283 |
 | B | 中文化遊戲 | zh-content + 外國 developer | 944 |
 | D | 中文包裝代理（內仍英文）| en-content + 有 publisher_tw | 185 |
 | foreign | 純外國（邊界外候選）| en-content + 無 publisher_tw | 394 |
-| null | content_language 未知 | 不在分類頁 | 1546 |
+| null | content_language 未知且 developer 非中文 | — | 1028 |
+
+**content_language 回填（已實作）**：null 桶中 developer 為中文廠商者補判 A（basis `backfill: cjk-developer`），A 由 765→1283（+518）。剩 1028 為外國/無 developer，維持 null。
 
 每筆附 `localization_basis` 說明判據（透明、可審）。**驗證**：仙劍/軒轅劍/風色幻想→A；KOEI 三國志/大航海→B；熊貓 三國志武將爭霸→A，皆正確。
 
@@ -64,15 +66,20 @@
 - null 桶 1546 筆中 **518 筆 developer 為中文廠商**，可由 content_language 回填補判 A。
 - 為 derive 啟發式（低信心），非人工核定；schema 階段可加 `localization_verified` 旗標。
 
-## rwv 簡繁配對現況
+## rwv 簡繁配對現況（fuzzy 已實作）
 
-opencc t2s 轉換 + 正規化精確比對：**417 / 1898 配中**（含封面 292）。
+三層比對（每筆標 `rwv_match`）：
+- `exact`：opencc t2s + 正規化精確 — 420
+- `edition`：剝 rwv 版本後綴（光盘版/加强版…）— 0（chiuinan 多帶數字，少觸發）
+- `alt`：去數字後比對，**雙向唯一才接受**（防三國志N 系列誤配）— 9
 
-配對率偏低主因：**版本／編號命名不一致**——chiuinan 作「仙劍奇俠傳1」，rwv 作「仙剑奇侠传」「仙剑奇侠传光盘版/加强版/梦幻版」。屬 fuzzy / 版本感知比對的後續工作，非阻塞（rwv 封面為加分）。
+**合計 429 / 1898 配中（封面 300）**。alt 抽查 7/9 正確（信長之野望5霸王傳→霸王传、惡魔城1→恶魔城），2 筆勉強（接龍→接龙777、戰棋→战棋4000，短通用名），可靠 `rwv_match:"alt"` 篩除。
+
+**配對天花板 ≈ 430**：~1400 筆 rwv 與 chiuinan 完全不重疊（連去數字 base 都無），抽查為**對岸冷門簡中遊戲**（金瓶梅、中国球王、1830铁路公爵、3x3只眼…）。**根因是範圍差異**：rwv 偏對岸收錄、chiuinan 偏台灣，非 fuzzy 可解。rwv 封面只能覆蓋重疊區。
 
 ## 下一步
 
-1. content_language 回填：null 桶 518 筆 CJK-developer 可補判 A（純標題清單 list-1 未帶 c/e，但 developer 國籍 + 無英文原名是強訊號）。
-2. 提升 rwv 配對：版本/編號歸一化的模糊比對（吃下 1/2/3、光盘版/加强版、新/外傳）。
-3. 補洞交叉源：維基〈中文DOS遊戲列表〉、MobyGames（英文原名/封面/年份）；chiuinan `intro/` 單款介紹頁。
+1. ~~content_language 回填~~（已完成，+518 A）。
+2. ~~rwv 模糊配對~~（已完成，429 配中／天花板 ~430）。
+3. 補洞交叉源：維基〈中文DOS遊戲列表〉、MobyGames（英文原名/封面/年份）；chiuinan `intro/` 單款介紹頁；對岸冷門遊戲若要收，rwv 可獨立貢獻 ~1400 筆（簡中向，需另判 region）。
 4. 量夠後反推 schema（已浮現 catalog 欄位：title_zh / title_aliases / year / developer / publisher_tw / content_language / genre / localization_level / size / platform_note / catalog_id / cover / external_links / sources）。
