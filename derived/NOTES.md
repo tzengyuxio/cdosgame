@@ -92,6 +92,17 @@
 
 **配對天花板 ≈ 430**：~1400 筆 rwv 與 chiuinan 完全不重疊（連去數字 base 都無），抽查為**對岸冷門簡中遊戲**（金瓶梅、中国球王、1830铁路公爵、3x3只眼…）。**根因是範圍差異**：rwv 偏對岸收錄、chiuinan 偏台灣，非 fuzzy 可解。rwv 封面只能覆蓋重疊區。
 
+## 圖片收集（2026-06-14）
+
+圖檔下載到本地供人工辨識（純資料難比對），**圖檔 gitignore 不進版控**，但每張的來源記錄在 manifest（committed）：
+
+| 來源 | 圖檔位置（gitignored）| manifest（committed）| 張數 | 授權 |
+|------|------|------|---:|------|
+| rwv 封面 | `raw/rwv/img/<id>/cover.*` | `raw/rwv/img/covers-manifest.jsonl` | 1300 | 資產再散布有疑慮，**勿直接 host** |
+| Fandom 主圖（title 畫面）| `raw/fandom/img/<title>.*` | `raw/fandom/img/images-manifest.jsonl` | 717 | CC-BY-SA，需署名 |
+
+manifest 每行記 `local_path` / `source_(image_)url` / 來源頁 / 授權 / 抓取日。腳本 `scripts/fetch_rwv_covers.py`、`fetch_fandom_images.py`（皆冪等，curl 下載）。
+
 ## 下一步
 
 1. ~~content_language 回填~~（已完成，+518 A）。
