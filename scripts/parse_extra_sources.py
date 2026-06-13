@@ -16,7 +16,7 @@ from parse_chiuinan import TableParser
 OMEGA_OUT = Path("derived/omega-threads.json")
 FANDOM_OUT = Path("derived/fandom-games.json")
 BONEASH_OUT = Path("derived/boneash-games.json")
-OMEGA_READ = "https://omega.idv.tw/kdb120/read.php?threadid="
+OMEGA_READ = "https://omega.idv.tw/kdb120/viewthread.php?threadid="
 
 THREAD_RE = re.compile(r'read\.php\?threadid=(\d+)[^"]*"[^>]*>([^<]+)')
 BRACKET_RE = re.compile(r"^【[^】]*】")
