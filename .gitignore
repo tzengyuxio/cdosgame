@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Claude Code 本機設定
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 大型／有版權疑慮的 raw 資產：封面、ROM、遊戲鏡像、壓縮檔
+# （清單與 provenance 仍版控；資產本身先排除，再用前須確認授權）
+raw/**/covers/
+raw/**/assets/
+raw/**/*.zip
+raw/**/*.7z
+raw/**/*.rar
+raw/**/*.iso
+raw/**/*.img
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.jpeg
+raw/**/*.gif
