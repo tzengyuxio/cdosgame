@@ -66,6 +66,19 @@
 - null 桶 1546 筆中 **518 筆 developer 為中文廠商**，可由 content_language 回填補判 A。
 - 為 derive 啟發式（低信心），非人工核定；schema 階段可加 `localization_verified` 旗標。
 
+## 開發地 developer_region（使用者需求 2026-06-13）
+
+中文遊戲要記錄開發是台/港/中哪地。新增 `developer_region` 欄（catalog 層），靠策展對照表 `data/developer-regions.json`（會成長的領域知識）查 developer → 地區（TW/HK/CN/MO/JP/US/FR/GB/DE…）。
+
+**雙重作用**：
+1. 記錄開發者地區。覆蓋 1468/3834（TW 658 / JP 340 / US 326 / FR 74 / GB 30 / DE 15 / CN 15 / HK 10）。
+2. **反向修正 localization**：CJK 名但實為日/美廠者（工畫堂=Kogado、TGL、KID…）原誤判 A，依 region 改判 B（basis `region-correction`），共修正 25 筆。A: 1283→1258，B: 944→969。
+
+**限制**：
+- null 2366（A 類中 586）。A 類 null 多為未收錄的小台廠（龍愛、鉅盛、宏申…），**未預設 TW** 以免掩蓋實際 HK/CN 原生作；待證據逐步補。
+- 對岸/HK 原生作在 chiuinan（台灣向）本就少，多落在 rwv 的 ~1400 未重疊筆。
+- 地區只標**開發商**；台灣發行/代理另記於 `publisher_tw`。
+
 ## rwv 簡繁配對現況（fuzzy 已實作）
 
 三層比對（每筆標 `rwv_match`）：
@@ -82,4 +95,5 @@
 1. ~~content_language 回填~~（已完成，+518 A）。
 2. ~~rwv 模糊配對~~（已完成，429 配中／天花板 ~430）。
 3. 補洞交叉源：維基〈中文DOS遊戲列表〉、MobyGames（英文原名/封面/年份）；chiuinan `intro/` 單款介紹頁；對岸冷門遊戲若要收，rwv 可獨立貢獻 ~1400 筆（簡中向，需另判 region）。
-4. 量夠後反推 schema（已浮現 catalog 欄位：title_zh / title_aliases / year / developer / publisher_tw / content_language / genre / localization_level / size / platform_note / catalog_id / cover / external_links / sources）。
+4. 擴充 `data/developer-regions.json`：A 類 586 筆 null 多為小台廠，逐步補。
+5. 量夠後反推 schema（已浮現 catalog 欄位：title_zh / title_aliases / year / developer / developer_region / publisher_tw / content_language / genre / localization_level / size / platform_note / catalog_id / cover / external_links / sources）。

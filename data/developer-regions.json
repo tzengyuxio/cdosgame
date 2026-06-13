@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "description": "Curated developer -> region map. Region of the studio that DEVELOPED the game (not the Taiwan publisher). Hand-maintained domain knowledge; expand over time.",
+    "regions": "ISO-ish codes — TW 台灣 / HK 香港 / CN 中國大陸 / MO 澳門 / JP 日本 / US 美國 / FR 法國 / GB 英國 / DE 德國 / KR 南韓",
+    "chinese_regions": ["TW", "HK", "CN", "MO"],
+    "note": "Only confident assignments are listed; unmapped developers stay null and need research. Used to (a) record dev origin and (b) correct localization_level (a CJK-named studio that is actually JP/US gets reclassified A->B)."
+  },
+  "regions": {
+    "大宇": "TW", "大宇資訊": "TW", "智冠": "TW", "智冠科技": "TW", "漢堂": "TW",
+    "漢堂國際": "TW", "精訊": "TW", "第三波": "TW", "光譜": "TW", "光譜資訊": "TW",
+    "弘煜": "TW", "弘煜科技": "TW", "宇峻": "TW", "奧汀": "TW", "宇峻奧汀": "TW",
+    "昱泉": "TW", "昱泉國際": "TW", "熊貓": "TW", "熊貓資訊": "TW", "新造科技": "TW",
+    "晟業": "TW", "伊思儷": "TW", "伊世紀": "TW", "天堂鳥": "TW", "歡樂盒": "TW",
+    "草莓軟體": "TW", "鷹揚": "TW", "普威爾": "TW", "冠捷": "TW", "極真科技": "TW",
+    "美夢成真": "TW", "捷友": "TW", "捷思特": "TW", "新瑞獅": "TW", "全崴": "TW",
+    "松崗": "TW", "華義": "TW", "華義國際": "TW", "智樂堂": "TW", "鈊象": "TW",
+    "鈊象電子": "TW", "大宙": "TW", "唯晶": "TW", "石器": "TW", "甲尺": "TW",
+    "金山": "CN", "金山軟件": "CN", "前導": "CN", "前導軟件": "CN", "目標": "CN",
+    "目標軟件": "CN", "騰圖": "CN", "騰圖電子": "CN", "西山居": "CN", "尚洋": "CN",
+    "尚洋電子": "CN", "外星": "CN", "外星科技": "CN", "新天地": "CN", "創意鷹翔": "CN",
+    "歡樂巨人": "CN", "火星時代": "CN",
+    "智傲": "HK", "Enlight": "HK",
+    "KOEI": "JP", "光榮": "JP", "CAPCOM": "JP", "卡普空": "JP", "Falcom": "JP",
+    "Nihon Falcom": "JP", "Square": "JP", "ENIX": "JP", "KID": "JP", "Artdink": "JP",
+    "SystemSoft": "JP", "Gainax": "JP", "KSS": "JP", "SEGA": "JP", "Bothtec": "JP",
+    "TGL": "JP", "工畫堂": "JP", "Kogado": "JP", "Konami": "JP", "Namco": "JP",
+    "Bandai": "JP", "NEC": "JP", "Technopolis": "JP", "Studio e.go": "JP", "elf": "JP",
+    "EA": "US", "Electronic Arts": "US", "NWC": "US", "Maxis": "US", "SSI": "US",
+    "Westwood": "US", "Sierra": "US", "Microprose": "US", "MicroProse": "US",
+    "Origin": "US", "Blizzard": "US", "Interplay": "US", "Activision": "US",
+    "LucasArts": "US", "Epyx": "US", "3DO": "US", "id Software": "US", "Dynamix": "US",
+    "Ubisoft": "FR", "Cryo": "FR", "Infogrames": "FR",
+    "Bullfrog": "GB", "Codemasters": "GB", "Eidos": "GB", "Ocean": "GB",
+    "Ascaron": "DE", "Blue Byte": "DE"
+  }
+}

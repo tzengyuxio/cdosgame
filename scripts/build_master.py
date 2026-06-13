@@ -12,7 +12,9 @@ from pathlib import Path
 
 CHIUINAN = Path("derived/chiuinan-games.json")
 RWV = Path("derived/rwv-games.json")
+REGIONS = Path("data/developer-regions.json")
 OUT = Path("derived/master-list.json")
+CHINESE_REGIONS = {"TW", "HK", "CN", "MO"}
 
 PUNCT = re.compile(r"[\s：:・·／/、，,．.\-—–_!！?？’'\"“”()（）\[\]【】~～·]+")
 CJK = re.compile(r"[一-鿿㐀-䶿]")
@@ -78,6 +80,7 @@ def to_simplified(titles):
 def main():
     chiuinan = json.loads(CHIUINAN.read_text(encoding="utf-8"))
     rwv = json.loads(RWV.read_text(encoding="utf-8"))
+    dev_regions = json.loads(REGIONS.read_text(encoding="utf-8"))["regions"]
 
     simplified = to_simplified([g["title_zh"] for g in chiuinan])
 
@@ -117,6 +120,12 @@ def main():
             tiers[tier] += 1
         level, basis = classify_localization(
             g.get("content_language"), g.get("developer"), g.get("publisher_tw"))
+        dev_region = dev_regions.get(g["developer"]) if g.get("developer") else None
+        # Region correction: a CJK-named studio that is actually JP/US/EU was
+        # wrongly tagged native (A). If the developer's region is known and not
+        # Chinese, it is a localized title (B), not native development.
+        if level == "A" and dev_region and dev_region not in CHINESE_REGIONS:
+            level, basis = "B", f"region-correction: {dev_region} developer"
         # Catalog entry: Taiwan-product focus. Drops rating + publisher_original
         # (those stay in the per-source derived/chiuinan-games.json record).
         entry = {
@@ -124,6 +133,7 @@ def main():
             "title_aliases": g["title_aliases"],
             "year": g["year"],
             "developer": g["developer"],
+            "developer_region": dev_region,
             "publisher_tw": g["publisher_tw"],
             "content_language": g.get("content_language"),
             "genre": g.get("genre"),
@@ -152,6 +162,10 @@ def main():
     from collections import Counter
     dist = Counter(e["localization_level"] for e in master)
     print("localization_level:", dict(dist))
+    reg = Counter(e["developer_region"] for e in master)
+    print("developer_region:", dict(reg))
+    corrected = sum(1 for e in master if e["localization_basis"].startswith("region-correction"))
+    print(f"A->B region corrections: {corrected}")
 
 
 if __name__ == "__main__":
