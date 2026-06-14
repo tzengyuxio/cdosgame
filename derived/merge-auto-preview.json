@@ -90,25 +90,6 @@
     "confidence": "high"
   },
   {
-    "name": "N/A",
-    "srcs": [
-      "boneash"
-    ],
-    "year": 1994,
-    "region": null,
-    "editions": [],
-    "name_en": "Jack in the Dark",
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": null,
-    "title_raw": null,
-    "variants": [
-      "boneash:N/A"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
     "name": "NBA大賽",
     "srcs": [
       "boneash"

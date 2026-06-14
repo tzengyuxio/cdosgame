@@ -128,6 +128,8 @@ def load_candidates(master_norm):
 def classify_vs_master(c, master_norm, master_base):
     """Return (bucket, reason). bucket in {enrich, review, new}."""
     n = norm(c["simp"])
+    if not c["name"] or c["name"].strip().upper().replace("/", "") in ("NA", "-", ""):
+        return "review", "invalid-name"
     stripped = norm(strip_edition(c["simp"]))
     had_suffix = stripped != n
     if any(r in c["name"] for r in REMAKE):
