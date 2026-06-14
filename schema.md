@@ -23,7 +23,9 @@
 | `localization_level` | `A`\|`B`\|`D`\|`foreign` \| null | | A 原生中文開發 / B 中文化 / D 中文包裝代理 / foreign 純外國 |
 | `size` | string \| null | | 容量（如 `1CD (45.2)`）|
 | `platform_note` | string \| null | | 平台/限制（如 `Windows，18禁`）|
-| `catalog_id` | string \| null | | chiuinan 編號（SCD/JXP…）|
+| `catalog_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號）|
+| `license_status` | `official`\|`unofficial`\| null | | 台灣發行授權狀態。**預設 null（未考據）**；`unofficial`=未授權代理/水貨/盜版（如軟體世界貴族版系列）|
+| `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|
 | `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|

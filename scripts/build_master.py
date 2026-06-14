@@ -15,6 +15,7 @@ RWV = Path("derived/rwv-games.json")
 REGIONS = Path("data/developer-regions.json")
 OMEGA = Path("derived/omega-threads.json")
 FANDOM = Path("derived/fandom-games.json")
+SOFTWORLD = Path("derived/softworld-games.json")
 CHIU_IMG_MANIFEST = Path("raw/chiuinan/img/screenshots-manifest.jsonl")
 RWV_IMG_MANIFEST = Path("raw/rwv/img/covers-manifest.jsonl")
 FANDOM_IMG_MANIFEST = Path("raw/fandom/img/images-manifest.jsonl")
@@ -58,6 +59,13 @@ def read_manifest(path):
 
 def has_cjk(s) -> bool:
     return bool(s and CJK.search(s))
+
+
+FOLD = {0x3000: 0x20, **{0xFF01 + i: 0x21 + i for i in range(94)}}  # fullwidth -> ascii
+
+
+def foldnorm(s):
+    return norm((s or "").translate(FOLD))
 
 
 def classify_localization(content_language, developer, publisher_tw):
@@ -120,6 +128,13 @@ def main():
     rwv_cover_local = {r["identifier"]: r["local_path"] for r in read_manifest(RWV_IMG_MANIFEST)}
     fandom_img_local = {r["fandom_title"]: r["local_path"] for r in read_manifest(FANDOM_IMG_MANIFEST)}
 
+    # softworld index: folded-normalized zh/en name -> entry (early unofficial agency)
+    sw_idx = {}
+    for r in json.loads(SOFTWORLD.read_text(encoding="utf-8")):
+        for nm in (r.get("name"), r.get("name_en")):
+            if nm and foldnorm(nm) not in sw_idx:
+                sw_idx[foldnorm(nm)] = r
+
     # rwv lookup tables (keys are 簡中, already simplified)
     rwv_exact, rwv_edstrip = {}, {}
     rwv_alt = {}  # digit-removed -> set of identifiers (for 1:1 uniqueness check)
@@ -178,6 +193,8 @@ def main():
             "size": g["size"],
             "platform_note": g["platform_note"],
             "catalog_id": g["catalog_id"],
+            "license_status": None,
+            "release_codes": [],
             "intro_todo": g["intro_todo"],
             "cover": None,
             "external_links": {},
@@ -194,6 +211,18 @@ def main():
             entry["provenance"].append("fandom@cn-dos-games")
             if fandom_idx[nk] in fandom_img_local:
                 entry["images"]["fandom"] = fandom_img_local[fandom_idx[nk]]
+        # softworld (early unofficial agency): match by folded zh title or alias
+        sw = sw_idx.get(foldnorm(g["title_zh"]))
+        if not sw:
+            sw = next((sw_idx[foldnorm(a)] for a in g["title_aliases"]
+                       if foldnorm(a) in sw_idx), None)
+        if sw:
+            entry["license_status"] = "unofficial"
+            entry["release_codes"] = [{
+                "issuer": "軟體世界", "code": sw["code"],
+                "status": "placeholder" if sw["placeholder"] else "released",
+            }]
+            entry["provenance"].append("softworld@boneash-scan")
         # local screenshots (chiuinan, matched by exact title)
         if g["title_zh"] in chiu_imgs:
             entry["images"]["chiuinan"] = chiu_imgs[g["title_zh"]]
@@ -218,6 +247,8 @@ def main():
     print("developer_region:", dict(reg))
     corrected = sum(1 for e in master if e["localization_basis"].startswith("region-correction"))
     print(f"A->B region corrections: {corrected}")
+    sw_hit = sum(1 for e in master if e["release_codes"])
+    print(f"softworld matched (unofficial + release_codes): {sw_hit}")
     print(f"references: omega={sum(1 for e in master if 'omega' in e['references'])}"
           f"  fandom={sum(1 for e in master if 'fandom' in e['references'])}"
           f"  any={sum(1 for e in master if e['references'])}")

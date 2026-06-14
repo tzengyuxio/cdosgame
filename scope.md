@@ -43,6 +43,13 @@
 - 本庫**只收「有實際發行」**的遊戲。
 - 未發行 / 流產企劃歸 vault 的〈幻之未發表遊戲〉，不進本庫。
 
+## 6. 授權狀態（未授權代理：收錄，不排除）
+
+- **未授權代理 / 水貨 / 盜版**（如早期「軟體世界」貴族版系列）：**照收**。理由：(a) 分級全收、用 flag 篩不排除；(b) 百科考據定位——這是台灣早期遊戲史的重要一頁；(c) 確有發行販售（只是未授權），通過「有實際發行」門檻。
+- 用 `license_status` 標記（`official` / `unofficial` / null=未考據，**預設 null**，因多數不明朗）。
+- 廠商自家發行編號（軟體世界貴族版/珍藏版/平價版 等）記入 `release_codes`。
+- **轉珍藏版**：原規劃以貴族版發行、已配貴族版編號，後改以珍藏版發行——貴族版編號為佔位未發行，記為 `release_codes` 中 `status: placeholder`。
+
 ## 待 schema 階段對應的欄位
 
 `localization_level`、`region`、`language`、`platform_requirements`、`year`、`production_type`(暫)、`sources[]`。下一步在 `schema.md` 把這些欄位的型別與允許值定死（對齊 Zod 驗證）。

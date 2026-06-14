@@ -1,0 +1,7339 @@
+[
+  {
+    "code": "平001",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "黑神鍋",
+    "name_en": "The Black Cauldron",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平002",
+    "series": "平價版",
+    "genre": "益智",
+    "name": "富貴狗",
+    "name_en": "Fooblitzky",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平003",
+    "series": "平價版",
+    "genre": "益智",
+    "name": "立體西洋棋",
+    "name_en": "Psion Chess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平004",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "飛狼突擊",
+    "name_en": "Infiltrator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平005",
+    "series": "平價版",
+    "genre": "益智",
+    "name": "竹香齋",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平006",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "迷宮探險",
+    "name_en": "Montezuma's Revenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平007",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "步步驚魂",
+    "name_en": "Borrowed Time",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平008",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "金牌運動員",
+    "name_en": "Championship Lode Runner",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平009",
+    "series": "平價版",
+    "genre": null,
+    "name": "國際密探",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平010",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "魔法生死鬥",
+    "name_en": "King's Quest III",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平011",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "青蛙上天",
+    "name_en": "Frogger II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平012",
+    "series": "平價版",
+    "genre": "益智",
+    "name": "棋狂2000",
+    "name_en": "Chessmaster 2000",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平013",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "跳跳車",
+    "name_en": "Up'n Down",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平014",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "高爾夫大賽",
+    "name_en": "Golf's Best",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平015",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "決戰富士山",
+    "name_en": "Karateka",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平016",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "摔角大賽",
+    "name_en": "Bop'n Wrestle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平017",
+    "series": "平價版",
+    "genre": "模擬",
+    "name": "潛艇爭霸戰",
+    "name_en": "Sub Battle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平018",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "宇宙傳奇",
+    "name_en": "Space Quest",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平019",
+    "series": "平價版",
+    "genre": "動作模擬",
+    "name": "星際大冒險",
+    "name_en": "Psi 5 Trading Co.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平020",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "強棒出擊",
+    "name_en": "Pure-Stat Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平021",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "瘋狂運動員",
+    "name_en": "Lode Runner III",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平022",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "橄欖球風雲",
+    "name_en": "FGL Championship Football",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平023",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "棒棒開花",
+    "name_en": "Championship Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平024",
+    "series": "平價版",
+    "genre": "角色扮演",
+    "name": "魔境勇士",
+    "name_en": "Phantasie",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平025",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "空手道",
+    "name_en": "World Karate Championship",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平026",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "金牌高爾夫",
+    "name_en": "Championship Golf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平027",
+    "series": "平價版",
+    "genre": "模擬",
+    "name": "無敵戰艦",
+    "name_en": "Destroyer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平028",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "南極之狐",
+    "name_en": "Arcticfox",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平029",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "衝出異次元",
+    "name_en": "Tass Times in Tonetown",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平030",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "星球保護神",
+    "name_en": "Starglider",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平031",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "籃球爭霸戰",
+    "name_en": "GBA Championship Basketball Two-On-Two",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平032",
+    "series": "平價版",
+    "genre": null,
+    "name": "上海之謎",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平033",
+    "series": "平價版",
+    "genre": "冒險",
+    "name": "緊急追緝令",
+    "name_en": "Where in the U.S.A. is Carmen Sandiego?",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平034",
+    "series": "平價版",
+    "genre": "動作",
+    "name": "戰場之狼",
+    "name_en": "Commando",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平035",
+    "series": "平價版",
+    "genre": "戰略",
+    "name": "七海雄風",
+    "name_en": "The Ancient Art of War at Sea",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平036",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "職業保齡球",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平037",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "夏季運動會II",
+    "name_en": "Summer Games II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平038",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "冬季運動會",
+    "name_en": "Winter Games",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平039",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "世界運動會",
+    "name_en": "World Games",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平040",
+    "series": "平價版",
+    "genre": "運動",
+    "name": "雙人摔角",
+    "name_en": "Tag Team",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平041",
+    "series": "平價版",
+    "genre": "模擬",
+    "name": "空中英雄",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平042",
+    "series": "平價版",
+    "genre": "模擬",
+    "name": "立體直昇機",
+    "name_en": "3-D Helicopter Simulator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平043",
+    "series": "平價版",
+    "genre": "益智",
+    "name": "瘋狂彈珠球",
+    "name_en": "Marble Madness",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平044",
+    "series": "平價版",
+    "genre": "戰略",
+    "name": "侵略者",
+    "name_en": "Hacker II: The Doomsday Papers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平045",
+    "series": "平價版",
+    "genre": "戰略",
+    "name": "戰國英雄",
+    "name_en": "Defender of the Crown",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平046",
+    "series": "平價版",
+    "genre": "角色扮演",
+    "name": "天人合一",
+    "name_en": "Ultima IV",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "平047",
+    "series": "平價版",
+    "genre": "角色扮演",
+    "name": "神戒傳奇",
+    "name_en": "Ring of Zilfin",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴001",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "無敵飛狼",
+    "name_en": "Gunship",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴002",
+    "series": "貴族版",
+    "genre": "神話",
+    "name": "冒險創作機",
+    "name_en": "Stuart Smith's Adventure Construction Set",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴003",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "瘋狂大家樂",
+    "name_en": "Video Vegas",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴004",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔界村",
+    "name_en": "Ghosts'n Goblins",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴005",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "天生好手",
+    "name_en": "Earl Weaver Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴006",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "機動戰士",
+    "name_en": "Thexder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴007",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "雷虎特攻隊",
+    "name_en": "Ace of Aces",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴008",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "警察故事",
+    "name_en": "Police Quest: In Pursuit of the Death Angel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴009",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "幕府將軍",
+    "name_en": "James Clavell's Shogun",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴010",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "魔法彈珠檯",
+    "name_en": "Pinball Wizard",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴011",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "怒",
+    "name_en": "Ikari Warriors",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴012",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "未來戰士",
+    "name_en": "Breach",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴013",
+    "series": "貴族版",
+    "genre": "劇情",
+    "name": "核子防衛戰",
+    "name_en": "S.D.I",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴014",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "燃燒的野球",
+    "name_en": "HardBall!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴015",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "野外籃球",
+    "name_en": "Street Sports: Basketball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴016",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "飛狼突擊Ⅱ",
+    "name_en": "Infiltrator II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴017",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "迷宮組曲",
+    "name_en": "Soko-Ban",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴018",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "賭王鬥千王",
+    "name_en": "Solitaire Royale",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴019",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "名車大賽",
+    "name_en": "Test Drive",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴020",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "超級機車賽",
+    "name_en": "Superbike Challenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴021",
+    "series": "貴族版",
+    "genre": "文字冒險",
+    "name": "幻想空間",
+    "name_en": "Leisure Suit Larry In the Land of the Lounge Lizards",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴022",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "惡魔城",
+    "name_en": "Dark Castle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴023",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "大海盜",
+    "name_en": "Sid Meier's Pirates!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴024",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "鬥之輓歌",
+    "name_en": "Trojan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴025",
+    "series": "貴族版",
+    "genre": "文字冒險",
+    "name": "宇宙傳奇Ⅱ",
+    "name_en": "Space Quest II: Vohaul's Revenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴026",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "核能戰士",
+    "name_en": "Rad-Warrior",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴027",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "加州運動會",
+    "name_en": "California Games",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴028",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "捍衛雄鷹",
+    "name_en": "Falcon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴029",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "魔神之吼",
+    "name_en": "Phantasie III: The Wrath of Nikademus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴030",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "忍者傳奇",
+    "name_en": "Moebius: The Orb of Celestial Harmony",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴031",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "鑽石迷宮",
+    "name_en": "Boulder Dash: Construction Kit",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴032",
+    "series": "貴族版",
+    "genre": "戰鬥模擬",
+    "name": "戰斧",
+    "name_en": "Tomahawk",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴033",
+    "series": "貴族版",
+    "genre": "戰鬥模擬",
+    "name": "深入虎穴",
+    "name_en": "Into the Eagle's Nest",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴034",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "奪寶奇兵",
+    "name_en": "Rockford",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴035",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "忍者大對決",
+    "name_en": "Master Ninja: Shadow Warriors of Death",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴036",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "機器蜘蛛",
+    "name_en": "Spiderbot",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴037",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "俄羅斯方塊",
+    "name_en": "Tetris",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴038",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "空中英雄",
+    "name_en": "Chuck Yeager's Advanced Flight Simulator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴039",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "紅色十月號",
+    "name_en": "The Hunt for Red October",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴040",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "卡諾夫",
+    "name_en": "Karnov",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴041",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "虎膽妙算",
+    "name_en": "Impossible Mission 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴042",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "鐵手戰神",
+    "name_en": "Gauntlet",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴043",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "歐洲公路戰",
+    "name_en": "Roadwar Europa",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴044",
+    "series": "貴族版",
+    "genre": "推理",
+    "name": "卡門•聖地牙哥–歐洲版",
+    "name_en": "Where in Europe is Carmen Sandiego ?",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴045",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "瘋狂大毀滅",
+    "name_en": "Rampage",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴046",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "眼鏡蛇計劃",
+    "name_en": "Patton vs. Rommel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴047",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "死亡之劍",
+    "name_en": "Death Sword",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴048",
+    "series": "貴族版",
+    "genre": "童話",
+    "name": "神奇王國",
+    "name_en": "Mixed-Up Mother Goose",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴049",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "打磚塊",
+    "name_en": "Blockbuster",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴050",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "深太空",
+    "name_en": "Deep Space: Operation Copernicus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴051",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "海獵鷹戰鬥機",
+    "name_en": "Harrier Combat Simulator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴052",
+    "series": "貴族版",
+    "genre": "冒險神話",
+    "name": "風雲際會",
+    "name_en": "Willow",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴053",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "綠扁帽",
+    "name_en": "Rush'N Attack",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴054",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "魔界神兵Ⅱ",
+    "name_en": "Questron 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴055",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "火狐狸Ⅱ",
+    "name_en": "Skyfox II: The Cygnus Conflict",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴056",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "巫術Ⅳ",
+    "name_en": "Wizardry: The Return of Werdna - The Fourth Scenario",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴057",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "創世紀第Ⅴ代(上)",
+    "name_en": "Ultima V: Warriors of Destiny",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴057",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "創世紀第Ⅴ代(下)",
+    "name_en": "Ultima V: Warriors of Destiny",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴058",
+    "series": "貴族版",
+    "genre": "智育競技",
+    "name": "銀河迷宮",
+    "name_en": "Tracker",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴059",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "最後的忍者",
+    "name_en": "The Last Ninja",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴060",
+    "series": "貴族版",
+    "genre": "智育故事",
+    "name": "三傻行大運",
+    "name_en": "The Three Stooges",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴061",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "風雲戰艦",
+    "name_en": "P.H.M. Pegasus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴062",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "瘋狂大賽車",
+    "name_en": "Crazy Cars",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴063",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "黑街風雲",
+    "name_en": "Bad Street Brawler",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴064",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "送報童",
+    "name_en": "Paperboy",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴065",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "影之門",
+    "name_en": "Shadowgate",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴066",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "星際突擊隊",
+    "name_en": "Star Command",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴067",
+    "series": "貴族版",
+    "genre": "電影劇情",
+    "name": "卓別林專輯–摩登時代",
+    "name_en": "Starring: Charlie Chaplin",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴068",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "瘋狂大樓",
+    "name_en": "Maniac Mansion",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴069",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "霹靂飛車",
+    "name_en": "Fire and Forget",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴070",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "怒Ⅱ–怒號層圈",
+    "name_en": "Ikari Warriors II: Victory Road",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴071",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "銀河帝國大決戰",
+    "name_en": "Empire: Wargame of the Century",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴072",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "潛艇大作戰",
+    "name_en": "Up Periscope!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴073",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "野外棒球",
+    "name_en": "Street Sports: Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴074",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "芝加哥教父",
+    "name_en": "The King of Chicago",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴075",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "洛城警騎",
+    "name_en": "L.A. Crackdown",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴076",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "4x4越野車大賽",
+    "name_en": "4x4 Off-Road Racing",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴077",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "信長之野望",
+    "name_en": "Nobunaga's Ambition",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴078",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "三國志",
+    "name_en": "Romance of the Three Kingdoms",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴079",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "異形大進擊",
+    "name_en": "Zak McKracken and the Alien Mindbenders",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴080",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "漢城奧運",
+    "name_en": "The Games: Summer Edition",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴081",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "飛艇戰士",
+    "name_en": "Off Shore Warrior",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴082",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "最後挑戰",
+    "name_en": "Final Assault",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴083",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "阿波羅１８號",
+    "name_en": "Apollo 18",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴084",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "銀河守護者系列1-未來之魔法",
+    "name_en": "Sentinel Worlds 1 Future Magic",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴085",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "ＧＰ大賽車",
+    "name_en": "Grand Prix Circuit",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴086",
+    "series": "貴族版",
+    "genre": "戰鬥",
+    "name": "坦克大對決",
+    "name_en": "Fire Power",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴087",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "紐約獵人者",
+    "name_en": "Manhunter New York",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴088",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "國王密使系列IV-羅塞拉的冒險",
+    "name_en": "King Quest IV - The Perisof Rosella",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴089",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "空降遊騎兵",
+    "name_en": "Airborne Ranger",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴090",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "２４００ＡＤ",
+    "name_en": "2400 A.D.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴091",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "火箭突擊兵",
+    "name_en": "Rocket Ranger",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴092",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "俯衝轟炸機",
+    "name_en": "Dive Bomber",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴093",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "龍與地下城系列-長槍英雄",
+    "name_en": "Advanced Dungeon & Dragon- Heroes of the Lance",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴094",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "雙截龍",
+    "name_en": "Double Dragon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴095",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "飛輪武士",
+    "name_en": "Autoduel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴096",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "前進高棉",
+    "name_en": "Platoon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴097",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "亡命滑板",
+    "name_en": "Skate or Die",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴098",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "撞球大賽",
+    "name_en": "Rack'em",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴099",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "幻想空間2",
+    "name_en": "Leisure Suit Larry Goes Looking for Love (In Several Wrong Places)",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴100",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "F-19隱形戰鬥機",
+    "name_en": "F-19 Stealth Fighter",
+    "placeholder": true,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴101",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "終極警探",
+    "name_en": "Operation: Cleanstreets",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴102",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "籃球１對１",
+    "name_en": "Jordan vs Bird: One on One",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴103",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "火爆魚雷艇",
+    "name_en": "PT-109",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴104",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "強棒再出擊",
+    "name_en": "Pete Rose Pennant Fever",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴105",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "冰城傳奇Ⅱ",
+    "name_en": "The Bard's Tale II: The Destiny Knight",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴106",
+    "series": "貴族版",
+    "genre": "科幻ＲＰＧ",
+    "name": "喋血艦長",
+    "name_en": "Captain Blood",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴107",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "決戰西洋棋",
+    "name_en": "Battle Chess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴108",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "鐵甲爭霸戰",
+    "name_en": "BattleTech: The Crescent Hawk's Inception",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴109",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "飛向北越",
+    "name_en": "Thud Ridge: American Aces in 'Nam",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴110",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "快打旋風",
+    "name_en": "Street Fighter",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴111",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "威探闖通關",
+    "name_en": "Who framed Roger Rabbit",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴112",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "荒野遊俠",
+    "name_en": "Wasteland",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴113",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "國王傳奇",
+    "name_en": "Times of Lore",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴114",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "古巴反戰",
+    "name_en": "Guerilla War",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴115",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "狂飆飛車手",
+    "name_en": "Space Racer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴116",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "快打磚塊",
+    "name_en": "Arkanoid",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴117",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "時空大盜",
+    "name_en": "Time Bandit",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴118",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "星際征服者",
+    "name_en": "Galactic Conqueror",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴119",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "小鮫立大功",
+    "name_en": "Tower Toppler",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴120",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "龍之忍者",
+    "name_en": "Bad Dudes",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴121",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "名車大賽Ⅱ",
+    "name_en": "Test Drive II: The Duel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴122",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "屠龍記",
+    "name_en": "Barbarian",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴123",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "海灘排球王",
+    "name_en": "Kings of the Beach",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴124",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "迷你高爾夫",
+    "name_en": "Mini-Putt",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴125",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔宮傳奇",
+    "name_en": "Indiana Jones and the Temple of Doom",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴126",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "重金屬坦克",
+    "name_en": "Heavy Metal",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴127",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "霹靂飛狼",
+    "name_en": "Thunder Chopper",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴128",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "高速賽車",
+    "name_en": "Out Run",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴129",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔鬼訓練營",
+    "name_en": "Combat Course",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴130",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "街頭鬥士",
+    "name_en": "Street Fighting Man",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴131",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "火戰車",
+    "name_en": "Abrams: Battle Tank",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴132",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "空中飛鯊",
+    "name_en": "Sky Shark",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴133",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "幽城寶藏",
+    "name_en": "AD&D - Hillsfar",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴134",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "熱血高校",
+    "name_en": "RENEGADE",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴135",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "聖女貞德",
+    "name_en": "Joan of Arc: Siege & The Sword",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴136",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "黑暗金字塔",
+    "name_en": "Total Eclipse",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴137",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "全力反彈",
+    "name_en": "TITAN",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴138",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "蜘蛛人",
+    "name_en": "Spider-Man and Captain America in Dr.Doom's Revenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴139",
+    "series": "貴族版",
+    "genre": "動作ＲＰＧ",
+    "name": "預言奇兵",
+    "name_en": "Prophecy: The Fall of Trinadon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴140",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "機器戰警",
+    "name_en": "RoboCop",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴141",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "蠻俠神鷹",
+    "name_en": "Savage",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴142",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "機車越野賽",
+    "name_en": "Motocross",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴143",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "閃電鋼球",
+    "name_en": "Speedball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴144",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "瘋狂大賽車Ⅱ",
+    "name_en": "Crazy Cars II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴145",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "世界怪物大競賽",
+    "name_en": "Grand Monster Slam",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴146",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "時空戰士",
+    "name_en": "Space Harrier",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴147",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "集中火力",
+    "name_en": "Capone",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴148",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "快打磚塊Ⅱ",
+    "name_en": "Arkanoid II: Revenge of DOH",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴149",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "無敵神槍",
+    "name_en": "Heavy Barrel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴150",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "毀天滅地",
+    "name_en": "Targhan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴151",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "美女撲克歐洲版",
+    "name_en": "Teenage Queen",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴152",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "海王星計劃",
+    "name_en": "Operation Neptune",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴153",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "地心探險",
+    "name_en": "Journey to The Center of The Earth",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴154",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "城市大賽車",
+    "name_en": "Vette!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴155",
+    "series": "貴族版",
+    "genre": "動作ＲＰＧ",
+    "name": "伊蘇國",
+    "name_en": "Ancient Land of YS",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴156",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔斧",
+    "name_en": "Axe of Rage",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴157",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "超人",
+    "name_en": "Superman: The Man of Steel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴158",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "立體俄羅斯方塊",
+    "name_en": "Block Out",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴159",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "烏茲衝鋒槍",
+    "name_en": "Operation Wolf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴160",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "太空小蜜蜂",
+    "name_en": "Brad Zoom in Better Dead Than Alien",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴161",
+    "series": "貴族版",
+    "genre": "動作ＲＰＧ",
+    "name": "變形金鋼",
+    "name_en": "Wibarm",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴162",
+    "series": "貴族版",
+    "genre": "博奕",
+    "name": "水果盤",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴163",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "聖戰奇兵動作版",
+    "name_en": "Indiana Jones and the Last Crusade - the Action Game",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴164",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "毀滅戰士",
+    "name_en": "Obliterator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴165",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "殺人執照",
+    "name_en": "007 James Bond - Licence To Kill",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴166",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "水管狂想曲",
+    "name_en": "Pipe Dream",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴167",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "猛鬼逛街",
+    "name_en": "A Nightmare on Elm Street",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴168",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "方程式機車賽",
+    "name_en": "The Cycles: International Grand Prix Racing",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴169",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "步步殺機",
+    "name_en": "Rick Dangerous",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴170",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "忍",
+    "name_en": "Shinobi",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴171",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "俄羅斯方塊Ⅱ",
+    "name_en": "Welltris",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴172",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "衝鋒飛車",
+    "name_en": "DeathTrack",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴173",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "異形",
+    "name_en": "Alien Syndrome",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴174",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "終極警探電影版",
+    "name_en": "Die Hard",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴175",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "銀河超能力戰記",
+    "name_en": "Psychic War - Cosmic Soldier 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴176",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "雙截龍Ⅱ",
+    "name_en": "Double Dragon II: The Revenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴177",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "武道館",
+    "name_en": "Budokan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴178",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "古董名車大賽",
+    "name_en": "Street Rod",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴179",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "電腦病毒防衛戰",
+    "name_en": "QIX",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴180",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "槍林彈雨",
+    "name_en": "Cabal",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴181",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "第一滴血Ⅲ",
+    "name_en": "Rambo III",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴182",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "氙星異形Ⅱ",
+    "name_en": "Xenon 2: Megablast",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴183",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "瑪雅迷蹤",
+    "name_en": "Le Fetiche Maya",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴184",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "奇中棋",
+    "name_en": "Triango",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴185",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "聖劍之征",
+    "name_en": "Knight Force",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴186",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "泰坦風雲",
+    "name_en": "Mines of Titan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴187",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "重金屬美女",
+    "name_en": "Blue Angel 69",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴188",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "風馳電掣",
+    "name_en": "Indianapolis 500",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴189",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "職業網球大賽",
+    "name_en": "Pro Tennis Tour",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴190",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "Ｍ４雪曼坦克",
+    "name_en": "Sherman M4",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴191",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "藍天使–飛行特技小組",
+    "name_en": "Blue Angels",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴192",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "快樂泡泡龍",
+    "name_en": "Bubble Bobble",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴193",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "藍天碧海風浪板",
+    "name_en": "Windsurf Willy",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴194",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "北與南",
+    "name_en": "North & South",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴195",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "特技飛車",
+    "name_en": "Hard Drivin'",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴196",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "激流浪子",
+    "name_en": "Toobin",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴197",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "雪國狄斯奈",
+    "name_en": "Ski or Die",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴198",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "砲艇",
+    "name_en": "Gunboat",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴199",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "拼碰盤",
+    "name_en": "Shufflepuck Cafe",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴200",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "波斯王子",
+    "name_en": "Prince of Persia",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴201",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "氙星異形Ⅰ",
+    "name_en": "Xenon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴202",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "跳跳飛球",
+    "name_en": "Pop-Up",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴203",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "粒子世界",
+    "name_en": "The Game of Harmony",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴204",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "惡魔城傳說",
+    "name_en": "Castlevania",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴205",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "核戰狂人夢",
+    "name_en": "Nuclear War",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴206",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "叢林之神",
+    "name_en": "Livingstone II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴207",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "雲國小精靈",
+    "name_en": "Cloud Kingdoms",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴208",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "科羅拉多尋金記",
+    "name_en": "Colorado",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴209",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "1990世界盃足球賽",
+    "name_en": "World Cup Soccer: Italia '90",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴210",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "巴黎─達卡越野大賽",
+    "name_en": "Paris - Dakar 1990",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴211",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "好夢連床",
+    "name_en": "Weird Dreams",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴212",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "獸王記",
+    "name_en": "Altered Beast",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴213",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "蝙蝠俠",
+    "name_en": "BATMAN: The Caped Crusader",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴214",
+    "series": "貴族版",
+    "genre": "動作智育",
+    "name": "百戰百勝電玩篇",
+    "name_en": "Future Classics Collection",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴215",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "臉譜方塊",
+    "name_en": "Faces: Tris III",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴216",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "意亂情迷",
+    "name_en": "Extase",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴217",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "銀行大盜",
+    "name_en": "Bank Buster",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴218",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "撲克萬花筒",
+    "name_en": "Hoyle's Book of Games Volume Two: Solitaire",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴219",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "行星末日戰記",
+    "name_en": "Full Metal Planete",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴220",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "模擬城市地形編修程式",
+    "name_en": "Simcity: Terrain Editor",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴221",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "梅杜莎指環",
+    "name_en": "Rings of Medusa",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴222",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "極光勇士",
+    "name_en": "StarBlade",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴223",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "PGA職業高爾夫巡迴賽",
+    "name_en": "PGA Tour Golf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴224",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "立體花式撞球",
+    "name_en": "Sharkey's 3D Pool",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴225",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "鑽石方塊",
+    "name_en": "Puzznic",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴226",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "御封戰將",
+    "name_en": "King's Bounty",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴227",
+    "series": "貴族版",
+    "genre": "動作戰略",
+    "name": "激戰Ｍ星雲",
+    "name_en": "Star Control",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴228",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "石之道",
+    "name_en": "Ishido: The Way of Stones",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴229",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "油龍戲縫",
+    "name_en": "Oil's Well",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴230",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "ＮＢＡ大賽",
+    "name_en": "TV Sports: Basketball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴231",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "霹靂男兒",
+    "name_en": "Days of Thunder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴232",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "決戰俄羅斯",
+    "name_en": "Face to Face",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴233",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "楚漢之爭",
+    "name_en": "King of the Dragon Land",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴234",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "十字逆襲",
+    "name_en": "Netherworld",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴235",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔點",
+    "name_en": "Weird Dice",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴236",
+    "series": "貴族版",
+    "genre": "博奕",
+    "name": "麻雀學園",
+    "name_en": "Majung Academy",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴237",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "通天蜘蛛人",
+    "name_en": "The Amazing Spider-Man",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴238",
+    "series": "貴族版",
+    "genre": "動作模擬",
+    "name": "銀河飛將資料片：秘密任務",
+    "name_en": "Wing Commander: Secret Missions 1",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴239",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "空戰奇兵",
+    "name_en": "AirStrike USA",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴240",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "風神傳承",
+    "name_en": "Stormlord",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴241",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "蝙蝠俠電影版",
+    "name_en": "BATMAN - The Movie",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴242",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "第六感生死關頭",
+    "name_en": "Interphase",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴243",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "加州運動會Ⅱ",
+    "name_en": "California Games 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴244",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "浩劫餘生",
+    "name_en": "Fountain of Dreams",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴245",
+    "series": "貴族版",
+    "genre": "戰略",
+    "name": "蓋世龍王",
+    "name_en": "Dragon Lord",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴246",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "圍棋",
+    "name_en": "The Many Faces of GO",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴247",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "烏龍吸血鬼",
+    "name_en": "Night Hunter",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴248",
+    "series": "貴族版",
+    "genre": "動作模擬",
+    "name": "銀河飛將資料片：秘密任務２",
+    "name_en": "Wing Commander: Secret Missions 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴249",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "趣味高爾夫",
+    "name_en": "Will Harvey's Zany Golf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴250",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "俄式遊戲集錦",
+    "name_en": "TROIKA",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴251",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "街頭小霸王",
+    "name_en": "RanX",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴252",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔眼小精靈",
+    "name_en": "Mind-Roll",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴253",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "魔幻遊樂場",
+    "name_en": "Theme Park Mystery",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴254",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "連環泡",
+    "name_en": "Pick'n Pile",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴255",
+    "series": "貴族版",
+    "genre": "動作射擊",
+    "name": "終極戰士２",
+    "name_en": "PREDATOR 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴256",
+    "series": "貴族版",
+    "genre": "冒險",
+    "name": "六角神兵",
+    "name_en": "Hexsider",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴257",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "緝毒特勤組",
+    "name_en": "HoverForce",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴258",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "F-15鷹式戰鬥機Ⅱ資料片：沙漠風暴",
+    "name_en": "F-15 Strike Eagle II: Operation Desert Strom Scenario Disk",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴259",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "名車大賽Ⅲ資料片",
+    "name_en": "Test Drive III: Road & Car",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴260",
+    "series": "貴族版",
+    "genre": "動作戰略",
+    "name": "飛狼突擊隊",
+    "name_en": "Armor Alley",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴261",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "復國恩仇錄",
+    "name_en": "Iron Lord",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴262",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "迷宮動動腦",
+    "name_en": "Chip's Challenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴263",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "小鬼當家",
+    "name_en": "Home Alone",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴264",
+    "series": "貴族版",
+    "genre": "動作冒險",
+    "name": "黑武士",
+    "name_en": "Blade Warrior",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴265",
+    "series": "貴族版",
+    "genre": "博奕",
+    "name": "樂透黃金夢",
+    "name_en": "Lotto Gold",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴266",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "方塊ＡＢＣ",
+    "name_en": "Wordtris",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴267",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "雪山競技",
+    "name_en": "The Games: Winter Challenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴268",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "火爆鋼球",
+    "name_en": "Speedball 2 Brutal Deluxe",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴269",
+    "series": "貴族版",
+    "genre": "動作模擬",
+    "name": "銀河飛將Ⅱ資料片：特別任務１",
+    "name_en": "Wing Commander II: Special Operations 1",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴270",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "送報童２",
+    "name_en": "PaperBoy 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴271",
+    "series": "貴族版",
+    "genre": "博奕",
+    "name": "立體西洋棋Ｖ",
+    "name_en": "Sargon V: World Class Chess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴272",
+    "series": "貴族版",
+    "genre": "動作模擬",
+    "name": "銀河飛將Ⅱ資料片：特別任務２",
+    "name_en": "Wing Commander II: Special Operations 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴273",
+    "series": "貴族版",
+    "genre": "模擬",
+    "name": "狂飆遊龍",
+    "name_en": "Road & Track: Presents Grand Prix Unlimited",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴274",
+    "series": "貴族版",
+    "genre": "角色扮演",
+    "name": "創世紀Ⅶ–美德試煉場",
+    "name_en": "Ultima VII: Forge of Virtue",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴275",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "撞球補習班",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴276",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "雷火戰機",
+    "name_en": "MH28",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴277",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "瑪麗姊妹",
+    "name_en": "Sister Mary",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴278",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "天下第一刀",
+    "name_en": "The First Samurai",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴279",
+    "series": "貴族版",
+    "genre": "動作",
+    "name": "玩具兵棋",
+    "name_en": "Theatre of War",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴280",
+    "series": "貴族版",
+    "genre": "運動",
+    "name": "夏季運動會",
+    "name_en": "The Games: Summer Challenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "貴281",
+    "series": "貴族版",
+    "genre": "智育",
+    "name": "麻雀俄羅斯",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍001",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "紐約獵人者",
+    "name_en": "Manhunter: New York",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍002",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "未來之魔法",
+    "name_en": "Sentinel Worlds I: Future Magic",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍003",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "國王密使Ⅳ蘿塞拉的冒險",
+    "name_en": "King's Quest IV: The Perils of Rosella",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍004",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "幻想空間Ⅱ尋找愛情",
+    "name_en": "Leisure Suit Larry 2: Goes Looking for Love",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍005",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "F-19隱形戰鬥機",
+    "name_en": "F-19 Stealth Fighter",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍006",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "長槍英雄",
+    "name_en": "AD&D - Heroes of the Lance",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍007",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "警察故事Ⅱ",
+    "name_en": "Police Quest 2: The Vengeance",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍008",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "醫生也瘋狂",
+    "name_en": "Life & Death",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍009",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "光芒之池",
+    "name_en": "AD&D - Pool of Radiance",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍010",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "魔鬼戰警",
+    "name_en": "Techno Cop",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍011",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "淘金熱",
+    "name_en": "Gold Rush!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍012",
+    "series": "珍藏版",
+    "genre": "戰略ＲＰＧ",
+    "name": "地心攔截",
+    "name_en": "J.R.R. Tolkien's: War in Middle Earth",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍013",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "宇宙神風號",
+    "name_en": "Silpheed: Super Dogfighter",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍014",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "太空捕快",
+    "name_en": "Omnicron Conspiracy",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍015",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "宇宙傳奇Ⅲ",
+    "name_en": "Space Quest III: The Pirates of Pestulon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍016",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "６８８攻擊潛艇",
+    "name_en": "688 Attack Sub",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍017",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔法門Ⅱ",
+    "name_en": "Might and Magic II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍018",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "冬之魔",
+    "name_en": "Demon's Winter",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍019",
+    "series": "珍藏版",
+    "genre": "趣味運動",
+    "name": "摩登原始人趣味大對抗",
+    "name_en": "CAVEMAN UGH-LYMPICS",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍020",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "青色枷的詛咒",
+    "name_en": "AD&D - Curse of the Azure Bonds",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍021",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "聖戰奇兵冒險版",
+    "name_en": "Indiana Jones and the Last Crusade",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍022",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "F-15鷹式戰鬥機Ⅱ",
+    "name_en": "F-15 Strike Eagle II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍023",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "明星撲克",
+    "name_en": "Hoyle's Book of Games Volume One",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍024",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "紅色風暴",
+    "name_en": "Red Storm Rising",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍025",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "仙境故事",
+    "name_en": "The Faery Tale Adventure Book 1",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍026",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "魔鬼剋星Ⅱ",
+    "name_en": "Ghostbusters II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍027",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "銀河英雄",
+    "name_en": "Space Rogue",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍028",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "A-10坦克殺手",
+    "name_en": "A-10 Tank Killer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍029",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "模擬城市",
+    "name_en": "Simcity",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍030",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "幻想空間Ⅲ",
+    "name_en": "Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍031",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "風行者",
+    "name_en": "Wind Walker",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍032",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "水滸傳",
+    "name_en": "Bandit Kings of Ancient China",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍033",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "噴射戰鬥機",
+    "name_en": "JetFighter: The Adventure",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍034",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "太陽神之眼",
+    "name_en": "Eye of Horus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍035",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "燃燒的野球Ⅱ",
+    "name_en": "Hardball II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍036",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "英雄傳奇Ⅰ",
+    "name_en": "Hero's Quest I 後來更名為 Quest for Glory I",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍037",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "上帝也抓狂",
+    "name_en": "Populous",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍038",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "裝甲雄師",
+    "name_en": "M1 Tank Platoon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍039",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "終極孤鷹",
+    "name_en": "If It Moves Shoot It",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍040",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "克萊恩英豪",
+    "name_en": "AD&D - Champions of Krynn",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍041",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "炸彈小子",
+    "name_en": "BOMBUZAL",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍042",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "戰鬥轟炸機",
+    "name_en": "Fighter Bomber",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍043",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "出擊飛龍",
+    "name_en": "Strider",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍044",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀Ⅵ虛偽先知",
+    "name_en": "Ultima VI: The False Prophet",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍045",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "武士傳說",
+    "name_en": "Knights of Legend",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍046",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "四川省",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍047",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "代碼：冰人",
+    "name_en": "Code-Name: ICEMAN",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍048",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "魔界歷險",
+    "name_en": "Sorcerian",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍049",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "紗之器",
+    "name_en": "LOOM",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍050",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "金牌拳王",
+    "name_en": "Low Blow",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍051",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "亞瑟王傳奇",
+    "name_en": "Conquests of Camelot: The Search for The Grail",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍052",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "百戰鐵翼",
+    "name_en": "LHX Attack Chopper",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍053",
+    "series": "珍藏版",
+    "genre": "模擬ＲＰＧ",
+    "name": "飛龍騎士",
+    "name_en": "AD&D - DragonStrike",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍054",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "從海底出擊",
+    "name_en": "Wolf Pack",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍055",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "忍者龜",
+    "name_en": "Teenage Mutant Ninja Turtles",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍056",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "銀色匕首之謎",
+    "name_en": "AD&D - Secret of the Silver Blade",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍057",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "凱撒大帝",
+    "name_en": "Centurion: Defender of Rome",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍058",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "賽車追逐戰",
+    "name_en": "Power Drift",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍059",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "未來戰爭–時空冒險",
+    "name_en": "Future Wars: Adventures in time",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍060",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "小人物狂想曲",
+    "name_en": "Les Manley in Search for The King",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍061",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "快樂潛水伕",
+    "name_en": "Treasure Trap",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍062",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "魔境傳說",
+    "name_en": "Rastan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍063",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "異形神殿",
+    "name_en": "Chamber of The Sci-Mutant Priestess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍064",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "長槍之役",
+    "name_en": "AD&D - War of the Lance",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍065",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "死亡潛航Ⅱ",
+    "name_en": "Silent Service II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍066",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "火龍之戰",
+    "name_en": "Dragon Wars",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍067",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "決戰中國象棋",
+    "name_en": "Battle Chess II: Chinese Chess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍068",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "機動戰士Ⅱ",
+    "name_en": "Fire Hawk: Thexder the Second Contact",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍069",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "猴島小英雄",
+    "name_en": "The Secret of Monkey Island",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍070",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "名車大賽Ⅲ",
+    "name_en": "Test Drive III: The Passion",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍071",
+    "series": "珍藏版",
+    "genre": "動作模擬",
+    "name": "銀河飛將",
+    "name_en": "Wing Commander",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍072",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "New星式７號",
+    "name_en": "Stellar 7",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍073",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "SU-25戰鬥機",
+    "name_en": "Su-25 Stormovik",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍074",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "拯救地球",
+    "name_en": "Buck Rogers: Countdown to Doomsday",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍075",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "新陸軍棋",
+    "name_en": "Stratego",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍076",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "人生劇場",
+    "name_en": "Jones in the Fast Lane",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍077",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "魔術彩球",
+    "name_en": "X-ROCK",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍078",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "撥雲見日",
+    "name_en": "James Bond: The Stealth Affair",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍079",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "藍十字勳章",
+    "name_en": "Blue Max",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍080",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "夜班玩具廠",
+    "name_en": "Night Shift",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍081",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀外傳１洪荒帝國",
+    "name_en": "Ultima Worlds of Adventure: The Savage Empire",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍082",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "飛越杜鵑窩",
+    "name_en": "Countdown",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍083",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "Ｕ式海狼潛艇",
+    "name_en": "Das Boot",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍084",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "神劍封魔",
+    "name_en": "Zeliard",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍085",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "上海Ⅱ",
+    "name_en": "Shanghai II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍086",
+    "series": "珍藏版",
+    "genre": "文字冒險",
+    "name": "英雄傳奇Ⅱ烈火神兵",
+    "name_en": "Quest for Glory II: Trial by Fire",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍087",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "鐵路大亨",
+    "name_en": "Sid Meier's - Railroad Tycoon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍088",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "全球戰略",
+    "name_en": "Command H.Q.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍089",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "紅爵士",
+    "name_en": "Red Baron",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍090",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "光速先鋒",
+    "name_en": "Lightspeed",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍091",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "城市獵人",
+    "name_en": "Rise of The Dragon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍092",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "神州八劍",
+    "name_en": "The other side of the Predella",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍093",
+    "series": "珍藏版",
+    "genre": "立體冒險",
+    "name": "親愛的，我被電視吸走了",
+    "name_en": "Altered Destiny",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍094",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "國王密使Ⅴ",
+    "name_en": "King's Quest V: Absence Makes The Heart Go Yonder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍095",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "A-6入侵者",
+    "name_en": "Flight of The Intruder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍096",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "宇宙傳奇Ⅳ時空穿越者",
+    "name_en": "Space Quest IV: Roger Wilco and the Time Rippers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍097",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔戒少年",
+    "name_en": "J.R.R. Tolkien's The Lord Of The Rings, Vol. I",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍098",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "三國演義",
+    "name_en": "The Rising Dynasty",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍099",
+    "series": "珍藏版",
+    "genre": "博奕",
+    "name": "賭城大觀",
+    "name_en": "Trump Castle II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍100",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "醫生也瘋狂Ⅱ–腦科篇",
+    "name_en": "Life & Death II: The Brain",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍101",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "幽靈騎士",
+    "name_en": "AD&D - Death Knights of Krynn",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍102",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "F-29復仇者隱形戰鬥機",
+    "name_en": "F-29 Retaliator",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍103",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "銀河帝國傳",
+    "name_en": "The History of the Empires of the Milky Way",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍104",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "名流高爾夫",
+    "name_en": "Links: The Challenge of Golf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍105",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀外傳２火星之旅",
+    "name_en": "Ultima Worlds of Adventure 2: Martian Dreams",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍106",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "妙賊奇弗",
+    "name_en": "Keef the Thief",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍107",
+    "series": "珍藏版",
+    "genre": "教育",
+    "name": "快快樂樂學打字",
+    "name_en": "Dvorak on Typing.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍108",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "中國之心",
+    "name_en": "Heart of China",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍109",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔眼殺機",
+    "name_en": "AD&D - Eye of the Beholder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍110",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "銀河風暴",
+    "name_en": "Renegade Legion: Interceptor",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍111",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "F-14雄貓式戰鬥機",
+    "name_en": "F-14 Tomcat",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍112",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "沙漠之蠱",
+    "name_en": "It Came from The Desert",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍113",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "挑戰極速",
+    "name_en": "Mario Andretti's Racing Challenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍114",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "星際密探",
+    "name_en": "B.A.T.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍115",
+    "series": "珍藏版",
+    "genre": "博奕",
+    "name": "陸軍棋",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍116",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "築城大師",
+    "name_en": "Castles",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍117",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "冰城傳奇Ⅲ命運之賊",
+    "name_en": "The Bard's Tale III: Thief of Fate",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍118",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "艾薇拉：古堡禁地",
+    "name_en": "Elvira: Mistress of the Dark",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍119",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "新A-10坦克殺手",
+    "name_en": "A-10 Tank Killer Version 1.5",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍120",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔獸紀元",
+    "name_en": "Crusaders of Khazan: Tunnels & Trolls",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍121",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "印度王",
+    "name_en": "Champion of The Raj",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍122",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "新幻想空間Ⅰ",
+    "name_en": "Leisure Suit Larry: In the Land of the Lounge Lizards (VGA)",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍123",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "新宇宙傳奇Ⅰ",
+    "name_en": "Space Quest I: Roger Wilco in the Sarien Encounter (VGA)",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍124",
+    "series": "珍藏版",
+    "genre": "動作模擬",
+    "name": "銀河飛將Ⅱ帝國逆襲",
+    "name_en": "Wing Commander II: Vengeance of the Kilrathi",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍125",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "童話仙境",
+    "name_en": "The Manhole",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍126",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "明星職棒",
+    "name_en": "Tony La Russa's Ultimate Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍127",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "幻想空間Ⅴ",
+    "name_en": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍128",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "鐵血傭兵",
+    "name_en": "Hard Nova",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍129",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "吞食天地–三國外傳",
+    "name_en": "SANGO",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍130",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "火星大懸案",
+    "name_en": "MARTIAN memorandum",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍131",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "威利奇遇記",
+    "name_en": "The Adventures of Willy Beamish",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍132",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "Ｄ計劃",
+    "name_en": "D Generation",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍133",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "F-117A夜鷹隱形戰鬥機",
+    "name_en": "Night Hawk: F-117A Stealth Fighter 2.0",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍134",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "警察故事Ⅲ陰謀",
+    "name_en": "Police Quest 3: The Kindred",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍135",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "職業網球大賽２",
+    "name_en": "Pro Tennis Tour 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍136",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "囂張拳王",
+    "name_en": "4-D Boxing",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍137",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "歡樂滿點",
+    "name_en": "Hoyle's Book of Games Volume Three",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍138",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "聖域傳說",
+    "name_en": "The Legend of Mystic Zone",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍139",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "無敵飛狼2000",
+    "name_en": "Gunship 2000",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍140",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔法門Ⅲ幻島歷險記(中文版)",
+    "name_en": "Might and Magic III: Isles of Terra",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍141",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "天生好手Ⅱ",
+    "name_en": "Earl Weaver Baseball II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍142",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "俠盜羅賓漢",
+    "name_en": "The Legend of Robin Hood: Conquest of the Longbow",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍143",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "空中英雄–長空會戰",
+    "name_en": "Chuck Yeager's Air Combat",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍144",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "超級星式９號",
+    "name_en": "Nova 9",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍145",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "異域之門",
+    "name_en": "AD&D - Gateway to the Savage Frontier",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍146",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "童話天地",
+    "name_en": "Mixed-up Fairy Tales",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍147",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "艾薇拉Ⅱ恐怖劇場",
+    "name_en": "Elvira II: The Jaws of Cerberus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍148",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "幻影法師",
+    "name_en": "AD&D - Shadow Sorcerer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍149",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "納粹飛行祕史",
+    "name_en": "Secret Weapons of the Luftwaffe",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍150",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "小人物狂想曲Ⅱ",
+    "name_en": "Les Manley in: LOST in L.A.",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍151",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "如來金剛拳傳奇",
+    "name_en": "The Legend of Power Book",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍152",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "天才智多星",
+    "name_en": "Castle of Dr. Brain",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍153",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "四川省Ⅱ",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍154",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "攻佔比佛利山莊",
+    "name_en": "The Taking of Beverly Hills",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍155",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "拯救鯨魚王",
+    "name_en": "Eco Quest: The Search for Cetus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍156",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "猴島小英雄Ⅱ里察克的復仇",
+    "name_en": "Monkey Island 2: LeChuck's Revenge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍157",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "黑暗之池",
+    "name_en": "AD&D - Pools of Darkness",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍158",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "地下創世紀：冥河深淵",
+    "name_en": "Ultima Underworld: The Stygian Abyss",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍159",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "捍衛雄鷹3.0",
+    "name_en": "Falcon 3.0",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍160",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀Ⅶ–黑月之門",
+    "name_en": "Ultima VII: The Black Gate",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍161",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "星際爭霸戰",
+    "name_en": "Star Trek: 25th Anniversary",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍162",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "意外的訪客",
+    "name_en": "Leather Goddesses of Phobos 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍163",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "天際寒星–義無反顧",
+    "name_en": "Planet's Edge - The Point of No Return",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍164",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "橋藝大師",
+    "name_en": "Omar Sharif on Bridge",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍165",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀ⅠⅡⅢ典藏版",
+    "name_en": "Ultima Trilogy 1 (Ultima I, II, III)",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍166",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "亞特蘭提斯之謎",
+    "name_en": "Indiana Jones and the Fate of Atlantis",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍167",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔水晶",
+    "name_en": "The Four Crystals of Trazere",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍168",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "楚漢之爭２赤龍反撲",
+    "name_en": "King of Dragonland II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍169",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "燃燒的野球Ⅲ",
+    "name_en": "Hardball 3",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍170",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "暗黑傳說",
+    "name_en": "Prophecy of the Shadow",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍171",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "美國鼠譚",
+    "name_en": "An American Tail",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍172",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "瑪催斯計劃",
+    "name_en": "Buck Rogers II: Matrix Cubed",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍173",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "狂島浴血",
+    "name_en": "Battle Isle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍174",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "新英雄傳奇Ⅰ",
+    "name_en": "Quest for Glory I (Remake)",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍175",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "戰爭風雲錄–韓戰",
+    "name_en": "Conflict: Korea",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍176",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "太平洋空戰英雄",
+    "name_en": "Aces of the Pacific",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍177",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "異域寶藏",
+    "name_en": "AD&D - Treasures of the Savage Frontier",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍178",
+    "series": "珍藏版",
+    "genre": "應用軟體",
+    "name": "畫面狩獵者",
+    "name_en": "GETCAP",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍179",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "戰爭風雲錄–中東戰爭",
+    "name_en": "Conflict: Middle East",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍180",
+    "series": "珍藏版",
+    "genre": "博奕",
+    "name": "香港麻將",
+    "name_en": "Hong Kong Mahjong Pro",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍181",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "克萊恩黑暗之后",
+    "name_en": "AD&D - Dark Queen of Krynn",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍182",
+    "series": "珍藏版",
+    "genre": "戰略模擬",
+    "name": "風雲霸主",
+    "name_en": "Power Monger",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍183",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "３５７戰鬥大隊",
+    "name_en": "The Heroes of the 357th",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍184",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "蘿拉推理系列：匕首疑雲",
+    "name_en": "Laura Bow II: The Dagger of Amon Ra",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍185",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔戒少年Ⅱ雙塔記",
+    "name_en": "J.R.R. Tolkien's The Lord of the Rings, Vol. II: The Two Towers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍186",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "夢幻勇士",
+    "name_en": "Unreal",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍187",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔眼殺機Ⅱ隱月傳奇(中文版)",
+    "name_en": "AD&D - Eye of the Beholder II: The Legend of Darkmoon",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍188",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "超人戰記",
+    "name_en": "Heroic Poetry - Super Mars",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍189",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "名流高爾夫386",
+    "name_en": "Links 386 Pro",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍190",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "英雄傳奇Ⅲ戰火焚生錄",
+    "name_en": "Quest for Glory III: Wages of War",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍191",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "方塊奧運",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍192",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "鬼屋魔影",
+    "name_en": "Alone in the Dark",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍193",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔法門外傳：星雲之謎(中文版)",
+    "name_en": "Might and Magic: Clouds of Xeen",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍194",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "築城大師２王位爭奪戰",
+    "name_en": "Castles II: Siege & Conquest",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍195",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "人車一體",
+    "name_en": "Car and Driver: Test Drive Ten of the Best",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍196",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "新警察故事",
+    "name_en": "Police Quest: In Pursuit of the Death Angel (VGA)",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍197",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "大滿貫橋牌Ⅱ",
+    "name_en": "Grand Slam Bridge II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍198",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "魔界召喚(中文版)",
+    "name_en": "The Summoning",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍199",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "奇妙大百科",
+    "name_en": "The Incredible Machine",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍200",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "狂島浴血資料片",
+    "name_en": "ⅠBattle Isle: Scenario Disk Volume One",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍201",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "雀之塔",
+    "name_en": "a Tower Of MahJong",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍202",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "笑傲江湖",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍203",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "小鬼當家２",
+    "name_en": "Home Alone 2: Lost in New York",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍204",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "西洋棋王",
+    "name_en": "GrandMaster Chess",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍205",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "傑克大師高爾夫",
+    "name_en": "Jack Nicklaus Signature Edition - Golf & Course Design",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍206",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "激戰Ｍ星雲Ⅱ",
+    "name_en": "Star Control II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍207",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "傲空神鷹",
+    "name_en": "Birds of Prey",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍208",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "國王密使Ⅵ希望之旅",
+    "name_en": "King's Quest VI: Heir Today, Gone Tomorrow",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍209",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "吞食天地Ⅱ",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍210",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "紅爵士資料片–任務製造器",
+    "name_en": "Red Baron Expansion Disk - Mission Builder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍211",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "明星職棒Ⅱ",
+    "name_en": "Tony La Russa Baseball II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍212",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "小辣椒的時空冒險",
+    "name_en": "Pepper's Adventures in Time",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍213",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "勇士傳奇(中文版)",
+    "name_en": "Legends of Valour: The Dawning",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍214",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "繞著雨林跑",
+    "name_en": "Eco Quest 2: Lost Secret of the Rainforest",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍215",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "太平洋空戰英雄資料片",
+    "name_en": "Aces of the Pacific Expansion Disk - WWII: 1946",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍216",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀Ⅶ第２部–巨蛇之島",
+    "name_en": "Ultima VII Part 2: The Serpent Isle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍217",
+    "series": "珍藏版",
+    "genre": "應用軟體",
+    "name": "畫面狩獵者Ⅱ",
+    "name_en": "GETCAP II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍218",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔眼殺機Ⅲ血戰札諾爾(中文版)",
+    "name_en": "AD&D - Eye of the Beholder III: Assault on Myth Drannor",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍219",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "烏托邦",
+    "name_en": "UTOPIA: The Creation on a Nation",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍220",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "明星職棒Ⅱ資料片–奇幻球隊",
+    "name_en": "Tony La Russa Baseball II Expansion Disk - Fantasy Draft",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍221",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "蠟像館之謎",
+    "name_en": "WaxWorks",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍222",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "瘋狂主宰(中文版)",
+    "name_en": "Mega Lo Mania",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍223",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "經典明星撲克",
+    "name_en": "HOYLE Classic Card Games",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍224",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "惡魔禁地(中文版)",
+    "name_en": "Veil of Darkness",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍225",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "太空牛仔",
+    "name_en": "Spaceward Ho!",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍226",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "福爾摩斯探案(中文版)",
+    "name_en": "The Lost Files of Sherlock Holmes",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍227",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "陸空戰將",
+    "name_en": "Strike Commander",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍228",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔法船",
+    "name_en": "AD&D - Spelljammer: Pirates of Realmspace",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍229",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "橋牌高手",
+    "name_en": "Bridge Master",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍230",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "中華職棒",
+    "name_en": "Chinese Professional Baseball",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍231",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "魔胎(中英文雙語版)",
+    "name_en": "The Dark Half",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍232",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "維京小子闖通關",
+    "name_en": "The Lost Vikings",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍233",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "伊甸園守護神",
+    "name_en": "Amazon: Guardians of Eden",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍234",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "鈔票強強滾",
+    "name_en": "Rags to Riches",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍235",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "永生不滅",
+    "name_en": "The Immortal",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍236",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "大海戰：北大西洋篇",
+    "name_en": "Great Naval Battles: North Atlantic 1939-43",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍237",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "射鵰英雄傳",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍238",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "多情藥師酷牛仔",
+    "name_en": "Freddy Pharkas: Frontier Pharmacist",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍239",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔法門外傳Ⅱ黑暗魔君大反撲(中文版)",
+    "name_en": "Might and Magic: DarkSide of Xeen",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍240",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "叛變克朗多",
+    "name_en": "Betrayal at Krondor",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍241",
+    "series": "珍藏版",
+    "genre": "博奕",
+    "name": "末日審判西洋棋",
+    "name_en": "Terminator 2: Judgment Day - Chess Wars",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍242",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "仗義遊俠Ⅱ",
+    "name_en": "Paladin II",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍243",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "陸空戰將–語音資料片",
+    "name_en": "Strike Commander: Speech Pack",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍244",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "沙場風雲",
+    "name_en": "A Line in The Sand",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍245",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "大海戰–美軍艦隊資料片",
+    "name_en": "Great Naval Battles: America of the Atlantic",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍246",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "大明英雄傳",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍247",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "光電神兵",
+    "name_en": "Laser Squad",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍248",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "勁爆美式足球",
+    "name_en": "Front Page Sports: Football",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍249",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "大海戰–戰場編輯資料片",
+    "name_en": "Great Naval Battles: Scenario Builder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍250",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "白浪忍者",
+    "name_en": "Surf Ninjas",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍251",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "武狀元–黃飛鴻",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍252",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "陸空戰將–戰術行動資料片",
+    "name_en": "Strike Commander: Tactical Operations",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍253",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "第一次世界大戰",
+    "name_en": "The Great War: 1914-1918",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍254",
+    "series": "珍藏版",
+    "genre": "模擬冒險",
+    "name": "銀河飛將私掠者",
+    "name_en": "Wing Commander: Privateer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍255",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "奇門遁甲之九五真龍",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍256",
+    "series": "珍藏版",
+    "genre": "教育",
+    "name": "聖經(中文版)",
+    "name_en": "Bible Builder",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍257",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "銀河飛將軍官學校",
+    "name_en": "Wing Commander Academy",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍258",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "動腦急轉彎",
+    "name_en": "Sid & Al's Incredible Toons",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍259",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "高速小霸王",
+    "name_en": "Speed Racer: The Challenge of Racer X",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍260",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "救世聖主",
+    "name_en": "Shadow Caster",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍261",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔眼封印",
+    "name_en": "SEAL: magic eye",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍262",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "幻想空間Ⅵ",
+    "name_en": "Leisure Suit Larry 6: Shape Up or Slip Out",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍263",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "巨蛇之島資料片–銀色種子",
+    "name_en": "Ultima VII Part 2: The Serpent Isle - The Silver Seed",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍264",
+    "series": "珍藏版",
+    "genre": "益智",
+    "name": "奇妙大百科加強版",
+    "name_en": "The Even More Incredible Machine",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍265",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "百戰迷宮",
+    "name_en": "AD&D - Dungeon Hack",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍266",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "中華職棒經理資料片",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍267",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "倚天屠龍記",
+    "name_en": "無",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍268",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "宇宙傳奇Ⅴ菜鳥船長",
+    "name_en": "Space Quest V: The Next Mutation",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍269",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "勝利大決戰–猶他海岸攻防戰",
+    "name_en": "V for Victory: Battleset 1 -- D-Day Utah Beach 1944",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍270",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "極道梟雄",
+    "name_en": "Syndicate",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍271",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "小魔逛迷宮",
+    "name_en": "Litil Divil",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍272",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "鋼鐵勁旅",
+    "name_en": "Clash of Steel",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍273",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "狩魔獵人：原罪",
+    "name_en": "Gabriel Knight: Sins of The Fathers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍274",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "歐洲空戰英雄",
+    "name_en": "Aces over Europe",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍275",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "乒乓彈珠檯",
+    "name_en": "Pinball Fantasies",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍276",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "創世紀Ⅷ–異教徒",
+    "name_en": "Ultima VIII: Pagan",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍277",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "英雄傳奇Ⅳ魔障",
+    "name_en": "Quest for Glory IV: Shadows of Darkness",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍278",
+    "series": "珍藏版",
+    "genre": "策略",
+    "name": "上帝也抓狂Ⅱ",
+    "name_en": "Populous II: Trials of the Olympian Gods",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍279",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "銀河帝國大決戰豪華版",
+    "name_en": "Empire Deluxe",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍280",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "警察故事Ⅳ暗夜疑兇",
+    "name_en": "Police Quest 4: Open Season",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍281",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "太平洋戰將",
+    "name_en": "Pacific Strike",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍282",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "妙狐神探(中文版)",
+    "name_en": "Inherit the Earth: Quest for the Orb",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍283",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "夢幻帝國",
+    "name_en": "D&D - Fantasy Empires",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍284",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "地下創世紀Ⅱ次元之旅",
+    "name_en": "Ultima Underworld II: Labyrinth of Worlds",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍285",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "神通妙巫師",
+    "name_en": "Simon the Sorcerer",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍286",
+    "series": "珍藏版",
+    "genre": "射擊",
+    "name": "雷電威龍",
+    "name_en": "Raptor - Call of the Shadows",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍287",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "夢幻彈珠檯",
+    "name_en": "Pinball Dreams",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍288",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "浩劫殘陽：破碎大地",
+    "name_en": "AD&D - Dark Sun: Shattered Lands",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍289",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "極道梟雄資料片–美洲風暴",
+    "name_en": "Syndicate: American Revolt",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍290",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "重返魔域",
+    "name_en": "Return to Zork",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍291",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "七座金城紀念版",
+    "name_en": "Seven Cities of Gold - Commemorative Edition",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍292",
+    "series": "珍藏版",
+    "genre": "戰略模擬",
+    "name": "捍衛江山",
+    "name_en": "D&D - Stronghold",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍293",
+    "series": "珍藏版",
+    "genre": "戰略模擬",
+    "name": "工人物語–建國篇",
+    "name_en": "Serf City: Life is Feudal",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍294",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "中華職棒２",
+    "name_en": "Chinese Professional Baseball 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍295",
+    "series": "珍藏版",
+    "genre": "動作博奕",
+    "name": "超級巫術對奕",
+    "name_en": "Archon Ultra",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍296",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "玄冥部隊",
+    "name_en": "Dark Legions",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍297",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "搖滾少林系列–七俠五義",
+    "name_en": "3DRock'n Shaolin: Legend of the Seven Paladins 3D",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍298",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "快樂天堂",
+    "name_en": "Theme Park",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍299",
+    "series": "珍藏版",
+    "genre": "動作冒險",
+    "name": "印加帝國Ⅱ",
+    "name_en": "INCA 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍300",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "台灣模擬選戰",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍301",
+    "series": "珍藏版",
+    "genre": "模擬冒險",
+    "name": "銀河飛將私掠者語音片+正義出擊資料片",
+    "name_en": "Wing Commander: Privateer Speech Pack & Righteous Fire",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍302",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "驚魂塔",
+    "name_en": "Mystic Towers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍303",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "跳跳魔法師",
+    "name_en": "Hocus Pocus",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍304",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "鹿鼎記之皇城爭霸",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍305",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "大海戰Ⅱ",
+    "name_en": "Great Naval Battles Vol.II: Guadalcanal 1942-43",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍306",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "國王密使６合１光碟大補帖(CD版)",
+    "name_en": "The King's Quest Collector's Edition",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍307",
+    "series": "珍藏版",
+    "genre": "冒險",
+    "name": "宇宙傳奇５合１光碟大補帖(CD版)",
+    "name_en": "The Space Quest Collector's Edition",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍308",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "新超級運動員",
+    "name_en": "Lode Runner: The Legend Returns",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍309",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "宇宙英雄",
+    "name_en": "Universe Hero",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍310",
+    "series": "珍藏版",
+    "genre": "動作ＲＰＧ",
+    "name": "網路奇兵",
+    "name_en": "System Shock",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍311",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "銀河艦隊",
+    "name_en": "Wing Commander: Armada",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍312",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "超擬真機車爭霸戰(CD版)",
+    "name_en": "Cyclemania",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍313",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "魔域傳奇：神聖之符",
+    "name_en": "AD&D - Ravenloft: Strahd's Possession",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍314",
+    "series": "珍藏版",
+    "genre": "智育",
+    "name": "暗棋聖手",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍315",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "遠離地球",
+    "name_en": "OUTPOST",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍316",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "金庸快打",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍317",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "風雲天下–三國篇",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍318",
+    "series": "珍藏版",
+    "genre": "動作戰略",
+    "name": "尋寶特攻隊",
+    "name_en": "Diggers",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍319",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "昆蟲大戰",
+    "name_en": "Battle Bugs",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍320",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "機甲神兵–地球防衛戰",
+    "name_en": "MetalTech: Earth Siege",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍321",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "燃燒的野球４+大聯盟球員資料片",
+    "name_en": "Hardball IV + MLBPA Players Disk",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍322",
+    "series": "珍藏版",
+    "genre": "運動",
+    "name": "超級灌籃大賽",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍323",
+    "series": "珍藏版",
+    "genre": "益智",
+    "name": "奇妙大百科２",
+    "name_en": "The Incredible Machine 2",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍324",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "諾曼地登陸",
+    "name_en": "Iron Cross",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍325",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "機甲神兵–大競技場",
+    "name_en": "MetalTech: Battledrome",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍326",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "卡通快打",
+    "name_en": "Pee & Gity",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍327",
+    "series": "珍藏版",
+    "genre": "角色扮演",
+    "name": "阿拉丁傳奇：精靈魔咒",
+    "name_en": "AD&D - Al-Qadim: The Genie's Curse",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍328",
+    "series": "珍藏版",
+    "genre": "動作",
+    "name": "生化超人",
+    "name_en": "CyClones",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍329",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "裝甲元帥",
+    "name_en": "Panzer General",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍330",
+    "series": "珍藏版",
+    "genre": "動作射擊",
+    "name": "時空特勤組",
+    "name_en": "Time Circle",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍331",
+    "series": "珍藏版",
+    "genre": "益智",
+    "name": "超級大富翁",
+    "name_en": "Billionaire",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍332",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "超級大戰略–閏八月台海大對決",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍333",
+    "series": "珍藏版",
+    "genre": "模擬",
+    "name": "無敵龍捲風",
+    "name_en": "Tornado",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍334",
+    "series": "珍藏版",
+    "genre": "戰略角色扮演",
+    "name": "烈焰鋼狼傳",
+    "name_en": "Metal Wolf",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍335",
+    "series": "珍藏版",
+    "genre": "策略模擬",
+    "name": "綜藝大進擊",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍336",
+    "series": "珍藏版",
+    "genre": "策略模擬",
+    "name": "模擬總統大選",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍337",
+    "series": "珍藏版",
+    "genre": "戰略ＲＰＧ",
+    "name": "龍騰三國",
+    "name_en": "？",
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  },
+  {
+    "code": "珍338",
+    "series": "珍藏版",
+    "genre": "戰略",
+    "name": "超級大戰略–釣魚台風雲",
+    "name_en": null,
+    "placeholder": false,
+    "provenance": [
+      "softworld@boneash-scan"
+    ]
+  }
+]

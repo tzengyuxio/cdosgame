@@ -15,6 +15,11 @@
     "variants": [
       "boneash:2400 A.D."
     ],
+    "softworld": {
+      "code": "貴090",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -33,6 +38,7 @@
     "variants": [
       "boneash:3D立體彈子檯"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -53,6 +59,11 @@
       "boneash:688攻擊潛艇",
       "rwv:688攻击潜艇"
     ],
+    "softworld": {
+      "code": "珍016",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -71,6 +82,11 @@
     "variants": [
       "boneash:F19隱形戰鬥機"
     ],
+    "softworld": {
+      "code": "貴100",
+      "series": "貴族版",
+      "placeholder": true
+    },
     "confidence": "high"
   },
   {
@@ -89,6 +105,7 @@
     "variants": [
       "boneash:N/A"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -107,6 +124,11 @@
     "variants": [
       "boneash:NBA大賽"
     ],
+    "softworld": {
+      "code": "貴230",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -125,6 +147,7 @@
     "variants": [
       "boneash:NBA籃球爭霸戰"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -143,6 +166,7 @@
     "variants": [
       "boneash:SD祖魯戰記"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -161,6 +185,7 @@
     "variants": [
       "boneash:Tyrian戰機"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -179,6 +204,11 @@
     "variants": [
       "boneash:三傻行大運"
     ],
+    "softworld": {
+      "code": "貴060",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -199,6 +229,7 @@
       "boneash:上古戰爭藝術：空戰篇",
       "omega:上古戰爭藝術[空戰篇]"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -221,6 +252,7 @@
       "fandom:上古神兵",
       "rwv:上古神兵"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -239,6 +271,7 @@
     "variants": [
       "boneash:世紀金冠軍"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -257,6 +290,7 @@
     "variants": [
       "boneash:亞拉崗之劍"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -275,6 +309,7 @@
     "variants": [
       "boneash:亞瑟王傳奇：尋找聖杯"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -295,6 +330,11 @@
       "boneash:人生劇場",
       "rwv:人生剧场"
     ],
+    "softworld": {
+      "code": "珍076",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -313,6 +353,11 @@
     "variants": [
       "boneash:仙境故事"
     ],
+    "softworld": {
+      "code": "珍025",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -331,6 +376,11 @@
     "variants": [
       "boneash:俠盜羅賓漢"
     ],
+    "softworld": {
+      "code": "珍142",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -349,6 +399,7 @@
     "variants": [
       "boneash:光榮戰役"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -367,6 +418,11 @@
     "variants": [
       "boneash:克萊恩英豪"
     ],
+    "softworld": {
+      "code": "珍040",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -385,6 +441,11 @@
     "variants": [
       "boneash:克萊恩黑暗之后"
     ],
+    "softworld": {
+      "code": "珍181",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -403,6 +464,11 @@
     "variants": [
       "boneash:冬之魔"
     ],
+    "softworld": {
+      "code": "珍018",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -423,6 +489,7 @@
       "boneash:冰城傳奇",
       "rwv:冰城传奇"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -441,6 +508,7 @@
     "variants": [
       "boneash:冰城傳奇２"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -459,6 +527,7 @@
     "variants": [
       "boneash:冰城傳奇３"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -479,6 +548,11 @@
       "boneash:決戰富士山",
       "rwv:决战富士山"
     ],
+    "softworld": {
+      "code": "平015",
+      "series": "平價版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -497,6 +571,11 @@
     "variants": [
       "boneash:凱薩大帝"
     ],
+    "softworld": {
+      "code": "珍057",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -515,6 +594,11 @@
     "variants": [
       "boneash:前進高棉"
     ],
+    "softworld": {
+      "code": "貴096",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -533,6 +617,7 @@
     "variants": [
       "boneash:創世紀 VII第二部：巨蛇之島"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -551,6 +636,11 @@
     "variants": [
       "boneash:創世紀 VII：黑月之門"
     ],
+    "softworld": {
+      "code": "珍160",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -569,6 +659,11 @@
     "variants": [
       "boneash:北與南"
     ],
+    "softworld": {
+      "code": "貴194",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -591,6 +686,11 @@
       "omega:卡諾夫",
       "rwv:卡诺夫"
     ],
+    "softworld": {
+      "code": "貴040",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -609,6 +709,11 @@
     "variants": [
       "boneash:卡門聖地牙哥：歐洲篇"
     ],
+    "softworld": {
+      "code": "貴044",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -629,6 +734,11 @@
       "boneash:叛變克朗多",
       "rwv:叛变克朗多"
     ],
+    "softworld": {
+      "code": "珍240",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -651,6 +761,7 @@
       "fandom:台湾模拟选战",
       "rwv:台湾模拟选战"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -669,6 +780,7 @@
     "variants": [
       "boneash:史古奇尋寶歷險記"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -689,6 +801,11 @@
       "boneash:囂張拳王",
       "rwv:嚣张拳王"
     ],
+    "softworld": {
+      "code": "珍136",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -707,6 +824,11 @@
     "variants": [
       "boneash:國王傳奇"
     ],
+    "softworld": {
+      "code": "貴113",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -725,6 +847,7 @@
     "variants": [
       "boneash:國王密使：皇冠探求"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -747,6 +870,7 @@
       "fandom:圣城劫",
       "rwv:圣城劫"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -765,6 +889,7 @@
     "variants": [
       "boneash:塔莫倫戰士"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -783,6 +908,11 @@
     "variants": [
       "boneash:夏季運動會"
     ],
+    "softworld": {
+      "code": "貴280",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -801,6 +931,11 @@
     "variants": [
       "boneash:夜班玩具廠"
     ],
+    "softworld": {
+      "code": "珍080",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -819,6 +954,11 @@
     "variants": [
       "boneash:夜鷹隱形戰鬥機"
     ],
+    "softworld": {
+      "code": "珍133",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -841,6 +981,7 @@
       "fandom:大时代的故事",
       "rwv:大时代的故事"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -859,6 +1000,11 @@
     "variants": [
       "boneash:天生好手"
     ],
+    "softworld": {
+      "code": "貴005",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -881,6 +1027,7 @@
       "fandom:天蚕变",
       "rwv:天蚕变"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -899,6 +1046,7 @@
     "variants": [
       "boneash:天龍特攻隊"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -921,6 +1069,7 @@
       "fandom:太空鲁宾逊",
       "rwv:太空鲁宾逊"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -939,6 +1088,7 @@
     "variants": [
       "boneash:太閤立志傳"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -957,6 +1107,7 @@
     "variants": [
       "boneash:失落的海軍上將"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -977,6 +1128,11 @@
       "boneash:好夢連床",
       "rwv:好梦连床"
     ],
+    "softworld": {
+      "code": "貴211",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -995,6 +1151,11 @@
     "variants": [
       "boneash:妙狐神探：地球繼任者"
     ],
+    "softworld": {
+      "code": "珍282",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1013,6 +1174,7 @@
     "variants": [
       "boneash:宇宙傳奇２：渥豪的復仇"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1031,6 +1193,7 @@
     "variants": [
       "boneash:宇宙傳奇３：佩斯突隆海盜"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1049,6 +1212,11 @@
     "variants": [
       "boneash:宇宙傳奇４：時空穿越者"
     ],
+    "softworld": {
+      "code": "珍096",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1067,6 +1235,7 @@
     "variants": [
       "boneash:宇宙傳奇：大戰沙崙人"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1085,6 +1254,7 @@
     "variants": [
       "boneash:宇宙殖民區"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1103,6 +1273,7 @@
     "variants": [
       "boneash:完美將軍"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1121,6 +1292,7 @@
     "variants": [
       "boneash:寶裡寶氣寶騎士"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1139,6 +1311,7 @@
     "variants": [
       "boneash:將族：象棋大師３"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1159,6 +1332,11 @@
       "boneash:小人物狂想曲",
       "rwv:小人物狂想曲"
     ],
+    "softworld": {
+      "code": "珍060",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1177,6 +1355,7 @@
     "variants": [
       "boneash:小兵立大功"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1195,6 +1374,11 @@
     "variants": [
       "boneash:屠龍記 (OLD)"
     ],
+    "softworld": {
+      "code": "貴122",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1213,6 +1397,11 @@
     "variants": [
       "boneash:工人物語：建國篇"
     ],
+    "softworld": {
+      "code": "珍293",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1231,6 +1420,7 @@
     "variants": [
       "boneash:巫域之心"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1249,6 +1439,7 @@
     "variants": [
       "boneash:巫術：瘋狂城主的試練場"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1267,6 +1458,11 @@
     "variants": [
       "boneash:幕府將軍"
     ],
+    "softworld": {
+      "code": "貴009",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1285,6 +1481,7 @@
     "variants": [
       "boneash:幻想空間３：尋求滿懷悸動的多情佩蒂"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1305,6 +1502,7 @@
       "boneash:幽城寶藏",
       "rwv:幽城宝藏"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1323,6 +1521,7 @@
     "variants": [
       "boneash:幽浮"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1343,6 +1542,7 @@
       "boneash:幽靈館",
       "rwv:幽灵馆"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1363,6 +1563,11 @@
       "boneash:異形大進擊",
       "rwv:异形大进击"
     ],
+    "softworld": {
+      "code": "貴079",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1381,6 +1586,11 @@
     "variants": [
       "boneash:從海底出擊"
     ],
+    "softworld": {
+      "code": "珍054",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1399,6 +1609,11 @@
     "variants": [
       "boneash:御封戰將"
     ],
+    "softworld": {
+      "code": "貴226",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1419,6 +1634,11 @@
       "boneash:忍",
       "rwv:忍"
     ],
+    "softworld": {
+      "code": "貴170",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1437,6 +1657,11 @@
     "variants": [
       "boneash:快樂泡泡龍"
     ],
+    "softworld": {
+      "code": "貴192",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1455,6 +1680,11 @@
     "variants": [
       "boneash:怒"
     ],
+    "softworld": {
+      "code": "貴011",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1473,6 +1703,11 @@
     "variants": [
       "boneash:戰場之狼"
     ],
+    "softworld": {
+      "code": "平034",
+      "series": "平價版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1491,6 +1726,11 @@
     "variants": [
       "boneash:戰爭風雲錄：韓戰"
     ],
+    "softworld": {
+      "code": "珍175",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1509,6 +1749,11 @@
     "variants": [
       "boneash:拯救地球"
     ],
+    "softworld": {
+      "code": "珍074",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1527,6 +1772,7 @@
     "variants": [
       "boneash:搖滾霹靂彈"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1545,6 +1791,11 @@
     "variants": [
       "boneash:新陸軍棋"
     ],
+    "softworld": {
+      "code": "珍075",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1563,6 +1814,11 @@
     "variants": [
       "boneash:方塊ＡＢＣ"
     ],
+    "softworld": {
+      "code": "貴266",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1583,6 +1839,11 @@
       "boneash:無敵飛狼",
       "rwv:无敌飞狼"
     ],
+    "softworld": {
+      "code": "貴001",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1603,6 +1864,11 @@
       "boneash:最後的忍者",
       "rwv:最后的忍者"
     ],
+    "softworld": {
+      "code": "貴059",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1621,6 +1887,11 @@
     "variants": [
       "boneash:未來之魔法"
     ],
+    "softworld": {
+      "code": "珍002",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1641,6 +1912,11 @@
       "boneash:機動戰士",
       "rwv:机动战士"
     ],
+    "softworld": {
+      "code": "貴006",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1661,6 +1937,7 @@
       "boneash:殺出機械城",
       "rwv:杀出机械城"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1681,6 +1958,11 @@
       "boneash:核戰狂人夢",
       "rwv:核战狂人梦"
     ],
+    "softworld": {
+      "code": "貴205",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1699,6 +1981,11 @@
     "variants": [
       "boneash:核能戰士"
     ],
+    "softworld": {
+      "code": "貴026",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1717,6 +2004,11 @@
     "variants": [
       "boneash:梅杜莎指環"
     ],
+    "softworld": {
+      "code": "貴221",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1735,6 +2027,11 @@
     "variants": [
       "boneash:橋藝大師"
     ],
+    "softworld": {
+      "code": "珍164",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1757,6 +2054,7 @@
       "fandom:欧陆战线",
       "rwv:欧陆战线"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1775,6 +2073,11 @@
     "variants": [
       "boneash:歐洲公路戰"
     ],
+    "softworld": {
+      "code": "貴043",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1795,6 +2098,11 @@
       "boneash:武道館",
       "rwv:武道馆"
     ],
+    "softworld": {
+      "code": "貴177",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1813,6 +2121,7 @@
     "variants": [
       "boneash:死亡潛航２"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1833,6 +2142,11 @@
       "boneash:毀天滅地",
       "rwv:毁天灭地"
     ],
+    "softworld": {
+      "code": "貴150",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1853,6 +2167,11 @@
       "boneash:水滸傳",
       "rwv:水浒传"
     ],
+    "softworld": {
+      "code": "珍032",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1871,6 +2190,11 @@
     "variants": [
       "boneash:永生不滅"
     ],
+    "softworld": {
+      "code": "珍235",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1889,6 +2213,11 @@
     "variants": [
       "boneash:浩劫餘生"
     ],
+    "softworld": {
+      "code": "貴244",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1907,6 +2236,11 @@
     "variants": [
       "boneash:海灘排球王"
     ],
+    "softworld": {
+      "code": "貴123",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1925,6 +2259,7 @@
     "variants": [
       "boneash:深穴掘寶"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1943,6 +2278,11 @@
     "variants": [
       "boneash:激戰Ｍ星雲"
     ],
+    "softworld": {
+      "code": "貴227",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1961,6 +2301,7 @@
     "variants": [
       "boneash:火星之旅"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -1979,6 +2320,11 @@
     "variants": [
       "boneash:火龍之戰"
     ],
+    "softworld": {
+      "code": "珍066",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -1997,6 +2343,11 @@
     "variants": [
       "boneash:炮艇"
     ],
+    "softworld": {
+      "code": "貴198",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2015,6 +2366,11 @@
     "variants": [
       "boneash:炸彈小子"
     ],
+    "softworld": {
+      "code": "珍041",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2033,6 +2389,11 @@
     "variants": [
       "boneash:烏龍吸血鬼"
     ],
+    "softworld": {
+      "code": "貴247",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2051,6 +2412,11 @@
     "variants": [
       "boneash:無敵神槍"
     ],
+    "softworld": {
+      "code": "貴149",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2069,6 +2435,7 @@
     "variants": [
       "boneash:無敵艦隊2525"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2087,6 +2454,11 @@
     "variants": [
       "boneash:無敵飛狼2000"
     ],
+    "softworld": {
+      "code": "珍139",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2105,6 +2477,7 @@
     "variants": [
       "boneash:燃燒坦克"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2123,6 +2496,11 @@
     "variants": [
       "boneash:狂島浴血"
     ],
+    "softworld": {
+      "code": "珍173",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2141,6 +2519,11 @@
     "variants": [
       "boneash:猛鬼逛街"
     ],
+    "softworld": {
+      "code": "貴167",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2161,6 +2544,11 @@
       "boneash:猴島小英雄",
       "rwv:猴岛小英雄"
     ],
+    "softworld": {
+      "code": "珍069",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2179,6 +2567,11 @@
     "variants": [
       "boneash:瑪麗姊妹"
     ],
+    "softworld": {
+      "code": "貴277",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2197,6 +2590,7 @@
     "variants": [
       "boneash:百戰小旅鼠"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2217,6 +2611,11 @@
       "boneash:蓋世龍王",
       "rwv:盖世龙王"
     ],
+    "softworld": {
+      "code": "貴245",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2237,6 +2636,7 @@
       "boneash:真人快打",
       "rwv:真人快打"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2255,6 +2655,11 @@
     "variants": [
       "boneash:科羅拉多尋金記"
     ],
+    "softworld": {
+      "code": "貴208",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2275,6 +2680,11 @@
       "boneash:空降遊騎兵",
       "rwv:空降游骑兵"
     ],
+    "softworld": {
+      "code": "貴089",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2293,6 +2703,11 @@
     "variants": [
       "boneash:童話仙境"
     ],
+    "softworld": {
+      "code": "珍125",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2311,6 +2726,11 @@
     "variants": [
       "boneash:童話天地"
     ],
+    "softworld": {
+      "code": "珍146",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2329,6 +2749,7 @@
     "variants": [
       "boneash:第一滴血"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2347,6 +2768,11 @@
     "variants": [
       "boneash:粒子世界"
     ],
+    "softworld": {
+      "code": "貴203",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2365,6 +2791,11 @@
     "variants": [
       "boneash:紅爵士"
     ],
+    "softworld": {
+      "code": "珍089",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2383,6 +2814,11 @@
     "variants": [
       "boneash:納粹飛行祕史"
     ],
+    "softworld": {
+      "code": "珍149",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2401,6 +2837,11 @@
     "variants": [
       "boneash:維京小子闖通關"
     ],
+    "softworld": {
+      "code": "珍232",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2421,6 +2862,11 @@
       "boneash:紗之器",
       "rwv:纱之器"
     ],
+    "softworld": {
+      "code": "珍049",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2439,6 +2885,7 @@
     "variants": [
       "boneash:肉搏大賽"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2459,6 +2906,7 @@
       "boneash:藝妓",
       "rwv:艺妓"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2477,6 +2925,11 @@
     "variants": [
       "boneash:艾薇拉２：恐怖劇場"
     ],
+    "softworld": {
+      "code": "珍147",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2495,6 +2948,11 @@
     "variants": [
       "boneash:艾薇拉：古堡禁地"
     ],
+    "softworld": {
+      "code": "珍118",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2513,6 +2971,7 @@
     "variants": [
       "boneash:英雄傳奇２：烈火神兵"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2531,6 +2990,7 @@
     "variants": [
       "boneash:英雄傳奇３：戰火焚生錄"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2549,6 +3009,11 @@
     "variants": [
       "boneash:荒野遊俠"
     ],
+    "softworld": {
+      "code": "貴112",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2571,6 +3036,7 @@
       "fandom:荡魔平妖志",
       "rwv:荡魔平妖志"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2591,6 +3057,11 @@
       "boneash:蠟像館之謎",
       "rwv:蜡像馆之谜"
     ],
+    "softworld": {
+      "code": "珍221",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2609,6 +3080,11 @@
     "variants": [
       "boneash:親愛的，我被電視吸走了"
     ],
+    "softworld": {
+      "code": "珍093",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2629,6 +3105,11 @@
       "boneash:警察故事",
       "rwv:警察故事"
     ],
+    "softworld": {
+      "code": "貴008",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2647,6 +3128,7 @@
     "variants": [
       "boneash:超級大戰略 (DOS/V)"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2665,6 +3147,11 @@
     "variants": [
       "boneash:送報童２"
     ],
+    "softworld": {
+      "code": "貴270",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2685,6 +3172,11 @@
       "boneash:送報童",
       "rwv:送报童"
     ],
+    "softworld": {
+      "code": "貴064",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2703,6 +3195,11 @@
     "variants": [
       "boneash:野外籃球"
     ],
+    "softworld": {
+      "code": "貴015",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2721,6 +3218,11 @@
     "variants": [
       "boneash:銀河帝國大決戰"
     ],
+    "softworld": {
+      "code": "貴071",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2739,6 +3241,11 @@
     "variants": [
       "boneash:銀河超能力戰記"
     ],
+    "softworld": {
+      "code": "貴175",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2757,6 +3264,11 @@
     "variants": [
       "boneash:鐵手戰神"
     ],
+    "softworld": {
+      "code": "貴042",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2775,6 +3287,11 @@
     "variants": [
       "boneash:鐵甲爭霸戰"
     ],
+    "softworld": {
+      "code": "貴108",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2793,6 +3310,7 @@
     "variants": [
       "boneash:鐵路Ａ計劃"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2811,6 +3329,11 @@
     "variants": [
       "boneash:長槍之役"
     ],
+    "softworld": {
+      "code": "珍064",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2831,6 +3354,7 @@
       "boneash:長槍英雄",
       "rwv:长枪英雄"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2849,6 +3373,7 @@
     "variants": [
       "boneash:電子魚"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2867,6 +3392,7 @@
     "variants": [
       "boneash:電視大亨"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2885,6 +3411,11 @@
     "variants": [
       "boneash:預言奇兵"
     ],
+    "softworld": {
+      "code": "貴139",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2907,6 +3438,7 @@
       "fandom:项刘记",
       "rwv:项刘记"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2927,6 +3459,7 @@
       "boneash:頑皮貓",
       "rwv:顽皮猫"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -2945,6 +3478,11 @@
     "variants": [
       "boneash:風馳電摯"
     ],
+    "softworld": {
+      "code": "貴188",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2965,6 +3503,11 @@
       "boneash:風神傳承",
       "rwv:风神传承"
     ],
+    "softworld": {
+      "code": "貴240",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -2985,6 +3528,11 @@
       "boneash:風行者",
       "rwv:风行者"
     ],
+    "softworld": {
+      "code": "珍031",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3005,6 +3553,7 @@
       "boneash:風速小子",
       "rwv:风速小子"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3023,6 +3572,11 @@
     "variants": [
       "boneash:飛越杜鵑窩"
     ],
+    "softworld": {
+      "code": "珍082",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3041,6 +3595,11 @@
     "variants": [
       "boneash:飛輪武士"
     ],
+    "softworld": {
+      "code": "貴095",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3059,6 +3618,7 @@
     "variants": [
       "boneash:魔動王子"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3079,6 +3639,11 @@
       "boneash:魔境傳說",
       "rwv:魔境传说"
     ],
+    "softworld": {
+      "code": "珍062",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3097,6 +3662,7 @@
     "variants": [
       "boneash:魔法之燭２"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3115,6 +3681,11 @@
     "variants": [
       "boneash:魔法門III∼幻島歷險記"
     ],
+    "softworld": {
+      "code": "珍140",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3133,6 +3704,11 @@
     "variants": [
       "boneash:魔法門外傳２：黑暗魔君大反撲"
     ],
+    "softworld": {
+      "code": "珍239",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3153,6 +3729,11 @@
       "boneash:魔法門外傳：星雲之謎",
       "fandom:魔法门外传 星云之谜"
     ],
+    "softworld": {
+      "code": "珍193",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3171,6 +3752,11 @@
     "variants": [
       "boneash:魔界神兵２"
     ],
+    "softworld": {
+      "code": "貴054",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3189,6 +3775,11 @@
     "variants": [
       "boneash:魔鬼訓練營"
     ],
+    "softworld": {
+      "code": "貴129",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3207,6 +3798,7 @@
     "variants": [
       "boneash:魚叉"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3225,6 +3817,11 @@
     "variants": [
       "boneash:黑暗金字塔"
     ],
+    "softworld": {
+      "code": "貴136",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3243,6 +3840,11 @@
     "variants": [
       "boneash:黑神鍋"
     ],
+    "softworld": {
+      "code": "平001",
+      "series": "平價版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3263,6 +3865,11 @@
       "boneash:黑街風雲",
       "rwv:黑街风云"
     ],
+    "softworld": {
+      "code": "貴063",
+      "series": "貴族版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3283,6 +3890,7 @@
       "boneash:龍穴歷險記",
       "rwv:龙穴历险记"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3301,6 +3909,11 @@
     "variants": [
       "boneash:Ｄ計劃"
     ],
+    "softworld": {
+      "code": "珍132",
+      "series": "珍藏版",
+      "placeholder": false
+    },
     "confidence": "high"
   },
   {
@@ -3319,6 +3932,7 @@
     "variants": [
       "boneash:ＰＣ原人"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3337,6 +3951,7 @@
     "variants": [
       "boneash:ＰＣ原人２"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3357,6 +3972,7 @@
       "fandom:2001特遣队",
       "rwv:2001特遣队"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3377,6 +3993,7 @@
       "fandom:2601帝国联合舰队",
       "rwv:2601帝国联合舰队"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3397,6 +4014,7 @@
       "fandom:3x3只眼",
       "rwv:3x3只眼"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3417,6 +4035,7 @@
       "fandom:PSY幽记",
       "rwv:PSY幽记"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3437,6 +4056,7 @@
       "fandom:三姐妹",
       "rwv:三姐妹"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3457,6 +4077,7 @@
       "fandom:中关村启示录",
       "rwv:中关村启示录"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3477,6 +4098,7 @@
       "fandom:中原镖局",
       "rwv:中原镖局"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3499,6 +4121,7 @@
       "fandom:主题公园",
       "rwv:主题公园光碟版"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3520,6 +4143,7 @@
       "rwv:主题医院",
       "rwv:主题医院S"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3540,6 +4164,7 @@
       "fandom:伍子胥",
       "rwv:伍子胥"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3560,6 +4185,7 @@
       "omega:侏羅紀公園",
       "rwv:侏罗纪公园"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3580,6 +4206,7 @@
       "fandom:刘备传",
       "rwv:刘备传"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3600,6 +4227,7 @@
       "fandom:创世封魔传",
       "rwv:创世封魔传"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3620,6 +4248,7 @@
       "fandom:创世弹珠台",
       "rwv:创世弹珠台"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3640,6 +4269,7 @@
       "fandom:十面埋伏",
       "rwv:十面埋伏"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3660,6 +4290,7 @@
       "fandom:南海霸主",
       "rwv:南海霸主"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3680,6 +4311,7 @@
       "fandom:危机特勤组",
       "rwv:危机特勤组"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3700,6 +4332,7 @@
       "fandom:圣光岛",
       "rwv:圣光岛"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3720,6 +4353,7 @@
       "fandom:大兵日记",
       "rwv:大兵日记"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3740,6 +4374,7 @@
       "fandom:大地传说-黑暗王座",
       "rwv:大地传说黑暗王座"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3760,6 +4395,7 @@
       "fandom:大富翁总动员",
       "rwv:大富翁总动员"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3780,6 +4416,7 @@
       "fandom:天使Q女学院",
       "rwv:天使Q女学院"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3800,6 +4437,7 @@
       "fandom:天师钟馗",
       "rwv:天师钟馗"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3820,6 +4458,7 @@
       "fandom:天帝之子",
       "rwv:天帝之子"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3840,6 +4479,7 @@
       "omega:天旋地轉",
       "rwv:天旋地转"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3860,6 +4500,7 @@
       "fandom:天晴传",
       "rwv:天晴传"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3880,6 +4521,7 @@
       "fandom:妖击队",
       "rwv:妖击队"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3900,6 +4542,7 @@
       "fandom:富贵列车",
       "rwv:富贵列车"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3920,6 +4563,7 @@
       "fandom:射波",
       "rwv:射波"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3940,6 +4584,7 @@
       "fandom:小惠的性知识",
       "rwv:小惠的性知识"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3960,6 +4605,7 @@
       "fandom:小沙弥",
       "rwv:小沙弥"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -3980,6 +4626,7 @@
       "fandom:幸福人生",
       "rwv:幸福人生"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4000,6 +4647,7 @@
       "fandom:幻想奇侠传",
       "rwv:幻想奇侠传"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4020,6 +4668,7 @@
       "fandom:底特律汽车大亨",
       "rwv:底特律汽车大亨"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4040,6 +4689,7 @@
       "omega:打磚塊",
       "rwv:打砖块"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4060,6 +4710,7 @@
       "fandom:摇滚少林之七侠五义",
       "rwv:摇滚少林之七侠五义"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4080,6 +4731,7 @@
       "fandom:撞球补习班",
       "rwv:撞球补习班"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4100,6 +4752,7 @@
       "fandom:日没",
       "rwv:日没"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4120,6 +4773,7 @@
       "fandom:日蚀",
       "rwv:日蚀"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4140,6 +4794,7 @@
       "fandom:时空特勤组",
       "rwv:时空特勤组"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4160,6 +4815,7 @@
       "fandom:星世纪战将",
       "rwv:星世纪战将"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4180,6 +4836,7 @@
       "fandom:智圣鲜师",
       "rwv:智圣鲜师"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4200,6 +4857,7 @@
       "fandom:格杀令",
       "rwv:格杀令"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4220,6 +4878,7 @@
       "fandom:正宗台湾16张麻将",
       "rwv:正宗台湾16张麻将"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4242,6 +4901,7 @@
       "fandom:炎龙骑士团 I+II",
       "rwv:炎龙骑士团"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4262,6 +4922,7 @@
       "fandom:炸弹超人",
       "rwv:炸弹超人"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4282,6 +4943,7 @@
       "fandom:熊猫大进击",
       "rwv:熊猫大进击"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4302,6 +4964,7 @@
       "fandom:玛丽姐妹",
       "rwv:玛丽姐妹"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4322,6 +4985,7 @@
       "fandom:玫瑰骑士",
       "rwv:玫瑰骑士"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4342,6 +5006,7 @@
       "fandom:甲A风云",
       "rwv:甲A风云"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4362,6 +5027,7 @@
       "fandom:百战水管工",
       "rwv:百战水管工"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4382,6 +5048,7 @@
       "fandom:碰碰球",
       "rwv:碰碰球"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4402,6 +5069,7 @@
       "fandom:礼物",
       "rwv:礼物"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4422,6 +5090,7 @@
       "fandom:美女物语 Part1-日本风情篇",
       "omega:美女物語：Part1 日本風情篇"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4442,6 +5111,7 @@
       "fandom:艾蒂丝魔法大冒险",
       "rwv:艾蒂丝魔法大冒险"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4462,6 +5132,7 @@
       "fandom:诸神封印",
       "rwv:诸神封印"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4482,6 +5153,7 @@
       "fandom:运镖天下",
       "rwv:运镖天下"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4502,6 +5174,7 @@
       "fandom:邪灵世纪",
       "rwv:邪灵世纪"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4520,6 +5193,7 @@
     "variants": [
       "rwv:金瓶梅"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4540,6 +5214,7 @@
       "fandom:镇暴特遣队",
       "rwv:镇暴特遣队"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4560,6 +5235,7 @@
       "fandom:雷诺尼都纪事(迷城的国度)",
       "rwv:雷诺尼都纪事(迷城的国度)"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4580,6 +5256,7 @@
       "fandom:青涩的果实",
       "rwv:青涩的果实"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4600,6 +5277,7 @@
       "fandom:风云天下三国篇",
       "rwv:风云天下三国篇"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4620,6 +5298,7 @@
       "fandom:风雪江山",
       "rwv:风雪江山"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4640,6 +5319,7 @@
       "fandom:魔兽争霸2",
       "rwv:魔兽争霸2"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4660,6 +5340,7 @@
       "fandom:魔兽大战略",
       "rwv:魔兽大战略"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4680,6 +5361,7 @@
       "fandom:魔日传说",
       "rwv:魔日传说"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4700,6 +5382,7 @@
       "fandom:魔栈",
       "rwv:魔栈"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4720,6 +5403,7 @@
       "fandom:魔法师宝典",
       "omega:魔法師寶典"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4740,6 +5424,7 @@
       "fandom:黑之断章",
       "rwv:黑之断章"
     ],
+    "softworld": null,
     "confidence": "high"
   },
   {
@@ -4760,6 +5445,7 @@
       "fandom:龙霸天下",
       "rwv:龙霸天下"
     ],
+    "softworld": null,
     "confidence": "high"
   }
 ]

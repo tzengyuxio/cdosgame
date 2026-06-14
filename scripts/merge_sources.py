@@ -36,6 +36,22 @@ def base(s):
     return re.sub(r"\d+", "", norm(s))
 
 
+FOLD = {0x3000: 0x20, **{0xFF01 + i: 0x21 + i for i in range(94)}}
+
+
+def foldnorm(s):
+    return norm((s or "").translate(FOLD))
+
+
+def softworld_index():
+    idx = {}
+    for r in json.loads((D / "softworld-games.json").read_text(encoding="utf-8")):
+        for nm in (r.get("name"), r.get("name_en")):
+            if nm and foldnorm(nm) not in idx:
+                idx[foldnorm(nm)] = r
+    return idx
+
+
 def strip_edition(s):
     for e in EDITIONS:
         s = s.replace(e, "")
@@ -181,10 +197,15 @@ def main(write=False):
     by_base = defaultdict(list)
     for u in units:
         by_base[group_key(u["simp"])].append(u)
+    sw_idx = softworld_index()
     merged_new = []
     for gk, us in by_base.items():
         baseu = next((u for u in us if norm(u["simp"]) == gk),
                      min(us, key=lambda u: len(norm(u["simp"]))))
+        sw = next((sw_idx[foldnorm(u["name"])] for u in us
+                   if foldnorm(u["name"]) in sw_idx), None) or next(
+            (sw_idx[foldnorm(u["name_en"])] for u in us
+             if u["name_en"] and foldnorm(u["name_en"]) in sw_idx), None)
         srcs = sorted({s for u in us for s in u["srcs"]})
         year = next((u["year"] for u in us if u["year"]), None)
         cover = next((u["cover_local"] for u in us if u["cover_local"]), None)
@@ -199,6 +220,8 @@ def main(write=False):
             "ref_fandom": next((u["ref_fandom"] for u in us if u["ref_fandom"]), None),
             "title_raw": next((u["title_raw"] for u in us if u["title_raw"]), None),
             "variants": sorted({v for u in us for v in u["variants"]}),
+            "softworld": ({"code": sw["code"], "series": sw["series"],
+                           "placeholder": sw["placeholder"]} if sw else None),
             "confidence": "high" if high else "low",
         })
 

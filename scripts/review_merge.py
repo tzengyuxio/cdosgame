@@ -62,6 +62,10 @@ def card(c, idx, total, dec, inline=True):
     print(f"  來源   : {', '.join(c['srcs'])}  ({len(c['srcs'])} 源)")
     if c.get("editions"):
         print(f"  版本   : {', '.join(c['editions'])}")
+    if c.get("softworld"):
+        sw = c["softworld"]
+        ph = " (轉珍藏版/placeholder)" if sw.get("placeholder") else ""
+        print(f"  軟體世界: {sw['series']} {sw['code']}{ph}  → license=unofficial")
     if len(c.get("variants", [])) > 1:
         print(f"  variants: {' | '.join(c['variants'])}")
     if c.get("cover_local"):

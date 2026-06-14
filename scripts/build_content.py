@@ -70,9 +70,12 @@ def frontmatter(g, gid):
         "size": g.get("size"),
         "platform_note": g.get("platform_note"),
         "catalog_id": g.get("catalog_id"),
+        "license_status": g.get("license_status"),
         "cover": g.get("cover"),
         "provenance": g.get("provenance", []),
     }
+    if g.get("release_codes"):
+        fm["release_codes"] = g["release_codes"]
     if g.get("editions"):
         fm["editions"] = g["editions"]
     if g.get("images"):

@@ -34,7 +34,21 @@ export const gameSchema = z.object({
   // chiuinan-sourced descriptors
   size: z.string().nullable(),
   platform_note: z.string().nullable(),
-  catalog_id: z.string().nullable(),
+  catalog_id: z.string().nullable(),            // chiuinan archive ref (SCD/JXP...)
+
+  // authorization of the Taiwan distribution. null = 未考據 (default, since much is
+  // unclear); unofficial = 未授權代理/水貨/盜版 (e.g. 軟體世界 貴族版 series).
+  license_status: z.enum(["official", "unofficial"]).nullable().default(null),
+
+  // publisher's OWN product numbers (each company numbers differently). e.g.
+  // 軟體世界 貴090. status=placeholder marks a reserved-but-not-released code
+  // (轉珍藏版: planned for 貴族版, actually shipped as 珍藏版).
+  release_codes: z.array(z.object({
+    issuer: z.string(),
+    code: z.string(),
+    status: z.enum(["released", "placeholder"]).optional(),
+    note: z.string().optional(),
+  })).default([]),
 
   // editions: one id = one game work; media/packaging/minor variants live here
   // (different id only for remakes, art redraws, localization — see docs/id-policy.md)
