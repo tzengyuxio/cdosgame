@@ -118,6 +118,7 @@ def card_lines(c, idx, total, dec):
         sw = c["softworld"]
         ph = " (轉珍藏版)" if sw.get("placeholder") else ""
         L.append(f"軟體世界: {sw['series']}{sw['code']}{ph} → unofficial")
+    L.append(f"封面   : {c.get('cover_local') or '（無）'}")
     if len(c.get("variants", [])) > 1:
         L.append(f"variants: {' | '.join(c['variants'])}")
     if c.get("ref_fandom"):
@@ -132,6 +133,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--region", default="all", help="CN | null | all")
     ap.add_argument("--min-sources", type=int, default=1)
+    ap.add_argument("--has-cover", action="store_true", help="only candidates with a local cover")
     ap.add_argument("--no-image", action="store_true")
     args = ap.parse_args()
 
@@ -143,6 +145,8 @@ def main():
         if args.region == "CN" and c.get("region") != "CN":
             return False
         if args.region == "null" and c.get("region") is not None:
+            return False
+        if args.has_cover and not c.get("cover_local"):
             return False
         return len(c["srcs"]) >= args.min_sources
 
