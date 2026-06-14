@@ -20,17 +20,19 @@ import unicodedata
 from pathlib import Path
 
 PREVIEW = Path("derived/merge-auto-preview.json")
-DECISIONS = Path("data/merge-decisions.json")
+DEFAULT_DECISIONS = Path("data/merge-decisions.json")
 
 
 def load_json(p, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
 
-def save(dec):
-    DECISIONS.parent.mkdir(parents=True, exist_ok=True)
-    DECISIONS.write_text(json.dumps(dec, ensure_ascii=False, indent=2, sort_keys=True),
-                         encoding="utf-8")
+def save(dec, path):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(dec, ensure_ascii=False, indent=2, sort_keys=True),
+                   encoding="utf-8")
+    tmp.replace(path)  # atomic; never leaves a half-written decisions file
 
 
 # ---- terminal graphics ----
@@ -135,10 +137,13 @@ def main():
     ap.add_argument("--min-sources", type=int, default=1)
     ap.add_argument("--has-cover", action="store_true", help="only candidates with a local cover")
     ap.add_argument("--no-image", action="store_true")
+    ap.add_argument("--decisions", default=str(DEFAULT_DECISIONS),
+                    help="decisions file path (use a temp path for testing)")
     args = ap.parse_args()
 
+    decisions = Path(args.decisions)
     items = load_json(PREVIEW, [])
-    dec = load_json(DECISIONS, {})
+    dec = load_json(decisions, {})
     gk = None if args.no_image else graphics_kind()
 
     def want(c):
@@ -167,7 +172,7 @@ def main():
             cmd = "q"
         if cmd in ("a", "r"):
             dec[c["name"]] = "accept" if cmd == "a" else "reject"
-            save(dec)
+            save(dec, decisions)
             history.append(i)
             i += 1
         elif cmd == "s":
@@ -178,13 +183,13 @@ def main():
         elif cmd == "b" and history:
             i = history.pop()
             dec.pop(todo[i]["name"], None)
-            save(dec)
+            save(dec, decisions)
         elif cmd == "q":
             break
 
     acc = sum(1 for v in dec.values() if v == "accept")
     rej = sum(1 for v in dec.values() if v == "reject")
-    print(f"\nsaved -> {DECISIONS}   accepted:{acc} rejected:{rej} "
+    print(f"\nsaved -> {decisions}   accepted:{acc} rejected:{rej} "
           f"undecided:{len(items) - acc - rej}")
     print("next: python3 scripts/merge_sources.py --write")
 
