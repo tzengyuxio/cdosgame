@@ -1,0 +1,4765 @@
+[
+  {
+    "name": "2400 A.D.",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "2400 A.D.",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:2400 A.D."
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "3D立體彈子檯",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Tristan Solid State Pinball",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:3D立體彈子檯"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "688攻击潜艇",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "688 Attack Sub",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:688攻擊潛艇",
+      "rwv:688攻击潜艇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "F19隱形戰鬥機",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "F19 Stealth Fighter",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:F19隱形戰鬥機"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "N/A",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Jack in the Dark",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:N/A"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "NBA大賽",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "TV Sports：Basketball",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:NBA大賽"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "NBA籃球爭霸戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Lakers vs Celtics",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:NBA籃球爭霸戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "SD祖魯戰記",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Rorke's Drift",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:SD祖魯戰記"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Tyrian戰機",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": "Tyrian",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:Tyrian戰機"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "三傻行大運",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "The Three Stooges",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:三傻行大運"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "上古戰爭藝術[空戰篇]",
+    "srcs": [
+      "boneash",
+      "omega"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "The Ancient Art of War in the Skies",
+    "cover_local": null,
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5772",
+    "ref_fandom": null,
+    "title_raw": "【原創】上古戰爭藝術[空戰篇].The Ancient Art of War in the Skies.Evryware.第三波",
+    "variants": [
+      "boneash:上古戰爭藝術：空戰篇",
+      "omega:上古戰爭藝術[空戰篇]"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "上古神兵",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Conquered Kingdoms",
+    "cover_local": "raw/rwv/img/上古神兵/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "上古神兵 (1993)",
+    "title_raw": null,
+    "variants": [
+      "boneash:上古神兵",
+      "fandom:上古神兵",
+      "rwv:上古神兵"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "世紀金冠軍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "World Circuit",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:世紀金冠軍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "亞拉崗之劍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Sword of Aragon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:亞拉崗之劍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "亞瑟王傳奇：尋找聖杯",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Conquests of Camelot",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:亞瑟王傳奇：尋找聖杯"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "人生剧场",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Jones in the Fast Lane",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:人生劇場",
+      "rwv:人生剧场"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "仙境故事",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "The Faery Tale Adventure",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:仙境故事"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "俠盜羅賓漢",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "The Legend of Robin Hood：Conquests of the Longbow",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:俠盜羅賓漢"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "光榮戰役",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Fields of Glory",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:光榮戰役"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "克萊恩英豪",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Champions of Krynn",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:克萊恩英豪"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "克萊恩黑暗之后",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Dark Queen of Krynn",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:克萊恩黑暗之后"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "冬之魔",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Demon's Winter",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:冬之魔"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "冰城传奇",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Bard's Tale",
+    "cover_local": "raw/rwv/img/冰城传奇/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:冰城傳奇",
+      "rwv:冰城传奇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "冰城傳奇２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Bard's Tale II：The Destiny Knight",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:冰城傳奇２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "冰城傳奇３",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Bard's Tale III：Thief of Fate",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:冰城傳奇３"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "决战富士山",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Karateka",
+    "cover_local": "raw/rwv/img/决战富士山/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:決戰富士山",
+      "rwv:决战富士山"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "凱薩大帝",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Centurion：Defender of Rome",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:凱薩大帝"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "前進高棉",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Platoon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:前進高棉"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "創世紀 VII第二部：巨蛇之島",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Ultima VII Part Two：Serpent Isle",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:創世紀 VII第二部：巨蛇之島"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "創世紀 VII：黑月之門",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Ultima VII：The Black Gate",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:創世紀 VII：黑月之門"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "北與南",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "North & South",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:北與南"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "卡诺夫",
+    "srcs": [
+      "boneash",
+      "omega",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Karnov",
+    "cover_local": "raw/rwv/img/卡诺夫/cover.png",
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5878",
+    "ref_fandom": null,
+    "title_raw": "【原創】卡諾夫.Karnov.Data East Corporation.軟體世界.貴族版040",
+    "variants": [
+      "boneash:卡諾夫",
+      "omega:卡諾夫",
+      "rwv:卡诺夫"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "卡門聖地牙哥：歐洲篇",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Where in Europe is Carmen Sandiego?",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:卡門聖地牙哥：歐洲篇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "叛变克朗多",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Betrayal at Krondor",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:叛變克朗多",
+      "rwv:叛变克朗多"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "台湾模拟选战",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "N/A",
+    "cover_local": "raw/rwv/img/台湾模拟选战/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "台湾模拟选战 (1994)",
+    "title_raw": null,
+    "variants": [
+      "boneash:台灣模擬選戰",
+      "fandom:台湾模拟选战",
+      "rwv:台湾模拟选战"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "史古奇尋寶歷險記",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Disney's Duck Tales: The Quest for Gold",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:史古奇尋寶歷險記"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "嚣张拳王",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "4-D Boxing",
+    "cover_local": "raw/rwv/img/嚣张拳王/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:囂張拳王",
+      "rwv:嚣张拳王"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "國王傳奇",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Times of Lore",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:國王傳奇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "國王密使：皇冠探求",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "King's Quest：Quest for the Crown",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:國王密使：皇冠探求"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "圣城劫",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "N/A",
+    "cover_local": "raw/rwv/img/圣城劫/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "圣城劫 (1993)",
+    "title_raw": null,
+    "variants": [
+      "boneash:聖城劫",
+      "fandom:圣城劫",
+      "rwv:圣城劫"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "塔莫倫戰士",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Legacy of the Ancients",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:塔莫倫戰士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "夏季運動會",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "The Games：Summer Challenge",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:夏季運動會"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "夜班玩具廠",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Night Shift",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:夜班玩具廠"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "夜鷹隱形戰鬥機",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Night Hawk：F-117A Stealth Fighter 2.0",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:夜鷹隱形戰鬥機"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "大时代的故事",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "N/A",
+    "cover_local": "raw/rwv/img/大时代的故事/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "大时代的故事 (1992)",
+    "title_raw": null,
+    "variants": [
+      "boneash:大時代的故事",
+      "fandom:大时代的故事",
+      "rwv:大时代的故事"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天生好手",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Earl Weaver Baseball",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:天生好手"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天蚕变",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Silk",
+    "cover_local": "raw/rwv/img/天蚕变/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "天蚕变 (1993)",
+    "title_raw": null,
+    "variants": [
+      "boneash:天蠶變",
+      "fandom:天蚕变",
+      "rwv:天蚕变"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天龍特攻隊",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "D.R.A.G.O.N. Force",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:天龍特攻隊"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "太空鲁宾逊",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Robinson's Requiem",
+    "cover_local": "raw/rwv/img/太空鲁宾逊/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "太空鲁宾逊 (1994)",
+    "title_raw": null,
+    "variants": [
+      "boneash:太空魯賓遜",
+      "fandom:太空鲁宾逊",
+      "rwv:太空鲁宾逊"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "太閤立志傳",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": "Taiko Risshiden",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:太閤立志傳"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "失落的海軍上將",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "The Lost Admiral",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:失落的海軍上將"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "好梦连床",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Weird Dreams",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:好夢連床",
+      "rwv:好梦连床"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "妙狐神探：地球繼任者",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Inherit the Earth：Quest for the Orb",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:妙狐神探：地球繼任者"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙傳奇２：渥豪的復仇",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Space Quest 2：Vohaul's Revenge",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:宇宙傳奇２：渥豪的復仇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙傳奇３：佩斯突隆海盜",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Space Quest：The Pirates of Pestulon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:宇宙傳奇３：佩斯突隆海盜"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙傳奇４：時空穿越者",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Space Quest IV：Roger Wilco and the Time Rippers",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:宇宙傳奇４：時空穿越者"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙傳奇：大戰沙崙人",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Space Quest：The Sarien Encounter",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:宇宙傳奇：大戰沙崙人"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙殖民區",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "The Colony",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:宇宙殖民區"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "完美將軍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "The Perfect General",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:完美將軍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "寶裡寶氣寶騎士",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Eric the Unready",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:寶裡寶氣寶騎士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "將族：象棋大師３",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Chinese Chess Master 3",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:將族：象棋大師３"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "小人物狂想曲",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Les Manley in：Search for The King",
+    "cover_local": "raw/rwv/img/小人物狂想曲/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:小人物狂想曲",
+      "rwv:小人物狂想曲"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "小兵立大功",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Cannon Fodder",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:小兵立大功"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "屠龍記 (OLD)",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Barbarian",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:屠龍記 (OLD)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "工人物語：建國篇",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Serf City：Life is Feudal",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:工人物語：建國篇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "巫域之心",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "The Dark Heart of Uukrul",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:巫域之心"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "巫術：瘋狂城主的試練場",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1984,
+    "region": null,
+    "editions": [],
+    "name_en": "Wizardry：Proving Grounds of the Mad Overlord",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:巫術：瘋狂城主的試練場"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幕府將軍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Shogun",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:幕府將軍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幻想空間３：尋求滿懷悸動的多情佩蒂",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Leisure Suit Larry：Passionate Patti in Pursuit of the Pulsating Pectorals!",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:幻想空間３：尋求滿懷悸動的多情佩蒂"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幽城宝藏",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Hillsfar",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:幽城寶藏",
+      "rwv:幽城宝藏"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幽浮",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "X-Com : Enemy Unknown",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:幽浮"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幽灵馆",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Don't Go Alone",
+    "cover_local": "raw/rwv/img/幽灵馆/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:幽靈館",
+      "rwv:幽灵馆"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "异形大进击",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Zak McKracken and the Alien Mindbenders",
+    "cover_local": "raw/rwv/img/异形大进击/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:異形大進擊",
+      "rwv:异形大进击"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "從海底出擊",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Wolf Pack",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:從海底出擊"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "御封戰將",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "King's Bounty",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:御封戰將"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "忍",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Shinobi",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:忍",
+      "rwv:忍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "快樂泡泡龍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Bubble Bobble",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:快樂泡泡龍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "怒",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Ikari Warriors",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:怒"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "戰場之狼",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Commando",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:戰場之狼"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "戰爭風雲錄：韓戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Conflict：Korea",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:戰爭風雲錄：韓戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "拯救地球",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Buck Rogers：Countdown to Doomsday",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:拯救地球"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "搖滾霹靂彈",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "EPIC Pinball",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:搖滾霹靂彈"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "新陸軍棋",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Stratego",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:新陸軍棋"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "方塊ＡＢＣ",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Wordtris",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:方塊ＡＢＣ"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "无敌飞狼",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Gunship",
+    "cover_local": "raw/rwv/img/无敌飞狼/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:無敵飛狼",
+      "rwv:无敌飞狼"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "最后的忍者",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "The Last Ninja",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:最後的忍者",
+      "rwv:最后的忍者"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "未來之魔法",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Sentinel Worlds I : Future Magic",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:未來之魔法"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "机动战士",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Thexder",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:機動戰士",
+      "rwv:机动战士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "杀出机械城",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Escape from the Planet of the Robot Monsters",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:殺出機械城",
+      "rwv:杀出机械城"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "核战狂人梦",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Nuclear War",
+    "cover_local": "raw/rwv/img/核战狂人梦/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:核戰狂人夢",
+      "rwv:核战狂人梦"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "核能戰士",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Rad Warrior",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:核能戰士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "梅杜莎指環",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Rings of Medusa",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:梅杜莎指環"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "橋藝大師",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Omar Sharif on Bridge",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:橋藝大師"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "欧陆战线",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Operation Europe：Path to Victory 1939-45",
+    "cover_local": "raw/rwv/img/欧陆战线/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "欧陆战线 (1994)",
+    "title_raw": null,
+    "variants": [
+      "boneash:歐陸戰線",
+      "fandom:欧陆战线",
+      "rwv:欧陆战线"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "歐洲公路戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Roadwar Europa",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:歐洲公路戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "武道馆",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Budokan",
+    "cover_local": "raw/rwv/img/武道馆/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:武道館",
+      "rwv:武道馆"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "死亡潛航２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Silent Service 2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:死亡潛航２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "毁天灭地",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Targhan",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:毀天滅地",
+      "rwv:毁天灭地"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "水浒传",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Bandit Kings of Ancient China",
+    "cover_local": "raw/rwv/img/水浒传/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:水滸傳",
+      "rwv:水浒传"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "永生不滅",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "The Immortal",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:永生不滅"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "浩劫餘生",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Fountain of Dreams",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:浩劫餘生"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "海灘排球王",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Kings of the Beach",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:海灘排球王"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "深穴掘寶",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1983,
+    "region": null,
+    "editions": [],
+    "name_en": "Digger",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:深穴掘寶"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "激戰Ｍ星雲",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Star Control",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:激戰Ｍ星雲"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "火星之旅",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Martian Dreams",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:火星之旅"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "火龍之戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Dragon Wars",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:火龍之戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "炮艇",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Gunboat",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:炮艇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "炸彈小子",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Bombuzal",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:炸彈小子"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "烏龍吸血鬼",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "NightHunter",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:烏龍吸血鬼"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "無敵神槍",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Heavy Barrel",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:無敵神槍"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "無敵艦隊2525",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Armada 2525",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:無敵艦隊2525"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "無敵飛狼2000",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Gunship 2000",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:無敵飛狼2000"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "燃燒坦克",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Metal Gear",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:燃燒坦克"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "狂島浴血",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Battle Isle",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:狂島浴血"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "猛鬼逛街",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Nightmare on Elm Street",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:猛鬼逛街"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "猴岛小英雄",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "The Secret of Monkey Island",
+    "cover_local": "raw/rwv/img/猴岛小英雄/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:猴島小英雄",
+      "rwv:猴岛小英雄"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "瑪麗姊妹",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Sister Mary",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:瑪麗姊妹"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "百戰小旅鼠",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Lemmings",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:百戰小旅鼠"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "盖世龙王",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Dragon Lord",
+    "cover_local": "raw/rwv/img/盖世龙王/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:蓋世龍王",
+      "rwv:盖世龙王"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "真人快打",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Mortal Kombat",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:真人快打",
+      "rwv:真人快打"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "科羅拉多尋金記",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Colorado",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:科羅拉多尋金記"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "空降游骑兵",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Airborne Ranger",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:空降遊騎兵",
+      "rwv:空降游骑兵"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "童話仙境",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "The Manhole",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:童話仙境"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "童話天地",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Mixed-up Fairy Tales",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:童話天地"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "第一滴血",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Rambo Ⅲ",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:第一滴血"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "粒子世界",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "The Game of Harmony",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:粒子世界"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "紅爵士",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Red Baron",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:紅爵士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "納粹飛行祕史",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Secret Weapons of the Luftwaffe",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:納粹飛行祕史"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "維京小子闖通關",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "The Lost Vikings",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:維京小子闖通關"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "纱之器",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Loom",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:紗之器",
+      "rwv:纱之器"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "肉搏大賽",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Bob'N Wrestle",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:肉搏大賽"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "艺妓",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Geisha",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:藝妓",
+      "rwv:艺妓"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "艾薇拉２：恐怖劇場",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Elvira II：The Jaws of Cerberus",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:艾薇拉２：恐怖劇場"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "艾薇拉：古堡禁地",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Elvira：Mistress of the Dark",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:艾薇拉：古堡禁地"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "英雄傳奇２：烈火神兵",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Quest for Glory 2：Trial by Fire",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:英雄傳奇２：烈火神兵"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "英雄傳奇３：戰火焚生錄",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Quest for Glory 3：Wages of War",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:英雄傳奇３：戰火焚生錄"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "荒野遊俠",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Wastland",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:荒野遊俠"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "荡魔平妖志",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Wrath of the Demon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "荡魔平妖志 (1991)",
+    "title_raw": null,
+    "variants": [
+      "boneash:蕩魔平妖誌",
+      "fandom:荡魔平妖志",
+      "rwv:荡魔平妖志"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "蜡像馆之谜",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Waxworks",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:蠟像館之謎",
+      "rwv:蜡像馆之谜"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "親愛的，我被電視吸走了",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Altered Destiny",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:親愛的，我被電視吸走了"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "警察故事",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Police Quest：In Pursuit of the Death Angel",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:警察故事",
+      "rwv:警察故事"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "超級大戰略 (DOS/V)",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "N/A",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:超級大戰略 (DOS/V)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "送報童２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "PaperBoy 2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:送報童２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "送报童",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "PaperBoy",
+    "cover_local": "raw/rwv/img/送报童/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:送報童",
+      "rwv:送报童"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "野外籃球",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Street Sports Basketball",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:野外籃球"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "銀河帝國大決戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Empire",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:銀河帝國大決戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "銀河超能力戰記",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Psychic War",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:銀河超能力戰記"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "鐵手戰神",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1986,
+    "region": null,
+    "editions": [],
+    "name_en": "Gauntlet",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:鐵手戰神"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "鐵甲爭霸戰",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Batletech：The Crescent Hawk's Inception",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:鐵甲爭霸戰"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "鐵路Ａ計劃",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "A-Train",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:鐵路Ａ計劃"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "長槍之役",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "War of the Lance",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:長槍之役"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "长枪英雄",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Heroes of the Lance",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:長槍英雄",
+      "rwv:长枪英雄"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "電子魚",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "El-Fish",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:電子魚"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "電視大亨",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "MAD-TV",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:電視大亨"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "預言奇兵",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Prophecy：The Fall of Trinadon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:預言奇兵"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "项刘记",
+    "srcs": [
+      "boneash",
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Kou Ryuu Ki",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "项刘记 (1993)",
+    "title_raw": null,
+    "variants": [
+      "boneash:項劉記",
+      "fandom:项刘记",
+      "rwv:项刘记"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "顽皮猫",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1984,
+    "region": null,
+    "editions": [],
+    "name_en": "Alley Cat",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:頑皮貓",
+      "rwv:顽皮猫"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "風馳電摯",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Indianapolis 500",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:風馳電摯"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "风神传承",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Stormlord",
+    "cover_local": "raw/rwv/img/风神传承/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:風神傳承",
+      "rwv:风神传承"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "风行者",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Wind Walker",
+    "cover_local": "raw/rwv/img/风行者/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:風行者",
+      "rwv:风行者"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "风速小子",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Grand Prix 500 2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:風速小子",
+      "rwv:风速小子"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "飛越杜鵑窩",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Countdown",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:飛越杜鵑窩"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "飛輪武士",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Autoduel",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:飛輪武士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔動王子",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": "Black Thorne",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔動王子"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔境传说",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": "Rastan",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔境傳說",
+      "rwv:魔境传说"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔法之燭２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Magic Candle II",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔法之燭２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔法門III∼幻島歷險記",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Might and Magic III：Isles of Terra",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔法門III∼幻島歷險記"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔法門外傳２：黑暗魔君大反撲",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Might and Magic：Dark Side of Xeen",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔法門外傳２：黑暗魔君大反撲"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔法门外传 星云之谜",
+    "srcs": [
+      "boneash",
+      "fandom"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": "Might and Magic：Clouds of Xeen",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔法门外传 星云之谜 (1992)",
+    "title_raw": null,
+    "variants": [
+      "boneash:魔法門外傳：星雲之謎",
+      "fandom:魔法门外传 星云之谜"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔界神兵２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Questron 2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔界神兵２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔鬼訓練營",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Combat Course",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魔鬼訓練營"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魚叉",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": "Harpoon",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:魚叉"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "黑暗金字塔",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1988,
+    "region": null,
+    "editions": [],
+    "name_en": "Total Eclipse",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:黑暗金字塔"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "黑神鍋",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "The Black Cauldron",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:黑神鍋"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "黑街风云",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": "Bad Street Brawler",
+    "cover_local": "raw/rwv/img/黑街风云/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:黑街風雲",
+      "rwv:黑街风云"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "龙穴历险记",
+    "srcs": [
+      "boneash",
+      "rwv"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Dragon's Lair：Escape from Singe's Castle",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:龍穴歷險記",
+      "rwv:龙穴历险记"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Ｄ計劃",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "D/Generation",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:Ｄ計劃"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "ＰＣ原人",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1991,
+    "region": null,
+    "editions": [],
+    "name_en": "Prehistorik",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:ＰＣ原人"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "ＰＣ原人２",
+    "srcs": [
+      "boneash"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": "Prehistorik 2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "boneash:ＰＣ原人２"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "2001特遣队",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/2001特遣队/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "2001特遣队 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:2001特遣队",
+      "rwv:2001特遣队"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "2601帝国联合舰队",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "2601帝国联合舰队 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:2601帝国联合舰队",
+      "rwv:2601帝国联合舰队"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "3x3只眼",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "3x3只眼 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:3x3只眼",
+      "rwv:3x3只眼"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "PSY幽记",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "PSY幽记 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:PSY幽记",
+      "rwv:PSY幽记"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "三姐妹",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/三姐妹/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "三姐妹 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:三姐妹",
+      "rwv:三姐妹"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "中关村启示录",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "中关村启示录 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:中关村启示录",
+      "rwv:中关村启示录"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "中原镖局",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/中原镖局/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "中原镖局 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:中原镖局",
+      "rwv:中原镖局"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "主题公园",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [
+      "主题公园光碟版"
+    ],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "主题公园 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:主题公园",
+      "rwv:主题公园光碟版"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "主题医院",
+    "srcs": [
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [
+      "主题医院S"
+    ],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/主题医院/cover.jpg",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "rwv:主题医院",
+      "rwv:主题医院S"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "伍子胥",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/伍子胥/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "伍子胥 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:伍子胥",
+      "rwv:伍子胥"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "侏罗纪公园",
+    "srcs": [
+      "omega",
+      "rwv"
+    ],
+    "year": null,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/侏罗纪公园/cover.png",
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5832",
+    "ref_fandom": null,
+    "title_raw": "【原創】侏羅紀公園.JURASSIC PARK.OCEAN Software Ltd.台灣晶技",
+    "variants": [
+      "omega:侏羅紀公園",
+      "rwv:侏罗纪公园"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "刘备传",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "刘备传 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:刘备传",
+      "rwv:刘备传"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "创世封魔传",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "创世封魔传 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:创世封魔传",
+      "rwv:创世封魔传"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "创世弹珠台",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/创世弹珠台/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "创世弹珠台 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:创世弹珠台",
+      "rwv:创世弹珠台"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "十面埋伏",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/十面埋伏/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "十面埋伏 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:十面埋伏",
+      "rwv:十面埋伏"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "南海霸主",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/南海霸主/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "南海霸主 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:南海霸主",
+      "rwv:南海霸主"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "危机特勤组",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "危机特勤组 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:危机特勤组",
+      "rwv:危机特勤组"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "圣光岛",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "圣光岛 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:圣光岛",
+      "rwv:圣光岛"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "大兵日记",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/大兵日记/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "大兵日记 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大兵日记",
+      "rwv:大兵日记"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "大地传说黑暗王座",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/大地传说黑暗王座/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "大地传说-黑暗王座 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大地传说-黑暗王座",
+      "rwv:大地传说黑暗王座"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "大富翁总动员",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "大富翁总动员 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大富翁总动员",
+      "rwv:大富翁总动员"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天使Q女学院",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/天使Q女学院/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "天使Q女学院 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天使Q女学院",
+      "rwv:天使Q女学院"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天师钟馗",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "天师钟馗 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天师钟馗",
+      "rwv:天师钟馗"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天帝之子",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/天帝之子/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "天帝之子 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天帝之子",
+      "rwv:天帝之子"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天旋地转",
+    "srcs": [
+      "omega",
+      "rwv"
+    ],
+    "year": null,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/天旋地转/cover.png",
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5838",
+    "ref_fandom": null,
+    "title_raw": "【原創】天旋地轉.Descent.Parallax Software.松崗",
+    "variants": [
+      "omega:天旋地轉",
+      "rwv:天旋地转"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "天晴传",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "天晴传 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天晴传",
+      "rwv:天晴传"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "妖击队",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "妖击队 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:妖击队",
+      "rwv:妖击队"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "富贵列车",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/富贵列车/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "富贵列车 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:富贵列车",
+      "rwv:富贵列车"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "射波",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/射波/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "射波 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:射波",
+      "rwv:射波"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "小惠的性知识",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/小惠的性知识/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "小惠的性知识 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:小惠的性知识",
+      "rwv:小惠的性知识"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "小沙弥",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/小沙弥/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "小沙弥 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:小沙弥",
+      "rwv:小沙弥"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幸福人生",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/幸福人生/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "幸福人生 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:幸福人生",
+      "rwv:幸福人生"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "幻想奇侠传",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1999,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "幻想奇侠传 (1999)",
+    "title_raw": null,
+    "variants": [
+      "fandom:幻想奇侠传",
+      "rwv:幻想奇侠传"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "底特律汽车大亨",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/底特律汽车大亨/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "底特律汽车大亨 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:底特律汽车大亨",
+      "rwv:底特律汽车大亨"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "打砖块",
+    "srcs": [
+      "omega",
+      "rwv"
+    ],
+    "year": null,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/打砖块/cover.png",
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5879",
+    "ref_fandom": null,
+    "title_raw": "【原創】打磚塊.BlockBuster.Audiogenic Software Ltd.軟體世界.貴族版049",
+    "variants": [
+      "omega:打磚塊",
+      "rwv:打砖块"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "摇滚少林之七侠五义",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/摇滚少林之七侠五义/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "摇滚少林之七侠五义 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:摇滚少林之七侠五义",
+      "rwv:摇滚少林之七侠五义"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "撞球补习班",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/撞球补习班/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "撞球补习班 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:撞球补习班",
+      "rwv:撞球补习班"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "日没",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/日没/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "日没 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:日没",
+      "rwv:日没"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "日蚀",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "日蚀 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:日蚀",
+      "rwv:日蚀"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "时空特勤组",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "时空特勤组 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:时空特勤组",
+      "rwv:时空特勤组"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "星世纪战将",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/星世纪战将/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "星世纪战将 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:星世纪战将",
+      "rwv:星世纪战将"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "智圣鲜师",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/智圣鲜师/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "智圣鲜师 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:智圣鲜师",
+      "rwv:智圣鲜师"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "格杀令",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/格杀令/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "格杀令 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:格杀令",
+      "rwv:格杀令"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "正宗台湾16张麻将",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/正宗台湾16张麻将/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "正宗台湾16张麻将 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:正宗台湾16张麻将",
+      "rwv:正宗台湾16张麻将"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "炎龙骑士团",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [
+      "炎龙骑士团 I+II"
+    ],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/炎龙骑士团/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "炎龙骑士团 I+II (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:炎龙骑士团 I+II",
+      "rwv:炎龙骑士团"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "炸弹超人",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/炸弹超人/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "炸弹超人 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:炸弹超人",
+      "rwv:炸弹超人"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "熊猫大进击",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/熊猫大进击/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "熊猫大进击 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:熊猫大进击",
+      "rwv:熊猫大进击"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "玛丽姐妹",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/玛丽姐妹/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "玛丽姐妹 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:玛丽姐妹",
+      "rwv:玛丽姐妹"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "玫瑰骑士",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/玫瑰骑士/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "玫瑰骑士 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:玫瑰骑士",
+      "rwv:玫瑰骑士"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "甲A风云",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/甲A风云/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "甲A风云 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:甲A风云",
+      "rwv:甲A风云"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "百战水管工",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/百战水管工/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "百战水管工 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:百战水管工",
+      "rwv:百战水管工"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "碰碰球",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/碰碰球/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "碰碰球 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:碰碰球",
+      "rwv:碰碰球"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "礼物",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/礼物/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "礼物 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:礼物",
+      "rwv:礼物"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "美女物语 Part1-日本风情篇",
+    "srcs": [
+      "fandom",
+      "omega"
+    ],
+    "year": 1993,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5298",
+    "ref_fandom": "美女物语 Part1-日本风情篇 (1993)",
+    "title_raw": "【原創】美女物語：Part1 日本風情篇.Beauty Story.上野",
+    "variants": [
+      "fandom:美女物语 Part1-日本风情篇",
+      "omega:美女物語：Part1 日本風情篇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "艾蒂丝魔法大冒险",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1999,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/艾蒂丝魔法大冒险/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "艾蒂丝魔法大冒险 (1999)",
+    "title_raw": null,
+    "variants": [
+      "fandom:艾蒂丝魔法大冒险",
+      "rwv:艾蒂丝魔法大冒险"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "诸神封印",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/诸神封印/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "诸神封印 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:诸神封印",
+      "rwv:诸神封印"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "运镖天下",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/运镖天下/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "运镖天下 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:运镖天下",
+      "rwv:运镖天下"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "邪灵世纪",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "邪灵世纪 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:邪灵世纪",
+      "rwv:邪灵世纪"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "金瓶梅",
+    "srcs": [
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/金瓶梅/cover.png",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "rwv:金瓶梅"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "镇暴特遣队",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "镇暴特遣队 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:镇暴特遣队",
+      "rwv:镇暴特遣队"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "雷诺尼都纪事(迷城的国度)",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/雷诺尼都纪事(迷城的国度)/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "雷诺尼都纪事(迷城的国度) (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:雷诺尼都纪事(迷城的国度)",
+      "rwv:雷诺尼都纪事(迷城的国度)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "青涩的果实",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "青涩的果实 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:青涩的果实",
+      "rwv:青涩的果实"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "风云天下三国篇",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "风云天下三国篇 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:风云天下三国篇",
+      "rwv:风云天下三国篇"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "风雪江山",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/风雪江山/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "风雪江山 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:风雪江山",
+      "rwv:风雪江山"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔兽争霸2",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔兽争霸2(1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔兽争霸2",
+      "rwv:魔兽争霸2"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔兽大战略",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/魔兽大战略/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "魔兽大战略 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔兽大战略",
+      "rwv:魔兽大战略"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔日传说",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/魔日传说/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "魔日传说 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔日传说",
+      "rwv:魔日传说"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔栈",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔栈 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔栈",
+      "rwv:魔栈"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "魔法师宝典",
+    "srcs": [
+      "fandom",
+      "omega"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5192",
+    "ref_fandom": "魔法师宝典 (1995)",
+    "title_raw": "【轉貼】魔法師寶典.全崴",
+    "variants": [
+      "fandom:魔法师宝典",
+      "omega:魔法師寶典"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "黑之断章",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": "raw/rwv/img/黑之断章/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "黑之断章 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:黑之断章",
+      "rwv:黑之断章"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "龙霸天下",
+    "srcs": [
+      "fandom",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": "CN",
+    "editions": [],
+    "name_en": null,
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "龙霸天下 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:龙霸天下",
+      "rwv:龙霸天下"
+    ],
+    "confidence": "high"
+  }
+]

@@ -91,6 +91,8 @@ def parse_boneash():
             en, zh, year = cells[0], cells[1], cells[2]
             if not re.fullmatch(r"\d{4}", year or ""):
                 continue
+            zh = re.sub(r"\s+", " ", zh).strip()
+            en = re.sub(r"\s+", " ", en).strip()
             rows.append({
                 "name": zh or None,
                 "name_en": en or None,

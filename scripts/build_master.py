@@ -87,8 +87,10 @@ def classify_localization(content_language, developer, publisher_tw):
 
 
 def to_simplified(titles):
-    """Batch-convert a list of 繁中 strings to 簡中 via opencc t2s."""
-    payload = "\n".join(titles)
+    """Batch-convert a list of 繁中 strings to 簡中 via opencc t2s.
+    Internal whitespace is collapsed so an embedded newline can't shift the
+    line-split output and misalign every subsequent entry."""
+    payload = "\n".join(re.sub(r"\s+", " ", t or "").strip() for t in titles)
     out = subprocess.run(
         ["opencc", "-c", "t2s.json"],
         input=payload, capture_output=True, text=True, check=True,
