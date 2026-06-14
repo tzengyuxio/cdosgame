@@ -13,6 +13,7 @@ import yaml
 MASTER_MERGED = Path("derived/master-list.merged.json")  # merge_sources --write output
 MASTER = Path("derived/master-list.json")                # build_master output (chiuinan)
 REGISTRY = Path("data/id-registry.json")
+PUBLISH_STATE = Path("data/publish-state.json")          # {id: true} editorial gate
 OUT_DIR = Path("content/games")
 
 
@@ -54,10 +55,11 @@ def load_registry():
     return {"_meta": REG_META, "ids": ids}
 
 
-def frontmatter(g, gid):
+def frontmatter(g, gid, published):
     """Build an ordered frontmatter dict; omit empty optional collections."""
     fm = {
         "id": gid,
+        "published": published,
         "title_zh": g["title_zh"],
         "title_aliases": g.get("title_aliases", []),
         "slug": slugify(g.get("title_aliases", [])),
@@ -98,6 +100,8 @@ def main():
     src = MASTER_MERGED if MASTER_MERGED.exists() else MASTER
     games = json.loads(src.read_text(encoding="utf-8"))
     print(f"source: {src}")
+    publish_state = json.loads(PUBLISH_STATE.read_text(encoding="utf-8")) \
+        if PUBLISH_STATE.exists() else {}
     registry = load_registry()
     ids = registry["ids"]
 
@@ -133,7 +137,7 @@ def main():
         if key not in e["keys"]:
             e["keys"].append(key)
 
-        fm = frontmatter(g, gid)
+        fm = frontmatter(g, gid, bool(publish_state.get(gid)))
         body = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
         (OUT_DIR / f"{gid}.md").write_text(f"---\n{body}---\n\n", encoding="utf-8")
         seen_files.add(f"{gid}.md")

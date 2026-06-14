@@ -11,6 +11,7 @@
 | 欄位 | 型別 | 必填 | 說明 |
 |------|------|:--:|------|
 | `id` | string `cdg-\d{4,}` | ✓ | 穩定流水號（= 檔名）|
+| `published` | boolean | | **發布閘**：false=僅本地/dev 可見、正式站排除。預設 false。存於 `data/publish-state.json`（生成物外，重跑不重置），逐筆人工審後 flip |
 | `title_zh` | string | ✓ | 繁中主名 |
 | `title_aliases` | string[] | | 別名/英文原名（預設 []）|
 | `slug` | string \| null | | 網址用，英文別名 slugify；無則 null |

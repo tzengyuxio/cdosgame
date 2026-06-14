@@ -16,6 +16,10 @@ export const GENRES = [
 export const gameSchema = z.object({
   // identity
   id: z.string().regex(/^cdg-\d{4,}$/),
+  // publish gate: false = visible in dev only, excluded from the production site.
+  // Stored in data/publish-state.json (survives content regeneration); flipped
+  // per-entry after human review. Default false (nothing publishes unreviewed).
+  published: z.boolean().default(false),
   title_zh: z.string().min(1),
   title_aliases: z.array(z.string()).default([]),
   slug: z.string().nullable().default(null),

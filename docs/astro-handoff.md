@@ -48,6 +48,17 @@ export const collections = {
 - `gameSchema` 形狀可直接用；若 import 'zod' 與 'astro:content' 的 z 衝突，把 schema 內容複製進 config 用 astro 的 z（欄位定義不變）。
 - frontmatter 已對齊 schema，`astro build` 會用同一份規則驗。
 
+## 發布閘 published（dev 全看、prod 只看已發布）
+
+- 每筆有 `published` 欄（預設 **false**）。狀態存在 **`data/publish-state.json`**（生成物外，重跑不重置），由 `build_content` 寫進 frontmatter。
+- 逐筆審核後 flip：`python3 scripts/publish.py cdg-0001 cdg-0042 ...`（`--off` 取消、`--list` 列出）→ 再跑 `build_content`。
+- **Astro 過濾**：prod build 只收 `published === true`，dev 顯示全部。例：
+  ```ts
+  const all = await getCollection('games');
+  const visible = import.meta.env.PROD ? all.filter(e => e.data.published) : all;
+  ```
+- 目前 4025 筆**全為 false**（沒東西會上 prod，直到你逐步審核發布）。要整批發佈已驗證的骨幹可一次寫進 publish-state.json。
+
 ## 資料特性（UI 要能容錯）
 
 - **大量 null**：191 筆合併新條目的 developer/content_language/genre 多為 null；舊條目部分欄位也 null。UI 與篩選要處理缺值。
