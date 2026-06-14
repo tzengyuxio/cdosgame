@@ -25,6 +25,14 @@ def slugify(aliases):
     return None
 
 
+REG_META = {
+    "description": "Game id registry — source of truth. append-only; ids never reassigned.",
+    "id_scheme": "cd<type>-NNNN (cdg game / cdc company / cds series / cdp person)",
+    "policy": "docs/id-policy.md",
+    "structure": "ids[<id>] = {title_zh, developer, catalog_id, keys[], status, merged_into?}",
+}
+
+
 def stable_key(g):
     # Avoid volatile fields (e.g. year) so ids stay stable across re-derivation.
     if g.get("catalog_id"):
@@ -33,9 +41,16 @@ def stable_key(g):
 
 
 def load_registry():
-    if REGISTRY.exists():
-        return json.loads(REGISTRY.read_text(encoding="utf-8"))
-    return {}
+    """Return the id-centric registry, migrating the old flat {key: id} form."""
+    if not REGISTRY.exists():
+        return {"_meta": REG_META, "ids": {}}
+    data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    if "ids" in data:
+        return data
+    ids = {}
+    for key, gid in data.items():
+        ids.setdefault(gid, {"keys": [], "status": "active"})["keys"].append(key)
+    return {"_meta": REG_META, "ids": ids}
 
 
 def frontmatter(g, gid):
@@ -58,6 +73,8 @@ def frontmatter(g, gid):
         "cover": g.get("cover"),
         "provenance": g.get("provenance", []),
     }
+    if g.get("editions"):
+        fm["editions"] = g["editions"]
     if g.get("images"):
         fm["images"] = g["images"]
     if g.get("references"):
@@ -76,36 +93,55 @@ def frontmatter(g, gid):
 def main():
     games = json.loads(MASTER.read_text(encoding="utf-8"))
     registry = load_registry()
-    used_keys, next_id = {}, max(
-        [int(v.split("-")[1]) for v in registry.values()] + [0]) + 1
+    ids = registry["ids"]
+
+    # reverse map: every key (incl. aliases) -> id, redirecting merged ids
+    key2id = {}
+    for gid, e in ids.items():
+        target = e.get("merged_into", gid)
+        for k in e.get("keys", []):
+            key2id[k] = target
+    next_id = max([int(g.split("-")[1]) for g in ids] + [0]) + 1
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    seen_files, new_ids = set(), 0
+    used_keys, seen_files, new_ids = {}, set(), 0
     for g in games:
         key = stable_key(g)
         # disambiguate exact-duplicate keys within this run
         used_keys[key] = used_keys.get(key, 0) + 1
         if used_keys[key] > 1:
             key = f"{key}#{used_keys[key]}"
-        if key not in registry:
-            registry[key] = f"cdg-{next_id:04d}"
+        gid = key2id.get(key)
+        if not gid:
+            gid = f"cdg-{next_id:04d}"
             next_id += 1
             new_ids += 1
-        gid = registry[key]
+            ids[gid] = {"keys": [key], "status": "active"}
+            key2id[key] = gid
+        # refresh human-auditable display fields on the registry entry
+        e = ids[gid]
+        e["title_zh"] = g["title_zh"]
+        e["developer"] = g.get("developer")
+        e["catalog_id"] = g.get("catalog_id")
+        e.setdefault("status", "active")
+        if key not in e["keys"]:
+            e["keys"].append(key)
+
         fm = frontmatter(g, gid)
         body = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
         (OUT_DIR / f"{gid}.md").write_text(f"---\n{body}---\n\n", encoding="utf-8")
         seen_files.add(f"{gid}.md")
 
-    # remove orphaned files whose game no longer exists
+    # remove orphaned files whose game no longer exists (skip merged tombstones)
     orphans = [p for p in OUT_DIR.glob("*.md") if p.name not in seen_files]
     for p in orphans:
         p.unlink()
 
+    registry["_meta"] = REG_META
     REGISTRY.write_text(json.dumps(registry, ensure_ascii=False, indent=2,
                                    sort_keys=True), encoding="utf-8")
     print(f"games: {len(games)}  files: {len(seen_files)}  new ids: {new_ids}  "
-          f"orphans removed: {len(orphans)}  registry size: {len(registry)}")
+          f"orphans removed: {len(orphans)}  registry size: {len(ids)}")
 
 
 if __name__ == "__main__":

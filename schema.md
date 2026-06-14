@@ -4,7 +4,7 @@
 
 - 機器 schema：`schema/game.schema.mjs`（Zod，可直接搬進 Astro `src/content.config.ts`）。
 - 儲存：**每款一個 Markdown 檔**於 `content/games/<id>.md`，結構欄位放 YAML frontmatter，簡介/評論放正文（目前正文待補）。
-- 主鍵 `id`：流水號 `cdg-0001`，與標題脫鉤；對映表 `data/id-registry.json` append-only，重建不重配。
+- 主鍵 `id`：不透明流水號 `cdg-NNNN`；命名空間、粒度、穩定性與重複處理見 **`docs/id-policy.md`**。對映帳本 `data/id-registry.json`（以 id 為主、append-only）。
 
 ## 欄位
 
@@ -24,6 +24,7 @@
 | `size` | string \| null | | 容量（如 `1CD (45.2)`）|
 | `platform_note` | string \| null | | 平台/限制（如 `Windows，18禁`）|
 | `catalog_id` | string \| null | | chiuinan 編號（SCD/JXP…）|
+| `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|
 | `references` | object | | 外連參考：`omega`（討論串）/ `fandom`（條目）|

@@ -36,6 +36,17 @@ export const gameSchema = z.object({
   platform_note: z.string().nullable(),
   catalog_id: z.string().nullable(),
 
+  // editions: one id = one game work; media/packaging/minor variants live here
+  // (different id only for remakes, art redraws, localization — see docs/id-policy.md)
+  editions: z.array(z.object({
+    name: z.string(),                          // e.g. 光碟典藏版 / 磁片版 / Windows版
+    year: z.number().int().min(1970).max(2030).nullable().optional(),
+    media: z.string().optional(),              // 磁片 / CD / DVD ...
+    boxart: z.string().optional(),             // local image path
+    note: z.string().optional(),              // what differs (added voice, etc.)
+    provenance: z.array(z.string()).optional(),
+  })).default([]),
+
   // media & links
   cover: z.string().nullable().default(null),
   images: z.object({
