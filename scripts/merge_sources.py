@@ -43,6 +43,13 @@ def foldnorm(s):
     return norm((s or "").translate(FOLD))
 
 
+def s2t(titles):
+    clean = [re.sub(r"\s+", " ", x or "").strip() for x in titles]
+    out = subprocess.run(["opencc", "-c", "s2t.json"], input="\n".join(clean),
+                         capture_output=True, text=True).stdout.split("\n")
+    return out[: len(titles)]
+
+
 def softworld_index():
     idx = {}
     for r in json.loads((D / "softworld-games.json").read_text(encoding="utf-8")):
@@ -125,35 +132,38 @@ def load_candidates(master_norm):
     return cands
 
 
-def classify_vs_master(c, master_norm, master_base):
-    """Return (bucket, reason). bucket in {enrich, review, new}."""
+def classify_vs_master(c, master_norm_map, master_base):
+    """Return (bucket, reason, target). target = the matched master entry for
+    enrich, else None. bucket in {enrich, review, new}."""
     n = norm(c["simp"])
     if not c["name"] or c["name"].strip().upper().replace("/", "") in ("NA", "-", ""):
-        return "review", "invalid-name"
+        return "review", "invalid-name", None
     stripped = norm(strip_edition(c["simp"]))
     had_suffix = stripped != n
     if any(r in c["name"] for r in REMAKE):
-        return "review", "remake-suffix"
+        return "review", "remake-suffix", None
     if any(k in c["name"].lower() for k in NONGAME):
-        return "review", "suspected-non-game"
-    if stripped in master_norm:
-        return "enrich", "edition" if had_suffix else "same-title-variant"
+        return "review", "suspected-non-game", None
+    if stripped in master_norm_map:
+        return "enrich", ("edition" if had_suffix else "same-title-variant"), master_norm_map[stripped]
     bm = master_base.get(base(stripped), [])
     if had_suffix and len(bm) == 1:
-        return "enrich", "edition-base-unique"
+        return "enrich", "edition-base-unique", bm[0]
     if bm:
-        return "review", f"base-matches-{len(bm)}-master"
-    return "new", ""
+        return "review", f"base-matches-{len(bm)}-master", None
+    return "new", "", None
 
 
 def main(write=False):
     master = json.loads((D / "master-list.json").read_text())
     msimp = t2s([m["title_zh"] for m in master])
     master_norm = {norm(s) for s in msimp}
-    master_base = defaultdict(list)
-    master_by_prefix = defaultdict(list)  # first-2-chars -> [norm titles] for fuzzy
+    master_norm_map = {}                   # norm -> master entry (enrich target)
+    master_base = defaultdict(list)        # base -> [master entries]
+    master_by_prefix = defaultdict(list)   # first-2-chars -> [norm titles] for fuzzy
     for m, s in zip(master, msimp):
-        master_base[base(s)].append(m["title_zh"])
+        master_norm_map.setdefault(norm(s), m)
+        master_base[base(s)].append(m)
         master_by_prefix[norm(s)[:2]].append(norm(s))
 
     def near_master(n):
@@ -167,11 +177,11 @@ def main(write=False):
 
     enrich, review, new = [], [], []
     for c in cands:
-        bucket, reason = classify_vs_master(c, master_norm, master_base)
+        bucket, reason, target = classify_vs_master(c, master_norm_map, master_base)
         # fuzzy guard: a near-identical master title means it's not really new
         if bucket == "new" and near_master(norm(c["simp"])):
             bucket, reason = "review", "fuzzy-near-master"
-        c["reason"] = reason
+        c["reason"], c["target"] = reason, target
         (enrich if bucket == "enrich" else review if bucket == "review" else new).append(c)
 
     # cross-source dedup (exact normalized) -> units
@@ -214,7 +224,8 @@ def main(write=False):
         region = "CN" if set(srcs) <= {"rwv", "fandom", "omega"} else None
         high = len(srcs) >= 2 or ("boneash" in srcs and year) or (year and cover)
         merged_new.append({
-            "name": baseu["name"], "srcs": srcs, "year": year, "region": region,
+            "name": baseu["name"], "simp": baseu["simp"],
+            "srcs": srcs, "year": year, "region": region,
             "editions": [u["name"] for u in us if u is not baseu],
             "name_en": next((u["name_en"] for u in us if u["name_en"]), None),
             "cover_local": cover,
@@ -258,8 +269,91 @@ def main(write=False):
                                   ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n  auto-new preview written: {preview}")
 
-    if write:
-        print("\n(--write not yet implemented; confirm preview first)")
+    if not write:
+        return
+
+    # ---- apply: enrich existing + append accepted new -> master-list.merged.json ----
+    decisions = json.loads((D.parent / "data/merge-decisions.json").read_text(encoding="utf-8")) \
+        if (D.parent / "data/merge-decisions.json").exists() else {}
+    accepted = [m for m in auto_new if decisions.get(m["name"]) == "accept"]
+    undecided = [m for m in auto_new if m["name"] not in decisions]
+
+    # enrich: append the candidate as an edition of its matched master entry
+    for c in enrich:
+        tgt = c["target"]
+        tgt.setdefault("editions", [])
+        if not any(e.get("name") == c["name"] for e in tgt["editions"]):
+            tgt["editions"].append({"name": c["name"], "provenance": [f"{c['src']}@merge"]})
+        if "@merge" not in " ".join(tgt.get("provenance", [])):
+            tgt.setdefault("provenance", []).append(f"{c['src']}@merge")
+
+    # build new entries for accepted candidates (繁中 title preferred, else s2t)
+    s2t_map = dict(zip([m["name"] for m in accepted], s2t([m["simp"] for m in accepted])))
+    new_entries = [build_entry(m, s2t_map) for m in accepted]
+    merged = master + new_entries
+    (D / "master-list.merged.json").write_text(
+        json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # review queue: ambiguous/non-game + low-confidence new + undecided auto-new
+    review_out = (
+        [{"name": c["name"], "reason": c["reason"], "src": c["src"]} for c in review]
+        + [{"name": m["name"], "reason": "low-confidence", "srcs": m["srcs"]} for m in low_new]
+        + [{"name": m["name"], "reason": "undecided", "srcs": m["srcs"]} for m in undecided]
+    )
+    (D / "merge-review.json").write_text(
+        json.dumps(review_out, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"\n  WROTE master-list.merged.json: {len(master)} + {len(new_entries)} new = {len(merged)}")
+    print(f"  enriched existing entries: {len(enrich)}")
+    print(f"  review queue -> merge-review.json: {len(review_out)} "
+          f"(undecided auto-new: {len(undecided)})")
+    print("  next: python3 scripts/build_content.py && npm run validate")
+
+
+def build_entry(m, s2t_map):
+    """Construct a master-style catalog entry from an accepted merge candidate."""
+    title = None
+    for v in m["variants"]:                      # prefer a 繁中 name from boneash/omega
+        src, _, nm = v.partition(":")
+        if src in ("boneash", "omega") and re.search(r"[一-鿿]", nm):
+            title = nm
+            break
+    title = title or s2t_map.get(m["name"]) or m["name"]
+    sw = m.get("softworld")
+    images = {"rwv_cover": m["cover_local"]} if m.get("cover_local") else {}
+    refs = {}
+    if m.get("ref_omega"):
+        refs["omega"] = m["ref_omega"]
+    if m.get("ref_fandom"):
+        refs["fandom"] = m["ref_fandom"]
+    prov = [f"{s}@merge" for s in m["srcs"]] + (["softworld@boneash-scan"] if sw else [])
+    en = m.get("name_en")
+    return {
+        "title_zh": title,
+        "title_aliases": [en] if en and en != title else [],
+        "year": m.get("year"),
+        "developer": None,
+        "developer_region": m.get("region"),
+        "publisher_tw": ["軟體世界"] if sw else [],
+        "content_language": None,
+        "genre": None,
+        "localization_level": None,
+        "localization_basis": "merged (unclassified)",
+        "size": None,
+        "platform_note": None,
+        "catalog_id": None,
+        "license_status": "unofficial" if sw else None,
+        "release_codes": ([{"issuer": "軟體世界", "code": sw["code"],
+                            "status": "placeholder" if sw["placeholder"] else "released"}]
+                          if sw else []),
+        "cover": None,
+        "images": images,
+        "references": refs,
+        "external_links": {},
+        "editions": [{"name": e} for e in m.get("editions", [])],
+        "intro_todo": True,
+        "provenance": prov,
+    }
 
 
 if __name__ == "__main__":

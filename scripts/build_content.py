@@ -10,7 +10,8 @@ from pathlib import Path
 
 import yaml
 
-MASTER = Path("derived/master-list.json")
+MASTER_MERGED = Path("derived/master-list.merged.json")  # merge_sources --write output
+MASTER = Path("derived/master-list.json")                # build_master output (chiuinan)
 REGISTRY = Path("data/id-registry.json")
 OUT_DIR = Path("content/games")
 
@@ -94,7 +95,9 @@ def frontmatter(g, gid):
 
 
 def main():
-    games = json.loads(MASTER.read_text(encoding="utf-8"))
+    src = MASTER_MERGED if MASTER_MERGED.exists() else MASTER
+    games = json.loads(src.read_text(encoding="utf-8"))
+    print(f"source: {src}")
     registry = load_registry()
     ids = registry["ids"]
 
