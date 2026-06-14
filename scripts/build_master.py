@@ -15,6 +15,9 @@ RWV = Path("derived/rwv-games.json")
 REGIONS = Path("data/developer-regions.json")
 OMEGA = Path("derived/omega-threads.json")
 FANDOM = Path("derived/fandom-games.json")
+CHIU_IMG_MANIFEST = Path("raw/chiuinan/img/screenshots-manifest.jsonl")
+RWV_IMG_MANIFEST = Path("raw/rwv/img/covers-manifest.jsonl")
+FANDOM_IMG_MANIFEST = Path("raw/fandom/img/images-manifest.jsonl")
 OUT = Path("derived/master-list.json")
 CHINESE_REGIONS = {"TW", "HK", "CN", "MO"}
 
@@ -37,6 +40,20 @@ def strip_edition(s: str) -> str:
 
 def no_digits(s: str) -> str:
     return re.sub(r"\d+", "", s)
+
+
+def read_manifest(path):
+    """Yield records of a downloaded-images manifest with a successful status."""
+    if not path.exists():
+        return []
+    out = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        r = json.loads(line)
+        if r.get("status") in ("ok", "cached"):
+            out.append(r)
+    return out
 
 
 def has_cjk(s) -> bool:
@@ -93,6 +110,13 @@ def main():
                  for r, s in zip(omega, to_simplified([r["name"] for r in omega]))}
     fandom_idx = {norm(s): r["fandom_title"]
                   for r, s in zip(fandom, to_simplified([r["name"] for r in fandom]))}
+
+    # local image indexes (from download manifests; only files actually present)
+    chiu_imgs = {}
+    for r in read_manifest(CHIU_IMG_MANIFEST):
+        chiu_imgs.setdefault(r["title_zh"], []).append(r["local_path"])
+    rwv_cover_local = {r["identifier"]: r["local_path"] for r in read_manifest(RWV_IMG_MANIFEST)}
+    fandom_img_local = {r["fandom_title"]: r["local_path"] for r in read_manifest(FANDOM_IMG_MANIFEST)}
 
     # rwv lookup tables (keys are 簡中, already simplified)
     rwv_exact, rwv_edstrip = {}, {}
@@ -156,6 +180,7 @@ def main():
             "cover": None,
             "external_links": {},
             "references": {},
+            "images": {},
             "provenance": list(g["provenance"]),
         }
         nk = norm(simp)
@@ -165,6 +190,11 @@ def main():
         if nk in fandom_idx:
             entry["references"]["fandom"] = fandom_idx[nk]
             entry["provenance"].append("fandom@cn-dos-games")
+            if fandom_idx[nk] in fandom_img_local:
+                entry["images"]["fandom"] = fandom_img_local[fandom_idx[nk]]
+        # local screenshots (chiuinan, matched by exact title)
+        if g["title_zh"] in chiu_imgs:
+            entry["images"]["chiuinan"] = chiu_imgs[g["title_zh"]]
         if r:
             matched += 1
             entry["cover"] = r["cover"]
@@ -172,6 +202,8 @@ def main():
             entry["rwv_source_id"] = r["source_id"]
             entry["rwv_match"] = tier
             entry["provenance"] += r["provenance"]
+            if r["source_id"] in rwv_cover_local:
+                entry["images"]["rwv_cover"] = rwv_cover_local[r["source_id"]]
         master.append(entry)
 
     OUT.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -187,6 +219,10 @@ def main():
     print(f"references: omega={sum(1 for e in master if 'omega' in e['references'])}"
           f"  fandom={sum(1 for e in master if 'fandom' in e['references'])}"
           f"  any={sum(1 for e in master if e['references'])}")
+    print(f"images: chiuinan={sum(1 for e in master if 'chiuinan' in e['images'])}"
+          f"  rwv_cover={sum(1 for e in master if 'rwv_cover' in e['images'])}"
+          f"  fandom={sum(1 for e in master if 'fandom' in e['images'])}"
+          f"  any={sum(1 for e in master if e['images'])}")
 
 
 if __name__ == "__main__":
