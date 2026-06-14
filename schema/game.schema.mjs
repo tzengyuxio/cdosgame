@@ -1,0 +1,59 @@
+// Zod schema for a Chinese DOS game catalog entry.
+//
+// Portable to Astro Content Collections: in src/content.config.ts do
+//   import { z, defineCollection } from 'astro:content';
+//   import { gameSchema } from '../../schema/game.schema.mjs';
+//   export const collections = { games: defineCollection({ type: 'content', schema: gameSchema }) };
+// (Astro re-exports zod, so the shape below transfers unchanged.)
+import { z } from "zod";
+
+export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
+export const GENRES = [
+  "回合角色扮演", "即時角色扮演", "策略角色扮演", "冒險解謎", "故事劇情",
+  "計策戰略", "模擬養成", "教育養成", "大富翁", "射擊打鬥", "運動動作",
+];
+
+export const gameSchema = z.object({
+  // identity
+  id: z.string().regex(/^cdg-\d{4,}$/),
+  title_zh: z.string().min(1),
+  title_aliases: z.array(z.string()).default([]),
+  slug: z.string().nullable().default(null),
+
+  // release facts
+  year: z.number().int().min(1970).max(2030).nullable(),
+  developer: z.string().nullable(),
+  developer_region: z.enum(REGIONS).nullable(),
+  publisher_tw: z.array(z.string()).default([]),
+
+  // classification
+  content_language: z.enum(["zh", "en"]).nullable(),
+  genre: z.enum(GENRES).nullable(),
+  localization_level: z.enum(["A", "B", "D", "foreign"]).nullable(),
+
+  // chiuinan-sourced descriptors
+  size: z.string().nullable(),
+  platform_note: z.string().nullable(),
+  catalog_id: z.string().nullable(),
+
+  // media & links
+  cover: z.string().nullable().default(null),
+  images: z.object({
+    chiuinan: z.array(z.string()).optional(),
+    rwv_cover: z.string().optional(),
+    fandom: z.string().optional(),
+  }).default({}),
+  references: z.object({
+    omega: z.string().url().optional(),
+    fandom: z.string().optional(),
+  }).default({}),
+  external_links: z.record(z.string()).default({}),
+
+  // provenance & derivation metadata
+  provenance: z.array(z.string()).min(1),
+  localization_basis: z.string().optional(),
+  rwv_source_id: z.string().optional(),
+  rwv_match: z.enum(["exact", "edition", "alt"]).optional(),
+});
+
+export default gameSchema;

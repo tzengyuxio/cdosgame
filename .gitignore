@@ -21,3 +21,4 @@ raw/**/*.png
 raw/**/*.jpg
 raw/**/*.jpeg
 raw/**/*.gif
+node_modules/

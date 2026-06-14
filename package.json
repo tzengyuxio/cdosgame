@@ -1,0 +1,14 @@
+{
+  "name": "cdosgame",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "中文 DOS 遊戲資料庫 — platform-neutral catalog",
+  "scripts": {
+    "validate": "node scripts/validate_content.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "zod": "^3.23.0"
+  }
+}

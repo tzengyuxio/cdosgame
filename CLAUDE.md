@@ -16,18 +16,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 目前狀態
 
-尚無程式碼、無 build/lint/test、尚未 `git init`。
+**策略：collect-first（先收料，再反推 schema）。** 已從來源站抓清單/資料/圖片到本地，比對拼湊主清單，再反推出正式 schema。
 
-**策略：collect-first（先收料，再反推 schema）。** 不同於 kickoff 原本的「先立規則再填資料」——使用者拍板改成：先從來源站抓清單／基本資料／介紹／圖片到本地，比對拼湊出主清單，**再從實際收到的資料反推 schema**（schema-on-read）。
+進度：
+1. `scope.md` — 收錄準則（✅ 已拍板）
+2. `sources.md` — 來源盤點/分級/狀態（✅）；`derived/cross-reference.md` — 多源覆蓋報告
+3. `schema.md` + `schema/game.schema.mjs`（Zod）— ✅ schema-on-read 定案
+4. `content/games/cdg-NNNN.md` — ✅ **3834 款 catalog**（每款一檔，YAML frontmatter，Astro Content Collections 佈局），全數通過 Zod 驗證
 
-文件進度：
-1. `scope.md` — 收錄準則（✅ 第一輪決議完成，見該檔）
-2. `sources.md` — 種子來源盤點 + 可信度/可擷取性分級 + 落地慣例（✅ 草稿完成）
-3. `schema.md` / `schema.json` — **延後**，待收到一定量資料後再反推
+### Pipeline（皆冪等、可重跑）
 
-收料的落地慣例（raw/derived 分離、provenance、刪檔陷阱）見 `sources.md` 末段。
+`scripts/`：`parse_chiuinan` → `enrich_chiuinan` → `parse_extra_sources` → `map_chiuinan_screenshots` → `build_master`（產 `derived/master-list.json`）→ `build_content`（產 `content/games/*.md` + `data/id-registry.json`）。
+圖片：`fetch_rwv_covers` / `fetch_fandom_images` / `fetch_chiuinan_screenshots`（下載到 `raw/**/img/`，gitignored，附 manifest）。
+驗證：`npm run validate`（Zod 驗 content frontmatter）。
 
-**原則：每筆資料可查證、附 provenance；範圍界定的決定見 `scope.md`，已拍板。**
+### 關鍵慣例
+
+- **raw（原封）/ derived（提煉）/ content（catalog）** 三層；raw 圖檔與 `node_modules` gitignored，manifest 與 content md 進版控。
+- **id 穩定**：`data/id-registry.json` append-only，key 用 catalog_id 或 title+developer（不用會變動的 year）。
+- 收料落地慣例（provenance、刪檔陷阱）見 `sources.md` 末段。
+
+**原則：每筆可查證、附 provenance；台灣產品導向（catalog 只留台灣發行/代理）；缺資料用 null 不剔除。**
 
 ## 範圍界定（待決議的維度）
 

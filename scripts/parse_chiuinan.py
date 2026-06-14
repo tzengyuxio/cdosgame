@@ -136,7 +136,7 @@ def main():
             "title_zh": zh,
             "title_aliases": aliases,
             "rating": row[1].strip() or None,
-            "year": int(year) if year.isdigit() else (year or None),
+            "year": int(year) if year.isdigit() else None,
             "developer": developer,
             "publisher_tw": publisher_tw,
             "publisher_original": publisher_original,
