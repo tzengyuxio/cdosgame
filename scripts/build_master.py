@@ -16,9 +16,11 @@ REGIONS = Path("data/developer-regions.json")
 OMEGA = Path("derived/omega-threads.json")
 FANDOM = Path("derived/fandom-games.json")
 SOFTWORLD = Path("derived/softworld-games.json")
+OFFLINELIST = Path("derived/offlinelist-games.json")
 CHIU_IMG_MANIFEST = Path("raw/chiuinan/img/screenshots-manifest.jsonl")
 RWV_IMG_MANIFEST = Path("raw/rwv/img/covers-manifest.jsonl")
 FANDOM_IMG_MANIFEST = Path("raw/fandom/img/images-manifest.jsonl")
+OFFLINELIST_IMG_MANIFEST = Path("raw/offlinelist/img/screenshots-manifest.jsonl")
 OUT = Path("derived/master-list.json")
 CHINESE_REGIONS = {"TW", "HK", "CN", "MO"}
 
@@ -121,6 +123,17 @@ def main():
     fandom_idx = {norm(s): r["fandom_title"]
                   for r, s in zip(fandom, to_simplified([r["name"] for r in fandom]))}
 
+    # offlinelist (cndosgames): names are already 簡中. Index records membership
+    # (-> provenance tag) and maps to local screenshots by imageNumber.
+    offlinelist = json.loads(OFFLINELIST.read_text(encoding="utf-8"))
+    ol_img_by_num = {}
+    for r in read_manifest(OFFLINELIST_IMG_MANIFEST):
+        if r.get("image_number") is not None:
+            ol_img_by_num.setdefault(r["image_number"], []).append(r["local_path"])
+    offlinelist_idx = {}   # norm(簡名) -> screenshot local paths (or [])
+    for g in offlinelist:
+        offlinelist_idx[norm(g["name"])] = ol_img_by_num.get(g.get("image_number"), [])
+
     # local image indexes (from download manifests; only files actually present)
     chiu_imgs = {}
     for r in read_manifest(CHIU_IMG_MANIFEST):
@@ -211,6 +224,10 @@ def main():
             entry["provenance"].append("fandom@cn-dos-games")
             if fandom_idx[nk] in fandom_img_local:
                 entry["images"]["fandom"] = fandom_img_local[fandom_idx[nk]]
+        if nk in offlinelist_idx:
+            entry["provenance"].append("offlinelist@cndosgames")
+            if offlinelist_idx[nk]:
+                entry["images"]["offlinelist"] = offlinelist_idx[nk]
         # softworld (early unofficial agency): match by folded zh title or alias
         sw = sw_idx.get(foldnorm(g["title_zh"]))
         if not sw:
@@ -252,9 +269,12 @@ def main():
     print(f"references: omega={sum(1 for e in master if 'omega' in e['references'])}"
           f"  fandom={sum(1 for e in master if 'fandom' in e['references'])}"
           f"  any={sum(1 for e in master if e['references'])}")
+    ol_prov = sum(1 for e in master if "offlinelist@cndosgames" in e["provenance"])
+    print(f"offlinelist provenance-tagged: {ol_prov}")
     print(f"images: chiuinan={sum(1 for e in master if 'chiuinan' in e['images'])}"
           f"  rwv_cover={sum(1 for e in master if 'rwv_cover' in e['images'])}"
           f"  fandom={sum(1 for e in master if 'fandom' in e['images'])}"
+          f"  offlinelist={sum(1 for e in master if 'offlinelist' in e['images'])}"
           f"  any={sum(1 for e in master if e['images'])}")
 
 

@@ -1,10 +1,10 @@
 # Astro 站台開發須知（handoff）
 
-開 Astro 站台前必讀。資料庫已就緒（4025 款），這份記錄踩坑與接法。
+開 Astro 站台前必讀。資料庫已就緒（4144 款），這份記錄踩坑與接法。
 
 ## 現狀快照
 
-- **catalog**：`content/games/cdg-NNNN.md`，**4025 款**，YAML frontmatter，全數通過 Zod。
+- **catalog**：`content/games/cdg-NNNN.md`，**4144 款**，YAML frontmatter，全數通過 Zod。
 - **schema**：`schema/game.schema.mjs`（Zod）+ `schema.md`（欄位文件）。
 - **id 規則**：`docs/id-policy.md`（cd<type>-NNNN、一 id 一款、registry 真相）。
 - **pipeline**：`build_master → merge_sources --write → build_content`（見 CLAUDE.md）。
@@ -57,7 +57,7 @@ export const collections = {
   const all = await getCollection('games');
   const visible = import.meta.env.PROD ? all.filter(e => e.data.published) : all;
   ```
-- 目前 4025 筆**全為 false**（沒東西會上 prod，直到你逐步審核發布）。要整批發佈已驗證的骨幹可一次寫進 publish-state.json。
+- 目前 4144 筆**全為 false**（沒東西會上 prod，直到你逐步審核發布）。要整批發佈已驗證的骨幹可一次寫進 publish-state.json。
 
 ## 資料特性（UI 要能容錯）
 

@@ -22,13 +22,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 1. `scope.md` — 收錄準則（✅ 已拍板）
 2. `sources.md` — 來源盤點/分級/狀態（✅）；`derived/cross-reference.md` — 多源覆蓋報告
 3. `schema.md` + `schema/game.schema.mjs`（Zod）— ✅ schema-on-read 定案
-4. `content/games/cdg-NNNN.md` — ✅ **3834 款 catalog**（每款一檔，YAML frontmatter，Astro Content Collections 佈局），全數通過 Zod 驗證
+4. `content/games/cdg-NNNN.md` — ✅ **4144 款 catalog**（每款一檔，YAML frontmatter，Astro Content Collections 佈局），全數通過 Zod 驗證
 
 ### Pipeline（皆冪等、可重跑）
 
-`scripts/`：`parse_chiuinan` → `enrich_chiuinan` → `parse_extra_sources` / `parse_softworld` → `map_chiuinan_screenshots` → `build_master`（產 `derived/master-list.json`）→ `merge_sources --write`（讀 `data/merge-decisions.json`，產 `derived/master-list.merged.json` + `merge-review.json`）→ `build_content`（讀 merged 優先，產 `content/games/*.md` + `data/id-registry.json`）。
+`scripts/`：`parse_chiuinan` → `enrich_chiuinan` → `parse_extra_sources` / `parse_softworld` / `parse_offlinelist` → `map_chiuinan_screenshots` → `build_master`（產 `derived/master-list.json`）→ `merge_sources --write`（讀 `data/merge-decisions.json`，產 `derived/master-list.merged.json` + `merge-review.json`）→ `build_content`（讀 merged 優先，產 `content/games/*.md` + `data/id-registry.json`）。
 合併審閱：`review_merge.py`（互動 CLI，決策存 `data/merge-decisions.json`）。
-圖片：`fetch_rwv_covers` / `fetch_fandom_images` / `fetch_chiuinan_screenshots`（下載到 `raw/**/img/`，gitignored，附 manifest）。
+圖片：`fetch_rwv_covers` / `fetch_fandom_images` / `fetch_chiuinan_screenshots` / `fetch_offlinelist_images`（下載到 `raw/**/img/`，gitignored，附 manifest）。
 驗證：`npm run validate`（Zod 驗 content frontmatter）。
 
 ### 關鍵慣例

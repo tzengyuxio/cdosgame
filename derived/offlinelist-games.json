@@ -1,0 +1,8678 @@
+[
+  {
+    "name": "象棋",
+    "publisher": "终结者资讯",
+    "source_rom": "终结者资讯",
+    "year": 1985,
+    "image_number": 1,
+    "release_number": 1,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "象棋"
+  },
+  {
+    "name": "渔歌麻将",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1986,
+    "image_number": 2,
+    "release_number": 2,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "漁歌麻將"
+  },
+  {
+    "name": "台湾麻将",
+    "publisher": "第三波",
+    "source_rom": "陈精诚",
+    "year": 1987,
+    "image_number": 3,
+    "release_number": 3,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "臺灣麻將"
+  },
+  {
+    "name": "象棋大师",
+    "publisher": "第三波",
+    "source_rom": "虞希舜",
+    "year": 1987,
+    "image_number": 4,
+    "release_number": 4,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "象棋大師"
+  },
+  {
+    "name": "金朴克",
+    "publisher": "第三波",
+    "source_rom": "陈春霖",
+    "year": 1987,
+    "image_number": 5,
+    "release_number": 6,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金樸克"
+  },
+  {
+    "name": "成吉思汗",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1988,
+    "image_number": 6,
+    "release_number": 6,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "成吉思汗"
+  },
+  {
+    "name": "五子棋",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1988,
+    "image_number": 7,
+    "release_number": 7,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "五子棋"
+  },
+  {
+    "name": "暗棋",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1988,
+    "image_number": 8,
+    "release_number": 8,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "暗棋"
+  },
+  {
+    "name": "灭",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1989,
+    "image_number": 9,
+    "release_number": 9,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "滅"
+  },
+  {
+    "name": "欢乐接龙",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1989,
+    "image_number": 10,
+    "release_number": 10,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歡樂接龍"
+  },
+  {
+    "name": "大富翁",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1989,
+    "image_number": 11,
+    "release_number": 11,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁"
+  },
+  {
+    "name": "美少女扑克",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1989,
+    "image_number": 12,
+    "release_number": 12,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女撲克"
+  },
+  {
+    "name": "水浒传-天命之誓",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1989,
+    "image_number": 13,
+    "release_number": 13,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水滸傳-天命之誓"
+  },
+  {
+    "name": "魔术拼图",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1989,
+    "image_number": 14,
+    "release_number": 14,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔術拼圖"
+  },
+  {
+    "name": "异形方块",
+    "publisher": "大宇",
+    "source_rom": "大宇 龙族",
+    "year": 1989,
+    "image_number": 15,
+    "release_number": 15,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異形方塊"
+  },
+  {
+    "name": "水果盘",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1989,
+    "image_number": 16,
+    "release_number": 16,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水果盤"
+  },
+  {
+    "name": "勇者斗恶龙",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1989,
+    "image_number": 17,
+    "release_number": 17,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇者鬥惡龍"
+  },
+  {
+    "name": "特级大师",
+    "publisher": "第三波",
+    "source_rom": "虞希舜",
+    "year": 1989,
+    "image_number": 18,
+    "release_number": 18,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "特級大師"
+  },
+  {
+    "name": "逆袭",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1989,
+    "image_number": 19,
+    "release_number": 19,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "逆襲"
+  },
+  {
+    "name": "幻魔传说",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1989,
+    "image_number": 20,
+    "release_number": 20,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻魔傳說"
+  },
+  {
+    "name": "龙女",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1989,
+    "image_number": 21,
+    "release_number": 21,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍女"
+  },
+  {
+    "name": "RS-2",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 22,
+    "release_number": 22,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "RS-2"
+  },
+  {
+    "name": "七笑拳",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1990,
+    "image_number": 23,
+    "release_number": 23,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七笑拳"
+  },
+  {
+    "name": "仓库世家-精彩篇",
+    "publisher": "大宇",
+    "source_rom": "方格子",
+    "year": 1990,
+    "image_number": 24,
+    "release_number": 24,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "倉庫世家-精彩篇"
+  },
+  {
+    "name": "决战中国围棋",
+    "publisher": "欧风",
+    "source_rom": "欧风",
+    "year": 1990,
+    "image_number": 25,
+    "release_number": 25,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰中國圍棋"
+  },
+  {
+    "name": "决战俄罗斯",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 26,
+    "release_number": 26,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰俄羅斯"
+  },
+  {
+    "name": "勇者斗恶龙2",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1990,
+    "image_number": 27,
+    "release_number": 27,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇者鬥惡龍2"
+  },
+  {
+    "name": "四川省",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 28,
+    "release_number": 28,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "四川省"
+  },
+  {
+    "name": "大富翁环游世界",
+    "publisher": "第三波",
+    "source_rom": "定基",
+    "year": 1990,
+    "image_number": 29,
+    "release_number": 29,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁環遊世界"
+  },
+  {
+    "name": "拂晓攻击-决战中国海之役",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 30,
+    "release_number": 30,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "拂曉攻擊-決戰中國海之役"
+  },
+  {
+    "name": "拳形岩",
+    "publisher": "天信",
+    "source_rom": "天信",
+    "year": 1990,
+    "image_number": 31,
+    "release_number": 31,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "拳形巖"
+  },
+  {
+    "name": "智商180",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1990,
+    "image_number": 32,
+    "release_number": 32,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "智商180"
+  },
+  {
+    "name": "楚汉之争",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 33,
+    "release_number": 33,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "楚漢之爭"
+  },
+  {
+    "name": "欢乐麻将",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 34,
+    "release_number": 34,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歡樂麻將"
+  },
+  {
+    "name": "赌神",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 35,
+    "release_number": 35,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "賭神"
+  },
+  {
+    "name": "超级桥牌",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 36,
+    "release_number": 36,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級橋牌"
+  },
+  {
+    "name": "轩辕剑",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1990,
+    "image_number": 37,
+    "release_number": 37,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅劍"
+  },
+  {
+    "name": "风云麻将",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1990,
+    "image_number": 38,
+    "release_number": 38,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "風雲麻將"
+  },
+  {
+    "name": "魔术彩球",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 39,
+    "release_number": 39,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔術綵球"
+  },
+  {
+    "name": "魔点",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 40,
+    "release_number": 40,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔點"
+  },
+  {
+    "name": "麻雀学园",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1990,
+    "image_number": 41,
+    "release_number": 41,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻雀學園"
+  },
+  {
+    "name": "吞食天地 三国外传",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 42,
+    "release_number": 42,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "吞食天地 三國外傳"
+  },
+  {
+    "name": "三国志II",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1991,
+    "image_number": 43,
+    "release_number": 43,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志II"
+  },
+  {
+    "name": "三国演义",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 44,
+    "release_number": 44,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國演義"
+  },
+  {
+    "name": "三国演义 加强版",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 45,
+    "release_number": 45,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國演義 加強版"
+  },
+  {
+    "name": "侠客英雄传",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1991,
+    "image_number": 46,
+    "release_number": 46,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠客英雄傳"
+  },
+  {
+    "name": "决战台湾16张麻将",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1991,
+    "image_number": 47,
+    "release_number": 47,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰臺灣16張麻將"
+  },
+  {
+    "name": "圣域传说",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 48,
+    "release_number": 48,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖域傳說"
+  },
+  {
+    "name": "大航海时代",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1991,
+    "image_number": 49,
+    "release_number": 49,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大航海時代"
+  },
+  {
+    "name": "拱猪",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1991,
+    "image_number": 50,
+    "release_number": 50,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "拱豬"
+  },
+  {
+    "name": "最后武力",
+    "publisher": "大宇",
+    "source_rom": "大宇 龙群",
+    "year": 1991,
+    "image_number": 51,
+    "release_number": 51,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "最後武力"
+  },
+  {
+    "name": "电脑魔域",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1991,
+    "image_number": 52,
+    "release_number": 52,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "電腦魔域"
+  },
+  {
+    "name": "破坏神传说",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1991,
+    "image_number": 53,
+    "release_number": 53,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "破壞神傳說"
+  },
+  {
+    "name": "神州八剑",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 54,
+    "release_number": 54,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神州八劍"
+  },
+  {
+    "name": "美女拳",
+    "publisher": "寻梦园",
+    "source_rom": "寻梦园",
+    "year": 1991,
+    "image_number": 55,
+    "release_number": 55,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女拳"
+  },
+  {
+    "name": "荡魔平妖志",
+    "publisher": "智冠",
+    "source_rom": "Abstrax",
+    "year": 1991,
+    "image_number": 56,
+    "release_number": 56,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "蕩魔平妖志"
+  },
+  {
+    "name": "银河帝国传",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 57,
+    "release_number": 57,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河帝國傳"
+  },
+  {
+    "name": "陆军棋",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1991,
+    "image_number": 58,
+    "release_number": 58,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "陸軍棋"
+  },
+  {
+    "name": "雷射坦克",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1991,
+    "image_number": 59,
+    "release_number": 59,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "雷射坦克"
+  },
+  {
+    "name": "魔法皇冠",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1991,
+    "image_number": 60,
+    "release_number": 60,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法皇冠"
+  },
+  {
+    "name": "MH28雷火战机",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 61,
+    "release_number": 61,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "MH28雷火戰機"
+  },
+  {
+    "name": "Super大战略DOS/V",
+    "publisher": "琪珊",
+    "source_rom": "SystemSoft",
+    "year": 1992,
+    "image_number": 62,
+    "release_number": 62,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "Super大戰略DOS/V"
+  },
+  {
+    "name": "三国志III",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1992,
+    "image_number": 63,
+    "release_number": 63,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志III"
+  },
+  {
+    "name": "侠影记",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 64,
+    "release_number": 64,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠影記"
+  },
+  {
+    "name": "凯兰迪亚传奇",
+    "publisher": "第三波",
+    "source_rom": "Westwood",
+    "year": 1992,
+    "image_number": 65,
+    "release_number": 65,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "凱蘭迪亞傳奇"
+  },
+  {
+    "name": "危城争霸",
+    "publisher": "精讯",
+    "source_rom": "Mindcraft",
+    "year": 1992,
+    "image_number": 66,
+    "release_number": 66,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "危城爭霸"
+  },
+  {
+    "name": "台北 梦幻几何",
+    "publisher": "资策",
+    "source_rom": "花与蝴蝶",
+    "year": 1992,
+    "image_number": 67,
+    "release_number": 67,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "臺北 夢幻幾何"
+  },
+  {
+    "name": "台海防卫战",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1992,
+    "image_number": 68,
+    "release_number": 68,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "臺海防衛戰"
+  },
+  {
+    "name": "四川省II",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 69,
+    "release_number": 69,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "四川省II"
+  },
+  {
+    "name": "四玲珑",
+    "publisher": "寻梦园",
+    "source_rom": "寻梦园",
+    "year": 1992,
+    "image_number": 70,
+    "release_number": 70,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "四玲瓏"
+  },
+  {
+    "name": "圣经启示录",
+    "publisher": "智冠",
+    "source_rom": "Everbright",
+    "year": 1992,
+    "image_number": 71,
+    "release_number": 71,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖經啟示錄"
+  },
+  {
+    "name": "夏日物语",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1992,
+    "image_number": 72,
+    "release_number": 72,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "夏日物語"
+  },
+  {
+    "name": "大战略",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1992,
+    "image_number": 73,
+    "release_number": 73,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大戰略"
+  },
+  {
+    "name": "大时代的故事",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1992,
+    "image_number": 74,
+    "release_number": 74,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大時代的故事"
+  },
+  {
+    "name": "天下统一",
+    "publisher": "琪珊",
+    "source_rom": "SystemSoft",
+    "year": 1992,
+    "image_number": 75,
+    "release_number": 75,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天下統一"
+  },
+  {
+    "name": "太阁立志传",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1992,
+    "image_number": 76,
+    "release_number": 76,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "太閣立志傳"
+  },
+  {
+    "name": "奇人黑桃2",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1992,
+    "image_number": 77,
+    "release_number": 77,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "奇人黑桃2"
+  },
+  {
+    "name": "如来金刚拳传奇",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 78,
+    "release_number": 78,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "如來金剛拳傳奇"
+  },
+  {
+    "name": "射波",
+    "publisher": "安华",
+    "source_rom": "安华",
+    "year": 1992,
+    "image_number": 79,
+    "release_number": 79,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "射波"
+  },
+  {
+    "name": "帝国的光荣",
+    "publisher": "资策",
+    "source_rom": "资策",
+    "year": 1992,
+    "image_number": 80,
+    "release_number": 80,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "帝國的光榮"
+  },
+  {
+    "name": "幸福人生",
+    "publisher": "资策",
+    "source_rom": "资策",
+    "year": 1992,
+    "image_number": 81,
+    "release_number": 81,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幸福人生"
+  },
+  {
+    "name": "战国策",
+    "publisher": "大宇",
+    "source_rom": "富进",
+    "year": 1992,
+    "image_number": 82,
+    "release_number": 82,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰國策"
+  },
+  {
+    "name": "拿破仑",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1992,
+    "image_number": 83,
+    "release_number": 83,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "拿破崙"
+  },
+  {
+    "name": "撞球补习班",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 84,
+    "release_number": 84,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "撞球補習班"
+  },
+  {
+    "name": "新美女拳",
+    "publisher": "花与蝴蝶",
+    "source_rom": "花与蝴蝶",
+    "year": 1992,
+    "image_number": 85,
+    "release_number": 85,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "新美女拳"
+  },
+  {
+    "name": "春秋争霸传",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1992,
+    "image_number": 86,
+    "release_number": 86,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "春秋爭霸傳"
+  },
+  {
+    "name": "楚汉之争2",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 87,
+    "release_number": 87,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "楚漢之爭2"
+  },
+  {
+    "name": "模拟台北",
+    "publisher": "联邦",
+    "source_rom": "联邦",
+    "year": 1992,
+    "image_number": 88,
+    "release_number": 88,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬臺北"
+  },
+  {
+    "name": "欢乐城市",
+    "publisher": "精讯",
+    "source_rom": "琪薇",
+    "year": 1992,
+    "image_number": 89,
+    "release_number": 89,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歡樂城市"
+  },
+  {
+    "name": "沙丘魔堡",
+    "publisher": "智冠",
+    "source_rom": "Westwood",
+    "year": 1992,
+    "image_number": 90,
+    "release_number": 90,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "沙丘魔堡"
+  },
+  {
+    "name": "激斗战士",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1992,
+    "image_number": 91,
+    "release_number": 91,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "激鬥戰士"
+  },
+  {
+    "name": "爆笑出击",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1992,
+    "image_number": 92,
+    "release_number": 92,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "爆笑出擊"
+  },
+  {
+    "name": "眼镜蛇任务",
+    "publisher": "微波",
+    "source_rom": "微波",
+    "year": 1992,
+    "image_number": 93,
+    "release_number": 93,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "眼鏡蛇任務"
+  },
+  {
+    "name": "禁忌游戏",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1992,
+    "image_number": 94,
+    "release_number": 94,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "禁忌遊戲"
+  },
+  {
+    "name": "福尔摩莎 本国地理篇",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1992,
+    "image_number": 95,
+    "release_number": 95,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "福爾摩莎 本國地理篇"
+  },
+  {
+    "name": "第十八空降旅",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1992,
+    "image_number": 96,
+    "release_number": 96,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "第十八空降旅"
+  },
+  {
+    "name": "纵横七海",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1992,
+    "image_number": 97,
+    "release_number": 97,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "縱橫七海"
+  },
+  {
+    "name": "罗宋学园",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1992,
+    "image_number": 98,
+    "release_number": 98,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "羅宋學園"
+  },
+  {
+    "name": "罗宋杜鹃窝",
+    "publisher": "寻梦园",
+    "source_rom": "寻梦园",
+    "year": 1992,
+    "image_number": 99,
+    "release_number": 99,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "羅宋杜鵑窩"
+  },
+  {
+    "name": "美女梭哈",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 100,
+    "release_number": 100,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女梭哈"
+  },
+  {
+    "name": "美少女梦工厂",
+    "publisher": "精讯",
+    "source_rom": "Gainax",
+    "year": 1992,
+    "image_number": 101,
+    "release_number": 101,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女夢工廠"
+  },
+  {
+    "name": "苍狼与白鹿之元朝秘史",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1992,
+    "image_number": 102,
+    "release_number": 102,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "蒼狼與白鹿之元朝秘史"
+  },
+  {
+    "name": "象棋大师3将族",
+    "publisher": "第三波",
+    "source_rom": "光谱",
+    "year": 1992,
+    "image_number": 103,
+    "release_number": 103,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "象棋大師3將族"
+  },
+  {
+    "name": "超人战记",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 104,
+    "release_number": 104,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超人戰記"
+  },
+  {
+    "name": "超时空麻将-魔石神姬传",
+    "publisher": "联邦",
+    "source_rom": "联邦",
+    "year": 1992,
+    "image_number": 105,
+    "release_number": 105,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空麻將-魔石神姬傳"
+  },
+  {
+    "name": "超级学园麻雀",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1992,
+    "image_number": 106,
+    "release_number": 106,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級學園麻雀"
+  },
+  {
+    "name": "邪神传说",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1992,
+    "image_number": 107,
+    "release_number": 107,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "邪神傳說"
+  },
+  {
+    "name": "铁路A计画",
+    "publisher": "智冠",
+    "source_rom": "Artdink",
+    "year": 1992,
+    "image_number": 108,
+    "release_number": 108,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鐵路A計畫"
+  },
+  {
+    "name": "银河舰队",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1992,
+    "image_number": 109,
+    "release_number": 109,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河艦隊"
+  },
+  {
+    "name": "隋唐群雄传",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1992,
+    "image_number": 110,
+    "release_number": 110,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "隋唐群雄傳"
+  },
+  {
+    "name": "香港麻将",
+    "publisher": "智冠",
+    "source_rom": "九龙",
+    "year": 1992,
+    "image_number": 111,
+    "release_number": 111,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "香港麻將"
+  },
+  {
+    "name": "魔异入侵",
+    "publisher": "大宇",
+    "source_rom": "富进",
+    "year": 1992,
+    "image_number": 112,
+    "release_number": 112,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔異入侵"
+  },
+  {
+    "name": "魔法门3幻岛历险记",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1992,
+    "image_number": 113,
+    "release_number": 113,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門3幻島歷險記"
+  },
+  {
+    "name": "魔法门4星云之谜",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1992,
+    "image_number": 114,
+    "release_number": 114,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門4星雲之謎"
+  },
+  {
+    "name": "魔界召唤",
+    "publisher": "智冠",
+    "source_rom": "SSI",
+    "year": 1992,
+    "image_number": 115,
+    "release_number": 115,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔界召喚"
+  },
+  {
+    "name": "魔眼杀机2-隐月传奇",
+    "publisher": "智冠",
+    "source_rom": "Westwood",
+    "year": 1992,
+    "image_number": 116,
+    "release_number": 116,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔眼殺機2-隱月傳奇"
+  },
+  {
+    "name": "魔神战记",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1992,
+    "image_number": 117,
+    "release_number": 117,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔神戰記"
+  },
+  {
+    "name": "黑暗之蛊",
+    "publisher": "智冠",
+    "source_rom": "Cyberdreams",
+    "year": 1992,
+    "image_number": 118,
+    "release_number": 118,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黑暗之蠱"
+  },
+  {
+    "name": "龙召还娘",
+    "publisher": "欢乐盒",
+    "source_rom": "Gimmick House",
+    "year": 1992,
+    "image_number": 119,
+    "release_number": 119,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍召還娘"
+  },
+  {
+    "name": "97超少女-连线水果盘",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1993,
+    "image_number": 158,
+    "release_number": 158,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "97超少女-連線水果盤"
+  },
+  {
+    "name": "万里长城-边城奇侠",
+    "publisher": "龙缘",
+    "source_rom": "龙缘",
+    "year": 1993,
+    "image_number": 132,
+    "release_number": 132,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "萬里長城-邊城奇俠"
+  },
+  {
+    "name": "三国志-武将争霸",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1993,
+    "image_number": 142,
+    "release_number": 142,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志-武將爭霸"
+  },
+  {
+    "name": "三界谕-邦沛之迷",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1993,
+    "image_number": 128,
+    "release_number": 128,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三界諭-邦沛之迷"
+  },
+  {
+    "name": "上古神兵",
+    "publisher": "智冠",
+    "source_rom": "QQP",
+    "year": 1993,
+    "image_number": 180,
+    "release_number": 180,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "上古神兵"
+  },
+  {
+    "name": "世界桥牌",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1993,
+    "image_number": 161,
+    "release_number": 161,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "世界橋牌"
+  },
+  {
+    "name": "中华职棒",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 182,
+    "release_number": 182,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中華職棒"
+  },
+  {
+    "name": "乱世伏魔录",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1993,
+    "image_number": 209,
+    "release_number": 209,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "亂世伏魔錄"
+  },
+  {
+    "name": "亚纪子",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1993,
+    "image_number": 148,
+    "release_number": 148,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "亞紀子"
+  },
+  {
+    "name": "伊卡斯特传说",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1993,
+    "image_number": 170,
+    "release_number": 170,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "伊卡斯特傳說"
+  },
+  {
+    "name": "伊忍道",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 172,
+    "release_number": 172,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "伊忍道"
+  },
+  {
+    "name": "信长之野望2 战国群雄传",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 129,
+    "release_number": 129,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "信長之野望2 戰國群雄傳"
+  },
+  {
+    "name": "决战大魔域",
+    "publisher": "Infocom",
+    "source_rom": "Activision",
+    "year": 1993,
+    "image_number": 165,
+    "release_number": 165,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰大魔域"
+  },
+  {
+    "name": "决战皇陵",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1993,
+    "image_number": 187,
+    "release_number": 187,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰皇陵"
+  },
+  {
+    "name": "勇士传奇",
+    "publisher": "智冠",
+    "source_rom": "SSI",
+    "year": 1993,
+    "image_number": 203,
+    "release_number": 203,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇士傳奇"
+  },
+  {
+    "name": "勇者斗恶龙3",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1993,
+    "image_number": 159,
+    "release_number": 159,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇者鬥惡龍3"
+  },
+  {
+    "name": "南宋英烈传",
+    "publisher": "资策",
+    "source_rom": "联邦",
+    "year": 1993,
+    "image_number": 140,
+    "release_number": 140,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "南宋英烈傳"
+  },
+  {
+    "name": "卡通快打",
+    "publisher": "智冠",
+    "source_rom": "family Production",
+    "year": 1993,
+    "image_number": 146,
+    "release_number": 146,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "卡通快打"
+  },
+  {
+    "name": "危城争霸-战狗",
+    "publisher": "精讯",
+    "source_rom": "Mindcraft",
+    "year": 1993,
+    "image_number": 126,
+    "release_number": 126,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "危城爭霸-戰狗"
+  },
+  {
+    "name": "吞食天地2",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 135,
+    "release_number": 135,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "吞食天地2"
+  },
+  {
+    "name": "四川省III 天府之国",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1993,
+    "image_number": 186,
+    "release_number": 186,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "四川省III 天府之國"
+  },
+  {
+    "name": "四川麻将",
+    "publisher": "寻梦园",
+    "source_rom": "寻梦园",
+    "year": 1993,
+    "image_number": 168,
+    "release_number": 168,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "四川麻將"
+  },
+  {
+    "name": "圣城劫",
+    "publisher": "精讯",
+    "source_rom": "安宝",
+    "year": 1993,
+    "image_number": 164,
+    "release_number": 164,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖城劫"
+  },
+  {
+    "name": "坦克大决战",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1993,
+    "image_number": 144,
+    "release_number": 144,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "坦克大決戰"
+  },
+  {
+    "name": "外星大富翁",
+    "publisher": "汉堂",
+    "source_rom": "LINEL",
+    "year": 1993,
+    "image_number": 181,
+    "release_number": 181,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "外星大富翁"
+  },
+  {
+    "name": "大富翁2",
+    "publisher": "大宇",
+    "source_rom": "大宇 狂徒",
+    "year": 1993,
+    "image_number": 130,
+    "release_number": 130,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁2"
+  },
+  {
+    "name": "大战略II",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1993,
+    "image_number": 143,
+    "release_number": 143,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大戰略II"
+  },
+  {
+    "name": "大明英雄传-龙腾天下",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 152,
+    "release_number": 152,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大明英雄傳-龍騰天下"
+  },
+  {
+    "name": "大航海时代2",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 195,
+    "release_number": 195,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大航海時代2"
+  },
+  {
+    "name": "天下无敌",
+    "publisher": "欢乐盒",
+    "source_rom": "Sof Try",
+    "year": 1993,
+    "image_number": 151,
+    "release_number": 151,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天下無敵"
+  },
+  {
+    "name": "天使帝国",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1993,
+    "image_number": 208,
+    "release_number": 208,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使帝國"
+  },
+  {
+    "name": "天使角力賽",
+    "publisher": "精讯",
+    "source_rom": "Greap",
+    "year": 1993,
+    "image_number": 192,
+    "release_number": 192,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使角力賽"
+  },
+  {
+    "name": "天命之战",
+    "publisher": "智冠",
+    "source_rom": "Holistic Design",
+    "year": 1993,
+    "image_number": 162,
+    "release_number": 162,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天命之戰"
+  },
+  {
+    "name": "天外剑圣录",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1993,
+    "image_number": 141,
+    "release_number": 141,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天外劍聖錄"
+  },
+  {
+    "name": "天蚕变",
+    "publisher": "Subsino",
+    "source_rom": "Subsino",
+    "year": 1993,
+    "image_number": 155,
+    "release_number": 155,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天蠶變"
+  },
+  {
+    "name": "失落的封印",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1993,
+    "image_number": 133,
+    "release_number": 133,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "失落的封印"
+  },
+  {
+    "name": "奥林匹亚桥赛",
+    "publisher": "光谱",
+    "source_rom": "QQP",
+    "year": 1993,
+    "image_number": 137,
+    "release_number": 137,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "奧林匹亞橋賽"
+  },
+  {
+    "name": "封神演义",
+    "publisher": "精讯",
+    "source_rom": "鼎康",
+    "year": 1993,
+    "image_number": 200,
+    "release_number": 200,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "封神演義"
+  },
+  {
+    "name": "射雕英雄传",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 123,
+    "release_number": 123,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "射鵰英雄傳"
+  },
+  {
+    "name": "巫术6-创世神笔之诅咒",
+    "publisher": "第三波",
+    "source_rom": "Sir-Tech",
+    "year": 1993,
+    "image_number": 210,
+    "release_number": 210,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "巫術6-創世神筆之詛咒"
+  },
+  {
+    "name": "帝国的光荣II",
+    "publisher": "资策",
+    "source_rom": "资策",
+    "year": 1993,
+    "image_number": 150,
+    "release_number": 150,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "帝國的光榮II"
+  },
+  {
+    "name": "幻兽都市-魔法大地",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1993,
+    "image_number": 136,
+    "release_number": 136,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻獸都市-魔法大地"
+  },
+  {
+    "name": "幻象雷电",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1993,
+    "image_number": 196,
+    "release_number": 196,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻象雷電"
+  },
+  {
+    "name": "异域奇兵-诸神的狙杀",
+    "publisher": "杰克豆",
+    "source_rom": "杰克豆",
+    "year": 1993,
+    "image_number": 176,
+    "release_number": 176,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異域奇兵-諸神的狙殺"
+  },
+  {
+    "name": "快打至尊",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1993,
+    "image_number": 138,
+    "release_number": 138,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "快打至尊"
+  },
+  {
+    "name": "性感战士",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1993,
+    "image_number": 169,
+    "release_number": 169,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "性感戰士"
+  },
+  {
+    "name": "恶魔禁地",
+    "publisher": "智冠",
+    "source_rom": "SSI",
+    "year": 1993,
+    "image_number": 145,
+    "release_number": 145,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "惡魔禁地"
+  },
+  {
+    "name": "战神2",
+    "publisher": "智冠",
+    "source_rom": "SSG",
+    "year": 1993,
+    "image_number": 189,
+    "release_number": 189,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰神2"
+  },
+  {
+    "name": "斗战胜佛",
+    "publisher": "骏合",
+    "source_rom": "骏合",
+    "year": 1993,
+    "image_number": 163,
+    "release_number": 163,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鬥戰勝佛"
+  },
+  {
+    "name": "方块奥运会",
+    "publisher": "资策",
+    "source_rom": "资策",
+    "year": 1993,
+    "image_number": 199,
+    "release_number": 199,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "方塊奧運會"
+  },
+  {
+    "name": "时空异变",
+    "publisher": "杰克豆",
+    "source_rom": "杰克豆",
+    "year": 1993,
+    "image_number": 193,
+    "release_number": 193,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "時空異變"
+  },
+  {
+    "name": "机甲之梦",
+    "publisher": "微波",
+    "source_rom": "微波",
+    "year": 1993,
+    "image_number": 205,
+    "release_number": 205,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "機甲之夢"
+  },
+  {
+    "name": "格斗风云",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1993,
+    "image_number": 160,
+    "release_number": 160,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "格鬥風雲"
+  },
+  {
+    "name": "模拟农场",
+    "publisher": "智冠",
+    "source_rom": "Maxis",
+    "year": 1993,
+    "image_number": 206,
+    "release_number": 206,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬農場"
+  },
+  {
+    "name": "武林奇侠传",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1993,
+    "image_number": 179,
+    "release_number": 179,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "武林奇俠傳"
+  },
+  {
+    "name": "武状元黄飞鸿",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 201,
+    "release_number": 201,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "武狀元黃飛鴻"
+  },
+  {
+    "name": "江湖外传",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1993,
+    "image_number": 156,
+    "release_number": 156,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "江湖外傳"
+  },
+  {
+    "name": "独立战争",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 177,
+    "release_number": 177,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "獨立戰爭"
+  },
+  {
+    "name": "玛丽姐妹",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 149,
+    "release_number": 149,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瑪麗姐妹"
+  },
+  {
+    "name": "疯狂主宰",
+    "publisher": "智冠",
+    "source_rom": "Sensible Software",
+    "year": 1993,
+    "image_number": 202,
+    "release_number": 202,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂主宰"
+  },
+  {
+    "name": "疯狂医院",
+    "publisher": "精讯",
+    "source_rom": "龙翔",
+    "year": 1993,
+    "image_number": 125,
+    "release_number": 125,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂醫院"
+  },
+  {
+    "name": "疯狂双响炮",
+    "publisher": "汉堂",
+    "source_rom": "亚博克电脑",
+    "year": 1993,
+    "image_number": 190,
+    "release_number": 190,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂雙響炮"
+  },
+  {
+    "name": "真红的杀意",
+    "publisher": "精讯",
+    "source_rom": "琪薇",
+    "year": 1993,
+    "image_number": 194,
+    "release_number": 194,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "真紅的殺意"
+  },
+  {
+    "name": "福尔摩斯探案",
+    "publisher": "智冠",
+    "source_rom": "电子艺界",
+    "year": 1993,
+    "image_number": 207,
+    "release_number": 207,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "福爾摩斯探案"
+  },
+  {
+    "name": "笑傲江湖",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 153,
+    "release_number": 153,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "笑傲江湖"
+  },
+  {
+    "name": "美女水果盘",
+    "publisher": "宝贝猫",
+    "source_rom": "宝贝猫",
+    "year": 1993,
+    "image_number": 173,
+    "release_number": 173,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女水果盤"
+  },
+  {
+    "name": "美女物语 Part1-日本风情篇",
+    "publisher": "上野",
+    "source_rom": "上野",
+    "year": 1993,
+    "image_number": 174,
+    "release_number": 174,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女物語 Part1-日本風情篇"
+  },
+  {
+    "name": "美女综艺大集合",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1993,
+    "image_number": 183,
+    "release_number": 183,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女綜藝大集合"
+  },
+  {
+    "name": "聊斋志异之幽谷传奇",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1993,
+    "image_number": 122,
+    "release_number": 122,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聊齋志異之幽谷傳奇"
+  },
+  {
+    "name": "航空霸业2",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 157,
+    "release_number": 157,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "航空霸業2"
+  },
+  {
+    "name": "西游记外传",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1993,
+    "image_number": 154,
+    "release_number": 154,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "西遊記外傳"
+  },
+  {
+    "name": "超级学园麻雀海外版",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1993,
+    "image_number": 121,
+    "release_number": 121,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級學園麻雀海外版"
+  },
+  {
+    "name": "超级拉霸篇",
+    "publisher": "资策",
+    "source_rom": "资策",
+    "year": 1993,
+    "image_number": 124,
+    "release_number": 124,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級拉霸篇"
+  },
+  {
+    "name": "隋唐演义",
+    "publisher": "唐山科技",
+    "source_rom": "唐山科技",
+    "year": 1993,
+    "image_number": 167,
+    "release_number": 167,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "隋唐演義"
+  },
+  {
+    "name": "雀之塔",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 134,
+    "release_number": 134,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "雀之塔"
+  },
+  {
+    "name": "项刘记",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1993,
+    "image_number": 139,
+    "release_number": 139,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "項劉記"
+  },
+  {
+    "name": "风尘三侠-金箭使者",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1993,
+    "image_number": 127,
+    "release_number": 127,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "風塵三俠-金箭使者"
+  },
+  {
+    "name": "风林火山",
+    "publisher": "骏合",
+    "source_rom": "骏合",
+    "year": 1993,
+    "image_number": 188,
+    "release_number": 188,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "風林火山"
+  },
+  {
+    "name": "飞翔传说-武者之旅",
+    "publisher": "精讯",
+    "source_rom": "琪薇",
+    "year": 1993,
+    "image_number": 131,
+    "release_number": 131,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "飛翔傳說-武者之旅"
+  },
+  {
+    "name": "鬼屋魔影2",
+    "publisher": "智冠",
+    "source_rom": "Infogrames",
+    "year": 1993,
+    "image_number": 178,
+    "release_number": 178,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鬼屋魔影2"
+  },
+  {
+    "name": "魔兽大战略",
+    "publisher": "佳帝安",
+    "source_rom": "佳帝安",
+    "year": 1993,
+    "image_number": 120,
+    "release_number": 120,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔獸大戰略"
+  },
+  {
+    "name": "魔影哈雷",
+    "publisher": "智冠",
+    "source_rom": "Infogrames",
+    "year": 1993,
+    "image_number": 197,
+    "release_number": 197,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔影哈雷"
+  },
+  {
+    "name": "魔法世纪",
+    "publisher": "大宇",
+    "source_rom": "大宇 狂徒",
+    "year": 1993,
+    "image_number": 171,
+    "release_number": 171,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法世紀"
+  },
+  {
+    "name": "魔法门4+5整合版 决战星云世界",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1993,
+    "image_number": 147,
+    "release_number": 147,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門4+5整合版 決戰星雲世界"
+  },
+  {
+    "name": "魔法门5黑暗魔君大反扑",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1993,
+    "image_number": 204,
+    "release_number": 204,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門5黑暗魔君大反撲"
+  },
+  {
+    "name": "魔王迷宫",
+    "publisher": "台软",
+    "source_rom": "台软",
+    "year": 1993,
+    "image_number": 166,
+    "release_number": 166,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔王迷宮"
+  },
+  {
+    "name": "魔眼杀机3血战扎诺尔",
+    "publisher": "智冠",
+    "source_rom": "SSI",
+    "year": 1993,
+    "image_number": 175,
+    "release_number": 175,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔眼殺機3血戰扎諾爾"
+  },
+  {
+    "name": "魔胎",
+    "publisher": "智冠",
+    "source_rom": "Symtus",
+    "year": 1993,
+    "image_number": 184,
+    "release_number": 184,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔胎"
+  },
+  {
+    "name": "魔道子",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1993,
+    "image_number": 185,
+    "release_number": 185,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔道子"
+  },
+  {
+    "name": "麻雀俄罗斯",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1993,
+    "image_number": 191,
+    "release_number": 191,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻雀俄羅斯"
+  },
+  {
+    "name": "龙穴历险记3 女巫的诅咒",
+    "publisher": "智冠",
+    "source_rom": "Don Bluth Media",
+    "year": 1993,
+    "image_number": 198,
+    "release_number": 198,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍穴歷險記3 女巫的詛咒"
+  },
+  {
+    "name": "七颗龙珠",
+    "publisher": "鸿峻",
+    "source_rom": "鸿峻",
+    "year": 1994,
+    "image_number": 211,
+    "release_number": 211,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七顆龍珠"
+  },
+  {
+    "name": "七颗龙珠",
+    "publisher": "鸿峻",
+    "source_rom": "鸿峻",
+    "year": 1994,
+    "image_number": 211,
+    "release_number": 211,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七顆龍珠"
+  },
+  {
+    "name": "万里长城-麒麟传说",
+    "publisher": "龙缘",
+    "source_rom": "龙缘",
+    "year": 1994,
+    "image_number": 212,
+    "release_number": 212,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "萬里長城-麒麟傳說"
+  },
+  {
+    "name": "三国志IV",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1994,
+    "image_number": 213,
+    "release_number": 213,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志IV"
+  },
+  {
+    "name": "三国志IV 威力加强版",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1994,
+    "image_number": 214,
+    "release_number": 214,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志IV 威力加強版"
+  },
+  {
+    "name": "三国志牌战风云",
+    "publisher": "松铨",
+    "source_rom": "松铨",
+    "year": 1994,
+    "image_number": 215,
+    "release_number": 215,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志牌戰風雲"
+  },
+  {
+    "name": "丛林战争",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1994,
+    "image_number": 216,
+    "release_number": 216,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "叢林戰爭"
+  },
+  {
+    "name": "中华职棒2",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 217,
+    "release_number": 217,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中華職棒2"
+  },
+  {
+    "name": "中华职棒 经理人资料片",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 218,
+    "release_number": 218,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中華職棒 經理人資料片"
+  },
+  {
+    "name": "五子棋大师",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1994,
+    "image_number": 219,
+    "release_number": 219,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "五子棋大師"
+  },
+  {
+    "name": "人面蛾",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 220,
+    "release_number": 220,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "人面蛾"
+  },
+  {
+    "name": "信长之野望4 武将风云录",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1994,
+    "image_number": 221,
+    "release_number": 221,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "信長之野望4 武將風雲錄"
+  },
+  {
+    "name": "倚天屠龙记",
+    "publisher": "智冠",
+    "source_rom": "Young Guns",
+    "year": 1994,
+    "image_number": 222,
+    "release_number": 222,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "倚天屠龍記"
+  },
+  {
+    "name": "八女神物语",
+    "publisher": "天堂鸟",
+    "source_rom": "天碁",
+    "year": 1994,
+    "image_number": 223,
+    "release_number": 223,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "八女神物語"
+  },
+  {
+    "name": "冥界幻姬",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1994,
+    "image_number": 224,
+    "release_number": 224,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "冥界幻姬"
+  },
+  {
+    "name": "凯兰迪亚传奇2-命运之手",
+    "publisher": "第三波",
+    "source_rom": "Westwood",
+    "year": 1994,
+    "image_number": 225,
+    "release_number": 225,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "凱蘭迪亞傳奇2-命運之手"
+  },
+  {
+    "name": "勇者传说",
+    "publisher": "汉堂",
+    "source_rom": "MP Development",
+    "year": 1994,
+    "image_number": 226,
+    "release_number": 226,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇者傳說"
+  },
+  {
+    "name": "十面埋伏",
+    "publisher": "精讯",
+    "source_rom": "Mindcraft",
+    "year": 1994,
+    "image_number": 227,
+    "release_number": 227,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "十面埋伏"
+  },
+  {
+    "name": "南海霸主",
+    "publisher": "弘煜",
+    "source_rom": "弘煜",
+    "year": 1994,
+    "image_number": 228,
+    "release_number": 228,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "南海霸主"
+  },
+  {
+    "name": "卡耐鸡人生指南",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1994,
+    "image_number": 229,
+    "release_number": 229,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "卡耐雞人生指南"
+  },
+  {
+    "name": "历险小精灵",
+    "publisher": "欢乐盒",
+    "source_rom": "family Production",
+    "year": 1994,
+    "image_number": 230,
+    "release_number": 230,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歷險小精靈"
+  },
+  {
+    "name": "台湾模拟选战",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 231,
+    "release_number": 231,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "臺灣模擬選戰"
+  },
+  {
+    "name": "圣兽传说",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1994,
+    "image_number": 232,
+    "release_number": 232,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖獸傳說"
+  },
+  {
+    "name": "圣少女战队",
+    "publisher": "华义",
+    "source_rom": "Apple Pie",
+    "year": 1994,
+    "image_number": 233,
+    "release_number": 233,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖少女戰隊"
+  },
+  {
+    "name": "圣战录",
+    "publisher": "欢乐盒",
+    "source_rom": "姬屋",
+    "year": 1994,
+    "image_number": 234,
+    "release_number": 234,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖戰錄"
+  },
+  {
+    "name": "地狱之吼",
+    "publisher": "松岗",
+    "source_rom": "Take Two",
+    "year": 1994,
+    "image_number": 235,
+    "release_number": 235,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "地獄之吼"
+  },
+  {
+    "name": "大兵日记",
+    "publisher": "新艺",
+    "source_rom": "新艺",
+    "year": 1994,
+    "image_number": 236,
+    "release_number": 236,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大兵日記"
+  },
+  {
+    "name": "大地传说-黑暗王座",
+    "publisher": "智冠",
+    "source_rom": "Westwood",
+    "year": 1994,
+    "image_number": 237,
+    "release_number": 237,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大地傳說-黑暗王座"
+  },
+  {
+    "name": "大战略SP",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 238,
+    "release_number": 238,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大戰略SP"
+  },
+  {
+    "name": "大战略SP 钓鱼台风云篇",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 239,
+    "release_number": 239,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大戰略SP 釣魚臺風雲篇"
+  },
+  {
+    "name": "大野风云",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1994,
+    "image_number": 240,
+    "release_number": 240,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大野風雲"
+  },
+  {
+    "name": "天使帝国2",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1994,
+    "image_number": 241,
+    "release_number": 241,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使帝國2"
+  },
+  {
+    "name": "天使角力賽3(擂台美少女)",
+    "publisher": "华义",
+    "source_rom": "PLUM",
+    "year": 1994,
+    "image_number": 242,
+    "release_number": 242,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使角力賽3(擂臺美少女)"
+  },
+  {
+    "name": "天地无用 魎皇鬼",
+    "publisher": "天堂鸟",
+    "source_rom": "BANPRESTO",
+    "year": 1994,
+    "image_number": 243,
+    "release_number": 243,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天地無用 魎皇鬼"
+  },
+  {
+    "name": "太子降魔传",
+    "publisher": "唐山科技",
+    "source_rom": "唐山科技",
+    "year": 1994,
+    "image_number": 244,
+    "release_number": 244,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "太子降魔傳"
+  },
+  {
+    "name": "太空鲁宾逊",
+    "publisher": "松岗",
+    "source_rom": "Silmarils",
+    "year": 1994,
+    "image_number": 245,
+    "release_number": 245,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "太空魯賓遜"
+  },
+  {
+    "name": "奇门遁甲之九五真龙",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 246,
+    "release_number": 246,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "奇門遁甲之九五真龍"
+  },
+  {
+    "name": "妖击队",
+    "publisher": "华义",
+    "source_rom": "Telenet",
+    "year": 1994,
+    "image_number": 247,
+    "release_number": 247,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "妖擊隊"
+  },
+  {
+    "name": "妖魔道",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1994,
+    "image_number": 248,
+    "release_number": 248,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "妖魔道"
+  },
+  {
+    "name": "妙狐神探",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1994,
+    "image_number": 249,
+    "release_number": 249,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "妙狐神探"
+  },
+  {
+    "name": "孤臣记",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1994,
+    "image_number": 250,
+    "release_number": 250,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "孤臣記"
+  },
+  {
+    "name": "宇宙英雄",
+    "publisher": "智冠",
+    "source_rom": "艾生",
+    "year": 1994,
+    "image_number": 251,
+    "release_number": 251,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "宇宙英雄"
+  },
+  {
+    "name": "密集火力",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1994,
+    "image_number": 252,
+    "release_number": 252,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "密集火力"
+  },
+  {
+    "name": "富甲天下三国篇",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1994,
+    "image_number": 253,
+    "release_number": 253,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "富甲天下三國篇"
+  },
+  {
+    "name": "封神榜",
+    "publisher": "大新",
+    "source_rom": "大新",
+    "year": 1994,
+    "image_number": 254,
+    "release_number": 254,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "封神榜"
+  },
+  {
+    "name": "巴士帝国",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1994,
+    "image_number": 255,
+    "release_number": 255,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "巴士帝國"
+  },
+  {
+    "name": "异形杀手",
+    "publisher": "亚瑟科技",
+    "source_rom": "艾生",
+    "year": 1994,
+    "image_number": 256,
+    "release_number": 256,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異形殺手"
+  },
+  {
+    "name": "恋爱试验场",
+    "publisher": "花道",
+    "source_rom": "花道",
+    "year": 1994,
+    "image_number": 257,
+    "release_number": 257,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戀愛試驗場"
+  },
+  {
+    "name": "恐龙世纪",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1994,
+    "image_number": 258,
+    "release_number": 258,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "恐龍世紀"
+  },
+  {
+    "name": "悲恋湖杀人事件",
+    "publisher": "新艺",
+    "source_rom": "新艺",
+    "year": 1994,
+    "image_number": 259,
+    "release_number": 259,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "悲戀湖殺人事件"
+  },
+  {
+    "name": "扑克俱乐部",
+    "publisher": "大宇",
+    "source_rom": "大宇 狂徒",
+    "year": 1994,
+    "image_number": 260,
+    "release_number": 260,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "撲克俱樂部"
+  },
+  {
+    "name": "拼图魔法阵",
+    "publisher": "SUNPIE Tech",
+    "source_rom": "SUNPIE Tech",
+    "year": 1994,
+    "image_number": 261,
+    "release_number": 261,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "拼圖魔法陣"
+  },
+  {
+    "name": "摇滚少林之七侠五义",
+    "publisher": "智冠",
+    "source_rom": "艾生",
+    "year": 1994,
+    "image_number": 262,
+    "release_number": 262,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "搖滾少林之七俠五義"
+  },
+  {
+    "name": "智圣鲜师",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1994,
+    "image_number": 263,
+    "release_number": 263,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "智聖鮮師"
+  },
+  {
+    "name": "暗棋侏罗纪",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1994,
+    "image_number": 264,
+    "release_number": 264,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "暗棋侏羅紀"
+  },
+  {
+    "name": "最长的一日",
+    "publisher": "松岗",
+    "source_rom": "Impressions",
+    "year": 1994,
+    "image_number": 265,
+    "release_number": 265,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "最長的一日"
+  },
+  {
+    "name": "末日宝典",
+    "publisher": "杰克豆",
+    "source_rom": "杰克豆",
+    "year": 1994,
+    "image_number": 266,
+    "release_number": 266,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "末日寶典"
+  },
+  {
+    "name": "枪神",
+    "publisher": "绘翔",
+    "source_rom": "绘翔",
+    "year": 1994,
+    "image_number": 267,
+    "release_number": 267,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "槍神"
+  },
+  {
+    "name": "格斗拳王",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1994,
+    "image_number": 268,
+    "release_number": 268,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "格鬥拳王"
+  },
+  {
+    "name": "模拟动物园",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1994,
+    "image_number": 269,
+    "release_number": 269,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬動物園"
+  },
+  {
+    "name": "模拟城市 2000",
+    "publisher": "智冠",
+    "source_rom": "Maxis",
+    "year": 1994,
+    "image_number": 270,
+    "release_number": 270,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬城市 2000"
+  },
+  {
+    "name": "欧陆战线",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1994,
+    "image_number": 271,
+    "release_number": 271,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歐陸戰線"
+  },
+  {
+    "name": "正宗台湾16张麻将",
+    "publisher": "大宇",
+    "source_rom": "大宇 NPC",
+    "year": 1994,
+    "image_number": 272,
+    "release_number": 272,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "正宗臺灣16張麻將"
+  },
+  {
+    "name": "武林争霸之英雄帖",
+    "publisher": "新艺",
+    "source_rom": "新艺",
+    "year": 1994,
+    "image_number": 273,
+    "release_number": 273,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "武林爭霸之英雄帖"
+  },
+  {
+    "name": "水星故事2",
+    "publisher": "琪珊",
+    "source_rom": "Maxima",
+    "year": 1994,
+    "image_number": 274,
+    "release_number": 274,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水星故事2"
+  },
+  {
+    "name": "永恒之门",
+    "publisher": "松岗",
+    "source_rom": "Silmarils",
+    "year": 1994,
+    "image_number": 275,
+    "release_number": 275,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "永恆之門"
+  },
+  {
+    "name": "求婚365日",
+    "publisher": "精讯",
+    "source_rom": "智傲",
+    "year": 1994,
+    "image_number": 276,
+    "release_number": 276,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "求婚365日"
+  },
+  {
+    "name": "炎龙骑士团-邪神的封印 繁",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 277,
+    "release_number": 277,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團-邪神的封印 繁"
+  },
+  {
+    "name": "爆笑三国志",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 278,
+    "release_number": 278,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "爆笑三國志"
+  },
+  {
+    "name": "爆笑躲避球",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1994,
+    "image_number": 279,
+    "release_number": 279,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "爆笑躲避球"
+  },
+  {
+    "name": "特勤机甲队",
+    "publisher": "华义",
+    "source_rom": "工画堂",
+    "year": 1994,
+    "image_number": 280,
+    "release_number": 280,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "特勤機甲隊"
+  },
+  {
+    "name": "现代大战略EX",
+    "publisher": "大宇",
+    "source_rom": "SystemSoft",
+    "year": 1994,
+    "image_number": 281,
+    "release_number": 281,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "現代大戰略EX"
+  },
+  {
+    "name": "生化情人",
+    "publisher": "欢乐盒",
+    "source_rom": "Janis",
+    "year": 1994,
+    "image_number": 282,
+    "release_number": 282,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "生化情人"
+  },
+  {
+    "name": "碰撞精灵",
+    "publisher": "宏申",
+    "source_rom": "智傲",
+    "year": 1994,
+    "image_number": 283,
+    "release_number": 283,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "碰撞精靈"
+  },
+  {
+    "name": "美国的噩梦",
+    "publisher": "华义",
+    "source_rom": "Algo",
+    "year": 1994,
+    "image_number": 284,
+    "release_number": 284,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美國的噩夢"
+  },
+  {
+    "name": "美女终结者",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1994,
+    "image_number": 285,
+    "release_number": 285,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美女終結者"
+  },
+  {
+    "name": "美少女战记",
+    "publisher": "新艺",
+    "source_rom": "亚特斯",
+    "year": 1994,
+    "image_number": 286,
+    "release_number": 286,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女戰記"
+  },
+  {
+    "name": "美少女梦工厂2",
+    "publisher": "精讯",
+    "source_rom": "Gainax",
+    "year": 1994,
+    "image_number": 287,
+    "release_number": 287,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女夢工廠2"
+  },
+  {
+    "name": "西游记",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1994,
+    "image_number": 288,
+    "release_number": 288,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "西遊記"
+  },
+  {
+    "name": "赤壁之战",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1994,
+    "image_number": 289,
+    "release_number": 289,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "赤壁之戰"
+  },
+  {
+    "name": "轩辕剑2 繁",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1994,
+    "image_number": 290,
+    "release_number": 290,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅劍2 繁"
+  },
+  {
+    "name": "选举风云",
+    "publisher": "玉山",
+    "source_rom": "玉山",
+    "year": 1994,
+    "image_number": 291,
+    "release_number": 291,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "選舉風雲"
+  },
+  {
+    "name": "邪神大地",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1994,
+    "image_number": 292,
+    "release_number": 292,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "邪神大地"
+  },
+  {
+    "name": "钢铁天空下",
+    "publisher": "第三波",
+    "source_rom": "Revolution",
+    "year": 1994,
+    "image_number": 293,
+    "release_number": 293,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鋼鐵天空下"
+  },
+  {
+    "name": "钢铁骑士团2",
+    "publisher": "华义",
+    "source_rom": "Glodia",
+    "year": 1994,
+    "image_number": 294,
+    "release_number": 294,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鋼鐵騎士團2"
+  },
+  {
+    "name": "锄大D",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1994,
+    "image_number": 295,
+    "release_number": 295,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鋤大D"
+  },
+  {
+    "name": "飙车小子",
+    "publisher": "精讯",
+    "source_rom": "竑辰",
+    "year": 1994,
+    "image_number": 296,
+    "release_number": 296,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "飆車小子"
+  },
+  {
+    "name": "飞鹰骑士",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1994,
+    "image_number": 297,
+    "release_number": 297,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "飛鷹騎士"
+  },
+  {
+    "name": "马路英雄",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1994,
+    "image_number": 298,
+    "release_number": 298,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "馬路英雄"
+  },
+  {
+    "name": "高校魔影",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1994,
+    "image_number": 299,
+    "release_number": 299,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "高校魔影"
+  },
+  {
+    "name": "魔宫救美 宝石阵",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1994,
+    "image_number": 300,
+    "release_number": 300,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔宮救美 寶石陣"
+  },
+  {
+    "name": "魔彩子雀",
+    "publisher": "琪珊",
+    "source_rom": "Cosmos",
+    "year": 1994,
+    "image_number": 301,
+    "release_number": 301,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔彩子雀"
+  },
+  {
+    "name": "魔武王",
+    "publisher": "佳帝安",
+    "source_rom": "佳帝安",
+    "year": 1994,
+    "image_number": 302,
+    "release_number": 302,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔武王"
+  },
+  {
+    "name": "魔眼封印",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 303,
+    "release_number": 303,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔眼封印"
+  },
+  {
+    "name": "鹿鼎记-皇城争霸",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1994,
+    "image_number": 304,
+    "release_number": 304,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鹿鼎記-皇城爭霸"
+  },
+  {
+    "name": "麻将情趣屋",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1994,
+    "image_number": 305,
+    "release_number": 305,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻將情趣屋"
+  },
+  {
+    "name": "麻雀幻想曲2",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1994,
+    "image_number": 306,
+    "release_number": 306,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻雀幻想曲2"
+  },
+  {
+    "name": "轩辕剑2 简",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1994,
+    "image_number": 307,
+    "release_number": 307,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅劍2 簡"
+  },
+  {
+    "name": "原星",
+    "publisher": "欢乐盒",
+    "source_rom": "Ecstasy",
+    "year": 1995,
+    "image_number": 308,
+    "release_number": 308,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "原星"
+  },
+  {
+    "name": "西游记 齐天大圣篇",
+    "publisher": "雷神",
+    "source_rom": "雷神",
+    "year": 1995,
+    "image_number": 309,
+    "release_number": 309,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "西遊記 齊天大聖篇"
+  },
+  {
+    "name": "轩辕剑外传-枫之舞 繁",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1995,
+    "image_number": 310,
+    "release_number": 310,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅劍外傳-楓之舞 繁"
+  },
+  {
+    "name": "轩辕剑外传-枫之舞 简",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1995,
+    "image_number": 311,
+    "release_number": 311,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅劍外傳-楓之舞 簡"
+  },
+  {
+    "name": "明星志愿",
+    "publisher": "大宇",
+    "source_rom": "大宇 NPC",
+    "year": 1995,
+    "image_number": 312,
+    "release_number": 312,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "明星志願"
+  },
+  {
+    "name": "七英雄物语",
+    "publisher": "天堂鸟",
+    "source_rom": "姬屋",
+    "year": 1995,
+    "image_number": 313,
+    "release_number": 313,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七英雄物語"
+  },
+  {
+    "name": "龙骑士3",
+    "publisher": "微波",
+    "source_rom": "elf",
+    "year": 1995,
+    "image_number": 314,
+    "release_number": 314,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍騎士3"
+  },
+  {
+    "name": "魔龙纪事",
+    "publisher": "天堂鸟",
+    "source_rom": "PLUM",
+    "year": 1995,
+    "image_number": 315,
+    "release_number": 315,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔龍紀事"
+  },
+  {
+    "name": "雄霸天下三国篇",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1995,
+    "image_number": 316,
+    "release_number": 316,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "雄霸天下三國篇"
+  },
+  {
+    "name": "三国志-武将争霸2",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1995,
+    "image_number": 317,
+    "release_number": 317,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志-武將爭霸2"
+  },
+  {
+    "name": "非洲探险",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1995,
+    "image_number": 318,
+    "release_number": 318,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "非洲探險"
+  },
+  {
+    "name": "米兰斯纪事-圣域传奇",
+    "publisher": "精讯",
+    "source_rom": "美梦成真",
+    "year": 1995,
+    "image_number": 319,
+    "release_number": 319,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "米蘭斯紀事-聖域傳奇"
+  },
+  {
+    "name": "精灵幻界",
+    "publisher": "世纪纵横",
+    "source_rom": "Yoki",
+    "year": 1995,
+    "image_number": 320,
+    "release_number": 320,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "精靈幻界"
+  },
+  {
+    "name": "一线生机",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1995,
+    "image_number": 321,
+    "release_number": 321,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "一線生機"
+  },
+  {
+    "name": "金庸快打",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1995,
+    "image_number": 322,
+    "release_number": 322,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金庸快打"
+  },
+  {
+    "name": "明日之星",
+    "publisher": "欢乐盒",
+    "source_rom": "鹰扬",
+    "year": 1995,
+    "image_number": 323,
+    "release_number": 323,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "明日之星"
+  },
+  {
+    "name": "战虎之沙漠行动",
+    "publisher": "欢乐盒",
+    "source_rom": "Taff",
+    "year": 1995,
+    "image_number": 324,
+    "release_number": 324,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰虎之沙漠行動"
+  },
+  {
+    "name": "光明战史",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1995,
+    "image_number": 325,
+    "release_number": 325,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "光明戰史"
+  },
+  {
+    "name": "暗棋圣手",
+    "publisher": "至通",
+    "source_rom": "至通",
+    "year": 1995,
+    "image_number": 326,
+    "release_number": 326,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "暗棋聖手"
+  },
+  {
+    "name": "疯狂医院2-超级医生",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1995,
+    "image_number": 327,
+    "release_number": 327,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂醫院2-超級醫生"
+  },
+  {
+    "name": "禁忌蛇姬",
+    "publisher": "花道",
+    "source_rom": "花道",
+    "year": 1995,
+    "image_number": 328,
+    "release_number": 328,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "禁忌蛇姬"
+  },
+  {
+    "name": "超时空要塞",
+    "publisher": "华义",
+    "source_rom": "Family Soft",
+    "year": 1995,
+    "image_number": 329,
+    "release_number": 329,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空要塞"
+  },
+  {
+    "name": "欢乐幸福人",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1995,
+    "image_number": 330,
+    "release_number": 330,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歡樂幸福人"
+  },
+  {
+    "name": "麻将情趣屋2",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1995,
+    "image_number": 331,
+    "release_number": 331,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻將情趣屋2"
+  },
+  {
+    "name": "星世纪战将",
+    "publisher": "弘煜",
+    "source_rom": "弘煜",
+    "year": 1995,
+    "image_number": 332,
+    "release_number": 332,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "星世紀戰將"
+  },
+  {
+    "name": "神示录-背叛与毁灭",
+    "publisher": "华义",
+    "source_rom": "杰诚",
+    "year": 1995,
+    "image_number": 333,
+    "release_number": 333,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神示錄-背叛與毀滅"
+  },
+  {
+    "name": "阿曼尼斯传说3",
+    "publisher": "天堂鸟",
+    "source_rom": "Fuga System",
+    "year": 1995,
+    "image_number": 334,
+    "release_number": 334,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "阿曼尼斯傳說3"
+  },
+  {
+    "name": "逆玉王",
+    "publisher": "天堂鸟",
+    "source_rom": "Grocer",
+    "year": 1995,
+    "image_number": 335,
+    "release_number": 335,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "逆玉王"
+  },
+  {
+    "name": "嬉笑春秋",
+    "publisher": "松岗",
+    "source_rom": "博羽",
+    "year": 1995,
+    "image_number": 336,
+    "release_number": 336,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "嬉笑春秋"
+  },
+  {
+    "name": "魔鬼推销员",
+    "publisher": "精讯",
+    "source_rom": "智傲",
+    "year": 1995,
+    "image_number": 337,
+    "release_number": 337,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔鬼推銷員"
+  },
+  {
+    "name": "魔石英雄传说2",
+    "publisher": "天堂鸟",
+    "source_rom": "Discovery Software",
+    "year": 1995,
+    "image_number": 338,
+    "release_number": 338,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔石英雄傳說2"
+  },
+  {
+    "name": "武姬神传说",
+    "publisher": "天堂鸟",
+    "source_rom": "戏画",
+    "year": 1995,
+    "image_number": 339,
+    "release_number": 339,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "武姬神傳說"
+  },
+  {
+    "name": "天使们的午后 转校生",
+    "publisher": "天堂鸟",
+    "source_rom": "JAST",
+    "year": 1995,
+    "image_number": 340,
+    "release_number": 340,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使們的午後 轉校生"
+  },
+  {
+    "name": "突击美少女",
+    "publisher": "精讯",
+    "source_rom": "C-LAB",
+    "year": 1995,
+    "image_number": 341,
+    "release_number": 341,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "突擊美少女"
+  },
+  {
+    "name": "仙剑奇侠传 繁",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1995,
+    "image_number": 342,
+    "release_number": 342,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "仙劍奇俠傳 繁"
+  },
+  {
+    "name": "仙剑奇侠传 简",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1995,
+    "image_number": 343,
+    "release_number": 343,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "仙劍奇俠傳 簡"
+  },
+  {
+    "name": "圣少女战队2",
+    "publisher": "华义",
+    "source_rom": "Apple Pie",
+    "year": 1995,
+    "image_number": 344,
+    "release_number": 344,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖少女戰隊2"
+  },
+  {
+    "name": "魔界之泉灰石传奇",
+    "publisher": "华义",
+    "source_rom": "Pegasus",
+    "year": 1995,
+    "image_number": 345,
+    "release_number": 345,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔界之泉灰石傳奇"
+  },
+  {
+    "name": "日蚀",
+    "publisher": "富优",
+    "source_rom": "富优",
+    "year": 1995,
+    "image_number": 346,
+    "release_number": 346,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "日蝕"
+  },
+  {
+    "name": "炎龙骑士团2黄金城之谜 繁",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1995,
+    "image_number": 347,
+    "release_number": 347,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團2黃金城之謎 繁"
+  },
+  {
+    "name": "精灵物语",
+    "publisher": "鹰扬",
+    "source_rom": "鹰扬",
+    "year": 1995,
+    "image_number": 348,
+    "release_number": 348,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "精靈物語"
+  },
+  {
+    "name": "光明圣使团",
+    "publisher": "天堂鸟",
+    "source_rom": "GREAT",
+    "year": 1995,
+    "image_number": 349,
+    "release_number": 349,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "光明聖使團"
+  },
+  {
+    "name": "梦见坡",
+    "publisher": "天堂鸟",
+    "source_rom": "U-Me SOFT",
+    "year": 1995,
+    "image_number": 350,
+    "release_number": 350,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "夢見坡"
+  },
+  {
+    "name": "科学小飞侠",
+    "publisher": "天堂鸟",
+    "source_rom": "Family Soft",
+    "year": 1995,
+    "image_number": 351,
+    "release_number": 351,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "科學小飛俠"
+  },
+  {
+    "name": "梦幻天使",
+    "publisher": "精讯",
+    "source_rom": "鹰扬",
+    "year": 1995,
+    "image_number": 352,
+    "release_number": 352,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "夢幻天使"
+  },
+  {
+    "name": "魔法师宝典",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1995,
+    "image_number": 353,
+    "release_number": 353,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法師寶典"
+  },
+  {
+    "name": "星城绿洲计划",
+    "publisher": "松铨",
+    "source_rom": "二工坊",
+    "year": 1995,
+    "image_number": 354,
+    "release_number": 354,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "星城綠洲計劃"
+  },
+  {
+    "name": "时空特勤组",
+    "publisher": "智冠",
+    "source_rom": "至通",
+    "year": 1995,
+    "image_number": 355,
+    "release_number": 355,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "時空特勤組"
+  },
+  {
+    "name": "绝地-众神的诅咒",
+    "publisher": "新艺",
+    "source_rom": "新艺",
+    "year": 1995,
+    "image_number": 356,
+    "release_number": 356,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕地-眾神的詛咒"
+  },
+  {
+    "name": "魔法公主大冒险",
+    "publisher": "鹰扬",
+    "source_rom": "鹰扬",
+    "year": 1995,
+    "image_number": 357,
+    "release_number": 357,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法公主大冒險"
+  },
+  {
+    "name": "超未来少女",
+    "publisher": "天堂鸟",
+    "source_rom": "Right Stuff",
+    "year": 1995,
+    "image_number": 358,
+    "release_number": 358,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超未來少女"
+  },
+  {
+    "name": "超级灌篮大赛",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1995,
+    "image_number": 359,
+    "release_number": 359,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級灌籃大賽"
+  },
+  {
+    "name": "古大陆物语",
+    "publisher": "松岗",
+    "source_rom": "TGL",
+    "year": 1995,
+    "image_number": 360,
+    "release_number": 360,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "古大陸物語"
+  },
+  {
+    "name": "王子传奇",
+    "publisher": "汉堂",
+    "source_rom": "亚博克",
+    "year": 1995,
+    "image_number": 361,
+    "release_number": 361,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "王子傳奇"
+  },
+  {
+    "name": "碰龙美战士",
+    "publisher": "天堂鸟",
+    "source_rom": "Parsley",
+    "year": 1995,
+    "image_number": 362,
+    "release_number": 362,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "碰龍美戰士"
+  },
+  {
+    "name": "魔界圣女传",
+    "publisher": "天堂鸟",
+    "source_rom": "Family Soft",
+    "year": 1995,
+    "image_number": 363,
+    "release_number": 363,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔界聖女傳"
+  },
+  {
+    "name": "镇暴特遣队",
+    "publisher": "华义",
+    "source_rom": "WiZ",
+    "year": 1995,
+    "image_number": 364,
+    "release_number": 364,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鎮暴特遣隊"
+  },
+  {
+    "name": "大银河物语",
+    "publisher": "智冠",
+    "source_rom": "红蚂蚁工作室",
+    "year": 1995,
+    "image_number": 365,
+    "release_number": 365,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大銀河物語"
+  },
+  {
+    "name": "黄飞鸿铁公鸡斗蜈蚣",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1995,
+    "image_number": 366,
+    "release_number": 366,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黃飛鴻鐵公雞鬥蜈蚣"
+  },
+  {
+    "name": "格斗悍将",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1995,
+    "image_number": 367,
+    "release_number": 367,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "格鬥悍將"
+  },
+  {
+    "name": "兽乡守护者",
+    "publisher": "华义",
+    "source_rom": "Anjin",
+    "year": 1995,
+    "image_number": 368,
+    "release_number": 368,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "獸鄉守護者"
+  },
+  {
+    "name": "世纪末商业革命",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1995,
+    "image_number": 369,
+    "release_number": 369,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "世紀末商業革命"
+  },
+  {
+    "name": "凯兰迪亚传奇3-玛尔寇的复仇 繁",
+    "publisher": "第三波",
+    "source_rom": "Westwood",
+    "year": 1995,
+    "image_number": 370,
+    "release_number": 370,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "凱蘭迪亞傳奇3-瑪爾寇的復仇 繁"
+  },
+  {
+    "name": "魔法世纪2",
+    "publisher": "大宇",
+    "source_rom": "大宇 狂徒",
+    "year": 1995,
+    "image_number": 371,
+    "release_number": 371,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法世紀2"
+  },
+  {
+    "name": "诞生",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1995,
+    "image_number": 372,
+    "release_number": 372,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "誕生"
+  },
+  {
+    "name": "美少女特勤组",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1995,
+    "image_number": 373,
+    "release_number": 373,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女特勤組"
+  },
+  {
+    "name": "中国",
+    "publisher": "世纪纵横",
+    "source_rom": "世纪纵横",
+    "year": 1995,
+    "image_number": 374,
+    "release_number": 374,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中國"
+  },
+  {
+    "name": "三国志英杰传",
+    "publisher": "第三波",
+    "source_rom": "光荣",
+    "year": 1995,
+    "image_number": 376,
+    "release_number": 376,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志英傑傳"
+  },
+  {
+    "name": "信长之野望5 霸王传",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1995,
+    "image_number": 377,
+    "release_number": 377,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "信長之野望5 霸王傳"
+  },
+  {
+    "name": "象棋俄罗斯",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1995,
+    "image_number": 378,
+    "release_number": 378,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "象棋俄羅斯"
+  },
+  {
+    "name": "冻顶接龙",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1995,
+    "image_number": 379,
+    "release_number": 379,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "凍頂接龍"
+  },
+  {
+    "name": "卒业",
+    "publisher": "华义",
+    "source_rom": "HEAD ROOM",
+    "year": 1995,
+    "image_number": 380,
+    "release_number": 380,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "卒業"
+  },
+  {
+    "name": "魔域传说4波斯战记",
+    "publisher": "华义",
+    "source_rom": "吴氏工房",
+    "year": 1995,
+    "image_number": 381,
+    "release_number": 381,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔域傳說4波斯戰記"
+  },
+  {
+    "name": "转校生",
+    "publisher": "华义",
+    "source_rom": "Space Project",
+    "year": 1995,
+    "image_number": 382,
+    "release_number": 382,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "轉校生"
+  },
+  {
+    "name": "银河战国列传EX-铁锁的星群",
+    "publisher": "华义",
+    "source_rom": "工画堂",
+    "year": 1995,
+    "image_number": 383,
+    "release_number": 383,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河戰國列傳EX-鐵鎖的星群"
+  },
+  {
+    "name": "沉默的舰队",
+    "publisher": "华义",
+    "source_rom": "G.A.M.",
+    "year": 1995,
+    "image_number": 384,
+    "release_number": 384,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "沉默的艦隊"
+  },
+  {
+    "name": "甲A风云",
+    "publisher": "吉耐思",
+    "source_rom": "吉耐思",
+    "year": 1995,
+    "image_number": 385,
+    "release_number": 385,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "甲A風雲"
+  },
+  {
+    "name": "仓库番-史上完整版",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1995,
+    "image_number": 386,
+    "release_number": 386,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "倉庫番-史上完整版"
+  },
+  {
+    "name": "仓库番-玩家复仇版",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1995,
+    "image_number": 387,
+    "release_number": 387,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "倉庫番-玩家復仇版"
+  },
+  {
+    "name": "特勤机甲队2",
+    "publisher": "大宇",
+    "source_rom": "工画堂",
+    "year": 1995,
+    "image_number": 388,
+    "release_number": 388,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "特勤機甲隊2"
+  },
+  {
+    "name": "紧缚之馆",
+    "publisher": "天堂鸟",
+    "source_rom": "XYZ",
+    "year": 1995,
+    "image_number": 389,
+    "release_number": 389,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "緊縛之館"
+  },
+  {
+    "name": "战地大亨-金门之旅",
+    "publisher": "宏申",
+    "source_rom": "宏申",
+    "year": 1995,
+    "image_number": 390,
+    "release_number": 390,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰地大亨-金門之旅"
+  },
+  {
+    "name": "百战水管工",
+    "publisher": "宏碁",
+    "source_rom": "宏碁",
+    "year": 1995,
+    "image_number": 391,
+    "release_number": 391,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "百戰水管工"
+  },
+  {
+    "name": "迷走都市",
+    "publisher": "巨鲸",
+    "source_rom": "JAST",
+    "year": 1995,
+    "image_number": 392,
+    "release_number": 392,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "迷走都市"
+  },
+  {
+    "name": "黑暗天使",
+    "publisher": "微波",
+    "source_rom": "微波",
+    "year": 1995,
+    "image_number": 393,
+    "release_number": 393,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黑暗天使"
+  },
+  {
+    "name": "荡寇雄师",
+    "publisher": "旭光",
+    "source_rom": "旭光",
+    "year": 1995,
+    "image_number": 394,
+    "release_number": 394,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "蕩寇雄師"
+  },
+  {
+    "name": "风云天下三国篇",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1995,
+    "image_number": 395,
+    "release_number": 395,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "風雲天下三國篇"
+  },
+  {
+    "name": "超级大富翁",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1995,
+    "image_number": 396,
+    "release_number": 396,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級大富翁"
+  },
+  {
+    "name": "机甲猎人",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1995,
+    "image_number": 397,
+    "release_number": 397,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "機甲獵人"
+  },
+  {
+    "name": "魔法门英雄无敌 繁",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1995,
+    "image_number": 398,
+    "release_number": 398,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門英雄無敵 繁"
+  },
+  {
+    "name": "魔法门英雄无敌 简",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1995,
+    "image_number": 399,
+    "release_number": 399,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門英雄無敵 簡"
+  },
+  {
+    "name": "沙拉那之剑",
+    "publisher": "智冠",
+    "source_rom": "Legend",
+    "year": 1995,
+    "image_number": 400,
+    "release_number": 400,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "沙拉那之劍"
+  },
+  {
+    "name": "黎明之砧",
+    "publisher": "智冠",
+    "source_rom": "New World Computing",
+    "year": 1995,
+    "image_number": 401,
+    "release_number": 401,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黎明之砧"
+  },
+  {
+    "name": "魔境大冒险",
+    "publisher": "杰克豆",
+    "source_rom": "杰克豆",
+    "year": 1995,
+    "image_number": 402,
+    "release_number": 402,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔境大冒險"
+  },
+  {
+    "name": "卧龙传",
+    "publisher": "松岗",
+    "source_rom": "松岗",
+    "year": 1995,
+    "image_number": 403,
+    "release_number": 403,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "臥龍傳"
+  },
+  {
+    "name": "十三支局",
+    "publisher": "松岗",
+    "source_rom": "Take-Two",
+    "year": 1995,
+    "image_number": 404,
+    "release_number": 404,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "十三支局"
+  },
+  {
+    "name": "铁血联盟",
+    "publisher": "松岗",
+    "source_rom": "Mad Labs",
+    "year": 1995,
+    "image_number": 405,
+    "release_number": 405,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鐵血聯盟"
+  },
+  {
+    "name": "烽火沙丘",
+    "publisher": "松岗",
+    "source_rom": "Impressions",
+    "year": 1995,
+    "image_number": 406,
+    "release_number": 406,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "烽火沙丘"
+  },
+  {
+    "name": "战棋",
+    "publisher": "松铨",
+    "source_rom": "松铨",
+    "year": 1995,
+    "image_number": 407,
+    "release_number": 407,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰棋"
+  },
+  {
+    "name": "十六张姬麻将",
+    "publisher": "松铨",
+    "source_rom": "松铨",
+    "year": 1995,
+    "image_number": 408,
+    "release_number": 408,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "十六張姬麻將"
+  },
+  {
+    "name": "同级生2",
+    "publisher": "欢乐盒",
+    "source_rom": "elf",
+    "year": 1995,
+    "image_number": 409,
+    "release_number": 409,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "同級生2"
+  },
+  {
+    "name": "机甲神战",
+    "publisher": "欢乐盒",
+    "source_rom": "family Production",
+    "year": 1995,
+    "image_number": 410,
+    "release_number": 410,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "機甲神戰"
+  },
+  {
+    "name": "致命毒药-六人魔女",
+    "publisher": "欢乐盒",
+    "source_rom": "Trush",
+    "year": 1995,
+    "image_number": 411,
+    "release_number": 411,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "致命毒藥-六人魔女"
+  },
+  {
+    "name": "爆笑保龄球",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1995,
+    "image_number": 412,
+    "release_number": 412,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "爆笑保齡球"
+  },
+  {
+    "name": "天才宝宝大进击",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1995,
+    "image_number": 413,
+    "release_number": 413,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天才寶寶大進擊"
+  },
+  {
+    "name": "楚留香传奇-血海飘香",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1995,
+    "image_number": 414,
+    "release_number": 414,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "楚留香傳奇-血海飄香"
+  },
+  {
+    "name": "噗噗闯通关",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1995,
+    "image_number": 415,
+    "release_number": 415,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "噗噗闖通關"
+  },
+  {
+    "name": "齐天大圣",
+    "publisher": "品技",
+    "source_rom": "品技",
+    "year": 1995,
+    "image_number": 416,
+    "release_number": 416,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "齊天大聖"
+  },
+  {
+    "name": "禁忌",
+    "publisher": "新潮馆",
+    "source_rom": "Apple Pie",
+    "year": 1995,
+    "image_number": 417,
+    "release_number": 417,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "禁忌"
+  },
+  {
+    "name": "水果大亨",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1995,
+    "image_number": 418,
+    "release_number": 418,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水果大亨"
+  },
+  {
+    "name": "A列车4",
+    "publisher": "第三波",
+    "source_rom": "Artdink",
+    "year": 1995,
+    "image_number": 419,
+    "release_number": 419,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "A列車4"
+  },
+  {
+    "name": "底特律汽车大亨",
+    "publisher": "松岗",
+    "source_rom": "Impressions",
+    "year": 1995,
+    "image_number": 420,
+    "release_number": 420,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "底特律汽車大亨"
+  },
+  {
+    "name": "黑之断章",
+    "publisher": "天堂鸟",
+    "source_rom": "Abogado Powers",
+    "year": 1995,
+    "image_number": 421,
+    "release_number": 421,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黑之斷章"
+  },
+  {
+    "name": "逆转时空",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1995,
+    "image_number": 422,
+    "release_number": 422,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "逆轉時空"
+  },
+  {
+    "name": "终极机甲战士",
+    "publisher": "SiEN",
+    "source_rom": "SiEN",
+    "year": 1995,
+    "image_number": 423,
+    "release_number": 423,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "終極機甲戰士"
+  },
+  {
+    "name": "礼物",
+    "publisher": "华义",
+    "source_rom": "Orange House",
+    "year": 1995,
+    "image_number": 424,
+    "release_number": 424,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "禮物"
+  },
+  {
+    "name": "鬼屋魔影3",
+    "publisher": "智冠",
+    "source_rom": "Infogrames",
+    "year": 1995,
+    "image_number": 425,
+    "release_number": 425,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鬼屋魔影3"
+  },
+  {
+    "name": "魔域传奇 神圣之符",
+    "publisher": "智冠",
+    "source_rom": "DreamForge",
+    "year": 1995,
+    "image_number": 426,
+    "release_number": 426,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔域傳奇 神聖之符"
+  },
+  {
+    "name": "南极冰怪",
+    "publisher": "智冠",
+    "source_rom": "Infogrames",
+    "year": 1995,
+    "image_number": 375,
+    "release_number": 375,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "南極冰怪"
+  },
+  {
+    "name": "凯兰迪亚传奇3-玛尔寇的复仇 简",
+    "publisher": "前导",
+    "source_rom": "Westwood",
+    "year": 1996,
+    "image_number": 427,
+    "release_number": 427,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "凱蘭迪亞傳奇3-瑪爾寇的復仇 簡"
+  },
+  {
+    "name": "三国志V",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1996,
+    "image_number": 428,
+    "release_number": 428,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志V"
+  },
+  {
+    "name": "特勤机甲队2 加强版",
+    "publisher": "华义",
+    "source_rom": "工画堂",
+    "year": 1996,
+    "image_number": 429,
+    "release_number": 429,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "特勤機甲隊2 加強版"
+  },
+  {
+    "name": "无声狂啸",
+    "publisher": "松岗",
+    "source_rom": "Cyberdreams",
+    "year": 1996,
+    "image_number": 430,
+    "release_number": 430,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "無聲狂嘯"
+  },
+  {
+    "name": "中关村启示录",
+    "publisher": "金山",
+    "source_rom": "西山居",
+    "year": 1996,
+    "image_number": 431,
+    "release_number": 431,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中關村啟示錄"
+  },
+  {
+    "name": "新世纪兴亡史",
+    "publisher": "天堂鸟",
+    "source_rom": "Fuga System",
+    "year": 1996,
+    "image_number": 432,
+    "release_number": 432,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "新世紀興亡史"
+  },
+  {
+    "name": "马场大亨",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 433,
+    "release_number": 433,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "馬場大亨"
+  },
+  {
+    "name": "YES！HG",
+    "publisher": "天堂鸟",
+    "source_rom": "姬屋",
+    "year": 1996,
+    "image_number": 434,
+    "release_number": 434,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "YES！HG"
+  },
+  {
+    "name": "丽兽",
+    "publisher": "天堂鸟",
+    "source_rom": "Apple Pie",
+    "year": 1996,
+    "image_number": 435,
+    "release_number": 435,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麗獸"
+  },
+  {
+    "name": "红色诱惑",
+    "publisher": "天堂鸟",
+    "source_rom": "Discovery Software",
+    "year": 1996,
+    "image_number": 436,
+    "release_number": 436,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "紅色誘惑"
+  },
+  {
+    "name": "创世圣战",
+    "publisher": "精讯",
+    "source_rom": "Glodia",
+    "year": 1996,
+    "image_number": 437,
+    "release_number": 437,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "創世聖戰"
+  },
+  {
+    "name": "剑芒罗曼史",
+    "publisher": "天堂鸟",
+    "source_rom": "Fairytale",
+    "year": 1996,
+    "image_number": 438,
+    "release_number": 438,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "劍芒羅曼史"
+  },
+  {
+    "name": "绯王传2",
+    "publisher": "大宇",
+    "source_rom": "Telenet",
+    "year": 1996,
+    "image_number": 439,
+    "release_number": 439,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "緋王傳2"
+  },
+  {
+    "name": "铁甲旗舰",
+    "publisher": "华义",
+    "source_rom": "Movic",
+    "year": 1996,
+    "image_number": 440,
+    "release_number": 440,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鐵甲旗艦"
+  },
+  {
+    "name": "高报酬战将",
+    "publisher": "彩虹",
+    "source_rom": "Imagineer",
+    "year": 1996,
+    "image_number": 441,
+    "release_number": 441,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "高報酬戰將"
+  },
+  {
+    "name": "烈焰钢狼传",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 442,
+    "release_number": 442,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "烈焰鋼狼傳"
+  },
+  {
+    "name": "天使任务",
+    "publisher": "鹰扬",
+    "source_rom": "鹰扬",
+    "year": 1996,
+    "image_number": 443,
+    "release_number": 443,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使任務"
+  },
+  {
+    "name": "大富翁3",
+    "publisher": "大宇",
+    "source_rom": "大宇 狂徒",
+    "year": 1996,
+    "image_number": 444,
+    "release_number": 444,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁3"
+  },
+  {
+    "name": "华丽人生2",
+    "publisher": "天堂鸟",
+    "source_rom": "Fairytale",
+    "year": 1996,
+    "image_number": 445,
+    "release_number": 445,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "華麗人生2"
+  },
+  {
+    "name": "终极任务Z",
+    "publisher": "欢乐盒",
+    "source_rom": "鹰扬",
+    "year": 1996,
+    "image_number": 446,
+    "release_number": 446,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "終極任務Z"
+  },
+  {
+    "name": "鬼马小英雄",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1996,
+    "image_number": 447,
+    "release_number": 447,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鬼馬小英雄"
+  },
+  {
+    "name": "卒业旅行",
+    "publisher": "欢乐盒",
+    "source_rom": "Janis",
+    "year": 1996,
+    "image_number": 448,
+    "release_number": 448,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "卒業旅行"
+  },
+  {
+    "name": "中国民航",
+    "publisher": "金山",
+    "source_rom": "西山居",
+    "year": 1996,
+    "image_number": 449,
+    "release_number": 449,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中國民航"
+  },
+  {
+    "name": "超时空英雄传说",
+    "publisher": "宇峻",
+    "source_rom": "宇峻",
+    "year": 1996,
+    "image_number": 450,
+    "release_number": 450,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空英雄傳說"
+  },
+  {
+    "name": "新蜀山剑侠传-紫青双剑录",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 451,
+    "release_number": 451,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "新蜀山劍俠傳-紫青雙劍錄"
+  },
+  {
+    "name": "古大陆物语2 雅克王的遠征",
+    "publisher": "松岗",
+    "source_rom": "TGL",
+    "year": 1996,
+    "image_number": 452,
+    "release_number": 452,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "古大陸物語2 雅克王的遠徵"
+  },
+  {
+    "name": "爱之物语",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1996,
+    "image_number": 453,
+    "release_number": 453,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "愛之物語"
+  },
+  {
+    "name": "学园退魔传",
+    "publisher": "鹰扬",
+    "source_rom": "Trush",
+    "year": 1996,
+    "image_number": 454,
+    "release_number": 454,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "學園退魔傳"
+  },
+  {
+    "name": "麻雀幻想曲3",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1996,
+    "image_number": 455,
+    "release_number": 455,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻雀幻想曲3"
+  },
+  {
+    "name": "异星突击",
+    "publisher": "旭光",
+    "source_rom": "旭光",
+    "year": 1996,
+    "image_number": 456,
+    "release_number": 456,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異星突擊"
+  },
+  {
+    "name": "风雪江山",
+    "publisher": "元康",
+    "source_rom": "Trigger Soft",
+    "year": 1996,
+    "image_number": 458,
+    "release_number": 458,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "風雪江山"
+  },
+  {
+    "name": "边缘战区",
+    "publisher": "光画",
+    "source_rom": "光画",
+    "year": 1996,
+    "image_number": 459,
+    "release_number": 459,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "邊緣戰區"
+  },
+  {
+    "name": "七英雄物语2",
+    "publisher": "天堂鸟",
+    "source_rom": "姬屋",
+    "year": 1996,
+    "image_number": 460,
+    "release_number": 460,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七英雄物語2"
+  },
+  {
+    "name": "龙腾三国",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 461,
+    "release_number": 461,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍騰三國"
+  },
+  {
+    "name": "蜥蜴超人",
+    "publisher": "大宇",
+    "source_rom": "大宇 DOMO",
+    "year": 1996,
+    "image_number": 462,
+    "release_number": 462,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "蜥蜴超人"
+  },
+  {
+    "name": "西楚霸王",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1996,
+    "image_number": 463,
+    "release_number": 463,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "西楚霸王"
+  },
+  {
+    "name": "皇帝",
+    "publisher": "全崴",
+    "source_rom": "全崴",
+    "year": 1996,
+    "image_number": 464,
+    "release_number": 464,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "皇帝"
+  },
+  {
+    "name": "战国",
+    "publisher": "天堂鸟",
+    "source_rom": "Family Soft",
+    "year": 1996,
+    "image_number": 465,
+    "release_number": 465,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰國"
+  },
+  {
+    "name": "传说纪元-黑暗之星",
+    "publisher": "微波",
+    "source_rom": "微波",
+    "year": 1996,
+    "image_number": 466,
+    "release_number": 466,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "傳說紀元-黑暗之星"
+  },
+  {
+    "name": "三国演义2",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 467,
+    "release_number": 467,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國演義2"
+  },
+  {
+    "name": "刘伯温传奇",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 468,
+    "release_number": 468,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "劉伯溫傳奇"
+  },
+  {
+    "name": "爆笑水浒传",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1996,
+    "image_number": 469,
+    "release_number": 469,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "爆笑水滸傳"
+  },
+  {
+    "name": "英雄圣战",
+    "publisher": "精讯",
+    "source_rom": "美梦成真",
+    "year": 1996,
+    "image_number": 470,
+    "release_number": 470,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄聖戰"
+  },
+  {
+    "name": "爱之物语2",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1996,
+    "image_number": 471,
+    "release_number": 471,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "愛之物語2"
+  },
+  {
+    "name": "天使们的午后 合集2",
+    "publisher": "天堂鸟",
+    "source_rom": "JAST",
+    "year": 1996,
+    "image_number": 472,
+    "release_number": 472,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使們的午後 合集2"
+  },
+  {
+    "name": "殖民计划",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1996,
+    "image_number": 473,
+    "release_number": 473,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "殖民計劃"
+  },
+  {
+    "name": "魔界之泉动乱魔都",
+    "publisher": "华义",
+    "source_rom": "Pegasus",
+    "year": 1996,
+    "image_number": 474,
+    "release_number": 474,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔界之泉動亂魔都"
+  },
+  {
+    "name": "春秋争霸传2",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1996,
+    "image_number": 475,
+    "release_number": 475,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "春秋爭霸傳2"
+  },
+  {
+    "name": "英雄传说 龙的传人",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 476,
+    "release_number": 476,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄傳說 龍的傳人"
+  },
+  {
+    "name": "八女神物语2",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1996,
+    "image_number": 477,
+    "release_number": 477,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "八女神物語2"
+  },
+  {
+    "name": "魔岛大富翁",
+    "publisher": "智冠",
+    "source_rom": "佳帝安",
+    "year": 1996,
+    "image_number": 478,
+    "release_number": 478,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔島大富翁"
+  },
+  {
+    "name": "绝代双骄",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1996,
+    "image_number": 479,
+    "release_number": 479,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕代雙驕"
+  },
+  {
+    "name": "金刚大冒险",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1996,
+    "image_number": 480,
+    "release_number": 480,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金剛大冒險"
+  },
+  {
+    "name": "上帝",
+    "publisher": "欢乐盒",
+    "source_rom": "鹰扬",
+    "year": 1996,
+    "image_number": 481,
+    "release_number": 481,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "上帝"
+  },
+  {
+    "name": "神剑传说2",
+    "publisher": "欢乐盒",
+    "source_rom": "Ecstasy",
+    "year": 1996,
+    "image_number": 482,
+    "release_number": 482,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神劍傳說2"
+  },
+  {
+    "name": "撼天神塔VT",
+    "publisher": "欢乐盒",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 483,
+    "release_number": 483,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "撼天神塔VT"
+  },
+  {
+    "name": "富贵列车",
+    "publisher": "富优",
+    "source_rom": "富优",
+    "year": 1996,
+    "image_number": 484,
+    "release_number": 484,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "富貴列車"
+  },
+  {
+    "name": "英雄传说2 屠龙战记",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 485,
+    "release_number": 485,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄傳說2 屠龍戰記"
+  },
+  {
+    "name": "铁甲神兵",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1996,
+    "image_number": 486,
+    "release_number": 486,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鐵甲神兵"
+  },
+  {
+    "name": "封神世纪",
+    "publisher": "长重",
+    "source_rom": "长重",
+    "year": 1996,
+    "image_number": 487,
+    "release_number": 487,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "封神世紀"
+  },
+  {
+    "name": "玫瑰骑士",
+    "publisher": "欢乐盒",
+    "source_rom": "Sailon Soft",
+    "year": 1996,
+    "image_number": 488,
+    "release_number": 488,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "玫瑰騎士"
+  },
+  {
+    "name": "爱之物语3",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1996,
+    "image_number": 489,
+    "release_number": 489,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "愛之物語3"
+  },
+  {
+    "name": "雷诺尼都纪事(迷城的国度)",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 490,
+    "release_number": 490,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "雷諾尼都紀事(迷城的國度)"
+  },
+  {
+    "name": "复活邪魔",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 491,
+    "release_number": 491,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "復活邪魔"
+  },
+  {
+    "name": "金庸群侠传 繁",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 492,
+    "release_number": 492,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金庸群俠傳 繁"
+  },
+  {
+    "name": "非洲探险2",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1996,
+    "image_number": 493,
+    "release_number": 493,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "非洲探險2"
+  },
+  {
+    "name": "危机特勤组",
+    "publisher": "光画",
+    "source_rom": "光画",
+    "year": 1996,
+    "image_number": 494,
+    "release_number": 494,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "危機特勤組"
+  },
+  {
+    "name": "三国英雄传",
+    "publisher": "智冠",
+    "source_rom": "红蚂蚁工作室",
+    "year": 1996,
+    "image_number": 495,
+    "release_number": 495,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國英雄傳"
+  },
+  {
+    "name": "麻将争霸",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1996,
+    "image_number": 496,
+    "release_number": 496,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻將爭霸"
+  },
+  {
+    "name": "超时空英雄传说2复仇魔神",
+    "publisher": "宇峻",
+    "source_rom": "宇峻",
+    "year": 1996,
+    "image_number": 497,
+    "release_number": 497,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空英雄傳說2復仇魔神"
+  },
+  {
+    "name": "英雄传说3 白发魔女",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1996,
+    "image_number": 498,
+    "release_number": 498,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄傳說3 白髮魔女"
+  },
+  {
+    "name": "炽天之翼",
+    "publisher": "富峰群",
+    "source_rom": "弘煜",
+    "year": 1996,
+    "image_number": 499,
+    "release_number": 499,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "熾天之翼"
+  },
+  {
+    "name": "三国风云",
+    "publisher": "智冠",
+    "source_rom": "世纪纵横",
+    "year": 1996,
+    "image_number": 500,
+    "release_number": 500,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國風雲"
+  },
+  {
+    "name": "龙骑士4",
+    "publisher": "欢乐盒",
+    "source_rom": "elf",
+    "year": 1996,
+    "image_number": 501,
+    "release_number": 501,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍騎士4"
+  },
+  {
+    "name": "雪猫",
+    "publisher": "飞鲸",
+    "source_rom": "JAST",
+    "year": 1996,
+    "image_number": 502,
+    "release_number": 502,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "雪貓"
+  },
+  {
+    "name": "福尔摩斯探案2-玫瑰紋身案件",
+    "publisher": "电子艺界",
+    "source_rom": "Mythos Games",
+    "year": 1996,
+    "image_number": 503,
+    "release_number": 503,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "福爾摩斯探案2-玫瑰紋身案件"
+  },
+  {
+    "name": "机甲雄风",
+    "publisher": "微波",
+    "source_rom": "博羽",
+    "year": 1996,
+    "image_number": 504,
+    "release_number": 504,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "機甲雄風"
+  },
+  {
+    "name": "赤日",
+    "publisher": "世纪纵横",
+    "source_rom": "世纪纵横",
+    "year": 1996,
+    "image_number": 505,
+    "release_number": 505,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "赤日"
+  },
+  {
+    "name": "魔栈",
+    "publisher": "仕积",
+    "source_rom": "仕积",
+    "year": 1996,
+    "image_number": 506,
+    "release_number": 506,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔棧"
+  },
+  {
+    "name": "2601帝国联合舰队",
+    "publisher": "仕积",
+    "source_rom": "Nexus Interact",
+    "year": 1996,
+    "image_number": 507,
+    "release_number": 507,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "2601帝國聯合艦隊"
+  },
+  {
+    "name": "狂龙传",
+    "publisher": "佳帝安",
+    "source_rom": "佳帝安",
+    "year": 1996,
+    "image_number": 508,
+    "release_number": 508,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "狂龍傳"
+  },
+  {
+    "name": "信长之野望6 天翔记",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1996,
+    "image_number": 509,
+    "release_number": 509,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "信長之野望6 天翔記"
+  },
+  {
+    "name": "运镖天下",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1996,
+    "image_number": 510,
+    "release_number": 510,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "運鏢天下"
+  },
+  {
+    "name": "麻将大师",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1996,
+    "image_number": 511,
+    "release_number": 511,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "麻將大師"
+  },
+  {
+    "name": "排牌乐",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1996,
+    "image_number": 512,
+    "release_number": 512,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "排牌樂"
+  },
+  {
+    "name": "PSY幽记",
+    "publisher": "华义",
+    "source_rom": "PSD",
+    "year": 1996,
+    "image_number": 513,
+    "release_number": 513,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "PSY幽記"
+  },
+  {
+    "name": "圣少女战队3",
+    "publisher": "华义",
+    "source_rom": "Apple Pie",
+    "year": 1996,
+    "image_number": 514,
+    "release_number": 514,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖少女戰隊3"
+  },
+  {
+    "name": "钢铁骑士团",
+    "publisher": "华义",
+    "source_rom": "Glodia",
+    "year": 1996,
+    "image_number": 515,
+    "release_number": 515,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鋼鐵騎士團"
+  },
+  {
+    "name": "中国球王",
+    "publisher": "吉耐思",
+    "source_rom": "吉耐思",
+    "year": 1996,
+    "image_number": 516,
+    "release_number": 516,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中國球王"
+  },
+  {
+    "name": "无名指的教科书",
+    "publisher": "天堂鸟",
+    "source_rom": "Active",
+    "year": 1996,
+    "image_number": 517,
+    "release_number": 517,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "無名指的教科書"
+  },
+  {
+    "name": "精武战警",
+    "publisher": "安信",
+    "source_rom": "劲一番",
+    "year": 1996,
+    "image_number": 518,
+    "release_number": 518,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "精武戰警"
+  },
+  {
+    "name": "阿曼尼斯开国启示录 革命",
+    "publisher": "幸福鸭",
+    "source_rom": "Fuga System",
+    "year": 1996,
+    "image_number": 519,
+    "release_number": 519,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "阿曼尼斯開國啟示錄 革命"
+  },
+  {
+    "name": "超时空G点",
+    "publisher": "幸福鸭",
+    "source_rom": "PLUM",
+    "year": 1996,
+    "image_number": 520,
+    "release_number": 520,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空G點"
+  },
+  {
+    "name": "妖塔2189",
+    "publisher": "幸福鸭",
+    "source_rom": "Greap",
+    "year": 1996,
+    "image_number": 521,
+    "release_number": 521,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "妖塔2189"
+  },
+  {
+    "name": "创世机神",
+    "publisher": "弘邦",
+    "source_rom": "弘邦",
+    "year": 1996,
+    "image_number": 522,
+    "release_number": 522,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "創世機神"
+  },
+  {
+    "name": "圣战悍将",
+    "publisher": "彩虹",
+    "source_rom": "彩虹",
+    "year": 1996,
+    "image_number": 523,
+    "release_number": 523,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖戰悍將"
+  },
+  {
+    "name": "霹雳娇娃",
+    "publisher": "彩虹",
+    "source_rom": "彩虹",
+    "year": 1996,
+    "image_number": 524,
+    "release_number": 524,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "霹靂嬌娃"
+  },
+  {
+    "name": "红楼梦风月宝鉴",
+    "publisher": "彩虹",
+    "source_rom": "彩虹",
+    "year": 1996,
+    "image_number": 525,
+    "release_number": 525,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "紅樓夢風月寶鑑"
+  },
+  {
+    "name": "淘金热",
+    "publisher": "捷鸿",
+    "source_rom": "捷鸿",
+    "year": 1996,
+    "image_number": 526,
+    "release_number": 526,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "淘金熱"
+  },
+  {
+    "name": "碰碰球",
+    "publisher": "捷鸿",
+    "source_rom": "捷鸿",
+    "year": 1996,
+    "image_number": 527,
+    "release_number": 527,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "碰碰球"
+  },
+  {
+    "name": "帝国霸业",
+    "publisher": "第三波",
+    "source_rom": "旭光",
+    "year": 1996,
+    "image_number": 528,
+    "release_number": 528,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "帝國霸業"
+  },
+  {
+    "name": "模拟总统大选",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 529,
+    "release_number": 529,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬總統大選"
+  },
+  {
+    "name": "小沙弥",
+    "publisher": "华义",
+    "source_rom": "杰克豆",
+    "year": 1996,
+    "image_number": 530,
+    "release_number": 530,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "小沙彌"
+  },
+  {
+    "name": "创世弹珠台",
+    "publisher": "松岗",
+    "source_rom": "LiNGO",
+    "year": 1996,
+    "image_number": 531,
+    "release_number": 531,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "創世彈珠檯"
+  },
+  {
+    "name": "3x3只眼",
+    "publisher": "松岗",
+    "source_rom": "Nihon Create",
+    "year": 1996,
+    "image_number": 532,
+    "release_number": 532,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "3x3隻眼"
+  },
+  {
+    "name": "亚里斯王物语",
+    "publisher": "松岗",
+    "source_rom": "GUST",
+    "year": 1996,
+    "image_number": 533,
+    "release_number": 533,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "亞里斯王物語"
+  },
+  {
+    "name": "贼佳拍档",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1996,
+    "image_number": 534,
+    "release_number": 534,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "賊佳拍檔"
+  },
+  {
+    "name": "2001特遣队",
+    "publisher": "欢乐盒",
+    "source_rom": "Sailon Soft",
+    "year": 1996,
+    "image_number": 535,
+    "release_number": 535,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "2001特遣隊"
+  },
+  {
+    "name": "欢乐天使",
+    "publisher": "欢乐盒",
+    "source_rom": "Janis",
+    "year": 1996,
+    "image_number": 536,
+    "release_number": 536,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "歡樂天使"
+  },
+  {
+    "name": "异次元之旅",
+    "publisher": "欢乐盒",
+    "source_rom": "Makkoya",
+    "year": 1996,
+    "image_number": 537,
+    "release_number": 537,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異次元之旅"
+  },
+  {
+    "name": "禁断之血族",
+    "publisher": "欢乐盒",
+    "source_rom": "C's ware",
+    "year": 1996,
+    "image_number": 538,
+    "release_number": 538,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "禁斷之血族"
+  },
+  {
+    "name": "神龙快打",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1996,
+    "image_number": 539,
+    "release_number": 539,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神龍快打"
+  },
+  {
+    "name": "天神传说",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1996,
+    "image_number": 540,
+    "release_number": 540,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天神傳說"
+  },
+  {
+    "name": "熊猫大进击",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1996,
+    "image_number": 541,
+    "release_number": 541,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "熊貓大進擊"
+  },
+  {
+    "name": "排球原人",
+    "publisher": "熊猫",
+    "source_rom": "捷鸿",
+    "year": 1996,
+    "image_number": 542,
+    "release_number": 542,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "排球原人"
+  },
+  {
+    "name": "灌篮金刚",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1996,
+    "image_number": 543,
+    "release_number": 543,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "灌籃金剛"
+  },
+  {
+    "name": "终极火力",
+    "publisher": "第三波",
+    "source_rom": "第三波",
+    "year": 1996,
+    "image_number": 544,
+    "release_number": 544,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "終極火力"
+  },
+  {
+    "name": "侠客遊2",
+    "publisher": "第三波",
+    "source_rom": "Artdink",
+    "year": 1996,
+    "image_number": 545,
+    "release_number": 545,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠客遊2"
+  },
+  {
+    "name": "龙之传奇",
+    "publisher": "精讯",
+    "source_rom": "智宇资讯",
+    "year": 1996,
+    "image_number": 546,
+    "release_number": 546,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍之傳奇"
+  },
+  {
+    "name": "综艺大进击",
+    "publisher": "至通",
+    "source_rom": "至通",
+    "year": 1996,
+    "image_number": 547,
+    "release_number": 547,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "綜藝大進擊"
+  },
+  {
+    "name": "沙场风暴",
+    "publisher": "莎莉资讯",
+    "source_rom": "莎莉资讯",
+    "year": 1996,
+    "image_number": 548,
+    "release_number": 548,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "沙場風暴"
+  },
+  {
+    "name": "樱花的季节",
+    "publisher": "飞鲸",
+    "source_rom": "Janis",
+    "year": 1996,
+    "image_number": 549,
+    "release_number": 549,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "櫻花的季節"
+  },
+  {
+    "name": "三姐妹",
+    "publisher": "飞鲸",
+    "source_rom": "JAST",
+    "year": 1996,
+    "image_number": 550,
+    "release_number": 550,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三姐妹"
+  },
+  {
+    "name": "魔眼邪神-赛尔特传说",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1996,
+    "image_number": 551,
+    "release_number": 551,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔眼邪神-賽爾特傳說"
+  },
+  {
+    "name": "蓝色石榴石",
+    "publisher": "欢乐盒",
+    "source_rom": "Discovery Software",
+    "year": 1996,
+    "image_number": 552,
+    "release_number": 552,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "藍色石榴石"
+  },
+  {
+    "name": "大富翁-破坏超人",
+    "publisher": "智傲",
+    "source_rom": "智傲",
+    "year": 1996,
+    "image_number": 553,
+    "release_number": 553,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁-破壞超人"
+  },
+  {
+    "name": "新狼人摩天楼",
+    "publisher": "莎莉",
+    "source_rom": "莎莉",
+    "year": 1996,
+    "image_number": 554,
+    "release_number": 554,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "新狼人摩天樓"
+  },
+  {
+    "name": "异星搜奇",
+    "publisher": "松岗",
+    "source_rom": "LucasArts",
+    "year": 1996,
+    "image_number": 555,
+    "release_number": 555,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "異星搜奇"
+  },
+  {
+    "name": "提督之决断II",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1996,
+    "image_number": 556,
+    "release_number": 556,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "提督之決斷II"
+  },
+  {
+    "name": "主题公园",
+    "publisher": "电子艺界",
+    "source_rom": "Bullfrog",
+    "year": 1996,
+    "image_number": 557,
+    "release_number": 557,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "主題公園"
+  },
+  {
+    "name": "龙剑客2 龙人之心",
+    "publisher": "第三波",
+    "source_rom": "Cryo Interactive",
+    "year": 1996,
+    "image_number": 558,
+    "release_number": 558,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍劍客2 龍人之心"
+  },
+  {
+    "name": "德鲁依教徒-天人交战",
+    "publisher": "松岗",
+    "source_rom": "Synthetic Dimensions",
+    "year": 1996,
+    "image_number": 457,
+    "release_number": 457,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "德魯依教徒-天人交戰"
+  },
+  {
+    "name": "金庸群侠传 简",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1996,
+    "image_number": 559,
+    "release_number": 559,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金庸群俠傳 簡"
+  },
+  {
+    "name": "炎龙骑士团-邪神的封印 简",
+    "publisher": "晶天",
+    "source_rom": "汉堂",
+    "year": 1997,
+    "image_number": 560,
+    "release_number": 560,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團-邪神的封印 簡"
+  },
+  {
+    "name": "炎龙骑士团2黄金城之谜 简",
+    "publisher": "晶天",
+    "source_rom": "汉堂",
+    "year": 1997,
+    "image_number": 561,
+    "release_number": 561,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團2黃金城之謎 簡"
+  },
+  {
+    "name": "三国志V 威力加强版",
+    "publisher": "光荣",
+    "source_rom": "光荣",
+    "year": 1997,
+    "image_number": 562,
+    "release_number": 562,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志V 威力加強版"
+  },
+  {
+    "name": "伍子胥",
+    "publisher": "河北电子音像出版社",
+    "source_rom": "先博",
+    "year": 1997,
+    "image_number": 563,
+    "release_number": 563,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "伍子胥"
+  },
+  {
+    "name": "黑道当家",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 564,
+    "release_number": 564,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黑道當家"
+  },
+  {
+    "name": "正宗台湾16张麻将2",
+    "publisher": "大宇",
+    "source_rom": "大宇 NPC",
+    "year": 1997,
+    "image_number": 565,
+    "release_number": 565,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "正宗臺灣16張麻將2"
+  },
+  {
+    "name": "魔神战记2",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1997,
+    "image_number": 566,
+    "release_number": 566,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔神戰記2"
+  },
+  {
+    "name": "天龙八部",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 567,
+    "release_number": 567,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天龍八部"
+  },
+  {
+    "name": "天晴传",
+    "publisher": "松岗",
+    "source_rom": "TGL",
+    "year": 1997,
+    "image_number": 568,
+    "release_number": 568,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天晴傳"
+  },
+  {
+    "name": "汉堡战争",
+    "publisher": "智冠",
+    "source_rom": "琪薇",
+    "year": 1997,
+    "image_number": 569,
+    "release_number": 569,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "漢堡戰爭"
+  },
+  {
+    "name": "金瓶梅之偷情宝鉴",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 570,
+    "release_number": 570,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "金瓶梅之偷情寶鑑"
+  },
+  {
+    "name": "中原镖局",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1997,
+    "image_number": 571,
+    "release_number": 571,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中原鏢局"
+  },
+  {
+    "name": "爱琴日记",
+    "publisher": "精讯",
+    "source_rom": "美梦成真",
+    "year": 1997,
+    "image_number": 572,
+    "release_number": 572,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "愛琴日記"
+  },
+  {
+    "name": "撼天神塔2-魔界重現",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1997,
+    "image_number": 573,
+    "release_number": 573,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "撼天神塔2-魔界重現"
+  },
+  {
+    "name": "英雄传说4 朱红雪",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1997,
+    "image_number": 574,
+    "release_number": 574,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄傳說4 硃紅雪"
+  },
+  {
+    "name": "水浒传-梁山英雄",
+    "publisher": "熊猫",
+    "source_rom": "熊猫",
+    "year": 1997,
+    "image_number": 575,
+    "release_number": 575,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水滸傳-梁山英雄"
+  },
+  {
+    "name": "中国武将列传",
+    "publisher": "智冠",
+    "source_rom": "旭光",
+    "year": 1997,
+    "image_number": 576,
+    "release_number": 576,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "中國武將列傳"
+  },
+  {
+    "name": "吞食天地3",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 577,
+    "release_number": 577,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "吞食天地3"
+  },
+  {
+    "name": "霸王迷魂车",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1997,
+    "image_number": 578,
+    "release_number": 578,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "霸王迷魂車"
+  },
+  {
+    "name": "玉蒲团之浪史奇观",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 579,
+    "release_number": 579,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "玉蒲團之浪史奇觀"
+  },
+  {
+    "name": "剑侠情缘 简",
+    "publisher": "金山",
+    "source_rom": "西山居",
+    "year": 1997,
+    "image_number": 580,
+    "release_number": 580,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "劍俠情緣 簡"
+  },
+  {
+    "name": "天使Q女学院",
+    "publisher": "华义",
+    "source_rom": "R-Force",
+    "year": 1997,
+    "image_number": 581,
+    "release_number": 581,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天使Q女學院"
+  },
+  {
+    "name": "明日之星2",
+    "publisher": "欢乐盒",
+    "source_rom": "鹰扬",
+    "year": 1997,
+    "image_number": 582,
+    "release_number": 582,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "明日之星2"
+  },
+  {
+    "name": "创世封魔传",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 583,
+    "release_number": 583,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "創世封魔傳"
+  },
+  {
+    "name": "血狮-保卫中国",
+    "publisher": "尚洋",
+    "source_rom": "尚洋",
+    "year": 1997,
+    "image_number": 584,
+    "release_number": 584,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "血獅-保衛中國"
+  },
+  {
+    "name": "炸弹超人",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 585,
+    "release_number": 585,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炸彈超人"
+  },
+  {
+    "name": "鹿鼎记",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1997,
+    "image_number": 586,
+    "release_number": 586,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鹿鼎記"
+  },
+  {
+    "name": "乌龙院",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 587,
+    "release_number": 587,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "烏龍院"
+  },
+  {
+    "name": "魍魉战记摩陀罗之大金刚轮编",
+    "publisher": "松岗",
+    "source_rom": "工画堂",
+    "year": 1997,
+    "image_number": 588,
+    "release_number": 588,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魍魎戰記摩陀羅之大金剛輪編"
+  },
+  {
+    "name": "撼天神塔3-魔誡",
+    "publisher": "天堂鸟",
+    "source_rom": "Falcom",
+    "year": 1997,
+    "image_number": 589,
+    "release_number": 589,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "撼天神塔3-魔誡"
+  },
+  {
+    "name": "虎将神兵",
+    "publisher": "旭光",
+    "source_rom": "旭光",
+    "year": 1997,
+    "image_number": 590,
+    "release_number": 590,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "虎將神兵"
+  },
+  {
+    "name": "绝音魔琴",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1997,
+    "image_number": 591,
+    "release_number": 591,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕音魔琴"
+  },
+  {
+    "name": "魔兽争霸2 简",
+    "publisher": "奥美",
+    "source_rom": "暴雪",
+    "year": 1997,
+    "image_number": 592,
+    "release_number": 592,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔獸爭霸2 簡"
+  },
+  {
+    "name": "神剑游侠传",
+    "publisher": "仕积",
+    "source_rom": "仕积",
+    "year": 1997,
+    "image_number": 593,
+    "release_number": 593,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神劍遊俠傳"
+  },
+  {
+    "name": "诸神封印",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 594,
+    "release_number": 594,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "諸神封印"
+  },
+  {
+    "name": "霹雳幽灵箭",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 595,
+    "release_number": 595,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "霹靂幽靈箭"
+  },
+  {
+    "name": "三国列传",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1997,
+    "image_number": 596,
+    "release_number": 596,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國列傳"
+  },
+  {
+    "name": "大富翁总动员",
+    "publisher": "第三波",
+    "source_rom": "亚克米",
+    "year": 1997,
+    "image_number": 597,
+    "release_number": 597,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁總動員"
+  },
+  {
+    "name": "古大陆物语4 银翼传承",
+    "publisher": "智冠",
+    "source_rom": "TGL",
+    "year": 1997,
+    "image_number": 598,
+    "release_number": 598,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "古大陸物語4 銀翼傳承"
+  },
+  {
+    "name": "轩辕圣战录",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 599,
+    "release_number": 599,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "軒轅聖戰錄"
+  },
+  {
+    "name": "皇后",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 600,
+    "release_number": 600,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "皇后"
+  },
+  {
+    "name": "天师钟馗",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 601,
+    "release_number": 601,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天師鍾馗"
+  },
+  {
+    "name": "侠客英雄传3 繁",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1997,
+    "image_number": 602,
+    "release_number": 602,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠客英雄傳3 繁"
+  },
+  {
+    "name": "上古英雄传",
+    "publisher": "鑫盛",
+    "source_rom": "鑫盛",
+    "year": 1997,
+    "image_number": 603,
+    "release_number": 603,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "上古英雄傳"
+  },
+  {
+    "name": "神雕侠侣",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 604,
+    "release_number": 604,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神鵰俠侶"
+  },
+  {
+    "name": "大唐英雄传",
+    "publisher": "仕积",
+    "source_rom": "盘古",
+    "year": 1997,
+    "image_number": 605,
+    "release_number": 605,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大唐英雄傳"
+  },
+  {
+    "name": "QQ三国志",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 606,
+    "release_number": 606,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "QQ三國志"
+  },
+  {
+    "name": "地狱也疯狂",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 607,
+    "release_number": 607,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "地獄也瘋狂"
+  },
+  {
+    "name": "圣光岛",
+    "publisher": "智冠",
+    "source_rom": "世纪纵横",
+    "year": 1997,
+    "image_number": 608,
+    "release_number": 608,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖光島"
+  },
+  {
+    "name": "大地雄师-超空霸傳",
+    "publisher": "欢乐盒",
+    "source_rom": "Sailon Soft",
+    "year": 1997,
+    "image_number": 609,
+    "release_number": 609,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大地雄師-超空霸傳"
+  },
+  {
+    "name": "日没",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1997,
+    "image_number": 610,
+    "release_number": 610,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "日沒"
+  },
+  {
+    "name": "七英雄外传王者之师",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 611,
+    "release_number": 611,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "七英雄外傳王者之師"
+  },
+  {
+    "name": "女神学园",
+    "publisher": "欢乐盒",
+    "source_rom": "鑫盛",
+    "year": 1997,
+    "image_number": 612,
+    "release_number": 612,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "女神學園"
+  },
+  {
+    "name": "魔空霸传",
+    "publisher": "第三波",
+    "source_rom": "飞拓",
+    "year": 1997,
+    "image_number": 613,
+    "release_number": 613,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔空霸傳"
+  },
+  {
+    "name": "闷绝性技王传说",
+    "publisher": "鹰扬",
+    "source_rom": "Trush",
+    "year": 1997,
+    "image_number": 614,
+    "release_number": 614,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "悶絕性技王傳說"
+  },
+  {
+    "name": "寒武争战",
+    "publisher": "森雅",
+    "source_rom": "森雅",
+    "year": 1997,
+    "image_number": 615,
+    "release_number": 615,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "寒武爭戰"
+  },
+  {
+    "name": "青少棒扬威记",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1997,
+    "image_number": 616,
+    "release_number": 616,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "青少棒揚威記"
+  },
+  {
+    "name": "太子传说",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 617,
+    "release_number": 617,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "太子傳說"
+  },
+  {
+    "name": "圣战风云录",
+    "publisher": "梵太师",
+    "source_rom": "美梦成真",
+    "year": 1997,
+    "image_number": 618,
+    "release_number": 618,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖戰風雲錄"
+  },
+  {
+    "name": "邪神",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1997,
+    "image_number": 619,
+    "release_number": 619,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "邪神"
+  },
+  {
+    "name": "超级酒店大亨",
+    "publisher": "智冠",
+    "source_rom": "博亚科技",
+    "year": 1997,
+    "image_number": 620,
+    "release_number": 620,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級酒店大亨"
+  },
+  {
+    "name": "失落的大地 亚特兰大之谜",
+    "publisher": "欢乐盒",
+    "source_rom": "杰米",
+    "year": 1997,
+    "image_number": 621,
+    "release_number": 621,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "失落的大地 亞特蘭大之謎"
+  },
+  {
+    "name": "杏林也疯狂",
+    "publisher": "电子艺界",
+    "source_rom": "Bullfrog",
+    "year": 1997,
+    "image_number": 622,
+    "release_number": 622,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "杏林也瘋狂"
+  },
+  {
+    "name": "圣战物语",
+    "publisher": "世纪纵横",
+    "source_rom": "吴氏工房",
+    "year": 1997,
+    "image_number": 623,
+    "release_number": 623,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖戰物語"
+  },
+  {
+    "name": "银河英雄",
+    "publisher": "欢乐盒",
+    "source_rom": "新艺",
+    "year": 1997,
+    "image_number": 624,
+    "release_number": 624,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河英雄"
+  },
+  {
+    "name": "幻界霸者",
+    "publisher": "大宇",
+    "source_rom": "光速飞行",
+    "year": 1997,
+    "image_number": 626,
+    "release_number": 626,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻界霸者"
+  },
+  {
+    "name": "银河英雄传说3SP",
+    "publisher": "大宇",
+    "source_rom": "Bothtec",
+    "year": 1997,
+    "image_number": 627,
+    "release_number": 627,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河英雄傳說3SP"
+  },
+  {
+    "name": "香蕉俱乐部",
+    "publisher": "天堂鸟",
+    "source_rom": "XYZ",
+    "year": 1997,
+    "image_number": 628,
+    "release_number": 628,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "香蕉俱樂部"
+  },
+  {
+    "name": "英雄战记",
+    "publisher": "富国",
+    "source_rom": "富国",
+    "year": 1997,
+    "image_number": 629,
+    "release_number": 629,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "英雄戰記"
+  },
+  {
+    "name": "神谕",
+    "publisher": "弘邦",
+    "source_rom": "弘邦",
+    "year": 1997,
+    "image_number": 630,
+    "release_number": 630,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神諭"
+  },
+  {
+    "name": "蛇王-宝珠传说",
+    "publisher": "捷鸿",
+    "source_rom": "捷鸿",
+    "year": 1997,
+    "image_number": 631,
+    "release_number": 631,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "蛇王-寶珠傳說"
+  },
+  {
+    "name": "铁甲纪元-战魂",
+    "publisher": "新艺",
+    "source_rom": "新艺",
+    "year": 1997,
+    "image_number": 633,
+    "release_number": 633,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "鐵甲紀元-戰魂"
+  },
+  {
+    "name": "幻世喜谭",
+    "publisher": "新艺",
+    "source_rom": "Compile",
+    "year": 1997,
+    "image_number": 634,
+    "release_number": 634,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻世喜譚"
+  },
+  {
+    "name": "大魔王物语",
+    "publisher": "智冠",
+    "source_rom": "智傲",
+    "year": 1997,
+    "image_number": 635,
+    "release_number": 635,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大魔王物語"
+  },
+  {
+    "name": "赌神 至尊之战",
+    "publisher": "智冠",
+    "source_rom": "Pro Arts Factory",
+    "year": 1997,
+    "image_number": 636,
+    "release_number": 636,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "賭神 至尊之戰"
+  },
+  {
+    "name": "超级四川省",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 637,
+    "release_number": 637,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級四川省"
+  },
+  {
+    "name": "暗棋总动员",
+    "publisher": "智冠",
+    "source_rom": "琪薇",
+    "year": 1997,
+    "image_number": 638,
+    "release_number": 638,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "暗棋總動員"
+  },
+  {
+    "name": "红楼梦之玲珑彩玉",
+    "publisher": "智冠",
+    "source_rom": "龙爱",
+    "year": 1997,
+    "image_number": 639,
+    "release_number": 639,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "紅樓夢之玲瓏彩玉"
+  },
+  {
+    "name": "三国志-蜀汉英雄传",
+    "publisher": "智冠",
+    "source_rom": "安峻",
+    "year": 1997,
+    "image_number": 640,
+    "release_number": 640,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "三國志-蜀漢英雄傳"
+  },
+  {
+    "name": "终极战士",
+    "publisher": "智冠",
+    "source_rom": "安峻",
+    "year": 1997,
+    "image_number": 641,
+    "release_number": 641,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "終極戰士"
+  },
+  {
+    "name": "YOUNG GUNS 大富翁",
+    "publisher": "松岗",
+    "source_rom": "松岗",
+    "year": 1997,
+    "image_number": 642,
+    "release_number": 642,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "YOUNG GUNS 大富翁"
+  },
+  {
+    "name": "格杀令",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1997,
+    "image_number": 643,
+    "release_number": 643,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "格殺令"
+  },
+  {
+    "name": "第六感之恋",
+    "publisher": "欢乐盒",
+    "source_rom": "Gloria",
+    "year": 1997,
+    "image_number": 644,
+    "release_number": 644,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "第六感之戀"
+  },
+  {
+    "name": "圣女传说",
+    "publisher": "欢乐盒",
+    "source_rom": "欢乐盒",
+    "year": 1997,
+    "image_number": 645,
+    "release_number": 645,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "聖女傳說"
+  },
+  {
+    "name": "神龙少年",
+    "publisher": "欣力量",
+    "source_rom": "欣力量",
+    "year": 1997,
+    "image_number": 646,
+    "release_number": 646,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "神龍少年"
+  },
+  {
+    "name": "佳儿成龙记",
+    "publisher": "欣力量",
+    "source_rom": "欣力量",
+    "year": 1997,
+    "image_number": 647,
+    "release_number": 647,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "佳兒成龍記"
+  },
+  {
+    "name": "大富翁乐园",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1997,
+    "image_number": 648,
+    "release_number": 648,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁樂園"
+  },
+  {
+    "name": "青涩的果实",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1997,
+    "image_number": 649,
+    "release_number": 649,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "青澀的果實"
+  },
+  {
+    "name": "疯狂麻将",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1997,
+    "image_number": 650,
+    "release_number": 650,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂麻將"
+  },
+  {
+    "name": "大富翁之城市英雄",
+    "publisher": "美梦成真",
+    "source_rom": "美梦成真",
+    "year": 1997,
+    "image_number": 651,
+    "release_number": 651,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大富翁之城市英雄"
+  },
+  {
+    "name": "火狐狸",
+    "publisher": "腾图",
+    "source_rom": "腾图",
+    "year": 1997,
+    "image_number": 652,
+    "release_number": 652,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "火狐狸"
+  },
+  {
+    "name": "ES方程式",
+    "publisher": "飞鲸",
+    "source_rom": "Abogado Powers",
+    "year": 1997,
+    "image_number": 653,
+    "release_number": 653,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "ES方程式"
+  },
+  {
+    "name": "小惠的性知识",
+    "publisher": "鹰扬",
+    "source_rom": "鹰扬",
+    "year": 1997,
+    "image_number": 654,
+    "release_number": 654,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "小惠的性知識"
+  },
+  {
+    "name": "烈火少林",
+    "publisher": "麦思特",
+    "source_rom": "麦思特",
+    "year": 1997,
+    "image_number": 655,
+    "release_number": 655,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "烈火少林"
+  },
+  {
+    "name": "勇者泡泡龙",
+    "publisher": "龙爱",
+    "source_rom": "龙爱",
+    "year": 1997,
+    "image_number": 656,
+    "release_number": 656,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "勇者泡泡龍"
+  },
+  {
+    "name": "乱世英杰2-徳川家康",
+    "publisher": "彩虹",
+    "source_rom": "Family Soft",
+    "year": 1997,
+    "image_number": 657,
+    "release_number": 657,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "亂世英傑2-徳川家康"
+  },
+  {
+    "name": "绝地风暴 简",
+    "publisher": "电子艺界",
+    "source_rom": "Beam Software",
+    "year": 1997,
+    "image_number": 658,
+    "release_number": 658,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕地風暴 簡"
+  },
+  {
+    "name": "模拟首都",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1997,
+    "image_number": 659,
+    "release_number": 659,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬首都"
+  },
+  {
+    "name": "移民计划",
+    "publisher": "河北电子音像出版社",
+    "source_rom": "光谱",
+    "year": 1997,
+    "image_number": 660,
+    "release_number": 660,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "移民計劃"
+  },
+  {
+    "name": "绝地风暴 繁",
+    "publisher": "电子艺界",
+    "source_rom": "Beam Software",
+    "year": 1997,
+    "image_number": 661,
+    "release_number": 661,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕地風暴 繁"
+  },
+  {
+    "name": "猎杀潜航",
+    "publisher": "第三波",
+    "source_rom": "SSI",
+    "year": 1997,
+    "image_number": 662,
+    "release_number": 662,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "獵殺潛航"
+  },
+  {
+    "name": "绝地任务",
+    "publisher": "智冠",
+    "source_rom": "Legend Entertainment",
+    "year": 1997,
+    "image_number": 663,
+    "release_number": 663,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "絕地任務"
+  },
+  {
+    "name": "格斗美少女",
+    "publisher": "幸福鸭",
+    "source_rom": "PLUM",
+    "year": 1997,
+    "image_number": 664,
+    "release_number": 664,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "格鬥美少女"
+  },
+  {
+    "name": "模拟大楼",
+    "publisher": "第三波",
+    "source_rom": "Artdink",
+    "year": 1997,
+    "image_number": 665,
+    "release_number": 665,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "模擬大樓"
+  },
+  {
+    "name": "教育实习-女子校生 欲望之激狂",
+    "publisher": "欢乐盒",
+    "source_rom": "Tetratech",
+    "year": 1997,
+    "image_number": 632,
+    "release_number": 632,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "教育實習-女子校生 慾望之激狂"
+  },
+  {
+    "name": "主题医院",
+    "publisher": "电子艺界",
+    "source_rom": "Bullfrog",
+    "year": 1997,
+    "image_number": 625,
+    "release_number": 625,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "主題醫院"
+  },
+  {
+    "name": "魔法门英雄无敌2 延续的战争",
+    "publisher": "UBI Soft",
+    "source_rom": "New World Computing",
+    "year": 1997,
+    "image_number": 666,
+    "release_number": 666,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門英雄無敵2 延續的戰爭"
+  },
+  {
+    "name": "魔法门英雄无敌2 忠诚的代价",
+    "publisher": "UBI Soft",
+    "source_rom": "New World Computing",
+    "year": 1997,
+    "image_number": 667,
+    "release_number": 667,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法門英雄無敵2 忠誠的代價"
+  },
+  {
+    "name": "剑侠情缘 繁",
+    "publisher": "金山",
+    "source_rom": "西山居",
+    "year": 1997,
+    "image_number": 670,
+    "release_number": 670,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "劍俠情緣 繁"
+  },
+  {
+    "name": "侠客英雄传3 简",
+    "publisher": "精讯",
+    "source_rom": "精讯",
+    "year": 1997,
+    "image_number": 671,
+    "release_number": 671,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠客英雄傳3 簡"
+  },
+  {
+    "name": "魔兽争霸2 繁",
+    "publisher": "松岗",
+    "source_rom": "暴雪",
+    "year": 1998,
+    "image_number": 672,
+    "release_number": 672,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔獸爭霸2 繁"
+  },
+  {
+    "name": "黑暗圣战录",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1998,
+    "image_number": 673,
+    "release_number": 673,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "黑暗聖戰錄"
+  },
+  {
+    "name": "天帝之子",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1998,
+    "image_number": 674,
+    "release_number": 674,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "天帝之子"
+  },
+  {
+    "name": "薛家将 征东神话",
+    "publisher": "智冠",
+    "source_rom": "旭光",
+    "year": 1998,
+    "image_number": 675,
+    "release_number": 675,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "薛家將 徵東神話"
+  },
+  {
+    "name": "炎龙骑士团外传-风之纹章 繁",
+    "publisher": "汉堂",
+    "source_rom": "汉堂",
+    "year": 1998,
+    "image_number": 676,
+    "release_number": 676,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團外傳-風之紋章 繁"
+  },
+  {
+    "name": "阿猫阿狗",
+    "publisher": "大宇",
+    "source_rom": "大宇",
+    "year": 1998,
+    "image_number": 677,
+    "release_number": 677,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "阿貓阿狗"
+  },
+  {
+    "name": "星月奇缘",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1998,
+    "image_number": 678,
+    "release_number": 678,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "星月奇緣"
+  },
+  {
+    "name": "超时空英雄传说2外传北方密使",
+    "publisher": "宇峻",
+    "source_rom": "宇峻",
+    "year": 1998,
+    "image_number": 679,
+    "release_number": 679,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超時空英雄傳說2外傳北方密使"
+  },
+  {
+    "name": "炎龙骑士团外传-风之纹章 简",
+    "publisher": "晶天",
+    "source_rom": "汉堂",
+    "year": 1998,
+    "image_number": 680,
+    "release_number": 680,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "炎龍騎士團外傳-風之紋章 簡"
+  },
+  {
+    "name": "水浒英雄传-火之魂 简",
+    "publisher": "腾图",
+    "source_rom": "腾图",
+    "year": 1998,
+    "image_number": 681,
+    "release_number": 681,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水滸英雄傳-火之魂 簡"
+  },
+  {
+    "name": "头号通缉犯",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1998,
+    "image_number": 682,
+    "release_number": 682,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "頭號通緝犯"
+  },
+  {
+    "name": "恐龙动物园 简",
+    "publisher": "鑫盛",
+    "source_rom": "鹰扬",
+    "year": 1998,
+    "image_number": 683,
+    "release_number": 683,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "恐龍動物園 簡"
+  },
+  {
+    "name": "古大陆物语5 毁灭天境",
+    "publisher": "智冠",
+    "source_rom": "TGL",
+    "year": 1998,
+    "image_number": 684,
+    "release_number": 684,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "古大陸物語5 毀滅天境"
+  },
+  {
+    "name": "恐龙动物园 繁",
+    "publisher": "鹰扬",
+    "source_rom": "鑫盛",
+    "year": 1998,
+    "image_number": 685,
+    "release_number": 685,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "恐龍動物園 繁"
+  },
+  {
+    "name": "邪灵世纪",
+    "publisher": "天堂鸟",
+    "source_rom": "天堂鸟",
+    "year": 1998,
+    "image_number": 686,
+    "release_number": 686,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "邪靈世紀"
+  },
+  {
+    "name": "古文明霸王传",
+    "publisher": "宇峻",
+    "source_rom": "宇峻",
+    "year": 1998,
+    "image_number": 687,
+    "release_number": 687,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "古文明霸王傳"
+  },
+  {
+    "name": "灵剑传奇",
+    "publisher": "华义",
+    "source_rom": "泰腾",
+    "year": 1998,
+    "image_number": 688,
+    "release_number": 688,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "靈劍傳奇"
+  },
+  {
+    "name": "水浒英雄传-火之魂 繁",
+    "publisher": "梵太师",
+    "source_rom": "腾图",
+    "year": 1998,
+    "image_number": 689,
+    "release_number": 689,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "水滸英雄傳-火之魂 繁"
+  },
+  {
+    "name": "银河英雄传说4EX",
+    "publisher": "微波",
+    "source_rom": "Bothtec",
+    "year": 1998,
+    "image_number": 690,
+    "release_number": 690,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河英雄傳說4EX"
+  },
+  {
+    "name": "人间道-少年燕赤霞",
+    "publisher": "智冠",
+    "source_rom": "安峻",
+    "year": 1998,
+    "image_number": 691,
+    "release_number": 691,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "人間道-少年燕赤霞"
+  },
+  {
+    "name": "富甲天下2",
+    "publisher": "光谱",
+    "source_rom": "光谱",
+    "year": 1998,
+    "image_number": 692,
+    "release_number": 692,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "富甲天下2"
+  },
+  {
+    "name": "魔法军团",
+    "publisher": "智冠",
+    "source_rom": "智傲",
+    "year": 1998,
+    "image_number": 695,
+    "release_number": 695,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法軍團"
+  },
+  {
+    "name": "侠义豪情传-禁烟风云 繁",
+    "publisher": "外星",
+    "source_rom": "外星",
+    "year": 1998,
+    "image_number": 696,
+    "release_number": 696,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠義豪情傳-禁菸風雲 繁"
+  },
+  {
+    "name": "侠义豪情传-禁烟风云 简",
+    "publisher": "外星",
+    "source_rom": "外星",
+    "year": 1998,
+    "image_number": 697,
+    "release_number": 697,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "俠義豪情傳-禁菸風雲 簡"
+  },
+  {
+    "name": "志武神大战",
+    "publisher": "富峰群",
+    "source_rom": "Mirinae Software",
+    "year": 1998,
+    "image_number": 698,
+    "release_number": 698,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "志武神大戰"
+  },
+  {
+    "name": "银河守卫团",
+    "publisher": "彩虹",
+    "source_rom": "Tenky",
+    "year": 1998,
+    "image_number": 699,
+    "release_number": 699,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "銀河守衛團"
+  },
+  {
+    "name": "红楼梦之十二金钗",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 700,
+    "release_number": 700,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "紅樓夢之十二金釵"
+  },
+  {
+    "name": "江南才子唐伯虎",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 701,
+    "release_number": 701,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "江南才子唐伯虎"
+  },
+  {
+    "name": "龙霸天下",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 703,
+    "release_number": 703,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "龍霸天下"
+  },
+  {
+    "name": "超级五子棋 简",
+    "publisher": "众心",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 704,
+    "release_number": 704,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級五子棋 簡"
+  },
+  {
+    "name": "超级五子棋 繁",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 705,
+    "release_number": 705,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "超級五子棋 繁"
+  },
+  {
+    "name": "刘备传",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 706,
+    "release_number": 706,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "劉備傳"
+  },
+  {
+    "name": "决战中国象棋2",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1998,
+    "image_number": 708,
+    "release_number": 708,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "決戰中國象棋2"
+  },
+  {
+    "name": "江湖任我行 简",
+    "publisher": "众心",
+    "source_rom": "红蚂蚁工作室",
+    "year": 1998,
+    "image_number": 709,
+    "release_number": 709,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "江湖任我行 簡"
+  },
+  {
+    "name": "山海经-神州战役",
+    "publisher": "泰腾",
+    "source_rom": "泰腾",
+    "year": 1998,
+    "image_number": 710,
+    "release_number": 710,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "山海經-神州戰役"
+  },
+  {
+    "name": "花木兰",
+    "publisher": "盘古",
+    "source_rom": "盘古",
+    "year": 1998,
+    "image_number": 711,
+    "release_number": 711,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "花木蘭"
+  },
+  {
+    "name": "伊甸风暴",
+    "publisher": "第三波",
+    "source_rom": "大点",
+    "year": 1998,
+    "image_number": 712,
+    "release_number": 712,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "伊甸風暴"
+  },
+  {
+    "name": "狗子阿利",
+    "publisher": "龙爱",
+    "source_rom": "龙爱",
+    "year": 1998,
+    "image_number": 713,
+    "release_number": 713,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "狗子阿利"
+  },
+  {
+    "name": "魔日传说",
+    "publisher": "盘古",
+    "source_rom": "盘古",
+    "year": 1998,
+    "image_number": 714,
+    "release_number": 714,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔日傳說"
+  },
+  {
+    "name": "官能习教",
+    "publisher": "欢乐盒",
+    "source_rom": "Tetratech",
+    "year": 1998,
+    "image_number": 715,
+    "release_number": 715,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "官能習教"
+  },
+  {
+    "name": "极乐大进击",
+    "publisher": "美梦成真",
+    "source_rom": "美梦成真",
+    "year": 1998,
+    "image_number": 693,
+    "release_number": 693,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "極樂大進擊"
+  },
+  {
+    "name": "战区88",
+    "publisher": "彩虹",
+    "source_rom": "Family Soft",
+    "year": 1998,
+    "image_number": 694,
+    "release_number": 694,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "戰區88"
+  },
+  {
+    "name": "太平天国",
+    "publisher": "盘古",
+    "source_rom": "盘古",
+    "year": 1998,
+    "image_number": 702,
+    "release_number": 702,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "太平天國"
+  },
+  {
+    "name": "幻想奇侠传",
+    "publisher": "华义",
+    "source_rom": "盘古",
+    "year": 1999,
+    "image_number": 716,
+    "release_number": 716,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "幻想奇俠傳"
+  },
+  {
+    "name": "大宋英豪岳飞传",
+    "publisher": "智冠",
+    "source_rom": "红蚂蚁工作室",
+    "year": 1999,
+    "image_number": 717,
+    "release_number": 717,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "大宋英豪岳飛傳"
+  },
+  {
+    "name": "吞食天地4 楚汉光辉 简",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1999,
+    "image_number": 718,
+    "release_number": 718,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "吞食天地4 楚漢光輝 簡"
+  },
+  {
+    "name": "艾蒂丝魔法大冒险",
+    "publisher": "第三波",
+    "source_rom": "美梦成真",
+    "year": 1999,
+    "image_number": 719,
+    "release_number": 719,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "艾蒂絲魔法大冒險"
+  },
+  {
+    "name": "魔法公主",
+    "publisher": "美梦成真",
+    "source_rom": "美梦成真",
+    "year": 1999,
+    "image_number": 720,
+    "release_number": 720,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "魔法公主"
+  },
+  {
+    "name": "吞食天地4 楚汉光辉 繁",
+    "publisher": "智冠",
+    "source_rom": "智冠",
+    "year": 1999,
+    "image_number": 721,
+    "release_number": 721,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "吞食天地4 楚漢光輝 繁"
+  },
+  {
+    "name": "江湖任我行 繁",
+    "publisher": "智冠",
+    "source_rom": "红蚂蚁工作室",
+    "year": 1998,
+    "image_number": 722,
+    "release_number": 722,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "江湖任我行 繁"
+  },
+  {
+    "name": "疯狂大赛马",
+    "publisher": "未来资讯",
+    "source_rom": "石人族",
+    "year": 1993,
+    "image_number": 723,
+    "release_number": 723,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "瘋狂大賽馬"
+  },
+  {
+    "name": "澳门回归快乐游",
+    "publisher": "BitSoft",
+    "source_rom": "BitSoft",
+    "year": null,
+    "image_number": 726,
+    "release_number": 726,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "澳門迴歸快樂遊"
+  },
+  {
+    "name": "美少女学院R组",
+    "publisher": null,
+    "source_rom": null,
+    "year": null,
+    "image_number": 727,
+    "release_number": 727,
+    "provenance": [
+      "offlinelist@cndosgames"
+    ],
+    "name_zh_hant": "美少女學院R組"
+  }
+]

@@ -10,16 +10,6 @@
     "src": "rwv"
   },
   {
-    "name": "大航海时代2",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
-    "name": "银河英雄传说3SP",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "三国志5X",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -45,21 +35,6 @@
     "src": "rwv"
   },
   {
-    "name": "太阁立志传",
-    "reason": "base-matches-5-master",
-    "src": "rwv"
-  },
-  {
-    "name": "中国球王",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "天使帝国",
-    "reason": "base-matches-4-master",
-    "src": "rwv"
-  },
-  {
     "name": "1942特种部队",
     "reason": "base-matches-2-master",
     "src": "rwv"
@@ -71,21 +46,6 @@
   },
   {
     "name": "Z字特工队",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "爱之物语2",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "爱之物语3",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "暗棋侏罗纪",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -125,11 +85,6 @@
     "src": "rwv"
   },
   {
-    "name": "超级大富翁",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "超级滑雪3",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -150,28 +105,13 @@
     "src": "rwv"
   },
   {
-    "name": "超级学园麻雀海外版",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
     "name": "超级学院麻雀",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "超时空G点",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
     "name": "超时空英雄传说2",
     "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "沉默的舰队",
-    "reason": "base-matches-2-master",
     "src": "rwv"
   },
   {
@@ -192,16 +132,6 @@
   {
     "name": "锄大地2",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "楚汉之争",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "楚汉之争2",
-    "reason": "base-matches-1-master",
     "src": "rwv"
   },
   {
@@ -255,16 +185,6 @@
     "src": "rwv"
   },
   {
-    "name": "春秋争霸传",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "春秋争霸传2",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
     "name": "丛林之书",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -296,16 +216,6 @@
   },
   {
     "name": "大航海2",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "大宋英豪岳飞传",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "大战略SP",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -377,11 +287,6 @@
   {
     "name": "飞龙传奇",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "非洲探险",
-    "reason": "base-matches-2-master",
     "src": "rwv"
   },
   {
@@ -475,11 +380,6 @@
     "src": "rwv"
   },
   {
-    "name": "钢铁骑士团",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
     "name": "钢铁十字",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -540,11 +440,6 @@
     "src": "rwv"
   },
   {
-    "name": "古大陆物语",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
     "name": "古大陆物语2",
     "reason": "base-matches-1-master",
     "src": "rwv"
@@ -560,22 +455,12 @@
     "src": "rwv"
   },
   {
-    "name": "官能习教",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "灌篮96",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
     "name": "鬼屋魔影",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
-    "name": "鬼屋魔影2",
     "reason": "base-matches-2-master",
     "src": "rwv"
   },
@@ -602,11 +487,6 @@
   {
     "name": "撼天神塔3",
     "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "撼天神塔VT",
-    "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
@@ -665,11 +545,6 @@
     "src": "rwv"
   },
   {
-    "name": "幻世喜谭",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "幻想火焰",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -686,11 +561,6 @@
   },
   {
     "name": "幻影英雄",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "黄飞鸿铁公鸡斗蜈蚣",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -805,11 +675,6 @@
     "src": "rwv"
   },
   {
-    "name": "禁断之血族",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
     "name": "警察故事1重制版",
     "reason": "remake-suffix",
     "src": "rwv"
@@ -825,17 +690,7 @@
     "src": "rwv"
   },
   {
-    "name": "绝地-众神的诅咒",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "绝对零度",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "卡耐鸡人生指南",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -945,11 +800,6 @@
     "src": "rwv"
   },
   {
-    "name": "猎杀潜航",
-    "reason": "base-matches-3-master",
-    "src": "rwv"
-  },
-  {
     "name": "龙战记X",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -980,11 +830,6 @@
     "src": "rwv"
   },
   {
-    "name": "麻将争霸",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "美国噩梦",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -995,17 +840,7 @@
     "src": "rwv"
   },
   {
-    "name": "闷绝性技王传说",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "梦幻国度",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "梦见坡",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -1017,16 +852,6 @@
   {
     "name": "迷宫罗格",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "明日之星",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
-    "name": "明星志愿",
-    "reason": "base-matches-4-master",
     "src": "rwv"
   },
   {
@@ -1095,11 +920,6 @@
     "src": "rwv"
   },
   {
-    "name": "魔法皇冠",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "魔法门",
     "reason": "base-matches-3-master",
     "src": "rwv"
@@ -1107,11 +927,6 @@
   {
     "name": "魔法门2",
     "reason": "base-matches-3-master",
-    "src": "rwv"
-  },
-  {
-    "name": "魔法门4星云之谜",
-    "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
@@ -1150,42 +965,12 @@
     "src": "rwv"
   },
   {
-    "name": "魔界之泉动乱魔都",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "魔神战记",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
-    "name": "魔石英雄传说2",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "魔术彩球",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "魔术方块",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
-    "name": "魔眼封印",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "魔眼杀机",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "魔眼杀机3血战扎诺尔",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -1222,16 +1007,6 @@
   {
     "name": "霹雳幽灵剑",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "七英雄物语",
-    "reason": "base-matches-2-master",
-    "src": "rwv"
-  },
-  {
-    "name": "青少棒扬威记",
-    "reason": "base-matches-2-master",
     "src": "rwv"
   },
   {
@@ -1292,11 +1067,6 @@
   {
     "name": "荣耀之路4",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "三国风云",
-    "reason": "base-matches-2-master",
     "src": "rwv"
   },
   {
@@ -1375,32 +1145,12 @@
     "src": "rwv"
   },
   {
-    "name": "生化情人",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "生化威胁",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
     "name": "圣诞残杀",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "圣少女战队",
-    "reason": "base-matches-3-master",
-    "src": "rwv"
-  },
-  {
-    "name": "圣战风云录",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "圣战物语",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -1550,11 +1300,6 @@
     "src": "rwv"
   },
   {
-    "name": "天下无敌",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "天下一统",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -1572,11 +1317,6 @@
   {
     "name": "铁路大亨豪华版",
     "reason": "base-matches-3-master",
-    "src": "rwv"
-  },
-  {
-    "name": "铁血联盟",
-    "reason": "fuzzy-near-master",
     "src": "rwv"
   },
   {
@@ -1670,11 +1410,6 @@
     "src": "rwv"
   },
   {
-    "name": "西楚霸王",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "侠盗猎车手",
     "reason": "base-matches-3-master",
     "src": "rwv"
@@ -1716,11 +1451,6 @@
   },
   {
     "name": "小魔怪2",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "邪神",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -1790,11 +1520,6 @@
     "src": "rwv"
   },
   {
-    "name": "学园退魔传",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "血祭",
     "reason": "base-matches-1-master",
     "src": "rwv"
@@ -1835,11 +1560,6 @@
     "src": "rwv"
   },
   {
-    "name": "异星突击",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "异星遗迹",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -1871,11 +1591,6 @@
   },
   {
     "name": "银河风暴",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "银河英雄传说4EX",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -1915,11 +1630,6 @@
     "src": "rwv"
   },
   {
-    "name": "英雄战记",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "永恒之烛1",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -1935,27 +1645,7 @@
     "src": "rwv"
   },
   {
-    "name": "勇者斗恶龙",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "勇者斗恶龙2",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
-    "name": "勇者斗恶龙3",
-    "reason": "base-matches-1-master",
-    "src": "rwv"
-  },
-  {
     "name": "宇宙王牌",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "宇宙英雄",
     "reason": "fuzzy-near-master",
     "src": "rwv"
   },
@@ -2025,11 +1715,6 @@
     "src": "rwv"
   },
   {
-    "name": "正宗台湾16张麻将2",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "殖民帝国",
     "reason": "fuzzy-near-master",
     "src": "rwv"
@@ -2050,18 +1735,8 @@
     "src": "rwv"
   },
   {
-    "name": "中国民航",
-    "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
     "name": "中国之心",
     "reason": "fuzzy-near-master",
-    "src": "rwv"
-  },
-  {
-    "name": "中华职棒",
-    "reason": "base-matches-2-master",
     "src": "rwv"
   },
   {
@@ -2130,82 +1805,7 @@
     "src": "rwv"
   },
   {
-    "name": "97超少女-连线水果盘",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "七英雄物语",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "万里长城-边城奇侠",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "万里长城-麒麟传说",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国列传",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国志II",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国志IV",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国志V",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国志牌战风云",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三国风云",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "三界谕-邦沛之迷",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "中华职棒",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "中国民航",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "中国球王",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "五子棋－宇宙幻影",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "人间道-少年燕赤霞",
     "reason": "fuzzy-near-master",
     "src": "fandom"
   },
@@ -2220,58 +1820,8 @@
     "src": "fandom"
   },
   {
-    "name": "伊卡斯特传说",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "传说纪元-黑暗之星",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "侠客列传",
     "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "侠客遊2",
-    "reason": "base-matches-3-master",
-    "src": "fandom"
-  },
-  {
-    "name": "凯兰迪亚传奇",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "勇者斗恶龙2",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "勇者斗恶龙3",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "勇者斗恶龙",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "卡耐鸡人生指南",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "危城争霸-战狗",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "古大陆物语",
-    "reason": "base-matches-1-master",
     "src": "fandom"
   },
   {
@@ -2285,228 +1835,8 @@
     "src": "fandom"
   },
   {
-    "name": "四川省II",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "圣少女战队",
-    "reason": "base-matches-3-master",
-    "src": "fandom"
-  },
-  {
-    "name": "圣战悍将",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "圣战物语",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "圣战风云录",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "地狱之吼",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大宋英豪岳飞传",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大富翁-破坏超人",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大富翁",
-    "reason": "base-matches-10-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大战略II",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大战略SP",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "大航海时代2",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "天下无敌",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "天使们的午后 合集2",
-    "reason": "suspected-non-game",
-    "src": "fandom"
-  },
-  {
-    "name": "天使们的午后 转校生",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "天使帝国",
-    "reason": "base-matches-4-master",
-    "src": "fandom"
-  },
-  {
-    "name": "天命之战",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "太阁立志传",
-    "reason": "base-matches-5-master",
-    "src": "fandom"
-  },
-  {
-    "name": "奥林匹亚桥赛",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "学园退魔传",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "宇宙英雄",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "富甲天下三国篇",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "帝国的光荣II",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "帝国霸业",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "幻世喜谭",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "异形杀手",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "异星突击",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "战国",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "撼天神塔-复活邪魔",
     "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "撼天神塔VT",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "明日之星",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "明星志愿",
-    "reason": "base-matches-4-master",
-    "src": "fandom"
-  },
-  {
-    "name": "春秋争霸传2",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "春秋争霸传",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "暗棋侏罗纪",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "机甲猎人",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "机甲神战",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "机甲雄风",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "梦见坡",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "楚汉之争2",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "楚汉之争",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "楚留香传奇-血海飘香",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "正宗台湾16张麻将2",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "永恒之门",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "沉默的舰队",
-    "reason": "base-matches-2-master",
     "src": "fandom"
   },
   {
@@ -2525,73 +1855,8 @@
     "src": "fandom"
   },
   {
-    "name": "烽火沙丘",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "爱之物语2",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "爱之物语3",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "猎杀潜航",
-    "reason": "base-matches-3-master",
-    "src": "fandom"
-  },
-  {
-    "name": "现代大战略EX",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "生化情人",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "疯狂麻将",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "神龙少年",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "禁断之血族",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "终极机甲战士",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "绝地-众神的诅咒",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "绝地风暴",
     "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "美国的噩梦",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "苍狼与白鹿之元朝秘史",
-    "reason": "fuzzy-near-master",
     "src": "fandom"
   },
   {
@@ -2605,133 +1870,13 @@
     "src": "fandom"
   },
   {
-    "name": "英雄战记",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "蛇王-宝珠传说",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "西楚霸王",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "象棋特级大师",
     "reason": "fuzzy-near-master",
     "src": "fandom"
   },
   {
-    "name": "超时空G点",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "超时空麻将-魔石神姬传",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "超级大富翁",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "超级学园麻雀海外版",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "超级灌篮大赛",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "轩辕剑",
-    "reason": "base-matches-3-master",
-    "src": "fandom"
-  },
-  {
     "name": "轩辕剑外传-枫之舞",
     "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "邪神",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "钢铁骑士团",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "铁甲旗舰",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "铁血联盟",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "银河守卫团",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "银河英雄传说3SP",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "银河英雄传说4EX",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "锄大D",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "闷绝性技王传说",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "青少棒扬威记",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "非洲探险",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "风尘三侠-金箭使者",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "鬼屋魔影2",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "魔术彩球",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "魔法皇冠",
-    "reason": "fuzzy-near-master",
     "src": "fandom"
   },
   {
@@ -2745,58 +1890,13 @@
     "src": "fandom"
   },
   {
-    "name": "魔界之泉动乱魔都",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "魔眼封印",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
     "name": "魔眼杀机3 血战扎诺尔",
     "reason": "fuzzy-near-master",
     "src": "fandom"
   },
   {
-    "name": "魔石英雄传说2",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "魔神战记",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
-    "name": "鹿鼎记-皇城争霸",
-    "reason": "base-matches-1-master",
-    "src": "fandom"
-  },
-  {
-    "name": "麻将争霸",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "黄飞鸿铁公鸡斗蜈蚣",
-    "reason": "fuzzy-near-master",
-    "src": "fandom"
-  },
-  {
-    "name": "龙召还娘",
-    "reason": "base-matches-2-master",
-    "src": "fandom"
-  },
-  {
     "name": "希望工程有聲書系列之四-完全催眠-催眠入門篇",
     "reason": "suspected-non-game",
-    "src": "omega"
-  },
-  {
-    "name": "明日之星",
-    "reason": "base-matches-2-master",
     "src": "omega"
   },
   {
@@ -10518,21 +9618,7 @@
     ]
   },
   {
-    "name": "MH28雷火战机",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "QQ水浒外传",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "Super 大战略 DOS/V",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10546,27 +9632,6 @@
     ]
   },
   {
-    "name": "七颗龙珠",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "三国志III",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "三国志V 威力加强版",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "中华职棒经理资料片",
     "reason": "low-confidence",
     "srcs": [
@@ -10574,21 +9639,7 @@
     ]
   },
   {
-    "name": "乱世英杰2-徳川家康",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "佳儿学数学",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "佳儿成龙记",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10616,27 +9667,6 @@
     ]
   },
   {
-    "name": "历险小精灵",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "原星",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "台湾麻将",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "喵喵笨兔游戏攻略",
     "reason": "low-confidence",
     "srcs": [
@@ -10644,21 +9674,7 @@
     ]
   },
   {
-    "name": "圣兽传说",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "大地雄师-超空霸傳",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "大战略SP 钓鱼台风云篇",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10686,27 +9702,6 @@
     ]
   },
   {
-    "name": "女神学园",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "孤臣记",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "密集火力",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "少女梦天使 (未上市)",
     "reason": "low-confidence",
     "srcs": [
@@ -10721,84 +9716,7 @@
     ]
   },
   {
-    "name": "德鲁依教徒-天人交战",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "志武神大战",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "情剑山河",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "战区88",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "战虎之沙漠行动",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "拂晓攻击-决战中国海之役",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "拳形岩",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "拼图魔法阵",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "排球原人",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "提督之决断II",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "新蜀山剑侠传-紫青双剑录",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "最长的一日",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10812,21 +9730,7 @@
     ]
   },
   {
-    "name": "格斗美少女",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "模拟师父 (未上市)",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "武林争霸之英雄帖",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10854,105 +9758,7 @@
     ]
   },
   {
-    "name": "淘金热",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "火狐狸",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "狗子阿利",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "福尔摩斯探案",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "第十八空降旅",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "精武战警",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "红楼梦风月宝鉴",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "终极任务Z",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "老顽固的窝",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "荡寇雄师",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "薛家将 征东神话",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "虎将神兵",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "血狮-保卫中国",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "贼佳拍档",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "赤日",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -10966,13 +9772,6 @@
     ]
   },
   {
-    "name": "超级拉霸篇",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "轩辕剑 黄金纪念版",
     "reason": "low-confidence",
     "srcs": [
@@ -10980,35 +9779,7 @@
     ]
   },
   {
-    "name": "金刚大冒险",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "金朴克",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "铁路A计划",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "银河战国列传EX-铁锁的星群",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "阿曼尼斯开国启示录 革命",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -11043,34 +9814,6 @@
     ]
   },
   {
-    "name": "马路英雄",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "魍魉战记摩陀罗之大金刚轮编",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "魔域传奇 神圣之符",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "魔宫救美 宝石阵",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
     "name": "魔法门 决战星云世界",
     "reason": "low-confidence",
     "srcs": [
@@ -11079,34 +9822,6 @@
   },
   {
     "name": "魔法门外传2 黑暗魔君大反扑",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "魔王迷宫",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "魔眼邪神-赛尔特传说",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "黑道当家",
-    "reason": "low-confidence",
-    "srcs": [
-      "fandom"
-    ]
-  },
-  {
-    "name": "龙穴历险记3 女巫的诅咒",
     "reason": "low-confidence",
     "srcs": [
       "fandom"
@@ -14438,10 +13153,17 @@
     ]
   },
   {
-    "name": "主题医院",
-    "reason": "undecided",
+    "name": "澳门回归快乐游",
+    "reason": "low-confidence",
     "srcs": [
-      "rwv"
+      "offlinelist"
+    ]
+  },
+  {
+    "name": "美少女学院R组",
+    "reason": "low-confidence",
+    "srcs": [
+      "offlinelist"
     ]
   },
   {

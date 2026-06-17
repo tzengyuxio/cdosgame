@@ -1,0 +1,962 @@
+{
+  "勇者斗恶龙": {
+    "title": "勇者鬥惡龍",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1391"
+  },
+  "大富翁": {
+    "title": "大富翁",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0364"
+  },
+  "勇者斗恶龙2": {
+    "title": "勇者鬥惡龍2",
+    "note": "既有：勇者鬥惡龍2：邪惡神官哈根(1990)",
+    "action": "merge",
+    "target": "cdg-1392"
+  },
+  "楚汉之争": {
+    "title": "楚漢之爭",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-3106"
+  },
+  "轩辕剑": {
+    "title": "軒轅劍",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1881"
+  },
+  "吞食天地 三国外传": {
+    "title": "",
+    "note": "名稱應該以 \"吞食天地 三國外傳\" 為主",
+    "action": "merge",
+    "target": "cdg-0977"
+  },
+  "凯兰迪亚传奇": {
+    "title": "凱蘭迪亞傳奇",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2933"
+  },
+  "太阁立志传": {
+    "title": "太閣立志傳",
+    "note": "1992 是日文版發佈時間, 中文版應該晚了幾年",
+    "action": "merge",
+    "target": "cdg-0503"
+  },
+  "春秋争霸传": {
+    "title": "春秋爭霸傳",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2440"
+  },
+  "楚汉之争2": {
+    "title": "楚漢之爭2",
+    "note": "既有：楚漢之爭2：赤龍反撲(1992)",
+    "action": "merge",
+    "target": "cdg-3107"
+  },
+  "魔神战记": {
+    "title": "魔神戰記",
+    "note": "初代不用標編號",
+    "action": "merge",
+    "target": "cdg-3769"
+  },
+  "龙召还娘": {
+    "title": "龍召還娘",
+    "note": "1992 是日文原版發佈時間；既有：龍召還娘1(1996台版)；offlinelist 1992為日文原版年",
+    "action": "merge",
+    "target": "cdg-3817"
+  },
+  "中华职棒": {
+    "title": "中華職棒",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0321"
+  },
+  "伊卡斯特传说": {
+    "title": "伊卡斯特傳說",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1584"
+  },
+  "勇者斗恶龙3": {
+    "title": "勇者鬥惡龍3",
+    "note": "既有：勇者鬥惡龍3：傳說的終章(1993)",
+    "action": "merge",
+    "target": "cdg-1393"
+  },
+  "大航海时代2": {
+    "title": "大航海時代2",
+    "note": "既有：大航海時代2：新地平線(JP1993/TW1994)",
+    "action": "merge",
+    "target": "cdg-0419"
+  },
+  "天使帝国": {
+    "title": "天使帝國",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0445"
+  },
+  "奥林匹亚桥赛": {
+    "title": "奧林匹亞橋賽",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1310"
+  },
+  "超级学园麻雀海外版": {
+    "title": "超級學園麻雀海外版",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2207"
+  },
+  "鬼屋魔影2": {
+    "title": "鬼屋魔影2",
+    "note": "既有：鬼屋魔影2：地獄廚房(1993)",
+    "action": "merge",
+    "target": "cdg-3651"
+  },
+  "富甲天下三国篇": {
+    "title": "富甲天下三國篇",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0806"
+  },
+  "圣少女战队": {
+    "title": "聖少女戰隊",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2528"
+  },
+  "鹿鼎记-皇城争霸": {
+    "title": "鹿鼎記-皇城爭霸",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1982"
+  },
+  "七英雄物语": {
+    "title": "七英雄物語",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0163"
+  },
+  "古大陆物语": {
+    "title": "古大陸物語",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0915"
+  },
+  "天使们的午后 转校生": {
+    "title": "天使們的午後 轉校生",
+    "note": "JAST 是日本開發商, 台灣代理原為天堂鳥，後為華義",
+    "action": "merge",
+    "target": "cdg-0440"
+  },
+  "明日之星": {
+    "title": "明日之星",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2378"
+  },
+  "明星志愿": {
+    "title": "明星志願",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-2386"
+  },
+  "沉默的舰队": {
+    "title": "沉默的艦隊",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1171"
+  },
+  "非洲探险": {
+    "title": "非洲探險",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1379"
+  },
+  "三国风云": {
+    "title": "三國風雲",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-0257"
+  },
+  "爱之物语2": {
+    "title": "愛之物語2",
+    "note": "",
+    "action": "append",
+    "target": null
+  },
+  "爱之物语3": {
+    "title": "愛之物語3",
+    "note": "",
+    "action": "append",
+    "target": null
+  },
+  "春秋争霸传2": {
+    "title": "春秋爭霸傳2",
+    "note": "既有：春秋爭霸傳2問鼎天下(1996)",
+    "action": "merge",
+    "target": "cdg-2441"
+  },
+  "机甲雄风": {
+    "title": "機甲雄風",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-3228"
+  },
+  "禁断之血族": {
+    "title": "禁斷之血族",
+    "note": "禁斷之血族1,2代都在 1997 由歡樂盒中文化代理。1代是C's ware 1993年出品, 2代是C's ware 1996年出品",
+    "action": "merge",
+    "target": "cdg-1865"
+  },
+  "英雄传说 龙的传人": {
+    "title": "英雄傳說 龍的傳人",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-3434"
+  },
+  "钢铁骑士团": {
+    "title": "鋼鐵騎士團",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-3593"
+  },
+  "猎杀潜航": {
+    "title": "獵殺潛航",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-3545"
+  },
+  "青少棒扬威记": {
+    "title": "青少棒揚威記",
+    "note": "",
+    "action": "merge",
+    "target": "cdg-1368"
+  },
+  "魔术彩球": {
+    "title": "魔術綵球",
+    "note": "1. [≈2] `cdg-3774`  魔術拼圖  (1989)  · 大宇",
+    "action": "append",
+    "target": null
+  },
+  "三国志II": {
+    "title": "三國志II",
+    "note": "1. [=] `cdg-0211`  三國志2  (1991)  · KOEI ◀",
+    "action": "merge",
+    "target": "cdg-0211"
+  },
+  "魔法皇冠": {
+    "title": "魔法皇冠",
+    "note": "1. [≈2] `cdg-3728`  魔法門4  (1992)  · NWC",
+    "action": "append",
+    "target": null
+  },
+  "四川省II": {
+    "title": "四川省II",
+    "note": "1. [=] `cdg-1029`  四川省2  (1992)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-1029"
+  },
+  "苍狼与白鹿之元朝秘史": {
+    "title": "蒼狼與白鹿之元朝秘史",
+    "note": "1. [≈1] `cdg-3466`  蒼狼與白鹿3：元朝秘史  (1994)  · KOEI ◀",
+    "action": "merge",
+    "target": "cdg-3466"
+  },
+  "超时空麻将-魔石神姬传": {
+    "title": "超時空麻將-魔石神姬傳",
+    "note": "1. [≈1] `cdg-2177`  超時空麻將－魔石神姬傳  (1992)  · 聯邦工作室 ◀",
+    "action": "merge",
+    "target": "cdg-2177"
+  },
+  "魔法门4星云之谜": {
+    "title": "魔法門4星雲之謎",
+    "note": "m1, m3 與這款都是 \"魔法門IV：星雲之謎\"",
+    "action": "merge",
+    "target": "cdg-3728"
+  },
+  "97超少女-连线水果盘": {
+    "title": "97超少女-連線水果盤",
+    "note": "1. [≈1] `cdg-0032`  97超少女－連線水果盤  (1993)  · 天堂鳥 ◀",
+    "action": "merge",
+    "target": "cdg-0032"
+  },
+  "三界谕-邦沛之迷": {
+    "title": "三界諭-邦沛之迷",
+    "note": "1. [≈1] `cdg-0202`  三界諭：邦沛之謎  (1993)  · 第三波 ◀",
+    "action": "merge",
+    "target": "cdg-0202"
+  },
+  "危城争霸-战狗": {
+    "title": "危城爭霸-戰狗",
+    "note": "1. [≈2] `cdg-0696`  危城爭霸  (1992)  · Mindcraft",
+    "action": "append",
+    "target": null
+  },
+  "大战略II": {
+    "title": "大戰略II",
+    "note": "1. [≈2] `cdg-0389`  大戰略1  (1991)  · 漢堂",
+    "action": "append",
+    "target": null
+  },
+  "天下无敌": {
+    "title": "天下無敵",
+    "note": "1. [≈1] `cdg-0430`  天下無缺  (2010)  · 飛行船 ◀",
+    "action": "append",
+    "target": null
+  },
+  "天命之战": {
+    "title": "天命之戰",
+    "note": "1. [≈2] `cdg-4003`  火龍之戰  (1990)",
+    "action": "append",
+    "target": null
+  },
+  "帝国的光荣II": {
+    "title": "帝國的光榮II",
+    "note": "1. [≈2] `cdg-1117`  帝國的光榮  (1992)  · 萊茵工作室",
+    "action": "append",
+    "target": null
+  },
+  "疯狂大赛马": {
+    "title": "瘋狂大賽馬",
+    "note": "1. [≈2] `cdg-2779`  瘋狂大家樂  (1987)  · Baudville",
+    "action": "append",
+    "target": null
+  },
+  "三国志IV": {
+    "title": "三國志IV",
+    "note": "1. [=] `cdg-0213`  三國志4  (1994)  · KOEI ◀",
+    "action": "merge",
+    "target": "cdg-0213"
+  },
+  "地狱之吼": {
+    "title": "地獄之吼",
+    "note": "1. [≈2] `cdg-0767`  地獄門  (1999)  · 智冠",
+    "action": "append",
+    "target": null
+  },
+  "宇宙英雄": {
+    "title": "宇宙英雄",
+    "note": "1. [≈2] `cdg-2902`  銀河英雄  (1989)  · Origin",
+    "action": "append",
+    "target": null
+  },
+  "现代大战略EX": {
+    "title": "現代大戰略EX",
+    "note": "1. [≈2] `cdg-3565`  現代大戰略  (1996)  · SystemSoft",
+    "action": "append",
+    "target": null
+  },
+  "生化情人": {
+    "title": "生化情人",
+    "note": "1. [≈2] `cdg-1928`  生化悍將  (1995)  · Origin",
+    "action": "append",
+    "target": null
+  },
+  "异形杀手": {
+    "title": "異形殺手",
+    "note": "1. [≈2] `cdg-1948`  異形方塊  (1989)  · 大宇",
+    "action": "append",
+    "target": null
+  },
+  "魔眼封印": {
+    "title": "魔眼封印",
+    "note": "1. [≈2] `cdg-3766`  魔眼邪神  (1996)  · KOEI",
+    "action": "append",
+    "target": null
+  },
+  "仙剑奇侠传 简": {
+    "title": "仙劍奇俠傳 簡",
+    "note": "1. [≈1] `cdg-1564`  仙劍奇俠傳1  (1995)  · 大宇 ◀",
+    "action": "merge",
+    "target": "cdg-1564"
+  },
+  "仙剑奇侠传 繁": {
+    "title": "仙劍奇俠傳 繁",
+    "note": "1. [≈1] `cdg-1564`  仙劍奇俠傳1  (1995)  · 大宇 ◀",
+    "action": "merge",
+    "target": "cdg-1564"
+  },
+  "凯兰迪亚传奇3-玛尔寇的复仇 繁": {
+    "title": "凱蘭迪亞傳奇3-瑪爾寇的復仇 繁",
+    "note": "1. [≈1] `cdg-2935`  凱蘭迪亞傳奇3：瑪爾寇的復仇  (1995)  · Westwood ◀",
+    "action": "merge",
+    "target": "cdg-2935"
+  },
+  "梦见坡": {
+    "title": "夢見坡",
+    "note": "名字是: \"夢見坂",
+    "action": "merge",
+    "target": "cdg-2770"
+  },
+  "楚留香传奇-血海飘香": {
+    "title": "楚留香傳奇-血海飄香",
+    "note": "1. [≈1] `cdg-3108`  楚留香傳奇之血海飄香  (1995)  · 第三波 ◀",
+    "action": "merge",
+    "target": "cdg-3108"
+  },
+  "机甲猎人": {
+    "title": "機甲獵人",
+    "note": "1. [≈2] `cdg-3217`  機甲之夢  (1993)  · MegaTech",
+    "action": "append",
+    "target": null
+  },
+  "机甲神战": {
+    "title": "機甲神戰",
+    "note": "機甲戰神, 原名 Interrupt, 1995 歡樂盒代理",
+    "action": "merge",
+    "target": "cdg-3219"
+  },
+  "炎龙骑士团2黄金城之谜 繁": {
+    "title": "炎龍騎士團2黃金城之謎 繁",
+    "note": "正確名字應該是 \"炎龍騎士團II 黃金城之謎\"",
+    "action": "merge",
+    "target": "cdg-3265"
+  },
+  "烽火沙丘": {
+    "title": "烽火沙丘",
+    "note": "1. [≈2] `cdg-3276`  烽火英雄  (2001)  · 聖教士",
+    "action": "append",
+    "target": null
+  },
+  "终极机甲战士": {
+    "title": "終極機甲戰士",
+    "note": "1. [≈2] `cdg-2071`  終極戰士  (1997)  · 安峻",
+    "action": "append",
+    "target": null
+  },
+  "绝地-众神的诅咒": {
+    "title": "絕地-眾神的詛咒",
+    "note": "1. [≈1] `cdg-2094`  絕地：眾神之詛咒  (1995)  · 新藝 ◀",
+    "action": "merge",
+    "target": "cdg-2094"
+  },
+  "超级大富翁": {
+    "title": "超級大富翁",
+    "note": "1. [≈2] `cdg-2204`  超級大戰略／  (1991)  · SystemSoft",
+    "action": "append",
+    "target": null
+  },
+  "超级灌篮大赛": {
+    "title": "超級灌籃大賽",
+    "note": "1. [≈2] `cdg-2219`  超級競速大賽／  (1996)  · Sony",
+    "action": "append",
+    "target": null
+  },
+  "轩辕剑外传-枫之舞 简": {
+    "title": "軒轅劍外傳-楓之舞 簡",
+    "note": "正確名字應該是 \"軒轅劍外傳 楓之舞\"",
+    "action": "merge",
+    "target": "cdg-1883"
+  },
+  "轩辕剑外传-枫之舞 繁": {
+    "title": "軒轅劍外傳-楓之舞 繁",
+    "note": "1. [≈2] `cdg-1883`  軒轅劍2外傳：楓之舞  (1995)  · 大宇",
+    "action": "merge",
+    "target": "cdg-1883"
+  },
+  "铁血联盟": {
+    "title": "鐵血聯盟",
+    "note": "1. [≈2] `cdg-3603`  鐵血悍將  (2005)  · Sigma",
+    "action": "append",
+    "target": null
+  },
+  "魔法门英雄无敌 简": {
+    "title": "魔法門英雄無敵 簡",
+    "note": "正式名字: \"魔法門之英雄無敵：戰略任務\"",
+    "action": "merge",
+    "target": "cdg-3737"
+  },
+  "魔法门英雄无敌 繁": {
+    "title": "魔法門英雄無敵 繁",
+    "note": "正式名字: \"魔法門之英雄無敵：戰略任務\"",
+    "action": "merge",
+    "target": "cdg-3737"
+  },
+  "魔石英雄传说2": {
+    "title": "魔石英雄傳說2",
+    "note": "1. [≈2] `cdg-3767`  魔石英雄傳  (1994)  · Discovery",
+    "action": "append",
+    "target": null
+  },
+  "黄飞鸿铁公鸡斗蜈蚣": {
+    "title": "黃飛鴻鐵公雞鬥蜈蚣",
+    "note": "正式名字: \"黃飛鴻鐵雞鬥蜈蚣\"",
+    "action": "merge",
+    "target": "cdg-2261"
+  },
+  "三国志V": {
+    "title": "三國志V",
+    "note": "1. [=] `cdg-0214`  三國志5  (1996)  · KOEI ◀",
+    "action": "merge",
+    "target": "cdg-0214"
+  },
+  "中国民航": {
+    "title": "中國民航",
+    "note": "1. [≈2] `cdg-0295`  中國  (1995)  · 世紀縱橫",
+    "action": "append",
+    "target": null
+  },
+  "中国球王": {
+    "title": "中國球王",
+    "note": "1. [≈2] `cdg-0295`  中國  (1995)  · 世紀縱橫",
+    "action": "append",
+    "target": null
+  },
+  "侠客遊2": {
+    "title": "俠客遊2",
+    "note": "1. [≈2] `cdg-1620`  俠客遊  (1994)  · Artdink",
+    "action": "append",
+    "target": null
+  },
+  "传说纪元-黑暗之星": {
+    "title": "傳說紀元-黑暗之星",
+    "note": "1. [≈1] `cdg-1669`  傳說紀元－黑暗之星  (1996)  · 微波 ◀",
+    "action": "merge",
+    "target": "cdg-1669"
+  },
+  "凯兰迪亚传奇3-玛尔寇的复仇 简": {
+    "title": "凱蘭迪亞傳奇3-瑪爾寇的復仇 簡",
+    "note": "1. [≈1] `cdg-2935`  凱蘭迪亞傳奇3：瑪爾寇的復仇  (1995)  · Westwood ◀",
+    "action": "merge",
+    "target": "cdg-2935"
+  },
+  "古大陆物语2 雅克王的遠征": {
+    "title": "古大陸物語2 雅克王的遠徵",
+    "note": "1. [≈1] `cdg-0916`  古大陸物語2：雅克王的遠征  (1996)  · TGL ◀",
+    "action": "merge",
+    "target": "cdg-0916"
+  },
+  "大富翁-破坏超人": {
+    "title": "大富翁-破壞超人",
+    "note": "1. [≈1] `cdg-0380`  大富翁之破壞超人  (1996)  · Gameone ◀",
+    "action": "merge",
+    "target": "cdg-0380"
+  },
+  "学园退魔传": {
+    "title": "學園退魔傳",
+    "note": "\"學園退魔傳：玲子\", 鷹揚代理, 1996",
+    "action": "merge",
+    "target": "cdg-3366"
+  },
+  "帝国霸业": {
+    "title": "帝國霸業",
+    "note": "1. [≈1] `cdg-1116`  帝國企業  (2001)  · Infograms ◀",
+    "action": "append",
+    "target": null
+  },
+  "战国": {
+    "title": "戰國",
+    "note": "1. [≈1] `cdg-3391`  戰斧  (1990)  · SEGA ◀",
+    "action": "append",
+    "target": null
+  },
+  "撼天神塔VT": {
+    "title": "撼天神塔VT",
+    "note": "1. [≈2] `cdg-1800`  撼天神塔  (1998)  · Falcom",
+    "action": "append",
+    "target": null
+  },
+  "异星突击": {
+    "title": "異星突擊",
+    "note": "1. [≈2] `cdg-1949`  異星搜奇  (1997)  · Lucas",
+    "action": "append",
+    "target": null
+  },
+  "福尔摩斯探案2-玫瑰紋身案件": {
+    "title": "福爾摩斯探案2-玫瑰紋身案件",
+    "note": "1. [≈1] `cdg-1867`  福爾摩斯探案2：玫瑰紋身案件  (1996)  · Mythos ◀",
+    "action": "merge",
+    "target": "cdg-1867"
+  },
+  "圣战悍将": {
+    "title": "聖戰悍將",
+    "note": "1. [≈2] `cdg-2534`  聖戰錄  (1994)  · HIMEYA",
+    "action": "append",
+    "target": null
+  },
+  "西楚霸王": {
+    "title": "西楚霸王",
+    "note": "1. [≈2] `cdg-0890`  西楚霸王：項羽  (1996)  · 熊貓",
+    "action": "merge",
+    "target": "cdg-0890"
+  },
+  "超时空G点": {
+    "title": "超時空G點",
+    "note": "1. [≈2] `cdg-2176`  超時空要塞  (1995)  · Family",
+    "action": "append",
+    "target": null
+  },
+  "金庸群侠传 简": {
+    "title": "金庸群俠傳 簡",
+    "note": "1. [≈1] `cdg-2865`  金庸群俠傳  (1996)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-2865"
+  },
+  "金庸群侠传 繁": {
+    "title": "金庸群俠傳 繁",
+    "note": "1. [≈1] `cdg-2865`  金庸群俠傳  (1996)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-2865"
+  },
+  "铁甲旗舰": {
+    "title": "鐵甲旗艦",
+    "note": "1. [≈2] `cdg-3600`  鐵甲神兵  (1996)  · 歡樂盒",
+    "action": "append",
+    "target": null
+  },
+  "魔界之泉动乱魔都": {
+    "title": "魔界之泉動亂魔都",
+    "note": "1. [≈2] `cdg-3756`  魔界之泉2：動亂的魔都  (1996)  · Pegasus",
+    "action": "merge",
+    "target": "cdg-3756"
+  },
+  "麻将争霸": {
+    "title": "麻將爭霸",
+    "note": "1. [≈2] `cdg-0696`  危城爭霸  (1992)  · Mindcraft",
+    "action": "merge",
+    "target": "cdg-2003"
+  },
+  "三国列传": {
+    "title": "三國列傳",
+    "note": "1. [≈2] `cdg-0210`  三國志1  (1988)  · KOEI",
+    "action": "append",
+    "target": null
+  },
+  "侠客英雄传3 简": {
+    "title": "俠客英雄傳3 簡",
+    "note": "1. [≈1] `cdg-1618`  俠客英雄傳3  (1997)  · 精訊 ◀",
+    "action": "merge",
+    "target": "cdg-1618"
+  },
+  "侠客英雄传3 繁": {
+    "title": "俠客英雄傳3 繁",
+    "note": "1. [≈1] `cdg-1618`  俠客英雄傳3  (1997)  · 精訊 ◀",
+    "action": "merge",
+    "target": "cdg-1618"
+  },
+  "剑侠情缘 简": {
+    "title": "劍俠情緣 簡",
+    "note": "1. [≈1] `cdg-2986`  劍俠情緣  (1997)  · 金山軟件 ◀",
+    "action": "merge",
+    "target": "cdg-2986"
+  },
+  "剑侠情缘 繁": {
+    "title": "劍俠情緣 繁",
+    "note": "1. [≈1] `cdg-2986`  劍俠情緣  (1997)  · 金山軟件 ◀",
+    "action": "merge",
+    "target": "cdg-2986"
+  },
+  "幻世喜谭": {
+    "title": "幻世喜譚",
+    "note": "1. [≈2] `cdg-0564`  幻世錄1  (1998)  · 奧汀",
+    "action": "append",
+    "target": null
+  },
+  "闷绝性技王传说": {
+    "title": "悶絕性技王傳說",
+    "note": "1. [≈1] `cdg-1767`  悶絕－性技王傳說  (1996)  · FIX ◀",
+    "action": "merge",
+    "target": "cdg-1767"
+  },
+  "撼天神塔2-魔界重現": {
+    "title": "撼天神塔2-魔界重現",
+    "note": "1. [≈1] `cdg-1797`  撼天神塔2：魔界重現  (1997)  · Falcom ◀",
+    "action": "merge",
+    "target": "cdg-1797"
+  },
+  "撼天神塔3-魔誡": {
+    "title": "撼天神塔3-魔誡",
+    "note": "1. [≈1] `cdg-1798`  撼天神塔3：魔誡  (1997)  · Falcom ◀",
+    "action": "merge",
+    "target": "cdg-1798"
+  },
+  "正宗台湾16张麻将2": {
+    "title": "正宗臺灣16張麻將2",
+    "note": "1. [≈1] `cdg-3931`  正宗臺灣16張麻將  (1994) ◀",
+    "action": "merge",
+    "target": "cdg-0725"
+  },
+  "炎龙骑士团2黄金城之谜 简": {
+    "title": "炎龍騎士團2黃金城之謎 簡",
+    "note": "1. [≈2] `cdg-3265`  炎龍騎士團2：黃金城之秘  (1995)  · 漢堂",
+    "action": "merge",
+    "target": "cdg-3265"
+  },
+  "疯狂麻将": {
+    "title": "瘋狂麻將",
+    "note": "1. `cdg-2807`  瘋狂麻將王  (2000)  · 向量科技",
+    "action": "append",
+    "target": null
+  },
+  "神龙少年": {
+    "title": "神龍少年",
+    "note": "1. [≈1] `cdg-3471`  蒼龍少年  (2003)  · 遊戲龍 ◀",
+    "action": "append",
+    "target": null
+  },
+  "绝地风暴 简": {
+    "title": "絕地風暴 簡",
+    "note": "1. [≈1] `cdg-2099`  絕地風暴1  (1997)  · Beam ◀",
+    "action": "merge",
+    "target": "cdg-2099"
+  },
+  "绝地风暴 繁": {
+    "title": "絕地風暴 繁",
+    "note": "1. [≈1] `cdg-2099`  絕地風暴1  (1997)  · Beam ◀",
+    "action": "merge",
+    "target": "cdg-2099"
+  },
+  "圣战物语": {
+    "title": "聖戰物語",
+    "note": "1. [≈2] `cdg-1701`  夏日物語  (1992)  · 漢堂",
+    "action": "append",
+    "target": null
+  },
+  "圣战风云录": {
+    "title": "聖戰風雲錄",
+    "note": "1. [≈2] `cdg-2534`  聖戰錄  (1994)  · HIMEYA",
+    "action": "append",
+    "target": null
+  },
+  "英雄战记": {
+    "title": "英雄戰記",
+    "note": "1. `cdg-3445`  英雄戰記：德亞斯的邪念  (1997)  · 新科技軸心 ◀",
+    "action": "append",
+    "target": null
+  },
+  "蛇王-宝珠传说": {
+    "title": "蛇王-寶珠傳說",
+    "note": "1. [≈1] `cdg-2839`  蛇王之寶珠傳說  (1996)  · 捷鴻 ◀",
+    "action": "merge",
+    "target": "cdg-2839"
+  },
+  "邪神": {
+    "title": "邪神",
+    "note": "1. [≈1] `cdg-3349`  賭神  (1990)  · 大宇 ◀",
+    "action": "append",
+    "target": null
+  },
+  "银河英雄传说3SP": {
+    "title": "銀河英雄傳說3SP",
+    "note": "1. [≈2] `cdg-2904`  銀河英雄傳說3  (1994)  · Bothtec",
+    "action": "merge",
+    "target": "cdg-2904"
+  },
+  "人间道-少年燕赤霞": {
+    "title": "人間道-少年燕赤霞",
+    "note": "1. [≈1] `cdg-1558`  人間道之少年燕赤霞  (1998)  · 安峻 ◀",
+    "action": "merge",
+    "target": "cdg-1558"
+  },
+  "侠义豪情传-禁烟风云 简": {
+    "title": "俠義豪情傳-禁菸風雲 簡",
+    "note": "1. [≈1] `cdg-1635`  俠義豪情傳：禁煙風雲  (1997)  · 外星科技 ◀",
+    "action": "merge",
+    "target": "cdg-1635"
+  },
+  "侠义豪情传-禁烟风云 繁": {
+    "title": "俠義豪情傳-禁菸風雲 繁",
+    "note": "1. [≈1] `cdg-1635`  俠義豪情傳：禁煙風雲  (1997)  · 外星科技 ◀",
+    "action": "merge",
+    "target": "cdg-1635"
+  },
+  "官能习教": {
+    "title": "官能習教",
+    "note": "正確名字為 \"官能教習\", TETRATECH 1998年出品的18禁色情少女養成遊戲，由歡樂盒中文化並代理發行。",
+    "action": "merge",
+    "target": "cdg-0803"
+  },
+  "恐龙动物园 简": {
+    "title": "恐龍動物園 簡",
+    "note": "1. [≈1] `cdg-1751`  恐龍動物園  (1998)  · 鑫盛 ◀",
+    "action": "merge",
+    "target": "cdg-1751"
+  },
+  "恐龙动物园 繁": {
+    "title": "恐龍動物園 繁",
+    "note": "1. [≈1] `cdg-1751`  恐龍動物園  (1998)  · 鑫盛 ◀",
+    "action": "merge",
+    "target": "cdg-1751"
+  },
+  "水浒英雄传-火之魂 简": {
+    "title": "水滸英雄傳-火之魂 簡",
+    "note": "1. [≈1] `cdg-0626`  水滸英雄傳：火之魂  (1997)  · 騰圖聯合電子 ◀",
+    "action": "merge",
+    "target": "cdg-0626"
+  },
+  "水浒英雄传-火之魂 繁": {
+    "title": "水滸英雄傳-火之魂 繁",
+    "note": "1. [≈1] `cdg-0626`  水滸英雄傳：火之魂  (1997)  · 騰圖聯合電子 ◀",
+    "action": "merge",
+    "target": "cdg-0626"
+  },
+  "江湖任我行 简": {
+    "title": "江湖任我行 簡",
+    "note": "1. [≈1] `cdg-1135`  江湖任我行  (1998)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-1135"
+  },
+  "江湖任我行 繁": {
+    "title": "江湖任我行 繁",
+    "note": "1. [≈1] `cdg-1135`  江湖任我行  (1998)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-1135"
+  },
+  "炎龙骑士团外传-风之纹章 简": {
+    "title": "炎龍騎士團外傳-風之紋章 簡",
+    "note": "1. [≈1] `cdg-3266`  炎龍騎士團外傳：風之紋章  (1997)  · 漢堂 ◀",
+    "action": "merge",
+    "target": "cdg-3266"
+  },
+  "炎龙骑士团外传-风之纹章 繁": {
+    "title": "炎龍騎士團外傳-風之紋章 繁",
+    "note": "1. [≈1] `cdg-3266`  炎龍騎士團外傳：風之紋章  (1997)  · 漢堂 ◀",
+    "action": "merge",
+    "target": "cdg-3266"
+  },
+  "超级五子棋 简": {
+    "title": "超級五子棋 簡",
+    "note": "1. [≈1] `cdg-2182`  超級五子棋  (1998)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-2182"
+  },
+  "超级五子棋 繁": {
+    "title": "超級五子棋 繁",
+    "note": "1. [≈1] `cdg-2182`  超級五子棋  (1998)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-2182"
+  },
+  "银河守卫团": {
+    "title": "銀河守衛團",
+    "note": "1. `cdg-2894`  銀河守護團  (1998)  · Tenky ◀",
+    "action": "append",
+    "target": null
+  },
+  "银河英雄传说4EX": {
+    "title": "銀河英雄傳說4EX",
+    "note": "1. [≈2] `cdg-2905`  銀河英雄傳說4  (1996)  · Bothtec",
+    "action": "merge",
+    "target": "cdg-2905"
+  },
+  "吞食天地4 楚汉光辉 简": {
+    "title": "吞食天地4 楚漢光輝 簡",
+    "note": "1. [≈2] `cdg-0980`  吞食天地4楚漢的光輝  (1999)  · 智冠",
+    "action": "merge",
+    "target": "cdg-0980"
+  },
+  "吞食天地4 楚汉光辉 繁": {
+    "title": "吞食天地4 楚漢光輝 繁",
+    "note": "1. [≈2] `cdg-0980`  吞食天地4楚漢的光輝  (1999)  · 智冠",
+    "action": "merge",
+    "target": "cdg-0980"
+  },
+  "大宋英豪岳飞传": {
+    "title": "大宋英豪岳飛傳",
+    "note": "1. [≈1] `cdg-0360`  大宋英豪之岳飛傳  (1999)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-0360"
+  },
+  "天使们的午后 合集2": {
+    "title": "天使們的午後 合集2",
+    "note": "合集；先收，發表時再決定是否上架",
+    "action": "append",
+    "target": null
+  },
+  "万里长城-边城奇侠": {
+    "title": "萬里長城-邊城奇俠",
+    "note": "1. `cdg-3463`  萬里長城之邊城奇俠  (1993)  · 龍緣 ◀",
+    "action": "merge",
+    "target": "cdg-3463"
+  },
+  "风尘三侠-金箭使者": {
+    "title": "風塵三俠-金箭使者",
+    "note": "1. `cdg-1508`  風塵三俠之金箭使者  (1993)  · 漢堂 ◀",
+    "action": "merge",
+    "target": "cdg-1508"
+  },
+  "三国志牌战风云": {
+    "title": "三國志牌戰風雲",
+    "note": "1. `cdg-0224`  三國志之牌戰風雲  (1994)  · 松詮 ◀",
+    "action": "merge",
+    "target": "cdg-0224"
+  },
+  "卡耐鸡人生指南": {
+    "title": "卡耐雞人生指南",
+    "note": "1. `cdg-0682`  卡耐雞的人生指南  (1994)  · 光譜 ◀",
+    "action": "merge",
+    "target": "cdg-0682"
+  },
+  "暗棋侏罗纪": {
+    "title": "暗棋侏羅紀",
+    "note": "1. `cdg-2459`  暗棋侏儸紀  (1994)  · 光譜 ◀",
+    "action": "merge",
+    "target": "cdg-2459"
+  },
+  "万里长城-麒麟传说": {
+    "title": "萬里長城-麒麟傳說",
+    "note": "1. `cdg-3464`  萬里長城之麒麟傳說  (1994)  · 龍緣 ◀",
+    "action": "merge",
+    "target": "cdg-3464"
+  },
+  "魔眼杀机3血战扎诺尔": {
+    "title": "魔眼殺機3血戰扎諾爾",
+    "note": "1. `cdg-3765`  魔眼殺機3：血戰札諾爾  (1993)  · SSI ◀",
+    "action": "merge",
+    "target": "cdg-3765"
+  },
+  "美国的噩梦": {
+    "title": "美國的噩夢",
+    "note": "1. `cdg-1452`  美國的惡夢  (1994)  · Algo ◀",
+    "action": "merge",
+    "target": "cdg-1452"
+  },
+  "锄大D": {
+    "title": "锄大D",
+    "note": "正確名字: \"鋤大D\"",
+    "action": "merge",
+    "target": "cdg-3361"
+  },
+  "轩辕剑2 简": {
+    "title": "軒轅劍2 簡",
+    "note": "1. `cdg-1882`  軒轅劍2  (1994)  · 大宇 ◀",
+    "action": "merge",
+    "target": "cdg-1882"
+  },
+  "轩辕剑2 繁": {
+    "title": "軒轅劍2 繁",
+    "note": "1. `cdg-1882`  軒轅劍2  (1994)  · 大宇 ◀",
+    "action": "merge",
+    "target": "cdg-1882"
+  },
+  "方块奥运会": {
+    "title": "方塊奧運會",
+    "note": "1. `cdg-2366`  方塊奧運  (1993)  · 智冠 ◀",
+    "action": "merge",
+    "target": "cdg-2366"
+  },
+  "天地无用 魎皇鬼": {
+    "title": "天地無用 魎皇鬼",
+    "note": "1. `cdg-0461`  天地無用！魎皇鬼  (1996)  · BANPRESTO ◀",
+    "action": "merge",
+    "target": "cdg-0461"
+  },
+  "大战略SP": {
+    "title": "大戰略SP",
+    "note": "1. `cdg-4040`  大戰略SP 釣魚臺風雲篇  (1994)  · 漢堂 ◀",
+    "action": "merge",
+    "target": "cdg-4040"
+  },
+  "永恒之门": {
+    "title": "永恆之門",
+    "note": "1. `cdg-0629`  永恆之星  (2002)  · GamaSoft",
+    "action": "append",
+    "target": null
+  }
+}

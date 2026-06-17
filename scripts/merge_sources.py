@@ -129,6 +129,13 @@ def load_candidates(master_norm):
         if norm(s) not in master_norm:
             cands.append({"src": "boneash", "name": g["name"], "simp": s,
                           "year": g.get("year"), "name_en": g.get("name_en")})
+    # offlinelist (cndosgames): 簡中 names already; carries a curated 繁名 + year.
+    # Names are 簡中, so feed `name` (簡) to keep the norm/t2s path uniform.
+    ol = json.loads((D / "offlinelist-games.json").read_text())
+    for g in ol:
+        if norm(g["name"]) not in master_norm:
+            cands.append({"src": "offlinelist", "name": g["name"], "simp": g["name"],
+                          "year": g.get("year"), "name_hant": g.get("name_zh_hant")})
     return cands
 
 
@@ -199,6 +206,7 @@ def main(write=False):
             "year": first(group, "year"),
             "cover_local": first(group, "cover_local"),
             "name_en": first(group, "name_en"),
+            "name_hant": first(group, "name_hant"),
             "ref_omega": first(group, "ref_omega"),
             "ref_fandom": first(group, "ref_fandom"),
             "title_raw": first(group, "title_raw"),
@@ -222,12 +230,14 @@ def main(write=False):
         year = next((u["year"] for u in us if u["year"]), None)
         cover = next((u["cover_local"] for u in us if u["cover_local"]), None)
         region = "CN" if set(srcs) <= {"rwv", "fandom", "omega"} else None
-        high = len(srcs) >= 2 or ("boneash" in srcs and year) or (year and cover)
+        high = (len(srcs) >= 2 or ("boneash" in srcs and year)
+                or ("offlinelist" in srcs and year) or (year and cover))
         merged_new.append({
             "name": baseu["name"], "simp": baseu["simp"],
             "srcs": srcs, "year": year, "region": region,
             "editions": [u["name"] for u in us if u is not baseu],
             "name_en": next((u["name_en"] for u in us if u["name_en"]), None),
+            "name_hant": next((u["name_hant"] for u in us if u.get("name_hant")), None),
             "cover_local": cover,
             "ref_omega": next((u["ref_omega"] for u in us if u["ref_omega"]), None),
             "ref_fandom": next((u["ref_fandom"] for u in us if u["ref_fandom"]), None),
@@ -291,23 +301,106 @@ def main(write=False):
     s2t_map = dict(zip([m["name"] for m in accepted], s2t([m["simp"] for m in accepted])))
     new_entries = [build_entry(m, s2t_map) for m in accepted]
     merged = master + new_entries
+
+    # hand-curated base-match resolutions (append / merge-into-existing / reject)
+    merged, bm_decided, bm = apply_basematch(merged)
     (D / "master-list.merged.json").write_text(
         json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # review queue: ambiguous/non-game + low-confidence new + undecided auto-new
+    # review queue: ambiguous/non-game + low-confidence new + undecided auto-new,
+    # minus anything already resolved via the base-match worklist.
     review_out = (
-        [{"name": c["name"], "reason": c["reason"], "src": c["src"]} for c in review]
+        [{"name": c["name"], "reason": c["reason"], "src": c["src"]}
+         for c in review if c["name"] not in bm_decided]
         + [{"name": m["name"], "reason": "low-confidence", "srcs": m["srcs"]} for m in low_new]
         + [{"name": m["name"], "reason": "undecided", "srcs": m["srcs"]} for m in undecided]
     )
     (D / "merge-review.json").write_text(
         json.dumps(review_out, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"\n  WROTE master-list.merged.json: {len(master)} + {len(new_entries)} new = {len(merged)}")
+    print(f"\n  WROTE master-list.merged.json: {len(master)} + {len(new_entries)} auto-new "
+          f"+ {bm['appends']} basematch-append = {len(merged)}")
+    print(f"  basematch: appended {bm['appends']}, merged-into-existing {bm['merges']}, "
+          f"rejected {bm['rejects']}, missing-target {len(bm['missing'])}")
+    if bm["missing"]:
+        print("    MISSING:", bm["missing"])
     print(f"  enriched existing entries: {len(enrich)}")
     print(f"  review queue -> merge-review.json: {len(review_out)} "
           f"(undecided auto-new: {len(undecided)})")
     print("  next: python3 scripts/build_content.py && npm run validate")
+
+
+def load_offlinelist_images():
+    """imageNumber -> [local screenshot paths] from the fetch manifest."""
+    out = defaultdict(list)
+    man = D.parent / "raw/offlinelist/img/screenshots-manifest.jsonl"
+    if man.exists():
+        for line in man.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            r = json.loads(line)
+            if r.get("status") in ("ok", "cached") and r.get("image_number") is not None:
+                out[r["image_number"]].append(r["local_path"])
+    return out
+
+
+def apply_basematch(merged):
+    """Apply data/basematch-decisions.json (hand-curated from the base-match
+    worklist). `append` -> new catalog entry; `merge` -> tag the chosen existing
+    entry with offlinelist provenance + 簡 alias + screenshot (繁名 stays canonical);
+    `reject` -> drop. Returns (merged, decided_simp_names, stats)."""
+    path = D.parent / "data/basematch-decisions.json"
+    if not path.exists():
+        return merged, set(), {"appends": 0, "merges": 0, "rejects": 0, "missing": []}
+    dec = json.loads(path.read_text(encoding="utf-8"))
+    olg = {g["name"]: g for g in json.loads((D / "offlinelist-games.json").read_text())}
+    reg = json.loads((D.parent / "data/id-registry.json").read_text())["ids"]
+    ol_img = load_offlinelist_images()
+    by_title = defaultdict(list)
+    for e in merged:
+        by_title[e["title_zh"]].append(e)
+
+    appends = merges = rejects = 0
+    missing = []
+    for simp, d in dec.items():
+        g = olg.get(simp, {})
+        imgs = ol_img.get(g.get("image_number")) if g else None
+        if d["action"] == "append":
+            title = d.get("title") or g.get("name_zh_hant") or simp
+            merged.append({
+                "title_zh": title,
+                "title_aliases": [simp] if simp != title else [],
+                "year": g.get("year"),
+                "developer": None, "developer_region": None, "publisher_tw": [],
+                "content_language": None, "genre": None,
+                "localization_level": None, "localization_basis": "merged (basematch append)",
+                "size": None, "platform_note": None, "catalog_id": None,
+                "license_status": None, "release_codes": [], "cover": None,
+                "images": {"offlinelist": imgs} if imgs else {},
+                "references": {}, "external_links": {}, "editions": [],
+                "intro_todo": True, "provenance": ["offlinelist@merge"],
+            })
+            appends += 1
+        elif d["action"] == "merge":
+            rt = reg.get(d["target"], {})
+            cands = by_title.get(rt.get("title_zh"), [])
+            if len(cands) > 1 and rt.get("developer"):
+                cands = [e for e in cands if e.get("developer") == rt["developer"]] or cands
+            if not cands:
+                missing.append((simp, d["target"]))
+                continue
+            tgt = cands[0]
+            if "offlinelist@cndosgames" not in tgt["provenance"]:
+                tgt["provenance"].append("offlinelist@cndosgames")
+            if simp not in tgt.setdefault("title_aliases", []):
+                tgt["title_aliases"].append(simp)
+            if imgs:
+                tgt.setdefault("images", {}).setdefault("offlinelist", imgs)
+            merges += 1
+        elif d["action"] == "reject":
+            rejects += 1
+    return merged, set(dec), {"appends": appends, "merges": merges,
+                              "rejects": rejects, "missing": missing}
 
 
 def build_entry(m, s2t_map):
@@ -318,7 +411,8 @@ def build_entry(m, s2t_map):
         if src in ("boneash", "omega") and re.search(r"[一-鿿]", nm):
             title = nm
             break
-    title = title or s2t_map.get(m["name"]) or m["name"]
+    # 繁體為主：fall back to OfflineList's curated Taiwan-正體 name before s2t.
+    title = title or m.get("name_hant") or s2t_map.get(m["name"]) or m["name"]
     sw = m.get("softworld")
     images = {"rwv_cover": m["cover_local"]} if m.get("cover_local") else {}
     refs = {}

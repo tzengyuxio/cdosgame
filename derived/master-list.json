@@ -1179,7 +1179,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -1603,6 +1604,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "ES方程式",
@@ -3325,6 +3327,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "QQ三国志",
@@ -3393,6 +3396,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "RS2",
@@ -3946,6 +3950,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "YES！HG",
@@ -4016,7 +4021,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -4285,6 +4291,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "一线生机",
@@ -4826,7 +4833,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -4864,6 +4872,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "七英雄外传王者之师",
@@ -4939,6 +4948,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "七英雄物语2",
@@ -4978,6 +4988,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "八女神物语",
@@ -5011,6 +5022,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "八女神物语2",
@@ -5519,7 +5531,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -5555,6 +5568,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "十六张姬麻将",
@@ -5805,6 +5819,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "卒业",
@@ -5848,6 +5863,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "卒业",
@@ -5954,6 +5970,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "卒业旅行",
@@ -5985,11 +6002,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/南宋英烈传 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/140a.png",
+        "raw/offlinelist/img/140b.png"
+      ],
       "rwv_cover": "raw/rwv/img/南宋英烈传/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "南宋英烈传",
@@ -6087,6 +6109,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "南极冰怪",
@@ -6996,6 +7019,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/三国志-武将争霸 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/142a.png",
+        "raw/offlinelist/img/142b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c51/sangof1/game1.png",
         "raw/chiuinan/img/intro/ch/c51/sangof1/game2.png"
@@ -7003,7 +7030,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -7040,7 +7068,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -7108,6 +7137,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "三国志英杰传",
@@ -7178,7 +7208,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -7252,6 +7283,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -7292,6 +7324,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "三国演义2",
@@ -7799,6 +7832,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "三国英雄传",
@@ -8686,6 +8720,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "上古英雄传",
@@ -8760,6 +8795,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "上帝",
@@ -9195,6 +9231,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "中国",
@@ -9380,7 +9417,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -10034,6 +10072,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -10140,6 +10179,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "乱世伏魔录",
@@ -10753,7 +10793,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -10787,7 +10828,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -11013,6 +11055,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大唐英雄传",
@@ -11055,6 +11098,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大唐英雄传",
@@ -11419,6 +11463,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/大富翁2 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/130a.png",
+        "raw/offlinelist/img/130b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c43/rich2/game1.png",
         "raw/chiuinan/img/intro/ch/c43/rich2/game2.png",
@@ -11429,6 +11477,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大富翁2",
@@ -11470,6 +11519,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大富翁3",
@@ -11836,7 +11886,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -11962,7 +12013,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -11998,6 +12050,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大富翁环游世界",
@@ -12295,6 +12348,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大战略",
@@ -12339,6 +12393,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大战略",
@@ -12384,6 +12439,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大战略",
@@ -12429,6 +12485,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大战略",
@@ -12529,7 +12586,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -13176,6 +13234,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大航海时代",
@@ -13439,6 +13498,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大野风云",
@@ -13475,7 +13535,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -13549,6 +13610,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "大魔王物语",
@@ -13625,7 +13687,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -13880,6 +13943,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天使任务",
@@ -14119,6 +14183,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天使帝国2",
@@ -14729,11 +14794,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/天外剑圣录 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/141a.png",
+        "raw/offlinelist/img/141b.png"
+      ],
       "rwv_cover": "raw/rwv/img/天外剑圣录/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天外剑圣录",
@@ -14802,6 +14872,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天才宝宝大进击",
@@ -15048,6 +15119,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/天神传说 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/540a.png",
+        "raw/offlinelist/img/540b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c44/mt/game1.png",
         "raw/chiuinan/img/intro/ch/c44/mt/game2.png"
@@ -15055,7 +15130,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -15248,6 +15324,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天龙八部",
@@ -15289,6 +15366,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "天龙八部",
@@ -15355,7 +15433,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -15391,7 +15470,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -15429,6 +15509,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "太平天国",
@@ -17559,7 +17640,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -18775,6 +18857,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/幻兽都市-魔法大地 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/136a.png",
+        "raw/offlinelist/img/136b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c52/hammer/game1.png",
         "raw/chiuinan/img/intro/ch/c52/hammer/game2.png"
@@ -18782,7 +18868,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -18822,6 +18909,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "幻界霸者",
@@ -18961,6 +19049,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "幻象雷电",
@@ -18996,7 +19085,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -19754,6 +19844,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "水果大亨",
@@ -19799,6 +19890,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -19830,13 +19922,18 @@
     },
     "images": {
       "fandom": "raw/fandom/img/水浒传-天命之誓 (1989).png",
+      "offlinelist": [
+        "raw/offlinelist/img/13a.png",
+        "raw/offlinelist/img/13b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c32/waterk/game1.png"
       ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -19903,7 +20000,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -20314,6 +20412,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "王子传奇",
@@ -20980,7 +21079,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -21357,6 +21457,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "世纪末商业革命",
@@ -21809,6 +21910,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -22175,7 +22277,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -22388,7 +22491,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -22429,6 +22533,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "外星大富翁",
@@ -22737,7 +22842,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -22796,6 +22902,9 @@
     },
     "images": {
       "fandom": "raw/fandom/img/失落的封印 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/133b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c11/dor/game1.png",
         "raw/chiuinan/img/intro/ch/c11/dor/game2.png",
@@ -22805,6 +22914,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "失落的封印",
@@ -23501,6 +23611,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "武姬神传说",
@@ -23542,6 +23653,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "武林奇侠传",
@@ -23642,6 +23754,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -23777,7 +23890,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -24411,6 +24525,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "地狱也疯狂",
@@ -24656,6 +24771,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/坦克大决战 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/144a.png",
+        "raw/offlinelist/img/144b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c51/battle/game1.png",
         "raw/chiuinan/img/intro/ch/c51/battle/game2.png"
@@ -24665,6 +24784,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "坦克大决战",
@@ -25766,6 +25886,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "富甲天下2",
@@ -25931,7 +26052,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -26117,6 +26239,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "成吉思汗",
@@ -27141,7 +27264,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -27468,6 +27592,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "航空霸业2",
@@ -28513,6 +28638,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "西游记",
@@ -28614,7 +28740,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -28652,6 +28779,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "西游记外传",
@@ -29329,7 +29457,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -29368,7 +29497,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -29500,6 +29630,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "古文明霸王传",
@@ -29814,7 +29945,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -29883,6 +30015,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "台海防卫战",
@@ -30455,6 +30588,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "同级生2",
@@ -31249,11 +31383,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/吞食天地2 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/135a.png",
+        "raw/offlinelist/img/135b.png"
+      ],
       "rwv_cover": "raw/rwv/img/吞食天地2/cover.jpg"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "吞食天地2",
@@ -31292,6 +31431,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "吞食天地3",
@@ -32633,6 +32773,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "噗噗闯通关",
@@ -32866,6 +33007,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -33052,7 +33194,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -33150,7 +33293,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -34461,6 +34605,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -34493,11 +34638,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/妖塔2189 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/521a.png",
+        "raw/offlinelist/img/521b.png"
+      ],
       "rwv_cover": "raw/rwv/img/妖塔2189/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "妖塔2189",
@@ -34627,6 +34777,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "妖魔道",
@@ -34702,6 +34853,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -35023,6 +35175,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "嬉笑春秋",
@@ -35302,7 +35455,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -35489,6 +35643,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "巴士帝国",
@@ -35711,6 +35866,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "帝国的光荣",
@@ -36148,6 +36304,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "求婚365日",
@@ -36240,6 +36397,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "江南才子唐伯虎",
@@ -36355,6 +36513,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "江湖外传",
@@ -36677,7 +36836,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -36748,7 +36908,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -36795,6 +36956,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -36832,7 +36994,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -36906,6 +37069,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -37159,6 +37323,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "决战皇陵",
@@ -37599,6 +37764,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "沙丘魔堡",
@@ -37723,6 +37889,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/沙场风暴 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/548a.png",
+        "raw/offlinelist/img/548b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c51/msntank/game1.png",
         "raw/chiuinan/img/intro/ch/c51/msntank/game2.png"
@@ -37730,7 +37900,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -37803,6 +37974,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "沙拉那之剑",
@@ -41152,7 +41324,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -41218,7 +41391,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -41290,6 +41464,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "汉堡战争",
@@ -41558,6 +41733,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "激斗战士",
@@ -41589,6 +41765,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/灌篮金刚 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/543a.png",
+        "raw/offlinelist/img/543b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c52/kk10/game1.jpg",
         "raw/chiuinan/img/intro/ch/c52/kk10/game2.jpg",
@@ -41599,6 +41779,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "灌篮金刚",
@@ -41632,6 +41813,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/亚里斯王物语 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/533a.png",
+        "raw/offlinelist/img/533b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c31/aress/game1.png",
         "raw/chiuinan/img/intro/ch/c31/aress/game2.png"
@@ -41639,7 +41824,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -41859,7 +42045,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -42212,7 +42399,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -42580,6 +42768,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -42927,6 +43116,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "殖民计划",
@@ -43026,6 +43216,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "卧龙传",
@@ -43867,6 +44058,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "阿曼尼斯传说3",
@@ -44118,6 +44310,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "阿猫阿狗",
@@ -44375,6 +44568,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -44439,7 +44633,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -44501,6 +44696,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/隋唐群雄传 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/110a.png",
+        "raw/offlinelist/img/110b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c32/tmark/game1.png",
         "raw/chiuinan/img/intro/ch/c32/tmark/game2.png"
@@ -44508,7 +44707,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -44925,6 +45125,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "非洲探险2",
@@ -44967,6 +45168,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "勇士传奇",
@@ -45044,6 +45246,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "勇者传说",
@@ -45119,7 +45322,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -45931,6 +46135,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "皇后",
@@ -46103,6 +46308,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "皇帝",
@@ -46586,6 +46792,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "科学小飞侠",
@@ -47200,6 +47407,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "突击美少女",
@@ -47673,6 +47881,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美女拳",
@@ -47770,6 +47979,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/美女梭哈 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/100a.png",
+        "raw/offlinelist/img/100b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c41/runs/game1.png",
         "raw/chiuinan/img/intro/ch/c41/runs/game2.png",
@@ -47779,7 +47992,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -47818,7 +48032,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -47882,6 +48097,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美女终结者",
@@ -47918,7 +48134,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -48075,6 +48292,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/美少女梦工厂 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/101a.png",
+        "raw/offlinelist/img/101b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c33/pm/game1.png",
         "raw/chiuinan/img/intro/ch/c33/pm/game2.png"
@@ -48083,6 +48304,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美少女梦工厂",
@@ -48127,6 +48349,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美少女梦工厂2",
@@ -48332,6 +48555,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美少女战记",
@@ -48363,6 +48587,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/美少女扑克 (1989).png",
+      "offlinelist": [
+        "raw/offlinelist/img/12a.png",
+        "raw/offlinelist/img/12b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c41/jpoker/1-1.png",
         "raw/chiuinan/img/intro/ch/c41/jpoker/1-2.png",
@@ -48372,6 +48600,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美少女扑克",
@@ -48450,6 +48679,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "美少女特勤组",
@@ -49044,6 +49274,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "头号通缉犯",
@@ -49235,7 +49466,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -49959,7 +50191,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -49994,7 +50227,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -50198,6 +50432,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/飞翔传说-武者之旅 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/131a.png",
+        "raw/offlinelist/img/131b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c21/flygd/game1.png",
         "raw/chiuinan/img/intro/ch/c21/flygd/game2.png"
@@ -50206,7 +50444,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -50238,6 +50477,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "飞鹰骑士",
@@ -50505,6 +50745,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/香港麻将 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/111a.png",
+        "raw/offlinelist/img/111b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c42/hkmj/game1.png",
         "raw/chiuinan/img/intro/ch/c42/hkmj/game2.png"
@@ -50513,6 +50757,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -50552,6 +50797,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "香蕉俱乐部",
@@ -50759,6 +51005,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "人面蛾",
@@ -51606,6 +51853,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "伊忍道",
@@ -51682,6 +51930,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "伊甸风暴",
@@ -52657,6 +52906,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "侠客英雄传",
@@ -52969,6 +53219,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "侠影记",
@@ -53268,13 +53519,18 @@
     },
     "images": {
       "fandom": "raw/fandom/img/信长之野望2 战国群雄传 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/129a.png",
+        "raw/offlinelist/img/129b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c32/nb2/game1.png"
       ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -53311,7 +53567,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -53350,6 +53607,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "信长之野望霸王传",
@@ -53383,6 +53641,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/信长之野望6 天翔记 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/509a.png",
+        "raw/offlinelist/img/509b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c32/nb6/game1.png"
       ],
@@ -53391,6 +53653,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "信长之野望天翔记",
@@ -53743,7 +54006,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -53781,7 +54045,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -53819,7 +54084,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -53892,6 +54158,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -54493,6 +54760,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "光明战史",
@@ -54531,6 +54799,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "光明圣使团",
@@ -55158,6 +55427,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "冥界幻姬",
@@ -55262,7 +55532,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -55329,6 +55600,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "夏日物语",
@@ -55367,7 +55639,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -55401,7 +55674,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -55472,6 +55746,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "封神演义",
@@ -55511,6 +55786,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "封神演义",
@@ -55545,11 +55821,15 @@
       "fandom": "射雕英雄传 (1993)"
     },
     "images": {
-      "fandom": "raw/fandom/img/射雕英雄传 (1993).png"
+      "fandom": "raw/fandom/img/射雕英雄传 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/123b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -56184,6 +56464,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/快打至尊 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/138a.png",
+        "raw/offlinelist/img/138b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c51/sf/game1.png",
         "raw/chiuinan/img/intro/ch/c51/sf/game2.png"
@@ -56193,6 +56477,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "快打至尊",
@@ -56863,6 +57148,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "性感战士",
@@ -56955,6 +57241,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "恐龙世纪",
@@ -57454,6 +57741,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "悲恋湖杀人事件",
@@ -58013,11 +58301,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/恶魔禁地 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/145a.png",
+        "raw/offlinelist/img/145b.png"
+      ],
       "rwv_cover": "raw/rwv/img/恶魔禁地/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -58061,6 +58354,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爱之物语",
@@ -58166,7 +58460,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -58811,7 +59106,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -59381,6 +59677,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "真红的杀意",
@@ -59426,6 +59723,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "眼镜蛇任务",
@@ -59533,7 +59831,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -59608,6 +59907,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "神剑游侠传",
@@ -59886,6 +60186,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -60063,6 +60364,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "神示录背叛与毁灭",
@@ -60228,6 +60530,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "神谕",
@@ -60272,6 +60575,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "神谕",
@@ -60539,6 +60843,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "神雕侠侣",
@@ -60602,6 +60907,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/神龙快打 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/539a.png",
+        "raw/offlinelist/img/539b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c51/df/game1.png",
         "raw/chiuinan/img/intro/ch/c51/df/game2.jpg"
@@ -60609,7 +60918,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -60670,6 +60980,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "禁忌",
@@ -60710,7 +61021,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -60740,7 +61052,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -60955,7 +61268,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -61172,6 +61486,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -61726,6 +62041,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "轩辕圣战录",
@@ -61801,6 +62117,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "转校生",
@@ -63158,7 +63475,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -63444,6 +63762,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "异形方块",
@@ -63486,6 +63805,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "异星搜奇",
@@ -63519,6 +63839,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/异次元之旅 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/537a.png",
+        "raw/offlinelist/img/537b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c12/maan/game1.png",
         "raw/chiuinan/img/intro/ch/c12/maan/game2.png"
@@ -63527,6 +63851,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "异次元之旅",
@@ -63768,7 +64093,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -63867,11 +64193,16 @@
       "fandom": "聊斋志异之幽谷传奇 (1993)"
     },
     "images": {
-      "fandom": "raw/fandom/img/聊斋志异之幽谷传奇 (1993).png"
+      "fandom": "raw/fandom/img/聊斋志异之幽谷传奇 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/122a.png",
+        "raw/offlinelist/img/122b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -63904,6 +64235,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/雀之塔 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/134a.png",
+        "raw/offlinelist/img/134b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c42/tomj/game1.png",
         "raw/chiuinan/img/intro/ch/c42/tomj/game2.png"
@@ -63913,6 +64248,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -64045,7 +64381,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -64551,6 +64888,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "鹿鼎记",
@@ -64854,6 +65192,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/麻将大师 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/511a.png",
+        "raw/offlinelist/img/511b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c42/s16mj/1d-1.jpg",
         "raw/chiuinan/img/intro/ch/c42/s16mj/1d-2.jpg",
@@ -64864,6 +65206,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "麻将大师",
@@ -65052,6 +65395,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "麻将情趣屋",
@@ -65092,6 +65436,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "麻将情趣屋2",
@@ -65467,6 +65812,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -65541,6 +65887,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -65582,6 +65929,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "麻雀幻想曲2",
@@ -65658,6 +66006,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "麻雀幻想曲3",
@@ -66361,6 +66710,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "红楼梦之十二金钗",
@@ -66400,7 +66750,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -66596,6 +66947,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "红色诱惑",
@@ -67365,6 +67717,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "终极战士",
@@ -67523,11 +67876,16 @@
       "fandom": "终极火力 (1996)"
     },
     "images": {
-      "fandom": "raw/fandom/img/终极火力 (1996).png"
+      "fandom": "raw/fandom/img/终极火力 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/544a.png",
+        "raw/offlinelist/img/544b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -67940,6 +68298,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "绝代双骄",
@@ -68139,7 +68498,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -68175,7 +68535,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -68468,6 +68829,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "绝音魔琴",
@@ -68657,6 +69019,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/综艺大进击 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/547a.png",
+        "raw/offlinelist/img/547b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c44/ctquiz/game1.png",
         "raw/chiuinan/img/intro/ch/c44/ctquiz/game2.png"
@@ -68665,6 +69031,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -69069,7 +69436,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -69107,6 +69475,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "绯王传2",
@@ -69141,6 +69510,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "纵横七海",
@@ -69447,7 +69817,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -69549,6 +69920,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "象棋俄罗斯",
@@ -69807,7 +70179,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -69834,6 +70207,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/象棋大师3将族 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/103a.png",
+        "raw/offlinelist/img/103b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c41/cch/game1.jpg",
         "raw/chiuinan/img/intro/ch/c41/cch/game2.jpg"
@@ -69843,6 +70220,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "象棋大师3将族",
@@ -70275,6 +70653,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/超人战记 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/104a.png",
+        "raw/offlinelist/img/104b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c11/mars/game1.png",
         "raw/chiuinan/img/intro/ch/c11/mars/game2.png",
@@ -70286,6 +70668,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -70615,6 +70998,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "超时空英雄传说",
@@ -70651,7 +71035,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -70685,7 +71070,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -70750,6 +71136,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "超时空要塞",
@@ -70815,6 +71202,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "超未来少女",
@@ -71302,7 +71690,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -71712,6 +72101,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/超级学园麻雀 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/106a.png",
+        "raw/offlinelist/img/106b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c42/scmc/1-1.png",
         "raw/chiuinan/img/intro/ch/c42/scmc/1-2.png",
@@ -71721,7 +72114,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -71975,7 +72369,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -72405,7 +72800,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -73468,7 +73864,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -73702,6 +74099,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/黑暗之蛊 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/118a.png",
+        "raw/offlinelist/img/118b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c21/darkseed/game1.png",
         "raw/chiuinan/img/intro/ch/c21/darkseed/game2.png"
@@ -73711,6 +74112,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "黑暗之蛊",
@@ -73788,6 +74190,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "黑暗天使",
@@ -73978,6 +74381,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "黑暗圣战录",
@@ -74491,7 +74895,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -75353,6 +75758,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "新世纪兴亡史",
@@ -76050,6 +76456,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "新狼人摩天楼",
@@ -76367,6 +76774,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "新美女拳",
@@ -77320,6 +77728,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "明日之星2",
@@ -77939,6 +78348,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "星城绿洲计划",
@@ -78040,6 +78450,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "星月奇缘",
@@ -79732,6 +80143,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "时空异变",
@@ -79896,7 +80308,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -79963,7 +80376,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -80117,7 +80531,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -80160,6 +80575,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -80615,6 +81031,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "最后武力",
@@ -81444,6 +81861,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "破坏神传说",
@@ -81741,7 +82159,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -81800,7 +82219,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -81905,6 +82325,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -82219,7 +82640,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -82363,6 +82785,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "圣少女战队2",
@@ -82396,6 +82819,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/圣少女战队3 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/514a.png",
+        "raw/offlinelist/img/514b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c31/lake3/game1.png",
         "raw/chiuinan/img/intro/ch/c31/lake3/game2.png",
@@ -82406,6 +82833,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "圣少女战队3",
@@ -82549,6 +82977,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "圣战录",
@@ -82728,6 +83157,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -83350,6 +83780,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "迷走都市",
@@ -83547,6 +83978,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "逆玉王",
@@ -83585,7 +84017,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -83621,7 +84054,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -84316,6 +84750,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "选举风云",
@@ -84354,7 +84789,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -84417,6 +84853,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/邪神传说 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/107a.png",
+        "raw/offlinelist/img/107b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c12/evilgod/game1.png",
         "raw/chiuinan/img/intro/ch/c12/evilgod/game2.png"
@@ -84426,6 +84866,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "邪神传说",
@@ -84465,6 +84906,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "邪神大地",
@@ -86218,6 +86660,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/雪猫 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/502a.png",
+        "raw/offlinelist/img/502b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c22/csetu/game1.png",
         "raw/chiuinan/img/intro/ch/c22/csetu/game2.png"
@@ -86228,6 +86674,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "雪猫",
@@ -86616,7 +87063,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -87562,6 +88010,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "电脑魔域",
@@ -87758,7 +88207,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -87885,6 +88335,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/霹雳娇娃 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/524a.png",
+        "raw/offlinelist/img/524b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c22/dies/game1.png",
         "raw/chiuinan/img/intro/ch/c22/dies/game2.png"
@@ -87895,6 +88349,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "霹雳娇娃",
@@ -87968,7 +88423,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -88301,6 +88757,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "灵剑传奇",
@@ -88612,6 +89069,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "梦幻天使",
@@ -90023,6 +90481,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -90870,6 +91329,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/疯狂医院 (1993).png",
+      "offlinelist": [
+        "raw/offlinelist/img/125a.png",
+        "raw/offlinelist/img/125b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c33/dr/dr/1-1.png",
         "raw/chiuinan/img/intro/ch/c33/dr/dr/1-2.png",
@@ -90881,6 +91344,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "疯狂医院",
@@ -90917,7 +91381,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -90954,6 +91419,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "疯狂双响炮",
@@ -91338,6 +91804,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -91515,6 +91982,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "精灵幻界",
@@ -91549,6 +92017,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "精灵物语",
@@ -92297,6 +92766,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "蜥蜴超人",
@@ -92831,6 +93301,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -93613,6 +94084,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "金瓶梅之偷情宝鉴",
@@ -93996,6 +94468,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -94192,6 +94665,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/银河舰队 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/109a.png",
+        "raw/offlinelist/img/109b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c32/gfleet/game1.png",
         "raw/chiuinan/img/intro/ch/c32/gfleet/game2.png"
@@ -94201,6 +94678,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -94251,6 +94729,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -94301,6 +94780,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -95345,7 +95825,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -96233,6 +96714,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/创世机神 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/522a.png",
+        "raw/offlinelist/img/522b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c31/cybergu/game1.png",
         "raw/chiuinan/img/intro/ch/c31/cybergu/game2.png"
@@ -96242,6 +96727,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "创世机神",
@@ -96811,7 +97297,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -96969,6 +97456,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "刘伯温传奇",
@@ -97142,6 +97630,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "剑芒罗曼史",
@@ -98584,7 +99073,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -98621,7 +99111,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -98745,7 +99236,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -99036,6 +99528,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/排牌乐 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/512a.png",
+        "raw/offlinelist/img/512b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c41/cpoker/game1.png",
         "raw/chiuinan/img/intro/ch/c41/cpoker/game2.png"
@@ -99043,7 +99539,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -99372,6 +99869,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "扑克俱乐部",
@@ -99675,6 +100173,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "末日宝典",
@@ -99927,6 +100426,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "主题医院",
@@ -100424,6 +100924,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "格斗悍将",
@@ -100461,6 +100962,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "格斗拳王",
@@ -100499,7 +101001,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -101201,7 +101704,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -102577,6 +103081,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "枪神",
@@ -102616,6 +103121,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "枪神",
@@ -103002,6 +103508,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "模拟动物园",
@@ -103042,7 +103549,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -103121,6 +103629,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "模拟城市2000",
@@ -103301,6 +103810,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "模拟大楼",
@@ -103345,6 +103855,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "模拟大楼",
@@ -103787,6 +104298,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/模拟总统大选 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/529a.png",
+        "raw/offlinelist/img/529b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c33/simp/game1.png",
         "raw/chiuinan/img/intro/ch/c33/simp/game2.png"
@@ -103795,6 +104310,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -103869,6 +104385,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "模拟农场",
@@ -104297,7 +104814,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -104545,7 +105063,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -105325,6 +105844,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/樱花的季节 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/549a.png",
+        "raw/offlinelist/img/549b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c22/sakura/game1.png",
         "raw/chiuinan/img/intro/ch/c22/sakura/game2.png"
@@ -105334,6 +105857,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "樱花的季节",
@@ -106158,7 +106682,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -106230,6 +106755,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -106331,6 +106857,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "乌龙院",
@@ -106660,11 +107187,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/无名指的教科书 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/517a.png",
+        "raw/offlinelist/img/517b.png"
+      ],
       "rwv_cover": "raw/rwv/img/无名指的教科书/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "无名指的教科书",
@@ -106866,6 +107398,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "无声狂啸",
@@ -107761,6 +108294,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "炽天之翼",
@@ -108127,6 +108661,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爆笑三国志",
@@ -108164,6 +108699,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爆笑出击",
@@ -108201,6 +108737,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爆笑水浒传",
@@ -108239,6 +108776,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爆笑保龄球",
@@ -108279,6 +108817,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "爆笑躲避球",
@@ -108469,6 +109008,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "诞生",
@@ -108822,7 +109362,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -108860,6 +109401,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "赌神至尊之战",
@@ -109143,6 +109685,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "赤壁之战",
@@ -109541,7 +110084,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -109757,7 +110301,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -110235,6 +110780,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "战棋4000",
@@ -110503,6 +111049,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "战神2",
@@ -111206,6 +111753,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "花木兰",
@@ -111248,6 +111796,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "花木兰",
@@ -111623,7 +112172,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -111663,7 +112213,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -111702,7 +112253,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -112072,6 +112624,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "英雄圣战",
@@ -112391,6 +112944,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "华丽人生2",
@@ -113054,6 +113608,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "蓝色石榴石",
@@ -113257,6 +113812,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "齐天大圣",
@@ -113302,6 +113858,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "齐天大圣",
@@ -113857,6 +114414,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "特勤机甲队",
@@ -113898,6 +114456,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "特勤机甲队2",
@@ -113942,6 +114501,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "特勤机甲队2",
@@ -114639,11 +115199,16 @@
       "fandom": "狂龙传 (1996)"
     },
     "images": {
-      "fandom": "raw/fandom/img/狂龙传 (1996).png"
+      "fandom": "raw/fandom/img/狂龙传 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/508a.png",
+        "raw/offlinelist/img/508b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "狂龙传",
@@ -115102,6 +115667,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "独立战争",
@@ -115487,7 +116053,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -116167,7 +116734,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -116201,7 +116769,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -116401,6 +116970,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "丽兽",
@@ -116504,7 +117074,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -116836,7 +117407,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -117036,6 +117608,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "铁甲神兵",
@@ -117076,7 +117649,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -117706,6 +118280,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "马场大亨",
@@ -118209,6 +118784,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "高报酬战将",
@@ -118245,6 +118821,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "高校魔影",
@@ -118474,7 +119051,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -118739,6 +119317,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "鬼屋魔影3",
@@ -119002,6 +119581,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "鬼马小英雄",
@@ -119323,6 +119903,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔域传说4波斯战记",
@@ -119701,7 +120282,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -119913,6 +120495,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔岛大富翁",
@@ -120049,7 +120632,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -120090,7 +120674,8 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "omega@forumid=68",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -120498,6 +121083,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔武王",
@@ -120571,6 +121157,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法世纪",
@@ -120605,6 +121192,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法世纪2",
@@ -120713,6 +121301,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法公主",
@@ -120747,6 +121336,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法公主大冒险",
@@ -121136,6 +121726,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法军团",
@@ -121295,6 +121886,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/魔法门3 幻岛历险记 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/113a.png",
+        "raw/offlinelist/img/113b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c11/mm3/game1.png",
         "raw/chiuinan/img/intro/ch/c11/mm3/game2.png"
@@ -121305,6 +121900,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔法门3幻岛历险记",
@@ -122225,6 +122821,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔界之泉灰石传奇",
@@ -122298,11 +122895,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/魔界召唤 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/115a.png",
+        "raw/offlinelist/img/115b.png"
+      ],
       "rwv_cover": "raw/rwv/img/魔界召唤/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -122416,6 +123018,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔界圣女传",
@@ -122446,11 +123049,16 @@
       "fandom": "魔异入侵 (1992)"
     },
     "images": {
-      "fandom": "raw/fandom/img/魔异入侵 (1992).png"
+      "fandom": "raw/fandom/img/魔异入侵 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/112a.png",
+        "raw/offlinelist/img/112b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔异入侵",
@@ -122551,6 +123159,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/魔眼杀机2-隐月传奇 (1992).png",
+      "offlinelist": [
+        "raw/offlinelist/img/116a.png",
+        "raw/offlinelist/img/116b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c12/darkmoon/darkmoon/00forest.png",
         "raw/chiuinan/img/intro/ch/c12/darkmoon/darkmoon/01temple1.png",
@@ -122561,6 +123173,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔眼杀机2隐月传奇",
@@ -122752,6 +123365,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔神战记2",
@@ -122824,6 +123438,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔空霸传",
@@ -122877,6 +123492,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],
@@ -122915,7 +123531,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -122980,6 +123597,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔道子",
@@ -123283,6 +123901,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔鬼推销员",
@@ -123357,6 +123976,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan"
     ]
   },
@@ -123399,6 +124019,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "魔龙纪事",
@@ -123588,6 +124209,7 @@
       "chiuinan@list-1.htm",
       "omega@forumid=68",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐城市",
@@ -123679,6 +124301,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/欢乐天使 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/536a.png",
+        "raw/offlinelist/img/536b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c22/ayumi/game1.png"
       ]
@@ -123686,6 +124312,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐天使",
@@ -123721,6 +124348,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐幸福人",
@@ -123788,6 +124416,10 @@
     },
     "images": {
       "fandom": "raw/fandom/img/欢乐接龙 (1989).png",
+      "offlinelist": [
+        "raw/offlinelist/img/10a.png",
+        "raw/offlinelist/img/10b.png"
+      ],
       "chiuinan": [
         "raw/chiuinan/img/intro/ch/c41/poker/game1.png",
         "raw/chiuinan/img/intro/ch/c41/poker/game2.png"
@@ -123796,6 +124428,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐接龙",
@@ -124029,6 +124662,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐麻将",
@@ -124069,6 +124703,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "欢乐麻将",
@@ -124274,11 +124909,16 @@
       "fandom": "龙之传奇 (1996)"
     },
     "images": {
-      "fandom": "raw/fandom/img/龙之传奇 (1996).png"
+      "fandom": "raw/fandom/img/龙之传奇 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/546a.png",
+        "raw/offlinelist/img/546b.png"
+      ]
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "龙之传奇",
@@ -124346,7 +124986,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -124456,7 +125097,8 @@
     },
     "provenance": [
       "chiuinan@list-1.htm",
-      "fandom@cn-dos-games"
+      "fandom@cn-dos-games",
+      "offlinelist@cndosgames"
     ]
   },
   {
@@ -124857,6 +125499,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "龙骑士3",
@@ -124890,11 +125533,16 @@
     },
     "images": {
       "fandom": "raw/fandom/img/龙骑士4 (1996).png",
+      "offlinelist": [
+        "raw/offlinelist/img/501a.png",
+        "raw/offlinelist/img/501b.png"
+      ],
       "rwv_cover": "raw/rwv/img/龙骑士4/cover.png"
     },
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "rwv/chinese-dos-games@games.json"
     ],
     "rwv_source_id": "龙骑士4",
@@ -124939,6 +125587,7 @@
     "provenance": [
       "chiuinan@list-1.htm",
       "fandom@cn-dos-games",
+      "offlinelist@cndosgames",
       "softworld@boneash-scan",
       "rwv/chinese-dos-games@games.json"
     ],

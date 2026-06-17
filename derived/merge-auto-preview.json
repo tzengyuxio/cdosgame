@@ -1,5 +1,30 @@
 [
   {
+    "name": "2001特遣队",
+    "simp": "2001特遣队",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "2001特遣隊",
+    "cover_local": "raw/rwv/img/2001特遣队/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "2001特遣队 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:2001特遣队",
+      "offlinelist:2001特遣队",
+      "rwv:2001特遣队"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "2400 A.D.",
     "simp": "2400 A.D.",
     "srcs": [
@@ -9,6 +34,7 @@
     "region": null,
     "editions": [],
     "name_en": "2400 A.D.",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -24,6 +50,31 @@
     "confidence": "high"
   },
   {
+    "name": "2601帝国联合舰队",
+    "simp": "2601帝国联合舰队",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "2601帝國聯合艦隊",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "2601帝国联合舰队 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:2601帝国联合舰队",
+      "offlinelist:2601帝国联合舰队",
+      "rwv:2601帝国联合舰队"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "3D立體彈子檯",
     "simp": "3D立体弹子台",
     "srcs": [
@@ -33,12 +84,38 @@
     "region": null,
     "editions": [],
     "name_en": "Tristan Solid State Pinball",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:3D立體彈子檯"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "3x3只眼",
+    "simp": "3x3只眼",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "3x3隻眼",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "3x3只眼 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:3x3只眼",
+      "offlinelist:3x3只眼",
+      "rwv:3x3只眼"
     ],
     "softworld": null,
     "confidence": "high"
@@ -54,6 +131,7 @@
     "region": null,
     "editions": [],
     "name_en": "688 Attack Sub",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -79,6 +157,7 @@
     "region": null,
     "editions": [],
     "name_en": "F19 Stealth Fighter",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -94,6 +173,29 @@
     "confidence": "high"
   },
   {
+    "name": "MH28雷火战机",
+    "simp": "MH28雷火战机",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "MH28雷火戰機",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "MH28雷火战机 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:MH28雷火战机",
+      "offlinelist:MH28雷火战机"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "NBA大賽",
     "simp": "NBA大赛",
     "srcs": [
@@ -103,6 +205,7 @@
     "region": null,
     "editions": [],
     "name_en": "TV Sports：Basketball",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -127,12 +230,38 @@
     "region": null,
     "editions": [],
     "name_en": "Lakers vs Celtics",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:NBA籃球爭霸戰"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "PSY幽记",
+    "simp": "PSY幽记",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "PSY幽記",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "PSY幽记 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:PSY幽记",
+      "offlinelist:PSY幽记",
+      "rwv:PSY幽记"
     ],
     "softworld": null,
     "confidence": "high"
@@ -147,12 +276,36 @@
     "region": null,
     "editions": [],
     "name_en": "Rorke's Drift",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:SD祖魯戰記"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "Super 大战略 DOS/V",
+    "simp": "Super 大战略 DOS/V",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "Super大戰略DOS/V",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "Super 大战略 DOS/V (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:Super 大战略 DOS/V",
+      "offlinelist:Super大战略DOS/V"
     ],
     "softworld": null,
     "confidence": "high"
@@ -167,12 +320,36 @@
     "region": null,
     "editions": [],
     "name_en": "Tyrian",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:Tyrian戰機"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "七颗龙珠",
+    "simp": "七颗龙珠",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "七顆龍珠",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "七颗龙珠 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:七颗龙珠",
+      "offlinelist:七颗龙珠"
     ],
     "softworld": null,
     "confidence": "high"
@@ -187,6 +364,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Three Stooges",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -202,6 +380,98 @@
     "confidence": "high"
   },
   {
+    "name": "三国志III",
+    "simp": "三国志III",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "三國志III",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "三国志III (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:三国志III",
+      "offlinelist:三国志III"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "三国志IV 威力加强版",
+    "simp": "三国志IV 威力加强版",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "三國志IV 威力加強版",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:三国志IV 威力加强版"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "三国志V 威力加强版",
+    "simp": "三国志V 威力加强版",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "三國志V 威力加強版",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "三国志V 威力加强版 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:三国志V 威力加强版",
+      "offlinelist:三国志V 威力加强版"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "三姐妹",
+    "simp": "三姐妹",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "三姐妹",
+    "cover_local": "raw/rwv/img/三姐妹/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "三姐妹 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:三姐妹",
+      "offlinelist:三姐妹",
+      "rwv:三姐妹"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "上古戰爭藝術[空戰篇]",
     "simp": "上古战争艺术[空战篇]",
     "srcs": [
@@ -212,6 +482,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Ancient Art of War in the Skies",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5772",
     "ref_fandom": null,
@@ -229,12 +500,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1993,
     "region": null,
     "editions": [],
     "name_en": "Conquered Kingdoms",
+    "name_hant": "上古神兵",
     "cover_local": "raw/rwv/img/上古神兵/cover.png",
     "ref_omega": null,
     "ref_fandom": "上古神兵 (1993)",
@@ -242,6 +515,7 @@
     "variants": [
       "boneash:上古神兵",
       "fandom:上古神兵",
+      "offlinelist:上古神兵",
       "rwv:上古神兵"
     ],
     "softworld": null,
@@ -257,12 +531,160 @@
     "region": null,
     "editions": [],
     "name_en": "World Circuit",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:世紀金冠軍"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "中关村启示录",
+    "simp": "中关村启示录",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "中關村啟示錄",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "中关村启示录 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:中关村启示录",
+      "offlinelist:中关村启示录",
+      "rwv:中关村启示录"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "中华职棒 经理人资料片",
+    "simp": "中华职棒 经理人资料片",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "中華職棒 經理人資料片",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:中华职棒 经理人资料片"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "中原镖局",
+    "simp": "中原镖局",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "中原鏢局",
+    "cover_local": "raw/rwv/img/中原镖局/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "中原镖局 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:中原镖局",
+      "offlinelist:中原镖局",
+      "rwv:中原镖局"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "主题公园",
+    "simp": "主题公园",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [
+      "主题公园光碟版"
+    ],
+    "name_en": null,
+    "name_hant": "主題公園",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "主题公园 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:主题公园",
+      "offlinelist:主题公园",
+      "rwv:主题公园光碟版"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "主题医院",
+    "simp": "主题医院",
+    "srcs": [
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [
+      "主题医院S"
+    ],
+    "name_en": null,
+    "name_hant": "主題醫院",
+    "cover_local": "raw/rwv/img/主题医院/cover.jpg",
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:主题医院",
+      "rwv:主题医院",
+      "rwv:主题医院S"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "乱世英杰2-徳川家康",
+    "simp": "乱世英杰2-徳川家康",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "亂世英傑2-徳川家康",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "乱世英杰2-徳川家康 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:乱世英杰2-徳川家康",
+      "offlinelist:乱世英杰2-徳川家康"
     ],
     "softworld": null,
     "confidence": "high"
@@ -277,6 +699,7 @@
     "region": null,
     "editions": [],
     "name_en": "Sword of Aragon",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -297,6 +720,7 @@
     "region": null,
     "editions": [],
     "name_en": "Conquests of Camelot",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -318,6 +742,7 @@
     "region": null,
     "editions": [],
     "name_en": "Jones in the Fast Lane",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -343,6 +768,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Faery Tale Adventure",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -358,6 +784,54 @@
     "confidence": "high"
   },
   {
+    "name": "伍子胥",
+    "simp": "伍子胥",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "伍子胥",
+    "cover_local": "raw/rwv/img/伍子胥/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "伍子胥 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:伍子胥",
+      "offlinelist:伍子胥",
+      "rwv:伍子胥"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "佳儿成龙记",
+    "simp": "佳儿成龙记",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "佳兒成龍記",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "佳儿成龙记 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:佳儿成龙记",
+      "offlinelist:佳儿成龙记"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "俠盜羅賓漢",
     "simp": "侠盗罗宾汉",
     "srcs": [
@@ -367,6 +841,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Legend of Robin Hood：Conquests of the Longbow",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -391,6 +866,7 @@
     "region": null,
     "editions": [],
     "name_en": "Fields of Glory",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -411,6 +887,7 @@
     "region": null,
     "editions": [],
     "name_en": "Champions of Krynn",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -435,6 +912,7 @@
     "region": null,
     "editions": [],
     "name_en": "Dark Queen of Krynn",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -459,6 +937,7 @@
     "region": null,
     "editions": [],
     "name_en": "Demon's Winter",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -484,6 +963,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bard's Tale",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/冰城传奇/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -505,6 +985,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bard's Tale II：The Destiny Knight",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -525,6 +1006,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bard's Tale III：Thief of Fate",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -546,6 +1028,7 @@
     "region": null,
     "editions": [],
     "name_en": "Karateka",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/决战富士山/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -571,6 +1054,7 @@
     "region": null,
     "editions": [],
     "name_en": "Centurion：Defender of Rome",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -586,6 +1070,81 @@
     "confidence": "high"
   },
   {
+    "name": "刘备传",
+    "simp": "刘备传",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "劉備傳",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "刘备传 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:刘备传",
+      "offlinelist:刘备传",
+      "rwv:刘备传"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "创世封魔传",
+    "simp": "创世封魔传",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "創世封魔傳",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "创世封魔传 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:创世封魔传",
+      "offlinelist:创世封魔传",
+      "rwv:创世封魔传"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "创世弹珠台",
+    "simp": "创世弹珠台",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "創世彈珠檯",
+    "cover_local": "raw/rwv/img/创世弹珠台/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "创世弹珠台 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:创世弹珠台",
+      "offlinelist:创世弹珠台",
+      "rwv:创世弹珠台"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "前進高棉",
     "simp": "前进高棉",
     "srcs": [
@@ -595,6 +1154,7 @@
     "region": null,
     "editions": [],
     "name_en": "Platoon",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -619,6 +1179,7 @@
     "region": null,
     "editions": [],
     "name_en": "Ultima VII Part Two：Serpent Isle",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -639,6 +1200,7 @@
     "region": null,
     "editions": [],
     "name_en": "Ultima VII：The Black Gate",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -663,6 +1225,7 @@
     "region": null,
     "editions": [],
     "name_en": "North & South",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -678,6 +1241,56 @@
     "confidence": "high"
   },
   {
+    "name": "十面埋伏",
+    "simp": "十面埋伏",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "十面埋伏",
+    "cover_local": "raw/rwv/img/十面埋伏/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "十面埋伏 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:十面埋伏",
+      "offlinelist:十面埋伏",
+      "rwv:十面埋伏"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "南海霸主",
+    "simp": "南海霸主",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "南海霸主",
+    "cover_local": "raw/rwv/img/南海霸主/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "南海霸主 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:南海霸主",
+      "offlinelist:南海霸主",
+      "rwv:南海霸主"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "卡诺夫",
     "simp": "卡诺夫",
     "srcs": [
@@ -689,6 +1302,7 @@
     "region": null,
     "editions": [],
     "name_en": "Karnov",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/卡诺夫/cover.png",
     "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5878",
     "ref_fandom": null,
@@ -715,6 +1329,7 @@
     "region": null,
     "editions": [],
     "name_en": "Where in Europe is Carmen Sandiego?",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -730,6 +1345,77 @@
     "confidence": "high"
   },
   {
+    "name": "危机特勤组",
+    "simp": "危机特勤组",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "危機特勤組",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "危机特勤组 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:危机特勤组",
+      "offlinelist:危机特勤组",
+      "rwv:危机特勤组"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "历险小精灵",
+    "simp": "历险小精灵",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "歷險小精靈",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "历险小精灵 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:历险小精灵",
+      "offlinelist:历险小精灵"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "原星",
+    "simp": "原星",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "原星",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "原星 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:原星",
+      "offlinelist:原星"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "叛变克朗多",
     "simp": "叛变克朗多",
     "srcs": [
@@ -740,6 +1426,7 @@
     "region": null,
     "editions": [],
     "name_en": "Betrayal at Krondor",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -761,12 +1448,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1994,
     "region": null,
     "editions": [],
     "name_en": "N/A",
+    "name_hant": "臺灣模擬選戰",
     "cover_local": "raw/rwv/img/台湾模拟选战/cover.png",
     "ref_omega": null,
     "ref_fandom": "台湾模拟选战 (1994)",
@@ -774,7 +1463,31 @@
     "variants": [
       "boneash:台灣模擬選戰",
       "fandom:台湾模拟选战",
+      "offlinelist:台湾模拟选战",
       "rwv:台湾模拟选战"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "台湾麻将",
+    "simp": "台湾麻将",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "臺灣麻將",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "台湾麻将 (1987)",
+    "title_raw": null,
+    "variants": [
+      "fandom:台湾麻将",
+      "offlinelist:台湾麻将"
     ],
     "softworld": null,
     "confidence": "high"
@@ -789,6 +1502,7 @@
     "region": null,
     "editions": [],
     "name_en": "Disney's Duck Tales: The Quest for Gold",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -810,6 +1524,7 @@
     "region": null,
     "editions": [],
     "name_en": "4-D Boxing",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/嚣张拳王/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -826,6 +1541,27 @@
     "confidence": "high"
   },
   {
+    "name": "四川省III 天府之国",
+    "simp": "四川省III 天府之国",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "四川省III 天府之國",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:四川省III 天府之国"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "國王傳奇",
     "simp": "国王传奇",
     "srcs": [
@@ -835,6 +1571,7 @@
     "region": null,
     "editions": [],
     "name_en": "Times of Lore",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -859,6 +1596,7 @@
     "region": null,
     "editions": [],
     "name_en": "King's Quest：Quest for the Crown",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -870,17 +1608,67 @@
     "confidence": "high"
   },
   {
+    "name": "圣光岛",
+    "simp": "圣光岛",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "聖光島",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "圣光岛 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:圣光岛",
+      "offlinelist:圣光岛",
+      "rwv:圣光岛"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "圣兽传说",
+    "simp": "圣兽传说",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "聖獸傳說",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "圣兽传说 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:圣兽传说",
+      "offlinelist:圣兽传说"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "圣城劫",
     "simp": "圣城劫",
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1993,
     "region": null,
     "editions": [],
     "name_en": "N/A",
+    "name_hant": "聖城劫",
     "cover_local": "raw/rwv/img/圣城劫/cover.png",
     "ref_omega": null,
     "ref_fandom": "圣城劫 (1993)",
@@ -888,6 +1676,7 @@
     "variants": [
       "boneash:聖城劫",
       "fandom:圣城劫",
+      "offlinelist:圣城劫",
       "rwv:圣城劫"
     ],
     "softworld": null,
@@ -903,12 +1692,34 @@
     "region": null,
     "editions": [],
     "name_en": "Legacy of the Ancients",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:塔莫倫戰士"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "复活邪魔",
+    "simp": "复活邪魔",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "復活邪魔",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:复活邪魔"
     ],
     "softworld": null,
     "confidence": "high"
@@ -923,6 +1734,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Games：Summer Challenge",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -947,6 +1759,7 @@
     "region": null,
     "editions": [],
     "name_en": "Night Shift",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -971,6 +1784,7 @@
     "region": null,
     "editions": [],
     "name_en": "Night Hawk：F-117A Stealth Fighter 2.0",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -986,17 +1800,138 @@
     "confidence": "high"
   },
   {
+    "name": "大兵日记",
+    "simp": "大兵日记",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "大兵日記",
+    "cover_local": "raw/rwv/img/大兵日记/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "大兵日记 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大兵日记",
+      "offlinelist:大兵日记",
+      "rwv:大兵日记"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "大地传说黑暗王座",
+    "simp": "大地传说黑暗王座",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "大地傳說-黑暗王座",
+    "cover_local": "raw/rwv/img/大地传说黑暗王座/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "大地传说-黑暗王座 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大地传说-黑暗王座",
+      "offlinelist:大地传说-黑暗王座",
+      "rwv:大地传说黑暗王座"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "大地雄师-超空霸傳",
+    "simp": "大地雄师-超空霸傳",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "大地雄師-超空霸傳",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:大地雄师-超空霸傳"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "大富翁总动员",
+    "simp": "大富翁总动员",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "大富翁總動員",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "大富翁总动员 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大富翁总动员",
+      "offlinelist:大富翁总动员",
+      "rwv:大富翁总动员"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "大战略SP 钓鱼台风云篇",
+    "simp": "大战略SP 钓鱼台风云篇",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "大戰略SP 釣魚臺風雲篇",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "大战略SP 钓鱼台风云篇 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:大战略SP 钓鱼台风云篇",
+      "offlinelist:大战略SP 钓鱼台风云篇"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "大时代的故事",
     "simp": "大时代的故事",
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1992,
     "region": null,
     "editions": [],
     "name_en": "N/A",
+    "name_hant": "大時代的故事",
     "cover_local": "raw/rwv/img/大时代的故事/cover.png",
     "ref_omega": null,
     "ref_fandom": "大时代的故事 (1992)",
@@ -1004,7 +1939,150 @@
     "variants": [
       "boneash:大時代的故事",
       "fandom:大时代的故事",
+      "offlinelist:大时代的故事",
       "rwv:大时代的故事"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天使Q女学院",
+    "simp": "天使Q女学院",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天使Q女學院",
+    "cover_local": "raw/rwv/img/天使Q女学院/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "天使Q女学院 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天使Q女学院",
+      "offlinelist:天使Q女学院",
+      "rwv:天使Q女学院"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天使角力賽",
+    "simp": "天使角力賽",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天使角力賽",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:天使角力賽"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天使角力賽3(擂台美少女)",
+    "simp": "天使角力賽3(擂台美少女)",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天使角力賽3(擂臺美少女)",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:天使角力賽3(擂台美少女)"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天师钟馗",
+    "simp": "天师钟馗",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天師鍾馗",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "天师钟馗 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天师钟馗",
+      "offlinelist:天师钟馗",
+      "rwv:天师钟馗"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天帝之子",
+    "simp": "天帝之子",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天帝之子",
+    "cover_local": "raw/rwv/img/天帝之子/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "天帝之子 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天帝之子",
+      "offlinelist:天帝之子",
+      "rwv:天帝之子"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "天晴传",
+    "simp": "天晴传",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "天晴傳",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "天晴传 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:天晴传",
+      "offlinelist:天晴传",
+      "rwv:天晴传"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1019,6 +2097,7 @@
     "region": null,
     "editions": [],
     "name_en": "Earl Weaver Baseball",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1039,12 +2118,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1993,
     "region": null,
     "editions": [],
     "name_en": "Silk",
+    "name_hant": "天蠶變",
     "cover_local": "raw/rwv/img/天蚕变/cover.png",
     "ref_omega": null,
     "ref_fandom": "天蚕变 (1993)",
@@ -1052,6 +2133,7 @@
     "variants": [
       "boneash:天蠶變",
       "fandom:天蚕变",
+      "offlinelist:天蚕变",
       "rwv:天蚕变"
     ],
     "softworld": null,
@@ -1067,6 +2149,7 @@
     "region": null,
     "editions": [],
     "name_en": "D.R.A.G.O.N. Force",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1083,12 +2166,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1994,
     "region": null,
     "editions": [],
     "name_en": "Robinson's Requiem",
+    "name_hant": "太空魯賓遜",
     "cover_local": "raw/rwv/img/太空鲁宾逊/cover.png",
     "ref_omega": null,
     "ref_fandom": "太空鲁宾逊 (1994)",
@@ -1096,6 +2181,7 @@
     "variants": [
       "boneash:太空魯賓遜",
       "fandom:太空鲁宾逊",
+      "offlinelist:太空鲁宾逊",
       "rwv:太空鲁宾逊"
     ],
     "softworld": null,
@@ -1111,6 +2197,7 @@
     "region": null,
     "editions": [],
     "name_en": "Taiko Risshiden",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1131,12 +2218,36 @@
     "region": null,
     "editions": [],
     "name_en": "The Lost Admiral",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:失落的海軍上將"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "女神学园",
+    "simp": "女神学园",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "女神學園",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "女神学园 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:女神学园",
+      "offlinelist:女神学园"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1152,6 +2263,7 @@
     "region": null,
     "editions": [],
     "name_en": "Weird Dreams",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1168,6 +2280,31 @@
     "confidence": "high"
   },
   {
+    "name": "妖击队",
+    "simp": "妖击队",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "妖擊隊",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "妖击队 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:妖击队",
+      "offlinelist:妖击队",
+      "rwv:妖击队"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "妙狐神探：地球繼任者",
     "simp": "妙狐神探：地球继任者",
     "srcs": [
@@ -1177,6 +2314,7 @@
     "region": null,
     "editions": [],
     "name_en": "Inherit the Earth：Quest for the Orb",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1192,6 +2330,29 @@
     "confidence": "high"
   },
   {
+    "name": "孤臣记",
+    "simp": "孤臣记",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "孤臣記",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "孤臣记 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:孤臣记",
+      "offlinelist:孤臣记"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "宇宙傳奇２：渥豪的復仇",
     "simp": "宇宙传奇２：渥豪的复仇",
     "srcs": [
@@ -1201,6 +2362,7 @@
     "region": null,
     "editions": [],
     "name_en": "Space Quest 2：Vohaul's Revenge",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1221,6 +2383,7 @@
     "region": null,
     "editions": [],
     "name_en": "Space Quest：The Pirates of Pestulon",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1241,6 +2404,7 @@
     "region": null,
     "editions": [],
     "name_en": "Space Quest IV：Roger Wilco and the Time Rippers",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1265,6 +2429,7 @@
     "region": null,
     "editions": [],
     "name_en": "Space Quest：The Sarien Encounter",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1285,6 +2450,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Colony",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1305,12 +2471,61 @@
     "region": null,
     "editions": [],
     "name_en": "The Perfect General",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:完美將軍"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "密集火力",
+    "simp": "密集火力",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "密集火力",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "密集火力 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:密集火力",
+      "offlinelist:密集火力"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "富贵列车",
+    "simp": "富贵列车",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "富貴列車",
+    "cover_local": "raw/rwv/img/富贵列车/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "富贵列车 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:富贵列车",
+      "offlinelist:富贵列车",
+      "rwv:富贵列车"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1325,12 +2540,38 @@
     "region": null,
     "editions": [],
     "name_en": "Eric the Unready",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:寶裡寶氣寶騎士"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "射波",
+    "simp": "射波",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "射波",
+    "cover_local": "raw/rwv/img/射波/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "射波 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:射波",
+      "offlinelist:射波",
+      "rwv:射波"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1345,6 +2586,7 @@
     "region": null,
     "editions": [],
     "name_en": "Chinese Chess Master 3",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1366,6 +2608,7 @@
     "region": null,
     "editions": [],
     "name_en": "Les Manley in：Search for The King",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/小人物狂想曲/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -1391,12 +2634,63 @@
     "region": null,
     "editions": [],
     "name_en": "Cannon Fodder",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:小兵立大功"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "小惠的性知识",
+    "simp": "小惠的性知识",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "小惠的性知識",
+    "cover_local": "raw/rwv/img/小惠的性知识/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "小惠的性知识 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:小惠的性知识",
+      "offlinelist:小惠的性知识",
+      "rwv:小惠的性知识"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "小沙弥",
+    "simp": "小沙弥",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "小沙彌",
+    "cover_local": "raw/rwv/img/小沙弥/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "小沙弥 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:小沙弥",
+      "offlinelist:小沙弥",
+      "rwv:小沙弥"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1411,6 +2705,7 @@
     "region": null,
     "editions": [],
     "name_en": "Barbarian",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1435,6 +2730,7 @@
     "region": null,
     "editions": [],
     "name_en": "Serf City：Life is Feudal",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1459,6 +2755,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Dark Heart of Uukrul",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1479,6 +2776,7 @@
     "region": null,
     "editions": [],
     "name_en": "Wizardry：Proving Grounds of the Mad Overlord",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1499,6 +2797,7 @@
     "region": null,
     "editions": [],
     "name_en": "Shogun",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1514,6 +2813,56 @@
     "confidence": "high"
   },
   {
+    "name": "幸福人生",
+    "simp": "幸福人生",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "幸福人生",
+    "cover_local": "raw/rwv/img/幸福人生/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "幸福人生 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:幸福人生",
+      "offlinelist:幸福人生",
+      "rwv:幸福人生"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "幻想奇侠传",
+    "simp": "幻想奇侠传",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1999,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "幻想奇俠傳",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "幻想奇侠传 (1999)",
+    "title_raw": null,
+    "variants": [
+      "fandom:幻想奇侠传",
+      "offlinelist:幻想奇侠传",
+      "rwv:幻想奇侠传"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "幻想空間３：尋求滿懷悸動的多情佩蒂",
     "simp": "幻想空间３：寻求满怀悸动的多情佩蒂",
     "srcs": [
@@ -1523,6 +2872,7 @@
     "region": null,
     "editions": [],
     "name_en": "Leisure Suit Larry：Passionate Patti in Pursuit of the Pulsating Pectorals!",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1544,6 +2894,7 @@
     "region": null,
     "editions": [],
     "name_en": "Hillsfar",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1565,6 +2916,7 @@
     "region": null,
     "editions": [],
     "name_en": "X-Com : Enemy Unknown",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1586,6 +2938,7 @@
     "region": null,
     "editions": [],
     "name_en": "Don't Go Alone",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/幽灵馆/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -1593,6 +2946,31 @@
     "variants": [
       "boneash:幽靈館",
       "rwv:幽灵馆"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "底特律汽车大亨",
+    "simp": "底特律汽车大亨",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "底特律汽車大亨",
+    "cover_local": "raw/rwv/img/底特律汽车大亨/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "底特律汽车大亨 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:底特律汽车大亨",
+      "offlinelist:底特律汽车大亨",
+      "rwv:底特律汽车大亨"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1608,6 +2986,7 @@
     "region": null,
     "editions": [],
     "name_en": "Zak McKracken and the Alien Mindbenders",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/异形大进击/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -1633,6 +3012,7 @@
     "region": null,
     "editions": [],
     "name_en": "Wolf Pack",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1657,6 +3037,7 @@
     "region": null,
     "editions": [],
     "name_en": "King's Bounty",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1672,6 +3053,29 @@
     "confidence": "high"
   },
   {
+    "name": "德鲁依教徒-天人交战",
+    "simp": "德鲁依教徒-天人交战",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "德魯依教徒-天人交戰",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "德鲁依教徒-天人交战 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:德鲁依教徒-天人交战",
+      "offlinelist:德鲁依教徒-天人交战"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "忍",
     "simp": "忍",
     "srcs": [
@@ -1682,6 +3086,7 @@
     "region": null,
     "editions": [],
     "name_en": "Shinobi",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1698,6 +3103,29 @@
     "confidence": "high"
   },
   {
+    "name": "志武神大战",
+    "simp": "志武神大战",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "志武神大戰",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "志武神大战 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:志武神大战",
+      "offlinelist:志武神大战"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "快樂泡泡龍",
     "simp": "快乐泡泡龙",
     "srcs": [
@@ -1707,6 +3135,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bubble Bobble",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1731,6 +3160,7 @@
     "region": null,
     "editions": [],
     "name_en": "Ikari Warriors",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1746,6 +3176,52 @@
     "confidence": "high"
   },
   {
+    "name": "战区88",
+    "simp": "战区88",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "戰區88",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "战区88 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:战区88",
+      "offlinelist:战区88"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "战虎之沙漠行动",
+    "simp": "战虎之沙漠行动",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "戰虎之沙漠行動",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "战虎之沙漠行动 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:战虎之沙漠行动",
+      "offlinelist:战虎之沙漠行动"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "戰場之狼",
     "simp": "战场之狼",
     "srcs": [
@@ -1755,6 +3231,7 @@
     "region": null,
     "editions": [],
     "name_en": "Commando",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1779,6 +3256,7 @@
     "region": null,
     "editions": [],
     "name_en": "Conflict：Korea",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1794,6 +3272,29 @@
     "confidence": "high"
   },
   {
+    "name": "拂晓攻击-决战中国海之役",
+    "simp": "拂晓攻击-决战中国海之役",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "拂曉攻擊-決戰中國海之役",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "拂晓攻击-决战中国海之役 (1990)",
+    "title_raw": null,
+    "variants": [
+      "fandom:拂晓攻击-决战中国海之役",
+      "offlinelist:拂晓攻击-决战中国海之役"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "拯救地球",
     "simp": "拯救地球",
     "srcs": [
@@ -1803,6 +3304,7 @@
     "region": null,
     "editions": [],
     "name_en": "Buck Rogers：Countdown to Doomsday",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1818,6 +3320,98 @@
     "confidence": "high"
   },
   {
+    "name": "拳形岩",
+    "simp": "拳形岩",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1990,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "拳形巖",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "拳形岩 (1990)",
+    "title_raw": null,
+    "variants": [
+      "fandom:拳形岩",
+      "offlinelist:拳形岩"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "拼图魔法阵",
+    "simp": "拼图魔法阵",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "拼圖魔法陣",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "拼图魔法阵 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:拼图魔法阵",
+      "offlinelist:拼图魔法阵"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "排球原人",
+    "simp": "排球原人",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "排球原人",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "排球原人 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:排球原人",
+      "offlinelist:排球原人"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "提督之决断II",
+    "simp": "提督之决断II",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "提督之決斷II",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "提督之决断II (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:提督之决断II",
+      "offlinelist:提督之决断II"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "搖滾霹靂彈",
     "simp": "摇滚霹雳弹",
     "srcs": [
@@ -1827,12 +3421,86 @@
     "region": null,
     "editions": [],
     "name_en": "EPIC Pinball",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:搖滾霹靂彈"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "摇滚少林之七侠五义",
+    "simp": "摇滚少林之七侠五义",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "搖滾少林之七俠五義",
+    "cover_local": "raw/rwv/img/摇滚少林之七侠五义/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "摇滚少林之七侠五义 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:摇滚少林之七侠五义",
+      "offlinelist:摇滚少林之七侠五义",
+      "rwv:摇滚少林之七侠五义"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "撞球补习班",
+    "simp": "撞球补习班",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "撞球補習班",
+    "cover_local": "raw/rwv/img/撞球补习班/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "撞球补习班 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:撞球补习班",
+      "offlinelist:撞球补习班",
+      "rwv:撞球补习班"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "新蜀山剑侠传-紫青双剑录",
+    "simp": "新蜀山剑侠传-紫青双剑录",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "新蜀山劍俠傳-紫青雙劍錄",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "新蜀山剑侠传-紫青双剑录 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:新蜀山剑侠传-紫青双剑录",
+      "offlinelist:新蜀山剑侠传-紫青双剑录"
     ],
     "softworld": null,
     "confidence": "high"
@@ -1847,6 +3515,7 @@
     "region": null,
     "editions": [],
     "name_en": "Stratego",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1871,6 +3540,7 @@
     "region": null,
     "editions": [],
     "name_en": "Wordtris",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1896,6 +3566,7 @@
     "region": null,
     "editions": [],
     "name_en": "Gunship",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/无敌飞狼/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -1912,6 +3583,131 @@
     "confidence": "high"
   },
   {
+    "name": "日没",
+    "simp": "日没",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "日沒",
+    "cover_local": "raw/rwv/img/日没/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "日没 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:日没",
+      "offlinelist:日没",
+      "rwv:日没"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "日蚀",
+    "simp": "日蚀",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "日蝕",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "日蚀 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:日蚀",
+      "offlinelist:日蚀",
+      "rwv:日蚀"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "时空特勤组",
+    "simp": "时空特勤组",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "時空特勤組",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "时空特勤组 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:时空特勤组",
+      "offlinelist:时空特勤组",
+      "rwv:时空特勤组"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "星世纪战将",
+    "simp": "星世纪战将",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "星世紀戰將",
+    "cover_local": "raw/rwv/img/星世纪战将/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "星世纪战将 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:星世纪战将",
+      "offlinelist:星世纪战将",
+      "rwv:星世纪战将"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "智圣鲜师",
+    "simp": "智圣鲜师",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "智聖鮮師",
+    "cover_local": "raw/rwv/img/智圣鲜师/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "智圣鲜师 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:智圣鲜师",
+      "offlinelist:智圣鲜师",
+      "rwv:智圣鲜师"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "最后的忍者",
     "simp": "最后的忍者",
     "srcs": [
@@ -1922,6 +3718,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Last Ninja",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1938,6 +3735,29 @@
     "confidence": "high"
   },
   {
+    "name": "最长的一日",
+    "simp": "最长的一日",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "最長的一日",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "最长的一日 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:最长的一日",
+      "offlinelist:最长的一日"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "未來之魔法",
     "simp": "未来之魔法",
     "srcs": [
@@ -1947,6 +3767,7 @@
     "region": null,
     "editions": [],
     "name_en": "Sentinel Worlds I : Future Magic",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1972,6 +3793,7 @@
     "region": null,
     "editions": [],
     "name_en": "Thexder",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -1998,6 +3820,7 @@
     "region": null,
     "editions": [],
     "name_en": "Escape from the Planet of the Robot Monsters",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2020,6 +3843,7 @@
     "region": null,
     "editions": [],
     "name_en": "Nuclear War",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/核战狂人梦/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -2045,6 +3869,7 @@
     "region": null,
     "editions": [],
     "name_en": "Rad Warrior",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2060,6 +3885,54 @@
     "confidence": "high"
   },
   {
+    "name": "格斗美少女",
+    "simp": "格斗美少女",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "格鬥美少女",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "格斗美少女 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:格斗美少女",
+      "offlinelist:格斗美少女"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "格杀令",
+    "simp": "格杀令",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "格殺令",
+    "cover_local": "raw/rwv/img/格杀令/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "格杀令 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:格杀令",
+      "offlinelist:格杀令",
+      "rwv:格杀令"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "梅杜莎指環",
     "simp": "梅杜莎指环",
     "srcs": [
@@ -2069,6 +3942,7 @@
     "region": null,
     "editions": [],
     "name_en": "Rings of Medusa",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2093,6 +3967,7 @@
     "region": null,
     "editions": [],
     "name_en": "Omar Sharif on Bridge",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2113,12 +3988,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1994,
     "region": null,
     "editions": [],
     "name_en": "Operation Europe：Path to Victory 1939-45",
+    "name_hant": "歐陸戰線",
     "cover_local": "raw/rwv/img/欧陆战线/cover.png",
     "ref_omega": null,
     "ref_fandom": "欧陆战线 (1994)",
@@ -2126,6 +4003,7 @@
     "variants": [
       "boneash:歐陸戰線",
       "fandom:欧陆战线",
+      "offlinelist:欧陆战线",
       "rwv:欧陆战线"
     ],
     "softworld": null,
@@ -2141,6 +4019,7 @@
     "region": null,
     "editions": [],
     "name_en": "Roadwar Europa",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2156,6 +4035,54 @@
     "confidence": "high"
   },
   {
+    "name": "正宗台湾16张麻将",
+    "simp": "正宗台湾16张麻将",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "正宗臺灣16張麻將",
+    "cover_local": "raw/rwv/img/正宗台湾16张麻将/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "正宗台湾16张麻将 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:正宗台湾16张麻将",
+      "offlinelist:正宗台湾16张麻将",
+      "rwv:正宗台湾16张麻将"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "武林争霸之英雄帖",
+    "simp": "武林争霸之英雄帖",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "武林爭霸之英雄帖",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "武林争霸之英雄帖 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:武林争霸之英雄帖",
+      "offlinelist:武林争霸之英雄帖"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "武道馆",
     "simp": "武道馆",
     "srcs": [
@@ -2166,6 +4093,7 @@
     "region": null,
     "editions": [],
     "name_en": "Budokan",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/武道馆/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -2191,6 +4119,7 @@
     "region": null,
     "editions": [],
     "name_en": "Silent Service 2",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2212,6 +4141,7 @@
     "region": null,
     "editions": [],
     "name_en": "Targhan",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2228,6 +4158,27 @@
     "confidence": "high"
   },
   {
+    "name": "水星故事2",
+    "simp": "水星故事2",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "水星故事2",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:水星故事2"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "水浒传",
     "simp": "水浒传",
     "srcs": [
@@ -2238,6 +4189,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bandit Kings of Ancient China",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/水浒传/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -2263,6 +4215,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Immortal",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2287,6 +4240,7 @@
     "region": null,
     "editions": [],
     "name_en": "Fountain of Dreams",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2311,6 +4265,7 @@
     "region": null,
     "editions": [],
     "name_en": "Kings of the Beach",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2326,6 +4281,29 @@
     "confidence": "high"
   },
   {
+    "name": "淘金热",
+    "simp": "淘金热",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "淘金熱",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "淘金热 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:淘金热",
+      "offlinelist:淘金热"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "深穴掘寶",
     "simp": "深穴掘宝",
     "srcs": [
@@ -2335,6 +4313,7 @@
     "region": null,
     "editions": [],
     "name_en": "Digger",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2355,6 +4334,7 @@
     "region": null,
     "editions": [],
     "name_en": "Star Control",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2379,12 +4359,36 @@
     "region": null,
     "editions": [],
     "name_en": "Martian Dreams",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:火星之旅"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "火狐狸",
+    "simp": "火狐狸",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "火狐狸",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "火狐狸 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:火狐狸",
+      "offlinelist:火狐狸"
     ],
     "softworld": null,
     "confidence": "high"
@@ -2399,6 +4403,7 @@
     "region": null,
     "editions": [],
     "name_en": "Dragon Wars",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2414,6 +4419,48 @@
     "confidence": "high"
   },
   {
+    "name": "炎龙骑士团-邪神的封印 简",
+    "simp": "炎龙骑士团-邪神的封印 简",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "炎龍騎士團-邪神的封印 簡",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:炎龙骑士团-邪神的封印 简"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "炎龙骑士团-邪神的封印 繁",
+    "simp": "炎龙骑士团-邪神的封印 繁",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "炎龍騎士團-邪神的封印 繁",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:炎龙骑士团-邪神的封印 繁"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "炮艇",
     "simp": "炮艇",
     "srcs": [
@@ -2423,6 +4470,7 @@
     "region": null,
     "editions": [],
     "name_en": "Gunboat",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2438,6 +4486,31 @@
     "confidence": "high"
   },
   {
+    "name": "炸弹超人",
+    "simp": "炸弹超人",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "炸彈超人",
+    "cover_local": "raw/rwv/img/炸弹超人/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "炸弹超人 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:炸弹超人",
+      "offlinelist:炸弹超人",
+      "rwv:炸弹超人"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "炸彈小子",
     "simp": "炸弹小子",
     "srcs": [
@@ -2447,6 +4520,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bombuzal",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2471,6 +4545,7 @@
     "region": null,
     "editions": [],
     "name_en": "NightHunter",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2495,6 +4570,7 @@
     "region": null,
     "editions": [],
     "name_en": "Heavy Barrel",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2519,6 +4595,7 @@
     "region": null,
     "editions": [],
     "name_en": "Armada 2525",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2539,6 +4616,7 @@
     "region": null,
     "editions": [],
     "name_en": "Gunship 2000",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2554,6 +4632,31 @@
     "confidence": "high"
   },
   {
+    "name": "熊猫大进击",
+    "simp": "熊猫大进击",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "熊貓大進擊",
+    "cover_local": "raw/rwv/img/熊猫大进击/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "熊猫大进击 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:熊猫大进击",
+      "offlinelist:熊猫大进击",
+      "rwv:熊猫大进击"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "燃燒坦克",
     "simp": "燃烧坦克",
     "srcs": [
@@ -2563,12 +4666,34 @@
     "region": null,
     "editions": [],
     "name_en": "Metal Gear",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:燃燒坦克"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "特级大师",
+    "simp": "特级大师",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1989,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "特級大師",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:特级大师"
     ],
     "softworld": null,
     "confidence": "high"
@@ -2583,6 +4708,7 @@
     "region": null,
     "editions": [],
     "name_en": "Battle Isle",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2598,6 +4724,29 @@
     "confidence": "high"
   },
   {
+    "name": "狗子阿利",
+    "simp": "狗子阿利",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "狗子阿利",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "狗子阿利 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:狗子阿利",
+      "offlinelist:狗子阿利"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "猛鬼逛街",
     "simp": "猛鬼逛街",
     "srcs": [
@@ -2607,6 +4756,7 @@
     "region": null,
     "editions": [],
     "name_en": "Nightmare on Elm Street",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2632,6 +4782,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Secret of Monkey Island",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/猴岛小英雄/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -2648,6 +4799,56 @@
     "confidence": "high"
   },
   {
+    "name": "玛丽姐妹",
+    "simp": "玛丽姐妹",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "瑪麗姐妹",
+    "cover_local": "raw/rwv/img/玛丽姐妹/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "玛丽姐妹 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:玛丽姐妹",
+      "offlinelist:玛丽姐妹",
+      "rwv:玛丽姐妹"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "玫瑰骑士",
+    "simp": "玫瑰骑士",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "玫瑰騎士",
+    "cover_local": "raw/rwv/img/玫瑰骑士/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "玫瑰骑士 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:玫瑰骑士",
+      "offlinelist:玫瑰骑士",
+      "rwv:玫瑰骑士"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "瑪麗姊妹",
     "simp": "玛丽姊妹",
     "srcs": [
@@ -2657,6 +4858,7 @@
     "region": null,
     "editions": [],
     "name_en": "Sister Mary",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2672,6 +4874,56 @@
     "confidence": "high"
   },
   {
+    "name": "甲A风云",
+    "simp": "甲A风云",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "甲A風雲",
+    "cover_local": "raw/rwv/img/甲A风云/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "甲A风云 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:甲A风云",
+      "offlinelist:甲A风云",
+      "rwv:甲A风云"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "百战水管工",
+    "simp": "百战水管工",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "百戰水管工",
+    "cover_local": "raw/rwv/img/百战水管工/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "百战水管工 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:百战水管工",
+      "offlinelist:百战水管工",
+      "rwv:百战水管工"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "百戰小旅鼠",
     "simp": "百战小旅鼠",
     "srcs": [
@@ -2681,6 +4933,7 @@
     "region": null,
     "editions": [],
     "name_en": "Lemmings",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2702,6 +4955,7 @@
     "region": null,
     "editions": [],
     "name_en": "Dragon Lord",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/盖世龙王/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -2728,6 +4982,7 @@
     "region": null,
     "editions": [],
     "name_en": "Mortal Kombat",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2735,6 +4990,79 @@
     "variants": [
       "boneash:真人快打",
       "rwv:真人快打"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "碰碰球",
+    "simp": "碰碰球",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "碰碰球",
+    "cover_local": "raw/rwv/img/碰碰球/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "碰碰球 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:碰碰球",
+      "offlinelist:碰碰球",
+      "rwv:碰碰球"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "礼物",
+    "simp": "礼物",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "禮物",
+    "cover_local": "raw/rwv/img/礼物/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "礼物 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:礼物",
+      "offlinelist:礼物",
+      "rwv:礼物"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "福尔摩斯探案",
+    "simp": "福尔摩斯探案",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "福爾摩斯探案",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "福尔摩斯探案 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:福尔摩斯探案",
+      "offlinelist:福尔摩斯探案"
     ],
     "softworld": null,
     "confidence": "high"
@@ -2749,6 +5077,7 @@
     "region": null,
     "editions": [],
     "name_en": "Colorado",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2764,6 +5093,27 @@
     "confidence": "high"
   },
   {
+    "name": "移民计划",
+    "simp": "移民计划",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "移民計劃",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:移民计划"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "空降游骑兵",
     "simp": "空降游骑兵",
     "srcs": [
@@ -2774,6 +5124,7 @@
     "region": null,
     "editions": [],
     "name_en": "Airborne Ranger",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2799,6 +5150,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Manhole",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2823,6 +5175,7 @@
     "region": null,
     "editions": [],
     "name_en": "Mixed-up Fairy Tales",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2847,12 +5200,36 @@
     "region": null,
     "editions": [],
     "name_en": "Rambo Ⅲ",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:第一滴血"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "第十八空降旅",
+    "simp": "第十八空降旅",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "第十八空降旅",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "第十八空降旅 (1992)",
+    "title_raw": null,
+    "variants": [
+      "fandom:第十八空降旅",
+      "offlinelist:第十八空降旅"
     ],
     "softworld": null,
     "confidence": "high"
@@ -2867,6 +5244,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Game of Harmony",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2882,6 +5260,29 @@
     "confidence": "high"
   },
   {
+    "name": "精武战警",
+    "simp": "精武战警",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "精武戰警",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "精武战警 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:精武战警",
+      "offlinelist:精武战警"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "紅爵士",
     "simp": "红爵士",
     "srcs": [
@@ -2891,6 +5292,7 @@
     "region": null,
     "editions": [],
     "name_en": "Red Baron",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2915,6 +5317,7 @@
     "region": null,
     "editions": [],
     "name_en": "Secret Weapons of the Luftwaffe",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2939,6 +5342,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Lost Vikings",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2954,6 +5358,29 @@
     "confidence": "high"
   },
   {
+    "name": "红楼梦风月宝鉴",
+    "simp": "红楼梦风月宝鉴",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "紅樓夢風月寶鑑",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "红楼梦风月宝鉴 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:红楼梦风月宝鉴",
+      "offlinelist:红楼梦风月宝鉴"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "纱之器",
     "simp": "纱之器",
     "srcs": [
@@ -2964,6 +5391,7 @@
     "region": null,
     "editions": [],
     "name_en": "Loom",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -2980,6 +5408,54 @@
     "confidence": "high"
   },
   {
+    "name": "终极任务Z",
+    "simp": "终极任务Z",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "終極任務Z",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "终极任务Z (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:终极任务Z",
+      "offlinelist:终极任务Z"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "美女物语 Part1-日本风情篇",
+    "simp": "美女物语 Part1-日本风情篇",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "omega"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "美女物語 Part1-日本風情篇",
+    "cover_local": null,
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5298",
+    "ref_fandom": "美女物语 Part1-日本风情篇 (1993)",
+    "title_raw": "【原創】美女物語：Part1 日本風情篇.Beauty Story.上野",
+    "variants": [
+      "fandom:美女物语 Part1-日本风情篇",
+      "offlinelist:美女物语 Part1-日本风情篇",
+      "omega:美女物語：Part1 日本風情篇"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "肉搏大賽",
     "simp": "肉搏大赛",
     "srcs": [
@@ -2989,6 +5465,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bob'N Wrestle",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3010,6 +5487,7 @@
     "region": null,
     "editions": [],
     "name_en": "Geisha",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3017,6 +5495,31 @@
     "variants": [
       "boneash:藝妓",
       "rwv:艺妓"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "艾蒂丝魔法大冒险",
+    "simp": "艾蒂丝魔法大冒险",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1999,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "艾蒂絲魔法大冒險",
+    "cover_local": "raw/rwv/img/艾蒂丝魔法大冒险/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "艾蒂丝魔法大冒险 (1999)",
+    "title_raw": null,
+    "variants": [
+      "fandom:艾蒂丝魔法大冒险",
+      "offlinelist:艾蒂丝魔法大冒险",
+      "rwv:艾蒂丝魔法大冒险"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3031,6 +5534,7 @@
     "region": null,
     "editions": [],
     "name_en": "Elvira II：The Jaws of Cerberus",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3055,6 +5559,7 @@
     "region": null,
     "editions": [],
     "name_en": "Elvira：Mistress of the Dark",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3079,6 +5584,7 @@
     "region": null,
     "editions": [],
     "name_en": "Quest for Glory 2：Trial by Fire",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3099,6 +5605,7 @@
     "region": null,
     "editions": [],
     "name_en": "Quest for Glory 3：Wages of War",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3119,6 +5626,7 @@
     "region": null,
     "editions": [],
     "name_en": "Wastland",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3134,17 +5642,42 @@
     "confidence": "high"
   },
   {
+    "name": "荡寇雄师",
+    "simp": "荡寇雄师",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "蕩寇雄師",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "荡寇雄师 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:荡寇雄师",
+      "offlinelist:荡寇雄师"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "荡魔平妖志",
     "simp": "荡魔平妖志",
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1991,
     "region": null,
     "editions": [],
     "name_en": "Wrath of the Demon",
+    "name_hant": "蕩魔平妖志",
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": "荡魔平妖志 (1991)",
@@ -3152,7 +5685,54 @@
     "variants": [
       "boneash:蕩魔平妖誌",
       "fandom:荡魔平妖志",
+      "offlinelist:荡魔平妖志",
       "rwv:荡魔平妖志"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "薛家将 征东神话",
+    "simp": "薛家将 征东神话",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "薛家將 徵東神話",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "薛家将 征东神话 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:薛家将 征东神话",
+      "offlinelist:薛家将 征东神话"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "虎将神兵",
+    "simp": "虎将神兵",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "虎將神兵",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "虎将神兵 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:虎将神兵",
+      "offlinelist:虎将神兵"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3168,6 +5748,7 @@
     "region": null,
     "editions": [],
     "name_en": "Waxworks",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3184,6 +5765,29 @@
     "confidence": "high"
   },
   {
+    "name": "血狮-保卫中国",
+    "simp": "血狮-保卫中国",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "血獅-保衛中國",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "血狮-保卫中国 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:血狮-保卫中国",
+      "offlinelist:血狮-保卫中国"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "親愛的，我被電視吸走了",
     "simp": "亲爱的，我被电视吸走了",
     "srcs": [
@@ -3193,6 +5797,7 @@
     "region": null,
     "editions": [],
     "name_en": "Altered Destiny",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3218,6 +5823,7 @@
     "region": null,
     "editions": [],
     "name_en": "Police Quest：In Pursuit of the Death Angel",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3234,6 +5840,77 @@
     "confidence": "high"
   },
   {
+    "name": "诸神封印",
+    "simp": "诸神封印",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "諸神封印",
+    "cover_local": "raw/rwv/img/诸神封印/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "诸神封印 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:诸神封印",
+      "offlinelist:诸神封印",
+      "rwv:诸神封印"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "贼佳拍档",
+    "simp": "贼佳拍档",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "賊佳拍檔",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "贼佳拍档 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:贼佳拍档",
+      "offlinelist:贼佳拍档"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "赤日",
+    "simp": "赤日",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "赤日",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "赤日 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:赤日",
+      "offlinelist:赤日"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "超級大戰略 (DOS/V)",
     "simp": "超级大战略 (DOS/V)",
     "srcs": [
@@ -3243,12 +5920,61 @@
     "region": null,
     "editions": [],
     "name_en": "N/A",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:超級大戰略 (DOS/V)"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "超级拉霸篇",
+    "simp": "超级拉霸篇",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "超級拉霸篇",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "超级拉霸篇 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:超级拉霸篇",
+      "offlinelist:超级拉霸篇"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "运镖天下",
+    "simp": "运镖天下",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "運鏢天下",
+    "cover_local": "raw/rwv/img/运镖天下/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "运镖天下 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:运镖天下",
+      "offlinelist:运镖天下",
+      "rwv:运镖天下"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3263,6 +5989,7 @@
     "region": null,
     "editions": [],
     "name_en": "PaperBoy 2",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3288,6 +6015,7 @@
     "region": null,
     "editions": [],
     "name_en": "PaperBoy",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/送报童/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -3304,6 +6032,31 @@
     "confidence": "high"
   },
   {
+    "name": "邪灵世纪",
+    "simp": "邪灵世纪",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "邪靈世紀",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "邪灵世纪 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:邪灵世纪",
+      "offlinelist:邪灵世纪",
+      "rwv:邪灵世纪"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "野外籃球",
     "simp": "野外篮球",
     "srcs": [
@@ -3313,6 +6066,7 @@
     "region": null,
     "editions": [],
     "name_en": "Street Sports Basketball",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3328,6 +6082,52 @@
     "confidence": "high"
   },
   {
+    "name": "金刚大冒险",
+    "simp": "金刚大冒险",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "金剛大冒險",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "金刚大冒险 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:金刚大冒险",
+      "offlinelist:金刚大冒险"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "金朴克",
+    "simp": "金朴克",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1987,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "金樸克",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "金朴克 (1987)",
+    "title_raw": null,
+    "variants": [
+      "fandom:金朴克",
+      "offlinelist:金朴克"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "銀河帝國大決戰",
     "simp": "银河帝国大决战",
     "srcs": [
@@ -3337,6 +6137,7 @@
     "region": null,
     "editions": [],
     "name_en": "Empire",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3361,6 +6162,7 @@
     "region": null,
     "editions": [],
     "name_en": "Psychic War",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3385,6 +6187,7 @@
     "region": null,
     "editions": [],
     "name_en": "Gauntlet",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3409,6 +6212,7 @@
     "region": null,
     "editions": [],
     "name_en": "Batletech：The Crescent Hawk's Inception",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3433,12 +6237,82 @@
     "region": null,
     "editions": [],
     "name_en": "A-Train",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:鐵路Ａ計劃"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "铁路A计画",
+    "simp": "铁路A计画",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1992,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "鐵路A計畫",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:铁路A计画"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "银河战国列传EX-铁锁的星群",
+    "simp": "银河战国列传EX-铁锁的星群",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "銀河戰國列傳EX-鐵鎖的星群",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "银河战国列传EX-铁锁的星群 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:银河战国列传EX-铁锁的星群",
+      "offlinelist:银河战国列传EX-铁锁的星群"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "镇暴特遣队",
+    "simp": "镇暴特遣队",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "鎮暴特遣隊",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "镇暴特遣队 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:镇暴特遣队",
+      "offlinelist:镇暴特遣队",
+      "rwv:镇暴特遣队"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3453,6 +6327,7 @@
     "region": null,
     "editions": [],
     "name_en": "War of the Lance",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3478,6 +6353,7 @@
     "region": null,
     "editions": [],
     "name_en": "Heroes of the Lance",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3485,6 +6361,54 @@
     "variants": [
       "boneash:長槍英雄",
       "rwv:长枪英雄"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "阿曼尼斯开国启示录 革命",
+    "simp": "阿曼尼斯开国启示录 革命",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "阿曼尼斯開國啟示錄 革命",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "阿曼尼斯开国启示录 革命 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:阿曼尼斯开国启示录 革命",
+      "offlinelist:阿曼尼斯开国启示录 革命"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "雷诺尼都纪事(迷城的国度)",
+    "simp": "雷诺尼都纪事(迷城的国度)",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "雷諾尼都紀事(迷城的國度)",
+    "cover_local": "raw/rwv/img/雷诺尼都纪事(迷城的国度)/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "雷诺尼都纪事(迷城的国度) (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:雷诺尼都纪事(迷城的国度)",
+      "offlinelist:雷诺尼都纪事(迷城的国度)",
+      "rwv:雷诺尼都纪事(迷城的国度)"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3499,6 +6423,7 @@
     "region": null,
     "editions": [],
     "name_en": "El-Fish",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3519,12 +6444,38 @@
     "region": null,
     "editions": [],
     "name_en": "MAD-TV",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:電視大亨"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "青涩的果实",
+    "simp": "青涩的果实",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "青澀的果實",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "青涩的果实 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:青涩的果实",
+      "offlinelist:青涩的果实",
+      "rwv:青涩的果实"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3539,6 +6490,7 @@
     "region": null,
     "editions": [],
     "name_en": "Prophecy：The Fall of Trinadon",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3559,12 +6511,14 @@
     "srcs": [
       "boneash",
       "fandom",
+      "offlinelist",
       "rwv"
     ],
     "year": 1993,
     "region": null,
     "editions": [],
     "name_en": "Kou Ryuu Ki",
+    "name_hant": "項劉記",
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": "项刘记 (1993)",
@@ -3572,6 +6526,7 @@
     "variants": [
       "boneash:項劉記",
       "fandom:项刘记",
+      "offlinelist:项刘记",
       "rwv:项刘记"
     ],
     "softworld": null,
@@ -3588,6 +6543,7 @@
     "region": null,
     "editions": [],
     "name_en": "Alley Cat",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3609,6 +6565,7 @@
     "region": null,
     "editions": [],
     "name_en": "Indianapolis 500",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3624,6 +6581,31 @@
     "confidence": "high"
   },
   {
+    "name": "风云天下三国篇",
+    "simp": "风云天下三国篇",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "風雲天下三國篇",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "风云天下三国篇 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:风云天下三国篇",
+      "offlinelist:风云天下三国篇",
+      "rwv:风云天下三国篇"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "风神传承",
     "simp": "风神传承",
     "srcs": [
@@ -3634,6 +6616,7 @@
     "region": null,
     "editions": [],
     "name_en": "Stormlord",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/风神传承/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -3660,6 +6643,7 @@
     "region": null,
     "editions": [],
     "name_en": "Wind Walker",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/风行者/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -3686,6 +6670,7 @@
     "region": null,
     "editions": [],
     "name_en": "Grand Prix 500 2",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3693,6 +6678,31 @@
     "variants": [
       "boneash:風速小子",
       "rwv:风速小子"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "风雪江山",
+    "simp": "风雪江山",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "風雪江山",
+    "cover_local": "raw/rwv/img/风雪江山/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "风雪江山 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:风雪江山",
+      "offlinelist:风雪江山",
+      "rwv:风雪江山"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3707,6 +6717,7 @@
     "region": null,
     "editions": [],
     "name_en": "Countdown",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3731,6 +6742,7 @@
     "region": null,
     "editions": [],
     "name_en": "Autoduel",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3746,6 +6758,119 @@
     "confidence": "high"
   },
   {
+    "name": "马路英雄",
+    "simp": "马路英雄",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "馬路英雄",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "马路英雄 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:马路英雄",
+      "offlinelist:马路英雄"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魍魉战记摩陀罗之大金刚轮编",
+    "simp": "魍魉战记摩陀罗之大金刚轮编",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魍魎戰記摩陀羅之大金剛輪編",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魍魉战记摩陀罗之大金刚轮编 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魍魉战记摩陀罗之大金刚轮编",
+      "offlinelist:魍魉战记摩陀罗之大金刚轮编"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔兽争霸2 简",
+    "simp": "魔兽争霸2 简",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔獸爭霸2 簡",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔兽争霸2 简"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔兽争霸2 繁",
+    "simp": "魔兽争霸2 繁",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔獸爭霸2 繁",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔兽争霸2 繁"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔兽大战略",
+    "simp": "魔兽大战略",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔獸大戰略",
+    "cover_local": "raw/rwv/img/魔兽大战略/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "魔兽大战略 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔兽大战略",
+      "offlinelist:魔兽大战略",
+      "rwv:魔兽大战略"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "魔動王子",
     "simp": "魔动王子",
     "srcs": [
@@ -3755,12 +6880,36 @@
     "region": null,
     "editions": [],
     "name_en": "Black Thorne",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:魔動王子"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔域传奇 神圣之符",
+    "simp": "魔域传奇 神圣之符",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔域傳奇 神聖之符",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔域传奇 神圣之符 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔域传奇 神圣之符",
+      "offlinelist:魔域传奇 神圣之符"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3776,6 +6925,7 @@
     "region": null,
     "editions": [],
     "name_en": "Rastan",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3792,6 +6942,79 @@
     "confidence": "high"
   },
   {
+    "name": "魔宫救美 宝石阵",
+    "simp": "魔宫救美 宝石阵",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1994,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔宮救美 寶石陣",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔宫救美 宝石阵 (1994)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔宫救美 宝石阵",
+      "offlinelist:魔宫救美 宝石阵"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔日传说",
+    "simp": "魔日传说",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔日傳說",
+    "cover_local": "raw/rwv/img/魔日传说/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "魔日传说 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔日传说",
+      "offlinelist:魔日传说",
+      "rwv:魔日传说"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔栈",
+    "simp": "魔栈",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔棧",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔栈 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔栈",
+      "offlinelist:魔栈",
+      "rwv:魔栈"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "魔法之燭２",
     "simp": "魔法之烛２",
     "srcs": [
@@ -3801,12 +7024,38 @@
     "region": null,
     "editions": [],
     "name_en": "Magic Candle II",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:魔法之燭２"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔法师宝典",
+    "simp": "魔法师宝典",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "omega"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔法師寶典",
+    "cover_local": null,
+    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5192",
+    "ref_fandom": "魔法师宝典 (1995)",
+    "title_raw": "【轉貼】魔法師寶典.全崴",
+    "variants": [
+      "fandom:魔法师宝典",
+      "offlinelist:魔法师宝典",
+      "omega:魔法師寶典"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3821,6 +7070,7 @@
     "region": null,
     "editions": [],
     "name_en": "Might and Magic III：Isles of Terra",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3845,6 +7095,7 @@
     "region": null,
     "editions": [],
     "name_en": "Might and Magic：Dark Side of Xeen",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3860,6 +7111,48 @@
     "confidence": "high"
   },
   {
+    "name": "魔法门4+5整合版 决战星云世界",
+    "simp": "魔法门4+5整合版 决战星云世界",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔法門4+5整合版 決戰星雲世界",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔法门4+5整合版 决战星云世界"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔法门5黑暗魔君大反扑",
+    "simp": "魔法门5黑暗魔君大反扑",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔法門5黑暗魔君大反撲",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔法门5黑暗魔君大反扑"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "魔法门外传 星云之谜",
     "simp": "魔法门外传 星云之谜",
     "srcs": [
@@ -3870,6 +7163,7 @@
     "region": null,
     "editions": [],
     "name_en": "Might and Magic：Clouds of Xeen",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": "魔法门外传 星云之谜 (1992)",
@@ -3886,6 +7180,71 @@
     "confidence": "high"
   },
   {
+    "name": "魔法门英雄无敌2 延续的战争",
+    "simp": "魔法门英雄无敌2 延续的战争",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔法門英雄無敵2 延續的戰爭",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔法门英雄无敌2 延续的战争"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔法门英雄无敌2 忠诚的代价",
+    "simp": "魔法门英雄无敌2 忠诚的代价",
+    "srcs": [
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔法門英雄無敵2 忠誠的代價",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": null,
+    "title_raw": null,
+    "variants": [
+      "offlinelist:魔法门英雄无敌2 忠诚的代价"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "魔王迷宫",
+    "simp": "魔王迷宫",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔王迷宮",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔王迷宫 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔王迷宫",
+      "offlinelist:魔王迷宫"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "魔界神兵２",
     "simp": "魔界神兵２",
     "srcs": [
@@ -3895,6 +7254,7 @@
     "region": null,
     "editions": [],
     "name_en": "Questron 2",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3910,6 +7270,29 @@
     "confidence": "high"
   },
   {
+    "name": "魔眼邪神-赛尔特传说",
+    "simp": "魔眼邪神-赛尔特传说",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1996,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "魔眼邪神-賽爾特傳說",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "魔眼邪神-赛尔特传说 (1996)",
+    "title_raw": null,
+    "variants": [
+      "fandom:魔眼邪神-赛尔特传说",
+      "offlinelist:魔眼邪神-赛尔特传说"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "魔鬼訓練營",
     "simp": "魔鬼训练营",
     "srcs": [
@@ -3919,6 +7302,7 @@
     "region": null,
     "editions": [],
     "name_en": "Combat Course",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3943,12 +7327,38 @@
     "region": null,
     "editions": [],
     "name_en": "Harpoon",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:魚叉"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "黑之断章",
+    "simp": "黑之断章",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1995,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "黑之斷章",
+    "cover_local": "raw/rwv/img/黑之断章/cover.png",
+    "ref_omega": null,
+    "ref_fandom": "黑之断章 (1995)",
+    "title_raw": null,
+    "variants": [
+      "fandom:黑之断章",
+      "offlinelist:黑之断章",
+      "rwv:黑之断章"
     ],
     "softworld": null,
     "confidence": "high"
@@ -3963,6 +7373,7 @@
     "region": null,
     "editions": [],
     "name_en": "Total Eclipse",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -3987,6 +7398,7 @@
     "region": null,
     "editions": [],
     "name_en": "The Black Cauldron",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -4012,6 +7424,7 @@
     "region": null,
     "editions": [],
     "name_en": "Bad Street Brawler",
+    "name_hant": null,
     "cover_local": "raw/rwv/img/黑街风云/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
@@ -4028,6 +7441,29 @@
     "confidence": "high"
   },
   {
+    "name": "黑道当家",
+    "simp": "黑道当家",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1997,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "黑道當家",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "黑道当家 (1997)",
+    "title_raw": null,
+    "variants": [
+      "fandom:黑道当家",
+      "offlinelist:黑道当家"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
     "name": "龙穴历险记",
     "simp": "龙穴历险记",
     "srcs": [
@@ -4038,6 +7474,7 @@
     "region": null,
     "editions": [],
     "name_en": "Dragon's Lair：Escape from Singe's Castle",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -4045,6 +7482,54 @@
     "variants": [
       "boneash:龍穴歷險記",
       "rwv:龙穴历险记"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "龙穴历险记3 女巫的诅咒",
+    "simp": "龙穴历险记3 女巫的诅咒",
+    "srcs": [
+      "fandom",
+      "offlinelist"
+    ],
+    "year": 1993,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "龍穴歷險記3 女巫的詛咒",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "龙穴历险记3 女巫的诅咒 (1993)",
+    "title_raw": null,
+    "variants": [
+      "fandom:龙穴历险记3 女巫的诅咒",
+      "offlinelist:龙穴历险记3 女巫的诅咒"
+    ],
+    "softworld": null,
+    "confidence": "high"
+  },
+  {
+    "name": "龙霸天下",
+    "simp": "龙霸天下",
+    "srcs": [
+      "fandom",
+      "offlinelist",
+      "rwv"
+    ],
+    "year": 1998,
+    "region": null,
+    "editions": [],
+    "name_en": null,
+    "name_hant": "龍霸天下",
+    "cover_local": null,
+    "ref_omega": null,
+    "ref_fandom": "龙霸天下 (1998)",
+    "title_raw": null,
+    "variants": [
+      "fandom:龙霸天下",
+      "offlinelist:龙霸天下",
+      "rwv:龙霸天下"
     ],
     "softworld": null,
     "confidence": "high"
@@ -4059,6 +7544,7 @@
     "region": null,
     "editions": [],
     "name_en": "D/Generation",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -4083,6 +7569,7 @@
     "region": null,
     "editions": [],
     "name_en": "Prehistorik",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
@@ -4103,235 +7590,13 @@
     "region": null,
     "editions": [],
     "name_en": "Prehistorik 2",
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "boneash:ＰＣ原人２"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "2001特遣队",
-    "simp": "2001特遣队",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/2001特遣队/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "2001特遣队 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:2001特遣队",
-      "rwv:2001特遣队"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "2601帝国联合舰队",
-    "simp": "2601帝国联合舰队",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "2601帝国联合舰队 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:2601帝国联合舰队",
-      "rwv:2601帝国联合舰队"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "3x3只眼",
-    "simp": "3x3只眼",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "3x3只眼 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:3x3只眼",
-      "rwv:3x3只眼"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "PSY幽记",
-    "simp": "PSY幽记",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "PSY幽记 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:PSY幽记",
-      "rwv:PSY幽记"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "三姐妹",
-    "simp": "三姐妹",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/三姐妹/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "三姐妹 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:三姐妹",
-      "rwv:三姐妹"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "中关村启示录",
-    "simp": "中关村启示录",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "中关村启示录 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:中关村启示录",
-      "rwv:中关村启示录"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "中原镖局",
-    "simp": "中原镖局",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/中原镖局/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "中原镖局 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:中原镖局",
-      "rwv:中原镖局"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "主题公园",
-    "simp": "主题公园",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [
-      "主题公园光碟版"
-    ],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "主题公园 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:主题公园",
-      "rwv:主题公园光碟版"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "主题医院",
-    "simp": "主题医院",
-    "srcs": [
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [
-      "主题医院S"
-    ],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/主题医院/cover.jpg",
-    "ref_omega": null,
-    "ref_fandom": null,
-    "title_raw": null,
-    "variants": [
-      "rwv:主题医院",
-      "rwv:主题医院S"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "伍子胥",
-    "simp": "伍子胥",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/伍子胥/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "伍子胥 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:伍子胥",
-      "rwv:伍子胥"
     ],
     "softworld": null,
     "confidence": "high"
@@ -4347,6 +7612,7 @@
     "region": "CN",
     "editions": [],
     "name_en": null,
+    "name_hant": null,
     "cover_local": "raw/rwv/img/侏罗纪公园/cover.png",
     "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5832",
     "ref_fandom": null,
@@ -4354,292 +7620,6 @@
     "variants": [
       "omega:侏羅紀公園",
       "rwv:侏罗纪公园"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "刘备传",
-    "simp": "刘备传",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1998,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "刘备传 (1998)",
-    "title_raw": null,
-    "variants": [
-      "fandom:刘备传",
-      "rwv:刘备传"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "创世封魔传",
-    "simp": "创世封魔传",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "创世封魔传 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:创世封魔传",
-      "rwv:创世封魔传"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "创世弹珠台",
-    "simp": "创世弹珠台",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/创世弹珠台/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "创世弹珠台 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:创世弹珠台",
-      "rwv:创世弹珠台"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "十面埋伏",
-    "simp": "十面埋伏",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/十面埋伏/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "十面埋伏 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:十面埋伏",
-      "rwv:十面埋伏"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "南海霸主",
-    "simp": "南海霸主",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/南海霸主/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "南海霸主 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:南海霸主",
-      "rwv:南海霸主"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "危机特勤组",
-    "simp": "危机特勤组",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "危机特勤组 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:危机特勤组",
-      "rwv:危机特勤组"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "圣光岛",
-    "simp": "圣光岛",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "圣光岛 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:圣光岛",
-      "rwv:圣光岛"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "大兵日记",
-    "simp": "大兵日记",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/大兵日记/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "大兵日记 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:大兵日记",
-      "rwv:大兵日记"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "大地传说黑暗王座",
-    "simp": "大地传说黑暗王座",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/大地传说黑暗王座/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "大地传说-黑暗王座 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:大地传说-黑暗王座",
-      "rwv:大地传说黑暗王座"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "大富翁总动员",
-    "simp": "大富翁总动员",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "大富翁总动员 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:大富翁总动员",
-      "rwv:大富翁总动员"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "天使Q女学院",
-    "simp": "天使Q女学院",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/天使Q女学院/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "天使Q女学院 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:天使Q女学院",
-      "rwv:天使Q女学院"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "天师钟馗",
-    "simp": "天师钟馗",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "天师钟馗 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:天师钟馗",
-      "rwv:天师钟馗"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "天帝之子",
-    "simp": "天帝之子",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1998,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/天帝之子/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "天帝之子 (1998)",
-    "title_raw": null,
-    "variants": [
-      "fandom:天帝之子",
-      "rwv:天帝之子"
     ],
     "softworld": null,
     "confidence": "high"
@@ -4655,6 +7635,7 @@
     "region": "CN",
     "editions": [],
     "name_en": null,
+    "name_hant": null,
     "cover_local": "raw/rwv/img/天旋地转/cover.png",
     "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5838",
     "ref_fandom": null,
@@ -4662,204 +7643,6 @@
     "variants": [
       "omega:天旋地轉",
       "rwv:天旋地转"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "天晴传",
-    "simp": "天晴传",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "天晴传 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:天晴传",
-      "rwv:天晴传"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "妖击队",
-    "simp": "妖击队",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "妖击队 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:妖击队",
-      "rwv:妖击队"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "富贵列车",
-    "simp": "富贵列车",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/富贵列车/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "富贵列车 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:富贵列车",
-      "rwv:富贵列车"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "射波",
-    "simp": "射波",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1992,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/射波/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "射波 (1992)",
-    "title_raw": null,
-    "variants": [
-      "fandom:射波",
-      "rwv:射波"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "小惠的性知识",
-    "simp": "小惠的性知识",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/小惠的性知识/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "小惠的性知识 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:小惠的性知识",
-      "rwv:小惠的性知识"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "小沙弥",
-    "simp": "小沙弥",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/小沙弥/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "小沙弥 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:小沙弥",
-      "rwv:小沙弥"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "幸福人生",
-    "simp": "幸福人生",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1992,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/幸福人生/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "幸福人生 (1992)",
-    "title_raw": null,
-    "variants": [
-      "fandom:幸福人生",
-      "rwv:幸福人生"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "幻想奇侠传",
-    "simp": "幻想奇侠传",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1999,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "幻想奇侠传 (1999)",
-    "title_raw": null,
-    "variants": [
-      "fandom:幻想奇侠传",
-      "rwv:幻想奇侠传"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "底特律汽车大亨",
-    "simp": "底特律汽车大亨",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/底特律汽车大亨/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "底特律汽车大亨 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:底特律汽车大亨",
-      "rwv:底特律汽车大亨"
     ],
     "softworld": null,
     "confidence": "high"
@@ -4875,6 +7658,7 @@
     "region": "CN",
     "editions": [],
     "name_en": null,
+    "name_hant": null,
     "cover_local": "raw/rwv/img/打砖块/cover.png",
     "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5879",
     "ref_fandom": null,
@@ -4882,204 +7666,6 @@
     "variants": [
       "omega:打磚塊",
       "rwv:打砖块"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "摇滚少林之七侠五义",
-    "simp": "摇滚少林之七侠五义",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/摇滚少林之七侠五义/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "摇滚少林之七侠五义 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:摇滚少林之七侠五义",
-      "rwv:摇滚少林之七侠五义"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "撞球补习班",
-    "simp": "撞球补习班",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1992,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/撞球补习班/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "撞球补习班 (1992)",
-    "title_raw": null,
-    "variants": [
-      "fandom:撞球补习班",
-      "rwv:撞球补习班"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "日没",
-    "simp": "日没",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/日没/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "日没 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:日没",
-      "rwv:日没"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "日蚀",
-    "simp": "日蚀",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "日蚀 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:日蚀",
-      "rwv:日蚀"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "时空特勤组",
-    "simp": "时空特勤组",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "时空特勤组 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:时空特勤组",
-      "rwv:时空特勤组"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "星世纪战将",
-    "simp": "星世纪战将",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/星世纪战将/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "星世纪战将 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:星世纪战将",
-      "rwv:星世纪战将"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "智圣鲜师",
-    "simp": "智圣鲜师",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/智圣鲜师/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "智圣鲜师 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:智圣鲜师",
-      "rwv:智圣鲜师"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "格杀令",
-    "simp": "格杀令",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/格杀令/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "格杀令 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:格杀令",
-      "rwv:格杀令"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "正宗台湾16张麻将",
-    "simp": "正宗台湾16张麻将",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1994,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/正宗台湾16张麻将/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "正宗台湾16张麻将 (1994)",
-    "title_raw": null,
-    "variants": [
-      "fandom:正宗台湾16张麻将",
-      "rwv:正宗台湾16张麻将"
     ],
     "softworld": null,
     "confidence": "high"
@@ -5097,6 +7683,7 @@
       "炎龙骑士团 I+II"
     ],
     "name_en": null,
+    "name_hant": null,
     "cover_local": "raw/rwv/img/炎龙骑士团/cover.png",
     "ref_omega": null,
     "ref_fandom": "炎龙骑士团 I+II (1998)",
@@ -5104,292 +7691,6 @@
     "variants": [
       "fandom:炎龙骑士团 I+II",
       "rwv:炎龙骑士团"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "炸弹超人",
-    "simp": "炸弹超人",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/炸弹超人/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "炸弹超人 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:炸弹超人",
-      "rwv:炸弹超人"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "熊猫大进击",
-    "simp": "熊猫大进击",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/熊猫大进击/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "熊猫大进击 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:熊猫大进击",
-      "rwv:熊猫大进击"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "玛丽姐妹",
-    "simp": "玛丽姐妹",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1993,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/玛丽姐妹/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "玛丽姐妹 (1993)",
-    "title_raw": null,
-    "variants": [
-      "fandom:玛丽姐妹",
-      "rwv:玛丽姐妹"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "玫瑰骑士",
-    "simp": "玫瑰骑士",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/玫瑰骑士/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "玫瑰骑士 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:玫瑰骑士",
-      "rwv:玫瑰骑士"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "甲A风云",
-    "simp": "甲A风云",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/甲A风云/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "甲A风云 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:甲A风云",
-      "rwv:甲A风云"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "百战水管工",
-    "simp": "百战水管工",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/百战水管工/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "百战水管工 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:百战水管工",
-      "rwv:百战水管工"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "碰碰球",
-    "simp": "碰碰球",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/碰碰球/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "碰碰球 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:碰碰球",
-      "rwv:碰碰球"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "礼物",
-    "simp": "礼物",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/礼物/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "礼物 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:礼物",
-      "rwv:礼物"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "美女物语 Part1-日本风情篇",
-    "simp": "美女物语 Part1-日本风情篇",
-    "srcs": [
-      "fandom",
-      "omega"
-    ],
-    "year": 1993,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5298",
-    "ref_fandom": "美女物语 Part1-日本风情篇 (1993)",
-    "title_raw": "【原創】美女物語：Part1 日本風情篇.Beauty Story.上野",
-    "variants": [
-      "fandom:美女物语 Part1-日本风情篇",
-      "omega:美女物語：Part1 日本風情篇"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "艾蒂丝魔法大冒险",
-    "simp": "艾蒂丝魔法大冒险",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1999,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/艾蒂丝魔法大冒险/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "艾蒂丝魔法大冒险 (1999)",
-    "title_raw": null,
-    "variants": [
-      "fandom:艾蒂丝魔法大冒险",
-      "rwv:艾蒂丝魔法大冒险"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "诸神封印",
-    "simp": "诸神封印",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/诸神封印/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "诸神封印 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:诸神封印",
-      "rwv:诸神封印"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "运镖天下",
-    "simp": "运镖天下",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/运镖天下/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "运镖天下 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:运镖天下",
-      "rwv:运镖天下"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "邪灵世纪",
-    "simp": "邪灵世纪",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1998,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "邪灵世纪 (1998)",
-    "title_raw": null,
-    "variants": [
-      "fandom:邪灵世纪",
-      "rwv:邪灵世纪"
     ],
     "softworld": null,
     "confidence": "high"
@@ -5404,122 +7705,13 @@
     "region": "CN",
     "editions": [],
     "name_en": null,
+    "name_hant": null,
     "cover_local": "raw/rwv/img/金瓶梅/cover.png",
     "ref_omega": null,
     "ref_fandom": null,
     "title_raw": null,
     "variants": [
       "rwv:金瓶梅"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "镇暴特遣队",
-    "simp": "镇暴特遣队",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "镇暴特遣队 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:镇暴特遣队",
-      "rwv:镇暴特遣队"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "雷诺尼都纪事(迷城的国度)",
-    "simp": "雷诺尼都纪事(迷城的国度)",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/雷诺尼都纪事(迷城的国度)/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "雷诺尼都纪事(迷城的国度) (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:雷诺尼都纪事(迷城的国度)",
-      "rwv:雷诺尼都纪事(迷城的国度)"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "青涩的果实",
-    "simp": "青涩的果实",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1997,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "青涩的果实 (1997)",
-    "title_raw": null,
-    "variants": [
-      "fandom:青涩的果实",
-      "rwv:青涩的果实"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "风云天下三国篇",
-    "simp": "风云天下三国篇",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "风云天下三国篇 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:风云天下三国篇",
-      "rwv:风云天下三国篇"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "风雪江山",
-    "simp": "风雪江山",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/风雪江山/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "风雪江山 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:风雪江山",
-      "rwv:风雪江山"
     ],
     "softworld": null,
     "confidence": "high"
@@ -5535,6 +7727,7 @@
     "region": "CN",
     "editions": [],
     "name_en": null,
+    "name_hant": null,
     "cover_local": null,
     "ref_omega": null,
     "ref_fandom": "魔兽争霸2(1997)",
@@ -5542,138 +7735,6 @@
     "variants": [
       "fandom:魔兽争霸2",
       "rwv:魔兽争霸2"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "魔兽大战略",
-    "simp": "魔兽大战略",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1993,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/魔兽大战略/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "魔兽大战略 (1993)",
-    "title_raw": null,
-    "variants": [
-      "fandom:魔兽大战略",
-      "rwv:魔兽大战略"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "魔日传说",
-    "simp": "魔日传说",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1998,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/魔日传说/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "魔日传说 (1998)",
-    "title_raw": null,
-    "variants": [
-      "fandom:魔日传说",
-      "rwv:魔日传说"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "魔栈",
-    "simp": "魔栈",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1996,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "魔栈 (1996)",
-    "title_raw": null,
-    "variants": [
-      "fandom:魔栈",
-      "rwv:魔栈"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "魔法师宝典",
-    "simp": "魔法师宝典",
-    "srcs": [
-      "fandom",
-      "omega"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": "https://omega.idv.tw/kdb120/viewthread.php?threadid=5192",
-    "ref_fandom": "魔法师宝典 (1995)",
-    "title_raw": "【轉貼】魔法師寶典.全崴",
-    "variants": [
-      "fandom:魔法师宝典",
-      "omega:魔法師寶典"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "黑之断章",
-    "simp": "黑之断章",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1995,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": "raw/rwv/img/黑之断章/cover.png",
-    "ref_omega": null,
-    "ref_fandom": "黑之断章 (1995)",
-    "title_raw": null,
-    "variants": [
-      "fandom:黑之断章",
-      "rwv:黑之断章"
-    ],
-    "softworld": null,
-    "confidence": "high"
-  },
-  {
-    "name": "龙霸天下",
-    "simp": "龙霸天下",
-    "srcs": [
-      "fandom",
-      "rwv"
-    ],
-    "year": 1998,
-    "region": "CN",
-    "editions": [],
-    "name_en": null,
-    "cover_local": null,
-    "ref_omega": null,
-    "ref_fandom": "龙霸天下 (1998)",
-    "title_raw": null,
-    "variants": [
-      "fandom:龙霸天下",
-      "rwv:龙霸天下"
     ],
     "softworld": null,
     "confidence": "high"

@@ -18,4 +18,9 @@
 
 - [ ] 補新條目 metadata（191 筆合併進來的 developer/genre/content_language 多為 null）
 - [ ] 審 review 佇列 `derived/merge-review.json`（58 筆未決 + 低信心）
+- [x] 併 OfflineList：465 款標 provenance、新款入 catalog（→4102）、200 張圖已下載；base-match 40 筆人工裁決完（38 併/2 新增，`data/offlinelist-basematch-worklist.md`）
+- [ ] OfflineList 新款正名：offlinelist 獨有款用 s2tw 自動繁名（`name_zh_hant` 草稿），少數字形誤選（撲克/彩球類）須人工正名；補 developer/region/genre
+- [ ] 既有條目正名（worklist note 拾遺）：cdg-0977「吞食天地1三國外傳」應正為「吞食天地 三國外傳」（無第2作不需編號）；類似初代裸名 vs N1 編號可一併清。fuzzy 第二批 note 補：cdg-3265「炎龍騎士團2：黃金城之秘」應為「…黃金城之謎」（秘→謎）；cdg-1883「軒轅劍2外傳：楓之舞」考慮正為「軒轅劍外傳 楓之舞」；cdg-3737「魔法門之英雄無敵1」副標「：戰略任務」；cdg-2261「黃飛鴻－鐵雞鬥蜈蚣」去破折號
+- [x] 併 OfflineList fuzzy 批（2026-06-17）：120 + 第二輪 18 筆經 `data/offlinelist-fuzzy-worklist.md` / `…-round2-worklist.md` 裁決 → 78 併/41 新增/1 合集（→4144）。worklist 已改用 prefix/contains 列副標手足（採前批教訓）。第一輪暫列新增、第二輪複核維持新增：英雄戰記(≠cdg-3445)、銀河守衛團(≠cdg-2894)、瘋狂麻將(≠cdg-2807)；合集 天使們的午後 合集2 已收（發表時再定上架）
+- [ ] 續審 review queue：merge-review.json 2106 筆（offlinelist fuzzy 已全數清掉）
 - [ ] MobyGames 補英文原名/封面/年（需 API key）
