@@ -61,7 +61,7 @@ export const collections = {
 
 ## 資料特性（UI 要能容錯）
 
-- **大量 null**：191 筆合併新條目的 developer/content_language/genre 多為 null；舊條目部分欄位也 null。UI 與篩選要處理缺值。
+- **大量 null**：~310 筆合併新條目的 developer/content_language/genre 多為 null；舊條目部分欄位也 null。UI 與篩選要處理缺值。
 - **可篩維度**：`localization_level`(A/B/D/foreign/null)、`developer_region`、`content_language`、`genre`、`license_status`、`year`(含 >2004 收集邊界外)。
 - **收集 ≠ 展示**：scope 定義收集到 2004+，但要不要全展示是站台決定（可用 year 篩）。
 - `references`（omega/fandom 外連）、`release_codes`（軟體世界編號）可做考據展示。
@@ -77,5 +77,5 @@ npm run validate
 
 ## 待辦（非阻塞）
 
-- review 佇列 `derived/merge-review.json` 還有 58 筆未決 + 低信心，日後可再審（`review_merge.py`）。
+- review 佇列 `derived/merge-review.json` 還有 ~2106 筆低信心候選，日後可再審（`review_merge.py`）。
 - 新條目 metadata 補完（developer/genre/content_language）。
