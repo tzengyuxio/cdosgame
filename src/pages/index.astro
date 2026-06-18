@@ -1,4 +1,29 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('games');
+const total = all.length;
+const published = all.filter(e => e.data.published).length;
+const decades = ['1980s', '1990s', '2000s'];
 ---
-<Base><p>scaffold ok</p></Base>
+<Base title="中文 DOS 遊戲資料庫">
+  <section class="hero">
+    <h1>中文 DOS 遊戲資料庫</h1>
+    <p>盡可能齊全、重考據的中文 DOS 時代遊戲結構化資料庫。</p>
+    <p class="stats">已收錄 {total} 款 · 已發布 {published} 款</p>
+  </section>
+  <section class="entry">
+    <a class="btn" href="/games">瀏覽全部</a>
+    <button class="btn" id="random">隨機一款</button>
+  </section>
+  <section class="decades">
+    {decades.map(d => <a href={`/games?decade=${d}`}>{d}</a>)}
+  </section>
+  <script>
+    document.getElementById('random')?.addEventListener('click', async () => {
+      const g = await (await fetch('/games.json')).json();
+      if (g.length) location.href = `/games/${g[Math.floor(Math.random() * g.length)].id}`;
+    });
+  </script>
+</Base>
