@@ -1,0 +1,131 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="目錄｜中文 DOS 遊戲資料庫">
+  <div class="games-layout">
+    <aside class="facets" id="facets"></aside>
+    <div class="games-main">
+      <div class="controls">
+        <input id="search" type="search" placeholder="搜尋標題或別名…" />
+        <select id="sort">
+          <option value="year:asc">年份 ↑</option>
+          <option value="year:desc">年份 ↓</option>
+          <option value="title:asc">標題</option>
+          <option value="vendor:asc">廠商</option>
+        </select>
+      </div>
+      <div id="count" class="count"></div>
+      <ul id="results" class="results"></ul>
+      <div id="pager" class="pager"></div>
+    </div>
+  </div>
+
+  <script>
+    import { searchGames, applyFacets, sortGames, paginate, deriveFacets } from '../../lib/gamesQuery.js';
+
+    const FACETS = [['decade','年代'],['genre','類型'],['vendor','廠商'],['loc','在地化']];
+    const LIMIT = { decade: 99, genre: 99, loc: 99, vendor: 40 };
+    let GAMES = [];
+    let vendorFilter = '';
+    const state = { q:'', sel:{decade:[],genre:[],vendor:[],loc:[]}, sort:'year:asc', page:1 };
+
+    const esc = s => (s ?? '').toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+    function readURL(){
+      const p = new URLSearchParams(location.search);
+      state.q = p.get('q') || '';
+      state.sort = p.get('sort') || 'year:asc';
+      state.page = +(p.get('page') || 1);
+      for (const [f] of FACETS) { const v = p.get(f); state.sel[f] = v ? v.split('|') : []; }
+    }
+    function writeURL(){
+      const p = new URLSearchParams();
+      if (state.q) p.set('q', state.q);
+      if (state.sort !== 'year:asc') p.set('sort', state.sort);
+      if (state.page > 1) p.set('page', state.page);
+      for (const [f] of FACETS) if (state.sel[f].length) p.set(f, state.sel[f].join('|'));
+      const qs = p.toString();
+      history.replaceState(null, '', location.pathname + (qs ? '?' + qs : ''));
+    }
+
+    function compute(){
+      let r = searchGames(GAMES, state.q);
+      r = applyFacets(r, state.sel);
+      const [k, d] = state.sort.split(':');
+      return sortGames(r, k, d);
+    }
+
+    function render(){
+      const filtered = compute();
+      const { items, total, pages, page } = paginate(filtered, state.page, 50);
+      state.page = page;
+      document.getElementById('count').textContent = `${total} 款`;
+      document.getElementById('results').innerHTML = items.map(g => `
+        <li><a href="/games/${g.id}">
+          <span class="r-title">${esc(g.title_zh)}</span>
+          <span class="r-meta">${g.year ?? '—'} · ${esc(g.developer || g.publisher_tw[0] || '—')} · ${esc(g.genre || '—')} · ${g.localization_level || '—'}</span>
+        </a></li>`).join('');
+
+      const pg = document.getElementById('pager');
+      pg.innerHTML = '';
+      if (pages > 1) {
+        const prev = mkBtn('上一頁', page > 1, () => { state.page--; render(); });
+        const next = mkBtn('下一頁', page < pages, () => { state.page++; render(); });
+        const mid = document.createElement('span');
+        mid.textContent = ` ${page} / ${pages} `;
+        pg.append(prev, mid, next);
+      }
+      renderFacets();
+      writeURL();
+    }
+
+    function mkBtn(label, enabled, fn){
+      const b = document.createElement('button');
+      b.textContent = label; b.disabled = !enabled; b.onclick = fn;
+      return b;
+    }
+
+    function renderFacets(){
+      const opts = deriveFacets(GAMES);
+      const host = document.getElementById('facets');
+      host.innerHTML = '';
+      for (const [key, label] of FACETS) {
+        const sec = document.createElement('section');
+        sec.className = 'facet';
+        sec.innerHTML = `<h3>${label}</h3>`;
+        if (key === 'vendor') {
+          const vf = document.createElement('input');
+          vf.className = 'vfilter'; vf.placeholder = '篩廠商…'; vf.value = vendorFilter;
+          vf.oninput = e => { vendorFilter = e.target.value; renderFacets(); };
+          sec.append(vf);
+        }
+        let list = opts[key];
+        if (key === 'vendor' && vendorFilter)
+          list = list.filter(o => o.value.includes(vendorFilter));
+        for (const { value, count } of list.slice(0, LIMIT[key])) {
+          const checked = state.sel[key].includes(value);
+          const lab = document.createElement('label');
+          lab.innerHTML = `<input type="checkbox" ${checked ? 'checked' : ''}> ${esc(value)} <span class="c">${count}</span>`;
+          lab.querySelector('input').onchange = e => {
+            if (e.target.checked) state.sel[key].push(value);
+            else state.sel[key] = state.sel[key].filter(v => v !== value);
+            state.page = 1; render();
+          };
+          sec.append(lab);
+        }
+        host.append(sec);
+      }
+    }
+
+    document.getElementById('search').addEventListener('input', e => { state.q = e.target.value; state.page = 1; render(); });
+    document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; state.page = 1; render(); });
+
+    (async () => {
+      readURL();
+      document.getElementById('search').value = state.q;
+      document.getElementById('sort').value = state.sort;
+      GAMES = await (await fetch('/games.json')).json();
+      render();
+    })();
+  </script>
+</Base>
