@@ -1,0 +1,7 @@
+---
+const { path, right = '' } = Astro.props;
+---
+<div class="dosbar">
+  <span class="dospath">C:\CDOSGAME\{path}\&gt;<span class="cursor"></span></span>
+  {right && <span class="doscodes">{right}</span>}
+</div>

@@ -1,0 +1,22 @@
+---
+const { g } = Astro.props;
+const rows = [
+  ['開發', g.developer],
+  ['台灣代理', (g.publisher_tw || []).join('、') || null],
+  ['內容語言', g.content_language],
+  ['開發地區', g.developer_region],
+  ['授權', g.license_status],
+  ['容量', g.size],
+  ['平台', g.platform_note],
+  ['別名', (g.title_aliases || []).join('、') || null],
+].filter(([, v]) => v);
+const codes = (g.release_codes || []).map(rc => `${rc.issuer} ${rc.code}`).join('、');
+const editions = (g.editions || []).map(e => e.name).join('、');
+---
+<div class="infobox-wrap">
+  <table class="infobox">
+    {rows.map(([k, v]) => <tr><th>{k}</th><td>{v}</td></tr>)}
+    {codes && <tr><th>編號</th><td>{codes}</td></tr>}
+    {editions && <tr><th>版本</th><td>{editions}</td></tr>}
+  </table>
+</div>
