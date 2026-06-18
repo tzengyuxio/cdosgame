@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { distinctValues } from '../../lib/gamesQuery.js';
+import { genreUrl } from '../../lib/links.js';
+
+const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+const genres = distinctValues(games.map(e => e.data), g => g.genre);
+---
+<Base title="類型｜中文 DOS 遊戲資料庫">
+  <h1 class="hub-title">依類型瀏覽</h1>
+  <div class="index-grid">
+    {genres.map(({ value, count }) => <a class="lk" href={genreUrl(value)}>{value} <span class="c">{count}</span></a>)}
+  </div>
+</Base>
