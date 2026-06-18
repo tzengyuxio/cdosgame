@@ -1,25 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
+import { seriesUrl, companyUrl, decadeUrl, genreUrl } from '../lib/links.js';
 
-const all = await getCollection('games');
-const total = all.length;
-const published = all.filter(e => e.data.published).length;
-const decades = ['1980s', '1990s', '2000s'];
+const games = (await getCollection('games', e => import.meta.env.PROD ? e.data.published : true)).map(e => e.data);
+const total = games.length;
+const bySeries = groupBy(games, g => g.series);
+const seriesCount = bySeries.size;
+const companies = distinctValues(games, vendorsOf);
+const featSeries = [...bySeries.entries()]
+  .map(([name, list]) => ({ name, list, range: yearRange(list) }))
+  .sort((a, b) => b.list.length - a.list.length).slice(0, 8);
+const topCompanies = companies.slice(0, 12);
+const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.value.localeCompare(b.value));
+const genres = distinctValues(games, g => g.genre);
 ---
 <Base title="中文 DOS 遊戲資料庫">
   <section class="hero">
     <h1>中文 DOS 遊戲資料庫</h1>
-    <p>盡可能齊全、重考據的中文 DOS 時代遊戲結構化資料庫。</p>
-    <p class="stats">已收錄 {total} 款 · 已發布 {published} 款</p>
+    <p class="lead">盡可能齊全、重考據的中文 DOS 時代遊戲百科。</p>
+    <p class="entity-sub">已收錄 {total} 款 · {seriesCount} 系列 · {companies.length} 廠商</p>
+    <a class="btn" href="/games">瀏覽全部</a> <button class="btn" id="random">隨機探索</button>
   </section>
-  <section class="entry">
-    <a class="btn" href="/games">瀏覽全部</a>
-    <button class="btn" id="random">隨機一款</button>
-  </section>
-  <section class="decades">
-    {decades.map(d => <a href={`/games?decade=${d}`}>{d}</a>)}
-  </section>
+
+  <h2 class="section-h">經典系列</h2>
+  <div class="cardrow">
+    {featSeries.map(s => (
+      <div class="scard">
+        <div class="t"><a class="lk" href={seriesUrl(s.name)}>{s.name}</a></div>
+        <div class="m">{s.range ? `${s.range.min}–${s.range.max}` : ''} · {s.list.length} 款</div>
+        <a class="more" href={seriesUrl(s.name)}>查看系列 →</a>
+      </div>
+    ))}
+  </div>
+
+  <h2 class="section-h">主要廠商</h2>
+  <div class="vendrow">
+    {topCompanies.map(c => <a class="vend" href={companyUrl(c.value)}>{c.value} <span class="c">{c.count}</span></a>)}
+    <a class="lk" href="/companies">全部廠商 →</a>
+  </div>
+
+  <h2 class="section-h">依年代</h2>
+  <div class="vendrow">
+    {decades.map(d => <a class="vend" href={decadeUrl(d.value)}>{d.value} <span class="c">{d.count}</span></a>)}
+  </div>
+
+  <h2 class="section-h">依類型</h2>
+  <div class="vendrow">
+    {genres.map(g => <a class="vend" href={genreUrl(g.value)}>{g.value} <span class="c">{g.count}</span></a>)}
+  </div>
+
   <script>
     document.getElementById('random')?.addEventListener('click', async () => {
       const g = await (await fetch('/games.json')).json();
