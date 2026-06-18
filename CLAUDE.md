@@ -28,6 +28,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `scripts/`：`parse_chiuinan` → `enrich_chiuinan` → `parse_extra_sources` / `parse_softworld` / `parse_offlinelist` → `map_chiuinan_screenshots` → `build_master`（產 `derived/master-list.json`）→ `merge_sources --write`（讀 `data/merge-decisions.json`，產 `derived/master-list.merged.json` + `merge-review.json`）→ `build_content`（讀 merged 優先，產 `content/games/*.md` + `data/id-registry.json`）。
 合併審閱：`review_merge.py`（互動 CLI，決策存 `data/merge-decisions.json`）。
+**手動新增款／補欄位（含外部連結）**：在 `data/basematch-decisions.json` 加一筆 `"<候選名>": {"action":"append","fields":{…}}`，`fields` 可覆寫任何 frontmatter 欄位（`title_aliases`/`year`/`developer`/`publisher_tw`/`genre`/`localization_level`/`license_status`/`release_codes`/`external_links`/`provenance`…），由 `merge_sources.apply_basematch()` 套用——這是「來源已有但被 fuzzy guard 擱在 review 佇列」或需自訂外連/編號的款（如 cdg-4154 中國之心）的通用入口。`action` 另有 `merge`（併入既有 id）/`reject`。改完跑 `merge_sources --write → build_content → npm run validate`。
 圖片：`fetch_rwv_covers` / `fetch_fandom_images` / `fetch_chiuinan_screenshots` / `fetch_offlinelist_images`（下載到 `raw/**/img/`，gitignored，附 manifest）。
 驗證：`npm run validate`（Zod 驗 content frontmatter）。
 
