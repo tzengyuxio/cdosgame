@@ -367,7 +367,7 @@ def apply_basematch(merged):
         imgs = ol_img.get(g.get("image_number")) if g else None
         if d["action"] == "append":
             title = d.get("title") or g.get("name_zh_hant") or simp
-            merged.append({
+            entry = {
                 "title_zh": title,
                 "title_aliases": [simp] if simp != title else [],
                 "year": g.get("year"),
@@ -379,7 +379,11 @@ def apply_basematch(merged):
                 "images": {"offlinelist": imgs} if imgs else {},
                 "references": {}, "external_links": {}, "editions": [],
                 "intro_todo": True, "provenance": ["offlinelist@merge"],
-            })
+            }
+            # explicit field overrides (manual adds: non-offlinelist sources,
+            # custom external_links, release_codes, etc.)
+            entry.update(d.get("fields", {}))
+            merged.append(entry)
             appends += 1
         elif d["action"] == "merge":
             rt = reg.get(d["target"], {})

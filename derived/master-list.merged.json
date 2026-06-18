@@ -136085,5 +136085,43 @@
     "provenance": [
       "offlinelist@merge"
     ]
+  },
+  {
+    "title_zh": "中國之心",
+    "title_aliases": [
+      "Heart of China"
+    ],
+    "year": 1991,
+    "developer": "Dynamix",
+    "developer_region": "US",
+    "publisher_tw": [
+      "軟體世界"
+    ],
+    "content_language": null,
+    "genre": "冒險解謎",
+    "localization_level": "D",
+    "localization_basis": "軟體世界 珍藏版（中文包裝/說明書，遊戲內英文）",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": "unofficial",
+    "release_codes": [
+      {
+        "issuer": "軟體世界",
+        "code": "珍108"
+      }
+    ],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {
+      "正體中文化 patch": "https://github.com/wicanr2/heart-of-china-dos-cht"
+    },
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "softworld@boneash-scan",
+      "boneash@oldgame.tw"
+    ]
   }
 ]

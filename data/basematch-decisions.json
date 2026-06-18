@@ -958,5 +958,39 @@
     "note": "1. `cdg-0629`  永恆之星  (2002)  · GamaSoft",
     "action": "append",
     "target": null
+  },
+  "中國之心": {
+    "action": "append",
+    "target": null,
+    "title": "中國之心",
+    "note": "Heart of China / 軟體世界 珍藏版108；未正式代理，中文包裝與說明書",
+    "fields": {
+      "title_aliases": [
+        "Heart of China"
+      ],
+      "year": 1991,
+      "developer": "Dynamix",
+      "developer_region": "US",
+      "publisher_tw": [
+        "軟體世界"
+      ],
+      "genre": "冒險解謎",
+      "localization_level": "D",
+      "license_status": "unofficial",
+      "localization_basis": "軟體世界 珍藏版（中文包裝/說明書，遊戲內英文）",
+      "release_codes": [
+        {
+          "issuer": "軟體世界",
+          "code": "珍108"
+        }
+      ],
+      "external_links": {
+        "正體中文化 patch": "https://github.com/wicanr2/heart-of-china-dos-cht"
+      },
+      "provenance": [
+        "softworld@boneash-scan",
+        "boneash@oldgame.tw"
+      ]
+    }
   }
 }
