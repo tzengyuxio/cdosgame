@@ -93,6 +93,11 @@ test('distinctValues counts, sorted desc, skips null', () => {
   assert.equal(dv.find(d => d.value === '計策戰略').count, 1);
 });
 
+test('distinctValues dedups per game (vendorsOf dev==pub not double-counted)', () => {
+  const dv = distinctValues(H, vendorsOf);   // H[0] is dev 大宇 AND publisher 大宇
+  assert.equal(dv.find(d => d.value === '大宇').count, 2);   // games a,b — not 3
+});
+
 test('relatedFor: same series/company/year, excludes self, caps', () => {
   const r = relatedFor(H[0], H);
   assert.deepEqual(r.sameSeries.map(g => g.id), ['b']);       // 仙劍2

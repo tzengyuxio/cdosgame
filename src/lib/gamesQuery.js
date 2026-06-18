@@ -107,7 +107,7 @@ export function groupBy(games, keyFn) {
 export function distinctValues(games, keyFn) {
   const m = new Map();
   for (const g of games) {
-    for (const k of [].concat(keyFn(g))) {
+    for (const k of new Set([].concat(keyFn(g)))) {
       if (k == null || k === '') continue;
       m.set(k, (m.get(k) || 0) + 1);
     }
