@@ -1,21 +1,22 @@
 ---
+import { companyUrl, genreUrl, yearUrl, seriesUrl } from '../lib/links.js';
 const { g } = Astro.props;
-const rows = [
-  ['開發', g.developer],
-  ['台灣代理', (g.publisher_tw || []).join('、') || null],
-  ['內容語言', g.content_language],
-  ['開發地區', g.developer_region],
-  ['授權', g.license_status],
-  ['容量', g.size],
-  ['平台', g.platform_note],
-  ['別名', (g.title_aliases || []).join('、') || null],
-].filter(([, v]) => v);
+const pubs = g.publisher_tw || [];
 const codes = (g.release_codes || []).map(rc => `${rc.issuer} ${rc.code}`).join('、');
 const editions = (g.editions || []).map(e => e.name).join('、');
 ---
 <div class="infobox-wrap">
   <table class="infobox">
-    {rows.map(([k, v]) => <tr><th>{k}</th><td>{v}</td></tr>)}
+    {g.developer && <tr><th>開發</th><td><a class="lk" href={companyUrl(g.developer)}>{g.developer}</a></td></tr>}
+    {g.year && <tr><th>發行年</th><td><a class="lk" href={yearUrl(g.year)}>{g.year}</a></td></tr>}
+    {g.genre && <tr><th>類型</th><td><a class="lk" href={genreUrl(g.genre)}>{g.genre}</a></td></tr>}
+    {g.series && <tr><th>系列</th><td><a class="lk" href={seriesUrl(g.series)}>{g.series}</a></td></tr>}
+    {pubs.length > 0 && <tr><th>台灣發行</th><td>{pubs.map((p, i) => <>{i > 0 && '、'}<a class="lk" href={companyUrl(p)}>{p}</a></>)}</td></tr>}
+    {g.content_language && <tr><th>內容語言</th><td>{g.content_language === 'zh' ? '中文' : '英文'}</td></tr>}
+    {g.localization_level && <tr><th>在地化</th><td>{g.localization_level}</td></tr>}
+    {g.size && <tr><th>容量</th><td>{g.size}</td></tr>}
+    {g.platform_note && <tr><th>平台</th><td>{g.platform_note}</td></tr>}
+    {(g.title_aliases || []).length > 0 && <tr><th>別名</th><td>{(g.title_aliases).join('、')}</td></tr>}
     {codes && <tr><th>編號</th><td>{codes}</td></tr>}
     {editions && <tr><th>版本</th><td>{editions}</td></tr>}
   </table>

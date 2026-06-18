@@ -1,0 +1,22 @@
+---
+import { fandomUrl } from '../lib/links.js';
+const { g } = Astro.props;
+const r = g.references || {};
+const groups = [];
+if (r.chiuinan) groups.push(['介紹', [{ url: r.chiuinan, text: '青衫之友 介紹頁', src: 'chiuinan' }]]);
+if (r.fandom) groups.push(['百科', [{ url: fandomUrl(r.fandom), text: 'Fandom 條目', src: 'cn-dos-games' }]]);
+if (r.omega) groups.push(['討論', [{ url: r.omega, text: 'Omega 討論串', src: 'omega' }]]);
+const ext = Object.entries(g.external_links || {});
+if (ext.length) groups.push(['相關', ext.map(([text, url]) => ({ url, text, src: '' }))]);
+---
+{groups.length > 0 && (
+  <section class="sources">
+    <h2>外部連結</h2>
+    {groups.map(([label, items]) => (
+      <div class="exgrp">
+        <span class="lbl">{label}</span>
+        {items.map((it, i) => <>{i > 0 && ' · '}<a href={it.url} target="_blank" rel="noopener nofollow">{it.text} ↗</a>{it.src && <span class="src">({it.src})</span>}</>)}
+      </div>
+    ))}
+  </section>
+)}

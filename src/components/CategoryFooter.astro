@@ -1,0 +1,13 @@
+---
+import { yearUrl, companyUrl, genreUrl, seriesUrl } from '../lib/links.js';
+const { g } = Astro.props;
+const cats = [
+  g.year && { href: yearUrl(g.year), text: `${g.year}年遊戲` },
+  g.developer && { href: companyUrl(g.developer), text: g.developer },
+  g.genre && { href: genreUrl(g.genre), text: g.genre },
+  g.series && { href: seriesUrl(g.series), text: `${g.series}系列` },
+].filter(Boolean);
+---
+{cats.length > 0 && (
+  <div class="cats">分類：{cats.map((c, i) => <>{i > 0 && ' · '}<a class="lk" href={c.href}>{c.text}</a></>)}</div>
+)}

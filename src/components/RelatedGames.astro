@@ -1,0 +1,18 @@
+---
+import { seriesUrl, companyUrl, yearUrl } from '../lib/links.js';
+const { related, g } = Astro.props;
+const blocks = [
+  ['同系列', related.sameSeries, g.series ? seriesUrl(g.series) : null],
+  [`${g.developer || '同廠商'}的其他作品`, related.sameCompany, g.developer ? companyUrl(g.developer) : null],
+  [`${g.year || ''}年的其他遊戲`, related.sameYear, g.year ? yearUrl(g.year) : null],
+].filter(([, list]) => list && list.length > 0);
+---
+{blocks.map(([title, list, more]) => (
+  <section>
+    <h2>{title}</h2>
+    <div class="rel">
+      {list.map((x, i) => <>{i > 0 && ' · '}<a class="lk" href={`/games/${x.id}`}>{x.title_zh}</a></>)}
+      {more && <> · <a class="lk" href={more}>更多 →</a></>}
+    </div>
+  </section>
+))}
