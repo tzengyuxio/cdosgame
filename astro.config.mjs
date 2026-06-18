@@ -1,5 +1,7 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, passthroughImageService } from 'astro/config';
 
 export default defineConfig({
-  // 站點 URL 之後上線再填；Phase 1 不需要 integration
+  // v1 has no images; use a no-op image service so the build does not require
+  // the native `sharp` dependency. 站點 URL 之後上線再填。
+  image: { service: passthroughImageService() },
 });
