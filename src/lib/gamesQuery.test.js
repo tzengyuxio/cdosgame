@@ -1,0 +1,68 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import {
+  normalize, searchGames, decadeOf, vendorsOf, applyFacets,
+  sortGames, paginate, deriveFacets, toIndexRecord, NONE,
+} from './gamesQuery.js';
+
+const G = [
+  { id:'cdg-1', title_zh:'仙劍奇俠傳1', title_aliases:['Chinese Paladin','仙剑奇侠传'], year:1995, developer:'大宇', publisher_tw:['大宇'], genre:'RPG', localization_level:'A' },
+  { id:'cdg-2', title_zh:'三國志2', title_aliases:[], year:1991, developer:'KOEI', publisher_tw:['智冠'], genre:'SLG', localization_level:'B' },
+  { id:'cdg-3', title_zh:'某遊戲', title_aliases:[], year:null, developer:null, publisher_tw:[], genre:null, localization_level:null },
+];
+
+test('normalize strips punctuation and case', () => {
+  assert.equal(normalize('A-B C：D'), 'abcd');
+});
+
+test('searchGames matches title, english + simplified alias, empty=all', () => {
+  assert.equal(searchGames(G, '仙劍').length, 1);
+  assert.equal(searchGames(G, 'paladin').length, 1);
+  assert.equal(searchGames(G, '仙剑').length, 1);
+  assert.equal(searchGames(G, '').length, 3);
+});
+
+test('decadeOf', () => {
+  assert.equal(decadeOf(1995), '1990s');
+  assert.equal(decadeOf(2003), '2000s');
+  assert.equal(decadeOf(null), null);
+});
+
+test('vendorsOf merges developer + publisher_tw', () => {
+  assert.deepEqual(vendorsOf(G[1]), ['KOEI', '智冠']);
+});
+
+test('applyFacets: AND across facets, OR within, 未分類 bucket', () => {
+  assert.equal(applyFacets(G, { genre:['RPG'] }).length, 1);
+  assert.equal(applyFacets(G, { genre:['RPG','SLG'] }).length, 2);
+  assert.equal(applyFacets(G, { vendor:['智冠'] }).length, 1);
+  assert.equal(applyFacets(G, { genre:[NONE] }).length, 1);
+  assert.equal(applyFacets(G, { genre:['RPG'], loc:['B'] }).length, 0);
+});
+
+test('sortGames year asc puts null last, desc reverses', () => {
+  assert.deepEqual(sortGames(G,'year','asc').map(g=>g.id), ['cdg-2','cdg-1','cdg-3']);
+  assert.deepEqual(sortGames(G,'year','desc').map(g=>g.id), ['cdg-3','cdg-1','cdg-2']);
+});
+
+test('paginate', () => {
+  const r = paginate(G, 1, 2);
+  assert.equal(r.items.length, 2);
+  assert.equal(r.pages, 2);
+  assert.equal(r.total, 3);
+});
+
+test('deriveFacets counts incl 未分類', () => {
+  const f = deriveFacets(G);
+  const genre = Object.fromEntries(f.genre.map(o => [o.value, o.count]));
+  assert.equal(genre['RPG'], 1);
+  assert.equal(genre[NONE], 1);
+});
+
+test('toIndexRecord keeps only index fields', () => {
+  const r = toIndexRecord(G[0]);
+  assert.deepEqual(
+    Object.keys(r).sort(),
+    ['developer','genre','id','localization_level','publisher_tw','title_aliases','title_zh','year']
+  );
+});
