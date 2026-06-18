@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import GameList from '../../components/GameList.astro';
+import { groupBy } from '../../lib/gamesQuery.js';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+  const by = groupBy(games.map(e => e.data), g => g.series);
+  return [...by].map(([series, list]) => ({ params: { series }, props: { list } }));
+}
+const { series } = Astro.params;
+const { list } = Astro.props;
+const games = [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
+---
+<Base title={`${series}系列｜中文 DOS 遊戲資料庫`}>
+  <h1 class="hub-title">{series}系列 <span class="hub-count">{games.length} 款</span></h1>
+  <GameList games={games} />
+</Base>

@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import GameList from '../../components/GameList.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+  // pre-group per company; pass ONLY that company's games (never the full array).
+  const map = new Map();
+  const get = n => { if (!map.has(n)) map.set(n, { developed: [], published: [] }); return map.get(n); };
+  for (const e of games) {
+    const g = e.data;
+    if (g.developer) get(g.developer).developed.push(g);
+    for (const p of (g.publisher_tw || [])) if (p !== g.developer) get(p).published.push(g);
+  }
+  const byYear = (a, b) => (a.year ?? 9999) - (b.year ?? 9999);
+  return [...map].map(([name, v]) => ({
+    params: { name },
+    props: { developed: v.developed.sort(byYear), published: v.published.sort(byYear) },
+  }));
+}
+const { name } = Astro.params;
+const { developed, published } = Astro.props;
+---
+<Base title={`${name}｜中文 DOS 遊戲資料庫`}>
+  <h1 class="hub-title">{name}</h1>
+  {developed.length > 0 && <><h2 class="hub-sub">開發（{developed.length}）</h2><GameList games={developed} /></>}
+  {published.length > 0 && <><h2 class="hub-sub">台灣發行／代理（{published.length}）</h2><GameList games={published} /></>}
+</Base>
