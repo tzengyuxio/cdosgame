@@ -6,10 +6,19 @@ import { companyUrl } from '../../lib/links.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
 const companies = distinctValues(games.map(e => e.data), vendorsOf);
+const major = companies.slice(0, 24);
+const rest = companies.slice(24);
 ---
 <Base title="廠商｜中文 DOS 遊戲資料庫">
   <h1 class="hub-title">依廠商瀏覽 <span class="hub-count">{companies.length} 家</span></h1>
-  <div class="index-grid">
-    {companies.map(({ value, count }) => <a class="lk" href={companyUrl(value)}>{value} <span class="c">{count}</span></a>)}
+  <h2 class="section-h">主要廠商</h2>
+  <div class="vendrow">
+    {major.map(c => <a class="vend" href={companyUrl(c.value)}>{c.value} <span class="c">{c.count}</span></a>)}
   </div>
+  {rest.length > 0 && (
+    <><h2 class="section-h">全部廠商</h2>
+    <div class="index-grid">
+      {rest.map(c => <a class="lk" href={companyUrl(c.value)}>{c.value} <span class="c">{c.count}</span></a>)}
+    </div></>
+  )}
 </Base>

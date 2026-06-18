@@ -1,15 +1,25 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { distinctValues } from '../../lib/gamesQuery.js';
+import { groupBy, yearRange } from '../../lib/gamesQuery.js';
 import { genreUrl } from '../../lib/links.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
-const genres = distinctValues(games.map(e => e.data), g => g.genre);
+const by = groupBy(games.map(e => e.data), g => g.genre);
+const cards = [...by.entries()].map(([name, list]) => ({
+  name, count: list.length, range: yearRange(list),
+  sample: [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999)).slice(0, 3),
+})).sort((a, b) => b.count - a.count);
 ---
 <Base title="類型｜中文 DOS 遊戲資料庫">
-  <h1 class="hub-title">依類型瀏覽</h1>
-  <div class="index-grid">
-    {genres.map(({ value, count }) => <a class="lk" href={genreUrl(value)}>{value} <span class="c">{count}</span></a>)}
+  <h1 class="hub-title">依類型瀏覽 <span class="hub-count">{cards.length} 類</span></h1>
+  <div class="cardrow">
+    {cards.map(g => (
+      <div class="scard">
+        <div class="t"><a class="lk" href={genreUrl(g.name)}>{g.name}</a></div>
+        <div class="m">{g.range ? `${g.range.min}–${g.range.max}` : ''} · {g.count} 款</div>
+        <div class="d">{g.sample.map(x => x.title_zh).join('、')}…</div>
+      </div>
+    ))}
   </div>
 </Base>
