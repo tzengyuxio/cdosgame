@@ -96,6 +96,15 @@ def frontmatter(g, gid, published):
     return fm
 
 
+def existing_body(path):
+    """Markdown body after the frontmatter block; '\n' for new/absent files."""
+    if not path.exists():
+        return "\n"
+    text = path.read_text(encoding="utf-8")
+    m = re.match(r"^---\n.*?\n---\n", text, re.S)
+    return text[m.end():] if m else "\n"
+
+
 def main():
     src = MASTER_MERGED if MASTER_MERGED.exists() else MASTER
     games = json.loads(src.read_text(encoding="utf-8"))
@@ -139,7 +148,9 @@ def main():
 
         fm = frontmatter(g, gid, bool(publish_state.get(gid)))
         body = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
-        (OUT_DIR / f"{gid}.md").write_text(f"---\n{body}---\n\n", encoding="utf-8")
+        path = OUT_DIR / f"{gid}.md"
+        prose = existing_body(path)
+        path.write_text(f"---\n{body}---\n{prose}", encoding="utf-8")
         seen_files.add(f"{gid}.md")
 
     # remove orphaned files whose game no longer exists (skip merged tombstones)
