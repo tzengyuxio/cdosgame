@@ -1,8 +1,8 @@
-// Human-readable labels for the localization_level enum (A/B/D/foreign).
+// Human-readable labels for the localization_level enum.
 export const LOC_LABELS = {
-  A: '原生中文',
-  B: '中文化',
-  D: '中文包裝',
+  native: '原生中文',
+  localized: '中文化',
+  packaging: '中文包裝',
   foreign: '外文遊戲',
 };
 

@@ -73,26 +73,26 @@ def foldnorm(s):
 def classify_localization(content_language, developer, publisher_tw):
     """Derive a localization level from chiuinan signals. Low-confidence heuristic.
 
-    A  原生中文開發  : 中文遊戲 + 中文開發商
-    B  中文化遊戲    : 中文遊戲 + 外國開發商（官方中文版）
-    D  中文包裝代理  : 英文遊戲 + 有台灣發行/代理商
-    foreign 純外國   : 英文遊戲 + 無台灣發行商（收集邊界外候選）
-    null            : content_language 未知，無法判定
+    native    原生中文開發  : 中文遊戲 + 中文開發商
+    localized 中文化遊戲    : 中文遊戲 + 外國開發商（官方中文版）
+    packaging 中文包裝代理  : 英文遊戲 + 有台灣發行/代理商
+    foreign   純外國       : 英文遊戲 + 無台灣發行商（收集邊界外候選）
+    null                  : content_language 未知，無法判定
 
-    C（民間漢化）無法從此來源 derive。返回 (level, basis)。
+    民間漢化補丁無法從此來源 derive，且非商業發行（記在 external_links）。返回 (level, basis)。
     """
     if content_language == "zh":
         if has_cjk(developer):
-            return "A", "zh-content + cjk-developer"
-        return "B", "zh-content + foreign-developer"
+            return "native", "zh-content + cjk-developer"
+        return "localized", "zh-content + foreign-developer"
     if content_language == "en":
         if publisher_tw:
-            return "D", "en-content + tw-publisher"
+            return "packaging", "en-content + tw-publisher"
         return "foreign", "en-content + no-tw-publisher"
     # content_language unknown (not in a genre page): backfill from developer.
     # A CJK developer is a strong signal for a native Chinese game.
     if has_cjk(developer):
-        return "A", "backfill: cjk-developer (no genre page)"
+        return "native", "backfill: cjk-developer (no genre page)"
     return None, "unknown content_language"
 
 
@@ -188,8 +188,8 @@ def main():
         # Region correction: a CJK-named studio that is actually JP/US/EU was
         # wrongly tagged native (A). If the developer's region is known and not
         # Chinese, it is a localized title (B), not native development.
-        if level == "A" and dev_region and dev_region not in CHINESE_REGIONS:
-            level, basis = "B", f"region-correction: {dev_region} developer"
+        if level == "native" and dev_region and dev_region not in CHINESE_REGIONS:
+            level, basis = "localized", f"region-correction: {dev_region} developer"
         # Catalog entry: Taiwan-product focus. Drops rating + publisher_original
         # (those stay in the per-source derived/chiuinan-games.json record).
         entry = {

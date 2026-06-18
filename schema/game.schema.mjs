@@ -33,7 +33,7 @@ export const gameSchema = z.object({
   // classification
   content_language: z.enum(["zh", "en"]).nullable(),
   genre: z.enum(GENRES).nullable(),
-  localization_level: z.enum(["A", "B", "D", "foreign"]).nullable(),
+  localization_level: z.enum(["native", "localized", "packaging", "foreign"]).nullable(),
   series: z.string().nullable().default(null),
 
   // chiuinan-sourced descriptors

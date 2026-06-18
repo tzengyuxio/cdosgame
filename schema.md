@@ -21,7 +21,7 @@
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
 | `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|
 | `genre` | enum \| null | | 11 類：回合/即時/策略角色扮演、冒險解謎、故事劇情、計策戰略、模擬養成、教育養成、大富翁、射擊打鬥、運動動作 |
-| `localization_level` | `A`\|`B`\|`D`\|`foreign` \| null | | A 原生中文開發 / B 中文化 / D 中文包裝代理 / foreign 純外國 |
+| `localization_level` | `native`\|`localized`\|`packaging`\|`foreign` \| null | | native 原生中文開發 / localized 中文化 / packaging 中文包裝代理 / foreign 純外國（顯示標籤見 `src/lib/labels.js`）|
 | `size` | string \| null | | 容量（如 `1CD (45.2)`）|
 | `platform_note` | string \| null | | 平台/限制（如 `Windows，18禁`）|
 | `catalog_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號）|
@@ -47,4 +47,4 @@
 
 - 正文（簡介/評論）：目前空，待從 omega/chiuinan intro/MobyGames 補。
 - `slug`：僅英文別名者已填，中文遊戲多為 null，待人工/羅馬化補。
-- C（民間漢化）等級：chiuinan 無法 derive，待他源。
+- 民間漢化補丁：非商業發行，已不另立等級（草案的「C」已捨棄）；改記在 `external_links`，本體標 `packaging`/`foreign`。

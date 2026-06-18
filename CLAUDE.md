@@ -44,12 +44,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 寫 `scope.md` 時逐一決定並記錄判準，這些都還沒拍板：
 - **時間／平台**：純 DOS，還是往前收 Apple ][ / PC-98、往後收 Windows 3.1/95 中文遊戲？以「年代」還是「能在 DOS/早期 PC 跑」為界？
-- **中文化定義**（關鍵，**已定案**）：用 `localization_level` 欄位分級，schema enum 為 **`A` / `B` / `D` / `foreign`**（顯示標籤見 `src/lib/labels.js`）：
-  - `A` 原生中文：原生中文開發（大宇、智冠、漢堂、精訊…）
-  - `B` 中文化：官方中文版／代理中文化
-  - `D` 中文包裝：僅包裝／說明書中文，遊戲內仍英文
+- **中文化定義**（關鍵，**已定案**）：用 `localization_level` 欄位分級，schema enum 為 **`native` / `localized` / `packaging` / `foreign`**（顯示標籤見 `src/lib/labels.js`；值由 `build_master.classify_localization()` derive）：
+  - `native` 原生中文：原生中文開發（大宇、智冠、漢堂、精訊…）
+  - `localized` 中文化：官方中文版／代理中文化
+  - `packaging` 中文包裝：僅包裝／說明書中文，遊戲內仍英文
   - `foreign` 外文遊戲：收錄但無中文化
-  - ⚠ 草案曾列「C 民間漢化補丁」，**已捨棄**——非商業發行，不另立等級；民間漢化補丁改記在 `external_links`（遊戲本體依包裝情況標 `D` 或 `foreign`，如 cdg-4154 中國之心）。
+  - ⚠ 草案曾列「C 民間漢化補丁」，**已捨棄**——非商業發行，不另立等級；民間漢化補丁改記在 `external_links`（遊戲本體依包裝情況標 `packaging` 或 `foreign`，如 cdg-4154 中國之心）。
 - **地域**：台／港／中／星馬？簡繁？
 - **自製 vs 商業**：同人／自製收不收？
 
