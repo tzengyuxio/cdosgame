@@ -24,3 +24,5 @@
 - [x] 併 OfflineList fuzzy 批（2026-06-17）：120 + 第二輪 18 筆經 `data/offlinelist-fuzzy-worklist.md` / `…-round2-worklist.md` 裁決 → 78 併/41 新增/1 合集（→4144）。worklist 已改用 prefix/contains 列副標手足（採前批教訓）。第一輪暫列新增、第二輪複核維持新增：英雄戰記(≠cdg-3445)、銀河守衛團(≠cdg-2894)、瘋狂麻將(≠cdg-2807)；合集 天使們的午後 合集2 已收（發表時再定上架）
 - [ ] 續審 review queue：merge-review.json 2106 筆（offlinelist fuzzy 已全數清掉）
 - [ ] MobyGames 補英文原名/封面/年（需 API key）
+- [ ] **廠商↔遊戲↔系列 對照校訂（使用者 2026-06-18 指出有不少錯誤，未急於處理）**：`developer`/`publisher_tw` 字串歸屬、`series` 前綴歸組（如三國志過度聚合外傳、成吉思汗併蒼狼與白鹿）等對照關係需人工複核校正；屬資料層校訂，與站台呈現機制無關
+- [x] 編輯內容 seed（2026-06-18）：11 廠商 + 10 系列簡介（web 查證 draft，`content/companies/*.md`、`content/series/*.md`）；含新增系列 明星志願/美少女夢工場/成吉思汗(蒼狼與白鹿)/天使帝國。簡介為 draft 待使用者校訂
