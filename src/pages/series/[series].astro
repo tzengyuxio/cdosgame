@@ -1,8 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import GameList from '../../components/GameList.astro';
-import { groupBy } from '../../lib/gamesQuery.js';
+import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
+import { companyUrl } from '../../lib/links.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -12,8 +13,14 @@ export async function getStaticPaths() {
 const { series } = Astro.params;
 const { list } = Astro.props;
 const games = [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
+const dev = topValue(list, g => g.developer);
+const range = yearRange(list);
+const entry = await getEntry('series', series);
+const Body = entry ? (await render(entry)).Content : null;
 ---
 <Base title={`${series}系列｜中文 DOS 遊戲資料庫`}>
   <h1 class="hub-title">{series}系列 <span class="hub-count">{games.length} 款</span></h1>
+  <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
+  {Body && <div class="prose"><Body /></div>}
   <GameList games={games} />
 </Base>

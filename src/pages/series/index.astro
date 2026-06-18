@@ -1,15 +1,26 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { distinctValues } from '../../lib/gamesQuery.js';
+import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
 import { seriesUrl } from '../../lib/links.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
-const series = distinctValues(games.map(e => e.data), g => g.series);
+const by = groupBy(games.map(e => e.data), g => g.series);
+const cards = await Promise.all([...by.entries()].map(async ([name, list]) => {
+  const entry = await getEntry('series', name);
+  return { name, count: list.length, dev: topValue(list, g => g.developer), range: yearRange(list), summary: entry?.data.summary };
+}));
+cards.sort((a, b) => b.count - a.count);
 ---
 <Base title="系列｜中文 DOS 遊戲資料庫">
-  <h1 class="hub-title">依系列瀏覽 <span class="hub-count">{series.length} 個</span></h1>
-  <div class="index-grid">
-    {series.map(({ value, count }) => <a class="lk" href={seriesUrl(value)}>{value} <span class="c">{count}</span></a>)}
+  <h1 class="hub-title">依系列瀏覽 <span class="hub-count">{cards.length} 個</span></h1>
+  <div class="cardrow">
+    {cards.map(s => (
+      <div class="scard">
+        <div class="t"><a class="lk" href={seriesUrl(s.name)}>{s.name}</a></div>
+        <div class="m">{s.dev ? s.dev + ' · ' : ''}{s.range ? `${s.range.min}–${s.range.max}` : ''} · {s.count} 款</div>
+        {s.summary && <div class="d">{s.summary}</div>}
+      </div>
+    ))}
   </div>
 </Base>
