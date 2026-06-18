@@ -115,6 +115,16 @@ export function distinctValues(games, keyFn) {
   return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
 }
 
+export function yearRange(games) {
+  const ys = games.map(g => g.year).filter(y => y != null);
+  return ys.length ? { min: Math.min(...ys), max: Math.max(...ys) } : null;
+}
+
+export function topValue(games, keyFn) {
+  const dv = distinctValues(games, keyFn);
+  return dv.length ? dv[0].value : null;
+}
+
 export function relatedFor(game, all, limit = 12) {
   const cut = a => a.slice(0, limit);
   const sameSeries = game.series

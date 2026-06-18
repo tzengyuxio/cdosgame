@@ -4,6 +4,7 @@ import {
   normalize, searchGames, decadeOf, vendorsOf, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
   seriesOf, groupBy, relatedFor, distinctValues,
+  yearRange, topValue,
 } from './gamesQuery.js';
 
 const G = [
@@ -104,4 +105,13 @@ test('relatedFor: same series/company/year, excludes self, caps', () => {
   assert.deepEqual(r.sameCompany.map(g => g.id), ['b']);      // 大宇
   assert.deepEqual(r.sameYear.map(g => g.id), ['c']);         // 1995
   assert.ok(!r.sameSeries.some(g => g.id === 'a'));           // no self
+});
+
+test('yearRange', () => {
+  assert.deepEqual(yearRange(H), { min: 1995, max: 2002 });
+  assert.equal(yearRange([{ year: null }]), null);
+});
+
+test('topValue returns most common', () => {
+  assert.equal(topValue(H, g => g.developer), '大宇');   // a,b 大宇 vs c KOEI
 });
