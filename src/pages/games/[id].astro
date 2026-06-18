@@ -7,6 +7,7 @@ import ExternalLinks from '../../components/ExternalLinks.astro';
 import RelatedGames from '../../components/RelatedGames.astro';
 import CategoryFooter from '../../components/CategoryFooter.astro';
 import { genreUrl, seriesUrl } from '../../lib/links.js';
+import { locLabel } from '../../lib/labels.js';
 import { relatedFor } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
@@ -31,7 +32,7 @@ const codeRight = g.catalog_id || (g.release_codes?.[0]?.code) || '';
       <div class="chips">
         {g.genre && <a class="chip chip-genre" href={genreUrl(g.genre)}>{g.genre}</a>}
         {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}
-        {g.localization_level && <span class="chip">{g.localization_level} 在地化</span>}
+        {g.localization_level && <span class="chip">{locLabel(g.localization_level)}</span>}
       </div>
       <section class="prose">
         {hasBody ? <Content /> : <p class="muted">簡介待補</p>}

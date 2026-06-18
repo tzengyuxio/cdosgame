@@ -22,6 +22,7 @@ import Base from '../../layouts/Base.astro';
 
   <script>
     import { searchGames, applyFacets, sortGames, paginate, deriveFacets } from '../../lib/gamesQuery.js';
+    import { locLabel } from '../../lib/labels.js';
 
     const FACETS = [['decade','年代'],['genre','類型'],['vendor','廠商'],['loc','在地化']];
     const LIMIT = { decade: 99, genre: 99, loc: 99, vendor: 40 };
@@ -104,8 +105,9 @@ import Base from '../../layouts/Base.astro';
           list = list.filter(o => o.value.includes(vendorFilter));
         for (const { value, count } of list.slice(0, LIMIT[key])) {
           const checked = state.sel[key].includes(value);
+          const text = key === 'loc' ? locLabel(value) : value;
           const lab = document.createElement('label');
-          lab.innerHTML = `<input type="checkbox" ${checked ? 'checked' : ''}> ${esc(value)} <span class="c">${count}</span>`;
+          lab.innerHTML = `<input type="checkbox" ${checked ? 'checked' : ''}> ${esc(text)} <span class="c">${count}</span>`;
           lab.querySelector('input').onchange = e => {
             if (e.target.checked) state.sel[key].push(value);
             else state.sel[key] = state.sel[key].filter(v => v !== value);
