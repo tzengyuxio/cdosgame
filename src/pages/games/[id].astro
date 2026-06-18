@@ -3,42 +3,46 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
 import Infobox from '../../components/Infobox.astro';
+import ExternalLinks from '../../components/ExternalLinks.astro';
+import RelatedGames from '../../components/RelatedGames.astro';
+import CategoryFooter from '../../components/CategoryFooter.astro';
+import { genreUrl, seriesUrl } from '../../lib/links.js';
+import { relatedFor } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
-  return games.map(e => ({ params: { id: e.data.id }, props: { entry: e } }));
+  const all = games.map(e => e.data);
+  // compute related here (pass only the small result) — never pass the full
+  // `all` array as props (4144 pages × 4144 games would explode the build).
+  return games.map(e => ({ params: { id: e.data.id }, props: { entry: e, related: relatedFor(e.data, all) } }));
 }
 
-const { entry } = Astro.props;
+const { entry, related } = Astro.props;
 const g = entry.data;
 const { Content } = await render(entry);
 const hasBody = (entry.body || '').trim().length > 0;
 const codeRight = g.catalog_id || (g.release_codes?.[0]?.code) || '';
-const fandomUrl = g.references?.fandom
-  ? `https://cn-dos-games.fandom.com/zh/wiki/${g.references.fandom}` : null;
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`}>
-  <article class="game">
-    <DosBar path={g.title_zh} right={`${g.id}${codeRight ? ' · ' + codeRight : ''}`} />
-    <h1 class="game-title">{g.title_zh}{g.year && <span class="year">{g.year}</span>}</h1>
-    <div class="chips">
-      {g.genre && <span class="chip chip-genre">{g.genre}</span>}
-      {g.localization_level && <span class="chip">{g.localization_level} 在地化</span>}
-    </div>
-    <div class="cover-placeholder">封面待補</div>
-    <Infobox g={g} />
-    <section class="prose">
-      {hasBody ? <Content /> : <p class="muted">簡介待補</p>}
-    </section>
-    {(g.references?.omega || fandomUrl || Object.keys(g.external_links || {}).length > 0) && (
-      <section class="sources">
-        <h2>來源</h2>
-        <ul>
-          {g.references?.omega && <li><a href={g.references.omega} rel="nofollow">Omega 討論串</a></li>}
-          {fandomUrl && <li><a href={fandomUrl} rel="nofollow">Fandom 條目</a></li>}
-          {Object.entries(g.external_links || {}).map(([k, v]) => <li><a href={v} rel="nofollow">{k}</a></li>)}
-        </ul>
+  <DosBar path={g.title_zh} right={`${g.id}${codeRight ? ' · ' + codeRight : ''}`} />
+  <div class="game-wiki">
+    <div class="gw-main">
+      <h1 class="game-title">{g.title_zh}{g.year && <span class="year">{g.year}</span>}</h1>
+      <div class="chips">
+        {g.genre && <a class="chip chip-genre" href={genreUrl(g.genre)}>{g.genre}</a>}
+        {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}
+        {g.localization_level && <span class="chip">{g.localization_level} 在地化</span>}
+      </div>
+      <section class="prose">
+        {hasBody ? <Content /> : <p class="muted">簡介待補</p>}
       </section>
-    )}
-  </article>
+      <RelatedGames related={related} g={g} />
+      <ExternalLinks g={g} />
+    </div>
+    <aside class="gw-ib">
+      <div class="cover-placeholder">封面待補</div>
+      <Infobox g={g} />
+    </aside>
+  </div>
+  <CategoryFooter g={g} />
 </Base>
