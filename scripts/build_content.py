@@ -15,6 +15,8 @@ MASTER = Path("derived/master-list.json")                # build_master output (
 REGISTRY = Path("data/id-registry.json")
 PUBLISH_STATE = Path("data/publish-state.json")          # {id: true} editorial gate
 OUT_DIR = Path("content/games")
+CHIUINAN = Path("derived/chiuinan-screenshots.json")
+SERIES_DECISIONS = Path("data/series-decisions.json")
 
 
 def slugify(aliases):
@@ -70,6 +72,7 @@ def frontmatter(g, gid, published):
         "content_language": g.get("content_language"),
         "genre": g.get("genre"),
         "localization_level": g.get("localization_level"),
+        "series": g.get("series"),
         "size": g.get("size"),
         "platform_note": g.get("platform_note"),
         "catalog_id": g.get("catalog_id"),
@@ -96,6 +99,22 @@ def frontmatter(g, gid, published):
     return fm
 
 
+def series_pairs():
+    """(prefix, series_name) sorted longest-prefix-first."""
+    if not SERIES_DECISIONS.exists():
+        return []
+    dec = json.loads(SERIES_DECISIONS.read_text(encoding="utf-8"))
+    pairs = [(pre, name) for name, prefixes in dec.items() for pre in prefixes]
+    return sorted(pairs, key=lambda x: -len(x[0]))
+
+
+def assign_series(title, pairs):
+    for pre, name in pairs:
+        if title.startswith(pre):
+            return name
+    return None
+
+
 def existing_body(path):
     """Markdown body after the frontmatter block; '\n' for new/absent files."""
     if not path.exists():
@@ -111,6 +130,10 @@ def main():
     print(f"source: {src}")
     publish_state = json.loads(PUBLISH_STATE.read_text(encoding="utf-8")) \
         if PUBLISH_STATE.exists() else {}
+    intro_idx = {r["title_zh"]: r["intro_url"]
+                 for r in json.loads(CHIUINAN.read_text(encoding="utf-8"))
+                 if r.get("intro_url")} if CHIUINAN.exists() else {}
+    spairs = series_pairs()
     registry = load_registry()
     ids = registry["ids"]
 
@@ -146,6 +169,14 @@ def main():
         if key not in e["keys"]:
             e["keys"].append(key)
 
+        g["series"] = assign_series(g["title_zh"], spairs)
+        iu = intro_idx.get(g["title_zh"])
+        if iu:
+            refs = g.get("references")
+            if not isinstance(refs, dict):
+                refs = {}
+            refs["chiuinan"] = iu
+            g["references"] = refs
         fm = frontmatter(g, gid, bool(publish_state.get(gid)))
         body = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
         path = OUT_DIR / f"{gid}.md"
