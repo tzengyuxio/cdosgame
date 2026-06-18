@@ -95,7 +95,13 @@ import { glob } from 'astro/loaders';
 import { gameSchema } from '../schema/game.schema.mjs';
 
 const games = defineCollection({
-  loader: glob({ pattern: '*.md', base: './content/games' }),
+  // Force entry id = filename (cdg-NNNN). Default generateId uses frontmatter `slug`,
+  // which is non-unique here (e.g. "d","x") and would collide/drop entries.
+  loader: glob({
+    pattern: '*.md',
+    base: './content/games',
+    generateId: ({ entry }) => entry.replace(/\.md$/, ''),
+  }),
   schema: gameSchema,
 });
 
