@@ -1,0 +1,20 @@
+---
+import '../styles/global.css';
+const { title = '中文 DOS 遊戲資料庫' } = Astro.props;
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="brand">中文 DOS 遊戲資料庫</a>
+      <nav><a href="/games">目錄</a><a href="/about">關於</a></nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">cdosgame · git-backed catalog</footer>
+  </body>
+</html>

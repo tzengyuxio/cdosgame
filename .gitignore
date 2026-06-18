@@ -22,3 +22,6 @@ raw/**/*.jpg
 raw/**/*.jpeg
 raw/**/*.gif
 node_modules/
+dist/
+
+.superpowers/

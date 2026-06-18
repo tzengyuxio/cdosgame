@@ -1,0 +1,72 @@
+:root{
+  --bg:#fffdf9; --fg:#2b2b2b; --muted:#999; --border:#e3ddd0;
+  --amber:#ffb000; --brown:#a8612a; --dos-bg:#0c0c0c;
+  --serif:Georgia,'Songti TC','Noto Serif TC',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans TC',sans-serif;
+  --mono:'Courier New',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);line-height:1.6}
+a{color:var(--brown);text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:1px solid var(--border)}
+.brand{font-family:var(--serif);font-weight:600;font-size:18px;color:var(--fg)}
+.site-header nav a{margin-left:14px}
+main{max-width:920px;margin:0 auto;padding:24px 20px}
+.site-footer{border-top:1px solid var(--border);color:var(--muted);font-size:13px;text-align:center;padding:18px;margin-top:40px}
+.muted{color:var(--muted)}
+
+/* DOS 頂條 */
+.dosbar{display:flex;justify-content:space-between;align-items:center;background:var(--dos-bg);color:var(--amber);font-family:var(--mono);font-size:13px;padding:8px 12px;border-radius:4px 4px 0 0}
+.doscodes{opacity:.55;font-size:12px}
+.cursor{display:inline-block;width:8px;height:14px;background:var(--amber);vertical-align:-2px;margin-left:2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+
+/* 詳情 */
+.game{border:1px solid var(--border);border-radius:5px;overflow:hidden}
+.game-title,.chips,.cover-placeholder,.infobox-wrap,.prose,.sources{margin:14px 16px}
+.game-title{font-family:var(--serif);font-size:24px;font-weight:600}
+.game-title .year{color:var(--muted);font-weight:400;font-size:17px;margin-left:8px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{background:#f3f0e8;color:#666;border-radius:3px;padding:1px 8px;font-size:12px}
+.chip-genre{background:#fff3dc;color:var(--brown);border:1px solid #f0dca8}
+.cover-placeholder{background:#f3f0e8;color:var(--muted);text-align:center;padding:28px;border-radius:4px;font-size:13px}
+.infobox{width:100%;border-collapse:collapse;font-size:14px}
+.infobox th{text-align:left;color:var(--muted);font-weight:400;width:88px;padding:5px 12px 5px 0;vertical-align:top;white-space:nowrap}
+.infobox td{border-bottom:1px solid #f2eee4;padding:5px 0}
+.prose{font-size:15px}
+.sources h2,.prose h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--border);padding-bottom:4px}
+
+/* 列表 */
+.games-layout{display:flex;gap:24px;align-items:flex-start}
+.facets{flex:0 0 200px;font-size:13px}
+.facet{margin-bottom:16px}
+.facet h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 6px}
+.facet label{display:flex;align-items:center;gap:6px;padding:2px 0;cursor:pointer}
+.facet .c{margin-left:auto;color:var(--muted);font-size:11px}
+.facet .vfilter{width:100%;margin-bottom:6px;padding:3px 6px;border:1px solid var(--border);border-radius:3px}
+.games-main{flex:1;min-width:0}
+.controls{display:flex;gap:10px;margin-bottom:10px}
+.controls #search{flex:1;padding:8px 10px;border:1px solid var(--border);border-radius:4px;font-size:14px}
+.controls select{padding:8px;border:1px solid var(--border);border-radius:4px}
+.count{color:var(--muted);font-size:13px;margin-bottom:8px}
+.results{list-style:none;margin:0;padding:0}
+.results li{border-bottom:1px solid #f2eee4}
+.results a{display:flex;justify-content:space-between;gap:12px;padding:8px 4px;color:var(--fg)}
+.results a:hover{background:#faf6ee;text-decoration:none}
+.r-title{font-weight:600}
+.r-meta{color:var(--muted);font-size:13px;font-family:var(--mono);white-space:nowrap}
+.pager{display:flex;align-items:center;gap:8px;justify-content:center;margin-top:16px}
+.pager button{padding:5px 12px;border:1px solid var(--border);background:#fff;border-radius:4px;cursor:pointer}
+.pager button:disabled{opacity:.4;cursor:default}
+
+/* 首頁 */
+.hero h1{font-family:var(--serif);font-size:30px;margin-bottom:6px}
+.stats{color:var(--muted);font-family:var(--mono)}
+.entry{display:flex;gap:10px;margin:18px 0}
+.btn{display:inline-block;padding:8px 16px;border:1px solid var(--border);border-radius:4px;background:#fff;cursor:pointer;font-size:14px;color:var(--fg)}
+.btn:hover{background:#faf6ee;text-decoration:none}
+.decades{display:flex;gap:10px}
+.decades a{font-family:var(--mono)}
+
+@media(max-width:680px){.games-layout{flex-direction:column}.facets{flex:none;width:100%}}
