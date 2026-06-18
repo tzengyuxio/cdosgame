@@ -90,3 +90,23 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .index-grid{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
 .index-grid a .c{color:var(--muted);font-size:11px;font-family:var(--mono)}
 @media(max-width:680px){.game-wiki{flex-direction:column}.gw-ib{flex:none;border-left:0;border-top:1px solid #eee4d2}}
+
+/* 卡片 / 膠囊 / 文章式實體頁 */
+.section-h{font-family:var(--serif);font-size:18px;border-bottom:1px solid var(--border);padding-bottom:5px;margin:24px 0 12px}
+.cardrow{display:flex;gap:12px;flex-wrap:wrap}
+.scard{flex:1 1 160px;border:1px solid var(--border);border-radius:6px;padding:12px 14px;background:#fff}
+.scard .t{font-family:var(--serif);font-weight:600;font-size:16px}
+.scard .m{color:var(--muted);font-size:12px;font-family:var(--mono);margin:2px 0 5px}
+.scard .d{font-size:12.5px;color:#777}
+.scard .more{font-size:12px;color:var(--brown);margin-top:6px;display:block}
+.vendrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.vend{border:1px solid var(--border);border-radius:20px;padding:3px 12px;font-size:13px;color:var(--fg);background:#fff}
+.vend:hover{background:#faf6ee;text-decoration:none}
+.vend .c{color:var(--muted);font-size:11px;font-family:var(--mono)}
+.hero h1{font-family:var(--serif);font-size:30px;margin:0 0 4px}
+.hero .lead{color:#555;font-size:15px}
+.glist{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
+.glist li{padding:3px 0;font-size:14px;break-inside:avoid}
+.glist .y{color:var(--muted);font-family:var(--mono);font-size:12px;margin-right:6px}
+.entity-sub{color:var(--muted);font-size:13px;font-family:var(--mono);margin-bottom:12px}
+@media(max-width:680px){.glist{columns:1}}
