@@ -34,6 +34,7 @@ export const gameSchema = z.object({
   content_language: z.enum(["zh", "en"]).nullable(),
   genre: z.enum(GENRES).nullable(),
   localization_level: z.enum(["A", "B", "D", "foreign"]).nullable(),
+  series: z.string().nullable().default(null),
 
   // chiuinan-sourced descriptors
   size: z.string().nullable(),
@@ -75,6 +76,7 @@ export const gameSchema = z.object({
   references: z.object({
     omega: z.string().url().optional(),
     fandom: z.string().optional(),
+    chiuinan: z.string().url().optional(),
   }).default({}),
   external_links: z.record(z.string()).default({}),
 
