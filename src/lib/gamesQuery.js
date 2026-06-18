@@ -87,3 +87,42 @@ export function toIndexRecord(d) {
     localization_level: d.localization_level ?? null,
   };
 }
+
+export function seriesOf(g) {
+  return g.series || null;
+}
+
+export function groupBy(games, keyFn) {
+  const m = new Map();
+  for (const g of games) {
+    for (const k of new Set([].concat(keyFn(g)))) {
+      if (k == null || k === '') continue;
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push(g);
+    }
+  }
+  return m;
+}
+
+export function distinctValues(games, keyFn) {
+  const m = new Map();
+  for (const g of games) {
+    for (const k of [].concat(keyFn(g))) {
+      if (k == null || k === '') continue;
+      m.set(k, (m.get(k) || 0) + 1);
+    }
+  }
+  return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
+}
+
+export function relatedFor(game, all, limit = 12) {
+  const cut = a => a.slice(0, limit);
+  const sameSeries = game.series
+    ? all.filter(g => g.id !== game.id && g.series === game.series) : [];
+  const comps = new Set(vendorsOf(game));
+  const sameCompany = comps.size
+    ? all.filter(g => g.id !== game.id && vendorsOf(g).some(v => comps.has(v))) : [];
+  const sameYear = game.year
+    ? all.filter(g => g.id !== game.id && g.year === game.year) : [];
+  return { sameSeries: cut(sameSeries), sameCompany: cut(sameCompany), sameYear: cut(sameYear) };
+}

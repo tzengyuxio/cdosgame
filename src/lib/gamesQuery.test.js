@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   normalize, searchGames, decadeOf, vendorsOf, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
+  seriesOf, groupBy, relatedFor, distinctValues,
 } from './gamesQuery.js';
 
 const G = [
@@ -65,4 +66,37 @@ test('toIndexRecord keeps only index fields', () => {
     Object.keys(r).sort(),
     ['developer','genre','id','localization_level','publisher_tw','title_aliases','title_zh','year']
   );
+});
+
+const H = [
+  { id:'a', title_zh:'仙劍1', year:1995, developer:'大宇', publisher_tw:['大宇'], genre:'即時角色扮演', series:'仙劍奇俠傳' },
+  { id:'b', title_zh:'仙劍2', year:2002, developer:'大宇', publisher_tw:[], genre:'即時角色扮演', series:'仙劍奇俠傳' },
+  { id:'c', title_zh:'三國志2', year:1995, developer:'KOEI', publisher_tw:['智冠'], genre:'計策戰略', series:null },
+];
+
+test('seriesOf', () => {
+  assert.equal(seriesOf(H[0]), '仙劍奇俠傳');
+  assert.equal(seriesOf(H[2]), null);
+});
+
+test('groupBy scalar and array keyFn', () => {
+  const byGenre = groupBy(H, g => g.genre);
+  assert.equal(byGenre.get('即時角色扮演').length, 2);
+  const byVendor = groupBy(H, vendorsOf);   // array keyFn
+  assert.equal(byVendor.get('大宇').length, 2);
+  assert.equal(byVendor.get('智冠').length, 1);
+});
+
+test('distinctValues counts, sorted desc, skips null', () => {
+  const dv = distinctValues(H, g => g.genre);
+  assert.deepEqual(dv[0], { value: '即時角色扮演', count: 2 });
+  assert.equal(dv.find(d => d.value === '計策戰略').count, 1);
+});
+
+test('relatedFor: same series/company/year, excludes self, caps', () => {
+  const r = relatedFor(H[0], H);
+  assert.deepEqual(r.sameSeries.map(g => g.id), ['b']);       // 仙劍2
+  assert.deepEqual(r.sameCompany.map(g => g.id), ['b']);      // 大宇
+  assert.deepEqual(r.sameYear.map(g => g.id), ['c']);         // 1995
+  assert.ok(!r.sameSeries.some(g => g.id === 'a'));           // no self
 });
