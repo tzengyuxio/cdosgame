@@ -333,6 +333,79 @@ def main(write=False):
     print("  next: python3 scripts/build_content.py && npm run validate")
 
 
+def _source_meta_index():
+    """Per-candidate-name lookup into the source dumps, for back-filling thin
+    basematch-append stubs (year / genre / English alias / Taiwan publisher)."""
+    rwv = {}
+    for g in json.loads((D / "rwv-games.json").read_text(encoding="utf-8")):
+        for k in (g.get("source_id"), g.get("identifier")):
+            if k:
+                rwv.setdefault(k, g)
+    omega = {g["name"]: g for g in json.loads((D / "omega-threads.json").read_text(encoding="utf-8"))}
+    bone = {g["name"]: g for g in json.loads((D / "boneash-games.json").read_text(encoding="utf-8"))}
+    fan = {g["name"]: g for g in json.loads((D / "fandom-games.json").read_text(encoding="utf-8"))}
+    return rwv, omega, bone, fan
+
+
+def _omega_meta(raw):
+    """Best-effort (name_en, publisher_tw) from an omega title_raw such as
+    '【原創】迦陵演義.Increment-P.TGL 帝技爺如 / 智冠'. Conservative: only a fully
+    Latin dot-segment becomes name_en; only a trailing ' / 公司' (not a *版
+    edition note) becomes publisher_tw. Developer is left for manual 考據."""
+    raw = re.sub(r"^【[^】]*】", "", raw or "").strip()
+    pub = None
+    m = re.search(r"/\s*([一-鿿]{2,8})\s*$", raw)
+    if m and not m.group(1).endswith("版"):
+        pub = m.group(1)
+    head = raw.split(" / ")[0]
+    en = None
+    for p in [x.strip() for x in head.split(".")][1:]:
+        if re.fullmatch(r"[A-Za-z0-9:'&!,\-\. ]{3,}", p):
+            en = p
+            break
+    return en, pub
+
+
+def _backfill_append(name, entry, idx):
+    """Fill null year/genre/publisher_tw + add English aliases from sources.
+    Never overrides values already set (manual fields win, applied earlier)."""
+    rwv, omega, bone, fan = idx
+    prov = []
+
+    def add_alias(a):
+        if a and a not in entry["title_aliases"] and a != entry["title_zh"]:
+            entry["title_aliases"].append(a)
+
+    g = bone.get(name)
+    if g:
+        if entry.get("year") is None and g.get("year"):
+            entry["year"] = g["year"]
+        # NB: boneash genre uses its own taxonomy (動作/智育…), incompatible with
+        # our genre enum — left for a proper classify/manual pass, not back-filled.
+        add_alias(g.get("name_en"))
+        prov.append("boneash@backfill")
+    g = fan.get(name)
+    if g and entry.get("year") is None and g.get("year"):
+        entry["year"] = g["year"]
+        prov.append("fandom@backfill")
+    g = rwv.get(name)
+    if g:
+        if entry.get("year") is None and g.get("year"):
+            entry["year"] = g["year"]
+        add_alias(g.get("title_en"))
+        prov.append("rwv@backfill")
+    g = omega.get(name)
+    if g and g.get("title_raw"):
+        en, pub = _omega_meta(g["title_raw"])
+        add_alias(en)
+        if pub and not entry.get("publisher_tw"):
+            entry["publisher_tw"] = [pub]
+        prov.append("omega@backfill")
+    for p in prov:
+        if p not in entry["provenance"]:
+            entry["provenance"].append(p)
+
+
 def load_offlinelist_images():
     """imageNumber -> [local screenshot paths] from the fetch manifest."""
     out = defaultdict(list)
@@ -361,6 +434,7 @@ def apply_basematch(merged):
     olg = {g["name"]: g for g in json.loads((D / "offlinelist-games.json").read_text())}
     reg = json.loads((D.parent / "data/id-registry.json").read_text())["ids"]
     ol_img = load_offlinelist_images()
+    src_idx = _source_meta_index()
 
     def imgs_of(simp):
         g = olg.get(simp, {})
@@ -392,6 +466,8 @@ def apply_basematch(merged):
         # explicit field overrides (manual adds: non-offlinelist sources,
         # custom external_links, release_codes, etc.)
         entry.update(d.get("fields", {}))
+        # back-fill thin stubs from source dumps (year/genre/en-alias/publisher)
+        _backfill_append(simp, entry, src_idx)
         merged.append(entry)
         appends += 1
 

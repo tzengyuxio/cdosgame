@@ -137763,7 +137763,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137791,7 +137792,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137819,7 +137821,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137847,7 +137850,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137875,7 +137879,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137903,7 +137908,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -137931,13 +137937,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "D的事件簿",
     "title_aliases": [
-      "D"
+      "D",
+      "Piston Soft"
     ],
     "year": null,
     "developer": null,
@@ -137959,7 +137967,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -137987,7 +137996,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -138015,7 +138025,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -138043,7 +138054,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -138071,7 +138083,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138099,7 +138112,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138127,7 +138141,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138155,7 +138170,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138183,7 +138199,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138211,7 +138228,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138239,7 +138257,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138267,7 +138286,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138295,7 +138315,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138323,7 +138344,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138351,7 +138373,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138379,7 +138402,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138407,7 +138431,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138435,7 +138460,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138463,7 +138489,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138491,7 +138518,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138519,7 +138547,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138547,7 +138576,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138575,7 +138605,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138603,7 +138634,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138631,7 +138663,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138659,7 +138692,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138687,13 +138721,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "爆爆超人兵團",
     "title_aliases": [
-      "G1195-爆爆超人兵團"
+      "G1195-爆爆超人兵團",
+      "Super I chi boom"
     ],
     "year": null,
     "developer": null,
@@ -138715,7 +138751,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138743,7 +138780,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138771,13 +138809,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "搞怪小站",
     "title_aliases": [
-      "G1246-搞怪小站"
+      "G1246-搞怪小站",
+      "ODDBALLZ"
     ],
     "year": null,
     "developer": null,
@@ -138799,13 +138839,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "企鵝闖天關",
     "title_aliases": [
-      "G1256-企鵝闖天關"
+      "G1256-企鵝闖天關",
+      "Mutant Penguins"
     ],
     "year": null,
     "developer": null,
@@ -138827,7 +138869,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138855,7 +138898,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -138883,13 +138927,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "幕府將軍：蒙古入侵",
     "title_aliases": [
-      "G1380-幕府將軍：蒙古入侵 中英文合版資料片"
+      "G1380-幕府將軍：蒙古入侵 中英文合版資料片",
+      "Creative Assembly"
     ],
     "year": null,
     "developer": null,
@@ -138911,13 +138957,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "噴射戰鬥機",
     "title_aliases": [
-      "G1384-噴射戰鬥機"
+      "G1384-噴射戰鬥機",
+      "Jetfighter 3"
     ],
     "year": null,
     "developer": null,
@@ -138939,13 +138987,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "天下御免",
     "title_aliases": [
-      "G1385-天下御免 中文視窗版"
+      "G1385-天下御免 中文視窗版",
+      "Artdink"
     ],
     "year": null,
     "developer": null,
@@ -138967,13 +139017,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "烽火連天",
     "title_aliases": [
-      "G1389-烽火連天"
+      "G1389-烽火連天",
+      "War Wind"
     ],
     "year": null,
     "developer": null,
@@ -138995,13 +139047,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "異軍突起",
     "title_aliases": [
-      "G1390-異軍突起"
+      "G1390-異軍突起",
+      "FlatCat"
     ],
     "year": null,
     "developer": null,
@@ -139023,18 +139077,22 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "GP3 F1賽車 世界冠軍賽",
     "title_aliases": [
-      "G1439-GP3-F1賽車 世界冠軍賽"
+      "G1439-GP3-F1賽車 世界冠軍賽",
+      "Grand Prix 3"
     ],
     "year": null,
     "developer": null,
     "developer_region": null,
-    "publisher_tw": [],
+    "publisher_tw": [
+      "皇統光碟"
+    ],
     "content_language": null,
     "genre": null,
     "localization_level": null,
@@ -139051,13 +139109,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "深海奇兵",
     "title_aliases": [
-      "G186-深海奇兵"
+      "G186-深海奇兵",
+      "Ocean Commander"
     ],
     "year": null,
     "developer": null,
@@ -139079,7 +139139,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139107,13 +139168,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "風天翔",
     "title_aliases": [
-      "G351-風天翔"
+      "G351-風天翔",
+      "Wings"
     ],
     "year": null,
     "developer": null,
@@ -139135,7 +139198,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139163,7 +139227,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139191,7 +139256,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139219,13 +139285,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "旦旦超人",
     "title_aliases": [
-      "G561-旦旦超人"
+      "G561-旦旦超人",
+      "EGGMAN"
     ],
     "year": null,
     "developer": null,
@@ -139247,7 +139315,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139258,7 +139327,9 @@
     "year": null,
     "developer": null,
     "developer_region": null,
-    "publisher_tw": [],
+    "publisher_tw": [
+      "柏青哥俱樂部"
+    ],
     "content_language": null,
     "genre": null,
     "localization_level": null,
@@ -139275,7 +139346,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139303,7 +139375,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139331,7 +139404,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139359,7 +139433,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139387,7 +139462,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139415,13 +139491,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "毛毛怪大歷險 救出蜜蜜公主篇",
     "title_aliases": [
-      "G904-毛毛怪大歷險 救出蜜蜜公主篇"
+      "G904-毛毛怪大歷險 救出蜜蜜公主篇",
+      "Gemo's Adventure-Rescue princesses Mimi"
     ],
     "year": null,
     "developer": null,
@@ -139443,7 +139521,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139471,7 +139550,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139499,7 +139579,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139527,7 +139608,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139555,7 +139637,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139583,7 +139666,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139611,13 +139695,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "亞瑟王的魔術城堡",
     "title_aliases": [
-      "T052-亞瑟王的魔術城堡"
+      "T052-亞瑟王的魔術城堡",
+      "King Arthur's Magic Castle"
     ],
     "year": null,
     "developer": null,
@@ -139639,13 +139725,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "孤島漂流記",
     "title_aliases": [
-      "T053-孤島漂流記"
+      "T053-孤島漂流記",
+      "The Swiss Family Robinson"
     ],
     "year": null,
     "developer": null,
@@ -139667,7 +139755,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139695,7 +139784,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139751,7 +139841,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139777,7 +139868,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139803,7 +139895,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -139831,13 +139924,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "中國球王",
     "title_aliases": [
-      "中国球王"
+      "中国球王",
+      "Chinese king of soccer "
     ],
     "year": 1996,
     "developer": null,
@@ -139864,7 +139959,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139904,6 +140000,7 @@
     "provenance": [
       "softworld@boneash-scan",
       "boneash@oldgame.tw",
+      "boneash@backfill",
       "rwv@merge"
     ]
   },
@@ -139932,7 +140029,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139960,7 +140058,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -139988,7 +140087,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140051,12 +140151,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "全能運動會",
-    "title_aliases": [],
+    "title_aliases": [
+      "International Sports Challenge"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140077,7 +140180,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -140105,7 +140209,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140133,12 +140238,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "冒險創作機",
-    "title_aliases": [],
+    "title_aliases": [
+      "Adventure Construction Set"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140159,7 +140267,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -140187,7 +140296,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140215,7 +140325,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140243,7 +140354,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140271,7 +140383,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140299,12 +140412,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "卡通畫家",
-    "title_aliases": [],
+    "title_aliases": [
+      "Cartooners"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140325,7 +140441,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -140353,7 +140470,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140381,7 +140499,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140409,7 +140528,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140437,7 +140557,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140465,7 +140586,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140529,7 +140651,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140557,12 +140680,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "原振俠傳奇",
-    "title_aliases": [],
+    "title_aliases": [
+      "NeoStyle"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140583,12 +140709,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "原罪",
-    "title_aliases": [],
+    "title_aliases": [
+      "Sin"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140609,7 +140738,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -140637,7 +140767,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140665,13 +140796,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "古堡之宴",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Uninvited"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -140691,12 +140825,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "古墓奇兵3資料片：失落的神器",
-    "title_aliases": [],
+    "title_aliases": [
+      "Core Design"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140717,7 +140855,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -140745,7 +140884,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140771,7 +140911,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140799,7 +140940,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140827,7 +140969,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140855,7 +140998,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -140883,15 +141027,17 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "國王密使III：魔法生死鬥",
     "title_aliases": [
-      "國王密使Ⅲ：魔法生死鬥"
+      "國王密使Ⅲ：魔法生死鬥",
+      "King's Quest Ⅲ：To Heir is Human"
     ],
-    "year": null,
+    "year": 1986,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -140911,7 +141057,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -140972,7 +141119,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141000,7 +141148,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141028,7 +141177,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141061,7 +141211,9 @@
   },
   {
     "title_zh": "城市奇俠：騎哥幫五人組",
-    "title_aliases": [],
+    "title_aliases": [
+      "Headbone Interactive"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141082,12 +141234,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "塞司奇域之化學物能",
-    "title_aliases": [],
+    "title_aliases": [
+      "The Science Territory"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141108,12 +141263,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "壞蟑螂",
-    "title_aliases": [],
+    "title_aliases": [
+      "Bad Mojo"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141134,7 +141292,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141160,7 +141319,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141198,8 +141358,10 @@
   },
   {
     "title_zh": "大海戰",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Great Naval Battles"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -141219,13 +141381,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "大航海世紀",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Merchant Colony"
+    ],
+    "year": 1991,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -141245,7 +141410,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -141273,7 +141439,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141357,12 +141524,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "女強人亞紀子",
-    "title_aliases": [],
+    "title_aliases": [
+      "AKIKO HARD The Third Impact"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141383,12 +141553,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "好朋友一起走-中英雙語",
-    "title_aliases": [],
+    "title_aliases": [
+      "Let's Go Together"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141409,7 +141582,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141435,7 +141609,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141463,7 +141638,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141491,7 +141667,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141519,12 +141696,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "小飛弟呼叫太陽系",
-    "title_aliases": [],
+    "title_aliases": [
+      "Mind Magic"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141545,7 +141725,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141571,7 +141752,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141599,12 +141781,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "巧比的自然奇遇-中文版",
-    "title_aliases": [],
+    "title_aliases": [
+      "Jubilee's Journey"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141625,7 +141810,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141653,7 +141839,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141681,7 +141868,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141709,7 +141897,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141737,7 +141926,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141765,12 +141955,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "巴拉拉狂想曲",
-    "title_aliases": [],
+    "title_aliases": [
+      "Banana tree"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141791,7 +141984,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -141847,7 +142041,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -141908,12 +142103,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "幻境工作室",
-    "title_aliases": [],
+    "title_aliases": [
+      "VIRTUAL REALITY STUDIO 2"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141934,13 +142132,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "幽靈騎士",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Death Knights of Krynn"
+    ],
+    "year": 1991,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -141960,7 +142161,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -141988,7 +142190,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142016,7 +142219,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142044,7 +142248,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142072,7 +142277,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142100,7 +142306,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142156,7 +142363,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142184,13 +142392,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "忍者祕術",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Moebius"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -142210,7 +142421,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -142236,7 +142448,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142264,7 +142477,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142290,7 +142504,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142346,13 +142561,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "戰國群英",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Samurai：The Way of the Warrior"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -142372,7 +142590,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -142400,7 +142619,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142428,7 +142648,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142456,7 +142677,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142484,7 +142706,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142512,7 +142735,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142540,7 +142764,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142568,7 +142793,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142596,7 +142822,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142624,7 +142851,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142652,7 +142880,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142680,12 +142909,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "摩登家族：米路歷險",
-    "title_aliases": [],
+    "title_aliases": [
+      "Modern Family Mystic Island"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -142706,7 +142938,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -142732,7 +142965,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142760,7 +142994,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142786,7 +143021,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -142812,7 +143048,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -142840,7 +143077,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142868,7 +143106,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142894,7 +143133,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -142922,7 +143162,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142950,7 +143191,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -142978,39 +143220,14 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "星際大戰 絕地武士2：絕地浪子",
-    "title_aliases": [],
-    "year": null,
-    "developer": null,
-    "developer_region": null,
-    "publisher_tw": [],
-    "content_language": null,
-    "genre": null,
-    "localization_level": null,
-    "localization_basis": "merged (basematch append)",
-    "size": null,
-    "platform_note": null,
-    "catalog_id": null,
-    "license_status": null,
-    "release_codes": [],
-    "cover": null,
-    "images": {},
-    "references": {},
-    "external_links": {},
-    "editions": [],
-    "intro_todo": true,
-    "provenance": [
-      "rwv@merge"
-    ]
-  },
-  {
-    "title_zh": "星際大戰：首部曲－威脅潛伏",
     "title_aliases": [
-      "星際大戰-首部曲-威脅潛伏"
+      "Raven Software"
     ],
     "year": null,
     "developer": null,
@@ -143032,13 +143249,46 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
+    ]
+  },
+  {
+    "title_zh": "星際大戰：首部曲－威脅潛伏",
+    "title_aliases": [
+      "星際大戰-首部曲-威脅潛伏",
+      "LucasArts"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "星際航艦",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Starflight"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143058,12 +143308,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "普巴",
-    "title_aliases": [],
+    "title_aliases": [
+      "pruba kocheshi"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -143084,7 +143337,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143112,7 +143366,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143140,7 +143395,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143168,7 +143424,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143196,7 +143453,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143224,13 +143482,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "未來戰爭",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Future Wars"
+    ],
+    "year": 1990,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143250,7 +143511,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -143278,7 +143540,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143306,7 +143569,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143360,7 +143624,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143386,7 +143651,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143412,7 +143678,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143438,7 +143705,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143464,7 +143732,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143490,13 +143759,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "極道梟雄",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Syndicate"
+    ],
+    "year": 1993,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143516,7 +143788,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -143544,13 +143817,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "模擬地球",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Sim Earth"
+    ],
+    "year": 1991,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143570,13 +143846,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "機甲旋風",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "One Must Fall 2097"
+    ],
+    "year": 1994,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143596,13 +143875,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "步步殺機",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Rick Dangerous"
+    ],
+    "year": 1989,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143622,13 +143904,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "武士傳說",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Knights of Legend"
+    ],
+    "year": 1989,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143648,7 +143933,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -143674,13 +143960,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "死亡之劍",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Death Sword"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143700,7 +143989,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -143728,13 +144018,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "死亡潛航",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Silent Service"
+    ],
+    "year": 1985,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143754,13 +144047,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "殖民帝國",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Colonization"
+    ],
+    "year": 1994,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143780,7 +144076,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -143836,13 +144133,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "決戰撲克",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Solitaire's Journey"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143862,13 +144162,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "泰坦風雲",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Mines of Titan"
+    ],
+    "year": 1989,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -143888,13 +144191,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "洛克人的黃金帝國",
     "title_aliases": [
-      "洛克人の黃金帝國"
+      "洛克人の黃金帝國",
+      "Rockman Gold Empire"
     ],
     "year": null,
     "developer": null,
@@ -143916,7 +144221,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -143944,7 +144250,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -143972,12 +144279,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "海底大戰爭",
-    "title_aliases": [],
+    "title_aliases": [
+      "In the Hunt"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -143998,12 +144308,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "海豚鳥節奏王國",
-    "title_aliases": [],
+    "title_aliases": [
+      "Tan Tan TEO"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -144024,13 +144337,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "深入虎穴",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Into the Eagle's Nest"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144050,7 +144366,9 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill",
+      "rwv@backfill"
     ]
   },
   {
@@ -144078,7 +144396,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144109,8 +144428,10 @@
   },
   {
     "title_zh": "熱血小毛球",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Fury Of The Furries"
+    ],
+    "year": 1993,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144130,12 +144451,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "爆走卡車之橫越美洲",
-    "title_aliases": [],
+    "title_aliases": [
+      "18 Wheels of Steel - Across America"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -144156,7 +144480,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144184,7 +144509,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144212,12 +144538,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "特技島",
-    "title_aliases": [],
+    "title_aliases": [
+      "Stunt Island"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -144238,7 +144567,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144264,7 +144594,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144292,7 +144623,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144320,7 +144652,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144348,7 +144681,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144402,7 +144736,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144428,13 +144763,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "異域寶藏",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Treasures of the Savage Frontier"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144454,7 +144792,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -144480,7 +144819,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144541,8 +144881,10 @@
   },
   {
     "title_zh": "瘋狂大樓",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Maniac Mansion"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144562,13 +144904,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "瘋狂大毀滅",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Rampage"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144588,7 +144933,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -144614,15 +144960,17 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "瘋狂時代",
     "title_aliases": [
+      "Day of the Tentacle",
       "疯狂时代"
     ],
-    "year": null,
+    "year": 1993,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144642,7 +144990,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -144668,7 +145017,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144694,7 +145044,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144722,7 +145073,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -144750,13 +145102,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "眼鏡蛇計劃",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Patton vs Rommel"
+    ],
+    "year": 1986,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144776,13 +145131,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "神奇王國",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Mixed-Up Mother Goose"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144802,7 +145160,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -144835,7 +145194,9 @@
   },
   {
     "title_zh": "秋之回憶4～從今以後 Again～",
-    "title_aliases": [],
+    "title_aliases": [
+      "KID"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -144856,7 +145217,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144882,12 +145244,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "秘境神話",
-    "title_aliases": [],
+    "title_aliases": [
+      "ORIGINALLY MYTH"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -144908,13 +145273,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "空中飛鯊",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Sky Shark"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -144934,7 +145302,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -144960,7 +145329,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -144986,7 +145356,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145014,13 +145385,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "紅色風暴",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Red Storm Rising"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -145040,13 +145414,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "網路奇兵2",
     "title_aliases": [
-      "網絡奇兵2"
+      "網絡奇兵2",
+      "System Shock 2"
     ],
     "year": null,
     "developer": null,
@@ -145068,7 +145444,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145122,12 +145499,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "美國城市賽車",
-    "title_aliases": [],
+    "title_aliases": [
+      "USA RACER"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145148,12 +145528,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "美女寶石陣",
-    "title_aliases": [],
+    "title_aliases": [
+      "GEMX"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145174,12 +145557,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "美少女超級麻將",
-    "title_aliases": [],
+    "title_aliases": [
+      "Nihon Bussan"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145200,7 +145586,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145226,7 +145613,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145254,7 +145642,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145282,12 +145671,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "花語-花天神語繪圖系列之一",
-    "title_aliases": [],
+    "title_aliases": [
+      "FLOWER"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145308,7 +145700,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145336,7 +145729,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145364,7 +145758,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145392,7 +145787,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145420,7 +145816,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145448,7 +145845,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145476,15 +145874,17 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "虎膽妙算2",
     "title_aliases": [
-      "虎膽妙算２"
+      "虎膽妙算２",
+      "Impossible Mission 2"
     ],
-    "year": null,
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -145504,7 +145904,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -145530,7 +145931,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145556,7 +145958,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145584,7 +145987,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145612,7 +146016,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145640,12 +146045,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "行星末日戰記",
-    "title_aliases": [],
+    "title_aliases": [
+      "Full Metal Planete"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145666,7 +146074,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145694,7 +146103,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145720,7 +146130,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145746,7 +146157,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145774,12 +146186,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "象棋世家V5",
-    "title_aliases": [],
+    "title_aliases": [
+      "Chinese Chess Shijia V5"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -145800,7 +146215,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -145833,7 +146249,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145861,7 +146278,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145919,7 +146337,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145947,7 +146366,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -145973,7 +146393,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146001,16 +146422,21 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "迦陵演義",
-    "title_aliases": [],
+    "title_aliases": [
+      "Increment-P"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
-    "publisher_tw": [],
+    "publisher_tw": [
+      "智冠"
+    ],
     "content_language": null,
     "genre": null,
     "localization_level": null,
@@ -146027,7 +146453,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -146055,7 +146482,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146081,7 +146509,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146107,12 +146536,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "遊戲剋星2",
-    "title_aliases": [],
+    "title_aliases": [
+      "Game Buster 2"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -146133,7 +146565,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -146159,12 +146592,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "遊戲駭客族",
-    "title_aliases": [],
+    "title_aliases": [
+      "GAME-ICE"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -146185,7 +146621,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -146211,13 +146648,102 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "銀河霸主",
     "title_aliases": [
+      "Master of Orion",
       "银河霸主(猎户座之王)"
+    ],
+    "year": 1994,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge",
+      "boneash@backfill"
+    ]
+  },
+  {
+    "title_zh": "銀河風暴",
+    "title_aliases": [
+      "Renegade Legion：Interceptor"
+    ],
+    "year": 1990,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge",
+      "boneash@backfill"
+    ]
+  },
+  {
+    "title_zh": "鐵血傭兵",
+    "title_aliases": [
+      "Hard Nova"
+    ],
+    "year": 1990,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge",
+      "boneash@backfill"
+    ]
+  },
+  {
+    "title_zh": "鐵道夢想家",
+    "title_aliases": [
+      "Ultimate Trainz Collection"
     ],
     "year": null,
     "developer": null,
@@ -146239,85 +146765,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
-    ]
-  },
-  {
-    "title_zh": "銀河風暴",
-    "title_aliases": [],
-    "year": null,
-    "developer": null,
-    "developer_region": null,
-    "publisher_tw": [],
-    "content_language": null,
-    "genre": null,
-    "localization_level": null,
-    "localization_basis": "merged (basematch append)",
-    "size": null,
-    "platform_note": null,
-    "catalog_id": null,
-    "license_status": null,
-    "release_codes": [],
-    "cover": null,
-    "images": {},
-    "references": {},
-    "external_links": {},
-    "editions": [],
-    "intro_todo": true,
-    "provenance": [
-      "boneash@merge"
-    ]
-  },
-  {
-    "title_zh": "鐵血傭兵",
-    "title_aliases": [],
-    "year": null,
-    "developer": null,
-    "developer_region": null,
-    "publisher_tw": [],
-    "content_language": null,
-    "genre": null,
-    "localization_level": null,
-    "localization_basis": "merged (basematch append)",
-    "size": null,
-    "platform_note": null,
-    "catalog_id": null,
-    "license_status": null,
-    "release_codes": [],
-    "cover": null,
-    "images": {},
-    "references": {},
-    "external_links": {},
-    "editions": [],
-    "intro_todo": true,
-    "provenance": [
-      "boneash@merge"
-    ]
-  },
-  {
-    "title_zh": "鐵道夢想家",
-    "title_aliases": [],
-    "year": null,
-    "developer": null,
-    "developer_region": null,
-    "publisher_tw": [],
-    "content_language": null,
-    "genre": null,
-    "localization_level": null,
-    "localization_basis": "merged (basematch append)",
-    "size": null,
-    "platform_note": null,
-    "catalog_id": null,
-    "license_status": null,
-    "release_codes": [],
-    "cover": null,
-    "images": {},
-    "references": {},
-    "external_links": {},
-    "editions": [],
-    "intro_todo": true,
-    "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -146373,7 +146822,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146401,7 +146851,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146429,7 +146880,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146457,7 +146909,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146485,7 +146938,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146513,7 +146967,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146569,13 +147024,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "閃電鋼球",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Speedball"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -146595,7 +147053,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -146623,7 +147082,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146649,7 +147109,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146675,7 +147136,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146701,13 +147163,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "雪山競技",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "The Games：Winter Challenge"
+    ],
+    "year": 1991,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -146727,13 +147192,43 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "boneash@merge"
+      "boneash@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "雷諾尼都紀事II 賞金獵人",
     "title_aliases": [
       "雷诺尼都纪事II 赏金猎人"
+    ],
+    "year": 1996,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "fandom@merge",
+      "fandom@backfill"
+    ]
+  },
+  {
+    "title_zh": "雷霆任務",
+    "title_aliases": [
+      "Thandor the Invasion"
     ],
     "year": null,
     "developer": null,
@@ -146755,39 +147250,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "fandom@merge"
-    ]
-  },
-  {
-    "title_zh": "雷霆任務",
-    "title_aliases": [],
-    "year": null,
-    "developer": null,
-    "developer_region": null,
-    "publisher_tw": [],
-    "content_language": null,
-    "genre": null,
-    "localization_level": null,
-    "localization_basis": "merged (basematch append)",
-    "size": null,
-    "platform_note": null,
-    "catalog_id": null,
-    "license_status": null,
-    "release_codes": [],
-    "cover": null,
-    "images": {},
-    "references": {},
-    "external_links": {},
-    "editions": [],
-    "intro_todo": true,
-    "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "風雲際會",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Willow"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -146807,13 +147279,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "風雲霸主",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Power Monger"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -146833,7 +147308,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -146861,7 +147337,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146889,7 +147366,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146917,7 +147395,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -146945,12 +147424,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "魔域悍將",
-    "title_aliases": [],
+    "title_aliases": [
+      "Escape Impossible"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -146971,13 +147453,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "omega@backfill"
     ]
   },
   {
     "title_zh": "魔影之門",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Shadowgate"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -146997,7 +147482,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -147025,13 +147511,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "魔法之燭",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Magic Candle"
+    ],
+    "year": 1989,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147051,15 +147540,17 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "魔法帝國",
     "title_aliases": [
-      "魔法大帝"
+      "魔法大帝",
+      "Master of Magic"
     ],
-    "year": null,
+    "year": 1995,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147079,7 +147570,9 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill",
+      "rwv@backfill"
     ]
   },
   {
@@ -147107,7 +147600,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -147133,13 +147627,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "魔界村",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Ghosts'n Goblins"
+    ],
+    "year": 1988,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147159,7 +147656,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
@@ -147185,7 +147683,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
@@ -147213,13 +147712,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "offlinelist@merge"
+      "offlinelist@merge",
+      "rwv@backfill"
     ]
   },
   {
     "title_zh": "黑暗紀元",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Darklands"
+    ],
+    "year": 1992,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147239,13 +147741,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "龍之忍者",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Bad Dudes"
+    ],
+    "year": 1987,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147265,13 +147770,16 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "龍之道",
-    "title_aliases": [],
-    "year": null,
+    "title_aliases": [
+      "Drakkhen"
+    ],
+    "year": 1990,
     "developer": null,
     "developer_region": null,
     "publisher_tw": [],
@@ -147291,12 +147799,15 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "boneash@backfill"
     ]
   },
   {
     "title_zh": "龐克雙鱷",
-    "title_aliases": [],
+    "title_aliases": [
+      "The Cool Croc Twins"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -147317,7 +147828,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "omega@merge"
+      "omega@merge",
+      "omega@backfill"
     ]
   },
   {
@@ -147345,7 +147857,8 @@
     "editions": [],
     "intro_todo": true,
     "provenance": [
-      "rwv@merge"
+      "rwv@merge",
+      "rwv@backfill"
     ]
   }
 ]
