@@ -308,12 +308,15 @@ def main(write=False):
         json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # review queue: ambiguous/non-game + low-confidence new + undecided auto-new,
-    # minus anything already resolved via the base-match worklist.
+    # minus anything already resolved via the base-match worklist (applies to ALL
+    # three pools — a basematch merge/reject/append decides a candidate for good).
     review_out = (
         [{"name": c["name"], "reason": c["reason"], "src": c["src"]}
          for c in review if c["name"] not in bm_decided]
-        + [{"name": m["name"], "reason": "low-confidence", "srcs": m["srcs"]} for m in low_new]
-        + [{"name": m["name"], "reason": "undecided", "srcs": m["srcs"]} for m in undecided]
+        + [{"name": m["name"], "reason": "low-confidence", "srcs": m["srcs"]}
+           for m in low_new if m["name"] not in bm_decided]
+        + [{"name": m["name"], "reason": "undecided", "srcs": m["srcs"]}
+           for m in undecided if m["name"] not in bm_decided]
     )
     (D / "merge-review.json").write_text(
         json.dumps(review_out, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -347,8 +350,10 @@ def load_offlinelist_images():
 def apply_basematch(merged):
     """Apply data/basematch-decisions.json (hand-curated from the base-match
     worklist). `append` -> new catalog entry; `merge` -> tag the chosen existing
-    entry with offlinelist provenance + 簡 alias + screenshot (繁名 stays canonical);
-    `reject` -> drop. Returns (merged, decided_simp_names, stats)."""
+    entry with provenance (d["prov"], default offlinelist@cndosgames) + the
+    candidate name as alias + screenshot (繁名 stays canonical); `reject` -> drop.
+    Appends run first so a merge may target an append-created entry.
+    Returns (merged, decided_simp_names, stats)."""
     path = D.parent / "data/basematch-decisions.json"
     if not path.exists():
         return merged, set(), {"appends": 0, "merges": 0, "rejects": 0, "missing": []}
@@ -356,36 +361,48 @@ def apply_basematch(merged):
     olg = {g["name"]: g for g in json.loads((D / "offlinelist-games.json").read_text())}
     reg = json.loads((D.parent / "data/id-registry.json").read_text())["ids"]
     ol_img = load_offlinelist_images()
+
+    def imgs_of(simp):
+        g = olg.get(simp, {})
+        return ol_img.get(g.get("image_number")) if g else None
+
+    appends = merges = rejects = 0
+    missing = []
+
+    # Pass 1: appends first, so merges can target append-created entries too.
+    for simp, d in dec.items():
+        if d["action"] != "append":
+            continue
+        g = olg.get(simp, {})
+        imgs = imgs_of(simp)
+        title = d.get("title") or g.get("name_zh_hant") or simp
+        entry = {
+            "title_zh": title,
+            "title_aliases": [simp] if simp != title else [],
+            "year": g.get("year"),
+            "developer": None, "developer_region": None, "publisher_tw": [],
+            "content_language": None, "genre": None,
+            "localization_level": None, "localization_basis": "merged (basematch append)",
+            "size": None, "platform_note": None, "catalog_id": None,
+            "license_status": None, "release_codes": [], "cover": None,
+            "images": {"offlinelist": imgs} if imgs else {},
+            "references": {}, "external_links": {}, "editions": [],
+            "intro_todo": True, "provenance": ["offlinelist@merge"],
+        }
+        # explicit field overrides (manual adds: non-offlinelist sources,
+        # custom external_links, release_codes, etc.)
+        entry.update(d.get("fields", {}))
+        merged.append(entry)
+        appends += 1
+
+    # by_title built AFTER appends so an append target is resolvable.
     by_title = defaultdict(list)
     for e in merged:
         by_title[e["title_zh"]].append(e)
 
-    appends = merges = rejects = 0
-    missing = []
+    # Pass 2: merges + rejects.
     for simp, d in dec.items():
-        g = olg.get(simp, {})
-        imgs = ol_img.get(g.get("image_number")) if g else None
-        if d["action"] == "append":
-            title = d.get("title") or g.get("name_zh_hant") or simp
-            entry = {
-                "title_zh": title,
-                "title_aliases": [simp] if simp != title else [],
-                "year": g.get("year"),
-                "developer": None, "developer_region": None, "publisher_tw": [],
-                "content_language": None, "genre": None,
-                "localization_level": None, "localization_basis": "merged (basematch append)",
-                "size": None, "platform_note": None, "catalog_id": None,
-                "license_status": None, "release_codes": [], "cover": None,
-                "images": {"offlinelist": imgs} if imgs else {},
-                "references": {}, "external_links": {}, "editions": [],
-                "intro_todo": True, "provenance": ["offlinelist@merge"],
-            }
-            # explicit field overrides (manual adds: non-offlinelist sources,
-            # custom external_links, release_codes, etc.)
-            entry.update(d.get("fields", {}))
-            merged.append(entry)
-            appends += 1
-        elif d["action"] == "merge":
+        if d["action"] == "merge":
             rt = reg.get(d["target"], {})
             cands = by_title.get(rt.get("title_zh"), [])
             if len(cands) > 1 and rt.get("developer"):
@@ -394,10 +411,12 @@ def apply_basematch(merged):
                 missing.append((simp, d["target"]))
                 continue
             tgt = cands[0]
-            if "offlinelist@cndosgames" not in tgt["provenance"]:
-                tgt["provenance"].append("offlinelist@cndosgames")
+            prov = d.get("prov", "offlinelist@cndosgames")  # default = OfflineList worklist
+            if prov not in tgt["provenance"]:
+                tgt["provenance"].append(prov)
             if simp not in tgt.setdefault("title_aliases", []):
                 tgt["title_aliases"].append(simp)
+            imgs = imgs_of(simp)
             if imgs:
                 tgt.setdefault("images", {}).setdefault("offlinelist", imgs)
             merges += 1
