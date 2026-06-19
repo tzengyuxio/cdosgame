@@ -58560,6 +58560,7 @@
       "死亡飛車",
       "喋血賽車",
       "Carmageddon",
+      "喋血赛车",
       "死亡飞车"
     ],
     "year": 1997,
@@ -67490,7 +67491,8 @@
       "D Wolfenstein 3D",
       "德军总部命运之矛",
       "德軍總部3D",
-      "德軍總部３Ｄ"
+      "德軍總部３Ｄ",
+      "重返德军总部3D"
     ],
     "year": 1992,
     "developer": "id",
@@ -106446,7 +106448,8 @@
   {
     "title_zh": "機甲爭霸戰：新月鷹的復仇",
     "title_aliases": [
-      "BattleTech: The Crescent Hawk's Revenge"
+      "BattleTech: The Crescent Hawk's Revenge",
+      "战甲：月鹰复仇"
     ],
     "year": 1990,
     "developer": "Westwood",
@@ -106467,7 +106470,8 @@
     "references": {},
     "images": {},
     "provenance": [
-      "chiuinan@list-1.htm"
+      "chiuinan@list-1.htm",
+      "rwv@merge"
     ]
   },
   {
@@ -112355,7 +112359,8 @@
   {
     "title_zh": "戰神2",
     "title_aliases": [
-      "Warlords 2"
+      "Warlords 2",
+      "战神2英版+编辑器"
     ],
     "year": 1993,
     "developer": "SSG",
@@ -137732,6 +137737,314 @@
     ]
   },
   {
+    "title_zh": "1830鐵路公爵",
+    "title_aliases": [
+      "1830铁路公爵"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "1869",
+    "title_aliases": [
+      "1869大航海"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "4D網球",
+    "title_aliases": [
+      "4D网球"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "94美國世界盃",
+    "title_aliases": [
+      "94美国世界杯"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "A320空中巴士",
+    "title_aliases": [
+      "A320空中客机"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "Boppin'",
+    "title_aliases": [
+      "BOPPIN物理游戏"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "B傳說：戰鬥彈珠人",
+    "title_aliases": [
+      "B傳說-戰鬥彈珠人-中文版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "D的事件簿",
+    "title_aliases": [
+      "D"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "F-15獵鷹戰機",
+    "title_aliases": [
+      "F15战斗机"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "FIFA足球1996",
+    "title_aliases": [
+      "FIFA1996"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "FIFA足球97",
+    "title_aliases": [
+      "FIFA97"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "棒！辣妹三合一益智王",
     "title_aliases": [
       "G005-棒！辣妹三合一益智王"
@@ -137928,9 +138241,65 @@
     ]
   },
   {
+    "title_zh": "幻獸魔石",
+    "title_aliases": [
+      "G033-幻獸魔石 Dragon Stone"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "決戰e魔 Little Red Devil e-Mail",
     "title_aliases": [
       "G034-決戰e魔 LITTLE RED DEVIL e-Mail"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "精靈夜想曲",
+    "title_aliases": [
+      "G036-精靈夜想曲 ZANZARAH:THE HIDDEN PORTAL"
     ],
     "year": null,
     "developer": null,
@@ -138124,9 +138493,149 @@
     ]
   },
   {
+    "title_zh": "諾曼地：最長的一日",
+    "title_aliases": [
+      "G058-諾曼地 最長的一日 中文版 D-Day"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "靈幻宅急便",
+    "title_aliases": [
+      "G069-靈幻宅急便"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "神秘之旅",
+    "title_aliases": [
+      "G082-神秘之旅 國際中文版 Schizm：Mysterious Journey"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "南俠展昭痞子龍",
+    "title_aliases": [
+      "G102-南俠展昭痞子龍"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "遊戲輕鬆打",
     "title_aliases": [
       "G1023-遊戲輕鬆打"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "城市獵人",
+    "title_aliases": [
+      "G1092-城市獵人"
     ],
     "year": null,
     "developer": null,
@@ -138180,6 +138689,230 @@
     ]
   },
   {
+    "title_zh": "爆爆超人兵團",
+    "title_aliases": [
+      "G1195-爆爆超人兵團"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "平妖傳",
+    "title_aliases": [
+      "G120-平妖傳"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "武狀元蘇乞兒",
+    "title_aliases": [
+      "G1220-武狀元蘇乞兒"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "搞怪小站",
+    "title_aliases": [
+      "G1246-搞怪小站"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "企鵝闖天關",
+    "title_aliases": [
+      "G1256-企鵝闖天關"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "新．乞丐王子",
+    "title_aliases": [
+      "G1303-G5-091-新．乞丐王子"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "機智冒險大闖關",
+    "title_aliases": [
+      "G1328-機智冒險大闖關"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "幕府將軍：蒙古入侵",
+    "title_aliases": [
+      "G1380-幕府將軍：蒙古入侵 中英文合版資料片"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "噴射戰鬥機",
     "title_aliases": [
       "G1384-噴射戰鬥機"
@@ -138208,6 +138941,34 @@
     ]
   },
   {
+    "title_zh": "天下御免",
+    "title_aliases": [
+      "G1385-天下御免 中文視窗版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "烽火連天",
     "title_aliases": [
       "G1389-烽火連天"
@@ -138233,6 +138994,34 @@
     "intro_todo": true,
     "provenance": [
       "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "異軍突起",
+    "title_aliases": [
+      "G1390-異軍突起"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
     ]
   },
   {
@@ -138292,9 +139081,121 @@
     ]
   },
   {
+    "title_zh": "征服Honey",
+    "title_aliases": [
+      "G268-征服Honey"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "風天翔",
+    "title_aliases": [
+      "G351-風天翔"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "青春學園～戀戀人生～",
+    "title_aliases": [
+      "G516-青春學園~戀戀人生~"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "邪神 Evil God",
     "title_aliases": [
       "G522-邪神 EVIL GOD"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "經營大台灣",
+    "title_aliases": [
+      "G560-經營大台灣"
     ],
     "year": null,
     "developer": null,
@@ -138348,6 +139249,314 @@
     ]
   },
   {
+    "title_zh": "柏青哥俱樂部",
+    "title_aliases": [
+      "G618-Pachingo"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "齊秦1995夢幻奇兵",
+    "title_aliases": [
+      "G627-齊秦 1995 夢幻奇兵 演唱會互動式光碟冒險遊戲"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "聖章～女神傳說",
+    "title_aliases": [
+      "G696-聖章～女神傳說 Holy History ~ Legend of Goddess"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "西伯利亞",
+    "title_aliases": [
+      "G702-西伯利亞 中文版 Syberia"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "熱狗熱GO！速食英雄：愛與勇氣大冒險",
+    "title_aliases": [
+      "G856-熱狗熱GO！速食英雄：愛與勇氣大冒險"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "復活邪神2",
+    "title_aliases": [
+      "G882-復活邪神2 ATRIA II:THE RESURRECTION"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "毛毛怪大歷險 救出蜜蜜公主篇",
+    "title_aliases": [
+      "G904-毛毛怪大歷險 救出蜜蜜公主篇"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "神指阿土巴",
+    "title_aliases": [
+      "G940-神指阿土巴"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "攔截歷史檔案",
+    "title_aliases": [
+      "G942-攔截歷史檔案"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "NBA嘉年華",
+    "title_aliases": [
+      "NBA嘉年华"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "星際大戰：火星戰役",
+    "title_aliases": [
+      "Nectaris"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "高速公路銀行遊戲",
     "title_aliases": [
       "PC39_高速公路銀行遊戲"
@@ -138373,6 +139582,118 @@
     "intro_todo": true,
     "provenance": [
       "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "Su-27側翼戰機",
+    "title_aliases": [
+      "SU27侧翼部队"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "亞瑟王的魔術城堡",
+    "title_aliases": [
+      "T052-亞瑟王的魔術城堡"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "孤島漂流記",
+    "title_aliases": [
+      "T053-孤島漂流記"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "XATAX戰機",
+    "title_aliases": [
+      "XATAX战机"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -138404,7 +139725,61 @@
     ]
   },
   {
+    "title_zh": "下級生（日）",
+    "title_aliases": [
+      "下级生(日)"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "不可思議的任務",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "世界童話精選-童話小精靈",
     "title_aliases": [],
     "year": null,
     "developer": null,
@@ -138531,6 +139906,90 @@
     ]
   },
   {
+    "title_zh": "亞馬遜女皇之旅",
+    "title_aliases": [
+      "亚马逊女皇之旅"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "仙境傳奇1",
+    "title_aliases": [
+      "仙境传奇1"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "仙境傳奇2：亡者之手",
+    "title_aliases": [
+      "仙境传奇2亡者之庁"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "俠客遊2",
     "title_aliases": [
       "侠客遊2",
@@ -138562,6 +140021,254 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge",
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "奧勒岡之旅",
+    "title_aliases": [
+      "俄勒冈小道"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "全能運動會",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "獸爪快打",
+    "title_aliases": [
+      "兽爪快打"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "再續桃花：夢幻桃花源",
+    "title_aliases": [
+      "再續桃花 夢幻桃花源"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "冒險創作機",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "冠軍足球經理2",
+    "title_aliases": [
+      "冠军足球经理2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "出擊飛龍",
+    "title_aliases": [
+      "出击飞龙"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "切克斯歷險記",
+    "title_aliases": [
+      "切克斯历险记"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "切克斯歷險記2",
+    "title_aliases": [
+      "切克斯历险记2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
       "rwv@merge"
     ]
   },
@@ -138623,6 +140330,34 @@
     "title_zh": "卡門世界之旅",
     "title_aliases": [
       "卡门世界之旅"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "卡門太空之旅",
+    "title_aliases": [
+      "卡门太空之旅"
     ],
     "year": null,
     "developer": null,
@@ -138768,8 +140503,364 @@
     ]
   },
   {
+    "title_zh": "危險的里克1",
+    "title_aliases": [
+      "危险的里克1"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "危險的里克2",
+    "title_aliases": [
+      "危险的里克2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "原振俠傳奇",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "原罪",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "雙子星傳奇2",
+    "title_aliases": [
+      "双子星传奇2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "雙子星傳奇／大小不良",
+    "title_aliases": [
+      "双子星传奇／大小不良"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "古堡之宴",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
     "title_zh": "古墓奇兵3資料片：失落的神器",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "合金裝備2",
+    "title_aliases": [
+      "合金装备2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "吉安娜姐妹",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "叢林吉爾",
+    "title_aliases": [
+      "吉尔在丛林"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "叢林吉爾2：地下冒險",
+    "title_aliases": [
+      "吉尔在丛林2地下冒险"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "叢林吉爾3：拯救王子",
+    "title_aliases": [
+      "吉尔在丛林3拯救王子"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "混沌引擎",
+    "title_aliases": [
+      "命运战士／混沌引擎"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -138911,6 +141002,34 @@
     ]
   },
   {
+    "title_zh": "聖誕小旅鼠",
+    "title_aliases": [
+      "圣诞小旅鼠"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "地獄之吼",
     "title_aliases": [
       "地狱之吼"
@@ -138936,6 +141055,32 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "城市奇俠：騎哥幫五人組",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
     ]
   },
   {
@@ -139076,6 +141221,32 @@
     ]
   },
   {
+    "title_zh": "大航海世紀",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
     "title_zh": "天下無敵",
     "title_aliases": [
       "天下无敌"
@@ -139160,6 +141331,60 @@
     ]
   },
   {
+    "title_zh": "失落的維京人2",
+    "title_aliases": [
+      "失落的维京人2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "女強人亞紀子",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "好朋友一起走-中英雙語",
     "title_aliases": [],
     "year": null,
@@ -139209,6 +141434,308 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "完美將軍2",
+    "title_aliases": [
+      "完美将军2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "尋找激流博士",
+    "title_aliases": [
+      "寻找激流博士"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "小朋友齊打交",
+    "title_aliases": [
+      "小朋友齐打交"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "小飛弟呼叫太陽系",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "小飛弟重返侏儸紀",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "蜘蛛恐懼症",
+    "title_aliases": [
+      "小魔星／蜘蛛恐惧症"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "巧比的自然奇遇-中文版",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "巨窟文字冒險",
+    "title_aliases": [
+      "巨窟文字冒险"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "巫師學校1：追女記",
+    "title_aliases": [
+      "巫师学校1追女记"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "巫師學校2：入學記",
+    "title_aliases": [
+      "巫师学校2入学记"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "巫師學校3：春假",
+    "title_aliases": [
+      "巫师学校3春假"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -139291,6 +141818,34 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "帝國豪華版",
+    "title_aliases": [
+      "帝国豪华版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -139435,6 +141990,118 @@
     ]
   },
   {
+    "title_zh": "開球96",
+    "title_aliases": [
+      "开球96"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "開球97",
+    "title_aliases": [
+      "开球97"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "開膛手傑克",
+    "title_aliases": [
+      "开膛手杰克"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "異形三部曲",
+    "title_aliases": [
+      "异形三部曲"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "異形殺手",
     "title_aliases": [
       "异形杀手"
@@ -139488,6 +142155,60 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "微軟太空模擬",
+    "title_aliases": [
+      "微软太空模拟"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "忍者祕術",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
     ]
   },
   {
@@ -139627,9 +142348,287 @@
     ]
   },
   {
+    "title_zh": "戰國群英",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
     "title_zh": "披薩大亨",
     "title_aliases": [
       "披萨大亨"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 1",
+    "title_aliases": [
+      "指挥官基恩1"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 2",
+    "title_aliases": [
+      "指挥官基恩2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 3",
+    "title_aliases": [
+      "指挥官基恩3"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩：基恩之夢",
+    "title_aliases": [
+      "指挥官基恩3.5"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 4",
+    "title_aliases": [
+      "指挥官基恩4"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 5",
+    "title_aliases": [
+      "指挥官基恩5"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指揮官基恩 6",
+    "title_aliases": [
+      "指挥官基恩6"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指環王",
+    "title_aliases": [
+      "指环王"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "指環王2",
+    "title_aliases": [
+      "指环王2"
     ],
     "year": null,
     "developer": null,
@@ -139683,6 +142682,32 @@
     ]
   },
   {
+    "title_zh": "摩登家族：米路歷險",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "撼天神塔VT",
     "title_aliases": [],
     "year": 1996,
@@ -139706,6 +142731,252 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "史卡尼賽車",
+    "title_aliases": [
+      "斯科奇赛"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "新七顆龍珠",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "斷劍傳說：聖戒風雲",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "無悔的十字軍",
+    "title_aliases": [
+      "无悔的十字军"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "無悔的十字軍2",
+    "title_aliases": [
+      "无悔的十字军2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "明星麻將",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "星際大戰：黑暗原力",
+    "title_aliases": [
+      "星球大战暗影力量"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "星際大戰：反抗軍突擊",
+    "title_aliases": [
+      "星球大战绝地反击"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "星際爭霸戰：裁決儀式",
+    "title_aliases": [
+      "星际迷航裁决仪式"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -139789,6 +143060,60 @@
     ]
   },
   {
+    "title_zh": "普巴",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "智力大考驗",
+    "title_aliases": [
+      "智力大考驗(IQ零蛋-智力測驗-親密學園)"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "暗影戰士",
     "title_aliases": [
       "暗影武士"
@@ -139845,8 +143170,120 @@
     ]
   },
   {
+    "title_zh": "月亮石騎士",
+    "title_aliases": [
+      "月亮石骑士"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "月球巡邏",
+    "title_aliases": [
+      "月球巡逻"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "未來戰爭",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "機甲戰士2：熊魂遺跡",
+    "title_aliases": [
+      "机甲战士2熊魂遗迹"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "機甲爭霸戰2：傭兵",
+    "title_aliases": [
+      "机甲战士2雇佣兵"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -139896,6 +143333,162 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-2001中國象棋個人賽-典藏版",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-兒童圍棋學苑",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-初段手談",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-猴賽擂圍棋對弈",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-象棋路邊攤",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "棋侶-象棋追擊戰",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
     ]
   },
   {
@@ -140057,8 +143650,62 @@
     ]
   },
   {
+    "title_zh": "武林盟主",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "死亡之劍",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "死亡之門",
+    "title_aliases": [
+      "死亡之门"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140163,6 +143810,34 @@
     ]
   },
   {
+    "title_zh": "永遠的蝙蝠俠",
+    "title_aliases": [
+      "永远的蝙蝠侠"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "決戰撲克",
     "title_aliases": [],
     "year": null,
@@ -140186,6 +143861,194 @@
     "intro_todo": true,
     "provenance": [
       "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "泰坦風雲",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
+    "title_zh": "洛克人的黃金帝國",
+    "title_aliases": [
+      "洛克人の黃金帝國"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "海姆達",
+    "title_aliases": [
+      "海姆达"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "海姆達2",
+    "title_aliases": [
+      "海姆达2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "海底大戰爭",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "海豚鳥節奏王國",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "深入虎穴",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
     ]
   },
   {
@@ -140353,6 +144216,116 @@
   {
     "title_zh": "特技島",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "特警判官",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "獅子王",
+    "title_aliases": [
+      "狮子王"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "獵戶座陰謀",
+    "title_aliases": [
+      "猎户座阴谋"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "獵殺紅色十月",
+    "title_aliases": [
+      "猎杀红色十月"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140617,6 +144590,32 @@
     ]
   },
   {
+    "title_zh": "瘋狂星球",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "瘋狂時代",
     "title_aliases": [],
     "year": null,
@@ -140695,6 +144694,88 @@
     ]
   },
   {
+    "title_zh": "真實足球",
+    "title_aliases": [
+      "真实足球"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "真實足球俱樂部版",
+    "title_aliases": [
+      "真实足球俱乐部版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "眼鏡蛇計劃",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
     "title_zh": "神奇王國",
     "title_aliases": [],
     "year": null,
@@ -140749,8 +144830,166 @@
     ]
   },
   {
+    "title_zh": "秋之回憶4～從今以後 Again～",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "科曼奇2",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "秘境神話",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "空中飛鯊",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "童話短路",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "第一武士",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "系統震盪",
+    "title_aliases": [
+      "系统震荡"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -140857,6 +145096,58 @@
     ]
   },
   {
+    "title_zh": "罪 3D",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "美國城市賽車",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "美女寶石陣",
     "title_aliases": [],
     "year": null,
@@ -140880,6 +145171,114 @@
     "intro_todo": true,
     "provenance": [
       "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "美少女超級麻將",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "聰明小子",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "肯恩迷宮",
+    "title_aliases": [
+      "肯的迷宫"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "艾薇拉：街機版",
+    "title_aliases": [
+      "艾薇拉动作版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -140934,6 +145333,146 @@
     "intro_todo": true,
     "provenance": [
       "offlinelist@merge"
+    ]
+  },
+  {
+    "title_zh": "荷蘭人的失落之礦",
+    "title_aliases": [
+      "荷兰人的失落之矿"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "蓮花賽車：終極挑戰",
+    "title_aliases": [
+      "莲花赛车无限"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "藍冰",
+    "title_aliases": [
+      "蓝冰"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "藍精靈",
+    "title_aliases": [
+      "蓝精灵"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "藍色馬克斯",
+    "title_aliases": [
+      "蓝色马克思"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
     ]
   },
   {
@@ -141014,6 +145553,250 @@
     "intro_todo": true,
     "provenance": [
       "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "蝙蝠俠歸來",
+    "title_aliases": [
+      "蝙蝠侠归来"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "蝙蝠俠電影版",
+    "title_aliases": [
+      "蝙蝠侠电影版"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "血與魔法",
+    "title_aliases": [
+      "血与魔法"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "行星末日戰記",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "詹姆斯龐德2",
+    "title_aliases": [
+      "詹姆斯庞德2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "警察故事2",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "警察故事3",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "誰陷害了兔子羅傑",
+    "title_aliases": [
+      "谁陷害了兔子罗杰"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "象棋世家V5",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
     ]
   },
   {
@@ -141108,6 +145891,116 @@
     ]
   },
   {
+    "title_zh": "辛普森家庭",
+    "title_aliases": [
+      "辛普森一家"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "辛普森大戰外星人",
+    "title_aliases": [
+      "辛普森大战外星人"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "辛普森小丑屋",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "辛迪加戰爭",
+    "title_aliases": [
+      "辛迪加战争"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "迦陵演義",
     "title_aliases": [],
     "year": null,
@@ -141131,6 +146024,112 @@
     "intro_todo": true,
     "provenance": [
       "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "逃離腦博士的城堡",
+    "title_aliases": [
+      "逃离脑博士的城堡"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "速度球",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "速度球2",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "遊戲剋星2",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
     ]
   },
   {
@@ -141238,6 +146237,84 @@
     ]
   },
   {
+    "title_zh": "銀河風暴",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
+    "title_zh": "鐵血傭兵",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
+    "title_zh": "鐵道夢想家",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
     "title_zh": "鐵甲旗艦",
     "title_aliases": [
       "铁甲旗舰"
@@ -141322,6 +146399,118 @@
     ]
   },
   {
+    "title_zh": "鐵鉤船長",
+    "title_aliases": [
+      "铁钩船长"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "銀多瑞傳奇",
+    "title_aliases": [
+      "银多瑞传奇1"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "銀多瑞傳奇2",
+    "title_aliases": [
+      "银多瑞传奇2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "銀多瑞傳奇3",
+    "title_aliases": [
+      "银多瑞传奇3"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "銀河守衛團",
     "title_aliases": [
       "银河守卫团"
@@ -141350,6 +146539,34 @@
     ]
   },
   {
+    "title_zh": "銀河霸主2",
+    "title_aliases": [
+      "银河霸主2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
     "title_zh": "閃電鋼球",
     "title_aliases": [],
     "year": null,
@@ -141373,6 +146590,166 @@
     "intro_todo": true,
     "provenance": [
       "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "阿爾比恩",
+    "title_aliases": [
+      "阿尔比恩"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "雨果的恐怖之屋1",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "雨果的恐怖之屋2",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "雨果的恐怖之屋3",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "雪山競技",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "boneash@merge"
+    ]
+  },
+  {
+    "title_zh": "雷諾尼都紀事II 賞金獵人",
+    "title_aliases": [
+      "雷诺尼都纪事II 赏金猎人"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "fandom@merge"
     ]
   },
   {
@@ -141430,6 +146807,118 @@
   {
     "title_zh": "風雲霸主",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "瑪利歐不見了",
+    "title_aliases": [
+      "马里奥不见了"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "瑪利歐教你打字",
+    "title_aliases": [
+      "马里奥教你打字"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "魔域傳奇：史特卡的財寶",
+    "title_aliases": [
+      "魔域传奇：史特卡的财宝1.2"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "魔域傳奇：石之預言者",
+    "title_aliases": [
+      "魔域传奇：石之预言者1.1"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -141563,6 +147052,34 @@
     "title_zh": "魔法帝國",
     "title_aliases": [
       "魔法大帝"
+    ],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "巫師西蒙",
+    "title_aliases": [
+      "魔法师西蒙"
     ],
     "year": null,
     "developer": null,
@@ -141748,6 +147265,60 @@
   {
     "title_zh": "龍之道",
     "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "rwv@merge"
+    ]
+  },
+  {
+    "title_zh": "龐克雙鱷",
+    "title_aliases": [],
+    "year": null,
+    "developer": null,
+    "developer_region": null,
+    "publisher_tw": [],
+    "content_language": null,
+    "genre": null,
+    "localization_level": null,
+    "localization_basis": "merged (basematch append)",
+    "size": null,
+    "platform_note": null,
+    "catalog_id": null,
+    "license_status": null,
+    "release_codes": [],
+    "cover": null,
+    "images": {},
+    "references": {},
+    "external_links": {},
+    "editions": [],
+    "intro_todo": true,
+    "provenance": [
+      "omega@merge"
+    ]
+  },
+  {
+    "title_zh": "龍穴歷險記2",
+    "title_aliases": [
+      "龙穴历险记2"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
