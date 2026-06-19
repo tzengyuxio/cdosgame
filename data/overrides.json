@@ -34,5 +34,59 @@
   },
   "cdg-0509": {
     "genre": null
+  },
+  "cdg-4155": {
+    "title_aliases": [
+      "Bard's Tale",
+      "冰城传奇"
+    ]
+  },
+  "cdg-4161": {
+    "title_aliases": [
+      "Hillsfar",
+      "幽城宝藏"
+    ]
+  },
+  "cdg-4162": {
+    "title_aliases": [
+      "Don't Go Alone",
+      "幽灵馆"
+    ]
+  },
+  "cdg-4158": {
+    "title_aliases": [
+      "Escape from the Planet of the Robot Monsters",
+      "杀出机械城"
+    ]
+  },
+  "cdg-4160": {
+    "title_aliases": [
+      "Geisha",
+      "艺妓"
+    ]
+  },
+  "cdg-4163": {
+    "title_aliases": [
+      "Heroes of the Lance",
+      "长枪英雄"
+    ]
+  },
+  "cdg-4159": {
+    "title_aliases": [
+      "Alley Cat",
+      "顽皮猫"
+    ]
+  },
+  "cdg-4156": {
+    "title_aliases": [
+      "Grand Prix 500 2",
+      "风速小子"
+    ]
+  },
+  "cdg-4157": {
+    "title_aliases": [
+      "Dragon's Lair：Escape from Singe's Castle",
+      "龙穴历险记"
+    ]
   }
 }

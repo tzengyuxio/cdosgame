@@ -1,0 +1,142 @@
+{
+  "万里长城边城奇侠": {
+    "action": "merge",
+    "note": "typography variant of 萬里長城之邊城奇俠; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3463"
+  },
+  "中国之心": {
+    "action": "merge",
+    "note": "typography variant of 中國之心; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-4154"
+  },
+  "五子棋－宇宙幻影": {
+    "action": "merge",
+    "note": "typography variant of 五子棋：宇宙幻影; keep name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-0348"
+  },
+  "人间道少年燕赤霞": {
+    "action": "merge",
+    "note": "typography variant of 人間道之少年燕赤霞; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1558"
+  },
+  "創世紀Ⅳ：天人合一": {
+    "action": "reject",
+    "note": "typography variant of 創世紀4：天人合一 (cdg-2966)"
+  },
+  "創世紀Ⅵ：虛偽先知": {
+    "action": "reject",
+    "note": "typography variant of 創世紀6：虛偽先知 (cdg-2968)"
+  },
+  "吃豆人初代": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "吞食天地4 楚汉光辉": {
+    "action": "merge",
+    "note": "typography variant of 吞食天地4楚漢的光輝; keep name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-0980"
+  },
+  "國王密使Ⅱ：皇家羅曼史": {
+    "action": "reject",
+    "note": "typography variant of 國王密使2：皇家羅曼史 (cdg-1044)"
+  },
+  "國王密使Ⅳ：蘿塞拉的冒險": {
+    "action": "reject",
+    "note": "typography variant of 國王密使4：蘿塞拉的冒險 (cdg-1046)"
+  },
+  "地下創世紀：冥河深淵": {
+    "action": "reject",
+    "note": "typography variant of 地下創世紀－冥河深淵 (cdg-0756)"
+  },
+  "大富翁城市英雄": {
+    "action": "merge",
+    "note": "typography variant of 大富翁之城市英雄; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0378"
+  },
+  "天命之戰": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "失落的大地": {
+    "action": "merge",
+    "note": "typography variant of 失落大地; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0712"
+  },
+  "失落的戰線": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "巫術神冠": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "救火貓2之摩天任務": {
+    "action": "reject",
+    "note": "typography variant of 救火貓2：摩天任務 (cdg-2289)"
+  },
+  "星際奇兵": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "水浒传之梁山英雄": {
+    "action": "merge",
+    "note": "typography variant of 水滸傳：梁山英雄; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0623"
+  },
+  "水浒英雄传之火之魂": {
+    "action": "merge",
+    "note": "typography variant of 水滸英雄傳：火之魂; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0626"
+  },
+  "決戰惡魔島．冒險迷城奪寶大作戰": {
+    "action": "reject",
+    "note": "typography variant of 決戰惡魔島之冒險迷城：奪寶大作戰 (cdg-1154)"
+  },
+  "生死極速": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "聊斋志异幽谷传奇": {
+    "action": "merge",
+    "note": "typography variant of 聊齋誌異之幽谷傳奇; keep name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1960"
+  },
+  "超時空G點": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "超級房車賽": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "雷霆賽車": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "青色枷的詛咒": {
+    "action": "reject",
+    "note": "typography variant of 青色枷詛咒 (cdg-1373)"
+  },
+  "青蛇奇緣": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "魔域聖戰": {
+    "action": "reject",
+    "note": "name already a catalog title/alias"
+  },
+  "魔術彩球": {
+    "action": "reject",
+    "note": "typography variant of 魔術綵球 (cdg-4112)"
+  }
+}

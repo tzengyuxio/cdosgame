@@ -1,0 +1,794 @@
+{
+  "三国演义1加强版": {
+    "action": "merge",
+    "note": "base-match dup of 三國演義; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0233"
+  },
+  "三國志武將爭霸２": {
+    "action": "reject",
+    "note": "redundant variant of 三國志武將爭霸2 (cdg-0227)"
+  },
+  "三國志２": {
+    "action": "reject",
+    "note": "redundant variant of 三國志2 (cdg-0211)"
+  },
+  "三國志３": {
+    "action": "reject",
+    "note": "redundant variant of 三國志3 (cdg-0212)"
+  },
+  "三國志４": {
+    "action": "reject",
+    "note": "redundant variant of 三國志4 (cdg-0213)"
+  },
+  "三國風雲": {
+    "action": "reject",
+    "note": "redundant variant of 三國風雲1 (cdg-0257)"
+  },
+  "上帝也抓狂": {
+    "action": "reject",
+    "note": "redundant variant of 上帝也抓狂1 (cdg-0282)"
+  },
+  "中華職棒": {
+    "action": "reject",
+    "note": "redundant variant of 中華職棒1 (cdg-0321)"
+  },
+  "仙剑奇侠传": {
+    "action": "merge",
+    "note": "base-match dup of 仙劍奇俠傳1; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-1564"
+  },
+  "仙剑奇侠传光盘版": {
+    "action": "merge",
+    "note": "base-match dup of 仙劍奇俠傳1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1564"
+  },
+  "仙剑奇侠传加强版": {
+    "action": "merge",
+    "note": "base-match dup of 仙劍奇俠傳1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1564"
+  },
+  "仙剑奇侠传梦幻版": {
+    "action": "merge",
+    "note": "base-match dup of 仙劍奇俠傳1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1564"
+  },
+  "企鵝家族": {
+    "action": "reject",
+    "note": "redundant variant of 企鵝家族1 (cdg-1582)"
+  },
+  "侠客游2": {
+    "action": "merge",
+    "note": "base-match dup of 俠客遊2; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-4135"
+  },
+  "侠盗猎车手": {
+    "action": "merge",
+    "note": "base-match dup of 俠盜獵車手1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1631"
+  },
+  "俄羅斯方塊２": {
+    "action": "reject",
+    "note": "redundant variant of 俄羅斯方塊2 (cdg-1609)"
+  },
+  "信長之野望": {
+    "action": "reject",
+    "note": "redundant variant of 信長之野望1 (cdg-1637)"
+  },
+  "信長之野望．武將風雲錄": {
+    "action": "reject",
+    "note": "redundant variant of 信長之野望4武將風雲錄 (cdg-1639)"
+  },
+  "信長之野望２": {
+    "action": "reject",
+    "note": "redundant variant of 信長之野望2戰國群雄傳 (cdg-1638)"
+  },
+  "信长之野望": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1637"
+  },
+  "信长之野望2": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望2戰國群雄傳; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1638"
+  },
+  "信长之野望4": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望4武將風雲錄; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1639"
+  },
+  "信长之野望5": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望5霸王傳; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1640"
+  },
+  "信长之野望6": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望6天翔記; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1641"
+  },
+  "信长之野望天翔记": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望6天翔記; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1641"
+  },
+  "信长之野望霸王传": {
+    "action": "merge",
+    "note": "base-match dup of 信長之野望5霸王傳; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1640"
+  },
+  "凱蘭迪亞傳奇": {
+    "action": "reject",
+    "note": "redundant variant of 凱蘭迪亞傳奇1 (cdg-2933)"
+  },
+  "勇者鬥惡龍": {
+    "action": "reject",
+    "note": "redundant variant of 勇者鬥惡龍1 (cdg-1391)"
+  },
+  "勇者鬥惡龍２": {
+    "action": "reject",
+    "note": "redundant variant of 勇者鬥惡龍2：邪惡神官哈根 (cdg-1392)"
+  },
+  "医生也疯狂": {
+    "action": "merge",
+    "note": "base-match dup of 醫生也瘋狂1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2598"
+  },
+  "医生也疯狂2": {
+    "action": "merge",
+    "note": "base-match dup of 醫生也瘋狂2：腦科篇; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2599"
+  },
+  "双截龙": {
+    "action": "merge",
+    "note": "base-match dup of 雙截龍1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1967"
+  },
+  "双截龙2": {
+    "action": "merge",
+    "note": "base-match dup of 雙截龍2：復仇; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1968"
+  },
+  "双截龙3": {
+    "action": "merge",
+    "note": "base-match dup of 雙截龍3：羅塞塔之石; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1969"
+  },
+  "古大陆物语2": {
+    "action": "merge",
+    "note": "base-match dup of 古大陸物語2：雅克王的遠征; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0916"
+  },
+  "古大陆物语4": {
+    "action": "merge",
+    "note": "base-match dup of 古大陸物語4：銀翼傳承; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0917"
+  },
+  "名車大賽２": {
+    "action": "reject",
+    "note": "redundant variant of 名車大賽2 (cdg-0963)"
+  },
+  "名車大賽３": {
+    "action": "reject",
+    "note": "redundant variant of 名車大賽3 (cdg-0964)"
+  },
+  "吞食天地-三国外传": {
+    "action": "merge",
+    "note": "base-match dup of 吞食天地1三國外傳; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-0977"
+  },
+  "吞食天地1": {
+    "action": "merge",
+    "note": "base-match dup of 吞食天地1三國外傳; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0977"
+  },
+  "吞食天地4": {
+    "action": "merge",
+    "note": "base-match dup of 吞食天地4楚漢的光輝; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0980"
+  },
+  "吞食天地２": {
+    "action": "reject",
+    "note": "redundant variant of 吞食天地2 (cdg-0978)"
+  },
+  "吞食天地～三國外傳": {
+    "action": "reject",
+    "note": "redundant variant of 吞食天地1三國外傳 (cdg-0977)"
+  },
+  "喋血街頭": {
+    "action": "reject",
+    "note": "redundant variant of 喋血街頭1 (cdg-1015)"
+  },
+  "四川省3": {
+    "action": "merge",
+    "note": "base-match dup of 四川省3天府之國; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1032"
+  },
+  "國王密使５：失城記": {
+    "action": "reject",
+    "note": "redundant variant of 國王密使5：失城記 (cdg-1047)"
+  },
+  "國王密使６：希望之旅": {
+    "action": "reject",
+    "note": "redundant variant of 國王密使6：希望之旅 (cdg-1048)"
+  },
+  "地下城主": {
+    "action": "reject",
+    "note": "redundant variant of 地下城主1 (cdg-0758)"
+  },
+  "夢幻麻將館": {
+    "action": "reject",
+    "note": "redundant variant of 夢幻麻將館1 (cdg-2760)"
+  },
+  "奇人黑桃２": {
+    "action": "reject",
+    "note": "redundant variant of 奇人黑桃2 (cdg-1295)"
+  },
+  "奇妙大百科": {
+    "action": "reject",
+    "note": "redundant variant of 奇妙大百科1 (cdg-1296)"
+  },
+  "孤胆枪手": {
+    "action": "merge",
+    "note": "base-match dup of 孤膽槍手1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3363"
+  },
+  "富甲天下": {
+    "action": "merge",
+    "note": "base-match dup of 富甲天下1：三國篇; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0806"
+  },
+  "小鬼当家": {
+    "action": "merge",
+    "note": "base-match dup of 小鬼當家1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0532"
+  },
+  "小鬼当家2": {
+    "action": "merge",
+    "note": "base-match dup of 小鬼當家2：紐約迷途; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0533"
+  },
+  "小鬼當家": {
+    "action": "reject",
+    "note": "redundant variant of 小鬼當家1 (cdg-0532)"
+  },
+  "工人物语": {
+    "action": "merge",
+    "note": "base-match dup of 工人物語1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0553"
+  },
+  "巫术2": {
+    "action": "merge",
+    "note": "base-match dup of 巫術2：鑽石騎士; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1100"
+  },
+  "巫术3": {
+    "action": "merge",
+    "note": "base-match dup of 巫術3：萊迦買城傳奇; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1101"
+  },
+  "巫术4": {
+    "action": "merge",
+    "note": "base-match dup of 巫術4：瓦德納的復仇; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1102"
+  },
+  "巫术5": {
+    "action": "merge",
+    "note": "base-match dup of 巫術5：漩渦之心; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1103"
+  },
+  "巫术6": {
+    "action": "merge",
+    "note": "base-match dup of 巫術6：創世神筆之詛咒; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1104"
+  },
+  "巫術２": {
+    "action": "reject",
+    "note": "redundant variant of 巫術2：鑽石騎士 (cdg-1100)"
+  },
+  "巫術３": {
+    "action": "reject",
+    "note": "redundant variant of 巫術3：萊迦買城傳奇 (cdg-1101)"
+  },
+  "巫術４：瓦德納的復仇": {
+    "action": "reject",
+    "note": "redundant variant of 巫術4：瓦德納的復仇 (cdg-1102)"
+  },
+  "巫術５": {
+    "action": "reject",
+    "note": "redundant variant of 巫術5：漩渦之心 (cdg-1103)"
+  },
+  "巫術６：創世神筆之詛咒": {
+    "action": "reject",
+    "note": "redundant variant of 巫術6：創世神筆之詛咒 (cdg-1104)"
+  },
+  "巫術７：失落的迦地亞": {
+    "action": "reject",
+    "note": "redundant variant of 巫術7：失落的迦地亞 (cdg-1105)"
+  },
+  "幻世錄": {
+    "action": "reject",
+    "note": "redundant variant of 幻世錄1 (cdg-0564)"
+  },
+  "幻想水滸傳": {
+    "action": "reject",
+    "note": "redundant variant of 幻想水滸傳1 (cdg-0576)"
+  },
+  "幻想空間": {
+    "action": "reject",
+    "note": "redundant variant of 幻想空間1 (cdg-0578)"
+  },
+  "幻想空間２": {
+    "action": "reject",
+    "note": "redundant variant of 幻想空間2：尋找愛情 (cdg-0579)"
+  },
+  "幻想空间": {
+    "action": "merge",
+    "note": "base-match dup of 幻想空間1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0578"
+  },
+  "幻想空间2": {
+    "action": "merge",
+    "note": "base-match dup of 幻想空間2：尋找愛情; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0579"
+  },
+  "幽靈戰士": {
+    "action": "reject",
+    "note": "redundant variant of 幽靈戰士1 (cdg-0605)"
+  },
+  "幽靈戰士３：魔神之吼": {
+    "action": "reject",
+    "note": "redundant variant of 幽靈戰士3：魔神之吼 (cdg-0606)"
+  },
+  "忍者龙剑传2": {
+    "action": "merge",
+    "note": "base-match dup of 忍者龍劍傳2：暗黑的邪神劍; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1713"
+  },
+  "忍者龜": {
+    "action": "reject",
+    "note": "redundant variant of 忍者龜1 (cdg-1715)"
+  },
+  "快打磚塊": {
+    "action": "reject",
+    "note": "redundant variant of 快打磚塊1 (cdg-1724)"
+  },
+  "恶魔城": {
+    "action": "merge",
+    "note": "base-match dup of 惡魔城1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1780"
+  },
+  "惡靈古堡": {
+    "action": "reject",
+    "note": "redundant variant of 惡靈古堡1 (cdg-1774)"
+  },
+  "战神": {
+    "action": "merge",
+    "note": "base-match dup of 戰神1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3399"
+  },
+  "戰神": {
+    "action": "reject",
+    "note": "redundant variant of 戰神1 (cdg-3399)"
+  },
+  "戰神２": {
+    "action": "reject",
+    "note": "redundant variant of 戰神2 (cdg-3400)"
+  },
+  "撼天神塔-复活邪魔": {
+    "action": "merge",
+    "note": "base-match dup of 撼天神塔1：復活邪魔; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-1796"
+  },
+  "撼天神塔2": {
+    "action": "merge",
+    "note": "base-match dup of 撼天神塔2：魔界重現; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1797"
+  },
+  "撼天神塔3": {
+    "action": "merge",
+    "note": "base-match dup of 撼天神塔3：魔誡; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1798"
+  },
+  "文明帝國": {
+    "action": "reject",
+    "note": "redundant variant of 文明帝國1 (cdg-2303)"
+  },
+  "新無敵炸彈超人": {
+    "action": "reject",
+    "note": "redundant variant of 新無敵炸彈超人1 (cdg-2338)"
+  },
+  "新英雄傳奇": {
+    "action": "reject",
+    "note": "redundant variant of 新英雄傳奇1 (cdg-2352)"
+  },
+  "明星職棒": {
+    "action": "reject",
+    "note": "redundant variant of 明星職棒1 (cdg-2393)"
+  },
+  "星海梟雄": {
+    "action": "reject",
+    "note": "redundant variant of 星海梟雄1 (cdg-2402)"
+  },
+  "楚漢之爭": {
+    "action": "reject",
+    "note": "redundant variant of 楚漢之爭1 (cdg-3106)"
+  },
+  "楚漢之爭２：赤龍反撲": {
+    "action": "reject",
+    "note": "redundant variant of 楚漢之爭2：赤龍反撲 (cdg-3107)"
+  },
+  "機甲爭霸戰": {
+    "action": "reject",
+    "note": "redundant variant of 機甲爭霸戰1 (cdg-3223)"
+  },
+  "氙星異形２": {
+    "action": "reject",
+    "note": "redundant variant of 氙星異形2 (cdg-3813)"
+  },
+  "沙丘魔堡2": {
+    "action": "merge",
+    "note": "base-match dup of 沙丘魔堡2：王朝的建立; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1175"
+  },
+  "沙丘魔堡2加强版": {
+    "action": "merge",
+    "note": "base-match dup of 沙丘魔堡2：王朝的建立; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1175"
+  },
+  "波斯王子": {
+    "action": "merge",
+    "note": "base-match dup of 波斯王子1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1189"
+  },
+  "波斯王子2": {
+    "action": "merge",
+    "note": "base-match dup of 波斯王子2：侍魂無雙; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-1191"
+  },
+  "洛克人3": {
+    "action": "merge",
+    "note": "base-match dup of 洛克人3：威利博士的末期; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1206"
+  },
+  "燃燒的野球": {
+    "action": "reject",
+    "note": "redundant variant of 燃燒的野球1 (cdg-3320)"
+  },
+  "燃燒的野球２": {
+    "action": "reject",
+    "note": "redundant variant of 燃燒的野球2 (cdg-3321)"
+  },
+  "特种部队": {
+    "action": "merge",
+    "note": "base-match dup of 特種部隊1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3514"
+  },
+  "狩魔獵人：原罪": {
+    "action": "reject",
+    "note": "redundant variant of 狩魔獵人1：原罪 (cdg-3528)"
+  },
+  "疯狂医院2": {
+    "action": "merge",
+    "note": "base-match dup of 瘋狂醫院2超級醫生; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2803"
+  },
+  "疯狗": {
+    "action": "merge",
+    "note": "base-match dup of 瘋狗1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2809"
+  },
+  "百战天虫": {
+    "action": "merge",
+    "note": "base-match dup of 百戰天蟲1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0827"
+  },
+  "百战天虫光碟版": {
+    "action": "merge",
+    "note": "base-match dup of 百戰天蟲1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0827"
+  },
+  "碟形世界": {
+    "action": "merge",
+    "note": "base-match dup of 碟形世界1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2507"
+  },
+  "碟形世界2": {
+    "action": "merge",
+    "note": "base-match dup of 碟形世界2：死亡字節; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2508"
+  },
+  "福禄双霸天": {
+    "action": "merge",
+    "note": "base-match dup of 福祿雙霸天1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1874"
+  },
+  "筑城大师": {
+    "action": "merge",
+    "note": "base-match dup of 築城大師1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1958"
+  },
+  "筑城大师2": {
+    "action": "merge",
+    "note": "base-match dup of 築城大師2：王位爭奪戰; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1959"
+  },
+  "築城大師": {
+    "action": "reject",
+    "note": "redundant variant of 築城大師1 (cdg-1958)"
+  },
+  "終極戰士２": {
+    "action": "reject",
+    "note": "redundant variant of 終極戰士2 (cdg-2072)"
+  },
+  "绝地风暴": {
+    "action": "merge",
+    "note": "base-match dup of 絕地風暴1; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-2099"
+  },
+  "聖少女戰隊": {
+    "action": "reject",
+    "note": "redundant variant of 聖少女戰隊1 (cdg-2528)"
+  },
+  "航空霸業２": {
+    "action": "reject",
+    "note": "redundant variant of 航空霸業2 (cdg-0861)"
+  },
+  "英伦霸主": {
+    "action": "merge",
+    "note": "base-match dup of 英倫霸主1; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-3425"
+  },
+  "英雄传说-龙的传人": {
+    "action": "merge",
+    "note": "base-match dup of 英雄傳說1：龍的傳人; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-3434"
+  },
+  "英雄傳奇": {
+    "action": "reject",
+    "note": "redundant variant of 英雄傳奇1 (cdg-3429)"
+  },
+  "血祭": {
+    "action": "merge",
+    "note": "base-match dup of 血祭1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0867"
+  },
+  "装甲元帅": {
+    "action": "merge",
+    "note": "base-match dup of 裝甲元帥1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-0879"
+  },
+  "裝甲元帥": {
+    "action": "reject",
+    "note": "redundant variant of 裝甲元帥1 (cdg-0879)"
+  },
+  "裝甲雄師": {
+    "action": "reject",
+    "note": "redundant variant of 裝甲雄師1 (cdg-0885)"
+  },
+  "超时空英雄传说2": {
+    "action": "merge",
+    "note": "base-match dup of 超時空英雄傳說2復仇魔神; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2173"
+  },
+  "轩辕剑外传-枫之舞": {
+    "action": "merge",
+    "note": "base-match dup of 軒轅劍2外傳：楓之舞; keep simplified name as alias",
+    "prov": "fandom@merge",
+    "target": "cdg-1883"
+  },
+  "轩辕剑外传枫之舞": {
+    "action": "merge",
+    "note": "base-match dup of 軒轅劍2外傳：楓之舞; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1883"
+  },
+  "轩辕剑外传：枫之舞": {
+    "action": "merge",
+    "note": "base-match dup of 軒轅劍2外傳：楓之舞; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1883"
+  },
+  "醫生也瘋狂": {
+    "action": "reject",
+    "note": "redundant variant of 醫生也瘋狂1 (cdg-2598)"
+  },
+  "醫生也瘋狂２：腦科篇": {
+    "action": "reject",
+    "note": "redundant variant of 醫生也瘋狂2：腦科篇 (cdg-2599)"
+  },
+  "銀河飛將": {
+    "action": "reject",
+    "note": "redundant variant of 銀河飛將1 (cdg-2911)"
+  },
+  "鋼鐵雄獅": {
+    "action": "reject",
+    "note": "redundant variant of 鋼鐵雄獅1 (cdg-3590)"
+  },
+  "鐵路大亨": {
+    "action": "reject",
+    "note": "redundant variant of 鐵路大亨1 (cdg-3605)"
+  },
+  "铁路大亨豪华版": {
+    "action": "merge",
+    "note": "base-match dup of 鐵路大亨1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3605"
+  },
+  "银河飞将2": {
+    "action": "merge",
+    "note": "base-match dup of 銀河飛將2：帝國逆襲; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2912"
+  },
+  "阿卡尼亞傳說": {
+    "action": "reject",
+    "note": "redundant variant of 阿卡尼亞傳說1 (cdg-1337)"
+  },
+  "雙截龍": {
+    "action": "reject",
+    "note": "redundant variant of 雙截龍1 (cdg-1967)"
+  },
+  "雷电": {
+    "action": "merge",
+    "note": "base-match dup of 雷電1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2681"
+  },
+  "雷神之锤": {
+    "action": "merge",
+    "note": "base-match dup of 雷神之鎚1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-2676"
+  },
+  "非洲探險": {
+    "action": "reject",
+    "note": "redundant variant of 非洲探險1 (cdg-1379)"
+  },
+  "非洲探險２": {
+    "action": "reject",
+    "note": "redundant variant of 非洲探險2 (cdg-1380)"
+  },
+  "頑皮小精靈": {
+    "action": "reject",
+    "note": "redundant variant of 頑皮小精靈1 (cdg-1502)"
+  },
+  "顽皮小精灵": {
+    "action": "merge",
+    "note": "base-match dup of 頑皮小精靈1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1502"
+  },
+  "顽皮小精灵2": {
+    "action": "merge",
+    "note": "base-match dup of 頑皮小精靈2：小丑王子; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-1503"
+  },
+  "飛狼突擊": {
+    "action": "reject",
+    "note": "redundant variant of 飛狼突擊1 (cdg-1540)"
+  },
+  "鬼屋魔影": {
+    "action": "merge",
+    "note": "base-match dup of 鬼屋魔影1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3650"
+  },
+  "魔城迷蹤": {
+    "action": "reject",
+    "note": "redundant variant of 魔城迷蹤1 (cdg-3668)"
+  },
+  "魔戒少年": {
+    "action": "reject",
+    "note": "redundant variant of 魔戒少年1 (cdg-3701)"
+  },
+  "魔法書之謎": {
+    "action": "reject",
+    "note": "redundant variant of 魔法書之謎1 (cdg-3718)"
+  },
+  "魔法門": {
+    "action": "reject",
+    "note": "redundant variant of 魔法門1：內殿的秘密 (cdg-3725)"
+  },
+  "魔法门": {
+    "action": "merge",
+    "note": "base-match dup of 魔法門1：內殿的秘密; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3725"
+  },
+  "魔法门2": {
+    "action": "merge",
+    "note": "base-match dup of 魔法門2：通往異世界之門; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3726"
+  },
+  "魔法飞毯": {
+    "action": "merge",
+    "note": "base-match dup of 魔法飛毯1; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3748"
+  },
+  "魔法飞毯2": {
+    "action": "merge",
+    "note": "base-match dup of 魔法飛毯2：冥界; keep simplified name as alias",
+    "prov": "rwv@merge",
+    "target": "cdg-3749"
+  },
+  "魔眼殺機２：隱月傳奇": {
+    "action": "reject",
+    "note": "redundant variant of 魔眼殺機2：隱月傳奇 (cdg-3764)"
+  },
+  "魔眼殺機３：血戰札諾爾": {
+    "action": "reject",
+    "note": "redundant variant of 魔眼殺機3：血戰札諾爾 (cdg-3765)"
+  },
+  "麻雀幻想曲３": {
+    "action": "reject",
+    "note": "redundant variant of 麻雀幻想曲3 (cdg-2015)"
+  }
+}

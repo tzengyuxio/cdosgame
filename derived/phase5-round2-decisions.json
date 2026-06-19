@@ -1,0 +1,6570 @@
+[
+  {
+    "name": "1942特种部队",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级滑雪3",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, out of Taiwan scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级蛙",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "超级星尘",
+    "action": "reject",
+    "reason": "unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "丛林之书",
+    "action": "reject",
+    "reason": "no Taiwan match for Jungle Book entry",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "大地之怒",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大海商",
+    "action": "reject",
+    "reason": "obscure mainland-only, not 海商王",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "大海战",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "大航海1",
+    "action": "merge",
+    "reason": "same as 大航海時代 Uncharted Water",
+    "scope": "cn",
+    "confidence": "high",
+    "target": "cdg-0418"
+  },
+  {
+    "name": "大战役",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "大战役2",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "地狱火",
+    "action": "reject",
+    "reason": "ambiguous mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "帝国2",
+    "action": "reject",
+    "reason": "ambiguous bare name, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "电影工坊",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "斗神传",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "恶魔之门",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "方程式赛车",
+    "action": "reject",
+    "reason": "generic mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "飞龙传奇",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "风暴领主",
+    "action": "merge",
+    "reason": "same as 風神傳承 Stormlord",
+    "scope": "cn",
+    "confidence": "high",
+    "target": "cdg-3853"
+  },
+  {
+    "name": "风暴之眼",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "风云霸主",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "封神榜格斗",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "疯狂大毁灭",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "疯狂大陆",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "疯狂电视台",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "疯狂小鸭",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁冲突",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, no clear match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁领主",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁十字",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁信条",
+    "action": "reject",
+    "reason": "unrecognised mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁之路1",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "钢铁之路2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "钢铁之路3",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "钢铁之拳",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "钢铁之心",
+    "action": "reject",
+    "reason": "mainland rwv; not the 洛克人 DASH entry",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "钢铁之血",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "高速猎人",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "灌篮96",
+    "action": "reject",
+    "reason": "obscure mainland sports title, no catalog dup",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "国王的桌游",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海盗大战",
+    "action": "reject",
+    "reason": "obscure mainland rwv; no distinct catalog dup",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗迷宫",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗元素",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗之地",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗之心",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑色街区",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "横扫",
+    "action": "reject",
+    "reason": "obscure mainland rwv; 橫掃千軍 is different game",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红楼梦麻将",
+    "action": "reject",
+    "reason": "obscure mainland mahjong title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红色风暴",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "洪荒格斗",
+    "action": "reject",
+    "reason": "obscure mainland fighting title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "幻想火焰",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "幻影英雄",
+    "action": "reject",
+    "reason": "obscure mainland rwv; not 幻影特攻",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "毁灭坦克",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "毁灭战机",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "毁灭战士横版",
+    "action": "reject",
+    "reason": "likely Doom MOD/hack, not original release",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "混沌之地",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火箭手",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火线交叉",
+    "action": "reject",
+    "reason": "obscure mainland rwv; no distinct catalog dup",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机甲部队",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机械帝国",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机械法师",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机械战队",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "基因锻造",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "基因分裂",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "基因机器",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "极限突袭",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "记忆测验",
+    "action": "reject",
+    "reason": "generic memory-test, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "街机保龄",
+    "action": "reject",
+    "reason": "generic arcade bowling, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "街机桌球",
+    "action": "reject",
+    "reason": "generic arcade pool, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巨兽侵袭",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "绝对零度",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "空中决斗",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "空中突击18",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "空中巡逻",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "蓝色天使",
+    "action": "reject",
+    "reason": "mainland-only, no Taiwan signal; catalog dups unrelated",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "雷电兔",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "雷神",
+    "action": "reject",
+    "reason": "ambiguous mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黎明特警",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "炼狱飞行",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "恋爱试炼场",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "龙战记X",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "龙之道",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "龙之王国",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "梦幻国度",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "迷宫大师",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "迷宫罗格",
+    "action": "reject",
+    "reason": "obscure mainland roguelike, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "命运之战",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "模拟垂钓",
+    "action": "reject",
+    "reason": "generic fishing sim, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "模拟潜艇",
+    "action": "reject",
+    "reason": "generic submarine sim, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "模拟生命",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "模拟卫生",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔法袋",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔法伏击",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔法试炼",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔法天师",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔法之镜",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔幻霸主",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔幻将军",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔术方块",
+    "action": "reject",
+    "reason": "generic puzzle, mainland rwv-only, not the catalog Cubulus",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔眼水晶",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔域迷踪",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "魔域迷踪2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "末日战神",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "末日之牛",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "霹雳幽灵剑",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "热血硬派",
+    "action": "reject",
+    "reason": "Kunio/Renegade not in catalog, mainland rwv-only",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "忍者神龟3",
+    "action": "reject",
+    "reason": "TMNT3 mainland rwv-only, no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "忍者兔",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "荣耀之剑",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "三国麻将",
+    "action": "merge",
+    "reason": "simplified of catalog 三國麻將風雲 (捷友 Taiwan)",
+    "scope": "cn",
+    "confidence": "low",
+    "target": "cdg-0259",
+    "title_hant": null
+  },
+  {
+    "name": "上帝之锤",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "上海麻将接龙",
+    "action": "reject",
+    "reason": "generic mahjong solitaire, mainland rwv-only",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "神秘之歌",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "神秘之塔",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "神奇王国",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "生化威胁",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "圣诞残杀",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "失落的氏族",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "失落的王国",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "狮子王",
+    "action": "reject",
+    "reason": "Disney Lion King mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "时空悖论",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "时空游侠",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "时空迷航",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "时空杀戮",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "世界大战",
+    "action": "reject",
+    "reason": "generic mainland-only; existing 世界大戰 entries differ",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "兽乡守卫者",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡岛",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡祷告",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡剧场",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡骑士",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡之门",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死亡之夜",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "隋唐英雄传",
+    "action": "reject",
+    "reason": "mainland-only; distinct from existing 隋唐 entries, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太平洋公爵",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太平洋突击",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "特技之岛",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "跳跳跳",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁甲战舰",
+    "action": "reject",
+    "reason": "mainland-only; differs from cdg-4142 鐵甲旗艦",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁血佣兵",
+    "action": "reject",
+    "reason": "mainland-only; differs from cdg-4131 鐵血聯盟",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "围棋精华",
+    "action": "reject",
+    "reason": "obscure mainland-only Go program, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "无限空间",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "午夜领主",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "小精灵历险",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "小魔怪2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际霸主",
+    "action": "reject",
+    "reason": "generic mainland-only; no exact Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际航舰",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际联盟",
+    "action": "reject",
+    "reason": "generic mainland-only; no exact Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际炮手",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际之锤",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "性感机器",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "伊苏",
+    "action": "review",
+    "reason": "likely dup of existing 伊蘇/Ys series but exact entry unclear",
+    "target": "cdg-0630",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "异星病毒",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异星逻辑",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异星遗迹",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异形巴贡",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异形繁殖",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异形事件",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "异形阴谋",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "银河风暴",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "银河战士",
+    "action": "reject",
+    "reason": "rwv-only; Metroid not a DOS/TW catalog entry",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "英雄使命",
+    "action": "reject",
+    "reason": "rwv-only mainland title, no confident TW match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "永恒之烛1",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "永恒之烛2",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "永恒之烛3",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "宇宙王牌",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战斗大师",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战斗行动",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战斗起司",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战斗之怒",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战国时代",
+    "action": "reject",
+    "reason": "rwv-only; generic name, no confident TW match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战争王国",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战争之岛",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战争之旗",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "战争之人",
+    "action": "reject",
+    "reason": "rwv-only; Men of War is post-DOS, out of scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "殖民帝国",
+    "action": "reject",
+    "reason": "rwv-only; no confident TW catalog match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "殖民世纪",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "致命挑战",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "终极快打",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "终极任务",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "终极速度",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "装甲守护",
+    "action": "reject",
+    "reason": "rwv-only mainland title, unrecognised, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "足球帝国",
+    "action": "reject",
+    "reason": "mainland rwv-only generic name, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "最后的武士",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal or dup",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "最后期限",
+    "action": "reject",
+    "reason": "mainland rwv-only, unrecognized, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "罪恶克星",
+    "action": "reject",
+    "reason": "mainland rwv-only, unrecognized, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "侠客列传",
+    "action": "reject",
+    "reason": "mainland 西山居 RPG, no Taiwan release",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "1000公里",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "1000米利亚",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "1-0足球经理",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "1830铁路公爵",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan dup",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "1869大航海",
+    "action": "reject",
+    "reason": "mainland rwv-only German trade sim, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "3D俄罗斯",
+    "action": "reject",
+    "reason": "mainland rwv-only generic Tetris, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "3D魔方",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "3D陨石",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "3D炸弹人",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "3D桌上体育",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "4D网球",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "66区",
+    "action": "reject",
+    "reason": "mainland rwv-only, unrecognized, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "80年空中激斗",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "94美国世界杯",
+    "action": "reject",
+    "reason": "mainland rwv-only sports title, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "97超少女",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "A320空中客机",
+    "action": "reject",
+    "reason": "mainland rwv-only flight sim, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "ALPHA风暴",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "BOPPIN物理游戏",
+    "action": "reject",
+    "reason": "mainland rwv-only puzzle, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "CBA嘉年华",
+    "action": "reject",
+    "reason": "mainland rwv-only sports, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "D计划",
+    "action": "reject",
+    "reason": "mainland rwv-only, unrecognized, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "F14战机",
+    "action": "reject",
+    "reason": "mainland rwv-only flight sim, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "F15战斗机",
+    "action": "reject",
+    "reason": "mainland rwv-only flight sim, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "FIFA1996",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan release signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "FIFA97",
+    "action": "reject",
+    "reason": "mainland rwv-only, no Taiwan release signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "FX战士",
+    "action": "reject",
+    "reason": "mainland rwv-only, unrecognized, no Taiwan signal",
+    "confidence": "high",
+    "scope": "cn"
+  },
+  {
+    "name": "MAX机械突袭",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "NBA嘉年华",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "NBA直播",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "SU27侧翼部队",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "V字战机",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "X计划",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "X任务",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "YAB棒球",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "阿卡特兹",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "阿拉丁2灯神诅咒",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "阿拉丁传奇",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "阿蕾莎冰封世界",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "阿瓦隆",
+    "action": "reject",
+    "reason": "rwv-only mainland; ambiguous, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "哀伤罗曼史",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "埃及统治者",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "艾薇拉动作版",
+    "action": "reject",
+    "reason": "rwv-only Elvira arcade; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "暗影术士",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "暗影之力",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "贝多芬二世犬",
+    "action": "reject",
+    "reason": "rwv-only mainland movie tie-in; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "贝弗利山人",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "被遗忘的世界",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "被遗忘之地",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "边境宝藏",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "蝙蝠侠电影版",
+    "action": "reject",
+    "reason": "rwv-only mainland movie tie-in; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "蝙蝠侠归来",
+    "action": "reject",
+    "reason": "rwv-only mainland movie tie-in; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "变态杀手",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飚车小子",
+    "action": "merge",
+    "reason": "exact match catalog 飆車小子, TW publisher 竑辰",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-1537",
+    "title_hant": "飆車小子"
+  },
+  {
+    "name": "冰冷之梦",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognized, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "冰球95",
+    "action": "reject",
+    "reason": "rwv-only mainland sports; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "冰球联赛97",
+    "action": "reject",
+    "reason": "rwv-only mainland sports; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "冰与火",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "波士顿守卫者",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "博物馆惊魂夜",
+    "action": "reject",
+    "reason": "rwv-only, post-DOS movie tie-in, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "捕猎行动",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "不给糖就捣蛋",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "不朽之人",
+    "action": "reject",
+    "reason": "rwv-only; catalog 永生不滅 is different game",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "布莱克之石异星黄金",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "布莱克之石异星突击",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "部落",
+    "action": "reject",
+    "reason": "rwv-only; no clean Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "残酷世界",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "残杀行动",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "苍白之地",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超凡蜘蛛侠",
+    "action": "reject",
+    "reason": "rwv-only, post-DOS movie tie-in, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级滑雪2",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级滑雪专业版",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级街霸新挑战者",
+    "action": "merge",
+    "reason": "SSF2 New Challengers, same family as catalog SSF2",
+    "scope": "cn",
+    "confidence": "low",
+    "target": "cdg-2212"
+  },
+  {
+    "name": "超级科曼奇",
+    "action": "reject",
+    "reason": "rwv-only; Comanche not in catalog, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级三剑客",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "超级英雄联盟",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "惩罚者",
+    "action": "reject",
+    "reason": "rwv-only Punisher tie-in, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "齿轮游戏",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "臭鼬赛车",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "出击飞龙",
+    "action": "reject",
+    "reason": "Strider arcade, rwv-only, not in catalog",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "丛林大作战",
+    "action": "reject",
+    "reason": "rwv-only; no clean Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "丛林历险记",
+    "action": "reject",
+    "reason": "rwv-only; no clean Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "达兰科出击",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大海战13",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大红大冒险",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大金刚",
+    "action": "reject",
+    "reason": "rwv-only Donkey Kong clone, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大力水手2",
+    "action": "reject",
+    "reason": "rwv-only Popeye tie-in, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "大麻农夫",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "大企业家",
+    "action": "reject",
+    "reason": "generic obscure rwv-only, no catalog match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "弹震坦克",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "弹珠台世界",
+    "action": "reject",
+    "reason": "generic pinball, no specific match or Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "德库拉传说",
+    "action": "reject",
+    "reason": "unrecognised; catalog Draculas don't match",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "德鲁伊恶魔之心",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "地动山摇",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "地球围攻",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "地狱付费之旅",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "地狱赛博朋克",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "第5舰队",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "第一武士",
+    "action": "reject",
+    "reason": "First Samurai not in catalog, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "俄勒冈小道",
+    "action": "reject",
+    "reason": "Oregon Trail US edutainment, no Taiwan release",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "犯罪浪潮",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞碟任务",
+    "action": "reject",
+    "reason": "obscure mainland-only, no catalog match",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞虎队",
+    "action": "reject",
+    "reason": "unrecognised, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞虎队2",
+    "action": "reject",
+    "reason": "unrecognised sequel, mainland-only",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞空艇",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞轮勇士",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飞跃疯人院",
+    "action": "reject",
+    "reason": "unrecognised mainland-only, not the Countdown entry",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "分歧：裂痕",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "风语河岸柳",
+    "action": "reject",
+    "reason": "Wind in the Willows; no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯狗威廉的地下城之旅",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯狂橄榄球",
+    "action": "reject",
+    "reason": "generic obscure sports, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯狂科学机器",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯狂小旅鼠",
+    "action": "merge",
+    "reason": "Lemmings = existing 百戰小旅鼠",
+    "scope": "cn",
+    "confidence": "low",
+    "target": "cdg-4186",
+    "title_hant": null
+  },
+  {
+    "name": "疯狂小旅鼠2",
+    "action": "reject",
+    "reason": "Lemmings 2 sequel, no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯狂小旅鼠3",
+    "action": "reject",
+    "reason": "Lemmings 3 sequel, no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "疯子",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "蜂箱赌坊",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "福特模拟驾驶",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "橄榄球世界杯95",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only rugby title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "橄榄球小联盟",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "钢铁冲突未来版",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "高尔夫训练386",
+    "action": "merge",
+    "reason": "matches cdg-0954 alias 高爾夫訓練386 (Links 386 Pro)",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-0954"
+  },
+  {
+    "name": "高级银河帝国",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no unique match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "哥伦布发现之旅",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "革命力量",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "格斗：过度杀戮",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "隔离区1",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "公元前车赛",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "古怪小搭档",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "古怪星球伊特兰",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "古怪之梦",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雇佣之枪",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "关键任务",
+    "action": "reject",
+    "reason": "ambiguous mainland rwv-only, no unique match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "管状世界",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "冠军拉力赛",
+    "action": "review",
+    "reason": "alias 冠軍拉力賽 in 2+ entries, cannot pin one",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "光头大战",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "鬼屋文字冒险",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "贵族",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国际拳击赛",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no unique match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国际忍者兔",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国际体育联赛",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国际网球联赛",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no unique match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国际象棋巫术对决",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "国土争霸",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "过度杀戮92",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "海豹突击队",
+    "action": "reject",
+    "reason": "obscure mainland rwv-only, no match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "海盗黄金版",
+    "action": "reject",
+    "reason": "Pirates! Gold, mainland rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "海军出击",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海狼",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海上传奇",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海滩斗忍者",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海下罗格",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "海洋多米诺",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure puzzle",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "汉尼拔",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "豪华弹珠台",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure pinball",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "好莱坞谋杀案",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "核能武士",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "赫拉瑞恩之剑",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗的公证",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗军团／魔法伏击战",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑暗时代三部曲",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑洞谜题",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure puzzle",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑杰克",
+    "action": "reject",
+    "reason": "rwv-only mainland; generic blackjack",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑日危机",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑日危机2",
+    "action": "reject",
+    "reason": "rwv-only mainland; no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黑星正义使者",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红猫1",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红猫2",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红色地狱纳粹悖论",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "红色水晶石",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "洪流剑客",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "呼啸拉力赛",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure racer",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "呼啸赛车",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure racer",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "呼啸赛车2",
+    "action": "reject",
+    "reason": "rwv-only mainland; obscure racer",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "狐战机",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "琥珀之星",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "滑轮小子",
+    "action": "reject",
+    "reason": "rwv-only mainland; unrecognised",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "滑轮小子2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "滑雪场",
+    "action": "reject",
+    "reason": "generic rwv-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "环世界",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "幻象弹珠台",
+    "action": "reject",
+    "reason": "obscure rwv-only pinball, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "荒蛮勇士格斗",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "皇冠",
+    "action": "reject",
+    "reason": "generic rwv-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "黄瓜战争三部曲",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "灰烬帝国",
+    "action": "reject",
+    "reason": "obscure rwv-only, no catalog match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "毁灭竞技场",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "混沌机甲1",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "混沌机甲2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "混战之翼",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火狐冒险",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火星女神",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火星人备忘录",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火焰之力",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "火焰之王",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机甲战士2雇佣兵",
+    "action": "reject",
+    "reason": "MechWarrior 2 but rwv-only, no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机器人崛起",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机械小蜜蜂",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "机战网络",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "缉毒刑警",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "激光部队",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "激情足球",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "激战M星云",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "激战M星云2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "吉尔在丛林3合1",
+    "action": "reject",
+    "reason": "obscure rwv-only compilation, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "极超豪拳",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "极限弹珠台",
+    "action": "reject",
+    "reason": "obscure rwv-only pinball, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "尖刀部队",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "歼敌行动",
+    "action": "reject",
+    "reason": "Obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "剪秋罗",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "建筑大师",
+    "action": "reject",
+    "reason": "Generic name, no catalog match, mainland-only",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "舰队守护神",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "鉴赏家",
+    "action": "reject",
+    "reason": "Obscure mainland-only, possibly non-game",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "降魔勇士",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "交错的命运",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "交通局2192",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "娇的客人",
+    "action": "reject",
+    "reason": "Obscure mainland-only, likely truncated name",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "角斗士",
+    "action": "reject",
+    "reason": "Generic Gladiator name, no clear match, mainland-only",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "街球大灌篮",
+    "action": "reject",
+    "reason": "Obscure mainland-only streetball game",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "街头地下格斗",
+    "action": "reject",
+    "reason": "Obscure mainland-only fighter, no match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "解救华盛顿",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "金属变异人",
+    "action": "reject",
+    "reason": "Metal Mutant obscure, mainland-only no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "紧急关头",
+    "action": "reject",
+    "reason": "Generic name, mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "进化鱼",
+    "action": "reject",
+    "reason": "Obscure mainland-only; El-Fish already cdg-4196",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巨鲸宇宙号",
+    "action": "reject",
+    "reason": "Obscure mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巨窟文字冒险",
+    "action": "reject",
+    "reason": "Colossal Cave text adventure, mainland-only no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "飓风机甲",
+    "action": "reject",
+    "reason": "Obscure mainland-only mecha title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "掘金者",
+    "action": "reject",
+    "reason": "Ambiguous Gold Digger, no clear match, mainland-only",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "掘金者2",
+    "action": "reject",
+    "reason": "Ambiguous sequel, no clear match, mainland-only",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "爵士兔：光碟增强版",
+    "action": "merge",
+    "reason": "Jazz Jackrabbit CD edition, same as cdg-1681",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": "cdg-1681",
+    "title_hant": "爵士兔：光碟增強版"
+  },
+  {
+    "name": "爵士兔：假日兔94",
+    "action": "merge",
+    "reason": "Holiday Hare 94, Jazz Jackrabbit expansion of cdg-1681",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": "cdg-1681",
+    "title_hant": "爵士兔：假日兔94"
+  },
+  {
+    "name": "爵士兔：假日兔95",
+    "action": "merge",
+    "reason": "Holiday Hare 95, Jazz Jackrabbit expansion of cdg-1681",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": "cdg-1681",
+    "title_hant": "爵士兔：假日兔95"
+  },
+  {
+    "name": "军备竞赛",
+    "action": "reject",
+    "reason": "Generic Arms Race name, mainland-only, unrecognized",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "卡拉汉时空沙龙",
+    "action": "append",
+    "reason": "Callahan's Crosstime Saloon, recognized Western adventure",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "卡拉漢時空沙龍"
+  },
+  {
+    "name": "卡门美国时空之旅",
+    "action": "append",
+    "reason": "Where in America's Past is Carmen Sandiego, famous series",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "卡門美國時空之旅"
+  },
+  {
+    "name": "卡门美国之旅",
+    "action": "append",
+    "reason": "Where in the USA is Carmen Sandiego, famous series",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "卡門美國之旅"
+  },
+  {
+    "name": "卡门时空之旅",
+    "action": "append",
+    "reason": "Where in Time is Carmen Sandiego, famous series",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "卡門時空之旅"
+  },
+  {
+    "name": "卡门世界之旅",
+    "action": "append",
+    "reason": "Where in the World is Carmen Sandiego, famous series",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "卡門世界之旅"
+  },
+  {
+    "name": "卡门太空之旅",
+    "action": "reject",
+    "reason": "mainland rwv-only, not in catalog",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "开球96",
+    "action": "reject",
+    "reason": "obscure mainland-only sports title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "开球97",
+    "action": "reject",
+    "reason": "obscure mainland-only sports title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "开膛手杰克",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "凯撒立志传",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "克莱德复仇",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "克莱德冒险",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "空军指挥官",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "空战黑骑士",
+    "action": "reject",
+    "reason": "obscure mainland-only flight title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "空战艺术",
+    "action": "reject",
+    "reason": "obscure mainland-only flight title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "恐龙益智问答",
+    "action": "reject",
+    "reason": "obscure mainland-only quiz title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "苦难剧场",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "跨越行星",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "狂暴异形",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "狂野悖论",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "狂野西部",
+    "action": "reject",
+    "reason": "generic mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "蓝精灵",
+    "action": "reject",
+    "reason": "Smurfs licence, mainland rwv-only, no TW signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "蓝色怪魔",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "蓝色行动",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "篮球经理",
+    "action": "reject",
+    "reason": "generic mainland-only sports manager",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "懒虫大战",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "狼祸",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷击战机",
+    "action": "reject",
+    "reason": "obscure mainland-only shooter",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷击战机2",
+    "action": "reject",
+    "reason": "obscure mainland-only shooter",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷景：艾登世界",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷克斯",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷米兔传奇",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雷鸟",
+    "action": "reject",
+    "reason": "unrecognized mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "擂台美少女／天使摔角",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "擂台美少女3／天使摔角3",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "里世界／狼女",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "力之奴仆",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "历史大战役",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "莲花赛车无限",
+    "action": "reject",
+    "reason": "Lotus racing, rwv-only, no Taiwan-release evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "量子博士之岛",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "猎户座阴谋",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "龙霸三合会",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "龙霸三合会资料片",
+    "action": "reject",
+    "reason": "rwv-only expansion, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "卢夫的秘密武器",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗宾汉大冒险",
+    "action": "reject",
+    "reason": "Robin Hood, rwv-only, no clear catalog dup or Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗恩骑士",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗马权利之路",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗马之墙+编辑器",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗斯玛丽的占卜屋",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗特斯机械人",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "罗特战机",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "马玻的料理",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "玛吉之环",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "玛雅勇士的诅咒",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "曼联传奇",
+    "action": "reject",
+    "reason": "Man Utd, rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "盲战",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "冒险之魂",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "美杜莎归来",
+    "action": "reject",
+    "reason": "rwv-only, distinct from cdg-4006, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "美国海军战机",
+    "action": "reject",
+    "reason": "US Navy Fighters, rwv-only, no Taiwan-release evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "魅力游戏",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "门外世界三部曲",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "猛龙战机",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "梦网",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "梦魇怪物大作战",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "梦游小子",
+    "action": "reject",
+    "reason": "rwv-only mainland, unrecognised, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "迷宫大师2",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "迷失洛杉矶",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "命运战士／混沌引擎",
+    "action": "reject",
+    "reason": "Chaos Engine but no Taiwan release evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "摩登原始人",
+    "action": "reject",
+    "reason": "Flintstones but no Taiwan release evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "摩托城市",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "魔动王子／黑色荆棘",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "魔魅大陆的诅咒",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "莫克塔历险记",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "墓地丧尸",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "墓穴诅咒",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "那苏冒险",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "南极大冒险",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "脑博士之岛",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "尼旁事务所",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "农奴城市",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "怒之机翼",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "虐杀异形",
+    "action": "reject",
+    "reason": "Quarantine but no Taiwan release evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "诺曼计划93",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "女皇赌场",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "女神之翼",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "欧洲巡回摔角",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "欧洲足球96",
+    "action": "reject",
+    "reason": "rwv-only sports title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "胖子之怒",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "喷气背包",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "拼图大师",
+    "action": "reject",
+    "reason": "generic puzzle, rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "拼图乒乓台",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "拼字游戏",
+    "action": "reject",
+    "reason": "generic Scrabble-type, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "七大黄金之城",
+    "action": "reject",
+    "reason": "7 Cities of Gold but no Taiwan evidence",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "奇幻游戏三合一",
+    "action": "reject",
+    "reason": "rwv-only compilation, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "奇妙的扎克",
+    "action": "reject",
+    "reason": "rwv-only, mainland, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "汽车大亨",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal or dup",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "千兆轰炸",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "前线药剂师",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "强手棋",
+    "action": "reject",
+    "reason": "generic Monopoly variant, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "桥牌",
+    "action": "reject",
+    "reason": "generic Bridge, no identifiable Taiwan dup",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "区域掠夺",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "趣怪小巫师",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "权利之战",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "全球效应",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "拳斗士",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "燃烧时刻",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "热带雨林的秘密",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "热能战机",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "忍者山洞人",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "日本之战",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "萨巴巴指挥官",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "赛博滑板小子",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "赛博战警",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "赛尔达经典版",
+    "action": "reject",
+    "reason": "Zelda not DOS; likely fan port, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "赛马",
+    "action": "reject",
+    "reason": "generic horse racing, no Taiwan dup",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "伞兵大战",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "森林救火员",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "森塔勇士",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "杀戮机器",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "杀生异形",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "沙暴",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "沙克狼",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "沙漠勇士",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "沙之战线",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "商业王子",
+    "action": "reject",
+    "reason": "obscure rwv-only mainland, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "少年侦探",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "蛇女",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "射豆",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "射门95",
+    "action": "reject",
+    "reason": "obscure mainland-only sports title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "深海泰坦尼克",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "神经弹珠台",
+    "action": "reject",
+    "reason": "obscure mainland-only pinball title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "神秘博物馆",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "生死决斗2097",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "生物游戏",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "圣经队长",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "失控驾驶2",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "失落之地英雄时代",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "狮子安必斯",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "十字军权利之战",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "石与钻",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "石中剑的复仇",
+    "action": "merge",
+    "reason": "Vengeance of Excalibur = 圓桌武士2/神劍復仇",
+    "scope": "cn",
+    "confidence": "high",
+    "target": "cdg-1067",
+    "title_hant": null
+  },
+  {
+    "name": "实体",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "史诗星战",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "世界拳击经理",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "世界摔角联盟",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "势不两立",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "首饰和盔甲",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "舒克达的魔法城堡",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "束缚之馆",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "数学大冒险",
+    "action": "reject",
+    "reason": "obscure mainland-only edutainment, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "数学大作战",
+    "action": "reject",
+    "reason": "obscure mainland-only edutainment, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "摔角联盟1995",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "双子城命运",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "谁陷害了兔子罗杰",
+    "action": "reject",
+    "reason": "Roger Rabbit, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "水管工",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "水管马里奥",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "水晶迷宫",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "顺时针谜题",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "斯大林格勒",
+    "action": "reject",
+    "reason": "rwv-only, no catalog DOS match, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死星战将",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "死刑之剑",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "四海冒险家",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "四人车赛",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "松鼠奥斯卡",
+    "action": "reject",
+    "reason": "rwv-only, distinct from catalog Oscar, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "塔罗斯的警觉",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太空蝙蝠大战",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太空第9计划",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太空计划",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太空女妖",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "太空勇士鼠",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "泰克战争",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "泰拉之火",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "贪欲诉求",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "螳螂战机",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "逃离地狱",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "逃离疯人院",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "逃离脑博士的城堡",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "特工盖之毁灭水晶",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "特警判官",
+    "action": "reject",
+    "reason": "rwv-only, no catalog match, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "特蕾莎",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "提尔战机2000",
+    "action": "reject",
+    "reason": "Tyrian 2000 (~1999), rwv-only, post-DOS, franchise present",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "天堂和人间",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "天旋地转2",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁锤男孩",
+    "action": "reject",
+    "reason": "rwv-only mainland, obscure, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁钩船长",
+    "action": "reject",
+    "reason": "Hook, rwv-only, no catalog match, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "铁路A计划+资料篇",
+    "action": "merge",
+    "target": "cdg-0039",
+    "reason": "alias 鐵路A計劃 = A列車3",
+    "scope": "tw",
+    "confidence": "high"
+  },
+  {
+    "name": "铁血橄榄球",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁血联盟死亡游戏",
+    "action": "append",
+    "title_hant": "鐵血聯盟：死亡遊戲",
+    "reason": "Jagged Alliance: Deadly Games, distinct Western title",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "铁血农夫1",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "铁血农夫再度出击",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "通道",
+    "action": "reject",
+    "reason": "generic obscure mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "通路1",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "通路2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "童话新编",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "童梦失魂夜／迷儿城",
+    "action": "merge",
+    "target": "cdg-0711",
+    "reason": "alias 童夢失魂夜 = 失子之城",
+    "scope": "tw",
+    "confidence": "high"
+  },
+  {
+    "name": "头骨与骷髅十字",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "秃鹰疑案",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突击",
+    "action": "reject",
+    "reason": "generic obscure mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突击士兵",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突破2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突破3",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突袭之翼",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "突袭指挥官",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "团聚",
+    "action": "reject",
+    "reason": "generic obscure mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "外太空",
+    "action": "reject",
+    "reason": "generic obscure mainland-only title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "外星奥林匹克",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "外星悍将2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "湾岸作战",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "亡魂复仇",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "王牌潜艇+资料片",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "王位继承者",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "危险丛林",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "危险街道",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "威利的暑假",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "威兹兔",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "微光2000",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "韦恩的预言",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "维京战争",
+    "action": "reject",
+    "reason": "unrecognized mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "维特自由赛车",
+    "action": "merge",
+    "reason": "alias of cdg-0779 城市大賽車 Vette!",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-0779",
+    "title_hant": null
+  },
+  {
+    "name": "未来战争时间旅者",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "我是米恩",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "乌托邦国家崛起",
+    "action": "reject",
+    "reason": "unrecognized mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巫魔天境",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巫魔天境2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "巫师大坩埚",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无尽的黑暗",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无尽的黑暗2",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无尽的黑暗3",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无尽的野心",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无尽空间",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "无限制擂台赛",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "武装还击",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "物竞天不择",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "西洋陆军棋",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "吸血鬼之塔",
+    "action": "reject",
+    "reason": "obscure mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "线索",
+    "action": "reject",
+    "reason": "obscure generic mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "陷害之人",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "消防队",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小丑荷米",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小恶魔",
+    "action": "reject",
+    "reason": "obscure generic mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小飞侠",
+    "action": "reject",
+    "reason": "generic mainland-only, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小辣椒时空之旅",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小蜜蜂",
+    "action": "reject",
+    "reason": "generic mainland term, no specific Taiwan match",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小蜜蜂初代",
+    "action": "reject",
+    "reason": "generic mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "小妖精",
+    "action": "reject",
+    "reason": "obscure generic mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "校园大富翁",
+    "action": "reject",
+    "reason": "rwv-only mainland Monopoly clone, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "辛迪加战争",
+    "action": "reject",
+    "reason": "Syndicate Wars rwv-only, no Taiwan release evidence",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "辛普森一家",
+    "action": "reject",
+    "reason": "rwv-only Simpsons title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "辛普森一家2古怪之屋",
+    "action": "reject",
+    "reason": "rwv-only Simpsons title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "新世界征服者",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "新星9龙机归来",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星尘",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星河舰长历险记",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际调查局",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际调查局2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际统治者",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星际游骑兵",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星球大战暗影力量",
+    "action": "reject",
+    "reason": "Star Wars Dark Forces rwv-only, no Taiwan evidence",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "星球大战绝地反击",
+    "action": "reject",
+    "reason": "Star Wars Rebel Assault rwv-only, no Taiwan evidence",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "星球裂痕",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星球突击",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星球之火",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "星球指挥革命",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "性别战争",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "虚幻之地",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "虚拟高尔夫",
+    "action": "reject",
+    "reason": "generic rwv-only golf title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "亚瑟王豪华版",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "要塞",
+    "action": "reject",
+    "reason": "ambiguous rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "亿兆旅行者1",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "亿兆旅行者2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异次元之旅武者传说",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异教巫师黑暗教堂的死神",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异形残杀：万圣节哈利",
+    "action": "reject",
+    "reason": "obscure rwv-only fan title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异形繁殖2",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异形恐惧症",
+    "action": "reject",
+    "reason": "obscure rwv-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "异域神兵诸神诅咒",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "益智轨道",
+    "action": "reject",
+    "reason": "obscure mainland-only puzzle, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "益智问题集",
+    "action": "reject",
+    "reason": "obscure mainland-only quiz, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "意大利足球经理",
+    "action": "reject",
+    "reason": "obscure mainland-only sports title, out of scope",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "阴谋论",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "银河太阳风",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "银色弹球95",
+    "action": "reject",
+    "reason": "obscure pinball, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "印第安公主",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "鹰眼传说：伦敦",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "佣兵1铁格部队",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "佣兵2突击部队",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "悠悠大作战",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "游轮凶案",
+    "action": "reject",
+    "reason": "obscure mainland-only mystery, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "诱惑",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙大冒险",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙十字军",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no catalog match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "宇宙王牌2",
+    "action": "reject",
+    "reason": "obscure mainland-only sequel, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雨果",
+    "action": "reject",
+    "reason": "Hugo series, mainland-only, no Taiwan release signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雨果的恐怖之屋1",
+    "action": "reject",
+    "reason": "Hugo series, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雨果的恐怖之屋2",
+    "action": "reject",
+    "reason": "Hugo series, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "雨果的恐怖之屋3",
+    "action": "reject",
+    "reason": "Hugo series, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "玉米飞机大战外星人",
+    "action": "reject",
+    "reason": "obscure mainland-only shooter, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "预言",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "预言维金之子",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "元素球",
+    "action": "reject",
+    "reason": "obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "原恒星战争前线",
+    "action": "reject",
+    "reason": "obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "月球巡逻",
+    "action": "reject",
+    "reason": "Moon Patrol clone, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "赞斯的同伴",
+    "action": "reject",
+    "reason": "Companions of Xanth, mainland-only, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "扎克宇宙历险记",
+    "action": "merge",
+    "reason": "Zak McKracken, matches catalog entry",
+    "scope": "cn",
+    "confidence": "low",
+    "target": "cdg-3927"
+  },
+  {
+    "name": "詹姆斯庞德2",
+    "action": "reject",
+    "reason": "obscure mainland-only Bond title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "战争之岛2020",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "折纸迷宫",
+    "action": "reject",
+    "reason": "Obscure mainland-only puzzle, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "侦探劳拉2",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "珍宝珠小子",
+    "action": "reject",
+    "reason": "Obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "珍宝珠小子2",
+    "action": "reject",
+    "reason": "Obscure mainland-only title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "真实足球",
+    "action": "reject",
+    "reason": "Mainland-only soccer title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "真实足球俱乐部版",
+    "action": "reject",
+    "reason": "Mainland-only soccer variant, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "争分夺秒",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "征服：AD1086",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "支配力量",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "直升机救援队",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "直升机搜敌记",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "职业棒球联赛",
+    "action": "reject",
+    "reason": "Obscure mainland-only baseball, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指环王",
+    "action": "reject",
+    "reason": "Generic LotR; no DOS-era Taiwan match found",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指环王2",
+    "action": "reject",
+    "reason": "Generic LotR; no DOS-era Taiwan match found",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩1",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩2",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩3",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩3.5",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩4",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩5",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "指挥官基恩6",
+    "action": "reject",
+    "reason": "Commander Keen, mainland-only here, no Taiwan signal",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "至高跆拳道冠军赛",
+    "action": "reject",
+    "reason": "Obscure mainland-only fighting title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "high"
+  },
+  {
+    "name": "智冠杯灌篮大赛",
+    "action": "merge",
+    "target": "cdg-4130",
+    "reason": "Softworld 1995 basketball, matches 超級灌籃大賽",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "智慧弹珠",
+    "action": "reject",
+    "reason": "Obscure mainland-only pinball, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "中央情报局",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "终端恐惧",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "终结者2029",
+    "action": "reject",
+    "reason": "Terminator 2029, mainland-only here, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "终结者2射击版",
+    "action": "reject",
+    "reason": "Obscure mainland-only title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "种族灭绝",
+    "action": "reject",
+    "reason": "Obscure mainland-only rwv title, no Taiwan match",
+    "scope": "cn",
+    "confidence": "low"
+  },
+  {
+    "name": "仲裁者",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title, out of TW scope",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "重力战机",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "咒语锻造",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "咒语交叉",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "侏罗纪圣战",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title, no TW signal",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "抓住他们",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "专业网球巡回赛",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv sports title",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "壮志凌云",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "字符世界历险记",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "走廊：异形入侵",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "足球超级明星",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv sports title",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "足球经理人",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "佐罗",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "作战集团",
+    "action": "reject",
+    "reason": "Unrecognised mainland-only rwv title",
+    "scope": "cn",
+    "confidence": "high",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "轩辕剑 黄金纪念版",
+    "action": "reject",
+    "reason": "Compilation reissue of existing 軒轅劍 entries, redundant",
+    "scope": "cn",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "Bazzy的農場導遊",
+    "action": "reject",
+    "reason": "Western kids edutainment, no clear TW publisher",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "好朋友一起走-中英雙語",
+    "action": "append",
+    "reason": "昱泉/信誼 TW bilingual edutainment title",
+    "scope": "tw",
+    "confidence": "high",
+    "target": null,
+    "title_hant": "好朋友一起走-中英雙語"
+  },
+  {
+    "name": "W",
+    "action": "reject",
+    "reason": "Japanese GAMEBANK title, no TW release signal",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "G1470-究極美少女麻雀",
+    "action": "reject",
+    "reason": "Japanese adult mahjong, no TW publisher shown",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "PC39_高速公路銀行遊戲",
+    "action": "append",
+    "reason": "第三波 TW-published reprint title",
+    "scope": "tw",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "高速公路銀行遊戲"
+  },
+  {
+    "name": "海美物語",
+    "action": "reject",
+    "reason": "Japanese みずき title, no TW release signal",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "遊戲駭客族",
+    "action": "append",
+    "reason": "雪狼工作室/軟體世界 TW original game",
+    "scope": "tw",
+    "confidence": "high",
+    "target": null,
+    "title_hant": "遊戲駭客族"
+  },
+  {
+    "name": "塞司奇域之化學物能",
+    "action": "append",
+    "reason": "怡祥電腦多媒體 TW edutainment original",
+    "scope": "tw",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "塞司奇域之化學物能"
+  },
+  {
+    "name": "雞蛋糕 遊戲樂園 五合一包裝",
+    "action": "merge",
+    "reason": "Same 冠捷 雞蛋糕樂園 compilation",
+    "scope": "tw",
+    "confidence": "low",
+    "target": "cdg-1973",
+    "title_hant": null
+  },
+  {
+    "name": "花語-花天神語繪圖系列之一",
+    "action": "append",
+    "reason": "精訊 TW drawing/edutainment original title",
+    "scope": "tw",
+    "confidence": "high",
+    "target": null,
+    "title_hant": "花語-花天神語繪圖系列之一"
+  },
+  {
+    "name": "G1023-遊戲輕鬆打",
+    "action": "append",
+    "reason": "藍海豚科技/智冠 TW-published title",
+    "scope": "tw",
+    "confidence": "high",
+    "target": null,
+    "title_hant": "遊戲輕鬆打"
+  },
+  {
+    "name": "環遊世界學語言",
+    "action": "append",
+    "reason": "頂尖拍檔/富峰群 TW edutainment title",
+    "scope": "tw",
+    "confidence": "high",
+    "target": null,
+    "title_hant": "環遊世界學語言"
+  },
+  {
+    "name": "真人美女拳",
+    "action": "merge",
+    "reason": "Same Tensoft 真人美女拳 as catalog entry",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-1816",
+    "title_hant": null
+  },
+  {
+    "name": "幻境工作室",
+    "action": "append",
+    "reason": "電腦休閒世界 TW-published VR Studio dev tool/game",
+    "scope": "tw",
+    "confidence": "low",
+    "target": null,
+    "title_hant": "幻境工作室"
+  },
+  {
+    "name": "G1505-天地無用！登校無用",
+    "action": "reject",
+    "reason": "Japanese-version (日文版) only, no TW localization",
+    "scope": "unknown",
+    "confidence": "low",
+    "target": null,
+    "title_hant": null
+  },
+  {
+    "name": "全國制服美少女",
+    "action": "reject",
+    "reason": "Japanese eroge, no Taiwan release signal",
+    "scope": "unknown",
+    "confidence": "high"
+  },
+  {
+    "name": "美女寶石陣",
+    "action": "append",
+    "reason": "新世界軟體 Taiwan original GEMX puzzle",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "美女寶石陣"
+  },
+  {
+    "name": "神奇誕生數",
+    "action": "reject",
+    "reason": "obscure 超銳軟體 title, unrecognised",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "逐鹿中原",
+    "action": "reject",
+    "reason": "鐵人工作室 trial demo, obscure",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "2004全民開打",
+    "action": "reject",
+    "reason": "obscure 飛玩資訊 title, unrecognised",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "開天闢地",
+    "action": "reject",
+    "reason": "generic name, 第三波, unrecognised",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "學生寶典-亞洲電腦",
+    "action": "reject",
+    "reason": "educational tool, not a game",
+    "scope": "tw",
+    "confidence": "high"
+  },
+  {
+    "name": "軟件世界 桌面遊戲百分百",
+    "action": "reject",
+    "reason": "magazine bundle, not a game",
+    "scope": "unknown",
+    "confidence": "high"
+  },
+  {
+    "name": "G411-亞貝爾傳說 Abel: Shin Mokushiroku Taisen",
+    "action": "reject",
+    "reason": "Japanese SRPG, no Taiwan signal",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G1337-まじかるトワラー・エンジェルラビィ☆傑作選",
+    "action": "reject",
+    "reason": "工畫堂 Japanese title, no TW release shown",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G327-女人要有錢 Shes Gotta Have Money",
+    "action": "reject",
+    "reason": "obscure Western/eroge, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G1024-西遊記-異世界大冒險",
+    "action": "merge",
+    "reason": "matches catalog 西遊記：異世界大冒險",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-0895"
+  },
+  {
+    "name": "G824-退魔傳說 Demon Spawn",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G5006-星河之旅",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G099-指極星",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G577-奇瓦迪精靈村歷險記 Chevady's Adventure",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G012-緋蒼幻想曲 Frane Ⅲ",
+    "action": "reject",
+    "reason": "Japanese RPG, post-DOS, no TW signal",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G397-辛巴達幻境奇航 Sinbad In The Lost Land",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G330-奇奇怪界",
+    "action": "reject",
+    "reason": "Japanese arcade KiKi KaiKai, not DOS TW",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G303-祕境傳說 Midgard",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G172-狀況開始 繁體中文版",
+    "action": "reject",
+    "reason": "Japanese title TW port, post-DOS, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G080-血月召喚 Bloody Call",
+    "action": "reject",
+    "reason": "Japanese eroge, no DOS TW signal",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G244-三國群俠傳",
+    "action": "reject",
+    "reason": "obscure title, unrecognised, possibly fan game",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G075-雞蛋糕啪啪走：勇敢向前衝 II 部曲 中文版",
+    "action": "reject",
+    "reason": "obscure casual title, post-DOS",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G178-戀愛遊戲製作大師2",
+    "action": "reject",
+    "reason": "Japanese tool port, post-DOS",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G070-QB大作戰",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G180-甲蟲霸主 THE HEGEMONIST OF BEETLES",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G155-英雄本色 HERO",
+    "action": "reject",
+    "reason": "generic name, ambiguous, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G061-爵爺吉祥",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G059-元氣雪人",
+    "action": "reject",
+    "reason": "obscure title, unrecognised",
+    "scope": "unknown",
+    "confidence": "low"
+  },
+  {
+    "name": "G008-六道天書",
+    "action": "append",
+    "reason": "Taiwan-original homebrew (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "六道天書"
+  },
+  {
+    "name": "G049-九英雄物語－聖戰語錄",
+    "action": "append",
+    "reason": "Taiwan-original homebrew (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "九英雄物語：聖戰語錄"
+  },
+  {
+    "name": "G048-小李飛刀 多情劍客無情劍",
+    "action": "append",
+    "reason": "Taiwan-original wuxia game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "小李飛刀：多情劍客無情劍"
+  },
+  {
+    "name": "G046-諜報特勤組 UBIK",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "諜報特勤組 UBIK"
+  },
+  {
+    "name": "G044-七俠五義 包公疑雲",
+    "action": "append",
+    "reason": "Taiwan-original game; not same as cdg-3926",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "七俠五義：包公疑雲"
+  },
+  {
+    "name": "G043-三國伏魔",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "三國伏魔"
+  },
+  {
+    "name": "G041-恰哥與肥佬",
+    "action": "merge",
+    "reason": "Exact title match in catalog",
+    "scope": "tw",
+    "confidence": "high",
+    "target": "cdg-1764"
+  },
+  {
+    "name": "G015-夢幻情人 Play lovers",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "夢幻情人 Play Lovers"
+  },
+  {
+    "name": "G038-破碎虛空",
+    "action": "append",
+    "reason": "Taiwan-original wuxia game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "破碎虛空"
+  },
+  {
+    "name": "G034-決戰e魔 LITTLE RED DEVIL e-Mail",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "決戰e魔 Little Red Devil e-Mail"
+  },
+  {
+    "name": "G032-窈窕美眉之百分百女孩",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "窈窕美眉之百分百女孩"
+  },
+  {
+    "name": "G027-魔石神劍錄 Poly Chrome",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "魔石神劍錄 Poly Chrome"
+  },
+  {
+    "name": "G026-火線天使 JetGirl",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "火線天使 JetGirl"
+  },
+  {
+    "name": "G007-究鏡三界-神影幻遊 Limit3Area",
+    "action": "append",
+    "reason": "Taiwan-original game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "究鏡三界：神影幻遊 Limit3Area"
+  },
+  {
+    "name": "G522-邪神 EVIL GOD",
+    "action": "append",
+    "reason": "Taiwan homebrew; differs from cdg-2592",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "邪神 Evil God"
+  },
+  {
+    "name": "G005-棒！辣妹三合一益智王",
+    "action": "append",
+    "reason": "Taiwan-original puzzle game (omega 原創)",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "棒！辣妹三合一益智王"
+  },
+  {
+    "name": "共享帝國 S",
+    "action": "reject",
+    "reason": "CD cover scan entry, not a game record",
+    "scope": "tw",
+    "confidence": "low"
+  },
+  {
+    "name": "遊戲威龍 Part1+Part2",
+    "action": "append",
+    "reason": "Taiwan-published by 大享資訊",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "遊戲威龍 Part1+Part2"
+  },
+  {
+    "name": "不可思議的任務",
+    "action": "append",
+    "reason": "Taiwan-published by 尚選科技",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "不可思議的任務"
+  },
+  {
+    "name": "當白雪公主遇上小紅帽",
+    "action": "append",
+    "reason": "Taiwan-published by 鉅盛/華標",
+    "scope": "tw",
+    "confidence": "low",
+    "title_hant": "當白雪公主遇上小紅帽"
+  },
+  {
+    "name": "美少女学院R组",
+    "action": "reject",
+    "reason": "Simplified-name, no Taiwan signal, likely doujin",
+    "scope": "unknown",
+    "confidence": "low"
+  }
+]
