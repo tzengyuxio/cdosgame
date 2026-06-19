@@ -14,6 +14,7 @@ MASTER_MERGED = Path("derived/master-list.merged.json")  # merge_sources --write
 MASTER = Path("derived/master-list.json")                # build_master output (chiuinan)
 REGISTRY = Path("data/id-registry.json")
 PUBLISH_STATE = Path("data/publish-state.json")          # {id: true} editorial gate
+OVERRIDES = Path("data/overrides.json")                  # {id: {field: ...}} editorial patches
 OUT_DIR = Path("content/games")
 CHIUINAN = Path("derived/chiuinan-screenshots.json")
 SERIES_DECISIONS = Path("data/series-decisions.json")
@@ -57,8 +58,14 @@ def load_registry():
     return {"_meta": REG_META, "ids": ids}
 
 
-def frontmatter(g, gid, published):
-    """Build an ordered frontmatter dict; omit empty optional collections."""
+def frontmatter(g, gid, published, override=None):
+    """Build an ordered frontmatter dict; omit empty optional collections.
+
+    `override` is the per-id patch from data/overrides.json (editorial fields
+    that don't belong in the source pipeline, e.g. hand-added external_links):
+    external_links merge into the derived map, any other key overwrites.
+    """
+    override = override or {}
     fm = {
         "id": gid,
         "published": published,
@@ -88,14 +95,19 @@ def frontmatter(g, gid, published):
         fm["images"] = g["images"]
     if g.get("references"):
         fm["references"] = g["references"]
-    if g.get("external_links"):
-        fm["external_links"] = g["external_links"]
+    links = {**(g.get("external_links") or {}), **(override.get("external_links") or {})}
+    if links:
+        fm["external_links"] = links
     if g.get("localization_basis"):
         fm["localization_basis"] = g["localization_basis"]
     if g.get("rwv_source_id"):
         fm["rwv_source_id"] = g["rwv_source_id"]
     if g.get("rwv_match"):
         fm["rwv_match"] = g["rwv_match"]
+    # editorial overrides other than external_links (handled above) overwrite
+    for k, v in override.items():
+        if k != "external_links":
+            fm[k] = v
     return fm
 
 
@@ -130,6 +142,8 @@ def main():
     print(f"source: {src}")
     publish_state = json.loads(PUBLISH_STATE.read_text(encoding="utf-8")) \
         if PUBLISH_STATE.exists() else {}
+    overrides = json.loads(OVERRIDES.read_text(encoding="utf-8")) \
+        if OVERRIDES.exists() else {}
     intro_idx = {r["title_zh"]: r["intro_url"]
                  for r in json.loads(CHIUINAN.read_text(encoding="utf-8"))
                  if r.get("intro_url")} if CHIUINAN.exists() else {}
@@ -177,7 +191,7 @@ def main():
                 refs = {}
             refs["chiuinan"] = iu
             g["references"] = refs
-        fm = frontmatter(g, gid, bool(publish_state.get(gid)))
+        fm = frontmatter(g, gid, bool(publish_state.get(gid)), overrides.get(gid))
         body = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
         path = OUT_DIR / f"{gid}.md"
         prose = existing_body(path)
