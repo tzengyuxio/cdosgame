@@ -37391,6 +37391,1437 @@
       ],
       "status": "active",
       "title_zh": "中國之心"
+    },
+    "cdg-4155": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:冰城傳奇|None"
+      ],
+      "status": "active",
+      "title_zh": "冰城傳奇"
+    },
+    "cdg-4156": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:風速小子|None"
+      ],
+      "status": "active",
+      "title_zh": "風速小子"
+    },
+    "cdg-4157": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:龍穴歷險記|None"
+      ],
+      "status": "active",
+      "title_zh": "龍穴歷險記"
+    },
+    "cdg-4158": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:殺出機械城|None"
+      ],
+      "status": "active",
+      "title_zh": "殺出機械城"
+    },
+    "cdg-4159": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:頑皮貓|None"
+      ],
+      "status": "active",
+      "title_zh": "頑皮貓"
+    },
+    "cdg-4160": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:藝妓|None"
+      ],
+      "status": "active",
+      "title_zh": "藝妓"
+    },
+    "cdg-4161": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幽城寶藏|None"
+      ],
+      "status": "active",
+      "title_zh": "幽城寶藏"
+    },
+    "cdg-4162": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幽靈館|None"
+      ],
+      "status": "active",
+      "title_zh": "幽靈館"
+    },
+    "cdg-4163": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:長槍英雄|None"
+      ],
+      "status": "active",
+      "title_zh": "長槍英雄"
+    },
+    "cdg-4164": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:真人快打|None"
+      ],
+      "status": "active",
+      "title_zh": "真人快打"
+    },
+    "cdg-4165": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:小兵立大功|None"
+      ],
+      "status": "active",
+      "title_zh": "小兵立大功"
+    },
+    "cdg-4166": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:第一滴血|None"
+      ],
+      "status": "active",
+      "title_zh": "第一滴血"
+    },
+    "cdg-4167": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:ＰＣ原人|None"
+      ],
+      "status": "active",
+      "title_zh": "ＰＣ原人"
+    },
+    "cdg-4168": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:ＰＣ原人２|None"
+      ],
+      "status": "active",
+      "title_zh": "ＰＣ原人２"
+    },
+    "cdg-4169": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:燃燒坦克|None"
+      ],
+      "status": "active",
+      "title_zh": "燃燒坦克"
+    },
+    "cdg-4170": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔動王子|None"
+      ],
+      "status": "active",
+      "title_zh": "魔動王子"
+    },
+    "cdg-4171": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:深穴掘寶|None"
+      ],
+      "status": "active",
+      "title_zh": "深穴掘寶"
+    },
+    "cdg-4172": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:搖滾霹靂彈|None"
+      ],
+      "status": "active",
+      "title_zh": "搖滾霹靂彈"
+    },
+    "cdg-4173": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:3D立體彈子檯|None"
+      ],
+      "status": "active",
+      "title_zh": "3D立體彈子檯"
+    },
+    "cdg-4174": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:史古奇尋寶歷險記|None"
+      ],
+      "status": "active",
+      "title_zh": "史古奇尋寶歷險記"
+    },
+    "cdg-4175": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:Tyrian戰機|None"
+      ],
+      "status": "active",
+      "title_zh": "Tyrian戰機"
+    },
+    "cdg-4176": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:亞瑟王傳奇：尋找聖杯|None"
+      ],
+      "status": "active",
+      "title_zh": "亞瑟王傳奇：尋找聖杯"
+    },
+    "cdg-4177": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:國王密使：皇冠探求|None"
+      ],
+      "status": "active",
+      "title_zh": "國王密使：皇冠探求"
+    },
+    "cdg-4178": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:宇宙傳奇：大戰沙崙人|None"
+      ],
+      "status": "active",
+      "title_zh": "宇宙傳奇：大戰沙崙人"
+    },
+    "cdg-4179": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:英雄傳奇２：烈火神兵|None"
+      ],
+      "status": "active",
+      "title_zh": "英雄傳奇２：烈火神兵"
+    },
+    "cdg-4180": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:宇宙傳奇２：渥豪的復仇|None"
+      ],
+      "status": "active",
+      "title_zh": "宇宙傳奇２：渥豪的復仇"
+    },
+    "cdg-4181": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:宇宙傳奇３：佩斯突隆海盜|None"
+      ],
+      "status": "active",
+      "title_zh": "宇宙傳奇３：佩斯突隆海盜"
+    },
+    "cdg-4182": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幻想空間３：尋求滿懷悸動的多情佩蒂|None"
+      ],
+      "status": "active",
+      "title_zh": "幻想空間３：尋求滿懷悸動的多情佩蒂"
+    },
+    "cdg-4183": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:英雄傳奇３：戰火焚生錄|None"
+      ],
+      "status": "active",
+      "title_zh": "英雄傳奇３：戰火焚生錄"
+    },
+    "cdg-4184": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:寶裡寶氣寶騎士|None"
+      ],
+      "status": "active",
+      "title_zh": "寶裡寶氣寶騎士"
+    },
+    "cdg-4185": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:宇宙殖民區|None"
+      ],
+      "status": "active",
+      "title_zh": "宇宙殖民區"
+    },
+    "cdg-4186": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:百戰小旅鼠|None"
+      ],
+      "status": "active",
+      "title_zh": "百戰小旅鼠"
+    },
+    "cdg-4187": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:冰城傳奇２|None"
+      ],
+      "status": "active",
+      "title_zh": "冰城傳奇２"
+    },
+    "cdg-4188": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:冰城傳奇３|None"
+      ],
+      "status": "active",
+      "title_zh": "冰城傳奇３"
+    },
+    "cdg-4189": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:巫術：瘋狂城主的試練場|None"
+      ],
+      "status": "active",
+      "title_zh": "巫術：瘋狂城主的試練場"
+    },
+    "cdg-4190": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔法之燭２|None"
+      ],
+      "status": "active",
+      "title_zh": "魔法之燭２"
+    },
+    "cdg-4191": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:塔莫倫戰士|None"
+      ],
+      "status": "active",
+      "title_zh": "塔莫倫戰士"
+    },
+    "cdg-4192": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:火星之旅|None"
+      ],
+      "status": "active",
+      "title_zh": "火星之旅"
+    },
+    "cdg-4193": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:巫域之心|None"
+      ],
+      "status": "active",
+      "title_zh": "巫域之心"
+    },
+    "cdg-4194": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:創世紀 VII第二部：巨蛇之島|None"
+      ],
+      "status": "active",
+      "title_zh": "創世紀 VII第二部：巨蛇之島"
+    },
+    "cdg-4195": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:死亡潛航２|None"
+      ],
+      "status": "active",
+      "title_zh": "死亡潛航２"
+    },
+    "cdg-4196": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:電子魚|None"
+      ],
+      "status": "active",
+      "title_zh": "電子魚"
+    },
+    "cdg-4197": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:世紀金冠軍|None"
+      ],
+      "status": "active",
+      "title_zh": "世紀金冠軍"
+    },
+    "cdg-4198": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:NBA籃球爭霸戰|None"
+      ],
+      "status": "active",
+      "title_zh": "NBA籃球爭霸戰"
+    },
+    "cdg-4199": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:肉搏大賽|None"
+      ],
+      "status": "active",
+      "title_zh": "肉搏大賽"
+    },
+    "cdg-4200": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:電視大亨|None"
+      ],
+      "status": "active",
+      "title_zh": "電視大亨"
+    },
+    "cdg-4201": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:太閤立志傳|None"
+      ],
+      "status": "active",
+      "title_zh": "太閤立志傳"
+    },
+    "cdg-4202": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:超級大戰略 (DOS/V)|None"
+      ],
+      "status": "active",
+      "title_zh": "超級大戰略 (DOS/V)"
+    },
+    "cdg-4203": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:光榮戰役|None"
+      ],
+      "status": "active",
+      "title_zh": "光榮戰役"
+    },
+    "cdg-4204": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:完美將軍|None"
+      ],
+      "status": "active",
+      "title_zh": "完美將軍"
+    },
+    "cdg-4205": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:無敵艦隊2525|None"
+      ],
+      "status": "active",
+      "title_zh": "無敵艦隊2525"
+    },
+    "cdg-4206": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:亞拉崗之劍|None"
+      ],
+      "status": "active",
+      "title_zh": "亞拉崗之劍"
+    },
+    "cdg-4207": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:SD祖魯戰記|None"
+      ],
+      "status": "active",
+      "title_zh": "SD祖魯戰記"
+    },
+    "cdg-4208": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:天龍特攻隊|None"
+      ],
+      "status": "active",
+      "title_zh": "天龍特攻隊"
+    },
+    "cdg-4209": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幽浮|None"
+      ],
+      "status": "active",
+      "title_zh": "幽浮"
+    },
+    "cdg-4210": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:失落的海軍上將|None"
+      ],
+      "status": "active",
+      "title_zh": "失落的海軍上將"
+    },
+    "cdg-4211": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魚叉|None"
+      ],
+      "status": "active",
+      "title_zh": "魚叉"
+    },
+    "cdg-4212": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:成吉思汗3|None"
+      ],
+      "status": "active",
+      "title_zh": "成吉思汗3"
+    },
+    "cdg-4213": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:戰棋4000|None"
+      ],
+      "status": "active",
+      "title_zh": "戰棋4000"
+    },
+    "cdg-4214": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:接龍777|None"
+      ],
+      "status": "active",
+      "title_zh": "接龍777"
+    },
+    "cdg-4215": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:虎膽妙算2|None"
+      ],
+      "status": "active",
+      "title_zh": "虎膽妙算2"
+    },
+    "cdg-4216": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:粉紅頑皮豹|None"
+      ],
+      "status": "active",
+      "title_zh": "粉紅頑皮豹"
+    },
+    "cdg-4217": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:噴射戰鬥機|None"
+      ],
+      "status": "active",
+      "title_zh": "噴射戰鬥機"
+    },
+    "cdg-4218": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:烽火連天|None"
+      ],
+      "status": "active",
+      "title_zh": "烽火連天"
+    },
+    "cdg-4219": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:GP3 F1賽車 世界冠軍賽|None"
+      ],
+      "status": "active",
+      "title_zh": "GP3 F1賽車 世界冠軍賽"
+    },
+    "cdg-4220": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:深海奇兵|None"
+      ],
+      "status": "active",
+      "title_zh": "深海奇兵"
+    },
+    "cdg-4221": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:旦旦超人|None"
+      ],
+      "status": "active",
+      "title_zh": "旦旦超人"
+    },
+    "cdg-4222": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡通畫家|None"
+      ],
+      "status": "active",
+      "title_zh": "卡通畫家"
+    },
+    "cdg-4223": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:古墓奇兵3資料片：失落的神器|None"
+      ],
+      "status": "active",
+      "title_zh": "古墓奇兵3資料片：失落的神器"
+    },
+    "cdg-4224": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:國王密使III：魔法生死鬥|None"
+      ],
+      "status": "active",
+      "title_zh": "國王密使III：魔法生死鬥"
+    },
+    "cdg-4225": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:壞蟑螂|None"
+      ],
+      "status": "active",
+      "title_zh": "壞蟑螂"
+    },
+    "cdg-4226": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:夢幻天使餐廳|None"
+      ],
+      "status": "active",
+      "title_zh": "夢幻天使餐廳"
+    },
+    "cdg-4227": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:大海戰|None"
+      ],
+      "status": "active",
+      "title_zh": "大海戰"
+    },
+    "cdg-4228": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:巴克羅傑：矩陣立方|None"
+      ],
+      "status": "active",
+      "title_zh": "巴克羅傑：矩陣立方"
+    },
+    "cdg-4229": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:巴拉拉狂想曲|None"
+      ],
+      "status": "active",
+      "title_zh": "巴拉拉狂想曲"
+    },
+    "cdg-4230": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幽靈騎士|None"
+      ],
+      "status": "active",
+      "title_zh": "幽靈騎士"
+    },
+    "cdg-4231": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:廢土|None"
+      ],
+      "status": "active",
+      "title_zh": "廢土"
+    },
+    "cdg-4232": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:感官足球|None"
+      ],
+      "status": "active",
+      "title_zh": "感官足球"
+    },
+    "cdg-4233": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:感官世界足球95|None"
+      ],
+      "status": "active",
+      "title_zh": "感官世界足球95"
+    },
+    "cdg-4234": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:披薩大亨|None"
+      ],
+      "status": "active",
+      "title_zh": "披薩大亨"
+    },
+    "cdg-4235": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:星際大戰 絕地武士2：絕地浪子|None"
+      ],
+      "status": "active",
+      "title_zh": "星際大戰 絕地武士2：絕地浪子"
+    },
+    "cdg-4236": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:星際大戰：首部曲－威脅潛伏|None"
+      ],
+      "status": "active",
+      "title_zh": "星際大戰：首部曲－威脅潛伏"
+    },
+    "cdg-4237": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:星際航艦|None"
+      ],
+      "status": "active",
+      "title_zh": "星際航艦"
+    },
+    "cdg-4238": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:暗影戰士|None"
+      ],
+      "status": "active",
+      "title_zh": "暗影戰士"
+    },
+    "cdg-4239": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:辛迪加|None"
+      ],
+      "status": "active",
+      "title_zh": "辛迪加"
+    },
+    "cdg-4240": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:未來戰爭|None"
+      ],
+      "status": "active",
+      "title_zh": "未來戰爭"
+    },
+    "cdg-4241": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:極道梟雄|None"
+      ],
+      "status": "active",
+      "title_zh": "極道梟雄"
+    },
+    "cdg-4242": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:模擬地球|None"
+      ],
+      "status": "active",
+      "title_zh": "模擬地球"
+    },
+    "cdg-4243": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:模擬地球|None#2"
+      ],
+      "status": "active",
+      "title_zh": "模擬地球"
+    },
+    "cdg-4244": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:機甲旋風|None"
+      ],
+      "status": "active",
+      "title_zh": "機甲旋風"
+    },
+    "cdg-4245": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:步步殺機|None"
+      ],
+      "status": "active",
+      "title_zh": "步步殺機"
+    },
+    "cdg-4246": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:武士傳說|None"
+      ],
+      "status": "active",
+      "title_zh": "武士傳說"
+    },
+    "cdg-4247": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:死亡之劍|None"
+      ],
+      "status": "active",
+      "title_zh": "死亡之劍"
+    },
+    "cdg-4248": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:死亡潛航|None"
+      ],
+      "status": "active",
+      "title_zh": "死亡潛航"
+    },
+    "cdg-4249": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:殖民帝國|None"
+      ],
+      "status": "active",
+      "title_zh": "殖民帝國"
+    },
+    "cdg-4250": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:決戰撲克|None"
+      ],
+      "status": "active",
+      "title_zh": "決戰撲克"
+    },
+    "cdg-4251": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:小兵立大功2|None"
+      ],
+      "status": "active",
+      "title_zh": "小兵立大功2"
+    },
+    "cdg-4252": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:熱血小毛球|None"
+      ],
+      "status": "active",
+      "title_zh": "熱血小毛球"
+    },
+    "cdg-4253": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:爆走卡車之橫越美洲|None"
+      ],
+      "status": "active",
+      "title_zh": "爆走卡車之橫越美洲"
+    },
+    "cdg-4254": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:特技島|None"
+      ],
+      "status": "active",
+      "title_zh": "特技島"
+    },
+    "cdg-4255": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:異域寶藏|None"
+      ],
+      "status": "active",
+      "title_zh": "異域寶藏"
+    },
+    "cdg-4256": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:瘋狂大樓|None"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂大樓"
+    },
+    "cdg-4257": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:瘋狂大毀滅|None"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂大毀滅"
+    },
+    "cdg-4258": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:瘋狂時代|None"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂時代"
+    },
+    "cdg-4259": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:真人快打2|None"
+      ],
+      "status": "active",
+      "title_zh": "真人快打2"
+    },
+    "cdg-4260": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:真人快打3|None"
+      ],
+      "status": "active",
+      "title_zh": "真人快打3"
+    },
+    "cdg-4261": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:神奇王國|None"
+      ],
+      "status": "active",
+      "title_zh": "神奇王國"
+    },
+    "cdg-4262": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:空中飛鯊|None"
+      ],
+      "status": "active",
+      "title_zh": "空中飛鯊"
+    },
+    "cdg-4263": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:紅色風暴|None"
+      ],
+      "status": "active",
+      "title_zh": "紅色風暴"
+    },
+    "cdg-4264": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:網路奇兵2|None"
+      ],
+      "status": "active",
+      "title_zh": "網路奇兵2"
+    },
+    "cdg-4265": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:蚯蚓吉姆|None"
+      ],
+      "status": "active",
+      "title_zh": "蚯蚓吉姆"
+    },
+    "cdg-4266": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:蚯蚓吉姆2|None"
+      ],
+      "status": "active",
+      "title_zh": "蚯蚓吉姆2"
+    },
+    "cdg-4267": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:迦陵演義|None"
+      ],
+      "status": "active",
+      "title_zh": "迦陵演義"
+    },
+    "cdg-4268": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:銀河霸主|None"
+      ],
+      "status": "active",
+      "title_zh": "銀河霸主"
+    },
+    "cdg-4269": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:閃電鋼球|None"
+      ],
+      "status": "active",
+      "title_zh": "閃電鋼球"
+    },
+    "cdg-4270": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:雷霆任務|None"
+      ],
+      "status": "active",
+      "title_zh": "雷霆任務"
+    },
+    "cdg-4271": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:風雲際會|None"
+      ],
+      "status": "active",
+      "title_zh": "風雲際會"
+    },
+    "cdg-4272": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:風雲霸主|None"
+      ],
+      "status": "active",
+      "title_zh": "風雲霸主"
+    },
+    "cdg-4273": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔域悍將|None"
+      ],
+      "status": "active",
+      "title_zh": "魔域悍將"
+    },
+    "cdg-4274": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔影之門|None"
+      ],
+      "status": "active",
+      "title_zh": "魔影之門"
+    },
+    "cdg-4275": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔法之燭|None"
+      ],
+      "status": "active",
+      "title_zh": "魔法之燭"
+    },
+    "cdg-4276": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔法帝國|None"
+      ],
+      "status": "active",
+      "title_zh": "魔法帝國"
+    },
+    "cdg-4277": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔界村|None"
+      ],
+      "status": "active",
+      "title_zh": "魔界村"
+    },
+    "cdg-4278": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:黑暗紀元|None"
+      ],
+      "status": "active",
+      "title_zh": "黑暗紀元"
+    },
+    "cdg-4279": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:龍之忍者|None"
+      ],
+      "status": "active",
+      "title_zh": "龍之忍者"
+    },
+    "cdg-4280": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:龍之道|None"
+      ],
+      "status": "active",
+      "title_zh": "龍之道"
+    },
+    "cdg-4281": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:棒！辣妹三合一益智王|None"
+      ],
+      "status": "active",
+      "title_zh": "棒！辣妹三合一益智王"
+    },
+    "cdg-4282": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:究鏡三界：神影幻遊 Limit3Area|None"
+      ],
+      "status": "active",
+      "title_zh": "究鏡三界：神影幻遊 Limit3Area"
+    },
+    "cdg-4283": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:六道天書|None"
+      ],
+      "status": "active",
+      "title_zh": "六道天書"
+    },
+    "cdg-4284": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:夢幻情人 Play Lovers|None"
+      ],
+      "status": "active",
+      "title_zh": "夢幻情人 Play Lovers"
+    },
+    "cdg-4285": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:火線天使 JetGirl|None"
+      ],
+      "status": "active",
+      "title_zh": "火線天使 JetGirl"
+    },
+    "cdg-4286": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔石神劍錄 Poly Chrome|None"
+      ],
+      "status": "active",
+      "title_zh": "魔石神劍錄 Poly Chrome"
+    },
+    "cdg-4287": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:窈窕美眉之百分百女孩|None"
+      ],
+      "status": "active",
+      "title_zh": "窈窕美眉之百分百女孩"
+    },
+    "cdg-4288": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:決戰e魔 Little Red Devil e-Mail|None"
+      ],
+      "status": "active",
+      "title_zh": "決戰e魔 Little Red Devil e-Mail"
+    },
+    "cdg-4289": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:破碎虛空|None"
+      ],
+      "status": "active",
+      "title_zh": "破碎虛空"
+    },
+    "cdg-4290": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:三國伏魔|None"
+      ],
+      "status": "active",
+      "title_zh": "三國伏魔"
+    },
+    "cdg-4291": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:七俠五義：包公疑雲|None"
+      ],
+      "status": "active",
+      "title_zh": "七俠五義：包公疑雲"
+    },
+    "cdg-4292": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:諜報特勤組 UBIK|None"
+      ],
+      "status": "active",
+      "title_zh": "諜報特勤組 UBIK"
+    },
+    "cdg-4293": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:小李飛刀：多情劍客無情劍|None"
+      ],
+      "status": "active",
+      "title_zh": "小李飛刀：多情劍客無情劍"
+    },
+    "cdg-4294": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:九英雄物語：聖戰語錄|None"
+      ],
+      "status": "active",
+      "title_zh": "九英雄物語：聖戰語錄"
+    },
+    "cdg-4295": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:遊戲輕鬆打|None"
+      ],
+      "status": "active",
+      "title_zh": "遊戲輕鬆打"
+    },
+    "cdg-4296": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:邪神 Evil God|None"
+      ],
+      "status": "active",
+      "title_zh": "邪神 Evil God"
+    },
+    "cdg-4297": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:高速公路銀行遊戲|None"
+      ],
+      "status": "active",
+      "title_zh": "高速公路銀行遊戲"
+    },
+    "cdg-4298": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:不可思議的任務|None"
+      ],
+      "status": "active",
+      "title_zh": "不可思議的任務"
+    },
+    "cdg-4299": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡拉漢時空沙龍|None"
+      ],
+      "status": "active",
+      "title_zh": "卡拉漢時空沙龍"
+    },
+    "cdg-4300": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡門世界之旅|None"
+      ],
+      "status": "active",
+      "title_zh": "卡門世界之旅"
+    },
+    "cdg-4301": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡門時空之旅|None"
+      ],
+      "status": "active",
+      "title_zh": "卡門時空之旅"
+    },
+    "cdg-4302": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡門美國之旅|None"
+      ],
+      "status": "active",
+      "title_zh": "卡門美國之旅"
+    },
+    "cdg-4303": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:卡門美國時空之旅|None"
+      ],
+      "status": "active",
+      "title_zh": "卡門美國時空之旅"
+    },
+    "cdg-4304": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:塞司奇域之化學物能|None"
+      ],
+      "status": "active",
+      "title_zh": "塞司奇域之化學物能"
+    },
+    "cdg-4305": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:好朋友一起走-中英雙語|None"
+      ],
+      "status": "active",
+      "title_zh": "好朋友一起走-中英雙語"
+    },
+    "cdg-4306": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:幻境工作室|None"
+      ],
+      "status": "active",
+      "title_zh": "幻境工作室"
+    },
+    "cdg-4307": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:環遊世界學語言|None"
+      ],
+      "status": "active",
+      "title_zh": "環遊世界學語言"
+    },
+    "cdg-4308": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:當白雪公主遇上小紅帽|None"
+      ],
+      "status": "active",
+      "title_zh": "當白雪公主遇上小紅帽"
+    },
+    "cdg-4309": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:美女寶石陣|None"
+      ],
+      "status": "active",
+      "title_zh": "美女寶石陣"
+    },
+    "cdg-4310": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:花語-花天神語繪圖系列之一|None"
+      ],
+      "status": "active",
+      "title_zh": "花語-花天神語繪圖系列之一"
+    },
+    "cdg-4311": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:遊戲威龍 Part1+Part2|None"
+      ],
+      "status": "active",
+      "title_zh": "遊戲威龍 Part1+Part2"
+    },
+    "cdg-4312": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:遊戲駭客族|None"
+      ],
+      "status": "active",
+      "title_zh": "遊戲駭客族"
+    },
+    "cdg-4313": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:鐵血聯盟：死亡遊戲|None"
+      ],
+      "status": "active",
+      "title_zh": "鐵血聯盟：死亡遊戲"
     }
   }
 }
