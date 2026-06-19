@@ -15,7 +15,9 @@ if (ext.length) groups.push(['相關', ext.map(([text, url]) => ({ url, text, sr
     {groups.map(([label, items]) => (
       <div class="exgrp">
         <span class="lbl">{label}</span>
-        {items.map((it, i) => <>{i > 0 && ' · '}<a href={it.url} target="_blank" rel="noopener nofollow">{it.text} ↗</a>{it.src && <span class="src">({it.src})</span>}</>)}
+        <div class="exlinks">
+          {items.map((it) => <div class="exline"><a href={it.url} target="_blank" rel="noopener nofollow">{it.text} ↗</a>{it.src && <span class="src">({it.src})</span>}</div>)}
+        </div>
       </div>
     ))}
   </section>

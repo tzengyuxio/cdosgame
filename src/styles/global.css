@@ -9,10 +9,11 @@
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);line-height:1.6}
 a{color:var(--brown);text-decoration:none}
 a:hover{text-decoration:underline}
-.site-header{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:1px solid var(--border)}
+.site-header{padding:12px 0;border-bottom:1px solid var(--border)}
+.header-inner{max-width:1168px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}
 .brand{font-family:var(--serif);font-weight:600;font-size:18px;color:var(--fg)}
 .site-header nav a{margin-left:14px}
-main{max-width:920px;margin:0 auto;padding:24px 20px}
+main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .muted{color:var(--muted)}
 
 /* DOS 頂條 */
@@ -35,6 +36,12 @@ main{max-width:920px;margin:0 auto;padding:24px 20px}
 .infobox td{border-bottom:1px solid #f2eee4;padding:5px 0}
 .prose{font-size:15px}
 .sources h2,.prose h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--border);padding-bottom:4px}
+/* 正文內表格（廠商頁產品目錄等）：斑馬紋 + 表頭底色，便於閱讀 */
+.prose table{border-collapse:collapse;width:100%;font-size:13.5px;margin:12px 0}
+.prose th,.prose td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.prose thead th{background:#f6f2e9;border-bottom:2px solid var(--border);white-space:nowrap}
+.prose tbody tr:nth-child(even){background:#faf7f0}
+.prose tbody tr:hover{background:#f3ece0}
 
 /* 列表 */
 .games-layout{display:flex;gap:24px;align-items:flex-start}
@@ -73,15 +80,16 @@ main{max-width:920px;margin:0 auto;padding:24px 20px}
 /* wiki 互連 / hub */
 a.lk{color:#1d6fa5;border-bottom:1px dotted #9cc3dd}
 a.lk:hover{background:#eef6fb;text-decoration:none}
-.game-wiki{display:flex;gap:0;border:1px solid var(--border);border-radius:0 0 5px 5px;border-top:0}
+.game-wiki{display:flex;gap:0;width:1128px;max-width:100%;margin:0 auto;padding:24px;border:2px solid var(--border);border-radius:0 0 5px 5px;border-top:0}
 .gw-main{flex:1;padding:16px 20px;min-width:0}
 .gw-ib{flex:0 0 240px;background:#faf7f0;border-left:1px solid #eee4d2;padding:14px}
 .gw-main h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--border);padding-bottom:4px;margin:18px 0 8px}
 .rel{display:flex;flex-wrap:wrap;gap:4px 10px}
 .cats{background:#f6f2e9;border:1px solid var(--border);border-top:0;border-radius:0 0 5px 5px;padding:10px 20px;font-size:13px;color:#666}
 .cats a{margin:0 2px}
-.exgrp{margin:6px 0;font-size:14px}
-.exgrp .lbl{display:inline-block;min-width:56px;color:var(--muted);font-size:12px;font-family:var(--mono)}
+.exgrp{display:flex;gap:8px;margin:6px 0;font-size:14px}
+.exgrp .lbl{flex:0 0 56px;color:var(--muted);font-size:12px;font-family:var(--mono);padding-top:1px}
+.exlinks{display:flex;flex-direction:column;gap:3px;min-width:0}
 .exgrp .src{color:#bbb;font-size:11px;margin-left:4px}
 .hub-title{font-family:var(--serif);font-size:26px;margin:8px 0 4px}
 .hub-count{color:var(--muted);font-size:15px;font-weight:400;font-family:var(--mono)}
@@ -92,8 +100,8 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 
 /* 卡片 / 膠囊 / 文章式實體頁 */
 .section-h{font-family:var(--serif);font-size:18px;border-bottom:1px solid var(--border);padding-bottom:5px;margin:24px 0 12px}
-.cardrow{display:flex;gap:12px;flex-wrap:wrap}
-.scard{flex:1 1 160px;border:1px solid var(--border);border-radius:6px;padding:12px 14px;background:#fff}
+.cardrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.scard{border:1px solid var(--border);border-radius:6px;padding:12px 14px;background:#fff}
 .scard .t{font-family:var(--serif);font-weight:600;font-size:16px}
 .scard .m{color:var(--muted);font-size:12px;font-family:var(--mono);margin:2px 0 5px}
 .scard .d{font-size:12.5px;color:#777}

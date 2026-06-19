@@ -11,24 +11,27 @@ import { locLabel } from '../../lib/labels.js';
 import { relatedFor } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
+  // max items shown per "related games" block (同系列／同廠商／同年）.
+  // Declared inside getStaticPaths: Astro runs it before the rest of the
+  // frontmatter, so a module-level const would still be in the TDZ here.
+  const RELATED_LIMIT = 6;
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
   const all = games.map(e => e.data);
   // compute related here (pass only the small result) — never pass the full
   // `all` array as props (4144 pages × 4144 games would explode the build).
-  return games.map(e => ({ params: { id: e.data.id }, props: { entry: e, related: relatedFor(e.data, all) } }));
+  return games.map(e => ({ params: { id: e.data.id }, props: { entry: e, related: relatedFor(e.data, all, RELATED_LIMIT) } }));
 }
 
 const { entry, related } = Astro.props;
 const g = entry.data;
 const { Content } = await render(entry);
 const hasBody = (entry.body || '').trim().length > 0;
-const codeRight = g.catalog_id || (g.release_codes?.[0]?.code) || '';
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`}>
-  <DosBar path={g.title_zh} right={`${g.id}${codeRight ? ' · ' + codeRight : ''}`} />
+  <DosBar path={g.title_zh} right={g.id} />
   <div class="game-wiki">
     <div class="gw-main">
-      <h1 class="game-title">{g.title_zh}{g.year && <span class="year">{g.year}</span>}</h1>
+      <h1 class="game-title">{g.title_zh}{g.year && <span class="year">({g.year})</span>}</h1>
       <div class="chips">
         {g.genre && <a class="chip chip-genre" href={genreUrl(g.genre)}>{g.genre}</a>}
         {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}

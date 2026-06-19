@@ -125,7 +125,7 @@ export function topValue(games, keyFn) {
   return dv.length ? dv[0].value : null;
 }
 
-export function relatedFor(game, all, limit = 12) {
+export function relatedFor(game, all, limit = 6) {
   const cut = a => a.slice(0, limit);
   const sameSeries = game.series
     ? all.filter(g => g.id !== game.id && g.series === game.series) : [];

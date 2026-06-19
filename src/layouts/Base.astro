@@ -11,8 +11,10 @@ const { title = '中文 DOS 遊戲資料庫' } = Astro.props;
   </head>
   <body>
     <header class="site-header">
-      <a href="/" class="brand">中文 DOS 遊戲資料庫</a>
-      <nav><a href="/games">目錄</a><a href="/companies">廠商</a><a href="/series">系列</a><a href="/genres">類型</a><a href="/about">關於</a></nav>
+      <div class="header-inner">
+        <a href="/" class="brand">中文 DOS 遊戲資料庫</a>
+        <nav><a href="/games">目錄</a><a href="/companies">廠商</a><a href="/series">系列</a><a href="/genres">類型</a><a href="/about">關於</a></nav>
+      </div>
     </header>
     <main><slot /></main>
   </body>

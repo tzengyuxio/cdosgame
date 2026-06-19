@@ -16,7 +16,7 @@ const editions = (g.editions || []).map(e => e.name).join('、');
     {g.content_language && <tr><th>內容語言</th><td>{g.content_language === 'zh' ? '中文' : '英文'}</td></tr>}
     {g.localization_level && <tr><th>在地化</th><td>{locLabel(g.localization_level)}</td></tr>}
     {g.size && <tr><th>容量</th><td>{g.size}</td></tr>}
-    {g.platform_note && <tr><th>平台</th><td>{g.platform_note}</td></tr>}
+    {g.platform_note && <tr><th>平台</th><td>{g.platform_note === '無' ? 'DOS' : g.platform_note}</td></tr>}
     {(g.title_aliases || []).length > 0 && <tr><th>別名</th><td>{(g.title_aliases).join('、')}</td></tr>}
     {codes && <tr><th>編號</th><td>{codes}</td></tr>}
     {editions && <tr><th>版本</th><td>{editions}</td></tr>}
