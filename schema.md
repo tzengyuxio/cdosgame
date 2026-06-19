@@ -23,7 +23,7 @@
 | `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|
 | `genre` | enum \| null | | 11 類：回合/即時/策略角色扮演、冒險解謎、故事劇情、計策戰略、模擬養成、教育養成、大富翁、格鬥、運動動作 |
 | `localization_level` | `native`\|`localized`\|`packaging`\|`foreign` \| null | | native 原生中文開發 / localized 中文化 / packaging 中文包裝代理 / foreign 純外國（顯示標籤見 `src/lib/labels.js`）|
-| `size` | string \| null | | 容量（如 `1CD (45.2)`）|
+| `size` | string \| null | | 發行媒體容量，**數量在前**：`1CD`／`2CD`／`1DVD`、磁片 `4×360K`（非硬碟安裝量）|
 | `platform_note` | string \| null | | 平台/限制（如 `Windows，18禁`）|
 | `catalog_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號）|
 | `license_status` | `official`\|`unofficial`\| null | | 台灣發行授權狀態。**預設 null（未考據）**；`unofficial`=未授權代理/水貨/盜版（如軟體世界貴族版系列）|
