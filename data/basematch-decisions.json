@@ -2759,6 +2759,12 @@
     "action": "reject",
     "note": "phase5 reject-low: mainland-only obscure, no Taiwan presence"
   },
+  "伊苏": {
+    "action": "merge",
+    "note": "= 伊蘇國 Ys",
+    "prov": "rwv@merge",
+    "target": "cdg-1592"
+  },
   "伊贡的假期": {
     "action": "reject",
     "note": "phase5 reject-low: mainland-only obscure (Egon?), no Taiwan presence"
@@ -3088,6 +3094,10 @@
   "农奴城市": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only, mainland, no Taiwan signal"
+  },
+  "冠军拉力赛": {
+    "action": "reject",
+    "note": "rwv screenshots = Rally Championships 1994 (InSide Team/Flair), out of scope"
   },
   "冠军足球经理2": {
     "action": "append",
@@ -8475,6 +8485,12 @@
     "action": "reject",
     "note": "phase5r2 scope: unrecognised mainland-only title"
   },
+  "疯狂时代": {
+    "action": "merge",
+    "note": "simplified of appended 瘋狂時代 (DOTT)",
+    "prov": "rwv@merge",
+    "target": "cdg-4258"
+  },
   "疯狂橄榄球": {
     "action": "reject",
     "note": "phase5r2 scope: generic obscure sports, no Taiwan signal"
@@ -10920,6 +10936,12 @@
     "note": "1. [≈2] `cdg-2905`  銀河英雄傳說4  (1996)  · Bothtec",
     "target": "cdg-2905",
     "title": "銀河英雄傳說4EX"
+  },
+  "银河霸主(猎户座之王)": {
+    "action": "merge",
+    "note": "= 銀河霸主 Master of Orion (King of Orion subtitle)",
+    "prov": "rwv@merge",
+    "target": "cdg-4268"
   },
   "银河霸主2": {
     "action": "append",

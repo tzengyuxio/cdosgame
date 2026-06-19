@@ -52701,7 +52701,8 @@
   {
     "title_zh": "伊蘇國",
     "title_aliases": [
-      "The Acient Land of YS"
+      "The Acient Land of YS",
+      "伊苏"
     ],
     "year": 1989,
     "developer": "Falcom",
@@ -52729,7 +52730,8 @@
     "images": {},
     "provenance": [
       "chiuinan@list-1.htm",
-      "softworld@boneash-scan"
+      "softworld@boneash-scan",
+      "rwv@merge"
     ]
   },
   {
@@ -144617,7 +144619,9 @@
   },
   {
     "title_zh": "瘋狂時代",
-    "title_aliases": [],
+    "title_aliases": [
+      "疯狂时代"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,
@@ -146212,7 +146216,9 @@
   },
   {
     "title_zh": "銀河霸主",
-    "title_aliases": [],
+    "title_aliases": [
+      "银河霸主(猎户座之王)"
+    ],
     "year": null,
     "developer": null,
     "developer_region": null,

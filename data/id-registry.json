@@ -40649,6 +40649,15 @@
       ],
       "status": "active",
       "title_zh": "雨果的恐怖之屋3"
+    },
+    "cdg-4517": {
+      "catalog_id": null,
+      "developer": "Magnetic Fields",
+      "keys": [
+        "t:Network Q RAC拉力錦標賽|Magnetic Fields"
+      ],
+      "status": "active",
+      "title_zh": "Network Q RAC拉力錦標賽"
     }
   }
 }
