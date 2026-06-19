@@ -24,6 +24,10 @@ OFFLINELIST_IMG_MANIFEST = Path("raw/offlinelist/img/screenshots-manifest.jsonl"
 OUT = Path("derived/master-list.json")
 CHINESE_REGIONS = {"TW", "HK", "CN", "MO"}
 
+# Curate source genre labels into our taxonomy (schema/game.schema.mjs GENRES).
+# The chiuinan "射擊打鬥" bucket is in practice all versus-fighting games.
+GENRE_RENAME = {"射擊打鬥": "格鬥"}
+
 PUNCT = re.compile(r"[\s：:・·／/、，,．.\-—–_!！?？’'\"“”()（）\[\]【】~～·]+")
 CJK = re.compile(r"[一-鿿㐀-䶿]")
 EDITIONS = ["光盘版", "光碟版", "加强版", "加強版", "增强版", "增強版", "梦幻版", "夢幻版",
@@ -200,7 +204,8 @@ def main():
             "developer_region": dev_region,
             "publisher_tw": g["publisher_tw"],
             "content_language": g.get("content_language"),
-            "genre": g.get("genre"),
+            # canonicalize source genre labels to the curated taxonomy
+            "genre": GENRE_RENAME.get(g.get("genre"), g.get("genre")),
             "localization_level": level,
             "localization_basis": basis,
             "size": g["size"],
