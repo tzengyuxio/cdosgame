@@ -12,12 +12,24 @@
     "note": "phase5r2 scope: mainland rwv-only, no Taiwan signal"
   },
   "1830铁路公爵": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only, no Taiwan dup"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Avalon Hill's 1830: Railroads & Robber Barons (199",
+    "title": "1830鐵路公爵"
   },
   "1869大航海": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only German trade sim, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Max Design's 1869 (1992) trade/sailing economic si",
+    "title": "1869"
   },
   "1942特种部队": {
     "action": "reject",
@@ -48,8 +60,14 @@
     "note": "phase5r2 scope: mainland rwv-only, no Taiwan signal"
   },
   "4D网球": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Simis/Mindscape 4D Sports Tennis (1990)",
+    "title": "4D網球"
   },
   "66区": {
     "action": "reject",
@@ -60,8 +78,14 @@
     "note": "phase5r2 scope: mainland rwv-only, no Taiwan signal"
   },
   "94美国世界杯": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only sports title, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): U.S. Gold's World Cup USA 94 football game",
+    "title": "94美國世界盃"
   },
   "97超少女": {
     "action": "reject",
@@ -78,8 +102,14 @@
     "note": "phase5 LLM scope: English-learning software, not a game"
   },
   "A320空中客机": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only flight sim, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Thalion's A320 Airbus flight simulator",
+    "title": "A320空中巴士"
   },
   "ALPHA风暴": {
     "action": "reject",
@@ -96,16 +126,42 @@
     "note": "phase5 LLM scope: BBS software/book bundle, not a game"
   },
   "BOPPIN物理游戏": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only puzzle, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Apogee's Boppin' (1994) puzzle game",
+    "title": "Boppin'"
   },
   "Bazzy的農場導遊": {
     "action": "reject",
     "note": "phase5r2 scope: Western kids edutainment, no clear TW publisher"
   },
+  "B傳說-戰鬥彈珠人-中文版": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Korean B-Daman, TW distributor 卉谷, not in catalog",
+    "title": "B傳說：戰鬥彈珠人"
+  },
   "CBA嘉年华": {
     "action": "reject",
     "note": "phase5r2 scope: mainland rwv-only sports, no Taiwan signal"
+  },
+  "D": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 遊戲王代理日系遊戲，台灣發行，目錄無此款",
+    "title": "D的事件簿"
   },
   "DOS老遊戲合集，一片 360K 磁片": {
     "action": "reject",
@@ -130,16 +186,34 @@
     "note": "phase5r2 scope: mainland rwv-only flight sim, no Taiwan signal"
   },
   "F15战斗机": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only flight sim, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): F-15 Strike Eagle (MicroProse) combat sim",
+    "title": "F-15獵鷹戰機"
   },
   "FIFA1996": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only, no Taiwan release signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): FIFA Soccer 96 (EA Sports)",
+    "title": "FIFA足球1996"
   },
   "FIFA97": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only, no Taiwan release signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): FIFA 97 (EA Sports)",
+    "title": "FIFA足球97"
   },
   "FX战士": {
     "action": "reject",
@@ -301,6 +375,16 @@
     "note": "phase5r2: Taiwan-original game (omega 原創)",
     "title": "窈窕美眉之百分百女孩"
   },
+  "G033-幻獸魔石 Dragon Stone": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Dragon Stone, not in catalog, plausible Taiwan",
+    "title": "幻獸魔石"
+  },
   "G034-決戰e魔 LITTLE RED DEVIL e-Mail": {
     "action": "append",
     "fields": {
@@ -316,6 +400,16 @@
     "note": "phase5 LLM: same Anvil of Dawn",
     "prov": "rwv@merge",
     "target": "cdg-2262"
+  },
+  "G036-精靈夜想曲 ZANZARAH:THE HIDDEN PORTAL": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: known DOS-era RPG Zanzarah, not in catalog",
+    "title": "精靈夜想曲"
   },
   "G037-北方傳記 Konung Legend of the North": {
     "action": "merge",
@@ -457,6 +551,16 @@
     "prov": "rwv@merge",
     "target": "cdg-1953"
   },
+  "G058-諾曼地 最長的一日 中文版 D-Day": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: D-Day Taiwan localized, not in catalog",
+    "title": "諾曼地：最長的一日"
+  },
   "G059-元氣雪人": {
     "action": "reject",
     "note": "phase5r2 scope: obscure title, unrecognised"
@@ -494,6 +598,16 @@
     "note": "phase5 LLM: same as 蜀山外傳：紫青劫",
     "prov": "rwv@merge",
     "target": "cdg-2842"
+  },
+  "G069-靈幻宅急便": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: distinct game, omega Taiwan original, not in catal",
+    "title": "靈幻宅急便"
   },
   "G070-QB大作戰": {
     "action": "reject",
@@ -555,6 +669,16 @@
     "prov": "rwv@merge",
     "target": "cdg-2499"
   },
+  "G082-神秘之旅 國際中文版 Schizm：Mysterious Journey": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Schizm adventure, TW intl Chinese ver",
+    "title": "神秘之旅"
+  },
   "G083-烈日奇俠傳 KILLING SUNS HERO STORY 2": {
     "action": "merge",
     "note": "phase5 LLM: 日劫2 alias 烈日奇俠傳",
@@ -576,6 +700,16 @@
     "note": "phase5 LLM: 縱橫天地之烽火三國 = 烽火三國1",
     "prov": "rwv@merge",
     "target": "cdg-3274"
+  },
+  "G102-南俠展昭痞子龍": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 遊戲龍台灣原創，目錄無此款",
+    "title": "南俠展昭痞子龍"
   },
   "G1023-遊戲輕鬆打": {
     "action": "append",
@@ -662,6 +796,16 @@
     "note": "phase5 LLM: 聖獸傳說 already in catalog",
     "prov": "rwv@merge",
     "target": "cdg-4039"
+  },
+  "G1092-城市獵人": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 歡樂盒 Taiwan game, not in catalog",
+    "title": "城市獵人"
   },
   "G1105-神諭 Oracle": {
     "action": "merge",
@@ -781,6 +925,26 @@
     "note": "phase5 LLM: Pink Panther distributed by 世紀縱橫 TW",
     "title": "粉紅頑皮豹"
   },
+  "G1195-爆爆超人兵團": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 靚盒子/智冠 original game, TW release",
+    "title": "爆爆超人兵團"
+  },
+  "G120-平妖傳": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 海豚蜂/智冠 original game, TW release",
+    "title": "平妖傳"
+  },
   "G1202-科隆戰記外傳：創世啟示錄": {
     "action": "merge",
     "note": "phase5 LLM: Same as 科隆戰記外傳 Corum Another Story",
@@ -798,6 +962,16 @@
     "note": "phase5 LLM: 戰地大亨：金門之旅 by 宏申",
     "prov": "rwv@merge",
     "target": "cdg-3378"
+  },
+  "G1220-武狀元蘇乞兒": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 歡樂盒 game, distinct from 黃飛鴻",
+    "title": "武狀元蘇乞兒"
   },
   "G1222-科隆戰記2-闇黑帝降臨": {
     "action": "merge",
@@ -829,11 +1003,31 @@
     "prov": "rwv@merge",
     "target": "cdg-2844"
   },
+  "G1246-搞怪小站": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Oddballz by 第三波 Taiwan release",
+    "title": "搞怪小站"
+  },
   "G1251-叛艦迷航正義之旅": {
     "action": "merge",
     "note": "phase5 LLM: Same 叛艦迷航正義之旅 Renegade",
     "prov": "rwv@merge",
     "target": "cdg-0702"
+  },
+  "G1256-企鵝闖天關": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Mutant Penguins, Sunrise Taiwan release",
+    "title": "企鵝闖天關"
   },
   "G1269-誕生 95 Special": {
     "action": "merge",
@@ -852,6 +1046,16 @@
     "note": "phase5 LLM: 校園水滸傳 QQ水滸外傳",
     "prov": "rwv@merge",
     "target": "cdg-3090"
+  },
+  "G1303-G5-091-新．乞丐王子": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 全崴 Taiwan title not in catalog",
+    "title": "新．乞丐王子"
   },
   "G1304-龍機傳承2": {
     "action": "merge",
@@ -876,6 +1080,16 @@
     "note": "phase5 LLM: 聖魔戰記2 Spectral Force 2",
     "prov": "rwv@merge",
     "target": "cdg-2543"
+  },
+  "G1328-機智冒險大闖關": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 廣碁 Taiwan title, not in catalog",
+    "title": "機智冒險大闖關"
   },
   "G1332-歡樂天使": {
     "action": "merge",
@@ -929,6 +1143,16 @@
     "prov": "rwv@merge",
     "target": "cdg-1952"
   },
+  "G1380-幕府將軍：蒙古入侵 中英文合版資料片": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Shogun expansion, distinct from base game",
+    "title": "幕府將軍：蒙古入侵"
+  },
   "G1384-噴射戰鬥機": {
     "action": "append",
     "fields": {
@@ -938,6 +1162,16 @@
     },
     "note": "phase5 LLM: Jetfighter 3, 松崗 TW release",
     "title": "噴射戰鬥機"
+  },
+  "G1385-天下御免 中文視窗版": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Artdink/第三波 Taiwan release, not in catalog",
+    "title": "天下御免"
   },
   "G1387-風雲之天下會": {
     "action": "merge",
@@ -954,6 +1188,16 @@
     },
     "note": "phase5 LLM: War Wind, 第三波 TW release, distinct",
     "title": "烽火連天"
+  },
+  "G1390-異軍突起": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: M.A.X. 2 by Interplay, well-known DOS-era",
+    "title": "異軍突起"
   },
   "G1393-天晴傳：伏龍之章": {
     "action": "merge",
@@ -1235,6 +1479,16 @@
     "prov": "rwv@merge",
     "target": "cdg-3116"
   },
+  "G268-征服Honey": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 朔太 TW original, not in catalog",
+    "title": "征服Honey"
+  },
   "G281-三隻眼-轉輪王幻夢 3x3 Eyes - Tenrin Oh Genmu": {
     "action": "merge",
     "note": "phase5 LLM: same X3EYES 轉輪王幻夢",
@@ -1276,6 +1530,16 @@
     "note": "phase5 LLM: same 龍騰三國 by 智冠",
     "prov": "rwv@merge",
     "target": "cdg-3833"
+  },
+  "G351-風天翔": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 三協資訊/智冠 TW original, not in catalog",
+    "title": "風天翔"
   },
   "G372-虛擬人生": {
     "action": "merge",
@@ -1337,6 +1601,16 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure title, unrecognised"
   },
+  "G516-青春學園~戀戀人生~": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 智冠 original dating sim, TW release",
+    "title": "青春學園～戀戀人生～"
+  },
   "G522-邪神 EVIL GOD": {
     "action": "append",
     "fields": {
@@ -1370,6 +1644,16 @@
     "note": "phase5 LLM: 雪樂山西洋棋 Hoyle Majestic Chess",
     "prov": "rwv@merge",
     "target": "cdg-2636"
+  },
+  "G560-經營大台灣": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW-themed business sim, omega source",
+    "title": "經營大台灣"
   },
   "G561-旦旦超人": {
     "action": "append",
@@ -1415,6 +1699,26 @@
     "prov": "rwv@merge",
     "target": "cdg-2582"
   },
+  "G618-Pachingo": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW 昶邑國際 release, not in catalog",
+    "title": "柏青哥俱樂部"
+  },
+  "G627-齊秦 1995 夢幻奇兵 演唱會互動式光碟冒險遊戲": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW interactive CD title, 彩虹高科技",
+    "title": "齊秦1995夢幻奇兵"
+  },
   "G629-蠟筆小新 IQ 運動場": {
     "action": "merge",
     "note": "phase5 LLM: same 蠟筆小新 IQ運動場",
@@ -1433,11 +1737,31 @@
     "prov": "rwv@merge",
     "target": "cdg-0522"
   },
+  "G696-聖章～女神傳說 Holy History ~ Legend of Goddess": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: omega original TW title, no match",
+    "title": "聖章～女神傳說"
+  },
   "G697-殖民計劃 Colonial Project": {
     "action": "merge",
     "note": "phase5 LLM: 殖民計劃 already in catalog",
     "prov": "rwv@merge",
     "target": "cdg-1317"
+  },
+  "G702-西伯利亞 中文版 Syberia": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: known adventure, TW Chinese version, not in catalo",
+    "title": "西伯利亞"
   },
   "G711-第三地球 CAIN IN THE 3RD EARTH": {
     "action": "merge",
@@ -1521,6 +1845,16 @@
     "prov": "rwv@merge",
     "target": "cdg-3767"
   },
+  "G856-熱狗熱GO！速食英雄：愛與勇氣大冒險": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 智冠原創，台灣發行，目錄無此款",
+    "title": "熱狗熱GO！速食英雄：愛與勇氣大冒險"
+  },
   "G865-七寶奇謀": {
     "action": "merge",
     "note": "phase5 LLM: 七寶奇謀 岡業 exact match",
@@ -1545,6 +1879,16 @@
     "prov": "rwv@merge",
     "target": "cdg-2460"
   },
+  "G882-復活邪神2 ATRIA II:THE RESURRECTION": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: ATRIA sequel, only part 1 in catalog",
+    "title": "復活邪神2"
+  },
   "G884-蒼穹霸主2 國際中文版": {
     "action": "merge",
     "note": "phase5 LLM: same Etherlords 2, 光譜",
@@ -1556,6 +1900,16 @@
     "note": "phase5 LLM: Same as 科隆戰記1 受咒之地",
     "prov": "rwv@merge",
     "target": "cdg-1439"
+  },
+  "G904-毛毛怪大歷險 救出蜜蜜公主篇": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 梵太師 TW release",
+    "title": "毛毛怪大歷險 救出蜜蜜公主篇"
   },
   "G924-神劍遊俠傳": {
     "action": "merge",
@@ -1574,6 +1928,26 @@
     "note": "phase5 LLM: 古文明時代 Legion 光譜",
     "prov": "rwv@merge",
     "target": "cdg-0921"
+  },
+  "G940-神指阿土巴": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 草莓軟體 Taiwan title, not in catalog",
+    "title": "神指阿土巴"
+  },
+  "G942-攔截歷史檔案": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 草莓軟體 Taiwan title, not in catalog",
+    "title": "攔截歷史檔案"
   },
   "G948-大富翁8美眉+絕色典藏版": {
     "action": "merge",
@@ -1628,12 +2002,28 @@
     "note": "invalid name"
   },
   "NBA嘉年华": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): NBA Jam (Midway/Acclaim)",
+    "title": "NBA嘉年華"
   },
   "NBA直播": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
+  },
+  "Nectaris": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Well-known DOS-era Nectaris/Military Madness",
+    "title": "星際大戰：火星戰役"
   },
   "Oscar": {
     "action": "reject",
@@ -1688,12 +2078,38 @@
     "note": "phase5: name already catalogued"
   },
   "SU27侧翼部队": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Su-27 Flanker flight sim (Mindscape)",
+    "title": "Su-27側翼戰機"
   },
   "Super A'Can 敦煌": {
     "action": "reject",
     "note": "phase5 LLM scope: Super A'Can console game, not DOS/PC"
+  },
+  "T052-亞瑟王的魔術城堡": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: King Arthur's Magic Castle, 勁源, distinct",
+    "title": "亞瑟王的魔術城堡"
+  },
+  "T053-孤島漂流記": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Swiss Family Robinson, 勁源 TW release",
+    "title": "孤島漂流記"
   },
   "TG002 坦克大決戰": {
     "action": "merge",
@@ -1728,6 +2144,16 @@
   "Windows3": {
     "action": "reject",
     "note": "phase5 LLM scope: Windows 3.1 OS, not a game"
+  },
+  "XATAX战机": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Known DOS shmup Xatax (Pixel Painters)",
+    "title": "XATAX戰機"
   },
   "X任务": {
     "action": "reject",
@@ -1962,8 +2388,14 @@
     "target": "cdg-0290"
   },
   "下级生(日)": {
-    "action": "reject",
-    "note": "phase5 reject-low: Japanese adult game, no Taiwan release"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Kakyuusei, Elf's well-known PC-98/DOS-era bishoujo",
+    "title": "下級生（日）"
   },
   "不可思議的任務": {
     "action": "append",
@@ -2028,6 +2460,16 @@
   "世界摔角联盟": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only title, no Taiwan signal"
+  },
+  "世界童話精選-童話小精靈": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 光復書局 edutainment, TW release",
+    "title": "世界童話精選-童話小精靈"
   },
   "世界通來旺的筆畫練習簿": {
     "action": "reject",
@@ -2160,8 +2602,14 @@
     "note": "phase5 reject-low: mainland-only obscure, no Taiwan presence"
   },
   "亚马逊女皇之旅": {
-    "action": "reject",
-    "note": "phase5 reject-low: mainland-only obscure, no Taiwan presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Amazon: Guardians of Eden (1992 Access) adventure",
+    "title": "亞馬遜女皇之旅"
   },
   "亚马逊小道": {
     "action": "reject",
@@ -2254,6 +2702,26 @@
     "note": "base-match dup of 仙劍奇俠傳1; keep simplified name as alias",
     "prov": "rwv@merge",
     "target": "cdg-1564"
+  },
+  "仙境传奇1": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Legend of Kyrandia, classic DOS adventure",
+    "title": "仙境傳奇1"
+  },
+  "仙境传奇2亡者之庁": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Kyrandia 2: Hand of Fate, DOS adventure",
+    "title": "仙境傳奇2：亡者之手"
   },
   "以撒1英雄堡垒": {
     "action": "reject",
@@ -2406,8 +2874,14 @@
     "note": "phase5r2 scope: Obscure mainland-only rwv title, no Taiwan match"
   },
   "俄勒冈小道": {
-    "action": "reject",
-    "note": "phase5r2 scope: Oregon Trail US edutainment, no Taiwan release"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): The Oregon Trail, landmark MECC educational DOS cl",
+    "title": "奧勒岡之旅"
   },
   "俄罗斯方块经典版": {
     "action": "merge",
@@ -2531,6 +3005,16 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure rwv-only mainland, out of scope"
   },
+  "全能運動會": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW localized sports title, distinct",
+    "title": "全能運動會"
+  },
   "公元前车赛": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland rwv-only, no Taiwan signal"
@@ -2559,13 +3043,43 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
   },
+  "兽爪快打": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Captain Claw, well-known DOS-era platformer",
+    "title": "獸爪快打"
+  },
   "再度出击": {
     "action": "reject",
     "note": "phase5 reject-low: rwv-only obscure mainland, no Taiwan presence"
   },
+  "再續桃花 夢幻桃花源": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 酷蘇拉工作室 Taiwan title, not in catalog",
+    "title": "再續桃花：夢幻桃花源"
+  },
   "冒险之魂": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, unrecognised, no Taiwan signal"
+  },
+  "冒險創作機": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Adventure Construction Set, 智冠 TW release",
+    "title": "冒險創作機"
   },
   "军备竞赛": {
     "action": "reject",
@@ -2574,6 +3088,16 @@
   "农奴城市": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only, mainland, no Taiwan signal"
+  },
+  "冠军足球经理2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Championship Manager 2, well-known DOS football si",
+    "title": "冠軍足球經理2"
   },
   "冰与火": {
     "action": "reject",
@@ -2658,20 +3182,38 @@
     "target": "cdg-2936"
   },
   "出击飞龙": {
-    "action": "reject",
-    "note": "phase5r2 scope: Strider arcade, rwv-only, not in catalog"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Capcom arcade Strider (飛龍), had a 1989 DOS port",
+    "title": "出擊飛龍"
   },
   "分歧：裂痕": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only, no Taiwan signal"
   },
   "切克斯历险记": {
-    "action": "reject",
-    "note": "phase5 reject-low: Chex Quest US cereal promo, no TW presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Chex Quest, the Doom-engine cereal-promo freeware ",
+    "title": "切克斯歷險記"
   },
   "切克斯历险记2": {
-    "action": "reject",
-    "note": "phase5 reject-low: Chex Quest 2 US promo, no TW presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Chex Quest 2, DOS Doom-engine sequel",
+    "title": "切克斯歷險記2"
   },
   "创世纪1(1987RM版)": {
     "action": "merge",
@@ -2944,8 +3486,14 @@
     "title": "卡門世界之旅"
   },
   "卡门太空之旅": {
-    "action": "reject",
-    "note": "phase5r2 scope: mainland rwv-only, not in catalog"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Where in Space Is Carmen Sandiego?, Carmen Sandieg",
+    "title": "卡門太空之旅"
   },
   "卡门时空之旅": {
     "action": "append",
@@ -3013,6 +3561,26 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
   },
+  "危险的里克1": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Rick Dangerous, well-known DOS platformer",
+    "title": "危險的里克1"
+  },
+  "危险的里克2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Rick Dangerous 2, well-known DOS platformer",
+    "title": "危險的里克2"
+  },
   "危险街道": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
@@ -3033,9 +3601,49 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only title, no Taiwan signal"
   },
+  "原振俠傳奇": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW 倪匡 IP game, distinct",
+    "title": "原振俠傳奇"
+  },
+  "原罪": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Sin (Ritual)，億弘代理，目錄無此款",
+    "title": "原罪"
+  },
   "双子城命运": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only title, no Taiwan signal"
+  },
+  "双子星传奇2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: 大宇 Twin Stars Legend 2, Taiwan game",
+    "title": "雙子星傳奇2"
+  },
+  "双子星传奇／大小不良": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: 大宇 Twin Stars Legend, Taiwan game",
+    "title": "雙子星傳奇／大小不良"
   },
   "双截龙": {
     "action": "merge",
@@ -3068,6 +3676,16 @@
   "古事记外传(日文)": {
     "action": "reject",
     "note": "phase5 reject-low: Japanese-only title, no Chinese/Taiwan release"
+  },
+  "古堡之宴": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Uninvited, known DOS adventure",
+    "title": "古堡之宴"
   },
   "古墓丽影": {
     "action": "merge",
@@ -3151,9 +3769,59 @@
     "prov": "rwv@merge",
     "target": "cdg-4169"
   },
+  "合金装备2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Metal Gear 2, distinct DOS-era title",
+    "title": "合金裝備2"
+  },
+  "吉安娜姐妹": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Giana Sisters, classic DOS-era platformer",
+    "title": "吉安娜姐妹"
+  },
+  "吉尔在丛林": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Jill of the Jungle, well-known Epic DOS shareware",
+    "title": "叢林吉爾"
+  },
+  "吉尔在丛林2地下冒险": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Jill of the Jungle 2, distinct DOS title",
+    "title": "叢林吉爾2：地下冒險"
+  },
   "吉尔在丛林3合1": {
     "action": "reject",
     "note": "phase5r2 scope: obscure rwv-only compilation, no Taiwan signal"
+  },
+  "吉尔在丛林3拯救王子": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Jill of the Jungle 3, distinct DOS title",
+    "title": "叢林吉爾3：拯救王子"
   },
   "名車大賽２": {
     "action": "reject",
@@ -3260,8 +3928,14 @@
     "note": "phase5 LLM scope: post-DOS remake suffix, out of era"
   },
   "命运战士／混沌引擎": {
-    "action": "reject",
-    "note": "phase5r2 scope: Chaos Engine but no Taiwan release evidence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): The Chaos Engine (Bitmap Brothers 1993), classic t",
+    "title": "混沌引擎"
   },
   "咒语交叉": {
     "action": "reject",
@@ -3292,8 +3966,10 @@
     "note": "redundant variant of 喋血街頭1 (cdg-1015)"
   },
   "喋血赛车": {
-    "action": "reject",
-    "note": "phase5 reject-low: obscure mainland-only, no Taiwan presence"
+    "action": "merge",
+    "note": "phase5 rescue: Carmageddon (Stainless, 1997) — 喋血賽車 is a listed alias ",
+    "prov": "rwv@merge",
+    "target": "cdg-1769"
   },
   "喵喵笨兔游戏攻略": {
     "action": "reject",
@@ -3469,6 +4145,16 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only title, no Taiwan signal"
   },
+  "圣诞小旅鼠": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Holiday Lemmings, well-known DOS title",
+    "title": "聖誕小旅鼠"
+  },
   "圣诞残杀": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
@@ -3532,6 +4218,16 @@
   "埃及统治者": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
+  },
+  "城市奇俠：騎哥幫五人組": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 元尊文化 TW release, distinct",
+    "title": "城市奇俠：騎哥幫五人組"
   },
   "基因分裂": {
     "action": "reject",
@@ -3773,6 +4469,16 @@
     "prov": "rwv@merge",
     "target": "cdg-0419"
   },
+  "大航海世紀": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Merchant Colony, DOS-era strategy, boneash TW sour",
+    "title": "大航海世紀"
+  },
   "大航海时代2": {
     "action": "merge",
     "note": "既有：大航海時代2：新地平線(JP1993/TW1994)",
@@ -3945,6 +4651,16 @@
     "prov": "rwv@merge",
     "target": "cdg-3977"
   },
+  "失落的维京人2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Lost Vikings 2, base game in catalog",
+    "title": "失落的維京人2"
+  },
   "头骨与骷髅十字": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
@@ -3992,6 +4708,16 @@
   "奧米加數位典藏": {
     "action": "reject",
     "note": "phase5 LLM scope: Digital archive collection, not a game"
+  },
+  "女強人亞紀子": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 源得富代理日系遊戲，台灣發行，目錄無此款",
+    "title": "女強人亞紀子"
   },
   "女皇杯(日)": {
     "action": "reject",
@@ -4109,6 +4835,16 @@
     "action": "reject",
     "note": "phase5 reject-low: Obscure mainland freeware shooter, no Taiwan presence"
   },
+  "完美将军2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: The Perfect General 2, distinct DOS sequel of cdg-",
+    "title": "完美將軍2"
+  },
   "官能习教": {
     "action": "merge",
     "note": "正確名字為 \"官能教習\", TETRATECH 1998年出品的18禁色情少女養成遊戲，由歡樂盒中文化並代理發行。",
@@ -4164,8 +4900,14 @@
     "note": "phase5 reject-low: obscure mainland-only, no Taiwan presence"
   },
   "寻找激流博士": {
-    "action": "reject",
-    "note": "phase5 reject-low: mainland-only obscure edutainment, no Taiwan presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): In Search of Dr. Riptide (1994) shareware platform",
+    "title": "尋找激流博士"
   },
   "寻找鲸鱼座": {
     "action": "reject",
@@ -4206,8 +4948,14 @@
     "note": "phase5r2 scope: obscure generic mainland-only rwv title"
   },
   "小朋友齐打交": {
-    "action": "reject",
-    "note": "phase5 reject-low: Little Fighter 2, freeware post-DOS Windows game"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Little Fighter, the famous Hong Kong/Taiwan beat-e",
+    "title": "小朋友齊打交"
   },
   "小精灵历险": {
     "action": "reject",
@@ -4224,6 +4972,26 @@
   "小辣椒时空之旅": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
+  },
+  "小飛弟呼叫太陽系": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 會宇多媒體代理，台灣發行，目錄無此款",
+    "title": "小飛弟呼叫太陽系"
+  },
+  "小飛弟重返侏儸紀": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 會宇多媒體 TW release",
+    "title": "小飛弟重返侏儸紀"
   },
   "小飞侠": {
     "action": "reject",
@@ -4261,6 +5029,16 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
   },
+  "小魔星／蜘蛛恐惧症": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Arachnophobia, DOS-era game",
+    "title": "蜘蛛恐懼症"
+  },
   "少女梦天使 (未上市)": {
     "action": "reject",
     "note": "phase5 LLM scope: Unreleased title (未上市)"
@@ -4295,13 +5073,29 @@
     "prov": "rwv@merge",
     "target": "cdg-0553"
   },
+  "巧比的自然奇遇-中文版": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 會宇多媒體 TW release",
+    "title": "巧比的自然奇遇-中文版"
+  },
   "巨兽侵袭": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
   },
   "巨窟文字冒险": {
-    "action": "reject",
-    "note": "phase5r2 scope: Colossal Cave text adventure, mainland-only no Taiwan s"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Colossal Cave Adventure, the original text adventu",
+    "title": "巨窟文字冒險"
   },
   "巨鲸宇宙号": {
     "action": "reject",
@@ -4310,6 +5104,36 @@
   "巫师大坩埚": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only, no Taiwan match"
+  },
+  "巫师学校1追女记": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Spellcasting 101, Legend adventure DOS game",
+    "title": "巫師學校1：追女記"
+  },
+  "巫师学校2入学记": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Spellcasting 201, Legend adventure DOS game",
+    "title": "巫師學校2：入學記"
+  },
+  "巫师学校3春假": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Spellcasting 301, Legend adventure DOS game",
+    "title": "巫師學校3：春假"
   },
   "巫术2": {
     "action": "merge",
@@ -4430,6 +5254,16 @@
     "note": "1. [≈2] `cdg-1117`  帝國的光榮  (1992)  · 萊茵工作室",
     "target": null,
     "title": "帝國的光榮II"
+  },
+  "帝国豪华版": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Empire Deluxe, classic DOS strategy game",
+    "title": "帝國豪華版"
   },
   "帝国霸业": {
     "action": "append",
@@ -4562,20 +5396,48 @@
     "note": "phase5r2 scope: Generic name, no catalog match, mainland-only"
   },
   "开球96": {
-    "action": "reject",
-    "note": "phase5r2 scope: obscure mainland-only sports title"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Kick Off 96, Anco football series",
+    "title": "開球96"
   },
   "开球97": {
-    "action": "reject",
-    "note": "phase5r2 scope: obscure mainland-only sports title"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Kick Off 97, Anco football series",
+    "title": "開球97"
   },
   "开膛手杰克": {
-    "action": "reject",
-    "note": "phase5r2 scope: obscure mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Jack the Ripper adventure game",
+    "title": "開膛手傑克"
   },
   "异域神兵诸神诅咒": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
+  },
+  "异形三部曲": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Alien Trilogy, well-known 1996 DOS title",
+    "title": "異形三部曲"
   },
   "异形事件": {
     "action": "reject",
@@ -4709,6 +5571,16 @@
     "prov": "rwv@merge",
     "target": "cdg-0696"
   },
+  "微软太空模拟": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Microsoft Space Simulator 1994, real DOS title",
+    "title": "微軟太空模擬"
+  },
   "微软飞行模拟+3个资料片": {
     "action": "merge",
     "note": "phase5 LLM: Microsoft Flight Simulator, matches cdg-2024",
@@ -4760,6 +5632,16 @@
   "忍者山洞人": {
     "action": "reject",
     "note": "phase5r2 scope: obscure rwv-only mainland, out of scope"
+  },
+  "忍者祕術": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Moebius, DOS-era RPG, boneash TW source",
+    "title": "忍者祕術"
   },
   "忍者神龟": {
     "action": "merge",
@@ -5042,8 +5924,10 @@
     "title": "戰棋4000"
   },
   "战甲：月鹰复仇": {
-    "action": "reject",
-    "note": "phase5 reject-low: rwv-only obscure mainland, no Taiwan presence"
+    "action": "merge",
+    "note": "phase5 rescue: BattleTech: The Crescent Hawk's Revenge (Westwood mech ",
+    "prov": "rwv@merge",
+    "target": "cdg-3221"
   },
   "战神": {
     "action": "merge",
@@ -5052,8 +5936,10 @@
     "target": "cdg-3399"
   },
   "战神2英版+编辑器": {
-    "action": "reject",
-    "note": "phase5 reject-low: hacked English version with editor, not catalog title"
+    "action": "merge",
+    "note": "phase5 rescue: Warlords 2 (SSG fantasy strategy)",
+    "prov": "rwv@merge",
+    "target": "cdg-3400"
   },
   "战线": {
     "action": "reject",
@@ -5066,6 +5952,16 @@
   "战虫": {
     "action": "reject",
     "note": "phase5 reject-low: rwv-only obscure mainland, no Taiwan presence"
+  },
+  "戰國群英": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Samurai DOS strategy, boneash TW source",
+    "title": "戰國群英"
   },
   "戰神": {
     "action": "reject",
@@ -5130,36 +6026,78 @@
     "note": "phase5r2 scope: generic Scrabble-type, no Taiwan signal"
   },
   "指挥官基恩1": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 1 (id Software/Apogee), lan",
+    "title": "指揮官基恩 1"
   },
   "指挥官基恩10民间版": {
     "action": "reject",
     "note": "phase5 LLM scope: fan-made mod, not official release"
   },
   "指挥官基恩2": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 2, landmark DOS platformer",
+    "title": "指揮官基恩 2"
   },
   "指挥官基恩3": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 3, landmark DOS platformer",
+    "title": "指揮官基恩 3"
   },
   "指挥官基恩3.5": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Commander Keen: Keen Dreams, the 'lost episode'",
+    "title": "指揮官基恩：基恩之夢"
   },
   "指挥官基恩4": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 4 (Goodbye Galaxy), landmar",
+    "title": "指揮官基恩 4"
   },
   "指挥官基恩5": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 5 (Goodbye Galaxy), landmar",
+    "title": "指揮官基恩 5"
   },
   "指挥官基恩6": {
-    "action": "reject",
-    "note": "phase5r2 scope: Commander Keen, mainland-only here, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Commander Keen episode 6 (Aliens Ate My Babysitter",
+    "title": "指揮官基恩 6"
   },
   "指挥官基恩7民间版": {
     "action": "reject",
@@ -5174,12 +6112,24 @@
     "note": "phase5 LLM scope: fan-made mod, not official release"
   },
   "指环王": {
-    "action": "reject",
-    "note": "phase5r2 scope: Generic LotR; no DOS-era Taiwan match found"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Lord of the Rings Vol. I, Interplay 1990 DOS R",
+    "title": "指環王"
   },
   "指环王2": {
-    "action": "reject",
-    "note": "phase5r2 scope: Generic LotR; no DOS-era Taiwan match found"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Lord of the Rings Vol. II: The Two Towers, Int",
+    "title": "指環王2"
   },
   "捉鬼敢死队2": {
     "action": "merge",
@@ -5236,6 +6186,16 @@
   "摩登原始人": {
     "action": "reject",
     "note": "phase5r2 scope: Flintstones but no Taiwan release evidence"
+  },
+  "摩登家族：米路歷險": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 智冠-published TW release, distinct",
+    "title": "摩登家族：米路歷險"
   },
   "撼天神塔-复活邪魔": {
     "action": "merge",
@@ -5333,6 +6293,16 @@
     "prov": "rwv@merge",
     "target": "cdg-2200"
   },
+  "斯科奇赛": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Skunny Kart, distinct from cataloged Skunny titles",
+    "title": "史卡尼賽車"
+  },
   "新A-10坦克殺手": {
     "action": "merge",
     "note": "phase5 LLM: same A-10坦克殺手",
@@ -5342,6 +6312,16 @@
   "新KK音標自然學習法-咚咚貓勇闖大魔島": {
     "action": "reject",
     "note": "phase5 reject-low: English-phonics educational disc, not a game"
+  },
+  "新七顆龍珠": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 鴻峻台灣發行，與cdg-4031不同款",
+    "title": "新七顆龍珠"
   },
   "新世界征服者": {
     "action": "reject",
@@ -5391,6 +6371,16 @@
     "action": "reject",
     "note": "non-game (magazine CD / audiobook / compilation)"
   },
+  "斷劍傳說：聖戒風雲": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 安峻科技 TW title, distinct",
+    "title": "斷劍傳說：聖戒風雲"
+  },
   "方块奥运会": {
     "action": "merge",
     "note": "1. `cdg-2366`  方塊奧運  (1993)  · 智冠 ◀",
@@ -5420,6 +6410,26 @@
   "无尽空间": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only, no Taiwan match"
+  },
+  "无悔的十字军": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Crusader: No Remorse, well-known DOS title",
+    "title": "無悔的十字軍"
+  },
+  "无悔的十字军2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Crusader: No Regret, DOS sequel",
+    "title": "無悔的十字軍2"
   },
   "无限制擂台赛": {
     "action": "reject",
@@ -5465,6 +6475,16 @@
     "action": "reject",
     "note": "redundant variant of 明星職棒1 (cdg-2393)"
   },
+  "明星麻將": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Taiwan title (宇昌產業), distinct from cdg-2794",
+    "title": "明星麻將"
+  },
   "星宇九號：力挽狂瀾": {
     "action": "reject",
     "note": "phase5: name already catalogued"
@@ -5498,12 +6518,24 @@
     "target": "cdg-2409"
   },
   "星球大战暗影力量": {
-    "action": "reject",
-    "note": "phase5r2 scope: Star Wars Dark Forces rwv-only, no Taiwan evidence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Star Wars: Dark Forces, LucasArts 1995 FPS",
+    "title": "星際大戰：黑暗原力"
   },
   "星球大战绝地反击": {
-    "action": "reject",
-    "note": "phase5r2 scope: Star Wars Rebel Assault rwv-only, no Taiwan evidence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Star Wars: Rebel Assault, LucasArts rail shooter",
+    "title": "星際大戰：反抗軍突擊"
   },
   "星球大战钛战机": {
     "action": "merge",
@@ -5554,6 +6586,16 @@
   "星际调查局2": {
     "action": "reject",
     "note": "phase5r2 scope: obscure rwv-only, no Taiwan signal"
+  },
+  "星际迷航裁决仪式": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Star Trek: Judgment Rites, DOS-era, series localiz",
+    "title": "星際爭霸戰：裁決儀式"
   },
   "星际霸主": {
     "action": "reject",
@@ -5609,11 +6651,31 @@
     "target": "cdg-2441",
     "title": "春秋爭霸傳2"
   },
+  "普巴": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: pruba kocheshi, 福茂/大宇, distinct",
+    "title": "普巴"
+  },
   "智冠杯灌篮大赛": {
     "action": "merge",
     "note": "phase5r2: Softworld 1995 basketball, matches 超級灌籃大賽",
     "prov": "rwv@merge",
     "target": "cdg-4130"
+  },
+  "智力大考驗(IQ零蛋-智力測驗-親密學園)": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: TW 亞碟/新生代 edutainment, distinct",
+    "title": "智力大考驗"
   },
   "智慧弹珠": {
     "action": "reject",
@@ -5706,12 +6768,24 @@
     "target": "cdg-2497"
   },
   "月亮石骑士": {
-    "action": "reject",
-    "note": "phase5 reject-low: rwv-only obscure mainland, no Taiwan presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Moonstone: A Hard Days Knight (1991 Mindscape) act",
+    "title": "月亮石騎士"
   },
   "月球巡逻": {
-    "action": "reject",
-    "note": "phase5r2 scope: Moon Patrol clone, mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Moon Patrol, classic arcade shooter with DOS port",
+    "title": "月球巡邏"
   },
   "月球指挥官": {
     "action": "reject",
@@ -5769,6 +6843,16 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no match"
   },
+  "机甲战士2熊魂遗迹": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: MechWarrior 2: Ghost Bear's Legacy, distinct expan",
+    "title": "機甲戰士2：熊魂遺跡"
+  },
   "机甲战士2第31世纪": {
     "action": "merge",
     "note": "phase5 LLM: MechWarrior 2: 31st Century Combat",
@@ -5776,8 +6860,14 @@
     "target": "cdg-3224"
   },
   "机甲战士2雇佣兵": {
-    "action": "reject",
-    "note": "phase5r2 scope: MechWarrior 2 but rwv-only, no Taiwan release signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): MechWarrior 2: Mercenaries (1996), standalone expa",
+    "title": "機甲爭霸戰2：傭兵"
   },
   "机甲猎人": {
     "action": "append",
@@ -5891,6 +6981,16 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, unrecognised, no Taiwan signal"
   },
+  "棋侶-2001中國象棋個人賽-典藏版": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠象棋軟體，台灣發行",
+    "title": "棋侶-2001中國象棋個人賽-典藏版"
+  },
   "棋侶-俞斌考題-詰棋。定石。佈局": {
     "action": "merge",
     "note": "phase5 LLM: 俞斌考題：詰棋、定石、佈局 alias",
@@ -5903,6 +7003,26 @@
     "prov": "rwv@merge",
     "target": "cdg-1615"
   },
+  "棋侶-兒童圍棋學苑": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠圍棋軟體，台灣發行",
+    "title": "棋侶-兒童圍棋學苑"
+  },
+  "棋侶-初段手談": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠圍棋軟體，台灣發行，目錄無此款",
+    "title": "棋侶-初段手談"
+  },
   "棋侶-圍棋習遊記-初學篇": {
     "action": "merge",
     "note": "phase5 LLM: Same 圍棋習遊記：初學篇 晟業",
@@ -5914,6 +7034,16 @@
     "note": "phase5 LLM: Same 熱血圍棋教室 晟業",
     "prov": "rwv@merge",
     "target": "cdg-3308"
+  },
+  "棋侶-猴賽擂圍棋對弈": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠圍棋軟體，台灣發行，目錄無此款",
+    "title": "棋侶-猴賽擂圍棋對弈"
   },
   "棋侶-象棋兵法：中砲佈局～兵法系列1～5合輯": {
     "action": "reject",
@@ -5936,6 +7066,26 @@
     "note": "phase5 LLM: Same 象棋習遊記 晟業",
     "prov": "rwv@merge",
     "target": "cdg-2154"
+  },
+  "棋侶-象棋路邊攤": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠象棋軟體，台灣發行",
+    "title": "棋侶-象棋路邊攤"
+  },
+  "棋侶-象棋追擊戰": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 晟業/智冠象棋軟體，台灣發行",
+    "title": "棋侶-象棋追擊戰"
   },
   "棒棒糖": {
     "action": "reject",
@@ -6163,6 +7313,16 @@
     "prov": "rwv@merge",
     "target": "cdg-0227"
   },
+  "武林盟主": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: KIWI/智冠 game, distinct from 決戰中原",
+    "title": "武林盟主"
+  },
   "武林秘笈之風月寶典": {
     "action": "reject",
     "note": "phase5 LLM scope: sexology reference content, not a game"
@@ -6192,8 +7352,14 @@
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
   },
   "死亡之门": {
-    "action": "reject",
-    "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Death Gate (Legend Entertainment 1994) adventure",
+    "title": "死亡之門"
   },
   "死亡剧场": {
     "action": "reject",
@@ -6375,6 +7541,16 @@
     "target": null,
     "title": "永恆之門"
   },
+  "永远的蝙蝠侠": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Batman Forever, real DOS-era game",
+    "title": "永遠的蝙蝠俠"
+  },
   "永远的雷曼": {
     "action": "merge",
     "note": "phase5 LLM: Rayman Forever, repackaged Rayman 1",
@@ -6511,6 +7687,16 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
   },
+  "泰坦風雲": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Mines of Titan, DOS-era RPG, boneash TW source",
+    "title": "泰坦風雲"
+  },
   "泰拉之火": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
@@ -6526,6 +7712,16 @@
     "note": "phase5 LLM: = 洛克人X1 Mega Man X",
     "prov": "rwv@merge",
     "target": "cdg-1220"
+  },
+  "洛克人の黃金帝國": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Taiwan-published (智冠/草莓) Rockman title, not in cat",
+    "title": "洛克人的黃金帝國"
   },
   "洞穴战争": {
     "action": "reject",
@@ -6563,6 +7759,36 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
   },
+  "海姆达": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Heimdall, real Core Design DOS game",
+    "title": "海姆達"
+  },
+  "海姆达2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Heimdall 2, real DOS-era sequel",
+    "title": "海姆達2"
+  },
+  "海底大戰爭": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: In the Hunt Irem, 亞昇 Taiwan release",
+    "title": "海底大戰爭"
+  },
   "海底游侠": {
     "action": "reject",
     "note": "phase5 reject-low: Mainland-only obscure, no Taiwan presence"
@@ -6591,6 +7817,16 @@
     "action": "reject",
     "note": "phase5r2 scope: Japanese みずき title, no TW release signal"
   },
+  "海豚鳥節奏王國": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: FinFin衍生，憶弘代理，目錄無此款",
+    "title": "海豚鳥節奏王國"
+  },
   "海豹突击队": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland rwv-only, no match"
@@ -6606,6 +7842,16 @@
   "淘金者": {
     "action": "reject",
     "note": "phase5: name already catalogued"
+  },
+  "深入虎穴": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Into the Eagle's Nest, known DOS action game",
+    "title": "深入虎穴"
   },
   "深海泰坦尼克": {
     "action": "reject",
@@ -6936,8 +8182,14 @@
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
   },
   "特警判官": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only, no catalog match, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Judge Dredd, 1990s DOS action title based on the c",
+    "title": "特警判官"
   },
   "犯罪浪潮": {
     "action": "reject",
@@ -6986,22 +8238,44 @@
     "note": "phase5r2 scope: obscure mainland-only title, no Taiwan signal"
   },
   "狮子王": {
-    "action": "reject",
-    "note": "phase5r2 scope: Disney Lion King mainland rwv-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): The Lion King (Disney/Virgin 1994), landmark DOS p",
+    "title": "獅子王"
   },
   "狼祸": {
     "action": "reject",
     "note": "phase5r2 scope: unrecognized mainland-only title"
   },
   "猎户座阴谋": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland, unrecognised, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Orion Conspiracy (1995 DOS sci-fi adventure)",
+    "title": "獵戶座陰謀"
   },
   "猎杀潜航": {
     "action": "merge",
     "note": "",
     "target": "cdg-3545",
     "title": "獵殺潛航"
+  },
+  "猎杀红色十月": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: well-known DOS game Hunt for Red October",
+    "title": "獵殺紅色十月"
   },
   "猛鬼街": {
     "action": "reject",
@@ -7261,6 +8535,16 @@
     "note": "phase5 LLM: Rampage, well-known DOS arcade port",
     "title": "瘋狂大毀滅"
   },
+  "瘋狂星球": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Taiwan dev 傑立威/數碼戲胞",
+    "title": "瘋狂星球"
+  },
   "瘋狂時代": {
     "action": "append",
     "fields": {
@@ -7372,12 +8656,34 @@
     "note": "phase5r2 dup of cdg-1816"
   },
   "真实足球": {
-    "action": "reject",
-    "note": "phase5r2 scope: Mainland-only soccer title, no Taiwan match"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Sensible Soccer, landmark DOS/Amiga football class",
+    "title": "真實足球"
   },
   "真实足球俱乐部版": {
-    "action": "reject",
-    "note": "phase5r2 scope: Mainland-only soccer variant, no Taiwan match"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Sensible World of Soccer, expanded DOS football cl",
+    "title": "真實足球俱樂部版"
+  },
+  "眼鏡蛇計劃": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Patton vs Rommel, DOS-era wargame, boneash TW sour",
+    "title": "眼鏡蛇計劃"
   },
   "石与钻": {
     "action": "reject",
@@ -7519,15 +8825,45 @@
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
   },
+  "秋之回憶4～從今以後 Again～": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Memories Off And Then Again, 光譜 TW release",
+    "title": "秋之回憶4～從今以後 Again～"
+  },
   "种族灭绝": {
     "action": "reject",
     "note": "phase5r2 scope: Obscure mainland-only rwv title, no Taiwan match"
+  },
+  "科曼奇2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Comanche 2, well-known NovaLogic helicopter sim",
+    "title": "科曼奇2"
   },
   "科罗拉多": {
     "action": "merge",
     "note": "phase5 LLM: Colorado matches 科羅拉多尋金記",
     "prov": "rwv@merge",
     "target": "cdg-3960"
+  },
+  "秘境神話": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 第三波 TW title, distinct",
+    "title": "秘境神話"
   },
   "空中决斗": {
     "action": "reject",
@@ -7609,6 +8945,16 @@
     "prov": "rwv@merge",
     "target": "cdg-0711"
   },
+  "童話短路": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: SHORTCUT by 優特克, 蕭言中 comic",
+    "title": "童話短路"
+  },
   "童话新编": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title"
@@ -7638,8 +8984,14 @@
     "note": "phase5r2 scope: obscure mainland-only, no catalog match"
   },
   "第一武士": {
-    "action": "reject",
-    "note": "phase5r2 scope: First Samurai not in catalog, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): First Samurai, Vivid Image action-platformer DOS p",
+    "title": "第一武士"
   },
   "第五个火枪手": {
     "action": "reject",
@@ -7676,6 +9028,16 @@
   "篮球经理": {
     "action": "reject",
     "note": "phase5r2 scope: generic mainland-only sports manager"
+  },
+  "系统震荡": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: System Shock, landmark DOS title",
+    "title": "系統震盪"
   },
   "紅色風暴": {
     "action": "append",
@@ -7905,6 +9267,16 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, unrecognised, no Taiwan signal"
   },
+  "罪 3D": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Tsumi Guiltia, Taiwan 歡樂盒 release",
+    "title": "罪 3D"
+  },
   "罪恶克星": {
     "action": "reject",
     "note": "phase5r2 scope: mainland rwv-only, unrecognized, no Taiwan signal"
@@ -7931,6 +9303,16 @@
     "target": "cdg-1452",
     "title": "美國的噩夢"
   },
+  "美國城市賽車": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: USA Racer Davilex, 意念數位 Taiwan",
+    "title": "美國城市賽車"
+  },
   "美女寶石陣": {
     "action": "append",
     "fields": {
@@ -7954,6 +9336,16 @@
   "美少女沙場風暴": {
     "action": "reject",
     "note": "phase5: name already catalogued"
+  },
+  "美少女超級麻將": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Taiwan-published (創意科技) mahjong title, not in cata",
+    "title": "美少女超級麻將"
   },
   "美杜莎归来": {
     "action": "reject",
@@ -7986,6 +9378,26 @@
   "聖少女戰隊": {
     "action": "reject",
     "note": "redundant variant of 聖少女戰隊1 (cdg-2528)"
+  },
+  "聰明小子": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 奇美 TW publisher",
+    "title": "聰明小子"
+  },
+  "肯的迷宫": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Ken's Labyrinth, well-known Apogee FPS",
+    "title": "肯恩迷宮"
   },
   "胖子之怒": {
     "action": "reject",
@@ -8054,8 +9466,14 @@
     "target": "cdg-3971"
   },
   "艾薇拉动作版": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only Elvira arcade; no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Elvira: The Arcade Game (action spinoff)",
+    "title": "艾薇拉：街機版"
   },
   "芭比超级模特": {
     "action": "reject",
@@ -8195,6 +9613,16 @@
     "prov": "rwv@merge",
     "target": "cdg-3432"
   },
+  "荷兰人的失落之矿": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Lost Dutchman Mine, real DOS-era game",
+    "title": "荷蘭人的失落之礦"
+  },
   "莊子爺爺說故事系列-石匠大師": {
     "action": "reject",
     "note": "phase5 reject-low: Storytelling CD, not a game"
@@ -8204,8 +9632,14 @@
     "note": "phase5r2 scope: rwv-only, mainland, no Taiwan signal"
   },
   "莲花赛车无限": {
-    "action": "reject",
-    "note": "phase5r2 scope: Lotus racing, rwv-only, no Taiwan-release evidence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Lotus: The Ultimate Challenge (Gremlin, classic DO",
+    "title": "蓮花賽車：終極挑戰"
   },
   "華語漢字": {
     "action": "reject",
@@ -8235,9 +9669,25 @@
     "action": "reject",
     "note": "phase5 reject-low: Dizzy fan-name, mainland-only no Taiwan"
   },
+  "蓝冰": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Blue Ice, known Psygnosis adventure",
+    "title": "藍冰"
+  },
   "蓝精灵": {
-    "action": "reject",
-    "note": "phase5r2 scope: Smurfs licence, mainland rwv-only, no TW signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Smurfs platformer (Infogrames, 1994 DOS)",
+    "title": "藍精靈"
   },
   "蓝色天使": {
     "action": "reject",
@@ -8250,6 +9700,16 @@
   "蓝色行动": {
     "action": "reject",
     "note": "phase5r2 scope: unrecognized mainland-only title"
+  },
+  "蓝色马克思": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Blue Max, known WWI flight sim",
+    "title": "藍色馬克斯"
   },
   "蓝莫吉尼巡回赛": {
     "action": "merge",
@@ -8346,12 +9806,24 @@
     "note": "phase5r2 scope: obscure mainland-only, no Taiwan signal"
   },
   "蝙蝠侠归来": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland movie tie-in; no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Batman Returns (Konami 1992)",
+    "title": "蝙蝠俠歸來"
   },
   "蝙蝠侠电影版": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland movie tie-in; no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Batman: The Movie (Ocean 1989)",
+    "title": "蝙蝠俠電影版"
   },
   "螢幕總動員": {
     "action": "reject",
@@ -8362,8 +9834,14 @@
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
   },
   "血与魔法": {
-    "action": "reject",
-    "note": "phase5 reject-low: mainland-only obscure, no Taiwan presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Blood & Magic (1996 Interplay), Forgotten Realms r",
+    "title": "血與魔法"
   },
   "血巢": {
     "action": "reject",
@@ -8382,6 +9860,16 @@
     "note": "base-match dup of 血祭1; keep simplified name as alias",
     "prov": "rwv@merge",
     "target": "cdg-0867"
+  },
+  "行星末日戰記": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Full Metal Planete DOS title",
+    "title": "行星末日戰記"
   },
   "行星边际": {
     "action": "reject",
@@ -8474,12 +9962,38 @@
     "note": "phase5r2 scope: Obscure mainland-only, unrecognized"
   },
   "詹姆斯庞德2": {
-    "action": "reject",
-    "note": "phase5r2 scope: obscure mainland-only Bond title, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): James Pond 2: Codename RoboCod, famous 1991 platfo",
+    "title": "詹姆斯龐德2"
   },
   "警察故事1重制版": {
     "action": "reject",
     "note": "phase5 LLM scope: remake suffix, fan/post-DOS remake"
+  },
+  "警察故事2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Police Quest 2, distinct sequel of catalog PQ1",
+    "title": "警察故事2"
+  },
+  "警察故事3": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Police Quest 3, distinct sequel of catalog PQ1",
+    "title": "警察故事3"
   },
   "记忆测验": {
     "action": "reject",
@@ -8512,8 +10026,24 @@
     "note": "phase5r2 scope: rwv-only, mainland, no Taiwan signal"
   },
   "谁陷害了兔子罗杰": {
-    "action": "reject",
-    "note": "phase5r2 scope: Roger Rabbit, mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Who Framed Roger Rabbit, 1988 licensed DOS game",
+    "title": "誰陷害了兔子羅傑"
+  },
+  "象棋世家V5": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Taiwan original chess game, later version of cdg-2",
+    "title": "象棋世家V5"
   },
   "象棋特级大师": {
     "action": "merge",
@@ -8826,24 +10356,48 @@
     "target": "cdg-0441"
   },
   "辛普森一家": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only Simpsons title, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Simpsons DOS game (famous IP, distinct from 辛普",
+    "title": "辛普森家庭"
   },
   "辛普森一家2古怪之屋": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only Simpsons title, no Taiwan signal"
   },
   "辛普森大战外星人": {
-    "action": "reject",
-    "note": "phase5 reject-low: obscure Simpsons title, no DOS/TW presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): The Simpsons: Bart vs. the Space Mutants, a real D",
+    "title": "辛普森大戰外星人"
   },
   "辛普森小丑屋": {
-    "action": "reject",
-    "note": "phase5 reject-low: obscure Simpsons title, no TW presence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Bart's House of Weirdness, a DOS Simpsons platform",
+    "title": "辛普森小丑屋"
   },
   "辛迪加战争": {
-    "action": "reject",
-    "note": "phase5r2 scope: Syndicate Wars rwv-only, no Taiwan release evidence"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (canon): Syndicate Wars, Bullfrog 1996 cyberpunk tactical s",
+    "title": "辛迪加戰爭"
   },
   "边境宝藏": {
     "action": "reject",
@@ -8914,8 +10468,14 @@
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
   },
   "逃离脑博士的城堡": {
-    "action": "reject",
-    "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Castle of Dr. Brain, Sierra educational puzzle-adv",
+    "title": "逃離腦博士的城堡"
   },
   "逐鹿中原": {
     "action": "reject",
@@ -8933,6 +10493,26 @@
     "action": "reject",
     "note": "phase5r2 scope: generic obscure mainland-only title"
   },
+  "速度球": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Speedball, well-known Bitmap Brothers DOS game",
+    "title": "速度球"
+  },
+  "速度球2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Speedball 2, classic DOS sports game",
+    "title": "速度球2"
+  },
   "遊戲世界第214期": {
     "action": "reject",
     "note": "phase5 LLM scope: game magazine, not a game"
@@ -8940,6 +10520,16 @@
   "遊戲修改大師-整人專家 FPE 4": {
     "action": "reject",
     "note": "phase5 LLM scope: FPE game-modifying utility, not a game"
+  },
+  "遊戲剋星2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: 精訊台灣工具軟體續作，目錄無此款",
+    "title": "遊戲剋星2"
   },
   "遊戲剋星4": {
     "action": "reject",
@@ -9020,8 +10610,10 @@
     "note": "phase5 reject-low: Taiwan mecha game but 2014, post-DOS era"
   },
   "重返德军总部3D": {
-    "action": "reject",
-    "note": "phase5 reject-low: Return to Castle Wolfenstein 2001, post-DOS era"
+    "action": "merge",
+    "note": "phase5 rescue: Wolfenstein 3D (id Software, landmark FPS)",
+    "prov": "rwv@merge",
+    "target": "cdg-2036"
   },
   "野人生存": {
     "action": "reject",
@@ -9079,6 +10671,16 @@
     "note": "phase5 LLM: Master of Orion, classic DOS 4X strategy",
     "title": "銀河霸主"
   },
+  "銀河風暴": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Renegade Legion Interceptor, SSI DOS wargame",
+    "title": "銀河風暴"
+  },
   "銀河飛將": {
     "action": "reject",
     "note": "redundant variant of 銀河飛將1 (cdg-2911)"
@@ -9099,9 +10701,29 @@
     "action": "reject",
     "note": "redundant variant of 鋼鐵雄獅1 (cdg-3590)"
   },
+  "鐵血傭兵": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Hard Nova, DOS-era RPG, boneash TW source",
+    "title": "鐵血傭兵"
+  },
   "鐵路大亨": {
     "action": "reject",
     "note": "redundant variant of 鐵路大亨1 (cdg-3605)"
+  },
+  "鐵道夢想家": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: Trainz Collection，淇倫互動代理，目錄無此款",
+    "title": "鐵道夢想家"
   },
   "钞票强强滚": {
     "action": "reject",
@@ -9224,8 +10846,14 @@
     "target": "cdg-3605"
   },
   "铁钩船长": {
-    "action": "reject",
-    "note": "phase5r2 scope: Hook, rwv-only, no catalog match, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Hook (Captain Hook), 1992 game of the Spielberg fi",
+    "title": "鐵鉤船長"
   },
   "铁锁的星群": {
     "action": "merge",
@@ -9236,6 +10864,36 @@
   "铁锤男孩": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, obscure, no Taiwan signal"
+  },
+  "银多瑞传奇1": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Ishar 1, well-known Silmarils DOS RPG",
+    "title": "銀多瑞傳奇"
+  },
+  "银多瑞传奇2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Ishar 2, Silmarils DOS RPG series",
+    "title": "銀多瑞傳奇2"
+  },
+  "银多瑞传奇3": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Ishar 3, Silmarils DOS RPG series",
+    "title": "銀多瑞傳奇3"
   },
   "银河太阳风": {
     "action": "reject",
@@ -9262,6 +10920,16 @@
     "note": "1. [≈2] `cdg-2905`  銀河英雄傳說4  (1996)  · Bothtec",
     "target": "cdg-2905",
     "title": "銀河英雄傳說4EX"
+  },
+  "银河霸主2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Master of Orion 2, classic DOS 4X",
+    "title": "銀河霸主2"
   },
   "银河风暴": {
     "action": "reject",
@@ -9379,6 +11047,16 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
   },
+  "阿尔比恩": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Albion (Blue Byte) well-known DOS RPG",
+    "title": "阿爾比恩"
+  },
   "阿拉丁2灯神诅咒": {
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland; no Taiwan signal"
@@ -9492,20 +11170,48 @@
     "note": "phase5r2 scope: Hugo series, mainland-only, no Taiwan release signal"
   },
   "雨果的恐怖之屋1": {
-    "action": "reject",
-    "note": "phase5r2 scope: Hugo series, mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Hugo's House of Horrors (Hugo series #1), 1990 DOS",
+    "title": "雨果的恐怖之屋1"
   },
   "雨果的恐怖之屋2": {
-    "action": "reject",
-    "note": "phase5r2 scope: Hugo series, mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Hugo II: Whodunit?, 1991 DOS adventure",
+    "title": "雨果的恐怖之屋2"
   },
   "雨果的恐怖之屋3": {
-    "action": "reject",
-    "note": "phase5r2 scope: Hugo series, mainland-only, no Taiwan signal"
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 rescue (notable): Hugo III: Jungle of Doom!, 1991 DOS adventure",
+    "title": "雨果的恐怖之屋3"
   },
   "雪中出击": {
     "action": "reject",
     "note": "phase5 reject-low: mainland-only obscure, no Taiwan presence"
+  },
+  "雪山競技": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "boneash@merge"
+      ]
+    },
+    "note": "phase5 append-low: Winter Challenge, DOS-era sports, boneash TW sourc",
+    "title": "雪山競技"
   },
   "雷克斯": {
     "action": "reject",
@@ -9552,6 +11258,16 @@
   "雷米兔传奇": {
     "action": "reject",
     "note": "phase5r2 scope: unrecognized mainland-only title"
+  },
+  "雷诺尼都纪事II 赏金猎人": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "fandom@merge"
+      ]
+    },
+    "note": "phase5 append-low: Sequel to cataloged 紀事; distinct title",
+    "title": "雷諾尼都紀事II 賞金獵人"
   },
   "雷霆任務": {
     "action": "append",
@@ -9769,6 +11485,26 @@
     "action": "reject",
     "note": "phase5r2 scope: rwv-only mainland, unrecognised, no Taiwan signal"
   },
+  "马里奥不见了": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: well-known DOS game Mario is Missing",
+    "title": "瑪利歐不見了"
+  },
+  "马里奥教你打字": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: well-known DOS game Mario Teaches Typing",
+    "title": "瑪利歐教你打字"
+  },
   "马里奥游戏展": {
     "action": "reject",
     "note": "phase5 reject-low: Nintendo Mario fan/console item, no DOS TW release"
@@ -9861,6 +11597,26 @@
     "action": "reject",
     "note": "redundant variant of 魔城迷蹤1 (cdg-3668)"
   },
+  "魔域传奇：史特卡的财宝1.2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: distinct installment of 魔域傳奇 series",
+    "title": "魔域傳奇：史特卡的財寶"
+  },
+  "魔域传奇：石之预言者1.1": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: distinct installment of 魔域傳奇 series",
+    "title": "魔域傳奇：石之預言者"
+  },
   "魔域悍將": {
     "action": "append",
     "fields": {
@@ -9952,6 +11708,16 @@
   "魔法天师": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
+  },
+  "魔法师西蒙": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Simon the Sorcerer, well-known DOS adventure",
+    "title": "巫師西蒙"
   },
   "魔法書之謎": {
     "action": "reject",
@@ -10353,6 +12119,16 @@
     "action": "reject",
     "note": "phase5 LLM scope: vendor series listing, not a game"
   },
+  "龐克雙鱷": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "omega@merge"
+      ]
+    },
+    "note": "phase5 append-low: real DOS game Cool Croc Twins, not in catalog",
+    "title": "龐克雙鱷"
+  },
   "龙之崛起": {
     "action": "merge",
     "note": "phase5 LLM: = 皇帝：龍之崛起 Emperor",
@@ -10376,6 +12152,16 @@
   "龙战记X": {
     "action": "reject",
     "note": "phase5r2 scope: obscure mainland-only rwv title, no Taiwan signal"
+  },
+  "龙穴历险记2": {
+    "action": "append",
+    "fields": {
+      "provenance": [
+        "rwv@merge"
+      ]
+    },
+    "note": "phase5 append-low: Dragon's Lair II, catalog has 1 and 3 only",
+    "title": "龍穴歷險記2"
   },
   "龙穴历险记3": {
     "action": "merge",

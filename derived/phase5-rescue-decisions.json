@@ -1,0 +1,521 @@
+[
+  {
+    "name": "喋血赛车",
+    "action": "merge",
+    "target": "cdg-1769",
+    "fame": "canon",
+    "reason": "Carmageddon (Stainless, 1997) — 喋血賽車 is a listed alias of cdg-1769"
+  },
+  {
+    "name": "切克斯历险记",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Chex Quest, the Doom-engine cereal-promo freeware FPS, a genuine DOS classic",
+    "target": null,
+    "title_hant": "切克斯歷險記"
+  },
+  {
+    "name": "切克斯历险记2",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Chex Quest 2, DOS Doom-engine sequel",
+    "target": null,
+    "title_hant": "切克斯歷險記2"
+  },
+  {
+    "name": "辛普森大战外星人",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Simpsons: Bart vs. the Space Mutants, a real DOS-era licensed platformer",
+    "target": null,
+    "title_hant": "辛普森大戰外星人"
+  },
+  {
+    "name": "辛普森小丑屋",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Bart's House of Weirdness, a DOS Simpsons platformer",
+    "target": null,
+    "title_hant": "辛普森小丑屋"
+  },
+  {
+    "name": "下级生(日)",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Kakyuusei, Elf's well-known PC-98/DOS-era bishoujo dating-sim",
+    "target": null,
+    "title_hant": "下級生（日）"
+  },
+  {
+    "name": "小朋友齐打交",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Little Fighter, the famous Hong Kong/Taiwan beat-em-up of the early-PC era",
+    "target": null,
+    "title_hant": "小朋友齊打交"
+  },
+  {
+    "name": "血与魔法",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Blood & Magic (1996 Interplay), Forgotten Realms real-time strategy",
+    "target": null,
+    "title_hant": "血與魔法"
+  },
+  {
+    "name": "月亮石骑士",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Moonstone: A Hard Days Knight (1991 Mindscape) action-adventure",
+    "target": null,
+    "title_hant": "月亮石騎士"
+  },
+  {
+    "name": "寻找激流博士",
+    "action": "append",
+    "fame": "notable",
+    "reason": "In Search of Dr. Riptide (1994) shareware platformer",
+    "target": null,
+    "title_hant": "尋找激流博士"
+  },
+  {
+    "name": "亚马逊女皇之旅",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Amazon: Guardians of Eden (1992 Access) adventure",
+    "target": null,
+    "title_hant": "亞馬遜女皇之旅"
+  },
+  {
+    "name": "战甲：月鹰复仇",
+    "action": "merge",
+    "target": "cdg-3221",
+    "fame": "canon",
+    "reason": "BattleTech: The Crescent Hawk's Revenge (Westwood mech strategy)"
+  },
+  {
+    "name": "战神2英版+编辑器",
+    "action": "merge",
+    "target": "cdg-3400",
+    "fame": "notable",
+    "reason": "Warlords 2 (SSG fantasy strategy)"
+  },
+  {
+    "name": "重返德军总部3D",
+    "action": "merge",
+    "target": "cdg-2036",
+    "fame": "canon",
+    "reason": "Wolfenstein 3D (id Software, landmark FPS)"
+  },
+  {
+    "name": "狮子王",
+    "action": "append",
+    "fame": "canon",
+    "title_hant": "獅子王",
+    "reason": "The Lion King (Disney/Virgin 1994), landmark DOS platformer",
+    "target": null
+  },
+  {
+    "name": "死亡之门",
+    "action": "append",
+    "fame": "notable",
+    "title_hant": "死亡之門",
+    "reason": "Death Gate (Legend Entertainment 1994) adventure",
+    "target": null
+  },
+  {
+    "name": "1830铁路公爵",
+    "action": "append",
+    "title_hant": "1830鐵路公爵",
+    "fame": "notable",
+    "reason": "Avalon Hill's 1830: Railroads & Robber Barons (1995) railroad strategy"
+  },
+  {
+    "name": "1869大航海",
+    "action": "append",
+    "title_hant": "1869",
+    "fame": "notable",
+    "reason": "Max Design's 1869 (1992) trade/sailing economic sim"
+  },
+  {
+    "name": "A320空中客机",
+    "action": "append",
+    "title_hant": "A320空中巴士",
+    "fame": "notable",
+    "reason": "Thalion's A320 Airbus flight simulator"
+  },
+  {
+    "name": "BOPPIN物理游戏",
+    "action": "append",
+    "title_hant": "Boppin'",
+    "fame": "notable",
+    "reason": "Apogee's Boppin' (1994) puzzle game"
+  },
+  {
+    "name": "4D网球",
+    "action": "append",
+    "title_hant": "4D網球",
+    "fame": "notable",
+    "reason": "Simis/Mindscape 4D Sports Tennis (1990)"
+  },
+  {
+    "name": "94美国世界杯",
+    "action": "append",
+    "title_hant": "94美國世界盃",
+    "fame": "notable",
+    "reason": "U.S. Gold's World Cup USA 94 football game"
+  },
+  {
+    "name": "FIFA1996",
+    "action": "append",
+    "title_hant": "FIFA足球1996",
+    "fame": "canon",
+    "reason": "FIFA Soccer 96 (EA Sports)",
+    "target": null
+  },
+  {
+    "name": "FIFA97",
+    "action": "append",
+    "title_hant": "FIFA足球97",
+    "fame": "canon",
+    "reason": "FIFA 97 (EA Sports)",
+    "target": null
+  },
+  {
+    "name": "SU27侧翼部队",
+    "action": "append",
+    "title_hant": "Su-27側翼戰機",
+    "fame": "canon",
+    "reason": "Su-27 Flanker flight sim (Mindscape)",
+    "target": null
+  },
+  {
+    "name": "NBA嘉年华",
+    "action": "append",
+    "title_hant": "NBA嘉年華",
+    "fame": "canon",
+    "reason": "NBA Jam (Midway/Acclaim)",
+    "target": null
+  },
+  {
+    "name": "艾薇拉动作版",
+    "action": "append",
+    "title_hant": "艾薇拉：街機版",
+    "fame": "canon",
+    "reason": "Elvira: The Arcade Game (action spinoff)",
+    "target": null
+  },
+  {
+    "name": "蝙蝠侠电影版",
+    "action": "append",
+    "title_hant": "蝙蝠俠電影版",
+    "fame": "canon",
+    "reason": "Batman: The Movie (Ocean 1989)",
+    "target": null
+  },
+  {
+    "name": "蝙蝠侠归来",
+    "action": "append",
+    "title_hant": "蝙蝠俠歸來",
+    "fame": "canon",
+    "reason": "Batman Returns (Konami 1992)",
+    "target": null
+  },
+  {
+    "name": "F15战斗机",
+    "action": "append",
+    "title_hant": "F-15獵鷹戰機",
+    "fame": "notable",
+    "reason": "F-15 Strike Eagle (MicroProse) combat sim",
+    "target": null
+  },
+  {
+    "name": "出击飞龙",
+    "action": "append",
+    "title_hant": "出擊飛龍",
+    "fame": "notable",
+    "reason": "Capcom arcade Strider (飛龍), had a 1989 DOS port"
+  },
+  {
+    "name": "俄勒冈小道",
+    "action": "append",
+    "fame": "canon",
+    "reason": "The Oregon Trail, landmark MECC educational DOS classic",
+    "title_hant": "奧勒岡之旅",
+    "target": null
+  },
+  {
+    "name": "第一武士",
+    "action": "append",
+    "fame": "notable",
+    "reason": "First Samurai, Vivid Image action-platformer DOS port",
+    "title_hant": "第一武士",
+    "target": null
+  },
+  {
+    "name": "机甲战士2雇佣兵",
+    "action": "append",
+    "title_hant": "機甲爭霸戰2：傭兵",
+    "reason": "MechWarrior 2: Mercenaries (1996), standalone expansion to MechWarrior 2",
+    "fame": "canon",
+    "target": null
+  },
+  {
+    "name": "巨窟文字冒险",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Colossal Cave Adventure, the original text adventure",
+    "title_hant": "巨窟文字冒險"
+  },
+  {
+    "name": "卡门太空之旅",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Where in Space Is Carmen Sandiego?, Carmen Sandiego series",
+    "title_hant": "卡門太空之旅"
+  },
+  {
+    "name": "开膛手杰克",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Jack the Ripper adventure game",
+    "title_hant": "開膛手傑克"
+  },
+  {
+    "name": "开球96",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Kick Off 96, Anco football series",
+    "title_hant": "開球96"
+  },
+  {
+    "name": "开球97",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Kick Off 97, Anco football series",
+    "title_hant": "開球97"
+  },
+  {
+    "name": "蓝精灵",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Smurfs platformer (Infogrames, 1994 DOS)",
+    "title_hant": "藍精靈",
+    "target": null
+  },
+  {
+    "name": "莲花赛车无限",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Lotus: The Ultimate Challenge (Gremlin, classic DOS racing series)",
+    "title_hant": "蓮花賽車：終極挑戰",
+    "target": null
+  },
+  {
+    "name": "猎户座阴谋",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Orion Conspiracy (1995 DOS sci-fi adventure)",
+    "title_hant": "獵戶座陰謀",
+    "target": null
+  },
+  {
+    "name": "命运战士／混沌引擎",
+    "action": "append",
+    "title_hant": "混沌引擎",
+    "fame": "canon",
+    "reason": "The Chaos Engine (Bitmap Brothers 1993), classic twin-stick run-and-gun, US title Soldiers of Fortune",
+    "target": null
+  },
+  {
+    "name": "谁陷害了兔子罗杰",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Who Framed Roger Rabbit, 1988 licensed DOS game",
+    "title_hant": "誰陷害了兔子羅傑",
+    "target": null
+  },
+  {
+    "name": "特警判官",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Judge Dredd, 1990s DOS action title based on the comic/film",
+    "title_hant": "特警判官",
+    "target": null
+  },
+  {
+    "name": "逃离脑博士的城堡",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Castle of Dr. Brain, Sierra educational puzzle-adventure",
+    "title_hant": "逃離腦博士的城堡",
+    "target": null
+  },
+  {
+    "name": "铁钩船长",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Hook (Captain Hook), 1992 game of the Spielberg film",
+    "title_hant": "鐵鉤船長",
+    "target": null
+  },
+  {
+    "name": "辛迪加战争",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Syndicate Wars, Bullfrog 1996 cyberpunk tactical strategy",
+    "title_hant": "辛迪加戰爭",
+    "target": null
+  },
+  {
+    "name": "辛普森一家",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Simpsons DOS game (famous IP, distinct from 辛普森大逃亡)",
+    "title_hant": "辛普森家庭",
+    "target": null
+  },
+  {
+    "name": "辛普森一家2古怪之屋",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Simpsons: Bart's House of Weirdness / Krusty-era DOS title",
+    "title_hant": "辛普森家庭2：古怪之屋",
+    "target": null
+  },
+  {
+    "name": "星球大战暗影力量",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Star Wars: Dark Forces, LucasArts 1995 FPS",
+    "title_hant": "星際大戰：黑暗原力",
+    "target": null
+  },
+  {
+    "name": "星球大战绝地反击",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Star Wars: Rebel Assault, LucasArts rail shooter",
+    "title_hant": "星際大戰：反抗軍突擊",
+    "target": null
+  },
+  {
+    "name": "雨果",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Hugo's House of Horrors, classic 1990 DOS shareware adventure",
+    "title_hant": "雨果"
+  },
+  {
+    "name": "雨果的恐怖之屋1",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Hugo's House of Horrors (Hugo series #1), 1990 DOS adventure",
+    "title_hant": "雨果的恐怖之屋1"
+  },
+  {
+    "name": "雨果的恐怖之屋2",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Hugo II: Whodunit?, 1991 DOS adventure",
+    "title_hant": "雨果的恐怖之屋2"
+  },
+  {
+    "name": "雨果的恐怖之屋3",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Hugo III: Jungle of Doom!, 1991 DOS adventure",
+    "title_hant": "雨果的恐怖之屋3"
+  },
+  {
+    "name": "月球巡逻",
+    "action": "append",
+    "fame": "notable",
+    "reason": "Moon Patrol, classic arcade shooter with DOS port",
+    "title_hant": "月球巡邏"
+  },
+  {
+    "name": "詹姆斯庞德2",
+    "action": "append",
+    "fame": "notable",
+    "reason": "James Pond 2: Codename RoboCod, famous 1991 platformer",
+    "title_hant": "詹姆斯龐德2"
+  },
+  {
+    "name": "真实足球",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Sensible Soccer, landmark DOS/Amiga football classic",
+    "title_hant": "真實足球"
+  },
+  {
+    "name": "真实足球俱乐部版",
+    "action": "append",
+    "fame": "canon",
+    "reason": "Sensible World of Soccer, expanded DOS football classic",
+    "title_hant": "真實足球俱樂部版"
+  },
+  {
+    "name": "指环王",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Lord of the Rings Vol. I, Interplay 1990 DOS RPG",
+    "title_hant": "指環王"
+  },
+  {
+    "name": "指环王2",
+    "action": "append",
+    "fame": "notable",
+    "reason": "The Lord of the Rings Vol. II: The Two Towers, Interplay 1991 DOS RPG",
+    "title_hant": "指環王2"
+  },
+  {
+    "name": "指挥官基恩1",
+    "action": "append",
+    "title_hant": "指揮官基恩 1",
+    "fame": "canon",
+    "reason": "Commander Keen episode 1 (id Software/Apogee), landmark DOS platformer"
+  },
+  {
+    "name": "指挥官基恩2",
+    "action": "append",
+    "title_hant": "指揮官基恩 2",
+    "fame": "canon",
+    "reason": "Commander Keen episode 2, landmark DOS platformer"
+  },
+  {
+    "name": "指挥官基恩3",
+    "action": "append",
+    "title_hant": "指揮官基恩 3",
+    "fame": "canon",
+    "reason": "Commander Keen episode 3, landmark DOS platformer"
+  },
+  {
+    "name": "指挥官基恩3.5",
+    "action": "append",
+    "title_hant": "指揮官基恩：基恩之夢",
+    "fame": "notable",
+    "reason": "Commander Keen: Keen Dreams, the 'lost episode'"
+  },
+  {
+    "name": "指挥官基恩4",
+    "action": "append",
+    "title_hant": "指揮官基恩 4",
+    "fame": "canon",
+    "reason": "Commander Keen episode 4 (Goodbye Galaxy), landmark DOS platformer"
+  },
+  {
+    "name": "指挥官基恩5",
+    "action": "append",
+    "title_hant": "指揮官基恩 5",
+    "fame": "canon",
+    "reason": "Commander Keen episode 5 (Goodbye Galaxy), landmark DOS platformer"
+  },
+  {
+    "name": "指挥官基恩6",
+    "action": "append",
+    "title_hant": "指揮官基恩 6",
+    "fame": "canon",
+    "reason": "Commander Keen episode 6 (Aliens Ate My Babysitter), landmark DOS platformer"
+  }
+]
