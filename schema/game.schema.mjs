@@ -28,6 +28,8 @@ export const gameSchema = z.object({
   year: z.number().int().min(1970).max(2030).nullable(),
   developer: z.string().nullable(),
   developer_region: z.enum(REGIONS).nullable(),
+  // in-house development team/sub-studio, e.g. 大宇's DOMO小組 / 狂徒創作群
+  dev_team: z.string().nullable().default(null),
   publisher_tw: z.array(z.string()).default([]),
 
   // classification
@@ -64,6 +66,12 @@ export const gameSchema = z.object({
     boxart: z.string().optional(),             // local image path
     note: z.string().optional(),              // what differs (added voice, etc.)
     provenance: z.array(z.string()).optional(),
+  })).default([]),
+
+  // development credits (role + person), hand-curated
+  staff: z.array(z.object({
+    role: z.string(),                            // e.g. 程式製作 / 美工設計 / 音樂製作
+    name: z.string(),
   })).default([]),
 
   // media & links

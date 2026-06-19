@@ -40,6 +40,14 @@ const hasBody = (entry.body || '').trim().length > 0;
       <section class="prose">
         {hasBody ? <Content /> : <p class="muted">簡介待補</p>}
       </section>
+      {(g.staff || []).length > 0 && (
+        <section class="staff">
+          <h2>製作人員</h2>
+          <ul class="stafflist">
+            {g.staff.map(s => <li><span class="role">{s.role}</span><span class="who">{s.name}</span></li>)}
+          </ul>
+        </section>
+      )}
       <RelatedGames related={related} g={g} />
       <ExternalLinks g={g} />
     </div>

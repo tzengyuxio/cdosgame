@@ -18,9 +18,10 @@
 | `year` | int 1970–2030 \| null | | 發行年（收集到 2024；2004 後為收集邊界外）|
 | `developer` | string \| null | | 開發商 |
 | `developer_region` | enum \| null | | 開發地：`TW HK CN MO JP US FR GB DE KR` |
+| `dev_team` | string \| null | | 廠內開發團隊／小組（如大宇 `DOMO小組`、`狂徒創作群`）|
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
 | `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|
-| `genre` | enum \| null | | 11 類：回合/即時/策略角色扮演、冒險解謎、故事劇情、計策戰略、模擬養成、教育養成、大富翁、射擊打鬥、運動動作 |
+| `genre` | enum \| null | | 11 類：回合/即時/策略角色扮演、冒險解謎、故事劇情、計策戰略、模擬養成、教育養成、大富翁、格鬥、運動動作 |
 | `localization_level` | `native`\|`localized`\|`packaging`\|`foreign` \| null | | native 原生中文開發 / localized 中文化 / packaging 中文包裝代理 / foreign 純外國（顯示標籤見 `src/lib/labels.js`）|
 | `size` | string \| null | | 容量（如 `1CD (45.2)`）|
 | `platform_note` | string \| null | | 平台/限制（如 `Windows，18禁`）|
@@ -28,6 +29,7 @@
 | `license_status` | `official`\|`unofficial`\| null | | 台灣發行授權狀態。**預設 null（未考據）**；`unofficial`=未授權代理/水貨/盜版（如軟體世界貴族版系列）|
 | `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|
 | `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
+| `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 [] |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|
 | `references` | object | | 外連參考：`omega`（討論串）/ `fandom`（條目）|

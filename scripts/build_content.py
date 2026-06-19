@@ -87,10 +87,16 @@ def frontmatter(g, gid, published, override=None):
         "cover": g.get("cover"),
         "provenance": g.get("provenance", []),
     }
+    team = g.get("dev_team") or override.get("dev_team")
+    if team:
+        fm["dev_team"] = team
     if g.get("release_codes"):
         fm["release_codes"] = g["release_codes"]
     if g.get("editions"):
         fm["editions"] = g["editions"]
+    staff = g.get("staff") or override.get("staff")
+    if staff:
+        fm["staff"] = staff
     if g.get("images"):
         fm["images"] = g["images"]
     if g.get("references"):

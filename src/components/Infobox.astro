@@ -9,6 +9,7 @@ const editions = (g.editions || []).map(e => e.name).join('、');
 <div class="infobox-wrap">
   <table class="infobox">
     {g.developer && <tr><th>開發</th><td><a class="lk" href={companyUrl(g.developer)}>{g.developer}</a></td></tr>}
+    {g.dev_team && <tr><th>開發團隊</th><td>{g.dev_team}</td></tr>}
     {g.year && <tr><th>發行年</th><td><a class="lk" href={yearUrl(g.year)}>{g.year}</a></td></tr>}
     {g.genre && <tr><th>類型</th><td><a class="lk" href={genreUrl(g.genre)}>{g.genre}</a></td></tr>}
     {g.series && <tr><th>系列</th><td><a class="lk" href={seriesUrl(g.series)}>{g.series}</a></td></tr>}
