@@ -16,15 +16,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 目前狀態
 
-**策略：collect-first（先收料，再反推 schema）。** 已從來源站抓清單/資料/圖片到本地，比對拼湊主清單，再反推出正式 schema。
+> 🧊 **FROZEN（v0.2.0 起，2026-06）：content/games/*.md 為正本，直接編輯。** collect-first
+> 完成、review 佇列清空（2105→0）、來源 enrich 已榨乾。**`build_content` 退役、不要再跑**
+> （會覆寫手改的 frontmatter）。pipeline scripts 與 `data/*-decisions.json`、`overrides.json`
+> 原地保留為歷史/考據紀錄。改資料＝直接改 `content/games/cdg-NNNN.md`；驗證仍跑 `npm run validate`。
+> 新增款＝手建 `content/games/cdg-NNNN.md`（手選下一個未用 id，並在 `data/id-registry.json` 補登）。
+
+**策略（已完成）：collect-first（先收料，再反推 schema）。** 已從來源站抓清單/資料/圖片到本地，比對拼湊主清單，反推出正式 schema，並整合所有來源候選。
 
 進度：
 1. `scope.md` — 收錄準則（✅ 已拍板）
 2. `sources.md` — 來源盤點/分級/狀態（✅）；`derived/cross-reference.md` — 多源覆蓋報告
 3. `schema.md` + `schema/game.schema.mjs`（Zod）— ✅ schema-on-read 定案
-4. `content/games/cdg-NNNN.md` — ✅ **4144 款 catalog**（每款一檔，YAML frontmatter，Astro Content Collections 佈局），全數通過 Zod 驗證
+4. `content/games/cdg-NNNN.md` — ✅ **4507 款 catalog**（每款一檔，YAML frontmatter，Astro Content Collections 佈局），全數通過 Zod 驗證
+5. 來源合併 review 佇列 — ✅ **2105→0 全部裁決**（accept/merge/reject/append；過程見 git 史與 `derived/phase5-*-decisions.json`）→ **FROZEN**
 
-### Pipeline（皆冪等、可重跑）
+下一步全是「直接編檔」的活：補年代/開發商（外部如 MobyGames）、genre 分類、考據介紹（body）、圖片、修少數 LLM 誤判。
+
+### Pipeline（🧊 已退役 / 歷史參考，**勿再跑 `build_content`**）
+
+> 以下為 freeze 前的生成流程，保留供考據回溯。**v0.2.0 起 content 為正本，重跑 `build_content` 會覆寫手改。** 若真要重建（極少數情況），須確認尚無手改 frontmatter。
 
 `scripts/`：`parse_chiuinan` → `enrich_chiuinan` → `parse_extra_sources` / `parse_softworld` / `parse_offlinelist` → `map_chiuinan_screenshots` → `build_master`（產 `derived/master-list.json`）→ `merge_sources --write`（讀 `data/merge-decisions.json`，產 `derived/master-list.merged.json` + `merge-review.json`）→ `build_content`（讀 merged 優先，產 `content/games/*.md` + `data/id-registry.json`）。
 合併審閱：`review_merge.py`（互動 CLI，決策存 `data/merge-decisions.json`）。
