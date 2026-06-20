@@ -1,5 +1,6 @@
 ---
 name_zh: 光榮
+published: true
 name_en: Koei
 aliases: [光榮, Koei, 光榮特庫摩, コーエー]
 founded: 1978

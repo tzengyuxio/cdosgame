@@ -1,6 +1,6 @@
 ---
 name_zh: PSD
-published: false
+published: true
 region: 日本
 roles: [developer]
 references:

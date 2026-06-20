@@ -1,6 +1,6 @@
 ---
 name_zh: Softmax
-published: false
+published: true
 aliases: [소프트맥스]
 region: 韓國
 roles: [developer]

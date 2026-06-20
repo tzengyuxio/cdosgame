@@ -1,6 +1,6 @@
 ---
 name_zh: Imagineer
-published: false
+published: true
 name_en: Imagineer Co., Ltd.
 aliases: [イマジニア]
 founded: 1986

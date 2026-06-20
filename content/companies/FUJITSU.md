@@ -1,6 +1,6 @@
 ---
 name_zh: 富士通
-published: false
+published: true
 name_en: Fujitsu
 aliases: [FUJITSU, 富士通パレックス]
 founded: 1935

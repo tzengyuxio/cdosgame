@@ -1,6 +1,6 @@
 ---
 name_zh: TGL
-published: false
+published: true
 name_en: Technical Group Laboratory
 aliases: [テイジイエル, 帝技爺如]
 founded: 1984
