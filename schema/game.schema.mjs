@@ -9,8 +9,8 @@ import { z } from "zod";
 
 export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
 export const GENRES = [
-  "回合角色扮演", "即時角色扮演", "策略角色扮演", "冒險解謎", "故事劇情",
-  "策略", "模擬養成", "教育養成", "桌遊棋牌", "格鬥", "運動動作",
+  "角色扮演", "戰略角色扮演", "冒險解謎", "故事劇情",
+  "策略", "城市建造", "模擬養成", "教育養成", "桌遊棋牌", "格鬥", "運動動作",
 ];
 
 export const gameSchema = z.object({
@@ -95,6 +95,9 @@ export const gameSchema = z.object({
     omega: z.string().url().optional(),
     fandom: z.string().optional(),
     chiuinan: z.string().url().optional(),
+    // ad-hoc cited sources (label → url), for prose footnote citations beyond
+    // the canonical source pages above; rendered into 參考資料 with cite-N anchors.
+    cited: z.record(z.string().url()).optional(),
   }).default({}),
   external_links: z.record(z.string().url()).default({}),
 
