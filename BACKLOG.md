@@ -32,3 +32,6 @@
 - [ ] MobyGames 補英文原名/封面/年（需 API key）
 - [ ] **廠商↔遊戲↔系列 對照校訂（使用者 2026-06-18 指出有不少錯誤，未急於處理）**：`developer`/`publisher_tw` 字串歸屬、`series` 前綴歸組（如三國志過度聚合外傳、成吉思汗併蒼狼與白鹿）等對照關係需人工複核校正；屬資料層校訂，與站台呈現機制無關
 - [x] 編輯內容 seed（2026-06-18）：11 廠商 + 10 系列簡介（web 查證 draft，`content/companies/*.md`、`content/series/*.md`）；含新增系列 明星志願/美少女夢工場/成吉思汗(蒼狼與白鹿)/天使帝國。簡介為 draft 待使用者校訂
+- [ ] **genre 分類體系重整（使用者 2026-06-20 指出）**：現有 12 類 genre 詞彙源自 chiuinan 的分類與用語，可能有很大調整空間（先暫定 `計策戰略`→`策略`、`大富翁`→`桌遊棋牌`）。屬資料層分類校訂，日後再通盤檢視
+- [ ] SEO — 站台搜尋引擎最佳化：title/meta description、Open Graph/Twitter card、sitemap.xml、結構化資料（schema.org Game/VideoGame）、canonical 與 base-path 友善的內部連結（2026-06-20）
+- [ ] 廣告處理 — 評估與導入網站廣告（版位規劃、廣告聯播網選擇、與復古版面的視覺相容、隱私/同意聲明）（2026-06-20）
