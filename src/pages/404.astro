@@ -1,0 +1,83 @@
+---
+import Base from '../layouts/Base.astro';
+import { withBase } from '../lib/links.js';
+const links = [
+  ['回首頁', '/'],
+  ['遊戲目錄', '/games'],
+  ['廠商', '/companies'],
+  ['關於', '/about'],
+];
+---
+<Base title="404 找不到頁面｜中文 DOS 遊戲資料庫">
+  <div class="crt">
+    <div class="crt-screen">
+      <p class="line">C:\CDOSGAME\&gt; dir <span class="dim">"%PATH%"</span></p>
+      <pre class="ascii"> _  _    ___   _  _
+| || |  / _ \ | || |
+| || |_| | | || || |_
+|__   _| |_| |__   _|
+   |_|  \___/   |_|  </pre>
+      <p class="err">FILE NOT FOUND &mdash; 找不到這個頁面</p>
+      <p class="msg">您輸入的路徑不存在，或檔案已被移動、刪除。</p>
+      <p class="msg dim">（也許它還躺在某張 5.25" 磁片裡。）</p>
+      <p class="prompt">Abort, Retry, Fail? <span class="cursor"></span></p>
+      <nav class="recover">
+        {links.map(([label, href], i) => (
+          <><a href={withBase(href)}>[{label}]</a>{i < links.length - 1 && <span class="sep"> </span>}</>
+        ))}
+      </nav>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .crt {
+    max-width: 680px;
+    margin: 36px auto;
+    border-radius: 12px;
+    padding: 10px;
+    background: #1a1a1a;
+    box-shadow: 0 10px 40px rgba(0,0,0,.35), inset 0 0 0 1px #2a2a2a;
+  }
+  .crt-screen {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 40px 34px 34px;
+    background: radial-gradient(ellipse at center, #141210 0%, #070605 100%);
+    color: var(--amber);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.55;
+    text-shadow: 0 0 6px rgba(255,176,0,.45);
+  }
+  /* 掃描線 */
+  .crt-screen::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: repeating-linear-gradient(transparent 0 2px, rgba(0,0,0,.30) 2px 4px);
+  }
+  /* 暗角 + 微閃爍 */
+  .crt-screen::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 58%, rgba(0,0,0,.55) 100%);
+    animation: crt-flicker 4s infinite;
+  }
+  @keyframes crt-flicker { 0%,96%{opacity:1} 97%{opacity:.82} 98%{opacity:1} 99%{opacity:.9} 100%{opacity:1} }
+  .crt-screen > * { position: relative; z-index: 1; }
+  .line { margin: 0 0 14px; }
+  .dim { opacity: .5; }
+  .ascii {
+    margin: 0 0 18px; font-family: var(--mono); font-size: 13px; line-height: 1.1;
+    color: var(--amber); letter-spacing: 1px; white-space: pre;
+  }
+  .err { margin: 0 0 6px; font-size: 17px; font-weight: bold; letter-spacing: .5px; }
+  .msg { margin: 0 0 4px; }
+  .prompt { margin: 18px 0 22px; }
+  .recover { display: flex; flex-wrap: wrap; gap: 14px; }
+  .recover a { color: var(--amber); text-shadow: 0 0 6px rgba(255,176,0,.45); }
+  .recover a:hover { background: var(--amber); color: #0a0805; text-shadow: none; text-decoration: none; }
+  @media (max-width: 520px) {
+    .crt-screen { padding: 28px 20px; font-size: 14px; }
+    .ascii { font-size: 11px; }
+  }
+</style>
