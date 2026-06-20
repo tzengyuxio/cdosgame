@@ -71,8 +71,13 @@ export function deriveFacets(games) {
     if (vs.length) for (const v of new Set(vs)) bump(acc.vendor, v);
     else bump(acc.vendor, NONE);
   }
-  const toSorted = m => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
-  return { decade: toSorted(acc.decade), genre: toSorted(acc.genre), loc: toSorted(acc.loc), vendor: toSorted(acc.vendor) };
+  const byCount = m => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
+  // 年代 lists chronologically (1980s → 1990s → …) with 未分類 last — a time
+  // axis reads better in order than ranked by count; other facets stay by count.
+  const byDecade = m => [...m.entries()]
+    .sort((a, b) => (a[0] === NONE) - (b[0] === NONE) || parseInt(a[0]) - parseInt(b[0]))
+    .map(([value, count]) => ({ value, count }));
+  return { decade: byDecade(acc.decade), genre: byCount(acc.genre), loc: byCount(acc.loc), vendor: byCount(acc.vendor) };
 }
 
 export function toIndexRecord(d) {
