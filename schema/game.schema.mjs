@@ -71,7 +71,8 @@ export const gameSchema = z.object({
   // development credits (role + person), hand-curated
   staff: z.array(z.object({
     role: z.string(),                            // e.g. 程式製作 / 美工設計 / 音樂製作
-    name: z.string(),
+    name: z.string(),                            // credited name (may be a 署名代號, e.g. T.M.H.)
+    person: z.string().optional(),               // canonical /people slug when name is an alias/代號
   })).default([]),
 
   // media & links
@@ -86,7 +87,7 @@ export const gameSchema = z.object({
     fandom: z.string().optional(),
     chiuinan: z.string().url().optional(),
   }).default({}),
-  external_links: z.record(z.string()).default({}),
+  external_links: z.record(z.string().url()).default({}),
 
   // provenance & derivation metadata
   provenance: z.array(z.string()).min(1),
