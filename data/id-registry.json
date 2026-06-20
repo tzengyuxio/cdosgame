@@ -40667,6 +40667,24 @@
       ],
       "status": "active",
       "title_zh": "台灣職棒大聯盟"
+    },
+    "cdg-4519": {
+      "catalog_id": null,
+      "developer": "華義",
+      "keys": [
+        "t:真命天子|華義"
+      ],
+      "status": "active",
+      "title_zh": "真命天子"
+    },
+    "cdg-4520": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:如意集|精訊"
+      ],
+      "status": "active",
+      "title_zh": "如意集"
     }
   }
 }
