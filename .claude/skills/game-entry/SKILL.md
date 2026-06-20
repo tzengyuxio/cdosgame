@@ -23,8 +23,10 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 新款：挑下一個未用 id，並在 `data/id-registry.json`（append-only）補登（見 CLAUDE.md / id-policy）。
 
 ### 2. 研究（web，缺料用 null 不杜撰）
-來源：維基百科、巴哈姆特、PTT Old-games、青衫之友（chiuinan）、Fandom、開發商官網、可信考據部落格/Threads。
+來源：維基百科、巴哈姆特、PTT Old-games、青衫之友（chiuinan）、Fandom、bangumi、開發商官網、可信考據部落格/Threads。
 查：發行年、開發商＋所在地、台灣發行商、類型、平台、系列、製作人員、改編/18禁、關鍵事實（銷量、里程碑、軼事）。多源交叉驗證。
+- **批次多款** → 開平行研究 agent（每 agent 2–3 款），要求回傳「結構化事實＋來源 URL」，自己再核對（subagent 摘要不可照抄）。
+- **單一來源的斷言寧可省略或標記**，不寫死：如僅一處說某人是製作者，就先別填 `staff`、改記 BACKLOG 待查證。
 
 ### 3. 填 frontmatter（照 `schema.md` enum，勿自創）
 易錯處速記（完整定義仍以 schema.md 為準）：
@@ -36,11 +38,13 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。
 - `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
+- **外文遊戲（無中文化）**：`localization_level: foreign`、`publisher_tw: []`、`content_language` 填原文（如 `en`）、`developer_region` 填原國別。
+- **研究常挖出既有 frontmatter 誤植**（代理商張冠李戴、開發商國別、localization 等）——順手訂正；存疑處記 BACKLOG。
 
 ### 4. 寫正文（房屋風格）
 - 客觀、繁中、考據語氣，約 2 段；無行銷腔、無牽強比較、無未考據的「據說」。
 - 開頭句型：`《Title》是[公司](/companies/X)於 YYYY 年推出的<類型>，…`；首作點明 `[系列](/series/Y)` 首作。
-- 互連：公司／系列／人物／團隊一律用內部連結（`/companies/…`、`/series/…`、`/people/…`、`/teams/…`）。
+- 互連：台灣公司／系列／人物／團隊用內部連結（`/companies/…`、`/series/…`、`/people/…`、`/teams/…`）；**外國開發商（無對應頁）用純文字、不連 `/companies`**。
 - 段落：① 定位（誰做、何時、類型、系列地位）；② 玩法/特色/歷史/續作/軼事。
 - **用詞精確**：「參與」≠「擔綱／主導」，別誇大某人角色；斷言要有來源。
 
