@@ -40712,6 +40712,24 @@
       ],
       "status": "active",
       "title_zh": "刀劍決"
+    },
+    "cdg-4524": {
+      "catalog_id": null,
+      "developer": "遊戲橘子",
+      "keys": [
+        "t:速食店|遊戲橘子"
+      ],
+      "status": "active",
+      "title_zh": "速食店"
+    },
+    "cdg-4525": {
+      "catalog_id": null,
+      "developer": "龍愛",
+      "keys": [
+        "t:神氣兔寶貝|龍愛"
+      ],
+      "status": "active",
+      "title_zh": "神氣兔寶貝"
     }
   }
 }
