@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "node --test 'src/lib/**/*.test.js'",
-    "validate": "node scripts/validate_content.mjs"
+    "validate": "node scripts/validate_content.mjs",
+    "review": "node scripts/review-save-server.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

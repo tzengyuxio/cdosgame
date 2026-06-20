@@ -1,57 +1,110 @@
 ---
-// Author review dashboard: lists hand-authored content (games with a body, plus
-// all companies/series/teams/people) with publish status, a link to the page,
-// and a GitHub "edit this file" link. Handy for reviewing drafts and deciding
-// what to publish. Not linked from nav.
+// Author review dashboard. Lists only content changed since the last push
+// (git diff vs origin/main), so it stays short. Each row has a publish checkbox
+// and a feedback box; marks auto-save to data/review-state.json (via middleware),
+// which the assistant reads to know what to publish / fix. Not linked from nav.
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl } from '../lib/links.js';
+import { execSync } from 'node:child_process';
 
-const REPO = 'https://github.com/tzengyuxio/cdosgame/edit/main';
-const editUrl = (coll, id) => `${REPO}/content/${coll}/${encodeURIComponent(id)}.md`;
+// changed/new content files since last push — the review set
+let changed = null;
+try {
+  const out = execSync(
+    'git -c core.quotepath=false diff --name-only origin/main -- content; git -c core.quotepath=false ls-files --others --exclude-standard -- content',
+    { encoding: 'utf8' });
+  changed = new Set(out.split('\n').map(s => s.trim()).filter(Boolean));
+} catch { changed = null; }
+const isChanged = (p) => changed === null ? true : changed.has(p);
 
 const games = (await getCollection('games'))
   .filter(e => (e.body || '').trim().length > 0)
-  .map(e => ({ id: e.id, title: e.data.title_zh, pub: e.data.published, url: gameUrl(e.data.id), edit: editUrl('games', e.id) }))
-  .sort((a, b) => a.id.localeCompare(b.id));
+  .map(e => ({ path: `content/games/${e.id}.md`, title: e.data.title_zh, pub: e.data.published, url: gameUrl(e.data.id), id: e.id }))
+  .filter(x => isChanged(x.path)).sort((a, b) => a.id.localeCompare(b.id));
+const mk = (coll, urlFn) => (e) => ({ path: `content/${coll}/${e.id}.md`, title: e.data.name_zh || e.id, pub: e.data.published, url: urlFn(e.id), id: e.id });
+const filt = (arr) => arr.filter(x => isChanged(x.path)).sort((a, b) => a.title.localeCompare(b.title, 'zh-Hant'));
+const companies = filt((await getCollection('companies')).map(mk('companies', companyUrl)));
+const series = filt((await getCollection('series')).map(mk('series', seriesUrl)));
+const teams = filt((await getCollection('teams')).map(mk('teams', teamUrl)));
+const people = filt((await getCollection('people')).map(mk('people', personUrl)));
 
-const mk = (coll, urlFn) => (e) => ({ id: e.id, title: e.data.name_zh || e.id, pub: e.data.published, url: urlFn(e.id), edit: editUrl(coll, e.id) });
-const byTitle = (a, b) => a.title.localeCompare(b.title, 'zh-Hant');
-const companies = (await getCollection('companies')).map(mk('companies', companyUrl)).sort(byTitle);
-const series = (await getCollection('series')).map(mk('series', seriesUrl)).sort(byTitle);
-const teams = (await getCollection('teams')).map(mk('teams', teamUrl)).sort(byTitle);
-const people = (await getCollection('people')).map(mk('people', personUrl)).sort(byTitle);
-
-const groups = [['遊戲（有正文）', games], ['公司', companies], ['系列', series], ['團隊', teams], ['人物', people]];
-const draftCount = (arr) => arr.filter(x => !x.pub).length;
-const totalDraft = groups.reduce((n, [, arr]) => n + draftCount(arr), 0);
-const totalItems = groups.reduce((n, [, arr]) => n + arr.length, 0);
+const groups = [['遊戲', games], ['公司', companies], ['系列', series], ['團隊', teams], ['人物', people]];
+const total = groups.reduce((n, [, a]) => n + a.length, 0);
 ---
 <Base title="審閱清單｜中文 DOS 遊戲資料庫">
-  <h1 class="hub-title">審閱清單 <span class="hub-count">{totalItems} 筆手寫條目 · {totalDraft} 草稿待審</span></h1>
-  <p class="hub-legend"><span class="rv-pub">●</span> 已發佈　<span class="rv-draft">○</span> 草稿（未上線）。點標題看頁面；點「✎ 編輯」到 GitHub 直接改該檔（把 <code>published: true</code> 即可上線），或把要發佈/修改的清單告訴我代勞。</p>
+  <h1 class="hub-title">審閱清單 <span class="hub-count">{total} 筆變動{changed === null ? '（全部）' : '（自上次 push）'}</span></h1>
+  <p class="hub-legend"><span class="rv-pub">●</span> 已發佈　<span class="rv-draft">○</span> 草稿。勾選＝<b>標記要發佈</b>，文字框＝<b>回饋意見</b>；變更會自動存到 <code>data/review-state.json</code>，我讀那個檔就照辦。</p>
+  <p id="rv-status" class="rv-status">　</p>
+  <p><button id="rv-download" class="btn">下載 review-state.json</button> <span class="muted rv-hint">沒開 save-server 時，用這個下載再放到 <code>data/</code></span></p>
   {groups.map(([name, arr]) => arr.length > 0 && (
     <section>
-      <h2 class="section-h">{name}（{arr.length}，草稿 {draftCount(arr)}）</h2>
+      <h2 class="section-h">{name}（{arr.length}）</h2>
       <ul class="review-list">
         {arr.map(x => (
-          <li>
-            <span class={x.pub ? 'rv-pub' : 'rv-draft'}>{x.pub ? '●' : '○'}</span>
-            <a class="lk" href={x.url}>{x.title}</a>
+          <li data-path={x.path}>
+            <input type="checkbox" class="rv-box" title="標記要發佈" />
+            <span class={x.pub ? 'rv-pub' : 'rv-draft'} title={x.pub ? '已發佈' : '草稿'}>{x.pub ? '●' : '○'}</span>
+            <a class="lk rv-title" href={x.url}>{x.title}</a>
             <span class="rv-id">{x.id}</span>
-            <a class="rv-edit" href={x.edit} target="_blank" rel="noopener nofollow">✎ 編輯</a>
+            <input type="text" class="rv-note" placeholder="回饋意見…" />
           </li>
         ))}
       </ul>
     </section>
   ))}
+  {total === 0 && <p class="muted">沒有未推送的變動。</p>}
+
+  <script>
+    const SAVE = 'http://localhost:4399';
+    const state = {};
+    const status = document.getElementById('rv-status');
+    let timer;
+    function flush() {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        fetch(SAVE + '/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(state) })
+          .then(r => { if (!r.ok) throw 0; status.textContent = '已存檔 ✓ → data/review-state.json'; status.className = 'rv-status rv-ok'; })
+          .catch(() => { status.textContent = '⚠ save-server 未啟動，請按「下載」存檔（或先跑 node scripts/review-save-server.mjs）'; status.className = 'rv-status rv-err'; });
+      }, 400);
+    }
+    document.getElementById('rv-download').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob); a.download = 'review-state.json'; a.click();
+    });
+    function set(path, patch) {
+      const cur = state[path] || { publish: false, note: '' };
+      Object.assign(cur, patch);
+      if (!cur.publish && !cur.note) delete state[path]; else state[path] = cur;
+      flush();
+    }
+    document.querySelectorAll('.review-list li').forEach(li => {
+      const path = li.dataset.path;
+      const box = li.querySelector('.rv-box');
+      const note = li.querySelector('.rv-note');
+      box.addEventListener('change', () => { set(path, { publish: box.checked }); li.classList.toggle('rv-marked', box.checked); });
+      note.addEventListener('input', () => set(path, { note: note.value }));
+      li._apply = (s) => { if (s) { box.checked = !!s.publish; note.value = s.note || ''; li.classList.toggle('rv-marked', !!s.publish); } };
+    });
+    fetch(SAVE + '/load').then(r => r.json()).then(saved => {
+      Object.assign(state, saved || {});
+      document.querySelectorAll('.review-list li').forEach(li => li._apply(state[li.dataset.path]));
+      status.textContent = Object.keys(state).length ? '已載入既有審閱狀態（save-server 連線中）' : 'save-server 連線中 ✓';
+      status.className = 'rv-status rv-ok';
+    }).catch(() => { status.textContent = 'save-server 未啟動——標記仍可用，存檔請按「下載」（或跑 node scripts/review-save-server.mjs）'; status.className = 'rv-status rv-err'; });
+  </script>
+
+  <style>
+    .review-list { list-style: none; margin: 0 0 18px; padding: 0; }
+    .review-list li { display: flex; align-items: center; gap: 9px; padding: 4px 6px; font-size: 14px; border-bottom: 1px solid var(--border); }
+    .review-list li.rv-marked { background: #f1f9f2; }
+    .rv-box { width: 16px; height: 16px; cursor: pointer; flex: none; }
+    .rv-pub { color: #2a9d6a; } .rv-draft { color: var(--muted); }
+    .rv-title { flex: none; } .rv-id { color: var(--muted); font-family: var(--mono); font-size: 12px; }
+    .rv-note { margin-left: auto; width: 38%; min-width: 160px; padding: 3px 7px; border: 1px solid var(--border); border-radius: 4px; font-size: 13px; }
+    .rv-status { font-size: 12px; font-family: var(--mono); min-height: 16px; color: var(--muted); }
+    .rv-status.rv-ok { color: #2a9d6a; } .rv-status.rv-err { color: #b3261e; }
+    .hub-legend code { font-family: var(--mono); font-size: 12px; background: #f3f0e8; padding: 0 4px; border-radius: 3px; }
+  </style>
 </Base>
-<style>
-  .review-list { list-style: none; margin: 0 0 18px; padding: 0; }
-  .review-list li { display: flex; align-items: center; gap: 10px; padding: 4px 2px; font-size: 14px; border-bottom: 1px solid var(--border); }
-  .rv-pub { color: #2a9d6a; }
-  .rv-draft { color: var(--muted); }
-  .rv-id { color: var(--muted); font-family: var(--mono); font-size: 12px; }
-  .rv-edit { margin-left: auto; font-size: 12px; color: var(--brown); white-space: nowrap; }
-  .hub-legend code { font-family: var(--mono); font-size: 12px; background: #f3f0e8; padding: 0 4px; border-radius: 3px; }
-</style>

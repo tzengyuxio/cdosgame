@@ -27,3 +27,6 @@ dist/
 .superpowers/
 .astro/
 .playwright-mcp/
+
+# transient /review dashboard state (publish/feedback marks)
+data/review-state.json
