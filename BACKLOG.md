@@ -17,10 +17,13 @@
 - [ ] **`/companies` 索引納入已發佈 profile**（2026-06-20）：目前廠商索引由「有已發佈遊戲的廠商」驅動，導致已 `published` 但尚無已發佈遊戲的公司頁（智冠/華義/天堂鳥/歡樂盒/精訊/第三波）不出現在索引、只能靠直連到達。考慮把索引改成 union「已發佈遊戲聚合 ∪ 已發佈 company md」（count 可能為 0，需處理呈現）。同理 people/teams 目前無索引頁。
 - [x] **設計專屬的 404 page**（2026-06-20）：`src/pages/404.astro` 完成——CRT 終端風（掃描線/磷光/暗角）＋ DOS 錯誤訊息＋ base-aware 復原連結。
 - [ ] **大宇長產品目錄表遷成 `/topics`**（2026-06-20）：`content/companies/大宇.md` 內嵌的 G/A 系列產品目錄表很長，依 IA 規範（`docs/information-architecture.md`）應遷成 `/topics/大宇資訊產品目錄`，公司頁改放「專題」連結。需先實作 `topics` 類型（events/topics 尚未落地）。
+- [ ] **`/games` 篩選軸加入 18禁／改編來源**（2026-06-20）：`adult`、`adaptation.medium` 已是欄位，可加進目錄頁 facet 篩選（成人遊戲、漫畫改編／布袋戲改編…）。
+- [ ] **改編作品瀏覽頁**（2026-06-20）：依 `adaptation.medium` 做 `/adaptations` 或「漫畫改編／小說改編／布袋戲改編…」瀏覽軸，類似 genres/years。
 
 ## 資料
 
 - [ ] 補新條目 metadata（合併進來的 developer/genre/content_language 多為 null）
+- [ ] **成人款 `adult` 全面 sweep**（2026-06-20）：目前只回填了已查證 3 款；金瓶梅系列（cdg-2011/2360/2361/2883/3835）等明顯成人款、其他 galge/18禁 待全面標記。
 - [x] 併 OfflineList：465 款標 provenance、新款入 catalog（→4102）、200 張圖已下載；base-match 40 筆人工裁決完（38 併/2 新增，`derived/offlinelist-basematch-worklist.md`）
 - [ ] OfflineList 新款正名：offlinelist 獨有款用 s2tw 自動繁名（`name_zh_hant` 草稿），少數字形誤選（撲克/彩球類）須人工正名；補 developer/region/genre
 - [ ] 既有條目正名（worklist note 拾遺）：cdg-0977「吞食天地1三國外傳」應正為「吞食天地 三國外傳」（無第2作不需編號）；類似初代裸名 vs N1 編號可一併清。fuzzy 第二批 note 補：cdg-3265「炎龍騎士團2：黃金城之秘」應為「…黃金城之謎」（秘→謎）；cdg-1883「軒轅劍2外傳：楓之舞」考慮正為「軒轅劍外傳 楓之舞」；cdg-3737「魔法門之英雄無敵1」副標「：戰略任務」；cdg-2261「黃飛鴻－鐵雞鬥蜈蚣」去破折號
