@@ -36849,8 +36849,9 @@
       "keys": [
         "t:炎龍騎士團-邪神的封印 繁|None"
       ],
-      "status": "active",
-      "title_zh": "炎龍騎士團-邪神的封印 繁"
+      "status": "merged",
+      "title_zh": "炎龍騎士團-邪神的封印 繁",
+      "merged_into": "cdg-3264"
     },
     "cdg-4095": {
       "catalog_id": null,
@@ -36867,8 +36868,9 @@
       "keys": [
         "t:炎龍騎士團-邪神的封印 簡|None"
       ],
-      "status": "active",
-      "title_zh": "炎龍騎士團-邪神的封印 簡"
+      "status": "merged",
+      "title_zh": "炎龍騎士團-邪神的封印 簡",
+      "merged_into": "cdg-3264"
     },
     "cdg-4097": {
       "catalog_id": null,
