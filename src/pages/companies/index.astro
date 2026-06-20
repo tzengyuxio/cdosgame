@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { distinctValues, vendorsOf } from '../../lib/gamesQuery.js';
+import { groupByInitial } from '../../lib/grouping.js';
 import { companyUrl } from '../../lib/links.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -9,7 +10,8 @@ const companies = distinctValues(games.map(e => e.data), vendorsOf);
 // vendors with an authored profile page (content/companies/*.md) get a ★ marker
 const profiled = new Set((await getCollection('companies')).map(e => e.id));
 const major = companies.slice(0, 24);
-const rest = companies.slice(24);
+// full index: every vendor, sectioned by A–Z initial / 漢字筆畫
+const sections = groupByInitial(companies, c => c.value);
 ---
 <Base title="廠商｜中文 DOS 遊戲資料庫">
   <h1 class="hub-title">依廠商瀏覽 <span class="hub-count">{companies.length} 家</span></h1>
@@ -18,10 +20,13 @@ const rest = companies.slice(24);
   <div class="vendrow">
     {major.map(c => <a class="vend" href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
   </div>
-  {rest.length > 0 && (
-    <><h2 class="section-h">全部廠商</h2>
-    <div class="index-grid">
-      {rest.map(c => <a class="lk" href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
-    </div></>
-  )}
+  <h2 class="section-h">全部廠商（{companies.length}）</h2>
+  {sections.map(s => (
+    <div class="idx-sec">
+      <div class="idx-label">{s.label}</div>
+      <div class="index-grid">
+        {s.items.map(c => <a class="lk" href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
+      </div>
+    </div>
+  ))}
 </Base>

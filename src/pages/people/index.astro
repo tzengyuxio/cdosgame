@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { personUrl } from '../../lib/links.js';
+import { groupByInitial } from '../../lib/grouping.js';
 
 // Not linked from the top nav — reachable only by direct URL (/people).
 // Mirrors the credit-aggregation logic in people/[name].astro.
@@ -24,7 +25,8 @@ const byCount = (a, b) => (b.count - a.count) || a.name.localeCompare(b.name, 'z
 const profiledList = [...profiled.keys()]
   .map(k => ({ name: k, count: credits.get(k) || 0, data: profiled.get(k) })).sort(byCount);
 const others = [...credits.keys()].filter(k => !profiled.has(k))
-  .map(k => ({ name: k, count: credits.get(k) })).sort(byCount);
+  .map(k => ({ name: k, count: credits.get(k) }));
+const otherSections = groupByInitial(others, p => p.name);
 const total = new Set([...credits.keys(), ...profiled.keys()]).size;
 ---
 <Base title="人物｜中文 DOS 遊戲資料庫">
@@ -37,9 +39,14 @@ const total = new Set([...credits.keys(), ...profiled.keys()]).size;
     </div></>
   )}
   {others.length > 0 && (
-    <><h2 class="section-h">其他參與者</h2>
-    <div class="index-grid">
-      {others.map(p => <a class="lk" href={personUrl(p.name)}>{p.name} <span class="c">{p.count}</span></a>)}
-    </div></>
+    <><h2 class="section-h">其他參與者（{others.length}）</h2>
+    {otherSections.map(s => (
+      <div class="idx-sec">
+        <div class="idx-label">{s.label}</div>
+        <div class="index-grid">
+          {s.items.map(p => <a class="lk" href={personUrl(p.name)}>{p.name} <span class="c">{p.count}</span></a>)}
+        </div>
+      </div>
+    ))}</>
   )}
 </Base>
