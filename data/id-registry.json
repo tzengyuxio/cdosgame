@@ -40685,6 +40685,15 @@
       ],
       "status": "active",
       "title_zh": "如意集"
+    },
+    "cdg-4521": {
+      "catalog_id": null,
+      "developer": "CAPCOM",
+      "keys": [
+        "t:洛克人X|CAPCOM"
+      ],
+      "status": "active",
+      "title_zh": "洛克人X"
     }
   }
 }
