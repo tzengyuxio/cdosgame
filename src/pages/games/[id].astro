@@ -39,6 +39,7 @@ const staffSlug = s => s.person || s.name;
         {g.genre && <a class="chip chip-genre" href={genreUrl(g.genre)}>{g.genre}</a>}
         {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}
         {g.localization_level && <span class="chip">{locLabel(g.localization_level)}</span>}
+        {g.adult && <span class="chip chip-adult">18禁</span>}
       </div>
       <section class="prose">
         {hasBody ? <Content /> : <p class="muted">簡介待補</p>}

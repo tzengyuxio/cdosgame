@@ -30,6 +30,7 @@ main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{background:#f3f0e8;color:#666;border-radius:3px;padding:1px 8px;font-size:12px}
 .chip-genre{background:#fff3dc;color:var(--brown);border:1px solid #f0dca8}
+.chip-adult{background:#fbe4e4;color:#b3261e;border:1px solid #f0bcbc;font-weight:600}
 .cover-placeholder{background:#f3f0e8;color:var(--muted);text-align:center;padding:28px;border-radius:4px;font-size:13px}
 .infobox{width:100%;border-collapse:collapse;font-size:14px}
 .infobox th{text-align:left;color:var(--muted);font-weight:400;width:88px;padding:5px 12px 5px 0;vertical-align:top;white-space:nowrap}

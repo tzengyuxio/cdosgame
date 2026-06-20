@@ -37,6 +37,15 @@ export const gameSchema = z.object({
   genre: z.enum(GENRES).nullable(),
   localization_level: z.enum(["native", "localized", "packaging", "foreign"]).nullable(),
   series: z.string().nullable().default(null),
+  // content rating: true = 成人/限制級 (18禁). DOS-era TW predates the GSRR levels,
+  // so a simple flag suffices.
+  adult: z.boolean().default(false),
+  // adaptation source when the game is based on another work (漫畫/小說/電影/布袋戲…)
+  adaptation: z.object({
+    medium: z.enum(["漫畫", "小說", "電影", "電視劇", "布袋戲", "動畫", "傳說", "桌遊", "遊戲", "其他"]),
+    title: z.string(),
+    author: z.string().optional(),
+  }).nullable().default(null),
 
   // chiuinan-sourced descriptors
   size: z.string().nullable(),
