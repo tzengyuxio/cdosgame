@@ -40694,6 +40694,24 @@
       ],
       "status": "active",
       "title_zh": "洛克人X"
+    },
+    "cdg-4522": {
+      "catalog_id": null,
+      "developer": "艾生",
+      "keys": [
+        "t:龍城飛將|艾生"
+      ],
+      "status": "active",
+      "title_zh": "龍城飛將"
+    },
+    "cdg-4523": {
+      "catalog_id": null,
+      "developer": "花道",
+      "keys": [
+        "t:刀劍決|花道"
+      ],
+      "status": "active",
+      "title_zh": "刀劍決"
     }
   }
 }
