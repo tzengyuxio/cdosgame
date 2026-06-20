@@ -10,7 +10,7 @@ import { z } from "zod";
 export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
 export const GENRES = [
   "回合角色扮演", "即時角色扮演", "策略角色扮演", "冒險解謎", "故事劇情",
-  "計策戰略", "模擬養成", "教育養成", "大富翁", "格鬥", "運動動作",
+  "策略", "模擬養成", "教育養成", "桌遊棋牌", "格鬥", "運動動作",
 ];
 
 export const gameSchema = z.object({
