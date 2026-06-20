@@ -2,7 +2,9 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
-import { companyUrl, teamUrl, gameUrl } from '../../lib/links.js';
+import { companyUrl, teamUrl, gameUrl, withBase } from '../../lib/links.js';
+import { personJsonLd, breadcrumb } from '../../lib/jsonld.js';
+import { lastModified } from '../../lib/gitdates.js';
 import RefSection from '../../components/RefSection.astro';
 import Share from '../../components/Share.astro';
 
@@ -49,8 +51,19 @@ const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } 
 const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
 const desc = [c?.name_zh || name, (c?.roles || []).join('、'), (c?.affiliations || []).join('、')]
   .filter(Boolean).join('｜') + (credits.length ? ` · 參與 ${credits.length} 款遊戲` : '') + '。中文 DOS 遊戲資料庫人物條目。';
+const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const canonical = site + Astro.url.pathname;
+const sameAs = [...(c?.references || []).map(r => r.url), ...Object.values(c?.external_links || {})];
+const jsonLd = [
+  personJsonLd(c, name, { url: canonical, sameAs, dateModified: lastModified(`content/people/${name}.md`) }),
+  breadcrumb(site, [
+    { name: '中文 DOS 遊戲資料庫', url: site + withBase('/') },
+    { name: '人物', url: site + withBase('/people') },
+    { name: c?.name_zh || name, url: canonical },
+  ]),
+];
 ---
-<Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`} description={desc} ogType="profile">
+<Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`} description={desc} ogType="profile" jsonLd={jsonLd}>
   <DosBar path={`PEOPLE\\${name}`} right={c?.name_en || ''} />
   <div class="game-wiki">
     <div class="gw-main">

@@ -3,7 +3,9 @@ import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import GameList from '../../components/GameList.astro';
 import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
-import { companyUrl } from '../../lib/links.js';
+import { companyUrl, withBase } from '../../lib/links.js';
+import { seriesJsonLd, breadcrumb } from '../../lib/jsonld.js';
+import { lastModified } from '../../lib/gitdates.js';
 import Share from '../../components/Share.astro';
 
 export async function getStaticPaths() {
@@ -23,8 +25,18 @@ const range = yearRange(list);
 const entry = await getEntry('series', series);
 const Body = entry ? (await render(entry)).Content : null;
 const desc = `${series}系列：收錄 ${games.length} 款${dev ? `，主要廠商 ${dev}` : ''}${range ? `（${range.min}–${range.max}）` : ''}。中文 DOS 遊戲資料庫系列條目。`;
+const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const canonical = site + Astro.url.pathname;
+const jsonLd = [
+  seriesJsonLd(series, { url: canonical, description: desc, dev, dateModified: lastModified(`content/series/${series}.md`) }),
+  breadcrumb(site, [
+    { name: '中文 DOS 遊戲資料庫', url: site + withBase('/') },
+    { name: '系列', url: site + withBase('/series') },
+    { name: `${series}系列`, url: canonical },
+  ]),
+];
 ---
-<Base title={`${series}系列｜中文 DOS 遊戲資料庫`} description={desc} ogType="article">
+<Base title={`${series}系列｜中文 DOS 遊戲資料庫`} description={desc} ogType="article" jsonLd={jsonLd}>
   <h1 class="hub-title">{series}系列 <span class="hub-count">{games.length} 款</span></h1>
   <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
   {Body && <div class="prose"><Body /></div>}

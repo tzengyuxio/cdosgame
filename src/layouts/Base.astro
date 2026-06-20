@@ -14,7 +14,9 @@ const {
   ogType = 'website',
   ogImage = '/og-default.png',
   noindex = false,
+  jsonLd = null,
 } = Astro.props;
+const ldBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
 const site = Astro.site?.href.replace(/\/$/, '') ?? 'https://tzengyuxio.github.io';
 const canonical = site + Astro.url.pathname;
@@ -45,6 +47,8 @@ const gaOn = import.meta.env.PROD && GA_ID && !GA_ID.includes('XXXX');
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
+
+    {ldBlocks.map(o => <script type="application/ld+json" is:inline set:html={JSON.stringify(o)} />)}
 
     {gaOn && (
       <>

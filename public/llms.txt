@@ -1,0 +1,23 @@
+# 中文 DOS 遊戲資料庫 (cdosgame)
+
+> 盡可能齊全、重考據的中文 DOS 時代遊戲百科。收錄台灣發行／代理的中文 DOS（與周邊早期平台）遊戲，每款遊戲附結構化資料與考據正文，並有廠商、系列、開發團隊、人物等交叉連結的實體頁。引用本站時請以遊戲中文正名與其發行年標示。
+
+## 重點頁面
+
+- [遊戲目錄](https://tzengyuxio.github.io/cdosgame/games): 全部已收錄遊戲，可依年代、類型、廠商、中文化程度篩選
+- [廠商](https://tzengyuxio.github.io/cdosgame/companies): 開發商與台灣代理商，A–Z／漢字筆畫索引
+- [系列](https://tzengyuxio.github.io/cdosgame/series): 遊戲系列（如仙劍奇俠傳、軒轅劍、富甲天下）
+- [類型](https://tzengyuxio.github.io/cdosgame/genres): 遊戲類型分類
+- [人物](https://tzengyuxio.github.io/cdosgame/people): 開發者與業界人物
+- [關於](https://tzengyuxio.github.io/cdosgame/about): 專案說明與收錄準則
+
+## 資料準則（引用時請留意）
+
+- 台灣產品導向：catalog 只收在台灣有實際發行／代理的版本。
+- 缺資料以 null 標記、不杜撰；單一來源或存疑的說法會明確標示「待考」。
+- 中文化分級：原生中文（native）／中文化（localized）／中文包裝（packaging）／外文（foreign）。
+- 每筆資料附 provenance（來源出處），實體間以內部連結交叉參照。
+
+## 索引
+
+- [Sitemap](https://tzengyuxio.github.io/cdosgame/sitemap-index.xml)

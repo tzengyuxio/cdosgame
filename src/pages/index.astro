@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
 import { seriesUrl, companyUrl, decadeUrl, genreUrl, withBase } from '../lib/links.js';
+import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
+import { latestModified } from '../lib/gitdates.js';
 
 const games = (await getCollection('games', e => import.meta.env.PROD ? e.data.published : true)).map(e => e.data);
 const total = games.length;
@@ -15,8 +17,11 @@ const featSeries = [...bySeries.entries()]
 const topCompanies = companies.slice(0, 12);
 const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.value.localeCompare(b.value));
 const genres = distinctValues(games, g => g.genre);
+const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const desc = `盡可能齊全、重考據的中文 DOS 時代遊戲百科——已收錄 ${total} 款，涵蓋 ${seriesCount} 個系列、${companies.length} 家廠商，並附廠商、系列、人物與考據資料。`;
+const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site, description: desc, count: total, dateModified: latestModified() })];
 ---
-<Base title="中文 DOS 遊戲資料庫">
+<Base title="中文 DOS 遊戲資料庫" description={desc} jsonLd={jsonLd}>
   <section class="hero">
     <h1>中文 DOS 遊戲資料庫</h1>
     <p class="lead">盡可能齊全、重考據的中文 DOS 時代遊戲百科。</p>

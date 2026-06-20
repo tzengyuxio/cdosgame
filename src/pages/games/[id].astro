@@ -7,7 +7,9 @@ import ExternalLinks from '../../components/ExternalLinks.astro';
 import RelatedGames from '../../components/RelatedGames.astro';
 import CategoryFooter from '../../components/CategoryFooter.astro';
 import Share from '../../components/Share.astro';
-import { genreUrl, seriesUrl, personUrl } from '../../lib/links.js';
+import { genreUrl, seriesUrl, personUrl, withBase } from '../../lib/links.js';
+import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
+import { lastModified } from '../../lib/gitdates.js';
 import { locLabel } from '../../lib/labels.js';
 import { relatedFor } from '../../lib/gamesQuery.js';
 
@@ -33,6 +35,16 @@ const plain = (entry.body || '')
   .replace(/[#>*`_]/g, '').replace(/\s+/g, ' ').trim();
 const facts = [g.year && `${g.year}`, g.developer, g.genre, g.localization_level && locLabel(g.localization_level)].filter(Boolean).join(' · ');
 const description = (plain ? plain.slice(0, 140) : `《${g.title_zh}》${facts ? `（${facts}）` : ''}——中文 DOS 遊戲資料庫的考據條目。`);
+const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const canonical = site + Astro.url.pathname;
+const jsonLd = [
+  gameJsonLd(g, { site, url: canonical, description, dateModified: lastModified(`content/games/${g.id}.md`) }),
+  breadcrumb(site, [
+    { name: '中文 DOS 遊戲資料庫', url: site + withBase('/') },
+    { name: '遊戲目錄', url: site + withBase('/games') },
+    { name: g.title_zh, url: canonical },
+  ]),
+];
 // link a staff credit to /people when a person page exists (by staff.person slug or name)
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 const staffSlug = s => s.person || s.name;
@@ -48,7 +60,7 @@ const staffByRole = staff => {
   return groups;
 };
 ---
-<Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`} description={description} ogType="article">
+<Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`} description={description} ogType="article" jsonLd={jsonLd}>
   <DosBar path={g.title_zh} right={g.id} />
   <div class="game-wiki">
     <div class="gw-main">

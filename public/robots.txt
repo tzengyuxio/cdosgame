@@ -1,4 +1,31 @@
+# 中文 DOS 遊戲資料庫 — 歡迎一般搜尋與 AI 答案引擎索引／引用本站
 User-agent: *
+Allow: /
+
+# AI / answer-engine crawlers (explicit opt-in)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Bytespider
 Allow: /
 
 Sitemap: https://tzengyuxio.github.io/cdosgame/sitemap-index.xml
