@@ -1,21 +1,56 @@
 import { defineConfig, passthroughImageService } from 'astro/config';
+import { readFileSync, readdirSync } from 'node:fs';
 
 // GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
 const BASE = '/cdosgame';
 
+// In a production build only published games get a detail page (see the
+// `PROD ? data.published : true` gate in the routes). Entity bodies — e.g. a
+// company's product-catalogue table — routinely link games that don't have a
+// page yet; in PROD those <a> are unwrapped to plain text so the static site
+// ships no dangling hrefs. In dev every game is reachable, so nothing is
+// stripped. Computed once from frontmatter at config load.
+const PROD = process.env.NODE_ENV === 'production'
+  || process.argv.includes('build')
+  || process.env.npm_lifecycle_event === 'build';
+const PUBLISHED_GAME_IDS = (() => {
+  if (!PROD) return null;
+  const dir = new URL('./content/games/', import.meta.url);
+  const ids = new Set();
+  for (const file of readdirSync(dir)) {
+    if (!file.endsWith('.md')) continue;
+    const fm = (readFileSync(new URL(file, dir), 'utf8').match(/^---\n([\s\S]*?)\n---/) || [, ''])[1];
+    const id = (fm.match(/^id:\s*(\S+)/m) || [])[1];
+    if (id && /^published:\s*true\s*$/m.test(fm)) ids.add(id);
+  }
+  return ids;
+})();
+
 // Astro applies `base` to its own routing/assets, but does NOT rewrite absolute
 // links written inside markdown bodies (e.g. [大宇](/companies/大宇)). This rehype
-// plugin prefixes BASE onto absolute internal <a href> so content cross-links work
-// under the project base. External (http/protocol-relative) links are left alone.
+// plugin prefixes BASE onto absolute internal <a href> so content cross-links
+// work under the project base (external links are left alone), and unwraps links
+// to unpublished games in PROD (see above).
 function rehypeBaseLinks() {
-  const walk = (node) => {
-    if (node.tagName === 'a' && node.properties && typeof node.properties.href === 'string') {
-      const h = node.properties.href;
-      if (h.startsWith('/') && !h.startsWith('//')) node.properties.href = BASE + h;
+  const visit = (parent) => {
+    const out = [];
+    for (const node of parent.children || []) {
+      if (node.tagName === 'a' && node.properties && typeof node.properties.href === 'string') {
+        const href = node.properties.href;
+        const gm = href.match(/^\/games\/(cdg-\d+)$/);
+        if (PUBLISHED_GAME_IDS && gm && !PUBLISHED_GAME_IDS.has(gm[1])) {
+          visit(node);                       // base-prefix any nested links first
+          out.push(...(node.children || [])); // unwrap: keep the link text only
+          continue;
+        }
+        if (href.startsWith('/') && !href.startsWith('//')) node.properties.href = BASE + href;
+      }
+      visit(node);
+      out.push(node);
     }
-    for (const child of node.children || []) walk(child);
+    parent.children = out;
   };
-  return (tree) => walk(tree);
+  return (tree) => visit(tree);
 }
 
 export default defineConfig({
