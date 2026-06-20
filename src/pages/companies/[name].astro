@@ -79,7 +79,6 @@ const jsonLd = [
       {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
       {published.length > 0 && <><h2>台灣發行／代理（{published.length}）</h2><ul class="glist">{published.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
       <RefSection heading="註釋" items={refItems} ordered />
-      <Share />
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">
@@ -97,6 +96,7 @@ const jsonLd = [
           {c?.website && <tr><th>官網</th><td><a class="lk" href={c.website} target="_blank" rel="noopener nofollow">官方網站 ↗</a></td></tr>}
         </table>
       </div>
+      <Share />
     </aside>
   </div>
 </Base>

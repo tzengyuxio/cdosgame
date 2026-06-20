@@ -81,7 +81,6 @@ const jsonLd = [
         <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>
       )}
       <RefSection heading="註釋" items={refItems} ordered />
-      <Share />
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">
@@ -94,6 +93,7 @@ const jsonLd = [
           {credits.length > 0 && <tr><th>參與作品</th><td>{credits.length}</td></tr>}
         </table>
       </div>
+      <Share />
     </aside>
   </div>
 </Base>
