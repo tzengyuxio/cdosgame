@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  normalize, searchGames, decadeOf, vendorsOf, applyFacets,
+  normalize, searchGames, decadeOf, decadeFacetOf, vendorsOf, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
   seriesOf, groupBy, relatedFor, distinctValues,
   yearRange, topValue,
@@ -28,6 +28,24 @@ test('decadeOf', () => {
   assert.equal(decadeOf(1995), '1990s');
   assert.equal(decadeOf(2003), '2000s');
   assert.equal(decadeOf(null), null);
+});
+
+test('decadeFacetOf splits expanded decades (1990s) into years', () => {
+  assert.equal(decadeFacetOf(1995), '1995');
+  assert.equal(decadeFacetOf(1991), '1991');
+  assert.equal(decadeFacetOf(2003), '2000s');
+  assert.equal(decadeFacetOf(1985), '1980s');
+  assert.equal(decadeFacetOf(null), null);
+});
+
+test('deriveFacets decade: 1990s split to years, chronological, 未分類 last', () => {
+  const vals = deriveFacets(G).decade.map(o => o.value);
+  assert.deepEqual(vals, ['1991', '1995', NONE]);
+});
+
+test('applyFacets decade matches individual year, not the old 1990s bucket', () => {
+  assert.equal(applyFacets(G, { decade:['1995'] }).length, 1);
+  assert.equal(applyFacets(G, { decade:['1990s'] }).length, 0);
 });
 
 test('vendorsOf merges developer + publisher_tw', () => {

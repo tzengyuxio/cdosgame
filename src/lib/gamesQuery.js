@@ -20,6 +20,20 @@ export function decadeOf(year) {
   return `${Math.floor(year / 10) * 10}s`;
 }
 
+// Decades to break out into individual years in the 年代 facet, because the
+// bucket is so large that "1990s" alone is barely a filter. Other decades stay
+// as a single bucket. decadeOf() (homepage / /decades pages) is unaffected.
+export const EXPAND_DECADES = new Set(['1990s']);
+
+// Facet bucket for a year: an individual year (string) inside an expanded
+// decade, else the decade. parseInt() of either form yields the year/decade
+// start, so chronological sorting in deriveFacets keeps working.
+export function decadeFacetOf(year) {
+  if (!year) return null;
+  const d = decadeOf(year);
+  return EXPAND_DECADES.has(d) ? String(year) : d;
+}
+
 export function vendorsOf(g) {
   const v = [];
   if (g.developer) v.push(g.developer);
@@ -28,7 +42,7 @@ export function vendorsOf(g) {
 }
 
 function facetValues(g, facet) {
-  if (facet === 'decade') { const d = decadeOf(g.year); return d ? [d] : [NONE]; }
+  if (facet === 'decade') { const d = decadeFacetOf(g.year); return d ? [d] : [NONE]; }
   if (facet === 'genre') return g.genre ? [g.genre] : [NONE];
   if (facet === 'loc') return g.localization_level ? [g.localization_level] : [NONE];
   if (facet === 'vendor') { const v = vendorsOf(g); return v.length ? v : [NONE]; }
@@ -64,7 +78,7 @@ export function deriveFacets(games) {
   const acc = { decade: new Map(), genre: new Map(), vendor: new Map(), loc: new Map() };
   const bump = (m, k) => m.set(k, (m.get(k) || 0) + 1);
   for (const g of games) {
-    bump(acc.decade, decadeOf(g.year) || NONE);
+    bump(acc.decade, decadeFacetOf(g.year) || NONE);
     bump(acc.genre, g.genre || NONE);
     bump(acc.loc, g.localization_level || NONE);
     const vs = vendorsOf(g);
