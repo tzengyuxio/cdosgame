@@ -5,6 +5,7 @@ import { z } from "zod";
 
 export const teamSchema = z.object({
   name_zh: z.string(),
+  published: z.boolean().default(false),    // false = visible in dev only (same gate as games)
   aliases: z.array(z.string()).default([]),
   name_en: z.string().optional(),
   parent_company: z.string().optional(),    // owning company string (game.developer), e.g. 大宇

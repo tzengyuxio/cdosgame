@@ -5,6 +5,7 @@ import { z } from "zod";
 
 export const seriesSchema = z.object({
   name_zh: z.string(),
+  published: z.boolean().default(false),    // false = visible in dev only (same gate as games)
   aliases: z.array(z.string()).default([]),
   lead_developer: z.string().optional(),
   summary: z.string().optional(),

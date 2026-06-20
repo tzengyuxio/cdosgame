@@ -20,8 +20,9 @@ export async function getStaticPaths() {
   }
   const files = await getCollection('people');
   const gameById = new Map(games.map(e => [e.data.id, e.data]));
-  // route set = credited names ∪ authored people md files
-  const names = new Set([...credits.keys(), ...files.map(e => e.id)]);
+  // route set = credited names (in published games) ∪ people md whose published gate is on
+  const showAll = !import.meta.env.PROD;
+  const names = new Set([...credits.keys(), ...files.filter(e => showAll || e.data.published).map(e => e.id)]);
   const byYear = (a, b) => (a.game.year ?? 9999) - (b.game.year ?? 9999);
   return [...names].map(name => {
     const m = credits.get(name) || new Map();

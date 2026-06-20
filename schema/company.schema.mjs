@@ -5,6 +5,7 @@ import { z } from "zod";
 
 export const companySchema = z.object({
   name_zh: z.string(),
+  published: z.boolean().default(false),    // false = visible in dev only (same gate as games)
   aliases: z.array(z.string()).default([]),
   name_en: z.string().optional(),          // omit when unverified/inconsistent
   founded: z.number().optional(),

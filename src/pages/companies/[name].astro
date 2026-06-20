@@ -14,6 +14,11 @@ export async function getStaticPaths() {
     if (g.developer) get(g.developer).developed.push(g);
     for (const p of (g.publisher_tw || [])) if (p !== g.developer) get(p).published.push(g);
   }
+  // route set = vendors of (published) games ∪ company md whose published gate is on
+  const showAll = !import.meta.env.PROD;
+  for (const e of await getCollection('companies')) {
+    if ((showAll || e.data.published) && !map.has(e.id)) map.set(e.id, { developed: [], published: [] });
+  }
   const byYear = (a, b) => (a.year ?? 9999) - (b.year ?? 9999);
   return [...map].map(([name, v]) => ({
     params: { name },

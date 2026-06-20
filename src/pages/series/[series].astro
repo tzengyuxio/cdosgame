@@ -8,7 +8,11 @@ import { companyUrl } from '../../lib/links.js';
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
   const by = groupBy(games.map(e => e.data), g => g.series);
-  return [...by].map(([series, list]) => ({ params: { series }, props: { list } }));
+  // route set = series of (published) games ∪ series md whose published gate is on
+  const showAll = !import.meta.env.PROD;
+  const names = new Set(by.keys());
+  for (const e of await getCollection('series')) if (showAll || e.data.published) names.add(e.id);
+  return [...names].map(series => ({ params: { series }, props: { list: by.get(series) || [] } }));
 }
 const { series } = Astro.params;
 const { list } = Astro.props;

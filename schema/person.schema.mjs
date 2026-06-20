@@ -5,6 +5,7 @@ import { z } from "zod";
 
 export const personSchema = z.object({
   name_zh: z.string(),
+  published: z.boolean().default(false),    // false = visible in dev only (same gate as games)
   aliases: z.array(z.string()).default([]),   // 英文名 / 藝名 / 署名代號 (e.g. T.M.H.)
   name_en: z.string().optional(),
   born: z.number().optional(),

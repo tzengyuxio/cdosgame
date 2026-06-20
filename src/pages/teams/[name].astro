@@ -15,8 +15,10 @@ export async function getStaticPaths() {
     if (!map.has(t)) map.set(t, []);
     map.get(t).push(e.data);
   }
+  // route set = dev_team of (published) games ∪ team md whose published gate is on
+  const showAll = !import.meta.env.PROD;
   const files = await getCollection('teams');
-  const names = new Set([...map.keys(), ...files.map(e => e.id)]);
+  const names = new Set([...map.keys(), ...files.filter(e => showAll || e.data.published).map(e => e.id)]);
   const byYear = (a, b) => (a.year ?? 9999) - (b.year ?? 9999);
   return [...names].map(name => ({
     params: { name },
