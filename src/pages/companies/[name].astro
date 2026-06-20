@@ -2,7 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
-import { seriesUrl, companyUrl, teamUrl, gameUrl } from '../../lib/links.js';
+import { seriesUrl, companyUrl, teamUrl, gameUrl, personUrl } from '../../lib/links.js';
 import RefSection from '../../components/RefSection.astro';
 
 export async function getStaticPaths() {
@@ -30,6 +30,7 @@ const { developed, published } = Astro.props;
 const company = await getEntry('companies', name);
 const c = company?.data;
 const companyIds = new Set((await getCollection('companies')).map(e => e.id));
+const personIds = new Set((await getCollection('people')).map(e => e.id));
 // in-house teams whose parent_company points at this company
 const teams = (await getCollection('teams')).filter(t => t.data.parent_company === name);
 const Body = company ? (await render(company)).Content : null;
@@ -74,7 +75,7 @@ const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url
           {c?.successor && <tr><th>後繼</th><td>{companyIds.has(c.successor) ? <a class="lk" href={companyUrl(c.successor)}>{c.successor}</a> : c.successor}</td></tr>}
           {c?.region && <tr><th>地區</th><td>{c.region}</td></tr>}
           {c?.hq && <tr><th>總部</th><td>{c.hq}</td></tr>}
-          {(c?.founder || []).length > 0 && <tr><th>創辦人</th><td>{c.founder.join('、')}</td></tr>}
+          {(c?.founder || []).length > 0 && <tr><th>創辦人</th><td>{c.founder.map((p, i) => <>{i > 0 && '、'}{personIds.has(p) ? <a class="lk" href={personUrl(p)}>{p}</a> : p}</>)}</td></tr>}
           {roles.length > 0 && <tr><th>角色</th><td>{roles.join('、')}</td></tr>}
           <tr><th>作品數</th><td>開發 {developed.length} · 代理 {published.length}</td></tr>
           {c?.website && <tr><th>官網</th><td><a class="lk" href={c.website} target="_blank" rel="noopener nofollow">官方網站 ↗</a></td></tr>}
