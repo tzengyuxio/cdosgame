@@ -40658,6 +40658,15 @@
       ],
       "status": "active",
       "title_zh": "快刀亂麻"
+    },
+    "cdg-4518": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:台灣職棒大聯盟|大宇"
+      ],
+      "status": "active",
+      "title_zh": "台灣職棒大聯盟"
     }
   }
 }
