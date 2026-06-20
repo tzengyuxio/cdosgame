@@ -5,4 +5,6 @@ export const yearUrl = y => `/years/${y}`;
 export const decadeUrl = d => `/decades/${d}`;
 export const companyUrl = c => `/companies/${enc(c)}`;
 export const seriesUrl = s => `/series/${enc(s)}`;
+export const teamUrl = t => `/teams/${enc(t)}`;
+export const personUrl = p => `/people/${enc(p)}`;
 export const fandomUrl = t => `https://cn-dos-games.fandom.com/zh/wiki/${enc(t)}`;

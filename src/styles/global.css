@@ -120,6 +120,7 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .glist{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
 .glist li{padding:3px 0;font-size:14px;break-inside:avoid}
 .glist .y{color:var(--muted);font-family:var(--mono);font-size:12px;margin-right:6px}
+.glist .role-tag{color:var(--muted);font-size:12px}
 .refs{margin:0;padding-left:20px;font-size:13px}
 .refs li{padding:2px 0;color:var(--muted)}
 .entity-sub{color:var(--muted);font-size:13px;font-family:var(--mono);margin-bottom:12px}

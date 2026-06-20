@@ -1,0 +1,81 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import DosBar from '../../components/DosBar.astro';
+import { companyUrl, teamUrl } from '../../lib/links.js';
+import RefSection from '../../components/RefSection.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+  // credit a person by staff[].person (canonical slug) when set, else staff[].name
+  const credits = new Map();  // personKey -> Map(gameId -> {game, roles:Set})
+  for (const e of games) {
+    for (const s of (e.data.staff || [])) {
+      const key = s.person || s.name;
+      if (!credits.has(key)) credits.set(key, new Map());
+      const m = credits.get(key);
+      if (!m.has(e.data.id)) m.set(e.data.id, { game: e.data, roles: new Set() });
+      if (s.role) m.get(e.data.id).roles.add(s.role);
+    }
+  }
+  const files = await getCollection('people');
+  const gameById = new Map(games.map(e => [e.data.id, e.data]));
+  // route set = credited names ∪ authored people md files
+  const names = new Set([...credits.keys(), ...files.map(e => e.id)]);
+  const byYear = (a, b) => (a.game.year ?? 9999) - (b.game.year ?? 9999);
+  return [...names].map(name => {
+    const m = credits.get(name) || new Map();
+    const creditList = [...m.values()]
+      .map(x => ({ game: x.game, roles: [...x.roles] })).sort(byYear);
+    const entry = files.find(e => e.id === name);
+    const creditIds = new Set(creditList.map(x => x.game.id));
+    // 相關作品 = featured games NOT already shown as a staff credit (代言/客串/未列名參與)
+    const featured = (entry?.data.featured_games || [])
+      .map(id => gameById.get(id)).filter(Boolean).filter(g => !creditIds.has(g.id));
+    return { params: { name }, props: { credits: creditList, featured } };
+  });
+}
+const { name } = Astro.params;
+const { credits, featured } = Astro.props;
+const person = await getEntry('people', name);
+const c = person?.data;
+const companyIds = new Set((await getCollection('companies')).map(e => e.id));
+const teamIds = new Set((await getCollection('teams')).map(e => e.id));
+const Body = person ? (await render(person)).Content : null;
+const affLink = a => companyIds.has(a) ? companyUrl(a) : (teamIds.has(a) ? teamUrl(a) : null);
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
+---
+<Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`}>
+  <DosBar path={`PEOPLE\\${name}`} right={c?.name_en || ''} />
+  <div class="game-wiki">
+    <div class="gw-main">
+      <h1 class="game-title">{c?.name_zh || name}</h1>
+      <div class="entity-sub">{[...(c?.roles || [])].join('、')}{(c?.roles || []).length > 0 && credits.length > 0 && ' · '}{credits.length > 0 && `參與 ${credits.length} 款`}</div>
+      {Body && <div class="prose"><Body /></div>}
+      {credits.length > 0 && (
+        <><h2>參與作品（{credits.length}）</h2>
+        <ul class="glist">{credits.map(({ game, roles }) => (
+          <li><span class="y">{game.year ?? '—'}</span><a class="lk" href={`/games/${game.id}`}>{game.title_zh}</a>{roles.length > 0 && <span class="role-tag"> · {roles.join('、')}</span>}</li>
+        ))}</ul></>
+      )}
+      {featured.length > 0 && (
+        <><h2>相關作品</h2>
+        <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></li>)}</ul></>
+      )}
+      <RefSection heading="參考資料" items={refItems} ordered />
+    </div>
+    <aside class="gw-ib">
+      <div class="infobox-wrap">
+        <table class="infobox">
+          {c?.name_en && <tr><th>英文名</th><td>{c.name_en}</td></tr>}
+          {(c?.aliases || []).length > 0 && <tr><th>別名</th><td>{c.aliases.join('、')}</td></tr>}
+          {c?.born && <tr><th>出生</th><td>{c.born}</td></tr>}
+          {(c?.roles || []).length > 0 && <tr><th>角色</th><td>{c.roles.join('、')}</td></tr>}
+          {(c?.affiliations || []).length > 0 && <tr><th>經歷</th><td>{c.affiliations.map((a, i) => { const u = affLink(a); return <>{i > 0 && '、'}{u ? <a class="lk" href={u}>{a}</a> : a}</>; })}</td></tr>}
+          {credits.length > 0 && <tr><th>參與作品</th><td>{credits.length}</td></tr>}
+        </table>
+      </div>
+    </aside>
+  </div>
+</Base>
