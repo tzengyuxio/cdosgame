@@ -1,4 +1,5 @@
 import { defineConfig, passthroughImageService } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 
 // GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
@@ -60,4 +61,5 @@ export default defineConfig({
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
   markdown: { rehypePlugins: [rehypeBaseLinks] },
+  integrations: [sitemap()],
 });

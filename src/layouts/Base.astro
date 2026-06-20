@@ -1,7 +1,25 @@
 ---
 import '../styles/global.css';
 import { withBase } from '../lib/links.js';
-const { title = '中文 DOS 遊戲資料庫' } = Astro.props;
+
+const SITE_NAME = '中文 DOS 遊戲資料庫';
+const DEFAULT_DESC = '盡可能齊全、重考據的中文 DOS 時代遊戲百科——收錄台灣中文 DOS 遊戲的廠商、系列、人物與考據資料。';
+// GA4 Measurement ID. Replace the placeholder with the real G-XXXXXXXXXX; the
+// tag only loads in production builds and stays inert while the placeholder is set.
+const GA_ID = 'G-XXXXXXXXXX';
+
+const {
+  title = SITE_NAME,
+  description = DEFAULT_DESC,
+  ogType = 'website',
+  ogImage = '/og-default.png',
+  noindex = false,
+} = Astro.props;
+
+const site = Astro.site?.href.replace(/\/$/, '') ?? 'https://tzengyuxio.github.io';
+const canonical = site + Astro.url.pathname;
+const ogImageUrl = /^https?:\/\//.test(ogImage) ? ogImage : site + withBase(ogImage);
+const gaOn = import.meta.env.PROD && GA_ID && !GA_ID.includes('XXXX');
 ---
 <!doctype html>
 <html lang="zh-Hant">
@@ -9,6 +27,31 @@ const { title = '中文 DOS 遊戲資料庫' } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content="zh_TW" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    {gaOn && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+        <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}></script>
+      </>
+    )}
   </head>
   <body>
     <header class="site-header">

@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import GameList from '../../components/GameList.astro';
 import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
 import { companyUrl } from '../../lib/links.js';
+import Share from '../../components/Share.astro';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -21,10 +22,12 @@ const dev = topValue(list, g => g.developer);
 const range = yearRange(list);
 const entry = await getEntry('series', series);
 const Body = entry ? (await render(entry)).Content : null;
+const desc = `${series}系列：收錄 ${games.length} 款${dev ? `，主要廠商 ${dev}` : ''}${range ? `（${range.min}–${range.max}）` : ''}。中文 DOS 遊戲資料庫系列條目。`;
 ---
-<Base title={`${series}系列｜中文 DOS 遊戲資料庫`}>
+<Base title={`${series}系列｜中文 DOS 遊戲資料庫`} description={desc} ogType="article">
   <h1 class="hub-title">{series}系列 <span class="hub-count">{games.length} 款</span></h1>
   <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
   {Body && <div class="prose"><Body /></div>}
   <GameList games={games} />
+  <Share />
 </Base>

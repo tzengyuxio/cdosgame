@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
 import { companyUrl, teamUrl, gameUrl } from '../../lib/links.js';
 import RefSection from '../../components/RefSection.astro';
+import Share from '../../components/Share.astro';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -46,8 +47,10 @@ const Body = person ? (await render(person)).Content : null;
 const affLink = a => companyIds.has(a) ? companyUrl(a) : (teamIds.has(a) ? teamUrl(a) : null);
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
+const desc = [c?.name_zh || name, (c?.roles || []).join('、'), (c?.affiliations || []).join('、')]
+  .filter(Boolean).join('｜') + (credits.length ? ` · 參與 ${credits.length} 款遊戲` : '') + '。中文 DOS 遊戲資料庫人物條目。';
 ---
-<Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`}>
+<Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`} description={desc} ogType="profile">
   <DosBar path={`PEOPLE\\${name}`} right={c?.name_en || ''} />
   <div class="game-wiki">
     <div class="gw-main">
@@ -65,6 +68,7 @@ const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url
         <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>
       )}
       <RefSection heading="註釋" items={refItems} ordered />
+      <Share />
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">

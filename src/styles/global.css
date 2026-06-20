@@ -100,6 +100,11 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .hub-sub{font-family:var(--serif);font-size:17px;margin:18px 0 6px;border-bottom:1px solid var(--border);padding-bottom:4px}
 .index-grid{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
 .index-grid a .c{color:var(--muted);font-size:11px;font-family:var(--mono)}
+.idx-sec{display:flex;gap:12px;align-items:baseline;margin:9px 0;padding-bottom:9px;border-bottom:1px dotted var(--border)}
+.idx-sec:last-child{border-bottom:0}
+.idx-label{flex:0 0 3.4em;text-align:right;font-family:var(--mono);font-weight:600;font-size:13px;color:var(--brown)}
+.idx-sec .index-grid{flex:1;min-width:0}
+@media(max-width:680px){.idx-sec{flex-direction:column;gap:3px}.idx-label{text-align:left}}
 @media(max-width:680px){.game-wiki{flex-direction:column}.gw-ib{flex:none;border-left:0;border-top:1px solid #eee4d2}}
 
 /* 卡片 / 膠囊 / 文章式實體頁 */
@@ -116,6 +121,10 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .vend .c{color:var(--muted);font-size:11px;font-family:var(--mono)}
 .star{color:#c79a3a;font-size:11px;margin-right:3px}
 .hub-legend{color:var(--muted);font-size:12px;margin:4px 0 0}
+.share{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:18px 0 4px}
+.share-label{color:var(--muted);font-size:12px;font-family:var(--mono)}
+.share-btn{border:1px solid var(--border);border-radius:5px;padding:3px 11px;font-size:12.5px;color:var(--fg);background:#fff;cursor:pointer;font-family:inherit;line-height:1.6}
+.share-btn:hover{background:#faf6ee;text-decoration:none}
 .hero h1{font-family:var(--serif);font-size:30px;margin:0 0 4px}
 .hero .lead{color:#555;font-size:15px}
 .glist{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}

@@ -1,0 +1,27 @@
+---
+// Social share row: Facebook / X / copy-URL. Share targets are resolved
+// client-side from the live location, so it works under any base/host.
+---
+<div class="share">
+  <span class="share-label">分享</span>
+  <a class="share-btn" data-share="fb" target="_blank" rel="noopener" href="#">Facebook</a>
+  <a class="share-btn" data-share="x" target="_blank" rel="noopener" href="#">X</a>
+  <button class="share-btn" type="button" data-share="copy">複製網址</button>
+</div>
+<script is:inline>
+  document.querySelectorAll('.share').forEach((box) => {
+    const url = location.href, title = document.title;
+    const fb = box.querySelector('[data-share="fb"]');
+    const x = box.querySelector('[data-share="x"]');
+    const copy = box.querySelector('[data-share="copy"]');
+    if (fb) fb.href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    if (x) x.href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
+    if (copy) copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        const old = copy.textContent; copy.textContent = '已複製！';
+        setTimeout(() => { copy.textContent = old; }, 1500);
+      } catch (e) { /* clipboard blocked */ }
+    });
+  });
+</script>
