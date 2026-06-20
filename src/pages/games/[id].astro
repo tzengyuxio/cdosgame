@@ -6,7 +6,7 @@ import Infobox from '../../components/Infobox.astro';
 import ExternalLinks from '../../components/ExternalLinks.astro';
 import RelatedGames from '../../components/RelatedGames.astro';
 import CategoryFooter from '../../components/CategoryFooter.astro';
-import { genreUrl, seriesUrl } from '../../lib/links.js';
+import { genreUrl, seriesUrl, personUrl } from '../../lib/links.js';
 import { locLabel } from '../../lib/labels.js';
 import { relatedFor } from '../../lib/gamesQuery.js';
 
@@ -26,6 +26,9 @@ const { entry, related } = Astro.props;
 const g = entry.data;
 const { Content } = await render(entry);
 const hasBody = (entry.body || '').trim().length > 0;
+// link a staff credit to /people when a person page exists (by staff.person slug or name)
+const personIds = new Set((await getCollection('people')).map(e => e.id));
+const staffSlug = s => s.person || s.name;
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`}>
   <DosBar path={g.title_zh} right={g.id} />
@@ -44,7 +47,7 @@ const hasBody = (entry.body || '').trim().length > 0;
         <section class="staff">
           <h2>製作人員</h2>
           <ul class="stafflist">
-            {g.staff.map(s => <li><span class="role">{s.role}</span><span class="who">{s.name}</span></li>)}
+            {g.staff.map(s => <li><span class="role">{s.role}</span>{personIds.has(staffSlug(s)) ? <a class="lk who" href={personUrl(staffSlug(s))}>{s.name}</a> : <span class="who">{s.name}</span>}</li>)}
           </ul>
         </section>
       )}
