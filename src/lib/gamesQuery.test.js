@@ -108,6 +108,16 @@ test('relatedFor: same series/company/year, excludes self, caps', () => {
   assert.ok(!r.sameSeries.some(g => g.id === 'a'));           // no self
 });
 
+test('relatedFor byVendor: foreign developer excluded, TW publisher kept', () => {
+  const F = [
+    { id:'x', developer:'姬屋', developer_region:'JP', publisher_tw:['天堂鳥'], year:1995, series:null },
+    { id:'y', developer:'姬屋', developer_region:'JP', publisher_tw:['天堂鳥'], year:1996, series:null },
+  ];
+  const r = relatedFor(F[0], F);
+  assert.deepEqual(r.byVendor.map(v => v.vendor), ['天堂鳥']);   // not 姬屋 (foreign dev)
+  assert.deepEqual(r.byVendor[0].games.map(g => g.id), ['y']);
+});
+
 test('yearRange', () => {
   assert.deepEqual(yearRange(H), { min: 1995, max: 2002 });
   assert.equal(yearRange([{ year: null }]), null);

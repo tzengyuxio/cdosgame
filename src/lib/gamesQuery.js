@@ -129,10 +129,16 @@ export function relatedFor(game, all, limit = 6) {
   const cut = a => a.slice(0, limit);
   const sameSeries = game.series
     ? all.filter(g => g.id !== game.id && g.series === game.series) : [];
-  // one group per vendor (developer + publishers), each listing that vendor's
-  // OWN other games — so a publisher's titles aren't mislabelled as the
-  // developer's (and vice versa).
-  const byVendor = [...new Set(vendorsOf(game))]
+  // Taiwan-catalog oriented: one group per TW vendor — the local publishers
+  // plus the developer only when it's a Taiwan studio. A foreign developer
+  // (e.g. a Japanese original) isn't a meaningful catalog vendor, so its block
+  // is skipped in favour of the Taiwan publisher's. Each block lists that
+  // vendor's OWN other games (dev or publisher), never the other's.
+  const relVendors = [
+    ...(game.developer && game.developer_region === 'TW' ? [game.developer] : []),
+    ...(game.publisher_tw || []),
+  ];
+  const byVendor = [...new Set(relVendors)]
     .map(vendor => ({ vendor, games: cut(all.filter(g => g.id !== game.id && vendorsOf(g).includes(vendor))) }))
     .filter(v => v.games.length > 0);
   const sameYear = game.year
