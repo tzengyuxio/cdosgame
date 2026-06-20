@@ -47,6 +47,8 @@
 
 不同命名空間下可有同名 slug（一間公司與一個人同名 → `/companies/X` 與 `/people/X` 互不干擾）。
 
+各實體有索引頁（hub）：`/companies`、`/series`、`/genres`、`/people`…。其中 **`/people` 刻意不掛上方 nav**，僅供知道網址者直接開啟（人物資料尚在補完、暫不主動曝光）；其餘 hub 才進 nav。日後若要公開人物列表，於 `Base.astro` nav 補連結即可。
+
 ---
 
 ## 三、實體類型對照

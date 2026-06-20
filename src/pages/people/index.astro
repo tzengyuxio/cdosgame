@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { personUrl } from '../../lib/links.js';
+
+// Not linked from the top nav — reachable only by direct URL (/people).
+// Mirrors the credit-aggregation logic in people/[name].astro.
+const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+const credits = new Map();  // personKey (slug or credited name) -> game count
+for (const e of games) {
+  const seen = new Set();
+  for (const s of (e.data.staff || [])) {
+    const key = s.person || s.name;
+    if (seen.has(key)) continue;       // count each game once per person
+    seen.add(key);
+    credits.set(key, (credits.get(key) || 0) + 1);
+  }
+}
+const showAll = !import.meta.env.PROD;
+const profiled = new Map(
+  (await getCollection('people')).filter(e => showAll || e.data.published).map(e => [e.id, e.data])
+);
+const byCount = (a, b) => (b.count - a.count) || a.name.localeCompare(b.name, 'zh-Hant');
+const profiledList = [...profiled.keys()]
+  .map(k => ({ name: k, count: credits.get(k) || 0, data: profiled.get(k) })).sort(byCount);
+const others = [...credits.keys()].filter(k => !profiled.has(k))
+  .map(k => ({ name: k, count: credits.get(k) })).sort(byCount);
+const total = new Set([...credits.keys(), ...profiled.keys()]).size;
+---
+<Base title="人物｜中文 DOS 遊戲資料庫">
+  <h1 class="hub-title">依人物瀏覽 <span class="hub-count">{total} 人</span></h1>
+  <p class="hub-legend"><span class="star">★</span> 已撰寫人物簡介（{profiledList.length} 人）</p>
+  {profiledList.length > 0 && (
+    <><h2 class="section-h">人物簡介</h2>
+    <div class="vendrow">
+      {profiledList.map(p => <a class="vend" href={personUrl(p.name)}><span class="star">★</span>{p.data.name_zh || p.name}{p.count > 0 && <span class="c">{p.count}</span>}</a>)}
+    </div></>
+  )}
+  {others.length > 0 && (
+    <><h2 class="section-h">其他參與者</h2>
+    <div class="index-grid">
+      {others.map(p => <a class="lk" href={personUrl(p.name)}>{p.name} <span class="c">{p.count}</span></a>)}
+    </div></>
+  )}
+</Base>
