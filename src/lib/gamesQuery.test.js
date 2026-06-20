@@ -104,7 +104,6 @@ test('relatedFor: same series/company/year, excludes self, caps', () => {
   assert.deepEqual(r.sameSeries.map(g => g.id), ['b']);       // 仙劍2
   assert.deepEqual(r.byVendor.map(v => v.vendor), ['大宇']);  // one block per vendor
   assert.deepEqual(r.byVendor[0].games.map(g => g.id), ['b']); // 大宇's other game
-  assert.deepEqual(r.sameYear.map(g => g.id), ['c']);         // 1995
   assert.ok(!r.sameSeries.some(g => g.id === 'a'));           // no self
 });
 
@@ -116,6 +115,17 @@ test('relatedFor byVendor: foreign developer excluded, TW publisher kept', () =>
   const r = relatedFor(F[0], F);
   assert.deepEqual(r.byVendor.map(v => v.vendor), ['天堂鳥']);   // not 姬屋 (foreign dev)
   assert.deepEqual(r.byVendor[0].games.map(g => g.id), ['y']);
+});
+
+test('relatedFor byVendor: TW dev + TW publisher → developer block only', () => {
+  const T = [
+    { id:'p', developer:'TGL', developer_region:'TW', publisher_tw:['智冠'], year:1998, series:null },
+    { id:'q', developer:'TGL', developer_region:'TW', publisher_tw:[], year:1999, series:null },
+    { id:'r', developer:'某社', developer_region:'TW', publisher_tw:['智冠'], year:1998, series:null },
+  ];
+  const r = relatedFor(T[0], T);
+  assert.deepEqual(r.byVendor.map(v => v.vendor), ['TGL']);     // 智冠 publisher block skipped
+  assert.deepEqual(r.byVendor[0].games.map(g => g.id), ['q']);  // TGL's own game, not 智冠-published r
 });
 
 test('yearRange', () => {

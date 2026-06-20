@@ -125,23 +125,41 @@ export function topValue(games, keyFn) {
   return dv.length ? dv[0].value : null;
 }
 
+// FNV-1a string hash → stable 32-bit int, for deterministic per-page ordering.
+function hashStr(s) {
+  let x = 2166136261;
+  for (let i = 0; i < s.length; i++) { x ^= s.charCodeAt(i); x = Math.imul(x, 16777619); }
+  return x >>> 0;
+}
+
+// Spread candidates by a hash seeded on the current game's id. The collection
+// is id-ascending, so a plain slice(0,N) always surfaces the lowest-id games —
+// they end up over-represented across every page's "related" lists. Seeding on
+// the current id gives each page a different but build-stable sample.
+function spread(items, seed) {
+  return [...items].sort((a, b) => hashStr(seed + '|' + a.id) - hashStr(seed + '|' + b.id));
+}
+
 export function relatedFor(game, all, limit = 6) {
   const cut = a => a.slice(0, limit);
+  // series: chronological — a series reads naturally oldest-to-newest.
   const sameSeries = game.series
-    ? all.filter(g => g.id !== game.id && g.series === game.series) : [];
-  // Taiwan-catalog oriented: one group per TW vendor — the local publishers
-  // plus the developer only when it's a Taiwan studio. A foreign developer
-  // (e.g. a Japanese original) isn't a meaningful catalog vendor, so its block
-  // is skipped in favour of the Taiwan publisher's. Each block lists that
-  // vendor's OWN other games (dev or publisher), never the other's.
-  const relVendors = [
-    ...(game.developer && game.developer_region === 'TW' ? [game.developer] : []),
-    ...(game.publisher_tw || []),
-  ];
+    ? all.filter(g => g.id !== game.id && g.series === game.series)
+         .sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999))
+    : [];
+  // Taiwan-catalog oriented "other works" blocks: when the developer is a
+  // Taiwan studio, show only its block (even if a TW publisher also exists) —
+  // its own catalogue is the relevant grouping. Only when the developer is
+  // foreign (e.g. a Japanese original) do we fall back to the TW publisher(s).
+  const relVendors = (game.developer && game.developer_region === 'TW')
+    ? [game.developer]
+    : (game.publisher_tw || []);
   const byVendor = [...new Set(relVendors)]
-    .map(vendor => ({ vendor, games: cut(all.filter(g => g.id !== game.id && vendorsOf(g).includes(vendor))) }))
+    .map(vendor => ({ vendor, games: cut(spread(all.filter(g => g.id !== game.id && vendorsOf(g).includes(vendor)), game.id)) }))
     .filter(v => v.games.length > 0);
-  const sameYear = game.year
-    ? all.filter(g => g.id !== game.id && g.year === game.year) : [];
-  return { sameSeries: cut(sameSeries), byVendor, sameYear: cut(sameYear) };
+  // "same year" intentionally dropped: it appeared on ~94% of pages (almost
+  // every game has a year) yet a shared release year is a weak relationship —
+  // it crowded out the body for little value. Browse-by-year stays reachable
+  // via the infobox 發行年 link.
+  return { sameSeries: cut(sameSeries), byVendor };
 }
