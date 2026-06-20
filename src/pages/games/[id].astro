@@ -29,6 +29,17 @@ const hasBody = (entry.body || '').trim().length > 0;
 // link a staff credit to /people when a person page exists (by staff.person slug or name)
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 const staffSlug = s => s.person || s.name;
+// group staff credits by role (preserving first-seen order) so a role with
+// several people renders as one line instead of repeating the role label.
+const staffByRole = staff => {
+  const groups = [];
+  for (const s of staff) {
+    let grp = groups.find(x => x.role === s.role);
+    if (!grp) { grp = { role: s.role, people: [] }; groups.push(grp); }
+    grp.people.push(s);
+  }
+  return groups;
+};
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`}>
   <DosBar path={g.title_zh} right={g.id} />
@@ -48,7 +59,12 @@ const staffSlug = s => s.person || s.name;
         <section class="staff">
           <h2>製作人員</h2>
           <ul class="stafflist">
-            {g.staff.map(s => <li><span class="role">{s.role}</span>{personIds.has(staffSlug(s)) ? <a class="lk who" href={personUrl(staffSlug(s))}>{s.name}</a> : <span class="who">{s.name}</span>}</li>)}
+            {staffByRole(g.staff).map(grp => (
+              <li>
+                <span class="role">{grp.role}</span>
+                <span class="who">{grp.people.map((s, i) => <>{i > 0 && '、'}{personIds.has(staffSlug(s)) ? <a class="lk" href={personUrl(staffSlug(s))}>{s.name}</a> : s.name}</>)}</span>
+              </li>
+            ))}
           </ul>
         </section>
       )}
