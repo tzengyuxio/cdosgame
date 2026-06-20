@@ -1,9 +1,10 @@
 ---
+import { gameUrl } from '../lib/links.js';
 const { games } = Astro.props;
 ---
 <ul class="results">
   {games.map(g => (
-    <li><a href={`/games/${g.id}`}>
+    <li><a href={gameUrl(g.id)}>
       <span class="r-title">{g.title_zh}</span>
       <span class="r-meta">{g.year ?? '—'} · {g.developer || g.publisher_tw?.[0] || '—'} · {g.genre || '—'}</span>
     </a></li>

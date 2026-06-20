@@ -1,5 +1,5 @@
 ---
-import { seriesUrl, companyUrl, yearUrl } from '../lib/links.js';
+import { seriesUrl, companyUrl, yearUrl, gameUrl } from '../lib/links.js';
 const { related, g } = Astro.props;
 const blocks = [
   ['同系列', related.sameSeries, g.series ? seriesUrl(g.series) : null],
@@ -11,7 +11,7 @@ const blocks = [
   <section>
     <h2>{title}</h2>
     <div class="rel">
-      {list.map((x, i) => <>{i > 0 && ' · '}<a class="lk" href={`/games/${x.id}`}>{x.title_zh}</a></>)}
+      {list.map((x, i) => <>{i > 0 && ' · '}<a class="lk" href={gameUrl(x.id)}>{x.title_zh}</a></>)}
       {more && <> · <a class="lk" href={more}>更多 →</a></>}
     </div>
   </section>

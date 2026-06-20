@@ -2,7 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
-import { companyUrl, teamUrl } from '../../lib/links.js';
+import { companyUrl, teamUrl, gameUrl } from '../../lib/links.js';
 import RefSection from '../../components/RefSection.astro';
 
 export async function getStaticPaths() {
@@ -57,12 +57,12 @@ const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url
       {credits.length > 0 && (
         <><h2>參與作品（{credits.length}）</h2>
         <ul class="glist">{credits.map(({ game, roles }) => (
-          <li><span class="y">{game.year ?? '—'}</span><a class="lk" href={`/games/${game.id}`}>{game.title_zh}</a>{roles.length > 0 && <span class="role-tag"> · {roles.join('、')}</span>}</li>
+          <li><span class="y">{game.year ?? '—'}</span><a class="lk" href={gameUrl(game.id)}>{game.title_zh}</a>{roles.length > 0 && <span class="role-tag"> · {roles.join('、')}</span>}</li>
         ))}</ul></>
       )}
       {featured.length > 0 && (
         <><h2>相關作品</h2>
-        <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></li>)}</ul></>
+        <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>
       )}
       <RefSection heading="參考資料" items={refItems} ordered />
     </div>

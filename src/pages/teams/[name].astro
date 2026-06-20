@@ -2,7 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
-import { companyUrl, personUrl } from '../../lib/links.js';
+import { companyUrl, personUrl, gameUrl } from '../../lib/links.js';
 import RefSection from '../../components/RefSection.astro';
 
 export async function getStaticPaths() {
@@ -50,10 +50,10 @@ const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url
       {Body && <div class="prose"><Body /></div>}
       {featured.length > 0 && (
         <><h2>代表作</h2><div class="cardrow">{featured.map(g => (
-          <div class="scard"><div class="t"><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></div><div class="m">{g.year ?? ''}</div></div>
+          <div class="scard"><div class="t"><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></div><div class="m">{g.year ?? ''}</div></div>
         ))}</div></>
       )}
-      {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></li>)}</ul></>}
+      {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
       <RefSection heading="參考資料" items={refItems} ordered />
     </div>
     <aside class="gw-ib">

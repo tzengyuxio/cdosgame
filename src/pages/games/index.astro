@@ -24,6 +24,7 @@ import Base from '../../layouts/Base.astro';
     import { searchGames, applyFacets, sortGames, paginate, deriveFacets } from '../../lib/gamesQuery.js';
     import { locLabel } from '../../lib/labels.js';
 
+    const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     const FACETS = [['decade','年代'],['genre','類型'],['vendor','廠商'],['loc','在地化']];
     const LIMIT = { decade: 99, genre: 99, loc: 99, vendor: 40 };
     let GAMES = [];
@@ -62,7 +63,7 @@ import Base from '../../layouts/Base.astro';
       state.page = page;
       document.getElementById('count').textContent = `${total} 款`;
       document.getElementById('results').innerHTML = items.map(g => `
-        <li><a href="/games/${g.id}">
+        <li><a href="${BASE}/games/${g.id}">
           <span class="r-title">${esc(g.title_zh)}</span>
           <span class="r-meta">${g.year ?? '—'} · ${esc(g.developer || g.publisher_tw[0] || '—')} · ${esc(g.genre || '—')} · ${g.localization_level || '—'}</span>
         </a></li>`).join('');
@@ -126,7 +127,7 @@ import Base from '../../layouts/Base.astro';
       readURL();
       document.getElementById('search').value = state.q;
       document.getElementById('sort').value = state.sort;
-      GAMES = await (await fetch('/games.json')).json();
+      GAMES = await (await fetch(`${BASE}/games.json`)).json();
       render();
     })();
   </script>
