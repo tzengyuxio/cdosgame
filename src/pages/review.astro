@@ -1,0 +1,57 @@
+---
+// Author review dashboard: lists hand-authored content (games with a body, plus
+// all companies/series/teams/people) with publish status, a link to the page,
+// and a GitHub "edit this file" link. Handy for reviewing drafts and deciding
+// what to publish. Not linked from nav.
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl } from '../lib/links.js';
+
+const REPO = 'https://github.com/tzengyuxio/cdosgame/edit/main';
+const editUrl = (coll, id) => `${REPO}/content/${coll}/${encodeURIComponent(id)}.md`;
+
+const games = (await getCollection('games'))
+  .filter(e => (e.body || '').trim().length > 0)
+  .map(e => ({ id: e.id, title: e.data.title_zh, pub: e.data.published, url: gameUrl(e.data.id), edit: editUrl('games', e.id) }))
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const mk = (coll, urlFn) => (e) => ({ id: e.id, title: e.data.name_zh || e.id, pub: e.data.published, url: urlFn(e.id), edit: editUrl(coll, e.id) });
+const byTitle = (a, b) => a.title.localeCompare(b.title, 'zh-Hant');
+const companies = (await getCollection('companies')).map(mk('companies', companyUrl)).sort(byTitle);
+const series = (await getCollection('series')).map(mk('series', seriesUrl)).sort(byTitle);
+const teams = (await getCollection('teams')).map(mk('teams', teamUrl)).sort(byTitle);
+const people = (await getCollection('people')).map(mk('people', personUrl)).sort(byTitle);
+
+const groups = [['遊戲（有正文）', games], ['公司', companies], ['系列', series], ['團隊', teams], ['人物', people]];
+const draftCount = (arr) => arr.filter(x => !x.pub).length;
+const totalDraft = groups.reduce((n, [, arr]) => n + draftCount(arr), 0);
+const totalItems = groups.reduce((n, [, arr]) => n + arr.length, 0);
+---
+<Base title="審閱清單｜中文 DOS 遊戲資料庫">
+  <h1 class="hub-title">審閱清單 <span class="hub-count">{totalItems} 筆手寫條目 · {totalDraft} 草稿待審</span></h1>
+  <p class="hub-legend"><span class="rv-pub">●</span> 已發佈　<span class="rv-draft">○</span> 草稿（未上線）。點標題看頁面；點「✎ 編輯」到 GitHub 直接改該檔（把 <code>published: true</code> 即可上線），或把要發佈/修改的清單告訴我代勞。</p>
+  {groups.map(([name, arr]) => arr.length > 0 && (
+    <section>
+      <h2 class="section-h">{name}（{arr.length}，草稿 {draftCount(arr)}）</h2>
+      <ul class="review-list">
+        {arr.map(x => (
+          <li>
+            <span class={x.pub ? 'rv-pub' : 'rv-draft'}>{x.pub ? '●' : '○'}</span>
+            <a class="lk" href={x.url}>{x.title}</a>
+            <span class="rv-id">{x.id}</span>
+            <a class="rv-edit" href={x.edit} target="_blank" rel="noopener nofollow">✎ 編輯</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+<style>
+  .review-list { list-style: none; margin: 0 0 18px; padding: 0; }
+  .review-list li { display: flex; align-items: center; gap: 10px; padding: 4px 2px; font-size: 14px; border-bottom: 1px solid var(--border); }
+  .rv-pub { color: #2a9d6a; }
+  .rv-draft { color: var(--muted); }
+  .rv-id { color: var(--muted); font-family: var(--mono); font-size: 12px; }
+  .rv-edit { margin-left: auto; font-size: 12px; color: var(--brown); white-space: nowrap; }
+  .hub-legend code { font-family: var(--mono); font-size: 12px; background: #f3f0e8; padding: 0 4px; border-radius: 3px; }
+</style>
