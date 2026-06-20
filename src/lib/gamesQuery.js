@@ -129,10 +129,13 @@ export function relatedFor(game, all, limit = 6) {
   const cut = a => a.slice(0, limit);
   const sameSeries = game.series
     ? all.filter(g => g.id !== game.id && g.series === game.series) : [];
-  const comps = new Set(vendorsOf(game));
-  const sameCompany = comps.size
-    ? all.filter(g => g.id !== game.id && vendorsOf(g).some(v => comps.has(v))) : [];
+  // one group per vendor (developer + publishers), each listing that vendor's
+  // OWN other games — so a publisher's titles aren't mislabelled as the
+  // developer's (and vice versa).
+  const byVendor = [...new Set(vendorsOf(game))]
+    .map(vendor => ({ vendor, games: cut(all.filter(g => g.id !== game.id && vendorsOf(g).includes(vendor))) }))
+    .filter(v => v.games.length > 0);
   const sameYear = game.year
     ? all.filter(g => g.id !== game.id && g.year === game.year) : [];
-  return { sameSeries: cut(sameSeries), sameCompany: cut(sameCompany), sameYear: cut(sameYear) };
+  return { sameSeries: cut(sameSeries), byVendor, sameYear: cut(sameYear) };
 }

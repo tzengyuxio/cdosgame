@@ -102,7 +102,8 @@ test('distinctValues dedups per game (vendorsOf dev==pub not double-counted)', (
 test('relatedFor: same series/company/year, excludes self, caps', () => {
   const r = relatedFor(H[0], H);
   assert.deepEqual(r.sameSeries.map(g => g.id), ['b']);       // 仙劍2
-  assert.deepEqual(r.sameCompany.map(g => g.id), ['b']);      // 大宇
+  assert.deepEqual(r.byVendor.map(v => v.vendor), ['大宇']);  // one block per vendor
+  assert.deepEqual(r.byVendor[0].games.map(g => g.id), ['b']); // 大宇's other game
   assert.deepEqual(r.sameYear.map(g => g.id), ['c']);         // 1995
   assert.ok(!r.sameSeries.some(g => g.id === 'a'));           // no self
 });

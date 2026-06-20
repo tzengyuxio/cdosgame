@@ -3,7 +3,7 @@ import { seriesUrl, companyUrl, yearUrl, gameUrl } from '../lib/links.js';
 const { related, g } = Astro.props;
 const blocks = [
   ['同系列', related.sameSeries, g.series ? seriesUrl(g.series) : null],
-  [`${g.developer || '同廠商'}的其他作品`, related.sameCompany, g.developer ? companyUrl(g.developer) : null],
+  ...(related.byVendor || []).map(v => [`${v.vendor}的其他作品`, v.games, companyUrl(v.vendor)]),
   [`${g.year || ''}年的其他遊戲`, related.sameYear, g.year ? yearUrl(g.year) : null],
 ].filter(([, list]) => list && list.length > 0);
 ---
