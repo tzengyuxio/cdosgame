@@ -1,0 +1,11 @@
+{
+  "self": { "name": "自行掃描／截圖", "url": null },
+  "boneash": { "name": "骨灰集散地", "url": "https://boneash.oldgame.tw/" },
+  "haruo": { "name": "哈魯歐遊戲廳", "url": "https://www.facebook.com/haruogames/" },
+  "chiuinan": { "name": "青衫之友交流網", "url": "https://chiuinan.github.io/game/" },
+  "fandom": { "name": "CN DOS Games Wiki", "url": "https://cn-dos-games.fandom.com/zh" },
+  "omega": { "name": "Omega 老遊戲討論區", "url": "https://omega.idv.tw/" },
+  "mobygames": { "name": "MobyGames", "url": "https://www.mobygames.com/" },
+  "wikipedia": { "name": "維基百科", "url": "https://zh.wikipedia.org/" },
+  "bahamut": { "name": "巴哈姆特", "url": "https://www.gamer.com.tw/" }
+}
