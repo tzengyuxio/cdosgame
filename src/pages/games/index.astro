@@ -29,6 +29,7 @@ import Base from '../../layouts/Base.astro';
     const LIMIT = { decade: 99, genre: 99, loc: 99, vendor: 40 };
     let GAMES = [];
     let vendorFilter = '';
+    let vendorShowTail = false;   // reveal vendors with ≤3 games (collapsed by default)
     const state = { q:'', sel:{decade:[],genre:[],vendor:[],loc:[]}, sort:'year:asc', page:1 };
 
     const esc = s => (s ?? '').toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
@@ -91,30 +92,56 @@ import Base from '../../layouts/Base.astro';
       const opts = deriveFacets(GAMES);
       const host = document.getElementById('facets');
       host.innerHTML = '';
+
+      const addOpt = (sec, key, value, count) => {
+        const checked = state.sel[key].includes(value);
+        const text = key === 'loc' ? locLabel(value) : value;
+        const lab = document.createElement('label');
+        lab.innerHTML = `<input type="checkbox" ${checked ? 'checked' : ''}> ${esc(text)} <span class="c">${count}</span>`;
+        lab.querySelector('input').onchange = e => {
+          if (e.target.checked) state.sel[key].push(value);
+          else state.sel[key] = state.sel[key].filter(v => v !== value);
+          state.page = 1; render();
+        };
+        sec.append(lab);
+      };
+      const addMore = (sec, text, fn) => {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'facet-more'; b.textContent = text; b.onclick = fn;
+        sec.append(b);
+      };
+
       for (const [key, label] of FACETS) {
         const sec = document.createElement('section');
         sec.className = 'facet';
         sec.innerHTML = `<h3>${label}</h3>`;
-        if (key === 'vendor') {
-          const vf = document.createElement('input');
-          vf.className = 'vfilter'; vf.placeholder = '篩廠商…'; vf.value = vendorFilter;
-          vf.oninput = e => { vendorFilter = e.target.value; renderFacets(); };
-          sec.append(vf);
+
+        if (key !== 'vendor') {
+          for (const { value, count } of opts[key].slice(0, LIMIT[key])) addOpt(sec, key, value, count);
+          host.append(sec);
+          continue;
         }
-        let list = opts[key];
-        if (key === 'vendor' && vendorFilter)
-          list = list.filter(o => o.value.includes(vendorFilter));
-        for (const { value, count } of list.slice(0, LIMIT[key])) {
-          const checked = state.sel[key].includes(value);
-          const text = key === 'loc' ? locLabel(value) : value;
-          const lab = document.createElement('label');
-          lab.innerHTML = `<input type="checkbox" ${checked ? 'checked' : ''}> ${esc(text)} <span class="c">${count}</span>`;
-          lab.querySelector('input').onchange = e => {
-            if (e.target.checked) state.sel[key].push(value);
-            else state.sel[key] = state.sel[key].filter(v => v !== value);
-            state.page = 1; render();
-          };
-          sec.append(lab);
+
+        // 廠商: case-insensitive 搜尋；無搜尋時把 ≤3 款的廠商收合
+        const vf = document.createElement('input');
+        vf.className = 'vfilter'; vf.placeholder = '篩廠商…'; vf.value = vendorFilter;
+        vf.oninput = e => { vendorFilter = e.target.value; renderFacets(); };
+        sec.append(vf);
+
+        if (vendorFilter) {
+          const q = vendorFilter.toLowerCase();
+          for (const o of opts.vendor.filter(o => o.value.toLowerCase().includes(q)))
+            addOpt(sec, 'vendor', o.value, o.count);
+        } else {
+          const major = opts.vendor.filter(o => o.count > 3);
+          const tail = opts.vendor.filter(o => o.count <= 3);
+          for (const o of major) addOpt(sec, 'vendor', o.value, o.count);
+          if (vendorShowTail) for (const o of tail) addOpt(sec, 'vendor', o.value, o.count);
+          if (tail.length) addMore(
+            sec,
+            vendorShowTail ? '收合 ≤3 款廠商' : `顯示其餘 ${tail.length} 家（≤3 款）`,
+            () => { vendorShowTail = !vendorShowTail; renderFacets(); },
+          );
         }
         host.append(sec);
       }
