@@ -1,5 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
+import { LOC_LABELS } from '../lib/labels.js';
+// keep level names in sync with labels.js; descriptions per CLAUDE.md scope
+const LOC_DESC = {
+  native: '原生中文開發（大宇、智冠、漢堂、精訊…）',
+  localized: '官方中文版／代理中文化',
+  packaging: '僅包裝／說明書中文，遊戲內仍英文',
+  foreign: '收錄但無中文化的外文遊戲',
+};
 ---
 <Base title="關於｜中文 DOS 遊戲資料庫">
   <article class="prose">
@@ -9,7 +17,11 @@ import Base from '../layouts/Base.astro';
     <h2>收錄準則</h2>
     <ul>
       <li>收錄有實際發行的遊戲；台灣產品導向（以台灣發行／代理為主）。</li>
-      <li>中文化分級全收再用標記篩選：A 原生中文開發、B 官方中文版／代理中文化、D 僅包裝中文。</li>
+      <li>中文化分級全收，再用標記篩選：
+        <ul>
+          {Object.entries(LOC_LABELS).map(([k, label]) => <li><strong>{label}</strong>——{LOC_DESC[k]}</li>)}
+        </ul>
+      </li>
       <li>缺資料以空值表示、不剔除；每筆力求可查證、附來源。</li>
     </ul>
 
