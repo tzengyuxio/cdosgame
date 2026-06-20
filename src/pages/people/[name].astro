@@ -64,7 +64,7 @@ const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url
         <><h2>相關作品</h2>
         <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>
       )}
-      <RefSection heading="參考資料" items={refItems} ordered />
+      <RefSection heading="註釋" items={refItems} ordered />
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">
