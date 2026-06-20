@@ -21,7 +21,8 @@
 | `roles` | enum 陣列 | `developer`/`publisher`/`localizer`/`distributor`——區分自製商 vs 代理／中文化商 |
 | `website` | URL | 現行官網；已歇業多半從缺 |
 | `featured_series` / `featured_games` | 陣列 | 代表系列字串 / 代表作 `cdg-NNNN`（須在該公司 developed/published 清單內才會顯示） |
-| `sources` | URL 陣列 | provenance，頁面底部以「參考資料」列出 |
+| `references` | `{title, url}` 陣列 | 參考資料（與遊戲 `references` 同名；遊戲是 typed map，公司是 {title,url} 清單，共用 `RefSection` 渲染）。title 含 `:`/`[` 等須加引號 |
+| `external_links` | `{標籤: url}` map | 外部連結（相關非引用連結） |
 
 ### Body（標準三段，保留彈性）
 
@@ -30,6 +31,15 @@
 3. **作品列表**：由頁面自動聚合（開發作品／台灣發行代理），通常不必手寫；資料極豐者可另附產品目錄表（如大宇）。
 
 資料很多可再加段落；資料少（如歡樂盒）僅簡介即可。**不強求一致**。
+
+### 頁底區塊（全站一致，維基風）
+
+由共用元件 `src/components/RefSection.astro` 渲染，公司頁與遊戲頁皆適用：
+
+- **參考資料 (References)**：事實來源，編號清單。公司＝`references`（{title,url}）；遊戲＝`references`（chiuinan/fandom/omega typed map，元件內轉成「青衫之友 介紹頁」等標籤）。
+- **外部連結 (External Links)**：相關非引用連結，項目清單。`external_links`（{標籤: url}）。
+
+兩者皆顯示**文字標題**而非裸網址；無資料則不顯示。
 
 ## 二、資料來源（依可靠度）
 

@@ -30,7 +30,10 @@ const companies = defineCollection({
     website: z.string().url().optional(),
     featured_series: z.array(z.string()).default([]),
     featured_games: z.array(z.string()).default([]),
-    sources: z.array(z.string().url()).default([]),  // rendered as 參考資料
+    // 參考資料 (References): {title, url}. Same field name as games' references
+    // (games keep their typed map shape; a shared RefSection renders both).
+    references: z.array(z.object({ title: z.string().optional(), url: z.string().url() })).default([]),
+    external_links: z.record(z.string(), z.string().url()).default({}),  // 外部連結
   }),
 });
 

@@ -3,6 +3,7 @@ import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
 import { seriesUrl, companyUrl } from '../../lib/links.js';
+import RefSection from '../../components/RefSection.astro';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -31,8 +32,8 @@ const STATUS = { active: '營運中', defunct: '已歇業', acquired: '被併購
 const ROLE = { developer: '開發', publisher: '發行', localizer: '中文化', distributor: '代理' };
 const lifespan = c?.founded ? (c.dissolved ? `${c.founded}–${c.dissolved}` : `${c.founded}`) : null;
 const roles = (c?.roles || []).map(r => ROLE[r] || r);
-const sources = c?.sources || [];
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
 ---
 <Base title={`${c?.name_zh || name}｜中文 DOS 遊戲資料庫`}>
   <DosBar path={`COMPANIES\\${name}`} right={c?.name_en || ''} />
@@ -51,9 +52,7 @@ const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } 
       )}
       {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></li>)}</ul></>}
       {published.length > 0 && <><h2>台灣發行／代理（{published.length}）</h2><ul class="glist">{published.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={`/games/${g.id}`}>{g.title_zh}</a></li>)}</ul></>}
-      {sources.length > 0 && (
-        <><h2>參考資料</h2><ol class="refs">{sources.map(u => <li><a class="lk" href={u} target="_blank" rel="noopener nofollow">{hostOf(u)} ↗</a></li>)}</ol></>
-      )}
+      <RefSection heading="參考資料" items={refItems} ordered />
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">
