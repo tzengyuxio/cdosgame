@@ -47,6 +47,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### 關鍵慣例
 
+- **頁面/資料架構（新增頁面類型前必讀）**：`docs/information-architecture.md` 定調站上有哪些頁面類型（games/companies/series/teams/people/events/topics）、slug 與路由通則、跨實體連結方式。公司頁細則見 `docs/company-pages.md`、遊戲 id 規則見 `docs/id-policy.md`。
 - **raw（原封）/ derived（提煉）/ content（catalog）** 三層；raw 圖檔與 `node_modules` gitignored，manifest 與 content md 進版控。
 - **id 穩定**：`data/id-registry.json` append-only，key 用 catalog_id 或 title+developer（不用會變動的 year）。
 - 收料落地慣例（provenance、刪檔陷阱）見 `sources.md` 末段。
