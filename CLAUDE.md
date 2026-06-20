@@ -33,6 +33,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 下一步全是「直接編檔」的活：補年代/開發商（外部如 MobyGames）、genre 分類、考據介紹（body）、圖片、修少數 LLM 誤判。
 
+**撰寫/補一則遊戲條目**（研究→填 frontmatter→寫正文→引用/附錄→驗證→發佈）的完整流程與房屋風格、易錯點，見 skill `.claude/skills/game-entry/`，直接打 `/game-entry <遊戲名|cdg-NNNN>` 觸發。
+
 ### Pipeline（🧊 已退役 / 歷史參考，**勿再跑 `build_content`**）
 
 > 以下為 freeze 前的生成流程，保留供考據回溯。**v0.2.0 起 content 為正本，重跑 `build_content` 會覆寫手改。** 若真要重建（極少數情況），須確認尚無手改 frontmatter。
