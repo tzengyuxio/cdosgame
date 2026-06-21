@@ -5,7 +5,7 @@
 // which the assistant reads to know what to publish / fix. Not linked from nav.
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl } from '../lib/links.js';
+import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl, topicUrl } from '../lib/links.js';
 import { execSync } from 'node:child_process';
 
 // changed/new content files since last push — the review set
@@ -28,8 +28,9 @@ const companies = filt((await getCollection('companies')).map(mk('companies', co
 const series = filt((await getCollection('series')).map(mk('series', seriesUrl)));
 const teams = filt((await getCollection('teams')).map(mk('teams', teamUrl)));
 const people = filt((await getCollection('people')).map(mk('people', personUrl)));
+const topics = filt((await getCollection('topics')).map(mk('topics', topicUrl)));
 
-const groups = [['遊戲', games], ['公司', companies], ['系列', series], ['團隊', teams], ['人物', people]];
+const groups = [['遊戲', games], ['公司', companies], ['系列', series], ['團隊', teams], ['人物', people], ['專題', topics]];
 const total = groups.reduce((n, [, a]) => n + a.length, 0);
 ---
 <Base title="審閱清單｜中文 DOS 遊戲資料庫">
