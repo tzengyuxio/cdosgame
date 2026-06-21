@@ -1,0 +1,30 @@
+---
+// Category-grouped media gallery. `groups` comes from galleryGroups() in
+// src/lib/media.js. Thumbnails are .media-thumb buttons; the shared
+// <Lightbox /> (rendered once per page) wires their click → fullscreen.
+const { groups = [] } = Astro.props;
+---
+{groups.length > 0 && (
+  <section class="media">
+    <h2>媒體</h2>
+    {groups.map(g => (
+      <div class="media-group">
+        <h3 class="media-cat">{g.label}</h3>
+        <div class="media-grid">
+          {g.items.map(m => (
+            <button
+              class="media-thumb" type="button"
+              data-full={m.full}
+              data-caption={m.caption || ''}
+              data-source={m.src_obj.name}
+              data-source-url={m.src_obj.url || ''}
+              data-credit={m.credit || ''}
+            >
+              <img src={m.thumb} alt={m.caption || m.kind} loading="lazy" />
+            </button>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+)}

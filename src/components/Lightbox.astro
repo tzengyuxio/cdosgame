@@ -1,0 +1,50 @@
+---
+// Shared lightbox: render once per page that has any .media-thumb buttons
+// (gallery thumbs and/or the infobox cover). Wires click / arrows / Esc.
+---
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-btn lb-close" type="button" aria-label="關閉">×</button>
+  <button class="lb-btn lb-prev" type="button" aria-label="上一張">‹</button>
+  <button class="lb-btn lb-next" type="button" aria-label="下一張">›</button>
+  <figure class="lb-fig" onclick="event.stopPropagation()">
+    <img class="lb-img" src="" alt="" />
+    <figcaption class="lb-cap"></figcaption>
+  </figure>
+</div>
+<script is:inline>
+  (() => {
+    const lb = document.getElementById('lightbox');
+    if (!lb) return;
+    const img = lb.querySelector('.lb-img');
+    const cap = lb.querySelector('.lb-cap');
+    const thumbs = [...document.querySelectorAll('.cover-img, .media-thumb')];
+    if (!thumbs.length) return;
+    let i = -1;
+    const show = (n) => {
+      i = (n + thumbs.length) % thumbs.length;
+      const t = thumbs[i];
+      img.src = t.dataset.full;
+      img.alt = t.dataset.caption || '';
+      const parts = [];
+      if (t.dataset.caption) parts.push(`<span class="c">${t.dataset.caption}</span>`);
+      const src = t.dataset.sourceUrl
+        ? `<a href="${t.dataset.sourceUrl}" target="_blank" rel="noopener">${t.dataset.source}</a>`
+        : t.dataset.source;
+      parts.push(`<span class="s">來源：${src}${t.dataset.credit ? '／' + t.dataset.credit : ''}</span>`);
+      cap.innerHTML = parts.join('');
+      lb.hidden = false;
+    };
+    const close = () => { lb.hidden = true; img.src = ''; };
+    thumbs.forEach((t, n) => t.addEventListener('click', () => show(n)));
+    lb.addEventListener('click', close);
+    lb.querySelector('.lb-close').addEventListener('click', (e) => { e.stopPropagation(); close(); });
+    lb.querySelector('.lb-prev').addEventListener('click', (e) => { e.stopPropagation(); show(i - 1); });
+    lb.querySelector('.lb-next').addEventListener('click', (e) => { e.stopPropagation(); show(i + 1); });
+    document.addEventListener('keydown', (e) => {
+      if (lb.hidden) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') show(i - 1);
+      else if (e.key === 'ArrowRight') show(i + 1);
+    });
+  })();
+</script>

@@ -54,12 +54,47 @@ function rehypeBaseLinks() {
   return (tree) => visit(tree);
 }
 
+// Inline media embeds: a markdown image whose src is `media:<file>[#align]`
+// (align = right|left|center, default right) becomes a floated <figure> pointing
+// at public/media/games/<id>/<file>. The game id is read from the content file
+// path. See docs/media.md §4.
+function rehypeMedia() {
+  return (tree, file) => {
+    const id = (String(file?.path || file?.history?.[0] || '').match(/cdg-\d{4,}/) || [])[0];
+    const toFigure = (alt, src) => {
+      const [name, align = 'right'] = src.slice('media:'.length).split('#');
+      const href = id ? `${BASE}/media/games/${id}/${name}` : name;
+      return {
+        type: 'element', tagName: 'figure', properties: { className: ['fig', align] },
+        children: [
+          { type: 'element', tagName: 'a', properties: { href, target: '_blank', rel: 'noopener' },
+            children: [{ type: 'element', tagName: 'img', properties: { src: href, alt, loading: 'lazy' }, children: [] }] },
+          ...(alt ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: [{ type: 'text', value: alt }] }] : []),
+        ],
+      };
+    };
+    const visit = (node) => {
+      for (const child of node.children || []) {
+        if (child.tagName === 'img' && typeof child.properties?.src === 'string' && child.properties.src.startsWith('media:')) {
+          const fig = toFigure(child.properties.alt || '', child.properties.src);
+          const onlyChild = node.tagName === 'p'
+            && node.children.filter(c => !(c.type === 'text' && !c.value.trim())).length === 1;
+          Object.assign(onlyChild ? node : child, fig);  // unwrap <p><img></p>, else replace img
+          continue;
+        }
+        visit(child);
+      }
+    };
+    visit(tree);
+  };
+}
+
 export default defineConfig({
   site: 'https://tzengyuxio.github.io',
   base: BASE,
   // v1 has no images; use a no-op image service so the build does not require
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
-  markdown: { rehypePlugins: [rehypeBaseLinks] },
+  markdown: { rehypePlugins: [rehypeBaseLinks, rehypeMedia] },
   integrations: [sitemap()],
 });

@@ -13,6 +13,12 @@ export const GENRES = [
   "策略", "城市建造", "模擬養成", "教育養成", "桌遊棋牌", "射擊", "格鬥", "運動動作",
 ];
 
+// curated media kinds (see docs/media.md)
+export const MEDIA_KINDS = [
+  "box-front", "box-back", "box-spine", "package", "disc", "floppy",
+  "manual-cover", "manual", "ad", "title", "screenshot", "other",
+];
+
 export const gameSchema = z.object({
   // identity
   id: z.string().regex(/^cdg-\d{4,}$/),
@@ -91,6 +97,21 @@ export const gameSchema = z.object({
     rwv_cover: z.string().optional(),
     fandom: z.string().optional(),
   }).default({}),
+  // curated, deployed image library (see docs/media.md). Files live in
+  // public/media/games/<id>/<src>; `source` is a code resolved via
+  // data/media-sources.json.
+  media: z.array(z.object({
+    src: z.string(),
+    kind: z.enum(MEDIA_KINDS),
+    caption: z.string().optional(),
+    source: z.string(),
+    source_url: z.string().url().optional(),
+    credit: z.string().optional(),
+    cover: z.boolean().optional(),
+    slot: z.enum(["hero"]).optional(),
+    order: z.number().optional(),
+    gallery: z.boolean().optional(),
+  })).default([]),
   references: z.object({
     omega: z.string().url().optional(),
     fandom: z.string().optional(),

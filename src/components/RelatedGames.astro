@@ -7,7 +7,7 @@ const blocks = [
 ].filter(([, list]) => list && list.length > 0);
 ---
 {blocks.map(([title, list, more]) => (
-  <section>
+  <section class="rel-block">
     <h2>{title}</h2>
     <div class="rel">
       {list.map((x, i) => <>{i > 0 && ' · '}<a class="lk" href={gameUrl(x.id)}>{x.title_zh}</a></>)}
