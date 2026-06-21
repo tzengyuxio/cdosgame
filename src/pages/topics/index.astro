@@ -4,8 +4,12 @@ import Base from '../../layouts/Base.astro';
 import { topicUrl, companyUrl, seriesUrl, teamUrl, personUrl } from '../../lib/links.js';
 
 const showAll = !import.meta.env.PROD;
+// stroke-aware ordering: Latin/digits alphabetical, 漢字 by stroke (same as 廠商索引)
+let coll;
+try { coll = new Intl.Collator('zh-Hant-u-co-stroke', { numeric: true }); }
+catch { coll = new Intl.Collator('zh-Hant'); }
 const topics = (await getCollection('topics', e => showAll || e.data.published))
-  .sort((a, b) => a.id.localeCompare(b.id, 'zh-Hant'));
+  .sort((a, b) => coll.compare(a.data.name_zh, b.data.name_zh));
 const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };
 ---
 <Base title="專題｜中文 DOS 遊戲資料庫">
