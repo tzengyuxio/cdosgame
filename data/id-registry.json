@@ -40741,6 +40741,15 @@
       ],
       "status": "active",
       "title_zh": "中國貳：永恆帝國"
+    },
+    "cdg-4527": {
+      "catalog_id": "6J056",
+      "developer": "LavaMind",
+      "keys": [
+        "t:太空大富翁|LavaMind"
+      ],
+      "status": "active",
+      "title_zh": "太空大富翁"
     }
   }
 }
