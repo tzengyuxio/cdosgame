@@ -8,6 +8,7 @@ import { companySchema } from "../schema/company.schema.mjs";
 import { seriesSchema } from "../schema/series.schema.mjs";
 import { teamSchema } from "../schema/team.schema.mjs";
 import { personSchema } from "../schema/person.schema.mjs";
+import { topicSchema } from "../schema/topic.schema.mjs";
 
 const FM = /^---\n([\s\S]*?)\n---/;
 
@@ -37,6 +38,7 @@ const COLLECTIONS = [
   { dir: "content/series", schema: seriesSchema, checkId: false },
   { dir: "content/teams", schema: teamSchema, checkId: false },
   { dir: "content/people", schema: personSchema, checkId: false, coll: "people" },
+  { dir: "content/topics", schema: topicSchema, checkId: false },
 ];
 
 let failed = 0;

@@ -2,7 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
-import { seriesUrl, companyUrl, teamUrl, gameUrl, personUrl, withBase } from '../../lib/links.js';
+import { seriesUrl, companyUrl, teamUrl, gameUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { organizationJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
 import RefSection from '../../components/RefSection.astro';
@@ -39,6 +39,11 @@ const companyIds = new Set((await getCollection('companies')).map(e => e.id));
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 // in-house teams whose parent_company points at this company
 const teams = (await getCollection('teams')).filter(t => t.data.parent_company === name);
+// curated topics whose parent points at this company
+const topics = (await getCollection('topics'))
+  .filter(t => (import.meta.env.PROD ? t.data.published : true)
+    && t.data.parent_type === 'company'
+    && (t.data.parent === name || t.data.parent === c?.name_zh));
 const Body = company ? (await render(company)).Content : null;
 const featured = (c?.featured_games || [])
   .map(id => [...developed, ...published].find(g => g.id === id)).filter(Boolean);
@@ -83,6 +88,9 @@ const jsonLd = [
       )}
       {teams.length > 0 && (
         <><h2>旗下團隊</h2><div class="vendrow">{teams.map(t => <a class="vend" href={teamUrl(t.id)}>{t.data.name_zh || t.id}</a>)}</div></>
+      )}
+      {topics.length > 0 && (
+        <><h2>專題／延伸條目</h2><ul class="glist">{topics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}</ul></>
       )}
       {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
       {published.length > 0 && <><h2>台灣發行／代理（{published.length}）</h2><ul class="glist">{published.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}

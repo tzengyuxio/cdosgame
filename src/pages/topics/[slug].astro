@@ -1,0 +1,62 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import DosBar from '../../components/DosBar.astro';
+import { companyUrl, seriesUrl, teamUrl, personUrl, withBase } from '../../lib/links.js';
+import { breadcrumb } from '../../lib/jsonld.js';
+import RefSection from '../../components/RefSection.astro';
+import GameList from '../../components/GameList.astro';
+import Share from '../../components/Share.astro';
+
+export async function getStaticPaths() {
+  const showAll = !import.meta.env.PROD;
+  const topics = await getCollection('topics', e => showAll || e.data.published);
+  return topics.map(e => ({ params: { slug: e.id }, props: { entry: e } }));
+}
+const { slug } = Astro.params;
+const { entry } = Astro.props;
+const t = entry.data;
+const Body = (await render(entry)).Content;
+// optional auto-aggregation by adaptation filters
+let listed = [];
+if (t.list_games) {
+  const q = t.list_games;
+  const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+  listed = games.map(e => e.data)
+    .filter(g => g.adaptation
+      && (!q.adaptation_author || g.adaptation.author === q.adaptation_author)
+      && (!q.adaptation_title || g.adaptation.title === q.adaptation_title)
+      && (!q.adaptation_medium || g.adaptation.medium === q.adaptation_medium))
+    .sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
+}
+const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };
+const parentHref = t.parent ? (PT[t.parent_type] || companyUrl)(t.parent) : null;
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const refItems = (t.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
+const extItems = Object.entries(t.external_links || {}).map(([text, url]) => ({ text, url }));
+const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const canonical = site + Astro.url.pathname;
+const desc = t.summary || `${t.name_zh}｜中文 DOS 遊戲資料庫專題`;
+const jsonLd = [breadcrumb(site, [
+  { name: '中文 DOS 遊戲資料庫', url: site + withBase('/') },
+  { name: '專題', url: site + withBase('/topics') },
+  { name: t.name_zh, url: canonical },
+])];
+---
+<Base title={`${t.name_zh}｜中文 DOS 遊戲資料庫`} description={desc} ogType="article" jsonLd={jsonLd}>
+  <DosBar path={`TOPICS\\${slug}`} right="" />
+  <div class="game-wiki">
+    <div class="gw-main">
+      <h1 class="game-title">{t.name_zh}</h1>
+      <div class="entity-sub">專題{parentHref && <>· 所屬：<a class="lk" href={parentHref}>{t.parent}</a></>}</div>
+      {t.summary && <p class="lead">{t.summary}</p>}
+      <div class="prose"><Body /></div>
+      {listed.length > 0 && (
+        <><h2>收錄遊戲（{listed.length}）</h2><GameList games={listed} /></>
+      )}
+      <RefSection heading="參考資料" items={refItems} />
+      <RefSection heading="外部連結" items={extItems} />
+      <Share />
+    </div>
+  </div>
+</Base>

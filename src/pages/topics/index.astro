@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { topicUrl, companyUrl, seriesUrl, teamUrl, personUrl } from '../../lib/links.js';
+
+const showAll = !import.meta.env.PROD;
+const topics = (await getCollection('topics', e => showAll || e.data.published))
+  .sort((a, b) => a.id.localeCompare(b.id, 'zh-Hant'));
+const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };
+---
+<Base title="專題｜中文 DOS 遊戲資料庫">
+  <h1 class="hub-title">專題 <span class="hub-count">{topics.length} 篇</span></h1>
+  <p class="hub-legend">附屬於公司、系列等實體的策展長文與目錄。</p>
+  <ul class="glist">
+    {topics.map(e => (
+      <li>
+        <a class="lk" href={topicUrl(e.id)}>{e.data.name_zh}</a>
+        {e.data.parent && <span class="y">（{e.data.parent}）</span>}
+      </li>
+    ))}
+  </ul>
+</Base>

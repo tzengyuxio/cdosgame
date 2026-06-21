@@ -13,4 +13,5 @@ export const companyUrl = c => `${BASE}/companies/${enc(c)}`;
 export const seriesUrl = s => `${BASE}/series/${enc(s)}`;
 export const teamUrl = t => `${BASE}/teams/${enc(t)}`;
 export const personUrl = p => `${BASE}/people/${enc(p)}`;
+export const topicUrl = t => `${BASE}/topics/${enc(t)}`;
 export const fandomUrl = t => `https://cn-dos-games.fandom.com/zh/wiki/${enc(t)}`;

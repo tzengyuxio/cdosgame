@@ -61,7 +61,7 @@
 | 團隊 | `teams` | `/teams/<名>` | 中文團隊字串 | `dev_team` | ✅ 已上線（DOMO小組） |
 | 人物 | `people` | `/people/<名>` | 中文正名 | `staff[].name`（＋選填 `staff[].person`） | ✅ 已上線（蔡明宏、鮑弘修） |
 | 事件/獎項 | `events` | `/events/<名>` | 中文正名 | （初期無，由 event md 反向掛） | 🔜 規範已定 |
-| 專題附屬頁 | `topics` | `/topics/<slug>` | 中文正名 | （非聚合，手寫） | 🔜 規範已定 |
+| 專題附屬頁 | `topics` | `/topics/<slug>` | 中文正名 | （非聚合，手寫） | ✅ 已上線（大宇資訊產品目錄） |
 
 ---
 

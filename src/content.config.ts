@@ -5,6 +5,7 @@ import { companySchema } from '../schema/company.schema.mjs';
 import { seriesSchema } from '../schema/series.schema.mjs';
 import { teamSchema } from '../schema/team.schema.mjs';
 import { personSchema } from '../schema/person.schema.mjs';
+import { topicSchema } from '../schema/topic.schema.mjs';
 
 // Force entry id = filename (not the frontmatter slug, which is non-unique for games;
 // for companies/series the filename IS the entity string used to join to game data).
@@ -35,4 +36,9 @@ const people = defineCollection({
   schema: personSchema,
 });
 
-export const collections = { games, companies, series, teams, people };
+const topics = defineCollection({
+  loader: glob({ pattern: '*.md', base: './content/topics', generateId: fileId }),
+  schema: topicSchema,
+});
+
+export const collections = { games, companies, series, teams, people, topics };
