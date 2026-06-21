@@ -21,7 +21,7 @@
 | `dev_team` | string \| null | | 廠內開發團隊／小組（如大宇 `DOMO小組`、`狂徒創作群`）|
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
 | `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|
-| `genre` | enum \| null | | 11 類：角色扮演、戰略角色扮演（SRPG）、冒險解謎、故事劇情、策略、城市建造（模擬城市/鐵路A計畫/巴士帝國類）、模擬養成、教育養成、桌遊棋牌、格鬥、運動動作（詞彙源自 chiuinan，日後可能重整，見 BACKLOG）|
+| `genre` | enum \| null | | 角色扮演、戰略角色扮演（SRPG）、冒險解謎、故事劇情、策略、歷史模擬（KOEI 三國志/信長之野望類歷史題材 SLG）、城市建造（模擬城市/鐵路A計畫/巴士帝國類）、模擬養成、教育養成、桌遊棋牌、射擊、格鬥、運動動作（詞彙源自 chiuinan，日後可能重整，見 BACKLOG）|
 | `localization_level` | `native`\|`localized`\|`packaging`\|`foreign` \| null | | native 原生中文開發 / localized 中文化 / packaging 中文包裝代理 / foreign 純外國（顯示標籤見 `src/lib/labels.js`）|
 | `adult` | bool | | 成人／限制級（18禁）旗標，預設 false；遊戲頁顯示「18禁」chip |
 | `adaptation` | object \| null | | 改編來源（預設 null）：`medium`（漫畫/小說/電影/電視劇/布袋戲/動畫/傳說/桌遊/遊戲/其他）+ `title` + 選填 `author`；infobox 顯示「改編自」|

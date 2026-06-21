@@ -11,7 +11,7 @@ import { mediaArray } from "./media.schema.mjs";
 export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
 export const GENRES = [
   "角色扮演", "戰略角色扮演", "冒險解謎", "故事劇情",
-  "策略", "城市建造", "模擬養成", "教育養成", "桌遊棋牌", "射擊", "格鬥", "運動動作",
+  "策略", "歷史模擬", "城市建造", "模擬養成", "教育養成", "桌遊棋牌", "射擊", "格鬥", "運動動作",
 ];
 
 // curated media kinds (see docs/media.md)
