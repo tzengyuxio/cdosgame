@@ -44,7 +44,7 @@ main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .media-cat{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.05em;margin:0 0 6px}
 .media-grid{display:flex;flex-wrap:wrap;gap:8px}
 .media-thumb{padding:0;border:1px solid var(--border);border-radius:4px;background:#fff;cursor:zoom-in;overflow:hidden;line-height:0}
-.media-thumb img{width:120px;height:90px;object-fit:cover;display:block}
+.media-thumb img{height:140px;width:auto;display:block}
 .media-thumb:hover{border-color:var(--brown)}
 
 /* lightbox */
