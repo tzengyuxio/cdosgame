@@ -3,7 +3,7 @@ import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import GameList from '../../components/GameList.astro';
 import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
-import { companyUrl, withBase } from '../../lib/links.js';
+import { companyUrl, topicUrl, withBase } from '../../lib/links.js';
 import { seriesJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
 import Share from '../../components/Share.astro';
@@ -24,6 +24,11 @@ const dev = topValue(list, g => g.developer);
 const range = yearRange(list);
 const entry = await getEntry('series', series);
 const Body = entry ? (await render(entry)).Content : null;
+// curated topics whose parent points at this series
+const topics = (await getCollection('topics'))
+  .filter(t => (import.meta.env.PROD ? t.data.published : true)
+    && t.data.parent_type === 'series'
+    && t.data.parent === series);
 const desc = `${series}系列：收錄 ${games.length} 款${dev ? `，主要廠商 ${dev}` : ''}${range ? `（${range.min}–${range.max}）` : ''}。中文 DOS 遊戲資料庫系列條目。`;
 const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
@@ -41,5 +46,8 @@ const jsonLd = [
   <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
   {Body && <div class="prose"><Body /></div>}
   <GameList games={games} />
+  {topics.length > 0 && (
+    <><h2>專題／延伸條目</h2><ul class="glist">{topics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}</ul></>
+  )}
   <Share />
 </Base>
