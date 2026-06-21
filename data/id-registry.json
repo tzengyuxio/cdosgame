@@ -7608,8 +7608,9 @@
       "keys": [
         "t:至尊江湖|Starshine"
       ],
-      "status": "active",
-      "title_zh": "至尊江湖"
+      "status": "rejected",
+      "title_zh": "至尊江湖",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-0846": {
       "catalog_id": "SCD0124",
@@ -20388,8 +20389,9 @@
       "keys": [
         "t:黑山群俠傳|westcoast"
       ],
-      "status": "active",
-      "title_zh": "黑山群俠傳"
+      "status": "rejected",
+      "title_zh": "黑山群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2266": {
       "catalog_id": "SCD1945",
@@ -23358,8 +23360,9 @@
       "keys": [
         "t:鄉民闖江湖|佚名"
       ],
-      "status": "active",
-      "title_zh": "鄉民闖江湖"
+      "status": "rejected",
+      "title_zh": "鄉民闖江湖",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2596": {
       "catalog_id": "SCD0386",
@@ -25770,8 +25773,9 @@
       "keys": [
         "t:金庸水滸傳|小小豬"
       ],
-      "status": "active",
-      "title_zh": "金庸水滸傳"
+      "status": "rejected",
+      "title_zh": "金庸水滸傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2864": {
       "catalog_id": null,
@@ -25779,8 +25783,9 @@
       "keys": [
         "t:金庸無雙2|亞古"
       ],
-      "status": "active",
-      "title_zh": "金庸無雙2"
+      "status": "rejected",
+      "title_zh": "金庸無雙2",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2865": {
       "catalog_id": "SCD2233",
@@ -25797,8 +25802,9 @@
       "keys": [
         "t:金庸群俠傳：|leo32145"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳："
+      "status": "rejected",
+      "title_zh": "金庸群俠傳：",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2867": {
       "catalog_id": null,
@@ -25806,8 +25812,9 @@
       "keys": [
         "t:金庸群俠傳：天書劫|henvgui1987"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳：天書劫"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳：天書劫",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2868": {
       "catalog_id": null,
@@ -25815,8 +25822,9 @@
       "keys": [
         "t:金庸群俠傳：蒼龍逐日|小小豬"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳：蒼龍逐日"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳：蒼龍逐日",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2869": {
       "catalog_id": null,
@@ -25824,8 +25832,9 @@
       "keys": [
         "t:金庸群俠傳3|半瓶神仙醋"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳3"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳3",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2870": {
       "catalog_id": null,
@@ -25833,8 +25842,9 @@
       "keys": [
         "t:金庸群俠傳5|愛玩不玩工作室"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳5"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳5",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2871": {
       "catalog_id": null,
@@ -25842,8 +25852,9 @@
       "keys": [
         "t:金庸群俠傳|tsmdsyp"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2872": {
       "catalog_id": null,
@@ -25851,8 +25862,9 @@
       "keys": [
         "t:金庸群俠傳|tsmdsyp#2"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2873": {
       "catalog_id": null,
@@ -25860,8 +25872,9 @@
       "keys": [
         "t:金庸群俠傳|漢家松鼠小組"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2874": {
       "catalog_id": null,
@@ -25869,8 +25882,9 @@
       "keys": [
         "t:金庸群俠傳|風礦"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2875": {
       "catalog_id": null,
@@ -25878,8 +25892,9 @@
       "keys": [
         "t:金庸群俠傳外傳：天書奇俠|KG"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠傳外傳：天書奇俠"
+      "status": "rejected",
+      "title_zh": "金庸群俠傳外傳：天書奇俠",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2876": {
       "catalog_id": null,
@@ -25887,8 +25902,9 @@
       "keys": [
         "t:金庸群俠前傳|不算工作室"
       ],
-      "status": "active",
-      "title_zh": "金庸群俠前傳"
+      "status": "rejected",
+      "title_zh": "金庸群俠前傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2877": {
       "catalog_id": null,
@@ -25905,8 +25921,9 @@
       "keys": [
         "t:金書紅顏錄|慕容玄恭"
       ],
-      "status": "active",
-      "title_zh": "金書紅顏錄"
+      "status": "rejected",
+      "title_zh": "金書紅顏錄",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2879": {
       "catalog_id": null,
@@ -25914,8 +25931,9 @@
       "keys": [
         "t:金書群俠傳|顧朝惜"
       ],
-      "status": "active",
-      "title_zh": "金書群俠傳"
+      "status": "rejected",
+      "title_zh": "金書群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2880": {
       "catalog_id": null,
@@ -25923,8 +25941,9 @@
       "keys": [
         "t:金書群芳譜|慕容玄恭"
       ],
-      "status": "active",
-      "title_zh": "金書群芳譜"
+      "status": "rejected",
+      "title_zh": "金書群芳譜",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2881": {
       "catalog_id": null,
@@ -25932,8 +25951,9 @@
       "keys": [
         "t:金洛群俠傳|佚名"
       ],
-      "status": "active",
-      "title_zh": "金洛群俠傳"
+      "status": "rejected",
+      "title_zh": "金洛群俠傳",
+      "reject_reason": "fan-mod, out of scope (非商業發行)"
     },
     "cdg-2882": {
       "catalog_id": "SCD2805",
@@ -40759,6 +40779,15 @@
       ],
       "status": "active",
       "title_zh": "春秋爭霸傳二：問鼎天下"
+    },
+    "cdg-4529": {
+      "catalog_id": null,
+      "developer": "劉昭毅",
+      "keys": [
+        "t:星河戰士|劉昭毅"
+      ],
+      "status": "active",
+      "title_zh": "星河戰士"
     }
   }
 }

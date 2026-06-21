@@ -66,5 +66,21 @@ created: 2026-06-20
 - [ ] 春秋爭霸傳二（cdg-4528，新建）— 使用者寫「春秋爭霸戰2」係下載站誤植，正名《春秋爭霸傳二：問鼎天下》（大宇 1996）；製作人員查無多源、未填；catalog_id 待補（2026-06-21）
 - [ ] 魔法世紀2（cdg-3707）發行年 — 多數源作 1994、Fandom 著錄作 1995；採 1994。續作開發團隊狂徒創作群僅 Newton 單源、未寫入 dev_team（2026-06-21）
 - [ ] 魔神戰記2（cdg-3770）發行年 — 1996（開發/上市）與 1997（Fandom 發售 1997-01-15）兩說，採 1997；製作「亞特斯小組」未設 dev_team（2026-06-21）
+- [ ] 末日寶典（cdg-3070）發行商 — 宏申資訊僅 omega 單源、未寫入 publisher_tw；傑克豆工作室是否正式公司登記待考（2026-06-21）
+- [ ] 美少女特勤組（cdg-1487）— year 由日本原版 1994 改台版 1995；genre 一手 omega 偏 AVG（採角色扮演，body 註明含 AVG）；developer_region 補 JP（2026-06-21）
+- [ ] 新美女拳（cdg-2350）— catalog_id 現為 RSZ001、惟盒裝代碼為 SR907，疑不符待查；developer 花與蝴蝶國別無一手佐證、維持 null；是否有前作「美女拳」待考（2026-06-21）
+- [ ] 隋唐爭霸（cdg-1366）— 斯普軟件＝成都大陸廠（developer_region 補 CN、localization 改 localized）；與斯普《新隋唐演義》(2002) 關係不明、勿合併；斯普為大陸廠主要靠 omega+zhihu，待硬佐證（2026-06-21）
+- [ ] 隋唐群雄傳（cdg-1367）— 正名「隋唐群雄傳」（bilibili UP 標「隋唐英雄傳」係誤植、已列 alias）（2026-06-21）
+- [ ] 隋唐演義（cdg-1365）— 已擴充正文；流通缺片、玩法細節查無；分類索引有「角色扮演」異說，採回合策略（2026-06-21）
+- [ ] 卒業旅行（cdg-0195）— chiuinan 標原開發「G.Labo」與日文維基等多源「JANIS」衝突、採 JANIS；developer_region 補 JP（2026-06-21）
+- [ ] 天地劫三部曲（cdg-0458/0459/0460）— 三作皆漢堂開發、智冠代理（已補 publisher 智冠）；漢堂後被智冠收購改名智樂堂，與宇峻奧汀無關；0460 正名「天地劫外章：寰神結」（官方「外章」，俗稱「外傳」列 alias）；0459/0460 製作名單主要倚維基、待實體佐證（2026-06-21）
+- [ ] 塔克拉瑪干：敦煌傳奇（cdg-0784）— 1995 PC 原版、後移植 Mac/SS/PS（platform_note 僅標 Windows）；語言版本數 9 vs 10 異說；「84 年度傑出資訊獎」單源待考（2026-06-21）
+- [ ] 星河戰士（cdg-4529，新建）— MX-151、Apple II 1987、精訊發行、劉昭毅在學獨力開發，「中文第一款 RPG」；平台 Apple II（非 DOS，依早期平台前收政策收錄）；協力者李永志/葉明璋僅 cngames 單源、未入 staff（2026-06-21）
+- [x] 金庸 mod 廢棄（20 筆）— 使用者指定廢棄玩家 mod：cdg-0845/2265/2595/2863/2864/2866-2876/2878-2881，已刪 content 檔並於 id-registry 標 status:rejected（reject_reason: fan-mod 非商業發行）。正本 cdg-2865、與金撲克 cdg-2877 保留不動（2026-06-21）
+- [x] 地標款擴寫（依 entry-depth-by-importance 回饋）— 仙劍奇俠傳(cdg-1564)/軒轅劍2(cdg-1882)/三國群英傳(cdg-0239)/超時空英雄傳說(cdg-2172)/笑傲江湖(cdg-1876) 由兩段擴成 3–4 段（2026-06-21）
+- [ ] 地標款殘留待考 — 仙劍「上市首日售罄萬份」僅單源（已軟化未寫死數字）；笑傲江湖 size:1CD 疑誤（1993 DOS 20MB 應為磁片）、發行日 3/29 與人物數 31 單源待考；三國群英傳 publisher 智冠僅 chiuinan/catalog 單源；軒轅劍2 六人編劇名單僅 chiuinan 單源（未全列）；超時空 cdg-2172 platform_note 由「無」改 DOS、series 補（2026-06-21）
+- [ ] 金庸群俠傳 重複 — 正本＝cdg-2865（智冠/河洛 1996，已發佈、已豐富，含 adaptation 金庸、在金庸專題）；cdg-2874 實為 2017 同人版「紳士無雙版」(風礦)、且被合併了 1996 的圖源（legend/jys/jysa/jyx/jyx_sw）。cdg-2874 維持未發佈，待決 dedup（同人版疑超出商業發行範圍、或圖源應併回 cdg-2865）。⚠ 補強時誤改 cdg-2874 為 1996 原作、已還原（2026-06-21）
+- [ ] 炎龍騎士團 cdg-3924 為 I+II 合輯殘骸 — 真正首作＝cdg-3264 邪神之封印(1994 已發佈)、二代 cdg-3265、外傳 cdg-3266；cdg-3924 原 region 誤標 CN/無 developer，已修為漢堂/TW 但維持未發佈，待決 dedup/merge（2026-06-21）
+- [ ] 便利商店（cdg-1601）— developer/publisher 富峰群(1999 同年更名遊戲橘子)、region 補 TW、series 補；「銷量120萬套」查無佐證未採（多源僅見上市兩天逾3萬套、1999 銷售冠軍）；平台 DOS vs 早期Windows 單源待考（2026-06-21）
 - [ ] 印加帝國2（cdg-0691）中文化程度 — 已補完發佈；智冠代理、有中文盒裝掃描（box-front/back）故定 packaging，惟本作 FMV／配音為英文、in-game 是否有中文字幕未確認，content_language 暫 en，待實物佐證。另 cdg-0689「印加帝國」實為 Ubisoft《Theocracy》、與本系列(Inca, Coktel Vision)無關（2026-06-21）
 - [x] 太空大富翁（cdg-4527）— 使用者 hint「Spectrum HoloByte 開發」應為發行商；實際開發商為美國 LavaMind（Steven S. Hoffman／Naomi Kokubo），Spectrum HoloByte 僅取得零售發行權（已依此填 developer=LavaMind）。中文化程度經使用者確認：第三波代理版**僅中文包裝、遊戲本體未中文化**，定 packaging/en（編號 6J056、Windows、1CD）（2026-06-21）
