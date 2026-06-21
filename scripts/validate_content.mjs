@@ -1,7 +1,7 @@
 // Validate every content/*/*.md frontmatter against its Zod schema.
 // Usage: npm run validate   (covers games, companies, series)
 import { readFileSync, readdirSync, existsSync } from "node:fs";
-import { join } from "node:path";
+import { join, basename } from "node:path";
 import yaml from "js-yaml";
 import { gameSchema } from "../schema/game.schema.mjs";
 import { companySchema } from "../schema/company.schema.mjs";
@@ -13,14 +13,14 @@ const FM = /^---\n([\s\S]*?)\n---/;
 
 const MEDIA_SOURCES = JSON.parse(readFileSync("data/media-sources.json", "utf8"));
 
-// Extra checks for a game's curated media[]: file presence, source code in the
-// registry (warning), at most one cover. Returns { errors[], warnings[] }.
-function checkMedia(id, media = []) {
+// Extra checks for curated media[]: file presence under public/media/<coll>/<slug>/,
+// source code in the registry (warning), at most one cover. Returns { errors[], warnings[] }.
+function checkMedia(coll, slug, media = []) {
   const errors = [];
   const warnings = [];
   let covers = 0;
   for (const m of media) {
-    const p = join("public/media/games", id, m.src);
+    const p = join("public/media", coll, slug, m.src);
     if (!existsSync(p)) errors.push(`media ${m.src}: 檔案不存在 (${p})`);
     if (m.cover) covers++;
     if (m.source && !(m.source in MEDIA_SOURCES)) warnings.push(`media ${m.src}: 來源碼 "${m.source}" 未登錄於 media-sources.json`);
@@ -32,16 +32,16 @@ function checkMedia(id, media = []) {
 // games carry an `id` field (checked for uniqueness); companies/series use the
 // filename as id (unique on disk by definition), so only schema-validate them.
 const COLLECTIONS = [
-  { dir: "content/games", schema: gameSchema, checkId: true },
-  { dir: "content/companies", schema: companySchema, checkId: false },
+  { dir: "content/games", schema: gameSchema, checkId: true, coll: "games" },
+  { dir: "content/companies", schema: companySchema, checkId: false, coll: "companies" },
   { dir: "content/series", schema: seriesSchema, checkId: false },
   { dir: "content/teams", schema: teamSchema, checkId: false },
-  { dir: "content/people", schema: personSchema, checkId: false },
+  { dir: "content/people", schema: personSchema, checkId: false, coll: "people" },
 ];
 
 let failed = 0;
 
-for (const { dir, schema, checkId } of COLLECTIONS) {
+for (const { dir, schema, checkId, coll } of COLLECTIONS) {
   if (!existsSync(dir)) continue;
   const files = readdirSync(dir).filter((f) => f.endsWith(".md"));
   let ok = 0;
@@ -64,8 +64,9 @@ for (const { dir, schema, checkId } of COLLECTIONS) {
     const r = schema.safeParse(data);
     if (r.success) {
       ok++;
-      if (checkId && data.media?.length) {
-        const mc = checkMedia(data.id, data.media);
+      if (coll && data.media?.length) {
+        const slug = checkId ? data.id : basename(f, ".md");
+        const mc = checkMedia(coll, slug, data.media);
         for (const e of mc.errors) errors.push({ f, issue: e });
         for (const w of mc.warnings) warnings.push({ f, issue: w });
       }

@@ -60,15 +60,16 @@ function rehypeBaseLinks() {
 // path. See docs/media.md §4.
 function rehypeMedia() {
   return (tree, file) => {
-    const id = (String(file?.path || file?.history?.[0] || '').match(/cdg-\d{4,}/) || [])[0];
+    // derive collection + slug from the content file path (games/companies/people)
+    const pm = String(file?.path || file?.history?.[0] || '').match(/content\/(games|companies|people)\/(.+?)\.md$/);
+    const dir = pm ? `${BASE}/media/${pm[1]}/${pm[2]}` : null;
     const toFigure = (alt, src) => {
       const [name, align = 'right'] = src.slice('media:'.length).split('#');
-      const href = id ? `${BASE}/media/games/${id}/${name}` : name;
+      const href = dir ? `${dir}/${name}` : name;
       return {
         type: 'element', tagName: 'figure', properties: { className: ['fig', align] },
         children: [
-          { type: 'element', tagName: 'a', properties: { href, target: '_blank', rel: 'noopener' },
-            children: [{ type: 'element', tagName: 'img', properties: { src: href, alt, loading: 'lazy' }, children: [] }] },
+          { type: 'element', tagName: 'img', properties: { className: ['fig-img'], src: href, alt, loading: 'lazy', dataFull: href, dataCaption: alt }, children: [] },
           ...(alt ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: [{ type: 'text', value: alt }] }] : []),
         ],
       };

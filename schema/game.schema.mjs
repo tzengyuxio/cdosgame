@@ -6,6 +6,7 @@
 //   export const collections = { games: defineCollection({ type: 'content', schema: gameSchema }) };
 // (Astro re-exports zod, so the shape below transfers unchanged.)
 import { z } from "zod";
+import { mediaArray } from "./media.schema.mjs";
 
 export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
 export const GENRES = [
@@ -100,18 +101,7 @@ export const gameSchema = z.object({
   // curated, deployed image library (see docs/media.md). Files live in
   // public/media/games/<id>/<src>; `source` is a code resolved via
   // data/media-sources.json.
-  media: z.array(z.object({
-    src: z.string(),
-    kind: z.enum(MEDIA_KINDS),
-    caption: z.string().optional(),
-    source: z.string(),
-    source_url: z.string().url().optional(),
-    credit: z.string().optional(),
-    cover: z.boolean().optional(),
-    slot: z.enum(["hero"]).optional(),
-    order: z.number().optional(),
-    gallery: z.boolean().optional(),
-  })).default([]),
+  media: mediaArray(MEDIA_KINDS),
   references: z.object({
     omega: z.string().url().optional(),
     fandom: z.string().optional(),

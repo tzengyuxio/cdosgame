@@ -2,6 +2,7 @@
 // canonical zh name; linked from games via staff[].name or staff[].person.
 // Imported by both src/content.config.ts and scripts/validate_content.mjs.
 import { z } from "zod";
+import { mediaArray, PERSON_MEDIA_KINDS } from "./media.schema.mjs";
 
 export const personSchema = z.object({
   name_zh: z.string(),
@@ -15,6 +16,7 @@ export const personSchema = z.object({
   featured_games: z.array(z.string()).default([]),  // games tied to them but not via staff (代言/客串)
   references: z.array(z.object({ title: z.string().optional(), url: z.string().url() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),
+  media: mediaArray(PERSON_MEDIA_KINDS),  // public/media/people/<slug>/
 });
 
 export default personSchema;

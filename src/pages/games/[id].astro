@@ -9,7 +9,7 @@ import CategoryFooter from '../../components/CategoryFooter.astro';
 import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
-import { coverOf, galleryGroups, decorate, kindLabel } from '../../lib/media.js';
+import { coverOf, decorate, kindLabel, groupDecorated } from '../../lib/media.js';
 import { genreUrl, seriesUrl, personUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
@@ -42,8 +42,14 @@ const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/
 const canonical = site + Astro.url.pathname;
 // curated media: infobox cover, category gallery, per-page og:image
 const cover = coverOf(g.media);
-const coverItem = cover ? decorate(cover, g.id) : null;
-const groups = galleryGroups(g.media, g.id);
+const coverItem = cover ? decorate(cover, 'games', g.id) : null;
+// publisher/company ads that feature this game (stored once on the company,
+// surfaced here via media[].games — e.g. one 第三波 ad covering several 光榮 titles)
+const companies = await getCollection('companies', e => import.meta.env.PROD ? e.data.published : true);
+const adItems = [];
+for (const c of companies) for (const m of (c.data.media || [])) if (m.games?.includes(g.id)) adItems.push(decorate(m, 'companies', c.id));
+const groups = groupDecorated([...g.media.map(m => decorate(m, 'games', g.id)), ...adItems]);
+const hasMedia = g.media.length > 0 || adItems.length > 0;
 const ogImage = cover ? `/media/games/${g.id}/${cover.src}` : undefined;
 const jsonLd = [
   gameJsonLd(g, { site, url: canonical, description, dateModified: lastModified(`content/games/${g.id}.md`) }),
@@ -122,5 +128,5 @@ const staffByRole = staff => {
     </aside>
   </div>
   <CategoryFooter g={g} />
-  {g.media.length > 0 && <Lightbox />}
+  {hasMedia && <Lightbox />}
 </Base>

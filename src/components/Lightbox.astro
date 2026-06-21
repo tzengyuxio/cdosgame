@@ -17,7 +17,7 @@
     if (!lb) return;
     const img = lb.querySelector('.lb-img');
     const cap = lb.querySelector('.lb-cap');
-    const thumbs = [...document.querySelectorAll('.cover-img, .media-thumb')];
+    const thumbs = [...document.querySelectorAll('.cover-img, .media-thumb, .fig-img')];
     if (!thumbs.length) return;
     let i = -1;
     const show = (n) => {
@@ -27,10 +27,12 @@
       img.alt = t.dataset.caption || '';
       const parts = [];
       if (t.dataset.caption) parts.push(`<span class="c">${t.dataset.caption}</span>`);
-      const src = t.dataset.sourceUrl
-        ? `<a href="${t.dataset.sourceUrl}" target="_blank" rel="noopener">${t.dataset.source}</a>`
-        : t.dataset.source;
-      parts.push(`<span class="s">來源：${src}${t.dataset.credit ? '／' + t.dataset.credit : ''}</span>`);
+      if (t.dataset.source) {
+        const src = t.dataset.sourceUrl
+          ? `<a href="${t.dataset.sourceUrl}" target="_blank" rel="noopener">${t.dataset.source}</a>`
+          : t.dataset.source;
+        parts.push(`<span class="s">來源：${src}${t.dataset.credit ? '／' + t.dataset.credit : ''}</span>`);
+      }
       cap.innerHTML = parts.join('');
       lb.hidden = false;
     };

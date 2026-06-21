@@ -1,5 +1,6 @@
 {
   "self": { "name": "本站製作", "url": null },
+  "scan": { "name": "本站掃描", "url": null },
   "boneash": { "name": "骨灰集散地", "url": "https://boneash.oldgame.tw/" },
   "haruo": { "name": "哈魯歐遊戲廳", "url": "https://www.facebook.com/haruogames/" },
   "chiuinan": { "name": "青衫之友交流網", "url": "https://chiuinan.github.io/game/" },

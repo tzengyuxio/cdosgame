@@ -2,6 +2,7 @@
 // developer/publisher string used in game data, joined to game entries at build.
 // Imported by both src/content.config.ts and scripts/validate_content.mjs.
 import { z } from "zod";
+import { mediaArray, COMPANY_MEDIA_KINDS } from "./media.schema.mjs";
 
 export const companySchema = z.object({
   name_zh: z.string(),
@@ -24,6 +25,9 @@ export const companySchema = z.object({
   // (games keep their typed map shape; a shared RefSection renders both).
   references: z.array(z.object({ title: z.string().optional(), url: z.string().url() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),  // 外部連結
+  // curated media (public/media/companies/<slug>/). An `ad` may carry games:[cdg-…]
+  // to also surface on those game pages (see docs/media.md §5.5).
+  media: mediaArray(COMPANY_MEDIA_KINDS, { games: true }),
 });
 
 export default companySchema;
