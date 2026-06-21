@@ -40750,6 +40750,15 @@
       ],
       "status": "active",
       "title_zh": "太空大富翁"
+    },
+    "cdg-4528": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:春秋爭霸傳二：問鼎天下|大宇"
+      ],
+      "status": "active",
+      "title_zh": "春秋爭霸傳二：問鼎天下"
     }
   }
 }
