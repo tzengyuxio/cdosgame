@@ -45,6 +45,11 @@ function rehypeBaseLinks() {
           continue;
         }
         if (href.startsWith('/') && !href.startsWith('//')) node.properties.href = BASE + href;
+        else if (/^https?:\/\//.test(href) || href.startsWith('//')) {
+          // external link → open in a new tab
+          node.properties.target = '_blank';
+          node.properties.rel = 'noopener nofollow';
+        }
       }
       visit(node);
       out.push(node);
