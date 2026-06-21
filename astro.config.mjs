@@ -97,5 +97,7 @@ export default defineConfig({
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
   markdown: { rehypePlugins: [rehypeBaseLinks, rehypeMedia] },
+  // 公司改名：世紀縱橫 → 貳碼科技（單頁，舊網址導向新頁）
+  redirects: { '/companies/世紀縱橫': `${BASE}/companies/貳碼科技` },
   integrations: [sitemap()],
 });
