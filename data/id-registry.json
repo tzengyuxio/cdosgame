@@ -40732,6 +40732,15 @@
       ],
       "status": "active",
       "title_zh": "神氣兔寶貝"
+    },
+    "cdg-4526": {
+      "catalog_id": null,
+      "developer": "貳碼科技",
+      "keys": [
+        "t:中國貳：永恆帝國|貳碼科技"
+      ],
+      "status": "active",
+      "title_zh": "中國貳：永恆帝國"
     }
   }
 }
