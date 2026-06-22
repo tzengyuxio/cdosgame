@@ -5,7 +5,7 @@ import DosBar from '../../components/DosBar.astro';
 import { seriesUrl, companyUrl, teamUrl, gameUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { organizationJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
-import RefSection from '../../components/RefSection.astro';
+import EntityRefs from '../../components/EntityRefs.astro';
 import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
@@ -51,8 +51,6 @@ const STATUS = { active: '營運中', defunct: '已歇業', acquired: '被併購
 const ROLE = { developer: '開發', publisher: '發行', localizer: '中文化', distributor: '代理' };
 const lifespan = c?.founded ? (c.dissolved ? `${c.founded}–${c.dissolved}` : `${c.founded}`) : null;
 const roles = (c?.roles || []).map(r => ROLE[r] || r);
-const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
-const refItems = (c?.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
 const desc = `${c?.name_zh || name}${c?.name_en ? `（${c.name_en}）` : ''}：開發 ${developed.length} 款、台灣發行／代理 ${published.length} 款。中文 DOS 遊戲資料庫廠商條目。`;
 const media = c?.media || [];
 const cover = coverOf(media);
@@ -94,7 +92,7 @@ const jsonLd = [
       )}
       {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
       {published.length > 0 && <><h2>台灣發行／代理（{published.length}）</h2><ul class="glist">{published.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>}
-      <RefSection heading="註釋" items={refItems} ordered />
+      <EntityRefs entity={c} />
       <Gallery groups={mediaGroups} />
     </div>
     <aside class="gw-ib">

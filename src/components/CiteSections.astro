@@ -1,0 +1,48 @@
+---
+// Unified citation footer for all entity types (see docs/refs-convention.md).
+// Three sections: 參考資料 (references) / 註釋 (footnotes) / 外部連結 (external links).
+// Global [N] sequence: cited refs [1..k] first, then footnotes [k+1..]; general
+// references and external links are unnumbered. Cited items carry #cite-N anchors
+// matched by prose <sup class="cite"><a href="#cite-N">[N]</a></sup>.
+const { footnotes = [], citedRefs = [], generalRefs = [], externalLinks = [] } = Astro.props;
+const k = citedRefs.length;
+---
+{(citedRefs.length > 0 || generalRefs.length > 0) && (
+  <section class="sources">
+    <h2>參考資料</h2>
+    {citedRefs.length > 0 && (
+      <ol class="refs">
+        {citedRefs.map((it, i) => (
+          <li id={`cite-${i + 1}`} value={i + 1}>
+            <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
+          </li>
+        ))}
+      </ol>
+    )}
+    {generalRefs.length > 0 && (
+      <ul class="refs">
+        {generalRefs.map(it => (
+          <li><a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a></li>
+        ))}
+      </ul>
+    )}
+  </section>
+)}
+{footnotes.length > 0 && (
+  <section class="sources">
+    <h2>註釋</h2>
+    <ol class="refs">
+      {footnotes.map((text, i) => <li id={`cite-${k + i + 1}`} value={k + i + 1}>{text}</li>)}
+    </ol>
+  </section>
+)}
+{externalLinks.length > 0 && (
+  <section class="sources">
+    <h2>外部連結</h2>
+    <ul class="refs">
+      {externalLinks.map(it => (
+        <li><a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a></li>
+      ))}
+    </ul>
+  </section>
+)}

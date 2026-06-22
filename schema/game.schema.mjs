@@ -109,12 +109,14 @@ export const gameSchema = z.object({
   // public/media/games/<id>/<src>; `source` is a code resolved via
   // data/media-sources.json.
   media: mediaArray(MEDIA_KINDS),
+  // 註釋 (footnotes): plain-text explanatory notes (no url), cited inline as [N]. See docs/refs-convention.md.
+  footnotes: z.array(z.string()).default([]),
   references: z.object({
+    // auto-collected source pages → 參考資料 段 as general references (no [N]).
     omega: z.string().url().optional(),
     fandom: z.string().optional(),
     chiuinan: z.string().url().optional(),
-    // ad-hoc cited sources (label → url), for prose footnote citations beyond
-    // the canonical source pages above; rendered into 參考資料 with cite-N anchors.
+    // inline-cited sources (label → url) → 參考資料 段 with cite-N anchors ([N]).
     cited: z.record(z.string().url()).optional(),
   }).default({}),
   external_links: z.record(z.string().url()).default({}),

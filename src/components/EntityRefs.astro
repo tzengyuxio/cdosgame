@@ -1,0 +1,18 @@
+---
+// Citation footer for non-game entities (companies/people/teams/topics). Maps the
+// flat references[] array (with optional cited:true) into the shared CiteSections.
+import CiteSections from './CiteSections.astro';
+const { entity } = Astro.props;
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const refs = entity?.references || [];
+const toItem = s => ({ text: s.title || hostOf(s.url), url: s.url });
+const citedRefs = refs.filter(s => s.cited).map(toItem);
+const generalRefs = refs.filter(s => !s.cited).map(toItem);
+const externalLinks = Object.entries(entity?.external_links || {}).map(([text, url]) => ({ text, url }));
+---
+<CiteSections
+  footnotes={entity?.footnotes || []}
+  citedRefs={citedRefs}
+  generalRefs={generalRefs}
+  externalLinks={externalLinks}
+/>

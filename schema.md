@@ -34,8 +34,9 @@
 | `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 [] |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|
-| `references` | object | | 外連參考：`omega`（討論串）/ `fandom`（條目）|
-| `external_links` | record<string,string> | | 其他外連（預設 {}）|
+| `footnotes` | string[] | | **註釋**：無連結的純文字補充，可被正文 `[N]` 引用（預設 []）。見 [`docs/refs-convention.md`](docs/refs-convention.md) |
+| `references` | object | | **參考資料**（內容來源）：`omega`/`fandom`/`chiuinan`（自動，general、不編號）＋ `cited`（label→url，被正文 `[N]` 引用，`#cite-N` 從 1）|
+| `external_links` | record<string,string> | | **外部連結**：非來源的相關連結（重複/無法爬取/延伸備用），不編號（預設 {}）|
 | `provenance` | string[] | ✓ | 來源標記（≥1），如 `chiuinan@list-1.htm` |
 | `localization_basis` | string | | 分類判據（透明可審）|
 | `rwv_source_id` / `rwv_match` | string / enum | | rwv 配對來源與層級（exact/edition/alt）|

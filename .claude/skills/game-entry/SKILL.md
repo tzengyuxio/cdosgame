@@ -49,11 +49,11 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **用詞精確**：「參與」≠「擔綱／主導」，別誇大某人角色；斷言要有來源。
 - **祕技／攻略等延伸區塊**（body 內的 `## 祕技`、`## 攻略`…）可加，但**建 entry 時不主動蒐集填入**——即使研究過程挖到祕技/攻略也先擱著，待使用者明確要求再補，避免條目膨脹成攻略本。
 
-### 5. 引用與附錄（三段制）
-- 某句需來源 → 加 `references.cited: {"來源標籤": "https://…"}`，句末接 `<sup class="cite"><a href="#cite-N">[N]</a></sup>`；**N 從 1 起、依 cited 宣告順序**。
-- chiuinan/fandom/omega 自動進「參考資料」，不必手動。
-- 精選延伸連結 → `external_links`。
-- 附錄三段＝**註釋**（cited `[N]`）／**參考資料**（來源頁）／**外部連結**。
+### 5. 引用與附錄（三段制，詳見 `docs/refs-convention.md`）
+- **參考資料**（`references`）＝內容來源。某句需來源 → 在 `references.cited: {"標籤":"url"}` 加一筆，句末接 `<sup class="cite"><a href="#cite-N">[N]</a></sup>`；**N 從 1 起、依 cited 宣告順序**。chiuinan/fandom/omega 自動列為參考資料（general，**不編號**），不必手動。
+- **註釋**（`footnotes: ["純文字補充…"]`）＝**無連結**的說明，也可被 `[N]` 引用（編號接在 references 之後 `[k+1…]`）。
+- **外部連結**（`external_links`）＝**非來源**的相關連結（重複、無法爬取、延伸備用），不編號。
+- **「丟連結」SOP**：使用者貼連結時 → ① 讀內容 → ② 判斷是否據此改寫/增補正文 → ③ 依「**有沒有用作來源**」歸 `references`（被引用再標 cited 給 `[N]`）或 `external_links`。
 
 ### 6. 相依實體頁
 連到的公司/系列/團隊/人物若尚無頁且值得補 → 建 `content/<kind>/<名>.md`（見 information-architecture.md、company-pages.md）。否則維持純文字即可（PROD 會自動退化未發佈連結）。

@@ -1,22 +1,20 @@
 ---
 import { fandomUrl } from '../lib/links.js';
-import RefSection from './RefSection.astro';
+import CiteSections from './CiteSections.astro';
 const { g } = Astro.props;
 const r = g.references || {};
-// 註釋 (footnotes): hand-cited sources/notes only, so prose footnotes number
-// from [1]. Ordered → each gets a #cite-N anchor; body cites it with
-// <sup class="cite"><a href="#cite-N">[N]</a></sup>. Entity pages likewise put
-// their inline-cited references under 註釋.
-const citeItems = Object.entries(r.cited || {}).map(([text, url]) => ({ text, url }));
-// 參考資料 (source list): the catalog's auto-collected source pages — the
-// entry's general provenance, not inline-footnoted, so unordered (no [N]).
-const srcItems = [];
-if (r.chiuinan) srcItems.push({ text: '青衫之友 介紹頁', url: r.chiuinan });
-if (r.fandom) srcItems.push({ text: 'Fandom 條目', url: fandomUrl(r.fandom) });
-if (r.omega) srcItems.push({ text: 'Omega 討論串', url: r.omega });
-// 外部連結 (External Links): related, non-citation links.
-const extItems = Object.entries(g.external_links || {}).map(([text, url]) => ({ text, url }));
+// 參考資料: inline-cited sources ([N], keep #cite-N anchors) + auto-collected
+// source pages as general references (no [N]). See docs/refs-convention.md.
+const citedRefs = Object.entries(r.cited || {}).map(([text, url]) => ({ text, url }));
+const generalRefs = [];
+if (r.chiuinan) generalRefs.push({ text: '青衫之友 介紹頁', url: r.chiuinan });
+if (r.fandom) generalRefs.push({ text: 'Fandom 條目', url: fandomUrl(r.fandom) });
+if (r.omega) generalRefs.push({ text: 'Omega 討論串', url: r.omega });
+const externalLinks = Object.entries(g.external_links || {}).map(([text, url]) => ({ text, url }));
 ---
-<RefSection heading="註釋" items={citeItems} ordered />
-<RefSection heading="參考資料" items={srcItems} />
-<RefSection heading="外部連結" items={extItems} />
+<CiteSections
+  footnotes={g.footnotes || []}
+  citedRefs={citedRefs}
+  generalRefs={generalRefs}
+  externalLinks={externalLinks}
+/>

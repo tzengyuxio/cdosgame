@@ -14,7 +14,9 @@ export const personSchema = z.object({
   roles: z.array(z.string()).default([]),
   affiliations: z.array(z.string()).default([]),  // company/team strings
   featured_games: z.array(z.string()).default([]),  // games tied to them but not via staff (代言/客串)
-  references: z.array(z.object({ title: z.string().optional(), url: z.string().url() })).default([]),
+  // 註釋 (footnotes): plain-text notes, no url; cited inline as [N]. See docs/refs-convention.md.
+  footnotes: z.array(z.string()).default([]),
+  references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),
   media: mediaArray(PERSON_MEDIA_KINDS),  // public/media/people/<slug>/
 });

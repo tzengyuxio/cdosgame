@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
 import { companyUrl, seriesUrl, teamUrl, personUrl, withBase } from '../../lib/links.js';
 import { breadcrumb } from '../../lib/jsonld.js';
-import RefSection from '../../components/RefSection.astro';
+import EntityRefs from '../../components/EntityRefs.astro';
 import GameList from '../../components/GameList.astro';
 import Share from '../../components/Share.astro';
 
@@ -31,9 +31,6 @@ if (t.list_games) {
 }
 const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };
 const parentHref = t.parent ? (PT[t.parent_type] || companyUrl)(t.parent) : null;
-const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
-const refItems = (t.references || []).map(s => ({ text: s.title || hostOf(s.url), url: s.url }));
-const extItems = Object.entries(t.external_links || {}).map(([text, url]) => ({ text, url }));
 const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
 const desc = t.summary || `${t.name_zh}｜中文 DOS 遊戲資料庫專題`;
@@ -54,8 +51,7 @@ const jsonLd = [breadcrumb(site, [
       {listed.length > 0 && (
         <><h2>收錄遊戲（{listed.length}）</h2><GameList games={listed} /></>
       )}
-      <RefSection heading="參考資料" items={refItems} />
-      <RefSection heading="外部連結" items={extItems} />
+      <EntityRefs entity={t} />
       <Share />
     </div>
   </div>

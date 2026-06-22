@@ -17,7 +17,9 @@ export const topicSchema = z.object({
     adaptation_title: z.string().optional(),
     adaptation_medium: z.string().optional(),
   }).optional(),
-  references: z.array(z.object({ title: z.string().optional(), url: z.string().url() })).default([]),
+  // 註釋 (footnotes): plain-text notes, no url; cited inline as [N]. See docs/refs-convention.md.
+  footnotes: z.array(z.string()).default([]),
+  references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),
 });
 
