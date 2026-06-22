@@ -18,9 +18,11 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 
 ## 編號規則
 
-- 正文以 `<sup class="cite"><a href="#cite-N">[N]</a></sup>` 引用。
-- `[N]` 是單一連續序列：**先 `references` 中被引用的項 `[1..k]`，再 `footnotes` `[k+1..]`**。
-- 只有「被引用的」才編號：`references` 中沒標 `cited` 的（general references，如自動收集的青衫之友／Fandom／Omega）只列出、**不編號**；`external_links` 永不編號。
+- 正文以 `<sup class="cite"><a href="#cite-N">[N]</a></sup>` 引用；`[N]` **依正文出現順序**從 1 連續編號——撰寫時把 `cited` 來源**按正文首次出現順序排列**（宣告順序＝顯示順序）。
+- 同一來源被正文多次引用時，**沿用同一個 `[N]`**（例如某兩句都引同一篇 → 都標 `[2]`）。
+- 「參考資料」段**全部編號**（求一致）：先被正文引用的 `cited` 來源 `[1..k]`（帶 `#cite-N` 錨點），再接自動收集的 general references（青衫之友／Fandom／Omega）`[k+1..]`（也編號，但無正文錨點）。
+- `footnotes`（註釋）接在參考資料之後編號 `[k+m+1..]`；`external_links`（外部連結）不編號。
+- ⚠ 未實作 wikipedia 的「一筆來源被多次引用時於該筆後標多個回指（^ a b）」——目前多次引用共用同一 `[N]`，回指僅指向該筆、不細分各引用點。
 
 ## frontmatter 寫法
 
