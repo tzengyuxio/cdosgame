@@ -84,3 +84,10 @@ created: 2026-06-20
 - [ ] 便利商店（cdg-1601）— developer/publisher 富峰群(1999 同年更名遊戲橘子)、region 補 TW、series 補；「銷量120萬套」查無佐證未採（多源僅見上市兩天逾3萬套、1999 銷售冠軍）；平台 DOS vs 早期Windows 單源待考（2026-06-21）
 - [ ] 印加帝國2（cdg-0691）中文化程度 — 已補完發佈；智冠代理、有中文盒裝掃描（box-front/back）故定 packaging，惟本作 FMV／配音為英文、in-game 是否有中文字幕未確認，content_language 暫 en，待實物佐證。另 cdg-0689「印加帝國」實為 Ubisoft《Theocracy》、與本系列(Inca, Coktel Vision)無關（2026-06-21）
 - [x] 太空大富翁（cdg-4527）— 使用者 hint「Spectrum HoloByte 開發」應為發行商；實際開發商為美國 LavaMind（Steven S. Hoffman／Naomi Kokubo），Spectrum HoloByte 僅取得零售發行權（已依此填 developer=LavaMind）。中文化程度經使用者確認：第三波代理版**僅中文包裝、遊戲本體未中文化**，定 packaging/en（編號 6J056、Windows、1CD）（2026-06-21）
+- [ ] 天使角力賽3／擂臺美少女 重複 — cdg-3064（擂臺美少女，資料完整、已補正文發佈用）與 cdg-4092（天使角力賽3(擂臺美少女)，空 stub、offlinelist merge）確認為同一款（Wrestle Angels 3，GREAT/華義/1994）。建議 cdg-4092 併入 cdg-3064（alias 收「天使角力賽3」）。cdg-4092 維持未發佈，待決 dedup（2026-06-22）
+- [ ] 天使角力賽 cdg-4087 genre 待確認 — 系列初代為「卡片戰鬥」摔角，暫定 SPG（運動題材）；可能更適 TBG/FTG，待玩法佐證（2026-06-22）
+- [ ] 仙劍客棧 cdg-1568 開發實體 — 實際由大宇北京子公司「北京軟星」開發（developer 仍標大宇/TW、正文已註明）；待決 developer_region 是否改 CN（2026-06-22）
+- [ ] 製作人員名單查無（本批共通）— 超時空英雄傳說2/外傳/3、聖少女戰隊1/2/3、特勤機甲隊系列、超級醫生3、軒轅聖戰錄、玉蒲團、美國的惡夢 個別 staff（製作人/企劃/美術/音樂）多源查無，未填 staff[]，待實體說明書/credits 佐證（2026-06-22）
+- [ ] 聖少女戰隊原始平台 PC-98 單源 — 僅巴哈孤舟一文明指「PC-98 移植」，chiuinan 僅依檔案推測 DOS；developer_region 已補 JP，平台來源待二次查證（2026-06-22）
+- [ ] 超級醫生3 cdg-2230 平台 — chiuinan/PTT 未逐字標 OS，platform_note: Windows 係依「1998/1CD/圖形版」+既有 frontmatter 推測，待原始包裝佐證（2026-06-22）
+- [ ] 西遊釋厄傳 不收錄 — 1997 鈊象街機(Oriental Legend)，DOS/Windows 時代無官方 PC 移植版（露天 MAME 打包、2025 Steam 街機合集均為模擬重發）；依「DOS 時代中文 PC 遊戲」範圍排除（2026-06-22）
