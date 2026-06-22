@@ -40788,6 +40788,15 @@
       ],
       "status": "active",
       "title_zh": "星河戰士"
+    },
+    "cdg-4530": {
+      "catalog_id": "SCD0044",
+      "developer": "宏申",
+      "keys": [
+        "cat:SCD0044"
+      ],
+      "status": "active",
+      "title_zh": "鋤大D"
     }
   }
 }
