@@ -81,6 +81,7 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .prose thead th{background:#f6f2e9;border-bottom:2px solid var(--border);white-space:nowrap}
 .prose tbody tr:nth-child(even){background:#faf7f0}
 .prose tbody tr:hover{background:#f3ece0}
+.guide-table th{width:84px;white-space:nowrap;color:var(--brown);font-weight:600}
 
 /* 列表 */
 .games-layout{display:flex;gap:24px;align-items:flex-start}

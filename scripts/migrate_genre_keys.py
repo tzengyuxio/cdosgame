@@ -1,11 +1,11 @@
 """One-off: migrate content genre values from the old Chinese-name taxonomy
 (13 buckets) to the v2 key taxonomy (22 keys / 7 groups).
 
-1:1 renames and the educational/sim merge are exact. The five "split" buckets
-(角色扮演/策略/冒險解謎/運動動作/模擬養成/射擊) cannot be split mechanically, so
-each is mapped to its dominant sub-key as a PROVISIONAL value — a later pass
-re-judges them per entry to peel off ARPG / RTS+HSG / PZG / SPG+RCG+SIM / CMS /
-FPS. null stays null. Idempotent: values already in key form are left alone.
+1:1 renames and the 模擬養成/教育養成 → LSG merge are exact. Five "split" buckets
+(角色扮演/策略/冒險解謎/運動動作/射擊) cannot be split mechanically, so each is
+mapped to its dominant sub-key as a PROVISIONAL value — a later pass re-judges
+per entry to peel off ARPG / RTS+HSG / PZG / SPG+RCG+SIM / FPS (and CMS out of
+LSG). null stays null. Idempotent: values already in key form are left alone.
 """
 import glob
 import pathlib
@@ -32,7 +32,7 @@ MAP = {
     "射擊": "STG",       # peel off FPS
 }
 KEYS = set(MAP.values()) | {
-    "ARPG", "RTS", "PZG", "SPG", "RCG", "SIM", "FPS", "AADV", "CMS", "FPS", "ETC",
+    "ARPG", "RTS", "PZG", "SPG", "RCG", "SIM", "FPS", "AADV", "CMS", "ETC",
 }
 
 changed = 0
