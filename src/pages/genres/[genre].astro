@@ -8,7 +8,7 @@ import { genreLabel } from '../../lib/labels.js';
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
   const by = groupBy(games.map(e => e.data), g => g.genre);
-  return [...by].map(([genre, list]) => ({ params: { genre }, props: { list } }));
+  return [...by].filter(([genre]) => genre).map(([genre, list]) => ({ params: { genre }, props: { list } }));
 }
 const { genre } = Astro.params;
 const { list } = Astro.props;
