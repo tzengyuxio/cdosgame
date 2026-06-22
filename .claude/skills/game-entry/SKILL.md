@@ -47,6 +47,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 互連：台灣公司／系列／人物／團隊用內部連結（`/companies/…`、`/series/…`、`/people/…`、`/teams/…`）；**外國開發商（無對應頁）用純文字、不連 `/companies`**。
 - 段落：① 定位（誰做、何時、類型、系列地位）；② 玩法/特色/歷史/續作/軼事。
 - **用詞精確**：「參與」≠「擔綱／主導」，別誇大某人角色；斷言要有來源。
+- **祕技／攻略等延伸區塊**（body 內的 `## 祕技`、`## 攻略`…）可加，但**建 entry 時不主動蒐集填入**——即使研究過程挖到祕技/攻略也先擱著，待使用者明確要求再補，避免條目膨脹成攻略本。
 
 ### 5. 引用與附錄（三段制）
 - 某句需來源 → 加 `references.cited: {"來源標籤": "https://…"}`，句末接 `<sup class="cite"><a href="#cite-N">[N]</a></sup>`；**N 從 1 起、依 cited 宣告順序**。
