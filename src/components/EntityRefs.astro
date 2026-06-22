@@ -6,7 +6,7 @@ const { entity } = Astro.props;
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const refs = entity?.references || [];
 const toItem = s => ({ text: s.title || hostOf(s.url), url: s.url });
-const citedRefs = refs.filter(s => s.cited).map(toItem);
+const citedRefs = refs.filter(s => s.cited).map(s => ({ key: s.key, text: s.title || hostOf(s.url), url: s.url }));
 const generalRefs = refs.filter(s => !s.cited).map(toItem);
 const externalLinks = Object.entries(entity?.external_links || {}).map(([text, url]) => ({ text, url }));
 ---

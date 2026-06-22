@@ -5,7 +5,8 @@ const { g } = Astro.props;
 const r = g.references || {};
 // 參考資料: inline-cited sources ([N], keep #cite-N anchors) + auto-collected
 // source pages as general references (no [N]). See docs/refs-convention.md.
-const citedRefs = Object.entries(r.cited || {}).map(([text, url]) => ({ text, url }));
+const citedRefs = Object.entries(r.cited || {}).map(([key, v]) =>
+  typeof v === 'string' ? { key, text: key, url: v } : { key, text: v.label, url: v.url });
 const generalRefs = [];
 if (r.chiuinan) generalRefs.push({ text: '青衫之友 介紹頁', url: r.chiuinan });
 if (r.fandom) generalRefs.push({ text: 'Fandom 條目', url: fandomUrl(r.fandom) });

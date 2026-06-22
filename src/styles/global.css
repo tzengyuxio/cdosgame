@@ -183,7 +183,11 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .cite a{color:var(--accent,#1a6)}
 .prose sup.cite{margin-left:1px}
 .refs li{scroll-margin-top:16px}
-.refs li:target{background:#fbeec2;margin:0 -6px;padding:2px 6px;border-radius:3px;animation:cite-flash 1.2s ease-out}
+.refs li:target{background:#fbeec2;border-radius:3px;animation:cite-flash 1.2s ease-out}
+.refs.cited-dynamic{list-style:disc}
+sup.backref{font-size:11px;line-height:0;margin-right:3px}
+sup.backref a{color:var(--brown)}
+sup.cite:target{background:#fbeec2;border-radius:3px;padding:0 2px;animation:cite-flash 1.2s ease-out}
 @keyframes cite-flash{from{background:#f6d860}to{background:#fbeec2}}
 .entity-sub{color:var(--muted);font-size:13px;font-family:var(--mono);margin-bottom:12px}
 @media(max-width:680px){.glist{columns:1}}

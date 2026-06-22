@@ -1,10 +1,14 @@
 ---
 // Unified citation footer for all entity types (see docs/refs-convention.md).
-// Three sections: 參考資料 (references) / 註釋 (footnotes) / 外部連結 (external links).
-// Single continuous [N] sequence (wikipedia-style, by prose appearance order):
-// cited refs [1..k] (carry #cite-N anchors), then general references [k+1..k+m]
-// (numbered too, for a consistent all-numbered 參考資料 list, but no inline anchor),
-// then footnotes [k+m+1..]. External links are an unnumbered list.
+// 參考資料 (references) / 註釋 (footnotes) / 外部連結 (external links).
+//
+// Two cite-numbering modes coexist:
+//  - LEGACY (most entries): prose hand-writes <sup class="cite"><a href="#cite-N">[N]</a>,
+//    list items render static [1..] numbers via <li value>.
+//  - DYNAMIC (wikipedia-style, opt-in per entry): prose marks each citation point as
+//    <sup class="cite" data-ref="KEY"></sup>; the inline <script> below numbers them by
+//    appearance order, links each to its target list item, and prepends ^backrefs to any
+//    source cited more than once. Cited <li> carry data-key for matching.
 const { footnotes = [], citedRefs = [], generalRefs = [], externalLinks = [] } = Astro.props;
 const k = citedRefs.length;
 const m = generalRefs.length;
@@ -14,7 +18,7 @@ const m = generalRefs.length;
     <h2>參考資料</h2>
     <ol class="refs">
       {citedRefs.map((it, i) => (
-        <li id={`cite-${i + 1}`} value={i + 1}>
+        <li id={`cite-${i + 1}`} value={i + 1} data-key={it.key || it.text}>
           <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
         </li>
       ))}
@@ -44,3 +48,32 @@ const m = generalRefs.length;
     </ul>
   </section>
 )}
+<script>
+  // DYNAMIC cite mode — runs only when the prose uses data-ref citation points.
+  const cites = [...document.querySelectorAll('sup.cite[data-ref]')];
+  if (cites.length) {
+    const items = {};
+    document.querySelectorAll('li[data-key]').forEach(li => { items[li.dataset.key] = li; });
+    const used = {};
+    cites.forEach((sup, i) => {
+      const n = i + 1, key = sup.dataset.ref, id = 'citeref-' + n;
+      sup.id = id;
+      const li = items[key];
+      sup.innerHTML = '<a href="#' + (li ? li.id : '') + '">[' + n + ']</a>';
+      (used[key] = used[key] || []).push({ n, id });
+    });
+    // list items become unnumbered; multiply-cited sources get ^backrefs.
+    document.querySelectorAll('section.sources ol.refs').forEach(ol => ol.classList.add('cited-dynamic'));
+    Object.entries(used).forEach(([key, list]) => {
+      const li = items[key];
+      if (!li) return;
+      const bk = document.createElement('sup');
+      bk.className = 'backref';
+      // single use → bare ^ (links back to the one citation); multiple → ^ 1 2 3
+      bk.innerHTML = list.length === 1
+        ? '<a href="#' + list[0].id + '">^</a> '
+        : '^ ' + list.map(r => '<a href="#' + r.id + '">' + r.n + '</a>').join(' ') + ' ';
+      li.prepend(bk);
+    });
+  }
+</script>

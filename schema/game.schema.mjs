@@ -116,8 +116,13 @@ export const gameSchema = z.object({
     omega: z.string().url().optional(),
     fandom: z.string().optional(),
     chiuinan: z.string().url().optional(),
-    // inline-cited sources (label → url) → 參考資料 段 with cite-N anchors ([N]).
-    cited: z.record(z.string().url()).optional(),
+    // inline-cited sources → 參考資料 段. Two accepted shapes (see docs/refs-convention.md):
+    //   legacy: { "label": "url" }                  — label doubles as the data-ref key
+    //   keyed:  { "shortkey": { label, url } }       — short key for prose data-ref="shortkey"
+    cited: z.record(z.union([
+      z.string().url(),
+      z.object({ label: z.string(), url: z.string().url() }),
+    ])).optional(),
   }).default({}),
   external_links: z.record(z.string().url()).default({}),
 
