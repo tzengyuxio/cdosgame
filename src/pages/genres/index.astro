@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { groupBy, yearRange } from '../../lib/gamesQuery.js';
-import { genreUrl } from '../../lib/links.js';
+import { genreUrl, withBase } from '../../lib/links.js';
 import { genreLabel, genreGroup, groupLabel, GROUP_LABELS } from '../../lib/labels.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -21,6 +21,7 @@ const sections = Object.keys(GROUP_LABELS).map(gid => ({
 ---
 <Base title="類型｜中文 DOS 遊戲資料庫">
   <h1 class="hub-title">依類型瀏覽 <span class="hub-count">{cards.length} 類</span></h1>
+  <p class="muted"><a class="lk" href={withBase('/genres/guide')}>類型分類說明 →</a></p>
   {sections.map(s => (
     <section class="genre-group">
       <h2 class="section-h">{s.label}</h2>

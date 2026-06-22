@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { LOC_LABELS } from '../lib/labels.js';
+import { withBase } from '../lib/links.js';
 // keep level names in sync with labels.js; descriptions per CLAUDE.md scope
 const LOC_DESC = {
   native: '原生中文開發（大宇、智冠、漢堂、精訊…）',
@@ -23,6 +24,7 @@ const LOC_DESC = {
         </ul>
       </li>
       <li>缺資料以空值表示、不剔除；每筆力求可查證、附來源。</li>
+      <li>遊戲類型採 22 類／7 大類分類體系，詳見<a class="lk" href={withBase('/genres/guide')}>類型分類說明</a>。</li>
     </ul>
 
     <h2>資料來源</h2>

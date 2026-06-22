@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import { withBase } from '../../lib/links.js';
+import { GENRE_LABELS, GENRE_GROUPS, GENRE_DESC, GROUP_LABELS, groupLabel } from '../../lib/labels.js';
+
+const sections = Object.keys(GROUP_LABELS).map(gid => ({
+  label: groupLabel(gid),
+  rows: Object.keys(GENRE_LABELS).filter(k => GENRE_GROUPS[k] === gid),
+}));
+---
+<Base title="類型分類說明｜中文 DOS 遊戲資料庫">
+  <article class="prose">
+    <h1>類型分類說明</h1>
+    <p>本資料庫以 <strong>22 個類型</strong>、歸於 <strong>7 個大類</strong>標記遊戲。每款給一個類型；尚未判定者留空，不強行歸類。</p>
+
+    {sections.map(s => (
+      <section>
+        <h2>{s.label}</h2>
+        <table class="guide-table">
+          <tbody>
+            {s.rows.map(k => (
+              <tr><th>{GENRE_LABELS[k]}</th><td>{GENRE_DESC[k]}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    ))}
+
+    <h2>判準要點</h2>
+    <ul>
+      <li><strong>歷史模擬（HSG）vs 回合策略（SLG）</strong>：光榮（KOEI）/三國志 like 的君主經營（武將登用＋內政外交＋會戰）歸 HSG，題材不限；其餘回合策略歸 SLG。</li>
+      <li><strong>即時 vs 回合</strong>：即時操作的戰略一律歸即時戰略（RTS）。</li>
+      <li><strong>戀愛遊戲</strong>：有參數養成＋時間管理者歸養成（LSG），純讀劇情分支者歸視覺小說（AVG）。</li>
+      <li><strong>動作 vs 動作冒險</strong>：純關卡動作歸 ACT，探索導向歸 AADV。</li>
+    </ul>
+
+    <p class="muted"><a class="lk" href={withBase('/genres')}>← 依類型瀏覽</a></p>
+  </article>
+</Base>
