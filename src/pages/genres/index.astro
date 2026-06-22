@@ -3,23 +3,36 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { groupBy, yearRange } from '../../lib/gamesQuery.js';
 import { genreUrl } from '../../lib/links.js';
+import { genreLabel, genreGroup, groupLabel, GROUP_LABELS } from '../../lib/labels.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
 const by = groupBy(games.map(e => e.data), g => g.genre);
-const cards = [...by.entries()].map(([name, list]) => ({
-  name, count: list.length, range: yearRange(list),
-  sample: [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999)).slice(0, 3),
-})).sort((a, b) => b.count - a.count);
+const cards = [...by.entries()]
+  .filter(([name]) => name)            // drop the null (未分類) bucket
+  .map(([name, list]) => ({
+    name, count: list.length, range: yearRange(list),
+    sample: [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999)).slice(0, 3),
+  }));
+// lay the genre cards out under their 7 groups, in GROUP_LABELS order
+const sections = Object.keys(GROUP_LABELS).map(gid => ({
+  gid, label: groupLabel(gid),
+  cards: cards.filter(c => genreGroup(c.name) === gid).sort((a, b) => b.count - a.count),
+})).filter(s => s.cards.length);
 ---
 <Base title="類型｜中文 DOS 遊戲資料庫">
   <h1 class="hub-title">依類型瀏覽 <span class="hub-count">{cards.length} 類</span></h1>
-  <div class="cardrow">
-    {cards.map(g => (
-      <div class="scard">
-        <div class="t"><a class="lk" href={genreUrl(g.name)}>{g.name}</a></div>
-        <div class="m">{g.range ? `${g.range.min}–${g.range.max}` : ''} · {g.count} 款</div>
-        <div class="d">{g.sample.map(x => x.title_zh).join('、')}…</div>
+  {sections.map(s => (
+    <section class="genre-group">
+      <h2 class="section-h">{s.label}</h2>
+      <div class="cardrow">
+        {s.cards.map(g => (
+          <div class="scard">
+            <div class="t"><a class="lk" href={genreUrl(g.name)}>{genreLabel(g.name)}</a></div>
+            <div class="m">{g.range ? `${g.range.min}–${g.range.max}` : ''} · {g.count} 款</div>
+            <div class="d">{g.sample.map(x => x.title_zh).join('、')}…</div>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
+    </section>
+  ))}
 </Base>

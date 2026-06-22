@@ -1,6 +1,7 @@
 // Schema.org JSON-LD builders for AEO (answer-engine optimization). Each builder
 // returns a plain object; Base.astro renders it as <script type="application/ld+json">.
 import { withBase, gameUrl, companyUrl, seriesUrl, personUrl, fandomUrl } from './links.js';
+import { genreLabel } from './labels.js';
 
 const clean = o => Object.fromEntries(
   Object.entries(o).filter(([, v]) => v != null && v !== '' && !(Array.isArray(v) && v.length === 0))
@@ -38,7 +39,7 @@ export function gameJsonLd(g, { site, url, description, dateModified }) {
     url, description,
     inLanguage: g.content_language || 'zh-Hant',
     datePublished: g.year ? String(g.year) : undefined,
-    genre: g.genre || undefined,
+    genre: genreLabel(g.genre) || undefined,
     gamePlatform: platform,
     author: g.developer ? { '@type': 'Organization', name: g.developer, url: abs(companyUrl(g.developer)) } : undefined,
     publisher: (g.publisher_tw || []).map(p => ({ '@type': 'Organization', name: p, url: abs(companyUrl(p)) })),

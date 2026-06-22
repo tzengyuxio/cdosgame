@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
 import { seriesUrl, companyUrl, decadeUrl, genreUrl, withBase } from '../lib/links.js';
+import { genreLabel } from '../lib/labels.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified } from '../lib/gitdates.js';
 
@@ -53,7 +54,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
 
   <h2 class="section-h">依類型</h2>
   <div class="vendrow">
-    {genres.map(g => <a class="vend" href={genreUrl(g.value)}>{g.value} <span class="c">{g.count}</span></a>)}
+    {genres.map(g => <a class="vend" href={genreUrl(g.value)}>{genreLabel(g.value)} <span class="c">{g.count}</span></a>)}
   </div>
 
   <script>

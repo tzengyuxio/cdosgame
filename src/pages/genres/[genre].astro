@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import GameList from '../../components/GameList.astro';
 import { groupBy } from '../../lib/gamesQuery.js';
+import { genreLabel } from '../../lib/labels.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -13,7 +14,7 @@ const { genre } = Astro.params;
 const { list } = Astro.props;
 const games = [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
 ---
-<Base title={`${genre}｜中文 DOS 遊戲資料庫`}>
-  <h1 class="hub-title">{genre} <span class="hub-count">{games.length} 款</span></h1>
+<Base title={`${genreLabel(genre)}｜中文 DOS 遊戲資料庫`}>
+  <h1 class="hub-title">{genreLabel(genre)} <span class="hub-count">{games.length} 款</span></h1>
   <GameList games={games} />
 </Base>

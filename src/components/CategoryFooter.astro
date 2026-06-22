@@ -1,10 +1,11 @@
 ---
 import { yearUrl, companyUrl, genreUrl, seriesUrl } from '../lib/links.js';
+import { genreLabel } from '../lib/labels.js';
 const { g } = Astro.props;
 const cats = [
   g.year && { href: yearUrl(g.year), text: `${g.year}年遊戲` },
   g.developer && { href: companyUrl(g.developer), text: g.developer },
-  g.genre && { href: genreUrl(g.genre), text: g.genre },
+  g.genre && { href: genreUrl(g.genre), text: genreLabel(g.genre) },
   g.series && { href: seriesUrl(g.series), text: `${g.series}系列` },
 ].filter(Boolean);
 ---

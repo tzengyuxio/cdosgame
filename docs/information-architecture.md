@@ -3,7 +3,7 @@
 本文定調 cdosgame 站台「**有哪些頁面類型、各自的路由與 slug 怎麼定、彼此如何連結**」。
 新增任何一種頁面（人物、團隊、事件、附屬長文…）前先讀本文，照既定規則做，避免 slug／路由各自為政。
 
-細部規範分流：公司頁撰寫見 [`company-pages.md`](company-pages.md)；遊戲 id 規則見 [`id-policy.md`](id-policy.md)；本文管「跨類型的架構通則」。
+細部規範分流：公司頁撰寫見 [`company-pages.md`](company-pages.md)；遊戲 id 規則見 [`id-policy.md`](id-policy.md)；遊戲類型分類見 [`genre-taxonomy.md`](genre-taxonomy.md)；本文管「跨類型的架構通則」。
 
 ---
 

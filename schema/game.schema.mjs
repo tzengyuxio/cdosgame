@@ -9,9 +9,16 @@ import { z } from "zod";
 import { mediaArray } from "./media.schema.mjs";
 
 export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
+// Genre taxonomy v2 — 22 keys in 7 groups (see docs/genre-taxonomy.md). Frontmatter
+// stores the stable KEY; display names + group membership live in src/lib/labels.js.
 export const GENRES = [
-  "角色扮演", "戰略角色扮演", "冒險解謎", "故事劇情",
-  "策略", "歷史模擬", "城市建造", "模擬養成", "教育養成", "桌遊棋牌", "射擊", "格鬥", "運動動作",
+  "ACT", "FTG", "STG", "FPS", "RCG", "SPG", "SIM",   // 動作
+  "RPG", "ARPG", "SRPG",                              // 角色扮演
+  "ADV", "AVG", "AADV",                               // 冒險
+  "SLG", "HSG", "RTS",                                // 策略
+  "CBG", "CMS", "LSG",                                // 模擬經營
+  "PZG", "TBG",                                       // 益智桌遊
+  "ETC",                                             // 其他
 ];
 
 // curated media kinds (see docs/media.md)
