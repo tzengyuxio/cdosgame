@@ -8,5 +8,7 @@
   "omega": { "name": "Omega 老遊戲討論區", "url": "https://omega.idv.tw/" },
   "mobygames": { "name": "MobyGames", "url": "https://www.mobygames.com/" },
   "wikipedia": { "name": "維基百科", "url": "https://zh.wikipedia.org/" },
-  "bahamut": { "name": "巴哈姆特", "url": "https://www.gamer.com.tw/" }
+  "bahamut": { "name": "巴哈姆特", "url": "https://www.gamer.com.tw/" },
+  "ymdks": { "name": "遊戲說明書數位化保存", "url": "https://www.facebook.com/profile.php?id=61556196389143" },
+  "bravehome": { "name": "勇者之家", "url": "https://www.facebook.com/retrogamelib" }
 }

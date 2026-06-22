@@ -4531,7 +4531,7 @@
         "cat:3WG106,SCD0881"
       ],
       "status": "active",
-      "title_zh": "太閣立志傳1"
+      "title_zh": "太閤立志傳1"
     },
     "cdg-0504": {
       "catalog_id": "SCD0882",
@@ -4540,7 +4540,7 @@
         "cat:SCD0882"
       ],
       "status": "active",
-      "title_zh": "太閣立志傳2"
+      "title_zh": "太閤立志傳2"
     },
     "cdg-0505": {
       "catalog_id": "SCD0883",
@@ -4549,7 +4549,7 @@
         "cat:SCD0883"
       ],
       "status": "active",
-      "title_zh": "太閣立志傳3"
+      "title_zh": "太閤立志傳3"
     },
     "cdg-0506": {
       "catalog_id": "SCD0884",
@@ -4558,7 +4558,7 @@
         "cat:SCD0884"
       ],
       "status": "active",
-      "title_zh": "太閣立志傳4"
+      "title_zh": "太閤立志傳4"
     },
     "cdg-0507": {
       "catalog_id": "SCD0885",
@@ -4567,7 +4567,7 @@
         "cat:SCD0885"
       ],
       "status": "active",
-      "title_zh": "太閣立志傳5"
+      "title_zh": "太閤立志傳5"
     },
     "cdg-0508": {
       "catalog_id": "SCD0628",
@@ -40806,6 +40806,26 @@
       ],
       "status": "active",
       "title_zh": "諸神的封印"
+    },
+    "cdg-4532": {
+      "catalog_id": "GFC020",
+      "developer": "Silmarils",
+      "keys": [
+        "cat:GFC020",
+        "t:火車大戰略|Silmarils",
+        "t:Transarctica|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "火車大戰略"
+    },
+    "cdg-4533": {
+      "catalog_id": null,
+      "developer": "新瑞獅",
+      "keys": [
+        "t:聖魔爭霸|新瑞獅"
+      ],
+      "status": "active",
+      "title_zh": "聖魔爭霸"
     }
   }
 }
