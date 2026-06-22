@@ -30,7 +30,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 
 ### 3. 填 frontmatter（照 `schema.md` enum，勿自創）
 易錯處速記（完整定義仍以 schema.md 為準）：
-- `genre`：10 類控制詞彙之一（角色扮演／戰略角色扮演／冒險解謎／故事劇情／策略／城市建造／模擬養成／教育養成／桌遊棋牌／格鬥／運動動作）。
+- `genre`：22 個 v2 key 之一（**存 key、非中文名**，如 `SLG`／`RPG`／`HSG`）；7 group、各類定義與判準（HSG＝光榮/三國志 like、戀愛養成分 LSG/AVG 等）見 `docs/genre-taxonomy.md`。中文顯示名由 `src/lib/labels.js` 推導。
 - `localization_level`：native／localized／packaging／foreign（依原生開發 vs 代理中文化）。
 - `developer_region`：開發商所在地（TW/JP/…）——**會影響關聯區塊**（台灣開發商只列開發商）。
 - `size`：數量前置；CD/DVD 雙版本用全形「／」、同版多片用「+」；**不寫純數字 MB／硬碟安裝量**。
