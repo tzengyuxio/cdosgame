@@ -40797,6 +40797,15 @@
       ],
       "status": "active",
       "title_zh": "鋤大D"
+    },
+    "cdg-4531": {
+      "catalog_id": null,
+      "developer": "天堂鳥",
+      "keys": [
+        "t:諸神的封印|天堂鳥"
+      ],
+      "status": "active",
+      "title_zh": "諸神的封印"
     }
   }
 }
