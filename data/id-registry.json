@@ -3239,7 +3239,7 @@
     },
     "cdg-0360": {
       "catalog_id": "SCD2602",
-      "developer": "智冠",
+      "developer": "紅螞蟻",
       "keys": [
         "cat:SCD2602"
       ],
@@ -10197,7 +10197,7 @@
     },
     "cdg-1133": {
       "catalog_id": "SCD0405",
-      "developer": "智冠",
+      "developer": "太極工作室",
       "keys": [
         "cat:SCD0405"
       ],
@@ -17006,7 +17006,7 @@
         "cat:OCD0109"
       ],
       "status": "active",
-      "title_zh": "軒轅劍5外傳1：漢之雲"
+      "title_zh": "軒轅劍外傳：漢之雲"
     },
     "cdg-1890": {
       "catalog_id": "SCD0123",
@@ -17015,7 +17015,7 @@
         "cat:SCD0123"
       ],
       "status": "active",
-      "title_zh": "軒轅劍5外傳2：雲之遙"
+      "title_zh": "軒轅劍外傳：雲之遙"
     },
     "cdg-1891": {
       "catalog_id": "SCD1060",
@@ -17033,7 +17033,7 @@
         "cat:SCD1061"
       ],
       "status": "active",
-      "title_zh": "軒轅劍6外傳：穹之扉"
+      "title_zh": "軒轅劍外傳：穹之扉"
     },
     "cdg-1893": {
       "catalog_id": null,
@@ -17843,7 +17843,7 @@
         "cat:SCD0723"
       ],
       "status": "active",
-      "title_zh": "鹿鼎記1：皇城爭霸"
+      "title_zh": "鹿鼎記之皇城爭霸"
     },
     "cdg-1983": {
       "catalog_id": "OCD0023",
@@ -27978,7 +27978,7 @@
         "cat:SWE233"
       ],
       "status": "active",
-      "title_zh": "楚漢之爭1"
+      "title_zh": "楚漢之爭"
     },
     "cdg-3107": {
       "catalog_id": "SWT168",
@@ -35191,9 +35191,9 @@
     },
     "cdg-3908": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "天堂鳥",
       "keys": [
-        "t:天師鍾馗|None"
+        "t:天師鍾馗|天堂鳥"
       ],
       "status": "active",
       "title_zh": "天師鍾馗"
@@ -36604,9 +36604,9 @@
     },
     "cdg-4065": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "旭光",
       "keys": [
-        "t:蕩寇雄師|None"
+        "t:蕩寇雄師|旭光"
       ],
       "status": "active",
       "title_zh": "蕩寇雄師"
@@ -40836,6 +40836,51 @@
       ],
       "status": "active",
       "title_zh": "屠龍戰記"
+    },
+    "cdg-4535": {
+      "catalog_id": null,
+      "developer": "上海軟星",
+      "keys": [
+        "t:仙劍奇俠傳4|上海軟星"
+      ],
+      "status": "active",
+      "title_zh": "仙劍奇俠傳4"
+    },
+    "cdg-4536": {
+      "catalog_id": null,
+      "developer": "北京軟星",
+      "keys": [
+        "t:仙劍奇俠傳5|北京軟星"
+      ],
+      "status": "active",
+      "title_zh": "仙劍奇俠傳5"
+    },
+    "cdg-4537": {
+      "catalog_id": null,
+      "developer": "北京軟星",
+      "keys": [
+        "t:仙劍奇俠傳5前傳|北京軟星"
+      ],
+      "status": "active",
+      "title_zh": "仙劍奇俠傳5前傳"
+    },
+    "cdg-4538": {
+      "catalog_id": null,
+      "developer": "北京軟星",
+      "keys": [
+        "t:仙劍奇俠傳6|北京軟星"
+      ],
+      "status": "active",
+      "title_zh": "仙劍奇俠傳6"
+    },
+    "cdg-4539": {
+      "catalog_id": null,
+      "developer": "北京軟星",
+      "keys": [
+        "t:仙劍奇俠傳7|北京軟星"
+      ],
+      "status": "active",
+      "title_zh": "仙劍奇俠傳7"
     }
   }
 }

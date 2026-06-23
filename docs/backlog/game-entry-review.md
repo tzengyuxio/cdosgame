@@ -108,3 +108,4 @@ created: 2026-06-20
 - [x] 新天使帝國（cdg-2328）VOFAN 續任天使帝國3 之說 — VOFAN 維基條目明列「新天使帝國 2000」與「天使帝國3 2002」皆其作；已順手把 cdg-0447 天使帝國3 補上 staff: VOFAN 與正文（2026-06-23）
 - [x] 火車大戰略（cdg-4532）年份 — 使用者釐清：1992 為包裝盒背面 copyright（Silmarils 原作著作權年）、漢堂中文版發行日為 1993 年 10 月（依說明書）。year 改採 1993、footnotes 註明 1992 copyright 與 10 月發行的來源（2026-06-23）
 - [x] docs/media.md 同步 — §2 kind 表更新顯示標籤與分組（box-front→包裝封面 等、補 logo/product/building/portrait/photo）、§3 cover 順序改寫為新 priority 鏈含 gallery:false 過濾、§4 圖庫 figure card 結構與 galleryCaption/coverFigcaption helper 已寫進；以 `src/lib/media.js` 為單一真實來源（2026-06-23）
+- [ ] 「太極工作室」歸屬待考 — 江南才子唐伯虎（cdg-1133）與劉備傳（cdg-3875）使用者明示開發為「太極工作室」，但外部公開來源（百度百科／PTT／3DM 等）均未直接證實該名為智冠內部小組還是獨立廠商。兩款條目暫直接掛 developer 太極工作室、publisher_tw 智冠，待第一手資料佐證關係（2026-06-23）
