@@ -12,16 +12,19 @@ const { groups = [] } = Astro.props;
         <h3 class="media-cat">{g.label}</h3>
         <div class="media-grid">
           {g.items.map(m => (
-            <button
-              class="media-thumb" type="button"
-              data-full={m.full}
-              data-caption={m.caption || ''}
-              data-source={m.src_obj.name}
-              data-source-url={m.src_obj.url || ''}
-              data-credit={m.credit || ''}
-            >
-              <img src={m.thumb} alt={m.caption || m.kind} loading="lazy" />
-            </button>
+            <figure class="media-card">
+              <button
+                class="media-thumb" type="button"
+                data-full={m.full}
+                data-caption={m.gallery_caption}
+                data-source={m.src_obj.name}
+                data-source-url={m.src_obj.url || ''}
+                data-credit={m.credit || ''}
+              >
+                <img src={m.thumb} alt={m.gallery_caption} loading="lazy" />
+              </button>
+              <figcaption class="media-cap">{m.gallery_caption}</figcaption>
+            </figure>
           ))}
         </div>
       </div>

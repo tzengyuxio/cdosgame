@@ -30,20 +30,29 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 
 ### `kind` 控制詞彙（對應你列的類別）
 
-| kind | 中文 | 說明 |
-|---|---|---|
-| `box-front` | 盒裝正面 | 通常即封面 |
-| `box-back` | 盒裝背面 | |
-| `box-spine` | 側標 | |
-| `package` | 產品圖／全套 | 整套擺拍、外盒以外配件合照 |
-| `disc` | 光碟（CD/DVD） | |
-| `floppy` | 磁碟片 | |
-| `manual-cover` | 說明書封面 | |
-| `manual` | 說明書內頁 | 多頁用 `manual-01…` |
-| `ad` | 廣告 | 雜誌廣告等 |
-| `title` | 標題畫面 | |
-| `screenshot` | 遊戲畫面 | 多張用 `screenshot-01…` |
-| `other` | 其他 | 海報、貼紙、周邊… |
+控制詞彙、顯示標籤與類別分組見 `src/lib/media.js`（`KIND_LABELS`、`CATEGORIES`）為單一真實來源；以下表為對照：
+
+| kind | 顯示標籤 | 分組 | 說明 |
+|---|---|---|---|
+| `box-front` | 包裝封面 | 盒裝 | 通常即封面 |
+| `box-back` | 包裝背面 | 盒裝 | |
+| `box-spine` | 包裝側面 | 盒裝 | |
+| `package` | 包裝 | 盒裝 | 整套擺拍、外盒以外配件合照 |
+| `disc` | 光碟 | 光碟／磁片 | |
+| `floppy` | 磁片 | 光碟／磁片 | |
+| `manual-cover` | 說明書封面 | 說明書 | |
+| `manual` | 說明書內頁 | 說明書 | 多頁用 `manual-01…` |
+| `ad` | 廣告 | 廣告 | 雜誌廣告等 |
+| `title` | 標題畫面 | 截圖 | |
+| `screenshot` | 遊戲畫面 | 截圖 | 多張用 `screenshot-01…` |
+| `logo` | 標誌 | 標誌 | 公司頁 |
+| `product` | 產品 | 產品 | 公司頁 |
+| `building` | 辦公室 | 照片 | 公司頁 |
+| `portrait` | 人物照 | 照片 | 人物頁 |
+| `photo` | 照片 | 照片 | 人物頁 |
+| `other` | 圖片 | 其他 | 海報、貼紙、周邊… |
+
+**分組內排序**：先看 `order`（顯式），再看 kind 在分組 `kinds[]` 中的位置（box-front 前於 box-back 前於 box-spine；title 前於 screenshot），最後按 src 檔名 fallback。
 
 ### 範例
 
@@ -88,7 +97,12 @@ media: z.array(z.object({
 })).default([]),
 ```
 
-- **封面決定順序**：`media[]` 中 `cover: true` 的那張 → 否則第一張 `box-front` → 否則第一張 media。供 infobox 縮圖與 `og:image`。
+- **封面決定順序**（`coverOf()` in `src/lib/media.js`）：
+  1. `media[]` 中 `cover: true` 的那張（即便 `gallery: false` 也照用）。
+  2. 否則從**未被 `gallery: false` 隱藏**的項目中，依 kind 優先序找第一張：
+     `box-front` → `title` → `manual-cover` → `logo` → `portrait` → `ad`。
+  3. 都沒有 → infobox 顯示「封面待補」佔位。
+  - 設計：`ad` 排在 `logo` / `portrait` 之後，避免公司或人物頁有 ad 時把 ad 當門面；`gallery: false` 的 ad（如第三波代理光榮廣告，因已聚合到多遊戲頁、企業頁不再單獨呈現）也不會被偷渡成 og:image。供 infobox 縮圖與 `og:image`。
 - **`source` 是代碼**（如 `boneash`），渲染時查 `data/media-sources.json` 展開為「骨灰集散地」＋連結；未登錄則原樣顯示。`source_url` 可覆寫成單張的特定頁網址。
 - **必填欄位**：`src`/`kind`/`source`。`validate` 會擋掉缺 `source`、`src` 檔案不存在、或多於一張 `cover` 的情況。
 - 既有 `cover`（字串）與 `images{}` 維持為來源 provenance 紀錄，**新顯示邏輯只看 `media[]`**；舊 `cover.png` 之類（指向 raw）不再用於顯示，逐步以 `media[]` 取代。
@@ -98,7 +112,10 @@ media: z.array(z.object({
 三種呈現方式，可並用：
 
 1. **infobox 封面**：cover 縮圖取代現有「封面待補」佔位，點擊開 lightbox。
-2. **底部「媒體」圖庫（預設、主力）**：正文下方一個 section，依類別分組（盒裝／說明書／廣告／截圖／其他）的縮圖 grid；點縮圖開 **lightbox** 看全圖。**未被特別擺位的圖一律自動落到這裡**，零維護。每圖顯示 `caption` 與「來源」。
+2. **底部「媒體」圖庫（預設、主力）**：正文下方一個 section，依類別分組（盒裝／說明書／廣告／截圖／其他）的縮圖 grid；點縮圖開 **lightbox** 看全圖。**未被特別擺位的圖一律自動落到這裡**，零維護。
+   - 每張縮圖以 `<figure class="media-card">` 包：上為點擊用的 `<button class="media-thumb">` + `<img>`，下為 `<figcaption class="media-cap">` 顯示圖說（**縮圖點開前可見**）。
+   - 圖說字串 = `m.caption || KIND_LABELS[m.kind]`（媒體 helper `galleryCaption` 在 `src/lib/media.js`）；沒有手寫 caption 時，自動以 kind 標籤代用（如「包裝封面」「標題畫面」），不再留白。Lightbox 顯示與此一致。
+   - infobox 封面下方的 figcaption 與 cover lightbox 採另一個 helper `coverFigcaption`：永遠以 kindLabel 開頭、有 caption 才以「・」附在後（`包裝封面・1995 初版盒裝`）；讓讀者隨時能辨識是哪種圖（封面／標題畫面／說明書封面／廣告…）。
 3. **正文嵌入（維基式右浮動圖）**：把編輯上重要的圖放進文章某段旁，見下方「擺位機制」。
 
 ### 擺位機制（指定某張圖放某個位置）
@@ -107,7 +124,7 @@ media: z.array(z.object({
 
 | 機制 | 放哪 | 怎麼標 |
 |---|---|---|
-| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則自動取第一張 `box-front` |
+| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則 `coverOf` 自動沿 priority 鏈找（box-front → title → manual-cover → logo → portrait → ad，跳過 `gallery: false`）|
 | **粗略槽位／排序** | 正文頂、或調類別內順序 | `slot: "hero"`（置頂大圖）、`order: N`（同類排序） |
 | **正文任意位置** | 文章中任一段旁 | 在 `.md` 正文寫 `![圖說](media:screenshot-01){align=right}` |
 

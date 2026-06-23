@@ -102,3 +102,9 @@ created: 2026-06-20
 - [ ] 凱蘭迪亞傳奇1（cdg-2933）台版年查無 — 第三波中文化確認，但台灣中文版確切發行年無可靠來源，year 暫採原作 1992（2026-06-22）
 - [ ] 太閣立志傳 cdg-0503 title「太閣立志傳1」 — 使用者本批未要求去數字，暫保留；如要與「勇者鬥惡龍」初代一致去數字可再處理（2026-06-22）
 - [ ] 第三波代理線批次 — 本批 8 款外國遊戲（巫術6/凱蘭迪亞1,2/黑暗王座/沙丘魔堡/太閣立志傳/信長5霸王傳/航空霸業2/A列車4）皆第三波中文化代理；KOEI 遊戲台灣第9代《嵐世記》(2001) 起才由台灣光榮接手（2026-06-22）
+- [ ] 臥虎藏龍之青冥劍（cdg-1319）adaptation.author 與 朝代矛盾 — (a) 目前 `adaptation.author: 李安`（電影導演），與正文點明的小說原作者王度廬不符；schema author 為原著作者，建議改為 `medium: 小說 / author: 王度廬` 或直接拿掉 author。(b) 正文「劇情橫跨春秋戰國至楚漢，對抗年羹堯（清朝）」朝代內部矛盾，研究素材自 9imx 可能含誤，待回頭核對遊戲實際設定再修正（2026-06-23）
+- [x] 仙狐奇緣（cdg-1571）series 斷鏈 — 已採方案 (b) 把 `series` 改 null，系列關係改靠 body cross-link 表達（2026-06-23）
+- [ ] 大富翁6（cdg-0369）developer 與 北京軟星 時間線 — 寫成「軟星科技（北京）開發、developer_region: CN」依 wiki 來源；review agent 質疑北京軟星成立年（2003 vs 2000）與 大富翁6 (2002) 的先後關係，建議核對北京軟星與上海軟星設立年份與大富翁6 實際歸屬（2026-06-23）
+- [x] 新天使帝國（cdg-2328）VOFAN 續任天使帝國3 之說 — VOFAN 維基條目明列「新天使帝國 2000」與「天使帝國3 2002」皆其作；已順手把 cdg-0447 天使帝國3 補上 staff: VOFAN 與正文（2026-06-23）
+- [x] 火車大戰略（cdg-4532）年份 — 使用者釐清：1992 為包裝盒背面 copyright（Silmarils 原作著作權年）、漢堂中文版發行日為 1993 年 10 月（依說明書）。year 改採 1993、footnotes 註明 1992 copyright 與 10 月發行的來源（2026-06-23）
+- [x] docs/media.md 同步 — §2 kind 表更新顯示標籤與分組（box-front→包裝封面 等、補 logo/product/building/portrait/photo）、§3 cover 順序改寫為新 priority 鏈含 gallery:false 過濾、§4 圖庫 figure card 結構與 galleryCaption/coverFigcaption helper 已寫進；以 `src/lib/media.js` 為單一真實來源（2026-06-23）

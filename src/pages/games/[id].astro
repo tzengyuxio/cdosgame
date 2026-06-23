@@ -9,7 +9,7 @@ import CategoryFooter from '../../components/CategoryFooter.astro';
 import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
-import { coverOf, decorate, kindLabel, groupDecorated } from '../../lib/media.js';
+import { coverOf, decorate, coverFigcaption, groupDecorated } from '../../lib/media.js';
 import { genreUrl, seriesUrl, personUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
@@ -111,14 +111,14 @@ const staffByRole = staff => {
           <button
             class="cover-img" type="button"
             data-full={coverItem.full}
-            data-caption={coverItem.caption || ''}
+            data-caption={coverFigcaption(coverItem)}
             data-source={coverItem.src_obj.name}
             data-source-url={coverItem.src_obj.url || ''}
             data-credit={coverItem.credit || ''}
           >
             <img src={coverItem.full} alt={coverItem.caption || g.title_zh} />
           </button>
-          <figcaption>{coverItem.caption || kindLabel(coverItem.kind)}</figcaption>
+          <figcaption>{coverFigcaption(coverItem)}</figcaption>
         </figure>
       ) : (
         <div class="cover-placeholder">封面待補</div>

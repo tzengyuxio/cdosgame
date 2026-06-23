@@ -9,7 +9,7 @@ import EntityRefs from '../../components/EntityRefs.astro';
 import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
-import { coverOf, decorate, galleryGroups, kindLabel } from '../../lib/media.js';
+import { coverOf, decorate, galleryGroups, coverFigcaption } from '../../lib/media.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -98,10 +98,10 @@ const jsonLd = [
     <aside class="gw-ib">
       {coverItem && (
         <figure class="cover-fig">
-          <button class="cover-img" type="button" data-full={coverItem.full} data-caption={coverItem.caption || ''} data-source={coverItem.src_obj.name} data-source-url={coverItem.src_obj.url || ''} data-credit={coverItem.credit || ''}>
+          <button class="cover-img" type="button" data-full={coverItem.full} data-caption={coverFigcaption(coverItem)} data-source={coverItem.src_obj.name} data-source-url={coverItem.src_obj.url || ''} data-credit={coverItem.credit || ''}>
             <img src={coverItem.full} alt={coverItem.caption || c?.name_zh || name} />
           </button>
-          <figcaption>{coverItem.caption || kindLabel(coverItem.kind)}</figcaption>
+          <figcaption>{coverFigcaption(coverItem)}</figcaption>
         </figure>
       )}
       <div class="infobox-wrap">
