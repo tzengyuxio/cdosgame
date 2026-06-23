@@ -16,16 +16,18 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 判斷一條連結放哪：**有沒有用作內容來源**——用作來源（含據此改寫/增補正文）→ `references`；
 非來源、重複、或無法爬取但想留存 → `external_links`。
 
-## 編號規則（wikipedia 式）
+## 編號規則
 
-- 正文每個引用點**按出現順序遞增編號** `[1][2][3]…`，每個點各一個號——**即使多處指向同一個 ref/footnote，也遞增、不共用同號**。
-- 不分 footnote / ref，**共用同一條編號序列**；每個引用點連到它指向的那筆 ref 或 footnote。
-- 參考資料／註釋列表中，每筆 ref/footnote：
-  - 只被引用一次 → 前面顯示單獨一個 `<sup>^</sup>`（不帶數字、可點回該引用處）。
-  - 被引用多次 → 前面以 `<sup>^ 1 2 3</sup>` 列出**所有**指向它的引用點號，各號可點擊 **highlight 回該引用處**（雙向 backref）。
-- general references（未被正文引用的自動來源，如青衫/Fandom/Omega）與 `external_links` 不參與編號。
+- **正文 cite 編號**：每個 `<sup class="cite" data-ref="…">` 引用點**按 body 出現順序遞增** `[1][2][3]…`，每個點各一個號——即使多處 `data-ref` 指向同一個 ref/footnote，也遞增、不共用同號。
+- **列表編號（顯示用）**：每個章節 (`<ol class="refs">`) 各自從 `1` 起算、與正文 cite 編號**脫鉤**。即「參考資料」列出的 1、2、3… 與「註釋」列出的 1、2、3… 都是該章節內部的計數，**不**反映該項在正文裡的 cite 編號。
+- **連結關係**：正文 `[N]` 透過 `data-ref="<key>"` ↔ 列表 `<li data-key="<key>">` 對應；list item 的 DOM id 為 `cite-fn-N`（註釋）或 `cite-ref-N`（參考資料）。正文 sup 的 DOM id 為 `citeref-N`（N 為 body 出現序）。
+- **Backref**（列表項回指正文）：dynamic JS 在每個被引用的 list item 開頭插入 `<sup class="backref">`：
+  - 只被引用一次 → 單一 `^`（連回該唯一引用點）
+  - 被引用多次 → `^ 1 2 3`，每號連回對應 body 出現位置
+- **general references**（自動來源 `omega`/`fandom`/`chiuinan` 等、未被正文 cite）與 `external_links` 不參與 backref，列表中也不顯示 `^`。
+- **`:target` 高亮**：正文 cite 跳到列表項時 li 黃底閃一下；按 backref 回正文時 sup 亦同。同一 anchor 連點兩次的重複觸發由 `cite-flash` JS handler 強制 reflow 處理（`src/components/CiteSections.astro` 末段）。
 
-**實作**：此系統需**自動化**（client-side JS 在頁面渲染後掃描 cite 點、依序編號、建立雙向 backref）——手寫遞增號＋backref 無法維護（插入一個 cite 就要全部重編）。⏳ **待實作**；目前正文為過渡的手寫數字版。
+**實作位置**：`src/components/CiteSections.astro` 內嵌的 module script。掃 `sup.cite[data-ref]`、依出現序編號、依 `data-key` 建 backref。靜態 fallback 用 `<li value>` 顯示列表編號、用 `:target` 高亮，並由 JS 追加 `cite-flash` class retrigger 動畫。
 
 ## frontmatter 寫法
 
@@ -62,8 +64,10 @@ external_links:
 ```
 
 **Footnote 兩種形式**：
-- **純字串**（legacy）：無 key，**不能**被 `<sup class="cite" data-ref="...">` 引用、只能用 manual `<a href="#cite-N">[N]</a>` 連結；多用於不需 body cite 的純背景補充。
-- **keyed 物件 `{ key, text }`**：body 可用 `<sup class="cite" data-ref="<key>"></sup>`，dynamic JS 會自動編號＋建立雙向 backref，跟 `references.cited` 共用同一條編號序列。**Key 用 `fn01`、`fn02`… 編號形式**（不取語意名）——條目本地序號、避免跨條目重名與重命名負擔。`text` 內可內嵌 `<a>` 連到其他條目。
+- **純字串**（legacy）：無 key，無法被 `<sup class="cite" data-ref="…">` 引用；單純放在「註釋」段、不參與 backref。多用於不需 body cite 的純背景補充。
+- **keyed 物件 `{ key, text }`**：body 可用 `<sup class="cite" data-ref="<key>"></sup>` 引用，dynamic JS 自動編號（body 出現序）並建立雙向 backref。**Key 用 `fn01`、`fn02`… 編號形式**（不取語意名）——條目本地序號、避免跨條目重名與重命名負擔。`text` 內可內嵌 `<a>` 連到其他條目，站內路徑（`/games/...`、`/people/...`）會自動補 `BASE` 前綴（由 `CiteSections.astro` 的 `prefixBase` helper 處理；rehypeBaseLinks 不過 footnote 的 `set:html`）。
+
+**雙形式可混用**：同一份 `footnotes` 可前段純字串、後段 keyed，順序決定列表編號（顯示 1, 2, 3…）。被引用者編號照樣由 body 出現序決定，與列表中位置無關。
 
 ## 「丟連結」工作流程（SOP）
 
@@ -76,4 +80,5 @@ external_links:
 ## 備註
 
 - 維基的「Further reading（延伸閱讀／出版物書目）」段暫不引入，需要時再加。
-- game 的 51 個既有 `references.cited` 條目沿用 `#cite-N`（從 1），不需改動。
+- 早期 entries 曾用手寫 `<a href="#cite-N">[N]</a>` 的 manual 模式，已全部遷移至 dynamic mode（`data-ref="key"`）。新增條目一律走 dynamic。
+- 列表 DOM id 命名 `cite-fn-N` / `cite-ref-N` 分 namespace，避免兩段都從 1 起算時 id 衝突。正文 sup 用 `citeref-N`（runtime 由 JS 賦值，與列表 id 命名也分開）。
