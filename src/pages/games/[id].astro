@@ -10,7 +10,7 @@ import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import { coverOf, decorate, coverFigcaption, groupDecorated } from '../../lib/media.js';
-import { genreUrl, seriesUrl, personUrl, withBase } from '../../lib/links.js';
+import { genreUrl, seriesUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
 import { locLabel, genreLabel } from '../../lib/labels.js';
@@ -59,6 +59,17 @@ const jsonLd = [
     { name: g.title_zh, url: canonical },
   ]),
 ];
+// 參見: auto-aggregation topics this game belongs to (e.g. 金庸改編遊戲), matched
+// on the game's adaptation against the topic's list_games filters — same predicate
+// the topic page uses to build its list, so membership stays consistent both ways.
+const seeAlsoTopics = (await getCollection('topics', e => import.meta.env.PROD ? e.data.published : true))
+  .filter(t => {
+    const q = t.data.list_games;
+    return q && g.adaptation
+      && (!q.adaptation_author || g.adaptation.author === q.adaptation_author)
+      && (!q.adaptation_title || g.adaptation.title === q.adaptation_title)
+      && (!q.adaptation_medium || g.adaptation.medium === q.adaptation_medium);
+  });
 // link a staff credit to /people when a person page exists (by staff.person slug or name)
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 const staffSlug = s => s.person || s.name;
@@ -102,6 +113,14 @@ const staffByRole = staff => {
         </section>
       )}
       <RelatedGames related={related} g={g} />
+      {seeAlsoTopics.length > 0 && (
+        <section class="rel-block">
+          <h2>參見</h2>
+          <ul class="see-also">
+            {seeAlsoTopics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}
+          </ul>
+        </section>
+      )}
       <Gallery groups={groups} />
       <ExternalLinks g={g} />
     </div>

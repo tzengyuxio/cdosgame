@@ -3,10 +3,18 @@
 // (git diff vs origin/main), so it stays short. Each row has a publish checkbox
 // and a feedback box; marks auto-save to data/review-state.json (via middleware),
 // which the assistant reads to know what to publish / fix. Not linked from nav.
-import Base from '../layouts/Base.astro';
+//
+// Dev-only: an optional catch-all route whose getStaticPaths is empty in PROD,
+// so `/review` is generated during `astro dev` but never emitted in the build.
+import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl, topicUrl } from '../lib/links.js';
+import { gameUrl, companyUrl, teamUrl, personUrl, seriesUrl, topicUrl } from '../../lib/links.js';
 import { execSync } from 'node:child_process';
+
+export function getStaticPaths() {
+  if (import.meta.env.PROD) return [];
+  return [{ params: { slug: undefined } }];   // → /review
+}
 
 // changed/new content files since last push — the review set
 let changed = null;

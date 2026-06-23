@@ -181,6 +181,8 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .share-btn[data-share="fb"]:hover{color:#1877f2}
 .hero h1{font-family:var(--serif);font-size:30px;margin:0 0 4px}
 .hero .lead{color:#555;font-size:15px}
+.see-also{margin:0;padding-left:1.4em;list-style:disc}
+.see-also li{padding:2px 0;font-size:14px}
 .glist{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
 .glist li{padding:3px 0;font-size:14px;break-inside:avoid}
 .glist .y{color:var(--muted);font-family:var(--mono);font-size:12px;margin-right:6px}

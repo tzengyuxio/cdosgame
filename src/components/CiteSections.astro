@@ -2,13 +2,14 @@
 // Unified citation footer for all entity types (see docs/refs-convention.md).
 // 註釋 (footnotes) / 參考資料 (references) / 外部連結 (external links).
 //
-// Two cite-numbering modes coexist:
-//  - LEGACY (most entries): prose hand-writes <sup class="cite"><a href="#cite-N">[N]</a>,
-//    list items render static [1..] numbers via <li value>.
-//  - DYNAMIC (wikipedia-style, opt-in per entry): prose marks each citation point as
-//    <sup class="cite" data-ref="KEY"></sup>; the inline <script> below numbers them by
+// Two cite-numbering modes coexist (tag names spelled out, not as literal HTML
+// tokens, so the dev-mode compiler never mistakes this comment for a script):
+//  - LEGACY (most entries): prose hand-writes a cite sup wrapping an anchor to
+//    #cite-N, and list items render static [1..] numbers via the li value attr.
+//  - DYNAMIC (wikipedia-style, opt-in per entry): prose marks each citation point
+//    as a cite sup carrying data-ref="KEY"; the inline script below numbers them by
 //    appearance order, links each to its target list item, and prepends ^backrefs to any
-//    source cited more than once. Cited <li> carry data-key for matching.
+//    source cited more than once. Cited list items carry data-key for matching.
 import { withBase } from '../lib/links.js';
 const { footnotes = [], citedRefs = [], generalRefs = [], externalLinks = [] } = Astro.props;
 // Footnote text is raw HTML written in YAML; rehypeBaseLinks (which prefixes

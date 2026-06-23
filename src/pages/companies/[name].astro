@@ -40,9 +40,14 @@ const personIds = new Set((await getCollection('people')).map(e => e.id));
 // in-house teams whose parent_company points at this company
 const teams = (await getCollection('teams')).filter(t => t.data.parent_company === name);
 // curated topics whose parent points at this company
+// `parent_type` defaults to 'company' in the schema, so a parent-less global
+// topic (e.g. 金庸改編遊戲) still has parent_type === 'company'. Guard on a
+// truthy `parent`, otherwise `t.data.parent === c?.name_zh` would be
+// undefined === undefined (true) on content-less companies where `c` is missing.
 const topics = (await getCollection('topics'))
   .filter(t => (import.meta.env.PROD ? t.data.published : true)
     && t.data.parent_type === 'company'
+    && t.data.parent
     && (t.data.parent === name || t.data.parent === c?.name_zh));
 const Body = company ? (await render(company)).Content : null;
 const featured = (c?.featured_games || [])
