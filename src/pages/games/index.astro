@@ -121,7 +121,7 @@ import Base from '../../layouts/Base.astro';
         for (const o of showFacetTail[key] ? tail : selectedTail) addOpt(sec, key, o.value, o.count);
         if (toggleCount) addMore(
           sec,
-          showFacetTail[key] ? `收合其餘 ${toggleCount} 項` : `顯示其餘 ${toggleCount} 項`,
+          showFacetTail[key] ? `收合並顯示前 ${TOP_FACET_COUNT} 項` : `顯示其餘 ${toggleCount} 項`,
           () => { showFacetTail[key] = !showFacetTail[key]; renderFacets(); },
         );
       };
