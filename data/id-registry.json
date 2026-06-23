@@ -40826,6 +40826,16 @@
       ],
       "status": "active",
       "title_zh": "聖魔爭霸"
+    },
+    "cdg-4534": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:屠龍戰記|精訊",
+        "t:Dragon Odyssey|精訊"
+      ],
+      "status": "active",
+      "title_zh": "屠龍戰記"
     }
   }
 }

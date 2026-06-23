@@ -1,6 +1,6 @@
 ---
 // Unified citation footer for all entity types (see docs/refs-convention.md).
-// 參考資料 (references) / 註釋 (footnotes) / 外部連結 (external links).
+// 註釋 (footnotes) / 參考資料 (references) / 外部連結 (external links).
 //
 // Two cite-numbering modes coexist:
 //  - LEGACY (most entries): prose hand-writes <sup class="cite"><a href="#cite-N">[N]</a>,
@@ -9,16 +9,37 @@
 //    <sup class="cite" data-ref="KEY"></sup>; the inline <script> below numbers them by
 //    appearance order, links each to its target list item, and prepends ^backrefs to any
 //    source cited more than once. Cited <li> carry data-key for matching.
+import { withBase } from '../lib/links.js';
 const { footnotes = [], citedRefs = [], generalRefs = [], externalLinks = [] } = Astro.props;
+// Footnote text is raw HTML written in YAML; rehypeBaseLinks (which prefixes
+// internal /… links with the project base) runs only on markdown body, not on
+// set:html content. Prefix internal hrefs here so footnote site-links resolve
+// correctly on GitHub Pages (/cdosgame/...).
+const prefixBase = (html) => html.replace(/href="(\/[^"/][^"]*)"/g, (_, p) => `href="${withBase(p)}"`);
+// Section display order: 註釋 (footnotes) → 參考資料 (references) → 外部連結.
+// Each section's <ol> numbers from 1 independently (decoupled from body cite [N]).
+// Body cite numbering tracks appearance order in prose; the link target is each
+// item's unique id (cite-fn-N / cite-ref-N). data-key joins prose ↔ list item.
 const k = citedRefs.length;
-const m = generalRefs.length;
 ---
+{footnotes.length > 0 && (
+  <section class="sources">
+    <h2>註釋</h2>
+    <ol class="refs">
+      {footnotes.map((it, i) => {
+        const text = typeof it === 'string' ? it : it.text;
+        const key = typeof it === 'string' ? undefined : it.key;
+        return <li id={`cite-fn-${i + 1}`} value={i + 1} data-key={key} set:html={prefixBase(text)}></li>;
+      })}
+    </ol>
+  </section>
+)}
 {(citedRefs.length > 0 || generalRefs.length > 0) && (
   <section class="sources">
     <h2>參考資料</h2>
     <ol class="refs">
       {citedRefs.map((it, i) => (
-        <li id={`cite-${i + 1}`} value={i + 1} data-key={it.key || it.text}>
+        <li id={`cite-ref-${i + 1}`} value={i + 1} data-key={it.key || it.text}>
           <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
         </li>
       ))}
@@ -27,14 +48,6 @@ const m = generalRefs.length;
           <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
         </li>
       ))}
-    </ol>
-  </section>
-)}
-{footnotes.length > 0 && (
-  <section class="sources">
-    <h2>註釋</h2>
-    <ol class="refs">
-      {footnotes.map((text, i) => <li id={`cite-${k + m + i + 1}`} value={k + m + i + 1}>{text}</li>)}
     </ol>
   </section>
 )}
@@ -62,8 +75,8 @@ const m = generalRefs.length;
       sup.innerHTML = '<a href="#' + (li ? li.id : '') + '">[' + n + ']</a>';
       (used[key] = used[key] || []).push({ n, id });
     });
-    // list items become unnumbered; multiply-cited sources get ^backrefs.
-    document.querySelectorAll('section.sources ol.refs').forEach(ol => ol.classList.add('cited-dynamic'));
+    // Each section's <ol> keeps its own 1-based numbering (independent of body
+    // cite [N]). Cited items also get a ^backref prefix linking back to prose.
     Object.entries(used).forEach(([key, list]) => {
       const li = items[key];
       if (!li) return;
@@ -76,4 +89,19 @@ const m = generalRefs.length;
       li.prepend(bk);
     });
   }
+  // :target animation runs once per hash change — if the user clicks the same
+  // anchor twice, the browser doesn't re-trigger :target and the flash stalls.
+  // Listen for any in-page cite navigation and toggle a class to retrigger the
+  // animation manually. Covers both prose [N] → list and list ^ → prose.
+  document.querySelectorAll(
+    'sup.cite a[href^="#"], sup.backref a[href^="#"]'
+  ).forEach(a => {
+    a.addEventListener('click', () => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      target.classList.remove('cite-flash');
+      void target.offsetWidth;        // force reflow so the animation restarts
+      target.classList.add('cite-flash');
+    });
+  });
 </script>

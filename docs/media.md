@@ -38,6 +38,8 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 | `box-back` | 包裝背面 | 盒裝 | |
 | `box-spine` | 包裝側面 | 盒裝 | |
 | `package` | 包裝 | 盒裝 | 整套擺拍、外盒以外配件合照 |
+| `bonus` | 特典 | 附件／特典 | 盒中夾附的特典／贈品通用 kind：作者卡、書籤、月曆、明信片、貼紙、回函卡等。多張用 `bonus-01`、`bonus-02`…；具體類型寫在 `caption` |
+| `poster` | 海報 | 附件／特典 | 特典海報（獨立 kind，方便圖庫單獨呈現） |
 | `disc` | 光碟 | 光碟／磁片 | |
 | `floppy` | 磁片 | 光碟／磁片 | |
 | `manual-cover` | 說明書封面 | 說明書 | |
@@ -50,7 +52,7 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 | `building` | 辦公室 | 照片 | 公司頁 |
 | `portrait` | 人物照 | 照片 | 人物頁 |
 | `photo` | 照片 | 照片 | 人物頁 |
-| `other` | 圖片 | 其他 | 海報、貼紙、周邊… |
+| `other` | 圖片 | 其他 | 不便歸前面任一類者 |
 
 **分組內排序**：先看 `order`（顯式），再看 kind 在分組 `kinds[]` 中的位置（box-front 前於 box-back 前於 box-spine；title 前於 screenshot），最後按 src 檔名 fallback。
 

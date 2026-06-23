@@ -7,6 +7,7 @@ import sources from '../../data/media-sources.json';
 // kinds; only the kinds an entity actually has will show.
 export const CATEGORIES = [
   { label: '盒裝', kinds: ['box-front', 'box-back', 'box-spine', 'package'] },
+  { label: '附件／特典', kinds: ['bonus', 'poster'] },
   { label: '光碟／磁片', kinds: ['disc', 'floppy'] },
   { label: '說明書', kinds: ['manual-cover', 'manual'] },
   { label: '廣告', kinds: ['ad'] },
@@ -19,6 +20,7 @@ export const CATEGORIES = [
 
 export const KIND_LABELS = {
   'box-front': '包裝封面', 'box-back': '包裝背面', 'box-spine': '包裝側面', 'package': '包裝',
+  'bonus': '特典', 'poster': '海報',
   'disc': '光碟', 'floppy': '磁片', 'manual-cover': '說明書封面', 'manual': '說明書內頁',
   'ad': '廣告', 'title': '標題畫面', 'screenshot': '遊戲畫面',
   'logo': '標誌', 'building': '辦公室', 'product': '產品', 'portrait': '人物照', 'photo': '照片',

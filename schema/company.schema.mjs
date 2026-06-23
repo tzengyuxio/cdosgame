@@ -24,7 +24,7 @@ export const companySchema = z.object({
   // 參考資料 (References): {title, url}. Same field name as games' references
   // (games keep their typed map shape; a shared RefSection renders both).
   // 註釋 (footnotes): plain-text notes, no url; cited inline as [N]. See docs/refs-convention.md.
-  footnotes: z.array(z.string()).default([]),
+  footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),
   references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional(), key: z.string().optional() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),  // 外部連結
   // curated media (public/media/companies/<slug>/). An `ad` may carry games:[cdg-…]

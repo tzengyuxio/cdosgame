@@ -23,8 +23,10 @@ export const GENRES = [
 
 // curated media kinds (see docs/media.md)
 export const MEDIA_KINDS = [
-  "box-front", "box-back", "box-spine", "package", "disc", "floppy",
-  "manual-cover", "manual", "ad", "title", "screenshot", "other",
+  "box-front", "box-back", "box-spine", "package",
+  "bonus", "poster",
+  "disc", "floppy", "manual-cover", "manual", "ad",
+  "title", "screenshot", "other",
 ];
 
 export const gameSchema = z.object({
@@ -110,7 +112,7 @@ export const gameSchema = z.object({
   // data/media-sources.json.
   media: mediaArray(MEDIA_KINDS),
   // 註釋 (footnotes): plain-text explanatory notes (no url), cited inline as [N]. See docs/refs-convention.md.
-  footnotes: z.array(z.string()).default([]),
+  footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),
   references: z.object({
     // auto-collected source pages → 參考資料 段 as general references (no [N]).
     omega: z.string().url().optional(),

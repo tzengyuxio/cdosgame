@@ -9,7 +9,7 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 
 | 段 | 欄位 | 內容 | 連結 | 可被正文 `[N]` 引用 |
 |---|---|---|---|---|
-| **註釋** | `footnotes` | 純文字補充說明（太細不便放正文） | 無 | ✅ |
+| **註釋** | `footnotes` | 文字補充說明（太細不便放正文）；可內嵌 `<a>` 連結到站內其他條目 | 站內連結可 | ✅ |
 | **參考資料** | `references` | 構成內容的**來源** | 有 | ✅（標 `cited` 的） |
 | **外部連結** | `external_links` | **非來源**：重複資料、因版權/無法爬取而未收入、留作日後補充 | 有 | ❌ |
 
@@ -33,7 +33,9 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 
 ```yaml
 footnotes:
-  - 年份依包裝盒標示，與維基略有出入
+  - 年份依包裝盒標示，與維基略有出入          # 純字串（legacy 形式，不可由 data-ref 引用）
+  - key: fn01                                   # keyed 形式：body 可用 data-ref="fn01" 連到此筆
+    text: '兩寫法各有依據，疑為同一人之異寫。可內嵌 <a href="/games/cdg-1701">站內連結</a>。'
 references:
   chiuinan: https://...      # 自動來源 → 參考資料（general，無號）
   fandom: 神雕侠侣 (1997)
@@ -43,11 +45,12 @@ external_links:
   "民間漢化補丁": https://...
 ```
 
-**其他實體**（`references` 為陣列，被引用者標 `cited: true`）：
+**其他實體**（`references` 為陣列，被引用者標 `cited: true`；footnotes 同樣支援雙形式）：
 
 ```yaml
 footnotes:
   - 補充說明
+  - { key: fn01, text: '可內嵌 <a href="...">連結</a>' }
 references:
   - title: 巴哈姆特 大宇歷史介紹   # 被正文引用 → [1]
     url: https://...
@@ -57,6 +60,10 @@ references:
 external_links:
   "官方網站": https://...
 ```
+
+**Footnote 兩種形式**：
+- **純字串**（legacy）：無 key，**不能**被 `<sup class="cite" data-ref="...">` 引用、只能用 manual `<a href="#cite-N">[N]</a>` 連結；多用於不需 body cite 的純背景補充。
+- **keyed 物件 `{ key, text }`**：body 可用 `<sup class="cite" data-ref="<key>"></sup>`，dynamic JS 會自動編號＋建立雙向 backref，跟 `references.cited` 共用同一條編號序列。**Key 用 `fn01`、`fn02`… 編號形式**（不取語意名）——條目本地序號、避免跨條目重名與重命名負擔。`text` 內可內嵌 `<a>` 連到其他條目。
 
 ## 「丟連結」工作流程（SOP）
 

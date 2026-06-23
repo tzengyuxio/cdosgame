@@ -15,7 +15,7 @@ export const teamSchema = z.object({
   members: z.array(z.string()).default([]), // key people (person names); linked to /people if a page exists
   featured_games: z.array(z.string()).default([]),  // representative cdg-NNNN
   // 註釋 (footnotes): plain-text notes, no url; cited inline as [N]. See docs/refs-convention.md.
-  footnotes: z.array(z.string()).default([]),
+  footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),
   references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional(), key: z.string().optional() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),
 });
