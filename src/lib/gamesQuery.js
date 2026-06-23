@@ -1,5 +1,10 @@
 export const NONE = '未分類';
 
+// localization_level facet display order: a meaning axis (most→least Chinese),
+// not ranked by count. 未分類 (and any unknown value) sorts last.
+export const LOC_ORDER = ['native', 'localized', 'packaging', 'foreign'];
+const locRank = v => { const i = LOC_ORDER.indexOf(v); return i === -1 ? LOC_ORDER.length + 1 : i; };
+
 const PUNCT = /[\s\-_:：·・／/、，,.。！？!?'"""()（）[\]【】~～]+/g;
 
 export function normalize(s) {
@@ -20,20 +25,6 @@ export function decadeOf(year) {
   return `${Math.floor(year / 10) * 10}s`;
 }
 
-// Decades to break out into individual years in the 年代 facet, because the
-// bucket is so large that "1990s" alone is barely a filter. Other decades stay
-// as a single bucket. decadeOf() (homepage / /decades pages) is unaffected.
-export const EXPAND_DECADES = new Set(['1990s']);
-
-// Facet bucket for a year: an individual year (string) inside an expanded
-// decade, else the decade. parseInt() of either form yields the year/decade
-// start, so chronological sorting in deriveFacets keeps working.
-export function decadeFacetOf(year) {
-  if (!year) return null;
-  const d = decadeOf(year);
-  return EXPAND_DECADES.has(d) ? String(year) : d;
-}
-
 export function vendorsOf(g) {
   const v = [];
   if (g.developer) v.push(g.developer);
@@ -42,7 +33,9 @@ export function vendorsOf(g) {
 }
 
 function facetValues(g, facet) {
-  if (facet === 'decade') { const d = decadeFacetOf(g.year); return d ? [d] : [NONE]; }
+  // decade facet is two-level: a game belongs to both its decade ("1990s") and
+  // its exact year ("1995"), so selecting either the decade or a single year matches.
+  if (facet === 'decade') { return g.year ? [decadeOf(g.year), String(g.year)] : [NONE]; }
   if (facet === 'genre') return g.genre ? [g.genre] : [NONE];
   if (facet === 'loc') return g.localization_level ? [g.localization_level] : [NONE];
   if (facet === 'vendor') { const v = vendorsOf(g); return v.length ? v : [NONE]; }
@@ -75,10 +68,19 @@ export function paginate(games, page, size = 50) {
 }
 
 export function deriveFacets(games) {
-  const acc = { decade: new Map(), genre: new Map(), vendor: new Map(), loc: new Map() };
+  const acc = { genre: new Map(), vendor: new Map(), loc: new Map() };
+  const decadeCount = new Map();          // decade → count
+  const yearCount = new Map();            // decade → Map(yearStr → count)
   const bump = (m, k) => m.set(k, (m.get(k) || 0) + 1);
   for (const g of games) {
-    bump(acc.decade, decadeFacetOf(g.year) || NONE);
+    const d = decadeOf(g.year);
+    if (d) {
+      bump(decadeCount, d);
+      if (!yearCount.has(d)) yearCount.set(d, new Map());
+      bump(yearCount.get(d), String(g.year));
+    } else {
+      bump(decadeCount, NONE);
+    }
     bump(acc.genre, g.genre || NONE);
     bump(acc.loc, g.localization_level || NONE);
     const vs = vendorsOf(g);
@@ -86,12 +88,23 @@ export function deriveFacets(games) {
     else bump(acc.vendor, NONE);
   }
   const byCount = m => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
-  // 年代 lists chronologically (1980s → 1990s → …) with 未分類 last — a time
-  // axis reads better in order than ranked by count; other facets stay by count.
-  const byDecade = m => [...m.entries()]
-    .sort((a, b) => (a[0] === NONE) - (b[0] === NONE) || parseInt(a[0]) - parseInt(b[0]))
+  // 在地化 lists in meaning order (原生→中文化→中文包裝→外文→未分類), not by count.
+  const byLoc = m => [...m.entries()]
+    .sort((a, b) => locRank(a[0]) - locRank(b[0]))
     .map(([value, count]) => ({ value, count }));
-  return { decade: byDecade(acc.decade), genre: byCount(acc.genre), loc: byCount(acc.loc), vendor: byCount(acc.vendor) };
+  // 年代 is two-level: decades chronologically (1980s → 1990s → …) with 未分類
+  // last, each carrying its years (also chronological) for an expandable second
+  // level. A time axis reads better in order than ranked by count.
+  const decade = [...decadeCount.entries()]
+    .sort((a, b) => (a[0] === NONE) - (b[0] === NONE) || parseInt(a[0]) - parseInt(b[0]))
+    .map(([value, count]) => ({
+      value,
+      count,
+      years: value === NONE ? [] : [...(yearCount.get(value) || new Map()).entries()]
+        .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+        .map(([y, c]) => ({ value: y, count: c })),
+    }));
+  return { decade, genre: byCount(acc.genre), loc: byLoc(acc.loc), vendor: byCount(acc.vendor) };
 }
 
 export function toIndexRecord(d) {

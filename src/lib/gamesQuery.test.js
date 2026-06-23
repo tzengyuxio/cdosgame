@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  normalize, searchGames, decadeOf, decadeFacetOf, vendorsOf, applyFacets,
+  normalize, searchGames, decadeOf, vendorsOf, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
   seriesOf, groupBy, relatedFor, distinctValues,
   yearRange, topValue,
@@ -30,22 +30,30 @@ test('decadeOf', () => {
   assert.equal(decadeOf(null), null);
 });
 
-test('decadeFacetOf splits expanded decades (1990s) into years', () => {
-  assert.equal(decadeFacetOf(1995), '1995');
-  assert.equal(decadeFacetOf(1991), '1991');
-  assert.equal(decadeFacetOf(2003), '2000s');
-  assert.equal(decadeFacetOf(1985), '1980s');
-  assert.equal(decadeFacetOf(null), null);
+test('deriveFacets decade: two-level — decades chronological (未分類 last), years nested', () => {
+  const dec = deriveFacets(G).decade;
+  assert.deepEqual(dec.map(o => o.value), ['1990s', NONE]);
+  assert.equal(dec[0].count, 2);                                  // 1991 + 1995
+  assert.deepEqual(dec[0].years.map(y => y.value), ['1991', '1995']);
+  assert.deepEqual(dec.find(o => o.value === NONE).years, []);    // 未分類 has no year sub-level
 });
 
-test('deriveFacets decade: 1990s split to years, chronological, 未分類 last', () => {
-  const vals = deriveFacets(G).decade.map(o => o.value);
-  assert.deepEqual(vals, ['1991', '1995', NONE]);
+test('applyFacets decade matches either the decade bucket or an individual year', () => {
+  assert.equal(applyFacets(G, { decade:['1995'] }).length, 1);    // single year
+  assert.equal(applyFacets(G, { decade:['1990s'] }).length, 2);   // whole decade
+  assert.equal(applyFacets(G, { decade:['1980s'] }).length, 0);
 });
 
-test('applyFacets decade matches individual year, not the old 1990s bucket', () => {
-  assert.equal(applyFacets(G, { decade:['1995'] }).length, 1);
-  assert.equal(applyFacets(G, { decade:['1990s'] }).length, 0);
+test('deriveFacets loc: meaning order (native→…→foreign→未分類), not by count', () => {
+  const L = [
+    { localization_level:'foreign' }, { localization_level:'foreign' }, { localization_level:'foreign' },
+    { localization_level:'packaging' },
+    { localization_level:'native' }, { localization_level:'native' },
+    { localization_level:'localized' },
+    { localization_level:null },
+  ].map((g, i) => ({ id:'l'+i, title_zh:'x', year:null, publisher_tw:[], ...g }));
+  const vals = deriveFacets(L).loc.map(o => o.value);
+  assert.deepEqual(vals, ['native', 'localized', 'packaging', 'foreign', NONE]);
 });
 
 test('vendorsOf merges developer + publisher_tw', () => {
