@@ -26,10 +26,10 @@ import Base from '../../layouts/Base.astro';
 
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     const FACETS = [['decade','年代'],['genre','類型'],['vendor','廠商'],['loc','在地化']];
-    const LIMIT = { decade: 99, genre: 99, loc: 99, vendor: 40 };
+    const TOP_FACET_COUNT = 10;
     let GAMES = [];
     let vendorFilter = '';
-    let vendorShowTail = false;   // reveal vendors with ≤3 games (collapsed by default)
+    const showFacetTail = { genre: false, vendor: false };
     const state = { q:'', sel:{decade:[],genre:[],vendor:[],loc:[]}, sort:'year:asc', page:1 };
 
     const esc = s => (s ?? '').toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
@@ -110,19 +110,40 @@ import Base from '../../layouts/Base.astro';
         b.type = 'button'; b.className = 'facet-more'; b.textContent = text; b.onclick = fn;
         sec.append(b);
       };
+      const addRankedFacet = (sec, key, items) => {
+        const head = items.slice(0, TOP_FACET_COUNT);
+        const tail = items.slice(TOP_FACET_COUNT);
+        const selectedTail = tail.filter(o => state.sel[key].includes(o.value));
+        const hiddenTail = tail.filter(o => !state.sel[key].includes(o.value));
+        const toggleCount = showFacetTail[key] ? tail.length : hiddenTail.length;
+
+        for (const o of head) addOpt(sec, key, o.value, o.count);
+        for (const o of showFacetTail[key] ? tail : selectedTail) addOpt(sec, key, o.value, o.count);
+        if (toggleCount) addMore(
+          sec,
+          showFacetTail[key] ? `收合其餘 ${toggleCount} 項` : `顯示其餘 ${toggleCount} 項`,
+          () => { showFacetTail[key] = !showFacetTail[key]; renderFacets(); },
+        );
+      };
 
       for (const [key, label] of FACETS) {
         const sec = document.createElement('section');
         sec.className = 'facet';
         sec.innerHTML = `<h3>${label}</h3>`;
 
-        if (key !== 'vendor') {
-          for (const { value, count } of opts[key].slice(0, LIMIT[key])) addOpt(sec, key, value, count);
+        if (key === 'genre') {
+          addRankedFacet(sec, key, opts[key]);
           host.append(sec);
           continue;
         }
 
-        // 廠商: case-insensitive 搜尋；無搜尋時把 ≤3 款的廠商收合
+        if (key !== 'vendor') {
+          for (const { value, count } of opts[key]) addOpt(sec, key, value, count);
+          host.append(sec);
+          continue;
+        }
+
+        // 廠商: case-insensitive 搜尋；無搜尋時只展開遊戲數量最多的前 10 家。
         const vf = document.createElement('input');
         vf.className = 'vfilter'; vf.placeholder = '篩廠商…'; vf.value = vendorFilter;
         vf.oninput = e => { vendorFilter = e.target.value; renderFacets(); };
@@ -133,15 +154,7 @@ import Base from '../../layouts/Base.astro';
           for (const o of opts.vendor.filter(o => o.value.toLowerCase().includes(q)))
             addOpt(sec, 'vendor', o.value, o.count);
         } else {
-          const major = opts.vendor.filter(o => o.count > 3);
-          const tail = opts.vendor.filter(o => o.count <= 3);
-          for (const o of major) addOpt(sec, 'vendor', o.value, o.count);
-          if (vendorShowTail) for (const o of tail) addOpt(sec, 'vendor', o.value, o.count);
-          if (tail.length) addMore(
-            sec,
-            vendorShowTail ? '收合 ≤3 款廠商' : `顯示其餘 ${tail.length} 家（≤3 款）`,
-            () => { vendorShowTail = !vendorShowTail; renderFacets(); },
-          );
+          addRankedFacet(sec, 'vendor', opts.vendor);
         }
         host.append(sec);
       }
