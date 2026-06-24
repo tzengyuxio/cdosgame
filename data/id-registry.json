@@ -8268,7 +8268,7 @@
         "cat:SCD2033"
       ],
       "status": "active",
-      "title_zh": "古大陸物語5：毀滅天境"
+      "title_zh": "古大陸物語5：毀滅天鏡"
     },
     "cdg-0919": {
       "catalog_id": "SCD2034",
@@ -40903,6 +40903,18 @@
       ],
       "status": "active",
       "title_zh": "屠龍戰記"
+    },
+    "cdg-4541": {
+      "catalog_id": null,
+      "developer": "Enlight Software",
+      "keys": [
+        "t:金錢帝國黃金版|Enlight Software",
+        "t:金錢帝國|Enlight Software",
+        "t:Capitalism Plus|Enlight Software",
+        "t:Capitalism|Enlight Software"
+      ],
+      "status": "active",
+      "title_zh": "金錢帝國黃金版"
     }
   }
 }
