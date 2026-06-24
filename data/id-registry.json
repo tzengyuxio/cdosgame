@@ -1723,7 +1723,7 @@
         "cat:Z007"
       ],
       "status": "active",
-      "title_zh": "卒業："
+      "title_zh": "卒業"
     },
     "cdg-0192": {
       "catalog_id": "SCD0305",
@@ -2249,7 +2249,7 @@
     },
     "cdg-0250": {
       "catalog_id": "SCD0385",
-      "developer": "智冠",
+      "developer": "紅螞蟻工作室",
       "keys": [
         "cat:SCD0385"
       ],
@@ -2924,7 +2924,7 @@
     },
     "cdg-0325": {
       "catalog_id": "JXD010",
-      "developer": "精訊",
+      "developer": "龍翔",
       "keys": [
         "cat:JXD010"
       ],
@@ -8237,10 +8237,11 @@
       "catalog_id": null,
       "developer": "TGL",
       "keys": [
-        "t:古大陸物語1|TGL"
+        "t:古大陸物語1|TGL",
+        "t:古大陸物語|TGL"
       ],
       "status": "active",
-      "title_zh": "古大陸物語1"
+      "title_zh": "古大陸物語"
     },
     "cdg-0916": {
       "catalog_id": null,
@@ -12116,10 +12117,12 @@
       "catalog_id": "SCD1076",
       "developer": "FUGA",
       "keys": [
-        "cat:SCD1076"
+        "cat:SCD1076",
+        "t:亞瑪蘭斯|FUGA",
+        "t:Amaranth 3D|FUGA"
       ],
       "status": "active",
-      "title_zh": "阿曼尼斯傳說"
+      "title_zh": "亞瑪蘭斯"
     },
     "cdg-1347": {
       "catalog_id": "TTNZ002,SCD0237",
@@ -16169,7 +16172,7 @@
         "cat:OCD0036"
       ],
       "status": "active",
-      "title_zh": "撼天神塔1：復活邪魔"
+      "title_zh": "撼天神塔：復活邪魔"
     },
     "cdg-1797": {
       "catalog_id": "SCD1328",
@@ -16202,10 +16205,12 @@
       "catalog_id": "SCD1331",
       "developer": "Falcom",
       "keys": [
-        "cat:SCD1331"
+        "cat:SCD1331",
+        "t:撼天神塔VT|Falcom",
+        "t:Brandish VT|Falcom"
       ],
       "status": "active",
-      "title_zh": "撼天神塔"
+      "title_zh": "撼天神塔VT：犧牲者之塔"
     },
     "cdg-1801": {
       "catalog_id": "SCD0492",
@@ -19562,7 +19567,7 @@
         "cat:SCD0247"
       ],
       "status": "active",
-      "title_zh": "超時空英雄傳說2復仇魔神"
+      "title_zh": "超時空英雄傳說2：復仇魔神"
     },
     "cdg-2174": {
       "catalog_id": "SCD0248",
@@ -21480,7 +21485,7 @@
         "cat:SSG049,SCD2786"
       ],
       "status": "active",
-      "title_zh": "明星志願1"
+      "title_zh": "明星志願"
     },
     "cdg-2387": {
       "catalog_id": "SCD0213",
@@ -30930,13 +30935,14 @@
         "cat:SCD1313"
       ],
       "status": "active",
-      "title_zh": "英雄傳說1：龍的傳人"
+      "title_zh": "英雄傳說：龍的傳人"
     },
     "cdg-3435": {
       "catalog_id": "SCD1314",
       "developer": "Falcom",
       "keys": [
-        "cat:SCD1314"
+        "cat:SCD1314",
+        "t:英雄傳說2-屠龍戰記|Falcom"
       ],
       "status": "active",
       "title_zh": "英雄傳說2：屠龍戰記"
@@ -30957,7 +30963,7 @@
         "cat:SCD1316"
       ],
       "status": "active",
-      "title_zh": "英雄傳說4：朱紅雪"
+      "title_zh": "英雄傳說4：朱紅血"
     },
     "cdg-3438": {
       "catalog_id": "SCD1320",
@@ -34516,7 +34522,7 @@
     },
     "cdg-3833": {
       "catalog_id": "SCD1182",
-      "developer": "智冠",
+      "developer": "太極工作室",
       "keys": [
         "cat:SCD1182"
       ],
@@ -34714,7 +34720,7 @@
     },
     "cdg-3855": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "至通科技",
       "keys": [
         "t:風雲天下三國篇|None"
       ],
@@ -34878,10 +34884,13 @@
       "catalog_id": null,
       "developer": null,
       "keys": [
-        "t:雷諾尼都紀事(迷城的國度)|None"
+        "t:雷諾尼都紀事(迷城的國度)|None",
+        "t:雷諾尼都紀事|Falcom",
+        "t:迷城國度|Falcom",
+        "t:迷城的國度|Falcom"
       ],
       "status": "active",
-      "title_zh": "雷諾尼都紀事(迷城的國度)"
+      "title_zh": "雷諾尼都紀事"
     },
     "cdg-3874": {
       "catalog_id": null,
@@ -36694,12 +36703,14 @@
     },
     "cdg-4075": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "FUGA",
       "keys": [
-        "t:阿曼尼斯開國啟示錄 革命|None"
+        "t:阿曼尼斯開國啟示錄 革命|None",
+        "t:阿曼尼斯開國啟示錄：革命|FUGA",
+        "t:Amaranth KH|FUGA"
       ],
       "status": "active",
-      "title_zh": "阿曼尼斯開國啟示錄 革命"
+      "title_zh": "阿曼尼斯開國啟示錄：革命"
     },
     "cdg-4076": {
       "catalog_id": null,
@@ -40881,6 +40892,17 @@
       ],
       "status": "active",
       "title_zh": "仙劍奇俠傳7"
+    },
+    "cdg-4540": {
+      "catalog_id": null,
+      "developer": "Dot & Bit",
+      "keys": [
+        "t:屠龍戰記|Dot & Bit",
+        "t:Darkness|Dot & Bit",
+        "t:다크니스|Dot & Bit"
+      ],
+      "status": "active",
+      "title_zh": "屠龍戰記"
     }
   }
 }

@@ -78,10 +78,70 @@
 | 58 | 大宋英豪岳飛傳 | `content/games/cdg-0360.md` | 已補 | 查 chiuinan 與 Archive.org；修正為紅螞蟻製作、智冠發行，補正文。 |
 | 59 | 江南才子唐伯虎 | `content/games/cdg-1133.md` | 已補 | 既有正文已充分；補表格來源 provenance，registry 開發者改為太極工作室。 |
 | 60 | 三國演義 | `content/games/cdg-0233.md` | 已補 | 既有銀狐與軟體世界來源保留；補巴哈表格 provenance。 |
+| 61 | 三國演義２ | `content/games/cdg-0234.md` | 已補 | 查 chiuinan 與維基系列頁；補表格來源 provenance、光碟版型態。 |
+| 62 | 吞食天地–三國外傳 | `content/games/cdg-0977.md` | 已補 | 查 chiuinan；補精確日期、表格別名、珍129 與表格來源。 |
+| 63 | 吞食天地Ⅱ | `content/games/cdg-0978.md` | 已補 | 查既有 Fandom 與 chiuinan txt 路徑；補精確日期、珍209 與表格來源。 |
+| 64 | 風雲天下三國篇 | `content/games/cdg-3855.md` | 已補 | 查 Fandom 與 Archive.org 入口；依表格補至通科技研發、智冠發行、珍317，正文保守處理。 |
+| 65 | 龍騰三國 | `content/games/cdg-3833.md` | 已補 | 查 chiuinan 與 Fandom；依表格校正為太極工作室研發、智冠發行，補正文與表格來源。 |
+| 66 | 三國英雄傳 | `content/games/cdg-0250.md` | 已補 | 查 chiuinan 與 Fandom；依表格/Fandom 校正為紅螞蟻工作室研發、智冠發行，補正文。 |
+| 67 | 三國風雲 | `content/games/cdg-0257.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1996-12-30。 |
+| 68 | 三國志：武將爭霸 | `content/games/cdg-0226.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1993-07-05。 |
+| 69 | 三國志：武將爭霸２ | `content/games/cdg-0227.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1995-02-20。 |
+| 70 | 赤壁之戰 | `content/games/cdg-3359.md` | 已補 | 查 chiuinan 與 Fandom；補正文、表格來源，保留 1994/1995 發行年差異說明。 |
+| 71 | 雄霸天下三國篇 | `content/games/cdg-1965.md` | 已補 | 查 chiuinan/Fandom/Omega；補正文、表格來源 provenance、表格名 alias 與精確日期。 |
+| 72 | 臥竜伝（臥龍傳） | `content/games/cdg-1320.md` | 已補 | 查 Fandom 與既有 chiuinan；補正文、表格來源與 1995／1995-06 上旬出版預告差異 cite。 |
+| 73 | 劉備傳 | `content/games/cdg-3875.md` | 已補 | 既有正文充分；補表格來源 provenance、精確日期 1998-08-15、語言/平台/載體欄位。 |
+| 74 | 軒轅劍 | `content/games/cdg-1881.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1990-10-13。 |
+| 75 | 軒轅劍２ | `content/games/cdg-1882.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1994-02-08。 |
+| 76 | 軒轅劍外傳楓之舞 | `content/games/cdg-1883.md` | 已補 | 既有正文充分；補表格來源 provenance、表格名 alias 與精確日期 1995-01-06。 |
+| 77 | 仙劍奇俠傳 | `content/games/cdg-1564.md` | 已補 | 既有地標正文充分；補表格來源 provenance 與精確日期 1995-07-07。 |
+| 78 | 劍俠情緣 | `content/games/cdg-2986.md` | 已補 | 查 chiuinan、Fandom 與維基系列頁；補正文、表格來源 provenance 與精確日期 1997-04-03。 |
+| 79 | 勇者鬥惡龍 | `content/games/cdg-1391.md` | 已補 | 既有正文充分；補表格來源 provenance。 |
+| 80 | 勇者鬥惡龍２ | `content/games/cdg-1392.md` | 已補 | 補表格來源 provenance；正文以 cite 標出 1990 與 1991 兩種發行年記法。 |
+| 81 | 勇者鬥惡龍３ | `content/games/cdg-1393.md` | 已補 | 既有正文充分；補表格來源 provenance、表格別名與 1993 外流版本說明 cite。 |
+| 82 | Sorcerian 魔界歷險 | `content/games/cdg-3758.md` | 已補 | 補正文、表格來源 provenance、珍048 與英文 MS-DOS 版脈絡。 |
+| 83 | Dragon Slayer: The Legend Of Heroes 英雄傳說Ⅰ龍的傳人 | `content/games/cdg-3434.md` | 已補 | 補正文、表格來源 provenance、天堂鳥 1996-09-15 發行資訊。 |
+| 84 | Dragon Slayer: The Legend Of Heroes II 英雄傳說Ⅱ屠龍戰記 | `content/games/cdg-3435.md` | 已補 | 補正文、表格來源 provenance、天堂鳥 1996-10-15 發行資訊。 |
+| 85 | 屠龍戰記 | `content/games/cdg-4540.md` | 已補 | 使用者補充為韓國 Dot & Bit《Darkness／다크니스》，歡樂盒代理預告、ARPG；實際是否出片待查。 |
+| 86 | 英雄傳說Ⅲ白髮魔女 | `content/games/cdg-3436.md` | 已補 | 補正文、表格來源 provenance、天堂鳥 1996-12-27 發行資訊。 |
+| 87 | 英雄傳說Ⅳ朱紅血 | `content/games/cdg-3437.md` | 已補 | 主標題由「朱紅雪」改為天堂鳥 DOS 版常用「朱紅血」；「朱紅雪／朱紅的淚」保留 alias 與正文差異說明。 |
+| 88 | Revival Xanadu 雷諾尼都紀事（迷城的國度） | `content/games/cdg-3873.md` | 已補 | 主標題定為「雷諾尼都紀事」；「迷城國度／迷城的國度」移入 alias，補 Falcom／天堂鳥 metadata、正文與表格來源 provenance。 |
+| 89 | Revival Xanadu II Remix 雷諾尼都紀事Ⅱ賞金獵人 | `content/games/cdg-4446.md` | 已補 | 補 Falcom／天堂鳥 metadata、正文與表格來源 provenance；中文 DOS 版資料稀少，正文保守處理。 |
+| 90 | Brandish（撼天神塔）復活邪魔 | `content/games/cdg-1796.md` | 已補 | 補正文、表格來源 provenance 與 Brandish 原作脈絡；`cdg-4095` 空 stub 待合併。 |
+| 91 | Brandish 2（撼天神塔２）魔界重現 | `content/games/cdg-1797.md` | 已補 | 補正文、表格來源 provenance、改 genre 為 ARPG。 |
+| 92 | Brandish 3（撼天神塔３）魔誡 | `content/games/cdg-1798.md` | 已補 | 補正文、表格來源 provenance、改 genre 為 ARPG。 |
+| 93 | Brandish VT 撼天神塔VT | `content/games/cdg-1800.md` | 已補 | 以較完整的 `cdg-1800` 為正本，主標題改「撼天神塔VT：犧牲者之塔」；`cdg-4138` 空 stub 待合併。 |
+| 94 | 撼天神塔４長眠之塔 | `content/games/cdg-1799.md` | 已補 | 補正文、表格來源 provenance、改 genre 為 ARPG；與 VT 的重製／改題關係記入正文。 |
+| 95 | 八女神物語 | `content/games/cdg-0165.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1994-12-15。 |
+| 96 | 八女神物語２ | `content/games/cdg-0166.md` | 已補 | 既有正文可用；補表格來源 provenance 與精確日期 1996-09-15。 |
+| 97 | 七英雄物語 | `content/games/cdg-0163.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1995-01-15。 |
+| 98 | 七英雄物語２ | `content/games/cdg-0164.md` | 已補 | 補正文、developer_region/localization 修正、表格來源 provenance 與精確日期 1996-06-10。 |
+| 99 | Amaranth III 阿曼尼斯傳說３ | `content/games/cdg-1347.md` | 已補 | 補正文、developer_region、表格來源 provenance 與精確日期 1995-06-10。 |
+| 100 | Amaranth KH 阿曼尼斯開國啟示錄：革命 | `content/games/cdg-4075.md` | 已補 | 補 FUGA／幸福鴨 metadata、正文與表格來源 provenance；中文代理版細節稀少，保守處理。 |
+| 101 | Amaranth 3D 亞瑪蘭斯 | `content/games/cdg-1346.md` | 已補 | 主標題改「亞瑪蘭斯」、slug 修正；補正文、表格來源 provenance，正文並陳 1998?／1999 兩種年分記法。 |
+| 102 | Farland Story 古大陸物語 | `content/games/cdg-0915.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1995-10-10，registry 主名去初代序號。 |
+| 103 | 古大陸物語２雅克王的遠征 | `content/games/cdg-0916.md` | 已補 | 補正文、series、表格來源 provenance 與精確日期 1996-05-01。 |
+| 104 | 古大陸物語４銀翼傳承 | `content/games/cdg-0917.md` | 已補 | 補正文、series、表格來源 provenance 與精確日期 1997-07-16。 |
+| 105 | 古大陸物語５毀滅天鏡 | `content/games/cdg-0918.md` | 已補 | 補正文、series、表格來源 provenance 與精確日期 1998-06-15；表格「毀滅天鏡」保留 alias。 |
+| 106 | 古大陸物語８勇者鬥狂神 | `content/games/cdg-0919.md` | 已補 | 補正文、series、表格來源 provenance 與精確日期 1997-04-15；Windows 版。 |
+| 107 | 超時空英雄傳說 | `content/games/cdg-2172.md` | 已補 | 既有正文充分；補表格來源 provenance 與精確日期 1996-04-10。 |
+| 108 | 超時空英雄傳說２復仇魔神 | `content/games/cdg-2173.md` | 已補 | 既有正文充分；補表格來源 provenance、publisher 與精確日期 1996-12-20。 |
+| 109 | 超時空英雄傳說２外傳北方密使 | `content/games/cdg-2174.md` | 已補 | 既有正文充分；補表格來源 provenance、publisher、alias 與精確日期 1998-02-15。 |
+| 110 | 美少女夢工場 | `content/games/cdg-1477.md` | 已補 | 正本為 `cdg-1477`「美少女夢工廠」；year 改採台灣中文版 1992，補表格來源 provenance 與精確日期 1992-09-20。 |
+| 111 | 美少女夢工場２ | `content/games/cdg-1478.md` | 已補 | 補正文、series、表格來源 provenance；year 改採台灣中文版 1994，補精確日期 1994-04-02。 |
+| 112 | 瘋狂醫院 | `content/games/cdg-2802.md` | 已補 | 依表格改為龍翔製作、精訊發行；補表格來源 provenance 與精確日期 1993-09-20。 |
+| 113 | 瘋狂醫院２超級醫生 | `content/games/cdg-2803.md` | 已補 | 既有正文充分；補表格來源 provenance、表格名 alias 與精確日期 1995-01-01。 |
+| 114 | 超級醫生３ | `content/games/cdg-2230.md` | 已補 | 補表格來源 provenance 與精確日期 1998-09-28；正文並陳精訊首發與歡樂盒再版。 |
+| 115 | 卒業～Graduation～ | `content/games/cdg-0191.md` | 已補 | 既有正文充分；補表格來源 provenance 與台灣版 1995-05 記法。 |
+| 116 | 卒業旅行 | `content/games/cdg-0195.md` | 已補 | 補表格來源 provenance；year 改採 1996，正文保守說明台灣中文版發行時間記法。 |
+| 117 | 同級生２ | `content/games/cdg-0952.md` | 已補 | 既有正文充分；補表格來源 provenance、表格名 alias 與 1995-12 記法。 |
+| 118 | 轉校生 | `content/games/cdg-1896.md` | 已補 | 補表格來源 provenance 與精確日期 1995-10-15；移除未查證傳聞，改與《天使們的午後～轉校生～》自然區分。 |
+| 119 | 天使們的午後～轉校生～ | `content/games/cdg-0440.md` | 已補 | 補表格來源 provenance、alias 與精確日期 1995-06-16。 |
+| 120 | 明星志願 | `content/games/cdg-2386.md` | 已補 | 既有正文充分；補表格來源 provenance、publisher 與精確日期 1995-03-10；registry 主名去初代序號。 |
 
 ## 下一批起點
 
-下一次從第 61 個實際遊戲列開始：`三國演義２`（智冠，1996-08-15）。
+下一次從第 121 個實際遊戲列開始：`明日之星`（鷹揚，1995-03-20）。
 
 ## 查證筆記
 
@@ -108,3 +168,18 @@
 - `大唐英雄傳`：`cdg-0353` 為 1997 盤古軟件／仕積資訊版；`cdg-0354` 為 2003 昌哲科技版，雖同名但不可合併。
 - `花木蘭`：`cdg-3422` 為 1998 盤古軟件／仕積資訊版；`cdg-3423` 為 2005 極真科技同名作；`cdg-1113` 則是新資訊科技《巾幗英雄花木蘭》。
 - `蕩寇雄師`、`天師鍾馗`：本批未找到可用非 chiuinan gameplay 資料，僅依巴哈表格與既有資料庫來源補最小 metadata，不硬寫玩法。
+- `風雲天下三國篇`：巴哈表格記為至通科技研發、智冠發行；Fandom 記為智冠開發/發行且類型為動作。本站本次依表格補至通科技與智冠分工，正文中性並陳來源差異。
+- `龍騰三國`：巴哈表格記為太極工作室研發、智冠發行；既有 registry/frontmatter 原記智冠。本站本次依表格補太極工作室與智冠分工；「太極工作室」歸屬仍見 `docs/backlog/game-entry-review.md` 既有待考項。
+- `三國英雄傳`：巴哈表格與 Fandom 均支持紅螞蟻工作室研發、智冠發行；chiuinan 僅記智冠出品。本次改 developer 為紅螞蟻工作室、publisher_tw 為智冠。
+- `赤壁之戰`：chiuinan/Fandom 與既有資料庫採 1994，巴哈表格採 1995-01-01。本次 metadata 維持 1994，正文記錄發行年差異。
+- `臥龍傳`：Fandom/既有 metadata 採 1995；巴哈表格註記《軟體世界》1995 年 5 月號寫 6 月上旬出版。本次 metadata 維持 1995，正文以 cite 並陳。
+- `勇者鬥惡龍2`：正本為 `cdg-1392`（標題含「邪惡神官哈根」）；`data/id-registry.json` 另有 `cdg-4103` active entry 但無 content 檔，疑為重複或孤兒 registry 記錄，待後續清理。
+- 第 85 筆「屠龍戰記」：使用者後續更正，並非《英雄傳說2：屠龍戰記》，而是韓國 Dot & Bit《Darkness／다크니스》的台灣代理預告名稱，歡樂盒代理、動作角色扮演。台灣發售狀態依雜誌線索仍待查。
+- `英雄傳說4：朱紅血`：既有條目原主名「朱紅雪」，巴哈表格與天堂鳥 DOS 版脈絡採「朱紅血」；本次主名改「朱紅血」，「朱紅雪／朱紅的淚」保留 alias。
+- `Brandish`：`cdg-1796` 為正本；`cdg-4095`「復活邪魔」為同款空 stub，待後續 merge。
+- `Brandish VT`：`cdg-1800` 有 chiuinan 圖與 catalog，作正本；`cdg-4138`「撼天神塔VT」為空 stub，待後續 merge。
+- `Amaranth KH`：表格記幸福鴨代理、1996-08-15；既有 `cdg-4075` 僅有 Fandom merge，中文代理版劇情／系統細節仍待補。
+- `Amaranth 3D／亞瑪蘭斯`：既有 chiuinan/metadata 記 1999，巴哈表格記 1998?；metadata 暫維持 1999，正文並陳。
+- `美少女夢工場`：本批表格列的是精訊代理初代；正本為 `cdg-1477`「美少女夢工廠」。`cdg-1476` 目前主名也是「美少女夢工場」但實為 Princess Maker Q 空 stub，後續可另案正名。
+- `瘋狂醫院`：巴哈表格記「龍翔製作、精訊發行」，既有條目原記精訊開發。本次採表格製作／發行分工；龍翔實體與精訊關係待補佐證。
+- `轉校生`：既有正文含天堂鳥代理權轉移傳聞，缺可引用來源，本次移除正文傳聞並記 backlog。
