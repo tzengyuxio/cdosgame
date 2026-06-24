@@ -1,6 +1,7 @@
 import { defineConfig, passthroughImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
+import { COMPANY_ALIASES } from './src/lib/company-aliases.js';
 
 // GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
 const BASE = '/cdosgame';
@@ -102,7 +103,10 @@ export default defineConfig({
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
   markdown: { rehypePlugins: [rehypeBaseLinks, rehypeMedia] },
-  // 公司改名：世紀縱橫 → 貳碼科技（單頁，舊網址導向新頁）
-  redirects: { '/companies/世紀縱橫': `${BASE}/companies/貳碼科技` },
+  // 公司改名／別名：舊網址導向 canonical 頁。來源為精選表 src/lib/company-aliases.js
+  // （與 companies/[name].astro 的 getStaticPaths 共用，確保歸屬與導向一致）。
+  redirects: Object.fromEntries(
+    Object.entries(COMPANY_ALIASES).map(([alias, canon]) => [`/companies/${alias}`, `${BASE}/companies/${canon}`])
+  ),
   integrations: [sitemap()],
 });

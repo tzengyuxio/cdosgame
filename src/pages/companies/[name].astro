@@ -10,19 +10,26 @@ import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import { coverOf, decorate, galleryGroups, coverFigcaption } from '../../lib/media.js';
+import { COMPANY_ALIASES } from '../../lib/company-aliases.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
+  const companyCol = await getCollection('companies');
+  // alias → canonical id (curated): games that reference a former company name
+  // (e.g. 世紀縱橫) attribute to the canonical page (貳碼科技) and no thin alias
+  // page is generated, so the alias URL is left to the redirect in astro.config.mjs.
+  const canon = n => COMPANY_ALIASES[n] || n;
   const map = new Map();
   const get = n => { if (!map.has(n)) map.set(n, { developed: [], published: [] }); return map.get(n); };
   for (const e of games) {
     const g = e.data;
-    if (g.developer) get(g.developer).developed.push(g);
-    for (const p of (g.publisher_tw || [])) if (p !== g.developer) get(p).published.push(g);
+    const dev = g.developer ? canon(g.developer) : null;
+    if (dev) get(dev).developed.push(g);
+    for (const p of (g.publisher_tw || [])) { const cp = canon(p); if (cp !== dev) get(cp).published.push(g); }
   }
   // route set = vendors of (published) games ∪ company md whose published gate is on
   const showAll = !import.meta.env.PROD;
-  for (const e of await getCollection('companies')) {
+  for (const e of companyCol) {
     if ((showAll || e.data.published) && !map.has(e.id)) map.set(e.id, { developed: [], published: [] });
   }
   const byYear = (a, b) => (a.year ?? 9999) - (b.year ?? 9999);
