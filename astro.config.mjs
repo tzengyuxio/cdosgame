@@ -1,7 +1,6 @@
 import { defineConfig, passthroughImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
-import { COMPANY_ALIASES } from './src/lib/company-aliases.js';
 
 // GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
 const BASE = '/cdosgame';
@@ -103,10 +102,8 @@ export default defineConfig({
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
   markdown: { rehypePlugins: [rehypeBaseLinks, rehypeMedia] },
-  // 公司改名／別名：舊網址導向 canonical 頁。來源為精選表 src/lib/company-aliases.js
-  // （與 companies/[name].astro 的 getStaticPaths 共用，確保歸屬與導向一致）。
-  redirects: Object.fromEntries(
-    Object.entries(COMPANY_ALIASES).map(([alias, canon]) => [`/companies/${alias}`, `${BASE}/companies/${canon}`])
-  ),
+  // 公司改名／別名的舊網址導向不在這裡設定：改由 companies/[name].astro 依精選表
+  // src/lib/company-aliases.js 生成「即時 client redirect + 重導向自橫幅」的頁面，
+  // 避免 Astro 內建 redirect 的白頁閃動。
   integrations: [sitemap()],
 });
