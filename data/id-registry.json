@@ -289,7 +289,9 @@
       "catalog_id": null,
       "developer": "天堂鳥",
       "keys": [
-        "t:97超少女－連線水果盤|天堂鳥"
+        "t:97超少女－連線水果盤|天堂鳥",
+        "t:９７超少女 連線水果盤|天堂鳥",
+        "t:97超少女-連線水果盤|天堂鳥"
       ],
       "status": "active",
       "title_zh": "97超少女－連線水果盤"
@@ -1027,7 +1029,10 @@
       "catalog_id": "SCD0028",
       "developer": "ANJIN",
       "keys": [
-        "cat:SCD0028"
+        "cat:SCD0028",
+        "t:Q女天使學園|ANJIN",
+        "t:Q女天使學院|ANJIN",
+        "t:天使Q女學院|ANJIN"
       ],
       "status": "active",
       "title_zh": "Q女天使學園"
@@ -1459,7 +1464,9 @@
       "catalog_id": "SCD0971",
       "developer": "天堂鳥",
       "keys": [
-        "cat:SCD0971"
+        "cat:SCD0971",
+        "t:七英雄外傳：王者之師|天堂鳥",
+        "t:七英雄外傳王者之師|天堂鳥"
       ],
       "status": "active",
       "title_zh": "七英雄外傳：王者之師"
@@ -5306,7 +5313,8 @@
       "catalog_id": null,
       "developer": "天堂鳥",
       "keys": [
-        "t:幻獸都市：魔法大地|天堂鳥"
+        "t:幻獸都市：魔法大地|天堂鳥",
+        "t:幻獸都市 魔法大地|天堂鳥"
       ],
       "status": "active",
       "title_zh": "幻獸都市：魔法大地"
@@ -6962,7 +6970,9 @@
       "catalog_id": "Z097",
       "developer": "光譜",
       "keys": [
-        "cat:Z097"
+        "cat:Z097",
+        "t:坦克大決戰|光譜",
+        "t:Battle Europe|光譜"
       ],
       "status": "active",
       "title_zh": "坦克大決戰"
@@ -9745,7 +9755,9 @@
       "catalog_id": "SCD2611",
       "developer": "Telenet",
       "keys": [
-        "cat:SCD2611"
+        "cat:SCD2611",
+        "t:妖擊隊：邪神降魔錄|Telenet",
+        "t:妖擊隊|Telenet"
       ],
       "status": "active",
       "title_zh": "妖擊隊：邪神降魔錄"
@@ -16833,7 +16845,8 @@
       "catalog_id": null,
       "developer": "光譜",
       "keys": [
-        "t:福爾摩莎：本國地理篇|光譜"
+        "t:福爾摩莎：本國地理篇|光譜",
+        "t:福爾摩莎偵探社|光譜"
       ],
       "status": "active",
       "title_zh": "福爾摩莎：本國地理篇"
@@ -24306,7 +24319,9 @@
       "catalog_id": "SSG024",
       "developer": "大宇",
       "keys": [
-        "cat:SSG024"
+        "cat:SSG024",
+        "t:電腦魔域|大宇",
+        "t:Fantasy Zone of Computer|大宇"
       ],
       "status": "active",
       "title_zh": "電腦魔域"
@@ -32001,7 +32016,9 @@
       "catalog_id": "SCD1016",
       "developer": "ANJIN",
       "keys": [
-        "cat:SCD1016"
+        "cat:SCD1016",
+        "t:獸鄉守護者|ANJIN",
+        "t:Last Guardian|ANJIN"
       ],
       "status": "active",
       "title_zh": "獸鄉守護者"
@@ -33061,9 +33078,10 @@
     },
     "cdg-3670": {
       "catalog_id": null,
-      "developer": "華義",
+      "developer": "Kure Software Koubou",
       "keys": [
-        "t:魔域傳說4波斯戰記|華義"
+        "t:魔域傳說4波斯戰記|Kure Software Koubou",
+        "t:First Queen 4|Kure Software Koubou"
       ],
       "status": "active",
       "title_zh": "魔域傳說4波斯戰記"
@@ -34123,9 +34141,11 @@
     },
     "cdg-3788": {
       "catalog_id": "TTNZ006",
-      "developer": "Great",
+      "developer": "PLUM",
       "keys": [
-        "cat:TTNZ006"
+        "cat:TTNZ006",
+        "t:魔龍紀事限制級版|PLUM",
+        "t:Quintia Road 2|PLUM"
       ],
       "status": "active",
       "title_zh": "魔龍紀事"
@@ -34628,9 +34648,9 @@
     },
     "cdg-3844": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "天堂鳥",
       "keys": [
-        "t:創世封魔傳|None"
+        "t:創世封魔傳|天堂鳥"
       ],
       "status": "active",
       "title_zh": "創世封魔傳"
@@ -34809,9 +34829,10 @@
     },
     "cdg-3864": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Pioneer Soft",
       "keys": [
-        "t:幻想奇俠傳|None"
+        "t:幻想奇俠傳|Pioneer Soft",
+        "t:G772-幻想奇俠傳|Pioneer Soft"
       ],
       "status": "active",
       "title_zh": "幻想奇俠傳"
@@ -35316,9 +35337,10 @@
     },
     "cdg-3920": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "西塔工作室",
       "keys": [
-        "t:邪靈世紀|None"
+        "t:邪靈世紀|西塔工作室",
+        "t:G045-邪靈世紀 VAMPIRE|西塔工作室"
       ],
       "status": "active",
       "title_zh": "邪靈世紀"
@@ -36417,9 +36439,9 @@
     },
     "cdg-4042": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "宏申",
       "keys": [
-        "t:孤臣記|None"
+        "t:孤臣記|宏申"
       ],
       "status": "active",
       "title_zh": "孤臣記"
@@ -36588,9 +36610,11 @@
     },
     "cdg-4061": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "光譜",
       "keys": [
-        "t:第十八空降旅|None"
+        "t:第十八空降旅|光譜",
+        "t:18空降旅|光譜",
+        "t:18th Airborne|光譜"
       ],
       "status": "active",
       "title_zh": "第十八空降旅"
@@ -36727,9 +36751,10 @@
     },
     "cdg-4076": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "宏申",
       "keys": [
-        "t:馬路英雄|None"
+        "t:馬路英雄|宏申",
+        "t:Popo Car|宏申"
       ],
       "status": "active",
       "title_zh": "馬路英雄"
@@ -37282,7 +37307,8 @@
       "catalog_id": null,
       "developer": null,
       "keys": [
-        "t:戰國|None"
+        "t:戰國|None",
+        "t:戰國|天堂鳥"
       ],
       "status": "active",
       "title_zh": "戰國"
@@ -37399,9 +37425,10 @@
     },
     "cdg-4150": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "天堂鳥",
       "keys": [
-        "t:邪神|None"
+        "t:邪神|天堂鳥",
+        "t:Evil God|天堂鳥"
       ],
       "status": "active",
       "title_zh": "邪神"
@@ -40983,6 +41010,101 @@
       ],
       "status": "active",
       "title_zh": "戰國策2"
+    },
+    "cdg-4547": {
+      "catalog_id": null,
+      "developer": "Cosmos Computer",
+      "keys": [
+        "t:星權爭霸II|Cosmos Computer",
+        "t:Regional Power II|Cosmos Computer",
+        "t:星權爭霸Ⅱ|Cosmos Computer"
+      ],
+      "status": "active",
+      "title_zh": "星權爭霸II"
+    },
+    "cdg-4548": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:末日戰神|None"
+      ],
+      "status": "active",
+      "title_zh": "末日戰神"
+    },
+    "cdg-4549": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:Eimmy 愛咪|None",
+        "t:Eimmy|None",
+        "t:愛咪|None"
+      ],
+      "status": "active",
+      "title_zh": "Eimmy 愛咪"
+    },
+    "cdg-4550": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:默示錄：神爭之戰|None",
+        "t:默示錄 神爭之戰|None"
+      ],
+      "status": "active",
+      "title_zh": "默示錄：神爭之戰"
+    },
+    "cdg-4551": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:R2|None"
+      ],
+      "status": "active",
+      "title_zh": "R2"
+    },
+    "cdg-4552": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:西方魔域|None"
+      ],
+      "status": "active",
+      "title_zh": "西方魔域"
+    },
+    "cdg-4553": {
+      "catalog_id": null,
+      "developer": "東急軟體",
+      "keys": [
+        "t:紫薇外傳|東急軟體"
+      ],
+      "status": "active",
+      "title_zh": "紫薇外傳"
+    },
+    "cdg-4554": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:商之器|None"
+      ],
+      "status": "active",
+      "title_zh": "商之器"
+    },
+    "cdg-4555": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:棒球王子 廖敏雄|None"
+      ],
+      "status": "active",
+      "title_zh": "棒球王子 廖敏雄"
+    },
+    "cdg-4556": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:香卡拉之謎|None"
+      ],
+      "status": "active",
+      "title_zh": "香卡拉之謎"
     }
   }
 }

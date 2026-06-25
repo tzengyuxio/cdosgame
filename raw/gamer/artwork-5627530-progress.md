@@ -248,15 +248,176 @@
 | 228 | 鐵甲旗艦 ATRAGON | `content/games/cdg-4142.md` | 已補 | 依表格與 Fandom 圖像來源補 Movic、華義、RPG、英文別名、正文與 1996-02-10 cite。 |
 | 229 | 沉默的艦隊 | `content/games/cdg-1171.md` | 已補 | 主標題去初代序號，保留「沉默的艦隊1」 alias；查 chiuinan 與維基，補模擬類型、改編、正文與 1996-04 cite。 |
 | 230 | Schwarzschild EX／鐵鎖的星群 | `content/games/cdg-4074.md` | 已補 | 查 chiuinan；補表格題名 alias、表格來源、劇情概述與華義台灣版 cite。 |
+| 231 | Q女天使學院 | `content/games/cdg-0114.md` | 已補 | 站內主名為「Q女天使學園」；查 chiuinan，補表格題名 alias、Fandom/RWV、華義代理與 1996-12-20 cite。 |
+| 232 | 妖擊隊 | `content/games/cdg-1082.md` | 已補 | 以完整題名「妖擊隊：邪神降魔錄」為正本；補短題名 alias、Fandom/RWV、表格來源與發行時間差異。`cdg-3925` 空 stub 待後續合併。 |
+| 233 | 獸鄉守護者 | `content/games/cdg-3552.md` | 已補 | 查 chiuinan；補 developer_region、RWV、表格來源，正文並陳 1995 與 1996 發行時間記法。 |
+| 234 | 魔域傳說４波斯戰記 | `content/games/cdg-3670.md` | 已補 | 查 chiuinan 與 Kure Software Koubou 系列資料；developer 由華義改為 Kure Software Koubou，華義改為代理，補正文與表格來源。 |
+| 235 | 幻想奇俠傳 | `content/games/cdg-3864.md` | 已補 | 查 Omega；補 Pioneer Soft、華義、Windows、1CD、RPG、正文與 1999-09-04 cite。 |
+| 236 | 伊卡斯特傳說 | `content/games/cdg-1584.md` | 已補 | 既有正文充分；查 chiuinan，補表格來源、精確日期與鋮星／宏申發行記法。 |
+| 237 | 孤臣記 | `content/games/cdg-4042.md` | 已補 | 依表格與 Fandom 圖像來源補宏申、RPG、英文名 Orphans、正文與 1994-02-20 cite。 |
+| 238 | 馬路英雄 | `content/games/cdg-4076.md` | 已補 | 依表格與 Fandom 圖像來源補宏申、ACT、英文名 Popo Car、正文與 1994-02-20 cite；RWV 另有「隔離區2馬路英雄」記法。 |
+| 239 | 一線生機 | `content/games/cdg-0145.md` | 已補 | 查 chiuinan 與 Omega；genre 改 RTS，補宏申 developer_region、正文、語音版本與 1995-03-20 cite。 |
+| 240 | 福爾摩莎偵探社 | `content/games/cdg-1869.md` | 已補 | 站內主名為「福爾摩莎：本國地理篇」；查 chiuinan，補表格來源與 1992-11-20 cite。 |
+| 241 | 坦克大決戰 | `content/games/cdg-0773.md` | 已補 | 查 chiuinan；補 genre/content_language、表格來源、正文與 1993-09-15 cite。 |
+| 242 | 18空降旅 | `content/games/cdg-4061.md` | 已補 | 站內主名為「第十八空降旅」；補表格題名 alias、光譜 developer、表格來源，正文並陳 1992 與 1994-01-21 記法。 |
+| 243 | 巴士帝國 | `content/games/cdg-1110.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1994-01-21 cite。 |
+| 244 | 世紀末商業革命 | `content/games/cdg-0670.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1995-12-20 cite。 |
+| 245 | 運鏢天下 | `content/games/cdg-2584.md` | 已補 | 對應站內「運鏢天下之四大鏢局」正本；補表格來源 provenance 與 1996-03-10 cite。 |
+| 246 | 殖民計劃（Colonial Project） | `content/games/cdg-1317.md` | 已補 | 既有正文充分；補表格來源 provenance、英文題名已在正文、1996-09-15 cite。 |
+| 247 | 拂曉攻擊 | `content/games/cdg-3034.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1990-07? cite。 |
+| 248 | 最後武力 | `content/games/cdg-2476.md` | 已補 | 補表格來源 provenance；正文改為中性並陳 1991 與 1990 發行年記法。 |
+| 249 | 破壞神傳說 | `content/games/cdg-2501.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1991-08 cite。 |
+| 250 | 電腦魔域 | `content/games/cdg-2699.md` | 已補 | 查 chiuinan；補表格來源、正文與 1991-09-05 cite。 |
+| 251 | 魔神戰記 | `content/games/cdg-3769.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1992-12-20 cite。 |
+| 252 | 魔神戰記２ | `content/games/cdg-3770.md` | 已補 | 補表格來源與 chiuinan reference；正文改為中性並陳 1996、1996-09、1997 記法。 |
+| 253 | 縱橫七海 | `content/games/cdg-2126.md` | 已補 | 既有正文充分；補 chiuinan reference、表格來源 provenance 與 1992-12 cite。 |
+| 254 | 魔道子 | `content/games/cdg-3776.md` | 已補 | 補表格來源 provenance 與 1993-07-20 cite；genre 依玩法與 Fandom 由 RPG 改 ACT。 |
+| 255 | 失落的封印 | `content/games/cdg-0715.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1993-08 cite。 |
+| 256 | 妖魔道 | `content/games/cdg-1083.md` | 已補 | 既有正文充分；補 chiuinan reference、表格來源 provenance 與 1994-09-20 cite。 |
+| 257 | Regional Power II／星權爭霸Ⅱ | `content/games/cdg-4547.md` | 已補 | 新增最小條目；只確認 PC-98 原作 Cosmos Computer 與大宇代理預告，未寫上市斷言。 |
+| 258 | Hiouden - Maou Tachi tono Chikai II／緋王傳２ | `content/games/cdg-2125.md` | 已補 | 既有正文充分；補表格題名 alias、表格來源 provenance 與 1995 cite。 |
+| 259 | 阿貓阿狗 | `content/games/cdg-1355.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1998-01-07 cite。 |
+| 260 | 幻界霸者 | `content/games/cdg-0590.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1998-09-15 cite。 |
+| 261 | 幻獸都市 魔法大地 | `content/games/cdg-0589.md` | 已補 | 站內主名為「幻獸都市：魔法大地」；補表格題名 alias、表格來源 provenance 與 1993-07-21 cite。 |
+| 262 | ９７超少女 連線水果盤 | `content/games/cdg-0032.md` | 已補 | 站內主名為「97超少女－連線水果盤」；補表格題名 alias、表格來源與 1993-10-11 cite，genre 改 PZG。 |
+| 263 | 冥界幻姬 | `content/games/cdg-1696.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1994-07-20 cite。 |
+| 264 | 美少女特勤組 | `content/games/cdg-1487.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1994-11-03 cite；台版年份待後續與其他來源再校。 |
+| 265 | Dead Force／新世紀興亡史 | `content/games/cdg-2318.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1995-01-10 cite。 |
+| 266 | 魔龍紀事限制級版 | `content/games/cdg-3788.md` | 已補 | 正本為「魔龍紀事」；補表格題名 alias、表格來源 provenance 與 1995-01-20 cite，registry developer 同步為 PLUM。 |
+| 267 | 逆玉王 | `content/games/cdg-2564.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1995-06-10 cite。 |
+| 268 | 魔界聖女傳 | `content/games/cdg-3760.md` | 已補 | 既有正文可用；補 chiuinan reference、表格來源 provenance 與 1995-10-16 cite。 |
+| 269 | 麗獸 | `content/games/cdg-3581.md` | 已補 | 既有正文可用；補 chiuinan reference、表格來源 provenance 與 1996-01-19 cite；表格註記另有 1996-03 上市月份線索。 |
+| 270 | 劍芒羅曼史 | `content/games/cdg-2989.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1996-02-10 cite。 |
+| 271 | 戰國 | `content/games/cdg-4137.md` | 已補 | 由空 stub 補最小 metadata/正文；依表格與 Fandom 補天堂鳥代理、SLG、1996-08-15。 |
+| 272 | 創世封魔傳 | `content/games/cdg-3844.md` | 已補 | 由空 stub 補最小 metadata/正文；依表格與 Fandom 補天堂鳥、SRPG、1997-04-15。 |
+| 273 | 諸神的封印 | `content/games/cdg-4531.md` | 已補 | 既有正文可用；補表格來源 provenance 與 1997-07-15 cite。 |
+| 274 | 皇后 | `content/games/cdg-1411.md` | 已補 | 既有正文極短；補表格來源 provenance 與 1997-08-15 cite。 |
+| 275 | 邪神 | `content/games/cdg-4150.md` | 已補 | 既有正文可用；補 Fandom merge、表格來源 provenance、Evil God 英文名與 1997-12-15 cite。 |
+| 276 | 黑暗聖戰錄 | `content/games/cdg-2277.md` | 已補 | 既有正文極短；補表格來源 provenance 與 1998-01-15 cite。 |
+| 277 | 星月奇緣 | `content/games/cdg-2401.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1998-02-09 cite。 |
+| 278 | 邪靈世紀 | `content/games/cdg-3920.md` | 已補 | 由空 stub 補最小 metadata/正文；依表格補西塔工作室開發、天堂鳥發行、RPG、1998-07-21。 |
+| 279 | 香蕉俱樂部 | `content/games/cdg-1553.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1997 cite；正文不寫天堂鳥代理斷言，因表格對發行商有保留。 |
+| 280 | 七英雄外傳王者之師 | `content/games/cdg-0162.md` | 已補 | 正本為「七英雄外傳：王者之師」；補表格題名 alias、表格來源 provenance 與 1997-09-15 cite。 |
+| 281 | 天下無敵 | `content/games/cdg-4116.md` | 已補 | 依表格補歡樂盒代理、表格來源與最小正文；1993/1994 兩種年分並陳。 |
+| 282 | 聖戰錄 | `content/games/cdg-2534.md` | 已補 | 查 chiuinan；補 HIMEYA JP、表格來源與 1994-07-08 cite。 |
+| 283 | 末日戰神 | `content/games/cdg-4548.md` | 已補 | 本地未有既存條目，依表格新增最小條目與 registry；未找到第二來源。 |
+| 284 | Full Metal Jacket／鐵甲神兵 | `content/games/cdg-3600.md` | 已補 | 查 Omega/chiuinan/MyAbandonware；改 Pantech/KR、歡樂盒代理、RPG，補正文與 1996-10-15 cite。 |
+| 285 | 2001 特遣隊 | `content/games/cdg-3837.md` | 已補 | 依表格與既有 merge 來源補歡樂盒代理、alias、最小正文。 |
+| 286 | 歡樂天使 | `content/games/cdg-3797.md` | 已補 | 查 chiuinan；補 developer_region JP、表格來源與成人向 AVG 正文。 |
+| 287 | 生化情人 | `content/games/cdg-4123.md` | 已補 | 依表格與 Fandom/RWV merge 來源補歡樂盒代理、最小正文；1994/1996 廣告線索並陳。 |
+| 288 | Rose Knight／玫瑰騎士 | `content/games/cdg-3878.md` | 已補 | 依表格與 MyAbandonware 補韓國 Sailon 線索、歡樂盒代理、alias 與最小正文。 |
+| 289 | 異次元之旅 | `content/games/cdg-1950.md` | 已補 | 查 chiuinan/Omega；補 developer_region KR、表格來源與歡樂盒代理正文。 |
+| 290 | 失落的大地（Atria） | `content/games/cdg-0713.md` | 已補 | 查 chiuinan/Omega；補 developer_region KR、表格來源、題名差異與年份差異說明。 |
+| 291 | 藍色石榴石 | `content/games/cdg-3478.md` | 已補 | 查 chiuinan、Omega、Fandom；補 developer_region、AVG、表格來源與保守正文。 |
+| 292 | 格殺令 | `content/games/cdg-3858.md` | 已補 | 依 Fandom/RWV 與表格補歡樂盒、RTS、英文名 Black Sign 與最小正文。 |
+| 293 | Underline The Safety Zone／大地雄師 | `content/games/cdg-0359.md` | 已補 | 以較完整 `cdg-0359` 為正本，補表格題名 alias 與來源；`cdg-4098` 空 stub 待合併。 |
+| 294 | 日沒 | `content/games/cdg-3891.md` | 已補 | 依 Fandom/RWV 與表格補歡樂盒、RTS、英文名 Sunset 與最小正文。 |
+| 295 | 禁斷之血族 | `content/games/cdg-1864.md` | 已補 | 對應正本「禁斷之血族1」；補 Omega/Fandom/表格來源，正文並陳 1996/1997 記法。 |
+| 296 | 致命毒藥 | `content/games/cdg-0851.md` | 已補 | 正本為「致命毒藥：六人魔女」；補 developer_region、TBG、表格短題名 alias 與來源。 |
+| 297 | 聖女傳說 | `content/games/cdg-2525.md` | 已補 | 查 chiuinan/Fandom；補 developer_region、表格來源與最小正文。 |
+| 298 | Eimmy 愛咪 | `content/games/cdg-4549.md` | 已補 | 本地未有既存條目，搜尋本地 raw 與網路未找到第二來源；依表格新增最小條目與 registry。 |
+| 299 | Metal & Lace／機甲之夢 | `content/games/cdg-3217.md` | 已補 | 既有正文充分；補表格來源 provenance 與 PC-98→MegaTech→微波中文化脈絡 cite。 |
+| 300 | Cobra Mission／眼鏡蛇任務 | `content/games/cdg-1825.md` | 已補 | 既有正文充分；補表格來源 provenance 與 PC-98→MegaTech→微波中文化脈絡 cite。 |
+| 301 | 默示錄 神爭之戰 | `content/games/cdg-4550.md` | 已補 | 本地未有既存條目，搜尋本地 raw 與網路未找到第二來源；依表格新增最小條目與 registry。 |
+| 302 | Dark Seraphim／黑暗天使 | `content/games/cdg-2271.md` | 已補 | 既有正文充分；補表格來源 provenance，正文並陳 1995-11-10 與既有 1996 記法。 |
+| 303 | 傳說紀元黑暗之星 | `content/games/cdg-1669.md` | 已補 | 查 chiuinan/Fandom；補 RPG、表格來源與最小正文。 |
+| 304 | Detroit／汽車大亨 | `content/games/cdg-3851.md` | 已補 | 對應站內「底特律汽車大亨」；補松崗、SIM、表格題名 alias 與 1994/1995 差異。 |
+| 305 | R2 | `content/games/cdg-4551.md` | 已補 | 本地未有既存條目，搜尋本地 raw 與網路未找到第二來源；依表格新增最小條目與 registry。 |
+| 306 | 魍魎戰記～摩陀羅～大金剛輪篇 | `content/games/cdg-3662.md` | 已補 | 以較完整 `cdg-3662` 為正本，補表格題名 alias、Omega 與表格來源；`cdg-4077` 空 stub 待合併。 |
+| 307 | 亞里斯王物語 | `content/games/cdg-1277.md` | 已補 | 查 chiuinan/Omega/Fandom；補 developer_region、表格來源與最小正文。 |
+| 308 | あっぱれ伝 伏龍の章／天晴傳～伏龍の章～ | `content/games/cdg-0470.md` | 已補 | 以正本「天晴傳－伏龍之章」更新，補 alias、RPG、Omega/chiuinan/表格來源；`cdg-3907` 短名 stub 待合併。 |
+| 309 | 密集火力 | `content/games/cdg-4043.md` | 已補 | 依 Fandom 與表格補泰騰、STG、英文介面與最小正文。 |
+| 310 | 神龍快打 | `content/games/cdg-1859.md` | 已補 | 查 chiuinan/Fandom；補表格來源 provenance 與正文，註明非松崗代理《恐龍快打》。 |
+| 311 | 中原鏢局 | `content/games/cdg-3934.md` | 已補 | 依 Fandom/RWV 與表格補泰騰、SRPG、表格來源與最小正文。 |
+| 312 | 絕音魔琴 | `content/games/cdg-2105.md` | 已補 | 查 chiuinan/Fandom/RWV；補表格來源 provenance 與最小正文。 |
+| 313 | 山海經 神州戰役 | `content/games/cdg-0552.md` | 已補 | 補表格題名 alias、遊戲屋製作/泰騰發行、表格來源；年份採表格 1997，並註記 Fandom 1998 差異。 |
+| 314 | 靈劍傳奇 | `content/games/cdg-2721.md` | 已補 | 既有來源充分；補表格來源 provenance 與廣告頁線索。 |
+| 315 | 星城 綠洲計劃 | `content/games/cdg-2398.md` | 已補 | 正本為「星城：綠洲計畫」；補表格題名 alias、developer_region、表格來源與最小正文。 |
+| 316 | 戰棊（戰棋） | `content/games/cdg-3392.md` | 已補 | 正本為「戰棋」；補表格題名 alias、SLG、表格來源與 RWV「戰棋4000」差異說明。 |
+| 317 | 南海霸主 | `content/games/cdg-3884.md` | 已補 | 既有正文充分；補 Fandom image、表格來源與 1994-10-20 cite。 |
+| 318 | 星世紀戰將 | `content/games/cdg-3921.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1995-05-20 cite。 |
+| 319 | 熾天之翼 | `content/games/cdg-3317.md` | 已補 | 查 chiuinan/Fandom/RWV；補表格來源、弘煜出品記錄與重製版線索。 |
+| 320 | 魔法師寶典 | `content/games/cdg-3716.md` | 已補 | 以完整正本「魔法師寶典：復仇之島」更新，補短題名 alias、Fandom/Omega/表格來源；`cdg-3941` 短題名 stub 待合併。 |
+| 321 | 皇帝 | `content/games/cdg-1416.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1996-12-15 cite。 |
+| 322 | 異星突擊 | `content/games/cdg-4139.md` | 已補 | 公開資料少，依 Offlinelist/RWV 與表格補旭光、1996-06-10 與最小正文。 |
+| 323 | 帝國霸業 | `content/games/cdg-4136.md` | 已補 | 公開資料少，依 Offlinelist 與表格補旭光、1996-12-15 與最小正文；暫不併入《英雄本色：帝國霸業》。 |
+| 324 | 中國武將列傳 | `content/games/cdg-0301.md` | 已補 | 補智冠發行、表格來源 provenance 與 1997-02-28 cite。 |
+| 325 | 日蝕 | `content/games/cdg-2372.md` | 已補 | 對應正本「日蝕：沙巴卡瓦之役」；補短題名 alias、表格來源與 1995-07-10 cite。 |
+| 326 | 富貴列車 亞摩斯紀事 | `content/games/cdg-0811.md` | 已補 | 對應正本「富貴列車：亞摩斯紀事」；補短題名 alias、表格來源與衍生作品註記。 |
+| 327 | 誌武神大戰 | `content/games/cdg-4045.md` | 已補 | 正本既有「志武神大戰」；補「誌」字 alias、富峰群、SLG、Fandom 圖與表格來源。 |
+| 328 | 便利商店 | `content/games/cdg-1601.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1999-06-15 cite。 |
+| 329 | 帝國的光榮 | `content/games/cdg-1117.md` | 已補 | 既有正文充分；補表格來源 provenance 與 1992-02-20 cite。 |
+| 330 | 模擬台北 | `content/games/cdg-3174.md` | 已補 | 既有 metadata 完整；補表格來源 provenance 與最小正文。 |
+| 331 | 超時空麻將－魔石神姬傳 | `content/games/cdg-2177.md` | 已補 | 補 chiuinan 圖像、表格來源 provenance、成人麻將遊戲正文與 1992-12-15 cite。 |
+| 332 | 南宋英烈傳 | `content/games/cdg-0196.md` | 已補 | 補 chiuinan reference、表格來源 provenance；正文並陳既有 1993 與表格 1993-01-20 記法。 |
+| 333 | 高報酬戰將 | `content/games/cdg-3636.md` | 已補 | 既有來源充分；補表格來源 provenance 與 1996-02-10 彩虹代理 cite。 |
+| 334 | 聖戰悍將 | `content/games/cdg-4140.md` | 已補 | 公開資料少，依 Offlinelist 與表格補彩虹代理、1996-02-10 與最小正文。 |
+| 335 | 銀河守護團 | `content/games/cdg-2894.md` | 已補 | 補表格來源 provenance；正文並陳既有 1998 與表格 1997 彩虹代理記法。 |
+| 336 | 霹靂嬌娃 | `content/games/cdg-2709.md` | 已補 | 既有 chiuinan/Fandom/Omega 來源充分；補表格 1997? 廣告線索。 |
+| 337 | 魔神爭霸 | `content/games/cdg-3771.md` | 已補 | 補 publisher、表格來源 provenance 與 1998-08-20 cite。 |
+| 338 | 水星的故事2 | `content/games/cdg-4093.md` | 已補 | 對應既有「水星故事2」；補 Fandom 圖像、琪珊代理、RPG 與表格來源。 |
+| 339 | 天下統一 | `content/games/cdg-0431.md` | 已補 | 既有來源充分；補表格來源 provenance 與 1992? 琪珊代理 cite。 |
+| 340 | 英雄聖戰 | `content/games/cdg-3448.md` | 已補 | 補表格來源 provenance，正文記錄美夢成真／夢想成真表記與 1996-05。 |
+| 341 | 聖戰風雲錄 | `content/games/cdg-4148.md` | 已補 | 依 Fandom/RWV 與表格補美夢成真、梵太師、SRPG、1997-11-15 與最小正文。 |
+| 342 | 艾蒂絲魔法大冒險 | `content/games/cdg-3836.md` | 已補 | 依 Fandom/RWV 與表格補美夢成真、第三波、RPG、1999? 與最小正文。 |
+| 343 | 魔棧 | `content/games/cdg-3883.md` | 已補 | 依 Fandom/RWV 與表格補仕積、RPG、1996-07-15 與最小正文。 |
+| 344 | 神劍遊俠傳 | `content/games/cdg-1830.md` | 已補 | 既有來源充分；補仕積 publisher、Omega、表格來源與 1997-07-15 cite。 |
+| 345 | 美少女沙場風暴 | `content/games/cdg-1178.md` | 已補 | 對應正本「沙場風暴」；補莎莉 publisher、Omega、表格來源與 1996-01 廣告線索。 |
+| 346 | 新狼人摩天樓 | `content/games/cdg-2340.md` | 已補 | 既有來源充分；補莎莉 publisher、表格來源與 1996-02 廣告線索。 |
+| 347 | 大唐詩錄 | `content/games/cdg-0355.md` | 已補 | 既有來源充分；補 Omega、表格來源與 1996-08 cite。 |
+| 348 | 七寶奇謀 | `content/games/cdg-0156.md` | 已補 | 對應岡業版 `cdg-0156`；補 Omega、表格來源與 1996-08-15 cite，與 Konami 英文版分開。 |
+| 349 | 戰國策 | `content/games/cdg-3371.md` | 已補 | 既有正文更新；補表格來源，正文並陳既有 1992 與表格 1993? 記法。 |
+| 350 | 魔異入侵 | `content/games/cdg-3761.md` | 已補 | 補 Omega/chiuinan reference、表格來源；正文並陳既有 1992 與表格 1993 記法。 |
+| 351 | Side Line 邊緣戰區 | `content/games/cdg-2590.md` | 已補 | 補表格題名 alias、chiuinan reference、表格來源；正文並陳光畫與既有精訊記法。 |
+| 352 | A.D COP 危機特勤組 | `content/games/cdg-3911.md` | 已補 | 依 Fandom/RWV/Omega 與表格補光畫、STG、1996-12-15 與最小正文。 |
+| 353 | 聖城劫 | `content/games/cdg-3897.md` | 已補 | 依 Fandom/RWV 與表格補安寶研發、精訊發行、RPG、1993-01-20 與最小正文。 |
+| 354 | 宇宙英雄 | `content/games/cdg-4121.md` | 已補 | 補 Fandom/RWV 圖像與 ACT；正文並陳 Fandom 智冠 1994 與表格艾生 1995-01-20 記法。 |
+| 355 | 傳說王國系列之風林火山 | `content/games/cdg-1512.md` | 已補 | 對應正本「風林火山」；補表格來源並陳 1992／1993／1993? 記法。 |
+| 356 | 戀愛試驗場 | `content/games/cdg-1806.md` | 已補 | 既有來源充分；補花道 publisher、Omega、表格來源與 1994-09-20 cite。 |
+| 357 | 時空特勤組 | `content/games/cdg-3900.md` | 已補 | 依 Fandom/RWV 與表格補至通、STG、1995-09-10 與最小正文。 |
+| 358 | 4T-ROBOTS 機甲雄風 | `content/games/cdg-3228.md` | 已補 | 對應既有「機甲雄風 4」；補表格題名 alias、Fandom/chiuinan reference，正文並陳 PS創作群廣告線索。 |
+| 359 | 魔王迷宮 | `content/games/cdg-4080.md` | 已補 | 既有正文更新；補 Fandom 圖像、RPG、表格來源與 1993? cite。 |
+| 360 | 悲戀湖殺人事件 | `content/games/cdg-1766.md` | 已補 | 既有正文充分；補 publisher、chiuinan reference、表格來源與 1994-10-20 cite。 |
+| 361 | 神示錄 背叛與毀滅 | `content/games/cdg-1843.md` | 已補 | 對應正本「神示錄：背叛與毀滅」；補 publisher、表格來源與 1995-06-10 cite。 |
+| 362 | 風雪江山 | `content/games/cdg-3854.md` | 已補 | 依 Fandom/RWV 與表格補元康、RPG、1996-11-15 與最小正文。 |
+| 363 | 魔日傳說 | `content/games/cdg-3880.md` | 已補 | 依 Fandom/RWV/Omega 與表格補盤古軟件、RPG、1998-02-15 與最小正文。 |
+| 364 | 俠義豪情傳 禁煙風雲 | `content/games/cdg-1635.md` | 已補 | 對應正本「俠義豪情傳：禁煙風雲」；補表格題名 alias、publisher、表格來源與 1998-05 cite。 |
+| 365 | 鴉片戰爭 | `content/games/cdg-1977.md` | 已補 | 對應正本「鴉片戰爭：禁煙風雲」；補短題名 alias、表格來源與 1998? 歡樂盒? 記法。 |
+| 366 | 創世機神 | `content/games/cdg-2961.md` | 已補 | 既有來源充分；補 publisher、表格來源與 1996-12-15 cite。 |
+| 367 | 幻世喜譚 | `content/games/cdg-4144.md` | 已補 | 公開資料少，依 Offlinelist/RWV 與表格補新藝、1995?/1996? 與最小正文。 |
+| 368 | 西方魔域 | `content/games/cdg-4552.md` | 已補 | 本地與網路搜尋未找到第二來源；依表格新增最小條目與 registry。 |
+| 369 | 紫薇外傳 | `content/games/cdg-4553.md` | 已補 | 本地與網路搜尋未找到第二來源；依表格新增最小條目與 registry。 |
+| 370 | 商之器 | `content/games/cdg-4554.md` | 已補 | 本地與網路搜尋未找到第二來源；依表格新增最小條目與 registry。 |
+| 371 | 夢幻奇兵 齊秦 | `content/games/cdg-4338.md` | 已補 | 對應正本「齊秦1995夢幻奇兵」；補表格題名 alias、彩虹、Omega reference 與最小正文。 |
+| 372 | 棒球王子 廖敏雄 | `content/games/cdg-4555.md` | 已補 | 本地與網路搜尋未找到第二來源；依表格新增最小條目與 registry。 |
+| - | 百無禁忌 MISS 阿性 | - | 跳過 | 表格註明最後沒有做出來，改做成《MISS 阿性李勉之的世紀大富翁》，不視為實際遊戲列。 |
+| 373 | 普巴．郭切希 | `content/games/cdg-4396.md` | 已補 | 對應正本「普巴」；補表格題名 alias、大宇、Omega reference 與最小正文。 |
+| 374 | 香卡拉之謎 | `content/games/cdg-4556.md` | 已補 | 本地與網路搜尋未找到第二來源；依表格新增最小條目與 registry。 |
+| 375 | 九英雄物語～聖戰語錄 | `content/games/cdg-4294.md` | 已補 | 對應正本「九英雄物語：聖戰語錄」；補安峻科技、Omega reference、Windows 版註記與 2001-09-15。 |
 
 ## 下一批起點
 
-下一次從第 231 個實際遊戲列開始：`Q女天使學院`（華義代理，1996-12-20）。
+巴哈姆特表格已處理完畢。
 
 ## 查證筆記
 
 - 2026-06-23：改用 GitHub raw 讀取 chiuinan 來源頁，比 `chiuinan.github.io` 直接頁面穩定。URL 形如 `https://raw.githubusercontent.com/chiuinan/chiuinan.github.io/master/game/game/intro/ch/.../*.htm`。
 - 第 221–230 筆：`赤日`、`聖戰物語`、`PSY幽記`、`鐵甲旗艦`的公開文字資料很少，本批只寫表格、Fandom 圖像來源與 RWV 可支持的基本資訊；`鎮暴特遣隊`另有 My Abandonware 可支持 Team Kikai、華義與玩法題材。
+- 第 231–240 筆：`妖擊隊`表格短題名對應站內完整題名 `妖擊隊：邪神降魔錄`；`cdg-3925` 為空 stub，待後續合併。`馬路英雄`同時有 Popo Car 與「隔離區2馬路英雄」記法，本批保留兩者並以表格／Fandom 題名畫面為主。
+- 第 241–250 筆：`運鏢天下`表格短題名對應 `運鏢天下之四大鏢局`；站內另有 `cdg-3928` 空 stub，後續可合併或轉址。`第十八空降旅`已有 backlog 記過年份校訂，本批條目正文只中性並陳可引用的 1992 與 1994-01-21 記法，採用 1993 的理由仍保留在進度／backlog，不寫入條目正文。`最後武力`移除正文來源點名，改為中性來源分歧。
+- 第 251–260 筆：`星權爭霸II`未找到本地既有條目；外部只確認 PC-98 遊戲列表列有 Regional Power II，開發／發行為 Cosmos Computer，表格則是大宇 1994 廣告頁代理預告。條目新增為 `cdg-4547`，不宣稱中文代理版已實際上市。`魔神戰記2`正文移除「本站／Fandom」來源點名，改用 cite 並陳 1996、1996-09、1997。
+- 第 261–270 筆：均有既有條目，本批主要補表格 provenance、精確日期與題名 alias。`美少女特勤組`本輪只補表格 1994-11-03 記法；既有 backlog 已有台版年份校訂項，暫不另行擴大。`麗獸`表格本身註記軟體世界 1996-03 上市月份線索，但條目正文只引用表格日期，月份差異留在進度。
+- 第 271–280 筆：`戰國`、`創世封魔傳`、`邪靈世紀`由空 stub 補最小條目；公開文字資料少，正文只寫表格與圖像來源支持的基本資訊。`香蕉俱樂部`既有條目採天堂鳥代理，但表格對雜誌廣告上的發行商有疑問；本輪不改 metadata，正文改成「台灣中文版於 1997 年見於發行資訊」。
+- 第 281–290 筆：`末日戰神`未找到本地既有條目或第二來源，只依巴哈表格新增最小條目。`天下無敵`、`2001特遣隊`、`生化情人`公開文字資料少，只補表格來源支持的最小內容。`鐵甲神兵`依 Omega/MyAbandonware 修正為韓國 Pantech Corporation 作品、歡樂盒代理；`失落的大地（Atria）`對應正本 `cdg-0713`「失落的大地：亞特蘭大之謎」，不同於 EA 2000 年《The Broken Land》。
+- 第 291–300 筆：`Eimmy 愛咪`未在本地 raw、registry 或網路搜尋中找到第二來源，只依巴哈表格新增 `cdg-4549` 最小條目。`大地雄師`以已有 chiuinan 圖與 catalog 的 `cdg-0359` 為正本，`cdg-4098` 空 stub 待後續合併。`機甲之夢`、`眼鏡蛇任務`既有正文較完整，本批只補巴哈表格 provenance 與轉譯脈絡 cite。
+- 第 301–310 筆：`默示錄：神爭之戰`、`R2`未在本地 raw、registry 或網路搜尋中找到第二來源，只依巴哈表格新增最小條目。`汽車大亨`對應站內正本 `cdg-3851`「底特律汽車大亨」。`魍魎戰記～摩陀羅～大金剛輪篇`以 `cdg-3662` 為正本，`cdg-4077` 空 stub 待合併；`天晴傳～伏龍の章～`以 `cdg-0470` 為正本，`cdg-3907` 短名 stub 待合併。
+- 第 311–320 筆：`山海經：神州戰役`既有 metadata 為泰騰 1998，本批依表格改為遊戲屋製作、泰騰發行、1997，正文保留 Fandom 1998 差異。`魔法師寶典`對應完整正本 `cdg-3716`「魔法師寶典：復仇之島」，`cdg-3941` 短題名 stub 待後續合併。
+- 第 321–330 筆：均有既有條目。`異星突擊`、`帝國霸業`公開資料少，本批只依既有合併來源與巴哈表格補最小資訊；`帝國霸業`暫不併入 `cdg-3447`「英雄本色：帝國霸業」。`日蝕`對應正本 `cdg-2372`「日蝕：沙巴卡瓦之役」；`富貴列車 亞摩斯紀事`對應正本 `cdg-0811`，`cdg-3856` 短題名 stub 待合併；`誌武神大戰`以既有 `cdg-4045`「志武神大戰」為正本並保留字形 alias。
+- 第 331–340 筆：均有既有條目。`聖戰悍將`公開資料少，本批只依 Offlinelist 與巴哈表格補最小資訊。`銀河守護團`既有 metadata 採 1998，表格記 1997 彩虹代理，正文保留差異；`霹靂嬌娃`既有資料採 1996，表格以 1997 年 8 月號廣告為線索記 1997?。`水星的故事2`對應既有 `cdg-4093`「水星故事2」，Fandom 圖像與表格均支持琪珊代理、1994? 記法。
+- 第 341–350 筆：均有既有條目。`聖戰風雲錄`、`艾蒂絲魔法大冒險`、`魔棧`主要依 Fandom/RWV 與表格補最小資訊。`美少女沙場風暴`對應正本 `cdg-1178`「沙場風暴」；`七寶奇謀`本批對應岡業版 `cdg-0156`，不可與 Konami 英文版 `cdg-0155` 混併。`戰國策`、`魔異入侵`既有資料採 1992，表格分別採 1993?、1993，正文保留差異。
+- 第 351–360 筆：均有既有條目。`邊緣戰區`既有 metadata 保留精訊發行，表格/Fandom/Omega 另支持光畫脈絡；`宇宙英雄`Fandom 標智冠 1994，表格標艾生 1995-01-20，正文並陳。`機甲雄風`對應既有 `cdg-3228`「機甲雄風 4」，既有博羽/微波記法與表格 PS創作群廣告線索並存。`悲戀湖殺人事件`既有正文充分，本批只補表格 cite。
+- 第 361–370 筆：`西方魔域`、`紫薇外傳`、`商之器`未在本地 raw、registry 或網路搜尋中找到第二來源，只依巴哈表格新增最小條目。`鴉片戰爭`對應正本 `cdg-1977`「鴉片戰爭：禁煙風雲」；`俠義豪情傳 禁煙風雲`對應正本 `cdg-1635`。下一批表格中的 `百無禁忌 MISS 阿性` 標示未做出來，應比照前面刪除線/未完成列判斷是否跳過。
+- 第 371–375 筆：表格尾端只剩 5 款實際遊戲列；`百無禁忌 MISS 阿性` 明確註明沒有做出來，已跳過。`棒球王子 廖敏雄`、`香卡拉之謎`未在本地 raw、registry 或網路搜尋中找到第二來源，只依巴哈表格新增最小條目。`夢幻奇兵 齊秦`對應 `cdg-4338`「齊秦1995夢幻奇兵」；`普巴．郭切希`對應 `cdg-4396`「普巴」；`九英雄物語～聖戰語錄`對應 `cdg-4294`。
 - `鹿鼎記2：神龍教`：chiuinan 寫明劇情改編自周星馳同名電影，且大量使用電影片段；不要標成小說改編。
 - 歡樂盒《鹿鼎記》與《鹿鼎記2：神龍教》雖直接取材周星馳電影，但電影源於金庸《鹿鼎記》。為讓它們出現在 `金庸改編遊戲` 自動列表，`adaptation.medium` 記為 `電影`，`adaptation.author` 仍記為 `金庸`。
 - 歡樂盒《絕代雙驕》chiuinan 寫明取材劉德華主演的電影版本，並使用電影人物圖像；`adaptation.medium` 記為 `電影`，`adaptation.author` 記為 `古龍`。
