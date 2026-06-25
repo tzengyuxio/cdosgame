@@ -2924,7 +2924,7 @@
     },
     "cdg-0325": {
       "catalog_id": "JXD010",
-      "developer": "龍翔",
+      "developer": "精訊",
       "keys": [
         "cat:JXD010"
       ],
@@ -3499,22 +3499,26 @@
       "title_zh": "大富翁：夢之童話大陸"
     },
     "cdg-0389": {
-      "catalog_id": "HTG001",
+      "catalog_id": "CFC001",
       "developer": "漢堂",
       "keys": [
-        "cat:HTG001"
+        "cat:CFC001",
+        "t:大戰略1|漢堂"
       ],
       "status": "active",
-      "title_zh": "大戰略1"
+      "title_zh": "大戰略"
     },
     "cdg-0390": {
-      "catalog_id": null,
+      "catalog_id": "GFC022",
       "developer": "Dragon Group",
       "keys": [
-        "t:大戰略2：世界戰役篇|Dragon Group"
+        "cat:GFC022",
+        "t:大戰略II：世界戰役篇|Dragon Group",
+        "t:大戰略2：世界戰役篇|Dragon Group",
+        "t:大戰略Ⅱ|Dragon Group"
       ],
       "status": "active",
-      "title_zh": "大戰略2：世界戰役篇"
+      "title_zh": "大戰略II：世界戰役篇"
     },
     "cdg-0391": {
       "catalog_id": "SCD0579",
@@ -4009,7 +4013,7 @@
         "cat:SSG036"
       ],
       "status": "active",
-      "title_zh": "天使帝國1"
+      "title_zh": "天使帝國"
     },
     "cdg-0446": {
       "catalog_id": "SSG046",
@@ -10542,10 +10546,11 @@
       "catalog_id": "SCD2625",
       "developer": "G.A.M.",
       "keys": [
-        "cat:SCD2625"
+        "cat:SCD2625",
+        "t:沉默的艦隊|G.A.M."
       ],
       "status": "active",
-      "title_zh": "沉默的艦隊1"
+      "title_zh": "沉默的艦隊"
     },
     "cdg-1172": {
       "catalog_id": "SCD2626",
@@ -15312,7 +15317,7 @@
     },
     "cdg-1701": {
       "catalog_id": "HTG003",
-      "developer": "漢堂",
+      "developer": "KINOKO",
       "keys": [
         "cat:HTG003"
       ],
@@ -17978,9 +17983,10 @@
     },
     "cdg-1997": {
       "catalog_id": null,
-      "developer": "天堂鳥",
+      "developer": "大三元工作室",
       "keys": [
-        "t:麻將情趣屋|天堂鳥"
+        "t:麻將情趣屋|天堂鳥",
+        "t:麻將情趣屋|大三元工作室"
       ],
       "status": "active",
       "title_zh": "麻將情趣屋"
@@ -21413,7 +21419,7 @@
         "cat:Z102"
       ],
       "status": "active",
-      "title_zh": "明日之星1"
+      "title_zh": "明日之星"
     },
     "cdg-2379": {
       "catalog_id": "SCD2242",
@@ -22763,7 +22769,7 @@
         "cat:Z064"
       ],
       "status": "active",
-      "title_zh": "聖少女戰隊1"
+      "title_zh": "聖少女戰隊"
     },
     "cdg-2529": {
       "catalog_id": "Z065",
@@ -26165,7 +26171,7 @@
         "t:銀河英雄傳說3|Bothtec"
       ],
       "status": "active",
-      "title_zh": "銀河英雄傳說3"
+      "title_zh": "銀河英雄傳說III SP"
     },
     "cdg-2905": {
       "catalog_id": "SCD1324",
@@ -26174,7 +26180,7 @@
         "cat:SCD1324"
       ],
       "status": "active",
-      "title_zh": "銀河英雄傳說4"
+      "title_zh": "銀河英雄傳說IV EX"
     },
     "cdg-2906": {
       "catalog_id": "SCD1325",
@@ -26183,7 +26189,7 @@
         "cat:SCD1325"
       ],
       "status": "active",
-      "title_zh": "銀河英雄傳說4"
+      "title_zh": "銀河英雄傳說IV EX"
     },
     "cdg-2907": {
       "catalog_id": "SCD1326",
@@ -29405,7 +29411,7 @@
         "cat:SCD0001"
       ],
       "status": "active",
-      "title_zh": "炎龍騎士團1：邪神之封印"
+      "title_zh": "炎龍騎士團：邪神之封印"
     },
     "cdg-3265": {
       "catalog_id": "SCD0001",
@@ -29414,7 +29420,7 @@
         "cat:SCD0001#2"
       ],
       "status": "active",
-      "title_zh": "炎龍騎士團2：黃金城之秘"
+      "title_zh": "炎龍騎士團2：黃金城之謎"
     },
     "cdg-3266": {
       "catalog_id": "OCD0021",
@@ -31935,7 +31941,7 @@
         "cat:SCD2585"
       ],
       "status": "active",
-      "title_zh": "獵殺潛航1"
+      "title_zh": "獵殺潛航"
     },
     "cdg-3546": {
       "catalog_id": "SCD2586",
@@ -32367,7 +32373,7 @@
         "cat:Z111,SCD2423"
       ],
       "status": "active",
-      "title_zh": "鋼鐵騎士團1"
+      "title_zh": "鋼鐵騎士團"
     },
     "cdg-3594": {
       "catalog_id": "SCD2424",
@@ -34596,7 +34602,8 @@
       "catalog_id": null,
       "developer": null,
       "keys": [
-        "t:PSY幽記|None"
+        "t:PSY幽記|None",
+        "t:Psy 幽記|None"
       ],
       "status": "active",
       "title_zh": "PSY幽記"
@@ -34639,9 +34646,10 @@
     },
     "cdg-3846": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "新藝",
       "keys": [
-        "t:大兵日記|None"
+        "t:大兵日記|新藝",
+        "t:Soldier Diary|新藝"
       ],
       "status": "active",
       "title_zh": "大兵日記"
@@ -34666,9 +34674,9 @@
     },
     "cdg-3849": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "漢堂",
       "keys": [
-        "t:大時代的故事|None"
+        "t:大時代的故事|漢堂"
       ],
       "status": "active",
       "title_zh": "大時代的故事"
@@ -34957,9 +34965,9 @@
     },
     "cdg-3881": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "佳帝安",
       "keys": [
-        "t:魔獸大戰略|None"
+        "t:魔獸大戰略|佳帝安"
       ],
       "status": "active",
       "title_zh": "魔獸大戰略"
@@ -35299,9 +35307,9 @@
     },
     "cdg-3919": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "傑克豆",
       "keys": [
-        "t:小沙彌|None"
+        "t:小沙彌|傑克豆"
       ],
       "status": "active",
       "title_zh": "小沙彌"
@@ -35398,9 +35406,10 @@
     },
     "cdg-3930": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Team Kikai",
       "keys": [
-        "t:鎮暴特遣隊|None"
+        "t:鎮暴特遣隊|Team Kikai",
+        "t:CRW: Metal Jacket|Team Kikai"
       ],
       "status": "active",
       "title_zh": "鎮暴特遣隊"
@@ -35415,10 +35424,10 @@
       "title_zh": "正宗臺灣16張麻將"
     },
     "cdg-3932": {
-      "catalog_id": null,
-      "developer": null,
+      "catalog_id": "3WG083",
+      "developer": "第三波",
       "keys": [
-        "t:智聖鮮師|None"
+        "cat:3WG083"
       ],
       "status": "active",
       "title_zh": "智聖鮮師"
@@ -36379,9 +36388,9 @@
     },
     "cdg-4039": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "鷹揚",
       "keys": [
-        "t:聖獸傳說|None"
+        "t:聖獸傳說|鷹揚"
       ],
       "status": "active",
       "title_zh": "聖獸傳說"
@@ -36397,9 +36406,11 @@
     },
     "cdg-4041": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "鑫盛",
       "keys": [
-        "t:女神學園|None"
+        "t:女神學園|鑫盛",
+        "t:女神學院|鑫盛",
+        "t:女神学院|鑫盛"
       ],
       "status": "active",
       "title_zh": "女神學園"
@@ -36604,9 +36615,9 @@
     },
     "cdg-4064": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "鷹揚",
       "keys": [
-        "t:終極任務Z|None"
+        "t:終極任務Z|鷹揚"
       ],
       "status": "active",
       "title_zh": "終極任務Z"
@@ -36658,9 +36669,9 @@
     },
     "cdg-4070": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "貳碼科技",
       "keys": [
-        "t:赤日|None"
+        "t:赤日|貳碼科技"
       ],
       "status": "active",
       "title_zh": "赤日"
@@ -36694,9 +36705,11 @@
     },
     "cdg-4074": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "工畫堂",
       "keys": [
-        "t:銀河戰國列傳EX-鐵鎖的星群|None"
+        "t:銀河戰國列傳EX-鐵鎖的星群|工畫堂",
+        "t:鐵鎖的星群|工畫堂",
+        "t:Schwarzschild EX|工畫堂"
       ],
       "status": "active",
       "title_zh": "銀河戰國列傳EX-鐵鎖的星群"
@@ -36740,10 +36753,12 @@
       "title_zh": "魔域傳奇 神聖之符"
     },
     "cdg-4079": {
-      "catalog_id": null,
+      "catalog_id": "GFC023",
       "developer": null,
       "keys": [
-        "t:魔宮救美 寶石陣|None"
+        "cat:GFC023",
+        "t:魔宮救美 寶石陣|None",
+        "t:魔宫救美宝石|None"
       ],
       "status": "active",
       "title_zh": "魔宮救美 寶石陣"
@@ -37310,9 +37325,10 @@
     },
     "cdg-4142": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Movic",
       "keys": [
-        "t:鐵甲旗艦|None"
+        "t:鐵甲旗艦|Movic",
+        "t:ATRAGON|Movic"
       ],
       "status": "active",
       "title_zh": "鐵甲旗艦"
@@ -37355,9 +37371,10 @@
     },
     "cdg-4147": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "吳氏工坊",
       "keys": [
-        "t:聖戰物語|None"
+        "t:聖戰物語|吳氏工坊",
+        "t:Duel Succession|吳氏工坊"
       ],
       "status": "active",
       "title_zh": "聖戰物語"
@@ -39542,9 +39559,9 @@
     },
     "cdg-4390": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "鴻峻",
       "keys": [
-        "t:新七顆龍珠|None"
+        "t:新七顆龍珠|鴻峻"
       ],
       "status": "active",
       "title_zh": "新七顆龍珠"
@@ -40915,6 +40932,57 @@
       ],
       "status": "active",
       "title_zh": "金錢帝國黃金版"
+    },
+    "cdg-4542": {
+      "catalog_id": null,
+      "developer": "弘煜",
+      "keys": [
+        "t:Keroro軍曹：藍星侵略大作戰|弘煜",
+        "t:KERORO軍曹～藍星侵略大作戰～|弘煜",
+        "t:KERORO军曹：蓝星侵略大作战|弘煜"
+      ],
+      "status": "active",
+      "title_zh": "Keroro軍曹：藍星侵略大作戰"
+    },
+    "cdg-4543": {
+      "catalog_id": null,
+      "developer": "CP SOFT",
+      "keys": [
+        "t:東周列國誌|CP SOFT",
+        "t:東周列國志|CP SOFT"
+      ],
+      "status": "active",
+      "title_zh": "東周列國誌"
+    },
+    "cdg-4544": {
+      "catalog_id": null,
+      "developer": "智冠",
+      "keys": [
+        "t:決戰 核爆38°線|智冠",
+        "t:決戰 核爆38度線|智冠"
+      ],
+      "status": "active",
+      "title_zh": "決戰 核爆38°線"
+    },
+    "cdg-4545": {
+      "catalog_id": null,
+      "developer": "佳帝安",
+      "keys": [
+        "t:郎牙棒與劉星鎚之魔島大冒險|佳帝安",
+        "t:狼牙棒與流星鎚之魔島大冒險|佳帝安"
+      ],
+      "status": "active",
+      "title_zh": "郎牙棒與劉星鎚之魔島大冒險"
+    },
+    "cdg-4546": {
+      "catalog_id": null,
+      "developer": "遊戲橘子",
+      "keys": [
+        "t:戰國策2|遊戲橘子",
+        "t:戰國策2：七雄之爭|遊戲橘子"
+      ],
+      "status": "active",
+      "title_zh": "戰國策2"
     }
   }
 }
