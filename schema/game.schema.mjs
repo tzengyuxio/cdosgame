@@ -8,7 +8,7 @@
 import { z } from "zod";
 import { mediaArray } from "./media.schema.mjs";
 
-export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "FR", "GB", "DE", "KR"];
+export const REGIONS = ["TW", "HK", "CN", "MO", "JP", "US", "CA", "FR", "GB", "DE", "KR"];
 // Genre taxonomy v2 — 22 keys in 7 groups (see docs/genre-taxonomy.md). Frontmatter
 // stores the stable KEY; display names + group membership live in src/lib/labels.js.
 export const GENRES = [
