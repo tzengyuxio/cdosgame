@@ -89,6 +89,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `published: true` 才上 prod；有寫頁的相依實體（公司/系列/團隊/人物）要連帶發佈。
 - 指向未發佈遊戲的連結在 PROD 會自動退化成純文字（rehype），**不必為補連結上架空白 stub**。
 - 改 `published` 後本地重建要清 `node_modules/.vite` + `.astro` 才生效（見 project memory）。
+- **條目用到新 enum 值時，schema 擴充要同 commit**：若條目填了既有 enum 沒有的值（如 `developer_region: CA`），必涉及 `schema/game.schema.mjs`（+ `schema.md`）的擴充；**這兩者是同一筆邏輯改動，務必一起 commit**。只 commit content、把 schema 改動留在工作區，本機 `npm run validate` 仍會過（它讀工作區的 schema），但 CI build 用的是 committed schema → `InvalidContentEntryDataError` 紅燈。拆 commit 時尤其要查 `git status` 有沒有未帶上的 schema/* 改動。
 
 ## Out of Scope
 
