@@ -13,9 +13,18 @@
 | 系列 series | `cds-NNNN` | 仙劍系列、軒轅劍系列… |
 | 人物 person | `cdp-NNNN` | 製作人/作曲… （未來）|
 
+> ⚠ **現況（實作落差，2026-06）：只有 `cdg-NNNN` 實際發號。** `cdc`/`cds`/`cdp`
+> 是當初規劃、**未實行**。companies/series/people/teams/topics 改採**「中文正名」當
+> 檔名兼網址 slug**（如 `content/companies/新藝.md` → `/companies/新藝`），不發 id、
+> frontmatter 也無 `id:` 欄位——因為它們是**聚合型實體**：路由由 game frontmatter 的
+> 字串欄位（`developer`/`series`/`staff[].name`…）聚合產生，md 檔僅為選填 overlay。
+> 非 game 實體的 slug／路由／消歧規則以 [`information-architecture.md`](information-architecture.md)
+> §二為準（slug＝中文正名，撞名加括號）。本文以下的 registry／粒度／重複處理規則目前
+> **只實際套用於 game**。
+
 - 4 位（上限 9999）：遊戲量估 ~4,500–6,000，足夠；真超出才升位。
 - 小型受控詞彙（平台、genre、region、localization_level）用**字串 enum**，不發 id。
-- **關聯用 id 參照**：遊戲 frontmatter 之後以 `developer: cdc-NNNN`、`series: cds-NNNN` 連結；目前 developer 仍為字串，待建 company 表後做一次「字串→cdc id」正規化。
+- **關聯用 id 參照**（**規劃，未實行**）：原設想遊戲 frontmatter 以 `developer: cdc-NNNN`、`series: cds-NNNN` 連結；目前 developer／series 仍為**中文字串**，且 cdc/cds 未發號，「字串→cdc id」正規化**未做**（亦無近期計畫）。
 
 ## 粒度：一 id = 一款「遊戲作品」
 
@@ -35,7 +44,7 @@
 
 ## 穩定性：registry 是唯一真相
 
-`data/id-registry.json`（每類實體一檔）是 id 的權威帳本，**append-only**、可人工審改。
+`data/id-registry.json`（**目前僅 game 一檔**；當初設想「每類實體一檔」，但 cdc/cds/cdp 未發號故未建）是 id 的權威帳本，**append-only**、可人工審改。
 
 結構（以 id 為主）：
 ```
@@ -62,4 +71,6 @@
 
 ## 排序/顯示
 
-可讀性用 `slug`（英文別名 slugify）；排序/篩選用 `year` 等欄位。**year 不入 id**（多筆缺年、且會校正→破壞穩定）。
+排序/篩選用 `year` 等欄位。**year 不入 id**（多筆缺年、且會校正→破壞穩定）。
+
+game 另有 `slug` 欄位（英文別名 slugify，如 `a-10-tank-killer`），當初設想做可讀網址，但**目前未接線**——遊戲網址一律用 `id`（`/games/cdg-NNNN`），程式碼無任何處讀取 `data.slug`。此欄位的去留（接成 alias 路由 vs 移除）見 `BACKLOG.md`。

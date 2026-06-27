@@ -24,6 +24,7 @@
 
 - [ ] **將 `catalog_id` 改名為 `chiuinan_id`** — 此欄位實際是青衫之友來源站的遊戲編號，現名容易被誤認為本站或廠商的正式 catalog ID；改名時需同步更新 schema、registry、content、scripts、文件與顯示邏輯，並確認既有資料遷移及相容性（2026-06-22）
   - 補佐證（2026-06-23）：cdg-1628《俠影記》的 `catalog_id: SWZ001` 一度被誤以為「智冠軟世界武俠系列」內部編號，研究後確認 SWZ 是 chiuinan 的跨廠商 catalog（SWZ002=Maxis《模擬螞蟻》、SWZ003=Artdink《A 列車 3》），與智冠無關——是「`catalog_id` 名稱誤導」的具體案例
+- [ ] **game `slug` 欄位的去留**（2026-06-28）：schema 有 `slug`（英文別名 slugify，如 `a-10-tank-killer`），但全專案無任何處讀取，遊戲網址一律用 `id`（`/games/cdg-NNNN`）。兩個方向擇一：(a) **接成可讀網址／alias redirect**（`/games/a-10-tank-killer` → `cdg-NNNN`，SEO 友善但要處理唯一性、缺值、舊網址穩定）；(b) **確認用不到就從 schema 移除**，免得是個誤導性的死欄位。背景見 `docs/id-policy.md`「排序/顯示」段。
 - [ ] 補新條目 metadata（合併進來的 developer/genre/content_language 多為 null）
 - [ ] **成人款 `adult` 全面 sweep**（2026-06-20）：目前只回填了已查證 3 款；金瓶梅系列（cdg-2011/2360/2361/2883/3835）等明顯成人款、其他 galge/18禁 待全面標記。
 - [x] 併 OfflineList：465 款標 provenance、新款入 catalog（→4102）、200 張圖已下載；base-match 40 筆人工裁決完（38 併/2 新增，`derived/offlinelist-basematch-worklist.md`）
