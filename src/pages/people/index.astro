@@ -4,7 +4,6 @@ import Base from '../../layouts/Base.astro';
 import { personUrl } from '../../lib/links.js';
 import { groupByInitial } from '../../lib/grouping.js';
 
-// Not linked from the top nav — reachable only by direct URL (/people).
 // Mirrors the credit-aggregation logic in people/[name].astro.
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
 const credits = new Map();  // personKey (slug or credited name) -> game count
