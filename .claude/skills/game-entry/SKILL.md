@@ -40,6 +40,9 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
 - **系列初代標題不帶序號**：首作 `title_zh` 用作品名本身（如「巫術」「國王密使」「大富翁」），**不寫**「巫術1」「國王密使1」；續作才帶數字（巫術2、國王密使2…）。沿用既有 stub 時若初代被標成「…1」應一併訂正，原「…1」可留作 alias。
 - **外文遊戲（無中文化）**：`localization_level: foreign`、`publisher_tw: []`、`content_language` 填原文（如 `en`）、`developer_region` 填原國別。
+- **軟體世界 貴族版／平價版／珍藏版的外文重發**＝budget 重包裝英文版：標 `localization_level: packaging`＋`license_status: unofficial`＋`content_language: en`＋`publisher_tw`（軟體世界／智冠，沿用既有 sibling）；**僅在無任何台灣發行**（只靠雜誌介紹、水貨流通，如冰城傳奇初代）才用 `foreign`＋`publisher_tw: []`。
+- **標題用半形阿拉伯數字**：系列序號寫半形（`宇宙傳奇2`、`冰城傳奇3`），副標分隔用全形冒號（`：`）。沿用舊 stub 常見全形數字（`宇宙傳奇２`），**一律改半形**，`data/id-registry.json` 同步。
+- **`release_codes` 別從 `catalog_id` 推導**：`SWT/SWE/SCD…` 是來源側索引，**≠** 珍／貴 編號；珍／貴 release code 只來自 softworld 掃描（`provenance: softworld@boneash-scan`），查無就留空、**別捏造**（別把 `catalog_id: SWT284` 寫成 `珍284`）。
 - **研究常挖出既有 frontmatter 誤植**（代理商張冠李戴、開發商國別、localization 等）——順手訂正；存疑處記 `docs/backlog/game-entry-review.md`。
 
 ### 4. 寫正文（房屋風格）
@@ -61,6 +64,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ### 5. 引用與附錄（三段制，詳見 `docs/refs-convention.md`）
 - **⚠ 研究用到的每個來源都要落進 `references`**——不論是 stub 既有的（chiuinan/fandom/omega…）或你研究時新查到的（維基、MobyGames、DOS Days、部落格考據…），一律補進 `references`（被正文逐句引用的標 `cited` 給 `[N]`，其餘列 general）。**不可只寫正文、不附來源**；正文寫完務必回頭核對每個事實是否有對應來源在 `references`。
   - **chiuinan 介紹頁**：分兩種情況——①**補既有 stub** 時，若 stub 已有 `references.chiuinan`（介紹頁 URL）就保留；若只有 `provenance: chiuinan@list-1.htm`（列表頁），代表該款出現在 chiuinan 列表，可從列表（list-1.htm）查該款是否連有專屬介紹頁、有就補進 `references.chiuinan`，只在列表無專屬頁則略過。②**新建（無 stub）** 的款，chiuinan 未收錄、`provenance` 也無 chiuinan，不必去找。
+  - **⚠ 別只信 derived 的 `intro_todo`**：`derived/chiuinan-games.json` 的 `intro_todo: True` 只代表「尚未抓介紹頁」、**不代表沒有**。要實際抓 `list-1.htm`（693KB，curl 下來 grep 標題找 `href`）——外文遊戲介紹頁多在 `intro/eng/eXX/…`、中文遊戲在 `intro/ch/cXX/…`；即使列表標 `[待補]`／`[待重整]`，頁面通常仍有簡介、台灣代理、版本沿革等實質內容，可收進 `references.chiuinan`（完整 URL `https://chiuinan.github.io/game/game/<href>`）。本批 9 款外文作（幻想空間 6／地下創世紀 2／模擬城市）皆屬此情形。
 - **⚠ 連結文字用「頁面標題」、不用站名**（ADR-003 / Daily 2026-06-22，詳見 `docs/refs-convention.md`「連結文字」節）：`chiuinan`/`fandom`/`omega` 沿用固定 label；其餘來源（wikipedia/mobygames/dosdays/部落格…）的 value 用物件 `{ url, title }`，`title` 填**實際抓取的頁面標題**（如「巫術VII：失落的迦地亞 - 維基百科，自由的百科全書」），不可用「維基百科」「痞客邦」這類站名。
 - **參考資料**（`references`）＝內容來源；general 來源（chiuinan/fandom/omega…）自動列出、**不編號**。**某句需標來源** → 在 `references.cited` 加一筆（keyed：`<key>: { label, url }`，`label` 即標題；或 legacy：`"標題": url`），正文該句末接 `<sup class="cite" data-ref="<key>"></sup>`——**用 dynamic `data-ref`，不要手寫 `#cite-N`**；編號、backref、`#cite-N` 錨點全由系統自動產生。寫法、編號規則與範例見 `docs/refs-convention.md`〈編號規則〉〈frontmatter 寫法〉。
 - **註釋**（`footnotes: ["純文字補充…"]`）＝**無連結**的說明，也可被 `[N]` 引用（編號接在 references 之後 `[k+1…]`）。
