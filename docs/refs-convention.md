@@ -77,6 +77,8 @@ external_links:
 2. **判斷是否據此改寫或增補正文**——有用的考據就寫進 body，關鍵斷言句末加 `[N]`。
 3. **決定歸屬**：用作內容來源（含據此改寫者）→ `references`（被逐句引用再標 `cited` 並給 `[N]`）；非來源、重複、或無法爬取但想留存 → `external_links`。
 
+重複連結檢查：執行 `npm run check:duplicate-links` 可掃描 `content/games` 中同一遊戲條目內的 `references` 與 `external_links` URL 重複。
+
 ## 來源分歧的引用
 
 同一事實若有不同記法（如發行年、開發商、發行商、平台），正文可中性並陳，但每個記法都應盡量各自標出來源：
