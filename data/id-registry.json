@@ -33495,10 +33495,11 @@
       "catalog_id": null,
       "developer": "全崴",
       "keys": [
-        "t:魔法師寶典：復仇之島|全崴"
+        "t:魔法師寶典：復仇之島|全崴",
+        "t:魔法師寶典|全崴"
       ],
       "status": "active",
-      "title_zh": "魔法師寶典：復仇之島"
+      "title_zh": "魔法師寶典"
     },
     "cdg-3717": {
       "catalog_id": null,
@@ -35532,8 +35533,9 @@
       "keys": [
         "t:魔法師寶典|None"
       ],
-      "status": "active",
-      "title_zh": "魔法師寶典"
+      "status": "merged",
+      "title_zh": "魔法師寶典",
+      "merged_into": "cdg-3716"
     },
     "cdg-3942": {
       "catalog_id": null,
