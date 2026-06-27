@@ -1,6 +1,7 @@
 import { defineConfig, passthroughImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
+import { lastModified, latestModified } from './src/lib/gitdates.js';
 
 // GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
 const BASE = '/cdosgame';
@@ -105,5 +106,24 @@ export default defineConfig({
   // 公司改名／別名的舊網址導向不在這裡設定：改由 companies/[name].astro 依精選表
   // src/lib/company-aliases.js 生成「即時 client redirect + 重導向自橫幅」的頁面，
   // 避免 Astro 內建 redirect 的白頁閃動。
-  integrations: [sitemap()],
+  integrations: [sitemap({ serialize: sitemapLastmod })],
 });
+
+// Attach <lastmod> to each sitemap URL. Entity pages (games/companies/people/
+// series/teams/topics) map 1:1 to a content file → use that file's last git
+// commit date (same source as JSON-LD dateModified, see src/lib/gitdates.js).
+// Listing/aggregate pages (home, /years, /genres, …) have no single source
+// file → fall back to the site-wide latest commit date. Degrades to no lastmod
+// if git history is unavailable (shallow clone). Requires fetch-depth: 0 in CI.
+const SITEMAP_COLLECTIONS = ['games', 'companies', 'people', 'series', 'teams', 'topics'];
+function sitemapLastmod(item) {
+  const path = new URL(item.url).pathname;                       // /cdosgame/games/cdg-0034/
+  const rel = decodeURIComponent(path.slice(BASE.length + 1).replace(/\/$/, ''));
+  const seg = rel.split('/');
+  let lastmod;
+  if (seg.length === 2 && SITEMAP_COLLECTIONS.includes(seg[0])) {
+    lastmod = lastModified(`content/${seg[0]}/${seg[1]}.md`);
+  }
+  lastmod ??= latestModified();
+  return lastmod ? { ...item, lastmod } : item;
+}

@@ -8,7 +8,9 @@ let cache;
 function build() {
   const map = new Map();
   try {
-    const out = execSync("git log --no-renames --format='C:%cI' --name-only -- content", {
+    // -c core.quotePath=false: keep CJK paths un-escaped so the map keys match
+    // the unquoted UTF-8 paths built on the JS side (CI's git defaults to true).
+    const out = execSync("git -c core.quotePath=false log --no-renames --format='C:%cI' --name-only -- content", {
       encoding: 'utf8', maxBuffer: 128 * 1024 * 1024,
     });
     let cur = null;
