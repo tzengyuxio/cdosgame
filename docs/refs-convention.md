@@ -16,6 +16,17 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 判斷一條連結放哪：**有沒有用作內容來源**——用作來源（含據此改寫/增補正文）→ `references`；
 非來源、重複、或無法爬取但想留存 → `external_links`。
 
+## 連結文字（label）
+
+**所有外部連結的顯示文字一律用「該頁面的標題」，不用站名**（決策見 ADR-003 / Daily 2026-06-22）。例如某痞客邦文章應顯示「老遊戲介紹 - 御封戰將」（文章標題），而非「痞客邦」。
+
+- **game 的 general references**：`chiuinan`/`fandom`/`omega` 三個自動來源沿用固定 label（「青衫之友 介紹頁」「Fandom 條目」「Omega 討論串」）；**其餘來源 key**（wikipedia/mobygames/dosdays/部落格…）的 value 用物件 `{ url, title }`，`title` 為頁面標題，渲染即以 `title` 為連結文字。建立條目時應實際抓取頁面標題填入，不可用站名代替。
+- **game 的 cited**：legacy 形式 `"標題": url` 的 key 即標題；keyed 形式 `key: { label, url }` 的 `label` 即標題。
+- **external_links**：map 的 key 即顯示文字，填頁面標題。
+- **其他實體**（companies/people…）：`references`/`external_links` 陣列項的 `title` 即顯示文字，填頁面標題。
+
+民間漢化／中文化連結的歸屬依上節 SOP：**正文有提及** → `references`（被該句 `[N]` 引用、標 `cited`）；**正文未提及、純補充** → `external_links`。
+
 ## 編號規則
 
 - **正文 cite 編號**：每個 `<sup class="cite" data-ref="…">` 引用點**按 body 出現順序遞增** `[1][2][3]…`，每個點各一個號——即使多處 `data-ref` 指向同一個 ref/footnote，也遞增、不共用同號。
@@ -39,12 +50,15 @@ footnotes:
   - key: fn01                                   # keyed 形式：body 可用 data-ref="fn01" 連到此筆
     text: '兩寫法各有依據，疑為同一人之異寫。可內嵌 <a href="/games/cdg-1701">站內連結</a>。'
 references:
-  chiuinan: https://...      # 自動來源 → 參考資料（general，無號）
-  fandom: 神雕侠侣 (1997)
-  cited:                     # 被正文引用 → 參考資料 [N]，依宣告順序
-    "銀狐〈開發回憶〉": https://...
+  chiuinan: https://...      # 自動來源 → 參考資料（general，無號）；沿用固定 label「青衫之友 介紹頁」
+  fandom: 神雕侠侣 (1997)     # 同上，固定 label「Fandom 條目」
+  wikipedia:                 # 其他來源（wikipedia/wikipedia_zh/mobygames/dosdays/部落格…）→ general 參考資料（無號）
+    url: https://...
+    title: 巫術VII：失落的迦地亞 - 維基百科，自由的百科全書  # ← 連結文字用「頁面標題」，不可用站名（見下「連結文字」規範）
+  cited:                     # 被正文 [N] 引用 → 參考資料（編號）
+    "銀狐〈開發回憶〉": https://...          # legacy：key 即 label（標題）
 external_links:
-  "民間漢化補丁": https://...
+  "民間漢化補丁（站方說明頁）": https://...   # 正文未提及、純補充連結才放這裡；正文有提及→改 cited
 ```
 
 **其他實體**（`references` 為陣列，被引用者標 `cited: true`；footnotes 同樣支援雙形式）：

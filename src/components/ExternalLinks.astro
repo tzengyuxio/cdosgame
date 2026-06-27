@@ -11,6 +11,19 @@ const generalRefs = [];
 if (r.chiuinan) generalRefs.push({ text: '青衫之友 介紹頁', url: r.chiuinan });
 if (r.fandom) generalRefs.push({ text: 'Fandom 條目', url: fandomUrl(r.fandom) });
 if (r.omega) generalRefs.push({ text: 'Omega 討論串', url: r.omega });
+// other general source keys (wikipedia/mobygames/gamer_table/…). See docs/refs-convention.md.
+const SOURCE_LABELS = {
+  wikipedia: '維基百科', wikipedia_zh: '維基百科', wikipedia_ja: '維基百科（日文）',
+  mobygames: 'MobyGames', tetriswiki: 'Tetris Wiki', dosdays: 'DOS Days',
+  pixnet: '痞客邦', gamer_table: '巴哈姆特', bahamut: '巴哈姆特',
+  koeitecmo: 'Koei Tecmo Wiki', archive: 'Internet Archive',
+};
+const RESERVED_REF_KEYS = new Set(['chiuinan', 'fandom', 'omega', 'cited']);
+for (const [k, v] of Object.entries(r)) {
+  if (RESERVED_REF_KEYS.has(k)) continue;
+  if (typeof v === 'string') generalRefs.push({ text: SOURCE_LABELS[k] || k, url: v });
+  else if (v && v.url) generalRefs.push({ text: v.title || SOURCE_LABELS[k] || k, url: v.url });
+}
 const externalLinks = Object.entries(g.external_links || {}).map(([text, url]) => ({ text, url }));
 ---
 <CiteSections

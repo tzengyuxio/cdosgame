@@ -30,6 +30,19 @@ function checkMedia(coll, slug, media = []) {
   return { errors, warnings };
 }
 
+// 連結文字規範（docs/refs-convention.md「連結文字」）：references 的 general 來源
+// 中，chiuinan/fandom/omega 用固定 label，其餘來源 key 須帶頁面標題（{url, title}）。
+// 只給 URL 字串的會在渲染時 fallback 成站名/key，違反規範——警告而非報錯。
+const RESERVED_REF_KEYS = new Set(["chiuinan", "fandom", "omega", "cited"]);
+function checkRefLabels(references = {}) {
+  const warnings = [];
+  for (const [k, v] of Object.entries(references)) {
+    if (RESERVED_REF_KEYS.has(k)) continue;
+    if (typeof v === "string") warnings.push(`references.${k}: 只有 URL、缺 title，連結文字會 fallback 成站名/key；應改 { url, title }`);
+  }
+  return warnings;
+}
+
 // games carry an `id` field (checked for uniqueness); companies/series use the
 // filename as id (unique on disk by definition), so only schema-validate them.
 const COLLECTIONS = [
@@ -71,6 +84,9 @@ for (const { dir, schema, checkId, coll } of COLLECTIONS) {
         const mc = checkMedia(coll, slug, data.media);
         for (const e of mc.errors) errors.push({ f, issue: e });
         for (const w of mc.warnings) warnings.push({ f, issue: w });
+      }
+      if (coll === "games" && data.references) {
+        for (const w of checkRefLabels(data.references)) warnings.push({ f, issue: w });
       }
     } else {
       errors.push({ f, issue: r.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ") });

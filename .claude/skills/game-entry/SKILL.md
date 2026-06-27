@@ -38,11 +38,13 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。
 - `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
+- **系列初代標題不帶序號**：首作 `title_zh` 用作品名本身（如「巫術」「國王密使」「大富翁」），**不寫**「巫術1」「國王密使1」；續作才帶數字（巫術2、國王密使2…）。沿用既有 stub 時若初代被標成「…1」應一併訂正，原「…1」可留作 alias。
 - **外文遊戲（無中文化）**：`localization_level: foreign`、`publisher_tw: []`、`content_language` 填原文（如 `en`）、`developer_region` 填原國別。
 - **研究常挖出既有 frontmatter 誤植**（代理商張冠李戴、開發商國別、localization 等）——順手訂正；存疑處記 `docs/backlog/game-entry-review.md`。
 
 ### 4. 寫正文（房屋風格）
-- 客觀、繁中、考據語氣，約 2 段；無行銷腔、無牽強比較、無未考據的「據說」。
+- 客觀、繁中、考據嚴謹的**百科散文體**，約 2 段；無行銷腔、無牽強比較、無未考據的「據說」。
+- **⚠ 寫成流暢的百科散文，不要「考據筆記」的感覺**（使用者反覆糾正的重點）：嚴謹有據 ≠ 把考證過程寫進正文。避免——研究口吻（「經查／據考／考據顯示／資料顯示」）、過度堆砌來源比對、流水帳、反覆陳述同一資訊、破碎的條列式短句。改以通順敘述**直接陳述事實**，一段一重點、不重複，讀來像百科條目而非研究筆記。（真實的來源分歧仍依下方規則中性並陳，但點到為止、不連篇堆砌。）
 - 開頭句型：`《Title》是[公司](/companies/X)於 YYYY 年推出的<類型>，…`；首作點明 `[系列](/series/Y)` 首作。
 - 互連：台灣公司／系列／人物／團隊用內部連結（`/companies/…`、`/series/…`、`/people/…`、`/teams/…`）；**外國開發商（無對應頁）用純文字、不連 `/companies`**。
 - 段落：① 定位（誰做、何時、類型、系列地位）；② 玩法/特色/歷史/續作/軼事。
@@ -57,7 +59,10 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **祕技／攻略等延伸區塊**（body 內的 `## 祕技`、`## 攻略`…）可加，但**建 entry 時不主動蒐集填入**——即使研究過程挖到祕技/攻略也先擱著，待使用者明確要求再補，避免條目膨脹成攻略本。
 
 ### 5. 引用與附錄（三段制，詳見 `docs/refs-convention.md`）
-- **參考資料**（`references`）＝內容來源。某句需來源 → 在 `references.cited: {"標籤":"url"}` 加一筆，句末接 `<sup class="cite"><a href="#cite-N">[N]</a></sup>`；**N 從 1 起、依 cited 宣告順序**。chiuinan/fandom/omega 自動列為參考資料（general，**不編號**），不必手動。
+- **⚠ 研究用到的每個來源都要落進 `references`**——不論是 stub 既有的（chiuinan/fandom/omega…）或你研究時新查到的（維基、MobyGames、DOS Days、部落格考據…），一律補進 `references`（被正文逐句引用的標 `cited` 給 `[N]`，其餘列 general）。**不可只寫正文、不附來源**；正文寫完務必回頭核對每個事實是否有對應來源在 `references`。
+  - **chiuinan 介紹頁**：分兩種情況——①**補既有 stub** 時，若 stub 已有 `references.chiuinan`（介紹頁 URL）就保留；若只有 `provenance: chiuinan@list-1.htm`（列表頁），代表該款出現在 chiuinan 列表，可從列表（list-1.htm）查該款是否連有專屬介紹頁、有就補進 `references.chiuinan`，只在列表無專屬頁則略過。②**新建（無 stub）** 的款，chiuinan 未收錄、`provenance` 也無 chiuinan，不必去找。
+- **⚠ 連結文字用「頁面標題」、不用站名**（ADR-003 / Daily 2026-06-22，詳見 `docs/refs-convention.md`「連結文字」節）：`chiuinan`/`fandom`/`omega` 沿用固定 label；其餘來源（wikipedia/mobygames/dosdays/部落格…）的 value 用物件 `{ url, title }`，`title` 填**實際抓取的頁面標題**（如「巫術VII：失落的迦地亞 - 維基百科，自由的百科全書」），不可用「維基百科」「痞客邦」這類站名。
+- **參考資料**（`references`）＝內容來源；general 來源（chiuinan/fandom/omega…）自動列出、**不編號**。**某句需標來源** → 在 `references.cited` 加一筆（keyed：`<key>: { label, url }`，`label` 即標題；或 legacy：`"標題": url`），正文該句末接 `<sup class="cite" data-ref="<key>"></sup>`——**用 dynamic `data-ref`，不要手寫 `#cite-N`**；編號、backref、`#cite-N` 錨點全由系統自動產生。寫法、編號規則與範例見 `docs/refs-convention.md`〈編號規則〉〈frontmatter 寫法〉。
 - **註釋**（`footnotes: ["純文字補充…"]`）＝**無連結**的說明，也可被 `[N]` 引用（編號接在 references 之後 `[k+1…]`）。
 - **外部連結**（`external_links`）＝**非來源**的相關連結（重複、無法爬取、延伸備用），不編號。
 - **「丟連結」SOP**：使用者貼連結時 → ① 讀內容 → ② 判斷是否據此改寫/增補正文 → ③ 依「**有沒有用作來源**」歸 `references`（被引用再標 cited 給 `[N]`）或 `external_links`。
@@ -67,6 +72,14 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 
 ### 7. 驗證
 `npm run validate`（Zod），修到全綠。
+
+**發佈前自檢清單**（高遺漏項，逐條確認；散文容易漏，照此勾）：
+- [ ] 每個正文事實都有對應 `references` 來源（無孤立斷言）
+- [ ] 所有外部連結文字用「頁面標題」、非站名（chiuinan/fandom/omega 除外，用固定 label）
+- [ ] 既有 stub 的 chiuinan 介紹頁已補進 `references.chiuinan`（新建無 stub 款免）
+- [ ] cite 用 dynamic `data-ref`（非 `#cite-N`）
+- [ ] 系列初代標題不帶序號（續作才帶數字）
+- [ ] 正文是流暢百科散文、無「考據筆記」感（無研究口吻、無堆砌比對、無流水帳）
 
 ### 8. 發佈（只在被要求／確認完成時）
 - `published: true` 才上 prod；有寫頁的相依實體（公司/系列/團隊/人物）要連帶發佈。

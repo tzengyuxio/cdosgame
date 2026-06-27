@@ -125,7 +125,12 @@ export const gameSchema = z.object({
       z.string().url(),
       z.object({ label: z.string(), url: z.string().url() }),
     ])).optional(),
-  }).default({}),
+  // other general source keys (wikipedia/mobygames/gamer_table/…) → 參考資料 段 (no [N]).
+  // value: a URL string, or an object { url, title?, retrieved? }.
+  }).catchall(z.union([
+    z.string().url(),
+    z.object({ url: z.string().url() }).passthrough(),
+  ])).default({}),
   external_links: z.record(z.string().url()).default({}),
 
   // provenance & derivation metadata
