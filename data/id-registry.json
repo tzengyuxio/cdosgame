@@ -41107,6 +41107,51 @@
       ],
       "status": "active",
       "title_zh": "香卡拉之謎"
+    },
+    "cdg-4557": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:大海盜黃金版|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "大海盜黃金版"
+    },
+    "cdg-4558": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:鐵路大亨豪華版|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "鐵路大亨豪華版"
+    },
+    "cdg-4559": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:三國志曹操傳|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "三國志曹操傳"
+    },
+    "cdg-4560": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:織田信長傳|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "織田信長傳"
+    },
+    "cdg-4561": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:毛利元就傳|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "毛利元就傳"
     }
   }
 }
