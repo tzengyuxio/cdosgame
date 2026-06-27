@@ -23,6 +23,8 @@ created: 2026-06-25
 需要保留關係）再回來挑要做哪些。
 
 - [x] 世紀縱橫 → 貳碼科技（已啟用）
+- [x] Kogado / Kogado Studio → 工畫堂（已啟用）。例外：屬中英純別名而非改名傳承，破例進精選表是因 9 款原以 Kogado 入庫、外部 DB（MobyGames 等）亦用此名，redirect 有實益。
+- [x] KSK / Kure Software Koubou / 吳氏工房 / 吳氏工坊 → 呉ソフトウェア工房（已啟用）。同上之多寫法純別名；3 款原各以 KSK／Kure Software Koubou／吳氏工坊 三種名入庫，canonical 取日文正名（無通行中文正名）。
 
 ## 待評估的傳承/改名候選（有了更多資料再判斷）
 
