@@ -150,3 +150,57 @@ created: 2026-06-20
 - [ ] 國王密使年份訂正 — 國王密使（cdg-1043）year 1986→1984（原版 PCjr）、國王密使2（cdg-1044）1987→1985（原版年），與系列其他代統一採原版初版年；台灣智冠合輯版年另計（2026-06-27）
 - [ ] 英傑傳系列（孔明傳/曹操傳/織田信長傳/毛利元就傳）— 台灣繁中版確切發行年未定：孔明傳日版 1996（台版約 1997）、曹操傳日版 1998（中文維基另記 1999-01-15）、毛利元就傳日版 1997-05、織田信長傳日版 1998-09；台灣第三波代理為業界通行認知、無光榮官方一手聲明。織田信長傳/毛利元就傳為 Windows(Win9x)＋PS、非 DOS（屬周邊早期平台）。series 歸屬：三國題材（孔明/曹操）歸「三國志」、戰國題材（織田/毛利）暫 series null，未來或建「英傑傳」series 統整全 5 作（2026-06-27）
 - [ ] 三國孔明傳（cdg-0207）非重複 — 經查與 cdg-0225「三國志孔明傳」（光榮 1996）為不同作品：cdg-0207 是第三波約 2002 製作、2003 改光譜代理發行的台灣自製 SRPG（五行相生相剋戰鬥）；developer_region 留 null（chiuinan 記台灣第三波、jendow 記第三波珠海/北京，同集團不同實體待考）（2026-06-27）
+- [ ] 猴島小英雄 重複 — cdg-3863「猴島小英雄」（本批補完發佈，作正本，title 去序號符合慣例）與 cdg-3533「猴島小英雄1：猴島的秘密」（資料較全的舊 stub、智冠）同為 The Secret of Monkey Island、同掛珍069，待 dedup／cdg-3533 併入 cdg-3863（2026-06-28）
+- [ ] 魔術彩球（cdg-4575，新建）X-ROCK — 軟體世界珍藏版珍077，agent 查得 abandonware 標智冠（Soft-World）自製俄羅斯方塊變體（重力消除），故暫標 native/TW/智冠/PZG；公開資料極稀、發行年（暫 null）與「智冠自製」歸屬皆待一手佐證，亦不排除為西方重包裝英文版（2026-06-28）
+- [ ] A-6入侵者（cdg-4581）開發歸屬 — Flight of the Intruder 開發商 Rowan Software(GB) vs 發行商 Spectrum HoloByte(US) 有分歧；本批採 Rowan Software/GB，待二次佐證（2026-06-28）
+- [ ] 全球戰略（cdg-4579）發行商 — Command H.Q. 維基記 Microplay Software（MicroProse 副牌）發行、Ozark Softscape（Dani Bunten）開發；developer 採 Ozark Softscape，原廠發行商未入庫（catalog 只留台灣發行）（2026-06-28）
+- [ ] 軟體世界珍藏版外文批（本批共通）— cdg-1147/2911/0964/2200/2975/1829/0290/4179/3605/3701 等智冠代理英文款，license 一律暫標 unofficial（軟體世界 budget 未授權假設），與 cdg-0034 等既有同批一致；若實為智冠正式進口則 license 待修正（2026-06-28）
+- [ ] 火星之旅 重複 — cdg-2976「創世紀外傳2：火星之旅」（本批補完發佈，作正本，珍105）與 cdg-4192「火星之旅」（boneash 空 stub）同為 Martian Dreams，待 dedup／cdg-4192 併入 cdg-2976（2026-06-28）
+- [ ] 築城大師2（cdg-1959）genre 誤標 — 與 cdg-1958 同為 `LSG`（戀愛養成，錯）；本批已修 cdg-1958→`SLG`，cdg-1959 未在範圍未動，待一併訂正為 SLG（2026-06-28）
+- [ ] 陸軍棋（cdg-1363）歸屬存疑 — 智冠/TW/native/1991 主要靠 chiuinan＋社群整理（巴哈國產總表/中文DOS列表），無強一手佐證；軟體世界珍藏版珍115（softworld scan 確證），developer 智冠待二次佐證（2026-06-28）
+- [ ] 快快樂樂學打字（cdg-4586）— Dvorak on Typing 開發商 Park Place Productions／Presage Software、發行 Interplay（非清單可能暗示的 Software Toolworks）；平台各源不一（DOS/Win/Mac/Amiga）、年份 1991 存疑；珍107（2026-06-28）
+- [ ] 妙賊奇弗（cdg-4585）開發商更正 — 清單若標 New World Computing 有誤，實為 Naughty Dog 首作、Electronic Arts 發行（已採）；珍106（2026-06-28）
+- [ ] F-29/F-14（cdg-4584/4587）同名作辨識 — F-29 Retaliator 採 Digital Image Design(GB)/Ocean 發行、原版 1989 Amiga（DOS 1991）；F-14 Tomcat 同名遊戲多款，本批指 Dynamix/Activision 1990 DOS 版（2026-06-28）
+- [ ] 幽靈騎士(cdg-4230)/魔眼殺機(cdg-3763) 已掛 adnd 標籤 — 兩款 AD&D 授權作已加 tags:[adnd]、納入「龍與地下城」專題；魔眼殺機 developer 由 SSI 訂正為 Westwood Associates（SSI 為發行商）（2026-06-28）
+- [ ] 新A-10坦克殺手（A-10 Tank Killer 1.5, 珍119）不另立條目 — 已由 cdg-0034「A-10坦克殺手」涵蓋（含 1.5 版，release_codes 珍028＋珍119、alias 新A-10坦克殺手），本批使用者列出但無需新建（2026-06-28）
+- [ ] 印度王（cdg-4590）僅英國發行 — Champion of the Raj（Level 9 Computing/PSS, 1991）查無美國等地發行，僅 Amiga/ST/PC 英國版；台灣軟體世界珍藏版珍121 收錄（2026-06-28）
+- [ ] Ｄ計劃（cdg-3954）developer_region 存疑 — D/Generation 設計者 Robert Cook 個人國籍未確證，部分資料視為英國團隊；暫依發行商 Mindscape 標 US，待查（2026-06-28）
+- [ ] 魔獸紀元（cdg-4589）開發實況 — Tunnels & Trolls: Crusaders of Khazan 為美日合作：New World Computing（US）設計監督、程式外包日本 Logical Design Works；developer 主欄維持 New World Computing/US（2026-06-28）
+- [ ] 艾薇拉（cdg-3965）genre — Elvira 為恐怖 RPG/冒險混血，本批採 RPG（依 CGW 1991 RPG 年度獎定位），若偏圖形冒險操作面亦可 ADV（2026-06-28）
+- [ ] 天生好手2（cdg-4595）開發商存疑 — Earl Weaver Baseball II：Internet Archive 等列 Mirage Graphics、維基僅標 EA 發行未列開發商；本批 developer 暫採 Electronic Arts，待 MobyGames credits 核實。初代天生好手＝cdg-4015（Earl Weaver Baseball I, 1988, 貴005），本批未動（2026-06-28）
+- [ ] 幻影法師（cdg-4597）genre/developer — Shadow Sorcerer：部分來源把歐版代理 U.S. Gold 誤列 developer，實為 SSI（已採）；genre 即時戰術 AD&D 介於 SRPG/SLG，本批採 SRPG。已掛 adnd 標籤（與異域之門 cdg-1938 同）（2026-06-28）
+- [ ] 納粹飛行祕史（cdg-4010）developer — Secret Weapons of the Luftwaffe 1991 年掛 Lucasfilm Games（已採），首席 Lawrence Holland 團隊後獨立為 Totally Games；維基有時標 Totally Games（2026-06-28）
+- [ ] 小人物狂想曲2（cdg-4598）已標 adult:true — Les Manley: Lost in L.A. 為成人喜劇冒險（與 Leisure Suit Larry 並列）；前作小人物狂想曲＝cdg-3918（珍060）（2026-06-28）
+- [ ] 艾薇拉2（cdg-3971）年份 — Elvira II 維基 infobox 作 1992，MobyGames/IA/CRPG Addict 多數作 1991，採 1991（2026-06-28）
+- [ ] 異域之門（cdg-1938）developer — Gateway to the Savage Frontier 開發商 Beyond Software（後改名 Stormfront Studios），MobyGames 多標 Stormfront；本批採 Beyond Software，與明星職棒 cdg-2393 同屬該團隊（2026-06-28）
+- [ ] 創世紀7黑月之門 重複 — cdg-2969「創世紀7：黑月之門」（本批補完發佈，Origin/智冠/含 chiuinan，作正本）與 cdg-4002「創世紀 VII：黑月之門」（boneash 空 stub、dev null、原掛 珍160）同為 Ultima VII；本批把 珍160 補到 cdg-2969，cdg-4002 待 dedup/退役（2026-06-28）
+- [ ] 星際爭霸戰 珍161 誤掛 8 筆 — softworld scan 把 珍161 同時掛在所有同名「星際爭霸戰」條目（cdg-2417~2425）；實際 珍161＝cdg-2417（Star Trek: 25th Anniversary, Interplay, 本批補完）；cdg-2418~2425（克林貢/博格/新世界/世代/星艦指揮官系列等）仍殘留錯誤 珍161 release_code，待清理（2026-06-28）
+- [ ] 攻佔比佛利山莊（cdg-4600）發行商 — The Taking of Beverly Hills 實為 Off The Wall Productions 開發、Capstone Software 發行（已採），清單標 EA 不予採信（查無 EA 版）（2026-06-28）
+- [ ] 捍衛雄鷹3.0（cdg-3048）developer — Falcon 3.0 開發掛名 Sphere, Inc.，Spectrum HoloByte 為其發行品牌（同一公司，後改名 Spectrum HoloByte）；developer 維持 Sphere（2026-06-28）
+- [ ] 黑暗之池(cdg-2268) 已掛 adnd 標籤 — Pools of Darkness 為 Pool of Radiance 系列完結 Gold Box AD&D 作；本批另確認亞特蘭提斯之謎 cdg-1292 早已完整發佈（珍166），未重做（2026-06-28）
+- [ ] 天際寒星（cdg-4603）年份 — Planet's Edge：MobyGames/實體包裝/IA 作 1991、維基作 1992，採 1991（2026-06-28）
+- [ ] 四川省2（cdg-1029）— 智冠台灣自製麻將消除（含 18 禁女郎圖，adult:true 沿用既有），native/zh/PZG、軟體世界珍153；玩法描述屬一般四川省麻將通則、無單獨佐證（2026-06-28）
+- [ ] 新英雄傳奇1（cdg-4607）為 VGA 重製版 — Quest for Glory I (Remake, 珍174)，與 cdg-3429「英雄傳奇」EGA 原作（Hero's Quest 1989, 珍036）是不同產品；本批新建並交叉連結。series 暫填「英雄傳奇」與烈火神兵 cdg-4179 一致（2026-06-28）
+- [ ] 美國鼠譚（cdg-4606）developer — An American Tail DOS 版實為 Manley & Associates 開發、Capstone Software 發行（已採），非清單假設的 Hi-Tech Expressions（2026-06-28）
+- [ ] 畫面狩獵者（cdg-4608）GETCAP — 為螢幕擷取工具軟體（非遊戲），西文資料庫查無；developer/year/平台皆 null 待考；軟體世界珍178、續作 GETCAP II 珍217；疑為台灣本地或附帶工具（2026-06-28）
+- [ ] 香港麻將（cdg-4610）developer_region — Nine Dragons Software 國別未確認（EA 發行推測 US，另有澳洲說）；暫採 US 待查（2026-06-28）
+- [ ] 357戰鬥大隊（cdg-4611）— Heroes of the 357th 開發 Midnight Software（加拿大 CA）、EA 發行；year MobyGames 標 1992、維基 1991，採 1991（2026-06-28）
+- [ ] 瑪催斯計劃(cdg-4228)/異域寶藏(cdg-4255)/克萊恩黑暗之后(cdg-3997) 標籤 — 異域寶藏、克萊恩黑暗之后為 AD&D 已掛 adnd；瑪催斯計劃（Buck Rogers II）雖用 Gold Box 引擎但屬 TSR Buck Rogers 授權、非龍與地下城，故不掛 adnd（2026-06-28）
+- [ ] 英雄傳奇（Quest for Glory）系列雙重複組待 dedup — 兩套並存：cdg-3429~3433（英雄傳奇1-5，帶 SWT catalog_id 的「典藏組」）與 cdg-4179/4183（boneash budget 組）。本批與前批已發佈 cdg-3429(QFG1,珍036)＋cdg-4179(QFG2,珍086)＋cdg-4183(QFG3,珍190)，但 cdg-3430(英雄傳奇2,SWT086)/cdg-3431(英雄傳奇3,SWT190) 為對應重複未退役；cdg-3432(QFG4)/3433(QFG5) 尚未處理。整組待統一 dedup（2026-06-28）
+- [ ] 魔法門外傳：星雲之謎 重複疑慮 — cdg-3942（本批補完中文版，珍193）與 cdg-3728「魔法門4」同為 Clouds of Xeen＝Might & Magic IV（chiuinan 頁標題即「魔法門4／魔法門外傳1：星雲之謎」）；「外傳」為中文俗稱、實為正傳第4作，兩條目疑重複待釐清（2026-06-28）
+- [ ] 三款官方中文版（localized）— 魔眼殺機2隱月傳奇 cdg-3764（珍187）、魔法門外傳星雲之謎 cdg-3942（珍193）、魔界召喚 cdg-3757（珍198）為智冠官方中文化（content_language zh、localized），與其他英文 packaging 款不同；license 暫沿用既有（null/unofficial），官方中文版是否應改 official 待議（2026-06-28）
+- [ ] 超人戰記（cdg-2161）為台灣自製 — Heroic Poetry: Super Mars 實為智冠 1992 原生中文 RPG（native/TW/zh），非西方代理；雖列於珍藏版（珍188），歸類與其他款不同。發行年 1992/1993 兩說（2026-06-28）
+- [ ] 新警察故事（cdg-4614）為 VGA 重製 — Police Quest 1 的 1992 VGA 重製版（珍196），與原版 1987 EGA 不同；catalog 另有 cdg-3868「警察故事」（PQ1 原版,貴008）、cdg-4431 警察故事2、cdg-4592 警察故事3。夢幻勇士 cdg-4613＝Unreal 1990 Ubi Soft 平台動作（非 1998 Epic FPS）（2026-06-28）
+- [ ] 大滿貫橋牌2（cdg-0401）— Grand Slam Bridge II 開發 Presage Software（EA 發行）；catalog_id SWT97 疑為 SWT197 之誤植待查（2026-06-28）
+- [ ] 巨蛇之島 重複 — cdg-2970「創世紀7第二部：巨蛇之島」（本批補完發佈，Origin/智冠/含 chiuinan，作正本，珍216）與 cdg-4194「創世紀 VII第二部：巨蛇之島」（boneash 空 stub）同為 Ultima VII Part 2；同創世紀7（cdg-2969/4002）模式，cdg-4194 待 dedup/退役（2026-06-28）
+- [ ] 勇士傳奇（cdg-1381）— Legends of Valour 開發 Synthetic Dimensions（GB，已訂正 dev SSI 誤植）、U.S. Gold 發行；珍藏版標「中文版」但國際來源無中文化紀錄，中文版應為智冠在地化（content_language zh/localized），待台灣端佐證（2026-06-28）
+- [ ] 雀之塔（cdg-4616）資料不足 — a Tower Of MahJong 公開資料庫查無；麻將接龍類暫標 PZG，dev/year/region 皆 null 待考（與 GETCAP cdg-4608/4624 同屬難考據的珍藏版收錄品）（2026-06-28）
+- [ ] 畫面狩獵者2（cdg-4624）GETCAP II — 螢幕擷取工具（非遊戲，珍217），同初代 cdg-4608 難考據，ETC＋多欄 null（2026-06-28）
+- [ ] 明星職棒2（cdg-2394）年份 — Tony La Russa Baseball II 多源記 1993 年 3 月（採 1993）；清單標 1992 疑混淆到 1992 Players Expansion Disk。本批補上 release_codes 珍211＋series（2026-06-28）
+- [ ] 本批 3 款資料片（expansion）— 紅爵士資料片(cdg-4620,珍210)、太平洋空戰英雄資料片(cdg-4623,珍215)皆 Dynamix；連同前批狂島浴血資料片(cdg-4615,珍200)，均須本體才能玩，已各自 cross-link 本體並標明資料片性質（2026-06-28）
+- [ ] 第九批 3 款中文/雙語版（localized）— 魔眼殺機3血戰札諾爾 cdg-3765（珍218，adnd）、瘋狂主宰 cdg-2775（珍222）、魔胎 cdg-3773（珍231，標「中英文雙語版」）皆智冠官方中文化（content_language zh）；魔胎/橋牌高手/明星職棒資料片同屬 Capstone 系列（2026-06-28）
+- [ ] 瘋狂主宰（cdg-2775）genre — Mega Lo Mania 被視為首款含科技樹的即時戰略，agent 傾向 RTS；本批沿用既有 SLG（上帝/策略遊戲，borderline RTS），待定奪（2026-06-28）
+- [ ] 大海戰：北大西洋篇（cdg-4227）developer — Great Naval Battles：本批採 SSI（發行兼常見開發掛名），惟 Internet Archive 標開發 IO Design Group，待 MobyGames credits 確認；genre 採 SIM（艦長視角/逐甲板損管/即時），亦可 SLG（2026-06-28）
+- [ ] 永生不滅（cdg-3995）— The Immortal 設計者 Will Harvey（developer 暫填其名）、EA 發行、DOS 版 Sandcastle 移植；year 採首發 1990（Apple IIGS），DOS 版 1991；genre AADV（2026-06-28）
+- [ ] 橋牌高手（cdg-4629）同名歧義 — Bridge Master 有兩款 1992 DOS 同名作（Greenleaf/Capstone vs Intelligent Software）；依珍藏版與 Capstone 系列同捆判定為 Greenleaf/Capstone，待盒裝實物複核（2026-06-28）
+- [ ] 魔法船(cdg-4628)/魔眼殺機3(cdg-3765) 已掛 adnd — Spelljammer、EOB III 為 AD&D 授權；瘋狂主宰非 D&D 不掛（2026-06-28）
