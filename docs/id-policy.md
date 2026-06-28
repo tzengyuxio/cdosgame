@@ -54,7 +54,7 @@
     "cdg-0001": {
       "title_zh": "...", "developer": "...", "catalog_id": "...",
       "keys": ["cat:SCD0136", "rwv:...", ...],   // 解析到此 id 的所有 key（含別名）
-      "status": "active"                          // 或 "merged"
+      "status": "active"                          // active | merged | rejected
     }
   }
 }
@@ -67,7 +67,21 @@
 
 1. **alias（同款多 key）**：發現某源條目其實是已存在遊戲 → 把其 key 加入該 id 的 `keys[]`，不發新號。
 2. **edition（同款多版本）**：版本變體歸同 id 的 `editions[]`，不發新號。
-3. **merge / tombstone（事後撞號）**：fuzzy 漏判先發了兩號、事後發現同款 → 保留**小號**為存活，大號條目設 `status:"merged"` + `merged_into:"cdg-小號"`；刪除被併的 content 檔；其 `keys[]` 經 `merged_into` 轉址仍可解析。
+3. **merge / tombstone（事後撞號）**：fuzzy 漏判先發了兩號、事後發現同款 → 保留**小號**為存活，大號條目設 `status:"merged"` + `merged_into:"cdg-小號"`；刪除被併的 content 檔；其 `keys[]` 經 `merged_into` 在 **build 時**用 keys 反查仍可解析（注意：**這是 build-time key 反查，非網址轉址**；merged id 的 `/games/cdg-NNNN` 站台不轉址，但這些 id 從未發佈、外部不會連到）。
+4. **rejected（剔除、燒號）**：發過號、事後判定**不符 `scope.md` 收錄判準** → 設 `status:"rejected"`、刪除（或不建）content 檔；id **append-only 永不回收**，留為序列中的空號。最大宗是 **mod／改版／漢化補丁／修改器·工具／惡搞換皮**（依 `scope.md` §4 閘1，一律不收、不發 id；已誤發的設 rejected）；其次是過不了 §4 佐證／平台閘的業餘作品。
+
+> ⚠ **mod 一律不發 id**：金庸群俠傳同人 mod（天書劫、蒼龍逐日…）這類**需掛商業本體才能跑**的改版，不是獨立作品 → 不收。若某 mod 知名到值得記，**附記在本體遊戲條目**裡，不另發 id。
+
+### `merged` 與 `rejected` 的界線（別搞混）
+
+兩個 status 回答**不同問題**，不是嚴重度梯度：
+
+- `merged`＝**合法的去重退役**：是真遊戲、只是多源產生的重複 placeholder，資訊已併回主條目（保留 `merged_into` 指回 cdg-X）。**確認的重複停在 `merged`，不要標成 `rejected`。**
+- `rejected`＝**不符 `scope.md` 判準的排除**：根本不該進庫（mod／超界／佐證不足）。
+
+- **墓碑（registry 那筆小紀錄）必須留、只丟 content `.md`**：留它是為了保住「**id append-only 永不重配**」——刪掉墓碑會讓發號邏輯誤判該號為空號而重配。「廢棄 placeholder」＝丟 stub `.md`，不是刪 registry 紀錄。
+- **`merged_into` 現為歷史麵包屑**：`build_content` 凍結（content 為正本）後，它原本「重匯入時把 key 導回主條目」的功能已不再作用，續留僅供回溯「這個重複併去了哪」。
+- **罕見的 merged→rejected**：唯有同時發現「(1) 當初併錯、與主條目非同款 **且** (2) 它自己也不符判準」才成立（實為「先 un-merge 再 reject」）；翻牌前先確認該條目的 `keys[]`/別名沒有**唯一**掛在它身上（有就先搬回主條目），來龍去脈寫進 `reject_reason`。
 
 ## 排序/顯示
 

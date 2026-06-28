@@ -67,7 +67,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `foreign` 外文遊戲：收錄但無中文化
   - ⚠ 草案曾列「C 民間漢化補丁」，**已捨棄**——非商業發行，不另立等級；民間漢化補丁改記在 `external_links`（遊戲本體依包裝情況標 `packaging` 或 `foreign`，如 cdg-4154 中國之心）。
 - **地域**：台／港／中／星馬？簡繁？
-- **自製 vs 商業**：同人／自製收不收？
+- **自製 vs 商業／同人／shareware**（**已定案**，見 `scope.md` §4）：不立「同人」類別，用三道閘判——①獨立可執行原創作品（mod／補丁／工具／換皮一律不收、不發 id）②佐證門檻（當年平面媒體或商業發行；純網路不足）③業餘作品平台收到 Win95 之前。
 
 ## 資料 Schema 草案
 
