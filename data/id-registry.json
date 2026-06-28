@@ -473,8 +473,9 @@
       "keys": [
         "t:Edax|Richard Delorme"
       ],
-      "status": "active",
-      "title_zh": "Edax"
+      "status": "rejected",
+      "title_zh": "Edax",
+      "reject_reason": "out of scope: 開源黑白棋引擎 Edax (2020)，非遊戲產品"
     },
     "cdg-0053": {
       "catalog_id": "SCD0460",
@@ -860,8 +861,9 @@
       "keys": [
         "t:KataGo|David J. Wu"
       ],
-      "status": "active",
-      "title_zh": "KataGo"
+      "status": "rejected",
+      "title_zh": "KataGo",
+      "reject_reason": "out of scope: 開源圍棋 AI 引擎 KataGo (2019)，非遊戲產品"
     },
     "cdg-0096": {
       "catalog_id": null,
@@ -869,8 +871,9 @@
       "keys": [
         "t:KataGomo|Sigmoid"
       ],
-      "status": "active",
-      "title_zh": "KataGomo"
+      "status": "rejected",
+      "title_zh": "KataGomo",
+      "reject_reason": "out of scope: 開源五子棋 AI 引擎 (2020)，非遊戲產品"
     },
     "cdg-0097": {
       "catalog_id": "SCD2269",
@@ -896,8 +899,9 @@
       "keys": [
         "t:Leela Zero|Gian-Carlo Pascutto"
       ],
-      "status": "active",
-      "title_zh": "Leela Zero"
+      "status": "rejected",
+      "title_zh": "Leela Zero",
+      "reject_reason": "out of scope: 開源圍棋 AI 引擎 Leela Zero (2019)，非遊戲產品"
     },
     "cdg-0100": {
       "catalog_id": "SCD2138",
@@ -1079,8 +1083,9 @@
       "keys": [
         "t:Stockfish|Costalba"
       ],
-      "status": "active",
-      "title_zh": "Stockfish"
+      "status": "rejected",
+      "title_zh": "Stockfish",
+      "reject_reason": "out of scope: 開源西洋棋引擎 (2021)，非遊戲產品"
     },
     "cdg-0120": {
       "catalog_id": "SWT241",
@@ -1322,8 +1327,9 @@
       "keys": [
         "t:一起五子棋|業餘工作室"
       ],
-      "status": "active",
-      "title_zh": "一起五子棋"
+      "status": "rejected",
+      "title_zh": "一起五子棋",
+      "reject_reason": "out of scope: 2021 業餘小品，超出年代/平台"
     },
     "cdg-0147": {
       "catalog_id": null,
@@ -1331,8 +1337,9 @@
       "keys": [
         "t:一起翻轉棋|業餘工作室"
       ],
-      "status": "active",
-      "title_zh": "一起翻轉棋"
+      "status": "rejected",
+      "title_zh": "一起翻轉棋",
+      "reject_reason": "out of scope: 2020 業餘小品，超出年代/平台"
     },
     "cdg-0148": {
       "catalog_id": "Z077",
@@ -5523,8 +5530,9 @@
       "keys": [
         "t:民國無雙|chenglap"
       ],
-      "status": "active",
-      "title_zh": "民國無雙"
+      "status": "rejected",
+      "title_zh": "民國無雙",
+      "reject_reason": "out of scope: 2010 獨立作 (民國無雙)，超出年代/平台"
     },
     "cdg-0613": {
       "catalog_id": "SCD2307",
@@ -7524,7 +7532,7 @@
         "cat:SWT052"
       ],
       "status": "active",
-      "title_zh": "百戰鐵翼／"
+      "title_zh": "百戰鐵翼"
     },
     "cdg-0835": {
       "catalog_id": "SCD0355",
@@ -9244,8 +9252,9 @@
       "keys": [
         "t:四子棋終結者|青衫"
       ],
-      "status": "active",
-      "title_zh": "四子棋終結者"
+      "status": "rejected",
+      "title_zh": "四子棋終結者",
+      "reject_reason": "out of scope: 2021 業餘作，超出年代/平台"
     },
     "cdg-1026": {
       "catalog_id": "SCD2102",
@@ -11047,8 +11056,9 @@
       "keys": [
         "cat:SCD0826"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 2007 商業掌機作 (Rockman ZX Advent)，超出年代/平台"
     },
     "cdg-1226": {
       "catalog_id": null,
@@ -12046,8 +12056,9 @@
       "keys": [
         "cat:SCD2356"
       ],
-      "status": "active",
-      "title_zh": "阿加雷斯特戰記1"
+      "status": "rejected",
+      "title_zh": "阿加雷斯特戰記1",
+      "reject_reason": "out of scope: 2016 商業作 (阿加雷斯特戰記)，超出年代/平台"
     },
     "cdg-1337": {
       "catalog_id": "3WG067,SCD2544",
@@ -12750,8 +12761,9 @@
       "keys": [
         "cat:SCD2352"
       ],
-      "status": "active",
-      "title_zh": "皇家海軍陸戰隊突擊隊"
+      "status": "rejected",
+      "title_zh": "皇家海軍陸戰隊突擊隊",
+      "reject_reason": "out of scope: 2008 Windows 作，超出年代/平台"
     },
     "cdg-1415": {
       "catalog_id": null,
@@ -12759,8 +12771,9 @@
       "keys": [
         "t:皇家騎士團2：重生|Square Enix"
       ],
-      "status": "active",
-      "title_zh": "皇家騎士團2：重生"
+      "status": "rejected",
+      "title_zh": "皇家騎士團2：重生",
+      "reject_reason": "out of scope: 2022 現代重製 (Tactics Ogre: Reborn)，超出年代/平台"
     },
     "cdg-1416": {
       "catalog_id": "SCD0411",
@@ -15460,7 +15473,7 @@
         "cat:SWE055"
       ],
       "status": "active",
-      "title_zh": "忍者龜1"
+      "title_zh": "忍者龜"
     },
     "cdg-1716": {
       "catalog_id": "SCD2686",
@@ -16424,8 +16437,9 @@
       "keys": [
         "t:真武群俠傳|佚名"
       ],
-      "status": "active",
-      "title_zh": "真武群俠傳"
+      "status": "rejected",
+      "title_zh": "真武群俠傳",
+      "reject_reason": "out of scope: 2020 同人作，超出年代/平台"
     },
     "cdg-1823": {
       "catalog_id": "SCD2418",
@@ -20909,8 +20923,9 @@
       "keys": [
         "t:新仙劍奇俠傳－靈兒續傳|Rainyfly"
       ],
-      "status": "active",
-      "title_zh": "新仙劍奇俠傳－靈兒續傳"
+      "status": "rejected",
+      "title_zh": "新仙劍奇俠傳－靈兒續傳",
+      "reject_reason": "fan-mod of 仙劍奇俠傳, out of scope (非商業發行)"
     },
     "cdg-2321": {
       "catalog_id": "SCD0622",
@@ -22340,8 +22355,9 @@
       "keys": [
         "t:最終幻想1|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想1"
+      "status": "rejected",
+      "title_zh": "最終幻想1",
+      "reject_reason": "out of scope: 2021 Win64 重製/移植，超出年代/平台"
     },
     "cdg-2480": {
       "catalog_id": null,
@@ -22349,8 +22365,9 @@
       "keys": [
         "t:最終幻想2|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想2"
+      "status": "rejected",
+      "title_zh": "最終幻想2",
+      "reject_reason": "out of scope: 2021 Win64 重製/移植，超出年代/平台"
     },
     "cdg-2481": {
       "catalog_id": null,
@@ -23141,8 +23158,9 @@
       "keys": [
         "t:逐夢江湖行|門客"
       ],
-      "status": "active",
-      "title_zh": "逐夢江湖行"
+      "status": "rejected",
+      "title_zh": "逐夢江湖行",
+      "reject_reason": "out of scope: 2023 同人作，超出年代/平台"
     },
     "cdg-2569": {
       "catalog_id": "SCD1310",
@@ -24186,8 +24204,9 @@
       "keys": [
         "t:雷電5|MOSS"
       ],
-      "status": "active",
-      "title_zh": "雷電5"
+      "status": "rejected",
+      "title_zh": "雷電5",
+      "reject_reason": "out of scope: 2016 商業作 (雷電V)，超出年代/平台"
     },
     "cdg-2685": {
       "catalog_id": "Z024",
@@ -26177,7 +26196,7 @@
         "cat:SCD2616,SCD2635"
       ],
       "status": "active",
-      "title_zh": "銀河英雄"
+      "title_zh": "銀河英雄／寒漠風暴"
     },
     "cdg-2904": {
       "catalog_id": null,
@@ -26644,8 +26663,9 @@
       "keys": [
         "cat:SCD1608"
       ],
-      "status": "active",
-      "title_zh": "刺客教條編年史2"
+      "status": "rejected",
+      "title_zh": "刺客教條編年史2",
+      "reject_reason": "out of scope: 2016 商業作 (刺客教條編年史)，超出年代/平台"
     },
     "cdg-2956": {
       "catalog_id": "SCD1609",
@@ -26653,8 +26673,9 @@
       "keys": [
         "cat:SCD1609"
       ],
-      "status": "active",
-      "title_zh": "刺客教條編年史3"
+      "status": "rejected",
+      "title_zh": "刺客教條編年史3",
+      "reject_reason": "out of scope: 2016 商業作 (刺客教條編年史)，超出年代/平台"
     },
     "cdg-2957": {
       "catalog_id": "SCD2348",
@@ -27949,8 +27970,9 @@
       "keys": [
         "t:棋弈無限：圍棋|業餘工作室"
       ],
-      "status": "active",
-      "title_zh": "棋弈無限：圍棋"
+      "status": "rejected",
+      "title_zh": "棋弈無限：圍棋",
+      "reject_reason": "out of scope: 2022 業餘作，超出年代/平台"
     },
     "cdg-3101": {
       "catalog_id": "SCD0447",
@@ -30911,7 +30933,7 @@
         "cat:SWT036"
       ],
       "status": "active",
-      "title_zh": "英雄傳奇1"
+      "title_zh": "英雄傳奇"
     },
     "cdg-3430": {
       "catalog_id": "SWT086",
@@ -31748,8 +31770,9 @@
       "keys": [
         "t:狂石|UNBALANCE"
       ],
-      "status": "active",
-      "title_zh": "狂石"
+      "status": "rejected",
+      "title_zh": "狂石",
+      "reject_reason": "out of scope: 2016 Windows 商業作，超出年代/平台"
     },
     "cdg-3523": {
       "catalog_id": "SCD1725",
@@ -37662,12 +37685,13 @@
     },
     "cdg-4176": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Sierra On-Line",
       "keys": [
-        "t:亞瑟王傳奇：尋找聖杯|None"
+        "t:亞瑟王傳奇：尋找聖杯|None",
+        "t:亞瑟王傳奇|Sierra On-Line"
       ],
       "status": "active",
-      "title_zh": "亞瑟王傳奇：尋找聖杯"
+      "title_zh": "亞瑟王傳奇"
     },
     "cdg-4177": {
       "catalog_id": null,
@@ -37833,7 +37857,7 @@
     },
     "cdg-4195": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "MicroProse",
       "keys": [
         "t:死亡潛航2|None"
       ],
@@ -38238,12 +38262,13 @@
     },
     "cdg-4240": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Delphine Software",
       "keys": [
-        "t:未來戰爭|None"
+        "t:未來戰爭|None",
+        "t:未來戰爭：時空冒險|Delphine Software"
       ],
       "status": "active",
-      "title_zh": "未來戰爭"
+      "title_zh": "未來戰爭：時空冒險"
     },
     "cdg-4241": {
       "catalog_id": null,
@@ -40223,7 +40248,7 @@
         "t:F-15獵鷹戰機|None"
       ],
       "status": "active",
-      "title_zh": "F-15獵鷹戰機"
+      "title_zh": "F-15鷹式戰鬥機2"
     },
     "cdg-4461": {
       "catalog_id": null,
@@ -41170,6 +41195,60 @@
       ],
       "status": "active",
       "title_zh": "宇宙傳奇5"
+    },
+    "cdg-4564": {
+      "catalog_id": null,
+      "developer": "Sierra",
+      "keys": [
+        "t:紐約獵人者|Sierra"
+      ],
+      "status": "active",
+      "title_zh": "紐約獵人者"
+    },
+    "cdg-4565": {
+      "catalog_id": null,
+      "developer": "Epic",
+      "keys": [
+        "t:太空捕快|Epic"
+      ],
+      "status": "active",
+      "title_zh": "太空捕快"
+    },
+    "cdg-4566": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:摩登原始人趣味大對抗|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "摩登原始人趣味大對抗"
+    },
+    "cdg-4567": {
+      "catalog_id": null,
+      "developer": "Denton Designs",
+      "keys": [
+        "t:太陽神之眼|Denton Designs"
+      ],
+      "status": "active",
+      "title_zh": "太陽神之眼"
+    },
+    "cdg-4571": {
+      "catalog_id": null,
+      "developer": "Doodlebug Designs",
+      "keys": [
+        "t:快樂潛水伕|Doodlebug Designs"
+      ],
+      "status": "active",
+      "title_zh": "快樂潛水伕"
+    },
+    "cdg-4572": {
+      "catalog_id": null,
+      "developer": "ERE Informatique",
+      "keys": [
+        "t:異形神殿|ERE Informatique"
+      ],
+      "status": "active",
+      "title_zh": "異形神殿"
     }
   }
 }
