@@ -5006,7 +5006,7 @@
         "cat:SWT293"
       ],
       "status": "active",
-      "title_zh": "工人物語1"
+      "title_zh": "工人物語"
     },
     "cdg-0554": {
       "catalog_id": "SCD1988",
@@ -33669,7 +33669,7 @@
         "cat:SWT239,SCD1580"
       ],
       "status": "active",
-      "title_zh": "魔法門5"
+      "title_zh": "魔法門外傳2：黑暗魔君大反撲"
     },
     "cdg-3730": {
       "catalog_id": "OCD0018",
@@ -35902,7 +35902,8 @@
       "keys": [
         "t:妙狐神探：地球繼任者|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-1085",
       "title_zh": "妙狐神探：地球繼任者"
     },
     "cdg-3977": {
@@ -36127,7 +36128,8 @@
       "keys": [
         "t:魔法門外傳2：黑暗魔君大反撲|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-3729",
       "title_zh": "魔法門外傳2：黑暗魔君大反撲"
     },
     "cdg-4002": {
@@ -36298,7 +36300,8 @@
       "keys": [
         "t:工人物語：建國篇|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-0553",
       "title_zh": "工人物語：建國篇"
     },
     "cdg-4021": {
@@ -36930,7 +36933,8 @@
       "keys": [
         "t:魔法門5黑暗魔君大反撲|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-3729",
       "title_zh": "魔法門5黑暗魔君大反撲"
     },
     "cdg-4090": {
@@ -41819,6 +41823,339 @@
       ],
       "status": "active",
       "title_zh": "多情藥師酷牛仔"
+    },
+    "cdg-4633": {
+      "catalog_id": null,
+      "developer": "Omnitrend Software",
+      "keys": [
+        "t:仗義遊俠2|Omnitrend Software"
+      ],
+      "status": "active",
+      "title_zh": "仗義遊俠2"
+    },
+    "cdg-4634": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:陸空戰將：語音資料片|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "陸空戰將：語音資料片"
+    },
+    "cdg-4635": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:大海戰：美軍艦隊資料片|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "大海戰：美軍艦隊資料片"
+    },
+    "cdg-4636": {
+      "catalog_id": null,
+      "developer": "Target Games",
+      "keys": [
+        "t:光電神兵|Target Games"
+      ],
+      "status": "active",
+      "title_zh": "光電神兵"
+    },
+    "cdg-4637": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:勁爆美式足球|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "勁爆美式足球"
+    },
+    "cdg-4638": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:大海戰：戰場編輯資料片|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "大海戰：戰場編輯資料片"
+    },
+    "cdg-4639": {
+      "catalog_id": null,
+      "developer": "NuFX",
+      "keys": [
+        "t:白浪忍者|NuFX"
+      ],
+      "status": "active",
+      "title_zh": "白浪忍者"
+    },
+    "cdg-4640": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:陸空戰將：戰術行動資料片|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "陸空戰將：戰術行動資料片"
+    },
+    "cdg-4641": {
+      "catalog_id": null,
+      "developer": "Blue Byte",
+      "keys": [
+        "t:第一次世界大戰|Blue Byte"
+      ],
+      "status": "active",
+      "title_zh": "第一次世界大戰"
+    },
+    "cdg-4642": {
+      "catalog_id": null,
+      "developer": "Raven Software",
+      "keys": [
+        "t:救世聖主|Raven Software"
+      ],
+      "status": "active",
+      "title_zh": "救世聖主"
+    },
+    "cdg-4643": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:巨蛇之島資料片：銀色種子|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "巨蛇之島資料片：銀色種子"
+    },
+    "cdg-4644": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:奇妙大百科加強版|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "奇妙大百科加強版"
+    },
+    "cdg-4645": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:勝利大決戰：猶他海岸攻防戰|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "勝利大決戰：猶他海岸攻防戰"
+    },
+    "cdg-4646": {
+      "catalog_id": null,
+      "developer": "Gremlin Graphics",
+      "keys": [
+        "t:小魔逛迷宮|Gremlin Graphics"
+      ],
+      "status": "active",
+      "title_zh": "小魔逛迷宮"
+    },
+    "cdg-4647": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:鋼鐵勁旅|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "鋼鐵勁旅"
+    },
+    "cdg-4648": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:歐洲空戰英雄|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "歐洲空戰英雄"
+    },
+    "cdg-4649": {
+      "catalog_id": null,
+      "developer": "Sierra On-Line",
+      "keys": [
+        "t:警察故事4：暗夜疑兇|Sierra On-Line"
+      ],
+      "status": "active",
+      "title_zh": "警察故事4：暗夜疑兇"
+    },
+    "cdg-4650": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:太平洋戰將|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "太平洋戰將"
+    },
+    "cdg-4651": {
+      "catalog_id": null,
+      "developer": "Silicon Knights",
+      "keys": [
+        "t:夢幻帝國|Silicon Knights"
+      ],
+      "status": "active",
+      "title_zh": "夢幻帝國"
+    },
+    "cdg-4652": {
+      "catalog_id": null,
+      "developer": "Adventure Soft",
+      "keys": [
+        "t:神通妙巫師|Adventure Soft"
+      ],
+      "status": "active",
+      "title_zh": "神通妙巫師"
+    },
+    "cdg-4653": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:浩劫殘陽：破碎大地|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "浩劫殘陽：破碎大地"
+    },
+    "cdg-4654": {
+      "catalog_id": null,
+      "developer": "White Wolf Productions",
+      "keys": [
+        "t:銀河帝國大決戰豪華版|White Wolf Productions"
+      ],
+      "status": "active",
+      "title_zh": "銀河帝國大決戰豪華版"
+    },
+    "cdg-4655": {
+      "catalog_id": null,
+      "developer": "Ozark Softscape",
+      "keys": [
+        "t:七座金城紀念版|Ozark Softscape"
+      ],
+      "status": "active",
+      "title_zh": "七座金城紀念版"
+    },
+    "cdg-4656": {
+      "catalog_id": null,
+      "developer": "Stormfront Studios",
+      "keys": [
+        "t:捍衛江山|Stormfront Studios"
+      ],
+      "status": "active",
+      "title_zh": "捍衛江山"
+    },
+    "cdg-4657": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:玄冥部隊|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "玄冥部隊"
+    },
+    "cdg-4658": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:銀河飛將私掠者語音片+正義出擊資料片|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛將私掠者語音片+正義出擊資料片"
+    },
+    "cdg-4659": {
+      "catalog_id": null,
+      "developer": "Moonlite Software",
+      "keys": [
+        "t:跳跳魔法師|Moonlite Software"
+      ],
+      "status": "active",
+      "title_zh": "跳跳魔法師"
+    },
+    "cdg-4660": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:大海戰2|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "大海戰2"
+    },
+    "cdg-4661": {
+      "catalog_id": null,
+      "developer": "Looking Glass Technologies",
+      "keys": [
+        "t:網路奇兵|Looking Glass Technologies"
+      ],
+      "status": "active",
+      "title_zh": "網路奇兵"
+    },
+    "cdg-4662": {
+      "catalog_id": null,
+      "developer": "Sierra On-Line",
+      "keys": [
+        "t:遠離地球|Sierra On-Line"
+      ],
+      "status": "active",
+      "title_zh": "遠離地球"
+    },
+    "cdg-4663": {
+      "catalog_id": null,
+      "developer": "Millennium Interactive",
+      "keys": [
+        "t:尋寶特攻隊|Millennium Interactive"
+      ],
+      "status": "active",
+      "title_zh": "尋寶特攻隊"
+    },
+    "cdg-4664": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:機甲神兵：地球防衛戰|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "機甲神兵：地球防衛戰"
+    },
+    "cdg-4665": {
+      "catalog_id": null,
+      "developer": "New World Computing",
+      "keys": [
+        "t:諾曼地登陸|New World Computing"
+      ],
+      "status": "active",
+      "title_zh": "諾曼地登陸"
+    },
+    "cdg-4666": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:機甲神兵：大競技場|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "機甲神兵：大競技場"
+    },
+    "cdg-4667": {
+      "catalog_id": null,
+      "developer": "Cyberlore Studios",
+      "keys": [
+        "t:阿拉丁傳奇：精靈魔咒|Cyberlore Studios"
+      ],
+      "status": "active",
+      "title_zh": "阿拉丁傳奇：精靈魔咒"
+    },
+    "cdg-4668": {
+      "catalog_id": null,
+      "developer": "Raven Software",
+      "keys": [
+        "t:生化超人|Raven Software"
+      ],
+      "status": "active",
+      "title_zh": "生化超人"
+    },
+    "cdg-4670": {
+      "catalog_id": null,
+      "developer": "Digital Integration",
+      "keys": [
+        "t:無敵龍捲風|Digital Integration"
+      ],
+      "status": "active",
+      "title_zh": "無敵龍捲風"
     }
   }
 }
