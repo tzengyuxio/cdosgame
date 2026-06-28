@@ -7,6 +7,7 @@ import { breadcrumb } from '../../lib/jsonld.js';
 import EntityRefs from '../../components/EntityRefs.astro';
 import GameList from '../../components/GameList.astro';
 import Share from '../../components/Share.astro';
+import { matchesListGames } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
   const showAll = !import.meta.env.PROD;
@@ -17,16 +18,13 @@ const { slug } = Astro.params;
 const { entry } = Astro.props;
 const t = entry.data;
 const Body = (await render(entry)).Content;
-// optional auto-aggregation by adaptation filters
+// optional auto-aggregation by adaptation / tag filters (see matchesListGames)
 let listed = [];
 if (t.list_games) {
   const q = t.list_games;
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
   listed = games.map(e => e.data)
-    .filter(g => g.adaptation
-      && (!q.adaptation_author || g.adaptation.author === q.adaptation_author)
-      && (!q.adaptation_title || g.adaptation.title === q.adaptation_title)
-      && (!q.adaptation_medium || g.adaptation.medium === q.adaptation_medium))
+    .filter(g => matchesListGames(g, q))
     .sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
 }
 const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };

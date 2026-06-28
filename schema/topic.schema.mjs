@@ -10,12 +10,13 @@ export const topicSchema = z.object({
   parent: z.string().optional(),          // 所屬實體 join key（如 大宇）；母頁據此列出專題
   parent_type: z.enum(["company", "series", "team", "person", "event"]).default("company"),
   summary: z.string().optional(),
-  // optional auto-aggregation: route lists games matching these adaptation filters
+  // optional auto-aggregation: route lists games matching these filters
   // (永遠最新、零維護)。可在 body 策展前言之後自動渲染收錄清單。
   list_games: z.object({
     adaptation_author: z.string().optional(),
     adaptation_title: z.string().optional(),
     adaptation_medium: z.string().optional(),
+    tag: z.string().optional(),           // game tags[] 含此 key 即收錄（見 game schema TAGS）
   }).optional(),
   // 註釋 (footnotes): plain-text notes, no url; cited inline as [N]. See docs/refs-convention.md.
   footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),

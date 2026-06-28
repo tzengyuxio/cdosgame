@@ -32,6 +32,8 @@ main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .chip{background:#f3f0e8;color:#666;border-radius:3px;padding:1px 8px;font-size:12px}
 .chip-genre{background:#fff3dc;color:var(--brown);border:1px solid #f0dca8}
 .chip-adult{background:#fbe4e4;color:#b3261e;border:1px solid #f0bcbc;font-weight:600}
+.chip-sep{width:0;align-self:stretch;border-left:1px solid #d8d2c4;margin-inline:3px}
+.chip-tag{background:#fff;color:var(--brown);border:1px solid #d8d2c4}
 .cover-placeholder{background:#f3f0e8;color:var(--muted);text-align:center;padding:28px;border-radius:4px;font-size:13px}
 .cover-fig{margin:14px 16px}
 .cover-fig figcaption{font-size:12px;color:var(--muted);text-align:center;margin-top:5px}

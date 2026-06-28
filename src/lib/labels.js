@@ -77,3 +77,12 @@ export const GENRE_DESC = {
 export const genreLabel = v => GENRE_LABELS[v] || v;
 export const genreGroup = v => GENRE_GROUPS[v] || 'etc';
 export const groupLabel = v => GROUP_LABELS[v] || v;
+
+// Controlled tag vocabulary — stable ASCII key (stored in game frontmatter `tags[]`
+// and topic `list_games.tag`) → human display label. Keep keys [a-z0-9-] only so
+// they stay slug/URL/YAML safe; the `&` etc. live only in the label. See schema TAGS.
+export const TAG_LABELS = {
+  adnd: '龍與地下城',
+};
+
+export const tagLabel = v => TAG_LABELS[v] || v;

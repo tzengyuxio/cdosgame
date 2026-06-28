@@ -13,8 +13,8 @@ import { coverOf, decorate, coverFigcaption, groupDecorated } from '../../lib/me
 import { genreUrl, seriesUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
-import { locLabel, genreLabel } from '../../lib/labels.js';
-import { relatedFor } from '../../lib/gamesQuery.js';
+import { locLabel, genreLabel, tagLabel } from '../../lib/labels.js';
+import { relatedFor, matchesListGames } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
   // max items shown per "related games" block (同系列／同廠商／同年）.
@@ -59,17 +59,15 @@ const jsonLd = [
     { name: g.title_zh, url: canonical },
   ]),
 ];
-// 參見: auto-aggregation topics this game belongs to (e.g. 金庸改編遊戲), matched
-// on the game's adaptation against the topic's list_games filters — same predicate
-// the topic page uses to build its list, so membership stays consistent both ways.
+// 參見: auto-aggregation topics this game belongs to (e.g. 金庸改編遊戲 / 龍與地下城),
+// matched on adaptation or tag against the topic's list_games filters — same predicate
+// (matchesListGames) the topic page uses, so membership stays consistent both ways.
 const seeAlsoTopics = (await getCollection('topics', e => import.meta.env.PROD ? e.data.published : true))
-  .filter(t => {
-    const q = t.data.list_games;
-    return q && g.adaptation
-      && (!q.adaptation_author || g.adaptation.author === q.adaptation_author)
-      && (!q.adaptation_title || g.adaptation.title === q.adaptation_title)
-      && (!q.adaptation_medium || g.adaptation.medium === q.adaptation_medium);
-  });
+  .filter(t => matchesListGames(g, t.data.list_games));
+// tag → its aggregating topic url (a tag's landing page is its hand-written topic),
+// so a tag chip links there; falls back to a plain chip if no topic carries the tag.
+const tagHref = {};
+for (const t of seeAlsoTopics) { const k = t.data.list_games?.tag; if (k) tagHref[k] = topicUrl(t.id); }
 // link a staff credit to /people when a person page exists (by staff.person slug or name)
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 const staffSlug = s => s.person || s.name;
@@ -95,6 +93,10 @@ const staffByRole = staff => {
         {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}
         {g.localization_level && <span class="chip">{locLabel(g.localization_level)}</span>}
         {g.adult && <span class="chip chip-adult">18禁</span>}
+        {(g.tags || []).length > 0 && <span class="chip-sep" aria-hidden="true"></span>}
+        {(g.tags || []).map(t => tagHref[t]
+          ? <a class="chip chip-tag" href={tagHref[t]}>{tagLabel(t)}</a>
+          : <span class="chip chip-tag">{tagLabel(t)}</span>)}
       </div>
       <section class="prose">
         {hasBody ? <Content /> : <p class="muted">簡介待補</p>}

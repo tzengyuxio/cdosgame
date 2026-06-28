@@ -21,6 +21,12 @@ export const GENRES = [
   "ETC",                                             // 其他
 ];
 
+// Controlled tag vocabulary — cross-cutting facets a game can carry several of
+// (ruleset/licence families, etc.), surfaced via topic list_games {tag} aggregation.
+// Frontmatter stores the stable ASCII key; display label lives in src/lib/labels.js.
+// Keep this list curated (no freeform tags). See schema.md「tags」.
+export const TAGS = ["adnd"];
+
 // curated media kinds (see docs/media.md)
 export const MEDIA_KINDS = [
   "box-front", "box-back", "box-spine", "package",
@@ -53,6 +59,8 @@ export const gameSchema = z.object({
   genre: z.enum(GENRES).nullable(),
   localization_level: z.enum(["native", "localized", "packaging", "foreign"]).nullable(),
   series: z.string().nullable().default(null),
+  // cross-cutting tags (controlled vocab in TAGS); multi-valued, unlike single series.
+  tags: z.array(z.enum(TAGS)).default([]),
   // content rating: true = 成人/限制級 (18禁). DOS-era TW predates the GSRR levels,
   // so a simple flag suffices.
   adult: z.boolean().default(false),

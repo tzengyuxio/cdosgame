@@ -124,6 +124,24 @@ export function seriesOf(g) {
   return g.series || null;
 }
 
+// Predicate for topic `list_games` auto-aggregation, single-sourced so the topic
+// page (builds its list) and the game page (reverse "see also" link) stay in sync.
+// A game matches when every filter present in `q` is satisfied (AND); tag filters
+// the game's tags[], adaptation_* filter the adaptation object.
+export function matchesListGames(g, q) {
+  if (!q) return false;
+  const hasFilter = q.tag || q.adaptation_author || q.adaptation_title || q.adaptation_medium;
+  if (!hasFilter) return false;
+  if (q.tag && !(g.tags || []).includes(q.tag)) return false;
+  if (q.adaptation_author || q.adaptation_title || q.adaptation_medium) {
+    if (!g.adaptation) return false;
+    if (q.adaptation_author && g.adaptation.author !== q.adaptation_author) return false;
+    if (q.adaptation_title && g.adaptation.title !== q.adaptation_title) return false;
+    if (q.adaptation_medium && g.adaptation.medium !== q.adaptation_medium) return false;
+  }
+  return true;
+}
+
 export function groupBy(games, keyFn) {
   const m = new Map();
   for (const g of games) {
