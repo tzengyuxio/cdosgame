@@ -62,8 +62,10 @@ const jsonLd = [
 // 參見: auto-aggregation topics this game belongs to (e.g. 金庸改編遊戲 / 龍與地下城),
 // matched on adaptation or tag against the topic's list_games filters — same predicate
 // (matchesListGames) the topic page uses, so membership stays consistent both ways.
+// Also include hand-written catalog topics (e.g. 軟體世界遊戲列表…) whose body table
+// links to this game — these have no list_games predicate, so match by body link.
 const seeAlsoTopics = (await getCollection('topics', e => import.meta.env.PROD ? e.data.published : true))
-  .filter(t => matchesListGames(g, t.data.list_games));
+  .filter(t => matchesListGames(g, t.data.list_games) || (t.body || '').includes(`/games/${g.id})`));
 // tag → its aggregating topic url (a tag's landing page is its hand-written topic),
 // so a tag chip links there; falls back to a plain chip if no topic carries the tag.
 const tagHref = {};
@@ -114,7 +116,6 @@ const staffByRole = staff => {
           </ul>
         </section>
       )}
-      <RelatedGames related={related} g={g} />
       {seeAlsoTopics.length > 0 && (
         <section class="rel-block">
           <h2>參見</h2>
@@ -123,6 +124,7 @@ const staffByRole = staff => {
           </ul>
         </section>
       )}
+      <RelatedGames related={related} g={g} />
       <Gallery groups={groups} />
       <ExternalLinks g={g} />
     </div>

@@ -3562,8 +3562,9 @@
       "keys": [
         "t:大戰略|SystemSoft"
       ],
-      "status": "active",
-      "title_zh": "大戰略"
+      "status": "rejected",
+      "title_zh": "大戰略",
+      "reject_reason": "out of scope: 2018 商業作 (完美大戰略 Perfect 4.0)，超出年代/平台 (Win64)"
     },
     "cdg-0394": {
       "catalog_id": null,
@@ -5185,8 +5186,9 @@
       "keys": [
         "t:幻想仙緣劍2|破曉"
       ],
-      "status": "active",
-      "title_zh": "幻想仙緣劍2"
+      "status": "rejected",
+      "title_zh": "幻想仙緣劍2",
+      "reject_reason": "out of scope: 2010 商業作 (幻想仙緣劍2)，超出年代/平台 (Windows)"
     },
     "cdg-0574": {
       "catalog_id": "SCD0644",
@@ -8000,7 +8002,7 @@
         "cat:SWT038"
       ],
       "status": "active",
-      "title_zh": "裝甲雄師1"
+      "title_zh": "裝甲雄師"
     },
     "cdg-0886": {
       "catalog_id": "SCD2062",
@@ -32262,8 +32264,9 @@
       "keys": [
         "cat:SCD0662"
       ],
-      "status": "active",
-      "title_zh": "罪惡城市：男歡女愛"
+      "status": "rejected",
+      "title_zh": "罪惡城市：男歡女愛",
+      "reject_reason": "out of scope: 2005 商業作 (Sins／七宗罪7)，超出年代/平台 (Windows)"
     },
     "cdg-3574": {
       "catalog_id": "SSG027",
@@ -36101,8 +36104,9 @@
       "keys": [
         "t:魔法門III∼幻島歷險記|None"
       ],
-      "status": "active",
-      "title_zh": "魔法門III∼幻島歷險記"
+      "status": "merged",
+      "title_zh": "魔法門III∼幻島歷險記",
+      "merged_into": "cdg-3727"
     },
     "cdg-3999": {
       "catalog_id": null,
@@ -37778,8 +37782,9 @@
       "keys": [
         "t:幻想空間3：尋求滿懷悸動的多情佩蒂|None"
       ],
-      "status": "active",
-      "title_zh": "幻想空間3：尋求滿懷悸動的多情佩蒂"
+      "status": "merged",
+      "title_zh": "幻想空間3：尋求滿懷悸動的多情佩蒂",
+      "merged_into": "cdg-0580"
     },
     "cdg-4183": {
       "catalog_id": null,
@@ -37958,8 +37963,9 @@
       "keys": [
         "t:超級大戰略 (DOS/V)|None"
       ],
-      "status": "active",
-      "title_zh": "超級大戰略 (DOS/V)"
+      "status": "rejected",
+      "title_zh": "超級大戰略 (DOS/V)",
+      "reject_reason": "out of scope: 日本 DOS/V 原版 (超級大戰略)，無台灣發行足跡"
     },
     "cdg-4203": {
       "catalog_id": null,
@@ -38156,8 +38162,9 @@
       "keys": [
         "t:國王密使III：魔法生死鬥|None"
       ],
-      "status": "active",
-      "title_zh": "國王密使III：魔法生死鬥"
+      "status": "merged",
+      "title_zh": "國王密使III：魔法生死鬥",
+      "merged_into": "cdg-1045"
     },
     "cdg-4225": {
       "catalog_id": null,
