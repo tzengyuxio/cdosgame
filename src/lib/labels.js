@@ -8,6 +8,16 @@ export const LOC_LABELS = {
 
 export const locLabel = v => LOC_LABELS[v] || v;
 
+// Human-readable labels for the release_status enum.
+// released is the normal case and renders no badge — only the two exceptional
+// states surface a label.
+export const RELEASE_LABELS = {
+  unreleased: '未發行',
+  unverified: '發行存疑',
+};
+
+export const releaseLabel = v => RELEASE_LABELS[v] || '';
+
 // Genre taxonomy v2 — see docs/genre-taxonomy.md. Frontmatter stores the stable
 // KEY (e.g. SLG); the Chinese display name and group membership are derived here,
 // so renaming a label or regrouping never touches content. Object key order is

@@ -6,7 +6,7 @@
 ## 核心原則
 
 - **收集 vs 展示分離**：本庫盡量收齊符合邊界的資料；某筆是否在最終站台「呈現／展示」是另一個決定，日後再定，不影響是否收進庫。
-- **分級不排除**：邊緣案例用欄位 flag 標記（中文化程度、地域、自製/商業…），而非在收錄階段剔除。
+- **分級不排除**：邊緣案例用欄位 flag 標記（中文化程度、地域、自製/商業、發行確定性…），而非在收錄階段剔除。
 - **可查證**：每筆資料都要有 `sources[]`，附可信度分級。
 
 ## 1. 時間與平台邊界
@@ -38,10 +38,19 @@
 - **全收**：同人 / 自製不排除。
 - 用欄位 flag 標記是商業發行或自製／同人（schema 待定欄位名，暫擬 `production_type`）。
 
-## 5. 發行狀態（收錄門檻）
+## 5. 發行狀態（flag 維度，非排除門檻）
 
-- 本庫**只收「有實際發行」**的遊戲。
-- 未發行 / 流產企劃歸 vault 的〈幻之未發表遊戲〉，不進本庫。
+> 早期草案把這條當二元門檻（只收有實際發行）。已改為與其他維度一致的 **flag**——研究常遇到「有報導/廣告但找不到實體」的存疑款，二元門檻容納不下中間刻度。設計見 `docs/superpowers/specs/2026-06-28-release-status-design.md`。
+
+- **收錄邊界＝「有可考據的公開產品足跡」**：曾有名字、有報導／廣告／發行計畫者，無論最後上市與否都收，用 `release_status` 標發行確定性。
+- 發行確定性三級（`release_status`，預設 `released`）：
+  | 值 | 定義 |
+  |----|------|
+  | `released` | 確認上市（既有絕大多數款）|
+  | `unreleased` | 有公開足跡但確認流產／未上市（自製流產、代理沒談成皆屬此；是誰流產看 `developer`/`publisher_tw`）|
+  | `unverified` | 有報導／廣告但找不到實體佐證，存疑 |
+- **純內部構想（無公開足跡）** 仍歸 vault〈幻之未發表遊戲〉敘事筆記，不進本庫。
+- 存疑／流產的佐證（看到哪則廣告/報導、為何找不到實體）寫進正文＋`footnotes`/`references`，不另開欄位。
 
 ## 6. 授權狀態（未授權代理：收錄，不排除）
 
@@ -52,4 +61,4 @@
 
 ## 待 schema 階段對應的欄位
 
-`localization_level`、`region`、`language`、`platform_requirements`、`year`、`production_type`(暫)、`sources[]`。下一步在 `schema.md` 把這些欄位的型別與允許值定死（對齊 Zod 驗證）。
+`localization_level`、`region`、`language`、`platform_requirements`、`year`、`production_type`(暫)、`release_status`、`sources[]`。下一步在 `schema.md` 把這些欄位的型別與允許值定死（對齊 Zod 驗證）。

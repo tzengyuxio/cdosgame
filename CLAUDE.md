@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 規格來源（必讀）：`~/Documents/Obsidian Vault/中文 DOS 遊戲資料庫 kickoff.md`
 - 內容底稿：`中文 DOS 遊戲的終極寶典.md`（目前僅構想，條目待補）
 - 主筆記：`台灣中文 DOS 遊戲百科.md`
-- 分工：本庫只收**有實際發行**的遊戲；未發行者歸 `幻之未發表遊戲.md`。
+- 分工：本庫收**有可考據公開產品足跡**的遊戲（有名字/報導/廣告/發行計畫即收），發行確定性用 `release_status` 標 `released`/`unreleased`/`unverified`（見 `scope.md` §5）；純內部構想（無公開足跡）歸 `幻之未發表遊戲.md`。
 
 ## 目前狀態
 

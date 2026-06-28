@@ -33,6 +33,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `genre`：22 個 v2 key 之一（**存 key、非中文名**，如 `SLG`／`RPG`／`HSG`）；7 group、各類定義與判準（HSG＝光榮/三國志 like、戀愛養成分 LSG/AVG 等）見 `docs/genre-taxonomy.md`。中文顯示名由 `src/lib/labels.js` 推導。
 - `localization_level`：native／localized／packaging／foreign（依原生開發 vs 代理中文化）。
 - `developer_region`：開發商所在地（TW/JP/…）——**會影響關聯區塊**（台灣開發商只列開發商）。
+- `release_status`：發行確定性，**預設 `released` 可省略**。流產／未上市標 `unreleased`、有報導/廣告但查無實體標 `unverified`（佐證寫進正文＋footnotes，別只標 enum）。收錄邊界＝有公開產品足跡即可（不限已上市）；見 `scope.md` §5。
 - `size`：數量前置；CD/DVD 雙版本用全形「／」、同版多片用「+」；**不寫純數字 MB／硬碟安裝量**。
 - `platform_note`：作業系統平台（`無`=DOS、`Windows`…）。**18 禁不放這裡 → 用 `adult: true`**。
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。

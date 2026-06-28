@@ -72,6 +72,13 @@ export const gameSchema = z.object({
   // unclear); unofficial = 未授權代理/水貨/盜版 (e.g. 軟體世界 貴族版 series).
   license_status: z.enum(["official", "unofficial"]).nullable().default(null),
 
+  // 發行確定性 (release certainty). released = 確認上市 (default for the existing
+  // catalog); unreleased = 有公開足跡但確認流產/未上市; unverified = 有報導/廣告但
+  // 找不到實體佐證, 存疑. 自製 vs 代理 already encoded by developer/publisher_tw, so
+  // both流產 cases share `unreleased`. Game-level — orthogonal to release_codes.placeholder
+  // (that is edition-level). See docs/superpowers/specs/2026-06-28-release-status-design.md.
+  release_status: z.enum(["released", "unreleased", "unverified"]).default("released"),
+
   // publisher's OWN product numbers (each company numbers differently). e.g.
   // 軟體世界 貴090. status=placeholder marks a reserved-but-not-released code
   // (轉珍藏版: planned for 貴族版, actually shipped as 珍藏版).

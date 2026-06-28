@@ -29,6 +29,7 @@
 | `platform_note` | string \| null | | 作業系統平台（如 `Windows`／`無`=DOS）。**18 禁改用 `adult` 旗標**，不再寫進此欄 |
 | `catalog_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號）|
 | `license_status` | `official`\|`unofficial`\| null | | 台灣發行授權狀態。**預設 null（未考據）**；`unofficial`=未授權代理/水貨/盜版（如軟體世界貴族版系列）|
+| `release_status` | `released`\|`unreleased`\|`unverified` | | **發行確定性**。預設 `released`（既有款）；`unreleased`=有公開足跡但確認流產/未上市；`unverified`=有報導/廣告但找不到實體佐證、存疑。整款層級（與 `release_codes.placeholder` 的單版本層級正交）。顯示標籤見 `src/lib/labels.js` |
 | `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|
 | `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
 | `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 [] |
