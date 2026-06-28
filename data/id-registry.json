@@ -156,8 +156,9 @@
       "keys": [
         "t:20XX|Batterystaple"
       ],
-      "status": "active",
-      "title_zh": "20XX"
+      "status": "rejected",
+      "title_zh": "20XX",
+      "reject_reason": "out of scope: 2014 商業作 (20XX)，超出年代/平台"
     },
     "cdg-0018": {
       "catalog_id": "SCD0116",
@@ -890,8 +891,9 @@
       "keys": [
         "t:Leela|Gian-Carlo Pascutto"
       ],
-      "status": "active",
-      "title_zh": "Leela"
+      "status": "rejected",
+      "title_zh": "Leela",
+      "reject_reason": "out of scope: 開源棋類 AI 引擎 Leela (2017)，非遊戲產品"
     },
     "cdg-0099": {
       "catalog_id": null,
@@ -927,8 +929,9 @@
       "keys": [
         "cat:SCD2211"
       ],
-      "status": "active",
-      "title_zh": "NBA 2K12"
+      "status": "rejected",
+      "title_zh": "NBA 2K12",
+      "reject_reason": "out of scope: 2011 商業運動作 (NBA 2K12)，超出年代/平台"
     },
     "cdg-0103": {
       "catalog_id": "SCD0676",
@@ -2708,8 +2711,9 @@
       "keys": [
         "cat:SCD0584,SCD2202#3"
       ],
-      "status": "active",
-      "title_zh": "中國棋王之黑白棋"
+      "status": "rejected",
+      "title_zh": "中國棋王之黑白棋",
+      "reject_reason": "out of scope: 2009 棋類軟體 (中國棋王之黑白棋)，超出年代/平台"
     },
     "cdg-0300": {
       "catalog_id": "SCD2202",
@@ -3774,8 +3778,9 @@
       "keys": [
         "cat:SCD0715"
       ],
-      "status": "active",
-      "title_zh": "大航海家4"
+      "status": "rejected",
+      "title_zh": "大航海家4",
+      "reject_reason": "out of scope: 2010 商業作 (大航海家4)，超出年代/平台"
     },
     "cdg-0418": {
       "catalog_id": "3WG050",
@@ -3891,8 +3896,9 @@
       "keys": [
         "cat:SCD0682"
       ],
-      "status": "active",
-      "title_zh": "天下無缺"
+      "status": "rejected",
+      "title_zh": "天下無缺",
+      "reject_reason": "out of scope: 2010 作，超出年代/平台"
     },
     "cdg-0431": {
       "catalog_id": "Z108",
@@ -4341,8 +4347,9 @@
       "keys": [
         "t:天頂的圍棋5|Mynavi"
       ],
-      "status": "active",
-      "title_zh": "天頂的圍棋5"
+      "status": "rejected",
+      "title_zh": "天頂的圍棋5",
+      "reject_reason": "out of scope: 2013 圍棋軟體，超出年代/平台"
     },
     "cdg-0481": {
       "catalog_id": "SCD0683",
@@ -7712,8 +7719,9 @@
       "keys": [
         "cat:SCD0177"
       ],
-      "status": "active",
-      "title_zh": "臺語尋寶王"
+      "status": "rejected",
+      "title_zh": "臺語尋寶王",
+      "reject_reason": "out of scope: 2011 教育軟體，超出年代/平台"
     },
     "cdg-0855": {
       "catalog_id": "Z085",
@@ -9171,8 +9179,9 @@
       "keys": [
         "cat:SCD1225"
       ],
-      "status": "active",
-      "title_zh": "喋血街頭2"
+      "status": "rejected",
+      "title_zh": "喋血街頭2",
+      "reject_reason": "out of scope: 2012 商業作 (喋血街頭2)，超出年代/平台"
     },
     "cdg-1017": {
       "catalog_id": "SCD2185",
@@ -12644,8 +12653,9 @@
       "keys": [
         "t:弈心|孫鍇"
       ],
-      "status": "active",
-      "title_zh": "弈心"
+      "status": "rejected",
+      "title_zh": "弈心",
+      "reject_reason": "out of scope: 2010 個人作，超出年代/平台"
     },
     "cdg-1402": {
       "catalog_id": "SCD2493",
@@ -14473,8 +14483,9 @@
       "keys": [
         "cat:SCD0525"
       ],
-      "status": "active",
-      "title_zh": "便利商店6"
+      "status": "rejected",
+      "title_zh": "便利商店6",
+      "reject_reason": "out of scope: 2013 作 (便利商店6)，超出年代/平台"
     },
     "cdg-1605": {
       "catalog_id": null,
@@ -22384,8 +22395,9 @@
       "keys": [
         "t:最終幻想4|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想4"
+      "status": "rejected",
+      "title_zh": "最終幻想4",
+      "reject_reason": "out of scope: 2014 重製/移植 (最終幻想4)，超出年代/平台"
     },
     "cdg-2483": {
       "catalog_id": null,
@@ -22393,8 +22405,9 @@
       "keys": [
         "t:最終幻想4後傳|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想4後傳"
+      "status": "rejected",
+      "title_zh": "最終幻想4後傳",
+      "reject_reason": "out of scope: 2014 重製/移植 (最終幻想4後傳)，超出年代/平台"
     },
     "cdg-2484": {
       "catalog_id": null,
@@ -22483,8 +22496,9 @@
       "keys": [
         "t:最終幻想13續傳|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想13續傳"
+      "status": "rejected",
+      "title_zh": "最終幻想13續傳",
+      "reject_reason": "out of scope: 2015 商業作 (最終幻想13續傳)，超出年代/平台"
     },
     "cdg-2494": {
       "catalog_id": null,
@@ -22492,8 +22506,9 @@
       "keys": [
         "t:最終幻想|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想"
+      "status": "rejected",
+      "title_zh": "最終幻想",
+      "reject_reason": "out of scope: 2017 重製/移植 (最終幻想)，超出年代/平台"
     },
     "cdg-2495": {
       "catalog_id": null,
@@ -23628,8 +23643,9 @@
       "keys": [
         "cat:SCD1408"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2009"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2009",
+      "reject_reason": "out of scope: 2009 作 (雪樂山撲克遊戲大全2009)，超出年代/平台"
     },
     "cdg-2621": {
       "catalog_id": "SCD1401",
@@ -23907,8 +23923,9 @@
       "keys": [
         "cat:SCD1450"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2010"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2010",
+      "reject_reason": "out of scope: 2009 作 (雪樂山賭博遊戲大全2010)，超出年代/平台"
     },
     "cdg-2652": {
       "catalog_id": "SCD1443",
@@ -26636,8 +26653,9 @@
       "keys": [
         "cat:SCD1605"
       ],
-      "status": "active",
-      "title_zh": "刺客教條2"
+      "status": "rejected",
+      "title_zh": "刺客教條2",
+      "reject_reason": "out of scope: 2011 商業作 (刺客教條2)，超出年代/平台"
     },
     "cdg-2953": {
       "catalog_id": "SCD1606",
@@ -26645,8 +26663,9 @@
       "keys": [
         "cat:SCD1606"
       ],
-      "status": "active",
-      "title_zh": "刺客教條2"
+      "status": "rejected",
+      "title_zh": "刺客教條2",
+      "reject_reason": "out of scope: 2011 商業作 (刺客教條2)，超出年代/平台"
     },
     "cdg-2954": {
       "catalog_id": "SCD1607",
@@ -26654,8 +26673,9 @@
       "keys": [
         "cat:SCD1607"
       ],
-      "status": "active",
-      "title_zh": "刺客教條編年史1"
+      "status": "rejected",
+      "title_zh": "刺客教條編年史1",
+      "reject_reason": "out of scope: 2015 商業作 (刺客教條編年史1)，超出年代/平台"
     },
     "cdg-2955": {
       "catalog_id": "SCD1608",
@@ -27286,8 +27306,9 @@
       "keys": [
         "cat:SCD0853"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃2008"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃2008",
+      "reject_reason": "out of scope: 2007 商業運動作 (勁爆美國職籃2008)，超出年代/平台"
     },
     "cdg-3025": {
       "catalog_id": "3WG049",
@@ -27808,8 +27829,9 @@
       "keys": [
         "t:東方妖妖夢|紅白の愛"
       ],
-      "status": "active",
-      "title_zh": "東方妖妖夢"
+      "status": "rejected",
+      "title_zh": "東方妖妖夢",
+      "reject_reason": "out of scope: 2010 同人作 (東方)，超出年代/平台"
     },
     "cdg-3083": {
       "catalog_id": "SCD2679",
@@ -28070,8 +28092,9 @@
       "keys": [
         "cat:SCD1885"
       ],
-      "status": "active",
-      "title_zh": "極品醉車2"
+      "status": "rejected",
+      "title_zh": "極品醉車2",
+      "reject_reason": "out of scope: 2007 作 (極品醉車2)，超出年代/平台"
     },
     "cdg-3112": {
       "catalog_id": "JXZ002",
@@ -28853,8 +28876,9 @@
       "keys": [
         "cat:SCD2358"
       ],
-      "status": "active",
-      "title_zh": "模擬農場2009"
+      "status": "rejected",
+      "title_zh": "模擬農場2009",
+      "reject_reason": "out of scope: 2009 商業作 (模擬農場2009)，超出年代/平台"
     },
     "cdg-3199": {
       "catalog_id": "SCD2359",
@@ -29312,8 +29336,9 @@
       "keys": [
         "cat:SCD2157"
       ],
-      "status": "active",
-      "title_zh": "火炬之光1"
+      "status": "rejected",
+      "title_zh": "火炬之光1",
+      "reject_reason": "out of scope: 2009 商業作 (火炬之光1)，超出年代/平台"
     },
     "cdg-3250": {
       "catalog_id": null,
@@ -29321,8 +29346,9 @@
       "keys": [
         "t:火炬之光2|Runic"
       ],
-      "status": "active",
-      "title_zh": "火炬之光2"
+      "status": "rejected",
+      "title_zh": "火炬之光2",
+      "reject_reason": "out of scope: 2012 商業作 (火炬之光2)，超出年代/平台"
     },
     "cdg-3251": {
       "catalog_id": null,
@@ -30518,8 +30544,9 @@
       "keys": [
         "cat:SCD0200"
       ],
-      "status": "active",
-      "title_zh": "戰士們"
+      "status": "rejected",
+      "title_zh": "戰士們",
+      "reject_reason": "out of scope: 2009 商業作 (戰士們)，超出年代/平台"
     },
     "cdg-3384": {
       "catalog_id": "SCD2037",
@@ -31131,8 +31158,9 @@
       "keys": [
         "t:莎木1|SEGA"
       ],
-      "status": "active",
-      "title_zh": "莎木1"
+      "status": "rejected",
+      "title_zh": "莎木1",
+      "reject_reason": "out of scope: 2018 重製 (莎木1 HD)，超出年代/平台"
     },
     "cdg-3452": {
       "catalog_id": null,
@@ -31140,8 +31168,9 @@
       "keys": [
         "t:莎木2|SEGA"
       ],
-      "status": "active",
-      "title_zh": "莎木2"
+      "status": "rejected",
+      "title_zh": "莎木2",
+      "reject_reason": "out of scope: 2018 重製 (莎木2 HD)，超出年代/平台"
     },
     "cdg-3453": {
       "catalog_id": "SCD2353",
@@ -31563,8 +31592,9 @@
       "keys": [
         "t:胚胎|Mira Fontan"
       ],
-      "status": "active",
-      "title_zh": "胚胎"
+      "status": "rejected",
+      "title_zh": "胚胎",
+      "reject_reason": "out of scope: 2017 商業作 (胚胎)，超出年代/平台"
     },
     "cdg-3500": {
       "catalog_id": "SWE215",
