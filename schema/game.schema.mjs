@@ -32,7 +32,7 @@ export const MEDIA_KINDS = [
   "box-front", "box-back", "box-spine", "package",
   "bonus", "poster",
   "disc", "floppy", "manual-cover", "manual", "ad",
-  "title", "screenshot", "other",
+  "title", "screenshot", "map", "credits", "other",
 ];
 
 export const gameSchema = z.object({

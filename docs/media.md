@@ -47,6 +47,8 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 | `ad` | 廣告 | 廣告 | 雜誌廣告等 |
 | `title` | 標題畫面 | 截圖 | |
 | `screenshot` | 遊戲畫面 | 截圖 | 多張用 `screenshot-01…` |
+| `map` | 地圖 | 地圖 | 大地圖／世界地圖；盒內附圖、遊戲畫面拼貼或 dump 皆歸此類，出處差異寫 `source`／`caption`。多張用 `map-01…` |
+| `credits` | 製作名單 | 製作名單 | 工作人員列表；來自說明書或片尾 rolling staff 截圖。為 frontmatter `staff[]` 的來源佐證 |
 | `logo` | 標誌 | 標誌 | 公司頁 |
 | `product` | 產品 | 產品 | 公司頁 |
 | `building` | 辦公室 | 照片 | 公司頁 |
@@ -86,7 +88,7 @@ media: z.array(z.object({
   src: z.string(),                 // 檔名，相對於 public/media/games/<id>/，如 "box-front.webp"
   kind: z.enum([
     "box-front","box-back","box-spine","package","disc","floppy",
-    "manual-cover","manual","ad","title","screenshot","other",
+    "manual-cover","manual","ad","title","screenshot","map","credits","other",
   ]),
   caption: z.string().optional(),  // 中文圖說
   source: z.string(),              // 來源代碼（必填）：見 data/media-sources.json；渲染時展開為名稱＋連結
@@ -114,9 +116,11 @@ media: z.array(z.object({
 三種呈現方式，可並用：
 
 1. **infobox 封面**：cover 縮圖取代現有「封面待補」佔位，點擊開 lightbox。
-2. **底部「媒體」圖庫（預設、主力）**：正文下方一個 section，依類別分組（盒裝／說明書／廣告／截圖／其他）的縮圖 grid；點縮圖開 **lightbox** 看全圖。**未被特別擺位的圖一律自動落到這裡**，零維護。
+2. **底部「媒體」圖庫（預設、主力）**：正文下方一個 section，縮圖 grid；點縮圖開 **lightbox** 看全圖。**未被特別擺位的圖一律自動落到這裡**，零維護。
+   - **分組方案**：**遊戲頁用 4 組粗分類** `GAME_CATEGORIES`——①包裝實體（盒裝/附件/光碟磁片/說明書）②遊戲畫面（標題/截圖）③宣傳與資料（廣告/海報/地圖/製作名單）④其他——避免一款圖橫跨多細類、每類只一兩張造成頁面冗長空洞；**公司／人物頁維持細分類** `CATEGORIES`（標誌/產品/照片各自成組，語意乾淨）。兩者皆只渲染有圖的組。
+   - **自適應排版**（`Gallery.astro`）：圖少時（只一組、或總數 ≤ `FLAT_MAX`=4）collapse 成**單一 flat wrap grid、無分組標題**，緊密排列；圖多才出現各分組 `<h3>` 標題以利瀏覽。
    - 每張縮圖以 `<figure class="media-card">` 包：上為點擊用的 `<button class="media-thumb">` + `<img>`，下為 `<figcaption class="media-cap">` 顯示圖說（**縮圖點開前可見**）。
-   - 圖說字串 = `m.caption || KIND_LABELS[m.kind]`（媒體 helper `galleryCaption` 在 `src/lib/media.js`）；沒有手寫 caption 時，自動以 kind 標籤代用（如「包裝封面」「標題畫面」），不再留白。Lightbox 顯示與此一致。
+   - 圖說字串由媒體 helper `galleryCaption(m, coll)`（`src/lib/media.js`）產生，**分組感知**：以 caption 為主，只在「多 kind 分組」才把 kind 標籤用全形括號附在後以資區分（如「珍藏版112（包裝封面）」「全地圖畫面拼接（地圖）」）；當某 kind 是其分組唯一成員時（細分類下的 地圖／製作名單／標誌…），因分組標題 `<h3>` 已等於 kind 而不重複附上。sole-kind 集合分別由 `GAME_CATEGORIES`（遊戲）與 `CATEGORIES`（實體頁）自動推導。沒有手寫 caption 時以 kind 標籤代用，不留白。Lightbox 顯示與此一致。
    - infobox 封面下方的 figcaption 與 cover lightbox 採另一個 helper `coverFigcaption`：永遠以 kindLabel 開頭、有 caption 才以「・」附在後（`包裝封面・1995 初版盒裝`）；讓讀者隨時能辨識是哪種圖（封面／標題畫面／說明書封面／廣告…）。
 3. **正文嵌入（維基式右浮動圖）**：把編輯上重要的圖放進文章某段旁，見下方「擺位機制」。
 

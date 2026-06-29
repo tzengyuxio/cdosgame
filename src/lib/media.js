@@ -12,10 +12,23 @@ export const CATEGORIES = [
   { label: '說明書', kinds: ['manual-cover', 'manual'] },
   { label: '廣告', kinds: ['ad'] },
   { label: '截圖', kinds: ['title', 'screenshot'] },
+  { label: '地圖', kinds: ['map'] },
+  { label: '製作名單', kinds: ['credits'] },
   { label: '標誌', kinds: ['logo'] },
   { label: '產品', kinds: ['product'] },
   { label: '照片', kinds: ['portrait', 'photo', 'building'] },
   { label: '其他', kinds: ['other'] },
+];
+
+// Coarse 4-group scheme used ONLY on game pages (entity pages keep the fine
+// CATEGORIES above). A game can span many kinds with 1–2 images each; coarse
+// groups avoid a long, sparse page of single-item sections. Group 4 also catches
+// entity kinds as a safety net so nothing is silently dropped.
+export const GAME_CATEGORIES = [
+  { label: '包裝實體', kinds: ['box-front', 'box-back', 'box-spine', 'package', 'bonus', 'disc', 'floppy', 'manual-cover', 'manual'] },
+  { label: '遊戲畫面', kinds: ['title', 'screenshot'] },
+  { label: '宣傳與資料', kinds: ['ad', 'poster', 'map', 'credits'] },
+  { label: '其他', kinds: ['other', 'logo', 'product', 'building', 'portrait', 'photo'] },
 ];
 
 export const KIND_LABELS = {
@@ -23,13 +36,32 @@ export const KIND_LABELS = {
   'bonus': '特典', 'poster': '海報',
   'disc': '光碟', 'floppy': '磁片', 'manual-cover': '說明書封面', 'manual': '說明書內頁',
   'ad': '廣告', 'title': '標題畫面', 'screenshot': '遊戲畫面',
+  'map': '地圖', 'credits': '製作名單',
   'logo': '標誌', 'building': '辦公室', 'product': '產品', 'portrait': '人物照', 'photo': '照片',
   'other': '圖片',
 };
 export const kindLabel = k => KIND_LABELS[k] || k;
 
-// Caption used in gallery cards / lightbox — user-set caption first, then kind label.
-export const galleryCaption = m => m.caption || KIND_LABELS[m.kind] || m.kind;
+// Kinds that are the sole member of their gallery category — their category
+// header (h3) already states the kind, so a card needn't repeat it. Derived
+// from the category scheme so it stays in sync automatically. Games use the
+// coarse GAME_CATEGORIES (almost nothing is sole → kind shown to disambiguate);
+// entity pages use the fine CATEGORIES (logo/portrait/… are sole → kept clean).
+const soleKindsOf = cats => new Set(cats.filter(c => c.kinds.length === 1).flatMap(c => c.kinds));
+const SOLE_KINDS = soleKindsOf(CATEGORIES);
+const GAME_SOLE_KINDS = soleKindsOf(GAME_CATEGORIES);
+
+// Caption for gallery cards / lightbox — caption primary. Append the kind in
+// parens only when it disambiguates within a multi-kind category (e.g. 包裝實體
+// has 封面/背面/光碟/說明書…, 遊戲畫面 has 標題/遊戲畫面); a kind that is its own
+// category's sole member skips it since the group header already names it. Kind
+// label alone when there's no caption. `coll` picks the scheme (games vs entity).
+export const galleryCaption = (m, coll) => {
+  const label = KIND_LABELS[m.kind] || m.kind;
+  if (!m.caption) return label;
+  const sole = coll === 'games' ? GAME_SOLE_KINDS : SOLE_KINDS;
+  return sole.has(m.kind) ? m.caption : `${m.caption}（${label}）`;
+};
 
 // Caption used under the infobox cover (figcaption) and in cover lightbox.
 // Always leads with the kind label (so the reader can tell what kind of image
@@ -77,7 +109,7 @@ export function decorate(m, coll, slug) {
     full: mediaUrl(coll, slug, m.src),
     thumb: thumbUrl(coll, slug, m.src),
     src_obj: expandSource(m.source, m.source_url),
-    gallery_caption: galleryCaption(m),
+    gallery_caption: galleryCaption(m, coll),
   };
 }
 
@@ -85,9 +117,9 @@ export function decorate(m, coll, slug) {
 // category, sort by explicit `order`, then by the kind's position in the
 // category's `kinds` array (so box-front beats box-back beats box-spine, and
 // title beats screenshot), then by src filename as a stable tiebreaker.
-export function groupDecorated(items = []) {
+export function groupDecorated(items = [], categories = CATEGORIES) {
   const vis = items.filter(m => m.gallery !== false);
-  return CATEGORIES
+  return categories
     .map(c => {
       const sortInCat = (a, b) =>
         (a.order ?? 1e9) - (b.order ?? 1e9)
@@ -98,6 +130,6 @@ export function groupDecorated(items = []) {
     .filter(g => g.items.length > 0);
 }
 
-export function galleryGroups(media = [], coll, slug) {
-  return groupDecorated(media.map(m => decorate(m, coll, slug)));
+export function galleryGroups(media = [], coll, slug, categories = CATEGORIES) {
+  return groupDecorated(media.map(m => decorate(m, coll, slug)), categories);
 }

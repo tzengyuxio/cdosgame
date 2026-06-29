@@ -1,15 +1,26 @@
 ---
-// Category-grouped media gallery. `groups` comes from galleryGroups() in
-// src/lib/media.js. Thumbnails are .media-thumb buttons; the shared
-// <Lightbox /> (rendered once per page) wires their click → fullscreen.
+// Category-grouped media gallery. `groups` comes from galleryGroups() /
+// groupDecorated() in src/lib/media.js. Thumbnails are .media-thumb buttons; the
+// shared <Lightbox /> (rendered once per page) wires their click → fullscreen.
+//
+// Adaptive layout: when the gallery is sparse (a single group, or few images
+// total), collapse to ONE flat wrapping grid with no category headers — avoids a
+// long, empty-looking page of single-item sections. Richer galleries keep the
+// per-category headers for navigation.
 const { groups = [] } = Astro.props;
+const FLAT_MAX = 4; // ≤ this many images total → flat grid, no headers
+const total = groups.reduce((n, g) => n + g.items.length, 0);
+const flat = groups.length <= 1 || total <= FLAT_MAX;
+const renderGroups = flat
+  ? [{ label: null, items: groups.flatMap(g => g.items) }]
+  : groups;
 ---
 {groups.length > 0 && (
   <section class="media">
     <h2>媒體</h2>
-    {groups.map(g => (
+    {renderGroups.map(g => (
       <div class="media-group">
-        <h3 class="media-cat">{g.label}</h3>
+        {g.label && <h3 class="media-cat">{g.label}</h3>}
         <div class="media-grid">
           {g.items.map(m => (
             <figure class="media-card">

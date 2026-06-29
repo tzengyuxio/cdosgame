@@ -9,7 +9,7 @@ import CategoryFooter from '../../components/CategoryFooter.astro';
 import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
-import { coverOf, decorate, coverFigcaption, groupDecorated } from '../../lib/media.js';
+import { coverOf, decorate, coverFigcaption, groupDecorated, GAME_CATEGORIES } from '../../lib/media.js';
 import { genreUrl, seriesUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
@@ -48,7 +48,7 @@ const coverItem = cover ? decorate(cover, 'games', g.id) : null;
 const companies = await getCollection('companies', e => import.meta.env.PROD ? e.data.published : true);
 const adItems = [];
 for (const c of companies) for (const m of (c.data.media || [])) if (m.games?.includes(g.id)) adItems.push(decorate(m, 'companies', c.id));
-const groups = groupDecorated([...g.media.map(m => decorate(m, 'games', g.id)), ...adItems]);
+const groups = groupDecorated([...g.media.map(m => decorate(m, 'games', g.id)), ...adItems], GAME_CATEGORIES);
 const hasMedia = g.media.length > 0 || adItems.length > 0;
 const ogImage = cover ? `/media/games/${g.id}/${cover.src}` : undefined;
 const jsonLd = [
