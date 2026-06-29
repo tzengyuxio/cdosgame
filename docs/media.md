@@ -144,11 +144,20 @@ media: z.array(z.object({
 
 ## 5. 交付流程（你給圖 → 我入庫）
 
-### 5.1 收件夾（inbox）
+### 5.1 收件夾（inbox）＋ `process_media.mjs`
 
-把原圖丟進 **`raw/media/_inbox/`**（gitignored）。我處理時會：轉 WebP＋縮圖→`public/media/games/<id>/`、原圖搬到 archive `raw/media/games/<id>/`（登 manifest）、更新該款 `.md` 的 `media[]`、**清空 inbox**。
+把原圖丟進 **`raw/media/_inbox/`**（gitignored），檔名照 §5.2 帶資訊。由 **`scripts/process_media.mjs`** 入庫，兩種模式：
 
-> **可反覆交付、不必清空**：inbox 永遠代表「待處理」。你每次丟新圖即可——我處理完會把原圖移到 archive、把 inbox 清乾淨，所以下次它本來就是空的。已入庫的不會被重複處理。
+```
+node scripts/process_media.mjs            # PLAN：解析+驗證 inbox，印出將寫入的 media[]；零副作用
+node scripts/process_media.mjs --write     # APPLY：實際執行
+```
+
+`--write` 一趟自足且依序：①**先全部驗證**（id 對應的 `.md` 存在、kind 合法、source 有值）——任一檔有問題就**整批中止、不動任何檔**；②轉 WebP＋縮圖（≤1MP；截圖/標題/標誌無損，其餘 q82）→ `public/media/<coll>/<slug>/`；③把 `media[]` **合併寫進**該條目 `.md`（依 `src` 去重）；④原圖搬到 archive `raw/media/<coll>/<slug>/`＋`manifest.jsonl`；⑤清空 inbox。
+
+- **冪等**：可安全重跑——空 inbox 是 no-op、webp skip-if-exists、`media[]` 依 `src` 去重不重覆；magick 對既有輸出是覆寫不報錯，PLAN 不碰檔案，所以「先 PLAN 再 --write」不會消耗掉自己的輸入。
+- **fail-fast**：PLAN 與 --write 都會先列出所有問題檔；--write 有錯就零副作用中止，修好 inbox 再跑即可。
+- **可反覆交付**：每次丟新圖、跑 `--write` 即可；已入庫的不會被重複處理。
 
 ### 5.2 怎麼標 kind／來源／圖說 —— 用「檔名」帶資訊
 
@@ -227,7 +236,7 @@ media:
   - 截圖（DOS 256 色／像素）→ WebP **無損或近無損**（檔案本就很小）。
   - 盒裝／說明書／廣告（照片、掃描）→ WebP **lossy q≈80**。
   - 縮圖 → 寬約 **360px**、q≈75，放 `thumb/`。
-- **工具**：`cwebp` 或 `magick`（兩者皆已安裝）；自動化規劃為 `scripts/process_media.mjs`（待實作，過渡期手動）。
+- **工具**：`magick`（已安裝）；入庫自動化見 `scripts/process_media.mjs`（見 §5.1）。
 
 > **WebP vs tinified JPG**：同畫質 WebP 通常小 25–35%，且支援透明與無損（截圖划算）；tinified JPG 僅勝在古董相容性，對本站無意義。原始掃描以原格式存 archive，交付一律轉 WebP。
 
@@ -244,6 +253,6 @@ media:
 - [ ] `scripts/validate_content.mjs`：檢查 `media[].src` 檔案存在、`source` 必填且在 registry 內、至多一張 `cover`。
 - [ ] rehype 外掛：解析正文 `media:<src>{align=…}` 嵌入語法（從內容檔路徑取 id）。
 - [ ] 元件：`Gallery.astro`（分類 grid）＋ lightbox（輕量 JS）＋ infobox 封面；`/games/[id]` 的 `og:image` 改用 cover；圖說展開來源簡碼。
-- [ ] 腳本：`scripts/process_media.mjs`（讀 `raw/media/_inbox/` → 依檔名解析 id/kind/source/caption → WebP 全圖＋縮圖入 `public/media/games/<id>/` → 原圖搬 archive＋manifest → 印出／寫入 `media[]` 片段 → 清空 inbox）。
+- [x] 腳本：`scripts/process_media.mjs`（PLAN／`--write` 兩模式；fail-fast 先驗證、冪等；轉 WebP＋縮圖入 `public/`、**自動合併寫入 `media[]`**、原圖搬 archive＋manifest、清空 inbox。見 §5.1）。
 - [ ] `CLAUDE.md` 關鍵慣例加一行指向本文。
 - [x] 公司／人物 `media[]`（logo/portrait→infobox、圖庫、lightbox）；多款代理廣告以 `games:[…]` 聚合到各遊戲頁（見 §5.5）。

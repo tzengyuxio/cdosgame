@@ -1,15 +1,24 @@
-// Intake for the curated media library (see docs/media.md §5).
+// Intake for the curated media library (see docs/media.md §5). Agent-oriented:
+// one self-sufficient command, fail-fast, idempotent.
 //
-//   node scripts/process_media.mjs
+//   node scripts/process_media.mjs            # PLAN  — parse+validate inbox, print
+//                                             #         planned media[]; zero side effects
+//   node scripts/process_media.mjs --write    # APPLY — validate ALL first (abort on any
+//                                             #         error, no side effects), then convert
+//                                             #         WebP+thumb → public/, merge media[] into
+//                                             #         each .md (dedupe by src), archive
+//                                             #         originals → raw/ (+manifest), clear inbox
 //
-// Reads raw/media/_inbox/:
+// Inbox filename convention (raw/media/_inbox/):
 //   games   — flat  <cdg-id>__<kind>[-NN]__<source>[__caption][__cover].<ext>
 //             or    <cdg-id>/<kind>[-NN]__<source>[__caption][__cover].<ext>
 //   公司／人物 — companies/<公司名>/<kind>…  ·  people/<人名>/<kind>…
-// For each: writes WebP full (≤1MP) + thumb to public/media/<coll>/<slug>/,
-// archives the original to raw/media/<coll>/<slug>/ (+ manifest.jsonl), clears
-// the inbox, and prints a media[] snippet to paste into the entity's .md.
-import { readdirSync, existsSync, mkdirSync, renameSync, statSync, appendFileSync } from "node:fs";
+//
+// Idempotent: re-runs are safe — empty inbox is a no-op, WebP conversion skips
+// existing outputs, and media[] entries are deduped by `src`. Conversion never
+// fails on an existing output (magick overwrites), and PLAN never touches files,
+// so a plan→write sequence can't consume its own inputs.
+import { readdirSync, existsSync, mkdirSync, renameSync, statSync, appendFileSync, readFileSync, writeFileSync } from "node:fs";
 import { join, extname, basename } from "node:path";
 import { execFileSync } from "node:child_process";
 import { MEDIA_KINDS } from "../schema/game.schema.mjs";
@@ -21,6 +30,10 @@ const LOSSLESS_KINDS = new Set(["title", "screenshot", "logo"]);
 const IMG_EXT = new Set([".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"]);
 const KINDS = { games: MEDIA_KINDS, companies: COMPANY_MEDIA_KINDS, people: PERSON_MEDIA_KINDS };
 const MD_DIR = { games: "content/games", companies: "content/companies", people: "content/people" };
+// frontmatter keys a new `media:` block is inserted before (first match wins)
+const ANCHORS = ["images:", "references:", "external_links:", "footnotes:", "localization_basis:"];
+
+const WRITE = process.argv.includes("--write");
 
 const normId = (s) => {
   const m = String(s).match(/(\d{3,})/);
@@ -48,6 +61,42 @@ function webp(input, output, lossless) {
 }
 const thumb = (input, output) => execFileSync("magick", [input, "-resize", "360x>", "-quality", "75", output]);
 
+// YAML scalar: quote only when the value could otherwise be misparsed.
+const yamlStr = (s) => (/[:#[\]{}&*!|>'"%@`,]/.test(s) || /^[\s>-]/.test(s)) ? JSON.stringify(s) : s;
+const itemYaml = (m) => {
+  const L = [`- src: ${m.src}`, `  kind: ${m.kind}`, `  source: ${m.source}`];
+  if (m.caption) L.push(`  caption: ${yamlStr(m.caption)}`);
+  if (m.cover) L.push(`  cover: true`);
+  return L;
+};
+
+// Merge items into the entity's frontmatter media[] (dedupe by src). Returns #added.
+function writeMediaBlock(mdPath, items) {
+  const lines = readFileSync(mdPath, "utf8").split("\n");
+  if (lines[0] !== "---") throw new Error(`${mdPath}: no frontmatter`);
+  const fmEnd = lines.indexOf("---", 1);
+  if (fmEnd < 0) throw new Error(`${mdPath}: unterminated frontmatter`);
+  const rel = lines.slice(1, fmEnd).findIndex((l) => l === "media:");
+  const mediaAt = rel >= 0 ? rel + 1 : -1;
+  if (mediaAt >= 0) {
+    let j = mediaAt + 1;                                   // end of media block = next top-level key
+    while (j < fmEnd && !/^[A-Za-z_][\w-]*:/.test(lines[j])) j++;
+    const have = new Set();
+    for (let k = mediaAt + 1; k < j; k++) {
+      const m = lines[k].match(/^- src:\s*(\S+)/);
+      if (m) have.add(m[1]);
+    }
+    const fresh = items.filter((it) => !have.has(it.src));
+    if (fresh.length) { lines.splice(j, 0, ...fresh.flatMap(itemYaml)); writeFileSync(mdPath, lines.join("\n")); }
+    return fresh.length;
+  }
+  let at = lines.slice(1, fmEnd).findIndex((l) => ANCHORS.some((a) => l.startsWith(a)));
+  at = at >= 0 ? at + 1 : fmEnd;
+  lines.splice(at, 0, "media:", ...items.flatMap(itemYaml));
+  writeFileSync(mdPath, lines.join("\n"));
+  return items.length;
+}
+
 if (!existsSync(INBOX)) { console.log(`(無 inbox：${INBOX})`); process.exit(0); }
 
 // collect jobs: games (flat / cdg-folder) + companies/<slug>/ + people/<slug>/
@@ -71,37 +120,66 @@ for (const ent of readdirSync(INBOX)) {
   }
 }
 
-const out = {};  // `${coll}/${slug}` -> items
-let done = 0;
-const skipped = [];
-for (const { file, name, coll, slug } of jobs) {
-  const meta = parse(name, coll, slug);
-  if (!meta) { skipped.push(name); continue; }
-  const outDir = join("public/media", meta.coll, meta.slug);
-  const thumbDir = join(outDir, "thumb");
-  const archDir = join("raw/media", meta.coll, meta.slug);
-  for (const d of [outDir, thumbDir, archDir]) mkdirSync(d, { recursive: true });
-  const src = `${meta.rawKind}.webp`;
-  webp(file, join(outDir, src), LOSSLESS_KINDS.has(meta.kind));
-  thumb(file, join(thumbDir, src));
-  renameSync(file, join(archDir, name));
-  appendFileSync(join(archDir, "manifest.jsonl"), JSON.stringify({ src, ...meta, original: name }) + "\n");
-  (out[`${meta.coll}/${meta.slug}`] ||= []).push({ ...meta, src });
-  done++;
+// validate ALL before any side effect
+const valid = [];
+const errors = [];
+for (const job of jobs) {
+  const meta = parse(job.name, job.coll, job.slug);
+  if (!meta) { errors.push(`${job.name}：無法解析（id／kind 不合法）`); continue; }
+  if (!meta.source) { errors.push(`${job.name}：缺 source`); continue; }
+  const mdPath = join(MD_DIR[meta.coll], `${meta.slug}.md`);
+  if (!existsSync(mdPath)) { errors.push(`${job.name}：找不到對應條目 ${mdPath}`); continue; }
+  valid.push({ ...job, meta, mdPath, src: `${meta.rawKind}.webp` });
 }
 
-console.log(`處理 ${done} 張、跳過 ${skipped.length}${skipped.length ? "（" + skipped.join(", ") + "）" : ""}\n`);
-for (const [key, items] of Object.entries(out)) {
-  const [coll, slug] = key.split("/");
-  console.log(`# ${key} → 貼進 ${MD_DIR[coll]}/${slug}.md 的 media:`);
-  console.log("media:");
-  for (const m of items) {
-    console.log(`- src: ${m.src}`);
-    console.log(`  kind: ${m.kind}`);
-    console.log(`  source: ${m.source || "TODO"}`);
-    if (m.caption) console.log(`  caption: ${m.caption}`);
-    if (m.cover) console.log(`  cover: true`);
-    if (coll === "companies" && m.kind === "ad") console.log(`  # games: [cdg-XXXX]  ← 若為多款代理廣告，補上涵蓋的遊戲`);
-  }
-  console.log("");
+// group by entity for reporting / batched md write
+const byEntity = {};
+for (const v of valid) (byEntity[`${v.meta.coll}/${v.meta.slug}`] ||= []).push(v);
+
+if (errors.length) {
+  console.error(`✗ ${errors.length} 個檔有問題：`);
+  for (const e of errors) console.error(`  - ${e}`);
 }
+
+if (!WRITE) {
+  // PLAN: report only, no side effects
+  console.log(`\n# DRY-RUN（${valid.length} 張可處理；加 --write 才實際執行）\n`);
+  for (const [key, vs] of Object.entries(byEntity)) {
+    console.log(`# ${key} → ${vs[0].mdPath} 的 media:`);
+    console.log("media:");
+    for (const v of vs) for (const l of itemYaml({ ...v.meta, src: v.src })) console.log(l);
+    if (key.startsWith("companies/") && vs.some((v) => v.meta.kind === "ad"))
+      console.log(`  # 多款代理廣告記得補 games: [cdg-XXXX]`);
+    console.log("");
+  }
+  process.exit(errors.length ? 1 : 0);
+}
+
+// WRITE: abort entirely if anything failed validation (no partial state)
+if (errors.length) { console.error("\n✗ 有錯誤，已中止，未變更任何檔案。修正 inbox 後重跑。"); process.exit(1); }
+
+// 1) convert (skip existing) → public/
+for (const v of valid) {
+  const outDir = join("public/media", v.meta.coll, v.meta.slug);
+  const thumbDir = join(outDir, "thumb");
+  mkdirSync(thumbDir, { recursive: true });
+  const outFull = join(outDir, v.src);
+  const outThumb = join(thumbDir, v.src);
+  if (!existsSync(outFull)) webp(v.file, outFull, LOSSLESS_KINDS.has(v.meta.kind));
+  if (!existsSync(outThumb)) thumb(v.file, outThumb);
+}
+// 2) merge media[] into each .md (dedupe by src)
+let added = 0;
+for (const [, vs] of Object.entries(byEntity)) {
+  added += writeMediaBlock(vs[0].mdPath, vs.map((v) => ({ ...v.meta, src: v.src })));
+}
+// 3) archive originals + manifest, clearing the inbox (do last so failures keep inputs)
+for (const v of valid) {
+  const archDir = join("raw/media", v.meta.coll, v.meta.slug);
+  mkdirSync(archDir, { recursive: true });
+  renameSync(v.file, join(archDir, v.name));
+  appendFileSync(join(archDir, "manifest.jsonl"), JSON.stringify({ src: v.src, ...v.meta, original: v.name }) + "\n");
+}
+
+console.log(`✓ 轉換 ${valid.length} 張、media[] 新增 ${added} 筆、原圖已歸檔、inbox 已清。`);
+for (const [key, vs] of Object.entries(byEntity)) console.log(`  ${key}: ${vs.map((v) => v.src).join(", ")}`);
