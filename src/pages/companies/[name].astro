@@ -60,9 +60,10 @@ const siteBase = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/
 // fires. dev server tolerates the missing slash, so this only breaks in prod.
 const redirectHref = redirectTo ? `${companyUrl(redirectTo)}/?from=${encodeURIComponent(name)}` : null;
 const redirectCanonical = redirectTo ? `${siteBase}${companyUrl(redirectTo)}/` : null;
-const company = await getEntry('companies', name);
-const c = company?.data;
 const companyIds = new Set((await getCollection('companies')).map(e => e.id));
+// only resolve a curated company md when it exists (avoids getEntry miss warnings)
+const company = companyIds.has(name) ? await getEntry('companies', name) : null;
+const c = company?.data;
 const personIds = new Set((await getCollection('people')).map(e => e.id));
 // in-house teams whose parent_company points at this company
 const teams = (await getCollection('teams')).filter(t => t.data.parent_company === name);

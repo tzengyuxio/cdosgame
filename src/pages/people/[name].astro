@@ -44,7 +44,9 @@ export async function getStaticPaths() {
 }
 const { name } = Astro.params;
 const { credits, featured } = Astro.props;
-const person = await getEntry('people', name);
+// only resolve a curated person md when it exists (avoids getEntry miss warnings)
+const personIds = new Set((await getCollection('people')).map(e => e.id));
+const person = personIds.has(name) ? await getEntry('people', name) : null;
 const c = person?.data;
 const companyIds = new Set((await getCollection('companies')).map(e => e.id));
 const teamIds = new Set((await getCollection('teams')).map(e => e.id));

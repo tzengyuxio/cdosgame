@@ -22,7 +22,9 @@ const { list } = Astro.props;
 const games = [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
 const dev = topValue(list, g => g.developer);
 const range = yearRange(list);
-const entry = await getEntry('series', series);
+// only resolve a curated series md when it exists (avoids getEntry miss warnings)
+const have = new Set((await getCollection('series')).map(e => e.id));
+const entry = have.has(series) ? await getEntry('series', series) : null;
 const Body = entry ? (await render(entry)).Content : null;
 // curated topics whose parent points at this series
 const topics = (await getCollection('topics'))

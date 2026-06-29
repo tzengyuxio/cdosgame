@@ -6,8 +6,10 @@ import { seriesUrl } from '../../lib/links.js';
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
 const by = groupBy(games.map(e => e.data), g => g.series);
+// only resolve curated series md that actually exist (avoids getEntry miss warnings)
+const have = new Set((await getCollection('series')).map(e => e.id));
 const cards = await Promise.all([...by.entries()].map(async ([name, list]) => {
-  const entry = await getEntry('series', name);
+  const entry = have.has(name) ? await getEntry('series', name) : null;
   return { name, count: list.length, dev: topValue(list, g => g.developer), range: yearRange(list), summary: entry?.data.summary };
 }));
 cards.sort((a, b) => b.count - a.count);
