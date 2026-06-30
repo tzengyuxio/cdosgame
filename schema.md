@@ -17,7 +17,7 @@
 | `slug` | string \| null | | 網址用，英文別名 slugify；無則 null |
 | `year` | int 1970–2030 \| null | | 發行年（收集到 2024；2004 後為收集邊界外）|
 | `developer` | string \| null | | 開發商 |
-| `developer_region` | enum \| null | | 開發地：`TW HK CN MO JP US CA FR GB DE KR IE SE AU IL` |
+| `developer_region` | enum \| null | | 開發地：`TW HK CN MO JP US CA FR ES GB DE PL KR IE SE AU IL HU SU` |
 | `dev_team` | string \| null | | 廠內開發團隊／小組（如大宇 `DOMO小組`、`狂徒創作群`）|
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
 | `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|

@@ -121,7 +121,7 @@
         "cat:SWE209"
       ],
       "status": "active",
-      "title_zh": "1990世界杯足球賽"
+      "title_zh": "1990世界盃足球賽"
     },
     "cdg-0014": {
       "catalog_id": "SCD2205",
@@ -270,7 +270,7 @@
     },
     "cdg-0030": {
       "catalog_id": "SWE076",
-      "developer": "Ogdan",
+      "developer": "Ogdin Micro Design",
       "keys": [
         "cat:SWE076"
       ],
@@ -723,7 +723,7 @@
     },
     "cdg-0080": {
       "catalog_id": "SWE085",
-      "developer": "DS",
+      "developer": "Distinctive Software",
       "keys": [
         "cat:SWE085"
       ],
@@ -1911,7 +1911,7 @@
         "cat:SWE078"
       ],
       "status": "active",
-      "title_zh": "三國志1"
+      "title_zh": "三國志"
     },
     "cdg-0211": {
       "catalog_id": "3WG020",
@@ -4512,7 +4512,7 @@
         "t:太空小蜜蜂|Oxford"
       ],
       "status": "active",
-      "title_zh": "太空小蜜蜂"
+      "title_zh": "太空小蜜蜂（Better Dead Than Alien）"
     },
     "cdg-0499": {
       "catalog_id": "Z104",
@@ -4818,7 +4818,7 @@
         "cat:SWE263"
       ],
       "status": "active",
-      "title_zh": "小鬼當家1"
+      "title_zh": "小鬼當家"
     },
     "cdg-0533": {
       "catalog_id": "SWT203",
@@ -7871,9 +7871,10 @@
     },
     "cdg-0871": {
       "catalog_id": null,
-      "developer": "Ubisoft",
+      "developer": "Legend Software",
       "keys": [
-        "t:街頭小霸王|Ubisoft"
+        "t:街頭小霸王|Ubisoft",
+        "t:街頭小霸王|Legend Software"
       ],
       "status": "active",
       "title_zh": "街頭小霸王"
@@ -8354,7 +8355,7 @@
         "t:古董名車賽1|P.Z.Karen"
       ],
       "status": "active",
-      "title_zh": "古董名車賽1"
+      "title_zh": "古董名車賽"
     },
     "cdg-0925": {
       "catalog_id": null,
@@ -8696,7 +8697,7 @@
         "cat:SWE019"
       ],
       "status": "active",
-      "title_zh": "名車大賽1"
+      "title_zh": "名車大賽"
     },
     "cdg-0963": {
       "catalog_id": "SWE121",
@@ -9593,9 +9594,9 @@
     },
     "cdg-1062": {
       "catalog_id": "SWE246",
-      "developer": "Ishi Press",
+      "developer": "David Fotland",
       "keys": [
-        "cat:SWE246"
+        "t:圍棋大戰|David Fotland"
       ],
       "status": "active",
       "title_zh": "圍棋大戰"
@@ -13923,7 +13924,7 @@
     },
     "cdg-1542": {
       "catalog_id": "SWE260",
-      "developer": "IAT",
+      "developer": "Information Access Technologies",
       "keys": [
         "cat:SWE260"
       ],
@@ -14784,7 +14785,7 @@
         "t:信長之野望1|KOEI"
       ],
       "status": "active",
-      "title_zh": "信長之野望1"
+      "title_zh": "信長之野望"
     },
     "cdg-1638": {
       "catalog_id": "3WG053",
@@ -15531,7 +15532,7 @@
         "cat:SWE110"
       ],
       "status": "active",
-      "title_zh": "快打旋風1"
+      "title_zh": "快打旋風（Street Fighter）"
     },
     "cdg-1721": {
       "catalog_id": "Z046,SCD1260",
@@ -15549,7 +15550,7 @@
         "cat:SCD1262"
       ],
       "status": "active",
-      "title_zh": "快打旋風"
+      "title_zh": "快打旋風ZERO"
     },
     "cdg-1723": {
       "catalog_id": "SCD1263",
@@ -15558,7 +15559,7 @@
         "cat:SCD1263"
       ],
       "status": "active",
-      "title_zh": "快打旋風"
+      "title_zh": "快打旋風ZERO 2"
     },
     "cdg-1724": {
       "catalog_id": "SWE116",
@@ -15567,7 +15568,7 @@
         "cat:SWE116"
       ],
       "status": "active",
-      "title_zh": "快打磚塊1"
+      "title_zh": "快打磚塊"
     },
     "cdg-1725": {
       "catalog_id": "SWE148",
@@ -16071,7 +16072,7 @@
         "cat:Z037,SCD1045"
       ],
       "status": "active",
-      "title_zh": "惡魔城1"
+      "title_zh": "惡魔城（Castlevania）"
     },
     "cdg-1781": {
       "catalog_id": "SCD1045",
@@ -17317,7 +17318,7 @@
         "cat:SWZ008"
       ],
       "status": "active",
-      "title_zh": "毀滅戰士"
+      "title_zh": "毀滅戰士（Obliterator）"
     },
     "cdg-1919": {
       "catalog_id": null,
@@ -17753,12 +17754,12 @@
     },
     "cdg-1967": {
       "catalog_id": "SWE094",
-      "developer": "Technos,Arcadia",
+      "developer": "Technos Japan",
       "keys": [
         "cat:SWE094"
       ],
       "status": "active",
-      "title_zh": "雙截龍1"
+      "title_zh": "雙截龍"
     },
     "cdg-1968": {
       "catalog_id": "SWE176",
@@ -18699,9 +18700,10 @@
     },
     "cdg-2072": {
       "catalog_id": null,
-      "developer": "Oxford,Arc",
+      "developer": "Oxford Mobius",
       "keys": [
-        "t:終極戰士2|Oxford,Arc"
+        "t:終極戰士2|Oxford,Arc",
+        "t:終極戰士2|Oxford Mobius"
       ],
       "status": "active",
       "title_zh": "終極戰士2"
@@ -18776,7 +18778,7 @@
         "cat:SCD2482"
       ],
       "status": "active",
-      "title_zh": "終極警探"
+      "title_zh": "終極警探（Die Hard：Nakatomi Plaza）"
     },
     "cdg-2081": {
       "catalog_id": "SWE101",
@@ -18785,7 +18787,7 @@
         "cat:SWE101"
       ],
       "status": "active",
-      "title_zh": "終極警探"
+      "title_zh": "終極警探（Operation: Clean Streets）"
     },
     "cdg-2082": {
       "catalog_id": "SCD2480",
@@ -20554,7 +20556,7 @@
     },
     "cdg-2278": {
       "catalog_id": "SWE264",
-      "developer": "Image Works",
+      "developer": "Jason Kingsley",
       "keys": [
         "cat:SWE264"
       ],
@@ -22072,7 +22074,7 @@
         "cat:SCD1971"
       ],
       "status": "active",
-      "title_zh": "時空戰士"
+      "title_zh": "時空戰士（Möbius Link REAL）"
     },
     "cdg-2447": {
       "catalog_id": "SWE146",
@@ -22081,7 +22083,7 @@
         "cat:SWE146"
       ],
       "status": "active",
-      "title_zh": "時空戰士"
+      "title_zh": "時空戰士（Space Harrier）"
     },
     "cdg-2448": {
       "catalog_id": null,
@@ -25091,7 +25093,7 @@
         "t:瘋狂大賽車1|Titus"
       ],
       "status": "active",
-      "title_zh": "瘋狂大賽車1"
+      "title_zh": "瘋狂大賽車"
     },
     "cdg-2781": {
       "catalog_id": null,
@@ -29980,7 +29982,7 @@
         "cat:SWE014"
       ],
       "status": "active",
-      "title_zh": "燃燒的野球1"
+      "title_zh": "燃燒的野球"
     },
     "cdg-3321": {
       "catalog_id": "SWT035",
@@ -30620,7 +30622,7 @@
         "cat:Z001"
       ],
       "status": "active",
-      "title_zh": "戰斧"
+      "title_zh": "戰斧（Golden Axe）"
     },
     "cdg-3392": {
       "catalog_id": null,
@@ -31690,12 +31692,13 @@
     },
     "cdg-3510": {
       "catalog_id": "SWE195",
-      "developer": "Tengen",
+      "developer": "Atari Games",
       "keys": [
-        "cat:SWE195"
+        "cat:SWE195",
+        "t:特技飛車|Atari Games"
       ],
       "status": "active",
-      "title_zh": "特技飛車1"
+      "title_zh": "特技飛車"
     },
     "cdg-3511": {
       "catalog_id": "Z086",
@@ -33964,9 +33967,10 @@
     },
     "cdg-3762": {
       "catalog_id": null,
-      "developer": "Epyx",
+      "developer": "Thalamus",
       "keys": [
-        "t:魔眼小精靈|Epyx"
+        "t:魔眼小精靈|Epyx",
+        "t:魔眼小精靈|Thalamus"
       ],
       "status": "active",
       "title_zh": "魔眼小精靈"
@@ -34950,7 +34954,7 @@
     },
     "cdg-3871": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "MicroProse",
       "keys": [
         "t:空降遊騎兵|None"
       ],
@@ -35232,7 +35236,7 @@
     },
     "cdg-3902": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Atari Games",
       "keys": [
         "t:送報童|None"
       ],
@@ -35458,7 +35462,7 @@
     },
     "cdg-3927": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Lucasfilm Games",
       "keys": [
         "t:異形大進擊|None"
       ],
@@ -35676,12 +35680,13 @@
     },
     "cdg-3951": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Toys for Bob",
       "keys": [
-        "t:激戰Ｍ星雲|None"
+        "t:激戰Ｍ星雲|None",
+        "t:激戰M星雲|None"
       ],
       "status": "active",
-      "title_zh": "激戰Ｍ星雲"
+      "title_zh": "激戰M星雲"
     },
     "cdg-3952": {
       "catalog_id": null,
@@ -35712,7 +35717,7 @@
     },
     "cdg-3955": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Tengen",
       "keys": [
         "t:送報童2|None"
       ],
@@ -35735,7 +35740,7 @@
         "t:屠龍記 (OLD)|None"
       ],
       "status": "active",
-      "title_zh": "屠龍記 (OLD)"
+      "title_zh": "屠龍記"
     },
     "cdg-3958": {
       "catalog_id": null,
@@ -35748,7 +35753,7 @@
     },
     "cdg-3959": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "智冠",
       "keys": [
         "t:瑪麗姊妹|None"
       ],
@@ -35929,7 +35934,7 @@
     },
     "cdg-3979": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Armenica",
       "keys": [
         "t:方塊ＡＢＣ|None"
       ],
@@ -35987,8 +35992,9 @@
       "keys": [
         "t:御封戰將|None"
       ],
-      "status": "active",
-      "title_zh": "御封戰將"
+      "status": "merged",
+      "title_zh": "御封戰將",
+      "merged_into": "cdg-1051"
     },
     "cdg-3986": {
       "catalog_id": null,
@@ -36019,7 +36025,7 @@
     },
     "cdg-3989": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Origin Systems",
       "keys": [
         "t:飛輪武士|None"
       ],
@@ -36037,7 +36043,7 @@
     },
     "cdg-3991": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Origin Systems",
       "keys": [
         "t:2400 A.D.|None"
       ],
@@ -36183,12 +36189,13 @@
     },
     "cdg-4007": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Papyrus Design Group",
       "keys": [
-        "t:風馳電摯|None"
+        "t:風馳電摯|None",
+        "t:風馳電掣|Papyrus Design Group"
       ],
       "status": "active",
-      "title_zh": "風馳電摯"
+      "title_zh": "風馳電掣"
     },
     "cdg-4008": {
       "catalog_id": null,
@@ -36246,7 +36253,7 @@
     },
     "cdg-4014": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "MindSpan",
       "keys": [
         "t:夏季運動會|None"
       ],
@@ -37638,7 +37645,7 @@
         "t:第一滴血|None"
       ],
       "status": "active",
-      "title_zh": "第一滴血"
+      "title_zh": "第一滴血3"
     },
     "cdg-4167": {
       "catalog_id": null,
@@ -38081,8 +38088,9 @@
       "keys": [
         "t:虎膽妙算2|None"
       ],
-      "status": "active",
-      "title_zh": "虎膽妙算2"
+      "status": "merged",
+      "title_zh": "虎膽妙算2",
+      "merged_into": "cdg-2824"
     },
     "cdg-4216": {
       "catalog_id": null,
@@ -38448,7 +38456,7 @@
     },
     "cdg-4256": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Lucasfilm Games",
       "keys": [
         "t:瘋狂大樓|None"
       ],
@@ -38610,7 +38618,7 @@
     },
     "cdg-4274": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "ICOM Simulations",
       "keys": [
         "t:魔影之門|None"
       ],
@@ -39618,12 +39626,12 @@
     },
     "cdg-4386": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Origin Systems",
       "keys": [
         "t:忍者祕術|None"
       ],
       "status": "active",
-      "title_zh": "忍者祕術"
+      "title_zh": "忍者傳奇"
     },
     "cdg-4387": {
       "catalog_id": null,
@@ -40149,7 +40157,7 @@
     },
     "cdg-4445": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "MindSpan",
       "keys": [
         "t:雪山競技|None"
       ],
@@ -42163,6 +42171,934 @@
       ],
       "status": "active",
       "title_zh": "無敵龍捲風"
+    },
+    "cdg-4669": {
+      "catalog_id": null,
+      "developer": "Artech Digital Entertainment",
+      "keys": [
+        "t:雷虎特攻隊|Artech Digital Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "雷虎特攻隊"
+    },
+    "cdg-4671": {
+      "catalog_id": null,
+      "developer": "Omnitrend Software",
+      "keys": [
+        "t:未來戰士|Omnitrend Software"
+      ],
+      "status": "active",
+      "title_zh": "未來戰士"
+    },
+    "cdg-4672": {
+      "catalog_id": null,
+      "developer": "Cinemaware",
+      "keys": [
+        "t:核子防衛戰|Cinemaware"
+      ],
+      "status": "active",
+      "title_zh": "核子防衛戰"
+    },
+    "cdg-4673": {
+      "catalog_id": null,
+      "developer": "Thinking Rabbit",
+      "keys": [
+        "t:迷宮組曲|Thinking Rabbit"
+      ],
+      "status": "active",
+      "title_zh": "迷宮組曲"
+    },
+    "cdg-4674": {
+      "catalog_id": null,
+      "developer": "Silicon Beach Software",
+      "keys": [
+        "t:惡魔城|Silicon Beach Software"
+      ],
+      "status": "active",
+      "title_zh": "惡魔城（Dark Castle）"
+    },
+    "cdg-4675": {
+      "catalog_id": null,
+      "developer": "Capcom",
+      "keys": [
+        "t:鬥之輓歌|Capcom"
+      ],
+      "status": "active",
+      "title_zh": "鬥之輓歌"
+    },
+    "cdg-4676": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:加州運動會|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "加州運動會"
+    },
+    "cdg-4677": {
+      "catalog_id": null,
+      "developer": "Digital Integration",
+      "keys": [
+        "t:戰斧|Digital Integration"
+      ],
+      "status": "active",
+      "title_zh": "戰斧（Tomahawk）"
+    },
+    "cdg-4678": {
+      "catalog_id": null,
+      "developer": "First Star Software",
+      "keys": [
+        "t:奪寶奇兵|First Star Software"
+      ],
+      "status": "active",
+      "title_zh": "奪寶奇兵"
+    },
+    "cdg-4679": {
+      "catalog_id": null,
+      "developer": "Paragon Software",
+      "keys": [
+        "t:忍者大對決|Paragon Software"
+      ],
+      "status": "active",
+      "title_zh": "忍者大對決"
+    },
+    "cdg-4680": {
+      "catalog_id": null,
+      "developer": "Addictive Games",
+      "keys": [
+        "t:機器蜘蛛|Addictive Games"
+      ],
+      "status": "active",
+      "title_zh": "機器蜘蛛"
+    },
+    "cdg-4681": {
+      "catalog_id": null,
+      "developer": "Lerner Research",
+      "keys": [
+        "t:空中英雄|Lerner Research"
+      ],
+      "status": "active",
+      "title_zh": "空中英雄"
+    },
+    "cdg-4682": {
+      "catalog_id": null,
+      "developer": "Oxford Digital Enterprises",
+      "keys": [
+        "t:紅色十月號|Oxford Digital Enterprises"
+      ],
+      "status": "active",
+      "title_zh": "紅色十月號"
+    },
+    "cdg-4683": {
+      "catalog_id": null,
+      "developer": "Audiogenic",
+      "keys": [
+        "t:打磚塊（Blockbuster）|Audiogenic"
+      ],
+      "status": "active",
+      "title_zh": "打磚塊（Blockbuster）"
+    },
+    "cdg-4684": {
+      "catalog_id": null,
+      "developer": "Lerner Research",
+      "keys": [
+        "t:深太空|Lerner Research"
+      ],
+      "status": "active",
+      "title_zh": "深太空"
+    },
+    "cdg-4685": {
+      "catalog_id": null,
+      "developer": "Mirrorsoft",
+      "keys": [
+        "t:海獵鷹戰鬥機|Mirrorsoft"
+      ],
+      "status": "active",
+      "title_zh": "海獵鷹戰鬥機"
+    },
+    "cdg-4686": {
+      "catalog_id": null,
+      "developer": "Konami",
+      "keys": [
+        "t:綠扁帽|Konami"
+      ],
+      "status": "active",
+      "title_zh": "綠扁帽"
+    },
+    "cdg-4687": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:火狐狸2|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "火狐狸2"
+    },
+    "cdg-4688": {
+      "catalog_id": null,
+      "developer": "Mindware",
+      "keys": [
+        "t:銀河迷宮|Mindware"
+      ],
+      "status": "active",
+      "title_zh": "銀河迷宮"
+    },
+    "cdg-4689": {
+      "catalog_id": null,
+      "developer": "Lucasfilm Games",
+      "keys": [
+        "t:風雲戰艦|Lucasfilm Games"
+      ],
+      "status": "active",
+      "title_zh": "風雲戰艦"
+    },
+    "cdg-4690": {
+      "catalog_id": null,
+      "developer": "SSI",
+      "keys": [
+        "t:星際突擊隊|SSI"
+      ],
+      "status": "active",
+      "title_zh": "星際突擊隊"
+    },
+    "cdg-4691": {
+      "catalog_id": null,
+      "developer": "Canvas Software",
+      "keys": [
+        "t:卓別林專輯–摩登時代|Canvas Software"
+      ],
+      "status": "active",
+      "title_zh": "卓別林專輯–摩登時代"
+    },
+    "cdg-4692": {
+      "catalog_id": null,
+      "developer": "SNK",
+      "keys": [
+        "t:怒2：怒號層圈|SNK"
+      ],
+      "status": "active",
+      "title_zh": "怒2：怒號層圈"
+    },
+    "cdg-4693": {
+      "catalog_id": null,
+      "developer": "Interstel",
+      "keys": [
+        "t:銀河帝國大決戰|Interstel"
+      ],
+      "status": "active",
+      "title_zh": "銀河帝國大決戰"
+    },
+    "cdg-4694": {
+      "catalog_id": null,
+      "developer": "ActionSoft",
+      "keys": [
+        "t:潛艇大作戰|ActionSoft"
+      ],
+      "status": "active",
+      "title_zh": "潛艇大作戰"
+    },
+    "cdg-4695": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:野外棒球|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "野外棒球"
+    },
+    "cdg-4696": {
+      "catalog_id": null,
+      "developer": "Cinemaware",
+      "keys": [
+        "t:芝加哥教父|Cinemaware"
+      ],
+      "status": "active",
+      "title_zh": "芝加哥教父"
+    },
+    "cdg-4697": {
+      "catalog_id": null,
+      "developer": "Nexa Corporation",
+      "keys": [
+        "t:洛城警騎|Nexa Corporation"
+      ],
+      "status": "active",
+      "title_zh": "洛城警騎"
+    },
+    "cdg-4698": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:飛艇戰士|Titus"
+      ],
+      "status": "active",
+      "title_zh": "飛艇戰士"
+    },
+    "cdg-4699": {
+      "catalog_id": null,
+      "developer": "Infogrames",
+      "keys": [
+        "t:最後挑戰|Infogrames"
+      ],
+      "status": "active",
+      "title_zh": "最後挑戰"
+    },
+    "cdg-4700": {
+      "catalog_id": null,
+      "developer": "Artech Digital Entertainment",
+      "keys": [
+        "t:阿波羅18號|Artech Digital Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "阿波羅18號"
+    },
+    "cdg-4701": {
+      "catalog_id": null,
+      "developer": "Silent Software",
+      "keys": [
+        "t:坦克大對決|Silent Software"
+      ],
+      "status": "active",
+      "title_zh": "坦克大對決"
+    },
+    "cdg-4702": {
+      "catalog_id": null,
+      "developer": "Cinemaware",
+      "keys": [
+        "t:火箭突擊兵|Cinemaware"
+      ],
+      "status": "active",
+      "title_zh": "火箭突擊兵"
+    },
+    "cdg-4703": {
+      "catalog_id": null,
+      "developer": "U.S. Gold",
+      "keys": [
+        "t:俯衝轟炸機|U.S. Gold"
+      ],
+      "status": "active",
+      "title_zh": "俯衝轟炸機"
+    },
+    "cdg-4704": {
+      "title_zh": "亡命滑板",
+      "developer": "Electronic Arts",
+      "catalog_id": null,
+      "keys": [
+        "t:亡命滑板|Electronic Arts"
+      ],
+      "status": "active"
+    },
+    "cdg-4705": {
+      "title_zh": "籃球1對1",
+      "developer": "Electronic Arts",
+      "catalog_id": null,
+      "keys": [
+        "t:籃球1對1|Electronic Arts"
+      ],
+      "status": "active"
+    },
+    "cdg-4706": {
+      "title_zh": "火爆魚雷艇",
+      "developer": "Digital Illusions",
+      "catalog_id": null,
+      "keys": [
+        "t:火爆魚雷艇|Digital Illusions"
+      ],
+      "status": "active"
+    },
+    "cdg-4707": {
+      "title_zh": "喋血艦長",
+      "developer": "ERE Informatique",
+      "catalog_id": null,
+      "keys": [
+        "t:喋血艦長|ERE Informatique"
+      ],
+      "status": "active"
+    },
+    "cdg-4708": {
+      "title_zh": "威探闖通關",
+      "developer": "Silent Software",
+      "catalog_id": null,
+      "keys": [
+        "t:威探闖通關|Silent Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4709": {
+      "title_zh": "古巴反戰",
+      "developer": "SNK",
+      "catalog_id": null,
+      "keys": [
+        "t:古巴反戰|SNK"
+      ],
+      "status": "active"
+    },
+    "cdg-4710": {
+      "title_zh": "時空大盜",
+      "developer": "MichTron",
+      "catalog_id": null,
+      "keys": [
+        "t:時空大盜|MichTron"
+      ],
+      "status": "active"
+    },
+    "cdg-4711": {
+      "title_zh": "小鮫立大功",
+      "developer": "Hewson Consultants",
+      "catalog_id": null,
+      "keys": [
+        "t:小鮫立大功|Hewson Consultants"
+      ],
+      "status": "active"
+    },
+    "cdg-4712": {
+      "title_zh": "迷你高爾夫",
+      "developer": "Artech Digital Entertainment",
+      "catalog_id": null,
+      "keys": [
+        "t:迷你高爾夫|Artech Digital Entertainment"
+      ],
+      "status": "active"
+    },
+    "cdg-4713": {
+      "title_zh": "重金屬坦克",
+      "developer": "Access Software",
+      "catalog_id": null,
+      "keys": [
+        "t:重金屬坦克|Access Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4714": {
+      "title_zh": "星際征服者",
+      "developer": "Titus",
+      "catalog_id": null,
+      "keys": [
+        "t:星際征服者|Titus"
+      ],
+      "status": "active"
+    },
+    "cdg-4715": {
+      "title_zh": "全力反彈",
+      "developer": "Titus",
+      "catalog_id": null,
+      "keys": [
+        "t:全力反彈|Titus"
+      ],
+      "status": "active"
+    },
+    "cdg-4716": {
+      "title_zh": "蜘蛛人",
+      "developer": "Paragon Software",
+      "catalog_id": null,
+      "keys": [
+        "t:蜘蛛人|Paragon Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4717": {
+      "title_zh": "蠻俠神鷹",
+      "developer": "Probe Software",
+      "catalog_id": null,
+      "keys": [
+        "t:蠻俠神鷹|Probe Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4718": {
+      "title_zh": "集中火力",
+      "developer": "Actionware",
+      "catalog_id": null,
+      "keys": [
+        "t:集中火力|Actionware"
+      ],
+      "status": "active"
+    },
+    "cdg-4719": {
+      "title_zh": "海王星計劃",
+      "developer": "Infogrames",
+      "catalog_id": null,
+      "keys": [
+        "t:海王星計劃|Infogrames"
+      ],
+      "status": "active"
+    },
+    "cdg-4720": {
+      "title_zh": "地心探險",
+      "developer": "Topo Soft",
+      "catalog_id": null,
+      "keys": [
+        "t:地心探險|Topo Soft"
+      ],
+      "status": "active"
+    },
+    "cdg-4721": {
+      "title_zh": "魔斧",
+      "developer": "Palace Software",
+      "catalog_id": null,
+      "keys": [
+        "t:魔斧|Palace Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4722": {
+      "title_zh": "超人",
+      "developer": "Tynesoft",
+      "catalog_id": null,
+      "keys": [
+        "t:超人|Tynesoft"
+      ],
+      "status": "active"
+    },
+    "cdg-4723": {
+      "title_zh": "變形金鋼",
+      "developer": "Arsys Software",
+      "catalog_id": null,
+      "keys": [
+        "t:變形金鋼|Arsys Software"
+      ],
+      "status": "active"
+    },
+    "cdg-4724": {
+      "catalog_id": null,
+      "developer": "Domark",
+      "keys": [
+        "t:殺人執照|Domark"
+      ],
+      "status": "active",
+      "title_zh": "殺人執照"
+    },
+    "cdg-4725": {
+      "catalog_id": null,
+      "developer": "Doka",
+      "keys": [
+        "t:俄羅斯方塊2|Doka"
+      ],
+      "status": "active",
+      "title_zh": "俄羅斯方塊2"
+    },
+    "cdg-4726": {
+      "catalog_id": null,
+      "developer": "SEGA",
+      "keys": [
+        "t:異形（Alien Syndrome）|SEGA"
+      ],
+      "status": "active",
+      "title_zh": "異形（Alien Syndrome）"
+    },
+    "cdg-4727": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:瑪雅迷蹤|Silmarils",
+        "t:Le Fetiche Maya|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "瑪雅迷蹤"
+    },
+    "cdg-4728": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:聖劍之征|Titus",
+        "t:Knight Force|Titus"
+      ],
+      "status": "active",
+      "title_zh": "聖劍之征"
+    },
+    "cdg-4729": {
+      "catalog_id": null,
+      "developer": "Blue Byte",
+      "keys": [
+        "t:職業網球大賽|Blue Byte",
+        "t:Pro Tennis Tour|Blue Byte"
+      ],
+      "status": "active",
+      "title_zh": "職業網球大賽"
+    },
+    "cdg-4730": {
+      "catalog_id": null,
+      "developer": "Loriciel",
+      "keys": [
+        "t:Ｍ４雪曼坦克|Loriciel",
+        "t:Sherman M4|Loriciel"
+      ],
+      "status": "active",
+      "title_zh": "M4雪曼坦克"
+    },
+    "cdg-4731": {
+      "catalog_id": null,
+      "developer": "Artech",
+      "keys": [
+        "t:藍天使－飛行特技小組|Artech",
+        "t:Blue Angels: Formation Flight Simulation|Artech"
+      ],
+      "status": "active",
+      "title_zh": "藍天使－飛行特技小組"
+    },
+    "cdg-4732": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:藍天碧海風浪板|Silmarils",
+        "t:Windsurf Willy|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "藍天碧海風浪板"
+    },
+    "cdg-4733": {
+      "catalog_id": null,
+      "developer": "Atari Games",
+      "keys": [
+        "t:激流浪子|Atari Games",
+        "t:Toobin'|Atari Games"
+      ],
+      "status": "active",
+      "title_zh": "激流浪子"
+    },
+    "cdg-4734": {
+      "catalog_id": null,
+      "developer": "Electronic Arts",
+      "keys": [
+        "t:雪國狄斯奈|Electronic Arts",
+        "t:Ski or Die|Electronic Arts"
+      ],
+      "status": "active",
+      "title_zh": "雪國狄斯奈"
+    },
+    "cdg-4735": {
+      "catalog_id": null,
+      "developer": "Broderbund",
+      "keys": [
+        "t:拼碰盤|Broderbund",
+        "t:Shufflepuck Cafe|Broderbund"
+      ],
+      "status": "active",
+      "title_zh": "拼碰盤"
+    },
+    "cdg-4736": {
+      "catalog_id": null,
+      "developer": "Infogrames",
+      "keys": [
+        "t:跳跳飛球|Infogrames",
+        "t:Pop-Up|Infogrames"
+      ],
+      "status": "active",
+      "title_zh": "跳跳飛球"
+    },
+    "cdg-4737": {
+      "catalog_id": null,
+      "developer": "Opera Soft",
+      "keys": [
+        "t:叢林之神|Opera Soft",
+        "t:Livingstone II|Opera Soft"
+      ],
+      "status": "active",
+      "title_zh": "叢林之神"
+    },
+    "cdg-4738": {
+      "catalog_id": null,
+      "developer": "Coktel Vision",
+      "keys": [
+        "t:巴黎─達卡越野大賽|Coktel Vision",
+        "t:Paris-Dakar 1990|Coktel Vision"
+      ],
+      "status": "active",
+      "title_zh": "巴黎─達卡越野大賽"
+    },
+    "cdg-4739": {
+      "catalog_id": null,
+      "developer": "SEGA",
+      "keys": [
+        "t:獸王記|Sega",
+        "t:Altered Beast|Sega"
+      ],
+      "status": "active",
+      "title_zh": "獸王記"
+    },
+    "cdg-4740": {
+      "catalog_id": null,
+      "developer": "Special FX Software",
+      "keys": [
+        "t:蝙蝠俠|Special FX Software",
+        "t:Batman: The Caped Crusader|Special FX Software"
+      ],
+      "status": "active",
+      "title_zh": "蝙蝠俠"
+    },
+    "cdg-4741": {
+      "catalog_id": null,
+      "developer": "Cryo",
+      "keys": [
+        "t:意亂情迷|Cryo",
+        "t:Extase|Cryo"
+      ],
+      "status": "active",
+      "title_zh": "意亂情迷"
+    },
+    "cdg-4742": {
+      "catalog_id": null,
+      "developer": "Methodic Solutions",
+      "keys": [
+        "t:銀行大盜|Methodic Solutions",
+        "t:Bank Buster|Methodic Solutions"
+      ],
+      "status": "active",
+      "title_zh": "銀行大盜"
+    },
+    "cdg-4743": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:模擬城市地形編修程式|Maxis",
+        "t:SimCity: Terrain Editor|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "模擬城市地形編修程式"
+    },
+    "cdg-4744": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:極光勇士|Silmarils",
+        "t:StarBlade|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "極光勇士"
+    },
+    "cdg-4745": {
+      "catalog_id": null,
+      "developer": "Sterling Silver Software",
+      "keys": [
+        "t:PGA職業高爾夫巡迴賽|Sterling Silver Software",
+        "t:PGA Tour Golf|Sterling Silver Software"
+      ],
+      "status": "active",
+      "title_zh": "PGA職業高爾夫巡迴賽"
+    },
+    "cdg-4746": {
+      "catalog_id": null,
+      "developer": "Publishing International",
+      "keys": [
+        "t:石之道|Publishing International"
+      ],
+      "status": "active",
+      "title_zh": "石之道"
+    },
+    "cdg-4747": {
+      "catalog_id": null,
+      "developer": "Argonaut Software",
+      "keys": [
+        "t:霹靂男兒|Argonaut Software"
+      ],
+      "status": "active",
+      "title_zh": "霹靂男兒"
+    },
+    "cdg-4748": {
+      "catalog_id": null,
+      "developer": "Hewson Consultants",
+      "keys": [
+        "t:十字逆襲|Hewson Consultants"
+      ],
+      "status": "active",
+      "title_zh": "十字逆襲"
+    },
+    "cdg-4749": {
+      "catalog_id": null,
+      "developer": "Oxford Digital Enterprises",
+      "keys": [
+        "t:通天蜘蛛人|Oxford Digital Enterprises"
+      ],
+      "status": "active",
+      "title_zh": "通天蜘蛛人"
+    },
+    "cdg-4750": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:銀河飛將：秘密任務|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛將：秘密任務"
+    },
+    "cdg-4751": {
+      "catalog_id": null,
+      "developer": "Digital Integration",
+      "keys": [
+        "t:空戰奇兵|Digital Integration"
+      ],
+      "status": "active",
+      "title_zh": "空戰奇兵"
+    },
+    "cdg-4752": {
+      "catalog_id": null,
+      "developer": "The Assembly Line",
+      "keys": [
+        "t:第六感生死關頭|The Assembly Line"
+      ],
+      "status": "active",
+      "title_zh": "第六感生死關頭"
+    },
+    "cdg-4753": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:加州運動會2|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "加州運動會2"
+    },
+    "cdg-4754": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:銀河飛將：秘密任務2|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛將：秘密任務2"
+    },
+    "cdg-4755": {
+      "catalog_id": null,
+      "developer": "Sandcastle Productions",
+      "keys": [
+        "t:趣味高爾夫|Sandcastle Productions"
+      ],
+      "status": "active",
+      "title_zh": "趣味高爾夫"
+    },
+    "cdg-4756": {
+      "catalog_id": null,
+      "developer": "Paragon Software",
+      "keys": [
+        "t:俄式遊戲集錦|Paragon Software"
+      ],
+      "status": "active",
+      "title_zh": "俄式遊戲集錦"
+    },
+    "cdg-4757": {
+      "catalog_id": null,
+      "developer": "Joined Up Writing Software",
+      "keys": [
+        "t:魔幻遊樂場|Joined Up Writing Software"
+      ],
+      "status": "active",
+      "title_zh": "魔幻遊樂場"
+    },
+    "cdg-4758": {
+      "catalog_id": null,
+      "developer": "Ubisoft",
+      "keys": [
+        "t:六角神兵|"
+      ],
+      "status": "active",
+      "title_zh": "六角神兵"
+    },
+    "cdg-4759": {
+      "catalog_id": null,
+      "developer": "Astral Software",
+      "keys": [
+        "t:緝毒特勤組|Astral Software"
+      ],
+      "status": "active",
+      "title_zh": "緝毒特勤組"
+    },
+    "cdg-4760": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:F-15鷹式戰鬥機2資料片：沙漠風暴|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "F-15鷹式戰鬥機2資料片：沙漠風暴"
+    },
+    "cdg-4761": {
+      "catalog_id": null,
+      "developer": "Accolade",
+      "keys": [
+        "t:名車大賽3資料片|Accolade"
+      ],
+      "status": "active",
+      "title_zh": "名車大賽3資料片"
+    },
+    "cdg-4762": {
+      "catalog_id": null,
+      "developer": "Ubi Soft",
+      "keys": [
+        "t:復國恩仇錄|Ubi Soft"
+      ],
+      "status": "active",
+      "title_zh": "復國恩仇錄"
+    },
+    "cdg-4763": {
+      "catalog_id": null,
+      "developer": "Capstone",
+      "keys": [
+        "t:樂透黃金夢|None"
+      ],
+      "status": "active",
+      "title_zh": "樂透黃金夢"
+    },
+    "cdg-4764": {
+      "catalog_id": null,
+      "developer": "The Bitmap Brothers",
+      "keys": [
+        "t:火爆鋼球|The Bitmap Brothers"
+      ],
+      "status": "active",
+      "title_zh": "火爆鋼球"
+    },
+    "cdg-4765": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:銀河飛將2：特別任務1|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛將2：特別任務1"
+    },
+    "cdg-4766": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:銀河飛將2：特別任務2|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛將2：特別任務2"
+    },
+    "cdg-4767": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:創世紀7：美德試煉場|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "創世紀7：美德試煉場"
+    },
+    "cdg-4770": {
+      "catalog_id": null,
+      "developer": "Vivid Image",
+      "keys": [
+        "t:天下第一刀|Vivid Image"
+      ],
+      "status": "active",
+      "title_zh": "天下第一刀"
+    },
+    "cdg-4771": {
+      "catalog_id": null,
+      "developer": "Artech Studios",
+      "keys": [
+        "t:玩具兵棋|Artech Studios"
+      ],
+      "status": "active",
+      "title_zh": "玩具兵棋"
+    },
+    "cdg-4768": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:撞球補習班|None"
+      ],
+      "status": "active",
+      "title_zh": "撞球補習班"
     }
   }
 }
