@@ -1,52 +1,87 @@
 ---
 import Base from '../layouts/Base.astro';
+import DosBar from '../components/DosBar.astro';
+import { getCollection } from 'astro:content';
+import { distinctValues, vendorsOf } from '../lib/gamesQuery.js';
 import { LOC_LABELS } from '../lib/labels.js';
 import { withBase } from '../lib/links.js';
+import { latestModified } from '../lib/gitdates.js';
 // keep level names in sync with labels.js; descriptions per CLAUDE.md scope
 const LOC_DESC = {
   native: '原生中文開發（大宇、智冠、漢堂、精訊…）',
   localized: '官方中文版／代理中文化',
   packaging: '僅包裝／說明書中文，遊戲內仍英文',
-  foreign: '收錄但無中文化的外文遊戲',
+  foreign: '原則不收無中文化／中文包裝的國外遊戲；僅為補完系列脈絡（如創世紀、巫術系列未引進台灣的部分作品）而破例收錄的純外文遊戲',
 };
+// site-wide figures for the infobox
+const allGames = (await getCollection('games')).map(e => e.data);
+const pubGames = allGames.filter(g => g.published);
+const people = (await getCollection('people')).filter(e => e.data.published);
+const fmt = n => n.toLocaleString('en-US');
+const stats = {
+  published: pubGames.length,
+  series: distinctValues(pubGames, g => g.series).length,
+  companies: distinctValues(pubGames, vendorsOf).length,
+  people: people.length,
+  images: pubGames.reduce((n, g) => n + (g.media?.length || 0), 0),
+};
+const updated = latestModified()?.slice(0, 10);
 ---
 <Base title="關於｜中文 DOS 遊戲資料庫">
-  <article class="prose">
-    <h1>關於本資料庫</h1>
-    <p>本站以完整收錄曾於台灣市場出現的 DOS 遊戲為主要目標，涵蓋原生中文、中文化版本，以及僅提供中文包裝或說明書的作品。</p>
-    <p>此外，資料庫亦延伸收錄 DOS 主線之外的部分國產作品。這些作品一方面補足遊戲系列與廠商沿革的脈絡，另一方面也更完整呈現台灣電腦遊戲市場與技術平台的演進，主要包含下列幾類：</p>
-    <ul>
-      <li>早期 Apple II 時期的國產遊戲；</li>
-      <li>後期 Windows 95 時期的部分國產遊戲；</li>
-      <li>知名國產遊戲系列在 DOS 時代之後推出的後續續作，以呈現系列的完整脈絡；</li>
-      <li>DOS 時代重要國產廠商在此之後的發行，藉以了解這些公司的後續發展。</li>
-    </ul>
+  <DosBar path="關於" />
+  <div class="game-wiki">
+    <div class="gw-main prose">
+      <h1>關於本資料庫</h1>
+      <p>本站以完整收錄曾於台灣市場出現的 DOS 遊戲為主要目標，涵蓋原生中文、中文化版本，以及僅提供中文包裝或說明書的作品。</p>
+      <p>此外，資料庫亦延伸收錄 DOS 主線之外的部分國產作品。這些作品一方面補足遊戲系列與廠商沿革的脈絡，另一方面也更完整呈現台灣電腦遊戲市場與技術平台的演進，主要包含下列幾類：</p>
+      <ul>
+        <li>早期 Apple II 時期的國產遊戲；</li>
+        <li>後期 Windows 95 時期的部分國產遊戲；</li>
+        <li>知名國產遊戲系列在 DOS 時代之後推出的後續續作，以呈現系列的完整脈絡；</li>
+        <li>DOS 時代重要國產廠商在此之後的發行，藉以了解這些公司的後續發展。</li>
+      </ul>
 
-    <h2>收錄準則</h2>
-    <ul>
-      <li>收錄有實際發行的遊戲；台灣產品導向（以台灣發行／代理為主）。</li>
-      <li>中文化分級全收，再用標記篩選：
-        <ul>
-          {Object.entries(LOC_LABELS).map(([k, label]) => <li><strong>{label}</strong>——{LOC_DESC[k]}</li>)}
-        </ul>
-      </li>
-      <li>缺資料以空值表示、不剔除；每筆力求可查證、附來源。</li>
-      <li>遊戲類型採 22 類／7 大類分類體系，詳見<a class="lk" href={withBase('/genres/guide')}>類型分類說明</a>。</li>
-    </ul>
+      <h2>收錄準則</h2>
+      <ul>
+        <li>收錄有實際發行的遊戲；台灣產品導向（以台灣發行／代理為主）。</li>
+        <li>中文化分級全收，再用標記篩選：
+          <ul>
+            {Object.entries(LOC_LABELS).map(([k, label]) => <li><strong>{label}</strong>——{LOC_DESC[k]}</li>)}
+          </ul>
+        </li>
+        <li>缺資料以空值表示、不剔除；每筆力求可查證、附來源。</li>
+        <li>遊戲類型採 22 類／7 大類分類體系，詳見<a class="lk" href={withBase('/genres/guide')}>類型分類說明</a>。</li>
+      </ul>
 
-    <h2>資料來源</h2>
-    <p>本資料庫整合並交叉比對下列社群與典藏網站的資料，謹此致謝：</p>
-    <ul>
-      <li><a href="https://chiuinan.github.io/game/" target="_blank" rel="noopener">青衫之友</a></li>
-      <li><a href="https://boneash.oldgame.tw/" target="_blank" rel="noopener">骨灰集散地</a></li>
-      <li><a href="https://omega.idv.tw/" target="_blank" rel="noopener">Omega 數位典藏</a></li>
-      <li><a href="https://cn-dos-games.fandom.com/zh/" target="_blank" rel="noopener">CN DOS Games Wiki（Fandom）</a></li>
-      <li><a href="https://github.com/rwv/chinese-dos-games" target="_blank" rel="noopener">chinese-dos-games（rwv）</a></li>
-      <li><a href="https://archive.org/details/cndosgames" target="_blank" rel="noopener">OfflineList · cndosgames（Internet Archive）</a></li>
-      <li><a href="https://www.old-games.ru/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85_%D0%B8%D0%B3%D1%80" target="_blank" rel="noopener">old-games.ru Wiki（中文遊戲列表）</a></li>
-    </ul>
-    <p>各條目均保留來源標記與外部參考連結，以利查證與回溯。</p>
+      <h2>資料來源</h2>
+      <p>本資料庫整合並交叉比對下列社群與典藏網站的資料，謹此致謝：</p>
+      <ul>
+        <li><a href="https://chiuinan.github.io/game/" target="_blank" rel="noopener">青衫之友</a></li>
+        <li><a href="https://boneash.oldgame.tw/" target="_blank" rel="noopener">骨灰集散地</a></li>
+        <li><a href="https://omega.idv.tw/" target="_blank" rel="noopener">Omega 數位典藏</a></li>
+        <li><a href="https://cn-dos-games.fandom.com/zh/" target="_blank" rel="noopener">CN DOS Games Wiki（Fandom）</a></li>
+        <li><a href="https://github.com/rwv/chinese-dos-games" target="_blank" rel="noopener">chinese-dos-games（rwv）</a></li>
+        <li><a href="https://archive.org/details/cndosgames" target="_blank" rel="noopener">OfflineList · cndosgames（Internet Archive）</a></li>
+        <li><a href="https://www.old-games.ru/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85_%D0%B8%D0%B3%D1%80" target="_blank" rel="noopener">old-games.ru Wiki（中文遊戲列表）</a></li>
+      </ul>
+      <p>各條目均保留來源標記與外部參考連結，以利查證與回溯。</p>
 
-    <p class="muted">內容持續增補，歡迎指正。</p>
-  </article>
+      <h2>致謝</h2>
+      <p>這個資料庫並非從零開始。中文 DOS 遊戲的歷史，是由許多前輩一磚一瓦累積下來的——從青衫之友、骨灰集散地、Omega 數位典藏等典藏站台多年的整理與保存，到無數玩家在巴哈姆特、PTT 上分享的記憶、考據與掃描，他們為這段逐漸遠去的歷史留下了珍貴的一手紀錄。本站只是站在這些前人的肩膀上，將散落各處的資料彙整、交叉比對、重新編目。謹向所有曾為中文遊戲史付出心力的先進，致上最深的謝意。</p>
+
+      <p class="muted">內容持續增補，歡迎指正。</p>
+    </div>
+    <aside class="gw-ib">
+      <div class="infobox-wrap">
+        <table class="infobox stats">
+          <tr><th>遊戲條目</th><td>{fmt(stats.published)} 款</td></tr>
+          <tr><th>遊戲系列</th><td>{fmt(stats.series)}</td></tr>
+          <tr><th>廠商</th><td>{fmt(stats.companies)}</td></tr>
+          <tr><th>收錄人物</th><td>{fmt(stats.people)}</td></tr>
+          <tr><th>圖片</th><td>{fmt(stats.images)} 張</td></tr>
+          {updated && <tr><th>最後更新</th><td>{updated}</td></tr>}
+        </table>
+      </div>
+    </aside>
+  </div>
 </Base>

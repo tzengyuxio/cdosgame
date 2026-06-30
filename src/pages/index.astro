@@ -2,8 +2,8 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
-import { seriesUrl, companyUrl, decadeUrl, genreUrl, withBase } from '../lib/links.js';
-import { genreLabel } from '../lib/labels.js';
+import { seriesUrl, decadeUrl, gameUrl, withBase } from '../lib/links.js';
+import { coverOf, thumbUrl } from '../lib/media.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified } from '../lib/gitdates.js';
 
@@ -15,9 +15,15 @@ const companies = distinctValues(games, vendorsOf);
 const featSeries = [...bySeries.entries()]
   .map(([name, list]) => ({ name, list, range: yearRange(list) }))
   .sort((a, b) => b.list.length - a.list.length).slice(0, 8);
-const topCompanies = companies.slice(0, 12);
 const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.value.localeCompare(b.value));
-const genres = distinctValues(games, g => g.genre);
+// Featured cover wall: all entries carrying a box-front scan form the pool; the
+// client shuffles it on each visit. SSR renders a stable best-documented subset
+// as the no-JS fallback.
+const WALL_N = 18;
+const coverGames = games.filter(g => (g.media || []).some(m => m.kind === 'box-front'));
+const toCard = g => ({ u: gameUrl(g.id), img: thumbUrl('games', g.id, coverOf(g.media).src), t: g.title_zh });
+const coverPool = coverGames.map(toCard);
+const featured = [...coverGames].sort((a, b) => (b.media?.length || 0) - (a.media?.length || 0)).slice(0, WALL_N).map(toCard);
 const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
 const desc = `盡可能齊全、重考據的中文 DOS 時代遊戲百科——已收錄 ${total} 款，涵蓋 ${seriesCount} 個系列、${companies.length} 家廠商，並附廠商、系列、人物與考據資料。`;
 const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site, description: desc, count: total, dateModified: latestModified() })];
@@ -30,6 +36,16 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     <a class="btn" href={withBase('/games')}>瀏覽全部</a> <button class="btn" id="random">隨機探索</button>
   </section>
 
+  <h2 class="section-h">精選封面</h2>
+  <div class="coverwall" id="coverwall">
+    {featured.map(c => (
+      <a class="cwall" href={c.u}>
+        <img src={c.img} alt={`${c.t} 封面`} loading="lazy" />
+        <span class="t">{c.t}</span>
+      </a>
+    ))}
+  </div>
+
   <h2 class="section-h">經典系列</h2>
   <div class="cardrow">
     {featSeries.map(s => (
@@ -41,21 +57,24 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     ))}
   </div>
 
-  <h2 class="section-h">主要廠商</h2>
-  <div class="vendrow">
-    {topCompanies.map(c => <a class="vend" href={companyUrl(c.value)}>{c.value} <span class="c">{c.count}</span></a>)}
-    <a class="lk" href={withBase('/companies')}>全部廠商 →</a>
-  </div>
-
   <h2 class="section-h">依年代</h2>
   <div class="vendrow">
     {decades.map(d => <a class="vend" href={decadeUrl(d.value)}>{d.value} <span class="c">{d.count}</span></a>)}
   </div>
 
-  <h2 class="section-h">依類型</h2>
-  <div class="vendrow">
-    {genres.map(g => <a class="vend" href={genreUrl(g.value)}>{genreLabel(g.value)} <span class="c">{g.count}</span></a>)}
-  </div>
+  <p class="browse-more">瀏覽更多：<a class="lk" href={withBase('/companies')}>廠商</a> · <a class="lk" href={withBase('/series')}>系列</a> · <a class="lk" href={withBase('/genres')}>類型</a> · <a class="lk" href={withBase('/people')}>人物</a> · <a class="lk" href={withBase('/topics')}>專題</a></p>
+
+  <script is:inline define:vars={{ pool: coverPool, wallN: WALL_N }}>
+    // Shuffle the cover pool on each visit and render WALL_N tiles.
+    const wall = document.getElementById('coverwall');
+    if (wall && pool.length) {
+      for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+      const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      wall.innerHTML = pool.slice(0, wallN).map(c =>
+        `<a class="cwall" href="${esc(c.u)}"><img src="${esc(c.img)}" alt="${esc(c.t)} 封面" loading="lazy"><span class="t">${esc(c.t)}</span></a>`
+      ).join('');
+    }
+  </script>
 
   <script>
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');

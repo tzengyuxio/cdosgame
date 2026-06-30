@@ -8,7 +8,18 @@
 
 - 每款遊戲一個純文字檔（`content/games/cdg-NNNN.md`，YAML frontmatter + 考據正文），git-backable、可開放 PR 貢獻。
 - 以 [Astro](https://astro.build/) Content Collections + Zod 驗證建置為靜態站，部署於 GitHub Pages。
-- 除遊戲外，另有廠商、系列、開發團隊、人物等實體頁，彼此交叉連結。
+- 除遊戲外，另有廠商、系列、開發團隊、人物、主題等實體頁，彼此交叉連結。
+- 封面、廣告、地圖、攻略等掃描圖片建有 media 圖庫（已版控的縮圖在 `public/media/`，原圖另存）。
+
+## 目前規模
+
+截至 2026 年 7 月：
+
+- **遊戲** 已發佈考據正文 1203 款（涵蓋於 catalog 全部約 4670 款已知／候選條目之中，其餘待補）
+- **實體頁** 廠商 39、系列 27、團隊 2、人物 17、主題 9
+- **圖片** 401 張（163 款遊戲，約 81 MB）
+
+（數字隨進度變動，最新值跑 `npm run stats`。）
 
 ## 收錄原則
 
@@ -23,6 +34,7 @@
 npm install
 npm run dev        # 本機預覽 (http://localhost:4321)
 npm run validate   # 用 Zod 驗證所有 content frontmatter
+npm run stats      # 內容／圖片／完整度統計總覽
 npm run build      # 產生靜態站到 dist/
 ```
 

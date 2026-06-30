@@ -1,9 +1,11 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import DosBar from '../../components/DosBar.astro';
 import GameList from '../../components/GameList.astro';
 import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
-import { companyUrl, topicUrl, withBase } from '../../lib/links.js';
+import { genreLabel } from '../../lib/labels.js';
+import { companyUrl, genreUrl, topicUrl, withBase } from '../../lib/links.js';
 import { seriesJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
 import Share from '../../components/Share.astro';
@@ -21,6 +23,8 @@ const { series } = Astro.params;
 const { list } = Astro.props;
 const games = [...list].sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999));
 const dev = topValue(list, g => g.developer);
+const pub = topValue(list, g => (g.publisher_tw || [])[0]);
+const topGenre = topValue(list, g => g.genre);
 const range = yearRange(list);
 // only resolve a curated series md when it exists (avoids getEntry miss warnings)
 const have = new Set((await getCollection('series')).map(e => e.id));
@@ -44,12 +48,28 @@ const jsonLd = [
 ];
 ---
 <Base title={`${series}系列｜中文 DOS 遊戲資料庫`} description={desc} ogType="article" jsonLd={jsonLd}>
-  <h1 class="hub-title">{series}系列 <span class="hub-count">{games.length} 款</span></h1>
-  <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
-  {Body && <div class="prose"><Body /></div>}
-  <GameList games={games} />
-  {topics.length > 0 && (
-    <><h2>專題／延伸條目</h2><ul class="glist">{topics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}</ul></>
-  )}
-  <Share />
+  <DosBar path={`SERIES\\${series}`} right={`${games.length} 款`} />
+  <div class="game-wiki">
+    <div class="gw-main">
+      <h1 class="game-title">{series}系列</h1>
+      <div class="entity-sub">{dev && <>主要廠商 <a class="lk" href={companyUrl(dev)}>{dev}</a> · </>}{range && `${range.min}–${range.max}`}</div>
+      {Body && <div class="prose"><Body /></div>}
+      <GameList games={games} />
+      {topics.length > 0 && (
+        <><h2>專題／延伸條目</h2><ul class="glist">{topics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}</ul></>
+      )}
+    </div>
+    <aside class="gw-ib">
+      <div class="infobox-wrap">
+        <table class="infobox">
+          <tr><th>作品數</th><td>{games.length} 款</td></tr>
+          {range && <tr><th>年代</th><td>{range.min === range.max ? range.min : `${range.min}–${range.max}`}</td></tr>}
+          {dev && <tr><th>開發商</th><td><a class="lk" href={companyUrl(dev)}>{dev}</a></td></tr>}
+          {pub && <tr><th>主要發行</th><td><a class="lk" href={companyUrl(pub)}>{pub}</a></td></tr>}
+          {topGenre && <tr><th>類型</th><td><a class="lk" href={genreUrl(topGenre)}>{genreLabel(topGenre)}</a></td></tr>}
+        </table>
+      </div>
+      <Share />
+    </aside>
+  </div>
 </Base>
