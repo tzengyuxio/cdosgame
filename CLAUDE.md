@@ -46,6 +46,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 改完跑 `merge_sources --write → build_content → npm run validate`（純改 `overrides.json` 可只跑 `build_content → npm run validate`）。
 圖片：`fetch_rwv_covers` / `fetch_fandom_images` / `fetch_chiuinan_screenshots` / `fetch_offlinelist_images`（下載到 `raw/**/img/`，gitignored，附 manifest）。
 驗證：`npm run validate`（Zod 驗 content frontmatter）。
+統計：`npm run stats`（內容頁總覽／media 圖片／完整度缺料；子命令 `-- --content` / `--images` / `--completeness`，`--images --include-raw` 連 gitignored 的 `raw/` 圖一起算）。
 
 ### 關鍵慣例
 

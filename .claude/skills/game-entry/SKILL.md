@@ -19,7 +19,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ## Behavior
 
 ### 1. 定位或建檔
-- 既有款：`rg -n "title_zh: <名>" content/games` 找 `cdg-NNNN`。
+- 既有款：`rg -n "title_zh: <名>" content/games` 找 `cdg-NNNN`；**批次比對改用英文名/別名**（短中文名會誤中同名作與系列成員）。
 - 新款：挑下一個未用 id，並在 `data/id-registry.json`（append-only）補登（見 CLAUDE.md / id-policy）。
 
 ### 2. 研究（web，缺料用 null 不杜撰）
@@ -43,7 +43,8 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **外文遊戲（無中文化）**：`localization_level: foreign`、`publisher_tw: []`、`content_language` 填原文（如 `en`）、`developer_region` 填原國別。
 - **軟體世界 貴族版／平價版／珍藏版的外文重發**＝budget 重包裝英文版：標 `localization_level: packaging`＋`license_status: unofficial`＋`content_language: en`＋`publisher_tw`（軟體世界／智冠，沿用既有 sibling）；**僅在無任何台灣發行**（只靠雜誌介紹、水貨流通，如冰城傳奇初代）才用 `foreign`＋`publisher_tw: []`。
 - **標題用半形阿拉伯數字**：系列序號寫半形（`宇宙傳奇2`、`冰城傳奇3`），副標分隔用全形冒號（`：`）。沿用舊 stub 常見全形數字（`宇宙傳奇２`），**一律改半形**，`data/id-registry.json` 同步。
-- **`release_codes` 別從 `catalog_id` 推導**：`SWT/SWE/SCD…` 是來源側索引，**≠** 珍／貴 編號；珍／貴 release code 只來自 softworld 掃描（`provenance: softworld@boneash-scan`），查無就留空、**別捏造**（別把 `catalog_id: SWT284` 寫成 `珍284`）。
+- **同中文名不同款消歧義**（譯名撞名，如 Golden Axe vs Tomahawk 都譯「戰斧」、Castlevania vs Dark Castle 都譯「惡魔城」、Blockbuster vs 中國製打磚塊）：兩筆標題都加**全形括號＋英文原名**（`戰斧（Tomahawk）`／`戰斧（Golden Axe）`、`打磚塊（Blockbuster）`），裸名留進 `title_aliases`、`id-registry` 的 `title_zh` 同步；已用序號區分的系列成員（惡魔城1/2/傳說）免。沿用 `下級生（日）` 既有慣例。正文側仍照 §4-3 自然 cross-link「為不同作品」。
+- **`release_codes`（珍／貴／平 NNN）查法＋誤植**：碼**不在使用者清單裡** → 從 `derived/softworld-games.json` 用 `name_en` 反查（欄位 `code/series/name/name_en`）；**別從 `catalog_id` 推導**（`SWT/SWE/SCD…` 是來源側索引，`SWE0NN` 與 `貴0NN` 偶然吻合但不可靠——cdg-3726 SWE017 實為魔法門2），查無就留空、**別捏造**（別把 `catalog_id: SWT284` 寫成 `珍284`）。⚠ **誤掛紅旗**：某 `foreign`＋`publisher_tw: []`（無台灣發行）卻掛著珍/貴碼 → 多半是 fuzzy-merge 依相同中文名誤抓別款的碼（戰斧/Golden Axe 誤掛 Tomahawk 的貴032）；用 softworld 反查該碼真正 `name_en`，不符就移除碼與連帶 `softworld@boneash-scan` provenance。**多片上/下共用一碼＝單條目單碼**（Ultima V 貴057）；**同款先後收貴族版+珍藏版＝雙碼並列**（Manhunter 貴087+珍001）。
 - **研究常挖出既有 frontmatter 誤植**（代理商張冠李戴、開發商國別、localization 等）——順手訂正；存疑處記 `docs/backlog/game-entry-review.md`。
 
 ### 4. 寫正文（房屋風格）
