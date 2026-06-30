@@ -14018,8 +14018,9 @@
       "keys": [
         "cat:SWT180"
       ],
-      "status": "active",
-      "title_zh": "香港麻將"
+      "status": "merged",
+      "title_zh": "香港麻將",
+      "merged_into": "cdg-4610"
     },
     "cdg-1553": {
       "catalog_id": "SCD2391",
@@ -14532,8 +14533,9 @@
       "keys": [
         "cat:SWE171"
       ],
-      "status": "active",
-      "title_zh": "俄羅斯方塊2"
+      "status": "merged",
+      "title_zh": "俄羅斯方塊2",
+      "merged_into": "cdg-4725"
     },
     "cdg-1610": {
       "catalog_id": "Z117",
@@ -17704,8 +17706,9 @@
       "keys": [
         "cat:SWT201"
       ],
-      "status": "active",
-      "title_zh": "雀之塔"
+      "status": "merged",
+      "title_zh": "雀之塔",
+      "merged_into": "cdg-4616"
     },
     "cdg-1962": {
       "catalog_id": "SCD0100",
@@ -23458,8 +23461,9 @@
       "keys": [
         "cat:SWT100"
       ],
-      "status": "active",
-      "title_zh": "醫生也瘋狂2：腦科篇"
+      "status": "merged",
+      "title_zh": "醫生也瘋狂2：腦科篇",
+      "merged_into": "cdg-4583"
     },
     "cdg-2600": {
       "catalog_id": "SCD1520",
@@ -34343,8 +34347,9 @@
       "keys": [
         "cat:SWT137"
       ],
-      "status": "active",
-      "title_zh": "歡樂滿點"
+      "status": "merged",
+      "title_zh": "歡樂滿點",
+      "merged_into": "cdg-4594"
     },
     "cdg-3804": {
       "catalog_id": "SCD0600",
@@ -36357,8 +36362,9 @@
       "keys": [
         "t:銀河帝國大決戰|None"
       ],
-      "status": "active",
-      "title_zh": "銀河帝國大決戰"
+      "status": "merged",
+      "title_zh": "銀河帝國大決戰",
+      "merged_into": "cdg-4693"
     },
     "cdg-4026": {
       "catalog_id": null,
@@ -36908,8 +36914,9 @@
       "keys": [
         "t:鐵路A計畫|None"
       ],
-      "status": "active",
-      "title_zh": "鐵路A計畫"
+      "status": "merged",
+      "title_zh": "鐵路A計畫",
+      "merged_into": "cdg-0039"
     },
     "cdg-4086": {
       "catalog_id": null,
@@ -37961,8 +37968,9 @@
       "keys": [
         "t:太閤立志傳|None"
       ],
-      "status": "active",
-      "title_zh": "太閤立志傳"
+      "status": "merged",
+      "title_zh": "太閤立志傳",
+      "merged_into": "cdg-0503"
     },
     "cdg-4202": {
       "catalog_id": null,
