@@ -10217,7 +10217,7 @@
     },
     "cdg-1131": {
       "catalog_id": "SCD2229",
-      "developer": "勁一番",
+      "developer": "智傲娛樂",
       "keys": [
         "cat:SCD2229"
       ],
@@ -12360,7 +12360,7 @@
         "cat:SCD1977"
       ],
       "status": "active",
-      "title_zh": "青少棒揚威記1／"
+      "title_zh": "青少棒揚威記"
     },
     "cdg-1369": {
       "catalog_id": "SCD1978",
@@ -18474,7 +18474,7 @@
         "t:紅色誘惑|Discovery"
       ],
       "status": "active",
-      "title_zh": "紅色誘惑"
+      "title_zh": "紅色的誘惑"
     },
     "cdg-2047": {
       "catalog_id": "SCD1714",
@@ -36741,7 +36741,7 @@
     },
     "cdg-4067": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "旭光資訊",
       "keys": [
         "t:虎將神兵|None"
       ],
@@ -38734,12 +38734,12 @@
     },
     "cdg-4286": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Cybelle",
       "keys": [
         "t:魔石神劍錄 Poly Chrome|None"
       ],
       "status": "active",
-      "title_zh": "魔石神劍錄 Poly Chrome"
+      "title_zh": "魔石神劍錄"
     },
     "cdg-4287": {
       "catalog_id": null,
@@ -39139,7 +39139,7 @@
     },
     "cdg-4331": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Artdink",
       "keys": [
         "t:天下御免|None"
       ],
@@ -43108,6 +43108,69 @@
       "status": "merged",
       "title_zh": "撞球補習班",
       "merged_into": "cdg-3938"
+    },
+    "cdg-4772": {
+      "catalog_id": null,
+      "developer": "泰騰",
+      "keys": [
+        "t:青澀的果實：逆襲|泰騰"
+      ],
+      "status": "active",
+      "title_zh": "青澀的果實：逆襲"
+    },
+    "cdg-4774": {
+      "catalog_id": "GFC027",
+      "developer": "漢堂",
+      "keys": [
+        "t:模擬師父|漢堂"
+      ],
+      "status": "active",
+      "title_zh": "模擬師父"
+    },
+    "cdg-4777": {
+      "catalog_id": "GFC026",
+      "developer": "漢堂",
+      "keys": [
+        "t:少女夢天使|漢堂"
+      ],
+      "status": "active",
+      "title_zh": "少女夢天使"
+    },
+    "cdg-4778": {
+      "catalog_id": null,
+      "developer": "Studio e.go",
+      "keys": [
+        "t:聖魔大戰|Studio e.go"
+      ],
+      "status": "active",
+      "title_zh": "聖魔大戰"
+    },
+    "cdg-4779": {
+      "catalog_id": null,
+      "developer": "Studio e.go",
+      "keys": [
+        "t:艾倫西亞戰記|Studio e.go"
+      ],
+      "status": "active",
+      "title_zh": "艾倫西亞戰記"
+    },
+    "cdg-4780": {
+      "catalog_id": null,
+      "developer": "Barogue",
+      "keys": [
+        "t:秘境傳說|Barogue"
+      ],
+      "status": "active",
+      "title_zh": "秘境傳說"
+    },
+    "cdg-4781": {
+      "catalog_id": null,
+      "developer": "Studio e.go",
+      "keys": [
+        "t:Men at Work！～永遠的羈絆|Studio e.go"
+      ],
+      "status": "active",
+      "title_zh": "Men at Work！～永遠的羈絆"
     }
   }
 }
