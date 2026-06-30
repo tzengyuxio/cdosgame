@@ -7,10 +7,11 @@ import sources from '../../data/media-sources.json';
 // kinds; only the kinds an entity actually has will show.
 export const CATEGORIES = [
   { label: '盒裝', kinds: ['box-front', 'box-back', 'box-spine', 'package'] },
-  { label: '附件／特典', kinds: ['bonus', 'poster'] },
+  { label: '附件／海報', kinds: ['bonus', 'poster'] },
   { label: '光碟／磁片', kinds: ['disc', 'floppy'] },
   { label: '說明書', kinds: ['manual-cover', 'manual'] },
   { label: '廣告', kinds: ['ad'] },
+  { label: '報導', kinds: ['press'] },
   { label: '截圖', kinds: ['title', 'screenshot'] },
   { label: '地圖', kinds: ['map'] },
   { label: '製作名單', kinds: ['credits'] },
@@ -27,15 +28,15 @@ export const CATEGORIES = [
 export const GAME_CATEGORIES = [
   { label: '包裝實體', kinds: ['box-front', 'box-back', 'box-spine', 'package', 'bonus', 'disc', 'floppy', 'manual-cover', 'manual'] },
   { label: '遊戲畫面', kinds: ['title', 'screenshot'] },
-  { label: '宣傳與資料', kinds: ['ad', 'poster', 'map', 'credits'] },
+  { label: '宣傳與報導', kinds: ['ad', 'poster', 'press', 'map', 'credits'] },
   { label: '其他', kinds: ['other', 'logo', 'product', 'building', 'portrait', 'photo'] },
 ];
 
 export const KIND_LABELS = {
   'box-front': '包裝封面', 'box-back': '包裝背面', 'box-spine': '包裝側面', 'package': '包裝',
-  'bonus': '特典', 'poster': '海報',
+  'bonus': '附件', 'poster': '海報',
   'disc': '光碟', 'floppy': '磁片', 'manual-cover': '說明書封面', 'manual': '說明書內頁',
-  'ad': '廣告', 'title': '標題畫面', 'screenshot': '遊戲畫面',
+  'ad': '廣告', 'press': '報導', 'title': '標題畫面', 'screenshot': '遊戲畫面',
   'map': '地圖', 'credits': '製作名單',
   'logo': '標誌', 'building': '辦公室', 'product': '產品', 'portrait': '人物照', 'photo': '照片',
   'other': '圖片',

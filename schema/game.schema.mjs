@@ -31,7 +31,7 @@ export const TAGS = ["adnd"];
 export const MEDIA_KINDS = [
   "box-front", "box-back", "box-spine", "package",
   "bonus", "poster",
-  "disc", "floppy", "manual-cover", "manual", "ad",
+  "disc", "floppy", "manual-cover", "manual", "ad", "press",
   "title", "screenshot", "map", "credits", "other",
 ];
 
