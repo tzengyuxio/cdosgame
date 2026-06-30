@@ -1,7 +1,7 @@
 // Shared curated-media item shape for games / companies / people (see docs/media.md).
 import { z } from "zod";
 
-export const COMPANY_MEDIA_KINDS = ["logo", "building", "product", "ad", "other"];
+export const COMPANY_MEDIA_KINDS = ["logo", "building", "product", "ad", "press", "other"];
 export const PERSON_MEDIA_KINDS = ["portrait", "photo", "other"];
 
 // mediaArray(kinds, { games }) → Zod array. `games: true` adds an optional
