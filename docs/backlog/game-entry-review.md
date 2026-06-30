@@ -239,3 +239,28 @@ created: 2026-06-20
 - [ ] 樂透黃金夢（cdg-4763,貴265）已發佈 — 使用者提供包裝實物：developer Capstone（IntraCorp 旗下廉價品牌「The Pinnacle of Entertainment Software」/US）、英文介面、中文包裝→packaging，38 種美式樂透玩法＋7 種機率分析法、genre ETC。**原始發行年仍查無**（MobyGames/abandonware 線上目錄皆無此款，year 留 null）；待盒裝版權頁或他源補年分（2026-06-30）
 - [ ] 瑪麗姊妹/Sister Mary（cdg-3959,貴277）已確認結案 — 使用者提供封面：標示「第三屆金磁片獎智育動作類高級組銀牌獎作品」，確認為智冠金磁片獎自製作（同決戰俄羅斯/魔點/麻雀俄羅斯系），玩法為《魔鬼氣球》(Pang/Super Pang)式射汽球（先前「瑪利歐平台跳躍」推測已推翻）。依手足慣例改 developer 智冠/TW、publisher_tw []、year 1992（build），軟體世界貴族版貴277 為 1993 重發。金磁片獎冠軍隊伍具名仍未載（2026-06-30）
 - [ ] 軟體世界「貴族版／珍藏版／平價版」三條發行線定位待考據 — 三線名僅見於 boneash「骨灰集散地」收藏圖鑑（即本庫 softworld-games.json 來源），無正式文獻說明其區別（定價？包裝？CD/磁片？年代先後？）。維基〈軟體世界〉只佐證整個品牌是智冠＋精訊「付版權費前的平價外版重發」這一宏觀脈絡，未細分三線。字面上「平價版」才是低價線，「貴族版／珍藏版」偏高階，故不應對單一條線斷言「低價」。已（2026-06-30）把 62 則正文＋系列頁的「貴族版低價目錄／低價重發目錄」改為中性「貴族版（貴NNN）／珍藏版（珍NNN）」、宏觀脈絡集中到 content/companies/軟體世界.md（引維基）；cdg-1601「新台幣299元低價策略」為某款真實定價事實，保留。待挖 boneash 站、巴哈 studentc「老Game 中文遊戲列表」、FB「舊遊戲時代」確認三線定義後，再決定是否於公司頁補述（2026-06-30）
+- [x] 撞球補習班重複已修 — 本會話誤建 cdg-4768（與既有 stub cdg-3938 同款）：內容已搬回 cdg-3938 並發佈、cdg-4768 退役（status merged → cdg-3938）、檔案刪除、registry 同步（2026-07-01）
+
+## 同名遊戲掃描待辦（2026-07-01，只列「組內含 published」者）
+
+掃描全庫 title_zh（不看別名），29 組含 published。①兩組上線撞名（屠龍戰記、銀河英雄傳說IV EX）已消歧義發佈；②撞球補習班自造重複已 merge。以下為待逐案處理：
+
+### (a) 疑似重複 → 退役 stub、併入 published（每筆須先確認「同款重複」非「不同版本/續作」，並決定保留 id 與 metadata 取捨）
+- [ ] 俄羅斯方塊2：保留 cdg-4725（Doka 1989 貴171, PUB）／退役 cdg-1609（Doka,Sphere 1989 stub）
+- [ ] 太閤立志傳：保留 cdg-0503（KOEI 1995 PUB）／退役 cdg-4201（1995 null stub）
+- [ ] 歡樂滿點：保留 cdg-4594（Sierra 1991 珍137 PUB）／退役 cdg-3803（同 stub）
+- [ ] 醫生也瘋狂2：腦科篇：保留 cdg-4583（Software Toolworks 1990 珍100 PUB）／退役 cdg-2599
+- [ ] 銀河帝國大決戰：保留 cdg-4693（Interstel 1987 貴071 PUB）／退役 cdg-4025（null stub）
+- [ ] 鐵路A計畫：保留 cdg-0039（Artdink 1992 PUB）／退役 cdg-4085（null stub）
+- [ ] 雀之塔：cdg-4616（珍201 PUB 但 dev/year 空）⇄ cdg-1961（智冠 1993 stub，metadata 較全）— ⚠ 保留 PUB 的 4616 但須把 1961 的 智冠/1993 併過去
+- [ ] 香港麻將：保留 cdg-4610（Nine Dragons 1992 珍180 PUB）／退役 cdg-1552（九龍＝Nine Dragons stub）
+
+### (b) 同碼誤掛在不同款的 stub 上 → 從 stub 移除 release_code 與連帶 softworld@boneash-scan provenance（碼屬 PUB 正主）
+- [ ] 星際爭霸戰：珍161 屬 cdg-2417（Interplay 1992）；cdg-2418~2437 共 20 款 Star Trek STUB 全誤掛 珍161 → 逐一移除（量大）
+- [ ] 三國志：貴078 屬 cdg-0210（KOEI 1985）；cdg-0223（2002）移除
+- [ ] 名車大賽：貴019 屬 cdg-0962（1987 Test Drive）；cdg-0968（2002）移除
+- [ ] 大海盜：貴023 屬 cdg-0399（MicroProse 1987）；cdg-0400（Firaxis 2004 重製）移除
+- [ ] 槍林彈雨：貴180 屬 cdg-3158（1988）；cdg-3159（2002）移除
+
+### (c) 不同遊戲純撞名、stub 未發佈（低急迫，日後該 stub 發佈時再加括號消歧義）
+七寶奇謀、三隻眼變成、俠客英雄傳、卒業、古墓奇兵、大唐英雄傳、大戰略、天龍八部、封神演義、拱豬、花木蘭、超級俄羅斯方塊、齊天大聖（13 組）

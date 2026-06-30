@@ -26235,7 +26235,7 @@
         "cat:SCD1324"
       ],
       "status": "active",
-      "title_zh": "銀河英雄傳說IV EX"
+      "title_zh": "銀河英雄傳說IV EX（微波）"
     },
     "cdg-2906": {
       "catalog_id": "SCD1325",
@@ -26244,7 +26244,7 @@
         "cat:SCD1325"
       ],
       "status": "active",
-      "title_zh": "銀河英雄傳說IV EX"
+      "title_zh": "銀河英雄傳說IV EX（大宇）"
     },
     "cdg-2907": {
       "catalog_id": "SCD1326",
@@ -40966,7 +40966,7 @@
         "t:Dragon Odyssey|精訊"
       ],
       "status": "active",
-      "title_zh": "屠龍戰記"
+      "title_zh": "屠龍戰記（Dragon Odyssey）"
     },
     "cdg-4535": {
       "catalog_id": null,
@@ -41022,7 +41022,7 @@
         "t:다크니스|Dot & Bit"
       ],
       "status": "active",
-      "title_zh": "屠龍戰記"
+      "title_zh": "屠龍戰記（Darkness）"
     },
     "cdg-4541": {
       "catalog_id": null,
@@ -43097,8 +43097,9 @@
       "keys": [
         "t:撞球補習班|None"
       ],
-      "status": "active",
-      "title_zh": "撞球補習班"
+      "status": "merged",
+      "title_zh": "撞球補習班",
+      "merged_into": "cdg-3938"
     }
   }
 }
