@@ -88,8 +88,8 @@ const jsonLd = [
         <><h2>相關作品</h2>
         <ul class="glist">{featured.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></li>)}</ul></>
       )}
-      <EntityRefs entity={c} />
       <Gallery groups={mediaGroups} />
+      <EntityRefs entity={c} />
     </div>
     <aside class="gw-ib">
       {coverItem && (

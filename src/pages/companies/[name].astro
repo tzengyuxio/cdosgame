@@ -138,8 +138,8 @@ const jsonLd = [
       )}
       {developed.length > 0 && <><h2>開發作品（{developed.length}）</h2><ul class="glist">{developed.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a>{devVia(g) && <span class="via" style="color:#888;font-size:.85em;margin-left:.3em">（{devVia(g)}）</span>}</li>)}</ul></>}
       {published.length > 0 && <><h2>台灣發行／代理（{published.length}）</h2><ul class="glist">{published.map(g => <li><span class="y">{g.year ?? '—'}</span><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a>{pubVia(g) && <span class="via" style="color:#888;font-size:.85em;margin-left:.3em">（{pubVia(g)}）</span>}</li>)}</ul></>}
-      <EntityRefs entity={c} />
       <Gallery groups={mediaGroups} />
+      <EntityRefs entity={c} />
     </div>
     <aside class="gw-ib">
       {coverItem && (
