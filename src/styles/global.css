@@ -47,7 +47,7 @@ a.chip:hover{background:var(--brown);color:#fff;border-color:var(--brown);text-d
 .media-grid{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
 .media-card{display:flex;flex-direction:column;align-items:center;gap:4px;margin:0;min-width:60px;max-width:220px}
 .media-thumb{padding:0;border:1px solid var(--border);border-radius:4px;background:#fff;cursor:zoom-in;overflow:hidden;line-height:0}
-.media-thumb img{height:140px;width:auto;display:block}
+.media-thumb img{max-height:140px;max-width:200px;width:auto;height:auto;display:block}
 .media-thumb:hover{border-color:var(--brown)}
 .media-cap{font-size:12px;color:var(--muted);text-align:center;line-height:1.3;overflow-wrap:anywhere}
 
