@@ -19,7 +19,7 @@ const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.va
 // Featured cover wall: all entries carrying a box-front scan form the pool; the
 // client shuffles it on each visit. SSR renders a stable best-documented subset
 // as the no-JS fallback.
-const WALL_N = 18;
+const WALL_N = 16;
 const coverGames = games.filter(g => (g.media || []).some(m => m.kind === 'box-front'));
 const toCard = g => ({ u: gameUrl(g.id), img: thumbUrl('games', g.id, coverOf(g.media).src), t: g.title_zh });
 const coverPool = coverGames.map(toCard);
