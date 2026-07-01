@@ -6232,8 +6232,9 @@
       "keys": [
         "cat:SCD1595"
       ],
-      "status": "active",
-      "title_zh": "卡丁車賽車手"
+      "status": "rejected",
+      "title_zh": "卡丁車賽車手",
+      "reject_reason": "out of scope: Nordic《卡丁車賽車手》(2009)，外文卡丁車競速、超出年代且無台灣中文化、stub 未撰寫"
     },
     "cdg-0682": {
       "catalog_id": null,
@@ -7440,8 +7441,9 @@
       "keys": [
         "cat:SCD1861"
       ],
-      "status": "active",
-      "title_zh": "寵物賽車"
+      "status": "rejected",
+      "title_zh": "寵物賽車",
+      "reject_reason": "out of scope: Techland《寵物賽車》(2003)，外文競速遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0816": {
       "catalog_id": "SCD2502",
@@ -7449,8 +7451,9 @@
       "keys": [
         "cat:SCD2502"
       ],
-      "status": "active",
-      "title_zh": "寵物趴趴"
+      "status": "rejected",
+      "title_zh": "寵物趴趴",
+      "reject_reason": "out of scope: 靚盒子《寵物趴趴》(2005)，休閒 shovelware、超出年代、stub 未撰寫"
     },
     "cdg-0817": {
       "catalog_id": "SCD1104",
@@ -7494,8 +7497,9 @@
       "keys": [
         "cat:SCD1156"
       ],
-      "status": "active",
-      "title_zh": "百合二重奏"
+      "status": "rejected",
+      "title_zh": "百合二重奏",
+      "reject_reason": "out of scope: 工畫堂《百合二重奏》(2009)，日系外文戀愛模擬、超出年代且無台灣發行足跡、stub 未撰寫"
     },
     "cdg-0822": {
       "catalog_id": "SCD2444",
@@ -7847,8 +7851,9 @@
       "keys": [
         "cat:SCD2160"
       ],
-      "status": "active",
-      "title_zh": "航空大亨2"
+      "status": "rejected",
+      "title_zh": "航空大亨2",
+      "reject_reason": "out of scope: Spellbound《航空大亨 2》(Airline Tycoon 2, 2011)，外文經營模擬、超出年代、stub 未撰寫"
     },
     "cdg-0861": {
       "catalog_id": "3WG110,SCD1195",
@@ -8208,8 +8213,9 @@
       "keys": [
         "cat:SCD0314"
       ],
-      "status": "active",
-      "title_zh": "見習天使1"
+      "status": "rejected",
+      "title_zh": "見習天使1",
+      "reject_reason": "out of scope: KID《見習天使》(2006)，日系外文 AVG、超出年代且無台灣發行足跡、stub 未撰寫"
     },
     "cdg-0901": {
       "catalog_id": "SCD0315",
@@ -8217,8 +8223,9 @@
       "keys": [
         "cat:SCD0315"
       ],
-      "status": "active",
-      "title_zh": "見習天使3：黑白色"
+      "status": "rejected",
+      "title_zh": "見習天使3：黑白色",
+      "reject_reason": "out of scope: KID《見習天使 3：黑白色》(2009)，日系外文 AVG、超出年代、stub 未撰寫"
     },
     "cdg-0902": {
       "catalog_id": "SCD0859",
@@ -8551,8 +8558,9 @@
       "keys": [
         "cat:SCD1597"
       ],
-      "status": "active",
-      "title_zh": "史卡尼：太空迷航"
+      "status": "rejected",
+      "title_zh": "史卡尼：太空迷航",
+      "reject_reason": "out of scope: Copysoft《史卡尼：太空迷航》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0939": {
       "catalog_id": "SCD1597",
@@ -8560,8 +8568,9 @@
       "keys": [
         "cat:SCD1597#2"
       ],
-      "status": "active",
-      "title_zh": "史卡尼：拯救披薩"
+      "status": "rejected",
+      "title_zh": "史卡尼：拯救披薩",
+      "reject_reason": "out of scope: Copysoft《史卡尼：拯救披薩》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0940": {
       "catalog_id": "SCD1597",
@@ -8569,8 +8578,9 @@
       "keys": [
         "cat:SCD1597#3"
       ],
-      "status": "active",
-      "title_zh": "史卡尼：沙漠突擊"
+      "status": "rejected",
+      "title_zh": "史卡尼：沙漠突擊",
+      "reject_reason": "out of scope: Copysoft《史卡尼：沙漠突擊》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0941": {
       "catalog_id": "SCD1597",
@@ -8578,8 +8588,9 @@
       "keys": [
         "cat:SCD1597#4"
       ],
-      "status": "active",
-      "title_zh": "史卡尼：荒野西部"
+      "status": "rejected",
+      "title_zh": "史卡尼：荒野西部",
+      "reject_reason": "out of scope: Copysoft《史卡尼：荒野西部》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0942": {
       "catalog_id": "SCD1597",
@@ -8587,8 +8598,9 @@
       "keys": [
         "cat:SCD1597#5"
       ],
-      "status": "active",
-      "title_zh": "史卡尼：重返森林"
+      "status": "rejected",
+      "title_zh": "史卡尼：重返森林",
+      "reject_reason": "out of scope: Copysoft《史卡尼：重返森林》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0943": {
       "catalog_id": "SCD1597",
@@ -8596,8 +8608,9 @@
       "keys": [
         "cat:SCD1597#6"
       ],
-      "status": "active",
-      "title_zh": "史卡尼卡丁車"
+      "status": "rejected",
+      "title_zh": "史卡尼卡丁車",
+      "reject_reason": "out of scope: Copysoft《史卡尼卡丁車》(1993)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0944": {
       "catalog_id": "SCD2046",
@@ -8866,8 +8879,9 @@
       "keys": [
         "cat:SCD0126"
       ],
-      "status": "active",
-      "title_zh": "向左碰向右糊"
+      "status": "rejected",
+      "title_zh": "向左碰向右糊",
+      "reject_reason": "out of scope: 靚盒子《向左碰向右糊》(2007)，麻將 shovelware、超出年代、stub 未撰寫"
     },
     "cdg-0974": {
       "catalog_id": "SCD2044",
@@ -8938,8 +8952,9 @@
       "keys": [
         "cat:SCD2714"
       ],
-      "status": "active",
-      "title_zh": "吸血迷情"
+      "status": "rejected",
+      "title_zh": "吸血迷情",
+      "reject_reason": "out of scope: Exe Create《吸血迷情》(2002)，日系外文 AVG、無台灣發行足跡、stub 未撰寫"
     },
     "cdg-0982": {
       "catalog_id": "SCD2688",
@@ -8965,8 +8980,9 @@
       "keys": [
         "cat:SCD2690"
       ],
-      "status": "active",
-      "title_zh": "吸血鬼德古拉：起源"
+      "status": "rejected",
+      "title_zh": "吸血鬼德古拉：起源",
+      "reject_reason": "out of scope: Frogwares《吸血鬼德古拉：起源》(Dracula: Origin, 2008)，外文冒險遊戲、超出年代、stub 未撰寫"
     },
     "cdg-0985": {
       "catalog_id": "SCD2570",
@@ -8983,8 +8999,9 @@
       "keys": [
         "t:命運麻將|Zylom"
       ],
-      "status": "active",
-      "title_zh": "命運麻將"
+      "status": "rejected",
+      "title_zh": "命運麻將",
+      "reject_reason": "out of scope: Zylom《命運麻將》(2006)，外文休閒麻將、超出年代、stub 未撰寫"
     },
     "cdg-0987": {
       "catalog_id": "SCD2711",
@@ -9037,8 +9054,9 @@
       "keys": [
         "cat:SCD0876"
       ],
-      "status": "active",
-      "title_zh": "哈利波特2：消失的密室"
+      "status": "rejected",
+      "title_zh": "哈利波特2：消失的密室",
+      "reject_reason": "out of scope: EA《哈利波特 2：消失的密室》(2002)，外文授權改編遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0993": {
       "catalog_id": "SCD0877",
@@ -9046,8 +9064,9 @@
       "keys": [
         "cat:SCD0877"
       ],
-      "status": "active",
-      "title_zh": "哈利波特3：阿茲卡班的逃犯"
+      "status": "rejected",
+      "title_zh": "哈利波特3：阿茲卡班的逃犯",
+      "reject_reason": "out of scope: EA《哈利波特 3：阿茲卡班的逃犯》(2004)，外文授權改編遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0994": {
       "catalog_id": "SCD0878",
@@ -9055,8 +9074,9 @@
       "keys": [
         "cat:SCD0878"
       ],
-      "status": "active",
-      "title_zh": "哈利波特4：火盃的考驗"
+      "status": "rejected",
+      "title_zh": "哈利波特4：火盃的考驗",
+      "reject_reason": "out of scope: EA《哈利波特 4：火盃的考驗》(2005)，外文授權改編遊戲、超出年代、stub 未撰寫"
     },
     "cdg-0995": {
       "catalog_id": "SCD0879",
@@ -9064,8 +9084,9 @@
       "keys": [
         "cat:SCD0879"
       ],
-      "status": "active",
-      "title_zh": "哈利波特5：鳳凰會的密令"
+      "status": "rejected",
+      "title_zh": "哈利波特5：鳳凰會的密令",
+      "reject_reason": "out of scope: EA《哈利波特 5：鳳凰會的密令》(2007)，外文授權改編遊戲、超出年代、stub 未撰寫"
     },
     "cdg-0996": {
       "catalog_id": "SCD0880",
@@ -9073,8 +9094,9 @@
       "keys": [
         "cat:SCD0880"
       ],
-      "status": "active",
-      "title_zh": "哈利波特：魁地奇世界盃"
+      "status": "rejected",
+      "title_zh": "哈利波特：魁地奇世界盃",
+      "reject_reason": "out of scope: EA《哈利波特：魁地奇世界盃》(2003)，外文授權改編遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0997": {
       "catalog_id": "SCD0156",
@@ -9082,8 +9104,9 @@
       "keys": [
         "cat:SCD0156"
       ],
-      "status": "active",
-      "title_zh": "哈姆太郎 星夜遊"
+      "status": "rejected",
+      "title_zh": "哈姆太郎 星夜遊",
+      "reject_reason": "out of scope: 卉谷《哈姆太郎 星夜遊》(2002)，外文授權卡通改編、兒童向 shovelware、stub 未撰寫"
     },
     "cdg-0998": {
       "catalog_id": "SCD0157",
@@ -9091,8 +9114,9 @@
       "keys": [
         "cat:SCD0157"
       ],
-      "status": "active",
-      "title_zh": "哈姆太郎 星空奇緣"
+      "status": "rejected",
+      "title_zh": "哈姆太郎 星空奇緣",
+      "reject_reason": "out of scope: 卉谷《哈姆太郎 星空奇緣》(2002)，外文授權卡通改編、兒童向 shovelware、stub 未撰寫"
     },
     "cdg-0999": {
       "catalog_id": "SCD0112",
@@ -9145,8 +9169,9 @@
       "keys": [
         "cat:SCD2514"
       ],
-      "status": "active",
-      "title_zh": "商場大亨1"
+      "status": "rejected",
+      "title_zh": "商場大亨1",
+      "reject_reason": "out of scope: Holistic《商場大亨》(Mall Tycoon, 2002)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1005": {
       "catalog_id": "SCD2515",
@@ -9154,8 +9179,9 @@
       "keys": [
         "cat:SCD2515"
       ],
-      "status": "active",
-      "title_zh": "商場大亨2"
+      "status": "rejected",
+      "title_zh": "商場大亨2",
+      "reject_reason": "out of scope: VP《商場大亨 2》(2003)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1006": {
       "catalog_id": "SCD2516",
@@ -9163,8 +9189,9 @@
       "keys": [
         "cat:SCD2516"
       ],
-      "status": "active",
-      "title_zh": "商場大亨3"
+      "status": "rejected",
+      "title_zh": "商場大亨3",
+      "reject_reason": "out of scope: Cat Daddy《商場大亨 3》(2005)，外文經營模擬、超出年代、stub 未撰寫"
     },
     "cdg-1007": {
       "catalog_id": "SGCD2517",
@@ -9172,8 +9199,9 @@
       "keys": [
         "cat:SGCD2517"
       ],
-      "status": "active",
-      "title_zh": "商業大亨1"
+      "status": "rejected",
+      "title_zh": "商業大亨1",
+      "reject_reason": "out of scope: Animedia《商業大亨》(2002)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1008": {
       "catalog_id": "SGCD2518",
@@ -9181,8 +9209,9 @@
       "keys": [
         "cat:SGCD2518"
       ],
-      "status": "active",
-      "title_zh": "商業大亨2"
+      "status": "rejected",
+      "title_zh": "商業大亨2",
+      "reject_reason": "out of scope: 4HEAD《商業大亨 2》(2003)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1009": {
       "catalog_id": "SCD0336",
@@ -9199,8 +9228,9 @@
       "keys": [
         "cat:SCD2376"
       ],
-      "status": "active",
-      "title_zh": "問答也瘋狂2"
+      "status": "rejected",
+      "title_zh": "問答也瘋狂2",
+      "reject_reason": "out of scope: 娛動工場《問答也瘋狂 2》(2001)，益智問答 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1011": {
       "catalog_id": "SCD0337",
@@ -9208,8 +9238,9 @@
       "keys": [
         "cat:SCD0337"
       ],
-      "status": "active",
-      "title_zh": "問答也瘋狂3：2002冠軍之路"
+      "status": "rejected",
+      "title_zh": "問答也瘋狂3：2002冠軍之路",
+      "reject_reason": "out of scope: 娛動工場《問答也瘋狂 3：2002 冠軍之路》(2002)，益智問答 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1012": {
       "catalog_id": "SCD2474",
@@ -9453,8 +9484,9 @@
       "keys": [
         "cat:SCD1381"
       ],
-      "status": "active",
-      "title_zh": "四連環"
+      "status": "rejected",
+      "title_zh": "四連環",
+      "reject_reason": "out of scope: JoWooD《四連環》(2002)，外文休閒益智、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1039": {
       "catalog_id": "SCD1718",
@@ -9777,8 +9809,9 @@
       "keys": [
         "cat:SCD1147"
       ],
-      "status": "active",
-      "title_zh": "女神轉生：無盡的大地"
+      "status": "rejected",
+      "title_zh": "女神轉生：無盡的大地",
+      "reject_reason": "out of scope: Cypron《女神轉生：無盡的大地》(2006)，外文遊戲、超出年代且無台灣中文化、stub 未撰寫"
     },
     "cdg-1075": {
       "catalog_id": "SCD0633",
@@ -9786,8 +9819,9 @@
       "keys": [
         "cat:SCD0633"
       ],
-      "status": "active",
-      "title_zh": "好奇喬治"
+      "status": "rejected",
+      "title_zh": "好奇喬治",
+      "reject_reason": "out of scope: Vipah Interactive《好奇喬治》(Curious George, 1997)，外文授權兒童教育遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1076": {
       "catalog_id": "SCD2277",
@@ -9795,8 +9829,9 @@
       "keys": [
         "cat:SCD2277"
       ],
-      "status": "active",
-      "title_zh": "好神旺旺來"
+      "status": "rejected",
+      "title_zh": "好神旺旺來",
+      "reject_reason": "out of scope: 紫晶數位《好神旺旺來》(2008)，博弈/拉霸 shovelware、超出年代、stub 未撰寫"
     },
     "cdg-1077": {
       "catalog_id": "SCD0066",
@@ -9840,8 +9875,9 @@
       "keys": [
         "cat:SCD2708"
       ],
-      "status": "active",
-      "title_zh": "妖怪與鄉巴佬"
+      "status": "rejected",
+      "title_zh": "妖怪與鄉巴佬",
+      "reject_reason": "out of scope: IG《妖怪與鄉巴佬》(2002)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1082": {
       "catalog_id": "SCD2611",
@@ -9950,8 +9986,9 @@
       "keys": [
         "cat:SCD2055"
       ],
-      "status": "active",
-      "title_zh": "威爾洛克"
+      "status": "rejected",
+      "title_zh": "威爾洛克",
+      "reject_reason": "out of scope: Saber《威爾洛克》(Will Rock, 2003)，外文 FPS、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1094": {
       "catalog_id": "SCD2753",
@@ -10193,8 +10230,9 @@
       "keys": [
         "cat:SCD2728"
       ],
-      "status": "active",
-      "title_zh": "幸福姊妹花"
+      "status": "rejected",
+      "title_zh": "幸福姊妹花",
+      "reject_reason": "out of scope: 工畫堂《幸福姊妹花》(2001)，日系外文模擬遊戲、無台灣發行足跡、stub 未撰寫"
     },
     "cdg-1121": {
       "catalog_id": "SCD2278",
@@ -10211,8 +10249,9 @@
       "keys": [
         "cat:SCD2715"
       ],
-      "status": "active",
-      "title_zh": "我為歌狂：夏日彩虹"
+      "status": "rejected",
+      "title_zh": "我為歌狂：夏日彩虹",
+      "reject_reason": "out of scope: 育碧上海（Ubisoft Shanghai）《我為歌狂：夏日彩虹》(2002)，大陸發行、無台灣發行足跡、stub 未撰寫"
     },
     "cdg-1123": {
       "catalog_id": "SCD1233",
@@ -10220,8 +10259,9 @@
       "keys": [
         "cat:SCD1233"
       ],
-      "status": "active",
-      "title_zh": "我的夢想咖啡廳："
+      "status": "rejected",
+      "title_zh": "我的夢想咖啡廳：",
+      "reject_reason": "out of scope: 戲典娛樂《我的夢想咖啡廳》(2005)，經營休閒 shovelware、超出年代、stub 未撰寫"
     },
     "cdg-1124": {
       "catalog_id": null,
@@ -10229,8 +10269,9 @@
       "keys": [
         "t:我的女孩|HKSTAR"
       ],
-      "status": "active",
-      "title_zh": "我的女孩"
+      "status": "rejected",
+      "title_zh": "我的女孩",
+      "reject_reason": "out of scope: HKSTAR《我的女孩》(2002)，戀愛養成 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1125": {
       "catalog_id": null,
@@ -10238,8 +10279,9 @@
       "keys": [
         "t:我的女孩2|P&C"
       ],
-      "status": "active",
-      "title_zh": "我的女孩2"
+      "status": "rejected",
+      "title_zh": "我的女孩2",
+      "reject_reason": "out of scope: P&C《我的女孩 2》(2002)，戀愛養成 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1126": {
       "catalog_id": "SCD2108",
@@ -10265,8 +10307,9 @@
       "keys": [
         "t:我的美麗天使／|Studio e.go"
       ],
-      "status": "active",
-      "title_zh": "我的美麗天使／"
+      "status": "rejected",
+      "title_zh": "我的美麗天使／",
+      "reject_reason": "out of scope: Studio e.go!《我的美麗天使》(2001)，日系外文成人向遊戲、無台灣發行足跡、stub 未撰寫"
     },
     "cdg-1129": {
       "catalog_id": "SCD0013",
@@ -10274,8 +10317,9 @@
       "keys": [
         "cat:SCD0013"
       ],
-      "status": "active",
-      "title_zh": "我的野蠻麻將"
+      "status": "rejected",
+      "title_zh": "我的野蠻麻將",
+      "reject_reason": "out of scope: 尼奧科技《我的野蠻麻將》(2003)，麻將 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1130": {
       "catalog_id": null,
@@ -10391,8 +10435,9 @@
       "keys": [
         "cat:OCD0089"
       ],
-      "status": "active",
-      "title_zh": "決勝時刻1"
+      "status": "rejected",
+      "title_zh": "決勝時刻1",
+      "reject_reason": "out of scope: Infinity Ward《決勝時刻》(Call of Duty, 2003)，外文 FPS、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-1143": {
       "catalog_id": "OCD0090",
@@ -10400,8 +10445,9 @@
       "keys": [
         "cat:OCD0090"
       ],
-      "status": "active",
-      "title_zh": "決勝時刻2"
+      "status": "rejected",
+      "title_zh": "決勝時刻2",
+      "reject_reason": "out of scope: Infinity Ward《決勝時刻 2》(2005)，外文 FPS、超出年代、stub 未撰寫"
     },
     "cdg-1144": {
       "catalog_id": "SCD0209",
@@ -10409,8 +10455,9 @@
       "keys": [
         "cat:SCD0209"
       ],
-      "status": "active",
-      "title_zh": "決勝時刻4：現代戰爭"
+      "status": "rejected",
+      "title_zh": "決勝時刻4：現代戰爭",
+      "reject_reason": "out of scope: Infinity Ward《決勝時刻 4：現代戰爭》(2007)，外文 FPS、超出年代、stub 未撰寫"
     },
     "cdg-1145": {
       "catalog_id": "SCD0076",
@@ -10418,8 +10465,9 @@
       "keys": [
         "cat:SCD0076"
       ],
-      "status": "active",
-      "title_zh": "決戰320：大選麻將館"
+      "status": "rejected",
+      "title_zh": "決戰320：大選麻將館",
+      "reject_reason": "out of scope: 龍元書報社《決戰 320：大選麻將館》(2004)，時事惡搞麻將 shovelware、無考據價值、stub 未撰寫"
     },
     "cdg-1146": {
       "catalog_id": null,
