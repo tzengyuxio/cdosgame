@@ -188,8 +188,9 @@
       "keys": [
         "cat:SCD1500"
       ],
-      "status": "active",
-      "title_zh": "3D小精靈"
+      "status": "rejected",
+      "title_zh": "3D小精靈",
+      "reject_reason": "out of scope: Creative Asylum《3D 小精靈》(2000)，外文遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0020": {
       "catalog_id": null,
@@ -206,8 +207,9 @@
       "keys": [
         "cat:SCD2737"
       ],
-      "status": "active",
-      "title_zh": "3D撞球高手 3"
+      "status": "rejected",
+      "title_zh": "3D撞球高手 3",
+      "reject_reason": "out of scope: Cosmi《3D 撞球高手 3》(2003)，外文休閒遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0022": {
       "catalog_id": "SCD0284",
@@ -224,8 +226,9 @@
       "keys": [
         "cat:SCD1491"
       ],
-      "status": "active",
-      "title_zh": "3D過山車設計師 3"
+      "status": "rejected",
+      "title_zh": "3D過山車設計師 3",
+      "reject_reason": "out of scope: Pantera《3D 過山車設計師 3》(2000)，外文模擬遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0024": {
       "catalog_id": "SCD2161",
@@ -7343,8 +7346,9 @@
       "keys": [
         "cat:SCD1903"
       ],
-      "status": "active",
-      "title_zh": "室內狂飆"
+      "status": "rejected",
+      "title_zh": "室內狂飆",
+      "reject_reason": "out of scope: Dark Energy《室內狂飆》(2004)，外文競速遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0805": {
       "catalog_id": "SCD2124",
@@ -7352,8 +7356,9 @@
       "keys": [
         "cat:SCD2124"
       ],
-      "status": "active",
-      "title_zh": "富爾特聰明幼教：小小音樂家"
+      "status": "rejected",
+      "title_zh": "富爾特聰明幼教：小小音樂家",
+      "reject_reason": "out of scope: Datt Japan《富爾特聰明幼教：小小音樂家》(1999)，幼兒音樂教學光碟、教育工具非遊戲考據對象、stub 未撰寫"
     },
     "cdg-0806": {
       "catalog_id": null,
@@ -7825,8 +7830,9 @@
       "keys": [
         "cat:SCD0702"
       ],
-      "status": "active",
-      "title_zh": "航海大時代：海盜王"
+      "status": "rejected",
+      "title_zh": "航海大時代：海盜王",
+      "reject_reason": "out of scope: Ascaron《航海大時代：海盜王》(Port Royale, 2003)，外文經營模擬 Windows 作、stub 未撰寫"
     },
     "cdg-0858": {
       "catalog_id": "Z098",
@@ -23415,8 +23421,9 @@
       "keys": [
         "cat:SCD1484"
       ],
-      "status": "active",
-      "title_zh": "遊樂園夢工廠1"
+      "status": "rejected",
+      "title_zh": "遊樂園夢工廠1",
+      "reject_reason": "out of scope: Pantera《遊樂園夢工廠》(2000)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-2580": {
       "catalog_id": "SCD1485",
@@ -23424,8 +23431,9 @@
       "keys": [
         "cat:SCD1485"
       ],
-      "status": "active",
-      "title_zh": "遊樂園夢工廠2"
+      "status": "rejected",
+      "title_zh": "遊樂園夢工廠2",
+      "reject_reason": "out of scope: Fusion《遊樂園夢工廠 2》(2002)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-2581": {
       "catalog_id": "SCD1486",
@@ -23433,8 +23441,9 @@
       "keys": [
         "cat:SCD1486"
       ],
-      "status": "active",
-      "title_zh": "遊樂園夢工廠3"
+      "status": "rejected",
+      "title_zh": "遊樂園夢工廠3",
+      "reject_reason": "out of scope: Fusion《遊樂園夢工廠 3》(2003)，外文經營模擬、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-2582": {
       "catalog_id": "SCD1805",
@@ -23469,8 +23478,9 @@
       "keys": [
         "cat:SCD1492"
       ],
-      "status": "active",
-      "title_zh": "過山車設計師"
+      "status": "rejected",
+      "title_zh": "過山車設計師",
+      "reject_reason": "out of scope: Digital Steelworks《過山車設計師》(2002)，外文模擬遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-2586": {
       "catalog_id": "SCD2802",
