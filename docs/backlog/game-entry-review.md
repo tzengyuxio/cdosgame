@@ -279,3 +279,18 @@ created: 2026-06-20
 - [ ] cdg-2802《瘋狂醫院》(1993) developer 標 **龍翔**／精訊發行；但百度年表、銀狐回憶文（sfoxstudio Part 8）皆稱瘋狂醫院程式作者後創立**鷹揚**、初代亦掛鷹揚。龍翔 vs 鷹揚 待釐清（可能龍翔為早期工作室名／或誤植）。鷹揚公司頁已迴避直接指派初代歸屬，僅述「公司由瘋狂醫院程式作者創立」
 - [ ] cdg-2378《明日之星》(1995) publisher_tw 目前空 → 百度年表載發行商為**歡樂盒多媒體**（單源、中可信），可補；續作 cdg-2379 明日之星2 (1997) 同屬歡樂盒
 - [ ] 初代瘋狂醫院發行年兩說：百度 1993-09 首發 vs 巴哈/gamebase 1995（疑再版/上架日）。cdg-2802 現標 1993
+
+### 軟體世界平價版 英文原作待考（2026-07-02，撰寫平價版批次時發現）
+以下兩款軟體世界平價版，英文原作連最權威來源（boneash 掃描進度表 softworld-scan.html）都留白（`name_en: null`、掃描狀態全空），社群尚未考出對應西方原作，暫不建條目、不杜撰：
+- [ ] 竹香齋（平005，類別「益智」）— 名取清代象棋殘局譜書名，強烈暗示象棋/殘局類程式；夾在 Psion Chess（平003）、Chessmaster 2000（平012）等西方棋類移植間，但西方移植不會取此古典漢名，另一可能為台灣本地自製象棋程式塞入平價版線。查無實據
+- [ ] 國際密探（平009）— 推測性線索：同清單平033「緊急追緝令」＝Where in the U.S.A. is Carmen Sandiego?，Broderbund 同期另有 Where in the World is Carmen Sandiego?（1985，玩家為 ACME 密探全球追捕 VILE），語意吻合但無一手佐證，可能有誤
+- 突破點：找當年《軟體世界》雜誌廣告掃描或實體封面（boneash 尚未掃到此二款）
+
+### 軟體世界平價版 平021「瘋狂運動員／Lode Runner III」對應原作待考（2026-07-02）
+- [ ] 平021 瘋狂運動員 name_en 標「Lode Runner III」，但 1980 年代 Broderbund 從未發行過家用電腦／DOS 版「Lode Runner III」。唯一名為「Lode Runner III」的正式產品是 Irem 授權自 Broderbund 的街機《Lode Runner III – The Golden Labyrinth》（1985），為街機獨占、查無 DOS 移植；其餘同期續作（Lode Runner II＝MSX 獨占、Lode Runner's Rescue＝Atari 8-bit/C64）平台亦不符。Championship Lode Runner 已是平008（金牌運動員）。故「平021＝哪款有 DOS 版的 Lode Runner」無法定論，暫不建條目、不杜撰。突破點：軟體世界實體盒裝/光碟或當年雜誌廣告，確認其平價版實際收錄的是哪個 Lode Runner 版本
+
+### 軟體世界平價版 平032「上海之謎」英文原作待考（2026-07-02）
+- [ ] 平032 上海之謎：softworld-games.json 的 name_en 與 genre 皆 null，過去 pipeline 亦未鑑定。確定「不是」Activision 的《上海》(Shanghai／平052 對應款，麻將接龍另有編號)。鄰近編號(平028~035)全為 1986–87 西方進口款，故 平032 極可能亦屬同期西方遊戲、原名失考；字面「上海之謎」查無對應英文 DOS 遊戲。維持 name_en:null，待當年軟體世界雜誌廣告/封面掃描再回填
+
+### 軟體世界「8平」目錄 8平014 星際爭霸 原作待考（2026-07-02）
+- [ ] 8平014 星際爭霸（boneash 掃描表「8平」段，類別/英文名皆空白）原作未定。DB 有一大串「星際爭霸戰」（cdg-2417 珍161＝Interplay Star Trek 1992 等 20+ 款）與「星海爭霸」（StarCraft），但 8平 屬 1980 年代 8-bit 平價目錄，年代不符 StarCraft；「星際爭霸」（無「戰」「海」）亦難與現有款對號。需當年廣告／盒裝／實體序號才能定案。「8平」目錄整體研判＝軟體世界 8-bit（Apple II／C64）平價版線（佐證：8平016 永恆之劍 The Eternal Dagger 無 DOS 版、僅 8-bit），此為推斷、掃描表未明載

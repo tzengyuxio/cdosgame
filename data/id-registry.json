@@ -5477,7 +5477,7 @@
         "t:幽靈戰士1|SSI"
       ],
       "status": "active",
-      "title_zh": "幽靈戰士1"
+      "title_zh": "幽靈戰士"
     },
     "cdg-0606": {
       "catalog_id": "SWZ019",
@@ -23068,7 +23068,7 @@
     },
     "cdg-2556": {
       "catalog_id": "SWZ015",
-      "developer": "Utopia",
+      "developer": "Utopia Software",
       "keys": [
         "cat:SWZ015"
       ],
@@ -30653,7 +30653,7 @@
         "cat:JXZ012"
       ],
       "status": "active",
-      "title_zh": "戰爭上古代藝術"
+      "title_zh": "七海雄風"
     },
     "cdg-3395": {
       "catalog_id": "3WG037",
@@ -34941,7 +34941,7 @@
     },
     "cdg-3869": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Broderbund",
       "keys": [
         "t:決戰富士山|None"
       ],
@@ -35658,7 +35658,7 @@
     },
     "cdg-3948": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Capcom",
       "keys": [
         "t:戰場之狼|None"
       ],
@@ -35830,7 +35830,7 @@
     },
     "cdg-3967": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Sierra On-Line",
       "keys": [
         "t:黑神鍋|None"
       ],
@@ -43171,6 +43171,316 @@
       ],
       "status": "active",
       "title_zh": "Men at Work！～永遠的羈絆"
+    },
+    "cdg-4782": {
+      "catalog_id": null,
+      "developer": "Infocom",
+      "keys": [
+        "t:富貴狗|Infocom",
+        "t:Fooblitzky|Infocom"
+      ],
+      "status": "active",
+      "title_zh": "富貴狗"
+    },
+    "cdg-4783": {
+      "catalog_id": null,
+      "developer": "Psion",
+      "keys": [
+        "t:立體西洋棋|Psion",
+        "t:Psion Chess|Psion"
+      ],
+      "status": "active",
+      "title_zh": "立體西洋棋"
+    },
+    "cdg-4784": {
+      "catalog_id": null,
+      "developer": "Chris Gray Enterprises",
+      "keys": [
+        "t:飛狼突擊|Chris Gray Enterprises",
+        "t:Infiltrator|Chris Gray Enterprises"
+      ],
+      "status": "active",
+      "title_zh": "飛狼突擊"
+    },
+    "cdg-4785": {
+      "catalog_id": null,
+      "developer": "Broderbund",
+      "keys": [
+        "t:金牌運動員|Broderbund",
+        "t:Championship Lode Runner|Broderbund"
+      ],
+      "status": "active",
+      "title_zh": "金牌運動員"
+    },
+    "cdg-4786": {
+      "catalog_id": null,
+      "developer": "Parker Brothers",
+      "keys": [
+        "t:青蛙上天|Parker Brothers",
+        "t:Frogger II: ThreeeDeep!|Parker Brothers"
+      ],
+      "status": "active",
+      "title_zh": "青蛙上天"
+    },
+    "cdg-4787": {
+      "catalog_id": null,
+      "developer": "The Software Toolworks",
+      "keys": [
+        "t:棋狂2000|The Software Toolworks",
+        "t:The Chessmaster 2000|The Software Toolworks"
+      ],
+      "status": "active",
+      "title_zh": "棋狂2000"
+    },
+    "cdg-4788": {
+      "catalog_id": null,
+      "developer": "1 Step Software",
+      "keys": [
+        "t:高爾夫大賽|1 Step Software",
+        "t:Golf's Best|1 Step Software"
+      ],
+      "status": "active",
+      "title_zh": "高爾夫大賽"
+    },
+    "cdg-4789": {
+      "catalog_id": null,
+      "developer": "Beam Software",
+      "keys": [
+        "t:摔角大賽|Beam Software",
+        "t:Bop'n Wrestle|Beam Software"
+      ],
+      "status": "active",
+      "title_zh": "摔角大賽"
+    },
+    "cdg-4790": {
+      "catalog_id": null,
+      "developer": "Digital Illusions",
+      "keys": [
+        "t:潛艇爭霸戰|Digital Illusions",
+        "t:Sub Battle Simulator|Digital Illusions"
+      ],
+      "status": "active",
+      "title_zh": "潛艇爭霸戰"
+    },
+    "cdg-4791": {
+      "catalog_id": null,
+      "developer": "Distinctive Software",
+      "keys": [
+        "t:星際大冒險|Distinctive Software",
+        "t:Psi 5 Trading Company|Distinctive Software"
+      ],
+      "status": "active",
+      "title_zh": "星際大冒險"
+    },
+    "cdg-4792": {
+      "catalog_id": null,
+      "developer": "Quest",
+      "keys": [
+        "t:強棒出擊|Quest",
+        "t:Pure-Stat Baseball|Quest"
+      ],
+      "status": "active",
+      "title_zh": "強棒出擊"
+    },
+    "cdg-4793": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:橄欖球風雲|Gamestar",
+        "t:GFL Championship Football|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "橄欖球風雲"
+    },
+    "cdg-4794": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:棒棒開花|Gamestar",
+        "t:Championship Baseball|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "棒棒開花"
+    },
+    "cdg-4795": {
+      "catalog_id": null,
+      "developer": "System 3",
+      "keys": [
+        "t:空手道|System 3",
+        "t:World Karate Championship|System 3"
+      ],
+      "status": "active",
+      "title_zh": "空手道"
+    },
+    "cdg-4796": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:金牌高爾夫|Gamestar",
+        "t:Championship Golf|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "金牌高爾夫"
+    },
+    "cdg-4797": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:無敵戰艦|Epyx",
+        "t:Destroyer|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "無敵戰艦"
+    },
+    "cdg-4798": {
+      "catalog_id": null,
+      "developer": "Interplay",
+      "keys": [
+        "t:衝出異次元|Interplay",
+        "t:Tass Times in Tonetown|Interplay"
+      ],
+      "status": "active",
+      "title_zh": "衝出異次元"
+    },
+    "cdg-4799": {
+      "catalog_id": null,
+      "developer": "Argonaut Software",
+      "keys": [
+        "t:星球保護神|Argonaut Software",
+        "t:Starglider|Argonaut Software"
+      ],
+      "status": "active",
+      "title_zh": "星球保護神"
+    },
+    "cdg-4800": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:籃球爭霸戰|Gamestar",
+        "t:GBA Championship Basketball|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "籃球爭霸戰"
+    },
+    "cdg-4801": {
+      "catalog_id": null,
+      "developer": "Brøderbund",
+      "keys": [
+        "t:緊急追緝令|Brøderbund",
+        "t:Where in the U.S.A. Is Carmen Sandiego?|Brøderbund"
+      ],
+      "status": "active",
+      "title_zh": "緊急追緝令"
+    },
+    "cdg-4802": {
+      "catalog_id": null,
+      "developer": "Access Software",
+      "keys": [
+        "t:職業保齡球|Access Software",
+        "t:10th Frame|Access Software"
+      ],
+      "status": "active",
+      "title_zh": "職業保齡球"
+    },
+    "cdg-4803": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:夏季運動會2|Epyx",
+        "t:Summer Games II|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "夏季運動會2"
+    },
+    "cdg-4804": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:冬季運動會|Epyx",
+        "t:Winter Games|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "冬季運動會"
+    },
+    "cdg-4805": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:世界運動會|Epyx",
+        "t:World Games|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "世界運動會"
+    },
+    "cdg-4806": {
+      "catalog_id": null,
+      "developer": "Technōs Japan",
+      "keys": [
+        "t:雙人摔角|Technōs Japan",
+        "t:Tag Team Wrestling|Technōs Japan"
+      ],
+      "status": "active",
+      "title_zh": "雙人摔角"
+    },
+    "cdg-4807": {
+      "catalog_id": null,
+      "developer": "Sierra On-Line",
+      "keys": [
+        "t:立體直昇機|Sierra On-Line",
+        "t:3-D Helicopter Simulator|Sierra On-Line"
+      ],
+      "status": "active",
+      "title_zh": "立體直昇機"
+    },
+    "cdg-4808": {
+      "catalog_id": null,
+      "developer": "Atari Games",
+      "keys": [
+        "t:瘋狂彈珠球|Atari Games",
+        "t:Marble Madness|Atari Games"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂彈珠球"
+    },
+    "cdg-4809": {
+      "catalog_id": null,
+      "developer": "Activision",
+      "keys": [
+        "t:侵略者|Activision",
+        "t:Hacker II: The Doomsday Papers|Activision"
+      ],
+      "status": "active",
+      "title_zh": "侵略者"
+    },
+    "cdg-4810": {
+      "catalog_id": null,
+      "developer": "Activision",
+      "keys": [
+        "t:上海|Activision",
+        "t:Shanghai|Activision"
+      ],
+      "status": "active",
+      "title_zh": "上海"
+    },
+    "cdg-4811": {
+      "catalog_id": null,
+      "developer": "Datasoft",
+      "keys": [
+        "t:霹靂神槍|Datasoft",
+        "t:Gunslinger|Datasoft"
+      ],
+      "status": "active",
+      "title_zh": "霹靂神槍"
+    },
+    "cdg-4812": {
+      "catalog_id": null,
+      "developer": "SSI",
+      "keys": [
+        "t:永恆之劍|SSI",
+        "t:The Eternal Dagger|SSI"
+      ],
+      "status": "active",
+      "title_zh": "永恆之劍"
     }
   }
 }
