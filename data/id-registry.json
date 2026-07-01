@@ -1347,8 +1347,9 @@
       "keys": [
         "cat:SCD2531"
       ],
-      "status": "active",
-      "title_zh": "一級方程式賽車車隊經理"
+      "status": "rejected",
+      "title_zh": "一級方程式賽車車隊經理",
+      "reject_reason": "out of scope: destraX《一級方程式賽車車隊經理》(F1 Manager, 2009)，超出年代（2004 後）、外文現代作、stub 未撰寫"
     },
     "cdg-0145": {
       "catalog_id": null,
@@ -11088,8 +11089,9 @@
       "keys": [
         "t:洛克人10：來自宇宙的威脅|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人10：來自宇宙的威脅"
+      "status": "rejected",
+      "title_zh": "洛克人10：來自宇宙的威脅",
+      "reject_reason": "out of scope: CAPCOM《洛克人 10：來自宇宙的威脅》(2010)，超出年代（2004 後）、現代主機/Windows 作、stub 未撰寫"
     },
     "cdg-1215": {
       "catalog_id": null,
@@ -12178,8 +12180,9 @@
       "keys": [
         "cat:SCD0261"
       ],
-      "status": "active",
-      "title_zh": "阿凡達"
+      "status": "rejected",
+      "title_zh": "阿凡達",
+      "reject_reason": "out of scope: Ubisoft《阿凡達》(James Cameron's Avatar, 2009)，超出年代（2004 後）、外文授權改編、stub 未撰寫"
     },
     "cdg-1336": {
       "catalog_id": "SCD2356",
@@ -21782,8 +21785,9 @@
       "keys": [
         "cat:SCD0102"
       ],
-      "status": "active",
-      "title_zh": "星座美少女 麻將日記"
+      "status": "rejected",
+      "title_zh": "星座美少女 麻將日記",
+      "reject_reason": "out of scope: 新造科技《星座美少女 麻將日記》(2009)，超出年代（2004 後）、麻將 shovelware、stub 未撰寫"
     },
     "cdg-2401": {
       "catalog_id": "SCD2541",
@@ -22513,8 +22517,9 @@
       "keys": [
         "t:最終幻想3|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想3"
+      "status": "rejected",
+      "title_zh": "最終幻想3",
+      "reject_reason": "out of scope: Square Enix《最終幻想 3》(2014 PC 重製版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2482": {
       "catalog_id": null,
@@ -22542,8 +22547,9 @@
       "keys": [
         "t:最終幻想5|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想5"
+      "status": "rejected",
+      "title_zh": "最終幻想5",
+      "reject_reason": "out of scope: Square Enix《最終幻想 5》(2015 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2485": {
       "catalog_id": null,
@@ -22551,8 +22557,9 @@
       "keys": [
         "t:最終幻想6|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想6"
+      "status": "rejected",
+      "title_zh": "最終幻想6",
+      "reject_reason": "out of scope: Square Enix《最終幻想 6》(2015 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2486": {
       "catalog_id": "OCD0038",
@@ -22578,8 +22585,9 @@
       "keys": [
         "t:最終幻想9|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想9"
+      "status": "rejected",
+      "title_zh": "最終幻想9",
+      "reject_reason": "out of scope: Square Enix《最終幻想 9》(2016 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2489": {
       "catalog_id": null,
@@ -22587,8 +22595,9 @@
       "keys": [
         "t:最終幻想10|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想10"
+      "status": "rejected",
+      "title_zh": "最終幻想10",
+      "reject_reason": "out of scope: Square Enix《最終幻想 10》(2016 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2490": {
       "catalog_id": null,
@@ -22596,8 +22605,9 @@
       "keys": [
         "t:最終幻想12|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想12"
+      "status": "rejected",
+      "title_zh": "最終幻想12",
+      "reject_reason": "out of scope: Square Enix《最終幻想 12》(2018 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2491": {
       "catalog_id": null,
@@ -22605,8 +22615,9 @@
       "keys": [
         "t:最終幻想13|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想13"
+      "status": "rejected",
+      "title_zh": "最終幻想13",
+      "reject_reason": "out of scope: Square Enix《最終幻想 13》(2014 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2492": {
       "catalog_id": null,
@@ -22614,8 +22625,9 @@
       "keys": [
         "t:最終幻想13-2|Square"
       ],
-      "status": "active",
-      "title_zh": "最終幻想13-2"
+      "status": "rejected",
+      "title_zh": "最終幻想13-2",
+      "reject_reason": "out of scope: Square Enix《最終幻想 13-2》(2014 PC 版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2493": {
       "catalog_id": null,
@@ -22643,8 +22655,9 @@
       "keys": [
         "t:最終幻想|Square#2"
       ],
-      "status": "active",
-      "title_zh": "最終幻想"
+      "status": "rejected",
+      "title_zh": "最終幻想",
+      "reject_reason": "out of scope: Square Enix《最終幻想》(2015 PC 重製版)，超出年代（2004 後）、stub 未撰寫"
     },
     "cdg-2496": {
       "catalog_id": "SCD2247",
@@ -29020,8 +29033,9 @@
       "keys": [
         "cat:SCD2359"
       ],
-      "status": "active",
-      "title_zh": "模擬農場2011"
+      "status": "rejected",
+      "title_zh": "模擬農場2011",
+      "reject_reason": "out of scope: Giants Software《模擬農場 2011》(Farming Simulator, 2010)，超出年代（2004 後）、外文現代作、stub 未撰寫"
     },
     "cdg-3200": {
       "catalog_id": "SCD2360",
