@@ -61,13 +61,13 @@ const jsonLd = [
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">
-        <table class="infobox">
+        <table class="infobox"><tbody>
           <tr><th>作品數</th><td>{games.length} 款</td></tr>
           {range && <tr><th>年代</th><td>{range.min === range.max ? range.min : `${range.min}–${range.max}`}</td></tr>}
           {dev && <tr><th>開發商</th><td><a class="lk" href={companyUrl(dev)}>{dev}</a></td></tr>}
           {pub && <tr><th>主要發行</th><td><a class="lk" href={companyUrl(pub)}>{pub}</a></td></tr>}
           {topGenre && <tr><th>類型</th><td><a class="lk" href={genreUrl(topGenre)}>{genreLabel(topGenre)}</a></td></tr>}
-        </table>
+        </tbody></table>
       </div>
       <Share />
     </aside>
