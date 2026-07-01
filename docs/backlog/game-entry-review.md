@@ -294,3 +294,8 @@ created: 2026-06-20
 
 ### 軟體世界「8平」目錄 8平014 星際爭霸 原作待考（2026-07-02）
 - [ ] 8平014 星際爭霸（boneash 掃描表「8平」段，類別/英文名皆空白）原作未定。DB 有一大串「星際爭霸戰」（cdg-2417 珍161＝Interplay Star Trek 1992 等 20+ 款）與「星海爭霸」（StarCraft），但 8平 屬 1980 年代 8-bit 平價目錄，年代不符 StarCraft；「星際爭霸」（無「戰」「海」）亦難與現有款對號。需當年廣告／盒裝／實體序號才能定案。「8平」目錄整體研判＝軟體世界 8-bit（Apple II／C64）平價版線（佐證：8平016 永恆之劍 The Eternal Dagger 無 DOS 版、僅 8-bit），此為推斷、掃描表未明載
+
+### 誤掛貴碼清理（2026-07-02，站內目錄補連結時發現）
+- [x] 6 個貴族版碼一碼掛兩款，已從誤掛的一方移除碼＋連帶 softworld@boneash-scan provenance（softworld 反查確認正主）：
+  貴006 Thexder（留 cdg-3866 機動戰士／移 cdg-1539 飛天戰神）、貴021 幻想空間 LSL1（留 cdg-0578／移 cdg-2333 新幻想空間＝1991 重製）、貴028 Falcon（留 cdg-3046 捍衛雄鷹／移 cdg-3047 捍衛雄鷹2）、貴037 Tetris（留 cdg-1607 俄羅斯方塊／移 cdg-2557 迷幻俄羅斯＝溫大國際 native 山寨）、貴062 Crazy Cars（留 cdg-2780 瘋狂大賽車／移 cdg-3053 搞怪賽車＝Wacky Races）、貴204 惡魔城傳說（留 cdg-1782／移 cdg-1780 惡魔城＝Castlevania 一代）
+- [ ] **dedup 待查**：cdg-1539 飛天戰神（Sierra DOS Thexder, SWE006）與 cdg-3866 機動戰士（Game Arts Thexder）疑為同一款 Thexder 的重複條目，待併

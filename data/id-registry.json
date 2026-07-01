@@ -6220,7 +6220,7 @@
     },
     "cdg-0688": {
       "catalog_id": "SCD1598",
-      "developer": "Beavis",
+      "developer": "Beavis Soft",
       "keys": [
         "cat:SCD1598"
       ],
@@ -13901,8 +13901,9 @@
       "keys": [
         "cat:SWE006"
       ],
-      "status": "active",
-      "title_zh": "飛天戰神"
+      "status": "merged",
+      "title_zh": "飛天戰神",
+      "merged_into": "cdg-3866"
     },
     "cdg-1540": {
       "catalog_id": "SWZ018",
@@ -23081,8 +23082,9 @@
       "keys": [
         "cat:SCD0459"
       ],
-      "status": "active",
-      "title_zh": "迷幻俄羅斯"
+      "status": "rejected",
+      "title_zh": "迷幻俄羅斯",
+      "reject_reason": "使用者裁定剔除：1999 年 Windows 作，無正式商業發行、無當年平面媒體佐證（卡 scope §4 閘3 平台超界＋閘2 佐證不足）"
     },
     "cdg-2558": {
       "catalog_id": "SCD2384",
@@ -27522,8 +27524,9 @@
       "keys": [
         "cat:Z112,SCD2438"
       ],
-      "status": "active",
-      "title_zh": "捍衛雄鷹2"
+      "status": "rejected",
+      "title_zh": "捍衛雄鷹2",
+      "reject_reason": "使用者裁定剔除：Falcon 系列衍生版（Falcon A.T./2, 1988），無獨立台灣產品足跡"
     },
     "cdg-3048": {
       "catalog_id": "SWT159,3WG030",
@@ -27540,8 +27543,9 @@
       "keys": [
         "cat:SCD2439"
       ],
-      "status": "active",
-      "title_zh": "捍衛雄鷹4.0"
+      "status": "rejected",
+      "title_zh": "捍衛雄鷹4.0",
+      "reject_reason": "使用者裁定剔除：1998 年 Windows 作 Falcon 4.0，超出年代/平台範圍"
     },
     "cdg-3050": {
       "catalog_id": "SCD2440",
@@ -27549,8 +27553,9 @@
       "keys": [
         "cat:SCD2440"
       ],
-      "status": "active",
-      "title_zh": "捍衛雄鷹4.0：盟軍"
+      "status": "rejected",
+      "title_zh": "捍衛雄鷹4.0：盟軍",
+      "reject_reason": "使用者裁定剔除：2005 年 Windows 作 Falcon 4.0: Allied Force，超出年代/平台範圍"
     },
     "cdg-3051": {
       "catalog_id": null,
@@ -27576,8 +27581,9 @@
       "keys": [
         "cat:SCD1908"
       ],
-      "status": "active",
-      "title_zh": "搞怪賽車"
+      "status": "rejected",
+      "title_zh": "搞怪賽車",
+      "reject_reason": "使用者裁定剔除：2000 年 Windows 作《Wacky Races》，超出年代/平台；原掛之貴062 屬瘋狂大賽車(cdg-2780) 已移除，無台灣產品足跡"
     },
     "cdg-3054": {
       "catalog_id": "SCD2183",
@@ -34914,7 +34920,7 @@
     },
     "cdg-3866": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Game Arts",
       "keys": [
         "t:機動戰士|None"
       ],
