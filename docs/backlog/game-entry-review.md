@@ -299,3 +299,7 @@ created: 2026-06-20
 - [x] 6 個貴族版碼一碼掛兩款，已從誤掛的一方移除碼＋連帶 softworld@boneash-scan provenance（softworld 反查確認正主）：
   貴006 Thexder（留 cdg-3866 機動戰士／移 cdg-1539 飛天戰神）、貴021 幻想空間 LSL1（留 cdg-0578／移 cdg-2333 新幻想空間＝1991 重製）、貴028 Falcon（留 cdg-3046 捍衛雄鷹／移 cdg-3047 捍衛雄鷹2）、貴037 Tetris（留 cdg-1607 俄羅斯方塊／移 cdg-2557 迷幻俄羅斯＝溫大國際 native 山寨）、貴062 Crazy Cars（留 cdg-2780 瘋狂大賽車／移 cdg-3053 搞怪賽車＝Wacky Races）、貴204 惡魔城傳說（留 cdg-1782／移 cdg-1780 惡魔城＝Castlevania 一代）
 - [ ] **dedup 待查**：cdg-1539 飛天戰神（Sierra DOS Thexder, SWE006）與 cdg-3866 機動戰士（Game Arts Thexder）疑為同一款 Thexder 的重複條目，待併
+
+### TGL 古大陸物語／神奇傳說系列 兩處存疑（2026-07-02，撰寫系列批次時記錄）
+- [ ] cdg-2341 新神奇傳說3（Farland Symphony）`publisher_tw: 智冠` 為**推論非直接佐證**：日本原版 2002，台灣確有中文版（巴哈 ACG「新神奇傳說3中文版」），但無來源直接標明代理商；因智冠代理整條神奇傳說／遠征奧德賽線、且 2002 前後智冠已併購台灣帝技爺如，故歸智冠。待實體盒裝背標確認。cdg-1835 遠征奧德賽2 同屬推論（Odyssey 1 智冠明載、2 未直接標）
+- [ ] cdg-0918 古大陸物語5 台灣盒裝正字「毀滅天鏡」vs「毀滅天境」（境/鏡形近，社群多用「天鏡」、cn-dos-games fandom 用「天境」）待封面掃圖仲裁；日文副題「大地の絆」＝直譯「大地之絆」為語意正解，已列 alias
