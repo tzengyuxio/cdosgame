@@ -7,6 +7,7 @@ const { games } = Astro.props;
   {games.map(g => (
     <li><a href={gameUrl(g.id)}>
       <span class="r-title">{g.title_zh}</span>
+      <span class="r-id">{g.id}</span>
       <span class="r-meta">{g.year ?? '—'} · {g.developer || g.publisher_tw?.[0] || '—'} · {genreLabel(g.genre) || '—'}</span>
     </a></li>
   ))}
