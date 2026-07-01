@@ -12,8 +12,9 @@
       "keys": [
         "cat:SCD0136"
       ],
-      "status": "active",
-      "title_zh": "007詹姆士龐德：夜之火"
+      "status": "rejected",
+      "title_zh": "007詹姆士龐德：夜之火",
+      "reject_reason": "out of scope: EA《007 詹姆士龐德：夜之火》(2002)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0002": {
       "catalog_id": "SCD0085",
@@ -21,8 +22,9 @@
       "keys": [
         "cat:SCD0085"
       ],
-      "status": "active",
-      "title_zh": "0204真情麻將"
+      "status": "rejected",
+      "title_zh": "0204真情麻將",
+      "reject_reason": "out of scope: 冠捷《0204 真情麻將》(2002)，成人麻將 shovelware、無考據價值"
     },
     "cdg-0003": {
       "catalog_id": "SCD0086",
@@ -30,8 +32,9 @@
       "keys": [
         "cat:SCD0086"
       ],
-      "status": "active",
-      "title_zh": "0204麻將情人夢"
+      "status": "rejected",
+      "title_zh": "0204麻將情人夢",
+      "reject_reason": "out of scope: 冠捷《0204 麻將情人夢》(2003)，成人麻將 shovelware、無考據價值"
     },
     "cdg-0004": {
       "catalog_id": "SCD2374",
@@ -39,8 +42,9 @@
       "keys": [
         "cat:SCD2374"
       ],
-      "status": "active",
-      "title_zh": "0204麻將館"
+      "status": "rejected",
+      "title_zh": "0204麻將館",
+      "reject_reason": "out of scope: 冠捷《0204 麻將館》(2002)，成人麻將 shovelware、無考據價值"
     },
     "cdg-0005": {
       "catalog_id": "SCD2399",
@@ -48,8 +52,9 @@
       "keys": [
         "cat:SCD2399"
       ],
-      "status": "active",
-      "title_zh": "121特戰隊"
+      "status": "rejected",
+      "title_zh": "121特戰隊",
+      "reject_reason": "out of scope: Direct Action《121 特戰隊》(2005)，外文 Windows 商業作、超出年代且無台灣中文化"
     },
     "cdg-0006": {
       "catalog_id": null,
@@ -66,8 +71,9 @@
       "keys": [
         "cat:SCD1826"
       ],
-      "status": "active",
-      "title_zh": "18輪大車拼"
+      "status": "rejected",
+      "title_zh": "18輪大車拼",
+      "reject_reason": "out of scope: Synetic《18 輪大車拼》(2000)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0008": {
       "catalog_id": "SCD1614",
@@ -75,8 +81,9 @@
       "keys": [
         "cat:SCD1614"
       ],
-      "status": "active",
-      "title_zh": "18鋼輪2：橫跨美國"
+      "status": "rejected",
+      "title_zh": "18鋼輪2：橫跨美國",
+      "reject_reason": "out of scope: SCS《18 鋼輪 2：橫跨美國》(2003)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0009": {
       "catalog_id": "SCD1615",
@@ -84,8 +91,9 @@
       "keys": [
         "cat:SCD1615"
       ],
-      "status": "active",
-      "title_zh": "18鋼輪3：全速前進"
+      "status": "rejected",
+      "title_zh": "18鋼輪3：全速前進",
+      "reject_reason": "out of scope: SCS《18 鋼輪 3：全速前進》(2004)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0010": {
       "catalog_id": "SCD1616",
@@ -93,8 +101,9 @@
       "keys": [
         "cat:SCD1616"
       ],
-      "status": "active",
-      "title_zh": "18鋼輪4：護航"
+      "status": "rejected",
+      "title_zh": "18鋼輪4：護航",
+      "reject_reason": "out of scope: SCS《18 鋼輪 4：護航》(2005)，外文 Windows 商業作、超出年代且無台灣中文化"
     },
     "cdg-0011": {
       "catalog_id": "SCD1617",
@@ -102,8 +111,9 @@
       "keys": [
         "cat:SCD1617"
       ],
-      "status": "active",
-      "title_zh": "18鋼輪5：拖運 18"
+      "status": "rejected",
+      "title_zh": "18鋼輪5：拖運 18",
+      "reject_reason": "out of scope: SCS《18 鋼輪 5：拖運》(2006)，外文 Windows 商業作、超出年代且無台灣中文化"
     },
     "cdg-0012": {
       "catalog_id": "SCD1618",
@@ -111,8 +121,9 @@
       "keys": [
         "cat:SCD1618"
       ],
-      "status": "active",
-      "title_zh": "18鋼輪6：美國長途運輸 18"
+      "status": "rejected",
+      "title_zh": "18鋼輪6：美國長途運輸 18",
+      "reject_reason": "out of scope: SCS《18 鋼輪 6：美國長途運輸》(2007)，外文 Windows 商業作、超出年代且無台灣中文化"
     },
     "cdg-0013": {
       "catalog_id": "SWE209",
@@ -138,8 +149,9 @@
       "keys": [
         "cat:SCD1591"
       ],
-      "status": "active",
-      "title_zh": "2002舒馬赫世界卡丁車大賽"
+      "status": "rejected",
+      "title_zh": "2002舒馬赫世界卡丁車大賽",
+      "reject_reason": "out of scope: Radon《2002 舒馬赫世界卡丁車大賽》(2002)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0016": {
       "catalog_id": "SCD1091",
@@ -147,8 +159,9 @@
       "keys": [
         "cat:SCD1091"
       ],
-      "status": "active",
-      "title_zh": "2006寫真美眉總動員"
+      "status": "rejected",
+      "title_zh": "2006寫真美眉總動員",
+      "reject_reason": "out of scope: 遊戲天堂《2006 寫真美眉總動員》(2006)，寫真 shovelware、超出年代"
     },
     "cdg-0017": {
       "catalog_id": null,
@@ -256,8 +269,9 @@
       "keys": [
         "cat:SCD1697"
       ],
-      "status": "active",
-      "title_zh": "4x4方程式賽車1"
+      "status": "rejected",
+      "title_zh": "4x4方程式賽車1",
+      "reject_reason": "out of scope: Terminal Reality《4x4 方程式賽車 1》(2000)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0029": {
       "catalog_id": "SCD1698",
@@ -265,8 +279,9 @@
       "keys": [
         "cat:SCD1698"
       ],
-      "status": "active",
-      "title_zh": "4x4方程式賽車2"
+      "status": "rejected",
+      "title_zh": "4x4方程式賽車2",
+      "reject_reason": "out of scope: Terminal Reality《4x4 方程式賽車 2》(2001)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-0030": {
       "catalog_id": "SWE076",
@@ -339,8 +354,9 @@
       "keys": [
         "cat:SCD0299"
       ],
-      "status": "active",
-      "title_zh": "AV天后-女優麻將"
+      "status": "rejected",
+      "title_zh": "AV天后-女優麻將",
+      "reject_reason": "out of scope: 遊戲天堂《AV 天后-女優麻將》(2004)，成人麻將 shovelware、無考據價值"
     },
     "cdg-0038": {
       "catalog_id": "SCD0443",
@@ -348,8 +364,9 @@
       "keys": [
         "cat:SCD0443"
       ],
-      "status": "active",
-      "title_zh": "AV女優麻將國：正宗台灣16張真人麻將"
+      "status": "rejected",
+      "title_zh": "AV女優麻將國：正宗台灣16張真人麻將",
+      "reject_reason": "out of scope: 冠捷《AV 女優麻將國》(2002)，成人麻將 shovelware、無考據價值"
     },
     "cdg-0039": {
       "catalog_id": "SWZ003",
@@ -429,8 +446,9 @@
       "keys": [
         "cat:SCD1049"
       ],
-      "status": "active",
-      "title_zh": "CC桃色醫院"
+      "status": "rejected",
+      "title_zh": "CC桃色醫院",
+      "reject_reason": "out of scope: Spirit Speak《CC 桃色醫院》(2006)，成人向、超出年代 (2004 後)"
     },
     "cdg-0048": {
       "catalog_id": "SCD1559",
@@ -700,8 +718,9 @@
       "keys": [
         "cat:SCD2311"
       ],
-      "status": "active",
-      "title_zh": "G-Nome"
+      "status": "rejected",
+      "title_zh": "G-Nome",
+      "reject_reason": "out of scope: 7th Level《G-Nome》(1997)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-0078": {
       "catalog_id": null,
@@ -709,8 +728,9 @@
       "keys": [
         "t:Go-Moku 95|GoodGuys"
       ],
-      "status": "active",
-      "title_zh": "Go-Moku 95"
+      "status": "rejected",
+      "title_zh": "Go-Moku 95",
+      "reject_reason": "out of scope: GoodGuys《Go-Moku 95》(1996)，通用 Windows 五子棋 freeware、無台灣發行足跡與考據價值"
     },
     "cdg-0079": {
       "catalog_id": null,
@@ -745,8 +765,9 @@
       "keys": [
         "cat:SCD1892"
       ],
-      "status": "active",
-      "title_zh": "GTI錦標賽／"
+      "status": "rejected",
+      "title_zh": "GTI錦標賽／",
+      "reject_reason": "out of scope: Techland《GTI 錦標賽》(2006)，外文 Windows 商業作、超出年代且無台灣中文化"
     },
     "cdg-0083": {
       "catalog_id": "SCD1931",
@@ -772,8 +793,9 @@
       "keys": [
         "t:Herakles|Kostas Tournavitis"
       ],
-      "status": "active",
-      "title_zh": "Herakles"
+      "status": "rejected",
+      "title_zh": "Herakles",
+      "reject_reason": "out of scope: Kostas Tournavitis《Herakles》(2007)，外文獨立作、超出年代且無台灣發行足跡"
     },
     "cdg-0086": {
       "catalog_id": "SCD1003",
@@ -799,8 +821,9 @@
       "keys": [
         "cat:SCD1300"
       ],
-      "status": "active",
-      "title_zh": "IL-2暴風雪"
+      "status": "rejected",
+      "title_zh": "IL-2暴風雪",
+      "reject_reason": "out of scope: 1C《IL-2 Sturmovik 暴風雪》(2001)，外文 Windows 飛行模擬、無台灣中文化發行足跡"
     },
     "cdg-0089": {
       "catalog_id": "SCD1301",
@@ -808,8 +831,9 @@
       "keys": [
         "cat:SCD1301"
       ],
-      "status": "active",
-      "title_zh": "IL-2暴風雪"
+      "status": "rejected",
+      "title_zh": "IL-2暴風雪",
+      "reject_reason": "out of scope: 1C《IL-2 暴風雪》(2003)，外文 Windows 飛行模擬、無台灣中文化發行足跡"
     },
     "cdg-0090": {
       "catalog_id": "SCD1303",
@@ -817,8 +841,9 @@
       "keys": [
         "cat:SCD1303"
       ],
-      "status": "active",
-      "title_zh": "IL-2暴風雪"
+      "status": "rejected",
+      "title_zh": "IL-2暴風雪",
+      "reject_reason": "out of scope: 1C《IL-2 暴風雪》(2006)，外文 Windows 飛行模擬、超出年代且無台灣中文化"
     },
     "cdg-0091": {
       "catalog_id": "SCD1827",
@@ -844,8 +869,9 @@
       "keys": [
         "cat:SCD1150"
       ],
-      "status": "active",
-      "title_zh": "Iris鳶尾花物語"
+      "status": "rejected",
+      "title_zh": "Iris鳶尾花物語",
+      "reject_reason": "out of scope: KID《Iris 鳶尾花物語》(2008)，超出年代 (2004 後)"
     },
     "cdg-0094": {
       "catalog_id": "3WZ005",
@@ -882,8 +908,9 @@
       "keys": [
         "cat:SCD2269"
       ],
-      "status": "active",
-      "title_zh": "kefir護兒優酪乳 教玩遊戲光碟：英文系列"
+      "status": "rejected",
+      "title_zh": "kefir護兒優酪乳 教玩遊戲光碟：英文系列",
+      "reject_reason": "out of scope: 統一《kefir 護兒優酪乳 教玩遊戲光碟》(2002)，促銷贈品教學光碟、非遊戲產品"
     },
     "cdg-0098": {
       "catalog_id": null,
@@ -966,8 +993,9 @@
       "keys": [
         "t:NTest|Chris Welty"
       ],
-      "status": "active",
-      "title_zh": "NTest"
+      "status": "rejected",
+      "title_zh": "NTest",
+      "reject_reason": "out of scope: NTest 開源黑白棋（Othello）分析引擎 (2005)，非遊戲產品"
     },
     "cdg-0107": {
       "catalog_id": null,
@@ -975,8 +1003,9 @@
       "keys": [
         "t:Nyet|David B. Howorth"
       ],
-      "status": "active",
-      "title_zh": "Nyet"
+      "status": "rejected",
+      "title_zh": "Nyet",
+      "reject_reason": "out of scope: David B. Howorth《Nyet》(1988)，外文 Tetris clone shareware、無台灣發行足跡"
     },
     "cdg-0108": {
       "catalog_id": null,
@@ -984,8 +1013,9 @@
       "keys": [
         "t:Nyet 3: The Revenge of the Mutant Stones|Proline"
       ],
-      "status": "active",
-      "title_zh": "Nyet 3: The Revenge of the Mutant Stones"
+      "status": "rejected",
+      "title_zh": "Nyet 3: The Revenge of the Mutant Stones",
+      "reject_reason": "out of scope: Proline《Nyet 3》(1993)，外文 Tetris clone、無台灣發行足跡"
     },
     "cdg-0109": {
       "catalog_id": "SCD1120",
@@ -1123,8 +1153,9 @@
       "keys": [
         "cat:SCD0551"
       ],
-      "status": "active",
-      "title_zh": "VR快打1／"
+      "status": "rejected",
+      "title_zh": "VR快打1／",
+      "reject_reason": "out of scope: SEGA《VR 快打》(Virtua Fighter, 1996)，外文格鬥遊戲、無台灣中文化發行足跡"
     },
     "cdg-0124": {
       "catalog_id": "SCD0552",
@@ -1132,8 +1163,9 @@
       "keys": [
         "cat:SCD0552"
       ],
-      "status": "active",
-      "title_zh": "VR快打2／"
+      "status": "rejected",
+      "title_zh": "VR快打2／",
+      "reject_reason": "out of scope: SEGA《VR 快打 2》(Virtua Fighter 2, 1997)，外文格鬥遊戲、無台灣中文化發行足跡"
     },
     "cdg-0125": {
       "catalog_id": "SCD1516",
@@ -1186,8 +1218,9 @@
       "keys": [
         "t:Xian 3.0|Leong Jacobs"
       ],
-      "status": "active",
-      "title_zh": "Xian 3.0"
+      "status": "rejected",
+      "title_zh": "Xian 3.0",
+      "reject_reason": "out of scope: Leong Jacobs《Xian》黑白棋程式 (1990)，外文 freeware、非商業遊戲產品"
     },
     "cdg-0131": {
       "catalog_id": "SCD1545",
@@ -1258,8 +1291,9 @@
       "keys": [
         "cat:SCD2095"
       ],
-      "status": "active",
-      "title_zh": "ㄅㄆㄇ妙妙國(一)：ㄅㄆㄇ列車"
+      "status": "rejected",
+      "title_zh": "ㄅㄆㄇ妙妙國(一)：ㄅㄆㄇ列車",
+      "reject_reason": "out of scope: 華友《ㄅㄆㄇ妙妙國：ㄅㄆㄇ列車》(1997)，學齡前注音教學光碟、教育工具非遊戲考據對象"
     },
     "cdg-0139": {
       "catalog_id": null,
@@ -1267,8 +1301,9 @@
       "keys": [
         "t:一九八九年中日圍棋擂臺賽|星式"
       ],
-      "status": "active",
-      "title_zh": "一九八九年中日圍棋擂臺賽"
+      "status": "rejected",
+      "title_zh": "一九八九年中日圍棋擂臺賽",
+      "reject_reason": "out of scope: 星式《一九八九年中日圍棋擂臺賽》(1993)，圍棋棋譜/對局重現軟體、非遊戲產品"
     },
     "cdg-0140": {
       "catalog_id": "SCD1639",
@@ -1359,8 +1394,9 @@
       "keys": [
         "cat:SCD2295"
       ],
-      "status": "active",
-      "title_zh": "丁丁在西藏"
+      "status": "rejected",
+      "title_zh": "丁丁在西藏",
+      "reject_reason": "out of scope: Infogrames《丁丁在西藏》(Tintin in Tibet, 1996)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-0150": {
       "catalog_id": "SCD2297",
@@ -1368,8 +1404,9 @@
       "keys": [
         "cat:SCD2297"
       ],
-      "status": "active",
-      "title_zh": "丁丁歷險記"
+      "status": "rejected",
+      "title_zh": "丁丁歷險記",
+      "reject_reason": "out of scope: Infogrames《丁丁歷險記》(Tintin: Destination Adventure, 2001)，Windows 外文作、僅中國大陸（天人互動）簡中版、無台灣發行足跡"
     },
     "cdg-0151": {
       "catalog_id": "SCD2296",
@@ -1377,8 +1414,9 @@
       "keys": [
         "cat:SCD2296"
       ],
-      "status": "active",
-      "title_zh": "丁丁歷險記：太陽之罪"
+      "status": "rejected",
+      "title_zh": "丁丁歷險記：太陽之罪",
+      "reject_reason": "out of scope: Infogrames《丁丁歷險記：太陽之罪》(Prisoners of the Sun, 1997)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-0152": {
       "catalog_id": "SCD1554",
@@ -1449,8 +1487,9 @@
       "keys": [
         "cat:SCD2733"
       ],
-      "status": "active",
-      "title_zh": "七星魔法使"
+      "status": "rejected",
+      "title_zh": "七星魔法使",
+      "reject_reason": "out of scope: Falcom《七星魔法使》(Sorcerian, 2002)，Windows 外文作、大陸簡中版（新天地）、無台灣發行足跡"
     },
     "cdg-0160": {
       "catalog_id": "SCD2402",
@@ -1793,8 +1832,9 @@
       "keys": [
         "cat:SCD1868"
       ],
-      "status": "active",
-      "title_zh": "南方公園大飆車"
+      "status": "rejected",
+      "title_zh": "南方公園大飆車",
+      "reject_reason": "out of scope: Tantalus《南方公園大飆車》(South Park Rally, 2000)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-0198": {
       "catalog_id": "SCD1494",
@@ -1802,8 +1842,9 @@
       "keys": [
         "cat:SCD1494"
       ],
-      "status": "active",
-      "title_zh": "南方四賤客"
+      "status": "rejected",
+      "title_zh": "南方四賤客",
+      "reject_reason": "out of scope: Iguana《南方四賤客》(South Park, 1999)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-0199": {
       "catalog_id": "SCD2655",
@@ -1820,8 +1861,9 @@
       "keys": [
         "t:博比教你國際象棋|Mission Studios"
       ],
-      "status": "active",
-      "title_zh": "博比教你國際象棋"
+      "status": "rejected",
+      "title_zh": "博比教你國際象棋",
+      "reject_reason": "out of scope: Mission Studios《博比教你國際象棋》(1994)，外文西洋棋教學軟體、非遊戲考據對象"
     },
     "cdg-0201": {
       "catalog_id": null,
@@ -2360,8 +2402,9 @@
       "keys": [
         "cat:SCD0119"
       ],
-      "status": "active",
-      "title_zh": "三藏棋經"
+      "status": "rejected",
+      "title_zh": "三藏棋經",
+      "reject_reason": "out of scope: 弈緣《三藏棋經》(2002)，象棋棋譜/教學工具、非遊戲產品"
     },
     "cdg-0261": {
       "catalog_id": "SCD0184",
@@ -2369,8 +2412,9 @@
       "keys": [
         "cat:SCD0184"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊"
+      "status": "rejected",
+      "title_zh": "三角洲部隊",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊》(Delta Force, 1998)，外文 FPS、無台灣中文化發行足跡"
     },
     "cdg-0262": {
       "catalog_id": "SCD0185",
@@ -2378,8 +2422,9 @@
       "keys": [
         "cat:SCD0185"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊2"
+      "status": "rejected",
+      "title_zh": "三角洲部隊2",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 2》(1999)，外文 FPS、無台灣中文化發行足跡"
     },
     "cdg-0263": {
       "catalog_id": "SCD0186",
@@ -2387,8 +2432,9 @@
       "keys": [
         "cat:SCD0186"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊3：大地勇士"
+      "status": "rejected",
+      "title_zh": "三角洲部隊3：大地勇士",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 3：大地勇士》(Land Warrior, 2000)，外文 FPS、無台灣中文化發行足跡"
     },
     "cdg-0264": {
       "catalog_id": "SCD0187",
@@ -2396,8 +2442,9 @@
       "keys": [
         "cat:SCD0187"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊5：刺刀特遣隊"
+      "status": "rejected",
+      "title_zh": "三角洲部隊5：刺刀特遣隊",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 5：刺刀特遣隊》(Task Force Dagger, 2002)，外文 FPS、無台灣中文化發行足跡"
     },
     "cdg-0265": {
       "catalog_id": "SCD0188",
@@ -2405,8 +2452,9 @@
       "keys": [
         "cat:SCD0188"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊6：黑鷹計劃"
+      "status": "rejected",
+      "title_zh": "三角洲部隊6：黑鷹計劃",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 6：黑鷹計劃》(Black Hawk Down, 2003)，外文 FPS、無台灣中文化發行足跡"
     },
     "cdg-0266": {
       "catalog_id": "SCD0189",
@@ -2414,8 +2462,9 @@
       "keys": [
         "cat:SCD0189"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊7：極限任務"
+      "status": "rejected",
+      "title_zh": "三角洲部隊7：極限任務",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 7：極限任務》(2005)，外文 FPS、超出年代且無台灣中文化"
     },
     "cdg-0267": {
       "catalog_id": "SCD0190",
@@ -2423,8 +2472,9 @@
       "keys": [
         "cat:SCD0190"
       ],
-      "status": "active",
-      "title_zh": "三角洲部隊8：極限任務2"
+      "status": "rejected",
+      "title_zh": "三角洲部隊8：極限任務2",
+      "reject_reason": "out of scope: NovaLogic《三角洲部隊 8：極限任務 2》(2009)，外文 FPS、超出年代且無台灣中文化"
     },
     "cdg-0268": {
       "catalog_id": "Z010",
@@ -2856,8 +2906,9 @@
       "keys": [
         "cat:SCD0452"
       ],
-      "status": "active",
-      "title_zh": "中國象棋經典戰例1000例(古譜集)"
+      "status": "rejected",
+      "title_zh": "中國象棋經典戰例1000例(古譜集)",
+      "reject_reason": "out of scope: 大恆電子出版社《中國象棋經典戰例 1000 例（古譜集）》(2003)，象棋古譜電子出版品、非遊戲產品"
     },
     "cdg-0316": {
       "catalog_id": null,
@@ -5846,8 +5897,9 @@
       "keys": [
         "cat:SCD0082"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之可愛動物棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之可愛動物棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之可愛動物棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0647": {
       "catalog_id": "SCD0082",
@@ -5855,8 +5907,9 @@
       "keys": [
         "cat:SCD0082#2"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之圍棋大賽"
+      "status": "rejected",
+      "title_zh": "世界棋王之圍棋大賽",
+      "reject_reason": "out of scope: 新造科技《世界棋王之圍棋大賽》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0648": {
       "catalog_id": "SCD0082",
@@ -5864,8 +5917,9 @@
       "keys": [
         "cat:SCD0082#3"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之孔明棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之孔明棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之孔明棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0649": {
       "catalog_id": "SCD0082",
@@ -5873,8 +5927,9 @@
       "keys": [
         "cat:SCD0082#4"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之挑戰西洋棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之挑戰西洋棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之挑戰西洋棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0650": {
       "catalog_id": "SCD0082,SCD0584",
@@ -5882,8 +5937,9 @@
       "keys": [
         "cat:SCD0082,SCD0584"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之暗棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之暗棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之暗棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0651": {
       "catalog_id": "SCD0082",
@@ -5891,8 +5947,9 @@
       "keys": [
         "cat:SCD0082#5"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之決戰五子棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之決戰五子棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之決戰五子棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0652": {
       "catalog_id": "SCD0082",
@@ -5900,8 +5957,9 @@
       "keys": [
         "cat:SCD0082#6"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之華容道"
+      "status": "rejected",
+      "title_zh": "世界棋王之華容道",
+      "reject_reason": "out of scope: 新造科技《世界棋王之華容道》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0653": {
       "catalog_id": "SCD0082",
@@ -5909,8 +5967,9 @@
       "keys": [
         "cat:SCD0082#7"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之象棋大賽"
+      "status": "rejected",
+      "title_zh": "世界棋王之象棋大賽",
+      "reject_reason": "out of scope: 新造科技《世界棋王之象棋大賽》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0654": {
       "catalog_id": "SCD0082",
@@ -5918,8 +5977,9 @@
       "keys": [
         "cat:SCD0082#8"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之象棋殘局經典"
+      "status": "rejected",
+      "title_zh": "世界棋王之象棋殘局經典",
+      "reject_reason": "out of scope: 新造科技《世界棋王之象棋殘局經典》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0655": {
       "catalog_id": "SCD0082",
@@ -5927,8 +5987,9 @@
       "keys": [
         "cat:SCD0082#9"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之象棋麻將"
+      "status": "rejected",
+      "title_zh": "世界棋王之象棋麻將",
+      "reject_reason": "out of scope: 新造科技《世界棋王之象棋麻將》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0656": {
       "catalog_id": "SCD0082",
@@ -5936,8 +5997,9 @@
       "keys": [
         "cat:SCD0082#10"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之跳棋高手"
+      "status": "rejected",
+      "title_zh": "世界棋王之跳棋高手",
+      "reject_reason": "out of scope: 新造科技《世界棋王之跳棋高手》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0657": {
       "catalog_id": "SCD0082",
@@ -5945,8 +6007,9 @@
       "keys": [
         "cat:SCD0082#11"
       ],
-      "status": "active",
-      "title_zh": "世界棋王之黑白棋"
+      "status": "rejected",
+      "title_zh": "世界棋王之黑白棋",
+      "reject_reason": "out of scope: 新造科技《世界棋王之黑白棋》(2002)，棋類 shovelware、stub 未撰寫、無考據價值"
     },
     "cdg-0658": {
       "catalog_id": "SSG035",
@@ -5963,8 +6026,9 @@
       "keys": [
         "cat:SCD2258"
       ],
-      "status": "active",
-      "title_zh": "世界足球競賽3"
+      "status": "rejected",
+      "title_zh": "世界足球競賽3",
+      "reject_reason": "out of scope: Konami《世界足球競賽 3》(Winning Eleven, 2003)，外文運動遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0660": {
       "catalog_id": null,
@@ -5972,8 +6036,9 @@
       "keys": [
         "t:世界足球競賽4|Konami"
       ],
-      "status": "active",
-      "title_zh": "世界足球競賽4"
+      "status": "rejected",
+      "title_zh": "世界足球競賽4",
+      "reject_reason": "out of scope: Konami《世界足球競賽 4》(2004)，外文運動遊戲、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0661": {
       "catalog_id": "SCD2259",
@@ -5981,8 +6046,9 @@
       "keys": [
         "cat:SCD2259"
       ],
-      "status": "active",
-      "title_zh": "世界足球競賽5"
+      "status": "rejected",
+      "title_zh": "世界足球競賽5",
+      "reject_reason": "out of scope: Konami《世界足球競賽 5》(2005)，外文運動遊戲、超出年代且無台灣中文化、stub 未撰寫"
     },
     "cdg-0662": {
       "catalog_id": "SCD2260",
@@ -5990,8 +6056,9 @@
       "keys": [
         "cat:SCD2260"
       ],
-      "status": "active",
-      "title_zh": "世界足球競賽6"
+      "status": "rejected",
+      "title_zh": "世界足球競賽6",
+      "reject_reason": "out of scope: Konami《世界足球競賽 6》(2006)，外文運動遊戲、超出年代且無台灣中文化、stub 未撰寫"
     },
     "cdg-0663": {
       "catalog_id": "SCD2261",
@@ -5999,8 +6066,9 @@
       "keys": [
         "cat:SCD2261"
       ],
-      "status": "active",
-      "title_zh": "世界足球競賽2008"
+      "status": "rejected",
+      "title_zh": "世界足球競賽2008",
+      "reject_reason": "out of scope: Konami《世界足球競賽 2008》(2007)，外文運動遊戲、超出年代且無台灣中文化、stub 未撰寫"
     },
     "cdg-0664": {
       "catalog_id": "SCD2098",
@@ -6008,8 +6076,9 @@
       "keys": [
         "cat:SCD2098"
       ],
-      "status": "active",
-      "title_zh": "世界通來旺的ㄅㄆㄇ"
+      "status": "rejected",
+      "title_zh": "世界通來旺的ㄅㄆㄇ",
+      "reject_reason": "out of scope: 映夢文化《世界通來旺的ㄅㄆㄇ》(2003)，學齡前注音教學光碟、教育工具非遊戲考據對象、stub 未撰寫"
     },
     "cdg-0665": {
       "catalog_id": "SCD2099",
@@ -6017,8 +6086,9 @@
       "keys": [
         "cat:SCD2099"
       ],
-      "status": "active",
-      "title_zh": "世界通來旺的筆劃練習簿：基礎篇"
+      "status": "rejected",
+      "title_zh": "世界通來旺的筆劃練習簿：基礎篇",
+      "reject_reason": "out of scope: 映夢文化《世界通來旺的筆劃練習簿：基礎篇》(1998)，學齡前筆劃教學光碟、教育工具非遊戲考據對象、stub 未撰寫"
     },
     "cdg-0666": {
       "catalog_id": "SCD0900",
@@ -6143,8 +6213,9 @@
       "keys": [
         "cat:SCD1589"
       ],
-      "status": "active",
-      "title_zh": "卡丁車大賽2004"
+      "status": "rejected",
+      "title_zh": "卡丁車大賽2004",
+      "reject_reason": "out of scope: Engine《卡丁車大賽 2004》(2003)，卡丁車競速、無台灣中文化發行足跡、stub 未撰寫"
     },
     "cdg-0680": {
       "catalog_id": "SCD1594",
@@ -22614,8 +22685,9 @@
       "keys": [
         "cat:SCD1612"
       ],
-      "status": "active",
-      "title_zh": "硬卡車3：18鋼輪"
+      "status": "rejected",
+      "title_zh": "硬卡車3：18鋼輪",
+      "reject_reason": "out of scope: SCS 卡車模擬《18 鋼輪》系列 (2002)，外文 Windows 商業作、無台灣中文化發行足跡"
     },
     "cdg-2506": {
       "catalog_id": "SCD1700",
