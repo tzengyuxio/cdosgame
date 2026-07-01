@@ -117,6 +117,7 @@ export function toIndexRecord(d) {
     publisher_tw: d.publisher_tw || [],
     genre: d.genre ?? null,
     localization_level: d.localization_level ?? null,
+    published: d.published !== false,
   };
 }
 

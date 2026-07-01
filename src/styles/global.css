@@ -116,6 +116,8 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .results a:hover{background:#faf6ee;text-decoration:none}
 .r-title{font-weight:600}
 .r-id{color:var(--muted);font-size:12px;font-family:var(--mono);white-space:nowrap;opacity:.65}
+.r-draft{font-size:11px;font-family:var(--mono);font-weight:600;color:#fff;background:#c0392b;padding:1px 6px;border-radius:3px;white-space:nowrap}
+.results li:has(.r-draft){background:#fff7f4}
 .r-meta{color:var(--muted);font-size:13px;font-family:var(--mono);white-space:nowrap;margin-left:auto}
 .pager{display:flex;align-items:center;gap:8px;justify-content:center;margin-top:16px}
 .pager button{padding:5px 12px;border:1px solid var(--border);background:#fff;border-radius:4px;cursor:pointer}
