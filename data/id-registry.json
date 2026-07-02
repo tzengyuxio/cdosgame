@@ -31274,7 +31274,7 @@
         "cat:SCD2392"
       ],
       "status": "active",
-      "title_zh": "英雄傳說6：空之軌跡 前傳"
+      "title_zh": "英雄傳說6：空之軌跡 FC"
     },
     "cdg-3440": {
       "catalog_id": "SCD1321",
@@ -31283,7 +31283,7 @@
         "cat:SCD1321"
       ],
       "status": "active",
-      "title_zh": "英雄傳說6：空之軌跡 後傳"
+      "title_zh": "英雄傳說6：空之軌跡 SC"
     },
     "cdg-3441": {
       "catalog_id": "SCD1322",
@@ -31292,7 +31292,7 @@
         "cat:SCD1322"
       ],
       "status": "active",
-      "title_zh": "英雄傳說6：空之軌跡 外傳3"
+      "title_zh": "英雄傳說6：空之軌跡 the 3rd"
     },
     "cdg-3442": {
       "catalog_id": "SCD1323",
@@ -33371,7 +33371,7 @@
         "cat:OCD0049"
       ],
       "status": "active",
-      "title_zh": "七星魔法使"
+      "title_zh": "魔域傳說：永恆之書"
     },
     "cdg-3672": {
       "catalog_id": "SCD2513",
@@ -43805,6 +43805,15 @@
       ],
       "status": "active",
       "title_zh": "真‧雙星物語2"
+    },
+    "cdg-4825": {
+      "catalog_id": null,
+      "developer": "Falcom",
+      "keys": [
+        "t:英雄傳說7：碧之軌跡|Falcom"
+      ],
+      "status": "active",
+      "title_zh": "英雄傳說7：碧之軌跡"
     }
   }
 }
