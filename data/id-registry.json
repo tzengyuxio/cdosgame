@@ -6577,8 +6577,9 @@
       "keys": [
         "cat:SCD0910"
       ],
-      "status": "active",
-      "title_zh": "失落神話"
+      "status": "rejected",
+      "title_zh": "失落神話",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Monte Cristo（法）《失落神話 / Silverfall》post-DOS 外文 RPG、stub 未撰寫"
     },
     "cdg-0719": {
       "catalog_id": "OCD0100",
@@ -7219,8 +7220,9 @@
       "keys": [
         "cat:SCD2158"
       ],
-      "status": "active",
-      "title_zh": "宇宙戰爭：地球突襲戰"
+      "status": "rejected",
+      "title_zh": "宇宙戰爭：地球突襲戰",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Petroglyph《宇宙戰爭：地球突襲戰 / Universe at War: Earth Assault》post-DOS 外文即時戰略、stub 未撰寫"
     },
     "cdg-0790": {
       "catalog_id": "SCD2443",
@@ -8348,8 +8350,9 @@
       "keys": [
         "cat:SCD0775"
       ],
-      "status": "active",
-      "title_zh": "古墓奇兵8：重返禁地"
+      "status": "rejected",
+      "title_zh": "古墓奇兵8：重返禁地",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Crystal Dynamics《古墓奇兵8：重返禁地 / Tomb Raider: Anniversary》post-DOS 外文動作冒險、stub 未撰寫"
     },
     "cdg-0914": {
       "catalog_id": "SCD2035",
@@ -8556,8 +8559,9 @@
       "keys": [
         "cat:SCD2569"
       ],
-      "status": "active",
-      "title_zh": "台灣鐵道王：環島大作戰"
+      "status": "rejected",
+      "title_zh": "台灣鐵道王：環島大作戰",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——布雷格（智冠代理）《台灣鐵道王：環島大作戰》國產休閒桌遊、遠逾 Win95 國產延伸窗口、stub 未撰寫"
     },
     "cdg-0937": {
       "catalog_id": "SCD0078",
@@ -12255,8 +12259,9 @@
       "keys": [
         "cat:SCD0147"
       ],
-      "status": "active",
-      "title_zh": "阿嘉莎克莉絲蒂：午日奇屍"
+      "status": "rejected",
+      "title_zh": "阿嘉莎克莉絲蒂：午日奇屍",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——AWE Games《阿嘉莎克莉絲蒂：午日奇屍 / Agatha Christie: Evil Under the Sun》post-DOS 外文冒險、stub 未撰寫"
     },
     "cdg-1341": {
       "catalog_id": "SCD0146",
@@ -16206,8 +16211,9 @@
       "keys": [
         "cat:SCD1041"
       ],
-      "status": "active",
-      "title_zh": "惡靈古堡4"
+      "status": "rejected",
+      "title_zh": "惡靈古堡4",
+      "reject_reason": "out of scope: 發行 2005，逾收錄範圍——CAPCOM《惡靈古堡4 / Resident Evil 4》Windows post-DOS 外文作、stub 未撰寫"
     },
     "cdg-1778": {
       "catalog_id": "SCD1042",
@@ -16215,8 +16221,9 @@
       "keys": [
         "cat:SCD1042"
       ],
-      "status": "active",
-      "title_zh": "惡靈古堡5"
+      "status": "rejected",
+      "title_zh": "惡靈古堡5",
+      "reject_reason": "out of scope: 發行 2009，逾收錄範圍——CAPCOM《惡靈古堡5 / Resident Evil 5》Windows post-DOS 外文作、stub 未撰寫"
     },
     "cdg-1779": {
       "catalog_id": "SCD2078",
@@ -22731,8 +22738,9 @@
       "keys": [
         "cat:SCD1144"
       ],
-      "status": "active",
-      "title_zh": "最高指揮官"
+      "status": "rejected",
+      "title_zh": "最高指揮官",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Gas Powered Games《最高指揮官 / Supreme Commander》post-DOS 外文即時戰略、stub 未撰寫"
     },
     "cdg-2499": {
       "catalog_id": "SCD1151",
@@ -24583,8 +24591,9 @@
       "keys": [
         "cat:SCD0810"
       ],
-      "status": "active",
-      "title_zh": "霸王"
+      "status": "rejected",
+      "title_zh": "霸王",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Triumph Studios《霸王 / Overlord》post-DOS 外文動作角色扮演、stub 未撰寫"
     },
     "cdg-2703": {
       "catalog_id": "SCD0811",
@@ -28966,8 +28975,9 @@
       "keys": [
         "cat:SCD1984"
       ],
-      "status": "active",
-      "title_zh": "模擬市民趴趴走1：人生大冒險"
+      "status": "rejected",
+      "title_zh": "模擬市民趴趴走1：人生大冒險",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Maxis《模擬市民趴趴走1：人生大冒險 / The Sims Life Stories》post-DOS 外文養成模擬、stub 未撰寫"
     },
     "cdg-3186": {
       "catalog_id": "SCD1985",
@@ -28975,8 +28985,9 @@
       "keys": [
         "cat:SCD1985"
       ],
-      "status": "active",
-      "title_zh": "模擬市民趴趴走2：寵物大挑戰"
+      "status": "rejected",
+      "title_zh": "模擬市民趴趴走2：寵物大挑戰",
+      "reject_reason": "out of scope: 發行 2007，逾收錄範圍——Maxis《模擬市民趴趴走2：寵物大挑戰 / The Sims Pets Stories》post-DOS 外文養成模擬、stub 未撰寫"
     },
     "cdg-3187": {
       "catalog_id": "SCD1986",
