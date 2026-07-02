@@ -3568,8 +3568,9 @@
       "keys": [
         "cat:SCD0496"
       ],
-      "status": "active",
-      "title_zh": "大富翁：夢之童話大陸"
+      "status": "rejected",
+      "title_zh": "大富翁：夢之童話大陸",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——史萊姆數位《大富翁：夢之童話大陸》業餘自製大富翁類、stub 未撰寫"
     },
     "cdg-0389": {
       "catalog_id": "CFC001",
@@ -3998,8 +3999,9 @@
       "keys": [
         "cat:SCD0845"
       ],
-      "status": "active",
-      "title_zh": "天使之谷"
+      "status": "rejected",
+      "title_zh": "天使之谷",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Chrome Six（日）《天使之谷 / Angelic Vale》同人 SRPG、stub 未撰寫"
     },
     "cdg-0436": {
       "catalog_id": "SCD0846",
@@ -4007,8 +4009,9 @@
       "keys": [
         "cat:SCD0846"
       ],
-      "status": "active",
-      "title_zh": "天使之谷2：威斯貝爾的迷宮"
+      "status": "rejected",
+      "title_zh": "天使之谷2：威斯貝爾的迷宮",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——Chrome Six（日）《天使之谷2：威斯貝爾的迷宮 / Angelic Vale Process》同人 SRPG、stub 未撰寫"
     },
     "cdg-0437": {
       "catalog_id": "SCD0847",
@@ -4016,8 +4019,9 @@
       "keys": [
         "cat:SCD0847"
       ],
-      "status": "active",
-      "title_zh": "天使之谷新傳：艾菲梅爾島傳說"
+      "status": "rejected",
+      "title_zh": "天使之谷新傳：艾菲梅爾島傳說",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——Chrome Six（日）《天使之谷新傳：艾菲梅爾島傳說 / Angelic Vale Express》同人 SRPG、stub 未撰寫"
     },
     "cdg-0438": {
       "catalog_id": "SCD0844",
@@ -4890,8 +4894,9 @@
       "keys": [
         "cat:SCD0178"
       ],
-      "status": "active",
-      "title_zh": "小魔女"
+      "status": "rejected",
+      "title_zh": "小魔女",
+      "reject_reason": "out of scope: 發行 2000，Windows（Win9x）平台遊戲、非 DOS，系列亦無 DOS 版可保留——TOEI（卉谷代理）《小魔女 DoReMi》、stub 未撰寫"
     },
     "cdg-0535": {
       "catalog_id": "SCD1289",
@@ -4899,8 +4904,9 @@
       "keys": [
         "cat:SCD1289"
       ],
-      "status": "active",
-      "title_zh": "小魔女"
+      "status": "rejected",
+      "title_zh": "小魔女",
+      "reject_reason": "out of scope: 發行 2000，Windows 平台遊戲、非 DOS，系列亦無 DOS 版可保留——TOEI（卉谷代理）《小魔女 DoReMi 2：天使養成計劃》、stub 未撰寫"
     },
     "cdg-0536": {
       "catalog_id": "SCD0179",
@@ -4908,8 +4914,9 @@
       "keys": [
         "cat:SCD0179"
       ],
-      "status": "active",
-      "title_zh": "小魔女"
+      "status": "rejected",
+      "title_zh": "小魔女",
+      "reject_reason": "out of scope: 發行 2001，逾 2000 年收錄範圍——TOEI（卉谷代理）《小魔女 DoReMi 3：夢幻魔法 精靈古堡》、stub 未撰寫"
     },
     "cdg-0537": {
       "catalog_id": "SCD1290",
@@ -7056,8 +7063,9 @@
       "keys": [
         "cat:SCD1689"
       ],
-      "status": "active",
-      "title_zh": "坎貝拉越野賽車3"
+      "status": "rejected",
+      "title_zh": "坎貝拉越野賽車3",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Fun Labs《坎貝拉越野賽車3 / Cabela's 4X4 Offroad Adventure 3》越野競速、stub 未撰寫"
     },
     "cdg-0773": {
       "catalog_id": "Z097",
@@ -8013,8 +8021,9 @@
       "keys": [
         "cat:SCD1960"
       ],
-      "status": "active",
-      "title_zh": "袋鼠小天王2"
+      "status": "rejected",
+      "title_zh": "袋鼠小天王2",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Tate Interactive《袋鼠小天王2 / Kao the Kangaroo: Round 2》動作、stub 未撰寫"
     },
     "cdg-0878": {
       "catalog_id": "SCD2007",
@@ -8652,8 +8661,9 @@
       "keys": [
         "cat:SCD1503"
       ],
-      "status": "active",
-      "title_zh": "吃豆人世界3"
+      "status": "rejected",
+      "title_zh": "吃豆人世界3",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——Blitz Games《吃豆人世界3 / Pac-Man World 3》動作、stub 未撰寫"
     },
     "cdg-0948": {
       "catalog_id": "SCD1504",
@@ -8661,8 +8671,9 @@
       "keys": [
         "cat:SCD1504"
       ],
-      "status": "active",
-      "title_zh": "吃豆人世界拉力賽"
+      "status": "rejected",
+      "title_zh": "吃豆人世界拉力賽",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——Smart Bomb Interactive《吃豆人世界拉力賽 / Pac-Man World Rally》競速、stub 未撰寫"
     },
     "cdg-0949": {
       "catalog_id": "SCD1505",
@@ -9528,8 +9539,9 @@
       "keys": [
         "cat:SCD2706"
       ],
-      "status": "active",
-      "title_zh": "回聲：失落秘洞之謎"
+      "status": "rejected",
+      "title_zh": "回聲：失落秘洞之謎",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——Kheops Studio（法）《回聲：失落秘洞之謎 / Echo: Secrets of the Lost Cavern》冒險、stub 未撰寫"
     },
     "cdg-1043": {
       "catalog_id": "Z092,SCD2001",
@@ -9654,8 +9666,9 @@
       "keys": [
         "t:國際象棋2003|Techland"
       ],
-      "status": "active",
-      "title_zh": "國際象棋2003"
+      "status": "rejected",
+      "title_zh": "國際象棋2003",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Techland《國際象棋2003 / Chess 2003》棋類、stub 未撰寫"
     },
     "cdg-1057": {
       "catalog_id": "SCD1912",
@@ -10671,8 +10684,9 @@
       "keys": [
         "cat:SCD1821"
       ],
-      "status": "active",
-      "title_zh": "汽車總動員"
+      "status": "rejected",
+      "title_zh": "汽車總動員",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——Beenox《汽車總動員 / Cars: The Video Game》動作、stub 未撰寫"
     },
     "cdg-1168": {
       "catalog_id": "SCD1822",
@@ -10680,8 +10694,9 @@
       "keys": [
         "cat:SCD1822"
       ],
-      "status": "active",
-      "title_zh": "汽車總動員：水箱溫泉歷險記"
+      "status": "rejected",
+      "title_zh": "汽車總動員：水箱溫泉歷險記",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——AWE Games《汽車總動員：水箱溫泉歷險記 / Cars: Radiator Springs Adventures》動作、stub 未撰寫"
     },
     "cdg-1169": {
       "catalog_id": "SCD1890",
@@ -10861,8 +10876,9 @@
       "keys": [
         "t:波動少女2|ILLUSION"
       ],
-      "status": "active",
-      "title_zh": "波動少女2"
+      "status": "rejected",
+      "title_zh": "波動少女2",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——ILLUSION（日）《波動少女2 / Oppai Slider 2》成人遊戲、stub 未撰寫"
     },
     "cdg-1189": {
       "catalog_id": "SWE200",
@@ -11105,8 +11121,9 @@
       "keys": [
         "t:洛克人11：命運的齒輪|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人11：命運的齒輪"
+      "status": "rejected",
+      "title_zh": "洛克人11：命運的齒輪",
+      "reject_reason": "out of scope: 發行 2018，逾 2000 年收錄範圍——CAPCOM《洛克人11：命運的齒輪 / Mega Man 11》Win64、stub 未撰寫"
     },
     "cdg-1216": {
       "catalog_id": "SCD1118",
@@ -11205,8 +11222,9 @@
       "keys": [
         "t:洛克人|CAPCOM#2"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——條目誤植，實為 CAPCOM《洛克人 X7 / Mega Man X7》，與 chiuinan 洛克人合集頁誤合、stub 未撰寫"
     },
     "cdg-1227": {
       "catalog_id": "OCD0117",
@@ -11250,8 +11268,9 @@
       "keys": [
         "t:洛克人|CAPCOM#5"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 發行 2004，逾 2000 年收錄範圍——條目誤植，實為 CAPCOM《洛克人 Zero 3 / Mega Man Zero 3》，與 chiuinan 洛克人合集頁誤合、stub 未撰寫"
     },
     "cdg-1232": {
       "catalog_id": null,
@@ -11601,8 +11620,9 @@
       "keys": [
         "cat:SCD0699"
       ],
-      "status": "active",
-      "title_zh": "潛龍紀元：龍之輓歌"
+      "status": "rejected",
+      "title_zh": "潛龍紀元：龍之輓歌",
+      "reject_reason": "out of scope: 發行 2011，逾 2000 年收錄範圍——Arise（俄）《潛龍紀元：龍之輓歌 / A Farewell to Dragons》RPG、stub 未撰寫"
     },
     "cdg-1271": {
       "catalog_id": "SCD0454",
@@ -11691,8 +11711,9 @@
       "keys": [
         "t:交大六號|交通大學"
       ],
-      "status": "active",
-      "title_zh": "交大六號"
+      "status": "rejected",
+      "title_zh": "交大六號",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——交通大學《交大六號》學生自製作品、stub 未撰寫"
     },
     "cdg-1281": {
       "catalog_id": "SCD1297",
@@ -12096,8 +12117,9 @@
       "keys": [
         "cat:SCD2453"
       ],
-      "status": "active",
-      "title_zh": "重返狼穴3：越南視線"
+      "status": "rejected",
+      "title_zh": "重返狼穴3：越南視線",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——nFusion（交大銘泰代理）《重返狼穴3：越南視線 / Line of Sight: Vietnam》第一人稱射擊、stub 未撰寫"
     },
     "cdg-1326": {
       "catalog_id": "SWZ005",
@@ -12866,8 +12888,9 @@
       "keys": [
         "cat:OCD0080"
       ],
-      "status": "active",
-      "title_zh": "政治麻將三缺一"
+      "status": "rejected",
+      "title_zh": "政治麻將三缺一",
+      "reject_reason": "out of scope: 發行 2004，逾 2000 年收錄範圍——冠捷《政治麻將三缺一》麻將休閒、stub 未撰寫"
     },
     "cdg-1411": {
       "catalog_id": "SCD0406",
@@ -13111,8 +13134,9 @@
       "keys": [
         "cat:SCD1793"
       ],
-      "status": "active",
-      "title_zh": "科林麥克雷拉力賽車3"
+      "status": "rejected",
+      "title_zh": "科林麥克雷拉力賽車3",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Codemasters《科林麥克雷拉力賽車3 / Colin McRae Rally 3》拉力競速、stub 未撰寫"
     },
     "cdg-1438": {
       "catalog_id": "SCD1794",
@@ -13192,8 +13216,9 @@
       "keys": [
         "cat:SCD1199"
       ],
-      "status": "active",
-      "title_zh": "空中突擊行動"
+      "status": "rejected",
+      "title_zh": "空中突擊行動",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——InterActive Vision《空中突擊行動 / Operation Air Assault》飛行射擊、stub 未撰寫"
     },
     "cdg-1447": {
       "catalog_id": "SCD0327",
@@ -14166,8 +14191,9 @@
       "keys": [
         "t:人在江湖|人在江湖"
       ],
-      "status": "active",
-      "title_zh": "人在江湖"
+      "status": "rejected",
+      "title_zh": "人在江湖",
+      "reject_reason": "out of scope: 發行 2017，逾 2000 年收錄範圍——《人在江湖》獨立製作武俠 SRPG、stub 未撰寫"
     },
     "cdg-1555": {
       "catalog_id": null,
@@ -14580,8 +14606,9 @@
       "keys": [
         "cat:SCD1392"
       ],
-      "status": "active",
-      "title_zh": "侏儸紀公園之恐龍樂園"
+      "status": "rejected",
+      "title_zh": "侏儸紀公園之恐龍樂園",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Blue Tongue（松崗代理）《侏儸紀公園之恐龍樂園 / Jurassic Park: Operation Genesis》經營模擬、stub 未撰寫"
     },
     "cdg-1601": {
       "catalog_id": "SCD0522",
@@ -15365,8 +15392,9 @@
       "keys": [
         "cat:SCD0351"
       ],
-      "status": "active",
-      "title_zh": "全面戰爭"
+      "status": "rejected",
+      "title_zh": "全面戰爭",
+      "reject_reason": "out of scope: 發行 2011，逾 2000 年收錄範圍——Lesta（俄）《全面戰爭 / Elements of War》即時戰略、stub 未撰寫"
     },
     "cdg-1688": {
       "catalog_id": "SCD1183",
@@ -15392,8 +15420,9 @@
       "keys": [
         "t:再戰江湖|南宮夢"
       ],
-      "status": "active",
-      "title_zh": "再戰江湖"
+      "status": "rejected",
+      "title_zh": "再戰江湖",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——南宮夢《再戰江湖》業餘自製武俠 SRPG、stub 未撰寫"
     },
     "cdg-1691": {
       "catalog_id": "SCD0222",
@@ -15401,8 +15430,9 @@
       "keys": [
         "cat:SCD0222"
       ],
-      "status": "active",
-      "title_zh": "再續紅樓夢"
+      "status": "rejected",
+      "title_zh": "再續紅樓夢",
+      "reject_reason": "out of scope: 發行 2010，逾 2000 年收錄範圍——娛樂通（中）《再續紅樓夢》Windows AVG、stub 未撰寫"
     },
     "cdg-1692": {
       "catalog_id": "SCD0519",
@@ -15878,8 +15908,9 @@
       "keys": [
         "cat:SCD1676"
       ],
-      "status": "active",
-      "title_zh": "急難先鋒4"
+      "status": "rejected",
+      "title_zh": "急難先鋒4",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——Sixteen Tons（德）《急難先鋒4 / Emergency 4》模擬、stub 未撰寫"
     },
     "cdg-1745": {
       "catalog_id": null,
@@ -16393,8 +16424,9 @@
       "keys": [
         "cat:SCD0492"
       ],
-      "status": "active",
-      "title_zh": "戀愛大富翁：唐伯虎點秋香"
+      "status": "rejected",
+      "title_zh": "戀愛大富翁：唐伯虎點秋香",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——布雷格（智冠代理）《戀愛大富翁：唐伯虎點秋香》大富翁休閒、stub 未撰寫"
     },
     "cdg-1802": {
       "catalog_id": "SCD0263",
@@ -16447,8 +16479,9 @@
       "keys": [
         "cat:SCD0077"
       ],
-      "status": "active",
-      "title_zh": "戀愛麻將館：夏日寫真"
+      "status": "rejected",
+      "title_zh": "戀愛麻將館：夏日寫真",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——布雷格（智冠代理）《戀愛麻將館：夏日寫真》麻將休閒、stub 未撰寫"
     },
     "cdg-1808": {
       "catalog_id": "SCD2084",
@@ -16501,8 +16534,9 @@
       "keys": [
         "t:真‧三國無雙6|KOEI"
       ],
-      "status": "active",
-      "title_zh": "真‧三國無雙6"
+      "status": "rejected",
+      "title_zh": "真‧三國無雙6",
+      "reject_reason": "out of scope: 發行 2012，逾 2000 年收錄範圍——KOEI《真‧三國無雙6 / Dynasty Warriors 7》Win64、stub 未撰寫"
     },
     "cdg-1814": {
       "catalog_id": null,
@@ -16510,8 +16544,9 @@
       "keys": [
         "t:真‧三國無雙7|KOEI"
       ],
-      "status": "active",
-      "title_zh": "真‧三國無雙7"
+      "status": "rejected",
+      "title_zh": "真‧三國無雙7",
+      "reject_reason": "out of scope: 發行 2014，逾 2000 年收錄範圍——KOEI《真‧三國無雙7 / Dynasty Warriors 8》Win64、stub 未撰寫"
     },
     "cdg-1815": {
       "catalog_id": "SCD0986",
@@ -17025,8 +17060,9 @@
       "keys": [
         "cat:SCD1887"
       ],
-      "status": "active",
-      "title_zh": "福特名車賽2"
+      "status": "rejected",
+      "title_zh": "福特名車賽2",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Razorworks《福特名車賽2 / Ford Racing 2》競速、stub 未撰寫"
     },
     "cdg-1872": {
       "catalog_id": "SCD1888",
@@ -17043,8 +17079,9 @@
       "keys": [
         "cat:SCD1860"
       ],
-      "status": "active",
-      "title_zh": "福特街頭賽車"
+      "status": "rejected",
+      "title_zh": "福特街頭賽車",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——Razorworks《福特街頭賽車 / Ford Street Racing》競速、stub 未撰寫"
     },
     "cdg-1874": {
       "catalog_id": "HTG010",
@@ -17502,8 +17539,9 @@
       "keys": [
         "cat:SCD1230"
       ],
-      "status": "active",
-      "title_zh": "毀滅戰警"
+      "status": "rejected",
+      "title_zh": "毀滅戰警",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——CGS（美思捷達代理）《毀滅戰警 / eXtinction》動作射擊、stub 未撰寫"
     },
     "cdg-1925": {
       "catalog_id": "SCD0238",
@@ -18133,8 +18171,9 @@
       "keys": [
         "cat:SCD2680"
       ],
-      "status": "active",
-      "title_zh": "麻將小魔女"
+      "status": "rejected",
+      "title_zh": "麻將小魔女",
+      "reject_reason": "out of scope: 發行 2005，逾 2000 年收錄範圍——朔太科技《麻將小魔女》麻將休閒、stub 未撰寫"
     },
     "cdg-1995": {
       "catalog_id": "SCD0651",
@@ -18269,8 +18308,9 @@
       "keys": [
         "cat:SCD1294"
       ],
-      "status": "active",
-      "title_zh": "麻辣小魔女"
+      "status": "rejected",
+      "title_zh": "麻辣小魔女",
+      "reject_reason": "out of scope: 發行 2002，逾 2000 年收錄範圍——智冠《麻辣小魔女》射擊、stub 未撰寫"
     },
     "cdg-2010": {
       "catalog_id": "SWE281",
@@ -18530,8 +18570,9 @@
       "keys": [
         "cat:SCD0221"
       ],
-      "status": "active",
-      "title_zh": "紅樓夢"
+      "status": "rejected",
+      "title_zh": "紅樓夢",
+      "reject_reason": "out of scope: 發行 2009，逾 2000 年收錄範圍——娛樂通（中）《紅樓夢》Windows AVG、stub 未撰寫"
     },
     "cdg-2039": {
       "catalog_id": "SCD0219",
@@ -22197,8 +22238,9 @@
       "keys": [
         "t:時空幻境：緋夜傳奇|萬代南夢宮"
       ],
-      "status": "active",
-      "title_zh": "時空幻境：緋夜傳奇"
+      "status": "rejected",
+      "title_zh": "時空幻境：緋夜傳奇",
+      "reject_reason": "out of scope: 發行 2016，逾 2000 年收錄範圍——萬代南夢宮《時空幻境：緋夜傳奇 / Tales of Berseria》Win64、stub 未撰寫"
     },
     "cdg-2446": {
       "catalog_id": "SCD1971",
@@ -24185,8 +24227,9 @@
       "keys": [
         "cat:SCD1659"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車2003"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車2003",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Papyrus《雲斯頓賽車2003 / NASCAR Racing 2003 Season》競速、stub 未撰寫"
     },
     "cdg-2664": {
       "catalog_id": "SCD1655",
@@ -24429,8 +24472,9 @@
       "keys": [
         "cat:SCD1652"
       ],
-      "status": "active",
-      "title_zh": "雷霆雲斯頓賽車2004"
+      "status": "rejected",
+      "title_zh": "雷霆雲斯頓賽車2004",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——EA《雷霆雲斯頓賽車2004 / NASCAR Thunder 2004》競速、stub 未撰寫"
     },
     "cdg-2691": {
       "catalog_id": "Z121",
@@ -25160,8 +25204,9 @@
       "keys": [
         "cat:SGCD2410"
       ],
-      "status": "active",
-      "title_zh": "夢靨魔域"
+      "status": "rejected",
+      "title_zh": "夢靨魔域",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Arxel Tribe／Sinister《夢靨魔域 / Mistmare》RPG、stub 未撰寫"
     },
     "cdg-2772": {
       "catalog_id": "SCD1575",
@@ -25322,8 +25367,9 @@
       "keys": [
         "cat:SCD1187"
       ],
-      "status": "active",
-      "title_zh": "瘋狂恐龍樂園"
+      "status": "rejected",
+      "title_zh": "瘋狂恐龍樂園",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Monte Cristo（優邦代理）《瘋狂恐龍樂園 / Dino Island》經營模擬、stub 未撰寫"
     },
     "cdg-2790": {
       "catalog_id": "SCD2512",
@@ -25367,8 +25413,9 @@
       "keys": [
         "cat:OCD0104"
       ],
-      "status": "active",
-      "title_zh": "瘋狂明星麻將"
+      "status": "rejected",
+      "title_zh": "瘋狂明星麻將",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——帥呆了（宇昌代理）《瘋狂明星麻將》麻將休閒、stub 未撰寫"
     },
     "cdg-2795": {
       "catalog_id": "SCD0489",
@@ -25889,8 +25936,9 @@
       "keys": [
         "cat:SCD2564"
       ],
-      "status": "active",
-      "title_zh": "辛普森大逃亡"
+      "status": "rejected",
+      "title_zh": "辛普森大逃亡",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Radical Entertainment《辛普森大逃亡 / The Simpsons: Hit & Run》動作冒險、stub 未撰寫"
     },
     "cdg-2853": {
       "catalog_id": "SCD1107",
@@ -28745,8 +28793,9 @@
       "keys": [
         "cat:SCD1166"
       ],
-      "status": "active",
-      "title_zh": "樓蘭：輪迴之軌跡"
+      "status": "rejected",
+      "title_zh": "樓蘭：輪迴之軌跡",
+      "reject_reason": "out of scope: 發行 2010，逾 2000 年收錄範圍——5R工作室（中國）《樓蘭：輪迴之軌跡》Windows AVG、stub 未撰寫"
     },
     "cdg-3167": {
       "catalog_id": "SCD1167",
@@ -28754,8 +28803,9 @@
       "keys": [
         "cat:SCD1167"
       ],
-      "status": "active",
-      "title_zh": "樓蘭2：輪迴之軌跡．緣"
+      "status": "rejected",
+      "title_zh": "樓蘭2：輪迴之軌跡．緣",
+      "reject_reason": "out of scope: 發行 2012，逾 2000 年收錄範圍——5R工作室（中國）《樓蘭2：輪迴之軌跡．緣》Windows AVG、stub 未撰寫"
     },
     "cdg-3168": {
       "catalog_id": null,
@@ -29350,8 +29400,9 @@
       "keys": [
         "cat:SCD1142"
       ],
-      "status": "active",
-      "title_zh": "橫掃千軍：1242"
+      "status": "rejected",
+      "title_zh": "橫掃千軍：1242",
+      "reject_reason": "out of scope: 發行 2010，逾 2000 年收錄範圍——Unicorn Games（烏克蘭）《橫掃千軍：1242 / Real Warfare: 1242》即時戰略、stub 未撰寫"
     },
     "cdg-3234": {
       "catalog_id": null,
@@ -30522,8 +30573,9 @@
       "keys": [
         "t:孤膽槍手1|Sigma"
       ],
-      "status": "active",
-      "title_zh": "孤膽槍手1"
+      "status": "rejected",
+      "title_zh": "孤膽槍手1",
+      "reject_reason": "out of scope: 發行 2003，逾 2000 年收錄範圍——Sigma Team（俄）《孤膽槍手 / Alien Shooter》俯視射擊、stub 未撰寫"
     },
     "cdg-3364": {
       "catalog_id": "SCD2146",
@@ -30531,8 +30583,9 @@
       "keys": [
         "cat:SCD2146"
       ],
-      "status": "active",
-      "title_zh": "孤膽槍手2"
+      "status": "rejected",
+      "title_zh": "孤膽槍手2",
+      "reject_reason": "out of scope: 發行 2006，逾 2000 年收錄範圍——Sigma Team（俄）《孤膽槍手2 / Alien Shooter: Vengeance》俯視射擊、stub 未撰寫"
     },
     "cdg-3365": {
       "catalog_id": null,
@@ -30540,8 +30593,9 @@
       "keys": [
         "t:孤膽槍手2前傳|Sigma"
       ],
-      "status": "active",
-      "title_zh": "孤膽槍手2前傳"
+      "status": "rejected",
+      "title_zh": "孤膽槍手2前傳",
+      "reject_reason": "out of scope: 發行 2010，逾 2000 年收錄範圍——Sigma Team（俄）《孤膽槍手2前傳 / Alien Shooter 2: Conscription》俯視射擊、stub 未撰寫"
     },
     "cdg-3366": {
       "catalog_id": "SCD2807",
