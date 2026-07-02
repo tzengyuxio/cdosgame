@@ -4,7 +4,7 @@ import {
   normalize, searchGames, decadeOf, vendorsOf, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
   seriesOf, groupBy, relatedFor, distinctValues,
-  yearRange, topValue,
+  yearRange, topValue, platformsOf,
 } from './gamesQuery.js';
 
 const G = [
@@ -56,6 +56,49 @@ test('deriveFacets loc: meaning order (native→…→foreign→未分類), not 
   assert.deepEqual(vals, ['native', 'localized', 'packaging', 'foreign', NONE]);
 });
 
+test('platformsOf buckets free-text platform_note (無=DOS, Win variants, Apple II, multi)', () => {
+  assert.deepEqual(platformsOf({ platform_note: '無' }), ['DOS']);
+  assert.deepEqual(platformsOf({ platform_note: 'MS-DOS 5.0 以上' }), ['DOS']);
+  assert.deepEqual(platformsOf({ platform_note: 'Windows' }), ['Windows']);
+  assert.deepEqual(platformsOf({ platform_note: 'Win31/XP' }), ['Windows']);
+  assert.deepEqual(platformsOf({ platform_note: 'Widnows' }), ['Windows']);   // typo in data
+  assert.deepEqual(platformsOf({ platform_note: 'Apple II' }), ['Apple II']);
+  assert.deepEqual(platformsOf({ platform_note: 'DOS、Windows、SEGA Saturn' }), ['DOS', 'Windows']);
+  assert.deepEqual(platformsOf({ platform_note: '無/XP' }), ['DOS', 'Windows']);
+  assert.deepEqual(platformsOf({ platform_note: null }), []);
+});
+
+test('deriveFacets platform: fixed order DOS→Windows→Apple II→未分類', () => {
+  const P = [
+    { platform_note: 'Windows' }, { platform_note: 'Apple II' },
+    { platform_note: '無' }, { platform_note: '無' }, { platform_note: null },
+  ].map((g, i) => ({ id:'p'+i, title_zh:'x', year:null, publisher_tw:[], ...g }));
+  assert.deepEqual(deriveFacets(P).platform.map(o => o.value), ['DOS', 'Windows', 'Apple II', NONE]);
+});
+
+test('applyFacets platform / dev status toggles (adult, release)', () => {
+  const D = [
+    { id:'d1', platform_note:'無', adult:true },
+    { id:'d2', platform_note:'Windows', release_status:'unreleased' },
+    { id:'d3', platform_note:'Windows' },
+  ].map(g => ({ title_zh:'x', year:null, publisher_tw:[], ...g }));
+  assert.deepEqual(applyFacets(D, { platform:['DOS'] }).map(g => g.id), ['d1']);
+  assert.deepEqual(applyFacets(D, { platform:['Windows'] }).map(g => g.id), ['d2', 'd3']);
+  assert.deepEqual(applyFacets(D, { adult:['18禁'] }).map(g => g.id), ['d1']);
+  assert.deepEqual(applyFacets(D, { release:['未發售'] }).map(g => g.id), ['d2']);
+});
+
+test('toIndexRecord: platform_note always; adult/release_status only when non-default', () => {
+  const a = toIndexRecord({ id:'x', title_zh:'x', platform_note:'無', adult:true, release_status:'unreleased' });
+  assert.equal(a.platform_note, '無');
+  assert.equal(a.adult, true);
+  assert.equal(a.release_status, 'unreleased');
+  const b = toIndexRecord({ id:'y', title_zh:'y', release_status:'released' });
+  assert.equal(b.platform_note, null);
+  assert.equal('adult' in b, false);
+  assert.equal('release_status' in b, false);
+});
+
 test('vendorsOf merges developer + publisher_tw', () => {
   assert.deepEqual(vendorsOf(G[1]), ['KOEI', '智冠']);
 });
@@ -91,7 +134,7 @@ test('toIndexRecord keeps only index fields', () => {
   const r = toIndexRecord(G[0]);
   assert.deepEqual(
     Object.keys(r).sort(),
-    ['developer','genre','id','localization_level','publisher_tw','title_aliases','title_zh','year']
+    ['developer','genre','id','localization_level','platform_note','published','publisher_tw','title_aliases','title_zh','year']
   );
 });
 

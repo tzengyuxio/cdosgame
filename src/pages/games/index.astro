@@ -26,14 +26,18 @@ import Base from '../../layouts/Base.astro';
 
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     // Panel order is utility-first: 在地化 (the project's defining axis) on top,
-    // then 類型, 年代, and the long 廠商 list last.
-    const FACETS = [['loc','在地化'],['genre','類型'],['decade','年代'],['vendor','廠商']];
+    // then 類型, 平台, 年代, and the long 廠商 list last.
+    const FACETS = [['loc','在地化'],['genre','類型'],['platform','平台'],['decade','年代'],['vendor','廠商']];
+    // Dev-only status filters — surfaced only under `astro dev` (import.meta.env.DEV
+    // is compile-time false in the prod build, so these never ship). Lets editors
+    // pull up 18禁 / 未發售 entries while curating.
+    if (import.meta.env.DEV) FACETS.push(['adult','18禁'], ['release','發售狀態']);
     const TOP_FACET_COUNT = 10;
     let GAMES = [];
     let vendorFilter = '';
     const showFacetTail = { genre: false, vendor: false };
     const showDecade = {};   // decade value → expanded (逐年) state
-    const state = { q:'', sel:{decade:[],genre:[],vendor:[],loc:[]}, sort:'year:asc', page:1 };
+    const state = { q:'', sel:Object.fromEntries(FACETS.map(([f]) => [f, []])), sort:'year:asc', page:1 };
 
     const esc = s => (s ?? '').toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 

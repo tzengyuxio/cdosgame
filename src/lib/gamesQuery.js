@@ -5,6 +5,23 @@ export const NONE = '未分類';
 export const LOC_ORDER = ['native', 'localized', 'packaging', 'foreign'];
 const locRank = v => { const i = LOC_ORDER.indexOf(v); return i === -1 ? LOC_ORDER.length + 1 : i; };
 
+// platform facet: platform_note is free-text (無=DOS, many Windows variants incl.
+// typos, "Apple II"). Bucket it into a small stable axis; a game can span several
+// (e.g. "DOS、Windows"). Fixed reading order DOS→Windows→Apple II, 未分類 last.
+export const PLATFORM_ORDER = ['DOS', 'Windows', 'Apple II'];
+const platformRank = v => { const i = PLATFORM_ORDER.indexOf(v); return i === -1 ? PLATFORM_ORDER.length + 1 : i; };
+
+export function platformsOf(g) {
+  const note = g.platform_note;
+  if (note == null || note === '') return [];
+  const s = String(note).toLowerCase();
+  const out = [];
+  if (s.includes('apple')) out.push('Apple II');
+  if (s.includes('dos') || String(note).includes('無')) out.push('DOS');
+  if (/win|widnow|vmware|xp/.test(s)) out.push('Windows');
+  return out;
+}
+
 const PUNCT = /[\s\-_:：·・／/、，,.。！？!?'"""()（）[\]【】~～]+/g;
 
 export function normalize(s) {
@@ -39,6 +56,15 @@ function facetValues(g, facet) {
   if (facet === 'genre') return g.genre ? [g.genre] : [NONE];
   if (facet === 'loc') return g.localization_level ? [g.localization_level] : [NONE];
   if (facet === 'vendor') { const v = vendorsOf(g); return v.length ? v : [NONE]; }
+  if (facet === 'platform') { const p = platformsOf(g); return p.length ? p : [NONE]; }
+  // dev-only status filters (toggles, not full partitions): non-matching games
+  // return [] so they drop out only while the toggle is selected.
+  if (facet === 'adult') return g.adult ? ['18禁'] : [];
+  if (facet === 'release') {
+    const rs = g.release_status;
+    if (!rs || rs === 'released') return [];
+    return [rs === 'unreleased' ? '未發售' : '未確認'];
+  }
   return [];
 }
 
@@ -68,7 +94,7 @@ export function paginate(games, page, size = 50) {
 }
 
 export function deriveFacets(games) {
-  const acc = { genre: new Map(), vendor: new Map(), loc: new Map() };
+  const acc = { genre: new Map(), vendor: new Map(), loc: new Map(), platform: new Map(), adult: new Map(), release: new Map() };
   const decadeCount = new Map();          // decade → count
   const yearCount = new Map();            // decade → Map(yearStr → count)
   const bump = (m, k) => m.set(k, (m.get(k) || 0) + 1);
@@ -86,6 +112,11 @@ export function deriveFacets(games) {
     const vs = vendorsOf(g);
     if (vs.length) for (const v of new Set(vs)) bump(acc.vendor, v);
     else bump(acc.vendor, NONE);
+    const ps = platformsOf(g);
+    if (ps.length) for (const p of new Set(ps)) bump(acc.platform, p);
+    else bump(acc.platform, NONE);
+    for (const a of facetValues(g, 'adult')) bump(acc.adult, a);
+    for (const r of facetValues(g, 'release')) bump(acc.release, r);
   }
   const byCount = m => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
   // 在地化 lists in meaning order (原生→中文化→中文包裝→外文→未分類), not by count.
@@ -104,7 +135,14 @@ export function deriveFacets(games) {
         .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
         .map(([y, c]) => ({ value: y, count: c })),
     }));
-  return { decade, genre: byCount(acc.genre), loc: byLoc(acc.loc), vendor: byCount(acc.vendor) };
+  // 平台 in fixed reading order (DOS→Windows→Apple II→未分類), like 在地化.
+  const byPlatform = m => [...m.entries()]
+    .sort((a, b) => platformRank(a[0]) - platformRank(b[0]))
+    .map(([value, count]) => ({ value, count }));
+  return {
+    decade, genre: byCount(acc.genre), loc: byLoc(acc.loc), vendor: byCount(acc.vendor),
+    platform: byPlatform(acc.platform), adult: byCount(acc.adult), release: byCount(acc.release),
+  };
 }
 
 export function toIndexRecord(d) {
@@ -117,7 +155,12 @@ export function toIndexRecord(d) {
     publisher_tw: d.publisher_tw || [],
     genre: d.genre ?? null,
     localization_level: d.localization_level ?? null,
+    platform_note: d.platform_note ?? null,
     published: d.published !== false,
+    // status flags for dev-only facets; omitted (undefined → dropped by JSON) when
+    // at their default so the index stays lean.
+    ...(d.adult === true ? { adult: true } : {}),
+    ...(d.release_status && d.release_status !== 'released' ? { release_status: d.release_status } : {}),
   };
 }
 
