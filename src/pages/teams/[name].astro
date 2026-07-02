@@ -48,6 +48,11 @@ const lifespan = c?.founded ? (c.dissolved ? `${c.founded}–${c.dissolved}` : `
         開發 {developed.length}
       </div>
       {Body && <div class="prose"><Body /></div>}
+      {(c?.members || []).length > 0 && (
+        <><h2>成員</h2><div class="chips members">{c.members.map(p => personIds.has(p)
+          ? <a class="chip chip-tag" href={personUrl(p)}>{p}</a>
+          : <span class="chip">{p}</span>)}</div></>
+      )}
       {featured.length > 0 && (
         <><h2>代表作</h2><div class="cardrow">{featured.map(g => (
           <div class="scard"><div class="t"><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></div><div class="m">{g.year ?? ''}</div></div>
@@ -63,7 +68,6 @@ const lifespan = c?.founded ? (c.dissolved ? `${c.founded}–${c.dissolved}` : `
           {c?.parent_company && <tr><th>所屬公司</th><td><a class="lk" href={companyUrl(c.parent_company)}>{c.parent_company}</a></td></tr>}
           {lifespan && <tr><th>{c.dissolved ? '存續' : '成立'}</th><td>{lifespan}</td></tr>}
           {c?.status && <tr><th>狀態</th><td>{STATUS[c.status] || c.status}</td></tr>}
-          {(c?.members || []).length > 0 && <tr><th>主要成員</th><td>{c.members.map((p, i) => <>{i > 0 && '、'}{personIds.has(p) ? <a class="lk" href={personUrl(p)}>{p}</a> : p}</>)}</td></tr>}
           <tr><th>作品數</th><td>{developed.length}</td></tr>
         </table>
       </div>
