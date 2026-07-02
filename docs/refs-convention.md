@@ -21,7 +21,7 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 **所有外部連結的顯示文字一律用「該頁面的標題」，不用站名**（決策見 ADR-003 / Daily 2026-06-22）。例如某痞客邦文章應顯示「老遊戲介紹 - 御封戰將」（文章標題），而非「痞客邦」。
 
 - **game 的 general references**：`chiuinan`/`fandom`/`omega` 三個自動來源沿用固定 label（「青衫之友 介紹頁」「Fandom 條目」「Omega 討論串」）；**其餘來源 key**（wikipedia/mobygames/dosdays/部落格…）的 value 用物件 `{ url, title }`，`title` 為頁面標題，渲染即以 `title` 為連結文字。建立條目時應實際抓取頁面標題填入，不可用站名代替。
-- **game 的 cited**：legacy 形式 `"標題": url` 的 key 即標題；keyed 形式 `key: { label, url }` 的 `label` 即標題。
+- **game 的 cited**：legacy 形式 `"標題": url` 的 key 即標題；keyed 形式 `key: { label, url }` 的 `label` 即標題。keyed 形式可再加選用 `note`（純文字），渲染於連結**之後、外部**——連結文字只含 `label`（頁面標題），`note` 用來補充出處說明（如「本文收錄於《軟體世界》104 期」），不進連結。
 - **external_links**：map 的 key 即顯示文字，填頁面標題。
 - **其他實體**（companies/people…）：`references`/`external_links` 陣列項的 `title` 即顯示文字，填頁面標題。
 

@@ -135,10 +135,11 @@ export const gameSchema = z.object({
     chiuinan: z.string().url().optional(),
     // inline-cited sources → 參考資料 段. Two accepted shapes (see docs/refs-convention.md):
     //   legacy: { "label": "url" }                  — label doubles as the data-ref key
-    //   keyed:  { "shortkey": { label, url } }       — short key for prose data-ref="shortkey"
+    //   keyed:  { "shortkey": { label, url, note? } }  — short key for prose data-ref="shortkey";
+    //           optional note renders as plain text after the link (not part of link text)
     cited: z.record(z.union([
       z.string().url(),
-      z.object({ label: z.string(), url: z.string().url() }),
+      z.object({ label: z.string(), url: z.string().url(), note: z.string().optional() }),
     ])).optional(),
   // other general source keys (wikipedia/mobygames/gamer_table/…) → 參考資料 段 (no [N]).
   // value: a URL string, or an object { url, title?, retrieved? }.

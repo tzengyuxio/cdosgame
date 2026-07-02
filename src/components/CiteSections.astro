@@ -41,7 +41,7 @@ const k = citedRefs.length;
     <ol class="refs">
       {citedRefs.map((it, i) => (
         <li id={`cite-ref-${i + 1}`} value={i + 1} data-key={it.key || it.text}>
-          <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
+          <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>{it.note && <span class="ref-note"> {it.note}</span>}
         </li>
       ))}
       {generalRefs.map((it, j) => (
