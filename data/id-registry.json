@@ -5765,7 +5765,7 @@
         "cat:SCD0223"
       ],
       "status": "active",
-      "title_zh": "永遠的伊蘇1"
+      "title_zh": "永遠的伊蘇"
     },
     "cdg-0631": {
       "catalog_id": "SCD0224",
@@ -14513,7 +14513,7 @@
         "cat:SCD0225"
       ],
       "status": "active",
-      "title_zh": "伊蘇3：菲爾佳娜之誓"
+      "title_zh": "伊蘇：菲爾佳娜之誓"
     },
     "cdg-1590": {
       "catalog_id": "SCD0229",
@@ -43814,6 +43814,15 @@
       ],
       "status": "active",
       "title_zh": "英雄傳說7：碧之軌跡"
+    },
+    "cdg-4826": {
+      "catalog_id": null,
+      "developer": "Falcom",
+      "keys": [
+        "t:伊蘇7|Falcom"
+      ],
+      "status": "active",
+      "title_zh": "伊蘇7"
     }
   }
 }
