@@ -15,8 +15,8 @@ references:
     url: https://zh.wikipedia.org/wiki/台灣帝技爺如
 ---
 
-TGL（Technical Group Laboratory，テイジイエル）是 1984 年成立於日本大阪的遊戲開發商，代表作為戰棋系列《古大陸物語》（Farland Story）與美少女格鬥《Variable Geo》。
+TGL（Technical Group Laboratory，テイジイエル）是 1984 年成立於日本大阪的遊戲開發商，代表作為戰棋系列《[古大陸物語](/series/古大陸物語)》（Farland Story）與美少女格鬥《[Variable Geo](/games/cdg-0737)》。
 
 ## 沿革
 
-TGL 早期的中文遊戲多由松崗代理發行；其後 TGL 來台設立分公司「台灣帝技爺如」自行中文改版，並由台北團隊開發《守護者之劍》等本地作品，發行多改交智冠科技。
+TGL 早期的中文遊戲多由[松崗](/companies/松崗)代理發行；其後 TGL 來台設立分公司「[台灣帝技爺如](/companies/帝技爺如)」自行中文改版，並由台北團隊開發《[守護者之劍](/games/cdg-0795)》等本地作品，發行多改交[智冠科技](/companies/智冠)。
