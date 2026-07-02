@@ -17963,7 +17963,7 @@
         "cat:SCD1131"
       ],
       "status": "active",
-      "title_zh": "雙星物語1"
+      "title_zh": "奇幻仙境"
     },
     "cdg-1971": {
       "catalog_id": "SCD1132",
@@ -43777,6 +43777,33 @@
       ],
       "status": "active",
       "title_zh": "神月紀事"
+    },
+    "cdg-4822": {
+      "catalog_id": null,
+      "developer": "Arc System Works",
+      "keys": [
+        "t:聖騎士之戰X|Arc System Works"
+      ],
+      "status": "active",
+      "title_zh": "聖騎士之戰X"
+    },
+    "cdg-4823": {
+      "catalog_id": null,
+      "developer": "Arc System Works",
+      "keys": [
+        "t:聖騎士之戰XX #Reload|Arc System Works"
+      ],
+      "status": "active",
+      "title_zh": "聖騎士之戰XX #Reload"
+    },
+    "cdg-4824": {
+      "catalog_id": null,
+      "developer": "Falcom",
+      "keys": [
+        "t:真‧雙星物語2|Falcom"
+      ],
+      "status": "active",
+      "title_zh": "真‧雙星物語2"
     }
   }
 }
