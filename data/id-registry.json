@@ -33298,7 +33298,7 @@
         "cat:SCD1174"
       ],
       "status": "active",
-      "title_zh": "魔喚精靈1"
+      "title_zh": "魔喚精靈"
     },
     "cdg-3664": {
       "catalog_id": "SCD1175",
@@ -33371,7 +33371,7 @@
         "cat:OCD0049"
       ],
       "status": "active",
-      "title_zh": "魔域傳說：永恆之書"
+      "title_zh": "七星魔法使"
     },
     "cdg-3672": {
       "catalog_id": "SCD2513",
@@ -37611,8 +37611,9 @@
       "keys": [
         "t:撼天神塔VT|None"
       ],
-      "status": "active",
-      "title_zh": "撼天神塔VT"
+      "status": "rejected",
+      "title_zh": "撼天神塔VT",
+      "reject_reason": "duplicate: 撼天神塔VT 與 cdg-1800《撼天神塔VT：犧牲者之塔》為同款（offlinelist backfill 空殼），併入 cdg-1800"
     },
     "cdg-4139": {
       "catalog_id": null,
