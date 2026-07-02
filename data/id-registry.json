@@ -7777,7 +7777,7 @@
         "cat:SCD0165"
       ],
       "status": "active",
-      "title_zh": "致命武力2重生"
+      "title_zh": "致命武力2：重生"
     },
     "cdg-0851": {
       "catalog_id": null,
@@ -17097,7 +17097,7 @@
         "cat:HTG010"
       ],
       "status": "active",
-      "title_zh": "福祿雙霸天1"
+      "title_zh": "福祿雙霸天"
     },
     "cdg-1875": {
       "catalog_id": null,
@@ -24615,7 +24615,7 @@
     },
     "cdg-2705": {
       "catalog_id": "SCD0812",
-      "developer": "Dynasty",
+      "developer": "漢堂",
       "keys": [
         "cat:SCD0812"
       ],
@@ -43823,6 +43823,15 @@
       ],
       "status": "active",
       "title_zh": "伊蘇7"
+    },
+    "cdg-4827": {
+      "catalog_id": null,
+      "developer": "漢堂",
+      "keys": [
+        "t:疾風少年隊|漢堂"
+      ],
+      "status": "active",
+      "title_zh": "疾風少年隊"
     }
   }
 }
