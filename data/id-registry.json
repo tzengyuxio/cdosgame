@@ -43696,6 +43696,87 @@
       ],
       "status": "active",
       "title_zh": "永恆之劍"
+    },
+    "cdg-4813": {
+      "catalog_id": null,
+      "developer": "ETOILE",
+      "keys": [
+        "t:紅磨坊|ETOILE"
+      ],
+      "status": "active",
+      "title_zh": "紅磨坊"
+    },
+    "cdg-4814": {
+      "catalog_id": null,
+      "developer": "TGL",
+      "keys": [
+        "t:競技美少女～大運動會|TGL"
+      ],
+      "status": "active",
+      "title_zh": "競技美少女～大運動會"
+    },
+    "cdg-4815": {
+      "catalog_id": null,
+      "developer": "EXE Create",
+      "keys": [
+        "t:吸血鬼之傷|EXE Create"
+      ],
+      "status": "active",
+      "title_zh": "吸血鬼之傷"
+    },
+    "cdg-4816": {
+      "catalog_id": null,
+      "developer": "日本クリエイト",
+      "keys": [
+        "t:探檢道|日本クリエイト"
+      ],
+      "status": "active",
+      "title_zh": "探檢道"
+    },
+    "cdg-4817": {
+      "catalog_id": null,
+      "developer": "TGL",
+      "keys": [
+        "t:降龍戰記|TGL"
+      ],
+      "status": "active",
+      "title_zh": "降龍戰記"
+    },
+    "cdg-4818": {
+      "catalog_id": null,
+      "developer": "帝技爺如",
+      "keys": [
+        "t:聖章：女神傳說|帝技爺如"
+      ],
+      "status": "active",
+      "title_zh": "聖章：女神傳說"
+    },
+    "cdg-4819": {
+      "catalog_id": null,
+      "developer": "工画堂スタジオ",
+      "keys": [
+        "t:超能特遣隊|工画堂スタジオ"
+      ],
+      "status": "active",
+      "title_zh": "超能特遣隊"
+    },
+    "cdg-4820": {
+      "catalog_id": null,
+      "developer": "帝技爺如",
+      "keys": [
+        "t:奇蹟花園|帝技爺如"
+      ],
+      "status": "active",
+      "title_zh": "奇蹟花園"
+    },
+    "cdg-4821": {
+      "catalog_id": null,
+      "developer": "帝技爺如",
+      "keys": [
+        "t:神月紀事|帝技爺如"
+      ],
+      "status": "active",
+      "title_zh": "神月紀事"
     }
   }
 }
