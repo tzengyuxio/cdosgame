@@ -35695,8 +35695,9 @@
       "keys": [
         "t:運鏢天下|None"
       ],
-      "status": "active",
-      "title_zh": "運鏢天下"
+      "status": "merged",
+      "title_zh": "運鏢天下",
+      "merged_into": "cdg-2584"
     },
     "cdg-3929": {
       "catalog_id": null,
@@ -36167,8 +36168,9 @@
       "keys": [
         "t:將族：象棋大師3|None"
       ],
-      "status": "active",
-      "title_zh": "將族：象棋大師3"
+      "status": "merged",
+      "title_zh": "將族：象棋大師3",
+      "merged_into": "cdg-2147"
     },
     "cdg-3981": {
       "catalog_id": null,
