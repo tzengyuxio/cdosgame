@@ -13470,7 +13470,7 @@
     },
     "cdg-1474": {
       "catalog_id": "SCD1159",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:SCD1159"
       ],
@@ -13479,66 +13479,66 @@
     },
     "cdg-1475": {
       "catalog_id": "SCD0297",
-      "developer": "CFK",
+      "developer": "Nine Lives",
       "keys": [
         "cat:SCD0297"
       ],
       "status": "active",
-      "title_zh": "美少女夢工場："
+      "title_zh": "美少女夢工場～Go!Go!美少女"
     },
     "cdg-1476": {
       "catalog_id": "SCD0380",
-      "developer": "Ninelives",
+      "developer": "Nine Lives",
       "keys": [
         "cat:SCD0380"
       ],
       "status": "active",
-      "title_zh": "美少女夢工場"
+      "title_zh": "美少女夢工場Q"
     },
     "cdg-1477": {
       "catalog_id": "JXD007\nSCD0374,SCD0375",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:JXD007\nSCD0374,SCD0375"
       ],
       "status": "active",
-      "title_zh": "美少女夢工廠"
+      "title_zh": "美少女夢工場"
     },
     "cdg-1478": {
       "catalog_id": "JXZ001,SCD0374\nSCD0375,SCD0376",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:JXZ001,SCD0374\nSCD0375,SCD0376"
       ],
       "status": "active",
-      "title_zh": "美少女夢工廠2"
+      "title_zh": "美少女夢工場2"
     },
     "cdg-1479": {
       "catalog_id": "SCD0374,SCD0375\nSCD0377",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:SCD0374,SCD0375\nSCD0377"
       ],
       "status": "active",
-      "title_zh": "美少女夢工廠3：夢幻妖精"
+      "title_zh": "美少女夢工場3：夢幻妖精"
     },
     "cdg-1480": {
       "catalog_id": "SCD0378",
-      "developer": "Gainax",
+      "developer": "GeneX",
       "keys": [
         "cat:SCD0378"
       ],
       "status": "active",
-      "title_zh": "美少女夢工廠4"
+      "title_zh": "美少女夢工場4"
     },
     "cdg-1481": {
       "catalog_id": "SCD0379",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:SCD0379"
       ],
       "status": "active",
-      "title_zh": "美少女夢工廠5"
+      "title_zh": "美少女夢工坊5"
     },
     "cdg-1482": {
       "catalog_id": "SCD0472",
@@ -14786,7 +14786,7 @@
         "cat:SCD0856"
       ],
       "status": "active",
-      "title_zh": "俠客英雄傳"
+      "title_zh": "俠客英雄傳XP"
     },
     "cdg-1620": {
       "catalog_id": null,
@@ -21069,7 +21069,7 @@
     },
     "cdg-2315": {
       "catalog_id": "SCD0603",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:SCD0603"
       ],
@@ -21078,7 +21078,7 @@
     },
     "cdg-2316": {
       "catalog_id": "SCD0602",
-      "developer": "Gainax",
+      "developer": "GAINAX",
       "keys": [
         "cat:SCD0602"
       ],
@@ -25550,7 +25550,7 @@
         "cat:OCD0102"
       ],
       "status": "active",
-      "title_zh": "瘋狂麻將：世界大爆走"
+      "title_zh": "瘋狂麻將：世界大暴走"
     },
     "cdg-2809": {
       "catalog_id": "SCD2385",
@@ -25617,7 +25617,7 @@
     },
     "cdg-2816": {
       "catalog_id": null,
-      "developer": "精訊",
+      "developer": "美夢成真",
       "keys": [
         "t:米蘭斯紀事：聖域傳奇|精訊"
       ],
@@ -37676,8 +37676,9 @@
       "keys": [
         "t:瘋狂麻將|None"
       ],
-      "status": "active",
-      "title_zh": "瘋狂麻將"
+      "status": "merged",
+      "title_zh": "瘋狂麻將",
+      "merged_into": "cdg-2808"
     },
     "cdg-4146": {
       "catalog_id": null,
@@ -43904,6 +43905,51 @@
       ],
       "status": "active",
       "title_zh": "緋蒼幻想曲"
+    },
+    "cdg-4836": {
+      "catalog_id": null,
+      "developer": "Team17",
+      "keys": [
+        "t:致命快打|Team17"
+      ],
+      "status": "active",
+      "title_zh": "致命快打"
+    },
+    "cdg-4837": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:俠客英雄傳2|精訊"
+      ],
+      "status": "active",
+      "title_zh": "俠客英雄傳2"
+    },
+    "cdg-4838": {
+      "catalog_id": null,
+      "developer": "GeneX",
+      "keys": [
+        "t:美少女夢工場4完璧版|GeneX"
+      ],
+      "status": "active",
+      "title_zh": "美少女夢工場4完璧版"
+    },
+    "cdg-4839": {
+      "catalog_id": null,
+      "developer": "Nine Lives",
+      "keys": [
+        "t:美少女夢工場～魔法石大作戰|Nine Lives"
+      ],
+      "status": "active",
+      "title_zh": "美少女夢工場～魔法石大作戰"
+    },
+    "cdg-4840": {
+      "catalog_id": null,
+      "developer": "HuneX",
+      "keys": [
+        "t:夏色Celebration：戀之物語|HuneX"
+      ],
+      "status": "active",
+      "title_zh": "夏色Celebration：戀之物語"
     }
   }
 }
