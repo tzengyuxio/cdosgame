@@ -12528,16 +12528,16 @@
     },
     "cdg-1370": {
       "catalog_id": "SCD0526",
-      "developer": "NEC",
+      "developer": "NEC Interchannel",
       "keys": [
         "cat:SCD0526"
       ],
       "status": "active",
-      "title_zh": "青澀寶貝1：星座戀愛物語"
+      "title_zh": "青澀寶貝：星座戀愛物語"
     },
     "cdg-1371": {
       "catalog_id": "SCD0527",
-      "developer": "NEC",
+      "developer": "NEC Interchannel",
       "keys": [
         "cat:SCD0527"
       ],
@@ -23132,16 +23132,16 @@
     },
     "cdg-2542": {
       "catalog_id": "SCD1129",
-      "developer": "IDEA",
+      "developer": "IDEA Factory",
       "keys": [
         "cat:SCD1129"
       ],
       "status": "active",
-      "title_zh": "聖魔戰記1：艾拉降臨"
+      "title_zh": "聖魔戰記：艾拉降臨"
     },
     "cdg-2543": {
       "catalog_id": "SCD1130",
-      "developer": "IDEA",
+      "developer": "IDEA Factory",
       "keys": [
         "cat:SCD1130"
       ],
@@ -29539,7 +29539,7 @@
         "cat:SCD2700"
       ],
       "status": "active",
-      "title_zh": "火星計畫1"
+      "title_zh": "火星計畫"
     },
     "cdg-3248": {
       "catalog_id": "SCD2701",
@@ -31106,7 +31106,7 @@
     },
     "cdg-3421": {
       "catalog_id": "SCD0307",
-      "developer": "CYC",
+      "developer": "Cyc",
       "keys": [
         "cat:SCD0307"
       ],
@@ -43832,6 +43832,78 @@
       ],
       "status": "active",
       "title_zh": "疾風少年隊"
+    },
+    "cdg-4828": {
+      "catalog_id": null,
+      "developer": "NEC Interchannel",
+      "keys": [
+        "t:勇者之光|NEC Interchannel"
+      ],
+      "status": "active",
+      "title_zh": "勇者之光"
+    },
+    "cdg-4829": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:鬼妮|協和"
+      ],
+      "status": "active",
+      "title_zh": "鬼妮"
+    },
+    "cdg-4830": {
+      "catalog_id": null,
+      "developer": "INTERLEX",
+      "keys": [
+        "t:小郵差加奈|INTERLEX"
+      ],
+      "status": "active",
+      "title_zh": "小郵差加奈"
+    },
+    "cdg-4831": {
+      "catalog_id": null,
+      "developer": "Microcabin",
+      "keys": [
+        "t:人偶情緣|Microcabin"
+      ],
+      "status": "active",
+      "title_zh": "人偶情緣"
+    },
+    "cdg-4832": {
+      "catalog_id": null,
+      "developer": "Microcabin",
+      "keys": [
+        "t:人偶情緣2|Microcabin"
+      ],
+      "status": "active",
+      "title_zh": "人偶情緣2"
+    },
+    "cdg-4833": {
+      "catalog_id": null,
+      "developer": "Exe Create",
+      "keys": [
+        "t:失落的羽翼|Exe Create"
+      ],
+      "status": "active",
+      "title_zh": "失落的羽翼"
+    },
+    "cdg-4834": {
+      "catalog_id": null,
+      "developer": "Exe Create",
+      "keys": [
+        "t:聖界的奇蹟|Exe Create"
+      ],
+      "status": "active",
+      "title_zh": "聖界的奇蹟"
+    },
+    "cdg-4835": {
+      "catalog_id": null,
+      "developer": "Exe Create",
+      "keys": [
+        "t:緋蒼幻想曲|Exe Create"
+      ],
+      "status": "active",
+      "title_zh": "緋蒼幻想曲"
     }
   }
 }
