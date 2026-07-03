@@ -40136,7 +40136,8 @@
       "keys": [
         "t:秋之回憶4～從今以後 Again～|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-1424",
       "title_zh": "秋之回憶4～從今以後 Again～"
     },
     "cdg-4418": {
@@ -43952,6 +43953,168 @@
       ],
       "status": "active",
       "title_zh": "夏色Celebration：戀之物語"
+    },
+    "cdg-4841": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:精靈協奏曲|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "精靈協奏曲"
+    },
+    "cdg-4842": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:百合二重奏|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "百合二重奏"
+    },
+    "cdg-4843": {
+      "catalog_id": null,
+      "developer": "Spellbound Entertainment",
+      "keys": [
+        "t:救世英豪4：中古傳奇|Spellbound Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "救世英豪4：中古傳奇"
+    },
+    "cdg-4844": {
+      "catalog_id": null,
+      "developer": "光譜",
+      "keys": [
+        "t:台灣麻將王2|光譜"
+      ],
+      "status": "active",
+      "title_zh": "台灣麻將王2"
+    },
+    "cdg-4845": {
+      "catalog_id": null,
+      "developer": "GAME STAGE",
+      "keys": [
+        "t:吸血姬夕維：千夜抄|GAME STAGE"
+      ],
+      "status": "active",
+      "title_zh": "吸血姬夕維：千夜抄"
+    },
+    "cdg-4846": {
+      "catalog_id": null,
+      "developer": "Funatics Software",
+      "keys": [
+        "t:文化2|Funatics Software"
+      ],
+      "status": "active",
+      "title_zh": "文化2"
+    },
+    "cdg-4847": {
+      "catalog_id": null,
+      "developer": "Kritzelkratz 3000",
+      "keys": [
+        "t:鐵道王|Kritzelkratz 3000"
+      ],
+      "status": "active",
+      "title_zh": "鐵道王"
+    },
+    "cdg-4848": {
+      "catalog_id": null,
+      "developer": "北京火流星",
+      "keys": [
+        "t:天下無缺|北京火流星"
+      ],
+      "status": "active",
+      "title_zh": "天下無缺"
+    },
+    "cdg-4849": {
+      "catalog_id": null,
+      "developer": "光譜",
+      "keys": [
+        "t:明星英雄大亂鬥|光譜"
+      ],
+      "status": "active",
+      "title_zh": "明星英雄大亂鬥"
+    },
+    "cdg-4850": {
+      "catalog_id": null,
+      "developer": "Broccoli",
+      "keys": [
+        "t:魔法少女：未知的天空艾塔提亞|Broccoli"
+      ],
+      "status": "active",
+      "title_zh": "魔法少女：未知的天空艾塔提亞"
+    },
+    "cdg-4851": {
+      "catalog_id": null,
+      "developer": "GeneX",
+      "keys": [
+        "t:天使計畫|GeneX"
+      ],
+      "status": "active",
+      "title_zh": "天使計畫"
+    },
+    "cdg-4852": {
+      "catalog_id": null,
+      "developer": "La'cryma",
+      "keys": [
+        "t:真實之淚|La'cryma"
+      ],
+      "status": "active",
+      "title_zh": "真實之淚"
+    },
+    "cdg-4853": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:狀況開始|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "狀況開始"
+    },
+    "cdg-4854": {
+      "catalog_id": null,
+      "developer": "System Soft Alpha",
+      "keys": [
+        "t:白色魔法石|System Soft Alpha"
+      ],
+      "status": "active",
+      "title_zh": "白色魔法石"
+    },
+    "cdg-4855": {
+      "catalog_id": null,
+      "developer": "KID",
+      "keys": [
+        "t:時光的羈絆|KID"
+      ],
+      "status": "active",
+      "title_zh": "時光的羈絆"
+    },
+    "cdg-4856": {
+      "catalog_id": null,
+      "developer": "Gaming Minds Studios",
+      "keys": [
+        "t:海商王3|Gaming Minds Studios"
+      ],
+      "status": "active",
+      "title_zh": "海商王3"
+    },
+    "cdg-4857": {
+      "catalog_id": null,
+      "developer": "MBI",
+      "keys": [
+        "t:戀愛模擬共和國|MBI"
+      ],
+      "status": "active",
+      "title_zh": "戀愛模擬共和國"
+    },
+    "cdg-4858": {
+      "catalog_id": null,
+      "developer": "EnterBrain",
+      "keys": [
+        "t:戀愛遊戲製作大師2|EnterBrain"
+      ],
+      "status": "active",
+      "title_zh": "戀愛遊戲製作大師2"
     }
   }
 }
