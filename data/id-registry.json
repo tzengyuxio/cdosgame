@@ -2741,8 +2741,9 @@
       "keys": [
         "t:中國棋手國際大賽回顧百局精選第二輯|九所"
       ],
-      "status": "active",
-      "title_zh": "中國棋手國際大賽回顧百局精選第二輯"
+      "status": "rejected",
+      "title_zh": "中國棋手國際大賽回顧百局精選第二輯",
+      "reject_reason": "out of scope: 九所《中國棋手國際大賽回顧百局精選第二輯》(1997)，圍棋棋譜精選賞析軟體、非遊戲本體"
     },
     "cdg-0297": {
       "catalog_id": "SCD0584,SCD2202",
@@ -7929,8 +7930,9 @@
       "keys": [
         "cat:SCD0757"
       ],
-      "status": "active",
-      "title_zh": "血獅"
+      "status": "rejected",
+      "title_zh": "血獅",
+      "reject_reason": "out of scope: 北京尚洋《血獅》(Blood Lion, 1997)，中國大陸製 RTS、無台灣發行足跡"
     },
     "cdg-0867": {
       "catalog_id": "SCD1819",
@@ -9713,8 +9715,9 @@
       "keys": [
         "t:圍棋名局欣賞|南軟"
       ],
-      "status": "active",
-      "title_zh": "圍棋名局欣賞"
+      "status": "rejected",
+      "title_zh": "圍棋名局欣賞",
+      "reject_reason": "out of scope: 南軟《圍棋名局欣賞》(1996)，圍棋棋譜賞析軟體、非遊戲本體"
     },
     "cdg-1061": {
       "catalog_id": "SCD1999",
@@ -10868,8 +10871,9 @@
       "keys": [
         "t:泛華棋友|泛華"
       ],
-      "status": "active",
-      "title_zh": "泛華棋友"
+      "status": "rejected",
+      "title_zh": "泛華棋友",
+      "reject_reason": "out of scope: 泛華《泛華棋友》(1995)，圍棋/棋類工具軟體、非遊戲本體"
     },
     "cdg-1187": {
       "catalog_id": "SCD0649",
@@ -32960,8 +32964,9 @@
       "keys": [
         "t:馬曉春個人專輯第一集|星式"
       ],
-      "status": "active",
-      "title_zh": "馬曉春個人專輯第一集"
+      "status": "rejected",
+      "title_zh": "馬曉春個人專輯第一集",
+      "reject_reason": "out of scope: 星式《馬曉春個人專輯第一集》(1993)，圍棋名家棋譜/教學賞析軟體、非遊戲本體"
     },
     "cdg-3623": {
       "catalog_id": "SCD0436",
