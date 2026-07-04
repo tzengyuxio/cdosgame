@@ -44189,6 +44189,42 @@
       ],
       "status": "active",
       "title_zh": "明星志願3：甜蜜樂章"
+    },
+    "cdg-4867": {
+      "catalog_id": "GC059",
+      "developer": "大宇",
+      "keys": [
+        "t:軒轅劍黃金紀念版|大宇"
+      ],
+      "status": "active",
+      "title_zh": "軒轅劍黃金紀念版"
+    },
+    "cdg-4868": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:典藏大富翁|大宇"
+      ],
+      "status": "active",
+      "title_zh": "典藏大富翁"
+    },
+    "cdg-4869": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:大富翁7兩岸三地遊|大宇"
+      ],
+      "status": "active",
+      "title_zh": "大富翁7兩岸三地遊"
+    },
+    "cdg-4870": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:大富翁是我啦|大宇"
+      ],
+      "status": "active",
+      "title_zh": "大富翁是我啦"
     }
   }
 }
