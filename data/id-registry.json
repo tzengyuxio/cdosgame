@@ -339,8 +339,9 @@
       "keys": [
         "cat:SCD0138"
       ],
-      "status": "active",
-      "title_zh": "ATV越野沙灘大賽車"
+      "status": "rejected",
+      "title_zh": "ATV越野沙灘大賽車",
+      "reject_reason": "out of scope: Team6《ATV 越野沙灘大賽車》(ATV Mudracer, 2004)，外文 Windows 賽車作、超出收錄年代"
     },
     "cdg-0036": {
       "catalog_id": "SCD2437",
@@ -1683,8 +1684,9 @@
       "keys": [
         "cat:SCD1893"
       ],
-      "status": "active",
-      "title_zh": "北極特快車"
+      "status": "rejected",
+      "title_zh": "北極特快車",
+      "reject_reason": "out of scope: Blue Tongue《北極特快車》(The Polar Express, 2004)，電影改編外文 Windows 作、超出收錄年代"
     },
     "cdg-0181": {
       "catalog_id": "SCD2703",
@@ -1692,8 +1694,9 @@
       "keys": [
         "cat:SCD2703"
       ],
-      "status": "active",
-      "title_zh": "北非雄獅"
+      "status": "rejected",
+      "title_zh": "北非雄獅",
+      "reject_reason": "out of scope: Digital Reality《北非雄獅》(Desert Rats vs. Afrika Korps, 2004)，外文 Windows RTS、超出收錄年代"
     },
     "cdg-0182": {
       "catalog_id": "SCD2509",
@@ -3100,8 +3103,9 @@
       "keys": [
         "cat:SCD1249"
       ],
-      "status": "active",
-      "title_zh": "二戰狙擊手：勝利的召喚"
+      "status": "rejected",
+      "title_zh": "二戰狙擊手：勝利的召喚",
+      "reject_reason": "out of scope: Jarhead《二戰狙擊手：勝利的召喚》(Battlestrike: Call to Victory, 2004)，外文 Windows FPS、超出收錄年代"
     },
     "cdg-0337": {
       "catalog_id": "SCD1247",
@@ -3145,8 +3149,9 @@
       "keys": [
         "cat:SCD1248"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲：鋼鐵之爪2"
+      "status": "rejected",
+      "title_zh": "二戰風雲：鋼鐵之爪2",
+      "reject_reason": "out of scope: Zuxxez《二戰風雲：鋼鐵之爪2》(World War II: Panzer Claws II, 2004)，外文 Windows RTS、超出收錄年代"
     },
     "cdg-0342": {
       "catalog_id": "SCD1242",
@@ -4480,8 +4485,9 @@
       "keys": [
         "cat:SCD1302"
       ],
-      "status": "active",
-      "title_zh": "太平洋戰機"
+      "status": "rejected",
+      "title_zh": "太平洋戰機",
+      "reject_reason": "out of scope: 1C《太平洋戰機》(Pacific Fighters, 2004)，外文 Windows 飛行模擬、超出收錄年代"
     },
     "cdg-0489": {
       "catalog_id": null,
