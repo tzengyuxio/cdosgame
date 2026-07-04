@@ -11016,8 +11016,9 @@
       "keys": [
         "cat:SCD1117,SCD0823"
       ],
-      "status": "active",
-      "title_zh": "洛克人1"
+      "status": "rejected",
+      "title_zh": "洛克人1",
+      "reject_reason": "out of scope: CAPCOM《洛克人》(Rockman, 1987)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1204": {
       "catalog_id": null,
@@ -11025,8 +11026,9 @@
       "keys": [
         "t:洛克人1|Hi-Tech"
       ],
-      "status": "active",
-      "title_zh": "洛克人1"
+      "status": "rejected",
+      "title_zh": "洛克人1",
+      "reject_reason": "out of scope: Hi-Tech Expressions《洛克人》(Mega Man DOS, 1990)，純美版 DOS 移植、無台灣代理發行足跡"
     },
     "cdg-1205": {
       "catalog_id": "SCD1117,SCD0823",
@@ -11034,8 +11036,9 @@
       "keys": [
         "cat:SCD1117,SCD0823#2"
       ],
-      "status": "active",
-      "title_zh": "洛克人2：威利博士之謎"
+      "status": "rejected",
+      "title_zh": "洛克人2：威利博士之謎",
+      "reject_reason": "out of scope: CAPCOM《洛克人2：威利博士之謎》(1988)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1206": {
       "catalog_id": "SCD1117,SCD0823",
@@ -11043,8 +11046,9 @@
       "keys": [
         "cat:SCD1117,SCD0823#3"
       ],
-      "status": "active",
-      "title_zh": "洛克人3：威利博士的末期"
+      "status": "rejected",
+      "title_zh": "洛克人3：威利博士的末期",
+      "reject_reason": "out of scope: CAPCOM《洛克人3：威利博士的末期》(1990)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1207": {
       "catalog_id": null,
@@ -11052,8 +11056,9 @@
       "keys": [
         "t:洛克人3：機器人起義|Hi-Tech"
       ],
-      "status": "active",
-      "title_zh": "洛克人3：機器人起義"
+      "status": "rejected",
+      "title_zh": "洛克人3：機器人起義",
+      "reject_reason": "out of scope: Hi-Tech Expressions《洛克人3：機器人起義》(Mega Man 3 DOS, 1992)，純美版 DOS 移植、無台灣代理發行足跡"
     },
     "cdg-1208": {
       "catalog_id": "SCD0823",
@@ -11061,8 +11066,9 @@
       "keys": [
         "cat:SCD0823"
       ],
-      "status": "active",
-      "title_zh": "洛克人4：新的野心"
+      "status": "rejected",
+      "title_zh": "洛克人4：新的野心",
+      "reject_reason": "out of scope: CAPCOM《洛克人4：新的野心》(1991)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1209": {
       "catalog_id": "SCD0823",
@@ -11070,8 +11076,9 @@
       "keys": [
         "cat:SCD0823#2"
       ],
-      "status": "active",
-      "title_zh": "洛克人5：布魯斯的陷阱"
+      "status": "rejected",
+      "title_zh": "洛克人5：布魯斯的陷阱",
+      "reject_reason": "out of scope: CAPCOM《洛克人5：布魯斯的陷阱》(1992)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1210": {
       "catalog_id": "SCD0823",
@@ -11079,8 +11086,9 @@
       "keys": [
         "cat:SCD0823#3"
       ],
-      "status": "active",
-      "title_zh": "洛克人6：史上最大戰爭"
+      "status": "rejected",
+      "title_zh": "洛克人6：史上最大戰爭",
+      "reject_reason": "out of scope: CAPCOM《洛克人6：史上最大戰爭》(1993)，紅白機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1211": {
       "catalog_id": null,
@@ -11088,8 +11096,9 @@
       "keys": [
         "t:洛克人7：宿命的對決|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人7：宿命的對決"
+      "status": "rejected",
+      "title_zh": "洛克人7：宿命的對決",
+      "reject_reason": "out of scope: CAPCOM《洛克人7：宿命的對決》(1995)，超任原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1212": {
       "catalog_id": null,
@@ -11097,8 +11106,9 @@
       "keys": [
         "t:洛克人8：金屬英雄們|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人8：金屬英雄們"
+      "status": "rejected",
+      "title_zh": "洛克人8：金屬英雄們",
+      "reject_reason": "out of scope: CAPCOM《洛克人8：金屬英雄們》(1996)，主機原版、無台灣 PC 中文化發行足跡"
     },
     "cdg-1213": {
       "catalog_id": null,
@@ -11106,8 +11116,9 @@
       "keys": [
         "t:洛克人9：野心的復活|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人9：野心的復活"
+      "status": "rejected",
+      "title_zh": "洛克人9：野心的復活",
+      "reject_reason": "out of scope: CAPCOM《洛克人9：野心的復活》(2008)，主機下載作、超出收錄年代、無台灣 PC 發行足跡"
     },
     "cdg-1214": {
       "catalog_id": null,
@@ -11135,8 +11146,9 @@
       "keys": [
         "cat:SCD1118"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 DASH 鋼之冒險心》(Mega Man Legends, 2000)，主機作、無台灣 PC 中文化發行足跡"
     },
     "cdg-1217": {
       "catalog_id": "SCD0829",
@@ -11144,8 +11156,9 @@
       "keys": [
         "cat:SCD0829"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 DASH 2》(Mega Man Legends 2, 2002)，主機作、無台灣 PC 中文化發行足跡"
     },
     "cdg-1218": {
       "catalog_id": "SCD0827",
@@ -11153,8 +11166,9 @@
       "keys": [
         "cat:SCD0827"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 草莓軟體《洛克人 DASH 拯救地球大冒險》(1998)，兒童教育軟體、非遊戲本體"
     },
     "cdg-1219": {
       "catalog_id": "SCD0830",
@@ -11162,8 +11176,9 @@
       "keys": [
         "cat:SCD0830"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 草莓軟體《洛克人 IQ 旋風》(1998)，兒童教育軟體、非遊戲本體"
     },
     "cdg-1220": {
       "catalog_id": "SCD1184",
@@ -11237,8 +11252,9 @@
       "keys": [
         "cat:OCD0117"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人X8》(2005)，外文系列作、超出收錄年代、非國產、無需超額收錄系列作"
     },
     "cdg-1228": {
       "catalog_id": "SCD0831",
@@ -11246,8 +11262,9 @@
       "keys": [
         "cat:SCD0831"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: 草莓軟體《洛克人 X 數學炫風》(1999)，兒童教育軟體、非遊戲本體"
     },
     "cdg-1229": {
       "catalog_id": null,
@@ -11255,8 +11272,9 @@
       "keys": [
         "t:洛克人|CAPCOM#3"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 Zero》(2002)，GBA 掌機作、無台灣 PC 發行足跡"
     },
     "cdg-1230": {
       "catalog_id": null,
@@ -11264,8 +11282,9 @@
       "keys": [
         "t:洛克人|CAPCOM#4"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 Zero 2》(2003)，GBA 掌機作、無台灣 PC 發行足跡"
     },
     "cdg-1231": {
       "catalog_id": null,
@@ -16177,8 +16196,9 @@
       "keys": [
         "cat:SCD1043"
       ],
-      "status": "active",
-      "title_zh": "惡靈古堡：生存遊戲"
+      "status": "rejected",
+      "title_zh": "惡靈古堡：生存遊戲",
+      "reject_reason": "out of scope: TOSE《惡靈古堡：生存遊戲》(Resident Evil Survivor, 2002)，主機/大型機光線槍衍生作、無台灣 PC 發行足跡"
     },
     "cdg-1774": {
       "catalog_id": "SCD1038",
