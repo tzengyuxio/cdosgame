@@ -11171,8 +11171,9 @@
       "keys": [
         "cat:SCD1184"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "merged",
+      "title_zh": "洛克人",
+      "merged_into": "cdg-4521"
     },
     "cdg-1221": {
       "catalog_id": null,
@@ -11190,7 +11191,7 @@
         "cat:SCD0824"
       ],
       "status": "active",
-      "title_zh": "洛克人"
+      "title_zh": "洛克人X3"
     },
     "cdg-1223": {
       "catalog_id": "SCD0825",
@@ -11199,7 +11200,7 @@
         "cat:SCD0825"
       ],
       "status": "active",
-      "title_zh": "洛克人"
+      "title_zh": "洛克人X4"
     },
     "cdg-1224": {
       "catalog_id": "OCD0126",
@@ -11208,7 +11209,7 @@
         "cat:OCD0126"
       ],
       "status": "active",
-      "title_zh": "洛克人"
+      "title_zh": "洛克人X5"
     },
     "cdg-1225": {
       "catalog_id": "SCD0826",
@@ -16186,7 +16187,7 @@
         "cat:SCD1038"
       ],
       "status": "active",
-      "title_zh": "惡靈古堡1"
+      "title_zh": "惡靈古堡"
     },
     "cdg-1775": {
       "catalog_id": "SCD1039",
@@ -40056,8 +40057,9 @@
       "keys": [
         "t:洛克人的黃金帝國|None"
       ],
-      "status": "active",
-      "title_zh": "洛克人的黃金帝國"
+      "status": "merged",
+      "title_zh": "洛克人的黃金帝國",
+      "merged_into": "cdg-1235"
     },
     "cdg-4409": {
       "catalog_id": null,
