@@ -4925,7 +4925,7 @@
         "cat:SCD1290"
       ],
       "status": "active",
-      "title_zh": "小魔女帕妃1：黑貓招牌的魔法店"
+      "title_zh": "小魔女帕妃：黑貓招牌的魔法店"
     },
     "cdg-0538": {
       "catalog_id": "SCD1291",
@@ -15073,8 +15073,9 @@
       "keys": [
         "t:倉庫世家|Jeng-Long Jiang"
       ],
-      "status": "active",
-      "title_zh": "倉庫世家"
+      "status": "rejected",
+      "title_zh": "倉庫世家",
+      "reject_reason": "out of scope: 蔣正龍《倉庫世家／Box World》(1991) 為 Windows 共享軟體推箱子、非大宇 DOS 作；大宇同名作為 cdg-1652 倉庫世家：精彩篇"
     },
     "cdg-1652": {
       "catalog_id": "SSG016",
@@ -16313,7 +16314,7 @@
         "cat:SCD0576"
       ],
       "status": "active",
-      "title_zh": "愛神餐館1"
+      "title_zh": "愛神餐館"
     },
     "cdg-1789": {
       "catalog_id": "SCD0577",
@@ -25644,16 +25645,16 @@
     },
     "cdg-2819": {
       "catalog_id": "SCD2224",
-      "developer": "Shuwa",
+      "developer": "Shuwa System",
       "keys": [
         "cat:SCD2224"
       ],
       "status": "active",
-      "title_zh": "精靈幻境1"
+      "title_zh": "精靈幻境"
     },
     "cdg-2820": {
       "catalog_id": "SCD2225",
-      "developer": "Shuwa",
+      "developer": "Shuwa System",
       "keys": [
         "cat:SCD2225"
       ],
@@ -41136,8 +41137,9 @@
       "keys": [
         "t:春秋爭霸傳二：問鼎天下|大宇"
       ],
-      "status": "active",
-      "title_zh": "春秋爭霸傳二：問鼎天下"
+      "status": "rejected",
+      "title_zh": "春秋爭霸傳二：問鼎天下",
+      "reject_reason": "duplicate of cdg-2441（春秋爭霸傳2問鼎天下，大宇 1996）；2441 為正條（有 catalog_id SSG053）"
     },
     "cdg-4529": {
       "catalog_id": null,
@@ -44115,6 +44117,78 @@
       ],
       "status": "active",
       "title_zh": "戀愛遊戲製作大師2"
+    },
+    "cdg-4859": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:遊戲製作大師－動作RPG篇|None"
+      ],
+      "status": "active",
+      "title_zh": "遊戲製作大師－動作RPG篇"
+    },
+    "cdg-4860": {
+      "catalog_id": null,
+      "developer": "EnterBrain",
+      "keys": [
+        "t:遊戲製作大師－RPG篇|EnterBrain"
+      ],
+      "status": "active",
+      "title_zh": "遊戲製作大師－RPG篇"
+    },
+    "cdg-4861": {
+      "catalog_id": null,
+      "developer": "EnterBrain",
+      "keys": [
+        "t:RPG製作大師2|EnterBrain"
+      ],
+      "status": "active",
+      "title_zh": "RPG製作大師2"
+    },
+    "cdg-4862": {
+      "catalog_id": null,
+      "developer": "EnterBrain",
+      "keys": [
+        "t:新RPG製作大師XP|EnterBrain"
+      ],
+      "status": "active",
+      "title_zh": "新RPG製作大師XP"
+    },
+    "cdg-4863": {
+      "catalog_id": null,
+      "developer": "火狗工房",
+      "keys": [
+        "t:愛神餐館MAX|火狗工房"
+      ],
+      "status": "active",
+      "title_zh": "愛神餐館MAX"
+    },
+    "cdg-4864": {
+      "catalog_id": null,
+      "developer": "富士通",
+      "keys": [
+        "t:夢幻奇緣|富士通"
+      ],
+      "status": "active",
+      "title_zh": "夢幻奇緣"
+    },
+    "cdg-4865": {
+      "catalog_id": null,
+      "developer": "GeneX",
+      "keys": [
+        "t:夢幻奇緣2|GeneX"
+      ],
+      "status": "active",
+      "title_zh": "夢幻奇緣2"
+    },
+    "cdg-4866": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:明星志願3：甜蜜樂章|大宇"
+      ],
+      "status": "active",
+      "title_zh": "明星志願3：甜蜜樂章"
     }
   }
 }
