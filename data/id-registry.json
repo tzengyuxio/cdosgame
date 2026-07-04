@@ -11202,8 +11202,9 @@
       "keys": [
         "t:洛克人|CAPCOM"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人X2》(Mega Man X2)，原時代無 PC 版、僅 2018 Legacy Collection 合輯、無台灣 PC 發行足跡"
     },
     "cdg-1222": {
       "catalog_id": "SCD0824",
@@ -11308,8 +11309,9 @@
       "keys": [
         "t:洛克人|CAPCOM#6"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 Zero 4》(2005)，GBA 掌機作、無台灣 PC 發行足跡"
     },
     "cdg-1233": {
       "catalog_id": null,
@@ -11317,8 +11319,9 @@
       "keys": [
         "t:洛克人|CAPCOM#7"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 ZX》(2006)，NDS 掌機作、無台灣 PC 發行足跡"
     },
     "cdg-1234": {
       "catalog_id": null,
@@ -11326,8 +11329,9 @@
       "keys": [
         "t:洛克人|CAPCOM#8"
       ],
-      "status": "active",
-      "title_zh": "洛克人"
+      "status": "rejected",
+      "title_zh": "洛克人",
+      "reject_reason": "out of scope: CAPCOM《洛克人 ZX Advent》(2007)，NDS 掌機作、無台灣 PC 發行足跡"
     },
     "cdg-1235": {
       "catalog_id": "SCD0832",
