@@ -16532,8 +16532,9 @@
       "keys": [
         "cat:SCD2084"
       ],
-      "status": "active",
-      "title_zh": "益智電玩大合集第一集"
+      "status": "rejected",
+      "title_zh": "益智電玩大合集第一集",
+      "reject_reason": "out of scope: 昱霖《益智電玩大合集第一集》(2000)，益智小遊戲合集、shovelware、無考據價值"
     },
     "cdg-1809": {
       "catalog_id": "SCD2085",
@@ -16541,8 +16542,9 @@
       "keys": [
         "cat:SCD2085"
       ],
-      "status": "active",
-      "title_zh": "益智電玩大合集第二集"
+      "status": "rejected",
+      "title_zh": "益智電玩大合集第二集",
+      "reject_reason": "out of scope: 昱霖《益智電玩大合集第二集》(2000)，益智小遊戲合集、shovelware、無考據價值"
     },
     "cdg-1810": {
       "catalog_id": "OCD0091",
@@ -19497,8 +19499,9 @@
       "keys": [
         "cat:SCD2526"
       ],
-      "status": "active",
-      "title_zh": "象棋世家"
+      "status": "rejected",
+      "title_zh": "象棋世家",
+      "reject_reason": "out of scope: 鄭明政《象棋世家》(2000)，個人開發的象棋對弈軟體、shovelware、無考據價值"
     },
     "cdg-2137": {
       "catalog_id": "OCD0098",
@@ -19614,8 +19617,9 @@
       "keys": [
         "t:象棋旋風|陳朝營"
       ],
-      "status": "active",
-      "title_zh": "象棋旋風"
+      "status": "rejected",
+      "title_zh": "象棋旋風",
+      "reject_reason": "out of scope: 陳朝營《象棋旋風》(2006)，個人開發的象棋對弈軟體、超出年代、無考據價值"
     },
     "cdg-2150": {
       "catalog_id": "SCD0094",
@@ -23444,8 +23448,9 @@
       "keys": [
         "t:連珠妙手|劉孟"
       ],
-      "status": "active",
-      "title_zh": "連珠妙手"
+      "status": "rejected",
+      "title_zh": "連珠妙手",
+      "reject_reason": "out of scope: 劉孟《連珠妙手》(2000)，個人開發的連珠(五子棋)對弈小品、shovelware、無考據價值"
     },
     "cdg-2573": {
       "catalog_id": null,
@@ -43797,7 +43802,7 @@
     },
     "cdg-4819": {
       "catalog_id": null,
-      "developer": "工画堂スタジオ",
+      "developer": "工畫堂",
       "keys": [
         "t:超能特遣隊|工画堂スタジオ"
       ],
