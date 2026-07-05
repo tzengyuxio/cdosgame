@@ -84,6 +84,12 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .prose{font-size:15px}
 .prose::after{content:"";display:block;clear:both}
 .sources h2,.prose h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--border);padding-bottom:4px}
+/* 目錄（TOC）：長條目專用，置於前言後、與正文明顯區隔 */
+.prose .toc{margin:18px 0;padding:10px 16px 12px;background:#f6f2e9;border:1px solid var(--border);border-radius:4px;font-size:14px;line-height:1.7}
+.prose .toc::before{content:"目錄";display:block;font-family:var(--serif);font-weight:600;color:var(--brown);margin-bottom:4px}
+.prose .toc ul{margin:0;padding-left:1.3em}
+.prose .toc li{margin:1px 0}
+.prose .toc a{color:var(--brown)}
 /* 正文內表格（廠商頁產品目錄等）：斑馬紋 + 表頭底色，便於閱讀 */
 .prose table{border-collapse:collapse;width:100%;font-size:13.5px;margin:12px 0}
 .prose th,.prose td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--border);vertical-align:top}
