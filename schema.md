@@ -34,6 +34,7 @@
 | `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|
 | `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
 | `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 [] |
+| `staff_note` | string \| null | | 製作人員名單的來源註記（如「名單出自某版說明書」），顯示於製作人員區塊下方 |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|
 | `footnotes` | string[] | | **註釋**：無連結的純文字補充，可被正文 `[N]` 引用（預設 []）。見 [`docs/refs-convention.md`](docs/refs-convention.md) |

@@ -114,6 +114,7 @@ export const gameSchema = z.object({
     name: z.string(),                            // credited name (may be a 署名代號, e.g. T.M.H.)
     person: z.string().optional(),               // canonical /people slug when name is an alias/代號
   })).default([]),
+  staff_note: z.string().optional(),             // provenance note for the roster (e.g. 名單出自某版說明書)
 
   // media & links
   cover: z.string().nullable().default(null),
