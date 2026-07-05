@@ -14,8 +14,9 @@ const firstChar = s => [...String(s ?? '')][0] || '';
 //   - A–Z  : Latin initial (upper-cased)
 //   - 0–9  : digit initial → bucket '0–9'
 //   - 漢字  : by stroke count of first char (from stroke-counts.json) → 'N 劃'
+//   - 假名  : hiragana/katakana initial → '假名'
 //   - 其他  : first char not covered above (or stroke unknown)
-// Order: A…Z, 0–9, then 1 劃…N 劃, then 其他. Items within a section are
+// Order: A…Z, 0–9, then 1 劃…N 劃, then 假名, then 其他. Items within a section are
 // stroke/alpha sorted. Returns [{ label, items }].
 export function groupByInitial(items, keyFn = x => x.value ?? x.name) {
   const buckets = new Map();   // key -> { sort, label, items }
@@ -29,7 +30,8 @@ export function groupByInitial(items, keyFn = x => x.value ?? x.name) {
     if (/[A-Za-z]/.test(ch)) { const L = ch.toUpperCase(); put('a:' + L, [0, L], L, it); }
     else if (/[0-9]/.test(ch)) put('a:#', [1, ''], '0–9', it);
     else if (strokes[ch] != null) { const s = strokes[ch]; put('s:' + s, [2, s], `${s} 劃`, it); }
-    else put('z:other', [3, ''], '其他', it);
+    else if (/[぀-ヿ]/.test(ch)) put('k:kana', [3, ''], '假名', it);
+    else put('z:other', [4, ''], '其他', it);
   }
   return [...buckets.values()]
     .sort((a, b) => a.sort[0] - b.sort[0] || (a.sort[1] > b.sort[1] ? 1 : a.sort[1] < b.sort[1] ? -1 : 0))
