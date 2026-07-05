@@ -53,6 +53,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 開頭句型：`《Title》是[公司](/companies/X)於 YYYY 年推出的<類型>，…`；首作點明 `[系列](/series/Y)` 首作。
 - 互連：台灣公司／系列／人物／團隊用內部連結（`/companies/…`、`/series/…`、`/people/…`、`/teams/…`）；**外國開發商（無對應頁）用純文字、不連 `/companies`**。
 - 段落：① 定位（誰做、何時、類型、系列地位）；② 玩法/特色/歷史/續作/軼事。
+- **分節與 TOC（僅篇幅特長的旗艦條目）**：一般條目主敘事維持連續段落、**不分 `##`**（`##` 平時只給祕技/攻略等附加區塊）。唯有極長條目（如仙劍 cdg-1564）才分節，用**通用節標題**、避免「A與B」式合併標題：`開發`／`遊戲內容`（或 `玩法`）／`劇情`／`發行`／`市場反應`／`影響`，遊戲特有節可自訂（如 `Sega Saturn 版`）。首段（前言）不加標題。分節時可在前言後加內文 TOC：`<nav class="toc">` 包一個 markdown 清單（前後留空行才會被解析），錨點用各 heading 的 github-slugger id（CJK 保留原字、英數空格轉小寫連字號，如 `Sega Saturn 版`→`#sega-saturn-版`）。`.toc` 樣式已在 `src/styles/global.css`，SEO description 也已排除 `<nav>`。
 - **用詞精確**：「參與」≠「擔綱／主導」，別誇大某人角色；斷言要有來源。
 - **正文是百科內文、不是撰寫紀錄**——以下四類務必清掉（來源仍記 frontmatter `references`/`provenance`，正文只陳述事實）：
   1. **不點名資料來源**：散文別出現 chiuinan／青衫之友／Omega／巴哈姆特整理表／表格／站內／registry／Fandom／離線資料庫等；改直接陳述。有 `<sup class="cite">` 引用的保留標籤，只去掉散文裡的來源名。
