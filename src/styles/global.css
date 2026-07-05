@@ -85,7 +85,7 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .prose::after{content:"";display:block;clear:both}
 .sources h2,.prose h2{font-family:var(--serif);font-size:16px;border-bottom:1px solid var(--border);padding-bottom:4px}
 /* 目錄（TOC）：長條目專用，置於前言後、與正文明顯區隔 */
-.prose .toc{margin:18px 0;padding:10px 16px 12px;background:#f6f2e9;border:1px solid var(--border);border-radius:4px;font-size:14px;line-height:1.7}
+.prose .toc{max-width:33%;margin:18px 0;padding:10px 16px 12px;background:#f6f2e9;border:1px solid var(--border);border-radius:4px;font-size:14px;line-height:1.7}
 .prose .toc::before{content:"目錄";display:block;font-family:var(--serif);font-weight:600;color:var(--brown);margin-bottom:4px}
 .prose .toc ul{margin:0;padding-left:1.3em}
 .prose .toc li{margin:1px 0}
@@ -162,6 +162,7 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .stafflist{list-style:none;margin:6px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:3px 20px;font-size:14px}
 .stafflist li{display:flex;gap:10px}
 .stafflist .role{color:var(--muted);min-width:64px;font-size:13px}
+.staff-note{color:var(--muted);font-size:12.5px;margin:8px 0 0}
 .hub-title{font-family:var(--serif);font-size:26px;margin:8px 0 4px}
 .hub-count{color:var(--muted);font-size:15px;font-weight:400;font-family:var(--mono)}
 .hub-sub{font-family:var(--serif);font-size:17px;margin:18px 0 6px;border-bottom:1px solid var(--border);padding-bottom:4px}
