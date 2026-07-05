@@ -3507,7 +3507,7 @@
     },
     "cdg-0381": {
       "catalog_id": "SCD2535",
-      "developer": "大宇",
+      "developer": "甲尚",
       "keys": [
         "cat:SCD2535"
       ],
@@ -31762,7 +31762,7 @@
         "cat:SCD0128"
       ],
       "status": "active",
-      "title_zh": "聲控麻將王2麻將教師"
+      "title_zh": "聲控麻將王2：麻將教師"
     },
     "cdg-3490": {
       "catalog_id": "SCD1544",
@@ -44262,6 +44262,60 @@
       ],
       "status": "active",
       "title_zh": "大富翁是我啦"
+    },
+    "cdg-4871": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:漢朝與羅馬|大宇"
+      ],
+      "status": "active",
+      "title_zh": "漢朝與羅馬"
+    },
+    "cdg-4872": {
+      "catalog_id": null,
+      "developer": "Firefly Studios",
+      "keys": [
+        "t:危城之戰|Firefly Studios"
+      ],
+      "status": "active",
+      "title_zh": "危城之戰"
+    },
+    "cdg-4873": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:指極星|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "指極星"
+    },
+    "cdg-4874": {
+      "catalog_id": null,
+      "developer": "斯普電腦",
+      "keys": [
+        "t:魔神英雄|斯普電腦"
+      ],
+      "status": "active",
+      "title_zh": "魔神英雄"
+    },
+    "cdg-4875": {
+      "catalog_id": null,
+      "developer": "秀和システム",
+      "keys": [
+        "t:機甲女戰士|秀和システム"
+      ],
+      "status": "active",
+      "title_zh": "機甲女戰士"
+    },
+    "cdg-4876": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:小綿羊|大宇"
+      ],
+      "status": "active",
+      "title_zh": "小綿羊"
     }
   }
 }
