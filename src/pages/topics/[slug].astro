@@ -29,7 +29,7 @@ if (t.list_games) {
 }
 const PT = { company: companyUrl, series: seriesUrl, team: teamUrl, person: personUrl };
 const parentHref = t.parent ? (PT[t.parent_type] || companyUrl)(t.parent) : null;
-const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
 const desc = t.summary || `${t.name_zh}｜中文 DOS 遊戲資料庫專題`;
 const jsonLd = [breadcrumb(site, [

@@ -3,8 +3,9 @@ import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 import { lastModified, latestModified } from './src/lib/gitdates.js';
 
-// GitHub Pages project site: served under https://tzengyuxio.github.io/cdosgame/
-const BASE = '/cdosgame';
+// Served at the root of a custom domain (cdosgame.simagame.me, see public/CNAME).
+// BASE is the path prefix for internal links — empty string at a domain root.
+const BASE = '';
 
 // In a production build only published games get a detail page (see the
 // `PROD ? data.published : true` gate in the routes). Entity bodies — e.g. a
@@ -97,8 +98,8 @@ function rehypeMedia() {
 }
 
 export default defineConfig({
-  site: 'https://tzengyuxio.github.io',
-  base: BASE,
+  site: 'https://cdosgame.simagame.me',
+  base: '/',
   // v1 has no images; use a no-op image service so the build does not require
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },

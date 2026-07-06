@@ -4,12 +4,12 @@
 
 ## 重點頁面
 
-- [遊戲目錄](https://tzengyuxio.github.io/cdosgame/games): 全部已收錄遊戲，可依年代、類型、廠商、中文化程度篩選
-- [廠商](https://tzengyuxio.github.io/cdosgame/companies): 開發商與台灣代理商，A–Z／漢字筆畫索引
-- [系列](https://tzengyuxio.github.io/cdosgame/series): 遊戲系列（如仙劍奇俠傳、軒轅劍、富甲天下）
-- [類型](https://tzengyuxio.github.io/cdosgame/genres): 遊戲類型分類
-- [人物](https://tzengyuxio.github.io/cdosgame/people): 開發者與業界人物
-- [關於](https://tzengyuxio.github.io/cdosgame/about): 專案說明與收錄準則
+- [遊戲目錄](https://cdosgame.simagame.me/games): 全部已收錄遊戲，可依年代、類型、廠商、中文化程度篩選
+- [廠商](https://cdosgame.simagame.me/companies): 開發商與台灣代理商，A–Z／漢字筆畫索引
+- [系列](https://cdosgame.simagame.me/series): 遊戲系列（如仙劍奇俠傳、軒轅劍、富甲天下）
+- [類型](https://cdosgame.simagame.me/genres): 遊戲類型分類
+- [人物](https://cdosgame.simagame.me/people): 開發者與業界人物
+- [關於](https://cdosgame.simagame.me/about): 專案說明與收錄準則
 
 ## 資料準則（引用時請留意）
 
@@ -20,4 +20,4 @@
 
 ## 索引
 
-- [Sitemap](https://tzengyuxio.github.io/cdosgame/sitemap-index.xml)
+- [Sitemap](https://cdosgame.simagame.me/sitemap-index.xml)

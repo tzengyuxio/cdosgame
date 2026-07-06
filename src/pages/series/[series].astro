@@ -36,7 +36,7 @@ const topics = (await getCollection('topics'))
     && t.data.parent_type === 'series'
     && t.data.parent === series);
 const desc = `${series}系列：收錄 ${games.length} 款${dev ? `，主要廠商 ${dev}` : ''}${range ? `（${range.min}–${range.max}）` : ''}。中文 DOS 遊戲資料庫系列條目。`;
-const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
 const jsonLd = [
   seriesJsonLd(series, { url: canonical, description: desc, dev, dateModified: lastModified(`content/series/${series}.md`) }),

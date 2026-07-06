@@ -53,7 +53,7 @@ const canon = n => COMPANY_ALIASES[n] || n;
 const devVia = g => (g.developer && g.developer !== name) ? g.developer : null;
 const pubVia = g => (g.publisher_tw || []).find(p => p !== name && canon(p) === name) || null;
 // alias route: client-redirect to the canonical company page, tagging the source
-const siteBase = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const siteBase = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 // Trailing slash BEFORE ?from is required: prod build is build.format:'directory',
 // so the canonical page lives at /companies/<id>/. Without the slash, GitHub Pages
 // 301-redirects to add it and DROPS the query string → the「重定向自」note never
@@ -90,7 +90,7 @@ const cover = coverOf(media);
 const coverItem = cover ? decorate(cover, 'companies', name) : null;
 const mediaGroups = galleryGroups(media, 'companies', name);
 const ogImage = cover ? `/media/companies/${name}/${cover.src}` : undefined;
-const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
 const sameAs = [...(c?.references || []).map(r => r.url), ...Object.values(c?.external_links || {})];
 const jsonLd = [

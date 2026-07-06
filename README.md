@@ -2,7 +2,7 @@
 
 盡可能完整收錄 DOS 時代（與周邊早期平台）**中文遊戲**的結構化資料庫——偏百科／工具書，重在**齊全**與**考據**，台灣產品導向。
 
-🔗 **線上瀏覽：https://tzengyuxio.github.io/cdosgame/**
+🔗 **線上瀏覽：https://cdosgame.simagame.me/**
 
 ## 是什麼
 

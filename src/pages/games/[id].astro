@@ -39,7 +39,7 @@ const plain = (entry.body || '')
   .replace(/[#>*`_]/g, '').replace(/\s+/g, ' ').trim();
 const facts = [g.year && `${g.year}`, g.developer, genreLabel(g.genre), g.localization_level && locLabel(g.localization_level)].filter(Boolean).join(' · ');
 const description = (plain ? plain.slice(0, 140) : `《${g.title_zh}》${facts ? `（${facts}）` : ''}——中文 DOS 遊戲資料庫的考據條目。`);
-const site = (Astro.site?.href || 'https://tzengyuxio.github.io/').replace(/\/$/, '');
+const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const canonical = site + Astro.url.pathname;
 // curated media: infobox cover, category gallery, per-page og:image
 const cover = coverOf(g.media);

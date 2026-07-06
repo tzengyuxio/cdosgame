@@ -18,7 +18,7 @@ const {
 } = Astro.props;
 const ldBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
-const site = Astro.site?.href.replace(/\/$/, '') ?? 'https://tzengyuxio.github.io';
+const site = Astro.site?.href.replace(/\/$/, '') ?? 'https://cdosgame.simagame.me';
 const canonical = site + Astro.url.pathname;
 const ogImageUrl = /^https?:\/\//.test(ogImage) ? ogImage : site + withBase(ogImage);
 const gaOn = import.meta.env.PROD && GA_ID && !GA_ID.includes('XXXX');
