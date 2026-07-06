@@ -13969,7 +13969,7 @@
         "cat:SCD0889"
       ],
       "status": "active",
-      "title_zh": "風色幻想1：魔導聖戰"
+      "title_zh": "魔導聖戰：風色幻想"
     },
     "cdg-1526": {
       "catalog_id": "OCD0077",
@@ -13978,7 +13978,7 @@
         "cat:OCD0077"
       ],
       "status": "active",
-      "title_zh": "風色幻想2："
+      "title_zh": "風色幻想2：aLIVE"
     },
     "cdg-1527": {
       "catalog_id": "SCD0892",
@@ -14032,7 +14032,7 @@
         "cat:SCD0896"
       ],
       "status": "active",
-      "title_zh": "風色幻想"
+      "title_zh": "風色幻想XX：交錯的軌跡"
     },
     "cdg-1533": {
       "catalog_id": "SCD0079",
@@ -18402,7 +18402,7 @@
         "cat:SCD0067"
       ],
       "status": "active",
-      "title_zh": "麻雀幻想曲2 2001重製版"
+      "title_zh": "麻雀幻想曲2：2001重製版"
     },
     "cdg-2015": {
       "catalog_id": null,
@@ -30710,7 +30710,9 @@
       "catalog_id": "SCD0700",
       "developer": "遊戲橘子",
       "keys": [
-        "cat:SCD0700"
+        "cat:SCD0700",
+        "t:戰國策2|遊戲橘子",
+        "t:戰國策2：七雄之爭|遊戲橘子"
       ],
       "status": "active",
       "title_zh": "戰國策2：七雄之爭"
@@ -33858,7 +33860,7 @@
         "cat:SCD0729"
       ],
       "status": "active",
-      "title_zh": "魔法氣泡"
+      "title_zh": "魔法氣泡（BoBo）"
     },
     "cdg-3721": {
       "catalog_id": "SCD1507",
@@ -33867,7 +33869,7 @@
         "cat:SCD1507"
       ],
       "status": "active",
-      "title_zh": "魔法氣泡"
+      "title_zh": "魔法氣泡（Puyo Puyo）"
     },
     "cdg-3722": {
       "catalog_id": "SCD1163",
@@ -41362,8 +41364,9 @@
         "t:戰國策2|遊戲橘子",
         "t:戰國策2：七雄之爭|遊戲橘子"
       ],
-      "status": "active",
-      "title_zh": "戰國策2"
+      "status": "merged",
+      "title_zh": "戰國策2",
+      "merged_into": "cdg-3372"
     },
     "cdg-4547": {
       "catalog_id": null,
