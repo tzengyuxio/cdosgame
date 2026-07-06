@@ -2077,7 +2077,7 @@
         "cat:SCD2076"
       ],
       "status": "active",
-      "title_zh": "三國志"
+      "title_zh": "三國志Battlefield"
     },
     "cdg-0224": {
       "catalog_id": null,
@@ -36688,8 +36688,9 @@
       "keys": [
         "t:三國志III|None"
       ],
-      "status": "active",
-      "title_zh": "三國志III"
+      "status": "merged",
+      "title_zh": "三國志III",
+      "merged_into": "cdg-0212"
     },
     "cdg-4033": {
       "catalog_id": null,
@@ -36697,8 +36698,9 @@
       "keys": [
         "t:三國志V 威力加強版|None"
       ],
-      "status": "active",
-      "title_zh": "三國志V 威力加強版"
+      "status": "merged",
+      "title_zh": "三國志V 威力加強版",
+      "merged_into": "cdg-0214"
     },
     "cdg-4034": {
       "catalog_id": null,
@@ -37223,8 +37225,9 @@
       "keys": [
         "t:三國志IV 威力加強版|None"
       ],
-      "status": "active",
-      "title_zh": "三國志IV 威力加強版"
+      "status": "merged",
+      "title_zh": "三國志IV 威力加強版",
+      "merged_into": "cdg-0213"
     },
     "cdg-4091": {
       "catalog_id": null,
