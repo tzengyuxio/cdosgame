@@ -3,6 +3,10 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { personUrl } from '../../lib/links.js';
 import { groupByInitial } from '../../lib/grouping.js';
+import CountFilter from '../../components/CountFilter.astro';
+
+// 「其他參與者」預設只顯示 3 款以上（可在頁面切換）；須與 CountFilter default 一致。
+const HIDE_BELOW = 3;
 
 // Mirrors the credit-aggregation logic in people/[name].astro.
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -39,13 +43,16 @@ const total = new Set([...credits.keys(), ...profiled.keys()]).size;
   )}
   {others.length > 0 && (
     <><h2 class="section-h">其他參與者（{others.length}）</h2>
-    {otherSections.map(s => (
-      <div class="idx-sec">
-        <div class="idx-label">{s.label}</div>
-        <div class="index-grid">
-          {s.items.map(p => <a class="lk" href={personUrl(p.name)}>{p.name} <span class="c">{p.count}</span></a>)}
+    <div class="filterable-index">
+      <CountFilter unit="人" default={HIDE_BELOW} />
+      {otherSections.map(s => (
+        <div class:list={["idx-sec", s.items.every(p => p.count < HIDE_BELOW) && "hide"]}>
+          <div class="idx-label">{s.label}</div>
+          <div class="index-grid">
+            {s.items.map(p => <a class:list={["lk", p.count < HIDE_BELOW && "hide"]} data-count={p.count} href={personUrl(p.name)}>{p.name} <span class="c">{p.count}</span></a>)}
+          </div>
         </div>
-      </div>
-    ))}</>
+      ))}
+    </div></>
   )}
 </Base>

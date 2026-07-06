@@ -1,0 +1,46 @@
+---
+// Client-side 作品數 threshold filter for the big A–Z / 筆畫 index sections.
+// Renders a segmented control; the bundled script (shared across pages, runs for
+// every `.count-filter` on the page) hides items whose data-count is below the
+// chosen threshold and collapses emptied sections.
+//
+// Usage: wrap the index in `<div class="filterable-index">`, place <CountFilter/>
+// at its top, give each item `data-count` and — to avoid a no-JS/first-paint
+// flash — pre-hide sub-default items and their emptied sections server-side
+// (add class `hide` where count < `default`).
+const { unit = '', default: def = 3, levels = [3, 5, 10] } = Astro.props;
+---
+<div class="count-filter" role="group" aria-label="依作品數篩選" data-default={def} data-unit={unit}>
+  <span class="cf-label">顯示</span>
+  <button type="button" class="cf-btn" data-thr="0">全部</button>
+  {levels.map(n => <button type="button" class="cf-btn" data-thr={n}>{n}款+</button>)}
+  <span class="cf-count" aria-live="polite"></span>
+</div>
+
+<script>
+  for (const toolbar of document.querySelectorAll('.count-filter')) {
+    const root = toolbar.closest('.filterable-index');
+    if (!root) continue;
+    const items = [...root.querySelectorAll('.lk[data-count]')];
+    const secs = [...root.querySelectorAll('.idx-sec')];
+    const countEl = toolbar.querySelector('.cf-count');
+    const btns = [...toolbar.querySelectorAll('.cf-btn')];
+    const unit = toolbar.dataset.unit || '';
+    const apply = (thr) => {
+      let shown = 0;
+      for (const a of items) {
+        const hide = Number(a.dataset.count) < thr;
+        a.classList.toggle('hide', hide);
+        if (!hide) shown++;
+      }
+      for (const s of secs) {
+        const vis = [...s.querySelectorAll('.lk[data-count]')].some(a => !a.classList.contains('hide'));
+        s.classList.toggle('hide', !vis);
+      }
+      if (countEl) countEl.textContent = shown + ' ' + unit;
+      for (const b of btns) b.classList.toggle('active', Number(b.dataset.thr) === thr);
+    };
+    for (const b of btns) b.addEventListener('click', () => apply(Number(b.dataset.thr)));
+    apply(Number(toolbar.dataset.default) || 0);
+  }
+</script>

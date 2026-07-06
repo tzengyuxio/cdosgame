@@ -197,6 +197,15 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .vend .c{color:var(--muted);font-size:11px;font-family:var(--mono)}
 .star{color:#c79a3a;font-size:11px;margin-right:3px}
 .hub-legend{color:var(--muted);font-size:12px;margin:4px 0 0}
+
+/* 索引作品數篩選 toolbar */
+.count-filter{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 12px}
+.cf-label{color:var(--muted);font-size:12px}
+.cf-btn{border:1px solid var(--border);border-radius:20px;padding:2px 11px;font-size:12.5px;color:var(--fg);background:#fff;cursor:pointer;font-family:inherit}
+.cf-btn:hover{background:#faf6ee}
+.cf-btn.active{background:var(--brown);border-color:var(--brown);color:#fff}
+.cf-count{color:var(--muted);font-size:11px;font-family:var(--mono);margin-left:2px}
+.hide{display:none !important}
 .share{margin:14px 16px 0;padding-top:11px;border-top:1px solid #e6dcc6;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .share-title{font-family:var(--mono);font-size:11px;color:var(--muted);margin-right:2px}
 .share-row{display:flex;gap:3px}

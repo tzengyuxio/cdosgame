@@ -4,6 +4,10 @@ import Base from '../../layouts/Base.astro';
 import { distinctValues, vendorsOf } from '../../lib/gamesQuery.js';
 import { groupByInitial } from '../../lib/grouping.js';
 import { companyUrl } from '../../lib/links.js';
+import CountFilter from '../../components/CountFilter.astro';
+
+// 完整索引預設只顯示 3 款以上的廠商（可在頁面切換）；須與 CountFilter default 一致。
+const HIDE_BELOW = 3;
 
 const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
 const companies = distinctValues(games.map(e => e.data), vendorsOf);
@@ -21,12 +25,15 @@ const sections = groupByInitial(companies, c => c.value);
     {major.map(c => <a class="vend" href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
   </div>
   <h2 class="section-h">全部廠商（{companies.length}）</h2>
-  {sections.map(s => (
-    <div class="idx-sec">
-      <div class="idx-label">{s.label}</div>
-      <div class="index-grid">
-        {s.items.map(c => <a class="lk" href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
+  <div class="filterable-index">
+    <CountFilter unit="家" default={HIDE_BELOW} />
+    {sections.map(s => (
+      <div class:list={["idx-sec", s.items.every(c => c.count < HIDE_BELOW) && "hide"]}>
+        <div class="idx-label">{s.label}</div>
+        <div class="index-grid">
+          {s.items.map(c => <a class:list={["lk", c.count < HIDE_BELOW && "hide"]} data-count={c.count} href={companyUrl(c.value)}>{profiled.has(c.value) && <span class="star">★</span>}{c.value} <span class="c">{c.count}</span></a>)}
+        </div>
       </div>
-    </div>
-  ))}
+    ))}
+  </div>
 </Base>
