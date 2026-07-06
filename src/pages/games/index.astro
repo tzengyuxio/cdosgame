@@ -26,12 +26,15 @@ import Base from '../../layouts/Base.astro';
 
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     // Panel order is utility-first: 在地化 (the project's defining axis) on top,
-    // then 類型, 平台, 年代, and the long 廠商 list last.
-    const FACETS = [['loc','在地化'],['genre','類型'],['platform','平台'],['decade','年代'],['vendor','廠商']];
-    // Dev-only status filters — surfaced only under `astro dev` (import.meta.env.DEV
-    // is compile-time false in the prod build, so these never ship). Lets editors
-    // pull up 18禁 / 未發售 entries while curating.
-    if (import.meta.env.DEV) FACETS.push(['adult','18禁'], ['release','發售狀態']);
+    // then 類型, 年代, and the long 廠商 list last.
+    const FACETS = [['loc','在地化'],['genre','類型'],['decade','年代'],['vendor','廠商']];
+    // Dev-only facets — surfaced only under `astro dev` (import.meta.env.DEV is
+    // compile-time false in the prod build, so these never ship). 平台 is still
+    // editor-facing only for now; 18禁 / 未發售 let editors curate flagged entries.
+    if (import.meta.env.DEV) {
+      FACETS.splice(2, 0, ['platform','平台']);   // keep 平台 between 類型 and 年代 in dev
+      FACETS.push(['adult','18禁'], ['release','發售狀態']);
+    }
     const TOP_FACET_COUNT = 10;
     let GAMES = [];
     let vendorFilter = '';
@@ -187,16 +190,34 @@ import Base from '../../layouts/Base.astro';
         // 廠商: case-insensitive 搜尋；無搜尋時只展開遊戲數量最多的前 10 家。
         const vf = document.createElement('input');
         vf.className = 'vfilter'; vf.placeholder = '篩廠商…'; vf.value = vendorFilter;
-        vf.oninput = e => { vendorFilter = e.target.value; renderFacets(); };
         sec.append(vf);
-
-        if (vendorFilter) {
-          const q = vendorFilter.toLowerCase();
-          for (const o of opts.vendor.filter(o => o.value.toLowerCase().includes(q)))
-            addOpt(sec, 'vendor', o.value, o.count);
-        } else {
-          addRankedFacet(sec, 'vendor', opts.vendor);
-        }
+        // Options live in their own container so typing repaints only the list,
+        // never the <input>. Rebuilding the input mid-keystroke aborts an IME
+        // composition (注音) and drops focus; keeping it stable avoids both.
+        const vopts = document.createElement('div');
+        vopts.className = 'vopts';
+        sec.append(vopts);
+        const renderVendorOpts = () => {
+          vopts.innerHTML = '';
+          if (vendorFilter) {
+            const q = vendorFilter.toLowerCase();
+            for (const o of opts.vendor.filter(o => o.value.toLowerCase().includes(q)))
+              addOpt(vopts, 'vendor', o.value, o.count);
+          } else {
+            addRankedFacet(vopts, 'vendor', opts.vendor);
+          }
+        };
+        const commitVendor = () => { vendorFilter = vf.value; renderVendorOpts(); };
+        // Latin / non-composed edits commit immediately.
+        vf.oninput = e => { if (!e.isComposing) commitVendor(); };
+        // 注音/IME commit: some browsers fire compositionend before the input's
+        // value settles, so read it on the next tick.
+        vf.oncompositionend = () => setTimeout(commitVendor, 0);
+        // Explicit fallback — pressing Enter after typing also filters. keyCode
+        // 229 / isComposing marks an Enter that's confirming an IME candidate;
+        // ignore that one so it only commits once the text is really in.
+        vf.onkeydown = e => { if (e.key === 'Enter' && !e.isComposing && e.keyCode !== 229) commitVendor(); };
+        renderVendorOpts();
         host.append(sec);
       }
     }
