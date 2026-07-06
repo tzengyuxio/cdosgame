@@ -9,3 +9,5 @@
 | [Old-Games.RU 中文遊戲列表](https://www.old-games.ru/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85_%D0%B8%D0%B3%D1%80) | 1210 | 2022-08-01 | | 依主遊戲表資料列計數；日期採頁尾最後編輯日期。 |
 | [巴哈姆特國產 PC 單機遊戲總表](https://forum.gamer.com.tw/C.php?page=1&bsn=60402&snA=102) | 682 | 2008-03-28 | | 三頁合計：1987-1996 為 277 筆、1997-2006 為 377 筆、2007 以後為 28 筆；日期採三頁標題中最新更新日。另兩頁：[1997-2006](https://forum.gamer.com.tw/C.php?bsn=60402&snA=343&locked=F&tnum=1&subbsn=2&Bpage=1&author=NMouse&media=0)、[2007 以後](https://forum.gamer.com.tw/C.php?bsn=60402&snA=344&locked=F&tnum=4&subbsn=0&Bpage=1&author=NMouse&media=0)。 |
 | [∮Ω奧米加空間∮ 數位典藏區](https://omega.idv.tw/kdb120/forumdisplay.php?forumid=68) | 919 | 2026-06-28 | | 依 `raw/omega/` 37 頁存檔（2026-06-14 抓取）計 917 個典藏討論串，加人工比對網站現新增 2 筆 = 919。 |
+
+2026-07-06 KudGame 剩餘1124筆
