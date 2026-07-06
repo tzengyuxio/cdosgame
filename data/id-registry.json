@@ -12836,8 +12836,9 @@
       "keys": [
         "t:弈友|石欣"
       ],
-      "status": "active",
-      "title_zh": "弈友"
+      "status": "rejected",
+      "title_zh": "弈友",
+      "reject_reason": "out of scope: 石欣《弈友》(1999)，個人開發的棋類對弈軟體、shovelware、無考據價值"
     },
     "cdg-1401": {
       "catalog_id": null,
@@ -15315,8 +15316,9 @@
       "keys": [
         "t:兄弟麻雀|羽賀直樹"
       ],
-      "status": "active",
-      "title_zh": "兄弟麻雀"
+      "status": "rejected",
+      "title_zh": "兄弟麻雀",
+      "reject_reason": "out of scope: 羽賀直樹《兄弟麻雀》(Kyodai, 1997)，麻雀接龍 shareware、個人開發、無台灣代理發行足跡、無考據價值"
     },
     "cdg-1675": {
       "catalog_id": "SCD1133",
@@ -24741,8 +24743,9 @@
       "keys": [
         "t:霹靂連連看|白歐特"
       ],
-      "status": "active",
-      "title_zh": "霹靂連連看"
+      "status": "rejected",
+      "title_zh": "霹靂連連看",
+      "reject_reason": "out of scope: 白歐特《霹靂連連看》(2006)，連連看益智 shovelware、超出年代、無考據價值"
     },
     "cdg-2715": {
       "catalog_id": "SCD0558",
