@@ -349,8 +349,9 @@
       "keys": [
         "cat:SCD2437"
       ],
-      "status": "active",
-      "title_zh": "ATV越野沙灘車"
+      "status": "rejected",
+      "title_zh": "ATV越野沙灘車",
+      "reject_reason": "out of scope: 瑪吉斯《ATV越野沙灘車》(2003)，非 DOS（年代晚、Windows 3D 競速），瑪吉斯科技成立於 DOS 時代之後、與 DOS 遊戲缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-0037": {
       "catalog_id": "SCD0299",
@@ -533,8 +534,9 @@
       "keys": [
         "cat:OCD0129"
       ],
-      "status": "active",
-      "title_zh": "e路狂飆"
+      "status": "rejected",
+      "title_zh": "e路狂飆",
+      "reject_reason": "out of scope: 瑪吉斯《e路狂飆》(2001)，非 DOS（年代晚、Windows 3D 競速），瑪吉斯科技成立於 DOS 時代之後、與 DOS 遊戲缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-0057": {
       "catalog_id": "SCD0438",
@@ -1923,8 +1925,9 @@
       "keys": [
         "cat:SCD2530"
       ],
-      "status": "active",
-      "title_zh": "三國大老二"
+      "status": "rejected",
+      "title_zh": "三國大老二",
+      "reject_reason": "out of scope: 大正系統《三國大老二》(2003)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-0207": {
       "catalog_id": "SCD0512",
@@ -20453,8 +20456,9 @@
       "keys": [
         "cat:SCD2244"
       ],
-      "status": "active",
-      "title_zh": "越野腳踏車"
+      "status": "rejected",
+      "title_zh": "越野腳踏車",
+      "reject_reason": "out of scope: 瑪吉斯《越野腳踏車》(2001)，非 DOS（年代晚、Windows 3D 競速），瑪吉斯科技成立於 DOS 時代之後、與 DOS 遊戲缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-2242": {
       "catalog_id": "SCD1715",
@@ -20624,8 +20628,9 @@
       "keys": [
         "cat:SCD2301"
       ],
-      "status": "active",
-      "title_zh": "黃金鼠歷險記"
+      "status": "rejected",
+      "title_zh": "黃金鼠歷險記",
+      "reject_reason": "out of scope: 大正系統《黃金鼠歷險記》(2003)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-2261": {
       "catalog_id": null,
@@ -20877,8 +20882,9 @@
       "keys": [
         "cat:SCD2304"
       ],
-      "status": "active",
-      "title_zh": "救火貓1"
+      "status": "rejected",
+      "title_zh": "救火貓1",
+      "reject_reason": "out of scope: 大正系統《救火貓》(2001)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-2289": {
       "catalog_id": "SCD2305",
@@ -20886,8 +20892,9 @@
       "keys": [
         "cat:SCD2305"
       ],
-      "status": "active",
-      "title_zh": "救火貓2：摩天任務"
+      "status": "rejected",
+      "title_zh": "救火貓2：摩天任務",
+      "reject_reason": "out of scope: 大正系統《救火貓2：摩天任務》(2002)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-2290": {
       "catalog_id": "Z091",
@@ -25942,8 +25949,9 @@
       "keys": [
         "cat:SCD2600"
       ],
-      "status": "active",
-      "title_zh": "蟲王：傾巢而出"
+      "status": "rejected",
+      "title_zh": "蟲王：傾巢而出",
+      "reject_reason": "out of scope: 大正系統《蟲王：傾巢而出》(2001)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-2847": {
       "catalog_id": "SCD2496",
@@ -30060,8 +30068,9 @@
       "keys": [
         "cat:SCD0052"
       ],
-      "status": "active",
-      "title_zh": "熟女麻將1"
+      "status": "rejected",
+      "title_zh": "熟女麻將1",
+      "reject_reason": "out of scope: 未來數位《熟女麻將1》(2002，Will 開發)，未來數位為後 DOS 時代廠商、其遊戲整體不收錄；詳見 docs/vendor-omissions.md"
     },
     "cdg-3300": {
       "catalog_id": "SCD0053",
@@ -30069,8 +30078,9 @@
       "keys": [
         "cat:SCD0053"
       ],
-      "status": "active",
-      "title_zh": "熟女麻將2"
+      "status": "rejected",
+      "title_zh": "熟女麻將2",
+      "reject_reason": "out of scope: 未來數位《熟女麻將2》(2002，Will 開發)，未來數位為後 DOS 時代廠商、其遊戲整體不收錄；詳見 docs/vendor-omissions.md"
     },
     "cdg-3301": {
       "catalog_id": "SCD2262",
@@ -30303,8 +30313,9 @@
       "keys": [
         "cat:SCD2650"
       ],
-      "status": "active",
-      "title_zh": "爆破尖兵"
+      "status": "rejected",
+      "title_zh": "爆破尖兵",
+      "reject_reason": "out of scope: 大正系統《爆破尖兵》(2003)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-3327": {
       "catalog_id": "SCD1833",
@@ -33542,8 +33553,9 @@
       "keys": [
         "cat:SCD2303"
       ],
-      "status": "active",
-      "title_zh": "魔導小英雄"
+      "status": "rejected",
+      "title_zh": "魔導小英雄",
+      "reject_reason": "out of scope: 大正系統《魔導小英雄》(2002)，非 DOS（年代晚、Windows 平台），大正系統與 DOS 遊戲時代缺乏關聯；詳見 docs/vendor-omissions.md"
     },
     "cdg-3685": {
       "catalog_id": "SCD1165",
@@ -36846,8 +36858,9 @@
       "keys": [
         "t:拂曉攻擊-決戰中國海之役|None"
       ],
-      "status": "active",
-      "title_zh": "拂曉攻擊-決戰中國海之役"
+      "status": "merged",
+      "title_zh": "拂曉攻擊-決戰中國海之役",
+      "merged_into": "cdg-3034"
     },
     "cdg-4049": {
       "catalog_id": null,
