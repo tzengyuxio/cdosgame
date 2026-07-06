@@ -5789,8 +5789,9 @@
       "keys": [
         "cat:SCD0597"
       ],
-      "status": "active",
-      "title_zh": "王國的興起"
+      "status": "rejected",
+      "title_zh": "王國的興起",
+      "reject_reason": "out of scope: Big Huge Games《Rise of Nations》(2003)，有微軟代理官方繁中版，惟發行年過晚（Windows），且系列在 DOS 時代無作品可作為收錄延伸依據，故不收"
     },
     "cdg-0633": {
       "catalog_id": "SCD0598",
@@ -5798,8 +5799,9 @@
       "keys": [
         "cat:SCD0598"
       ],
-      "status": "active",
-      "title_zh": "王國的興起2：傳說再現"
+      "status": "rejected",
+      "title_zh": "王國的興起2：傳說再現",
+      "reject_reason": "out of scope: Big Huge Games《Rise of Nations: Rise of Legends》(2006)，有微軟代理官方繁中版，惟發行年過晚（Windows），且系列在 DOS 時代無作品可作為收錄延伸依據，故不收"
     },
     "cdg-0634": {
       "catalog_id": null,
@@ -5807,8 +5809,9 @@
       "keys": [
         "t:王國興起|Haemimont"
       ],
-      "status": "active",
-      "title_zh": "王國興起"
+      "status": "rejected",
+      "title_zh": "王國興起",
+      "reject_reason": "out of scope: Haemimont《Rising Kingdoms》(2005)，外文 Windows 即時戰略、無台灣中文化發行足跡"
     },
     "cdg-0635": {
       "catalog_id": "HTG029",
@@ -13165,8 +13168,9 @@
       "keys": [
         "cat:SCD1795"
       ],
-      "status": "active",
-      "title_zh": "科林麥克雷拉力賽車2005"
+      "status": "rejected",
+      "title_zh": "科林麥克雷拉力賽車2005",
+      "reject_reason": "out of scope: Codemasters《Colin McRae Rally 2005》(2004)，外文 Windows 賽車、無台灣中文化發行足跡"
     },
     "cdg-1437": {
       "catalog_id": "SCD1793",
@@ -13184,8 +13188,9 @@
       "keys": [
         "cat:SCD1794"
       ],
-      "status": "active",
-      "title_zh": "科林麥克雷拉力賽車4"
+      "status": "rejected",
+      "title_zh": "科林麥克雷拉力賽車4",
+      "reject_reason": "out of scope: Codemasters《Colin McRae Rally 04》(2004)，外文 Windows 賽車、無台灣中文化發行足跡"
     },
     "cdg-1439": {
       "catalog_id": "SCD0764",
@@ -23196,8 +23201,9 @@
       "keys": [
         "t:迪士尼奪寶奇兵|Incredible Technologies"
       ],
-      "status": "active",
-      "title_zh": "迪士尼奪寶奇兵"
+      "status": "rejected",
+      "title_zh": "迪士尼奪寶奇兵",
+      "reject_reason": "out of scope: Incredible Technologies《Disney's DuckTales: The Quest for Gold》(1990)，外文遊戲、無台灣中文化發行足跡"
     },
     "cdg-2545": {
       "catalog_id": "SCD0802",
@@ -23241,8 +23247,9 @@
       "keys": [
         "cat:SCD0801"
       ],
-      "status": "active",
-      "title_zh": "迪士尼神奇藝術卡通製作家"
+      "status": "rejected",
+      "title_zh": "迪士尼神奇藝術卡通製作家",
+      "reject_reason": "out of scope: 迪士尼《Magic Artist Cartoon Maker》(2002)，兒童繪圖創作軟體、非遊戲"
     },
     "cdg-2550": {
       "catalog_id": "SCD1853",
@@ -27923,7 +27930,8 @@
       "catalog_id": null,
       "developer": "GREAT",
       "keys": [
-        "t:擂臺美少女|GREAT"
+        "t:擂臺美少女|GREAT",
+        "t:天使角力賽3(擂臺美少女)|None"
       ],
       "status": "active",
       "title_zh": "擂臺美少女"
@@ -37246,8 +37254,9 @@
       "keys": [
         "t:天使角力賽3(擂臺美少女)|None"
       ],
-      "status": "active",
-      "title_zh": "天使角力賽3(擂臺美少女)"
+      "status": "merged",
+      "title_zh": "天使角力賽3(擂臺美少女)",
+      "merged_into": "cdg-3064"
     },
     "cdg-4093": {
       "catalog_id": null,
@@ -40142,8 +40151,9 @@
       "keys": [
         "t:海豚鳥節奏王國|None"
       ],
-      "status": "active",
-      "title_zh": "海豚鳥節奏王國"
+      "status": "rejected",
+      "title_zh": "海豚鳥節奏王國",
+      "reject_reason": "out of scope: 無任何可考據資料（年代/開發商/發行商全缺）的 offlinelist 空殼"
     },
     "cdg-4413": {
       "catalog_id": null,
