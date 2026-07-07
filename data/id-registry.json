@@ -44390,6 +44390,24 @@
       ],
       "status": "active",
       "title_zh": "搞鬼！嘿！嘿！嘿！"
+    },
+    "cdg-4882": {
+      "catalog_id": null,
+      "developer": "奧汀",
+      "keys": [
+        "t:GOGO美食王|奧汀"
+      ],
+      "status": "active",
+      "title_zh": "GOGO美食王"
+    },
+    "cdg-4883": {
+      "catalog_id": null,
+      "developer": "宇峻",
+      "keys": [
+        "t:超時空英雄傳說 紀念經典合輯|宇峻"
+      ],
+      "status": "active",
+      "title_zh": "超時空英雄傳說 紀念經典合輯"
     }
   }
 }
