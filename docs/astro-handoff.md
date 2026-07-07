@@ -7,7 +7,7 @@
 - **catalog**：`content/games/cdg-NNNN.md`，**4144 款**，YAML frontmatter，全數通過 Zod。
 - **schema**：`schema/game.schema.mjs`（Zod）+ `schema.md`（欄位文件）。
 - **id 規則**：`docs/id-policy.md`（cd<type>-NNNN、一 id 一款、registry 真相）。
-- **pipeline**：`build_master → merge_sources --write → build_content`（見 CLAUDE.md）。
+- **pipeline**（🧊 已退役）：`build_master → merge_sources --write → build_content`（見 `docs/pipeline-history.md`）。
 
 ## ⚠ 最大的坑：content/ 是「生成物」，不是手寫
 
