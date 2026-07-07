@@ -37127,8 +37127,9 @@
       "keys": [
         "t:魍魎戰記摩陀羅之大金剛輪編|None"
       ],
-      "status": "active",
-      "title_zh": "魍魎戰記摩陀羅之大金剛輪編"
+      "status": "merged",
+      "title_zh": "魍魎戰記摩陀羅之大金剛輪編",
+      "merged_into": "cdg-3662"
     },
     "cdg-4078": {
       "catalog_id": null,
