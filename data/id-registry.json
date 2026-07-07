@@ -20198,7 +20198,7 @@
         "cat:SCD1261"
       ],
       "status": "active",
-      "title_zh": "超級快打旋風2：絕世高人"
+      "title_zh": "正宗超級快打旋風2 TURBO"
     },
     "cdg-2213": {
       "catalog_id": "SCD0794",
@@ -44428,6 +44428,15 @@
       ],
       "status": "active",
       "title_zh": "獸鄉守護者2：黃泉の封印"
+    },
+    "cdg-4886": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:艦隊防禦者|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "艦隊防禦者"
     }
   }
 }
