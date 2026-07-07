@@ -3544,7 +3544,7 @@
         "cat:SCD0497"
       ],
       "status": "active",
-      "title_zh": "大富翁總動員1：瘋狂模擬戰"
+      "title_zh": "大富翁總動員：瘋狂模擬戰"
     },
     "cdg-0385": {
       "catalog_id": "SCD0498",
@@ -35074,7 +35074,8 @@
       "keys": [
         "t:大富翁總動員|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-0384",
       "title_zh": "大富翁總動員"
     },
     "cdg-3849": {
