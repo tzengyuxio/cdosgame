@@ -44372,6 +44372,24 @@
       ],
       "status": "active",
       "title_zh": "宙斯"
+    },
+    "cdg-4880": {
+      "catalog_id": null,
+      "developer": "昱泉",
+      "keys": [
+        "t:流星蝴蝶劍.net|昱泉"
+      ],
+      "status": "active",
+      "title_zh": "流星蝴蝶劍.net"
+    },
+    "cdg-4881": {
+      "catalog_id": null,
+      "developer": "昱泉",
+      "keys": [
+        "t:搞鬼！嘿！嘿！嘿！|昱泉"
+      ],
+      "status": "active",
+      "title_zh": "搞鬼！嘿！嘿！嘿！"
     }
   }
 }
