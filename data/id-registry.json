@@ -8346,8 +8346,9 @@
       "keys": [
         "cat:SCD0773"
       ],
-      "status": "active",
-      "title_zh": "古墓奇兵6：暗黑天使"
+      "status": "rejected",
+      "title_zh": "古墓奇兵6：暗黑天使",
+      "reject_reason": "out of scope: Core Design《古墓奇兵6：暗黑天使》(2003)，主機世代外文 3D 續作、查無台灣代理中文化發行足跡"
     },
     "cdg-0912": {
       "catalog_id": "SCD0774",
@@ -8355,8 +8356,9 @@
       "keys": [
         "cat:SCD0774"
       ],
-      "status": "active",
-      "title_zh": "古墓奇兵7：不死傳奇"
+      "status": "rejected",
+      "title_zh": "古墓奇兵7：不死傳奇",
+      "reject_reason": "out of scope: Crystal Dynamics《古墓奇兵7：不死傳奇》(2006)，主機世代作品、台灣無代理（中國娛樂通發行）"
     },
     "cdg-0913": {
       "catalog_id": "SCD0775",
