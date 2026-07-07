@@ -44419,6 +44419,15 @@
       ],
       "status": "active",
       "title_zh": "新虛擬人生"
+    },
+    "cdg-4885": {
+      "catalog_id": null,
+      "developer": "ANJIN",
+      "keys": [
+        "t:獸鄉守護者2：黃泉の封印|ANJIN"
+      ],
+      "status": "active",
+      "title_zh": "獸鄉守護者2：黃泉の封印"
     }
   }
 }
