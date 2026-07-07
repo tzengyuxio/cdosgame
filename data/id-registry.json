@@ -10916,7 +10916,7 @@
         "cat:SCD2523"
       ],
       "status": "active",
-      "title_zh": "波斯王子1：時之砂"
+      "title_zh": "波斯王子：時之砂"
     },
     "cdg-1191": {
       "catalog_id": "SCD2524",
@@ -14185,7 +14185,7 @@
         "cat:SCD1298"
       ],
       "status": "active",
-      "title_zh": "餅乾夢工坊1"
+      "title_zh": "餅乾夢工坊"
     },
     "cdg-1549": {
       "catalog_id": "SCD1299",
@@ -21931,7 +21931,7 @@
         "cat:SCD0254"
       ],
       "status": "active",
-      "title_zh": "星海爭霸1"
+      "title_zh": "星海爭霸"
     },
     "cdg-2405": {
       "catalog_id": "SCD0255",
@@ -44354,6 +44354,24 @@
       ],
       "status": "active",
       "title_zh": "小綿羊"
+    },
+    "cdg-4878": {
+      "catalog_id": null,
+      "developer": "Boris Games",
+      "keys": [
+        "t:決戰2051|Boris Games"
+      ],
+      "status": "active",
+      "title_zh": "決戰2051"
+    },
+    "cdg-4879": {
+      "catalog_id": null,
+      "developer": "Impressions",
+      "keys": [
+        "t:宙斯|Impressions"
+      ],
+      "status": "active",
+      "title_zh": "宙斯"
     }
   }
 }
