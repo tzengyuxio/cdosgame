@@ -15,7 +15,7 @@ const { footnotes = [], citedRefs = [], generalRefs = [], externalLinks = [] } =
 // Footnote text is raw HTML written in YAML; rehypeBaseLinks (which prefixes
 // internal /… links with the project base) runs only on markdown body, not on
 // set:html content. Prefix internal hrefs here so footnote site-links resolve
-// correctly on GitHub Pages (/cdosgame/...).
+// correctly under the site base (domain root: /…).
 const prefixBase = (html) => html.replace(/href="(\/[^"/][^"]*)"/g, (_, p) => `href="${withBase(p)}"`);
 // Section display order: 註釋 (footnotes) → 參考資料 (references) → 外部連結.
 // Each section's <ol> numbers from 1 independently (decoupled from body cite [N]).

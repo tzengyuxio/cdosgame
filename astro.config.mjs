@@ -118,7 +118,7 @@ export default defineConfig({
 // if git history is unavailable (shallow clone). Requires fetch-depth: 0 in CI.
 const SITEMAP_COLLECTIONS = ['games', 'companies', 'people', 'series', 'teams', 'topics'];
 function sitemapLastmod(item) {
-  const path = new URL(item.url).pathname;                       // /cdosgame/games/cdg-0034/
+  const path = new URL(item.url).pathname;                       // /games/cdg-0034/
   const rel = decodeURIComponent(path.slice(BASE.length + 1).replace(/\/$/, ''));
   const seg = rel.split('/');
   let lastmod;
