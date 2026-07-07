@@ -17,8 +17,18 @@
     if (!lb) return;
     const img = lb.querySelector('.lb-img');
     const cap = lb.querySelector('.lb-cap');
-    const thumbs = [...document.querySelectorAll('.cover-img, .media-thumb, .fig-img')];
-    if (!thumbs.length) return;
+    // Candidate nodes in document order. The infobox cover is almost always a
+    // duplicate of some gallery thumb (coverOf picks from the same media list),
+    // so dedupe by data-full: keep one entry per image for the loop, and map a
+    // duplicate node's click onto the kept entry's index.
+    const nodes = [...document.querySelectorAll('.cover-img, .media-thumb, .fig-img')];
+    if (!nodes.length) return;
+    const thumbs = [];
+    const idxOf = new Map();
+    for (const n of nodes) {
+      const key = n.dataset.full;
+      if (!idxOf.has(key)) { idxOf.set(key, thumbs.length); thumbs.push(n); }
+    }
     let i = -1;
     const show = (n) => {
       i = (n + thumbs.length) % thumbs.length;
@@ -37,7 +47,7 @@
       lb.hidden = false;
     };
     const close = () => { lb.hidden = true; img.src = ''; };
-    thumbs.forEach((t, n) => t.addEventListener('click', () => show(n)));
+    nodes.forEach((t) => t.addEventListener('click', () => show(idxOf.get(t.dataset.full))));
     lb.addEventListener('click', close);
     lb.querySelector('.lb-close').addEventListener('click', (e) => { e.stopPropagation(); close(); });
     lb.querySelector('.lb-prev').addEventListener('click', (e) => { e.stopPropagation(); show(i - 1); });
