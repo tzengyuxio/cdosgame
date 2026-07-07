@@ -866,8 +866,9 @@
       "keys": [
         "cat:SCD2093"
       ],
-      "status": "active",
-      "title_zh": "Internet時光機"
+      "status": "rejected",
+      "title_zh": "Internet時光機",
+      "reject_reason": "out of scope: 網路教學工具軟體（Internet EasyGo），非遊戲"
     },
     "cdg-0093": {
       "catalog_id": "SCD1150",
@@ -1317,8 +1318,9 @@
       "keys": [
         "cat:SCD1639"
       ],
-      "status": "active",
-      "title_zh": "一休和尚：自然攻略集"
+      "status": "rejected",
+      "title_zh": "一休和尚：自然攻略集",
+      "reject_reason": "out of scope: 自然科學學習軟體（一休和尚：自然攻略集），非遊戲"
     },
     "cdg-0141": {
       "catalog_id": "SCD1730",
@@ -4670,8 +4672,9 @@
       "keys": [
         "cat:SCD0628"
       ],
-      "status": "active",
-      "title_zh": "太陽神數學：阿波羅一號"
+      "status": "rejected",
+      "title_zh": "太陽神數學：阿波羅一號",
+      "reject_reason": "out of scope: 數學學習軟體（太陽神數學），非遊戲"
     },
     "cdg-0509": {
       "catalog_id": "SCD2270",
@@ -6473,8 +6476,9 @@
       "keys": [
         "cat:SCD2141"
       ],
-      "status": "active",
-      "title_zh": "多元智慧益智遊戲2：自然篇"
+      "status": "rejected",
+      "title_zh": "多元智慧益智遊戲2：自然篇",
+      "reject_reason": "out of scope: 兒童多元智慧學習軟體（多元智慧益智遊戲2：自然篇），非收錄範圍"
     },
     "cdg-0706": {
       "catalog_id": "SCD2142",
@@ -6482,8 +6486,9 @@
       "keys": [
         "cat:SCD2142"
       ],
-      "status": "active",
-      "title_zh": "多元智慧益智遊戲3：數學篇"
+      "status": "rejected",
+      "title_zh": "多元智慧益智遊戲3：數學篇",
+      "reject_reason": "out of scope: 兒童多元智慧學習軟體（多元智慧益智遊戲3：數學篇），非收錄範圍"
     },
     "cdg-0707": {
       "catalog_id": "SCD2276",
@@ -7315,8 +7320,9 @@
       "keys": [
         "cat:SCD2105"
       ],
-      "status": "active",
-      "title_zh": "安安進城記：123動物園"
+      "status": "rejected",
+      "title_zh": "安安進城記：123動物園",
+      "reject_reason": "out of scope: 幼兒數數學習軟體（安安進城記），非遊戲"
     },
     "cdg-0799": {
       "catalog_id": "SCD1029",
@@ -7324,8 +7330,9 @@
       "keys": [
         "cat:SCD1029"
       ],
-      "status": "active",
-      "title_zh": "安安進城記：123數學城"
+      "status": "rejected",
+      "title_zh": "安安進城記：123數學城",
+      "reject_reason": "out of scope: 幼兒數學學習軟體（安安進城記），非遊戲"
     },
     "cdg-0800": {
       "catalog_id": "SCD0140",
@@ -7680,8 +7687,9 @@
       "keys": [
         "cat:SCD2107"
       ],
-      "status": "active",
-      "title_zh": "自然科學小百科"
+      "status": "rejected",
+      "title_zh": "自然科學小百科",
+      "reject_reason": "out of scope: 自然科學百科學習軟體，非遊戲"
     },
     "cdg-0839": {
       "catalog_id": "SCD1540",
@@ -9659,8 +9667,9 @@
       "keys": [
         "cat:SCD1208"
       ],
-      "status": "active",
-      "title_zh": "國語國民小學一年級第一冊"
+      "status": "rejected",
+      "title_zh": "國語國民小學一年級第一冊",
+      "reject_reason": "out of scope: 國小國語教材，非遊戲"
     },
     "cdg-1054": {
       "catalog_id": "Z103",
@@ -9668,8 +9677,9 @@
       "keys": [
         "cat:Z103"
       ],
-      "status": "active",
-      "title_zh": "國際兒童話"
+      "status": "rejected",
+      "title_zh": "國際兒童話",
+      "reject_reason": "out of scope: 兒童（童話）學習軟體（國際兒童話），非收錄範圍"
     },
     "cdg-1055": {
       "catalog_id": "SCD1748",
@@ -10962,8 +10972,9 @@
       "keys": [
         "cat:SCD2279"
       ],
-      "status": "active",
-      "title_zh": "波波鼠2為什麼？恐龍篇"
+      "status": "rejected",
+      "title_zh": "波波鼠2為什麼？恐龍篇",
+      "reject_reason": "out of scope: 兒童知識問答 edutainment（波波鼠2為什麼恐龍篇），幼教/兒童向，非收錄範圍"
     },
     "cdg-1196": {
       "catalog_id": "SCD2215",
@@ -12412,8 +12423,9 @@
       "keys": [
         "cat:SCD0144"
       ],
-      "status": "active",
-      "title_zh": "阿毛的"
+      "status": "rejected",
+      "title_zh": "阿毛的",
+      "reject_reason": "out of scope: 兒童英語學習軟體（ABC新樂園系列），非遊戲"
     },
     "cdg-1353": {
       "catalog_id": "SCD0145",
@@ -15426,8 +15438,9 @@
       "keys": [
         "cat:SCD2120"
       ],
-      "status": "active",
-      "title_zh": "兒童"
+      "status": "rejected",
+      "title_zh": "兒童",
+      "reject_reason": "out of scope: 兒童 IQ 益智學習軟體（IQ200），非收錄範圍"
     },
     "cdg-1686": {
       "catalog_id": null,
@@ -15834,8 +15847,9 @@
       "keys": [
         "cat:SCD0173"
       ],
-      "status": "active",
-      "title_zh": "快樂兒童遊樂園"
+      "status": "rejected",
+      "title_zh": "快樂兒童遊樂園",
+      "reject_reason": "out of scope: 幼兒學習軟體（快樂兒童遊樂園），非收錄範圍"
     },
     "cdg-1731": {
       "catalog_id": "SCD0635",
@@ -16087,8 +16101,9 @@
       "keys": [
         "cat:SCD2182"
       ],
-      "status": "active",
-      "title_zh": "恐龍星探奇"
+      "status": "rejected",
+      "title_zh": "恐龍星探奇",
+      "reject_reason": "out of scope: 兒童 edutainment（恐龍星探奇 / Kiky's Adventure with Dino），幼教/兒童向，非收錄範圍"
     },
     "cdg-1759": {
       "catalog_id": "SCD1394",
@@ -17669,8 +17684,9 @@
       "keys": [
         "cat:SCD2130"
       ],
-      "status": "active",
-      "title_zh": "生活美語1：新"
+      "status": "rejected",
+      "title_zh": "生活美語1：新",
+      "reject_reason": "out of scope: 英語（KK音標）學習軟體（生活美語），非遊戲"
     },
     "cdg-1933": {
       "catalog_id": "SCD2131",
@@ -17705,8 +17721,9 @@
       "keys": [
         "cat:SCD2104"
       ],
-      "status": "active",
-      "title_zh": "用電腦學數學系列：探索ㄆㄨㄆㄨ山的數字秘密(1)"
+      "status": "rejected",
+      "title_zh": "用電腦學數學系列：探索ㄆㄨㄆㄨ山的數字秘密(1)",
+      "reject_reason": "out of scope: 數學學習軟體（用電腦學數學系列），非遊戲"
     },
     "cdg-1937": {
       "catalog_id": "SCD0092",
@@ -18039,8 +18056,9 @@
       "keys": [
         "cat:SCD2122"
       ],
-      "status": "active",
-      "title_zh": "雞蛋糕樂園"
+      "status": "rejected",
+      "title_zh": "雞蛋糕樂園",
+      "reject_reason": "out of scope: 幼兒學習軟體（雞蛋糕樂園），非收錄範圍"
     },
     "cdg-1974": {
       "catalog_id": "SCD0664",
@@ -19061,8 +19079,9 @@
       "keys": [
         "cat:SCD2665"
       ],
-      "status": "active",
-      "title_zh": "終極遊樂園：迪士尼雲霄飛車"
+      "status": "rejected",
+      "title_zh": "終極遊樂園：迪士尼雲霄飛車",
+      "reject_reason": "out of scope: Ultimate Ride: Disney's Coaster (2001)，外文（英文）Windows 雲霄飛車模擬遊戲，2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-2087": {
       "catalog_id": null,
@@ -20958,8 +20977,9 @@
       "keys": [
         "cat:SCD2054"
       ],
-      "status": "active",
-      "title_zh": "數字歡樂園"
+      "status": "rejected",
+      "title_zh": "數字歡樂園",
+      "reject_reason": "out of scope: 幼兒數字學習軟體（數字歡樂園），非遊戲"
     },
     "cdg-2297": {
       "catalog_id": "SCD2052",
@@ -20985,8 +21005,9 @@
       "keys": [
         "cat:SCD2051"
       ],
-      "status": "active",
-      "title_zh": "數學小玩家：探索篇／"
+      "status": "rejected",
+      "title_zh": "數學小玩家：探索篇／",
+      "reject_reason": "out of scope: 兒童數學/EQ 益智學習軟體（數學小玩家：探索篇），非遊戲收錄範圍"
     },
     "cdg-2300": {
       "catalog_id": "SCD2119",
@@ -20994,8 +21015,9 @@
       "keys": [
         "cat:SCD2119"
       ],
-      "status": "active",
-      "title_zh": "數學拍檔闖通關2：奇幻樂園"
+      "status": "rejected",
+      "title_zh": "數學拍檔闖通關2：奇幻樂園",
+      "reject_reason": "out of scope: 數學學習軟體（幼教教材），非遊戲"
     },
     "cdg-2301": {
       "catalog_id": "SCD0639",
@@ -23284,8 +23306,9 @@
       "keys": [
         "cat:SCD2110"
       ],
-      "status": "active",
-      "title_zh": "迷你咖哩1：兒童安全指南室內篇"
+      "status": "rejected",
+      "title_zh": "迷你咖哩1：兒童安全指南室內篇",
+      "reject_reason": "out of scope: 兒童安全教育 edutainment（迷你咖哩1：室內安全），幼教/兒童向，非收錄範圍"
     },
     "cdg-2553": {
       "catalog_id": "SCD2111",
@@ -23293,8 +23316,9 @@
       "keys": [
         "cat:SCD2111"
       ],
-      "status": "active",
-      "title_zh": "迷你咖哩2：兒童安全指南室外篇"
+      "status": "rejected",
+      "title_zh": "迷你咖哩2：兒童安全指南室外篇",
+      "reject_reason": "out of scope: 兒童安全教育 edutainment（迷你咖哩2：室外安全），幼教/兒童向，非收錄範圍"
     },
     "cdg-2554": {
       "catalog_id": "SCD0216",
@@ -23697,8 +23721,9 @@
       "keys": [
         "cat:SCD2117"
       ],
-      "status": "active",
-      "title_zh": "酷酷龍：輕輕鬆鬆學數學"
+      "status": "rejected",
+      "title_zh": "酷酷龍：輕輕鬆鬆學數學",
+      "reject_reason": "out of scope: 兒童數學學習軟體（酷酷龍），非遊戲"
     },
     "cdg-2598": {
       "catalog_id": null,
@@ -23770,8 +23795,9 @@
       "keys": [
         "cat:SCD1439"
       ],
-      "status": "active",
-      "title_zh": "雪樂山兒童遊戲大全1"
+      "status": "rejected",
+      "title_zh": "雪樂山兒童遊戲大全1",
+      "reject_reason": "out of scope: Sierra《Hoyle Kids Games》兒童遊戲合輯（雪樂山兒童遊戲大全1），外文 Windows(2000)、兒童向，非收錄範圍"
     },
     "cdg-2606": {
       "catalog_id": "SCD1440",
@@ -23779,8 +23805,9 @@
       "keys": [
         "cat:SCD1440"
       ],
-      "status": "active",
-      "title_zh": "雪樂山兒童遊戲大全2"
+      "status": "rejected",
+      "title_zh": "雪樂山兒童遊戲大全2",
+      "reject_reason": "out of scope: Sierra《Hoyle Kids Games 2》兒童遊戲合輯（雪樂山兒童遊戲大全2），外文 Windows(2001)、兒童向，非收錄範圍"
     },
     "cdg-2607": {
       "catalog_id": "SCD1435",
@@ -29935,8 +29962,9 @@
       "keys": [
         "cat:SCD2113"
       ],
-      "status": "active",
-      "title_zh": "無尾熊哈奇系列：形形相對"
+      "status": "rejected",
+      "title_zh": "無尾熊哈奇系列：形形相對",
+      "reject_reason": "out of scope: 幼兒認知（形狀）學習軟體（無尾熊哈奇系列），非遊戲"
     },
     "cdg-3285": {
       "catalog_id": "SCD2114",
@@ -30487,8 +30515,9 @@
       "keys": [
         "cat:SCD1209"
       ],
-      "status": "active",
-      "title_zh": "資優數學國民小學一年級第一冊"
+      "status": "rejected",
+      "title_zh": "資優數學國民小學一年級第一冊",
+      "reject_reason": "out of scope: 國小數學教材（資優數學），非遊戲"
     },
     "cdg-3346": {
       "catalog_id": "SCD2310",
@@ -30550,8 +30579,9 @@
       "keys": [
         "cat:SCD1137"
       ],
-      "status": "active",
-      "title_zh": "購物樂園"
+      "status": "rejected",
+      "title_zh": "購物樂園",
+      "reject_reason": "out of scope: Tivola《Max and Marie Go Shopping》兒童互動冒險 edutainment（4–8 歲），主要對象為兒童，非收錄範圍"
     },
     "cdg-3353": {
       "catalog_id": "Z010",
@@ -31837,8 +31867,9 @@
       "keys": [
         "cat:SCD2125"
       ],
-      "status": "active",
-      "title_zh": "胖胖豬十萬個為什麼系列1：海陸大進擊"
+      "status": "rejected",
+      "title_zh": "胖胖豬十萬個為什麼系列1：海陸大進擊",
+      "reject_reason": "out of scope: 兒童冒險解謎 edutainment（胖胖豬十萬個為什麼系列1），主要對象為兒童之學習向作品，非收錄範圍"
     },
     "cdg-3495": {
       "catalog_id": "SCD2126",
@@ -31846,8 +31877,9 @@
       "keys": [
         "cat:SCD2126"
       ],
-      "status": "active",
-      "title_zh": "胖胖豬十萬個為什麼系列2：蟲林植物園"
+      "status": "rejected",
+      "title_zh": "胖胖豬十萬個為什麼系列2：蟲林植物園",
+      "reject_reason": "out of scope: 兒童冒險解謎 edutainment（胖胖豬十萬個為什麼系列2），主要對象為兒童之學習向作品，非收錄範圍"
     },
     "cdg-3496": {
       "catalog_id": "SCD2127",
@@ -31855,8 +31887,9 @@
       "keys": [
         "cat:SCD2127"
       ],
-      "status": "active",
-      "title_zh": "胖胖豬十萬個為什麼系列3：失落的世界"
+      "status": "rejected",
+      "title_zh": "胖胖豬十萬個為什麼系列3：失落的世界",
+      "reject_reason": "out of scope: 兒童冒險解謎 edutainment（胖胖豬十萬個為什麼系列3），主要對象為兒童之學習向作品，非收錄範圍"
     },
     "cdg-3497": {
       "catalog_id": "SCD2128",
@@ -31864,8 +31897,9 @@
       "keys": [
         "cat:SCD2128"
       ],
-      "status": "active",
-      "title_zh": "胖胖豬十萬個為什麼系列4：回到未來"
+      "status": "rejected",
+      "title_zh": "胖胖豬十萬個為什麼系列4：回到未來",
+      "reject_reason": "out of scope: 兒童冒險解謎 edutainment（胖胖豬十萬個為什麼系列4），主要對象為兒童之學習向作品，非收錄範圍"
     },
     "cdg-3498": {
       "catalog_id": "SCD2129",
@@ -31873,8 +31907,9 @@
       "keys": [
         "cat:SCD2129"
       ],
-      "status": "active",
-      "title_zh": "胖胖豬十萬個為什麼系列5：夢境奇遊"
+      "status": "rejected",
+      "title_zh": "胖胖豬十萬個為什麼系列5：夢境奇遊",
+      "reject_reason": "out of scope: 兒童冒險解謎 edutainment（胖胖豬十萬個為什麼系列5），主要對象為兒童之學習向作品，非收錄範圍"
     },
     "cdg-3499": {
       "catalog_id": null,
@@ -39194,8 +39229,9 @@
       "keys": [
         "t:塞司奇域之化學物能|None"
       ],
-      "status": "active",
-      "title_zh": "塞司奇域之化學物能"
+      "status": "rejected",
+      "title_zh": "塞司奇域之化學物能",
+      "reject_reason": "out of scope: 化學教學多媒體軟體（塞司奇域之化學物能，查無遊戲玩法佐證），非遊戲"
     },
     "cdg-4305": {
       "catalog_id": null,
@@ -39221,8 +39257,9 @@
       "keys": [
         "t:環遊世界學語言|None"
       ],
-      "status": "active",
-      "title_zh": "環遊世界學語言"
+      "status": "rejected",
+      "title_zh": "環遊世界學語言",
+      "reject_reason": "out of scope: 語言學習軟體（環遊世界學語言），非遊戲"
     },
     "cdg-4308": {
       "catalog_id": null,
@@ -39869,8 +39906,9 @@
       "keys": [
         "t:巧比的自然奇遇-中文版|None"
       ],
-      "status": "active",
-      "title_zh": "巧比的自然奇遇-中文版"
+      "status": "rejected",
+      "title_zh": "巧比的自然奇遇-中文版",
+      "reject_reason": "out of scope: 兒童環境主題冒險 edutainment（巧比的自然奇遇 / Jubilee's Journey），主要對象為兒童，非收錄範圍"
     },
     "cdg-4380": {
       "catalog_id": null,
