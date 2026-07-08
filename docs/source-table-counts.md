@@ -10,4 +10,25 @@
 | [巴哈姆特國產 PC 單機遊戲總表](https://forum.gamer.com.tw/C.php?page=1&bsn=60402&snA=102) | 682 | 2008-03-28 | | 三頁合計：1987-1996 為 277 筆、1997-2006 為 377 筆、2007 以後為 28 筆；日期採三頁標題中最新更新日。另兩頁：[1997-2006](https://forum.gamer.com.tw/C.php?bsn=60402&snA=343&locked=F&tnum=1&subbsn=2&Bpage=1&author=NMouse&media=0)、[2007 以後](https://forum.gamer.com.tw/C.php?bsn=60402&snA=344&locked=F&tnum=4&subbsn=0&Bpage=1&author=NMouse&media=0)。 |
 | [∮Ω奧米加空間∮ 數位典藏區](https://omega.idv.tw/kdb120/forumdisplay.php?forumid=68) | 919 | 2026-06-28 | | 依 `raw/omega/` 37 頁存檔（2026-06-14 抓取）計 917 個典藏討論串，加人工比對網站現新增 2 筆 = 919。 |
 
+## 本地 list 檔筆數
+
+| 檔案 | 筆數 | 備註 |
+| --- | ---: | --- |
+| `第三波-01-益智娛樂-list.txt` | 100 | 非空行計數。 |
+| `第三波-02-遊戲休閒-list.txt` | 88 | 非空行計數。 |
+| `第三波-03-DOSV-list.txt` | 8 | 非空行計數。 |
+| `第三波-04-光碟世界-list.txt` | 37 | 非空行計數。 |
+| `第三波-05-原裝光碟精品-list.txt` | 30 | 非空行計數。 |
+| `精訊-list.txt` | 90 | 非空行計數。 |
+| `歐風軟體-list.txt` | 61 | 非空行計數。 |
+| `raw/kudgame-list.txt` | 862 | 非空行計數。 |
+
+## Notes
+
 2026-07-06 KudGame 剩餘1124筆
+2026-07-08 KudGame 剩餘862筆
+
+## Links
+
+- [第三波益智娛樂軟體(16BIT系列)遊戲列表 - 骨灰集散地 - Endless Fight - Powered by Discuz!](https://www.endlessfight.org/discuz/forum.php?mod=viewthread&tid=1978&extra=page%3D1)
+- [歐風軟體(Europhone)遊戲列表 - 骨灰集散地 - Endless Fight - Powered by Discuz!](https://www.endlessfight.org/discuz/forum.php?mod=viewthread&tid=1974&extra=page%3D1)
