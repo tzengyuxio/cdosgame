@@ -3336,8 +3336,9 @@
       "keys": [
         "cat:OCD0099"
       ],
-      "status": "active",
-      "title_zh": "大家來找"
+      "status": "rejected",
+      "title_zh": "大家來找",
+      "reject_reason": "out of scope: 北京娛動工場《大家來找X》(2001)，簡體原封代理之 Windows 益智（找碴）遊戲、非台灣國產、無繁中化足跡"
     },
     "cdg-0362": {
       "catalog_id": "SCD0339",
@@ -3345,8 +3346,9 @@
       "keys": [
         "cat:SCD0339"
       ],
-      "status": "active",
-      "title_zh": "大家來找"
+      "status": "rejected",
+      "title_zh": "大家來找",
+      "reject_reason": "out of scope: 北京娛動工場《大家來找X：2002冠軍之路》(2002)，簡中版原封代理之 Windows 益智（找碴）遊戲、非台灣國產、無繁中化足跡"
     },
     "cdg-0363": {
       "catalog_id": "SCD1121",
@@ -3354,8 +3356,9 @@
       "keys": [
         "cat:SCD1121"
       ],
-      "status": "active",
-      "title_zh": "大家來找"
+      "status": "rejected",
+      "title_zh": "大家來找",
+      "reject_reason": "out of scope: 北京娛動工場《大家來找X2》(2001)，簡中版原封代理之 Windows 益智（找碴）遊戲、非台灣國產、無繁中化足跡"
     },
     "cdg-0364": {
       "catalog_id": "SSG010,SCD0057",
@@ -9265,8 +9268,9 @@
       "keys": [
         "cat:SCD0336"
       ],
-      "status": "active",
-      "title_zh": "問答也瘋狂1"
+      "status": "rejected",
+      "title_zh": "問答也瘋狂1",
+      "reject_reason": "out of scope: 北京娛動工場《問答也瘋狂1》(2001)，簡體原封代理之 Windows 問答益智遊戲、非台灣國產、無繁中化足跡"
     },
     "cdg-1010": {
       "catalog_id": "SCD2376",
@@ -11497,8 +11501,9 @@
       "keys": [
         "cat:SCD1033"
       ],
-      "status": "active",
-      "title_zh": "淘比當家：海洋樂園自助遊"
+      "status": "rejected",
+      "title_zh": "淘比當家：海洋樂園自助遊",
+      "reject_reason": "out of scope: 會宇《淘比當家：海洋樂園自助遊》(1998)，兒童向益智/經營小遊戲合集，非收錄範圍"
     },
     "cdg-1251": {
       "catalog_id": "SCD0335",
@@ -32525,8 +32530,9 @@
       "keys": [
         "cat:SCD2562"
       ],
-      "status": "active",
-      "title_zh": "球球你來上學1：中年級益智遊戲"
+      "status": "rejected",
+      "title_zh": "球球你來上學1：中年級益智遊戲",
+      "reject_reason": "out of scope: 會宇《球球你來上學1：中年級益智遊戲》(1999)，綁定小學中年級之幼教學習軟體（edutainment），非收錄範圍"
     },
     "cdg-3567": {
       "catalog_id": "SCD2563",
@@ -32534,8 +32540,9 @@
       "keys": [
         "cat:SCD2563"
       ],
-      "status": "active",
-      "title_zh": "球球你來上學2：三年級綜合學科遊戲"
+      "status": "rejected",
+      "title_zh": "球球你來上學2：三年級綜合學科遊戲",
+      "reject_reason": "out of scope: 會宇《球球你來上學2：三年級綜合學科遊戲》(2000)，綁定小三綜合學科之幼教學習軟體（edutainment），非收錄範圍"
     },
     "cdg-3568": {
       "catalog_id": "SCD2018",
