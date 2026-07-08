@@ -44510,6 +44510,168 @@
       ],
       "status": "active",
       "title_zh": "源平合戰"
+    },
+    "cdg-4891": {
+      "catalog_id": null,
+      "developer": "Infogrames",
+      "keys": [
+        "t:鐵窗活寶|Infogrames"
+      ],
+      "status": "active",
+      "title_zh": "鐵窗活寶"
+    },
+    "cdg-4892": {
+      "catalog_id": null,
+      "developer": "Loriciels",
+      "keys": [
+        "t:銀河超速戰機|Loriciels"
+      ],
+      "status": "active",
+      "title_zh": "銀河超速戰機"
+    },
+    "cdg-4893": {
+      "catalog_id": null,
+      "developer": "Atari Games",
+      "keys": [
+        "t:砸牌警校軍|Atari Games"
+      ],
+      "status": "active",
+      "title_zh": "砸牌警校軍"
+    },
+    "cdg-4894": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:瘋狂電視秀|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂電視秀"
+    },
+    "cdg-4895": {
+      "catalog_id": null,
+      "developer": "Virgin Mastertronic",
+      "keys": [
+        "t:歡樂點點棋|Virgin Mastertronic"
+      ],
+      "status": "active",
+      "title_zh": "歡樂點點棋"
+    },
+    "cdg-4896": {
+      "catalog_id": null,
+      "developer": "Psygnosis",
+      "keys": [
+        "t:變形蚊|Psygnosis"
+      ],
+      "status": "active",
+      "title_zh": "變形蚊"
+    },
+    "cdg-4897": {
+      "catalog_id": null,
+      "developer": "Superior Software",
+      "keys": [
+        "t:裝甲勁旅|Superior Software"
+      ],
+      "status": "active",
+      "title_zh": "裝甲勁旅"
+    },
+    "cdg-4898": {
+      "catalog_id": null,
+      "developer": "DMA Design",
+      "keys": [
+        "t:血汗錢|DMA Design"
+      ],
+      "status": "active",
+      "title_zh": "血汗錢"
+    },
+    "cdg-4899": {
+      "catalog_id": null,
+      "developer": "Thalion Software",
+      "keys": [
+        "t:原子棋|Thalion Software"
+      ],
+      "status": "active",
+      "title_zh": "原子棋"
+    },
+    "cdg-4890": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:超級高速賽車|"
+      ],
+      "status": "active",
+      "title_zh": "超級高速賽車"
+    },
+    "cdg-4900": {
+      "catalog_id": null,
+      "developer": "Images Software",
+      "keys": [
+        "t:回到未來2|Images Software"
+      ],
+      "status": "active",
+      "title_zh": "回到未來2"
+    },
+    "cdg-4901": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:霹靂飛車2|Titus"
+      ],
+      "status": "active",
+      "title_zh": "霹靂飛車2"
+    },
+    "cdg-4902": {
+      "catalog_id": null,
+      "developer": "Cistar",
+      "keys": [
+        "t:智慧三角方塊|Cistar"
+      ],
+      "status": "active",
+      "title_zh": "智慧三角方塊"
+    },
+    "cdg-4903": {
+      "catalog_id": null,
+      "developer": "Sir-Tech",
+      "keys": [
+        "t:小毛毛|Sir-Tech"
+      ],
+      "status": "active",
+      "title_zh": "小毛毛"
+    },
+    "cdg-4904": {
+      "catalog_id": null,
+      "developer": "Wesson International",
+      "keys": [
+        "t:模擬月球基地|Wesson International"
+      ],
+      "status": "active",
+      "title_zh": "模擬月球基地"
+    },
+    "cdg-4905": {
+      "catalog_id": null,
+      "developer": "microPHAZE",
+      "keys": [
+        "t:閣樓美女拼圖|microPHAZE"
+      ],
+      "status": "active",
+      "title_zh": "閣樓美女拼圖"
+    },
+    "cdg-4906": {
+      "catalog_id": null,
+      "developer": "Color Dreams",
+      "keys": [
+        "t:太空瑪麗2|Color Dreams"
+      ],
+      "status": "active",
+      "title_zh": "太空瑪麗2"
+    },
+    "cdg-4907": {
+      "catalog_id": null,
+      "developer": "Coktel Vision",
+      "keys": [
+        "t:美洲豹之怒|Coktel Vision"
+      ],
+      "status": "active",
+      "title_zh": "美洲豹之怒"
     }
   }
 }
