@@ -414,8 +414,8 @@ created: 2026-06-20
 - [x] cdg-4957 美式帆船大賽＝The American Challenge: A Sailing Simulation（Tom Snyder Productions／Mindscape, US 1986，美洲盃帆船競賽，Apple II）：高信度。genre 標 SPG（競賽運動）。
 - [x] cdg-4958 飛行坦克＝Gunship（MicroProse／Sid Meier 3D, US 1986，AH-64 阿帕契攻擊直升機模擬 SIM，Apple II）：高信度，中文維基「飛行坦克」條目即 Gunship。⚠ 精訊目錄另有「炮艇戰機」為不同款，勿混（本批未含）。
 - [x] cdg-4959 夏季奧運會II＝Summer Games II（Epyx, US 1985，奧運多項目 SPG，Apple II）：高信度，Epyx「Games」正系第二作（≠軟體世界代理的 The Games: Summer Edition／Summer Challenge）。項目＝三級跳/跳高/划船/標槍/馬術/擊劍/輕艇/自行車。
-- [ ] **cdg-4956 突擊傅雷特勒：未識別 stub（published:false）**。boneash FB 社團有「精訊資訊-突擊傅雷特勒」貼文（已下架、無法讀內文）確認為真實精訊產品，但英文原名查無（boneash 網站 Apple II/PC 各類、EndlessFight fid=55、chiuinan 皆無）。「傅雷特勒」為專有名詞音譯。薄弱假說 Rescue on Fractalus!（Fractalus→傅雷特勒）不成立（原意救援非突擊、boneash 無收）。待精訊實體說明書/封面英文名。
-- [ ] **cdg-4960 拳王爭霸賽：未定案 stub（published:false）**。確定是拳擊遊戲、且非 Gamestar 系（不冠「明星杯」，排除 Star Rank Boxing）、非 1999 K.O.（cdg-0645）。兩候選無法分辨：Accolade《Fight Night》(1985, boneash 另名午夜拳擊賽) vs Sierra《Championship Boxing》(1986)。待精訊原始說明書/封面英文名再收斂。
+- [x] cdg-4956 突擊傅雷特勒＝Rescue on Fractalus!（Lucasfilm Games/Epyx, US 1985，第一人稱飛行救援 ACT, Apple II）——**使用者持實體確認**。先前的薄弱假說（Fractalus→傅雷特勒）其實正確，當時因 boneash 未收而誤排除。已 promote published。
+- [x] cdg-4960 拳王爭霸賽＝Sierra Championship Boxing（Evryware/Sierra On-Line, US 1983，拳擊 SPG, Apple II）——**使用者確認**（兩候選中 Sierra Championship Boxing 命中、Fight Night 排除）。已 promote published。
 - 註：本批 Apple II 款考證確立 boneash 查法——boneash.oldgame.tw 為 Big5 編碼、Google 不索引，須 `curl`＋`iconv -f BIG5`，個別遊戲頁下載檔名常直接洩漏英文原名（如 shard_of_spring.rar）。EndlessFight fid=55 只收精訊 PC 版說明書。
 
 ### 精訊資訊（Kingformation）第五批（浩劫前夕～創世紀III）存疑（2026-07-08，撰寫本批次時記錄）
@@ -426,7 +426,46 @@ created: 2026-06-20
 - [x] cdg-4964 荒漠遊騎兵＝Wasteland（Interplay/EA, US 1988, 末日 RPG, Apple II）：Desert Rangers＝中文名源；Fallout 精神前身。
 - [x] cdg-4965 異星征服者＝Koronis Rift（Lucasfilm Games/Epyx, US 1985, 科幻載具探索 AADV, Apple II）：碎形地形。精訊碼疑 MX-4071 系（掃描檔線索，未確認故未填 catalog_id）。
 - [x] cdg-4966 第三邊境＝The Third Courier（Manley & Associates/Accolade, US 1989, 冷戰間諜冒險 ADV, DOS 三片裝 NT$230）：中文名意譯（分裂柏林諜報，非 Frontier）。
-- [ ] **cdg-4967 第五度空間：未識別 stub（published:false）**。所有可自動檢索源（boneash 全類、Bangumi 精訊頁、CN-DOS wiki、PTT）皆查無；MobyGames/uvlist Kingformation 公司頁與 Mobile01 APPLE II 收藏展被反爬蟲擋，待人工核。不排除精訊自製。英文同名候選（Adventure in the Fifth Dimension 1983 Atari／Fifth Eskadra）皆對不上。
+- [x] cdg-4967 第五度空間＝The Eidolon（Lucasfilm Games/Epyx, US 1985，第一人稱動作冒險 AADV, Apple II）——**使用者確認**。與異星征服者 Koronis Rift（cdg-4965）、突擊傅雷特勒 Rescue on Fractalus!（cdg-4956）同屬 Lucasfilm 碎形系。先前自動源全數查無，實為反爬蟲遮蔽。已 promote published。
 - [x] cdg-2963 創世紀1：黑暗時代＝Ultima I（Origin）promote：**革新版＝1986 Origin 組語重製版**（原版 1981 California Pacific），year 1987→1986。補 chiuinan e11/ultima1。cross-link 創世紀123典藏版 cdg-4604。
 - [x] cdg-2965 創世紀3：出埃及記＝Ultima III: Exodus（Origin, 1983，首款 Origin 自行發行 Ultima、系列首度四人隊伍）promote：year 1987→1983。補 chiuinan e12/ultima3。
 - [ ] **資料層小瑕**（非本批請求、待專門批次）：cdg-2963 與 cdg-2965 共用同一 `catalog_id: SWT165,OCD053` 且 `size: 1CD`——SWT165 疑為 CD 典藏版（創世紀123典藏版 cdg-4604）之碼，掛到個別 Ultima I/III 條目屬 merge 殘留；本批 promote 未動這兩欄，待校訂。神戒 cdg-1840（Rings of Zilfin, SSI 1986，已含精訊）本批未動、已完善。
+
+### 精訊資訊（Kingformation）第六批（創世紀IV～愛麗絲夢遊記）存疑（2026-07-08，撰寫本批次時記錄）
+- [x] cdg-2966 創世紀4：天人合一（Ultima IV, Origin 1985）enrich：目錄「創世紀IV／創世紀IV(PC版)」成對＝Apple II＋DOS，platform 無→Apple II／DOS、正文補精訊 Apple II 引進。（同 cdg-2963/2965 的 SWT165,OCD053／1CD 資料層小瑕。）
+- [x] **cdg-3320 燃燒的野球（HardBall!, Accolade 1985）補精訊**：「硬式棒球」＝精訊譯名、「燃燒的野球」＝智冠/軟體世界譯名（貴014），同款雙代理。補精訊 publisher＋別名硬式棒球＋正文並陳。（避免另建新條——建檔前查 English/alt 名發現既有。）
+- [x] **cdg-4785 金牌運動員（Championship Lode Runner, Broderbund 1984）補精訊**：「超級運動員II」＝精訊譯名、「金牌運動員」＝軟體世界譯名（平008），同款雙代理。補精訊＋別名超級運動員II＋正文並陳。消歧義：超級運動員(cdg-2225)=Lode Runner 初代、超級運動員2(cdg-2226)=Lode Runner 2(1998 Presage)、新超級運動員(cdg-2359)=Legend Returns(1994)。
+- [x] cdg-4971 陽犬號2.0版＝SunDog: Frozen Legacy（FTL Games／Bruce Webster, US 1984，太空貿易模擬 SIM，Apple II）：高信度。「2.0版」＝Apple II 1984-10 效能強化修訂版。
+- [x] cdg-4972 塔莫崙戰士＝Legacy of the Ancients（Quest Software／EA, US 1987，奇幻 RPG，Apple II）：高信度，EndlessFight tid=949 掃描檔名 legacy*.jpg＋世界名 Tarmalon＋code wheel 三重吻合。排除 Times of Lore。
+- [x] cdg-4973 愛麗絲夢遊記＝Alice in Wonderland（Dale Disharoon／Windham Classics, US 1985，卡通平台冒險 AADV，Apple II）：高信度，boneash 中文名逐字吻合。≠愛麗絲驚魂記 cdg-1793（American McGee's Alice 2000）。
+- [x] cdg-4968 惡夢成真／cdg-4969 超級玉石陣／cdg-4970 黑魔城 三款**使用者持實體盒裝確認**、已 promote published：惡夢成真＝Déjà Vu: A Nightmare Comes True（ICOM Simulations/Mindscape, US 1985，MacVenture 點擊冒險 ADV；無 8-bit Apple II→platform 無；同古堡之宴 Uninvited 系列）；超級玉石陣＝Boulder Dash II: Rockford's Revenge（First Star Software, US 1985，動作益智 ACT, Apple II；英文 Super Boulder Dash 另指 EA 1986 合輯）；黑魔城＝Dark Castle（Silicon Beach Software, US 1986，平台動作 ACT；無 8-bit Apple II→platform 無）。先前候選中黑魔城→Dark Castle 命中，另兩款候選（The Institute／Shanghai·Ishido）皆非。
+
+### 精訊資訊（Kingformation）第七批（極地之狐～臺海防衛戰）存疑（2026-07-08，撰寫本批次時記錄）
+- 極地之狐 cdg-3112（Arcticfox, Dynamix 1986，已含精訊）本批未動、已完善。臺海防衛戰 cdg-0933（精訊 1992 自製 SLG，JXD005）補精訊 publisher（原 publisher_tw 空）。
+- [x] cdg-4979 電球爭霸戰＝Ballblazer（Lucasfilm Games／David Levine, Epyx, US 1985，未來運動 SPG, Apple II，無 DOS）：高信度。與突擊傅雷特勒 Rescue on Fractalus!（cdg-4956）同為 Lucasfilm 最早兩作。≠魔球 Wizball（cdg-4953）。
+- [x] cdg-4981 綠寶石勇士第二代＝Gemstone Healer（**Paradigm Creators・加拿大 CA** 開發／SSI 發行, 1986，動作冒險 AADV, Apple II，無 DOS）：高信度。系列首作 Gemstone Warrior＝綠寶石勇士。**更正**：開發商非 Paradise Programming/Trans Fiction Systems，實為 Paradigm Creators。
+- [x] cdg-4977 遊戲修改大師FPE5.0（**非遊戲、精訊重要工具產品、使用者指示收錄、genre ETC**）：DOS 記憶體修改器（金手指），作者**李果兆**、精訊發行。FPE＝Fix People Expert（原名整人專家），4.0 起冠「遊戲修改大師」、5.0＝1996 CD 盒裝。華語圈 DOS 修改器經典（與遊戲巫師/金山遊俠並列）。後續 6.0/FPE2000 轉第三波、更名「遊戲修改至尊」。⚠ 勿與精訊 Windows 期「遊戲修改大師 GameMaster(GM)」混為一談（不同程式）。
+- [x] cdg-4975 遊戲剋星3／cdg-4976 遊戲剋星4（**非遊戲、精訊工具、genre ETC**）：DOS 遊戲修改工具，作者**陳偉谷**、精訊發行，早於 FPE。GB4.0＝5.25" 1.2MB 磁片、防拷需正版磁片。**各代確切年份無公開資料、year 留 null**。既有 cdg-4436 遊戲剋星2（stub, developer/publisher 空）待補 developer 陳偉谷＋publisher 精訊（本批未動、非清單項）。`精訊-list.txt` 另有「魔鬼剋星」查無佐證、未知是工具或遊戲，待另查。
+- [x] cdg-4980 綠林傳奇＝Below the Root（Windham Classics／Zilpha Keatley Snyder＋Dale Disharoon, US 1984，探索冒險 AADV, Apple II）：高信度，boneash 中文名逐字吻合。改編自 Snyder「Green-sky 三部曲」小說，早期類 Metroidvania 先驅。同廠/同 Dale Disharoon 之愛麗絲夢遊記 cdg-4973。
+- [x] cdg-4978 電子特派員＝Willy Byte in the Digital Dimension（Data Trek, US 1984, Apple II, ACT）：**使用者確認保留收錄**（雖偏電腦教育 edutainment，但具實質街機動作玩法、且為精訊代理遊戲）。已 published。
+
+### 精訊資訊（Kingformation）第八批（蒙面俠～臺海防衛戰）存疑（2026-07-09，撰寫本批次時記錄）
+- [x] cdg-2035 德軍總部2：超越德軍總部＝Beyond Castle Wolfenstein（Muse Software, US 1984，潛行動作冒險 AADV, Apple II）promote：標題整理為「德軍總部2：超越德軍總部」（+別名德軍總部II／舊無分隔式），year 1985→1984，補精訊＋chiuinan bcw.htm。系列：德軍總部(cdg-2034)/2(本)/3D(cdg-2036)。Silas Warner 系列＝id《Wolfenstein 3D》命名靈感。
+- [x] cdg-4982 諜對諜＝Spy vs. Spy（Michael Riedel／First Star Software, US 1984, Apple II, 分割畫面對戰 ACT）：高信度，boneash 同列中英對照。改編 MAD 雜誌漫畫、Simulvision 技術。
+- [x] cdg-4983 戰魔／戰魔(PC版)＝Ogre（Origin Systems, US 1986，回合戰棋 SLG，Apple II＋DOS 正好對應兩行）：高信度，boneash 戰爭類同列 Ogre↔戰魔↔1986。改編 Steve Jackson Games 1977 桌遊。
+- [x] cdg-4985 銀河飛鷹＝Elite（David Braben & Ian Bell, GB；Acornsoft 1984 BBC／Firebird Apple II 1985，太空交易戰鬥 SIM）＋cdg-4986 銀河飛鷹PLUS＝Elite Plus（Chris Sawyer 改寫／Microplay, 1991 DOS）：**重大修正**——先前假設銀河飛鷹＝SkyFox 否決（SkyFox＝boneash「火狐狸」、不在精訊清單），boneash 確認銀河飛鷹＝Elite。PLUS＝同款 DOS 增強版（非續作），因 catalog 兩行不同名（非「(PC版)」）故建為兩個關聯條目、互連。
+- [x] cdg-0703 叢林戰爭（Jungle Wars）補精訊：確認**精訊自製** SRPG（chiuinan ch/ 國產分類、JXD021、巴哈國產總表、全中文製作團隊），非代理。補精訊 publisher。發行日 1994-03-20（條目）vs 5-15（部分來源）有出入、待考。alias「G1477」為合輯收藏碼、非產品碼。
+- 戰爭上古代藝術-海戰篇＝cdg-3394 七海雄風（Ancient Art of War at Sea, Evryware 1987，已含精訊 JXZ012）本批僅補精確別名、已完善。極地之狐 cdg-3112、臺海防衛戰 cdg-0933（補精訊）本批處理完成。
+- [x] 三款經**使用者確認**：cdg-4984 蒙面俠＝Zorro（Datasoft 1985）、cdg-4986 銀河飛鷹PLUS＝Elite Plus、cdg-4987 潛艇任務＝**Sub Mission: A Matter of Life and Death**（全名補入 alias；Tom Snyder/Mindscape 1986）。皆 published。
+
+### 精訊資訊（Kingformation）第九批（轟炸大隊～NBA籃球爭霸戰）存疑（2026-07-09，撰寫本批次時記錄）
+- [x] cdg-3725 魔法門＝Might and Magic Book One（New World Computing/Van Caneghem, US 1986 Apple II／1987 DOS）promote：目錄「魔法門／魔法門(PC版)」成對＝Apple II＋DOS。**初代去序號**：魔法門1：內殿的秘密→魔法門：內殿的秘密（舊名留 alias）。developer NWC→New World Computing、year 1987→1986、platform 無→Apple II／DOS。catalog JXZ009。
+- [x] cdg-4198 NBA籃球爭霸戰＝Lakers versus Celtics and the NBA Playoffs（Electronic Arts, US 1989）promote：**無 Apple II 版**（僅 DOS／Genesis）→ platform 無。developer 補 EA（High Score Productions 未證實、不採）。首款 NBA 官方授權、EASN→EA Sports 前身。
+- [x] cdg-4989 魔界神兵＝Questron 初代（Charles Dougherty & Gerald Wieczorek／Quest Software 掛名, SSI 發行, US 1984, RPG, Apple II）：高信度，boneash rpg 對位。系列首作，續作＝cdg-4005 魔界神兵２（Questron II, Westwood/SSI 1988）——後者本批補精訊 publisher＋別名魔界神兵II。Questron 架構取法創世紀、庭外和解後取得 Garriott 授權。
+- [x] cdg-4990 魔鬼剋星（Ghostbusters）＝Activision Ghostbusters（David Crane, US 1984, 動作策略, Apple II）：高信度。**同名消歧義**——與 cdg-3777（2009 Ghostbusters: The Video Game, Terminal Reality）同中文名，兩筆均改「魔鬼剋星（英文原名）」＋裸名進 alias；另 cdg-3778 魔鬼剋星2＝Ghostbusters II(Dynamix 1989)。改編 1984 電影。
+- [x] cdg-4988 轟炸大隊＝The Dam Busters（Sydney Development Corp.〔加，另記 Artech〕／Accolade, 1984-85，二戰彈跳炸彈轟炸模擬 SIM, Apple II）：高信度，boneash sim 對位。RAF 617 中隊、蘭開斯特轟炸機炸魯爾水壩。
+- [x] cdg-4991 魔域遠征軍＋cdg-4992 亞馬遜探險：**目錄一行「魔域遠征軍&亞馬遜探險」＝同碟搭售兩款 Penguin Software RPG**。魔域遠征軍＝Xyphus（Skip Waller & Dave Albert, 1984, Apple II, 戰術 RPG）；亞馬遜探險＝Expedition Amazon（Willard Phillips, 1983, Apple II/DOS, 寫實叢林 RPG）。**更正**：亞馬遜探險非 Telarium《Amazon》(Crichton 互動小說)，boneash rpg-32 下載檔 expedition_amazon＋四職業逐一吻合。兩者互連搭售。
+- [x] cdg-4993 魔殿三部曲＝Temple of Apshai Trilogy（Epyx, US 1985，Dunjonquest 三作重製合輯：Temple of Apshai＋Upper Reaches of Apshai＋Curse of Ra，地城 RPG, Apple II/DOS）：高信度，boneash rpg-19 下載檔名直證。
+- [x] cdg-4274 魔影之門＝Shadowgate（ICOM Simulations MacVenture, 1987）補精訊：同款雙代理（精訊／軟體世界貴065）。同 ICOM 系列古堡之宴 Uninvited(cdg-4364)、惡夢成真 Deja Vu(cdg-4968)。
+- 註：本批 A/B agent 的「精訊引進」佐證多來自 boneash 中英名對位＋精訊清單（boneash 未標代理商）；遊戲身分皆高信度。⚠ 建 cdg-3777 消歧義時 title_zh 含冒號需加引號（YAML 踩坑、已修）。
+- [x] cdg-4974 滔金記＝Lost Dutchman Mine（Magnetic Images, US 1989，開放世界淘金冒險 SIM）——**使用者確認**、已 promote published。**無 Apple II 版**（DOS/Amiga/Atari ST），精訊為 DOS 版、platform 標無。1896 亞利桑那淘金客、隨機生成地圖。⚠ 勿與 The Lost Dutchman's Gold（1979/82 純文字冒險、有 Apple II 版但玩法不符）混淆。Amiga 版發行商 Magnetic Images vs Innerprise 有分歧、frontmatter 採 Magnetic Images。
