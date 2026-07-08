@@ -344,5 +344,8 @@ created: 2026-06-20
 - [ ] cdg-2596 鄭問之三國誌 昱泉角色為「台灣代理／中文化」或「與 GameArts 聯合發行」雙源略有出入；genre 由 stub 的 SLG 改判 HSG（三國志 like 歷史模擬）。staff（黑田幸弘/神涼介/鄭問）採日方多源一致值。
 - [ ] 笑傲江湖昱泉三款（cdg-1879/1877/1878）台灣代理商未定：自行發行 vs 第三波代理各為單一來源且矛盾，`publisher_tw` 一律留空。首作官方全名《笑傲江湖之日月神教》，「笑傲江湖」為簡稱、已入 title_aliases（與智冠 cdg-1876 同名作區分）。
 
+### cdg-1638 信長之野望II 語言訂正（2026-07-08，使用者第一手更正）
+- [ ] 原 stub 標 `content_language: zh`／`localization_level: localized`（來源 chiuinan「ch」中文區介紹頁、fandom 簡中「战国群雄传」、rwv merge、alias「G1481-信長之野望II中文版」），與 [[sanbo-dosv-series]] 記的 rwv 誤標外文原版為中文版同模式。依使用者實體封面/海報佐證訂正為**英文版**：台灣三家皆發英文版——第三波正式授權代理（附海報）、歐風軟體與新世界未授權引進（歐風亦附海報）。已改 `en`／`packaging`／`en-content + foreign-developer`。**殘留待查**：chiuinan 為何歸「ch」區、「中文版」alias 是否指另有真正中文化版本；aliases/images/refs 暫留（沿用原 sourced 資料）不刪。
+
 ### 歐風軟體（Europhone）G001–G010 批次 存疑（2026-07-08，撰寫本批次時記錄）
 - [ ] cdg-4890 超級高速賽車（歐風 G001）原作未定：所有來源（endlessfight tid=1974 原帖、巴哈/PTT/gamebase/chiuinan）皆只有中文名、無英文原名，疑為歐風自取的通用描述名。`developer`/`year` 留 null、`published: false`。最可能的三個法系候選（皆有當代 DOS 版）：①Crazy Cars II／F40 Pursuit Simulator（Titus, 1988，主題最貼）②Turbo Cup（Loriciel, 1988，同社 batch 旁證）③Vroom（Lankhor, DOS 版偏晚）。**避開**字面最近的 Super Cars II（DOS 版遲至 1996，時序不符）。待實體封面/截圖佐證再定案。另注意 chiuinan 的「高速賽車/超越競速＝Out Run」是 SEGA、軟體世界發行（cdg-3643），與本款無關。
