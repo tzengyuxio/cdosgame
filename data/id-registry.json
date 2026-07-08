@@ -18622,10 +18622,11 @@
       "catalog_id": null,
       "developer": "Muse Software",
       "keys": [
-        "t:德軍總部2超越德軍總部|Muse Software"
+        "t:德軍總部2：超越德軍總部|Muse Software",
+        "t:Beyond Castle Wolfenstein|Muse Software"
       ],
       "status": "active",
-      "title_zh": "德軍總部2超越德軍總部"
+      "title_zh": "德軍總部2：超越德軍總部"
     },
     "cdg-2036": {
       "catalog_id": "JXD020",
@@ -33965,12 +33966,12 @@
     },
     "cdg-3725": {
       "catalog_id": "JXZ009",
-      "developer": "NWC",
+      "developer": "New World Computing",
       "keys": [
         "cat:JXZ009"
       ],
       "status": "active",
-      "title_zh": "魔法門1：內殿的秘密"
+      "title_zh": "魔法門：內殿的秘密"
     },
     "cdg-3726": {
       "catalog_id": "SWE017",
@@ -34439,7 +34440,7 @@
         "cat:SCD2519"
       ],
       "status": "active",
-      "title_zh": "魔鬼剋星"
+      "title_zh": "魔鬼剋星（Ghostbusters: The Video Game）"
     },
     "cdg-3778": {
       "catalog_id": "SWT026",
@@ -38277,9 +38278,10 @@
     },
     "cdg-4198": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Electronic Arts",
       "keys": [
-        "t:NBA籃球爭霸戰|None"
+        "t:NBA籃球爭霸戰|Electronic Arts",
+        "t:Lakers versus Celtics and the NBA Playoffs|Electronic Arts"
       ],
       "status": "active",
       "title_zh": "NBA籃球爭霸戰"
@@ -45131,9 +45133,10 @@
     },
     "cdg-4956": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Lucasfilm Games",
       "keys": [
-        "t:突擊傅雷特勒|None"
+        "t:突擊傅雷特勒|Lucasfilm Games",
+        "t:Rescue on Fractalus!|Lucasfilm Games"
       ],
       "status": "active",
       "title_zh": "突擊傅雷特勒"
@@ -45170,9 +45173,10 @@
     },
     "cdg-4960": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Evryware",
       "keys": [
-        "t:拳王爭霸賽|None"
+        "t:拳王爭霸賽|Evryware",
+        "t:Sierra Championship Boxing|Evryware"
       ],
       "status": "active",
       "title_zh": "拳王爭霸賽"
@@ -45229,9 +45233,10 @@
     },
     "cdg-4967": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Lucasfilm Games",
       "keys": [
-        "t:第五度空間|None"
+        "t:第五度空間|Lucasfilm Games",
+        "t:The Eidolon|Lucasfilm Games"
       ],
       "status": "active",
       "title_zh": "第五度空間"
@@ -45245,6 +45250,266 @@
       "status": "merged",
       "merged_into": "cdg-0399",
       "title_zh": "海上豪俠"
+    },
+    "cdg-4968": {
+      "catalog_id": null,
+      "developer": "ICOM Simulations",
+      "keys": [
+        "t:惡夢成真|ICOM Simulations",
+        "t:Deja Vu|ICOM Simulations"
+      ],
+      "status": "active",
+      "title_zh": "惡夢成真"
+    },
+    "cdg-4969": {
+      "catalog_id": null,
+      "developer": "First Star Software",
+      "keys": [
+        "t:超級玉石陣|First Star Software",
+        "t:Boulder Dash II|First Star Software"
+      ],
+      "status": "active",
+      "title_zh": "超級玉石陣"
+    },
+    "cdg-4970": {
+      "catalog_id": null,
+      "developer": "Silicon Beach Software",
+      "keys": [
+        "t:黑魔城|Silicon Beach Software",
+        "t:Dark Castle|Silicon Beach Software"
+      ],
+      "status": "active",
+      "title_zh": "黑魔城"
+    },
+    "cdg-4971": {
+      "catalog_id": null,
+      "developer": "FTL Games",
+      "keys": [
+        "t:陽犬號2.0版|FTL Games",
+        "t:SunDog: Frozen Legacy|FTL Games"
+      ],
+      "status": "active",
+      "title_zh": "陽犬號2.0版"
+    },
+    "cdg-4972": {
+      "catalog_id": null,
+      "developer": "Quest Software",
+      "keys": [
+        "t:塔莫崙戰士|Quest Software",
+        "t:Legacy of the Ancients|Quest Software"
+      ],
+      "status": "active",
+      "title_zh": "塔莫崙戰士"
+    },
+    "cdg-4973": {
+      "catalog_id": null,
+      "developer": "Windham Classics",
+      "keys": [
+        "t:愛麗絲夢遊記|Windham Classics",
+        "t:Alice in Wonderland|Windham Classics"
+      ],
+      "status": "active",
+      "title_zh": "愛麗絲夢遊記"
+    },
+    "cdg-4974": {
+      "catalog_id": null,
+      "developer": "Magnetic Images",
+      "keys": [
+        "t:滔金記|Magnetic Images",
+        "t:Lost Dutchman Mine|Magnetic Images"
+      ],
+      "status": "active",
+      "title_zh": "滔金記"
+    },
+    "cdg-4975": {
+      "catalog_id": null,
+      "developer": "陳偉谷",
+      "keys": [
+        "t:遊戲剋星3|陳偉谷",
+        "t:Game Buster 3|陳偉谷"
+      ],
+      "status": "active",
+      "title_zh": "遊戲剋星3"
+    },
+    "cdg-4976": {
+      "catalog_id": null,
+      "developer": "陳偉谷",
+      "keys": [
+        "t:遊戲剋星4|陳偉谷",
+        "t:Game Buster 4|陳偉谷"
+      ],
+      "status": "active",
+      "title_zh": "遊戲剋星4"
+    },
+    "cdg-4977": {
+      "catalog_id": null,
+      "developer": "李果兆",
+      "keys": [
+        "t:遊戲修改大師FPE5.0|李果兆",
+        "t:FPE 5.0|李果兆"
+      ],
+      "status": "active",
+      "title_zh": "遊戲修改大師FPE5.0"
+    },
+    "cdg-4978": {
+      "catalog_id": null,
+      "developer": "Data Trek",
+      "keys": [
+        "t:電子特派員|Data Trek",
+        "t:Willy Byte in the Digital Dimension|Data Trek"
+      ],
+      "status": "active",
+      "title_zh": "電子特派員"
+    },
+    "cdg-4979": {
+      "catalog_id": null,
+      "developer": "Lucasfilm Games",
+      "keys": [
+        "t:電球爭霸戰|Lucasfilm Games",
+        "t:Ballblazer|Lucasfilm Games"
+      ],
+      "status": "active",
+      "title_zh": "電球爭霸戰"
+    },
+    "cdg-4980": {
+      "catalog_id": null,
+      "developer": "Windham Classics",
+      "keys": [
+        "t:綠林傳奇|Windham Classics",
+        "t:Below the Root|Windham Classics"
+      ],
+      "status": "active",
+      "title_zh": "綠林傳奇"
+    },
+    "cdg-4981": {
+      "catalog_id": null,
+      "developer": "Paradigm Creators",
+      "keys": [
+        "t:綠寶石勇士第二代|Paradigm Creators",
+        "t:Gemstone Healer|Paradigm Creators"
+      ],
+      "status": "active",
+      "title_zh": "綠寶石勇士第二代"
+    },
+    "cdg-4982": {
+      "catalog_id": null,
+      "developer": "First Star Software",
+      "keys": [
+        "t:諜對諜|First Star Software",
+        "t:Spy vs. Spy|First Star Software"
+      ],
+      "status": "active",
+      "title_zh": "諜對諜"
+    },
+    "cdg-4983": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:戰魔|Origin Systems",
+        "t:Ogre|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "戰魔"
+    },
+    "cdg-4984": {
+      "catalog_id": null,
+      "developer": "Datasoft",
+      "keys": [
+        "t:蒙面俠|Datasoft",
+        "t:Zorro|Datasoft"
+      ],
+      "status": "active",
+      "title_zh": "蒙面俠"
+    },
+    "cdg-4985": {
+      "catalog_id": null,
+      "developer": "David Braben & Ian Bell",
+      "keys": [
+        "t:銀河飛鷹|David Braben & Ian Bell",
+        "t:Elite|David Braben & Ian Bell"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛鷹"
+    },
+    "cdg-4986": {
+      "catalog_id": null,
+      "developer": "David Braben & Ian Bell",
+      "keys": [
+        "t:銀河飛鷹PLUS|David Braben & Ian Bell",
+        "t:Elite Plus|David Braben & Ian Bell"
+      ],
+      "status": "active",
+      "title_zh": "銀河飛鷹PLUS"
+    },
+    "cdg-4987": {
+      "catalog_id": null,
+      "developer": "Tom Snyder Productions",
+      "keys": [
+        "t:潛艇任務|Tom Snyder Productions",
+        "t:Sub Mission|Tom Snyder Productions"
+      ],
+      "status": "active",
+      "title_zh": "潛艇任務"
+    },
+    "cdg-4988": {
+      "catalog_id": null,
+      "developer": "Sydney Development Corp.",
+      "keys": [
+        "t:轟炸大隊|Sydney Development Corp.",
+        "t:The Dam Busters|Sydney Development Corp."
+      ],
+      "status": "active",
+      "title_zh": "轟炸大隊"
+    },
+    "cdg-4989": {
+      "catalog_id": null,
+      "developer": "Quest Software",
+      "keys": [
+        "t:魔界神兵|Quest Software",
+        "t:Questron|Quest Software"
+      ],
+      "status": "active",
+      "title_zh": "魔界神兵"
+    },
+    "cdg-4990": {
+      "catalog_id": null,
+      "developer": "Activision",
+      "keys": [
+        "t:魔鬼剋星|Activision",
+        "t:Ghostbusters|Activision"
+      ],
+      "status": "active",
+      "title_zh": "魔鬼剋星（Ghostbusters）"
+    },
+    "cdg-4991": {
+      "catalog_id": null,
+      "developer": "Penguin Software",
+      "keys": [
+        "t:魔域遠征軍|Penguin Software",
+        "t:Xyphus|Penguin Software"
+      ],
+      "status": "active",
+      "title_zh": "魔域遠征軍"
+    },
+    "cdg-4992": {
+      "catalog_id": null,
+      "developer": "Penguin Software",
+      "keys": [
+        "t:亞馬遜探險|Penguin Software",
+        "t:Expedition Amazon|Penguin Software"
+      ],
+      "status": "active",
+      "title_zh": "亞馬遜探險"
+    },
+    "cdg-4993": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:魔殿三部曲|Epyx",
+        "t:Temple of Apshai Trilogy|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "魔殿三部曲"
     }
   }
 }
