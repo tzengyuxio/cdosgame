@@ -10526,7 +10526,7 @@
     },
     "cdg-1146": {
       "catalog_id": null,
-      "developer": "Nemesis",
+      "developer": "Toyogo",
       "keys": [
         "t:決戰中國圍棋|Nemesis"
       ],
@@ -37898,8 +37898,9 @@
       "keys": [
         "t:風速小子|None"
       ],
-      "status": "active",
-      "title_zh": "風速小子"
+      "status": "merged",
+      "title_zh": "風速小子",
+      "merged_into": "cdg-0079"
     },
     "cdg-4157": {
       "catalog_id": null,
@@ -38056,7 +38057,7 @@
     },
     "cdg-4174": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Incredible Technologies",
       "keys": [
         "t:史古奇尋寶歷險記|None"
       ],
@@ -38166,7 +38167,7 @@
     },
     "cdg-4186": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "DMA Design",
       "keys": [
         "t:百戰小旅鼠|None"
       ],
@@ -38339,7 +38340,7 @@
     },
     "cdg-4205": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Robert T. Smith",
       "keys": [
         "t:無敵艦隊2525|None"
       ],
@@ -38688,8 +38689,9 @@
       "keys": [
         "t:模擬地球|None#2"
       ],
-      "status": "active",
-      "title_zh": "模擬地球"
+      "status": "merged",
+      "title_zh": "模擬地球",
+      "merged_into": "cdg-4242"
     },
     "cdg-4244": {
       "catalog_id": null,
@@ -44594,7 +44596,7 @@
     },
     "cdg-4890": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "SEGA",
       "keys": [
         "t:超級高速賽車|"
       ],
@@ -44672,6 +44674,285 @@
       ],
       "status": "active",
       "title_zh": "美洲豹之怒"
+    },
+    "cdg-4908": {
+      "catalog_id": null,
+      "developer": "Rozner Labs",
+      "keys": [
+        "t:洛克人（Mega Man）|Rozner Labs"
+      ],
+      "status": "active",
+      "title_zh": "洛克人（Mega Man）"
+    },
+    "cdg-4909": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔域總動令|"
+      ],
+      "status": "active",
+      "title_zh": "魔域總動令"
+    },
+    "cdg-4910": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:路博士|"
+      ],
+      "status": "active",
+      "title_zh": "路博士"
+    },
+    "cdg-4911": {
+      "catalog_id": null,
+      "developer": "Core Design",
+      "keys": [
+        "t:約翰尋腦記|Core Design"
+      ],
+      "status": "active",
+      "title_zh": "約翰尋腦記"
+    },
+    "cdg-4912": {
+      "catalog_id": null,
+      "developer": "Event Horizon Software",
+      "keys": [
+        "t:幽靈間諜|Event Horizon Software"
+      ],
+      "status": "active",
+      "title_zh": "幽靈間諜"
+    },
+    "cdg-4913": {
+      "catalog_id": null,
+      "developer": "Hi Tech Expressions",
+      "keys": [
+        "t:小精靈II（Gremlins 2）|Hi Tech Expressions"
+      ],
+      "status": "active",
+      "title_zh": "小精靈II（Gremlins 2）"
+    },
+    "cdg-4914": {
+      "catalog_id": null,
+      "developer": "Simis",
+      "keys": [
+        "t:米格29戰鬥機|Simis"
+      ],
+      "status": "active",
+      "title_zh": "米格29戰鬥機"
+    },
+    "cdg-4915": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:沙場風暴|"
+      ],
+      "status": "active",
+      "title_zh": "沙場風暴"
+    },
+    "cdg-4916": {
+      "catalog_id": null,
+      "developer": "Park Place Productions",
+      "keys": [
+        "t:3-3籃球大對決|Park Place Productions"
+      ],
+      "status": "active",
+      "title_zh": "3-3籃球大對決"
+    },
+    "cdg-4917": {
+      "catalog_id": null,
+      "developer": "Voodoo",
+      "keys": [
+        "t:致命的吸引力|Voodoo"
+      ],
+      "status": "active",
+      "title_zh": "致命的吸引力"
+    },
+    "cdg-4918": {
+      "catalog_id": null,
+      "developer": "Probe Software",
+      "keys": [
+        "t:上帝也巔峯|Probe Software"
+      ],
+      "status": "active",
+      "title_zh": "上帝也巔峯"
+    },
+    "cdg-4919": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:空中攔擊|"
+      ],
+      "status": "active",
+      "title_zh": "空中攔擊"
+    },
+    "cdg-4920": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:黃金特輯I|"
+      ],
+      "status": "active",
+      "title_zh": "黃金特輯I"
+    },
+    "cdg-4921": {
+      "catalog_id": null,
+      "developer": "BlueSky Software",
+      "keys": [
+        "t:小魔星|BlueSky Software"
+      ],
+      "status": "active",
+      "title_zh": "小魔星"
+    },
+    "cdg-4922": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:驚異大奇航|"
+      ],
+      "status": "active",
+      "title_zh": "驚異大奇航"
+    },
+    "cdg-4923": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:阿茲特傳奇|"
+      ],
+      "status": "active",
+      "title_zh": "阿茲特傳奇"
+    },
+    "cdg-4924": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:鐵甲異變|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "鐵甲異變"
+    },
+    "cdg-4925": {
+      "catalog_id": null,
+      "developer": "Loriciel",
+      "keys": [
+        "t:決戰飛盤|Loriciel"
+      ],
+      "status": "active",
+      "title_zh": "決戰飛盤"
+    },
+    "cdg-4926": {
+      "catalog_id": null,
+      "developer": "Chip",
+      "keys": [
+        "t:卡拉漢王朝|Chip"
+      ],
+      "status": "active",
+      "title_zh": "卡拉漢王朝"
+    },
+    "cdg-4927": {
+      "catalog_id": null,
+      "developer": "Millennium Interactive",
+      "keys": [
+        "t:暫時停止呼吸|Millennium Interactive"
+      ],
+      "status": "active",
+      "title_zh": "暫時停止呼吸"
+    },
+    "cdg-4928": {
+      "catalog_id": null,
+      "developer": "Creative Materials",
+      "keys": [
+        "t:終極戰士（Rotox）|Creative Materials"
+      ],
+      "status": "active",
+      "title_zh": "終極戰士（Rotox）"
+    },
+    "cdg-4929": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:快樂原始人|"
+      ],
+      "status": "active",
+      "title_zh": "快樂原始人"
+    },
+    "cdg-4930": {
+      "catalog_id": null,
+      "developer": "Time Warp Productions",
+      "keys": [
+        "t:1948柏林|Time Warp Productions"
+      ],
+      "status": "active",
+      "title_zh": "1948柏林"
+    },
+    "cdg-4931": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:火龍劫|"
+      ],
+      "status": "active",
+      "title_zh": "火龍劫"
+    },
+    "cdg-4932": {
+      "catalog_id": null,
+      "developer": "reLINE Software",
+      "keys": [
+        "t:石油大亨|reLINE Software"
+      ],
+      "status": "active",
+      "title_zh": "石油大亨"
+    },
+    "cdg-4933": {
+      "catalog_id": null,
+      "developer": "Bethesda Softworks",
+      "keys": [
+        "t:魔鬼終結者|Bethesda Softworks"
+      ],
+      "status": "active",
+      "title_zh": "魔鬼終結者"
+    },
+    "cdg-4934": {
+      "catalog_id": null,
+      "developer": "Soundware",
+      "keys": [
+        "t:中世紀戰士|Soundware"
+      ],
+      "status": "active",
+      "title_zh": "中世紀戰士"
+    },
+    "cdg-4935": {
+      "catalog_id": null,
+      "developer": "Rainbow Arts",
+      "keys": [
+        "t:德意志邏輯|Rainbow Arts"
+      ],
+      "status": "active",
+      "title_zh": "德意志邏輯"
+    },
+    "cdg-4936": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:法老王|"
+      ],
+      "status": "active",
+      "title_zh": "法老王"
+    },
+    "cdg-4937": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:黃金特輯2|"
+      ],
+      "status": "active",
+      "title_zh": "黃金特輯2"
+    },
+    "cdg-4938": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:星戰風暴|Titus"
+      ],
+      "status": "active",
+      "title_zh": "星戰風暴"
     }
   }
 }
