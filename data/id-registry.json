@@ -44483,6 +44483,33 @@
       ],
       "status": "active",
       "title_zh": "艦隊防禦者"
+    },
+    "cdg-4887": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:賽馬大亨|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "賽馬大亨"
+    },
+    "cdg-4888": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:神之大地|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "神之大地"
+    },
+    "cdg-4889": {
+      "catalog_id": null,
+      "developer": "KOEI",
+      "keys": [
+        "t:源平合戰|KOEI"
+      ],
+      "status": "active",
+      "title_zh": "源平合戰"
     }
   }
 }

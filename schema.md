@@ -20,7 +20,7 @@
 | `developer_region` | enum \| null | | 開發地：`TW HK CN MO JP US CA FR ES GB DE PL CZ HR KR SG IE SE AU IL HU SU RU` |
 | `dev_team` | string \| null | | 廠內開發團隊／小組（如大宇 `DOMO小組`、`狂徒創作群`）|
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
-| `content_language` | `zh`\|`en` \| null | | 遊戲內語言（chiuinan cgame/egame）|
+| `content_language` | `zh`\|`en`\|`ja` \| null | | 遊戲內語言（chiuinan cgame/egame）|
 | `genre` | enum \| null | | **存 v2 key（非中文名）**，22 選 1：動作 `ACT FTG STG FPS RCG SPG SIM`／角色扮演 `RPG ARPG SRPG`／冒險 `ADV AVG AADV`／策略 `SLG HSG RTS`／模擬經營 `CBG CMS LSG`／益智桌遊 `PZG TBG`／其他 `ETC`。中文顯示名與 7 group 由 `src/lib/labels.js` 推導；各類定義、判準（HSG=光榮/三國志 like、戀愛養成分流等）見 [`docs/genre-taxonomy.md`](docs/genre-taxonomy.md)|
 | `localization_level` | `native`\|`localized`\|`packaging`\|`foreign` \| null | | native 原生中文開發 / localized 中文化 / packaging 中文包裝代理 / foreign 純外國（顯示標籤見 `src/lib/labels.js`）|
 | `adult` | bool | | 成人／限制級（18禁）旗標，預設 false；遊戲頁顯示「18禁」chip |
