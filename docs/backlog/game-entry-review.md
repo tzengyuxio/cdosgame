@@ -373,3 +373,60 @@ created: 2026-06-20
 - [ ] 兩款原作未識別（`published: false`）：cdg-4931 火龍劫（G053，200 元，候選 Dragon Lord=Dragon's Breath／Palace 1990、或 Dragonflight／Thalion 1991，兩者皆無硬證據）、cdg-4936 法老王（G058，140 元，候選 Pharaoh's Tomb／Apogee 1990、或 Day of the Pharaoh／Kingsoft 1989，後者「奪回法老王位」較貼「王」字但無定論）。
 - [x] cdg-4937 黃金特輯2（G059，PC Power Golden Collection 2，兩片裝 120 元）三款成員**已由使用者確認**（中文名出自《電腦玩家》第三期 1991-10 P5〈每月新Game〉）：屠龍記II＝Barbarian II: The Dungeon of Drax（Palace Software, GB 1988，包裝有英文名）、炸彈傑克＝Mighty Bomb Jack（Tecmo 原作 1986／Elite Systems 電腦移植 1990，使用者比對包裝圖確認）、忍者兔＝Ninja Rabbits（NMS Software／Micro Value, GB 1991，中文名指涉確認、明確英文佐證尚缺）。合輯本身國際查無、屬歐風自組，已 published、genre ETC。**殘留**：忍者兔 PC 版開發/年份來源分歧（Wikipedia MicroValue 1991 vs Abandonware Villa Crespo/Flair 1992），且 DOS 版多以《International Ninja Rabbits》流通。
 - [ ] cdg-4205 無敵艦隊2525（G061，Armada 2525／Robert T. Smith・Interstel, 1991）：使用者提問的「Armada (1988) 前作」在維基/MobyGames 查無，正文未寫傳承。cdg-4933 魔鬼終結者（G055）確定為 Bethesda 1991 DOS 版（非 Radical/Mindscape 1992 NES 版）。cdg-4938 星戰風暴（Battlestorm/Titus）與同名 NES 作非同款、正文已標。
+
+### 精訊資訊（Kingformation）Apple II 代理批次 第一批 存疑（2026-07-08，撰寫本批次時記錄）
+- 來源＝精訊產品目錄（`精訊-list.txt`），多為 1980 年代精訊代理移植的歐美 Apple II 遊戲；決定性英文原名多靠 EndlessFight「精訊遊戲說明書系列」（fid=55）的實體說明書封面掃描確認。此批非精訊自製（自製如 MX-151 星河戰士、屠龍戰記另計）。
+- [x] cdg-4939 21世紀公路戰＝Roadwar 2000（SSI, US 1986）：目錄兩行「21世紀公路戰／21世紀公路戰(PC版)」＝同款 Apple II 版＋DOS 版，已合為單一條目、platform 標 Apple II／DOS（依使用者規則）。續作歐洲公路戰 cdg-4000（Roadwar Europa）由軟體世界代理，已互連。EndlessFight tid=935/804 封面為證。
+- [x] cdg-4940 601中隊＝Ace of Aces（Artech Digital Entertainment・CA 開發／Accolade・US Gold 發行, 1986）：EndlessFight tid=999 封面確認。「601中隊」為精訊自取中文名（非原名 601 Squadron）。原作無 Apple II 版，精訊此款為 PC（DOS）版，platform 標無。
+- [x] cdg-4941 入侵者＝Hacker（Activision・US，Steve Cartwright 設計, 1985）：EndlessFight tid=1002 封面確認（原盒背文案疊印「入侵者」）。非 Space Invaders 類。精訊為 PC（DOS）版。
+- [x] cdg-0155 七寶奇謀＝Datasoft The Goonies（US 1985，Apple II 解謎平台）：**重大更正**——原 frontmatter 誤填 Konami/JP/1986/ADV（Konami 另有同名 Famicom/街機作、無 Apple II 或原生 DOS 版，屬不同公司作品）。已改 Datasoft/US/1985/ACT，promote published、補精訊 publisher_tw。並清掉借自 cdg-0156（岡業 1996 同名作）的 chiuinan 截圖與 rwv 中文封面（該封面疑為後出中文 DOS 盜版移植 Friends Software 1995，與精訊 Apple II 原版非同一發行）；chiuinan eng/e52/goonies 頁把 Konami 版與 DOS 移植混記，未採用。EndlessFight/boneash 標「Goonies/七寶奇謀/1985」對上 Datasoft 版。
+- [x] cdg-4942 世界空手道錦標賽＝World Karate Championship／International Karate（System 3・GB 開發／Epyx・US 發行, 1986，Apple II）：高信度，Internet Archive 有 1986 Epyx Apple II dump。
+- [ ] cdg-4943 世界棒球賽＝The World's Greatest Baseball Game（Quest／Epyx, US 1984，Apple II）：**中信度推論**，無直接精訊來源點名英文原名；判準＝精訊目錄整批 Epyx 運動作旁證＋名稱直譯＋已排除 HardBall!（目錄另有「硬式棒球」）與 RealSports Baseball（Atari 主機）。待實體外盒/說明書最終核實。developer「Quest」（Quest, Inc.）亦待進一步確認。
+- [x] cdg-4944 冬季奧運會＝Winter Games（Epyx, US 1985，Apple II）：高信度，Epyx「Games」運動系列，與世界運動會/夏季奧運會同系。原 C64 版 Epyx 自製，部分移植由 Action Graphics 經手（Apple II 版精確 credit 未逐一核）。
+- [ ] cdg-4805 世界運動會（Epyx World Games）補精訊：原僅軟體世界 DOS 平價版（平039），本批依精訊目錄補列 publisher_tw「精訊」＋platform Apple II／DOS，並於正文補精訊早期 Apple II 引進。**「精訊確為 Apple II World Games」屬強推論**（boneash 運動類頁可見清單被截斷、未直接見 World Games 條目），待佐證。
+- [x] cdg-4945 卡達敘的寶劍＝Sword of Kadash（Dynamix／Chris Cole 開發，Penguin Software 發行, US 1984，Apple II 動作 RPG）：高信度，boneash apple2-ac-36 收錄。原推測「Penguin 開發」更正為 Penguin 發行、Dynamix/Chris Cole 開發。
+
+### 精訊資訊（Kingformation）第二批（古堡之宴～巫術對弈II）存疑（2026-07-08，撰寫本批次時記錄）
+- ⚠ **血型占星術：未建立條目**。三輪搜尋（MobyGames/Wikipedia/CN-DOS wiki/日文 PC-98 庫）皆查無國際對應，亦不在既有 derived（boneash/rwv/registry）；名稱形態為「血型＋占星」算命工具（血液型性格判斷源自日本），研判為**占卜／工具軟體、非遊戲**（對照 scope 工具軟體排除）。已擱置，**待使用者確認**是否為有玩法的遊戲；若確為工具則永久不收，若有精訊實體包裝/廣告證明有玩法再建。
+- [x] cdg-4946 永恆之燭2＝The Magic Candle II: The Four and Forty（Mindcraft/EA, US 1991, DOS, RPG）：新建。精訊**已代理但因銷售不佳未中文化**、僅英文流通（銀狐〈Mindcraft 遊戲引進台灣的一段回憶〉sfoxstudio.com/18491 為證）。故 license 標 null（正式代理、非 grey import）。一代《永恆之燭》(Magic Candle 1) 精訊亦曾代理但「因畫面過時未發行」，故未在目錄、本批不建。
+- [x] cdg-4947 巫術對弈II＝Archon II: Adept（Free Fall Associates／EA, US 1984，Apple II，棋盤策略＋動作 SLG）：新建。**無 DOS 版**（與初代 Archon 不同），精訊為 Apple II 英文版。消歧義：巫術對弈＝Archon 初代(cdg-1108 stub)、超級巫術對弈＝Archon Ultra 1994 重製(cdg-2209，軟體世界珍295)。精訊引進 Archon II 之佐證僅精訊目錄本身（chiuinan 無此款 JX 碼）。
+- [x] cdg-4364 古堡之宴＝Uninvited（ICOM Simulations 開發／Mindscape 發行, US 1986，MacVenture 點擊恐怖冒險 ADV）：promote。**localization 標 localized/zh 屬中信度**——rwv 有可玩中文 DOS 版、精訊目錄有列，但「精訊中文化」無直接第三方佐證（stub 僅 boneash/rwv provenance、無 chiuinan）。待佐證；若證實僅英文引進則改 packaging/en。
+- [x] cdg-4248 死亡潛航＝Silent Service（MicroProse／Sid Meier, US 1985，潛艇模擬 SIM）：promote。續作 cdg-4195 死亡潛航2＝Silent Service II（1990）已互連。platform 標 Apple II（單行未標 PC版，依精訊目錄慣例＝Apple II 版；Silent Service Apple II/DOS 皆存在）。
+- [x] cdg-4199 肉搏大賽＝Bop'N Wrestle（美版/DOS 名）／Rock'n Wrestle（歐版原名）：promote。**boneash「Bob'N Wrestle」拼寫誤植已更正為 Bop'N**（slug bob→bop、alias 修）。開發 Beam Software（＝Melbourne House 開發部，澳洲 AU），美版發行 Mindscape。1985（8-bit）/1986（DOS）。摔角 FTG。
+- [x] cdg-1098 巫師神冠＝Wizard's Crown（SSI, US，戰術 RPG）：promote，補正文。**年份 1987→1986**（原 1987 疑為精訊引進年；Apple II 版權標 1986）。巫師名 Tarmon（Wikipedia），先前研究提到的古城名 Arghan 未採入正文。catalog JXZ013、chiuinan eng/e11/wc.htm 已補 references。續作 The Eternal Dagger（永恆之劍，1987，≠永恆之燭 Magic Candle）。
+- [x] cdg-0696 危城爭霸＝Siege（Mindcraft, US 1992, DOS, 攻城策略 SLG）：promote。**精訊中文化代理已證**（chiuinan c32/siege.htm JXD008 明載「精訊中文化並代理」＋omega thread 5209）。developer_region null→US。資料片 Dogs of War＝戰狗（cdg-4114 stub），續作 Ambush at Sorinor＝十面埋伏(cdg-0185)已互連。chiuinan 稱「即時戰術」但英文源多記回合制戰術，正文採中性「攻城戰略」。
+- [ ] cdg-4155 冰城傳奇＝The Bard's Tale（Interplay／EA, US 1985，DOS 約 1987）enrich：補精訊 publisher、localization foreign→packaging、platform Apple II／DOS，正文「僅藉精訊雜誌攻略接觸」修正為「精訊以英文版引進（Apple II＋DOS）」。**精訊「當英文商品販售」屬中信度**（證據＝精訊目錄兩行「冰城傳奇／冰城傳奇(PC版)」＋boneash 清單一致，無獨立第三方佐證）；待 EndlessFight fid=55 說明書實物可升信度。
+
+### 精訊資訊（Kingformation）第三批（忍者秘術～幽靈戰士III）＋血型占星術（2026-07-08，撰寫本批次時記錄）
+- [x] cdg-4948 血型占星術（精訊 1987 自製）：**使用者指示收錄以記錄精訊發展歷程**，非嚴格意義的遊戲（占卜/算命軟體、作者自述「介於電腦遊戲與應用程式之間」，單色顯示器 Monochrome）。genre ETC、native/zh、developer 精訊。程式西門孟、音樂林淑宜、美工鄭幸兒；前言撰於 1987-04-17（李培民、李永進協助出版）。說明書前言全文（使用者提供 OCR）以「## 說明書前言」blockquote 存為史料。無外部來源可查（本土工具軟體），佐證＝實體說明書。
+- [x] cdg-4949 忍者秘術＝Moebius: The Orb of Celestial Harmony（Greg Malone／Origin Systems, US 1985，Apple II，武俠 RPG＋Karateka 式動作）：高信度，EndlessFight fid=55 tid=1023 精訊說明書封面直印原名。原候選 Last Ninja/Shinobi/Saboteur 皆非。
+- [x] cdg-4950 辛巴達歷險記＝Sinbad and the Throne of the Falcon（Cinemaware／Bill Williams, US 1987，DOS/IIGS，電影感動作冒險 AADV）：高信度，EndlessFight tid=1031。Cinemaware 16-bit 作、無 Apple II 版故 platform 標無。與精訊另代理的保皇騎士（Defender of the Crown, cdg-1614）同屬 Cinemaware。
+- [x] cdg-4951 帝魔之怒＝The Wrath of Denethenor（Christopher Crim 程式／Sierra On-Line 發行, US 1986，Apple II，類創世紀 RPG）：身分高信度（boneash Apple II RPG 頁對應）；**「精訊引進」佐證較弱**——未在 fid=55 精訊說明書系列出現，僅靠 boneash＋精訊目錄交叉，待精訊實體包裝補直接來源。
+- [x] cdg-4952 明星杯拳擊賽＋cdg-4953 魔球：**目錄一行「明星杯拳擊賽／魔球」實為同碟搭售兩款**（EndlessFight tid=1030 說明書標題逐字「明星杯拳擊賽／魔球(PC版)」）。拳擊賽＝Star Rank Boxing（PC 碟為續作 Star Rank Boxing II, Gamestar/Activision, US 1988, 拳擊 SPG）；魔球＝Wizball（Sensible Software／Ocean, GB 1987, 射擊 STG，非運動）。兩者互連搭售。**「明星」＝精訊對 Gamestar 品牌的在地化**。⚠ Ballblazer 另有其款「電球爭霸戰」，勿混入魔球。
+- [x] cdg-4954 明星杯籃球賽＝GBA Championship Basketball: Two-on-Two（Gamestar／Activision, US 1986, 2-on-2 籃球 SPG）：**中高信度**（Gamestar「明星杯」品牌唯一對應，但未在 EndlessFight 找到該款專屬說明書貼文）。此批「明星杯」為 DOS，故 platform 標無（GBA Basketball 亦有 Apple II 版，精訊版平台未直證，待考）。
+- [x] cdg-0606 幽靈戰士3 補精訊：Phantasie III 在台**兩條非授權引進線**——精訊《幽靈戰士III－魔神之怒》(PC版, EndlessFight fid=55 p3 有精訊說明書掃描) vs 軟體世界《魔神之吼》(貴029)。依「同款一條、多 publisher」慣例補精訊入 publisher_tw、加別名「魔神之怒/幽靈戰士III-魔神之怒」、正文改中性並陳兩版。銀狐指兩家皆盜版時代非授權中文說明書本、**非正式代理**，正文用「非授權引進」措辭；精訊版年代未定（推 1987–88）。
+- [x] cdg-1747 性感戰士 補精訊 publisher（原 publisher_tw []，developer 精訊自製、catalog JXD017）。**殘留待考**：正文「三片 1.2MB 磁片、售價 NT$450」及「1993 年 10 月」發行月（僅巴哈表格、無他證，銀狐一手記 11 月）網路查無佐證，疑出自實體收藏；本批未動正文，待核。
+
+### 精訊資訊（Kingformation）第四批（星際航艦～拳王爭霸賽）存疑（2026-07-08，撰寫本批次時記錄）
+- [x] cdg-4237 星際航艦＝Starflight（Binary Systems／EA, US 1986，太空探索 RPG）promote：**無 Apple II 版**（Wikipedia 平台清單無），故 platform 標無（DOS）。原 stub year 1987 更正為 1986（1987 為台灣引進年估值）。續作 Starflight 2（1989）。
+- [x] cdg-4672 核子防衛戰（Cinemaware S.D.I., 1986）補精訊：精訊以《星戰防衛計劃》之名代理、軟體世界以《核子防衛戰》(貴013) 代理，**同款雙台灣代理**（同幽靈戰士III、保皇騎士先例）。補精訊入 publisher_tw、加別名「星戰防衛計劃」、正文中性並陳。佐證＝精訊目錄＋精訊為 Cinemaware 常態代理（保皇騎士 cdg-1614 亦精訊＋軟體世界雙代理）；zh.wikipedia「星戰防衛計劃」條目未明寫精訊、屬旁證。
+- [x] cdg-4955 春之石＝Shard of Spring（TX Digital Illusions 開發／SSI 發行, US 1986，回合制 RPG，Apple II）：高信度，boneash apple2-rpg-21 下載檔名即 shard_of_spring.rar。續作 Demon's Winter（1988）。女巫名未寫入正文（研究未確認）。
+- [x] cdg-4957 美式帆船大賽＝The American Challenge: A Sailing Simulation（Tom Snyder Productions／Mindscape, US 1986，美洲盃帆船競賽，Apple II）：高信度。genre 標 SPG（競賽運動）。
+- [x] cdg-4958 飛行坦克＝Gunship（MicroProse／Sid Meier 3D, US 1986，AH-64 阿帕契攻擊直升機模擬 SIM，Apple II）：高信度，中文維基「飛行坦克」條目即 Gunship。⚠ 精訊目錄另有「炮艇戰機」為不同款，勿混（本批未含）。
+- [x] cdg-4959 夏季奧運會II＝Summer Games II（Epyx, US 1985，奧運多項目 SPG，Apple II）：高信度，Epyx「Games」正系第二作（≠軟體世界代理的 The Games: Summer Edition／Summer Challenge）。項目＝三級跳/跳高/划船/標槍/馬術/擊劍/輕艇/自行車。
+- [ ] **cdg-4956 突擊傅雷特勒：未識別 stub（published:false）**。boneash FB 社團有「精訊資訊-突擊傅雷特勒」貼文（已下架、無法讀內文）確認為真實精訊產品，但英文原名查無（boneash 網站 Apple II/PC 各類、EndlessFight fid=55、chiuinan 皆無）。「傅雷特勒」為專有名詞音譯。薄弱假說 Rescue on Fractalus!（Fractalus→傅雷特勒）不成立（原意救援非突擊、boneash 無收）。待精訊實體說明書/封面英文名。
+- [ ] **cdg-4960 拳王爭霸賽：未定案 stub（published:false）**。確定是拳擊遊戲、且非 Gamestar 系（不冠「明星杯」，排除 Star Rank Boxing）、非 1999 K.O.（cdg-0645）。兩候選無法分辨：Accolade《Fight Night》(1985, boneash 另名午夜拳擊賽) vs Sierra《Championship Boxing》(1986)。待精訊原始說明書/封面英文名再收斂。
+- 註：本批 Apple II 款考證確立 boneash 查法——boneash.oldgame.tw 為 Big5 編碼、Google 不索引，須 `curl`＋`iconv -f BIG5`，個別遊戲頁下載檔名常直接洩漏英文原名（如 shard_of_spring.rar）。EndlessFight fid=55 只收精訊 PC 版說明書。
+
+### 精訊資訊（Kingformation）第五批（浩劫前夕～創世紀III）存疑（2026-07-08，撰寫本批次時記錄）
+- 本批 7 款外文的英文原名多靠 EndlessFight fid=55 精訊說明書**封面掃描目視**確認（帖內無 OCR，須 Read 封面 jpg）：浩劫前夕 tid=985、海上豪俠 tid=986、海戰之狼 tid=987、荒漠遊騎兵 tid=2028、異星征服者 tid=2069、第三邊境 tid=990。此為比 boneash 更權威的一手證據（boneash 常用不同社群譯名，如 Wasteland＝荒野遊俠、Silent Service＝死亡潛航，對不上精訊官方盒裝名）。
+- [x] cdg-4961 浩劫前夕＝Countdown to Shutdown（歐名 Countdown to Meltdown；Creative Sparks 英/Activision 美, 1985 Apple II，等角動作冒險 AADV）。
+- [x] **cdg-4962 海上豪俠＝Sid Meier's Pirates! → 併入 cdg-0399「大海盜」**（使用者指正）。同款 Pirates!（MicroProse 1987）在台雙代理：精訊《海上豪俠》PC 版／智冠·軟體世界《大海盜》貴023。已補精訊入 cdg-0399 publisher_tw、加別名海上豪俠、正文並陳；cdg-4962 registry 標 merged→cdg-0399、檔案刪除、id 退場不重用。（建檔時漏查大海盜同款，因搜「海上豪俠」未命中「大海盜」。）
+- [x] cdg-4963 海戰之狼＝Sub Battle Simulator（Digital Illusions Inc.**美**（非瑞典 DICE）/Epyx, 1987, 二戰潛艇模擬 SIM）：無原生 Apple II 版，精訊為 DOS 版（platform 無）。含美潛艦＋德 U 艇任務。
+- [x] cdg-4964 荒漠遊騎兵＝Wasteland（Interplay/EA, US 1988, 末日 RPG, Apple II）：Desert Rangers＝中文名源；Fallout 精神前身。
+- [x] cdg-4965 異星征服者＝Koronis Rift（Lucasfilm Games/Epyx, US 1985, 科幻載具探索 AADV, Apple II）：碎形地形。精訊碼疑 MX-4071 系（掃描檔線索，未確認故未填 catalog_id）。
+- [x] cdg-4966 第三邊境＝The Third Courier（Manley & Associates/Accolade, US 1989, 冷戰間諜冒險 ADV, DOS 三片裝 NT$230）：中文名意譯（分裂柏林諜報，非 Frontier）。
+- [ ] **cdg-4967 第五度空間：未識別 stub（published:false）**。所有可自動檢索源（boneash 全類、Bangumi 精訊頁、CN-DOS wiki、PTT）皆查無；MobyGames/uvlist Kingformation 公司頁與 Mobile01 APPLE II 收藏展被反爬蟲擋，待人工核。不排除精訊自製。英文同名候選（Adventure in the Fifth Dimension 1983 Atari／Fifth Eskadra）皆對不上。
+- [x] cdg-2963 創世紀1：黑暗時代＝Ultima I（Origin）promote：**革新版＝1986 Origin 組語重製版**（原版 1981 California Pacific），year 1987→1986。補 chiuinan e11/ultima1。cross-link 創世紀123典藏版 cdg-4604。
+- [x] cdg-2965 創世紀3：出埃及記＝Ultima III: Exodus（Origin, 1983，首款 Origin 自行發行 Ultima、系列首度四人隊伍）promote：year 1987→1983。補 chiuinan e12/ultima3。
+- [ ] **資料層小瑕**（非本批請求、待專門批次）：cdg-2963 與 cdg-2965 共用同一 `catalog_id: SWT165,OCD053` 且 `size: 1CD`——SWT165 疑為 CD 典藏版（創世紀123典藏版 cdg-4604）之碼，掛到個別 Ultima I/III 條目屬 merge 殘留；本批 promote 未動這兩欄，待校訂。神戒 cdg-1840（Rings of Zilfin, SSI 1986，已含精訊）本批未動、已完善。
