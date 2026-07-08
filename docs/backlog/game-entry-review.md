@@ -348,4 +348,28 @@ created: 2026-06-20
 - [ ] 原 stub 標 `content_language: zh`／`localization_level: localized`（來源 chiuinan「ch」中文區介紹頁、fandom 簡中「战国群雄传」、rwv merge、alias「G1481-信長之野望II中文版」），與 [[sanbo-dosv-series]] 記的 rwv 誤標外文原版為中文版同模式。依使用者實體封面/海報佐證訂正為**英文版**：台灣三家皆發英文版——第三波正式授權代理（附海報）、歐風軟體與新世界未授權引進（歐風亦附海報）。已改 `en`／`packaging`／`en-content + foreign-developer`。**殘留待查**：chiuinan 為何歸「ch」區、「中文版」alias 是否指另有真正中文化版本；aliases/images/refs 暫留（沿用原 sourced 資料）不刪。
 
 ### 歐風軟體（Europhone）G001–G010 批次 存疑（2026-07-08，撰寫本批次時記錄）
-- [ ] cdg-4890 超級高速賽車（歐風 G001）原作未定：所有來源（endlessfight tid=1974 原帖、巴哈/PTT/gamebase/chiuinan）皆只有中文名、無英文原名，疑為歐風自取的通用描述名。`developer`/`year` 留 null、`published: false`。最可能的三個法系候選（皆有當代 DOS 版）：①Crazy Cars II／F40 Pursuit Simulator（Titus, 1988，主題最貼）②Turbo Cup（Loriciel, 1988，同社 batch 旁證）③Vroom（Lankhor, DOS 版偏晚）。**避開**字面最近的 Super Cars II（DOS 版遲至 1996，時序不符）。待實體封面/截圖佐證再定案。另注意 chiuinan 的「高速賽車/超越競速＝Out Run」是 SEGA、軟體世界發行（cdg-3643），與本款無關。
+- [x] cdg-4890 超級高速賽車（歐風 G001）＝SEGA《Turbo OutRun》：**已由使用者確認**英文名為 "TURBO Out Run"（三片裝 130 元）。原作 Sega AM2 街機 1989、PC 移植 1990 由 U.S. Gold 發行。已 promote 為 published、developer SEGA(JP)、genre RCG。先前的法系候選（Crazy Cars II 等）全數作廢。
+
+### 歐風軟體（Europhone）G021–G030 批次 存疑（2026-07-08，撰寫本批次時記錄）
+- [ ] cdg-4909 魔域總動令（歐風 G024，99 元）與 cdg-4910 路博士（歐風 G025，66 元／1 片）原作未定：三輪查證（endlessfight 原目錄、omega、cn-dos-games wiki、巴哈國產總表、PTT Old-Games）皆查無此二中文名，疑為歐風自取譯名、原目錄無英文名、公開網路零足跡。二者 `developer`/`year`/`genre` 留 null、`published: false`。突破點：歐風實體盒裝／片上原始檔名／splash screen 反查英文原名。
+- [ ] cdg-4913 小精靈II（Gremlins 2）版本歧義：電影《小精靈2》(1990) 的電腦改編有兩款彼此獨立的英文版並存——①Hi Tech Expressions（美，1991，MS-DOS 獨佔，俯視迷宮動作冒險）②Elite Systems 發行／Motivetime 開發（1990，Amiga/ST/PC 多平台，橫向捲軸平台）。歐風確切引進哪一版未能從現有資料確認。frontmatter 暫採 Hi Tech Expressions 版（`AADV`）為主，理由：歐風 G022 洛克人同為 Hi Tech Expressions 發行、暗示歐風取材該社 DOS 目錄；正文已並陳兩版。待實體封面比對定案。與 cdg-0527「小精靈2」（Creature Labs《Creatures 2》）非同款。
+
+### 歐風軟體（Europhone）G031–G040 批次 存疑（2026-07-08，撰寫本批次時記錄）
+- [ ] 兩款原作未識別（`published: false`、developer/year/genre 留 null）：cdg-4915 沙場風暴（G033，120 元）、cdg-4919 空中攔擊（G037，160 元）。歐風目錄皆未列或僅列無足跡的英文名、網路零匹配。語意反推候選（未證實、勿當定論）：沙場風暴≈Storm Across Europe（SSI, 1990）；空中攔擊≈F/A-18 Interceptor／JetFighter 系列。突破點：歐風實體盒裝／片上原始檔名。沙場風暴與莎莉資訊 1996《美少女沙場風暴》(cdg-1178) 為同名不同款、正文已標。
+- [x] cdg-4920 黃金特輯I（G038，PC Power Golden Collection）：**已由使用者確認**為歐風自組廉價 shareware 合輯，含四款——幻想拼圖（Never Mind, MC Lothlorien／Psygnosis, GB 1989）、超級小精靈（CD-Man, Creative Dimensions, 瑞典 1989）、3D俄羅斯方塊（Frac, Simsalabim Software, 瑞典 1990）、吃角子老虎（SLOT，開發者/年份不可考）。合輯本身國際站台查無，已改 `published: true`、genre ETC，正文列出四款。合輯層級 developer/year 留 null（多源拼組）。
+- [x] cdg-4916 3-3籃球大對決（G034）＝Data East《The Dream Team: 3 on 3 Challenge》(Park Place Productions, 1991)：**已由使用者封面確認**有 "The Dream Team" 字樣，身分定案。genre 採 SPG（運動籃球），非歐風目錄所標「動作」。
+- [ ] cdg-4918 上帝也巔峯（G036，Supremacy/Overlord）發行年：原作 Amiga/ST 為 1990、MS-DOS 版為 1991 底。frontmatter 採原作 `year: 1990`、正文註明 DOS 版 1991。與 2007 Codemasters《Overlord》非同款、已標。
+- [ ] cdg-4914 米格29戰鬥機（G032）確認為 Domark/Simis 1990 版《MiG-29 Fulcrum》，非 Codemasters 1989《MIG-29 Soviet Fighter》。cdg-0148 一路狂飆發行年主流記 1991（archive.org 檔名標 1990），採 1991。
+
+### 歐風軟體（Europhone）G041–G050 批次 存疑（2026-07-08，撰寫本批次時記錄）
+- [ ] cdg-4924 鐵甲異變（G043）＝Metal Mutant（Silmarils, FR 1991）為**高信度推證、非目錄既有**：歐風目錄未列英文名，但「鐵甲異變」近乎 Metal Mutant 直譯、且變形機甲（Cyborg/Dino/Tank）玩法精準吻合，故已建 published 條目（genre AADV）。仍待歐風實體外盒/截圖最終核實。
+- [ ] 兩款原作未識別（`published: false`、developer/year/genre 留 null）：cdg-4923 阿茲特傳奇（G042，180 元）、cdg-4929 快樂原始人（G050，140 元）。中信度/多候選、無決定性證據，勿逕填：阿茲特傳奇領先候選 The Gold of the Aztecs（Kinetica／U.S. Gold, 1990；唯「傳奇」非「Gold of」直譯）；快樂原始人 Prehistorik（Titus, FR 1991）與 Chuck Rock（Core Design, GB 1991/DOS 1992）兩候選無法二選一。快樂原始人與 lpSoftware 2000《Plodo's Quest》(cdg-1731) 同名不同款、正文已標。
+- [ ] cdg-4922 驚異大奇航（G041，140 元）無法識別：中文名與 1987 電影《Innerspace》台灣譯名重合但查無對應遊戲；語意候選 Fantastic Voyage（時間/平台對不齊，排除性參考）。`published: false`。
+- [x] cdg-0079 GP500摩托賽（G049）＝Microïds《Grand Prix 500 2》(1991)：已補 `歐風`＋body＋genre RCG，併入重複的 cdg-4156《風速小子》（registry 標 merged）。歐風流通名「GP 500」、另有「風速小子」譯名，均入 aliases。
+- [ ] cdg-2290 教父（G045）＝《The Godfather: The Action Game》(Creative Materials／U.S. Gold, GB 1991)：改編自《教父》三部曲（非單 1972 首集），promote 為 published、foreign→packaging。cdg-2291 為 2006 EA 同名遊戲、非同款。cdg-4928 終極戰士（Rotox）與安峻 1997《Mars 3D》(cdg-2071) 同名不同款、正文已交叉標註。
+
+### 歐風軟體（Europhone）G051–G061 批次 存疑（2026-07-08，撰寫本批次時記錄）
+- [ ] 四款無英文名、經高信度推證後已 published（歐風目錄無英文名，識別靠反查＋德系批次旁證，待實體外盒最終核實）：cdg-4930 1948柏林＝East vs. West: Berlin 1948（Time Warp／Rainbow Arts, DE 1989，名稱年份+城市精準吻合）、cdg-4932 石油大亨＝Oil Imperium／Black Gold（reLINE／Rainbow Arts, DE 1989）、cdg-4934 中世紀戰士＝Medieval Warriors（Soundware／Merit, US 1991，近乎直譯）、cdg-4935 德意志邏輯＝Logical（Rainbow Arts, DE 1991，「德意志」標德國出身＋「邏輯」直譯、最強）。附帶發現：歐風此段是 Rainbow Arts/德系片集中批（Khalaan G046／Logical G057／Berlin 1948 G052／Oil Imperium G054 互為旁證）。
+- [ ] 兩款原作未識別（`published: false`）：cdg-4931 火龍劫（G053，200 元，候選 Dragon Lord=Dragon's Breath／Palace 1990、或 Dragonflight／Thalion 1991，兩者皆無硬證據）、cdg-4936 法老王（G058，140 元，候選 Pharaoh's Tomb／Apogee 1990、或 Day of the Pharaoh／Kingsoft 1989，後者「奪回法老王位」較貼「王」字但無定論）。
+- [x] cdg-4937 黃金特輯2（G059，PC Power Golden Collection 2，兩片裝 120 元）三款成員**已由使用者確認**（中文名出自《電腦玩家》第三期 1991-10 P5〈每月新Game〉）：屠龍記II＝Barbarian II: The Dungeon of Drax（Palace Software, GB 1988，包裝有英文名）、炸彈傑克＝Mighty Bomb Jack（Tecmo 原作 1986／Elite Systems 電腦移植 1990，使用者比對包裝圖確認）、忍者兔＝Ninja Rabbits（NMS Software／Micro Value, GB 1991，中文名指涉確認、明確英文佐證尚缺）。合輯本身國際查無、屬歐風自組，已 published、genre ETC。**殘留**：忍者兔 PC 版開發/年份來源分歧（Wikipedia MicroValue 1991 vs Abandonware Villa Crespo/Flair 1992），且 DOS 版多以《International Ninja Rabbits》流通。
+- [ ] cdg-4205 無敵艦隊2525（G061，Armada 2525／Robert T. Smith・Interstel, 1991）：使用者提問的「Armada (1988) 前作」在維基/MobyGames 查無，正文未寫傳承。cdg-4933 魔鬼終結者（G055）確定為 Bethesda 1991 DOS 版（非 Radical/Mindscape 1992 NES 版）。cdg-4938 星戰風暴（Battlestorm/Titus）與同名 NES 作非同款、正文已標。
