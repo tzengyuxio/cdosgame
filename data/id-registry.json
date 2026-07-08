@@ -1456,9 +1456,10 @@
     },
     "cdg-0155": {
       "catalog_id": null,
-      "developer": "Konami",
+      "developer": "Datasoft",
       "keys": [
-        "t:七寶奇謀|Konami"
+        "t:七寶奇謀|Datasoft",
+        "t:The Goonies|Datasoft"
       ],
       "status": "active",
       "title_zh": "七寶奇謀"
@@ -27061,7 +27062,7 @@
         "cat:SWT165,OCD053"
       ],
       "status": "active",
-      "title_zh": "創世紀1：黑暗時代"
+      "title_zh": "創世紀：黑暗時代"
     },
     "cdg-2964": {
       "catalog_id": "SWT165,OCD053",
@@ -37885,9 +37886,10 @@
     },
     "cdg-4155": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Interplay",
       "keys": [
-        "t:冰城傳奇|None"
+        "t:冰城傳奇|Interplay",
+        "t:Bard's Tale|Interplay"
       ],
       "status": "active",
       "title_zh": "冰城傳奇"
@@ -38284,9 +38286,10 @@
     },
     "cdg-4199": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Beam Software",
       "keys": [
-        "t:肉搏大賽|None"
+        "t:肉搏大賽|Beam Software",
+        "t:Bop'N Wrestle|Beam Software"
       ],
       "status": "active",
       "title_zh": "肉搏大賽"
@@ -38630,9 +38633,10 @@
     },
     "cdg-4237": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Binary Systems",
       "keys": [
-        "t:星際航艦|None"
+        "t:星際航艦|Binary Systems",
+        "t:Starflight|Binary Systems"
       ],
       "status": "active",
       "title_zh": "星際航艦"
@@ -38731,9 +38735,10 @@
     },
     "cdg-4248": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "MicroProse",
       "keys": [
-        "t:死亡潛航|None"
+        "t:死亡潛航|MicroProse",
+        "t:Silent Service|MicroProse"
       ],
       "status": "active",
       "title_zh": "死亡潛航"
@@ -39777,9 +39782,10 @@
     },
     "cdg-4364": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "ICOM Simulations",
       "keys": [
-        "t:古堡之宴|None"
+        "t:古堡之宴|ICOM Simulations",
+        "t:Uninvited|ICOM Simulations"
       ],
       "status": "active",
       "title_zh": "古堡之宴"
@@ -44953,6 +44959,292 @@
       ],
       "status": "active",
       "title_zh": "星戰風暴"
+    },
+    "cdg-4939": {
+      "catalog_id": null,
+      "developer": "SSI",
+      "keys": [
+        "t:21世紀公路戰|SSI",
+        "t:Roadwar 2000|SSI"
+      ],
+      "status": "active",
+      "title_zh": "21世紀公路戰"
+    },
+    "cdg-4940": {
+      "catalog_id": null,
+      "developer": "Artech Digital Entertainment",
+      "keys": [
+        "t:601中隊|Artech Digital Entertainment",
+        "t:Ace of Aces|Artech Digital Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "601中隊"
+    },
+    "cdg-4941": {
+      "catalog_id": null,
+      "developer": "Activision",
+      "keys": [
+        "t:入侵者|Activision",
+        "t:Hacker|Activision"
+      ],
+      "status": "active",
+      "title_zh": "入侵者"
+    },
+    "cdg-4942": {
+      "catalog_id": null,
+      "developer": "System 3",
+      "keys": [
+        "t:世界空手道錦標賽|System 3",
+        "t:World Karate Championship|System 3"
+      ],
+      "status": "active",
+      "title_zh": "世界空手道錦標賽"
+    },
+    "cdg-4943": {
+      "catalog_id": null,
+      "developer": "Quest",
+      "keys": [
+        "t:世界棒球賽|Quest",
+        "t:The World's Greatest Baseball Game|Quest"
+      ],
+      "status": "active",
+      "title_zh": "世界棒球賽"
+    },
+    "cdg-4944": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:冬季奧運會|Epyx",
+        "t:Winter Games|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "冬季奧運會"
+    },
+    "cdg-4945": {
+      "catalog_id": null,
+      "developer": "Dynamix",
+      "keys": [
+        "t:卡達敘的寶劍|Dynamix",
+        "t:Sword of Kadash|Dynamix"
+      ],
+      "status": "active",
+      "title_zh": "卡達敘的寶劍"
+    },
+    "cdg-4946": {
+      "catalog_id": null,
+      "developer": "Mindcraft",
+      "keys": [
+        "t:永恆之燭2|Mindcraft",
+        "t:The Magic Candle II: The Four and Forty|Mindcraft"
+      ],
+      "status": "active",
+      "title_zh": "永恆之燭2"
+    },
+    "cdg-4947": {
+      "catalog_id": null,
+      "developer": "Free Fall Associates",
+      "keys": [
+        "t:巫術對弈II|Free Fall Associates",
+        "t:Archon II: Adept|Free Fall Associates"
+      ],
+      "status": "active",
+      "title_zh": "巫術對弈II"
+    },
+    "cdg-4948": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:血型占星術|精訊"
+      ],
+      "status": "active",
+      "title_zh": "血型占星術"
+    },
+    "cdg-4949": {
+      "catalog_id": null,
+      "developer": "Origin Systems",
+      "keys": [
+        "t:忍者秘術|Origin Systems",
+        "t:Moebius: The Orb of Celestial Harmony|Origin Systems"
+      ],
+      "status": "active",
+      "title_zh": "忍者秘術"
+    },
+    "cdg-4950": {
+      "catalog_id": null,
+      "developer": "Cinemaware",
+      "keys": [
+        "t:辛巴達歷險記|Cinemaware",
+        "t:Sinbad and the Throne of the Falcon|Cinemaware"
+      ],
+      "status": "active",
+      "title_zh": "辛巴達歷險記"
+    },
+    "cdg-4951": {
+      "catalog_id": null,
+      "developer": "Sierra On-Line",
+      "keys": [
+        "t:帝魔之怒|Sierra On-Line",
+        "t:The Wrath of Denethenor|Sierra On-Line"
+      ],
+      "status": "active",
+      "title_zh": "帝魔之怒"
+    },
+    "cdg-4952": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:明星杯拳擊賽|Gamestar",
+        "t:Star Rank Boxing|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "明星杯拳擊賽"
+    },
+    "cdg-4953": {
+      "catalog_id": null,
+      "developer": "Sensible Software",
+      "keys": [
+        "t:魔球|Sensible Software",
+        "t:Wizball|Sensible Software"
+      ],
+      "status": "active",
+      "title_zh": "魔球"
+    },
+    "cdg-4954": {
+      "catalog_id": null,
+      "developer": "Gamestar",
+      "keys": [
+        "t:明星杯籃球賽|Gamestar",
+        "t:GBA Championship Basketball: Two-on-Two|Gamestar"
+      ],
+      "status": "active",
+      "title_zh": "明星杯籃球賽"
+    },
+    "cdg-4955": {
+      "catalog_id": null,
+      "developer": "TX Digital Illusions",
+      "keys": [
+        "t:春之石|TX Digital Illusions",
+        "t:Shard of Spring|TX Digital Illusions"
+      ],
+      "status": "active",
+      "title_zh": "春之石"
+    },
+    "cdg-4956": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:突擊傅雷特勒|None"
+      ],
+      "status": "active",
+      "title_zh": "突擊傅雷特勒"
+    },
+    "cdg-4957": {
+      "catalog_id": null,
+      "developer": "Tom Snyder Productions",
+      "keys": [
+        "t:美式帆船大賽|Tom Snyder Productions",
+        "t:The American Challenge: A Sailing Simulation|Tom Snyder Productions"
+      ],
+      "status": "active",
+      "title_zh": "美式帆船大賽"
+    },
+    "cdg-4958": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:飛行坦克|MicroProse",
+        "t:Gunship|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "飛行坦克"
+    },
+    "cdg-4959": {
+      "catalog_id": null,
+      "developer": "Epyx",
+      "keys": [
+        "t:夏季奧運會II|Epyx",
+        "t:Summer Games II|Epyx"
+      ],
+      "status": "active",
+      "title_zh": "夏季奧運會II"
+    },
+    "cdg-4960": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:拳王爭霸賽|None"
+      ],
+      "status": "active",
+      "title_zh": "拳王爭霸賽"
+    },
+    "cdg-4961": {
+      "catalog_id": null,
+      "developer": "Creative Sparks",
+      "keys": [
+        "t:浩劫前夕|Creative Sparks",
+        "t:Countdown to Shutdown|Creative Sparks"
+      ],
+      "status": "active",
+      "title_zh": "浩劫前夕"
+    },
+    "cdg-4963": {
+      "catalog_id": null,
+      "developer": "Digital Illusions",
+      "keys": [
+        "t:海戰之狼|Digital Illusions",
+        "t:Sub Battle Simulator|Digital Illusions"
+      ],
+      "status": "active",
+      "title_zh": "海戰之狼"
+    },
+    "cdg-4964": {
+      "catalog_id": null,
+      "developer": "Interplay",
+      "keys": [
+        "t:荒漠遊騎兵|Interplay",
+        "t:Wasteland|Interplay"
+      ],
+      "status": "active",
+      "title_zh": "荒漠遊騎兵"
+    },
+    "cdg-4965": {
+      "catalog_id": null,
+      "developer": "Lucasfilm Games",
+      "keys": [
+        "t:異星征服者|Lucasfilm Games",
+        "t:Koronis Rift|Lucasfilm Games"
+      ],
+      "status": "active",
+      "title_zh": "異星征服者"
+    },
+    "cdg-4966": {
+      "catalog_id": null,
+      "developer": "Manley & Associates",
+      "keys": [
+        "t:第三邊境|Manley & Associates",
+        "t:The Third Courier|Manley & Associates"
+      ],
+      "status": "active",
+      "title_zh": "第三邊境"
+    },
+    "cdg-4967": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:第五度空間|None"
+      ],
+      "status": "active",
+      "title_zh": "第五度空間"
+    },
+    "cdg-4962": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:海上豪俠|MicroProse"
+      ],
+      "status": "merged",
+      "merged_into": "cdg-0399",
+      "title_zh": "海上豪俠"
     }
   }
 }
