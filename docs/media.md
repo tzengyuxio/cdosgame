@@ -140,6 +140,7 @@ media: z.array(z.object({
 ### 其他
 
 - **og:image**：該款有 cover 時，`/games/[id]` 的 OpenGraph 圖改用該封面（無則維持站台預設圖）——社群預覽與 AEO 更佳。
+- **預設 OG 圖**：可編輯來源為 `assets/og-default.svg`；修改後以 `rsvg-convert -w 1200 -h 630 -o public/og-default.png assets/og-default.svg` 重新產生 1200×630 PNG。
 - **授權呈現**：圖說與 lightbox 顯示「來源：〔展開後的來源名〕」（可點），滿足「標註出處」定調。
 - **類別專屬強化（可選）**：盒裝 front／back／spine 並排成組；說明書多頁做翻頁 viewer；截圖橫向 carousel。非必要，先以分類 grid 為準。
 
