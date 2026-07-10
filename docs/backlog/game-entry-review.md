@@ -383,7 +383,7 @@ created: 2026-06-20
 - [x] cdg-0155 七寶奇謀＝Datasoft The Goonies（US 1985，Apple II 解謎平台）：**重大更正**——原 frontmatter 誤填 Konami/JP/1986/ADV（Konami 另有同名 Famicom/街機作、無 Apple II 或原生 DOS 版，屬不同公司作品）。已改 Datasoft/US/1985/ACT，promote published、補精訊 publisher_tw。並清掉借自 cdg-0156（岡業 1996 同名作）的 chiuinan 截圖與 rwv 中文封面（該封面疑為後出中文 DOS 盜版移植 Friends Software 1995，與精訊 Apple II 原版非同一發行）；chiuinan eng/e52/goonies 頁把 Konami 版與 DOS 移植混記，未採用。EndlessFight/boneash 標「Goonies/七寶奇謀/1985」對上 Datasoft 版。
 - [x] cdg-4942 世界空手道錦標賽＝World Karate Championship／International Karate（System 3・GB 開發／Epyx・US 發行, 1986，Apple II）：高信度，Internet Archive 有 1986 Epyx Apple II dump。
 - [ ] cdg-4943 世界棒球賽＝The World's Greatest Baseball Game（Quest／Epyx, US 1984，Apple II）：**中信度推論**，無直接精訊來源點名英文原名；判準＝精訊目錄整批 Epyx 運動作旁證＋名稱直譯＋已排除 HardBall!（目錄另有「硬式棒球」）與 RealSports Baseball（Atari 主機）。待實體外盒/說明書最終核實。developer「Quest」（Quest, Inc.）亦待進一步確認。
-- [x] cdg-4944 冬季奧運會＝Winter Games（Epyx, US 1985，Apple II）：高信度，Epyx「Games」運動系列，與世界運動會/夏季奧運會同系。原 C64 版 Epyx 自製，部分移植由 Action Graphics 經手（Apple II 版精確 credit 未逐一核）。
+- [x] cdg-4944 冬季奧運會＝Winter Games（Epyx, US 1985）已併入 cdg-4804 冬季運動會：精訊以《冬季奧運會》名義引進 Apple II 與 PC（DOS）版，編號 M060；軟體世界平價版名《冬季運動會》（平038）。Epyx「Games」運動系列，與世界運動會/夏季奧運會同系。
 - [ ] cdg-4805 世界運動會（Epyx World Games）補精訊：原僅軟體世界 DOS 平價版（平039），本批依精訊目錄補列 publisher_tw「精訊」＋platform Apple II／DOS，並於正文補精訊早期 Apple II 引進。**「精訊確為 Apple II World Games」屬強推論**（boneash 運動類頁可見清單被截斷、未直接見 World Games 條目），待佐證。
 - [x] cdg-4945 卡達敘的寶劍＝Sword of Kadash（Dynamix／Chris Cole 開發，Penguin Software 發行, US 1984，Apple II 動作 RPG）：高信度，boneash apple2-ac-36 收錄。原推測「Penguin 開發」更正為 Penguin 發行、Dynamix/Chris Cole 開發。
 

@@ -43753,6 +43753,7 @@
       "developer": "Epyx",
       "keys": [
         "t:冬季運動會|Epyx",
+        "t:冬季奧運會|Epyx",
         "t:Winter Games|Epyx"
       ],
       "status": "active",
@@ -45020,7 +45021,8 @@
         "t:冬季奧運會|Epyx",
         "t:Winter Games|Epyx"
       ],
-      "status": "active",
+      "merged_into": "cdg-4804",
+      "status": "merged",
       "title_zh": "冬季奧運會"
     },
     "cdg-4945": {
