@@ -42853,11 +42853,12 @@
       "status": "active"
     },
     "cdg-4705": {
-      "title_zh": "籃球1對1",
+      "title_zh": "籃球一對一（Jordan vs. Bird）",
       "developer": "Electronic Arts",
       "catalog_id": null,
       "keys": [
-        "t:籃球1對1|Electronic Arts"
+        "t:籃球1對1|Electronic Arts",
+        "t:籃球一對一（Jordan vs. Bird）|Electronic Arts"
       ],
       "status": "active"
     },
@@ -45691,10 +45692,11 @@
       "developer": "Electronic Arts",
       "keys": [
         "t:籃球一對一|Electronic Arts",
-        "t:One on One: Dr. J vs. Larry Bird|Electronic Arts"
+        "t:One on One: Dr. J vs. Larry Bird|Electronic Arts",
+        "t:籃球一對一（One on One）|Electronic Arts"
       ],
       "status": "active",
-      "title_zh": "籃球一對一"
+      "title_zh": "籃球一對一（One on One）"
     },
     "cdg-5016": {
       "catalog_id": null,
