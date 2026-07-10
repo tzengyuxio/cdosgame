@@ -17,13 +17,20 @@ const featSeries = [...bySeries.entries()]
   .sort((a, b) => b.list.length - a.list.length).slice(0, 8);
 const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.value.localeCompare(b.value));
 // Featured cover wall: all entries carrying a box-front scan form the pool; the
-// client shuffles it on each visit. SSR renders a stable best-documented subset
-// as the no-JS fallback.
+// client does weighted sampling on each visit. SSR renders a stable, high-weight
+// subset as the no-JS fallback.
 const WALL_N = 16;
+// Localization weights: 原生中文/中文化 covers are scarce (~70 with box-front) vs
+// abundant packaging scans (~450), so a mild ×3 would still leave packaging ~68%.
+// ×8 lifts native+localized exposure to ~55% of the 16 tiles — the intended target.
+const COVER_WEIGHTS = { native: 8, localized: 8, packaging: 1, foreign: 1 };
+const coverWeight = g => COVER_WEIGHTS[g.localization_level] ?? 1;
 const coverGames = games.filter(g => (g.media || []).some(m => m.kind === 'box-front'));
-const toCard = g => ({ u: gameUrl(g.id), img: thumbUrl('games', g.id, coverOf(g.media).src), t: g.title_zh });
+const toCard = g => ({ u: gameUrl(g.id), img: thumbUrl('games', g.id, coverOf(g.media).src), t: g.title_zh, w: coverWeight(g) });
 const coverPool = coverGames.map(toCard);
-const featured = [...coverGames].sort((a, b) => (b.media?.length || 0) - (a.media?.length || 0)).slice(0, WALL_N).map(toCard);
+const featured = [...coverGames]
+  .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
+  .slice(0, WALL_N).map(toCard);
 const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const desc = `盡可能齊全、重考據的中文 DOS 時代遊戲百科——已收錄 ${total} 款，涵蓋 ${seriesCount} 個系列、${companies.length} 家廠商，並附廠商、系列、人物與考據資料。`;
 const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site, description: desc, count: total, dateModified: latestModified() })];
@@ -65,12 +72,18 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
   <p class="browse-more">瀏覽更多：<a class="lk" href={withBase('/companies')}>廠商</a> · <a class="lk" href={withBase('/series')}>系列</a> · <a class="lk" href={withBase('/genres')}>類型</a> · <a class="lk" href={withBase('/people')}>人物</a> · <a class="lk" href={withBase('/topics')}>專題</a></p>
 
   <script is:inline define:vars={{ pool: coverPool, wallN: WALL_N }}>
-    // Shuffle the cover pool on each visit and render WALL_N tiles.
+    // Weighted sampling without replacement (Efraimidis-Spirakis: key = U^(1/w),
+    // take the top-k keys) on each visit, so scarce 原生中文/中文化 covers surface
+    // more often than the abundant packaging scans.
     const wall = document.getElementById('coverwall');
     if (wall && pool.length) {
-      for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+      const pick = pool
+        .map(c => ({ c, k: Math.pow(Math.random(), 1 / (c.w || 1)) }))
+        .sort((a, b) => b.k - a.k)
+        .slice(0, wallN)
+        .map(x => x.c);
       const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-      wall.innerHTML = pool.slice(0, wallN).map(c =>
+      wall.innerHTML = pick.map(c =>
         `<a class="cwall" href="${esc(c.u)}"><img src="${esc(c.img)}" alt="${esc(c.t)} 封面" loading="lazy"><span class="t">${esc(c.t)}</span></a>`
       ).join('');
     }
