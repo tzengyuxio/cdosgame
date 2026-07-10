@@ -83,6 +83,7 @@ export const groupLabel = v => GROUP_LABELS[v] || v;
 // they stay slug/URL/YAML safe; the `&` etc. live only in the label. See schema TAGS.
 export const TAG_LABELS = {
   adnd: '龍與地下城',
+  compilation: '合輯',
 };
 
 export const tagLabel = v => TAG_LABELS[v] || v;

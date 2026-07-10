@@ -25,7 +25,7 @@ export const GENRES = [
 // (ruleset/licence families, etc.), surfaced via topic list_games {tag} aggregation.
 // Frontmatter stores the stable ASCII key; display label lives in src/lib/labels.js.
 // Keep this list curated (no freeform tags). See schema.md「tags」.
-export const TAGS = ["adnd"];
+export const TAGS = ["adnd", "compilation"];
 
 // curated media kinds (see docs/media.md)
 export const MEDIA_KINDS = [
