@@ -12,6 +12,7 @@ __pycache__/
 # （清單與 provenance 仍版控；資產本身先排除，再用前須確認授權）
 raw/**/covers/
 raw/**/assets/
+raw/references/
 raw/**/*.zip
 raw/**/*.7z
 raw/**/*.rar
