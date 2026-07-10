@@ -10676,7 +10676,7 @@
         "cat:SWE107,SCD0061"
       ],
       "status": "active",
-      "title_zh": "決戰西洋棋"
+      "title_zh": "決戰西洋棋（Battle Chess）"
     },
     "cdg-1163": {
       "catalog_id": "Z023",
@@ -20335,10 +20335,11 @@
       "title_zh": "超級越野賽車2"
     },
     "cdg-2225": {
-      "catalog_id": "Z113",
+      "catalog_id": "Z113,511000003",
       "developer": "Broderbund",
       "keys": [
-        "cat:Z113"
+        "cat:Z113",
+        "cat:511000003"
       ],
       "status": "active",
       "title_zh": "超級運動員"
@@ -44732,10 +44733,10 @@
       "catalog_id": null,
       "developer": "Hi Tech Expressions",
       "keys": [
-        "t:小精靈II（Gremlins 2）|Hi Tech Expressions"
+        "t:小精靈2（Gremlins 2）|Hi Tech Expressions"
       ],
       "status": "active",
-      "title_zh": "小精靈II（Gremlins 2）"
+      "title_zh": "小精靈2（Gremlins 2）"
     },
     "cdg-4914": {
       "catalog_id": null,
@@ -44888,7 +44889,7 @@
         "t:1948柏林|Time Warp Productions"
       ],
       "status": "active",
-      "title_zh": "1948柏林"
+      "title_zh": "柏林1948"
     },
     "cdg-4931": {
       "catalog_id": null,
@@ -45510,6 +45511,96 @@
       ],
       "status": "active",
       "title_zh": "魔殿三部曲"
+    },
+    "cdg-4994": {
+      "catalog_id": "511000001",
+      "developer": "Sublogic",
+      "keys": [
+        "t:午夜密令|Sublogic",
+        "cat:511000001"
+      ],
+      "status": "active",
+      "title_zh": "午夜密令"
+    },
+    "cdg-4995": {
+      "catalog_id": "511000002",
+      "developer": null,
+      "keys": [
+        "t:賭城之旅|None",
+        "cat:511000002"
+      ],
+      "status": "active",
+      "title_zh": "賭城之旅"
+    },
+    "cdg-4996": {
+      "catalog_id": "511000004",
+      "developer": null,
+      "keys": [
+        "t:遊戲集錦|None",
+        "cat:511000004"
+      ],
+      "status": "active",
+      "title_zh": "遊戲集錦"
+    },
+    "cdg-4997": {
+      "catalog_id": "511000005",
+      "developer": "Adventure International",
+      "keys": [
+        "t:巴格羅歷險|Adventure International",
+        "cat:511000005"
+      ],
+      "status": "active",
+      "title_zh": "巴格羅歷險"
+    },
+    "cdg-4998": {
+      "catalog_id": "511000006",
+      "developer": null,
+      "keys": [
+        "t:花式撞球|None",
+        "cat:511000006"
+      ],
+      "status": "active",
+      "title_zh": "花式撞球"
+    },
+    "cdg-4999": {
+      "catalog_id": "511000007",
+      "developer": null,
+      "keys": [
+        "t:十項全能|None",
+        "cat:511000007"
+      ],
+      "status": "active",
+      "title_zh": "十項全能"
+    },
+    "cdg-5000": {
+      "catalog_id": "511000008",
+      "developer": null,
+      "keys": [
+        "t:決戰西洋棋（Chess）|None",
+        "cat:511000008"
+      ],
+      "status": "active",
+      "title_zh": "決戰西洋棋（Chess）"
+    },
+    "cdg-5001": {
+      "catalog_id": "511000009",
+      "developer": "Orion Software",
+      "keys": [
+        "t:跳跳鳥|Orion Software",
+        "cat:511000009"
+      ],
+      "status": "active",
+      "title_zh": "跳跳鳥"
+    },
+    "cdg-5002": {
+      "catalog_id": "511000010",
+      "developer": "Sublogic",
+      "keys": [
+        "t:模擬飛行|Sublogic",
+        "cat:511000010"
+      ],
+      "status": "active",
+      "title_zh": "模擬飛行"
     }
   }
 }
