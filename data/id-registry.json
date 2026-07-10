@@ -36538,10 +36538,11 @@
       "catalog_id": null,
       "developer": null,
       "keys": [
-        "t:從海底出擊|None"
+        "t:從海底出擊|None",
+        "t:從海底出擊（Wolf Pack）|None"
       ],
       "status": "active",
-      "title_zh": "從海底出擊"
+      "title_zh": "從海底出擊（Wolf Pack）"
     },
     "cdg-4009": {
       "catalog_id": null,
@@ -45674,6 +45675,96 @@
       ],
       "status": "active",
       "title_zh": "漢堡大師"
+    },
+    "cdg-5014": {
+      "catalog_id": null,
+      "developer": "Broderbund",
+      "keys": [
+        "t:電動玩具場|Broderbund",
+        "t:Spare Change|Broderbund"
+      ],
+      "status": "active",
+      "title_zh": "電動玩具場"
+    },
+    "cdg-5015": {
+      "catalog_id": null,
+      "developer": "Electronic Arts",
+      "keys": [
+        "t:籃球一對一|Electronic Arts",
+        "t:One on One: Dr. J vs. Larry Bird|Electronic Arts"
+      ],
+      "status": "active",
+      "title_zh": "籃球一對一"
+    },
+    "cdg-5016": {
+      "catalog_id": null,
+      "developer": "Broderbund",
+      "keys": [
+        "t:小機器人|Broderbund",
+        "t:Drol|Broderbund"
+      ],
+      "status": "active",
+      "title_zh": "小機器人"
+    },
+    "cdg-5017": {
+      "catalog_id": null,
+      "developer": "Synergistic Software",
+      "keys": [
+        "t:從海底出擊（U-Boat Command）|Synergistic Software",
+        "t:U-Boat Command|Synergistic Software"
+      ],
+      "status": "active",
+      "title_zh": "從海底出擊（U-Boat Command）"
+    },
+    "cdg-5018": {
+      "catalog_id": null,
+      "developer": "Datamost",
+      "keys": [
+        "t:法櫃奇兵（Aztec）|Datamost",
+        "t:Aztec|Datamost"
+      ],
+      "status": "active",
+      "title_zh": "法櫃奇兵（Aztec）"
+    },
+    "cdg-5019": {
+      "catalog_id": null,
+      "developer": "BudgeCo",
+      "keys": [
+        "t:組合式彈子枱|BudgeCo",
+        "t:Pinball Construction Set|BudgeCo"
+      ],
+      "status": "active",
+      "title_zh": "組合式彈子枱"
+    },
+    "cdg-5020": {
+      "catalog_id": null,
+      "developer": "Sir-Tech",
+      "keys": [
+        "t:警探藝術|Sir-Tech",
+        "t:Police Artist|Sir-Tech"
+      ],
+      "status": "active",
+      "title_zh": "警探藝術"
+    },
+    "cdg-5021": {
+      "catalog_id": null,
+      "developer": "Optimum Resource",
+      "keys": [
+        "t:戰艦對決|Optimum Resource",
+        "t:Old Ironsides|Optimum Resource"
+      ],
+      "status": "active",
+      "title_zh": "戰艦對決"
+    },
+    "cdg-5022": {
+      "catalog_id": null,
+      "developer": "Sirius Software",
+      "keys": [
+        "t:海空大戰|Sirius Software",
+        "t:Wavy Navy|Sirius Software"
+      ],
+      "status": "active",
+      "title_zh": "海空大戰"
     }
   }
 }
