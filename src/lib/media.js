@@ -6,6 +6,7 @@ import sources from '../../data/media-sources.json';
 // Gallery categories (kind → grouped, ordered display). Covers all collections'
 // kinds; only the kinds an entity actually has will show.
 export const CATEGORIES = [
+  { label: '主視覺', kinds: ['key-visual'] },
   { label: '盒裝', kinds: ['box-front', 'box-back', 'box-spine', 'package'] },
   { label: '附件／海報', kinds: ['bonus', 'poster'] },
   { label: '光碟／磁片', kinds: ['disc', 'floppy'] },
@@ -28,11 +29,12 @@ export const CATEGORIES = [
 export const GAME_CATEGORIES = [
   { label: '包裝實體', kinds: ['box-front', 'box-back', 'box-spine', 'package', 'bonus', 'disc', 'floppy', 'manual-cover', 'manual'] },
   { label: '遊戲畫面', kinds: ['title', 'screenshot'] },
-  { label: '宣傳與報導', kinds: ['ad', 'poster', 'press', 'map', 'credits'] },
+  { label: '宣傳與報導', kinds: ['key-visual', 'ad', 'poster', 'press', 'map', 'credits'] },
   { label: '其他', kinds: ['other', 'logo', 'product', 'building', 'portrait', 'photo'] },
 ];
 
 export const KIND_LABELS = {
+  'key-visual': '主視覺',
   'box-front': '包裝封面', 'box-back': '包裝背面', 'box-spine': '包裝側面', 'package': '包裝',
   'bonus': '附件', 'poster': '海報',
   'disc': '光碟', 'floppy': '磁片', 'manual-cover': '說明書封面', 'manual': '說明書內頁',
@@ -86,11 +88,13 @@ export function expandSource(code, sourceUrl) {
 // Cover for infobox / og:image. Resolution order:
 //   1) explicit `cover: true` (respected even when `gallery: false`)
 //   2) by kind priority across items NOT hidden by `gallery: false`:
-//      box-front → title → manual-cover → logo → portrait → ad
+//      key-visual → box-front → title → manual-cover → logo → portrait → ad
 // `kind` is the enum value; numbered variants (ad-01, manual-cover) all share
 // the same kind, so this naturally picks the first ad / manual-cover.
+// `key-visual` (the artist's key art) leads: it's the game's cleanest face for
+// the infobox/og:image, without box-scan clutter (barcodes, dealer stickers).
 // `ad` is last so a publisher's magazine ad doesn't beat a real logo/portrait.
-const COVER_KIND_PRIORITY = ['box-front', 'title', 'manual-cover', 'logo', 'portrait', 'ad'];
+const COVER_KIND_PRIORITY = ['key-visual', 'box-front', 'title', 'manual-cover', 'logo', 'portrait', 'ad'];
 export function coverOf(media = []) {
   if (!media.length) return null;
   const explicit = media.find(m => m.cover);

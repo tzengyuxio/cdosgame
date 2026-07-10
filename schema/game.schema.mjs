@@ -29,6 +29,7 @@ export const TAGS = ["adnd", "compilation"];
 
 // curated media kinds (see docs/media.md)
 export const MEDIA_KINDS = [
+  "key-visual",
   "box-front", "box-back", "box-spine", "package",
   "bonus", "poster",
   "disc", "floppy", "manual-cover", "manual", "ad", "press",

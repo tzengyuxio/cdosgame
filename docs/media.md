@@ -34,6 +34,7 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 
 | kind | 顯示標籤 | 分組 | 說明 |
 |---|---|---|---|
+| `key-visual` | 主視覺 | 主視覺 | 繪師為遊戲繪製的代表性原畫／宣傳主圖（會被印上盒裝／海報／廣告的那張素材本身；MobyGames／abandonware 常單獨列出的 key art）。有別於 `box-front`（實體盒裝掃描）、`poster`（實體特典海報）、`ad`（付費廣告版面）。**infobox 封面首選** |
 | `box-front` | 包裝封面 | 盒裝 | 通常即封面 |
 | `box-back` | 包裝背面 | 盒裝 | |
 | `box-spine` | 包裝側面 | 盒裝 | |
@@ -105,9 +106,9 @@ media: z.array(z.object({
 - **封面決定順序**（`coverOf()` in `src/lib/media.js`）：
   1. `media[]` 中 `cover: true` 的那張（即便 `gallery: false` 也照用）。
   2. 否則從**未被 `gallery: false` 隱藏**的項目中，依 kind 優先序找第一張：
-     `box-front` → `title` → `manual-cover` → `logo` → `portrait` → `ad`。
+     `key-visual` → `box-front` → `title` → `manual-cover` → `logo` → `portrait` → `ad`。
   3. 都沒有 → infobox 顯示「封面待補」佔位。
-  - 設計：`ad` 排在 `logo` / `portrait` 之後，避免公司或人物頁有 ad 時把 ad 當門面；`gallery: false` 的 ad（如第三波代理光榮廣告，因已聚合到多遊戲頁、企業頁不再單獨呈現）也不會被偷渡成 og:image。供 infobox 縮圖與 `og:image`。
+  - 設計：`key-visual`（繪師主視覺原畫）排最前——純插畫無盒裝雜訊（條碼／代理商貼紙／反光），最適合 infobox 縮圖與 og:image；`ad` 排在 `logo` / `portrait` 之後，避免公司或人物頁有 ad 時把 ad 當門面；`gallery: false` 的 ad（如第三波代理光榮廣告，因已聚合到多遊戲頁、企業頁不再單獨呈現）也不會被偷渡成 og:image。供 infobox 縮圖與 `og:image`。
 - **`source` 是代碼**（如 `boneash`），渲染時查 `data/media-sources.json` 展開為「骨灰集散地」＋連結；未登錄則原樣顯示。`source_url` 可覆寫成單張的特定頁網址。
 - **必填欄位**：`src`/`kind`/`source`。`validate` 會擋掉缺 `source`、`src` 檔案不存在、或多於一張 `cover` 的情況。
 - 既有 `cover`（字串）與 `images{}` 維持為來源 provenance 紀錄，**新顯示邏輯只看 `media[]`**；舊 `cover.png` 之類（指向 raw）不再用於顯示，逐步以 `media[]` 取代。
@@ -131,7 +132,7 @@ media: z.array(z.object({
 
 | 機制 | 放哪 | 怎麼標 |
 |---|---|---|
-| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則 `coverOf` 自動沿 priority 鏈找（box-front → title → manual-cover → logo → portrait → ad，跳過 `gallery: false`）|
+| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則 `coverOf` 自動沿 priority 鏈找（key-visual → box-front → title → manual-cover → logo → portrait → ad，跳過 `gallery: false`）|
 | **粗略槽位／排序** | 正文頂、或調類別內順序 | `slot: "hero"`（置頂大圖）、`order: N`（同類排序） |
 | **正文任意位置** | 文章中任一段旁 | 在 `.md` 正文寫 `![圖說](media:screenshot-01){align=right}` |
 
