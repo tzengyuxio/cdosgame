@@ -45179,7 +45179,8 @@
       "developer": "Evryware",
       "keys": [
         "t:拳王爭霸賽|Evryware",
-        "t:Sierra Championship Boxing|Evryware"
+        "t:Sierra Championship Boxing|Evryware",
+        "t:拳王爭霸戰|Evryware"
       ],
       "status": "active",
       "title_zh": "拳王爭霸賽"
@@ -45603,6 +45604,76 @@
       ],
       "status": "active",
       "title_zh": "模擬飛行"
+    },
+    "cdg-5007": {
+      "catalog_id": null,
+      "developer": "Nintendo",
+      "keys": [
+        "t:大金剛|Nintendo",
+        "t:Donkey Kong|Nintendo"
+      ],
+      "status": "active",
+      "title_zh": "大金剛"
+    },
+    "cdg-5008": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:深海尋寶",
+        "t:Aqua Run"
+      ],
+      "status": "active",
+      "title_zh": "深海尋寶"
+    },
+    "cdg-5009": {
+      "catalog_id": null,
+      "developer": "Dave Baskin",
+      "keys": [
+        "t:高樓救生員|Dave Baskin",
+        "t:Bouncing Babies|Dave Baskin"
+      ],
+      "status": "active",
+      "title_zh": "高樓救生員"
+    },
+    "cdg-5010": {
+      "catalog_id": null,
+      "developer": "Vid Kidz",
+      "keys": [
+        "t:星球防衛戰|Vid Kidz",
+        "t:Stargate|Vid Kidz"
+      ],
+      "status": "active",
+      "title_zh": "星球防衛戰"
+    },
+    "cdg-5011": {
+      "catalog_id": null,
+      "developer": "Kevin Bales",
+      "keys": [
+        "t:瘋狂太空站|Kevin Bales",
+        "t:Janitor Joe|Kevin Bales"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂太空站"
+    },
+    "cdg-5012": {
+      "catalog_id": null,
+      "developer": "Brian Fargo",
+      "keys": [
+        "t:惡魔的熔爐|Brian Fargo",
+        "t:The Demon's Forge|Brian Fargo"
+      ],
+      "status": "active",
+      "title_zh": "惡魔的熔爐"
+    },
+    "cdg-5013": {
+      "catalog_id": null,
+      "developer": "Data East",
+      "keys": [
+        "t:漢堡大師|Data East",
+        "t:BurgerTime|Data East"
+      ],
+      "status": "active",
+      "title_zh": "漢堡大師"
     }
   }
 }
