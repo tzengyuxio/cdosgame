@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+
+const showDevTools = import.meta.env.DEV;
 ---
 <Base title="目錄｜中文 DOS 遊戲資料庫">
   <div class="games-layout">
@@ -12,6 +14,12 @@ import Base from '../../layouts/Base.astro';
           <option value="year:desc">年份 ↓</option>
           <option value="title:asc">標題</option>
           <option value="vendor:asc">廠商</option>
+          {showDevTools && (
+            <>
+              <option value="id:asc">CDG ↑</option>
+              <option value="id:desc">CDG ↓</option>
+            </>
+          )}
         </select>
       </div>
       <div id="count" class="count"></div>
@@ -35,6 +43,8 @@ import Base from '../../layouts/Base.astro';
       FACETS.splice(2, 0, ['platform','平台']);   // keep 平台 between 類型 and 年代 in dev
       FACETS.push(['adult','18禁'], ['release','發售狀態']);
     }
+    const SORTS = ['year:asc', 'year:desc', 'title:asc', 'vendor:asc'];
+    if (import.meta.env.DEV) SORTS.push('id:asc', 'id:desc');
     const TOP_FACET_COUNT = 10;
     let GAMES = [];
     let vendorFilter = '';
@@ -47,7 +57,7 @@ import Base from '../../layouts/Base.astro';
     function readURL(){
       const p = new URLSearchParams(location.search);
       state.q = p.get('q') || '';
-      state.sort = p.get('sort') || 'year:asc';
+      state.sort = SORTS.includes(p.get('sort')) ? p.get('sort') : 'year:asc';
       state.page = +(p.get('page') || 1);
       for (const [f] of FACETS) { const v = p.get(f); state.sel[f] = v ? v.split('|') : []; }
     }

@@ -116,6 +116,16 @@ test('sortGames year asc puts null last, desc reverses', () => {
   assert.deepEqual(sortGames(G,'year','desc').map(g=>g.id), ['cdg-3','cdg-1','cdg-2']);
 });
 
+test('sortGames id sorts by numeric catalog id', () => {
+  const games = [
+    { id:'cdg-10', title_zh:'十', publisher_tw:[] },
+    { id:'cdg-2', title_zh:'二', publisher_tw:[] },
+    { id:'cdg-1', title_zh:'一', publisher_tw:[] },
+  ];
+  assert.deepEqual(sortGames(games,'id','asc').map(g=>g.id), ['cdg-1','cdg-2','cdg-10']);
+  assert.deepEqual(sortGames(games,'id','desc').map(g=>g.id), ['cdg-10','cdg-2','cdg-1']);
+});
+
 test('paginate', () => {
   const r = paginate(G, 1, 2);
   assert.equal(r.items.length, 2);

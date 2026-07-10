@@ -79,11 +79,17 @@ export function applyFacets(games, selected) {
 export function sortGames(games, key, dir = 'asc') {
   const sign = dir === 'desc' ? -1 : 1;
   const cmp = {
+    id: (a, b) => catalogIdNumber(a.id) - catalogIdNumber(b.id) || a.id.localeCompare(b.id),
     year: (a, b) => (a.year ?? Infinity) - (b.year ?? Infinity),
     title: (a, b) => a.title_zh.localeCompare(b.title_zh, 'zh-Hant'),
     vendor: (a, b) => (vendorsOf(a)[0] || '').localeCompare(vendorsOf(b)[0] || '', 'zh-Hant'),
   }[key] || (() => 0);
   return [...games].sort((a, b) => sign * cmp(a, b));
+}
+
+function catalogIdNumber(id) {
+  const match = /^cdg-(\d+)$/.exec(id || '');
+  return match ? Number(match[1]) : Infinity;
 }
 
 export function paginate(games, page, size = 50) {
