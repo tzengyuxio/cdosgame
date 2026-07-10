@@ -470,3 +470,6 @@ created: 2026-06-20
 - [x] cdg-4274 魔影之門＝Shadowgate（ICOM Simulations MacVenture, 1987）補精訊：同款雙代理（精訊／軟體世界貴065）。同 ICOM 系列古堡之宴 Uninvited(cdg-4364)、惡夢成真 Deja Vu(cdg-4968)。
 - 註：本批 A/B agent 的「精訊引進」佐證多來自 boneash 中英名對位＋精訊清單（boneash 未標代理商）；遊戲身分皆高信度。⚠ 建 cdg-3777 消歧義時 title_zh 含冒號需加引號（YAML 踩坑、已修）。
 - [x] cdg-4974 滔金記＝Lost Dutchman Mine（Magnetic Images, US 1989，開放世界淘金冒險 SIM）——**使用者確認**、已 promote published。**無 Apple II 版**（DOS/Amiga/Atari ST），精訊為 DOS 版、platform 標無。1896 亞利桑那淘金客、隨機生成地圖。⚠ 勿與 The Lost Dutchman's Gold（1979/82 純文字冒險、有 Apple II 版但玩法不符）混淆。Amiga 版發行商 Magnetic Images vs Innerprise 有分歧、frontmatter 採 Magnetic Images。
+
+### 精訊 M021–M028 批待考（2026-07-11，撰寫本批次時記錄）
+- [ ] cdg-4058 火狐狸（1997）待考／triage：一筆 `offlinelist/fandom@merge` 的未分類 stub（`published: false`、year 1997、developer null、alias「G1238-火狐狸」、`references.fandom: 火狐狸 (1997)`）。與精訊 M026《火狐狸》＝Skyfox（Electronic Arts 1984，已建 cdg-5034）**中文名相同但來源與年代對不上**，疑為同名別款——故建 M026 時**未覆寫此 stub**、另建新 id，避免張冠李戴。待查：1997 這款「火狐狸」實際是哪款（疑對岸小遊戲）→ 補考據後 promote，或 reject／merge。
