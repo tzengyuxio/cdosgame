@@ -45295,10 +45295,11 @@
       "developer": "FTL Games",
       "keys": [
         "t:陽犬號2.0版|FTL Games",
-        "t:SunDog: Frozen Legacy|FTL Games"
+        "t:SunDog: Frozen Legacy|FTL Games",
+        "t:陽犬號|FTL Games"
       ],
       "status": "active",
-      "title_zh": "陽犬號2.0版"
+      "title_zh": "陽犬號"
     },
     "cdg-4972": {
       "catalog_id": null,
