@@ -18613,10 +18613,11 @@
       "catalog_id": null,
       "developer": "Muse Software",
       "keys": [
-        "t:德軍總部|Muse Software"
+        "t:德軍總部|Muse Software",
+        "t:德軍總部（Castle Wolfenstein）|Muse Software"
       ],
       "status": "active",
-      "title_zh": "德軍總部"
+      "title_zh": "德軍總部（Castle Wolfenstein）"
     },
     "cdg-2035": {
       "catalog_id": null,
@@ -18632,10 +18633,11 @@
       "catalog_id": "JXD020",
       "developer": "id",
       "keys": [
-        "cat:JXD020"
+        "cat:JXD020",
+        "t:德軍總部（Wolfenstein 3D）|id"
       ],
       "status": "active",
-      "title_zh": "德軍總部3"
+      "title_zh": "德軍總部（Wolfenstein 3D）"
     },
     "cdg-2037": {
       "catalog_id": null,
@@ -18643,8 +18645,9 @@
       "keys": [
         "t:德軍總部3|id"
       ],
-      "status": "active",
-      "title_zh": "德軍總部3"
+      "status": "merged",
+      "title_zh": "德軍總部3",
+      "merged_into": "cdg-2036"
     },
     "cdg-2038": {
       "catalog_id": "SCD0221",
@@ -45767,6 +45770,127 @@
       ],
       "status": "active",
       "title_zh": "海空大戰"
+    },
+    "cdg-5023": {
+      "catalog_id": null,
+      "developer": "On-Line Systems",
+      "keys": [
+        "t:先鋒號|On-Line Systems",
+        "t:Threshold|On-Line Systems"
+      ],
+      "status": "active",
+      "title_zh": "先鋒號"
+    },
+    "cdg-5024": {
+      "catalog_id": null,
+      "developer": "Mega Micronics",
+      "keys": [
+        "t:幫辦|Mega Micronics",
+        "t:Taipan!|Mega Micronics"
+      ],
+      "status": "active",
+      "title_zh": "幫辦"
+    },
+    "cdg-5025": {
+      "catalog_id": null,
+      "developer": "Adventure International",
+      "keys": [
+        "t:海龍|Adventure International",
+        "t:Sea Dragon|Adventure International"
+      ],
+      "status": "active",
+      "title_zh": "海龍"
+    },
+    "cdg-5026": {
+      "catalog_id": null,
+      "developer": "Software Entertainment Company",
+      "keys": [
+        "t:星式七號（Stellar 7）|Software Entertainment Company",
+        "t:Stellar 7|Software Entertainment Company",
+        "t:星式七號|Software Entertainment Company"
+      ],
+      "status": "active",
+      "title_zh": "星式七號（Stellar 7）"
+    },
+    "cdg-5027": {
+      "catalog_id": null,
+      "developer": "Sierra On-Line",
+      "keys": [
+        "t:鑽油|Sierra On-Line",
+        "t:Oil's Well|Sierra On-Line"
+      ],
+      "status": "active",
+      "title_zh": "鑽油"
+    },
+    "cdg-5028": {
+      "catalog_id": null,
+      "developer": "On-Line Systems",
+      "keys": [
+        "t:神秘屋|On-Line Systems",
+        "t:Mystery House|On-Line Systems"
+      ],
+      "status": "active",
+      "title_zh": "神秘屋"
+    },
+    "cdg-5029": {
+      "catalog_id": null,
+      "developer": "Tactical Design Group",
+      "keys": [
+        "t:登陸諾曼地|Tactical Design Group",
+        "t:Battle for Normandy|Tactical Design Group"
+      ],
+      "status": "active",
+      "title_zh": "登陸諾曼地"
+    },
+    "cdg-5030": {
+      "catalog_id": null,
+      "developer": "Big Five Software",
+      "keys": [
+        "t:糊塗礦工|Big Five Software",
+        "t:Miner 2049er|Big Five Software"
+      ],
+      "status": "active",
+      "title_zh": "糊塗礦工"
+    },
+    "cdg-5031": {
+      "catalog_id": null,
+      "developer": "Muse Software",
+      "keys": [
+        "t:泰坦帝國|Muse Software",
+        "t:Titan Empire|Muse Software"
+      ],
+      "status": "active",
+      "title_zh": "泰坦帝國"
+    },
+    "cdg-5032": {
+      "catalog_id": null,
+      "developer": "Adventure International",
+      "keys": [
+        "t:強盜與稅員|Adventure International",
+        "t:C'est La Vie|Adventure International"
+      ],
+      "status": "active",
+      "title_zh": "強盜與稅員"
+    },
+    "cdg-5033": {
+      "catalog_id": null,
+      "developer": "Datamost",
+      "keys": [
+        "t:機械人先生|Datamost",
+        "t:Mr. Robot and His Robot Factory|Datamost"
+      ],
+      "status": "active",
+      "title_zh": "機械人先生"
+    },
+    "cdg-5034": {
+      "catalog_id": null,
+      "developer": "Electronic Arts",
+      "keys": [
+        "t:火狐狸|Electronic Arts",
+        "t:Skyfox|Electronic Arts"
+      ],
+      "status": "active",
+      "title_zh": "火狐狸"
     }
   }
 }
