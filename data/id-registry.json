@@ -1142,8 +1142,9 @@
       "keys": [
         "cat:SCD0131"
       ],
-      "status": "active",
-      "title_zh": "Taiwan麻雀"
+      "status": "rejected",
+      "title_zh": "Taiwan麻雀",
+      "reject_reason": "out of scope: 向量科技《Taiwan麻雀／台灣麻將》(1999) 已屬 Windows 時期作品，且非任何重要系列的一環，也不構成需要保留的系列作脈絡或公司發展脈絡"
     },
     "cdg-0122": {
       "catalog_id": "SCD0548",
