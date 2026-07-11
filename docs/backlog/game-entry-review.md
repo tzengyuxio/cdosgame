@@ -473,3 +473,48 @@ created: 2026-06-20
 
 ### 精訊 M021–M028 批待考（2026-07-11，撰寫本批次時記錄）
 - [ ] cdg-4058 火狐狸（1997）待考／triage：一筆 `offlinelist/fandom@merge` 的未分類 stub（`published: false`、year 1997、developer null、alias「G1238-火狐狸」、`references.fandom: 火狐狸 (1997)`）。與精訊 M026《火狐狸》＝Skyfox（Electronic Arts 1984，已建 cdg-5034）**中文名相同但來源與年代對不上**，疑為同名別款——故建 M026 時**未覆寫此 stub**、另建新 id，避免張冠李戴。待查：1997 這款「火狐狸」實際是哪款（疑對岸小遊戲）→ 補考據後 promote，或 reject／merge。
+
+### 第三波早期引進批次 2（2026-07-11）
+- [ ] cdg-5046 星際大戰（Space War）：原作身分無法唯一確定。「Space War」1980 年代有多款同名／衍生作（Spacewar! 1962 家用移植、Cinematronics《Space Wars》1977 街機、Atari 2600《Space War》1978），皆不完全吻合第三波常引進的 Apple II／DOS 商業盒裝軟體；商業 DOS 版僅見 1962 原型的 1985 B. Seiler 非商業重製。→ frontmatter developer/year/platform 皆 null，待用第三波實體目錄／封面／型錄編號反查後補正、對應到具體作品。
+- 註：cdg-3641 高速公路銀行遊戲（Rich Man）經查證為**第三波自製中文大富翁類遊戲**（非引進外文作，查無英文原作「Rich Man」；勿與大宇 1989+《大富翁》Richman 混淆），維持 native/zh 分類；已 promote published、並將重複的 cdg-4297 merge 併入。
+
+### 第三波早期引進批次 3（2026-07-11）
+- [ ] cdg-5051 迷宮賽車（Car Maze）／cdg-5052 21點遊戲（Black Jack）／cdg-5053 押骰子（Dice）：三款名稱通用、查無單一商業原作（疑早期 Apple II BASIC 簡易程式），developer/year/platform 皆 null。Black Jack 唯一著名商業候選＝Screenplay《Ken Uston's Professional Blackjack》(1982, Apple II/DOS)，缺封面佐證未硬掛。待第三波實體目錄／封面反查。
+- [ ] cdg-5054 最長的一日（Czorian Siege）與 cdg-4054「最長的一日」(year 1994、未分類 stub) **中文名撞名**：新款已加英文括號消歧義（Czorian Siege＝1983 Computer Applications Unlimited/Screenplay 射擊）；cdg-4054 身分未明（疑 1994 二戰題材別款），待識別後亦補消歧義或 merge。
+- 註：cdg-2556 原「迷宮探險」＝Montezuma's Revenge，因與 Shamus(cdg-5056) 同中文名，依消歧義慣例改標題為「迷宮探險（Montezuma's Revenge）」、裸名入 aliases。
+- 註：Word Attack(cdg-5055)／Spelling Wiz(cdg-5050) 屬兒童/學生教育軟體，依使用者本批指示仍收 published（scope-edutainment-excluded 的例外）。
+
+### 第三波早期引進批次 4（2026-07-11）＋ 16BIT 目錄回填
+- **來源定位**：批 1–4（10×4=40 款）即 `content/topics/第三波綜合軟體目錄.md`「益智娛樂軟體（16BIT系列）」511000021–060 逐列。已將該表 40 列純文字中文名連成 `/games/cdg-NNNN`，並為各條目回填 `catalog_id: '511000NNN'`＋`provenance: sanbo@catalog-16bit`（對齊既有 511 款 cdg-4994 等慣例；原誤用的 thirdwave-list@game-entry 已改）。
+- [ ] cdg-5057 四色牌（511000051）：全表唯一無英文名，判為華人傳統牌戲、台灣在地自製中文程式（content zh/native），developer/year 待考。
+- [ ] cdg-5052/5053/5062/5063/5064（21點/押骰子/超級樸克/樸克牌GIN/樸克遊戲Poker）：名稱通用、查無單一商業原作，developer/year/platform null。
+- [ ] cdg-5061 恐慌大追擊（Panic）：通用名，最可能對應 Broderbund《Apple Panic》(IBM PC 1982) 或 Universal 街機《Space Panic》(1980)，缺封面未定版。
+- 併入款（各加 sanbo provenance）：國王密令→cdg-1043、國王特使→cdg-1044、海龍→cdg-5025、籃球一對一→cdg-5015、大陰謀(Hacker)→cdg-4941、英雄救美(Karateka)→cdg-3869。
+- 註：後續若續收 511000061–100（雷虎特攻隊/賓果/冬季奧運會…等），沿用同慣例。
+
+### 第三波早期引進批次 5（511000061–070，2026-07-11）
+- 併入既有（各加第三波 publisher＋sanbo provenance＋第三波 511 release_code＋正文註）：雷虎特攻隊(Ace of Aces)→cdg-4669、冬季奧運會(Winter Games)→cdg-4804、世界空手道錦標賽→cdg-4942、入侵者(Infiltrator)→cdg-4784(飛狼突擊，加入侵者 alias)、立體西洋棋→cdg-4783、上海麻將(Shanghai)→cdg-4810(加上海麻將 alias)。
+- 新增：cdg-5067 職業棒球聯盟(MicroLeague Baseball，1984 US，棒球策略模擬 SPG)、cdg-5068 間諜追逐戰(Spy Hunter，Bally Midway 1983，ACT)。
+- [ ] cdg-5065 賓果遊戲(Bingo)：通用名多候選、無單一原作，null。
+- [ ] cdg-5066 步步高升(Big 2 Game)：大老二/鋤大D 亞洲牌戲、無歐美原作，判在地自製(zh/native)、developer/year 待考。
+- 註：入侵者 中文名亦為 cdg-4941(Hacker/精訊) 之主標題；cdg-4784(Infiltrator) 以入侵者為 alias（顯示標題仍為飛狼突擊，非同標題撞名）。
+
+### 第三波早期引進批次 6（511000071–080，2026-07-11）
+- 新增：cdg-5069 李小龍(Bruce Lee, Datasoft 1984 ACT)、cdg-5070 蛇王迷宮(Snake Byte, Sirius 1982 ACT，無 DOS 版 platform null)。
+- 補 stub 並發佈：cdg-3393 上古戰爭的藝術(The Ancient Art of War, Evryware/Broderbund 1984, SLG)——**主標題由「戰爭上古代藝術」改為「上古戰爭的藝術」**以消歧義（原與 cdg-3395《戰爭上古代藝術》＝空戰篇 同標題撞名；改後兩者主標題不同）。
+- 併入既有（加第三波 publisher＋sanbo prov＋第三波 511 SKU＋別名＋正文註）：魔宮尋寶→cdg-2556(Montezuma's Revenge，已於批3改標題含 Montezuma's Revenge，此加魔宮尋寶 alias)、轟炸大隊→cdg-4988、富貴城→cdg-4782(富貴狗)、美國杯帆船大賽→cdg-4957(美式帆船大賽)、拂曉出擊→cdg-4790(潛艇爭霸戰)、龍之忍者→cdg-4279(Bad Dudes)、洲際杯棒球賽→cdg-4792(強棒出擊)。
+- [x] **Sub Battle Simulator 重複 id 已合併**（2026-07-11）：cdg-4963(海戰之狼/精訊)併入 cdg-4790(潛艇爭霸戰)。海戰之狼→alias、精訊→publisher、P154→release_code、圖片3張併入(box-back-02/box-front-02/manual-01)、正文補精訊譯名典故＋徐人強考據、精訊目錄 P154 連結改指 4790；registry cdg-4963 status=merged→cdg-4790。
+
+### 第三波早期引進批次 7（511000081–090，2026-07-11）
+- 新增可考：cdg-5073 棋王（The Chessmaster 2000, Software Toolworks 1986, TBG）。
+- 補 stub 並發佈：cdg-2712 霹靂磚塊（Space Block，第三波 1988 自製打磚塊 ACT，chiuinan 頁佐證、native zh）。
+- 併入既有（加第三波＋sanbo＋511 SKU＋別名＋正文註）：力爭上游→cdg-4786(青蛙上天/Frogger II)、摔角大賽→cdg-4789(Bop'n Wrestle)、名人杯高爾夫球賽→cdg-4788(高爾夫大賽/Golf's Best)、超級高爾夫→cdg-4796(金牌高爾夫/Championship Golf)。
+- [ ] 無單一原作（華人棋牌判 zh/native；西式判 en 通用）：cdg-5071 蝴蝶棋(華人民間棋)、cdg-5075 樸克99點(中式99點)、cdg-5072 自然制橋牌(西式橋牌 en)。
+- [ ] cdg-5074 全能情報員：目錄無英文名、查無原作，極簡條目（content/genre 多 null，genre ETC），待第三波實體/其他來源補考。
+
+### 第三波早期引進批次 8（511000091–100，16BIT 系列完結，2026-07-11）
+- 併入既有（加第三波＋sanbo＋511 SKU＋別名＋正文註）：世界運動會→cdg-4805(World Games)、極地之狐→cdg-3112(Arcticfox)、夏季奧運會II→cdg-4959(夏季奧運會2/Summer Games II)、戶外籃球對抗賽→cdg-4018(野外籃球/Street Sports Basketball)。
+- 新增（6 款目錄無英文名、查無單一原作，honest 極簡條目 content/localization 多 null）：cdg-5076 星際爭霸隊(疑 Star Fleet I，未證)、cdg-5077 强棒出擊(棒球 SPG)、cdg-5078 國際密探(諜報 ETC)、cdg-5079 明星棒球隊抗賽(棒球 SPG)、cdg-5080 長驅直入(ETC)、cdg-5081 拉斯維加(賭場 TBG)。待第三波實體磁片/盒裝標題畫面或當期廣告補英文名。
+- 消歧義：cdg-4792 因與 093 强棒出擊 同名，主標題改為「強棒出擊（Pure-Stat Baseball）」；093 為不同棒球款，正文互相 cross-link。
+- [ ] **Summer Games II 重複 id**：cdg-4959(夏季奧運會2/精訊)與 cdg-4803(夏季運動會2/軟體世界)為**同一遊戲**(Epyx)不同代理名，屬應 merge 的重複（比照已合併的 Sub Battle 4963→4790、及 Winter Games cdg-4804 單一 id 收兩名的作法）。第三波夏季奧運會II 已掛 cdg-4959。待使用者確認後 game-triage 合併 4803→4959。
+- ✅ 16BIT 系列 511000021–100（8 批 80 款）全數落地並回連目錄表。
