@@ -625,8 +625,9 @@
       "keys": [
         "cat:SCD1738"
       ],
-      "status": "active",
-      "title_zh": "F1挑戰賽99-02／"
+      "status": "rejected",
+      "title_zh": "F1挑戰賽99-02／",
+      "reject_reason": "out of scope: F1挑戰賽99-02（F1 Challenge '99-'02, Image Space, 2002），外文 Windows 賽車遊戲、非 DOS 時代、非國產"
     },
     "cdg-0067": {
       "catalog_id": "SWZ012",
@@ -790,8 +791,9 @@
       "keys": [
         "cat:SCD1205"
       ],
-      "status": "active",
-      "title_zh": "Hello Kitty 25週年紀念珍藏"
+      "status": "rejected",
+      "title_zh": "Hello Kitty 25週年紀念珍藏",
+      "reject_reason": "out of scope: Hello Kitty 25週年紀念珍藏（Sanrio, 1999），兒童向 edutainment（幼教迷你遊戲集），非收錄範圍"
     },
     "cdg-0085": {
       "catalog_id": null,
@@ -982,8 +984,9 @@
       "keys": [
         "cat:SCD0677"
       ],
-      "status": "active",
-      "title_zh": "NBA全場緊迫盯人"
+      "status": "rejected",
+      "title_zh": "NBA全場緊迫盯人",
+      "reject_reason": "out of scope: NBA全場緊迫盯人（NBA Full Court Press, Beam Software/Microsoft, 1996），純外文美版體育遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0105": {
       "catalog_id": "SCD0678",
@@ -991,8 +994,9 @@
       "keys": [
         "cat:SCD0678"
       ],
-      "status": "active",
-      "title_zh": "NBA灌籃奇兵"
+      "status": "rejected",
+      "title_zh": "NBA灌籃奇兵",
+      "reject_reason": "out of scope: NBA灌籃奇兵（NBA Hangtime, Midway, 1996），純外文美版體育遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0106": {
       "catalog_id": null,
@@ -2559,8 +2563,9 @@
       "keys": [
         "cat:SCD0733"
       ],
-      "status": "active",
-      "title_zh": "上古卷軸4：遺忘之都"
+      "status": "rejected",
+      "title_zh": "上古卷軸4：遺忘之都",
+      "reject_reason": "out of scope: 上古卷軸4：遺忘之都（The Elder Scrolls IV: Oblivion, Bethesda, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-0276": {
       "catalog_id": "SCD0734",
@@ -11434,8 +11439,9 @@
       "keys": [
         "cat:SCD1179"
       ],
-      "status": "active",
-      "title_zh": "海底總動員"
+      "status": "rejected",
+      "title_zh": "海底總動員",
+      "reject_reason": "out of scope: 海底總動員（Finding Nemo, KnowWonder, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1243": {
       "catalog_id": "SCD1178",
@@ -11443,8 +11449,9 @@
       "keys": [
         "cat:SCD1178"
       ],
-      "status": "active",
-      "title_zh": "海底總動員"
+      "status": "rejected",
+      "title_zh": "海底總動員",
+      "reject_reason": "out of scope: 海底總動員（Finding Nemo, 2003, 台灣代理盒裝），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1244": {
       "catalog_id": "SCD1496",
@@ -11588,8 +11595,9 @@
       "keys": [
         "cat:SCD2483"
       ],
-      "status": "active",
-      "title_zh": "湯姆克蘭西之間諜遊戲1"
+      "status": "rejected",
+      "title_zh": "湯姆克蘭西之間諜遊戲1",
+      "reject_reason": "out of scope: 湯姆克蘭西之間諜遊戲1（Splinter Cell, Ubisoft, 2003, 台灣代理盒裝），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1260": {
       "catalog_id": "SCD2484",
@@ -12824,8 +12832,9 @@
       "keys": [
         "cat:SCD0854"
       ],
-      "status": "active",
-      "title_zh": "動物俄羅斯"
+      "status": "rejected",
+      "title_zh": "動物俄羅斯",
+      "reject_reason": "out of scope: 動物俄羅斯（Baku Baku Animal, SEGA, 1996），純外文（日）益智遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1396": {
       "catalog_id": "SCD1481",
@@ -13418,8 +13427,9 @@
       "keys": [
         "cat:SCD2552"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟2003"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟2003",
+      "reject_reason": "out of scope: 美國職棒大聯盟2003（EA, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1461": {
       "catalog_id": "SCD2553",
@@ -14495,8 +14505,9 @@
       "keys": [
         "cat:SCD0629"
       ],
-      "status": "active",
-      "title_zh": "任你編卡通世界2：海底世界"
+      "status": "rejected",
+      "title_zh": "任你編卡通世界2：海底世界",
+      "reject_reason": "out of scope: 任你編卡通世界2：海底世界（Best Wise, 1997），兒童卡通繪畫製作創作工具／edutainment，非遊戲"
     },
     "cdg-1580": {
       "catalog_id": "SCD0839",
@@ -14522,8 +14533,9 @@
       "keys": [
         "cat:SCD2274"
       ],
-      "status": "active",
-      "title_zh": "企鵝家族1"
+      "status": "rejected",
+      "title_zh": "企鵝家族1",
+      "reject_reason": "out of scope: 企鵝家族1（Pingu: A Barrel of Fun!, Media Projects/BBC, 1997），低幼兒童 edutainment（教字母/數字/形狀），非收錄範圍"
     },
     "cdg-1583": {
       "catalog_id": "SCD2275",
@@ -14639,8 +14651,9 @@
       "keys": [
         "cat:SCD1210"
       ],
-      "status": "active",
-      "title_zh": "作文48招"
+      "status": "rejected",
+      "title_zh": "作文48招",
+      "reject_reason": "out of scope: 作文48招（新資訊科技, 1998），台灣作文教學軟體、非遊戲"
     },
     "cdg-1596": {
       "catalog_id": "SCD1030",
@@ -14822,8 +14835,9 @@
       "keys": [
         "cat:SCD1998"
       ],
-      "status": "active",
-      "title_zh": "俞斌講棋：200局精選圍棋講棋"
+      "status": "rejected",
+      "title_zh": "俞斌講棋：200局精選圍棋講棋",
+      "reject_reason": "out of scope: 俞斌講棋：200局精選圍棋講棋（晟業, 1998），台灣圍棋講棋教學軟體、非遊戲"
     },
     "cdg-1616": {
       "catalog_id": "OCD0096",
@@ -15201,8 +15215,9 @@
       "keys": [
         "cat:SCD1569"
       ],
-      "status": "active",
-      "title_zh": "倫敦瘋狂出租車2"
+      "status": "rejected",
+      "title_zh": "倫敦瘋狂出租車2",
+      "reject_reason": "out of scope: 倫敦瘋狂出租車2（Team6, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1658": {
       "catalog_id": null,
@@ -15336,8 +15351,9 @@
       "keys": [
         "t:傷心跳棋|504 Software"
       ],
-      "status": "active",
-      "title_zh": "傷心跳棋"
+      "status": "rejected",
+      "title_zh": "傷心跳棋",
+      "reject_reason": "out of scope: 傷心跳棋（504 Software, 2008），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1673": {
       "catalog_id": null,
@@ -15963,8 +15979,9 @@
       "keys": [
         "cat:SCD1675"
       ],
-      "status": "active",
-      "title_zh": "急難先鋒1"
+      "status": "rejected",
+      "title_zh": "急難先鋒1",
+      "reject_reason": "out of scope: 急難先鋒1（Emergency, Sixteen Tons, 1998），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1742": {
       "catalog_id": "SCD2673",
@@ -15972,8 +15989,9 @@
       "keys": [
         "cat:SCD2673"
       ],
-      "status": "active",
-      "title_zh": "急難先鋒2"
+      "status": "rejected",
+      "title_zh": "急難先鋒2",
+      "reject_reason": "out of scope: 急難先鋒2（Emergency 2, Sixteen Tons, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1743": {
       "catalog_id": null,
@@ -15981,8 +15999,9 @@
       "keys": [
         "t:急難先鋒3|Sixteen Tons"
       ],
-      "status": "active",
-      "title_zh": "急難先鋒3"
+      "status": "rejected",
+      "title_zh": "急難先鋒3",
+      "reject_reason": "out of scope: 急難先鋒3（Emergency 3, Sixteen Tons, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1744": {
       "catalog_id": "SCD1676",
@@ -18330,8 +18349,9 @@
       "keys": [
         "cat:SCD0652"
       ],
-      "status": "active",
-      "title_zh": "麻將探秘3"
+      "status": "rejected",
+      "title_zh": "麻將探秘3",
+      "reject_reason": "out of scope: 麻將探秘3（Mahjong Escape, iWin, 2008），外文 Windows 休閒遊戲、非 DOS 時代、非國產"
     },
     "cdg-2002": {
       "catalog_id": "SCD0565",
@@ -18619,8 +18639,9 @@
       "keys": [
         "t:德州撲克|Felix Hammer"
       ],
-      "status": "active",
-      "title_zh": "德州撲克"
+      "status": "rejected",
+      "title_zh": "德州撲克",
+      "reject_reason": "out of scope: 德州撲克（Felix Hammer, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2034": {
       "catalog_id": null,
@@ -19437,8 +19458,9 @@
       "keys": [
         "t:綿羊拉力冠軍賽|Black Sheep"
       ],
-      "status": "active",
-      "title_zh": "綿羊拉力冠軍賽"
+      "status": "rejected",
+      "title_zh": "綿羊拉力冠軍賽",
+      "reject_reason": "out of scope: 綿羊拉力冠軍賽（Black Sheep, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2124": {
       "catalog_id": "SCD2347",
@@ -19755,8 +19777,9 @@
       "keys": [
         "cat:SCD2302"
       ],
-      "status": "active",
-      "title_zh": "豬兔大戰"
+      "status": "rejected",
+      "title_zh": "豬兔大戰",
+      "reject_reason": "out of scope: 豬兔大戰（StormRegion, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2159": {
       "catalog_id": "SCD1954",
@@ -21150,8 +21173,9 @@
       "keys": [
         "cat:SCD2395"
       ],
-      "status": "active",
-      "title_zh": "新"
+      "status": "rejected",
+      "title_zh": "新",
+      "reject_reason": "out of scope: 新（Bitmap Brothers, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2313": {
       "catalog_id": "SCD2116",
@@ -23271,8 +23295,9 @@
       "keys": [
         "cat:SCD0802"
       ],
-      "status": "active",
-      "title_zh": "迪士尼星際寶貝夏威夷冒險"
+      "status": "rejected",
+      "title_zh": "迪士尼星際寶貝夏威夷冒險",
+      "reject_reason": "out of scope: 迪士尼星際寶貝夏威夷冒險（Disney's Lilo & Stitch, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2546": {
       "catalog_id": "SCD2757",
@@ -23806,8 +23831,9 @@
       "keys": [
         "cat:SCD1412"
       ],
-      "status": "active",
-      "title_zh": "雪樂山21點"
+      "status": "rejected",
+      "title_zh": "雪樂山21點",
+      "reject_reason": "out of scope: 雪樂山21點（Encore, 2005），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2604": {
       "catalog_id": "SCD1413",
@@ -23934,8 +23960,9 @@
       "keys": [
         "cat:SCD1405"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2004"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2004",
+      "reject_reason": "out of scope: 雪樂山撲克遊戲大全2004（Sierra/Hoyle, 2003），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2618": {
       "catalog_id": "SCD1406",
@@ -23943,8 +23970,9 @@
       "keys": [
         "cat:SCD1406"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2005"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2005",
+      "reject_reason": "out of scope: 雪樂山撲克遊戲大全2005（Encore, 2005），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2619": {
       "catalog_id": "SCD1407",
@@ -23952,8 +23980,9 @@
       "keys": [
         "cat:SCD1407"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2008"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2008",
+      "reject_reason": "out of scope: 雪樂山撲克遊戲大全2008（Encore, 2008），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2620": {
       "catalog_id": "SCD1408",
@@ -23998,8 +24027,9 @@
       "keys": [
         "cat:SCD1438"
       ],
-      "status": "active",
-      "title_zh": "雪樂山桌遊大全2004"
+      "status": "rejected",
+      "title_zh": "雪樂山桌遊大全2004",
+      "reject_reason": "out of scope: 雪樂山桌遊大全2004（Sierra/Hoyle, 2003），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2625": {
       "catalog_id": "SCD1409",
@@ -24079,8 +24109,9 @@
       "keys": [
         "cat:SCD1451"
       ],
-      "status": "active",
-      "title_zh": "雪樂山經典賭博遊戲"
+      "status": "rejected",
+      "title_zh": "雪樂山經典賭博遊戲",
+      "reject_reason": "out of scope: 雪樂山經典賭博遊戲（Encore, 2005），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2634": {
       "catalog_id": "SCD1420",
@@ -24106,8 +24137,9 @@
       "keys": [
         "cat:SCD0096"
       ],
-      "status": "active",
-      "title_zh": "雪樂山西洋棋"
+      "status": "rejected",
+      "title_zh": "雪樂山西洋棋",
+      "reject_reason": "out of scope: 雪樂山西洋棋（Fluent, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2637": {
       "catalog_id": "SCD1455",
@@ -24115,8 +24147,9 @@
       "keys": [
         "cat:SCD1455"
       ],
-      "status": "active",
-      "title_zh": "雪樂山角子機系列全集"
+      "status": "rejected",
+      "title_zh": "雪樂山角子機系列全集",
+      "reject_reason": "out of scope: 雪樂山角子機系列全集（Encore, 2005），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2638": {
       "catalog_id": "SCD1453",
@@ -24133,8 +24166,9 @@
       "keys": [
         "cat:SCD1454"
       ],
-      "status": "active",
-      "title_zh": "雪樂山角子機與視頻撲克3"
+      "status": "rejected",
+      "title_zh": "雪樂山角子機與視頻撲克3",
+      "reject_reason": "out of scope: 雪樂山角子機與視頻撲克3（Encore, 2005），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2640": {
       "catalog_id": "SCD1452",
@@ -24151,8 +24185,9 @@
       "keys": [
         "cat:SCD1432"
       ],
-      "status": "active",
-      "title_zh": "雪樂山解謎與益智遊戲全集"
+      "status": "rejected",
+      "title_zh": "雪樂山解謎與益智遊戲全集",
+      "reject_reason": "out of scope: 雪樂山解謎與益智遊戲全集（Encore, 2008），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2642": {
       "catalog_id": "SCD1429",
@@ -24169,8 +24204,9 @@
       "keys": [
         "cat:SCD1430"
       ],
-      "status": "active",
-      "title_zh": "雪樂山解謎遊戲大全2004"
+      "status": "rejected",
+      "title_zh": "雪樂山解謎遊戲大全2004",
+      "reject_reason": "out of scope: 雪樂山解謎遊戲大全2004（Sierra/Hoyle, 2003），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2644": {
       "catalog_id": "SCD1431",
@@ -24214,8 +24250,9 @@
       "keys": [
         "cat:SCD1447"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2004"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2004",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全2004（Sierra/Hoyle, 2003），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2649": {
       "catalog_id": "SCD1448",
@@ -24223,8 +24260,9 @@
       "keys": [
         "cat:SCD1448"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2006"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2006",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全2006（Encore, 2005），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2650": {
       "catalog_id": "SCD1449",
@@ -24278,8 +24316,9 @@
       "keys": [
         "cat:SCD1411"
       ],
-      "status": "active",
-      "title_zh": "雪樂山雙陸棋"
+      "status": "rejected",
+      "title_zh": "雪樂山雙陸棋",
+      "reject_reason": "out of scope: 雪樂山雙陸棋（Encore, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2656": {
       "catalog_id": "SCD2339",
@@ -24495,8 +24534,9 @@
       "keys": [
         "cat:SCD2672"
       ],
-      "status": "active",
-      "title_zh": "雷神之鎚4"
+      "status": "rejected",
+      "title_zh": "雷神之鎚4",
+      "reject_reason": "out of scope: 雷神之鎚4（Quake 4, Raven/id Software, 2005），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2680": {
       "catalog_id": "SCD1958",
@@ -25602,8 +25642,9 @@
       "keys": [
         "cat:SCD2789"
       ],
-      "status": "active",
-      "title_zh": "瘋狂速克達"
+      "status": "rejected",
+      "title_zh": "瘋狂速克達",
+      "reject_reason": "out of scope: 瘋狂速克達（Team6, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2802": {
       "catalog_id": "JXD019",
@@ -25647,8 +25688,9 @@
       "keys": [
         "cat:SCD1797"
       ],
-      "status": "active",
-      "title_zh": "瘋狂青蛙賽車2"
+      "status": "rejected",
+      "title_zh": "瘋狂青蛙賽車2",
+      "reject_reason": "out of scope: 瘋狂青蛙賽車2（Crazy Frog Racer 2, Neko, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2807": {
       "catalog_id": "SCD0105",
@@ -25917,8 +25959,9 @@
       "keys": [
         "cat:SCD2197"
       ],
-      "status": "active",
-      "title_zh": "虹彩六號4"
+      "status": "rejected",
+      "title_zh": "虹彩六號4",
+      "reject_reason": "out of scope: 虹彩六號4（Rainbow Six: Lockdown, Red Storm, 2005），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2837": {
       "catalog_id": "SCD2198",
@@ -25926,8 +25969,9 @@
       "keys": [
         "cat:SCD2198"
       ],
-      "status": "active",
-      "title_zh": "虹彩六號5"
+      "status": "rejected",
+      "title_zh": "虹彩六號5",
+      "reject_reason": "out of scope: 虹彩六號5（Rainbow Six: Vegas, Ubisoft, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2838": {
       "catalog_id": "SCD2199",
@@ -26955,8 +26999,9 @@
       "keys": [
         "cat:SCD1464"
       ],
-      "status": "active",
-      "title_zh": "刺客任務4：血錢交易"
+      "status": "rejected",
+      "title_zh": "刺客任務4：血錢交易",
+      "reject_reason": "out of scope: 刺客任務4：血錢交易（Hitman: Blood Money, IO Interactive, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2950": {
       "catalog_id": "SCD1603",
@@ -27394,8 +27439,9 @@
       "keys": [
         "cat:SCD2632"
       ],
-      "status": "active",
-      "title_zh": "加菲貓1"
+      "status": "rejected",
+      "title_zh": "加菲貓1",
+      "reject_reason": "out of scope: 加菲貓1（Garfield, Code Monkeys, 2004），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2998": {
       "catalog_id": "SCD2633",
@@ -27476,8 +27522,9 @@
       "keys": [
         "t:勁爆美國棒球2002|Sports Mogul"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2002"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2002",
+      "reject_reason": "out of scope: 勁爆美國棒球2002（Baseball Mogul 2002, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3007": {
       "catalog_id": null,
@@ -27485,8 +27532,9 @@
       "keys": [
         "t:勁爆美國棒球2003|Sports Mogul"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2003"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2003",
+      "reject_reason": "out of scope: 勁爆美國棒球2003（Baseball Mogul 2003, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3008": {
       "catalog_id": null,
@@ -27494,8 +27542,9 @@
       "keys": [
         "t:勁爆美國棒球2004|Sports Mogul"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2004"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2004",
+      "reject_reason": "out of scope: 勁爆美國棒球2004（Baseball Mogul 2004, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3009": {
       "catalog_id": null,
@@ -27513,8 +27562,9 @@
       "keys": [
         "cat:SCD2256"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2007"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2007",
+      "reject_reason": "out of scope: 勁爆美國棒球2007（Baseball Mogul 2007, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3011": {
       "catalog_id": "SCD2255",
@@ -27604,8 +27654,9 @@
       "keys": [
         "cat:SCD0673"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃2004"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃2004",
+      "reject_reason": "out of scope: 勁爆美國職籃2004（EA, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3021": {
       "catalog_id": "SCD0674",
@@ -27631,8 +27682,9 @@
       "keys": [
         "cat:SCD1099"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃2007"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃2007",
+      "reject_reason": "out of scope: 勁爆美國職籃2007（EA, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3024": {
       "catalog_id": "SCD0853",
@@ -28460,8 +28512,9 @@
       "keys": [
         "cat:SCD1894"
       ],
-      "status": "active",
-      "title_zh": "極地越野賽"
+      "status": "rejected",
+      "title_zh": "極地越野賽",
+      "reject_reason": "out of scope: 極地越野賽（Team6, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3115": {
       "catalog_id": "OCD0121",
@@ -28595,8 +28648,9 @@
       "keys": [
         "cat:SCD1275"
       ],
-      "status": "active",
-      "title_zh": "極速快感7"
+      "status": "rejected",
+      "title_zh": "極速快感7",
+      "reject_reason": "out of scope: 極速快感7（Need for Speed Underground, EA, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3130": {
       "catalog_id": "SCD1276",
@@ -28622,8 +28676,9 @@
       "keys": [
         "cat:SCD1278"
       ],
-      "status": "active",
-      "title_zh": "極速快感10"
+      "status": "rejected",
+      "title_zh": "極速快感10",
+      "reject_reason": "out of scope: 極速快感10（Need for Speed Carbon, EA, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3133": {
       "catalog_id": "SCD1279",
@@ -28676,8 +28731,9 @@
       "keys": [
         "cat:SCD1883"
       ],
-      "status": "active",
-      "title_zh": "極速房車賽3"
+      "status": "rejected",
+      "title_zh": "極速房車賽3",
+      "reject_reason": "out of scope: 極速房車賽3（Codemasters, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3139": {
       "catalog_id": "SCD2253",
@@ -28730,8 +28786,9 @@
       "keys": [
         "cat:SCD1196"
       ],
-      "status": "active",
-      "title_zh": "極限模擬飛行2004"
+      "status": "rejected",
+      "title_zh": "極限模擬飛行2004",
+      "reject_reason": "out of scope: 極限模擬飛行2004（Victory, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3145": {
       "catalog_id": "SCD1879",
@@ -28748,8 +28805,9 @@
       "keys": [
         "cat:SCD1880"
       ],
-      "status": "active",
-      "title_zh": "極限衝刺2"
+      "status": "rejected",
+      "title_zh": "極限衝刺2",
+      "reject_reason": "out of scope: 極限衝刺2（FlatOut 2, Bugbear, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3147": {
       "catalog_id": "SCD2743",
@@ -29270,8 +29328,9 @@
       "keys": [
         "cat:SCD1098"
       ],
-      "status": "active",
-      "title_zh": "模擬鄰居1"
+      "status": "rejected",
+      "title_zh": "模擬鄰居1",
+      "reject_reason": "out of scope: 模擬鄰居1（JoWood, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3204": {
       "catalog_id": "OCD0123",
@@ -29786,8 +29845,9 @@
       "keys": [
         "cat:SCD2606"
       ],
-      "status": "active",
-      "title_zh": "火線獵殺：先進戰士"
+      "status": "rejected",
+      "title_zh": "火線獵殺：先進戰士",
+      "reject_reason": "out of scope: 火線獵殺：先進戰士（Ghost Recon Advanced Warfighter, Ubisoft, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3261": {
       "catalog_id": "SCD2607",
@@ -30944,8 +31004,9 @@
       "keys": [
         "cat:SCD2041#2"
       ],
-      "status": "active",
-      "title_zh": "戰慄時空2：二部曲"
+      "status": "rejected",
+      "title_zh": "戰慄時空2：二部曲",
+      "reject_reason": "out of scope: 戰慄時空2：二部曲（Half-Life 2: Episode Two, Valve, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3388": {
       "catalog_id": "SCD2039,SCD2040\nSCD2041",
@@ -31079,8 +31140,9 @@
       "keys": [
         "cat:SCD0648"
       ],
-      "status": "active",
-      "title_zh": "戰神4：以太英雄"
+      "status": "rejected",
+      "title_zh": "戰神4：以太英雄",
+      "reject_reason": "out of scope: 戰神4：以太英雄（Warlords IV, Infinite Interactive, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3403": {
       "catalog_id": "SCD0341",
@@ -32591,8 +32653,9 @@
       "keys": [
         "cat:SCD2018"
       ],
-      "status": "active",
-      "title_zh": "瑪利歐的時光機"
+      "status": "rejected",
+      "title_zh": "瑪利歐的時光機",
+      "reject_reason": "out of scope: 瑪利歐的時光機（Mario's Time Machine, The Software Toolworks, 1993），外文兒童 edutainment、無台灣中文化／代理足跡"
     },
     "cdg-3569": {
       "catalog_id": "SCD1953",
@@ -33584,8 +33647,9 @@
       "keys": [
         "cat:SCD2667"
       ],
-      "status": "active",
-      "title_zh": "魔域幻境之浴血戰場"
+      "status": "rejected",
+      "title_zh": "魔域幻境之浴血戰場",
+      "reject_reason": "out of scope: 魔域幻境之浴血戰場（Unreal Tournament 3, Epic, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3679": {
       "catalog_id": "SCD2649",
