@@ -5864,8 +5864,9 @@
       "keys": [
         "cat:SCD1937"
       ],
-      "status": "active",
-      "title_zh": "世嘉"
+      "status": "rejected",
+      "title_zh": "世嘉",
+      "reject_reason": "out of scope: 世嘉（SEGA, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-0639": {
       "catalog_id": "SCD1934",
@@ -5891,8 +5892,9 @@
       "keys": [
         "cat:SCD1936"
       ],
-      "status": "active",
-      "title_zh": "世嘉拉力賽"
+      "status": "rejected",
+      "title_zh": "世嘉拉力賽",
+      "reject_reason": "out of scope: 世嘉拉力賽（Sega Rally, SEGA, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-0642": {
       "catalog_id": "SCD1134",
@@ -9371,8 +9373,9 @@
       "keys": [
         "cat:SCD2287"
       ],
-      "status": "active",
-      "title_zh": "喵喵貓卡拉"
+      "status": "rejected",
+      "title_zh": "喵喵貓卡拉",
+      "reject_reason": "out of scope: 喵喵貓卡拉（豐騰, 皇統代理, 1998），兒童卡拉OK 歌曲多媒體（Children's Songbook）、非遊戲"
     },
     "cdg-1020": {
       "catalog_id": "SCD0951",
@@ -10304,8 +10307,9 @@
       "keys": [
         "cat:SCD2278"
       ],
-      "status": "active",
-      "title_zh": "我愛做頭腦體操"
+      "status": "rejected",
+      "title_zh": "我愛做頭腦體操",
+      "reject_reason": "out of scope: 我愛做頭腦體操（日本學習研究社/Gakken, 光復書局代理, 1998），兒童 IQ 益智教育軟體、非遊戲"
     },
     "cdg-1122": {
       "catalog_id": "SCD2715",
@@ -13915,8 +13919,9 @@
       "keys": [
         "cat:SCD1872"
       ],
-      "status": "active",
-      "title_zh": "風火輪：噴射機"
+      "status": "rejected",
+      "title_zh": "風火輪：噴射機",
+      "reject_reason": "out of scope: 風火輪：噴射機（Hot Wheels, Eagle, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1515": {
       "catalog_id": "SCD1875",
@@ -13924,8 +13929,9 @@
       "keys": [
         "cat:SCD1875"
       ],
-      "status": "active",
-      "title_zh": "風火輪：巴什競技場"
+      "status": "rejected",
+      "title_zh": "風火輪：巴什競技場",
+      "reject_reason": "out of scope: 風火輪：巴什競技場（Hot Wheels, Micro Forte, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1516": {
       "catalog_id": "SCD1871",
@@ -13942,8 +13948,9 @@
       "keys": [
         "cat:SCD1878"
       ],
-      "status": "active",
-      "title_zh": "風火輪：打敗它"
+      "status": "rejected",
+      "title_zh": "風火輪：打敗它",
+      "reject_reason": "out of scope: 風火輪：打敗它（Hot Wheels: Beat That!, Eutechnyx, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1518": {
       "catalog_id": "SCD0916",
@@ -13960,8 +13967,9 @@
       "keys": [
         "cat:SCD1877"
       ],
-      "status": "active",
-      "title_zh": "風火輪：特技賽道挑戰賽"
+      "status": "rejected",
+      "title_zh": "風火輪：特技賽道挑戰賽",
+      "reject_reason": "out of scope: 風火輪：特技賽道挑戰賽（Hot Wheels, Climax Brighton, 2004），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1520": {
       "catalog_id": "SCD1869",
@@ -13987,8 +13995,9 @@
       "keys": [
         "cat:SCD1876"
       ],
-      "status": "active",
-      "title_zh": "風火輪：環球競賽"
+      "status": "rejected",
+      "title_zh": "風火輪：環球競賽",
+      "reject_reason": "out of scope: 風火輪：環球競賽（Hot Wheels, Climax Brighton, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1523": {
       "catalog_id": "SCD1874",
@@ -13996,8 +14005,9 @@
       "keys": [
         "cat:SCD1874"
       ],
-      "status": "active",
-      "title_zh": "風火輪：疾速賽車"
+      "status": "rejected",
+      "title_zh": "風火輪：疾速賽車",
+      "reject_reason": "out of scope: 風火輪：疾速賽車（Hot Wheels, Beyond, 2002），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1524": {
       "catalog_id": "SCD1873",
@@ -14005,8 +14015,9 @@
       "keys": [
         "cat:SCD1873"
       ],
-      "status": "active",
-      "title_zh": "風火輪：麥肯尼斯"
+      "status": "rejected",
+      "title_zh": "風火輪：麥肯尼斯",
+      "reject_reason": "out of scope: 風火輪：麥肯尼斯（Hot Wheels, AWE, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1525": {
       "catalog_id": "SCD0889",
@@ -17741,8 +17752,9 @@
       "keys": [
         "cat:SCD0117"
       ],
-      "status": "active",
-      "title_zh": "用多媒體學中國象棋"
+      "status": "rejected",
+      "title_zh": "用多媒體學中國象棋",
+      "reject_reason": "out of scope: 用多媒體學中國象棋（上海鵬達, 創越代理, 1998），中國象棋教學多媒體軟體、非遊戲、對岸作品"
     },
     "cdg-1935": {
       "catalog_id": "SCD0448",
@@ -18603,8 +18615,9 @@
       "keys": [
         "cat:SCD2335"
       ],
-      "status": "active",
-      "title_zh": "微軟高爾夫1998"
+      "status": "rejected",
+      "title_zh": "微軟高爾夫1998",
+      "reject_reason": "out of scope: 微軟高爾夫1998（Microsoft Golf 1998 Edition），外文 Windows 遊戲、無台灣中文化足跡"
     },
     "cdg-2030": {
       "catalog_id": "SCD2336",
@@ -18612,8 +18625,9 @@
       "keys": [
         "cat:SCD2336"
       ],
-      "status": "active",
-      "title_zh": "微軟高爾夫1999"
+      "status": "rejected",
+      "title_zh": "微軟高爾夫1999",
+      "reject_reason": "out of scope: 微軟高爾夫1999（Microsoft Golf 1999 Edition），外文 Windows 遊戲、無台灣中文化足跡"
     },
     "cdg-2031": {
       "catalog_id": "SCD2337",
@@ -18780,8 +18794,9 @@
       "keys": [
         "cat:SCD1897"
       ],
-      "status": "active",
-      "title_zh": "紐約拉力賽"
+      "status": "rejected",
+      "title_zh": "紐約拉力賽",
+      "reject_reason": "out of scope: 紐約拉力賽（New York Race, Kalisto, 2001），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2049": {
       "catalog_id": "SCD1570",
@@ -20554,8 +20569,9 @@
       "keys": [
         "cat:SCD1717"
       ],
-      "status": "active",
-      "title_zh": "越野英雄3"
+      "status": "rejected",
+      "title_zh": "越野英雄3",
+      "reject_reason": "out of scope: 越野英雄3（V-Rally 3, Eden, 2003），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2245": {
       "catalog_id": "SCD1708",
@@ -23535,8 +23551,9 @@
       "keys": [
         "cat:SCD0663"
       ],
-      "status": "active",
-      "title_zh": "通用汽車越野拉力賽"
+      "status": "rejected",
+      "title_zh": "通用汽車越野拉力賽",
+      "reject_reason": "out of scope: 通用汽車越野拉力賽（1C Company, 2009），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2572": {
       "catalog_id": null,
@@ -24270,8 +24287,9 @@
       "keys": [
         "cat:SCD1449"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2009"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2009",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全2009（Encore, 2008），外文 Windows 遊戲合集、非 DOS 時代、非國產"
     },
     "cdg-2651": {
       "catalog_id": "SCD1450",
@@ -28276,8 +28294,9 @@
       "keys": [
         "t:柏德之門：黑暗聯盟|Snowblind"
       ],
-      "status": "active",
-      "title_zh": "柏德之門：黑暗聯盟"
+      "status": "rejected",
+      "title_zh": "柏德之門：黑暗聯盟",
+      "reject_reason": "out of scope: 柏德之門：黑暗聯盟（Baldur's Gate: Dark Alliance 重製版, 2021），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3089": {
       "catalog_id": "SCD0310",
@@ -34662,8 +34681,9 @@
       "keys": [
         "cat:SCD1836"
       ],
-      "status": "active",
-      "title_zh": "歐洲拉力冠軍賽"
+      "status": "rejected",
+      "title_zh": "歐洲拉力冠軍賽",
+      "reject_reason": "out of scope: 歐洲拉力冠軍賽（Brain in a Jar, 2004），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3791": {
       "catalog_id": "SCD1838",
