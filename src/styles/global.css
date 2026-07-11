@@ -34,9 +34,11 @@ main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .chip{background:#f3f0e8;color:#666;border-radius:3px;padding:1px 8px;font-size:12px}
 .chip-genre{background:#fff3dc;color:var(--brown);border:1px solid #f0dca8}
 .chip-adult{background:#fbe4e4;color:#b3261e;border:1px solid #f0bcbc;font-weight:600}
-.chip-release{background:#fdf0d5;color:#8a5a00;border:1px solid #ecd08a;font-weight:600}
+.chip-unreleased{background:#5c6b7a;color:#fff;border:1px solid #4a5764;font-weight:600}
+.chip-unverified{background:#b5711f;color:#fff;border:1px solid #9a5f18;font-weight:600}
 .chip-sep{width:0;align-self:stretch;border-left:1px solid #d8d2c4;margin-inline:3px}
 .chip-tag{background:#fff;color:var(--brown);border:1px solid #d8d2c4}
+.chip-tag::before{content:"";display:inline-block;width:10px;height:10px;margin-right:4px;vertical-align:-1px;background-color:currentColor;--tag-ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z'/%3E%3C/svg%3E");-webkit-mask:var(--tag-ico) center/contain no-repeat;mask:var(--tag-ico) center/contain no-repeat}
 a.chip:hover{background:var(--brown);color:#fff;border-color:var(--brown);text-decoration:none}
 .members.chips{gap:8px}
 .members.chips .chip{font-size:13.5px;padding:3px 12px}

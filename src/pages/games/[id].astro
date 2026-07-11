@@ -96,7 +96,7 @@ const staffByRole = staff => {
         {g.series && <a class="chip" href={seriesUrl(g.series)}>{g.series}系列</a>}
         {g.localization_level && <span class="chip">{locLabel(g.localization_level)}</span>}
         {g.adult && <span class="chip chip-adult">18禁</span>}
-        {releaseLabel(g.release_status) && <span class="chip chip-release">{releaseLabel(g.release_status)}</span>}
+        {releaseLabel(g.release_status) && <span class={`chip chip-${g.release_status}`}>{releaseLabel(g.release_status)}</span>}
         {(g.tags || []).length > 0 && <span class="chip-sep" aria-hidden="true"></span>}
         {(g.tags || []).map(t => tagHref[t]
           ? <a class="chip chip-tag" href={tagHref[t]}>{tagLabel(t)}</a>
