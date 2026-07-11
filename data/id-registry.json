@@ -3066,8 +3066,9 @@
       "keys": [
         "cat:SCD1252"
       ],
-      "status": "active",
-      "title_zh": "二戰坦克："
+      "status": "rejected",
+      "title_zh": "二戰坦克：",
+      "reject_reason": "out of scope: 二戰坦克（WWII Battle Tanks, 2007），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-0332": {
       "catalog_id": "SCD1250",
@@ -3815,8 +3816,9 @@
       "keys": [
         "cat:SCD0707"
       ],
-      "status": "active",
-      "title_zh": "大航海世紀2070"
+      "status": "rejected",
+      "title_zh": "大航海世紀2070",
+      "reject_reason": "out of scope: 大航海世紀2070（Anno 2070, 2011），外文 Windows 商業作、非 DOS 時代、非國產"
     },
     "cdg-0414": {
       "catalog_id": "SCD0712",
@@ -10474,8 +10476,9 @@
       "keys": [
         "cat:SCD0201"
       ],
-      "status": "active",
-      "title_zh": "決勝前線"
+      "status": "rejected",
+      "title_zh": "決勝前線",
+      "reject_reason": "out of scope: 決勝前線（Best Way, 2006），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-1141": {
       "catalog_id": "SCD2572",
@@ -11603,8 +11606,9 @@
       "keys": [
         "cat:SCD2485"
       ],
-      "status": "active",
-      "title_zh": "湯姆克蘭西之間諜遊戲3"
+      "status": "rejected",
+      "title_zh": "湯姆克蘭西之間諜遊戲3",
+      "reject_reason": "out of scope: 湯姆克蘭西之間諜遊戲3（Splinter Cell: Chaos Theory, 2005），外文 Windows 遊戲、非 DOS 時代（台灣代理盒裝）"
     },
     "cdg-1262": {
       "catalog_id": "SCD2486",
@@ -11612,8 +11616,9 @@
       "keys": [
         "cat:SCD2486"
       ],
-      "status": "active",
-      "title_zh": "湯姆克蘭西之間諜遊戲4"
+      "status": "rejected",
+      "title_zh": "湯姆克蘭西之間諜遊戲4",
+      "reject_reason": "out of scope: 湯姆克蘭西之間諜遊戲4（Splinter Cell: Double Agent, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1263": {
       "catalog_id": "SSG001",
@@ -12245,8 +12250,9 @@
       "keys": [
         "cat:SCD1479"
       ],
-      "status": "active",
-      "title_zh": "野生動物園2"
+      "status": "rejected",
+      "title_zh": "野生動物園2",
+      "reject_reason": "out of scope: 野生動物園2（Wildlife Park 2, 2006），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-1333": {
       "catalog_id": "SCD2367",
@@ -13772,8 +13778,9 @@
       "keys": [
         "t:音速小子狂熱|SEGA"
       ],
-      "status": "active",
-      "title_zh": "音速小子狂熱"
+      "status": "rejected",
+      "title_zh": "音速小子狂熱",
+      "reject_reason": "out of scope: 音速小子狂熱（Sonic Mania, 2017），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-1501": {
       "catalog_id": "SCD0068",
@@ -14270,8 +14277,9 @@
       "keys": [
         "t:人工少女2|ILLUSION"
       ],
-      "status": "active",
-      "title_zh": "人工少女2"
+      "status": "rejected",
+      "title_zh": "人工少女2",
+      "reject_reason": "out of scope: 人工少女2（Artificial Girl 2, 日本 ILLUSION, 2005），外文 Windows 成人遊戲、非 DOS 時代、非台灣市場作品"
     },
     "cdg-1556": {
       "catalog_id": "SCD1109",
@@ -14405,8 +14413,9 @@
       "keys": [
         "t:仙劍軒轅錄|lxmstc"
       ],
-      "status": "active",
-      "title_zh": "仙劍軒轅錄"
+      "status": "rejected",
+      "title_zh": "仙劍軒轅錄",
+      "reject_reason": "out of scope: 仙劍軒轅錄（lxmstc, 2008），對岸同人 Windows 遊戲、非官方作品、非 DOS 時代、非台灣市場"
     },
     "cdg-1571": {
       "catalog_id": "SCD1546",
@@ -16586,8 +16595,9 @@
       "keys": [
         "cat:OCD0091"
       ],
-      "status": "active",
-      "title_zh": "真‧三國無雙3"
+      "status": "rejected",
+      "title_zh": "真‧三國無雙3",
+      "reject_reason": "out of scope: 真‧三國無雙3（KOEI, 2005），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-1811": {
       "catalog_id": "SCD0162",
@@ -16904,8 +16914,9 @@
       "keys": [
         "cat:SCD2412"
       ],
-      "status": "active",
-      "title_zh": "神秘島2"
+      "status": "rejected",
+      "title_zh": "神秘島2",
+      "reject_reason": "out of scope: 神秘島2（Return to Mysterious Island 2, 2009），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-1846": {
       "catalog_id": "SCD2558",
@@ -18874,8 +18885,9 @@
       "keys": [
         "cat:SCD0779"
       ],
-      "status": "active",
-      "title_zh": "終極動員令3：泰伯倫戰爭"
+      "status": "rejected",
+      "title_zh": "終極動員令3：泰伯倫戰爭",
+      "reject_reason": "out of scope: 終極動員令3：泰伯倫戰爭（Command & Conquer 3, EA, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2063": {
       "catalog_id": "SCD0780,SCD0778",
@@ -19515,8 +19527,9 @@
       "keys": [
         "cat:SCD1127"
       ],
-      "status": "active",
-      "title_zh": "總統萬歲4"
+      "status": "rejected",
+      "title_zh": "總統萬歲4",
+      "reject_reason": "out of scope: 總統萬歲4（Tropico 4, 2011），外文 Windows 商業作、非 DOS 時代、非國產"
     },
     "cdg-2134": {
       "catalog_id": "SCD2289",
@@ -21264,8 +21277,9 @@
       "keys": [
         "cat:SCD1585"
       ],
-      "status": "active",
-      "title_zh": "新同居時代1"
+      "status": "rejected",
+      "title_zh": "新同居時代1",
+      "reject_reason": "out of scope: 新同居時代1（Rotobee, 2005），外文 Windows 遊戲、非 DOS 時代、非台灣市場作品"
     },
     "cdg-2327": {
       "catalog_id": "SCD1586",
@@ -21273,8 +21287,9 @@
       "keys": [
         "cat:SCD1586"
       ],
-      "status": "active",
-      "title_zh": "新同居時代2：3"
+      "status": "rejected",
+      "title_zh": "新同居時代2：3",
+      "reject_reason": "out of scope: 新同居時代2（Rotobee, 2006），外文 Windows 遊戲、非 DOS 時代、非台灣市場作品"
     },
     "cdg-2328": {
       "catalog_id": "SCD2230",
@@ -23020,8 +23035,9 @@
       "keys": [
         "cat:SCD2536"
       ],
-      "status": "active",
-      "title_zh": "聖域破壞神2"
+      "status": "rejected",
+      "title_zh": "聖域破壞神2",
+      "reject_reason": "out of scope: 聖域破壞神2（Sacred 2, Ascaron, 2009），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-2520": {
       "catalog_id": "SCD2534",
@@ -26892,8 +26908,9 @@
       "keys": [
         "cat:SCD2603"
       ],
-      "status": "active",
-      "title_zh": "制霸三國1"
+      "status": "rejected",
+      "title_zh": "制霸三國1",
+      "reject_reason": "out of scope: 制霸三國1（Magitech, 2008），外文 Windows 遊戲、非 DOS 時代、非台灣 DOS 作品"
     },
     "cdg-2945": {
       "catalog_id": "SCD2604",
@@ -26901,8 +26918,9 @@
       "keys": [
         "cat:SCD2604"
       ],
-      "status": "active",
-      "title_zh": "制霸三國2"
+      "status": "rejected",
+      "title_zh": "制霸三國2",
+      "reject_reason": "out of scope: 制霸三國2（Magitech, 2008），外文 Windows 遊戲、非 DOS 時代、非台灣 DOS 作品"
     },
     "cdg-2946": {
       "catalog_id": "SCD1461",
@@ -27347,8 +27365,9 @@
       "keys": [
         "cat:SCD2771"
       ],
-      "status": "active",
-      "title_zh": "加勒比海盜"
+      "status": "rejected",
+      "title_zh": "加勒比海盜",
+      "reject_reason": "out of scope: 加勒比海盜（Pirates of the Caribbean, 2006），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-2995": {
       "catalog_id": "SCD2634",
@@ -27356,8 +27375,9 @@
       "keys": [
         "cat:SCD2634"
       ],
-      "status": "active",
-      "title_zh": "加菲貓：拯救阿琳"
+      "status": "rejected",
+      "title_zh": "加菲貓：拯救阿琳",
+      "reject_reason": "out of scope: 加菲貓：拯救阿琳（Garfield: Saving Arlene, 2005），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-2996": {
       "catalog_id": "SCD0854",
@@ -27383,8 +27403,9 @@
       "keys": [
         "cat:SCD2633"
       ],
-      "status": "active",
-      "title_zh": "加菲貓2：雙貓記"
+      "status": "rejected",
+      "title_zh": "加菲貓2：雙貓記",
+      "reject_reason": "out of scope: 加菲貓2：雙貓記（Garfield 2, 2006），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-2999": {
       "catalog_id": "SCD2629",
@@ -27482,8 +27503,9 @@
       "keys": [
         "t:勁爆美國棒球2006|Sports Mogul"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2006"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2006",
+      "reject_reason": "out of scope: 勁爆美國棒球2006（Baseball Mogul 2006, 2005），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-3010": {
       "catalog_id": "SCD2256",
@@ -27500,8 +27522,9 @@
       "keys": [
         "cat:SCD2255"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國棒球2009"
+      "status": "rejected",
+      "title_zh": "勁爆美國棒球2009",
+      "reject_reason": "out of scope: 勁爆美國棒球2009（Baseball Mogul 2009, 2008），外文 Windows 遊戲、非 DOS 時代（台灣代理盒裝）"
     },
     "cdg-3012": {
       "catalog_id": "SCD0665",
@@ -28118,8 +28141,9 @@
       "keys": [
         "cat:SCD1021"
       ],
-      "status": "active",
-      "title_zh": "東戰線風雲"
+      "status": "rejected",
+      "title_zh": "東戰線風雲",
+      "reject_reason": "out of scope: 東戰線風雲（Best Way, 2009），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3080": {
       "catalog_id": "SCD2751",
@@ -29023,8 +29047,9 @@
       "keys": [
         "cat:SCD0753"
       ],
-      "status": "active",
-      "title_zh": "模擬城市：夢之都"
+      "status": "rejected",
+      "title_zh": "模擬城市：夢之都",
+      "reject_reason": "out of scope: 模擬城市：夢之都（SimCity Societies, 2007），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3180": {
       "catalog_id": "SCD0754",
@@ -29097,8 +29122,9 @@
       "keys": [
         "cat:SCD1986"
       ],
-      "status": "active",
-      "title_zh": "模擬市民趴趴走3：荒島歷險記"
+      "status": "rejected",
+      "title_zh": "模擬市民趴趴走3：荒島歷險記",
+      "reject_reason": "out of scope: 模擬市民趴趴走3：荒島歷險記（The Sims Castaway Stories, Maxis, 2008），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3188": {
       "catalog_id": "SCD0250",
@@ -29216,8 +29242,9 @@
       "keys": [
         "cat:SCD2360"
       ],
-      "status": "active",
-      "title_zh": "模擬農場2013"
+      "status": "rejected",
+      "title_zh": "模擬農場2013",
+      "reject_reason": "out of scope: 模擬農場2013（Farming Simulator 2013, 2012），外文 Windows 商業作、非 DOS 時代、非國產"
     },
     "cdg-3201": {
       "catalog_id": "SCD1475",
@@ -30075,8 +30102,9 @@
       "keys": [
         "cat:SCD2020"
       ],
-      "status": "active",
-      "title_zh": "無雙"
+      "status": "rejected",
+      "title_zh": "無雙",
+      "reject_reason": "out of scope: 無雙（KOEI, 2008），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3296": {
       "catalog_id": "SCD2066",
@@ -30084,8 +30112,9 @@
       "keys": [
         "cat:SCD2066"
       ],
-      "status": "active",
-      "title_zh": "無雙"
+      "status": "rejected",
+      "title_zh": "無雙",
+      "reject_reason": "out of scope: 無雙（KOEI, 2009），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3297": {
       "catalog_id": "SCD2136",
@@ -30758,8 +30787,9 @@
       "keys": [
         "cat:SCD2021"
       ],
-      "status": "active",
-      "title_zh": "戰國無雙2"
+      "status": "rejected",
+      "title_zh": "戰國無雙2",
+      "reject_reason": "out of scope: 戰國無雙2（Omega Force / KOEI, 2008），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3371": {
       "catalog_id": "SSG029",
@@ -31529,8 +31559,9 @@
       "keys": [
         "t:菠蘿三國|KG"
       ],
-      "status": "active",
-      "title_zh": "菠蘿三國"
+      "status": "rejected",
+      "title_zh": "菠蘿三國",
+      "reject_reason": "out of scope: 菠蘿三國（2007），對岸 Windows 遊戲、非 DOS 時代、非台灣市場作品"
     },
     "cdg-3456": {
       "catalog_id": "Z110",
@@ -31844,8 +31875,9 @@
       "keys": [
         "cat:SCD1544"
       ],
-      "status": "active",
-      "title_zh": "職業自行車隊經理"
+      "status": "rejected",
+      "title_zh": "職業自行車隊經理",
+      "reject_reason": "out of scope: 職業自行車隊經理（Pro Cycling Manager, 2005），外文 Windows 遊戲、非 DOS 時代、無台灣中文化足跡"
     },
     "cdg-3491": {
       "catalog_id": "SCD1626",
@@ -32365,8 +32397,9 @@
       "keys": [
         "cat:SCD2587"
       ],
-      "status": "active",
-      "title_zh": "獵殺潛航3"
+      "status": "rejected",
+      "title_zh": "獵殺潛航3",
+      "reject_reason": "out of scope: 獵殺潛航3（Silent Hunter III, Ubisoft, 2005），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3548": {
       "catalog_id": "SCD2588",
@@ -33696,8 +33729,9 @@
       "keys": [
         "cat:SCD1378"
       ],
-      "status": "active",
-      "title_zh": "魔戒"
+      "status": "rejected",
+      "title_zh": "魔戒",
+      "reject_reason": "out of scope: 魔戒（The Lord of the Rings, EA, 2006），外文 Windows 遊戲、非 DOS 時代、非國產"
     },
     "cdg-3695": {
       "catalog_id": "SCD1379",
