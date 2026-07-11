@@ -45892,6 +45892,16 @@
       ],
       "status": "active",
       "title_zh": "火狐狸"
+    },
+    "cdg-5035": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:高手|精訊",
+        "t:Top Guy|精訊"
+      ],
+      "status": "active",
+      "title_zh": "高手"
     }
   }
 }
