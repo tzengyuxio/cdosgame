@@ -33341,7 +33341,10 @@
         "cat:3WZ004",
         "t:高速公路銀行遊戲|None",
         "t:高速公路銀行遊戲|第三波",
-        "PC39"
+        "PC39",
+        "cat:PC39",
+        "cat:710-39",
+        "cat:511000039"
       ],
       "status": "active",
       "title_zh": "高速公路銀行遊戲"
@@ -46225,10 +46228,12 @@
     },
     "cdg-5051": {
       "catalog_id": "511000044",
-      "developer": null,
+      "developer": "第三波",
       "keys": [
         "t:迷宮賽車|None",
-        "t:Car Maze|None"
+        "t:Car Maze|None",
+        "t:迷宮賽車|第三波",
+        "cat:710-44"
       ],
       "status": "active",
       "title_zh": "迷宮賽車"
