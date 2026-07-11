@@ -516,5 +516,5 @@ created: 2026-06-20
 - 併入既有（加第三波＋sanbo＋511 SKU＋別名＋正文註）：世界運動會→cdg-4805(World Games)、極地之狐→cdg-3112(Arcticfox)、夏季奧運會II→cdg-4959(夏季奧運會2/Summer Games II)、戶外籃球對抗賽→cdg-4018(野外籃球/Street Sports Basketball)。
 - 新增（6 款目錄無英文名、查無單一原作，honest 極簡條目 content/localization 多 null）：cdg-5076 星際爭霸隊(疑 Star Fleet I，未證)、cdg-5077 强棒出擊(棒球 SPG)、cdg-5078 國際密探(諜報 ETC)、cdg-5079 明星棒球隊抗賽(棒球 SPG)、cdg-5080 長驅直入(ETC)、cdg-5081 拉斯維加(賭場 TBG)。待第三波實體磁片/盒裝標題畫面或當期廣告補英文名。
 - 消歧義：cdg-4792 因與 093 强棒出擊 同名，主標題改為「強棒出擊（Pure-Stat Baseball）」；093 為不同棒球款，正文互相 cross-link。
-- [ ] **Summer Games II 重複 id**：cdg-4959(夏季奧運會2/精訊)與 cdg-4803(夏季運動會2/軟體世界)為**同一遊戲**(Epyx)不同代理名，屬應 merge 的重複（比照已合併的 Sub Battle 4963→4790、及 Winter Games cdg-4804 單一 id 收兩名的作法）。第三波夏季奧運會II 已掛 cdg-4959。待使用者確認後 game-triage 合併 4803→4959。
+- [x] **Summer Games II 重複 id 已合併**（2026-07-12）：cdg-4959(夏季奧運會2/精訊)併入 cdg-4803(夏季運動會2)。夏季奧運會2/II→alias、精訊+第三波→publisher、M059+第三波511000096→release_code、box-front-02 圖併入、正文補多代理、第三波目錄 511000096 連結改指 4803。
 - ✅ 16BIT 系列 511000021–100（8 批 80 款）全數落地並回連目錄表。

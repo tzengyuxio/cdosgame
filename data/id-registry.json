@@ -43909,7 +43909,11 @@
       "developer": "Epyx",
       "keys": [
         "t:夏季運動會2|Epyx",
-        "t:Summer Games II|Epyx"
+        "t:Summer Games II|Epyx",
+        "t:夏季奧運會2|Epyx",
+        "t:夏季奧運會 II|Epyx",
+        "cat:511000096",
+        "cat:M059"
       ],
       "status": "active",
       "title_zh": "夏季運動會2"
@@ -45347,8 +45351,9 @@
         "t:Summer Games II|Epyx",
         "cat:511000096"
       ],
-      "status": "active",
-      "title_zh": "夏季奧運會II"
+      "status": "merged",
+      "title_zh": "夏季奧運會II",
+      "merged_into": "cdg-4803"
     },
     "cdg-4960": {
       "catalog_id": null,
