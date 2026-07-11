@@ -2524,7 +2524,7 @@
         "cat:SCD1066"
       ],
       "status": "active",
-      "title_zh": "三隻眼變成"
+      "title_zh": "三隻眼變成：轉輪王幻夢"
     },
     "cdg-0272": {
       "catalog_id": "Z018,SCD0730",
@@ -6196,7 +6196,7 @@
     },
     "cdg-0674": {
       "catalog_id": "SCD1863",
-      "developer": "正先",
+      "developer": "正先實業",
       "keys": [
         "cat:SCD1863"
       ],
@@ -35006,7 +35006,8 @@
       "keys": [
         "t:3x3隻眼|None"
       ],
-      "status": "active",
+      "status": "merged",
+      "merged_into": "cdg-0269",
       "title_zh": "3x3隻眼"
     },
     "cdg-3840": {
