@@ -16940,8 +16940,9 @@
       "keys": [
         "cat:SCD0440"
       ],
-      "status": "active",
-      "title_zh": "神諭"
+      "status": "rejected",
+      "title_zh": "神諭",
+      "reject_reason": "out of scope: Larian《神界》(Divine Divinity, 2002)，外文 Windows 商業 RPG、2000 年後、非 DOS 時代台灣市場作品；與弘邦《神諭》(cdg-1848) 同名誤建"
     },
     "cdg-1850": {
       "catalog_id": "SCD0441",
