@@ -15,18 +15,22 @@ references:
     url: https://zh.wikipedia.org/wiki/軒轅劍系列
     cited: true
     key: wikipedia
+  - title: "專訪《軒轅劍》DOMO創作組蔡明宏（上）－ 路行己"
+    url: https://mp.weixin.qq.com/s/rpf-_G95JffaoVUwx1ctYQ
+    cited: true
+    key: luxingji_cmh1
   - title: "DOMO小組開山始祖｜Cheers快樂工作人"
     url: https://www.cheers.com.tw/article/article.action?id=5025516&page=1
   - title: "[心得] DOMO小組早期名作《失落的封印》－ PTT Old-Games"
     url: https://www.ptt.cc/bbs/Old-Games/M.1779903404.A.AC4.html
 ---
 
-DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[蔡明宏](/people/蔡明宏)於 1986 年創立<sup class="cite" data-ref="newton"></sup>，以《軒轅劍》系列聞名，是華人單機角色扮演遊戲史上最具代表性的開發團隊之一。團隊名稱取自日文「友」（とも，tomo／domo），蔡明宏取其「成員彼此都是朋友、不分高低等級」之意<sup class="cite" data-ref="wikipedia"></sup>；也因此 DOMO 的作品一律掛團隊名義，而非標榜個人。團隊有一句廣為流傳的自我期許：「也許我們不是最好的，但我們將會是最努力的。」
+DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[蔡明宏](/people/蔡明宏)於 1986 年創立<sup class="cite" data-ref="newton"></sup>，以《軒轅劍》系列聞名，是華人單機角色扮演遊戲史上最具代表性的開發團隊之一。蔡明宏受訪時表示，團隊名稱取自日語「謝謝」（ども，domo），用以感謝一群協助他做遊戲的夥伴<sup class="cite" data-ref="luxingji_cmh1"></sup>；亦有資料記為取自日文「友」（とも，tomo）、取其成員彼此是朋友、不分高低之意<sup class="cite" data-ref="wikipedia"></sup>。無論作何解，DOMO 的作品一律掛團隊名義，而非標榜個人。團隊有一句廣為流傳的自我期許：「也許我們不是最好的，但我們將會是最努力的。」
 
 ## 沿革
 
 - **1986**：蔡明宏創立 DOMO小組。
-- **1989**：《滅》的遊戲內容與說明書均已具名「DOMO小組」，是目前已知最早出現此團隊署名的作品，可見團隊早在《軒轅劍》問世之前便已成形。
+- **1989**：《滅》的遊戲內容與說明書均已具名「DOMO小組」，是目前已知最早出現此團隊署名的作品，可見團隊早在《軒轅劍》問世之前便已成形。蔡明宏受訪時回憶，DOMO 作為實際協力的團隊，正是在他首度與美術科同學合作的《滅》前後才逐漸凝聚。<sup class="cite" data-ref="luxingji_cmh1"></sup>
 - **1990**：開發《軒轅劍》一代（蔡明宏與施文馮主導），首創在中文 RPG 中結合動畫與背景音樂，一炮而紅，奠定團隊招牌。
 - **1993**：推出回合戰鬥 RPG《失落的封印》，以美術、故事與設定著稱。
 - **1994 起**：《軒轅劍貳》推出，[鮑弘修](/people/鮑弘修)等成員加入，系列邁向高峰，陸續產出《楓之舞》《雲和山的彼端》《天之痕》等續作與外傳。
