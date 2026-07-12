@@ -62,8 +62,8 @@ export const collections = {
 ## 資料特性（UI 要能容錯）
 
 - **大量 null**：~310 筆合併新條目的 developer/content_language/genre 多為 null；舊條目部分欄位也 null。UI 與篩選要處理缺值。
-- **可篩維度**：`localization_level`(A/B/D/foreign/null)、`developer_region`、`content_language`、`genre`、`license_status`、`year`(含 >2004 收集邊界外)。
-- **收集 ≠ 展示**：scope 定義收集到 2004+，但要不要全展示是站台決定（可用 year 篩）。
+- **可篩維度**：`localization_level`(A/B/D/foreign/null)、`developer_region`、`content_language`、`genre`、`license_status`、`year`(含 ≥2001 收集邊界外)。
+- **收集 ≠ 展示**：scope 定義收集至 2000（2001 年起為收集邊界外），但要不要全展示是站台決定（可用 year 篩）。
 - `references`（omega/fandom 外連）、`release_codes`（軟體世界編號）可做考據展示。
 
 ## 重生指令備忘
