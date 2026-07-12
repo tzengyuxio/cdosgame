@@ -39,6 +39,10 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。
 - `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
+- **`catalog_id` vs `release_codes`（兩者別搞混，最常見誤填）**：
+  - `catalog_id`（單一字串、可 null）＝**外部典藏／資料庫的交叉參照碼**（chiuinan 等站的 `SCD`／`SWT`／`JXD`／`3WZ`… 索引碼，供來源比對/去重，registry 以 `cat:<code>` 當 key）。**不是廠商自家編號**。
+  - `release_codes[]`（`issuer`+`code`）＝**廠商自家在產品上標的發行/編目編號**：第三波型錄碼 `511000NNN`／`53196G`／`53197G`／`53185J`／`53186J`、包裝碼 `PC`／`710`（同流水號）、軟體世界 貴/珍/平版碼，**一律放這裡**（`issuer: 第三波` 等）。
+  - ⚠ **既有 ~61 筆 sanbo 16BIT 舊條目（含 cdg-4994）把 `511000` 放在 `catalog_id`**——那是釐清前的舊慣例、尚未遷移，**勿當範本**；新條目 511000 一律進 `release_codes(issuer 第三波)`。第三波編號體系全貌見 `content/topics/第三波綜合軟體目錄.md` 附錄。
 **⚠ 邊角案例 traps**（撞到再翻 **`references/frontmatter-gotchas.md`** 取完整規則與範例）：
 - **系列初代標題不帶序號**（首作用作品名本身，續作才帶數字；舊 stub「…1」訂正、留 alias）
 - **外文遊戲（無中文化）** 的 `foreign`＋`publisher_tw: []`＋原文/原國別 欄位組合
