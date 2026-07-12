@@ -46525,6 +46525,15 @@
       ],
       "status": "active",
       "title_zh": "龍之忍者（Ninja of Dragon）"
+    },
+    "cdg-5083": {
+      "catalog_id": null,
+      "developer": "第三波",
+      "keys": [
+        "t:懸疑快感|第三波"
+      ],
+      "status": "active",
+      "title_zh": "懸疑快感"
     }
   }
 }
