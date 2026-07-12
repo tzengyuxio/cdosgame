@@ -39163,11 +39163,10 @@
       "catalog_id": null,
       "developer": null,
       "keys": [
-        "t:龍之忍者|None",
-        "cat:511000078"
+        "t:龍之忍者|None"
       ],
       "status": "active",
-      "title_zh": "龍之忍者"
+      "title_zh": "龍之忍者（Bad Dudes）"
     },
     "cdg-4280": {
       "catalog_id": null,
@@ -46514,6 +46513,18 @@
       ],
       "status": "active",
       "title_zh": "拉斯維加"
+    },
+    "cdg-5082": {
+      "catalog_id": "511000078",
+      "developer": "第三波",
+      "keys": [
+        "t:龍之忍者|第三波",
+        "t:Ninja of Dragon|第三波",
+        "cat:710-78",
+        "cat:511000078"
+      ],
+      "status": "active",
+      "title_zh": "龍之忍者（Ninja of Dragon）"
     }
   }
 }
