@@ -4,7 +4,7 @@ published: true
 aliases: [DOMO, DOMO Group, DOMO Team]
 parent_company: 大宇
 founded: 1986
-members: [蔡明宏, 鮑弘修, 郭炳宏, 呂志凱]
+members: [蔡明宏, 鮑弘修, 郭炳宏, 呂志凱, 蘇竑嶂, 吳欣叡, 王福生]
 featured_games: [cdg-1881, cdg-1882, cdg-0715, cdg-1263]
 references:
   - title: "DOMO小組 － Newton 百科"
@@ -19,6 +19,10 @@ references:
     url: https://mp.weixin.qq.com/s/rpf-_G95JffaoVUwx1ctYQ
     cited: true
     key: luxingji_cmh1
+  - title: "專訪《軒轅劍》DOMO創作組蔡明宏（中）：從初代到《楓之舞》－ 路行己"
+    url: https://mp.weixin.qq.com/s/G5zQ5z9wWGUebYYsLIu84Q
+    cited: true
+    key: luxingji_cmh2
   - title: "DOMO小組開山始祖｜Cheers快樂工作人"
     url: https://www.cheers.com.tw/article/article.action?id=5025516&page=1
   - title: "[心得] DOMO小組早期名作《失落的封印》－ PTT Old-Games"
@@ -33,6 +37,7 @@ DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[
 - **1989**：《滅》的遊戲內容與說明書均已具名「DOMO小組」，是目前已知最早出現此團隊署名的作品，可見團隊早在《軒轅劍》問世之前便已成形。蔡明宏受訪時回憶，DOMO 作為實際協力的團隊，正是在他首度與美術科同學合作的《滅》前後才逐漸凝聚。<sup class="cite" data-ref="luxingji_cmh1"></sup>
 - **1990**：開發《軒轅劍》一代（蔡明宏與施文馮主導），首創在中文 RPG 中結合動畫與背景音樂，一炮而紅，奠定團隊招牌。
 - **1993**：推出回合戰鬥 RPG《失落的封印》，以美術、故事與設定著稱。
-- **1994 起**：《軒轅劍貳》推出，[鮑弘修](/people/鮑弘修)等成員加入，系列邁向高峰，陸續產出《楓之舞》《雲和山的彼端》《天之痕》等續作與外傳。
+- **1993**：於軒一、軒貳之間推出歐洲奇幻 RPG《失落的封印》，蔡明宏藉此把引擎升級至 256 色，並為《軒轅劍貳》沿用。
+- **1994 起**：《軒轅劍貳》推出，團隊由「一群朋友一起做」轉向明確分工——故事交[鮑弘修](/people/鮑弘修)、美術交[郭炳宏](/people/郭炳宏)、程式與統籌由蔡明宏負責，是台灣早期開創遊戲分工製作模式的團隊之一；系列自此邁向高峰，陸續產出《楓之舞》《雲和山的彼端》《天之痕》等續作與外傳。<sup class="cite" data-ref="luxingji_cmh2"></sup>
 - **約 1999**：《軒轅劍叄》製作後期，大宇調整內部組織，打散原小組編制、合併為單一開發部門並改行專案制度；但團隊人員與玩家此後仍習慣沿稱「DOMO小組」。
 - **2024**：蔡明宏、鮑弘修等元老相繼離開大宇，象徵 DOMO 一個世代的結束。
