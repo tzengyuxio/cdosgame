@@ -10442,9 +10442,10 @@
     },
     "cdg-1135": {
       "catalog_id": "SCD0482",
-      "developer": "智冠",
+      "developer": "紅螞蟻工作室",
       "keys": [
-        "cat:SCD0482"
+        "cat:SCD0482",
+        "t:江湖任我行|紅螞蟻工作室"
       ],
       "status": "active",
       "title_zh": "江湖任我行"
