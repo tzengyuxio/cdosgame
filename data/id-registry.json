@@ -46586,6 +46586,78 @@
       ],
       "status": "active",
       "title_zh": "球球寶貝"
+    },
+    "cdg-4568": {
+      "catalog_id": null,
+      "developer": "Emerald Software",
+      "keys": [
+        "t:終極孤鷹|Emerald Software"
+      ],
+      "status": "active",
+      "title_zh": "終極孤鷹"
+    },
+    "cdg-4569": {
+      "catalog_id": null,
+      "developer": "Vektor Grafix",
+      "keys": [
+        "t:戰鬥轟炸機|Vektor Grafix"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥轟炸機"
+    },
+    "cdg-4570": {
+      "catalog_id": null,
+      "developer": "Synergistic Software",
+      "keys": [
+        "t:金牌拳王|Synergistic Software"
+      ],
+      "status": "active",
+      "title_zh": "金牌拳王"
+    },
+    "cdg-4877": {
+      "catalog_id": null,
+      "developer": "苦丁香",
+      "keys": [
+        "t:戰國風雲|苦丁香"
+      ],
+      "status": "active",
+      "title_zh": "戰國風雲"
+    },
+    "cdg-5003": {
+      "catalog_id": null,
+      "developer": "Mindcraft",
+      "keys": [
+        "t:戰鬥傭兵|Mindcraft"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥傭兵"
+    },
+    "cdg-5004": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:動畫錄影機|精訊"
+      ],
+      "status": "active",
+      "title_zh": "動畫錄影機"
+    },
+    "cdg-5005": {
+      "catalog_id": null,
+      "developer": "Mindcraft",
+      "keys": [
+        "t:帝國的野望|Mindcraft"
+      ],
+      "status": "active",
+      "title_zh": "帝國的野望"
+    },
+    "cdg-5006": {
+      "catalog_id": null,
+      "developer": "Mindcraft",
+      "keys": [
+        "t:永恆之燭3|Mindcraft"
+      ],
+      "status": "active",
+      "title_zh": "永恆之燭3"
     }
   }
 }
