@@ -21203,8 +21203,9 @@
       "keys": [
         "cat:SCD2116"
       ],
-      "status": "active",
-      "title_zh": "新ㄅㄆㄇ動物園"
+      "status": "rejected",
+      "title_zh": "新ㄅㄆㄇ動物園",
+      "reject_reason": "out of scope: 福茂《新ㄅㄆㄇ動物園》(1998)，學齡前注音教學光碟、教育工具非遊戲考據對象、stub 未撰寫"
     },
     "cdg-2314": {
       "catalog_id": "SCD0391",
@@ -29662,8 +29663,9 @@
       "keys": [
         "cat:SCD0547"
       ],
-      "status": "active",
-      "title_zh": "櫻桃小丸子：ㄅㄆㄇ魔法之門"
+      "status": "rejected",
+      "title_zh": "櫻桃小丸子：ㄅㄆㄇ魔法之門",
+      "reject_reason": "out of scope: 草莓軟體《櫻桃小丸子：ㄅㄆㄇ魔法之門》(1996)，學齡前注音教學光碟、教育工具非遊戲考據對象、stub 未撰寫"
     },
     "cdg-3238": {
       "catalog_id": "SCD0624",
