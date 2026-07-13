@@ -4550,8 +4550,9 @@
       "keys": [
         "cat:SCD1567"
       ],
-      "status": "active",
-      "title_zh": "太空出租車2"
+      "status": "rejected",
+      "title_zh": "太空出租車2",
+      "reject_reason": "out of scope: 太空出租車2（Space Taxi 2），外文 Windows 遊戲、2004、無台灣中文化／代理發行足跡"
     },
     "cdg-0494": {
       "catalog_id": null,
@@ -4631,8 +4632,9 @@
       "keys": [
         "cat:SCD2622,SCD2623#2"
       ],
-      "status": "active",
-      "title_zh": "太空遊俠2：統治者"
+      "status": "rejected",
+      "title_zh": "太空遊俠2：統治者",
+      "reject_reason": "out of scope: 太空遊俠2：統治者（Space Rangers 2: Dominators），外文 Windows 遊戲、2004、無台灣中文化，系列亦無台灣中文化脈絡"
     },
     "cdg-0503": {
       "catalog_id": "3WG106,SCD0881",
@@ -5284,8 +5286,9 @@
       "keys": [
         "cat:SCD0644"
       ],
-      "status": "active",
-      "title_zh": "幻想新國度"
+      "status": "rejected",
+      "title_zh": "幻想新國度",
+      "reject_reason": "out of scope: 幻想新國度（Atari），外文 Windows 遊戲、2004、無台灣中文化／代理發行足跡"
     },
     "cdg-0575": {
       "catalog_id": "SCD0888",
@@ -11470,8 +11473,9 @@
       "keys": [
         "cat:SCD1496"
       ],
-      "status": "active",
-      "title_zh": "海洋公園大亨1"
+      "status": "rejected",
+      "title_zh": "海洋公園大亨1",
+      "reject_reason": "out of scope: 海洋公園大亨1（Marine Park Empire，Enlight），外文 Windows 遊戲、無台灣中文化/具名代理足跡"
     },
     "cdg-1245": {
       "catalog_id": "SCD1497",
@@ -11479,8 +11483,9 @@
       "keys": [
         "cat:SCD1497"
       ],
-      "status": "active",
-      "title_zh": "海洋公園大亨2"
+      "status": "rejected",
+      "title_zh": "海洋公園大亨2",
+      "reject_reason": "out of scope: 海洋公園大亨2，外文 Windows 遊戲、無台灣中文化/具名代理足跡（Enlight 僅一款 Marine Park Empire，疑無此獨立續作、原名待核）"
     },
     "cdg-1246": {
       "catalog_id": "SCD2460",
@@ -12106,8 +12111,9 @@
       "keys": [
         "t:死亡競賽|SSI"
       ],
-      "status": "active",
-      "title_zh": "死亡競賽"
+      "status": "rejected",
+      "title_zh": "死亡競賽",
+      "reject_reason": "out of scope: 死亡競賽（SSI），外文 Windows 遊戲、2003、無台灣中文化／代理發行足跡"
     },
     "cdg-1315": {
       "catalog_id": null,
@@ -12956,8 +12962,9 @@
       "keys": [
         "cat:SCD1673"
       ],
-      "status": "active",
-      "title_zh": "攻擊點2"
+      "status": "rejected",
+      "title_zh": "攻擊點2",
+      "reject_reason": "out of scope: 攻擊點2（Point of Attack 2），外文 Windows 遊戲、2003、無台灣中文化／代理發行足跡"
     },
     "cdg-1408": {
       "catalog_id": "SCD0034",
@@ -14995,8 +15002,9 @@
       "keys": [
         "cat:SCD1724"
       ],
-      "status": "active",
-      "title_zh": "俠盜獵車手：聖安地列斯"
+      "status": "rejected",
+      "title_zh": "俠盜獵車手：聖安地列斯",
+      "reject_reason": "out of scope: 俠盜獵車手：聖安地列斯（GTA: San Andreas），外文 Windows 遊戲、2004、英寶格英文代理但無官方繁中，系列本庫無中文化脈絡"
     },
     "cdg-1631": {
       "catalog_id": "SCD1720",
@@ -16154,8 +16162,9 @@
       "keys": [
         "t:恐龍戰士2：龍蛋爭奪戰|Pangea"
       ],
-      "status": "active",
-      "title_zh": "恐龍戰士2：龍蛋爭奪戰"
+      "status": "rejected",
+      "title_zh": "恐龍戰士2：龍蛋爭奪戰",
+      "reject_reason": "out of scope: 恐龍戰士2：龍蛋爭奪戰（Nanosaur 2），外文 Windows 遊戲、2004、無台灣中文化／代理發行足跡"
     },
     "cdg-1758": {
       "catalog_id": "SCD2182",
@@ -19105,8 +19114,9 @@
       "keys": [
         "cat:SCD2482"
       ],
-      "status": "active",
-      "title_zh": "終極警探（Die Hard：Nakatomi Plaza）"
+      "status": "rejected",
+      "title_zh": "終極警探（Die Hard：Nakatomi Plaza）",
+      "reject_reason": "out of scope: 終極警探（Die Hard: Nakatomi Plaza），外文 Windows 遊戲、2002、無台灣中文化／代理發行足跡"
     },
     "cdg-2081": {
       "catalog_id": "SWE101",
@@ -22223,8 +22233,9 @@
       "keys": [
         "cat:SCD0927"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰（Star Trek: Starfleet Command III），外文 Windows 遊戲、2002、無台灣中文化／代理發行足跡"
     },
     "cdg-2425": {
       "catalog_id": "SCD0940",
@@ -22268,8 +22279,9 @@
       "keys": [
         "cat:SCD0949"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰（Star Trek: Bridge Commander），外文 Windows 遊戲、2002、無台灣中文化／代理發行足跡"
     },
     "cdg-2430": {
       "catalog_id": "SCD0944",
@@ -28884,8 +28896,9 @@
       "keys": [
         "cat:SCD1490"
       ],
-      "status": "active",
-      "title_zh": "極限過山車"
+      "status": "rejected",
+      "title_zh": "極限過山車",
+      "reject_reason": "out of scope: 極限過山車（Ultimate Ride），外文 Windows 遊戲、2002、無台灣中文化／代理發行足跡"
     },
     "cdg-3150": {
       "catalog_id": "SCD2532",
@@ -31217,8 +31230,9 @@
       "keys": [
         "cat:SCD0342"
       ],
-      "status": "active",
-      "title_zh": "戰神：狂神天威2"
+      "status": "rejected",
+      "title_zh": "戰神：狂神天威2",
+      "reject_reason": "out of scope: 戰神：狂神天威2，外文 Windows 遊戲、2002、無台灣中文化／代理發行足跡"
     },
     "cdg-3405": {
       "catalog_id": "SCD0343",
@@ -31316,8 +31330,9 @@
       "keys": [
         "cat:SCD1599"
       ],
-      "status": "active",
-      "title_zh": "戴帽子的貓"
+      "status": "rejected",
+      "title_zh": "戴帽子的貓",
+      "reject_reason": "out of scope: 戴帽子的貓（The Cat in the Hat），外文兒童向電影改編遊戲、2003、無台灣中文化／代理發行足跡"
     },
     "cdg-3416": {
       "catalog_id": "SCD2717",
