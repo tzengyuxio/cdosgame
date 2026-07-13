@@ -1649,8 +1649,9 @@
       "keys": [
         "cat:SCD1236"
       ],
-      "status": "active",
-      "title_zh": "公元2160"
+      "status": "rejected",
+      "title_zh": "公元2160",
+      "reject_reason": "out of scope: Reality Pump《公元2160 / Earth 2160》(2005)，年代過晚之代理遊戲、作品在台灣 DOS 時代無足跡"
     },
     "cdg-0176": {
       "catalog_id": "SCD1932",
@@ -6537,8 +6538,9 @@
       "keys": [
         "cat:SCD0302"
       ],
-      "status": "active",
-      "title_zh": "夜鷹行動"
+      "status": "rejected",
+      "title_zh": "夜鷹行動",
+      "reject_reason": "out of scope: Kando《夜鷹行動 / Rebel Raiders: Operation Nighthawk》(2006)，年代過晚之代理遊戲、作品在台灣 DOS 時代無足跡"
     },
     "cdg-0711": {
       "catalog_id": "SCD2150",
@@ -12877,8 +12879,9 @@
       "keys": [
         "cat:SCD1160"
       ],
-      "status": "active",
-      "title_zh": "動物奧運會"
+      "status": "rejected",
+      "title_zh": "動物奧運會",
+      "reject_reason": "out of scope: 紫晶數位《動物奧運會》(2008)，年代過晚、開發商在台灣 DOS 時代無足跡"
     },
     "cdg-1400": {
       "catalog_id": null,
@@ -17013,8 +17016,9 @@
       "keys": [
         "cat:SCD0804"
       ],
-      "status": "active",
-      "title_zh": "神鏢闖江湖"
+      "status": "rejected",
+      "title_zh": "神鏢闖江湖",
+      "reject_reason": "out of scope: 紫晶數位《神鏢闖江湖》(2009)，年代過晚、開發商在台灣 DOS 時代無足跡"
     },
     "cdg-1853": {
       "catalog_id": "SCD2441",
