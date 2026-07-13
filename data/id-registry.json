@@ -13422,8 +13422,9 @@
       "keys": [
         "cat:SCD2551"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟2001"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟2001",
+      "reject_reason": "out of scope: 美國職棒大聯盟系列（EA／Treyarch MLB 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-1459": {
       "catalog_id": "SCD2682",
@@ -13431,8 +13432,9 @@
       "keys": [
         "cat:SCD2682"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟2002"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟2002",
+      "reject_reason": "out of scope: 美國職棒大聯盟系列（EA／Treyarch MLB 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-1460": {
       "catalog_id": "SCD2552",
@@ -13450,8 +13452,9 @@
       "keys": [
         "cat:SCD2553"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟2004"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟2004",
+      "reject_reason": "out of scope: 美國職棒大聯盟系列（EA／Treyarch MLB 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-1462": {
       "catalog_id": "SCD2554",
@@ -13459,8 +13462,9 @@
       "keys": [
         "cat:SCD2554"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟2005"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟2005",
+      "reject_reason": "out of scope: 美國職棒大聯盟系列（EA／Treyarch MLB 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-1463": {
       "catalog_id": null,
@@ -15676,16 +15680,16 @@
         "cat:JXD014"
       ],
       "status": "active",
-      "title_zh": "封神演義"
+      "title_zh": "封神演義（1993）"
     },
     "cdg-1706": {
       "catalog_id": "SCD0989",
-      "developer": "智冠",
+      "developer": "河洛工作室",
       "keys": [
         "cat:SCD0989"
       ],
       "status": "active",
-      "title_zh": "封神演義"
+      "title_zh": "封神演義（1998）"
     },
     "cdg-1707": {
       "catalog_id": "SWT237",
@@ -16242,7 +16246,7 @@
         "t:悶絕－性技王傳說|FIX"
       ],
       "status": "active",
-      "title_zh": "悶絕－性技王傳說"
+      "title_zh": "悶絕：性技王傳說"
     },
     "cdg-1768": {
       "catalog_id": "SCD0855",
@@ -24547,7 +24551,7 @@
         "cat:SCD2669"
       ],
       "status": "active",
-      "title_zh": "雷神之鎚1"
+      "title_zh": "雷神之鎚"
     },
     "cdg-2677": {
       "catalog_id": "SCD2670",
@@ -30287,8 +30291,9 @@
       "keys": [
         "cat:SCD2264"
       ],
-      "status": "active",
-      "title_zh": "熱力美國職棒2001"
+      "status": "rejected",
+      "title_zh": "熱力美國職棒2001",
+      "reject_reason": "out of scope: 熱力美國職棒系列（3DO／Team .366 High Heat 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-3304": {
       "catalog_id": "SCD2265",
@@ -30296,8 +30301,9 @@
       "keys": [
         "cat:SCD2265"
       ],
-      "status": "active",
-      "title_zh": "熱力美國職棒2002"
+      "status": "rejected",
+      "title_zh": "熱力美國職棒2002",
+      "reject_reason": "out of scope: 熱力美國職棒系列（3DO／Team .366 High Heat 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-3305": {
       "catalog_id": "SCD2266",
@@ -30305,8 +30311,9 @@
       "keys": [
         "cat:SCD2266"
       ],
-      "status": "active",
-      "title_zh": "熱力美國職棒2003"
+      "status": "rejected",
+      "title_zh": "熱力美國職棒2003",
+      "reject_reason": "out of scope: 熱力美國職棒系列（3DO／Team .366 High Heat 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-3306": {
       "catalog_id": "SCD2267",
@@ -30314,8 +30321,9 @@
       "keys": [
         "cat:SCD2267"
       ],
-      "status": "active",
-      "title_zh": "熱力美國職棒2004"
+      "status": "rejected",
+      "title_zh": "熱力美國職棒2004",
+      "reject_reason": "out of scope: 熱力美國職棒系列（3DO／Team .366 High Heat 系列），外文美製運動遊戲、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-3307": {
       "catalog_id": "SCD1920",
@@ -46691,6 +46699,33 @@
       ],
       "status": "active",
       "title_zh": "砰砰樂園"
+    },
+    "cdg-5090": {
+      "catalog_id": null,
+      "developer": "智冠",
+      "keys": [
+        "t:中華職棒3|智冠"
+      ],
+      "status": "active",
+      "title_zh": "中華職棒3"
+    },
+    "cdg-5091": {
+      "catalog_id": null,
+      "developer": "西基電腦動畫",
+      "keys": [
+        "t:秦皇陵|西基電腦動畫"
+      ],
+      "status": "active",
+      "title_zh": "秦皇陵"
+    },
+    "cdg-5092": {
+      "catalog_id": null,
+      "developer": "精訊",
+      "keys": [
+        "t:創滅天地|精訊"
+      ],
+      "status": "active",
+      "title_zh": "創滅天地"
     }
   }
 }
