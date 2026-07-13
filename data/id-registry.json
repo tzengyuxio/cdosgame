@@ -16101,7 +16101,7 @@
         "cat:SCD0571"
       ],
       "status": "active",
-      "title_zh": "恐龍危機1"
+      "title_zh": "恐龍危機"
     },
     "cdg-1753": {
       "catalog_id": "SCD1395",
@@ -46550,6 +46550,42 @@
       ],
       "status": "active",
       "title_zh": "幽靈坦克"
+    },
+    "cdg-5085": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:鋼鐵勁旅2|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "鋼鐵勁旅2"
+    },
+    "cdg-5086": {
+      "catalog_id": null,
+      "developer": "Strategic Simulations",
+      "keys": [
+        "t:鋼鐵勁旅3|Strategic Simulations"
+      ],
+      "status": "active",
+      "title_zh": "鋼鐵勁旅3"
+    },
+    "cdg-5087": {
+      "catalog_id": null,
+      "developer": "Divide By Zero",
+      "keys": [
+        "t:無畏艦隊|Divide By Zero"
+      ],
+      "status": "active",
+      "title_zh": "無畏艦隊"
+    },
+    "cdg-5088": {
+      "catalog_id": null,
+      "developer": "Falcom",
+      "keys": [
+        "t:球球寶貝|Falcom"
+      ],
+      "status": "active",
+      "title_zh": "球球寶貝"
     }
   }
 }
