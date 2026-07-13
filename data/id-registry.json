@@ -37104,8 +37104,9 @@
       "keys": [
         "t:新蜀山劍俠傳-紫青雙劍錄|None"
       ],
-      "status": "active",
-      "title_zh": "新蜀山劍俠傳-紫青雙劍錄"
+      "status": "merged",
+      "title_zh": "新蜀山劍俠傳-紫青雙劍錄",
+      "merged_into": "cdg-2357"
     },
     "cdg-4054": {
       "catalog_id": null,
