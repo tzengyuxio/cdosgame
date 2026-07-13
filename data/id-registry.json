@@ -37278,8 +37278,9 @@
       "keys": [
         "t:金樸克|None"
       ],
-      "status": "active",
-      "title_zh": "金樸克"
+      "status": "merged",
+      "title_zh": "金樸克",
+      "merged_into": "cdg-2877"
     },
     "cdg-4074": {
       "catalog_id": null,
