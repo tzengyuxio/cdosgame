@@ -35768,8 +35768,9 @@
       "keys": [
         "t:天晴傳|None"
       ],
-      "status": "active",
-      "title_zh": "天晴傳"
+      "status": "merged",
+      "title_zh": "天晴傳",
+      "merged_into": "cdg-0470"
     },
     "cdg-3908": {
       "catalog_id": null,
