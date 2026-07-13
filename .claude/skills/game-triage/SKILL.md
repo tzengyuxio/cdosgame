@@ -24,6 +24,10 @@ allowed-tools: Bash, Read, Edit, Grep, Glob, WebSearch, WebFetch
 - 落檔前 `git status`／`git diff` 對磁碟驗證，別憑印象回報。
 - 全部處理完 `npm run validate` 要全綠（content 檔數應等量減少）。
 
+> **⚠ 已知失敗模式：no-op 被誤判成「顯示問題」。** 實測過一次 80 分鐘、零產出的空轉：思考在規劃 reject 時撞到 `max_tokens`（單輪 thinking 吃滿 64000、`stop_reason:max_tokens`、沒送出任何 Edit/rm），**變更根本沒執行**；但下一輪把計畫當成已做，跑 validate/`git status` 看到「沒變」，卻誤判成「registry 顯示重複是顯示問題／git 沒追蹤到」而反覆重查。實情：磁碟全程自洽、registry 確認 tracked、validate 早報 `unique ids`，**沒有任何顯示 bug**。
+> - **硬規則：** 改完後 `git status`／`validate` 若沒反映你的變更，**第一假設永遠是「我根本沒送出那個 Edit/rm」→ 直接重跑該動作**，絕不是「觀測工具壞了／顯示問題／git 沒追蹤」。registry 與 content 都在 git 追蹤內，改了就一定會顯示。
+> - **預防：** 別在同一輪「長考複查 + 逐檔手 Edit」；先在**唯讀**回合把複查結論定下來（哪些 id 真的 reject/merge、理由），再用**確定性的短動作**逐一落地（一個 id 一輪：改 registry status → `rm` → 記下），讓每輪思考短到不會撞截斷。批量多筆時把 registry 標記 + 刪檔寫成一次性 `jq`/腳本跑，別讓模型逐檔手 Edit。
+
 ## A. reject（範圍外剔除）
 
 ### 1. 複查（最關鍵，別跳過）
