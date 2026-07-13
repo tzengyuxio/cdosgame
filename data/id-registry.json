@@ -35855,8 +35855,9 @@
       "keys": [
         "t:小惠的性知識|None"
       ],
-      "status": "active",
-      "title_zh": "小惠的性知識"
+      "status": "merged",
+      "title_zh": "小惠的性知識",
+      "merged_into": "cdg-0519"
     },
     "cdg-3918": {
       "catalog_id": null,
