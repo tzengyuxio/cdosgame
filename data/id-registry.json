@@ -12510,8 +12510,9 @@
       "keys": [
         "cat:SCD1093"
       ],
-      "status": "active",
-      "title_zh": "陪女打麻將"
+      "status": "rejected",
+      "title_zh": "陪女打麻將",
+      "reject_reason": "out of scope: 伊世紀《陪女打麻將》(2002)，逾 2000 年收錄範圍、Windows 原生中文休閒麻將 stub"
     },
     "cdg-1359": {
       "catalog_id": "SCD0659",
@@ -23192,10 +23193,11 @@
       "catalog_id": "SCD1369",
       "developer": "亞博克",
       "keys": [
-        "cat:SCD1369"
+        "cat:SCD1369",
+        "t:聖劍奇兵|亞博克"
       ],
       "status": "active",
-      "title_zh": "聖戰奇兵"
+      "title_zh": "聖劍奇兵"
     },
     "cdg-2532": {
       "catalog_id": "SWT021",
@@ -39556,8 +39558,9 @@
       "keys": [
         "t:南俠展昭痞子龍|None"
       ],
-      "status": "active",
-      "title_zh": "南俠展昭痞子龍"
+      "status": "rejected",
+      "title_zh": "南俠展昭痞子龍",
+      "reject_reason": "out of scope: 遊戲龍《南俠展昭痞子龍》(2002)，逾 2000 年收錄範圍、Windows 原生中文 stub"
     },
     "cdg-4322": {
       "catalog_id": null,
