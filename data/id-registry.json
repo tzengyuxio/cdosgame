@@ -15353,8 +15353,9 @@
       "keys": [
         "cat:SCD2041"
       ],
-      "status": "active",
-      "title_zh": "傳送門"
+      "status": "rejected",
+      "title_zh": "傳送門",
+      "reject_reason": "out of scope: Valve《傳送門》(2007) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-1671": {
       "catalog_id": null,
@@ -15881,8 +15882,9 @@
       "keys": [
         "cat:SCD1895"
       ],
-      "status": "active",
-      "title_zh": "快樂世界賽車"
+      "status": "rejected",
+      "title_zh": "快樂世界賽車",
+      "reject_reason": "out of scope: Data Design《快樂世界賽車》(2005) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-1729": {
       "catalog_id": "SCD2556",
@@ -15927,8 +15929,9 @@
       "keys": [
         "cat:SCD2744"
       ],
-      "status": "active",
-      "title_zh": "快樂足球2002"
+      "status": "rejected",
+      "title_zh": "快樂足球2002",
+      "reject_reason": "out of scope: Ascaron《快樂足球2002》(2002) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-1734": {
       "catalog_id": "SCD1962",
@@ -16926,8 +16929,9 @@
       "keys": [
         "cat:SCD2132"
       ],
-      "status": "active",
-      "title_zh": "神氣普雷特學習營：遊戲學英語"
+      "status": "rejected",
+      "title_zh": "神氣普雷特學習營：遊戲學英語",
+      "reject_reason": "out of scope: 捷思特《神氣普雷特學習營：遊戲學英語》(2001) 為 post-DOS Windows 教育軟體，超出本站收錄範圍"
     },
     "cdg-1843": {
       "catalog_id": "Z042",
@@ -17854,8 +17858,9 @@
       "keys": [
         "cat:SCD1336"
       ],
-      "status": "active",
-      "title_zh": "異塵餘生3"
+      "status": "rejected",
+      "title_zh": "異塵餘生3",
+      "reject_reason": "out of scope: Bethesda《異塵餘生3》(2008) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-1945": {
       "catalog_id": "SCD1337",
@@ -18107,8 +18112,9 @@
       "keys": [
         "t:雙點醫院|Two Point"
       ],
-      "status": "active",
-      "title_zh": "雙點醫院"
+      "status": "rejected",
+      "title_zh": "雙點醫院",
+      "reject_reason": "out of scope: Two Point《雙點醫院》(2018) 為 Win64 遊戲，超出本站收錄範圍"
     },
     "cdg-1973": {
       "catalog_id": "SCD2122",
@@ -26012,8 +26018,9 @@
       "keys": [
         "cat:SCD2199"
       ],
-      "status": "active",
-      "title_zh": "虹彩六號6"
+      "status": "rejected",
+      "title_zh": "虹彩六號6",
+      "reject_reason": "out of scope: Ubisoft《虹彩六號6》(2008) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-2839": {
       "catalog_id": "SCD0791",
@@ -27128,8 +27135,9 @@
       "keys": [
         "cat:SCD2350"
       ],
-      "status": "active",
-      "title_zh": "前進柏林3"
+      "status": "rejected",
+      "title_zh": "前進柏林3",
+      "reject_reason": "out of scope: City《前進柏林3》(2007) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-2960": {
       "catalog_id": "SCD2351",
@@ -27137,8 +27145,9 @@
       "keys": [
         "cat:SCD2351"
       ],
-      "status": "active",
-      "title_zh": "前進柏林4：史達林格勒的陰影"
+      "status": "rejected",
+      "title_zh": "前進柏林4：史達林格勒的陰影",
+      "reject_reason": "out of scope: CI《前進柏林4：史達林格勒的陰影》(2009) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-2961": {
       "catalog_id": "SCD2390",
@@ -28721,8 +28730,9 @@
       "keys": [
         "cat:SCD1279"
       ],
-      "status": "active",
-      "title_zh": "極速快感11"
+      "status": "rejected",
+      "title_zh": "極速快感11",
+      "reject_reason": "out of scope: EA《極速快感11》(2007) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-3134": {
       "catalog_id": "SCD1280",
@@ -28730,8 +28740,9 @@
       "keys": [
         "cat:SCD1280"
       ],
-      "status": "active",
-      "title_zh": "極速快感12"
+      "status": "rejected",
+      "title_zh": "極速快感12",
+      "reject_reason": "out of scope: EA《極速快感12》(2008) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-3135": {
       "catalog_id": "SCD1281",
@@ -28739,8 +28750,9 @@
       "keys": [
         "cat:SCD1281"
       ],
-      "status": "active",
-      "title_zh": "極速快感13"
+      "status": "rejected",
+      "title_zh": "極速快感13",
+      "reject_reason": "out of scope: EA《極速快感13》(2009) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-3136": {
       "catalog_id": "SCD1881",
@@ -28940,8 +28952,9 @@
       "keys": [
         "cat:SCD2469"
       ],
-      "status": "active",
-      "title_zh": "榮譽勳章：空降神兵"
+      "status": "rejected",
+      "title_zh": "榮譽勳章：空降神兵",
+      "reject_reason": "out of scope: EA《榮譽勳章：空降神兵》(2007) 為 post-DOS Windows 遊戲，超出本站收錄範圍"
     },
     "cdg-3158": {
       "catalog_id": null,
@@ -33491,8 +33504,9 @@
       "keys": [
         "cat:SCD0593"
       ],
-      "status": "active",
-      "title_zh": "鬼武者1"
+      "status": "rejected",
+      "title_zh": "鬼武者1",
+      "reject_reason": "out of scope: CAPCOM《鬼武者1》(2003) 為 Windows 時期移植作，非 DOS 遊戲，超出本站收錄範圍"
     },
     "cdg-3657": {
       "catalog_id": "SCD0594",
@@ -33500,8 +33514,9 @@
       "keys": [
         "cat:SCD0594"
       ],
-      "status": "active",
-      "title_zh": "鬼武者3"
+      "status": "rejected",
+      "title_zh": "鬼武者3",
+      "reject_reason": "out of scope: CAPCOM《鬼武者3》(2004) 為 Windows 時期移植作，非 DOS 遊戲，超出本站收錄範圍"
     },
     "cdg-3658": {
       "catalog_id": "SCD2596",
