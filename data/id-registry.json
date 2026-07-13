@@ -23738,9 +23738,10 @@
     },
     "cdg-2590": {
       "catalog_id": "SCD0919",
-      "developer": "光畫",
+      "developer": "光畫科技",
       "keys": [
-        "cat:SCD0919"
+        "cat:SCD0919",
+        "t:邊緣戰區|光畫科技"
       ],
       "status": "active",
       "title_zh": "邊緣戰區"
@@ -46666,6 +46667,15 @@
       ],
       "status": "active",
       "title_zh": "永恆之燭3"
+    },
+    "cdg-5089": {
+      "catalog_id": null,
+      "developer": "光畫科技",
+      "keys": [
+        "t:砰砰樂園|光畫科技"
+      ],
+      "status": "active",
+      "title_zh": "砰砰樂園"
     }
   }
 }
