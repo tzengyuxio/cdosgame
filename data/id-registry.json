@@ -37115,9 +37115,9 @@
     },
     "cdg-4050": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "松沛",
       "keys": [
-        "t:拼圖魔法陣|None"
+        "t:拼圖魔法陣|松沛"
       ],
       "status": "active",
       "title_zh": "拼圖魔法陣"
@@ -46743,6 +46743,15 @@
       ],
       "status": "active",
       "title_zh": "創滅天地"
+    },
+    "cdg-5093": {
+      "catalog_id": null,
+      "developer": "立東",
+      "keys": [
+        "t:魔法口袋|立東"
+      ],
+      "status": "active",
+      "title_zh": "魔法口袋"
     }
   }
 }
