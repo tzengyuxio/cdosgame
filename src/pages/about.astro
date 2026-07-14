@@ -89,7 +89,8 @@ const SCOPE_CATS = [
 
       <h2>收錄準則</h2>
       <ul>
-        <li>收錄有實際發行的遊戲；台灣產品導向（以台灣發行／代理為主）。</li>
+        <li>台灣產品導向：以台灣發行／代理的產品為主。</li>
+        <li>凡留有公開產品足跡者即予收錄：包含實際發行的遊戲，以及雖未上市但曾見於報導、廣告、發行計畫（乃至胎死腹中）之作，並標記其發行確定性。例：<a class="lk" href={gameUrl('cdg-4774')}>模擬師父</a>、<a class="lk" href={gameUrl('cdg-5090')}>中華職棒3</a>。</li>
         <li>中文化分級全收，再用標記篩選：
           <ul>
             {Object.entries(LOC_LABELS).map(([k, label]) => <li><strong>{label}</strong>——{LOC_DESC[k]}</li>)}
@@ -109,6 +110,7 @@ const SCOPE_CATS = [
         <li><a href="https://github.com/rwv/chinese-dos-games" target="_blank" rel="noopener">chinese-dos-games（rwv）</a></li>
         <li><a href="https://archive.org/details/cndosgames" target="_blank" rel="noopener">OfflineList · cndosgames（Internet Archive）</a></li>
         <li><a href="https://www.old-games.ru/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85_%D0%B8%D0%B3%D1%80" target="_blank" rel="noopener">old-games.ru Wiki（中文遊戲列表）</a></li>
+        <li><a href="https://kudgame.blogspot.com/2014/07/pcgamelist.html" target="_blank" rel="noopener">隱名（KudGame · PC 遊戲列表）</a></li>
       </ul>
       <p>各條目均保留來源標記與外部參考連結，以利查證與回溯。</p>
 
