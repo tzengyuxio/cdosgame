@@ -566,3 +566,10 @@ created: 2026-06-20
 - [ ] **cdg-5099 卡哇伊小貓咪 分級待查**：巴哈標分級不明、玩家稱蘿莉養成，保守未設 adult:true；日文原名/原版日期亦未尋得。平台推定 Windows（2000 AIC gal game）未硬證。
 - [ ] **cdg-1474 美媚夢工廠 分級待查**：清涼獸娘、賣肉明顯，但 ErogameScape 收錄標全年齡，未斷言 18 禁、未設 adult。
 - 亞克米、爾波國際（Apply Technology）公司背景公開資料極少，正文據實不深入。
+
+### 華義 triage＋補完批次 2（2026-07-15）
+- 補寫並發佈既有 stub：cdg-2115 綠色奇蹟（創意鷹翔/華義 2000 動作冒險解謎，chiuinan 待補、劇情難考）、cdg-3606 鐵路大亨2（PopTop Railroad Tycoon 2，**genre LSG→SLG 訂正**、region→US）、cdg-2844 蜘蛛超人（Nichibutsu《Crazy Climber》爬樓非蜘蛛人、疑移植 1996 Hyper Crazy Climber、region→JP）、cdg-0786 塞派拉之核（Valkyrie《Septerra Core》Monolith 1999、region→US、華義代理未中文化 packaging/en 保留、補 chiuinan）。
+- **新建**：cdg-5100 月球計畫（Earth 2150: The Moon Project，TopWare/波蘭 RTS，原作 2000）、cdg-5101 拿破崙戰史1813（Napoleon 1813，Empire Interactive/英國 wargame，原作 1999）。
+- [ ] **cdg-5100 / cdg-5101 台灣代理年待考**：兩款原作年確定（2000 / 1999），但華義台灣中文版確切發行年未取得一手佐證（研究推估 2001–2002），year 欄採原作年、正文標「台灣代理中文版」。華義代理身分依使用者 kudgame 清單，研究未能獨立證實；若日後翻到巴哈頁/廣告可補台灣年。二者屬邊界年份但原作 ≤2000、依既有華義代理外國作先例收錄。
+- [ ] cdg-2115 綠色奇蹟 developer「創意鷹翔」來源不明（既有 region 標 CN，研究傾向本土但無法證實公司背景），暫留 CN 待考。
+- [ ] cdg-2844 蜘蛛超人：華義版基底疑為 1996 Windows《Hyper Crazy Climber》移植（時間/七關/多主題大樓相符），無來源直證；chiuinan「改編自大金剛」為撰稿者類比、非正式系譜。
