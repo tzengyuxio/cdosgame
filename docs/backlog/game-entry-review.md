@@ -581,3 +581,10 @@ created: 2026-06-20
 - [ ] 五款新建 foreign 代理款 year 採原作年（研究另有精確台灣售日，記正文）；華義中文版確切年多未坐實（披薩屋推估1999–2000）。魔法危機台售2002-04 屬 2002 當年（非 >2002）。
 - 修正：cdg-2050/2051 純愛手札正文的「~forever with you~」「~おしえて Your heart~」ASCII 半形波浪號被 GFM 當刪除線，改全形 ～（同狂王系列寫法）。
 - 關聯：cdg-2171 超時空G點 正文《Wrestle Angels》系列補連結至 cdg-4087 天使角力賽（同開發商 Great）。
+
+### 會宇 triage＋補完批次（2026-07-15）
+- 補寫既有 stub：cdg-2281 黑金企業（System 3《Mob Rule／Street Wars: Constructor Underworld》，Constructor 正統續作，會宇代理繁中1999、Windows；**首作去序號「黑金企業1」→「黑金企業」留 alias、同步 registry**、**genre LSG→CBG 訂正**、region→GB）；cdg-2282 黑金企業2（Street Wars 2，會宇2000，**台灣專屬在地重製**、國際無對應版本、台語雙關七關卡＋四大家族，**genre LSG→CBG**、region→TW、series→黑金企業）。
+- **新建**：cdg-5107 大決戰（ESOFNET/韓 RTS，原名 1000 Years Endless War/千年戰爭，會宇代理，台售2001-04-17、朝鮮三國背景、最多8人連線）；cdg-5108 哇哩咧炸彈人（大眾軟件/陸 ACT，原名 Security Risk，會宇代理台售2000-10-15、炸彈人clone、真人搞笑配音、8人網路對戰）；cdg-5109 台灣爆笑麻將（**查無公開足跡**，僅民間會宇產品名錄提及，建 unverified 最小 stub、year/developer/platform 全 null、genre TBG）。
+- [ ] **cdg-2282 黑金企業2 開發歸屬待考**：System 3 國際 ludography 無「Street Wars 2」，確為台灣專屬；但由會宇自製抑或取得 System 3 引擎授權製作，無直接來源證實，developer 暫掛「會宇」＋native。玩法細節目前僅巴哈 ACG 單一來源。另社群提及對岸「黑金企業III」屬範圍外衍生。
+- [ ] **cdg-5107 大決戰 / cdg-5108 哇哩咧炸彈人**：size（片數）、確切台灣發行月份除巴哈 ACG 外未有二源；size 留 null。大決戰平台以韓系RTS＋2001＋TCP/IP 推定 Windows，未硬證 DOS/Win 標示。
+- [ ] **cdg-5109 台灣爆笑麻將**：多輪搜尋（巴哈ACG／拍賣二手／百度）零命中，發行年代、開發商、平台、是否真上市皆待考；名稱可能有異（省略「台灣」或另有別名），或需查會宇原始產品目錄／舊雜誌廣告。
