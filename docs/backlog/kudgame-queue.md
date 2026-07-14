@@ -115,11 +115,11 @@ Triage 結果：40 款 → 4 略過（已發佈）、23 補完（既有 stub）�
 - [~] 太平天國－天下一統 — cdg-0487 ｜ 工人物語(1) — cdg-0553 ｜ 風雲之天下會 — cdg-1534 ｜ 老夫子大富翁 — cdg-1495
 
 ### 補完（既有 stub [ ]，pub=false）
-- [ ] 太空小蜜蜂 — cdg-0496 — 第三波 Space Invaders（Z-Axis 1999，SCD2318；群中選 publisher=第三波 者）
-- [ ] 秦殤 — cdg-1443 — 目標軟件/第三波 2002 RPG
-- [ ] 烽火連天 — cdg-4218 — War Wind（SSI/DreamForge RTS），publisher 待補第三波
-- [ ] 獸神世紀 — cdg-3553 — 加亞/第三波 2000
-- [ ] 艾薩克外傳：陽光少年遊 — cdg-3417 — 大點科技 1999
+- [x] 太空小蜜蜂 — cdg-0496 — 第三波 Space Invaders（Z-Axis 1999，SCD2318；群中選 publisher=第三波 者） ✅
+- [x] 秦殤 — cdg-1443 — 目標軟件/第三波 2002 RPG ✅
+- [x] 烽火連天 — cdg-4218 — War Wind（SSI/DreamForge RTS），publisher 待補第三波 ✅
+- [x] 獸神世紀 — cdg-3553 — 加亞/第三波 2000 ✅
+- [x] 艾薩克外傳：陽光少年遊 — cdg-3417 — 大點科技 1999 ✅
 - [ ] 夢幻咖啡屋 — cdg-2727 — 美夢成真/第三波 2000 LSG
 - [ ] 霹靂麻將 — cdg-2719 — 帕米爾/第三波 2000
 - [ ] 霹靂麻將２ — cdg-2720 — 帕米爾/第三波 2001
