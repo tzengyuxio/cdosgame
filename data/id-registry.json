@@ -71,9 +71,8 @@
       "keys": [
         "cat:SCD1826"
       ],
-      "status": "rejected",
-      "title_zh": "18輪大車拼",
-      "reject_reason": "out of scope: Synetic《18 輪大車拼》(2000)，外文 Windows 商業作、無台灣中文化發行足跡"
+      "status": "active",
+      "title_zh": "18輪大車拼"
     },
     "cdg-0008": {
       "catalog_id": "SCD1614",
@@ -4355,7 +4354,7 @@
     },
     "cdg-0472": {
       "catalog_id": "SCD2639",
-      "developer": "O3",
+      "developer": "O3 Games",
       "keys": [
         "cat:SCD2639"
       ],
@@ -46932,6 +46931,15 @@
       ],
       "status": "active",
       "title_zh": "星際開拓者"
+    },
+    "cdg-5113": {
+      "catalog_id": null,
+      "developer": "Digital Reality",
+      "keys": [
+        "t:銀河創世紀2|Digital Reality"
+      ],
+      "status": "active",
+      "title_zh": "銀河創世紀2"
     }
   }
 }
