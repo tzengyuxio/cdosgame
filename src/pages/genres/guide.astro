@@ -19,7 +19,7 @@ const sections = Object.keys(GROUP_LABELS).map(gid => ({
         <table class="guide-table">
           <tbody>
             {s.rows.map(k => (
-              <tr><th>{GENRE_LABELS[k]}</th><td>{GENRE_DESC[k]}</td></tr>
+              <tr><th>{GENRE_LABELS[k]}<span class="abbr">{k}</span></th><td>{GENRE_DESC[k]}</td></tr>
             ))}
           </tbody>
         </table>
