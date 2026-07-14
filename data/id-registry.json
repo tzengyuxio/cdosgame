@@ -29739,8 +29739,9 @@
       "keys": [
         "cat:SCD0627"
       ],
-      "status": "active",
-      "title_zh": "櫻花大戰4：戀愛吧少女"
+      "status": "rejected",
+      "title_zh": "櫻花大戰4：戀愛吧少女",
+      "reject_reason": "out of scope: 櫻花大戰4：戀愛吧少女（SEGA 開發，英特衛代理 2007），2001 年後之英特衛代理作，依使用者範圍決策排除英特衛 >2001 作品"
     },
     "cdg-3242": {
       "catalog_id": "SCD2800",
