@@ -20936,7 +20936,7 @@
         "cat:SCD0608"
       ],
       "status": "active",
-      "title_zh": "黑金企業1"
+      "title_zh": "黑金企業"
     },
     "cdg-2282": {
       "catalog_id": "SCD0609",
@@ -46878,6 +46878,33 @@
       ],
       "status": "active",
       "title_zh": "夢幻西巴拉"
+    },
+    "cdg-5107": {
+      "catalog_id": null,
+      "developer": "ESOFNET",
+      "keys": [
+        "t:大決戰|ESOFNET"
+      ],
+      "status": "active",
+      "title_zh": "大決戰"
+    },
+    "cdg-5108": {
+      "catalog_id": null,
+      "developer": "大眾軟件",
+      "keys": [
+        "t:哇哩咧炸彈人|大眾軟件"
+      ],
+      "status": "active",
+      "title_zh": "哇哩咧炸彈人"
+    },
+    "cdg-5109": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:台灣爆笑麻將|None"
+      ],
+      "status": "active",
+      "title_zh": "台灣爆笑麻將"
     }
   }
 }
