@@ -18852,7 +18852,7 @@
         "cat:SCD1063"
       ],
       "status": "active",
-      "title_zh": "純愛手札"
+      "title_zh": "純愛手札：交給我你的心"
     },
     "cdg-2052": {
       "catalog_id": "SCD0361",
@@ -46806,6 +46806,15 @@
       ],
       "status": "active",
       "title_zh": "奶娃大作戰"
+    },
+    "cdg-5099": {
+      "catalog_id": null,
+      "developer": "AIC Spirits",
+      "keys": [
+        "t:卡哇伊小貓咪|AIC Spirits"
+      ],
+      "status": "active",
+      "title_zh": "卡哇伊小貓咪"
     }
   }
 }
