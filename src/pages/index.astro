@@ -5,7 +5,7 @@ import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/
 import { seriesUrl, decadeUrl, gameUrl, withBase } from '../lib/links.js';
 import { coverOf, thumbUrl } from '../lib/media.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
-import { latestModified } from '../lib/gitdates.js';
+import { latestModified, lastModified } from '../lib/gitdates.js';
 
 const games = (await getCollection('games', e => import.meta.env.PROD ? e.data.published : true)).map(e => e.data);
 const total = games.length;
@@ -31,6 +31,13 @@ const coverPool = coverGames.map(toCard);
 const featured = [...coverGames]
   .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
   .slice(0, WALL_N).map(toCard);
+// Recently edited entries, keyed by each content file's last commit date.
+// Empty (section hidden) on shallow clones where git history is unavailable.
+const recent = games
+  .map(g => ({ g, mod: lastModified(`content/games/${g.id}.md`) }))
+  .filter(x => x.mod)
+  .sort((a, b) => b.mod.localeCompare(a.mod))
+  .slice(0, 12);
 const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const desc = `盡可能齊全、重考據的中文 DOS 時代遊戲百科——已收錄 ${total} 款，涵蓋 ${seriesCount} 個系列、${companies.length} 家廠商，並附廠商、系列、人物與考據資料。`;
 const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site, description: desc, count: total, dateModified: latestModified() })];
@@ -52,6 +59,21 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
       </a>
     ))}
   </div>
+
+  {recent.length > 0 && (
+    <>
+      <h2 class="section-h">最近更新</h2>
+      <div class="cardrow">
+        {recent.map(({ g, mod }) => (
+          <div class="scard">
+            <div class="t"><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></div>
+            <div class="m">{[g.year, g.developer].filter(Boolean).join(' · ')}</div>
+            <div class="d">更新於 {mod.slice(0, 10)}</div>
+          </div>
+        ))}
+      </div>
+    </>
+  )}
 
   <h2 class="section-h">經典系列</h2>
   <div class="cardrow">
