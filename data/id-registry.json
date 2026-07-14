@@ -30833,8 +30833,9 @@
       "keys": [
         "cat:SCD0044"
       ],
-      "status": "active",
-      "title_zh": "鋤大"
+      "status": "merged",
+      "title_zh": "鋤大",
+      "merged_into": "cdg-4530"
     },
     "cdg-3362": {
       "catalog_id": "SCD0101",
