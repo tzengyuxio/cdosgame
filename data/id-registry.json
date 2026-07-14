@@ -46940,6 +46940,33 @@
       ],
       "status": "active",
       "title_zh": "銀河創世紀2"
+    },
+    "cdg-5114": {
+      "catalog_id": null,
+      "developer": "金洪恩",
+      "keys": [
+        "t:戰爭與和平|金洪恩"
+      ],
+      "status": "active",
+      "title_zh": "戰爭與和平"
+    },
+    "cdg-5115": {
+      "catalog_id": null,
+      "developer": "Orange Soft",
+      "keys": [
+        "t:烏龍道士|Orange Soft"
+      ],
+      "status": "active",
+      "title_zh": "烏龍道士"
+    },
+    "cdg-5116": {
+      "catalog_id": null,
+      "developer": "Orange Soft",
+      "keys": [
+        "t:波利魔特之千年幻想|Orange Soft"
+      ],
+      "status": "active",
+      "title_zh": "波利魔特之千年幻想"
     }
   }
 }
