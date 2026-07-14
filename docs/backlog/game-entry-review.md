@@ -602,3 +602,10 @@ created: 2026-06-20
 - **新建**：cdg-5113 銀河創世紀2（Digital Reality/匈牙利《Imperium Galactica II: Alliances》太空 4X/RTS，原版1999，series 銀河創世紀，首作 IG1 1997）。
 - [ ] **cdg-0007 18輪 / cdg-5113 銀河創世紀2 確切台灣發行年待考**：兩款台灣會宇發行年無一手佐證（推估同原版 2000 / 1999）。**cdg-5113 銀河創世紀2 中文化程度待考**：未見繁中化報導，保守標 packaging/en（同期會宇大型策略多英文版代理），但有系列中文譯名，若日後證實繁中化須改 localized/zh。
 - [ ] **cdg-0476 天空之鷹 日本發行商全名查無**：巴哈僅提「NEC」（疑 NEC InterChannel 系），未見官方全稱，未寫入 staff/publisher。chiuinan 記 12/14 與 12/24 兩種光碟版音軌不同不可互換（版本細節，未展開）。
+
+### 會宇 triage＋補完批次 4（2026-07-15）
+- 補寫既有 stub：cdg-1836 神奇堆堆樂：動感積木（南韓 ZOI《ZOI VR Blocks》，**類型訂正＝空間解謎＋建造非落物**、genre→PZG、region→KR、content_language null→zh、localization_level null→localized、源自韓國積木玩具推廣企劃）。
+- **新建（皆會宇代理韓國作、≤2001）**：cdg-5114 戰爭與和平（金洪恩/韓《War & Peace》全3D RTS，台售2001-08）；cdg-5115 烏龍道士（Orange Soft/韓《머털도사》RPG，改編李斗鎬漫畫/1989動畫，原版1998）；cdg-5116 波利魔特之千年幻想（Orange Soft/韓《머털도사 2》RPG，原版2000/台售2001-04，**即烏龍道士2**）。烏龍道士↔波利魔特 series「烏龍道士」互連。
+- 逐鹿中原之隋唐群英傳＝cdg-2569 前批已發佈，本批未動。
+- [ ] **cdg-1836 神奇堆堆樂 標題「2」疑義**：台灣二手廣告品名作「神奇堆堆樂２－動感積木（中文版）」帶數字2，且同賣家另列「LEGO 99 神奇堆堆樂」，會宇這系列疑不只一款；現標題沿用 chiuinan「神奇堆堆樂：動感積木」（無2）、加 alias 待查。年份 chiuinan 1997／Old-Games.RU 1998，取1997、body 註「一說1998」。ZOI 法人全名/韓文名查無。edutainment 疑慮：廣告歸幼教類，但核心為空間解謎玩法（非純學習軟體）＋有 chiuinan 碼，判 keeper。
+- [ ] **cdg-5115 烏龍道士 台灣代理確切上市日查無**：巴哈無獨立 ACG 頁，year 採韓國原版年1998；台灣代理應在系列二代（波利魔特 2001-04）之前或同期。戰爭與和平/波利魔特台售日有巴哈一手佐證。三款新建 provenance 僅 manual@game-entry。
