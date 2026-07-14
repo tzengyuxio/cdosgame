@@ -595,3 +595,10 @@ created: 2026-06-20
 - [ ] **cdg-1827 神劍傳說 vs cdg-1828 神劍傳說2 撞名非同系列**：1 為 team AMOS《Protocos》、2 為 Ecstasy《신검의 전설 2 라이어/LIAR》（歡樂盒代理1996），中文譯名偶合、無血緣；正文已中性標明。cdg-1828 developer/publisher 既有值正確，本批未動。神劍傳說會宇版平台標 Windows 係據 chiuinan 相容性註記推斷（原韓版 DOS），未硬證。
 - [ ] **cdg-2283 黑鷹傳奇 開發商全名/別名**：確認「北京八爪魚」（與 cdg-1907 殺氣沖天同開發商，developer 欄沿用既有「八爪魚」字串保實體一致）；「騰圖」記法查無、未寫入。「黑鷹傳奇2」傾向同款別名而非獨立續作，無二代獨立發行足跡；片數 2CD 沿用既有、公開來源未再證。
 - [ ] **cdg-5110 時間之輪 / cdg-5111 機甲帝國 中文化程度待考**：會宇代理身分依 kudgame 清單，確切台灣發行年與繁中化程度無一手佐證；依會宇代理慣例暫標 localized（zh），year 採原版年 1999。若日後翻到販售目錄／廣告可證實/修正（星際開拓者已明確為英文版故標 packaging/en）。三款皆非 chiuinan/omega 收錄，provenance 僅 manual@game-entry。
+
+### 會宇 triage＋補完批次 3（2026-07-15）
+- **復活 reject 條目**：cdg-0007 18輪大車拼（Synetic/德《Mercedes-Benz Truck Racing》2000 卡車競速 RCG，THQ 發行）。原 reject 理由「無台灣中文化發行足跡」部分錯誤——**chiuinan 頁明文「會宇代理進口」＋Omega 串（threadid 5422）＋kudgame 清單**三源證實有台灣足跡，僅未中文化。經使用者確認復活，registry status rejected→active、建 content packaging/en，比照 cdg-0472 天燎怒火先例。
+- 補寫既有 stub：cdg-0476 天空之鷹：艾爾賽特任務（工畫堂《エアサイト・ミッション/Airsite Mission》經營＋空戰戰術 **genre LSG→SLG 訂正**、會宇繁中2000-12）；cdg-0472 天燎怒火（O3 Games/瑞典《The Outforce》太空 RTS **genre SLG→RTS 訂正**、region→SE、O3→O3 Games、後改組 Starbreeze、會宇英文版代理 packaging 維持）；cdg-1507 風之探索者（Gruppo One **確認日本廠非義大利**〔前 Falcom 富樫品牌〕、region→JP、日本原版2000-08 **year 2001→2000 訂正採原版年**、會宇繁中2001、roguelike 團隊回合 RPG）。
+- **新建**：cdg-5113 銀河創世紀2（Digital Reality/匈牙利《Imperium Galactica II: Alliances》太空 4X/RTS，原版1999，series 銀河創世紀，首作 IG1 1997）。
+- [ ] **cdg-0007 18輪 / cdg-5113 銀河創世紀2 確切台灣發行年待考**：兩款台灣會宇發行年無一手佐證（推估同原版 2000 / 1999）。**cdg-5113 銀河創世紀2 中文化程度待考**：未見繁中化報導，保守標 packaging/en（同期會宇大型策略多英文版代理），但有系列中文譯名，若日後證實繁中化須改 localized/zh。
+- [ ] **cdg-0476 天空之鷹 日本發行商全名查無**：巴哈僅提「NEC」（疑 NEC InterChannel 系），未見官方全稱，未寫入 staff/publisher。chiuinan 記 12/14 與 12/24 兩種光碟版音軌不同不可互換（版本細節，未展開）。
