@@ -37673,8 +37673,9 @@
       "keys": [
         "t:愛之物語2|None"
       ],
-      "status": "active",
-      "title_zh": "愛之物語2"
+      "status": "merged",
+      "title_zh": "愛之物語2",
+      "merged_into": "cdg-1805"
     },
     "cdg-4110": {
       "catalog_id": null,
@@ -37682,8 +37683,9 @@
       "keys": [
         "t:愛之物語3|None"
       ],
-      "status": "active",
-      "title_zh": "愛之物語3"
+      "status": "merged",
+      "title_zh": "愛之物語3",
+      "merged_into": "cdg-1786"
     },
     "cdg-4111": {
       "catalog_id": null,
