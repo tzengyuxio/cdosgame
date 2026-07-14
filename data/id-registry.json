@@ -35398,8 +35398,9 @@
       "keys": [
         "t:黑之斷章|None"
       ],
-      "status": "active",
-      "title_zh": "黑之斷章"
+      "status": "merged",
+      "title_zh": "黑之斷章",
+      "merged_into": "cdg-2264"
     },
     "cdg-3863": {
       "catalog_id": null,
