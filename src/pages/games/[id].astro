@@ -87,7 +87,7 @@ const staffByRole = staff => {
 };
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`} description={description} ogType="article" ogImage={ogImage} jsonLd={jsonLd}>
-  <DosBar path={g.title_zh} right={g.id} />
+  <DosBar path={`GAMES\\${g.title_zh}`} right={g.id} />
   <div class="game-wiki">
     <div class="gw-main">
       <h1 class="game-title">{g.title_zh}{g.year && <span class="year">({g.year})</span>}</h1>
