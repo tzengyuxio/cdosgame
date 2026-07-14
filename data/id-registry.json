@@ -46995,6 +46995,15 @@
       ],
       "status": "active",
       "title_zh": "流氓大亨"
+    },
+    "cdg-5120": {
+      "catalog_id": null,
+      "developer": "Hothouse Creations",
+      "keys": [
+        "t:流氓大亨2|Hothouse Creations"
+      ],
+      "status": "active",
+      "title_zh": "流氓大亨2"
     }
   }
 }
