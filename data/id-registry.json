@@ -46985,6 +46985,15 @@
       ],
       "status": "active",
       "title_zh": "公主的回憶"
+    },
+    "cdg-5119": {
+      "catalog_id": null,
+      "developer": "Hothouse Creations",
+      "keys": [
+        "t:流氓大亨|Hothouse Creations"
+      ],
+      "status": "active",
+      "title_zh": "流氓大亨"
     }
   }
 }
