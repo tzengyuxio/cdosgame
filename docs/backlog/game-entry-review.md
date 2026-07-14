@@ -557,3 +557,12 @@ created: 2026-06-20
 - [ ] **cdg-5098 奶娃大作戰**：華義中文版確切發行年月、媒體片數、中文化程度（本作幾無文字，疑僅包裝中文化→localization packaging、content_language null）皆待一手佐證；year 2001 為據韓版 PC 版推定。genre 暫給 ACT（快打競技），亦可視為派對/體育小遊戲。
 - [ ] 狂王3 year 保留日版 1996（cdg-3521 之後繼者日版 1998），華義中文版皆 1999 同碟——year 欄採日版年、正文敘明中文版年。
 - 範圍備註：本批多為 2000–2001 Windows 華義代理/國產作（含韓 ExPotato、日 AIC/Compile），依「台灣代理發行足跡」收錄，與既有 cdg-1134/2284 等華義 Windows 條目一致。
+
+### 華義 triage＋補完批次（2026-07-15）
+- 補寫並發佈：cdg-2184 超級任務2001（亞克米/華義，蹭華視《超級星期天》超級任務單元熱度、十任務益智解謎，dev_region→TW）；cdg-0101 MISS阿性李勉之的世紀大富翁（爾波國際/華義，李勉之人物設計、實為西遊記大富翁與 Miss阿性 漫畫無關、20 角色 3D，dev_region→TW、加 staff）；cdg-1474 美媚夢工廠（GAINAX《あにまる・まぐねてぃずむ ぽちのだいすき》Animal Magnetism~Pochi no Daisuki~ 2000，獸娘冒險＋卡牌，非 Princess Maker，genre ADV/localized）。
+- **純愛手札兩筆理清（原欄位張冠李戴）**：cdg-2050=SCD1062＝ときめきメモリアル ~forever with you~（初代正編養成，1998，LSG）；cdg-2051=SCD1063＝~おしえて Your heart~ 交給我你的心（1997 街機衍生的約會問答，1999，AVG）。已修正 references 各指對頁、拆開共用的 images 陣列、cdg-2051 消歧義改標題「純愛手札：交給我你的心」（裸名入 alias、registry title 同步）並互連。
+- **新建 cdg-5099 卡哇伊小貓咪**：triage 結論＝**是遊戲非工具**（AIC/AIC Spirits 貓娘養成 gal game，華義代理，台灣 2000-04-10、NT$800、單人多結局＋CG）。使用者標的「參數顯示程式」實為養成遊戲顯示角色數值，非獨立工具。年份 2000（≤2002）故直接建。與同屬 AIC 的 cdg-5097 美少女聖記 互連。
+- 幻想奇俠傳 cdg-3864 本已有正文、未動。
+- [ ] **cdg-5099 卡哇伊小貓咪 分級待查**：巴哈標分級不明、玩家稱蘿莉養成，保守未設 adult:true；日文原名/原版日期亦未尋得。平台推定 Windows（2000 AIC gal game）未硬證。
+- [ ] **cdg-1474 美媚夢工廠 分級待查**：清涼獸娘、賣肉明顯，但 ErogameScape 收錄標全年齡，未斷言 18 禁、未設 adult。
+- 亞克米、爾波國際（Apply Technology）公司背景公開資料極少，正文據實不深入。
