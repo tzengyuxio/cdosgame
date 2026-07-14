@@ -29006,8 +29006,9 @@
       "keys": [
         "cat:SCD1946"
       ],
-      "status": "active",
-      "title_zh": "槍神"
+      "status": "rejected",
+      "title_zh": "槍神",
+      "reject_reason": "out of scope: Midway《Stranglehold》(2006，中譯槍神)，外文 Windows 商業動作作、2006 年，非 DOS 時代台灣市場焦點"
     },
     "cdg-3162": {
       "catalog_id": "SCD2140",
@@ -31396,7 +31397,7 @@
         "cat:SCD0038"
       ],
       "status": "active",
-      "title_zh": "花木蘭"
+      "title_zh": "花木蘭（1998）"
     },
     "cdg-3423": {
       "catalog_id": "SCD0166",
@@ -31405,7 +31406,7 @@
         "cat:SCD0166"
       ],
       "status": "active",
-      "title_zh": "花木蘭"
+      "title_zh": "花木蘭（2005）"
     },
     "cdg-3424": {
       "catalog_id": "SCD1802",
@@ -35683,8 +35684,9 @@
       "keys": [
         "t:三姐妹|None"
       ],
-      "status": "active",
-      "title_zh": "三姐妹"
+      "status": "merged",
+      "title_zh": "三姐妹",
+      "merged_into": "cdg-0201"
     },
     "cdg-3894": {
       "catalog_id": null,
@@ -36990,8 +36992,9 @@
       "keys": [
         "t:歷險小精靈|None"
       ],
-      "status": "active",
-      "title_zh": "歷險小精靈"
+      "status": "merged",
+      "title_zh": "歷險小精靈",
+      "merged_into": "cdg-0685"
     },
     "cdg-4037": {
       "catalog_id": null,
