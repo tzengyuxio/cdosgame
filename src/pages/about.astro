@@ -4,7 +4,7 @@ import DosBar from '../components/DosBar.astro';
 import { getCollection } from 'astro:content';
 import { distinctValues, vendorsOf } from '../lib/gamesQuery.js';
 import { LOC_LABELS } from '../lib/labels.js';
-import { withBase } from '../lib/links.js';
+import { withBase, gameUrl, seriesUrl, companyUrl, topicUrl } from '../lib/links.js';
 import { latestModified } from '../lib/gitdates.js';
 // keep level names in sync with labels.js; descriptions per CLAUDE.md scope
 const LOC_DESC = {
@@ -26,6 +26,49 @@ const stats = {
   images: pubGames.reduce((n, g) => n + (g.media?.length || 0), 0),
 };
 const updated = latestModified()?.slice(0, 10);
+
+// 延伸收錄的幾類作品，各附代表範例（連結至遊戲／系列／公司／目錄頁）。
+const SCOPE_CATS = [
+  {
+    text: '早期 Apple II 時期的國產遊戲，呈現台灣電腦遊戲在 DOS 普及之前的起點；',
+    egs: [
+      { t: '如意集', href: gameUrl('cdg-4520') },
+      { t: '星河戰士', href: gameUrl('cdg-4529') },
+      { t: '屠龍戰記', href: gameUrl('cdg-4534') },
+    ],
+  },
+  {
+    text: '早期未授權引進時代、僅具中文包裝或說明書的引進遊戲，為維持產品目錄的完整而一併收錄作為參考；',
+    egs: [
+      { t: '軟體世界珍藏版', href: topicUrl('軟體世界遊戲列表（珍藏版）') },
+      { t: '精訊目錄', href: topicUrl('精訊遊戲編號目錄') },
+      { t: '第三波目錄', href: topicUrl('第三波綜合軟體目錄') },
+    ],
+  },
+  {
+    text: '知名國產遊戲系列在 DOS 時代之後推出的續作，以呈現系列的完整脈絡；',
+    egs: [
+      { t: '軒轅劍', href: seriesUrl('軒轅劍') },
+      { t: '仙劍奇俠傳', href: seriesUrl('仙劍奇俠傳') },
+      { t: '大富翁', href: seriesUrl('大富翁') },
+    ],
+  },
+  {
+    text: 'DOS 時代重要國產廠商在此之後的發行，藉以了解這些公司的後續發展；',
+    egs: [
+      { t: '光譜', href: companyUrl('光譜') },
+      { t: '弘煜', href: companyUrl('弘煜') },
+    ],
+  },
+  {
+    text: '後期跨入 Windows 時代（約 2001 年前）的部分國產遊戲，用以呈現當時的市場風貌。',
+    note: '此處以 Windows XP 上市（2001 年）作為發行時間的界線，而非以遊戲實際執行的作業系統為準——遊戲開發與作業系統世代之間存在滯後，Windows 上市後仍有不少作品維持 DOS 版本。',
+    egs: [
+      { t: '阿貓阿狗', href: gameUrl('cdg-1355') },
+      { t: '新神鵰俠侶', href: gameUrl('cdg-2342') },
+    ],
+  },
+];
 ---
 <Base title="關於｜中文 DOS 遊戲資料庫">
   <DosBar path="關於" />
@@ -34,11 +77,14 @@ const updated = latestModified()?.slice(0, 10);
       <h1>關於本資料庫</h1>
       <p>本站以完整收錄曾於台灣市場出現的 DOS 遊戲為主要目標，涵蓋原生中文、中文化版本，以及僅提供中文包裝或說明書的作品。</p>
       <p>此外，資料庫亦延伸收錄 DOS 主線之外的部分國產作品。這些作品一方面補足遊戲系列與廠商沿革的脈絡，另一方面也更完整呈現台灣電腦遊戲市場與技術平台的演進，主要包含下列幾類：</p>
-      <ul>
-        <li>早期 Apple II 時期的國產遊戲；</li>
-        <li>後期 Windows 95 時期的部分國產遊戲；</li>
-        <li>知名國產遊戲系列在 DOS 時代之後推出的後續續作，以呈現系列的完整脈絡；</li>
-        <li>DOS 時代重要國產廠商在此之後的發行，藉以了解這些公司的後續發展。</li>
+      <ul class="scope-list">
+        {SCOPE_CATS.map(c => (
+          <li>
+            {c.text}
+            <span class="egs">例：{c.egs.map(e => <a class="eg" href={e.href}>{e.t}</a>)}</span>
+            {c.note && <small class="note">註：{c.note}</small>}
+          </li>
+        ))}
       </ul>
 
       <h2>收錄準則</h2>
