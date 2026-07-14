@@ -44,8 +44,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 使用者一次貼一整批遊戲名（補完/新建條目）時，用 **triage-first 兩階段**跑，別把判斷、研究、建檔在主線交錯（會散出決策點、吃爆 context）。進度佇列＝ `docs/backlog/kudgame-queue.md`（狀態圖例見該檔）。
 
 - **階段 A — 一次大批 triage（便宜、決策集中）**：只做輕量判斷（`rg`/`jq` 查 registry 是否已存在、查年份是否 >2002、判斷 scope），**不深研究**。結果寫進 queue 檔，並把**所有需使用者決定的事集中成一張清單、一次用 AskUserQuestion 問完**（>2002 要不要建、reject 條目要不要復活、查無足跡如何處理等）。這步幾乎不吃 context，可涵蓋 20–30 款。
-- **階段 B — 分批 build（貴、無需使用者介入）**：決策已在 A 解決，照 queue 逐批**每 5 款**深研究（研究進 subagent、只回結構化事實＋來源）＋建檔＋`npm run validate`＋commit（content／registry 拆兩筆）＋更新 queue 狀態。跑到該 reset 為止。
-- **Reset 協定**：安全斷點＝**每個 build 批次剛 commit 完、queue 剛更新完**；**絕不在一批中途 reset**。context 約 50% 時**主動**告知使用者「此處是乾淨斷點，建議 reset」。
+- **階段 B — 分批 build（貴、無需使用者介入）**：決策已在 A 解決，照 queue 逐批**每 5 款**跑。**盡量把整批重活（研究＋建檔＋`npm run validate`）委派給 subagent、主線只抽驗 `git diff` 再 commit**，讓主線 context 少膨脹：研究一律進 subagent 只回結構化事實＋來源；subagent 回報是「打算做什麼」、涉及寫檔主線必抽驗 diff、不全信。每批 commit 拆 content／registry 兩筆並更新 queue 狀態。跑到該 reset 為止。
+- **發佈規則**：內容完整的條目直接 `published: true`；stub／查無足跡（unverified）款留 `published: false`。
+- **Reset 協定**：安全斷點＝**每個 build 批次剛 commit 完、queue 剛更新完**；**絕不在一批中途 reset**。context 約 50% 時**主動**告知使用者「此處是乾淨斷點，建議 reset」（狀態已外部化到 queue 檔，優先 reset 勝過 compact——不背舊摘要、context 最省）。
 - **接手指令**：reset 後使用者說「**繼續 kudgame queue**」，即讀 queue 檔找 `[ ]` pending 從斷點續跑；決策結果都在 queue／`game-entry-review.md`，不重問已答項。
 - 內容慣例（房屋風格、frontmatter、id 政策、發佈）一律走 skill `game-entry`；本工作流只固化「批次節奏＋決策前置＋斷點」。
 - ⚠ `raw/kudgame-list.txt` 是使用者參考清單（非佇列），別整檔複製進 queue 檔；queue 只放當輪要處理的批次。
