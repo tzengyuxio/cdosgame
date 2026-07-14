@@ -10846,7 +10846,7 @@
         "cat:SCD0980"
       ],
       "status": "active",
-      "title_zh": "沙場風暴"
+      "title_zh": "美少女沙場風暴"
     },
     "cdg-1179": {
       "catalog_id": "SWT244",
@@ -32342,7 +32342,7 @@
     },
     "cdg-3526": {
       "catalog_id": null,
-      "developer": "漢堂",
+      "developer": "滾滾工作室",
       "keys": [
         "t:狂龍傳|漢堂"
       ],
@@ -36114,8 +36114,9 @@
       "keys": [
         "t:美女物語：Part1 日本風情篇|None"
       ],
-      "status": "active",
-      "title_zh": "美女物語：Part1 日本風情篇"
+      "status": "merged",
+      "title_zh": "美女物語：Part1 日本風情篇",
+      "merged_into": "cdg-1470"
     },
     "cdg-3941": {
       "catalog_id": null,
