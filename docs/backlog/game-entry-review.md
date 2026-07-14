@@ -588,3 +588,10 @@ created: 2026-06-20
 - [ ] **cdg-2282 黑金企業2 開發歸屬待考**：System 3 國際 ludography 無「Street Wars 2」，確為台灣專屬；但由會宇自製抑或取得 System 3 引擎授權製作，無直接來源證實，developer 暫掛「會宇」＋native。玩法細節目前僅巴哈 ACG 單一來源。另社群提及對岸「黑金企業III」屬範圍外衍生。
 - [ ] **cdg-5107 大決戰 / cdg-5108 哇哩咧炸彈人**：size（片數）、確切台灣發行月份除巴哈 ACG 外未有二源；size 留 null。大決戰平台以韓系RTS＋2001＋TCP/IP 推定 Windows，未硬證 DOS/Win 標示。
 - [ ] **cdg-5109 台灣爆笑麻將**：多輪搜尋（巴哈ACG／拍賣二手／百度）零命中，發行年代、開發商、平台、是否真上市皆待考；名稱可能有異（省略「台灣」或另有別名），或需查會宇原始產品目錄／舊雜誌廣告。
+
+### 會宇 triage＋補完批次 2（2026-07-15）
+- 補寫既有 stub：cdg-1827 神劍傳說（**developer 誤植 YoYo Games→team AMOS 訂正**、region→KR、原名 Protocos: 신들의 예언서/北歐神話 RPG、韓國原版1995-96 DOS/會宇繁中版1999 Windows、同步 registry）；cdg-2283 黑鷹傳奇（developer 八爪魚→補 region CN、native→localized、殺氣沖天 cdg-1907 續作交叉連結）。
+- **新建（皆會宇代理歐美作、原版 ≤2000）**：cdg-5110 時間之輪（Legend Entertainment/美《The Wheel of Time》FPS，改編 Robert Jordan 小說，原版1999）；cdg-5111 機甲帝國（Charybdis/英《Machines: Wired for War》RTS，原版1999）；cdg-5112 星際開拓者（Egosoft/德《X-Gold》太空模擬 SIM，2000合輯，**英文版代理未中文化 packaging/en**）。
+- [ ] **cdg-1827 神劍傳說 vs cdg-1828 神劍傳說2 撞名非同系列**：1 為 team AMOS《Protocos》、2 為 Ecstasy《신검의 전설 2 라이어/LIAR》（歡樂盒代理1996），中文譯名偶合、無血緣；正文已中性標明。cdg-1828 developer/publisher 既有值正確，本批未動。神劍傳說會宇版平台標 Windows 係據 chiuinan 相容性註記推斷（原韓版 DOS），未硬證。
+- [ ] **cdg-2283 黑鷹傳奇 開發商全名/別名**：確認「北京八爪魚」（與 cdg-1907 殺氣沖天同開發商，developer 欄沿用既有「八爪魚」字串保實體一致）；「騰圖」記法查無、未寫入。「黑鷹傳奇2」傾向同款別名而非獨立續作，無二代獨立發行足跡；片數 2CD 沿用既有、公開來源未再證。
+- [ ] **cdg-5110 時間之輪 / cdg-5111 機甲帝國 中文化程度待考**：會宇代理身分依 kudgame 清單，確切台灣發行年與繁中化程度無一手佐證；依會宇代理慣例暫標 localized（zh），year 採原版年 1999。若日後翻到販售目錄／廣告可證實/修正（星際開拓者已明確為英文版故標 packaging/en）。三款皆非 chiuinan/omega 收錄，provenance 僅 manual@game-entry。
