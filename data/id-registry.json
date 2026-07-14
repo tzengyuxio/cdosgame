@@ -46833,6 +46833,51 @@
       ],
       "status": "active",
       "title_zh": "拿破崙戰史1813"
+    },
+    "cdg-5102": {
+      "catalog_id": null,
+      "developer": "Rebellion",
+      "keys": [
+        "t:鋼鐵戰場|Rebellion"
+      ],
+      "status": "active",
+      "title_zh": "鋼鐵戰場"
+    },
+    "cdg-5103": {
+      "catalog_id": null,
+      "developer": "Sunflowers",
+      "keys": [
+        "t:魔法危機|Sunflowers"
+      ],
+      "status": "active",
+      "title_zh": "魔法危機"
+    },
+    "cdg-5104": {
+      "catalog_id": null,
+      "developer": "Human Head Studios",
+      "keys": [
+        "t:維京戰神|Human Head Studios"
+      ],
+      "status": "active",
+      "title_zh": "維京戰神"
+    },
+    "cdg-5105": {
+      "catalog_id": null,
+      "developer": "Software 2000",
+      "keys": [
+        "t:夢幻披薩屋|Software 2000"
+      ],
+      "status": "active",
+      "title_zh": "夢幻披薩屋"
+    },
+    "cdg-5106": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:夢幻西巴拉|None"
+      ],
+      "status": "active",
+      "title_zh": "夢幻西巴拉"
     }
   }
 }
