@@ -27387,8 +27387,9 @@
       "keys": [
         "t:劉小光個人專輯第一集|星式"
       ],
-      "status": "active",
-      "title_zh": "劉小光個人專輯第一集"
+      "status": "rejected",
+      "title_zh": "劉小光個人專輯第一集",
+      "reject_reason": "out of scope: 大陸星式《劉小光個人專輯第一集》(1993)，圍棋打譜程式（收錄劉小光名局２０譜），屬工具軟體非遊戲"
     },
     "cdg-2986": {
       "catalog_id": "SCD0972",
@@ -31118,7 +31119,7 @@
     },
     "cdg-3392": {
       "catalog_id": null,
-      "developer": "松銓",
+      "developer": "松詮",
       "keys": [
         "t:戰棋|松銓"
       ],
@@ -38623,8 +38624,9 @@
       "keys": [
         "t:戰棋4000|None"
       ],
-      "status": "active",
-      "title_zh": "戰棋4000"
+      "status": "rejected",
+      "title_zh": "戰棋4000",
+      "reject_reason": "duplicate/phantom: rwv fuzzy 匯入產生的空白重複，實為《戰棋》(cdg-3392) 之異名「戰棋4000」，非獨立作品"
     },
     "cdg-4214": {
       "catalog_id": null,
