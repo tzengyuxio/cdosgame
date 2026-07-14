@@ -21994,7 +21994,7 @@
     },
     "cdg-2398": {
       "catalog_id": null,
-      "developer": "二工坊",
+      "developer": "松詮",
       "keys": [
         "t:星城：綠洲計畫|二工坊"
       ],
@@ -37964,8 +37964,9 @@
       "keys": [
         "t:超時空G點|None"
       ],
-      "status": "active",
-      "title_zh": "超時空G點"
+      "status": "merged",
+      "title_zh": "超時空G點",
+      "merged_into": "cdg-2171"
     },
     "cdg-4142": {
       "catalog_id": null,
