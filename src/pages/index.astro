@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
-import { seriesUrl, decadeUrl, gameUrl, withBase } from '../lib/links.js';
+import { seriesUrl, decadeUrl, gameUrl, companyUrl, teamUrl, personUrl, topicUrl, withBase } from '../lib/links.js';
 import { coverOf, thumbUrl } from '../lib/media.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified, lastModified } from '../lib/gitdates.js';
@@ -31,13 +31,39 @@ const coverPool = coverGames.map(toCard);
 const featured = [...coverGames]
   .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
   .slice(0, WALL_N).map(toCard);
-// Recently edited entries, keyed by each content file's last commit date.
-// Empty (section hidden) on shallow clones where git history is unavailable.
-const recent = games
-  .map(g => ({ g, mod: lastModified(`content/games/${g.id}.md`) }))
-  .filter(x => x.mod)
-  .sort((a, b) => b.mod.localeCompare(a.mod))
-  .slice(0, 12);
+// 最近更新 feed: newest-edited entries across all entity types, keyed by each
+// content file's last git-commit date. Empty (section hidden) on shallow clones
+// where git history is unavailable.
+const trunc = (s, n = 34) => (s && s.length > n ? s.slice(0, n) + '…' : (s || ''));
+const FEED_TYPES = [
+  { col: 'games', dir: 'games', label: '遊戲', url: gameUrl, name: d => d.title_zh, sub: d => [d.year, d.developer].filter(Boolean).join(' · ') },
+  { col: 'companies', dir: 'companies', label: '廠商', url: companyUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'series', dir: 'series', label: '系列', url: seriesUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
+  { col: 'teams', dir: 'teams', label: '團隊', url: teamUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'people', dir: 'people', label: '人物', url: personUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'topics', dir: 'topics', label: '專題', url: topicUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
+];
+const feed = [];
+for (const t of FEED_TYPES) {
+  const entries = await getCollection(t.col, e => import.meta.env.PROD ? e.data.published : true);
+  for (const e of entries) {
+    const mod = lastModified(`content/${t.dir}/${e.id}.md`);
+    if (!mod) continue;
+    feed.push({ url: t.url(e.id), label: t.label, name: t.name(e.data), sub: t.sub(e.data), date: mod.slice(0, 10), iso: mod, img: (e.data.media || []).length > 0 });
+  }
+}
+feed.sort((a, b) => b.iso.localeCompare(a.iso) || a.name.localeCompare(b.name, 'zh-Hant'));
+// Anti-flood: a bulk import lands many files on one commit/day. Cap each
+// (day × type) group so no single batch can wash out the whole feed.
+const RECENT_TOTAL = 15, PER_GROUP = 3;
+const groupSeen = {};
+const recent = [];
+for (const f of feed) {
+  const k = `${f.date}|${f.label}`;
+  if ((groupSeen[k] = (groupSeen[k] || 0) + 1) > PER_GROUP) continue;
+  recent.push(f);
+  if (recent.length >= RECENT_TOTAL) break;
+}
 const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
 const desc = `盡可能齊全、重考據的中文 DOS 時代遊戲百科——已收錄 ${total} 款，涵蓋 ${seriesCount} 個系列、${companies.length} 家廠商，並附廠商、系列、人物與考據資料。`;
 const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site, description: desc, count: total, dateModified: latestModified() })];
@@ -63,15 +89,17 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
   {recent.length > 0 && (
     <>
       <h2 class="section-h">最近更新</h2>
-      <div class="cardrow">
-        {recent.map(({ g, mod }) => (
-          <div class="scard">
-            <div class="t"><a class="lk" href={gameUrl(g.id)}>{g.title_zh}</a></div>
-            <div class="m">{[g.year, g.developer].filter(Boolean).join(' · ')}</div>
-            <div class="d">更新於 {mod.slice(0, 10)}</div>
-          </div>
+      <ul class="recent">
+        {recent.map(r => (
+          <li>
+            <span class="tag">{r.label}</span>
+            <a class="lk name" href={r.url}>{r.name}</a>
+            {r.sub && <span class="sub">{r.sub}</span>}
+            {r.img && <span class="ico" title="含圖資" aria-label="含圖資">📷</span>}
+            <time class="date">{r.date}</time>
+          </li>
         ))}
-      </div>
+      </ul>
     </>
   )}
 
