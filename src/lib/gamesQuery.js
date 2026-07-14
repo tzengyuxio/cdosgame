@@ -5,9 +5,9 @@ export const NONE = '未分類';
 export const LOC_ORDER = ['native', 'localized', 'packaging', 'foreign'];
 const locRank = v => { const i = LOC_ORDER.indexOf(v); return i === -1 ? LOC_ORDER.length + 1 : i; };
 
-// platform facet: platform_note is free-text (無=DOS, many Windows variants incl.
+// platform facet: platform_note is free-text (DOS, many Windows variants incl.
 // typos, "Apple II"). Bucket it into a small stable axis; a game can span several
-// (e.g. "DOS、Windows"). Fixed reading order DOS→Windows→Apple II, 未分類 last.
+// (e.g. "DOS/Windows"). Fixed reading order DOS→Windows→Apple II, 未分類 last.
 export const PLATFORM_ORDER = ['DOS', 'Windows', 'Apple II'];
 const platformRank = v => { const i = PLATFORM_ORDER.indexOf(v); return i === -1 ? PLATFORM_ORDER.length + 1 : i; };
 
@@ -17,7 +17,7 @@ export function platformsOf(g) {
   const s = String(note).toLowerCase();
   const out = [];
   if (s.includes('apple')) out.push('Apple II');
-  if (s.includes('dos') || String(note).includes('無')) out.push('DOS');
+  if (s.includes('dos')) out.push('DOS');
   if (/win|widnow|vmware|xp/.test(s)) out.push('Windows');
   return out;
 }

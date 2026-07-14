@@ -31,7 +31,7 @@ export function gameJsonLd(g, { site, url, description, dateModified }) {
     ...Object.values(g.external_links || {}),
     g.references?.fandom ? fandomUrl(g.references.fandom) : null,
   ];
-  const platform = (g.platform_note && g.platform_note !== '無') ? g.platform_note : 'MS-DOS';
+  const platform = g.platform_note || 'MS-DOS';
   return clean({
     '@context': 'https://schema.org', '@type': 'VideoGame',
     name: g.title_zh,

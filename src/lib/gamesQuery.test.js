@@ -56,29 +56,29 @@ test('deriveFacets loc: meaning order (native→…→foreign→未分類), not 
   assert.deepEqual(vals, ['native', 'localized', 'packaging', 'foreign', NONE]);
 });
 
-test('platformsOf buckets free-text platform_note (無=DOS, Win variants, Apple II, multi)', () => {
-  assert.deepEqual(platformsOf({ platform_note: '無' }), ['DOS']);
+test('platformsOf buckets free-text platform_note (DOS, Win variants, Apple II, multi)', () => {
+  assert.deepEqual(platformsOf({ platform_note: 'DOS' }), ['DOS']);
   assert.deepEqual(platformsOf({ platform_note: 'MS-DOS 5.0 以上' }), ['DOS']);
   assert.deepEqual(platformsOf({ platform_note: 'Windows' }), ['Windows']);
   assert.deepEqual(platformsOf({ platform_note: 'Win31/XP' }), ['Windows']);
   assert.deepEqual(platformsOf({ platform_note: 'Widnows' }), ['Windows']);   // typo in data
   assert.deepEqual(platformsOf({ platform_note: 'Apple II' }), ['Apple II']);
   assert.deepEqual(platformsOf({ platform_note: 'DOS、Windows、SEGA Saturn' }), ['DOS', 'Windows']);
-  assert.deepEqual(platformsOf({ platform_note: '無/XP' }), ['DOS', 'Windows']);
+  assert.deepEqual(platformsOf({ platform_note: 'DOS/XP' }), ['DOS', 'Windows']);
   assert.deepEqual(platformsOf({ platform_note: null }), []);
 });
 
 test('deriveFacets platform: fixed order DOS→Windows→Apple II→未分類', () => {
   const P = [
     { platform_note: 'Windows' }, { platform_note: 'Apple II' },
-    { platform_note: '無' }, { platform_note: '無' }, { platform_note: null },
+    { platform_note: 'DOS' }, { platform_note: 'DOS' }, { platform_note: null },
   ].map((g, i) => ({ id:'p'+i, title_zh:'x', year:null, publisher_tw:[], ...g }));
   assert.deepEqual(deriveFacets(P).platform.map(o => o.value), ['DOS', 'Windows', 'Apple II', NONE]);
 });
 
 test('applyFacets platform / dev status toggles (adult, release)', () => {
   const D = [
-    { id:'d1', platform_note:'無', adult:true },
+    { id:'d1', platform_note:'DOS', adult:true },
     { id:'d2', platform_note:'Windows', release_status:'unreleased' },
     { id:'d3', platform_note:'Windows' },
   ].map(g => ({ title_zh:'x', year:null, publisher_tw:[], ...g }));
@@ -89,8 +89,8 @@ test('applyFacets platform / dev status toggles (adult, release)', () => {
 });
 
 test('toIndexRecord: platform_note always; adult/release_status only when non-default', () => {
-  const a = toIndexRecord({ id:'x', title_zh:'x', platform_note:'無', adult:true, release_status:'unreleased' });
-  assert.equal(a.platform_note, '無');
+  const a = toIndexRecord({ id:'x', title_zh:'x', platform_note:'DOS', adult:true, release_status:'unreleased' });
+  assert.equal(a.platform_note, 'DOS');
   assert.equal(a.adult, true);
   assert.equal(a.release_status, 'unreleased');
   const b = toIndexRecord({ id:'y', title_zh:'y', release_status:'released' });
