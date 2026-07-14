@@ -191,6 +191,12 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .recent{list-style:none;margin:0;padding:0;border-top:1px solid var(--border)}
 .recent li{display:flex;align-items:baseline;gap:9px;padding:7px 2px;border-bottom:1px solid var(--border);font-size:14px}
 .recent .tag{flex:none;font-family:var(--mono);font-size:11px;color:var(--muted);border:1px solid var(--border);border-radius:4px;padding:1px 6px;background:#faf8f3}
+.recent .tag[data-t=game]{color:#3a5ca8;border-color:#c3d0ea;background:#eef2fb}
+.recent .tag[data-t=company]{color:#3f7a4d;border-color:#c2ddc8;background:#eef7f0}
+.recent .tag[data-t=series]{color:#9a5b1e;border-color:#e6cfac;background:#faf1e2}
+.recent .tag[data-t=team]{color:#2f7a86;border-color:#b8dce1;background:#eaf6f8}
+.recent .tag[data-t=person]{color:#a04668;border-color:#e6c3d1;background:#fbeef3}
+.recent .tag[data-t=topic]{color:#8a6d1a;border-color:#e2d3a0;background:#f9f3df}
 .recent .name{font-family:var(--serif);font-weight:600}
 .recent .sub{flex:0 1 auto;color:var(--muted);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .recent .ico{flex:none;font-size:11px;opacity:.7}

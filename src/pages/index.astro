@@ -36,12 +36,12 @@ const featured = [...coverGames]
 // where git history is unavailable.
 const trunc = (s, n = 34) => (s && s.length > n ? s.slice(0, n) + '…' : (s || ''));
 const FEED_TYPES = [
-  { col: 'games', dir: 'games', label: '遊戲', url: gameUrl, name: d => d.title_zh, sub: d => [d.year, d.developer].filter(Boolean).join(' · ') },
-  { col: 'companies', dir: 'companies', label: '廠商', url: companyUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
-  { col: 'series', dir: 'series', label: '系列', url: seriesUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
-  { col: 'teams', dir: 'teams', label: '團隊', url: teamUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
-  { col: 'people', dir: 'people', label: '人物', url: personUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
-  { col: 'topics', dir: 'topics', label: '專題', url: topicUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
+  { col: 'games', dir: 'games', key: 'game', emoji: '🎮', label: '遊戲', url: gameUrl, name: d => d.title_zh, sub: d => [d.year, d.developer].filter(Boolean).join(' · ') },
+  { col: 'companies', dir: 'companies', key: 'company', emoji: '🏢', label: '廠商', url: companyUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'series', dir: 'series', key: 'series', emoji: '📚', label: '系列', url: seriesUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
+  { col: 'teams', dir: 'teams', key: 'team', emoji: '👥', label: '團隊', url: teamUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'people', dir: 'people', key: 'person', emoji: '👤', label: '人物', url: personUrl, name: d => d.name_zh, sub: d => d.name_en || '' },
+  { col: 'topics', dir: 'topics', key: 'topic', emoji: '🔖', label: '專題', url: topicUrl, name: d => d.name_zh, sub: d => trunc(d.summary) },
 ];
 const feed = [];
 for (const t of FEED_TYPES) {
@@ -49,7 +49,7 @@ for (const t of FEED_TYPES) {
   for (const e of entries) {
     const mod = lastModified(`content/${t.dir}/${e.id}.md`);
     if (!mod) continue;
-    feed.push({ url: t.url(e.id), label: t.label, name: t.name(e.data), sub: t.sub(e.data), date: mod.slice(0, 10), iso: mod, img: (e.data.media || []).length > 0 });
+    feed.push({ url: t.url(e.id), type: t.key, emoji: t.emoji, label: t.label, name: t.name(e.data), sub: t.sub(e.data), date: mod.slice(0, 10), iso: mod, img: (e.data.media || []).length > 0 });
   }
 }
 feed.sort((a, b) => b.iso.localeCompare(a.iso) || a.name.localeCompare(b.name, 'zh-Hant'));
@@ -92,7 +92,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
       <ul class="recent">
         {recent.map(r => (
           <li>
-            <span class="tag">{r.label}</span>
+            <span class="tag" data-t={r.type}>{r.emoji} {r.label}</span>
             <a class="lk name" href={r.url}>{r.name}</a>
             {r.sub && <span class="sub">{r.sub}</span>}
             {r.img && <span class="ico" title="含圖資" aria-label="含圖資">📷</span>}
