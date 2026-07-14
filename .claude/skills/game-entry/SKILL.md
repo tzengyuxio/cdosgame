@@ -48,7 +48,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **外文遊戲（無中文化）** 的 `foreign`＋`publisher_tw: []`＋原文/原國別 欄位組合
 - **軟體世界 貴族/平價/珍藏版** 外文重發標 `packaging`＋`unofficial`（僅完全無台灣發行才用 `foreign`）
 - **標題半形阿拉伯數字**（序號半形、副標全形冒號；舊 stub 全形一律改半形並同步 id-registry）
-- **同中文名不同款消歧義**（兩筆都加全形括號＋英文原名，裸名進 `title_aliases`）
+- **同中文名不同款消歧義**：加全形括號後綴，維度按決策鏈選——①外文款有知名英文原名→英文名；②否則→年份（西元四位）；③年份分不開→發行商；④再不行→平台/地區。撞名時**兩筆都加**、裸名進 `title_aliases`；消歧義 ≠ 版本命名。正本規則見 `docs/id-policy.md`〈同名消歧義〉
 - **`release_codes`（珍/貴/平）查法＋誤掛紅旗**（softworld `name_en` 反查，**別**從 `catalog_id` 推；foreign＋空 publisher 卻有碼＝紅旗）
 - **研究挖出既有 frontmatter 誤植** 順手訂正，存疑記 `docs/backlog/game-entry-review.md`
 
