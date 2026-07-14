@@ -125,11 +125,11 @@ Triage 結果：40 款 → 4 略過（已發佈）、23 補完（既有 stub）�
 - [ ] 霹靂麻將２ — cdg-2720 — 帕米爾/第三波 2001
 - [ ] 霹靂風暴 — cdg-2716 — 夢想成真/第三波 2001 SRPG
 - [ ] 七大王朝(1) — cdg-0152 — Enlight 1997（憶弘）
-- [ ] 七大王朝２凡爾坦戰役 — cdg-0153 — Enlight 1999（第三波）
-- [ ] 七大王朝－征服 — cdg-0154 — Seven Kingdoms Conquest 2008（松崗）
-- [ ] 工人物語３ — cdg-0555 — Blue Byte 1998
-- [ ] 工人物語４ — cdg-0556 — Blue Byte 2001
-- [ ] 風雲２七武器 — cdg-1535 — 昱泉 2001，publisher 待補
+- [x] 七大王朝２凡爾坦戰役 — cdg-0153 — Enlight 1999（第三波） ✅
+- [x] 七大王朝－征服 — cdg-0154 — Seven Kingdoms Conquest 2008（松崗） ✅
+- [x] 工人物語３ — cdg-0555 — Blue Byte 1998 ✅
+- [x] 工人物語４ — cdg-0556 — Blue Byte 2001 ✅
+- [x] 風雲２七武器 — cdg-1535 — 昱泉 2001，publisher 待補 ✅
 - [ ] 美少女大富翁 — cdg-1482 — 貓優工坊/智冠 2001
 - [ ] 瘋狂極上大富翁 — cdg-2795 — 飛玩資訊 2000（現掛 publisher 華義，待核是否智冠）
 - [ ] 青春學園：戀戀人生 — cdg-4335 — dev/year 待補
