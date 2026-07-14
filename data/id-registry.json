@@ -46770,6 +46770,42 @@
       ],
       "status": "active",
       "title_zh": "孫悟空－大鬧東海"
+    },
+    "cdg-5095": {
+      "catalog_id": null,
+      "developer": "右將",
+      "keys": [
+        "t:超能力|右將"
+      ],
+      "status": "active",
+      "title_zh": "超能力"
+    },
+    "cdg-5096": {
+      "catalog_id": null,
+      "developer": "金智塔",
+      "keys": [
+        "t:古龍群俠傳|金智塔"
+      ],
+      "status": "active",
+      "title_zh": "古龍群俠傳"
+    },
+    "cdg-5097": {
+      "catalog_id": null,
+      "developer": "AIC Spirits",
+      "keys": [
+        "t:美少女聖記|AIC Spirits"
+      ],
+      "status": "active",
+      "title_zh": "美少女聖記"
+    },
+    "cdg-5098": {
+      "catalog_id": null,
+      "developer": "ExPotato",
+      "keys": [
+        "t:奶娃大作戰|ExPotato"
+      ],
+      "status": "active",
+      "title_zh": "奶娃大作戰"
     }
   }
 }
