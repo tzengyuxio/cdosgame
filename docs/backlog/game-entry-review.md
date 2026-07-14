@@ -573,3 +573,11 @@ created: 2026-06-20
 - [ ] **cdg-5100 / cdg-5101 台灣代理年待考**：兩款原作年確定（2000 / 1999），但華義台灣中文版確切發行年未取得一手佐證（研究推估 2001–2002），year 欄採原作年、正文標「台灣代理中文版」。華義代理身分依使用者 kudgame 清單，研究未能獨立證實；若日後翻到巴哈頁/廣告可補台灣年。二者屬邊界年份但原作 ≤2000、依既有華義代理外國作先例收錄。
 - [ ] cdg-2115 綠色奇蹟 developer「創意鷹翔」來源不明（既有 region 標 CN，研究傾向本土但無法證實公司背景），暫留 CN 待考。
 - [ ] cdg-2844 蜘蛛超人：華義版基底疑為 1996 Windows《Hyper Crazy Climber》移植（時間/七關/多主題大樓相符），無來源直證；chiuinan「改編自大金剛」為撰稿者類比、非正式系譜。
+
+### 華義 triage＋補完批次 3（2026-07-15）
+- 補寫並發佈既有 stub：cdg-2756 夢幻飛機場1（TechnoBrain《ぼくは航空管制官》航管模擬，**genre LSG→SIM 訂正**、region→JP、日版1998/華義中文版1999）；cdg-2734 夢幻小坦克（Buka《Gromada》俄羅斯俯視射擊 STG，補 publisher 華義、region→RU、俄版1999/英文版2000）。
+- **新建（皆華義代理外國作、台灣售 ≤2002）**：cdg-5102 鋼鐵戰場（Gunlok，Rebellion/英 RTS，台售2001-03）、cdg-5103 魔法危機（Technomage，Sunflowers/德 ARPG，台售2002-04）、cdg-5104 維京戰神（Rune: Viking Warlord，Human Head/美 ACT，台售2000-12）、cdg-5105 夢幻披薩屋（Pizza Syndicate/Fast Food Tycoon，Software 2000/德 經營模擬，原版1999）、cdg-5106 夢幻西巴拉（骰子益智 PZG、7×7 推骰消除200關）。
+- [ ] **cdg-5106 夢幻西巴拉 資料極薄**：僅一則 Yahoo 拍賣頁佐證玩法；原名/開發商/發行年全查不到，year/developer 留 null、genre PZG，honest 短 stub。「夢幻」為華義代理/重新包裝品牌前綴（維基載其把日系 PC 遊戲加台味重包，如夢幻西餐廳）。玩法近似 XI/Devil Dice 但無法證為同 IP。待補原名/年份。
+- [ ] 五款新建 foreign 代理款 year 採原作年（研究另有精確台灣售日，記正文）；華義中文版確切年多未坐實（披薩屋推估1999–2000）。魔法危機台售2002-04 屬 2002 當年（非 >2002）。
+- 修正：cdg-2050/2051 純愛手札正文的「~forever with you~」「~おしえて Your heart~」ASCII 半形波浪號被 GFM 當刪除線，改全形 ～（同狂王系列寫法）。
+- 關聯：cdg-2171 超時空G點 正文《Wrestle Angels》系列補連結至 cdg-4087 天使角力賽（同開發商 Great）。
