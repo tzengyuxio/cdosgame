@@ -16803,7 +16803,7 @@
     },
     "cdg-1827": {
       "catalog_id": "SCD0606",
-      "developer": "YoYo Games",
+      "developer": "team AMOS",
       "keys": [
         "cat:SCD0606"
       ],
@@ -46905,6 +46905,33 @@
       ],
       "status": "active",
       "title_zh": "台灣爆笑麻將"
+    },
+    "cdg-5110": {
+      "catalog_id": null,
+      "developer": "Legend Entertainment",
+      "keys": [
+        "t:時間之輪|Legend Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "時間之輪"
+    },
+    "cdg-5111": {
+      "catalog_id": null,
+      "developer": "Charybdis",
+      "keys": [
+        "t:機甲帝國|Charybdis"
+      ],
+      "status": "active",
+      "title_zh": "機甲帝國"
+    },
+    "cdg-5112": {
+      "catalog_id": null,
+      "developer": "Egosoft",
+      "keys": [
+        "t:星際開拓者|Egosoft"
+      ],
+      "status": "active",
+      "title_zh": "星際開拓者"
     }
   }
 }
