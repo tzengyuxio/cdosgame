@@ -46757,6 +46757,15 @@
       ],
       "status": "active",
       "title_zh": "魔法口袋"
+    },
+    "cdg-5094": {
+      "catalog_id": null,
+      "developer": "安寶",
+      "keys": [
+        "t:孫悟空－大鬧東海|安寶"
+      ],
+      "status": "active",
+      "title_zh": "孫悟空－大鬧東海"
     }
   }
 }
