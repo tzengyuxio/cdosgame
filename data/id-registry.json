@@ -46815,6 +46815,24 @@
       ],
       "status": "active",
       "title_zh": "卡哇伊小貓咪"
+    },
+    "cdg-5100": {
+      "catalog_id": null,
+      "developer": "TopWare",
+      "keys": [
+        "t:月球計畫|TopWare"
+      ],
+      "status": "active",
+      "title_zh": "月球計畫"
+    },
+    "cdg-5101": {
+      "catalog_id": null,
+      "developer": "Empire Interactive",
+      "keys": [
+        "t:拿破崙戰史1813|Empire Interactive"
+      ],
+      "status": "active",
+      "title_zh": "拿破崙戰史1813"
     }
   }
 }
