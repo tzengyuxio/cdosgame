@@ -49,7 +49,7 @@ const COLLECTIONS = [
   { dir: "content/games", schema: gameSchema, checkId: true, coll: "games" },
   { dir: "content/companies", schema: companySchema, checkId: false, coll: "companies" },
   { dir: "content/series", schema: seriesSchema, checkId: false },
-  { dir: "content/teams", schema: teamSchema, checkId: false },
+  { dir: "content/teams", schema: teamSchema, checkId: false, coll: "teams" },
   { dir: "content/people", schema: personSchema, checkId: false, coll: "people" },
   { dir: "content/topics", schema: topicSchema, checkId: false },
 ];

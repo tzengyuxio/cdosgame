@@ -2,6 +2,7 @@
 // the team string used in game data (game.dev_team), joined to games at build.
 // Imported by both src/content.config.ts and scripts/validate_content.mjs.
 import { z } from "zod";
+import { mediaArray, TEAM_MEDIA_KINDS } from "./media.schema.mjs";
 
 export const teamSchema = z.object({
   name_zh: z.string(),
@@ -18,6 +19,8 @@ export const teamSchema = z.object({
   footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),
   references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional(), key: z.string().optional() })).default([]),
   external_links: z.record(z.string(), z.string().url()).default({}),
+  // curated media (public/media/teams/<slug>/). See docs/media.md.
+  media: mediaArray(TEAM_MEDIA_KINDS),
 });
 
 export default teamSchema;

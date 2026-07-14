@@ -6,6 +6,18 @@ parent_company: 大宇
 founded: 1986
 members: [蔡明宏, 鮑弘修, 郭炳宏, 呂志凱, 蘇竑嶂, 吳欣叡, 王福生]
 featured_games: [cdg-1881, cdg-1882, cdg-0715, cdg-1263]
+media:
+- src: press-01.webp
+  kind: press
+  source: boneash
+  caption: 軟體世界第60期
+- src: press-02.webp
+  kind: press
+  source: boneash
+  caption: 軟體世界第60期
+footnotes:
+- key: sw60
+  text: '〈大宇 DOMO 小組──軒轅劍2 製作秘辛〉，《軟體世界》第 60 期（1994 年 3 月）。'
 references:
   - title: "DOMO小組 － Newton 百科"
     url: https://www.newton.com.tw/wiki/DOMO小組
@@ -29,7 +41,7 @@ references:
     url: https://www.ptt.cc/bbs/Old-Games/M.1779903404.A.AC4.html
 ---
 
-DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[蔡明宏](/people/蔡明宏)於 1986 年創立<sup class="cite" data-ref="newton"></sup>，以《軒轅劍》系列聞名，是華人單機角色扮演遊戲史上最具代表性的開發團隊之一。蔡明宏受訪時表示，團隊名稱取自日語「謝謝」（ども，domo），用以感謝一群協助他做遊戲的夥伴<sup class="cite" data-ref="luxingji_cmh1"></sup>；亦有資料記為取自日文「友」（とも，tomo）、取其成員彼此是朋友、不分高低之意<sup class="cite" data-ref="wikipedia"></sup>。無論作何解，DOMO 的作品一律掛團隊名義，而非標榜個人。團隊有一句廣為流傳的自我期許：「也許我們不是最好的，但我們將會是最努力的。」
+DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[蔡明宏](/people/蔡明宏)於 1986 年創立<sup class="cite" data-ref="newton"></sup>，以《軒轅劍》系列聞名，是華人單機角色扮演遊戲史上最具代表性的開發團隊之一。蔡明宏受訪時表示，團隊名稱取自日語「謝謝」（ども，domo），用以感謝一群協助他做遊戲的夥伴<sup class="cite" data-ref="luxingji_cmh1"></sup>；亦有資料記為取自日文「友」（とも，tomo）、取其成員彼此是朋友、不分高低之意<sup class="cite" data-ref="wikipedia"></sup>。無論作何解，DOMO 的作品一律掛團隊名義，而非標榜個人。團隊有一句廣為流傳的自我期許：「也許我們不是最好的，但我們將會是最努力的。」<sup class="cite" data-ref="sw60"></sup>
 
 ## 沿革
 
@@ -41,3 +53,9 @@ DOMO小組是[大宇資訊](/companies/大宇)旗下的遊戲開發團隊，由[
 - **1994 起**：《軒轅劍貳》推出，團隊由「一群朋友一起做」轉向明確分工——故事交[鮑弘修](/people/鮑弘修)、美術交[郭炳宏](/people/郭炳宏)、程式與統籌由蔡明宏負責，是台灣早期開創遊戲分工製作模式的團隊之一；系列自此邁向高峰，陸續產出《楓之舞》《雲和山的彼端》《天之痕》等續作與外傳。<sup class="cite" data-ref="luxingji_cmh2"></sup>
 - **約 1999**：《軒轅劍叄》製作後期，大宇調整內部組織，打散原小組編制、合併為單一開發部門並改行專案制度；但團隊人員與玩家此後仍習慣沿稱「DOMO小組」。
 - **2024**：蔡明宏、鮑弘修等元老相繼離開大宇，象徵 DOMO 一個世代的結束。
+
+## 《軒轅劍貳》的製作
+
+《軒轅劍貳》籌備已久，前後動員十多人，製作期間歷經人員流動、技術銜接與設定反覆修改等波折。<sup class="cite" data-ref="sw60"></sup>初期的故事與設定由程式蔡明宏與美術總監郭炳宏擬定，其後由鮑弘修接手企劃全部內容；期間有美工因升學南下而離隊，也有新進美工須重新磨合團隊風格。<sup class="cite" data-ref="sw60"></sup>
+
+為呈現中國古典風味，遊戲美術刻意將色盤調得偏灰，營造擬古樸的親近感，戰鬥背景更採中國山水畫法，由美工長時間反覆摸索而成，法術效果與富中國風味的地圖也各有美工專責。<sup class="cite" data-ref="sw60"></sup>全作原訂民國八十二年（1993）底完成發售，後延期一個月，至 1994 年 2 月農曆春節推出。系統龐大，對話依情節逐段編排、而非公式化的一人一句，並在主線之外安排多條支線委託——如替人尋回被搶的錢財、代人求婚等——完成後可獲得銀兩或武器，部分角色甚至會加入隊伍。<sup class="cite" data-ref="sw60"></sup>首批出貨的版本因設定疏失出現瑕疵：裝備「天火扇」進入戰鬥時會當機，大宇隨即回收，並公告請玩家卸下該裝備或至經銷商換取新版，為此致歉。<sup class="cite" data-ref="sw60"></sup>

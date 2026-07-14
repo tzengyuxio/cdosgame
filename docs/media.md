@@ -206,14 +206,15 @@ cdg-1564__title__self__cover.png                  → 標題畫面，且指定�
 - 你只要寫 `boneash`／`haruo`，渲染就展開成「骨灰集散地」「哈魯歐遊戲廳」並附對應網址。
 - 新來源 → 在 `data/media-sources.json` 加一筆即可（一處改、全站套用）。未登錄的代碼會原樣顯示並提醒補登。
 
-### 5.5 公司／人物的圖，以及「一圖涵蓋多款」的代理廣告
+### 5.5 公司／人物／團隊的圖，以及「一圖涵蓋多款」的代理廣告
 
-公司與人物**沿用同一套 `media[]`**，差別：
+公司、人物與團隊**沿用同一套 `media[]`**，差別：
 
 | | 路徑 | kind 詞彙 | 封面（infobox） | 交付 |
 |---|---|---|---|---|
 | 公司 | `public/media/companies/<公司名>/` | `logo`／`building`／`product`／`ad`／`press`／`other` | `logo` | `_inbox/companies/<公司名>/<kind>__<來源>…` |
-| 人物 | `public/media/people/<人名>/` | `portrait`／`photo`／`other` | `portrait` | `_inbox/people/<人名>/<kind>__<來源>…` |
+| 人物 | `public/media/people/<人名>/` | `portrait`／`photo`／`press`／`other` | `portrait` | `_inbox/people/<人名>/<kind>__<來源>…` |
+| 團隊 | `public/media/teams/<團隊名>/` | `logo`／`photo`／`press`／`other` | `logo` | `_inbox/teams/<團隊名>/<kind>__<來源>…` |
 
 （slug 是中文名，所以用**子資料夾**交付，不放進扁平檔名。）
 

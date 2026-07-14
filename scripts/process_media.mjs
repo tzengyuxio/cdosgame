@@ -12,7 +12,7 @@
 // Inbox filename convention (raw/media/_inbox/):
 //   games   — flat  <cdg-id>__<kind>[-NN]__<source>[__caption][__cover].<ext>
 //             or    <cdg-id>/<kind>[-NN]__<source>[__caption][__cover].<ext>
-//   公司／人物 — companies/<公司名>/<kind>…  ·  people/<人名>/<kind>…
+//   公司／人物／團隊 — companies/<公司名>/<kind>…  ·  people/<人名>/<kind>…  ·  teams/<團隊名>/<kind>…
 //
 // Idempotent: re-runs are safe — empty inbox is a no-op, WebP conversion skips
 // existing outputs, and media[] entries are deduped by `src`. Conversion never
@@ -22,14 +22,14 @@ import { readdirSync, existsSync, mkdirSync, renameSync, statSync, appendFileSyn
 import { join, extname, basename } from "node:path";
 import { execFileSync } from "node:child_process";
 import { MEDIA_KINDS } from "../schema/game.schema.mjs";
-import { COMPANY_MEDIA_KINDS, PERSON_MEDIA_KINDS } from "../schema/media.schema.mjs";
+import { COMPANY_MEDIA_KINDS, PERSON_MEDIA_KINDS, TEAM_MEDIA_KINDS } from "../schema/media.schema.mjs";
 
 const INBOX = "raw/media/_inbox";
 const MAX_PIXELS = 1_000_000;  // cap full image area to ~1 MP (only shrink, never enlarge)
 const LOSSLESS_KINDS = new Set(["title", "screenshot", "logo"]);
 const IMG_EXT = new Set([".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"]);
-const KINDS = { games: MEDIA_KINDS, companies: COMPANY_MEDIA_KINDS, people: PERSON_MEDIA_KINDS };
-const MD_DIR = { games: "content/games", companies: "content/companies", people: "content/people" };
+const KINDS = { games: MEDIA_KINDS, companies: COMPANY_MEDIA_KINDS, people: PERSON_MEDIA_KINDS, teams: TEAM_MEDIA_KINDS };
+const MD_DIR = { games: "content/games", companies: "content/companies", people: "content/people", teams: "content/teams" };
 // frontmatter keys a new `media:` block is inserted before (first match wins)
 const ANCHORS = ["images:", "references:", "external_links:", "footnotes:", "localization_basis:"];
 
@@ -99,13 +99,13 @@ function writeMediaBlock(mdPath, items) {
 
 if (!existsSync(INBOX)) { console.log(`(無 inbox：${INBOX})`); process.exit(0); }
 
-// collect jobs: games (flat / cdg-folder) + companies/<slug>/ + people/<slug>/
+// collect jobs: games (flat / cdg-folder) + companies/<slug>/ + people/<slug>/ + teams/<slug>/
 const jobs = [];
 const imgsIn = (dir) => readdirSync(dir).filter((f) => IMG_EXT.has(extname(f).toLowerCase()));
 for (const ent of readdirSync(INBOX)) {
   if (ent.startsWith(".") || ent === "_done") continue;
   const p = join(INBOX, ent);
-  if (ent === "companies" || ent === "people") {
+  if (ent === "companies" || ent === "people" || ent === "teams") {
     if (!statSync(p).isDirectory()) continue;
     for (const sub of readdirSync(p)) {
       if (sub.startsWith(".")) continue;
