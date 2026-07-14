@@ -97,5 +97,10 @@ Triage 結果：40 款中 14 款已發佈（略過）、20 款既有 stub 待補
 - [x] 櫻花大戰4：戀愛吧少女 — cdg-3241 — reject（英特衛 2007，>2001）
 - [x] 流氓大亨 — cdg-5119 — 新建（Gangsters: Organized Crime／Hothouse／第三波，packaging·en）
 
-### B6 — 流氓大亨2
-- [ ] 流氓大亨2 — 新建（第三波）
+### B6 — 流氓大亨2 ✅ commit eb8bcf1c / registry c681fc66
+- [x] 流氓大亨2 — cdg-5120 — 新建（Gangsters 2: Vendetta／Hothouse／第三波，2001，SLG，packaging·en）
+
+---
+
+**本批完成（2026-07-15）**：40 款盤點 → 14 略過、19 補完、5 新建（cdg-5117~5120＋公主的回憶）、1 reject（cdg-3241）、2 不建（英特衛鋼鐵戀人新章/特別篇）。全 6 批 commit 完畢。
+待核疑點：櫻花大戰3「大宇」代理未見佐證（採 chiuinan 第三波·大新）；系列首作 title_zh 帶序號（櫻花大戰1、劍俠情緣2 等）未正規化，屬全庫既有課題。
