@@ -331,12 +331,14 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 - [x] 龍機傳承1 — cdg-3823 — 補完（**日文原名《竜機伝承》**（竜非龍，「龍」為台灣寫法）副題 DRAGOON、slug 補 ryuuki-denshou-dragoon；原版 1996 **PC-9801** 9 片磁片，台版 1998 1CD/Windows **對應日版《竜機伝承プラス》**(1997-03 Windows 追加語音)；**無 Sega Saturn 版**（派工推測不成立）；adult 不標（pc-9801.com 歸類一般向け＋有 PS 移植））
 - [x] 龍機傳承2 — cdg-3824 — 補完（**代理歸屬查證＝富峰群、清單「智冠」為誤記**（查無任何智冠代理佐證；強力旁證＝chiuinan 三款代理商分界精準落在 **1999-11-11 富峰群更名遊戲橘子** 上，1/2 代記富峰群、3 代記遊戲橘子，屬自發的內部一致性訊號）→ 未採兩說並陳（非兩說皆有據，而是一說強證、一說零證）；原版 1997-06 Win95 光碟版 → **platform_note Windows→Win9x**；slug 主線對齊為 ryuuki-denshou-2）
 
-### B14 — 龍機傳承３＋無人島物語＋古神之印
-- [ ] 龍機傳承３ — cdg-3825 — 補完（KSS/2000/SRPG；清單標遊戲橘子）
-- [ ] 無人島物語Ｒ — cdg-3278? — 補完＋正名（力藝資訊，18禁 → adult: true）
-- [ ] 無人島物語ＲＲ — cdg-3279? — 補完＋正名（旭力亞）
-- [ ] 無人島物語４ — cdg-3277 — 補完（富峰群/KSS/1999）
-- [ ] 古神之印 — cdg-0923 — 補完（Nihon Create/1999/RPG，Elder Blaze；業訊代理）
+### B14 — 龍機傳承３＋無人島物語＋古神之印 ⚠ 部分完成（2026-07-16 撞 session 額度上限中止，5 款僅 1 款落地）
+- [ ] 龍機傳承３ — cdg-3825 — 補完（KSS/2000/SRPG；清單標遊戲橘子）｜⚠ agent 中止、**無半成品**，重跑即可。派工要點：日文原名用「竜」非「龍」、slug 用 `ryuuki-denshou-3` 對齊手足、platform 有來源才改、series 留 null
+- [ ] 無人島物語Ｒ — cdg-3278 — 補完＋正名（力藝，chiuinan `c21/mjr.htm`，SCD2074）｜⚠ agent 中止、無半成品。**已由 cdg-3279 查明的待修項**：①正名 無人島物語→**無人島物語R**；②`images` 移除誤混的 `mjrr/` 兩張、只留 `mjr/`；③**alias「無人島物語RR中文版」應移除**（該名實為 RR 的正確標題形、屬交叉污染，已收進 cdg-3279）；④**`references.chiuinan` 現錯指 `mjrr.htm`、應改 `mjr.htm`**；⑤genre ADV→**LSG**（比照 cdg-3279 判準）；⑥18禁待查證（清單標 adult，但 cdg-3279 查證顯示 **R 支線屬 KSS 非成人線**、成人的是 ピンパイ 的 X 支線 → **清單「R=18禁」高度可疑，勿盲從**）；⑦原版＝《無人島物語R 〜Survival life in the uninhabited region〜》KSS 1997-04-25 Windows、台版力藝 1998
+- [x] 無人島物語ＲＲ — cdg-3279 — 補完＋正名 ✅ commit 9339d484（**正名 無人島物語→無人島物語RR**，決定性證據＝`derived/chiuinan-intro-links.tsv` 的 SCD2074→mjr.htm／SCD2075→mjrr.htm 對照；**圖片污染清理**（移除誤混的 mjr/ 兩張）；**genre ADV→LSG 訂正**（官方定位「サバイバルライフ・シミュレーション」，ADV 依 taxonomy 限點擊式冒險）；**確認 R 與 RR 為兩款不同作品、非重複**（chiuinan 兩頁互斥、ja.wp 系列表並列為獨立條目）；**adult 未標並攔下誤判**——WebSearch 摘要器兩度把 ja.wp「アダルトゲームとなったシリーズ」一句硬掛到 RR，實際描述的是 **ピンパイ(Pink Pineapple) 的 X 支線**（X/XX/XXX/X.2001），RR 屬 KSS 的 R 支線。⚠ 未決：RR 精確發行日 1999-04-23（ja.wp）vs 1999-05-28（Wiki*，疑與 Saturn 版 R 混淆）兩說，正文只寫 1999 年）
+- [ ] 無人島物語４ — cdg-3277 — 補完（富峰群/KSS/1999，chiuinan `c21/sv4.htm`，SCD2380）｜⚠ agent 中止、無半成品。派工要點：genre ADV→**LSG**（比照 cdg-3279）、與 R/RR 分屬「正傳 vs R 支線」兩路線、series 留 null
+- [ ] 古神之印 — cdg-0923 — 補完（Nihon Create/1999/RPG，Elder Blaze；業訊代理）｜⚠ agent 中止、無半成品。派工要點：developer_region 待查、五個 alias 來歷待查、與 cdg-5150《烈焰奇兵》(Master Blaze) 系列關係待查、series 留 null
+
+**⚠ 中止註記（2026-07-16）**：B14 派出的 5 個 agent 有 4 個因 API session 額度上限（reset 03:30 Asia/Taipei）中途失敗，**均無半成品留下、工作區乾淨**（已 `git status` 驗證），重跑不需清理。cdg-3279 為唯一完成並 commit 者。額度恢復後接手即可，上方各款已附派工要點。
 
 ### B15 — 便利商店２＋科隆戰記
 - [ ] 便利商店２ — cdg-1602 — 補完（遊戲橘子/2000）
