@@ -47157,6 +47157,69 @@
 			],
 			"status": "active",
 			"title_zh": "奇靈王"
+		},
+		"cdg-5139": {
+			"catalog_id": null,
+			"developer": "亞博克",
+			"keys": [
+				"t:中華英雄|亞博克"
+			],
+			"status": "active",
+			"title_zh": "中華英雄"
+		},
+		"cdg-5140": {
+			"catalog_id": null,
+			"developer": "東方演算",
+			"keys": [
+				"t:三國群俠傳|東方演算"
+			],
+			"status": "active",
+			"title_zh": "三國群俠傳"
+		},
+		"cdg-5141": {
+			"catalog_id": null,
+			"developer": "萬智源",
+			"keys": [
+				"t:最初幻想|萬智源"
+			],
+			"status": "active",
+			"title_zh": "最初幻想"
+		},
+		"cdg-5142": {
+			"catalog_id": null,
+			"developer": "Gameone",
+			"keys": [
+				"t:陸小鳳之金鵬皇朝|Gameone"
+			],
+			"status": "active",
+			"title_zh": "陸小鳳之金鵬皇朝"
+		},
+		"cdg-5143": {
+			"catalog_id": null,
+			"developer": "智冠",
+			"keys": [
+				"t:紅樓夢之十二金釵2001|智冠"
+			],
+			"status": "active",
+			"title_zh": "紅樓夢之十二金釵2001"
+		},
+		"cdg-5144": {
+			"catalog_id": null,
+			"developer": "智冠",
+			"keys": [
+				"t:武俠群英傳|智冠"
+			],
+			"status": "active",
+			"title_zh": "武俠群英傳"
+		},
+		"cdg-5145": {
+			"catalog_id": null,
+			"developer": "智冠",
+			"keys": [
+				"t:武俠群英傳2|智冠"
+			],
+			"status": "active",
+			"title_zh": "武俠群英傳2"
 		}
 	}
 }
