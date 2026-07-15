@@ -207,12 +207,14 @@ Triage 結果：32 款 → 5 略過（已發佈）、22 補完（既有 stub）�
 - [x] 女神天蠶變 — cdg-1072 — 補完（三協資訊/TW 2002，**genre → PZG**；玩法承街機《天蠶變》拉線圈地揭圖。slug 留 null：查無英文名）
 - [x] 模擬百貨 — cdg-3194 — 補完（**developer 智冠→ABET工作室**、publisher_tw 補智冠、**genre LSG→CMS** 三處訂正；官網存檔規格欄「研發製作：ABET工作室／出版發行：智冠科技」為據）
 
-### C5 — 外商代理＋蜀山系列
-- [ ] 銀翼風暴 — cdg-2923 — 補完（Rake in Grass 2004，代理商待考）
-- [ ] 模擬城市2000 — cdg-3176 — 補完（Maxis 1995 CBG，清單註「＊DOS GAME」）
-- [ ] 模擬城市3000 — cdg-3177 — 補完（Maxis 1999 CBG）
-- [ ] 仙狐奇緣前傳：水火金雷 — cdg-1573 — 補完（智冠 2001 RPG）
-- [ ] 仙狐奇緣2：情劍錄 — cdg-1572 — 補完（宇峻奧汀 2008 RPG）
+### C5 — 外商代理＋蜀山系列 ✅
+- [x] 銀翼風暴 — cdg-2923 — 補完（Rake in Grass/CZ 2004 STG；**代理商待考已解**＝智冠，據智冠產品頁存檔「國內發行：智冠科技」；**PC英文版、從無繁中版** → en/packaging；platform_note→Win9x、WinXP。台灣 2005-07 上市，日期/售價兩說收 footnote）
+- [x] 模擬城市2000 — cdg-3176 — 補完（Maxis/US 1995 CBG；台灣足跡**強**：智冠完整中文化 DOS 版「世紀光碟大補帖」，chiuinan＋自由評論網＋archive.org 實物三源 → zh/localized/DOS）
+- [x] 模擬城市3000 — cdg-3177 — 補完（Maxis/US 1999 CBG；**台灣代理＝美商藝電台灣分公司直營**（非智冠／第三波，與前作模式不同）；繁中版含國父紀念館/中正紀念堂等台灣地標 → localized、license_status official；platform_note Windows 非 DOS）
+- [x] 仙狐奇緣前傳：水火金雷 — cdg-1573 — 補完（**dev_team 補 北斗星工作室**、genre RPG、2001/4CD；series 依既有決策維持 null）
+- [x] 仙狐奇緣2：情劍錄 — cdg-1572 — 補完（**宇峻奧汀 2008 查證無誤、非誤植**——初代北斗星/智冠 → 本作開發發行雙雙易主，確為正統續作；slug fox-pet-2 對齊初代）
+
+**C5 待核疑點**：① cdg-1571 正文「北斗星後續脫離智冠體系」查無來源支持（GNN 三篇零命中「北斗星」），建議複查該句；② 仙狐奇緣三款 series 皆 null（依 [game-entry-review.md:108](game-entry-review.md) 2026-06-23 決策靠 body cross-link）——若日後要建 `content/series/仙狐奇緣.md` 需三款一起處理；③ cdg-3176 title_aliases 兩筆（英文版／世紀大災難資料片）查無佐證，疑為 CD Collection 內容物誤拆成 SKU；④ cdg-3176 size `1CD+1CD` 可疑、無來源可依故未動。
 
 ### C6 — 蜀山
 - [ ] 新蜀山劍俠傳：劍仙玄易錄 — cdg-2358 — 補完（智冠 2001 RPG）
