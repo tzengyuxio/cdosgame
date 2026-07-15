@@ -47226,6 +47226,51 @@
       ],
       "status": "active",
       "title_zh": "武俠群英傳2"
+    },
+    "cdg-5146": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:FBI全民公敵|None"
+      ],
+      "status": "active",
+      "title_zh": "FBI全民公敵"
+    },
+    "cdg-5147": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:神秘的世界|None"
+      ],
+      "status": "active",
+      "title_zh": "神秘的世界"
+    },
+    "cdg-5148": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:時空戀人|None"
+      ],
+      "status": "active",
+      "title_zh": "時空戀人"
+    },
+    "cdg-5149": {
+      "catalog_id": null,
+      "developer": "Trigger Soft",
+      "keys": [
+        "t:退魔傳說|Trigger Soft"
+      ],
+      "status": "active",
+      "title_zh": "退魔傳說"
+    },
+    "cdg-5150": {
+      "catalog_id": null,
+      "developer": "Nihon Create",
+      "keys": [
+        "t:烈焰奇兵|Nihon Create"
+      ],
+      "status": "active",
+      "title_zh": "烈焰奇兵"
     }
   }
 }
