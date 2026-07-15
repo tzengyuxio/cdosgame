@@ -324,12 +324,12 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 - [x] 初戀 — cdg-2940 — 補完（**developer_region null→JP**、**slug→hatsukoi-valentine**、補 alias 初恋ばれんたいん；**一手來源＝Family Soft 官網 Wayback 沿革頁**（curl 直取 SHIFT_JIS 逐字核對）：日版 1997-12-12 Win95 **1CD**，正對上 SCD0423；chiuinan 逐字「1997年出品」「1999年由富峰群中文化並代理發行」兩年分列清楚；**adult 未標**（DMM 復刻標全年齢＋成人線在關係企業アップルパイ，同 cdg-2520 判準））
 - [x] 初戀之白色情人節 — cdg-2941 — 補完（**查證＝《初恋ばれんたいん SPECIAL》Windows 版**（前作**加強版**、非 White Day 續篇）：官網沿革 1999-07-16 Win95 **ＣＤ２枚** 唯一對得上 stub 的 2CD＋Windows；日方查無任何「ホワイトデー」標題→「白色情人節」係台灣改題；VNDB 結構化 release 記繁中版 2000-03-15／2CD／遊戲橘子。**「代理易主」是假象**——富峰群 **1999-11-11 更名**遊戲橘子（G!VOICE 官方刊物＋維基），同一家公司，`content/companies/遊戲橘子.md` 早已記載此事。**series 主線裁決 null**（撤回 agent 所設「初戀」，兩款一致，比照 cdg-2039/5143 先例，見 review））
 
-### B13 — 七年戰爭＋小秘書＋龍機傳承
-- [ ] 七年戰爭 — cdg-0157 — 補完（HQ Team/1998/SLG）
-- [ ] 七年戰爭２：決戰王朝 — cdg-0158 — 補完（HQ Team/2001；決策：與「決戰王朝」同款）
-- [ ] 小秘書 Lina — cdg-0524 — 補完（Visual Lab/2000/LSG）
-- [ ] 龍機傳承 — cdg-3823 — 補完（KSS/1998/SRPG；清單標富峰群）
-- [ ] 龍機傳承２ — cdg-3824 — 補完（KSS/1999/SRPG；清單標智冠）
+### B13 — 七年戰爭＋小秘書＋龍機傳承 ✅ content f7e28eaf / registry 541f6d4e / backlog 5ae7fb7e
+- [x] 七年戰爭1 — cdg-0157 — 補完（**題材考據翻案**：與歐洲七年戰爭(1756–63)無關，原作＝韓國《임진록》(Imjin-rok)、題材為 **1592–98 壬辰倭亂**（前後歷時七年），中文名循英文發行名 Seven Years War 而來；**developer_region null→KR**（HQ Team＝1992 김태곤 與三名高中同學創立、2000 年代初併入 Joyon）、**genre SLG→RTS 訂正**（chiuinan 逐字「即時戰略」，比照 cdg-0173）；原版 1997-01 韓國上市、早《星海爭霸》一年；**publisher_tw 移除三星電子**（見下））
+- [x] 七年戰爭2：決戰王朝 — cdg-0158 — 補完（**triage 判定獲證實**：「決戰王朝」＝本作、且為《임진록2》(2000-01) 正統續作非冠名獨立作；**developer_region→KR、genre SLG→RTS**；前作僅朝鮮/日本兩方，本作加入明朝成三勢力、23 關演至露梁海戰；**publisher_tw 移除三星電子**。⚠ 別名「英雄戰爭」(영웅전쟁) 經查實為**首作 1998-01 增補版**、對不上本作，疑 chiuinan 誤植——保留 alias 但正文不背書、下 footnote 並陳）
+- [x] 小秘書Lina — cdg-0524 — 補完＋**正名 小秘書→小秘書Lina**（chiuinan 原標題「小秘書Lina／小秘書利娜」，舊值係解析時把拉丁字段切成 alias 所致；registry title_zh 已同步）；**developer_region null→JP**（Visual Lab＝ビジュアル・ラボ，1999 年底倒閉）、原名《ルーム・ウィズ・リナ》/Room with Lina 1999-06-24 原版；**經查為遊戲非工具軟體**（日方分類「スケジュール管理型美少女ゲーム」、有劇情/CG/聲優/好感度養成，PIM 行程表僅為外殼；chiuinan「不太算遊戲的戀愛養成遊戲」語意是玩法不典型、非否定其為遊戲）→ **不比照 cdg-5135 剔除**，genre LSG 成立
+- [x] 龍機傳承1 — cdg-3823 — 補完（**日文原名《竜機伝承》**（竜非龍，「龍」為台灣寫法）副題 DRAGOON、slug 補 ryuuki-denshou-dragoon；原版 1996 **PC-9801** 9 片磁片，台版 1998 1CD/Windows **對應日版《竜機伝承プラス》**(1997-03 Windows 追加語音)；**無 Sega Saturn 版**（派工推測不成立）；adult 不標（pc-9801.com 歸類一般向け＋有 PS 移植））
+- [x] 龍機傳承2 — cdg-3824 — 補完（**代理歸屬查證＝富峰群、清單「智冠」為誤記**（查無任何智冠代理佐證；強力旁證＝chiuinan 三款代理商分界精準落在 **1999-11-11 富峰群更名遊戲橘子** 上，1/2 代記富峰群、3 代記遊戲橘子，屬自發的內部一致性訊號）→ 未採兩說並陳（非兩說皆有據，而是一說強證、一說零證）；原版 1997-06 Win95 光碟版 → **platform_note Windows→Win9x**；slug 主線對齊為 ryuuki-denshou-2）
 
 ### B14 — 龍機傳承３＋無人島物語＋古神之印
 - [ ] 龍機傳承３ — cdg-3825 — 補完（KSS/2000/SRPG；清單標遊戲橘子）
