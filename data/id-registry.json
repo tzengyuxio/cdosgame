@@ -47120,6 +47120,15 @@
 			],
 			"status": "active",
 			"title_zh": "台灣大富翁"
+		},
+		"cdg-5134": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:勁爆台灣十六張麻將|None"
+			],
+			"status": "active",
+			"title_zh": "勁爆台灣十六張麻將"
 		}
 	}
 }
