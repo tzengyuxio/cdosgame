@@ -47076,6 +47076,14 @@
 			],
 			"status": "active",
 			"title_zh": "工人物語２十週年紀念版"
+		},
+		"cdg-5126": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [],
+			"status": "merged",
+			"title_zh": "魔域幻境之武林大會",
+			"merged_into": "cdg-3675"
 		}
 	}
 }
