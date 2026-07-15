@@ -12,7 +12,7 @@
 |------|------|:--:|------|
 | `id` | string `cdg-\d{4,}` | ✓ | 穩定流水號（= 檔名）|
 | `published` | boolean | | **發布閘**：false=僅本地/dev 可見、正式站排除。預設 false。存於 `data/publish-state.json`（生成物外，重跑不重置），逐筆人工審後 flip |
-| `title_zh` | string | ✓ | 繁中主名 |
+| `title_zh` | string | ✓ | 繁中主名。**寫法**：序號用**半形**阿拉伯數字（`工人物語2`，非「工人物語２」）；主標題與副標題間用**全形冒號**（`工人物語2：黃金版`）；**系列初代不帶序號**（`工人物語`，非「工人物語1」，舊名留 `title_aliases`）。訂正舊資料時 `data/id-registry.json` 的 `title_zh` 要同步。同名不同作的消歧義後綴另見 [`docs/id-policy.md`](docs/id-policy.md) |
 | `title_aliases` | string[] | | 別名/英文原名（預設 []）|
 | `slug` | string \| null | | 網址用，英文別名 slugify；無則 null |
 | `year` | int 1970–2030 \| null | | 發行年（收集到 2024；2004 後為收集邊界外）|
