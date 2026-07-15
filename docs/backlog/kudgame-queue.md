@@ -141,11 +141,13 @@ Triage 結果：40 款 → 4 略過（已發佈）、23 補完（既有 stub）�
 
 ### 新建（[ ]，id 已鎖 cdg-5121～5133）
 **決策（2026-07-15）**：版本/資料片/重製款一律各給獨立 cdg id 新建（比照 softworld 貴族版慣例）。
-- [ ] 小情人 — cdg-5121 — 第三波
-- [ ] 歐洲空戰風雲 — cdg-5122 — European Air War（MicroProse 1998），第三波
-- [ ] 摩天大樓 — cdg-5123 — 第三波（The Tower / SimTower 待核）
-- [ ] 裝甲先鋒 — cdg-5124 — 第三波
-- [ ] 神兵玄奇－虎魄重光 — cdg-5125 — 第三波（馮志明漫畫改編）
+
+#### B7 — 第三波新建 5 款 ✅ registry 補登＋validate 全綠
+- [!] 小情人 — cdg-5121 — 查無足跡，unverified stub（第三波、中文款，dev/year/genre 待考）
+- [x] 歐洲空戰風雲 — cdg-5122 — 新建（MicroProse 1998 二戰空戰 SIM，第三波代理 packaging/en）
+- [x] 摩天大樓 — cdg-5123 — 新建（OpenBook/JP The Tower·SimTower，第三波 packaging/en，genre CBG）
+- [x] 裝甲先鋒 — cdg-5124 — 新建（NovaLogic 1994 戰車模擬 SIM，系列首作，packaging/en）
+- [x] 神兵玄奇－虎魄重光 — cdg-5125 — 新建（大點科技/TW/2002/RPG，**原著作者訂正黃玉郎（非馮志明）**）
 - [ ] 魔域幻境之武林大會 — cdg-5126 — 第三波
 - [ ] 七大王朝－古文明霸主 — cdg-5127 — Seven Kingdoms Ancient Adversaries（憶弘）
 - [ ] 工人物語２黃金版 — cdg-5128 — Settlers II Gold（Blue Byte）
