@@ -342,12 +342,18 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 
 **⚠ 中止與重跑註記（2026-07-16）**：B14 首輪派出的 5 個 agent 有 4 個因 API session 額度上限中途失敗，**均無半成品留下、工作區乾淨**（已 `git status` 驗證）；額度恢復後重跑四款全數完成。**經驗**：agent 中止不留殘骸，重跑不需清理；且重跑時把首輪已完成手足（cdg-3279）的結論寫進派工訊息，可大幅減少重複研究。
 
-### B15 — 便利商店２＋科隆戰記
-- [ ] 便利商店２ — cdg-1602 — 補完（遊戲橘子/2000）
-- [ ] 科隆戰記－受咒之地 — cdg-1439 — 補完（Hicom/1998/RPG）
-- [ ] 科隆戰記２暗黑帝降臨 — cdg-1440 — 補完（Hicom/1998；庫內作「闇黑帝降臨」）
-- [ ] 科隆戰記３ — cdg-1441 — 補完（Hicom/1999；清單標華義）
-- [ ] 創世啟示錄 — cdg-1442 — 補完（科隆戰記外傳，Hicom/2000/SRPG；清單標華義）
+### B15 — 便利商店２＋科隆戰記 ✅ content 24b1c72b / series 59ccd7c4 / backlog ba2423d8
+- [x] 便利商店２ — cdg-1602 — 補完（**publisher_tw []→[遊戲橘子]**（漏填）、**developer_region→TW**、slug 補、**genre LSG→CMS 訂正**；一手來源＝**遊戲橘子官網 GAMA STORE 產品頁 Wayback 存檔**（curl+iconv big5 逐格驗證）：「研發公司：遊戲橘子／發行公司：遊戲橘子／上市 2000-11-11／299元／**經營策略類**」；genre 與已發佈的 cdg-1601、cdg-4524 一致，taxonomy 文件亦直接以「便利商店」為 CMS 範例。⚠ 上市日 官網 11-11 vs 巴哈 11-28 兩說並陳；**附帶發現 cdg-1603／cdg-2383 疑同屬 CMS 誤植待修**，見 review）
+- [x] 科隆戰記1：受咒之地 — cdg-1439 — 補完（**developer_region→KR**（Hicom＝하이콤，1988-12-08 創立、1998-06-30 IMF 風暴倒閉→HiCom Entertainment→Wise HiCom→1999-12 eSofnet）、**genre RPG→ARPG**；韓文原名 코룸: 저주 받은 땅、原版 1997-04 Windows、廠內 Saver Team 開發。⚠ agent 提議依 skill 去序號正名為「科隆戰記 受咒之地」（Omega 實體包裝無「1」）——**主線未採**：屬全庫未正規化課題，單批處理反致更不一致，見 review）
+- [x] 科隆戰記2：闇黑帝降臨 — cdg-1440 — 補完（**developer_region→KR、genre RPG→ARPG**；**「闇」維持**——兩台灣端來源皆作闇、其中 Omega 為實體包裝著錄，清單的「暗」查無佐證判為筆誤未收 alias；原版年份 1998＝與台灣版同年（**1/2 代同記 1998 的疑點實出在 1 代**：1 代 year 1998 是台灣年、原版 1997）。⚠ 攔下摘要器幻覺「改編自 Michael Moorcock《Corum》小說」——namu「코룸」是**同音異義頁**，§1 韓國 ARPG／§2 Moorcock 角色，兩者無關，adaptation 未填）
+- [x] 科隆戰記3 — cdg-1441 — 補完（**developer_region→KR、genre RPG→ARPG**；韓版 1999-02、台版 **1999-11-15 華義**；無官方中文副題故未加（英文副題 Chaotic Magic 屬實、slug 正確）；platform_note 維持 Windows（無來源明述世代）。⚠ 攔下「published by Bothtec」誤報——Bothtec 實為**日本版**發行商）
+- [x] 創世啟示錄 — cdg-1442 — 補完（**developer_region→KR**；**genre SRPG 經查屬實、非誤標**——agent 直接目視 chiuinan 截圖確認等角投影方格戰場＋高亮移動格＋HP/MP/EXP 面板，HG101 亦明文「dropped in favor of a turn-based SRPG」；系列唯一脫離動作路線者，舞台轉為階級對立/邪教橫行的頹廢工業都市；韓版 1999-12、韓文原題 코룸 외전: 이계의 강림자들。⚠ **developer 可能非 Hicom**（Omega 記 eSofnet、gamemeca 指為「와이즈 하이콤」首作）待查，見 review）
+
+**本批兩大結案**：
+1. **`publisher_tw: [富峰群, 智冠]` 雙掛＝正確、非 vendor_raw 污染**（三 agent 獨立同向）——**主線原先比照 B13《七年戰爭》的懷疑方向錯誤**。決定性反證＝**韓國原版發行商就是 Hicom 自己**（HG101「Developer: HiCom / Publisher: HiCom」、namu「1, 2편은 하이콤에서 제작, 배급을 맡았으나」），韓國端位置已被佔滿、不存在可被灌入的第三方；chiuinan 逐字「富峰群代理並中文化，交由智冠發行」＝兩台灣端角色分工；Omega 實體光碟＋說明書著錄亦兩家並列。
+2. **代理易主（1/2 代富峰群·智冠 → 3 代/外傳華義）＝真實易主、非更名假象**（若為更名應顯示遊戲橘子）。證據到實體層級：3 代更新檔安裝路徑 `C:\Program Files\華義國際\科隆戰記3\Data\Map`。**緣由查無來源、未做因果推論**（agent 注意到富峰群 11-11 更名與 3 代 11-15 上市僅隔 4 天、且正值 Hicom 倒閉改組期，但無來源連結兩者）。
+
+**系列頁（B15 收尾）**：`content/series/科隆戰記.md` **已新建**、四款補 `series: 科隆戰記`。
 
 ### B16 — 新建 1
 - [ ] ＦＢＩ全民公敵 — cdg-5146 — 新建（富峰群）
