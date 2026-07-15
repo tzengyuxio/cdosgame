@@ -317,12 +317,12 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 
 **⚠ 事故註記（2026-07-16）**：本批進行中，B10 的 cdg-3486 subagent 誤把主線 commit 當成「未授權的 rogue session」，對主 repo 執行 `git reset --hard` **兩次**，抹掉主線 5 個 commit 並清空工作區（B11 三款 agent 產出一併被清）。經 reflog 全數救回（commit 物件未失、工作區產出有 scratchpad 備份），validate 全綠、無資料損失。成因＝平行派工未告知手足存在，agent 誤判後自行「修復」。防治：派工訊息須載明手足平行工作、明令禁止 revert/reset/checkout 他人檔案；已於 B11 指派加註（該註記有效——B11 agent 收到同樣干擾訊息但依指示忽略、未中止）。
 
-### B12 — 富峰群 2 ＋ 遊戲橘子戀愛類
-- [ ] 創世神話 — cdg-2962 — 補完（Samson/1999/RPG；與 cdg-1239 浪漫創世神話 非同款）
-- [ ] 明星之夢 — cdg-2382 — 補完（SunSoft/1998/LSG）
-- [ ] 聖靈騎士 — cdg-2541 — 補完（Gleam/2000/RPG）
-- [ ] 初戀 — cdg-2940 — 補完（Family Soft/1999/LSG；清單標富峰群）
-- [ ] 初戀之白色情人節 — cdg-2941 — 補完（Family Soft/2000/LSG）
+### B12 — 富峰群 2 ＋ 遊戲橘子戀愛類 ✅ content 00d6110b / backlog 0bccad06
+- [x] 創世神話 — cdg-2962 — 補完（**developer_region null→KR**：chiuinan 明寫「韓國Samson」＋HG101 韓國遊戲史 1998 頁列 Samson Core／HiCom；韓國原名 쥬센사요（漢字題「朝鮮史謠」）、原版 1998-06 Win95，year 1999 維持台灣年；chiuinan 標「發行商智冠／代理商富峰群」→ 正文寫富峰群中文化代理、委由智冠發行；已加 cdg-1239《浪漫創世神話》消歧義（SCD0908 vs SCD0909，確認非同款）。⚠ developer 三說並陳未寫死，見 review）
+- [x] 明星之夢 — cdg-2382 — 補完（**developer_region null→JP**（SunSoft＝日本サンソフト）、**license_status→official**；原版＝《フォトジェニック》1997-05-16 **PC-9801** 首發（非 Windows），台灣版為 Windows 專屬中文化；genre LSG 覆核通過（六種打工提參數＋週末行動管理）；**adult 未標**——證據矛盾待查，見 review）
+- [x] 聖靈騎士 — cdg-2541 — 補完（**developer_region null→KR**：Gleam＝**그림소프트**（「圖畫」自行羅馬化為 Gleam，非 글림，此為查無資料主因）、創辦人 양승준 漫畫家出身、本作改編自其本人漫畫；韓版 1999、台版 **2000-02-15／NT$680**（巴哈）；chiuinan「1997 出品」＝團隊成立年，已收 fn01；genre RPG 維持（isometric 團隊回合制，勿與同社 ARPG《Dark Quest》混）。⚠ 遊戲橘子代理身分無一手佐證，見 review）
+- [x] 初戀 — cdg-2940 — 補完（**developer_region null→JP**、**slug→hatsukoi-valentine**、補 alias 初恋ばれんたいん；**一手來源＝Family Soft 官網 Wayback 沿革頁**（curl 直取 SHIFT_JIS 逐字核對）：日版 1997-12-12 Win95 **1CD**，正對上 SCD0423；chiuinan 逐字「1997年出品」「1999年由富峰群中文化並代理發行」兩年分列清楚；**adult 未標**（DMM 復刻標全年齢＋成人線在關係企業アップルパイ，同 cdg-2520 判準））
+- [x] 初戀之白色情人節 — cdg-2941 — 補完（**查證＝《初恋ばれんたいん SPECIAL》Windows 版**（前作**加強版**、非 White Day 續篇）：官網沿革 1999-07-16 Win95 **ＣＤ２枚** 唯一對得上 stub 的 2CD＋Windows；日方查無任何「ホワイトデー」標題→「白色情人節」係台灣改題；VNDB 結構化 release 記繁中版 2000-03-15／2CD／遊戲橘子。**「代理易主」是假象**——富峰群 **1999-11-11 更名**遊戲橘子（G!VOICE 官方刊物＋維基），同一家公司，`content/companies/遊戲橘子.md` 早已記載此事。**series 主線裁決 null**（撤回 agent 所設「初戀」，兩款一致，比照 cdg-2039/5143 先例，見 review））
 
 ### B13 — 七年戰爭＋小秘書＋龍機傳承
 - [ ] 七年戰爭 — cdg-0157 — 補完（HQ Team/1998/SLG）
