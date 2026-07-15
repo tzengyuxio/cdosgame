@@ -47049,6 +47049,33 @@
 			],
 			"status": "active",
 			"title_zh": "神兵玄奇－虎魄重光"
+		},
+		"cdg-5127": {
+			"catalog_id": null,
+			"developer": "Enlight",
+			"keys": [
+				"t:七大王朝－古文明霸主|Enlight"
+			],
+			"status": "active",
+			"title_zh": "七大王朝－古文明霸主"
+		},
+		"cdg-5128": {
+			"catalog_id": null,
+			"developer": "Blue Byte",
+			"keys": [
+				"t:工人物語２黃金版|Blue Byte"
+			],
+			"status": "active",
+			"title_zh": "工人物語２黃金版"
+		},
+		"cdg-5129": {
+			"catalog_id": null,
+			"developer": "Blue Byte",
+			"keys": [
+				"t:工人物語２十週年紀念版|Blue Byte"
+			],
+			"status": "active",
+			"title_zh": "工人物語２十週年紀念版"
 		}
 	}
 }
