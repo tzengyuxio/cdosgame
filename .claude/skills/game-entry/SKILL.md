@@ -37,7 +37,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `size`：數量前置；CD/DVD 雙版本用全形「／」、同版多片用「+」；**不寫純數字 MB／硬碟安裝量**。
 - `platform_note`：作業系統平台（`無`=DOS、`Windows`…）。**18 禁不放這裡 → 用 `adult: true`**。
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。
-- `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。
+- `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。**收錄範圍**（完整定義見 schema.md）：台灣研發團隊/人員為主 → 其次中國大陸與香港人員 → 再次為日本/歐美**知名人士**（赤井孝美、Trevor Chan、Sid Meier、竹井正樹 等）；外商作品的一般開發人員不入。**署名照 credit 原樣**，勿把假名/英文名漢字化（曾誤把 たかしあきら 寫成「高志明」、給 Trevor Chan 杜撰「陳嘉倫」「陳鶴鳴」）。
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
 - **`catalog_id` vs `release_codes`（兩者別搞混，最常見誤填）**：
   - `catalog_id`（單一字串、可 null）＝**外部典藏／資料庫的交叉參照碼**（chiuinan 等站的 `SCD`／`SWT`／`JXD`／`3WZ`… 索引碼，供來源比對/去重，registry 以 `cat:<code>` 當 key）。**不是廠商自家編號**。

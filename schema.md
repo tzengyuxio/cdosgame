@@ -33,7 +33,7 @@
 | `release_status` | `released`\|`unreleased`\|`unverified` | | **發行確定性**。預設 `released`（既有款）；`unreleased`=有公開足跡但確認流產/未上市；`unverified`=有報導/廣告但找不到實體佐證、存疑。整款層級（與 `release_codes.placeholder` 的單版本層級正交）。顯示標籤見 `src/lib/labels.js` |
 | `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|
 | `editions` | object[] | | 同款多版本（載體/包裝/小增補）：`name` + 選填 `year`/`media`/`boxart`/`note`/`provenance`。粒度規則見 `docs/id-policy.md` |
-| `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 [] |
+| `staff` | object[] | | 製作人員（人工考據）：`role`（程式製作/美工設計/音樂製作…）+ `name`。預設 []。**收錄範圍依序**：① 台灣研發團隊及人員（主）→ ② 部分中國大陸與香港人員 → ③ 日本或歐美**知名人士**（如赤井孝美、Trevor Chan、Sid Meier、竹井正樹）。外商作品的一般開發人員不入（如捷克獨立工作室的程式/美術），署名照 credit 原樣、勿漢字化假名或英文名 |
 | `staff_note` | string \| null | | 製作人員名單的來源註記（如「名單出自某版說明書」），顯示於製作人員區塊下方 |
 | `cover` | string \| null | | rwv 封面檔名 |
 | `images` | object | | 本地圖路徑：`chiuinan[]` / `rwv_cover` / `fandom`（gitignored，授權見各 manifest）|
