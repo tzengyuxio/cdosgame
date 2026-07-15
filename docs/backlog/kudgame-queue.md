@@ -148,10 +148,12 @@ Triage 結果：40 款 → 4 略過（已發佈）、23 補完（既有 stub）�
 - [x] 摩天大樓 — cdg-5123 — 新建（OpenBook/JP The Tower·SimTower，第三波 packaging/en，genre CBG）
 - [x] 裝甲先鋒 — cdg-5124 — 新建（NovaLogic 1994 戰車模擬 SIM，系列首作，packaging/en）
 - [x] 神兵玄奇－虎魄重光 — cdg-5125 — 新建（大點科技/TW/2002/RPG，**原著作者訂正黃玉郎（非馮志明）**）
-- [ ] 魔域幻境之武林大會 — cdg-5126 — 第三波
-- [ ] 七大王朝－古文明霸主 — cdg-5127 — Seven Kingdoms Ancient Adversaries（憶弘）
-- [ ] 工人物語２黃金版 — cdg-5128 — Settlers II Gold（Blue Byte）
-- [ ] 工人物語２十週年紀念版 — cdg-5129 — Settlers II 10th Anniversary 2006 remake（Blue Byte）
+
+#### B8 — 憶弘/Blue Byte＋Unreal 併入 ✅
+- [x] 七大王朝－古文明霸主 — cdg-5127 — 新建（Enlight/HK Seven Kingdoms Ancient Adversaries，憶弘代理 RTS packaging/en，本傳 cdg-0152 加強版）
+- [x] 工人物語２黃金版 — cdg-5128 — 新建（Blue Byte/DE Settlers II Gold 1997，**華義**代理 SLG localized，對齊本傳 cdg-0554）
+- [x] 工人物語２十週年紀念版 — cdg-5129 — 新建（Blue Byte/DE 2006 3D 重製，**松崗**國際中文版 SLG localized）
+- [~] 魔域幻境之武林大會 — cdg-5126 — **併入 cdg-3675**（查證＝Unreal Tournament 1999，與既有 UT stub 重複；registry 標 merged_into cdg-3675、cdg-3675 補「魔域幻境之武林大會」別名＋第三波通路、維持未發佈。決策 2026-07-15：UT 系列外文 FPS 非收錄範圍，比照 UT3 cdg-3678 reject 前例不另建）
 - [ ] 大富翁－童話共和國 — cdg-5130 — 智冠
 - [ ] 美食天堂之台灣食字路口 — cdg-5131 — 智冠
 - [ ] 神奇ＧＯＧＯ大富翁 — cdg-5132 — 智冠
