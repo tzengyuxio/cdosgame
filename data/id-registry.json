@@ -40370,8 +40370,9 @@
 			"keys": [
 				"t:武林盟主|None"
 			],
-			"status": "active",
-			"title_zh": "武林盟主"
+			"status": "merged",
+			"title_zh": "武林盟主",
+			"merged_into": "cdg-0739"
 		},
 		"cdg-4406": {
 			"catalog_id": null,
