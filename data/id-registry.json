@@ -34251,8 +34251,9 @@
       "keys": [
         "cat:SCD1578"
       ],
-      "status": "active",
-      "title_zh": "魔法門10：遺產"
+      "status": "rejected",
+      "title_zh": "魔法門10：遺產",
+      "reject_reason": "out of scope: Limbic《魔法門10：遺產》(2014)，外文 Windows 商業作、遠超出年代且無台灣發行／代理足跡"
     },
     "cdg-3736": {
       "catalog_id": "SCD1579",
