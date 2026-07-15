@@ -308,12 +308,12 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 - [x] 齊天大聖－西遊降魔錄 — cdg-3486 — 補完（Impactrea/**KR**/1999/ACT，韓文原名 제천대성：배꼽잡는 사오정；與 cdg-3484/3485/0896 同名款已做消歧義、確認非重複；原版年份 1997/1998/1999 三說收 footnote，1999＝旭力亞中文版年）
 - [x] 公主幻想曲 — cdg-0171 — 補完（火狗工房/**HK**/2001-07/**PZG**；**publisher_tw ＝展略科技（Info-Mission）**、官網記港台同步發行；立方體 picross 式解謎（非 chiuinan 稱的「3D踩地雷」））
 
-### B11 — 富峰群 1（部分完成：2/5；⚠ 本批遭 agent 誤 reset 中斷，見下方事故註記）
+### B11 — 富峰群 1 ✅ content 69853a9f＋7d92c692 / backlog 76ba22f7（⚠ 本批曾遭 agent 誤 reset 中斷，見下方事故註記）
 - [x] 女傑 — cdg-1068 — 補完（**developer_region null→JP 訂正**：archive.org 收日文原版《女傑になろう》metadata `Honorock's System`／1996／jpn，非南韓廠；publisher_tw 維持[富峰群,智冠]（chiuinan 逐字區分「代理中文化」與「委由智冠發行」，非混同型誤植，惟單源）；genre LSG 覆核通過、adult 無跡象。⚠ year 1999＝台灣版、原版 1996，與 cdg-3486 同屬「代理款 year 記原版年或台灣年」待裁決問題）
-- [ ] 獅王傳說 — cdg-3539 — 補完（Mirinae/1998/RPG）**未動**（agent 於寫檔前停止）
-- [ ] 第三地球 — cdg-1956 — 補完（Makkoya/1998/RPG）**半途**：agent 被停在填完 frontmatter、正文未寫；已補 `developer_region: KR`＋韓文別名 제3지구의 카인 但**未經回報查證**，`published` 已改回 false。下輪重跑並複核既有欄位。
+- [x] 獅王傳說 — cdg-3539 — 補完（**developer Mirinae→Mirinae Software、region KR、platform Windows→Win9x**（Win95 專用）；韓文原名 전사 라이안、1997-05 韓國推出／1998-08-20 台灣發行；**⚠ 開發歸屬台韓兩說直接衝突**：台灣側（chiuinan＋Omega 實體包裝）記 Mirinae 開發／雙龍資訊通信(SICC)發行，韓國側三源（나무위키／서울신문 1997-05-09／HG101）一致記雙龍軟體部門自製、HG101 更稱其「唯一自製遊戲」，兩側各自多源、無法以數量決 → developer 沿用 Mirinae、正文並陳待實物 credit 覆核；同名劇場版動畫為同步企畫非改編）
+- [x] 第三地球 — cdg-1956 — 補完（**前手未查證欄位複核通過**：developer_region KR（HG101 公司頁＋전자신문＋헬로디디 三源）、韓文別名 제3지구의 카인 與 HG101 標題逐字相符，皆保留；**富峰群依帖主實體包裝規格欄一手佐證**（NT$680／1998-09／CD一片），「智冠代理」出自帖內轉載對岸資料站、該段自相矛盾（把代理發行記成開發商 Makkoya、標「中國版」、「代理髮行」簡轉繁誤字）→ 未採、下 fn01 並陳；**year 1997/1998 兩說由平台調和**（1997-10 得獎時為 DOS 版、Windows 版 1998-04），原版年與台灣年皆 1998，不受 year 語意裁決影響。⚠ 研究方法：WebFetch 摘要對同一帖給出兩次矛盾結果，agent 改 curl 原始 HTML 自解才辨明）
 - [x] 公元２１４０ — cdg-0173 — 補完（TopWare/**PL**/1997/**genre SLG→RTS 訂正**（即時戰略）；Earth 2140，開發部門日後改組為 Reality Pump；富峰群代理繁中版＋資料片「火線任務1」（僅 chiuinan 單源）；**「波蘭原名 Ziemia 2140」未獲證實、未寫入**——波蘭語維基載該名原為設計文件資料夾名，後由德國發行商註冊為商標）
-- [ ] 聖天使學園 — cdg-2520 — 補完（Family/1999/AVG）**未動**（agent 於寫檔前停止）
+- [x] 聖天使學園 — cdg-2520 — 補完（**developer Family→Family Soft（株式会社ファミリーソフト，1987 東京練馬）、region JP、genre AVG→LSG 訂正**、staff 補角色設計竹本泉、原名 ぱらPAR∀パラダイス；**一手來源＝Family Soft 官網 Wayback 存檔**（逐款產品頁＋逐年發售沿革）：日版 FM TOWNS 1997-03-14(3CD)／Windows 95 1997-08-28(**2CD**)，台灣版 2CD 正對上 Windows 版；官網沿革頁同列本作與《初恋ばれんたいん》→ **證實與 cdg-2940/2941《初戀》為同一家**；**adult 有反面實證**（日文維基載 Family Soft 成人線切給關係企業アップルパイ、本社自家作全年齡，聲優主流、官網通販標 OK）→ 未標。⚠ 待決：LSG 的數值養成面無直接佐證，若證實無數值經營應退回 AVG）
 
 **⚠ 事故註記（2026-07-16）**：本批進行中，B10 的 cdg-3486 subagent 誤把主線 commit 當成「未授權的 rogue session」，對主 repo 執行 `git reset --hard` **兩次**，抹掉主線 5 個 commit 並清空工作區（B11 三款 agent 產出一併被清）。經 reflog 全數救回（commit 物件未失、工作區產出有 scratchpad 備份），validate 全綠、無資料損失。成因＝平行派工未告知手足存在，agent 誤判後自行「修復」。防治：派工訊息須載明手足平行工作、明令禁止 revert/reset/checkout 他人檔案；已於 B11 指派加註（該註記有效——B11 agent 收到同樣干擾訊息但依指示忽略、未中止）。
 
