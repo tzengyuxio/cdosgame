@@ -47147,6 +47147,15 @@
 			],
 			"status": "active",
 			"title_zh": "女皇騎士團"
+		},
+		"cdg-5138": {
+			"catalog_id": null,
+			"developer": "天泉科技",
+			"keys": [
+				"t:奇靈王|天泉科技"
+			],
+			"status": "active",
+			"title_zh": "奇靈王"
 		}
 	}
 }
