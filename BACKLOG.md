@@ -42,6 +42,8 @@
 - [x] 編輯內容 seed（2026-06-18）：11 廠商 + 10 系列簡介（web 查證 draft，`content/companies/*.md`、`content/series/*.md`）；含新增系列 明星志願/美少女夢工場/成吉思汗(蒼狼與白鹿)/天使帝國。簡介為 draft 待使用者校訂
 - [ ] **Tag 受控詞彙擴充候選**（2026-06-29）：已分析 920 款找出可成 tag 的跨切群集，集中於 **`docs/backlog/tag-candidates.md`**。優先 `sangoku`（三國，15 款）；`wuxia`（武俠）待定義範圍；`gold-box`、`apple2` 可選。
 - [ ] **genre 分類體系重整（使用者 2026-06-20 指出）**：現有 12 類 genre 詞彙源自 chiuinan 的分類與用語，可能有很大調整空間（先暫定 `計策戰略`→`策略`、`大富翁`→`桌遊棋牌`）。屬資料層分類校訂，日後再通盤檢視
+- [ ] **`publisher_tw` 誤收非台灣發行商：奧美電子**（2026-07-16）：奧美電子是中國大陸廠商（武漢註冊、泰國正大集團投資、1996–2005，據點港/武漢/北京/上海，無台灣業務），卻被 chiuinan `vendor_raw` 機械式映射進 `publisher_tw`（台灣發行商欄）。待清查 3 款：cdg-0768 地面控制1、cdg-0769 地面控制2：大撤退、cdg-1418 皇帝：中國的崛起——逐款查台灣是否另有代理，無則清空該欄並複核是否仍符收錄範圍。同一 artifact 已導致 cdg-0546《少林足球》被 reject（2026-07-16）。
+- [ ] **`content/companies/旭力亞.md` 唯一來源不支撐內文**（2026-07-16）：該頁唯一引用為 Softmax 維基條（`zh.wikipedia.org/wiki/Softmax_(游戏开发商)`），但實抓全文未出現「旭力亞」，「台灣代理旭力亞」之說目前無來源支撐。另 `raw/kudgame-list.txt` 的【旭力亞】分組疑把「展略」混入（實測：《公主幻想曲》官網記展略科技(Info-Mission)代理、《少林足球》標題畫面亦為 Info-Mission），清查時一併釐清兩家關係。
 - [ ] SEO — 站台搜尋引擎最佳化：title/meta description、Open Graph/Twitter card、sitemap.xml、結構化資料（schema.org Game/VideoGame）、canonical 與 base-path 友善的內部連結（2026-06-20）
 - [ ] 廣告處理 — 評估與導入網站廣告（版位規劃、廣告聯播網選擇、與復古版面的視覺相容、隱私/同意聲明）（2026-06-20）
 
