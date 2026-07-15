@@ -7151,8 +7151,9 @@
       "keys": [
         "cat:SCD0148"
       ],
-      "status": "active",
-      "title_zh": "城堡幻想曲2聖魔大戰"
+      "status": "merged",
+      "title_zh": "城堡幻想曲2聖魔大戰",
+      "merged_into": "cdg-4778"
     },
     "cdg-0778": {
       "catalog_id": "SCD0150",
@@ -33871,8 +33872,9 @@
       "keys": [
         "cat:SCD1377"
       ],
-      "status": "active",
-      "title_zh": "魔戒"
+      "status": "rejected",
+      "title_zh": "魔戒",
+      "reject_reason": "out of scope: EA《魔戒：中土大戰》(The Lord of the Rings: The Battle for Middle-earth, 2004)，外文 Windows 商業作、遠超出年代且無台灣發行／代理足跡"
     },
     "cdg-3694": {
       "catalog_id": "SCD1378",
@@ -43709,10 +43711,11 @@
       "title_zh": "少女夢天使"
     },
     "cdg-4778": {
-      "catalog_id": null,
+      "catalog_id": "SCD0148",
       "developer": "Studio e.go",
       "keys": [
-        "t:聖魔大戰|Studio e.go"
+        "t:聖魔大戰|Studio e.go",
+        "cat:SCD0148"
       ],
       "status": "active",
       "title_zh": "聖魔大戰"
