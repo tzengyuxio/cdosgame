@@ -214,7 +214,7 @@ Triage 結果：32 款 → 5 略過（已發佈）、22 補完（既有 stub）�
 - [x] 仙狐奇緣前傳：水火金雷 — cdg-1573 — 補完（**dev_team 補 北斗星工作室**、genre RPG、2001/4CD；series 依既有決策維持 null）
 - [x] 仙狐奇緣2：情劍錄 — cdg-1572 — 補完（**宇峻奧汀 2008 查證無誤、非誤植**——初代北斗星/智冠 → 本作開發發行雙雙易主，確為正統續作；slug fox-pet-2 對齊初代）
 
-**C5 待核疑點**：① cdg-1571 正文「北斗星後續脫離智冠體系」查無來源支持（GNN 三篇零命中「北斗星」），建議複查該句；② 仙狐奇緣三款 series 皆 null（依 [game-entry-review.md:108](game-entry-review.md) 2026-06-23 決策靠 body cross-link）——若日後要建 `content/series/仙狐奇緣.md` 需三款一起處理；③ cdg-3176 title_aliases 兩筆（英文版／世紀大災難資料片）查無佐證，疑為 CD Collection 內容物誤拆成 SKU；④ cdg-3176 size `1CD+1CD` 可疑、無來源可依故未動。
+**C5 待核疑點**：① cdg-1571 正文「北斗星後續脫離智冠體系」查無來源支持（GNN 三篇零命中「北斗星」），建議複查該句；② ~~仙狐奇緣三款 series 皆 null~~ **已解（2026-07-15）**：依使用者指示建 `content/series/仙狐奇緣.md`，三款 series 一併補值、翻案 game-entry-review 的 2026-06-23 決策；③ cdg-3176 title_aliases 兩筆（英文版／世紀大災難資料片）查無佐證，疑為 CD Collection 內容物誤拆成 SKU；④ cdg-3176 size `1CD+1CD` 可疑、無來源可依故未動。
 
 ### C6 — 蜀山 ✅
 - [x] 新蜀山劍俠傳：劍仙玄易錄 — cdg-2358 — 補完（智冠/TW/2001-03-26/RPG/3CD；**adaptation 補**（小說《蜀山劍俠傳》／還珠樓主）；與 cdg-2357 同 IP 但**非劇情續作**（主角齊金蟬 vs 紫青雙劍、戰鬥改團隊即時制），series 從眾維持 null）
