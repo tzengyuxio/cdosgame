@@ -16840,10 +16840,11 @@
 			"catalog_id": "SCD0488",
 			"developer": "智冠",
 			"keys": [
-				"cat:SCD0488"
+				"cat:SCD0488",
+				"t:神奇GOGO大富翁|智冠"
 			],
 			"status": "active",
-			"title_zh": "神奇"
+			"title_zh": "神奇GOGO大富翁"
 		},
 		"cdg-1832": {
 			"catalog_id": "SCD2025,SCD2027",
@@ -47084,6 +47085,41 @@
 			"status": "merged",
 			"title_zh": "魔域幻境之武林大會",
 			"merged_into": "cdg-3675"
+		},
+		"cdg-5130": {
+			"catalog_id": null,
+			"developer": "靚盒子",
+			"keys": [
+				"t:大富翁－童話共和國|靚盒子"
+			],
+			"status": "active",
+			"title_zh": "大富翁－童話共和國"
+		},
+		"cdg-5131": {
+			"catalog_id": null,
+			"developer": "數位船長",
+			"keys": [
+				"t:美食天堂之台灣食字路口|數位船長"
+			],
+			"status": "active",
+			"title_zh": "美食天堂之台灣食字路口"
+		},
+		"cdg-5132": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [],
+			"status": "merged",
+			"title_zh": "神奇GOGO大富翁",
+			"merged_into": "cdg-1831"
+		},
+		"cdg-5133": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:台灣大富翁|None"
+			],
+			"status": "active",
+			"title_zh": "台灣大富翁"
 		}
 	}
 }
