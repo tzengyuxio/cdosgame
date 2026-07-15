@@ -203,7 +203,7 @@ Triage 結果：32 款 → 5 略過（已發佈）、22 補完（既有 stub）�
 ### C4 — 光輝傳承～模擬類
 - [x] 光輝傳承 — cdg-3473 — 補完（蓋亞大地傳說2＝陽展/智冠 2004 SRPG；series 補「蓋亞大地傳說」、交叉連結前作 cdg-3472。developer_region 留 null：「陽展」全名/所在地查無佐證）
 - [x] 叮噹五福星 — cdg-0928 — 補完（亞博克＝**香港** AceBrock，2003 SRPG；**與哆啦A夢/小叮噹無關**——中原武俠降妖題材，「五福星」＝五名主角，標題「叮噹」由來查無來源）
-- [?] 武林盟主 — cdg-4405 — **疑與 cdg-0739《武林盟主：決戰中原》為同款**（KIWI工作室/智冠/2000/策略 全軸相符；omega 討論串 5562 自身即連向「武林盟主 決戰中原」存檔）。原「distinct from 決戰中原」出自 phase5-decisions.json 的 low-confidence 猜測。待決：merge → cdg-0739（走 game-triage）
+- [~] 武林盟主 — cdg-4405 — **併入 cdg-0739**（查證為同款：KIWI工作室/智冠/2000/策略 全軸相符；omega 討論串 5562 自身即連向「武林盟主 決戰中原」存檔。原「distinct from 決戰中原」出自 phase5-decisions.json 的 low-confidence 猜測）。決策 2026-07-15：registry 標 merged_into、4405 檔刪除；保留方 cdg-0739 補完發佈（alias 收「武林盟主」、dev_team KIWI、**genre SLG→RTS**）
 - [x] 女神天蠶變 — cdg-1072 — 補完（三協資訊/TW 2002，**genre → PZG**；玩法承街機《天蠶變》拉線圈地揭圖。slug 留 null：查無英文名）
 - [x] 模擬百貨 — cdg-3194 — 補完（**developer 智冠→ABET工作室**、publisher_tw 補智冠、**genre LSG→CMS** 三處訂正；官網存檔規格欄「研發製作：ABET工作室／出版發行：智冠科技」為據）
 
