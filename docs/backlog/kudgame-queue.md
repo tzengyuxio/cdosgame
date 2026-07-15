@@ -193,12 +193,12 @@ Triage 結果：32 款 → 5 略過（已發佈）、22 補完（既有 stub）�
 - [x] 女皇騎士團 — cdg-5137 — 新建（Gameone/HK/2000-11/SRPG/localized，智冠代理，英文名 Knight Creator）
 - [x] 夢幻天使之女神戰記 — cdg-2732 — 補完（琪薇遊戲工房/TW/2004-01-15，**genre ACT→ARPG、developer_region→TW** 訂正；與 cdg-2731 查無系列傳承，series 留 null）
 
-### C3 — 地獄門～封神類
-- [ ] 地獄門 — cdg-0767 — 補完（智冠 1999 RPG）
-- [ ] 奇靈王 — cdg-5138 — 新建
-- [ ] 平妖傳 — cdg-4324 — 補完（dev/year/genre 全待考）
-- [ ] 魔法軍團 — cdg-3722 — 補完（勁一番 1998 SRPG）
-- [ ] 鬥神物語 — cdg-3645 — 補完（風中微粒 2001 RPG）
+### C3 — 地獄門～封神類 ✅
+- [x] 地獄門 — cdg-0767 — 補完（智冠自製/dev_team YOKI工作室/1999，**genre RPG→ARPG** 訂正，秦朝背景）
+- [x] 奇靈王 — cdg-5138 — 新建（**天泉科技**/TW/2004-05/SRPG/2CD；非 DOS，台灣自製後續款。發行商智冠 vs 天泉自行發行兩說，取智冠）
+- [x] 平妖傳 — cdg-4324 — 補完（stub→完整；智冠/TW/2000/**SLG**，七兵種生克戰棋）
+- [x] 魔法軍團 — cdg-3722 — 補完（勁一番＝**香港 GameOne**，2000 改名智傲；**region→HK、native→localized、platform→DOS、Win9x** 三處訂正；1998-03 智冠代理 SRPG）
+- [x] 鬥神物語 — cdg-3645 — 補完（風中微粒/dev_team 遊戲風工作室，**year 2001→2000** 訂正，Win9x/RPG/2CD）
 
 ### C4 — 光輝傳承～模擬類
 - [ ] 光輝傳承 — cdg-3473 — 補完（蓋亞大地傳說2，陽展 2004 SRPG）
