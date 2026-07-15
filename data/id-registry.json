@@ -1455,8 +1455,9 @@
 			"keys": [
 				"cat:SCD1556"
 			],
-			"status": "active",
-			"title_zh": "七大王朝3：征服"
+			"status": "rejected",
+			"title_zh": "七大王朝3：征服",
+			"reject_reason": "out of scope: 七大王朝：征服（Seven Kingdoms: Conquest，Enlight Software 與 Infinite Interactive 開發、DreamCatcher 發行，松崗代理 2008），超出年代 (2004 後)"
 		},
 		"cdg-0155": {
 			"catalog_id": null,
