@@ -308,12 +308,14 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 - [x] 齊天大聖－西遊降魔錄 — cdg-3486 — 補完（Impactrea/**KR**/1999/ACT，韓文原名 제천대성：배꼽잡는 사오정；與 cdg-3484/3485/0896 同名款已做消歧義、確認非重複；原版年份 1997/1998/1999 三說收 footnote，1999＝旭力亞中文版年）
 - [x] 公主幻想曲 — cdg-0171 — 補完（火狗工房/**HK**/2001-07/**PZG**；**publisher_tw ＝展略科技（Info-Mission）**、官網記港台同步發行；立方體 picross 式解謎（非 chiuinan 稱的「3D踩地雷」））
 
-### B11 — 富峰群 1
-- [ ] 女傑 — cdg-1068 — 補完（Honorock/1999/LSG）
-- [ ] 獅王傳說 — cdg-3539 — 補完（Mirinae/1998/RPG）
-- [ ] 第三地球 — cdg-1956 — 補完（Makkoya/1998/RPG）
-- [ ] 公元２１４０ — cdg-0173 — 補完（TopWare/1997/SLG）
-- [ ] 聖天使學園 — cdg-2520 — 補完（Family/1999/AVG）
+### B11 — 富峰群 1（部分完成：2/5；⚠ 本批遭 agent 誤 reset 中斷，見下方事故註記）
+- [x] 女傑 — cdg-1068 — 補完（**developer_region null→JP 訂正**：archive.org 收日文原版《女傑になろう》metadata `Honorock's System`／1996／jpn，非南韓廠；publisher_tw 維持[富峰群,智冠]（chiuinan 逐字區分「代理中文化」與「委由智冠發行」，非混同型誤植，惟單源）；genre LSG 覆核通過、adult 無跡象。⚠ year 1999＝台灣版、原版 1996，與 cdg-3486 同屬「代理款 year 記原版年或台灣年」待裁決問題）
+- [ ] 獅王傳說 — cdg-3539 — 補完（Mirinae/1998/RPG）**未動**（agent 於寫檔前停止）
+- [ ] 第三地球 — cdg-1956 — 補完（Makkoya/1998/RPG）**半途**：agent 被停在填完 frontmatter、正文未寫；已補 `developer_region: KR`＋韓文別名 제3지구의 카인 但**未經回報查證**，`published` 已改回 false。下輪重跑並複核既有欄位。
+- [x] 公元２１４０ — cdg-0173 — 補完（TopWare/**PL**/1997/**genre SLG→RTS 訂正**（即時戰略）；Earth 2140，開發部門日後改組為 Reality Pump；富峰群代理繁中版＋資料片「火線任務1」（僅 chiuinan 單源）；**「波蘭原名 Ziemia 2140」未獲證實、未寫入**——波蘭語維基載該名原為設計文件資料夾名，後由德國發行商註冊為商標）
+- [ ] 聖天使學園 — cdg-2520 — 補完（Family/1999/AVG）**未動**（agent 於寫檔前停止）
+
+**⚠ 事故註記（2026-07-16）**：本批進行中，B10 的 cdg-3486 subagent 誤把主線 commit 當成「未授權的 rogue session」，對主 repo 執行 `git reset --hard` **兩次**，抹掉主線 5 個 commit 並清空工作區（B11 三款 agent 產出一併被清）。經 reflog 全數救回（commit 物件未失、工作區產出有 scratchpad 備份），validate 全綠、無資料損失。成因＝平行派工未告知手足存在，agent 誤判後自行「修復」。防治：派工訊息須載明手足平行工作、明令禁止 revert/reset/checkout 他人檔案；已於 B11 指派加註（該註記有效——B11 agent 收到同樣干擾訊息但依指示忽略、未中止）。
 
 ### B12 — 富峰群 2 ＋ 遊戲橘子戀愛類
 - [ ] 創世神話 — cdg-2962 — 補完（Samson/1999/RPG；與 cdg-1239 浪漫創世神話 非同款）
