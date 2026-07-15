@@ -47129,6 +47129,24 @@
 			],
 			"status": "active",
 			"title_zh": "勁爆台灣十六張麻將"
+		},
+		"cdg-5136": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:荷花仙子|None"
+			],
+			"status": "active",
+			"title_zh": "荷花仙子"
+		},
+		"cdg-5137": {
+			"catalog_id": null,
+			"developer": "Gameone",
+			"keys": [
+				"t:女皇騎士團|Gameone"
+			],
+			"status": "active",
+			"title_zh": "女皇騎士團"
 		}
 	}
 }
