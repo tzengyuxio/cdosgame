@@ -47500,6 +47500,33 @@
       ],
       "status": "active",
       "title_zh": "女人要有錢"
+    },
+    "cdg-5178": {
+      "catalog_id": null,
+      "developer": "歡樂家庭",
+      "keys": [
+        "t:歡樂大富翁|歡樂家庭"
+      ],
+      "status": "active",
+      "title_zh": "歡樂大富翁"
+    },
+    "cdg-5179": {
+      "catalog_id": null,
+      "developer": "歡樂家庭",
+      "keys": [
+        "t:幻想城物語|歡樂家庭"
+      ],
+      "status": "active",
+      "title_zh": "幻想城物語"
+    },
+    "cdg-5180": {
+      "catalog_id": null,
+      "developer": "歡樂家庭",
+      "keys": [
+        "t:夢幻便利商店|歡樂家庭"
+      ],
+      "status": "active",
+      "title_zh": "夢幻便利商店"
     }
   }
 }

@@ -600,9 +600,9 @@ Triage 結果：43 款 → 2 略過（已發佈）、33 補完（既有 stub）�
 - [x] 女人要有錢 — cdg-5175 — 新建 published（酷奇思/TW/2004/TBG 大富翁，聯名徐進良八點檔，slug shes-gotta-have-money）
 - [~] 青蛇奇緣 — ~~cdg-5176~~ **不建**（＝cdg-1375「青蛇2」既有別名，斯普開發／極真發行；id 5176 作廢、registry 未補登）
 - [~] 花木蘭 — ~~cdg-5177~~ **不建**（＝cdg-3423「花木蘭(2005)」既有版本，斯普開發／極真發行、alias 已含花木蘭；id 5177 作廢、registry 未補登）
-- [ ] 歡樂大富翁 — cdg-5178 — 新建（歡樂家庭）
-- [ ] 幻想城物語 — cdg-5179 — 新建（歡樂家庭）
-- [ ] 夢幻便利商店 — cdg-5180 — 新建（歡樂家庭）
+- [!] 歡樂大富翁 — cdg-5178 — 新建 unverified stub（僅見 kudgame PC 遊戲列表歸於歡樂家庭，無專屬介紹頁/商店足跡；release_status unverified、published:false）
+- [x] 幻想城物語 — cdg-5179 — 新建 published（歡樂家庭 CMS，扮國王建設冒險者之城；誠品線上＋PTT供檔足跡，⚠year 查無留 null、genre CMS/CBG 邊界取 CMS）
+- [x] 夢幻便利商店 — cdg-5180 — 新建 published（歡樂家庭/2005/CMS 便利商店經營，含互動劇情；巴哈 ACG＋GNN Steam 報導，2019 重製上 Steam）
 - [ ] 模擬消防隊３ — cdg-5181 — 新建（美思捷達；查無 1/2 代，疑代理外國模擬款待查）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
@@ -610,7 +610,7 @@ Triage 結果：43 款 → 2 略過（已發佈）、33 補完（既有 stub）�
 - [x] G2 極真政治麻將+暗棋：cdg-2793、cdg-1408、cdg-1409、cdg-2458 暗棋王、cdg-0254 三國連環炮 ✅（政治麻將三款 series 補值＋cross-link；2793 泛綠篇查無分版證據未加別名；1409 year 2006 巴哈為準；0254 翻案祖瑪式消除 genre→PZG；暗棋王/連環炮 genre 補完）
 - [x] G3 極真收尾+新建：cdg-3116 極樂大戰 ✅（補完 published，西遊記大富翁 TBG）｜青蛇奇緣/花木蘭 2 款皆**不建**（收斂為既有 cdg-1375/cdg-3423 極真發行版，5176/5177 作廢）
 - [x] G4 歡樂家庭補完：cdg-0350 五小福、cdg-3792 歡樂中國暗棋、cdg-1556 人氣一番拉麵屋、cdg-2748 夢幻蛋糕屋、cdg-0319 中華一番客棧 ✅（5 款皆補完 published；CMS/TBG 訂正＋developer_region→TW；0319/1556/2748 補 Steam 重製足跡與 cited；⚠3792 developer 維持 registry「智冠」未改歡樂家庭——待查證項未有翻案佐證，暫從 registry）
-- [ ] G5 歡樂家庭新建：cdg-5178 歡樂大富翁、cdg-5179 幻想城物語、cdg-5180 夢幻便利商店
+- [x] G5 歡樂家庭新建：cdg-5178 歡樂大富翁、cdg-5179 幻想城物語、cdg-5180 夢幻便利商店 ✅（5179/5180 published、5178 unverified stub）
 - [ ] G6 飛玩：cdg-0320 中華一番客棧2、cdg-0837 百鬼夜宴、cdg-3428 英熊本色
 - [ ] G7 新造：cdg-2110 綜藝大富翁、cdg-0300 暗棋大車拼、cdg-0469 天才美眉闖通關
 - [ ] G8 數位玩具：cdg-2540 聖誕任務、cdg-4316 幻獸魔石、cdg-2370 烈日奇俠傳、cdg-2369 日劫
