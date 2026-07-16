@@ -47482,6 +47482,24 @@
       ],
       "status": "active",
       "title_zh": "殭屍宅急便"
+    },
+    "cdg-5174": {
+      "catalog_id": null,
+      "developer": "酷奇思",
+      "keys": [
+        "t:爵爺吉祥|酷奇思"
+      ],
+      "status": "active",
+      "title_zh": "爵爺吉祥"
+    },
+    "cdg-5175": {
+      "catalog_id": null,
+      "developer": "酷奇思",
+      "keys": [
+        "t:女人要有錢|酷奇思"
+      ],
+      "status": "active",
+      "title_zh": "女人要有錢"
     }
   }
 }
