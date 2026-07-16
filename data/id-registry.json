@@ -21463,7 +21463,7 @@
         "cat:SCD2059"
       ],
       "status": "active",
-      "title_zh": "新無敵炸彈超人1"
+      "title_zh": "新無敵炸彈超人"
     },
     "cdg-2339": {
       "catalog_id": "SCD2060",
@@ -47401,6 +47401,24 @@
       ],
       "status": "active",
       "title_zh": "武林降龍傳"
+    },
+    "cdg-5165": {
+      "catalog_id": null,
+      "developer": "智傲",
+      "keys": [
+        "t:永恆傳說：奇幻水晶緣|智傲"
+      ],
+      "status": "active",
+      "title_zh": "永恆傳說：奇幻水晶緣"
+    },
+    "cdg-5166": {
+      "catalog_id": null,
+      "developer": "Panther Software",
+      "keys": [
+        "t:蒼鋼騎兵|Panther Software"
+      ],
+      "status": "active",
+      "title_zh": "蒼鋼騎兵"
     },
     "cdg-5167": {
       "catalog_id": null,
