@@ -47309,6 +47309,15 @@
       ],
       "status": "active",
       "title_zh": "可汗～天降聖使～"
+    },
+    "cdg-5155": {
+      "catalog_id": null,
+      "developer": "捷友",
+      "keys": [
+        "t:藍調情人|捷友"
+      ],
+      "status": "active",
+      "title_zh": "藍調情人"
     }
   }
 }
