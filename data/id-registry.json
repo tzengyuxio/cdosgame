@@ -47318,6 +47318,15 @@
       ],
       "status": "active",
       "title_zh": "藍調情人"
+    },
+    "cdg-5156": {
+      "catalog_id": null,
+      "developer": "晟業",
+      "keys": [
+        "t:圍棋封神榜|晟業"
+      ],
+      "status": "active",
+      "title_zh": "圍棋封神榜"
     }
   }
 }
