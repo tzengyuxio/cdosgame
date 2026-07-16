@@ -24843,7 +24843,7 @@
         "cat:SCD0493"
       ],
       "status": "active",
-      "title_zh": "霹靂大富翁1：霹靂武林大對決"
+      "title_zh": "霹靂大富翁：霹靂武林大對決"
     },
     "cdg-2707": {
       "catalog_id": "SCD0494",
@@ -47536,6 +47536,24 @@
       ],
       "status": "active",
       "title_zh": "模擬消防隊3"
+    },
+    "cdg-5182": {
+      "catalog_id": null,
+      "developer": "永無止境工作室",
+      "keys": [
+        "t:寫真天蠶變|永無止境工作室"
+      ],
+      "status": "active",
+      "title_zh": "寫真天蠶變"
+    },
+    "cdg-5183": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:西風狂劍|HAZARD"
+      ],
+      "status": "active",
+      "title_zh": "西風狂劍"
     }
   }
 }
