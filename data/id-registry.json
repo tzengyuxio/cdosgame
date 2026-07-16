@@ -47336,6 +47336,51 @@
       ],
       "status": "active",
       "title_zh": "中國陸軍棋"
+    },
+    "cdg-5158": {
+      "catalog_id": null,
+      "developer": "尼奧",
+      "keys": [
+        "t:企鵝瑪力歐|尼奧"
+      ],
+      "status": "active",
+      "title_zh": "企鵝瑪力歐"
+    },
+    "cdg-5159": {
+      "catalog_id": null,
+      "developer": "尼奧",
+      "keys": [
+        "t:GO!GO!台北捷運|尼奧"
+      ],
+      "status": "active",
+      "title_zh": "GO!GO!台北捷運"
+    },
+    "cdg-5160": {
+      "catalog_id": null,
+      "developer": "尼奧",
+      "keys": [
+        "t:八年抗戰2|尼奧"
+      ],
+      "status": "active",
+      "title_zh": "八年抗戰2"
+    },
+    "cdg-5161": {
+      "catalog_id": null,
+      "developer": "尼奧",
+      "keys": [
+        "t:明星商店|尼奧"
+      ],
+      "status": "active",
+      "title_zh": "明星商店"
+    },
+    "cdg-5162": {
+      "catalog_id": null,
+      "developer": "尼奧",
+      "keys": [
+        "t:世界棒球|尼奧"
+      ],
+      "status": "active",
+      "title_zh": "世界棒球"
     }
   }
 }
