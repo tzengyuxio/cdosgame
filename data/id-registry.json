@@ -16747,7 +16747,7 @@
         "cat:SCD0620"
       ],
       "status": "active",
-      "title_zh": "真愛密碼1"
+      "title_zh": "真愛密碼"
     },
     "cdg-1821": {
       "catalog_id": "SCD0621",
@@ -47563,6 +47563,24 @@
       ],
       "status": "active",
       "title_zh": "搶救貧窮大作戰"
+    },
+    "cdg-5185": {
+      "catalog_id": null,
+      "developer": "虹紫科技",
+      "keys": [
+        "t:綠野仙蹤|虹紫科技"
+      ],
+      "status": "active",
+      "title_zh": "綠野仙蹤"
+    },
+    "cdg-5186": {
+      "catalog_id": null,
+      "developer": "Kama",
+      "keys": [
+        "t:封印物語|Kama"
+      ],
+      "status": "active",
+      "title_zh": "封印物語"
     }
   }
 }
