@@ -537,12 +537,12 @@ Triage 結果：41 款 → 2 略過（已發佈）、23 補完（既有 stub）�
 - [x] 江湖英烈傳 — cdg-1138 — 補完 published（廈門盤古開發 region→CN、昱光代理 SRPG/2000，辛棄疾主角宋金對峙；⚠昱光單一來源、疑昱泉誤植待核）
 - [x] 阿帕契捍衛隊 — cdg-1342 — 補完 published（Simis/GB Team Apache 攻擊直升機 SIM，1998→year 訂正，en/foreign，未中文化台灣英文版流通）
 - [x] 鬥鬥龍 — cdg-3646 — 補完 published（Tensoft 天際軟體/TW/1997/ACT，雙人恐龍對戰，region→TW、native 訂正）
-- [ ] 夢幻妖精 — cdg-2733 — dev ImageWorks/1999（業訊；Pixy Garden）
+- [x] 夢幻妖精 — cdg-2733 — 補完 published（ImageWorks/JP 妖精養成 LSG，業訊代理中文版，region→JP，日文維基 cited）
 - [ ] 歡樂水滸傳 — cdg-3802 — 仲環科技/2005
 - [ ] 夢幻水族箱 — cdg-2746 — 全景軟體/1999
-- [ ] 象棋之路－西天大戰 — cdg-2137 — dev 晟業/2001；清單標【杉立】待查證衝突
-- [ ] 歡樂梭哈 — cdg-3801 — 捷思特/2001
-- [ ] 歡樂麻將 — cdg-3808 — 捷思特/2001（與大宇 cdg-3807 同名別款）
+- [x] 象棋之路－西天大戰 — cdg-2137 — 補完 published（晟業自製自發/TW/2001/TBG；晟業vs杉立衝突採晟業（chiuinan＋omega兩一手來源，杉立僅二手清單）；《象棋水滸戰》西遊記改版，連結 cdg-2152/2153）
+- [x] 歡樂梭哈 — cdg-3801 — 補完 published（捷思特/冠捷/2001/TBG，梭哈撲克小品，2 IN 1 合輯）
+- [x] 歡樂麻將 — cdg-3808 — 補完 published（捷思特/冠捷/2001/TBG；**修正原錯掛大宇版 mj.htm chiuinan 頁＋fandom 圖→改正為 happymj.htm**；與大宇 cdg-3807 消歧義）
 - [x] 閃靈奇兵 — cdg-3616 — 補完 published（Family Production/KR/1998，寶斯爾代理中文版，genre RPG→ARPG，adaptation 韓動畫《靈魂機兵拉贊卡》）
 - [ ] 武士魂之適者生存 — cdg-0736 — dev Trigger/1998（梵太師）
 
@@ -568,5 +568,5 @@ Triage 結果：41 款 → 2 略過（已發佈）、23 補完（既有 stub）�
 - [x] F3 冠捷武俠＋昱光：cdg-5164、5167、5168、1138、5169 ✅
 - [x] F4 榮欽炸彈超人＋智傲/雄圖新建：cdg-2338、2339、1109、5165、5166 ✅
 - [x] F5 鄉根＋動作：cdg-1342、5170、5171、3646、3616 ✅ content e8d64bb1 / registry 3d58d179
-- [ ] F6 棋牌/益智：cdg-2137、3801、3808、5172、2733
+- [x] F6 棋牌/益智：cdg-2137、3801、3808、5172、2733 ✅ content 6adbf564 / registry cfa72c84
 - [ ] F7 收尾：cdg-3802、2746、0736、5173
