@@ -47464,6 +47464,15 @@
       ],
       "status": "active",
       "title_zh": "賽車總冠軍ＧＯ！"
+    },
+    "cdg-5172": {
+      "catalog_id": null,
+      "developer": "藍海豚",
+      "keys": [
+        "t:ＩＱ爭霸|藍海豚"
+      ],
+      "status": "active",
+      "title_zh": "ＩＱ爭霸"
     }
   }
 }
