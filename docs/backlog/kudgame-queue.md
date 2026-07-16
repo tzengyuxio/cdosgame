@@ -683,5 +683,12 @@ Triage 結果：33 款 → 3 略過（已發佈）、17 補完（既有 stub）�
   - ⚠待核：1925 晶天軟件所在地無來源直述(疑 CN)已記 game-entry-review；2113 開發商 chiuinan 聖世德 vs Omega "7th Day"(單源未採)
 - [x] E4 聖教士：cdg-1711、5185 綠野仙蹤(新)、5186 封印物語(新)、cdg-3276、cdg-1820 ✅（皆 published；**1711 忍者學園＝聖教士開發·華義發行 TBG**；**3276 烽火英雄 Legend of Glory 聖教士自製自發 SRPG/2001**；**1820 真愛密碼去序號**(原「真愛密碼1」)、series「真愛密碼」建立、Replay 進 alias、聖教士/OPENMIND·華義/2000/AVG；**5185 綠野仙蹤翻案＝虹紫科技開發·聖教士代理**(非聖教士自製)、改編 Oz 童話 RPG/2001；**5186 封印物語＝Kama 製作發行·聖教士代理** RPG/2001）
   - ⚠待核：5186 developer「Kama」為外文名但 region 填 TW（是否台灣工作室待證）；巴哈 acgDetail 需 r.jina.ai reader 代理才取得「製作/發行/代理」欄位
-- [ ] E5 聖教士＋Softmax補完：cdg-1821、cdg-0899
-- [ ] E6 名車大賽補完＋別名：cdg-0965、cdg-0966、cdg-0967 補完＋為 cdg-0962/0963/0964 補「瘋狂大車拼」別名（創世紀戰1/2、Captain Claw 皆不建）
+- [x] E5 聖教士＋Softmax補完：cdg-1821、cdg-0899 ✅（**1821 真愛密碼2 補完正文**、聖教士/華義/2001/AVG、cross-link 初代 cdg-1820；**0899 西風狂詩曲2暴風雨補完**、Softmax(KR)/旭力亞代理繁中/SRPG、莎劇暴風雨×玫瑰戰爭、cross-link cdg-0898/2977。韓版 1998 底、繁中版 year 沿用 2000）
+  - ⚠待核：1821 publisher_tw 華義依系列一致性填、chiuinan/巴哈僅列聖教士製作方（華義發行未見獨立逐字佐證）
+- [x] E6 名車大賽補完：cdg-0965/0966/0967 補完 ✅（Test Drive 4/5/6＝Pitbull Syndicate(GB)開發·智冠代理英文版、packaging/en/unofficial、RCG、series 名車大賽、各代 cross-link；TD6 原發行 Infogrames）｜cdg-0962/0963/0964「瘋狂大車拼1/2/3」別名**前批已補、本輪無需動**（創世紀戰1/2、Captain Claw 皆不建）
+
+---
+
+**本批完成（2026-07-17）**：33 款盤點 → 3 略過、17 補完（既有 stub）、5 台灣廠商新建（cdg-5182~5186）、8 外文款查證落地。外文款結論：**創世紀戰1/2＋Captain Claw 不建**（查無台灣繁中/代理足跡）；**瘋狂大車拼 1-6＝智冠「名車大賽」cdg-0962~0967**（非新建，1-3 補別名·前批已補、4-6 補完 packaging/en）。E1–E6 全 commit 完畢。
+新建 5 款落地：**4 published**（cdg-5183 西風狂劍、5184 搶救貧窮大作戰、5185 綠野仙蹤、5186 封印物語）＋**1 unverified stub**（cdg-5182 寫真天蠶變 18禁 QIX 圈地益智、查無署名/年份）。補完 17 款中 cdg-2921 銀河騎士團資料極薄維持 stub、其餘皆 published。
+待核疑點彙整：① cdg-5183 西風狂劍韓方開發商公司名查無；② cdg-5182 永無止境署名/年份查無；③ cdg-0287 北極星工作室所在地查無；④ cdg-1925 生化兵器晶天軟件所在地疑 CN（保留 null，已記 game-entry-review）；⑤ cdg-2113 綜藝麻將王開發商 chiuinan 聖世德 vs Omega "7th Day"（單源未採）；⑥ cdg-5186 封印物語 developer「Kama」外文名但 region 填 TW（待證是否台灣工作室）；⑦ cdg-1821 真愛密碼2 publisher_tw 華義依系列一致性填（發行商獨立佐證待補）。
