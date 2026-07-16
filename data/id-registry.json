@@ -27328,8 +27328,9 @@
       "keys": [
         "cat:SCD0171"
       ],
-      "status": "active",
-      "title_zh": "創世紀戰3第二部"
+      "status": "rejected",
+      "title_zh": "創世紀戰3第二部",
+      "reject_reason": "out of scope: 創世紀戰3第二部（The War of Genesis 3: Part 2，Softmax/韓國，2003），未推出繁體中文版、僅簡體中文版流通（chiuinan 逐字「本代沒出繁中版」、標題註記「簡中版」；所附繁中化檔為民間非商業漢化，依 schema 不計中文化等級），查無台灣發行／代理足跡（比照 cdg-0587 先例）"
     },
     "cdg-2979": {
       "catalog_id": null,
