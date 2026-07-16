@@ -611,7 +611,7 @@ Triage 結果：43 款 → 2 略過（已發佈）、33 補完（既有 stub）�
 - [x] G3 極真收尾+新建：cdg-3116 極樂大戰 ✅（補完 published，西遊記大富翁 TBG）｜青蛇奇緣/花木蘭 2 款皆**不建**（收斂為既有 cdg-1375/cdg-3423 極真發行版，5176/5177 作廢）
 - [x] G4 歡樂家庭補完：cdg-0350 五小福、cdg-3792 歡樂中國暗棋、cdg-1556 人氣一番拉麵屋、cdg-2748 夢幻蛋糕屋、cdg-0319 中華一番客棧 ✅（5 款皆補完 published；CMS/TBG 訂正＋developer_region→TW；0319/1556/2748 補 Steam 重製足跡與 cited；⚠3792 developer 維持 registry「智冠」未改歡樂家庭——待查證項未有翻案佐證，暫從 registry）
 - [x] G5 歡樂家庭新建：cdg-5178 歡樂大富翁、cdg-5179 幻想城物語、cdg-5180 夢幻便利商店 ✅（5179/5180 published、5178 unverified stub）
-- [ ] G6 飛玩：cdg-0320 中華一番客棧2、cdg-0837 百鬼夜宴、cdg-3428 英熊本色
+- [x] G6 飛玩：cdg-0320 中華一番客棧2、cdg-0837 百鬼夜宴、cdg-3428 英熊本色 ✅（3 款皆補完 published；developer_region→TW；0320/0837 客棧經營 genre LSG→CMS＋cross-link 初代 cdg-0319；0837 developer「飛玩」→「飛玩資訊」正規化（registry 同步）＋移除智冠（大陸代理，留華義）；3428 確認 ACT 3D 動作。⚠飛玩資訊公司頁未建＝全庫既有課題（cdg-1249/2795 亦連結）；bahamut-acg cited 403 由快照+chiuinan 交叉確認）
 - [ ] G7 新造：cdg-2110 綜藝大富翁、cdg-0300 暗棋大車拼、cdg-0469 天才美眉闖通關
 - [ ] G8 數位玩具：cdg-2540 聖誕任務、cdg-4316 幻獸魔石、cdg-2370 烈日奇俠傳、cdg-2369 日劫
 - [ ] G9 遊戲精靈/新瑞獅：cdg-0700 反大富翁、cdg-0699 反三國志、cdg-0985 呂布與貂蟬
