@@ -47289,6 +47289,15 @@
       ],
       "status": "active",
       "title_zh": "便利商店精裝版"
+    },
+    "cdg-5153": {
+      "catalog_id": null,
+      "developer": "遊戲橘子",
+      "keys": [
+        "t:火鍋店|遊戲橘子"
+      ],
+      "status": "active",
+      "title_zh": "火鍋店"
     }
   }
 }
