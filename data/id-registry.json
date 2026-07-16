@@ -39571,9 +39571,9 @@
     },
     "cdg-4316": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "數位玩具",
       "keys": [
-        "t:幻獸魔石|None"
+        "t:幻獸魔石|數位玩具"
       ],
       "status": "active",
       "title_zh": "幻獸魔石"
