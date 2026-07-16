@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
 import { seriesUrl, decadeUrl, gameUrl, companyUrl, teamUrl, personUrl, topicUrl, withBase } from '../lib/links.js';
 import { coverOf, thumbUrl } from '../lib/media.js';
+import { pickFeaturedAds } from '../lib/featuredAds.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified, lastModified } from '../lib/gitdates.js';
 
@@ -31,6 +32,16 @@ const coverPool = coverGames.map(toCard);
 const featured = [...coverGames]
   .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
   .slice(0, WALL_N).map(toCard);
+const adGroups = games.map(g => ({
+  id: g.id,
+  u: gameUrl(g.id),
+  t: g.title_zh,
+  ads: (g.media || [])
+    .filter(m => m.kind === 'ad' && m.src)
+    .map(m => ({ img: thumbUrl('games', g.id, m.src) })),
+})).filter(g => g.ads.length > 0);
+const featuredAds = pickFeaturedAds(adGroups, WALL_N, () => 0.5);
+const adGroupsJson = JSON.stringify(adGroups).replaceAll('<', '\\u003c');
 // 最近更新 feed: newest-edited entries across all entity types, keyed by each
 // content file's last git-commit date. Empty (section hidden) on shallow clones
 // where git history is unavailable.
@@ -76,15 +87,38 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     <a class="btn" href={withBase('/games')}>瀏覽全部</a> <button class="btn" id="random">隨機探索</button>
   </section>
 
-  <h2 class="section-h">精選封面</h2>
-  <div class="coverwall" id="coverwall">
-    {featured.map(c => (
-      <a class="cwall" href={c.u}>
-        <img src={c.img} alt={`${c.t} 封面`} loading="lazy" />
-        <span class="t">{c.t}</span>
-      </a>
-    ))}
+  {adGroups.length > 0 ? (
+    <h2 class="featured-heading">
+      <span class="featured-tablist" id="featured-tabs" role="tablist" aria-label="精選內容">
+        <button class="featured-tab" id="featured-covers-tab" type="button" role="tab" aria-selected="true" aria-controls="featured-covers-panel">精選封面</button>
+        <button class="featured-tab" id="featured-ads-tab" type="button" role="tab" aria-selected="false" aria-controls="featured-ads-panel" tabindex="-1">精選廣告</button>
+      </span>
+    </h2>
+  ) : (
+    <h2 class="section-h">精選封面</h2>
+  )}
+  <div id="featured-covers-panel" role={adGroups.length > 0 ? 'tabpanel' : undefined} aria-labelledby={adGroups.length > 0 ? 'featured-covers-tab' : undefined}>
+    <div class="coverwall" id="coverwall">
+      {featured.map(c => (
+        <a class="cwall" href={c.u}>
+          <img src={c.img} alt={`${c.t} 封面`} loading="lazy" />
+          <span class="t">{c.t}</span>
+        </a>
+      ))}
+    </div>
   </div>
+  {adGroups.length > 0 && (
+    <div id="featured-ads-panel" role="tabpanel" aria-labelledby="featured-ads-tab" hidden>
+      <div class="coverwall" id="adwall">
+        {featuredAds.map(ad => (
+          <a class="cwall" href={ad.u}>
+            <img src={ad.img} alt={`${ad.t} 廣告`} loading="lazy" />
+            <span class="t">{ad.t}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
 
   {recent.length > 0 && (
     <>
@@ -137,6 +171,44 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
         `<a class="cwall" href="${esc(c.u)}"><img src="${esc(c.img)}" alt="${esc(c.t)} 封面" loading="lazy"><span class="t">${esc(c.t)}</span></a>`
       ).join('');
     }
+  </script>
+
+  {adGroups.length > 0 && <script id="featured-ad-data" type="application/json" is:inline set:html={adGroupsJson} />}
+  <script>
+    import { pickFeaturedAds } from '../lib/featuredAds.js';
+
+    const esc = value => String(value).replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[char]);
+    const adData = document.getElementById('featured-ad-data');
+    const adwall = document.getElementById('adwall');
+    if (adData && adwall) {
+      const groups = JSON.parse(adData.textContent || '[]');
+      const picked = pickFeaturedAds(groups, 16);
+      adwall.innerHTML = picked.map(ad =>
+        `<a class="cwall" href="${esc(ad.u)}"><img src="${esc(ad.img)}" alt="${esc(ad.t)} 廣告" loading="lazy"><span class="t">${esc(ad.t)}</span></a>`
+      ).join('');
+    }
+
+    const tabs = [...document.querySelectorAll('#featured-tabs [role="tab"]')];
+    const activateTab = (activeTab, moveFocus = false) => {
+      for (const tab of tabs) {
+        const active = tab === activeTab;
+        tab.setAttribute('aria-selected', String(active));
+        tab.tabIndex = active ? 0 : -1;
+        const panel = document.getElementById(tab.getAttribute('aria-controls'));
+        if (panel) panel.hidden = !active;
+      }
+      if (moveFocus) activeTab.focus();
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activateTab(tab));
+      tab.addEventListener('keydown', event => {
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        const step = event.key === 'ArrowRight' ? 1 : -1;
+        activateTab(tabs[(index + step + tabs.length) % tabs.length], true);
+      });
+    });
   </script>
 
   <script>
