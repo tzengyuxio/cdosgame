@@ -27664,8 +27664,9 @@
       "keys": [
         "cat:SCD0667"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃97"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃97",
+      "reject_reason": "out of scope: 勁爆美國職籃97（NBA Live 97, EA, 1996），純外文美版體育遊戲、發行早於 EA 台灣分公司成立（1997），無台灣中文化／正式代理發行足跡"
     },
     "cdg-3015": {
       "catalog_id": "SCD0668",
@@ -27673,8 +27674,9 @@
       "keys": [
         "cat:SCD0668"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃98"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃98",
+      "reject_reason": "out of scope: 勁爆美國職籃98（NBA Live 98, EA, 1997），純外文美版體育遊戲、無台灣中文化／正式代理發行足跡（發行於 EA 台灣成立同期，查無點名發行證據）"
     },
     "cdg-3016": {
       "catalog_id": "SCD0669",
