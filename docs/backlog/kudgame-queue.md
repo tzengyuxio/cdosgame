@@ -407,8 +407,16 @@ Triage 結果：41 款 → 3 略過（已發佈）、31 補完（既有 stub）�
 
 ### 順帶發現的資料修正建議（非漏收）
 - [x] ~~**cdg-2977《創世紀戰3第一部》**：`publisher_tw` 為空、`published: false`~~ → **B18 已處理**（見上）。
-- [ ] **`publisher_tw` 為空但 GAMA STORE 逐字記「發行公司：遊戲橘子」者**：~~cdg-4524《速食店》~~（B17 已補）、cdg-3372《戰國策2：七雄之爭》、~~cdg-0587~~（**建議作廢：13.htm 實屬 cdg-0588；且 0587 已 reject**）、cdg-4882《GOGO美食王》可補值。
-- [ ] **🆕 cdg-2978《創世紀戰3第二部》待複核**（B18 agent 回報）：chiuinan 逐字「本代沒出繁中版」「簡中版」，但該檔現為 `content_language: zh` + `localization_level: localized` + `publisher_tw: []` → 依台灣產品導向宜改標簡中或重評收錄（**可能是另一筆 cdg-0587 型的 reject 候選**）；其 `year: 2003` 亦僅 chiuinan 單源（韓國原作 파트2 為 2000-12-22，未驗證）。
+- [x] ~~**`publisher_tw` 為空但 GAMA STORE 記「發行公司：遊戲橘子」者**~~ → **B19 全數處理**：cdg-4524《速食店》（B17 已補）、cdg-3372《戰國策2》✅、cdg-4882《GOGO美食王》✅；~~cdg-0587~~ **建議作廢**（13.htm 實屬 cdg-0588，且 0587 已 reject）。
+- [x] **cdg-2978《創世紀戰3第二部》— reject**（使用者 2026-07-16 裁決）。複查逐字證實：chiuinan 標題註「（The War of Genesis 3: Part 2，**簡中版**）」、備註「**本代沒出繁中版。**」，所附「繁中化檔.rar」為**民間非商業漢化**（依 `schema.md` 民間漢化條款不計中文化等級，反為「無官方繁中版」的反面實證）→ 違反「catalog 只留台灣發行/代理」，比照 cdg-0587。registry 標 rejected、檔案刪除、cdg-2977 對其連結改純文字。⚠ 原標 `content_language: zh` + `localization_level: localized` 與來源直接矛盾——**此型污染已促成獨立掃描批**，見 [simplified-only-scan.md](simplified-only-scan.md)。
 - ℹ **cdg-2977 三章節譯名分歧**（未寫入正文）：chiuinan「月影西藩刃」／遊戲橘子官網 index「月影四藩刃」／story 頁傭兵隊稱「偃月刃」。
-- [ ] **具備發佈條件但仍 `published: false` 者**（GAMA STORE 提供可引用的一手台灣發行足跡）：cdg-3083《東方幻想戰記》、cdg-3585《鋼鐵帝國》、cdg-2444《時空幻境》、cdg-0588《幻想西遊記》。
+- [x] **具備發佈條件但仍 `published: false` 者 — B19 全數補完發佈** ✅ content d81e50c6：
+  - **cdg-3083《東方幻想戰記》**：原作＝HQ Team《이스트》(East) 1998-09、韓國 SKC 發行；**genre SLG→RTS**（chiuinan「即時戰略」／dhwiki／namu 三源）、`developer_region→KR`；namu 逐字「수출판 이름은 '동방환상전기'」證同一性；已交叉連結同開發商的 cdg-0157《七年戰爭》。⚠ **店頁 16.htm 開發欄填「遊戲橘子」與庫內 HQ Team 衝突→未採**（店頁把台灣代理填進開發欄），正文並陳兩說。
+  - **cdg-3585《鋼鐵帝國》**：Sonnori/KR、韓版 1999-09、**台灣 2000-03-15 遊戲橘子代理**（巴哈 s=30350）；**genre 維持 SLG 未動**——來源真分歧（chiuinan「策略角色扮演」vs ko.wiki `턴제 전략 게임`／namu「반턴제」／HG101 明言無網格戰棋、近似 Ogre Battle 且地圖層即時），不為 churn 而改，**待複核**。趣聞：`아시레마(ACIREMA)`＝AMERICA 反寫、地圖為倒置美洲。⚠ 抄襲指控的日本原作**未具名**（來源僅給韓文《하이리워드》，無法驗原題）。
+  - **cdg-2444《時空幻境》**：三款中證據最硬——**redump 實體壓片雷射蝕刻碼**逐字 `富峰群資訊股份有限公司 時空幻境disk 1 PIG-00046`、Region `Taiwan`、Languages `Chinese`、條碼 `4 718268 000460`（**主線 curl redump.org/disc/96479 逐字覆驗全中**）；韓國原作《미사이어 - 신념으로의 부름》1999、SRPG 維持。**`publisher_tw` 取富峰群非店頁的遊戲橘子**（PVD 壓片日 1999-10-22 早於 11-11 更名，兩者不衝突）。⚠ **韓國 GamaSoft 與 Gamania（遊戲橘子）無關**，勿因店頁小寫 `gamasoft` 誤認。**系列發現**：本作為 XenoAge 首作，已交叉連結 cdg-2745《夢幻武士：龍刻之章》與 cdg-0629《永恆之星》（＝本作重製版）；series 留 null（三個台灣譯名互不相干、無台灣系列名）。
+  - **cdg-0588《幻想西遊記》**：B18 已補完發佈（見上）。
+
+**⚠ B19 結論：「GAMA STORE 開發公司欄多為空白」通則正式作廢。** 實測 13.htm＝`kct`、25.htm＝`奧汀科技`、16.htm＝`遊戲橘子`、19.htm＝`Sonnori`、06.htm＝`gamasoft` **皆有值**；僅 15.htm（火鍋店）確為空白。**每頁必須自己 grep 原始 HTML**——本專案在這一欄已出現**兩種相反的錯誤**：15.htm 空白被謊報成有值、13.htm 有值卻被當成空白而漏看。且**開發欄有值 ≠ 可信**（16.htm 填代理商、25.htm 的「奧汀科技」不如庫內「奧汀」canonical），**勿用店頁覆蓋庫內 developer**。
+
+**⚠ B19 附帶揪出兩處既有假引用**（agent 自查、主線覆驗）：① cdg-3372 舊正文「大宇資訊於 1992 年發行之《戰國策》」掛 chiuinan `ws2.htm`——該頁全文僅「遊戲橘子2000年出品的即時戰略遊戲」，未提大宇亦未提 1992，且首作 cdg-3371 的 developer 實為**富進**；② cdg-4882「2001 年 1 月」掛 `web.uj.com.tw` 角色圖頁——該頁不支持該日期（日期本身正確，已改掛巴哈 s=2223）。另移除失真敘述「另含兩名隱藏角色」（官方原文為「隱藏的**關卡**」）。三條待核已入 [game-entry-review.md](game-entry-review.md)。
 - ℹ 富峰群↔遊戲橘子並存屬正常（1999-11 更名前後），cdg-2444 等標「富峰群」與店頁標「遊戲橘子」**不衝突**。
