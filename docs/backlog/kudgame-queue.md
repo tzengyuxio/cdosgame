@@ -472,11 +472,11 @@ Triage 結果：39 款 → 1 略過（已發佈）、27 補完（既有 stub）�
 - [x] 藍調情人 — cdg-5155 — 新建 published（捷友/1998/LSG，號稱台灣首款自研戀愛模擬；丁小芹代言、主題曲〈Fantasy〉；來源：丁小芹維基＋巴哈 ACG＋PTT）
 - [x] 圍棋封神榜 — cdg-5156 — 新建 published（晟業「棋侶」品牌詰棋題庫，2013，近7000題30級–1段+棋力證書；chiuinan 無此條目，痞客邦零售心得（博客來/7-11 取貨）為足跡。⚠ 單一部落格來源、year 2013 偏晚，宜複核）
 - [!] 中國陸軍棋 — cdg-5157 — 新建 unverified stub（晟業/TBG；chiuinan 晟業26款查無、web 亦無足跡，僅 kudgame 清單；year/platform/玩法無資料、released 未證實。已交叉連結 cdg-1363/1164/3981 消歧義）
-- [ ] 企鵝瑪力歐 — cdg-5158 — 尼奧
-- [ ] ＧＯ！ＧＯ！台北捷運 — cdg-5159 — 尼奧
-- [ ] 八年抗戰２ — cdg-5160 — 尼奧（庫內僅 cdg-0167 一代）
-- [ ] 明星商店 — cdg-5161 — 尼奧
-- [ ] 世界棒球 — cdg-5162 — 尼奧（≠ cdg-4943 Quest 世界棒球賽）
+- [!] 企鵝瑪力歐 — cdg-5158 — 新建 unverified stub（尼奧；查無足跡，僅 kudgame 清單掛名，year/genre/玩法無資料）
+- [x] ＧＯ！ＧＯ！台北捷運 — cdg-5159 — 新建 published（尼奧/智冠/2003-07/SIM，與臺北捷運公司官方合作授權，淡水線民權西路→淡水駕駛模擬，3 難度＋突發狀況；**主線 WebSearch 覆驗屬實**：wiki＋iThome node/21421＋巴哈 ACG s=5715）
+- [x] 八年抗戰２ — cdg-5160 — 新建 published（尼奧/2012/RTS，八年抗戰系列第二部，回合內政＋即時戰鬥雙模式，series 八年抗戰，連結前作 cdg-0167；cite GNN sn=75003 沿用 cdg-0167）
+- [x] 明星商店 — cdg-5161 — 新建 published（尼奧/2006/CMS，藝人副業開店經營模擬；cite GNN sn=22658＋巴哈國產總表。⚠ 主線未親驗，GNN 被 Anubis 擋、依 WebSearch 摘要）
+- [x] 世界棒球 — cdg-5162 — 新建 published（尼奧/智冠/2004/SPG，中華隊投手＋威力加強版職棒球季模式；區隔 cdg-4943 Quest 世界棒球賽；**主線 WebSearch 覆驗屬實**：twbsball 台灣棒球維基館）
 
 ### 條件收（先研究台灣足跡，[?]）
 - [?] NBA LIVE 97 — cdg-5163（預留）— 有台灣代理足跡則建 packaging/en，否則 reject
@@ -494,5 +494,5 @@ Triage 結果：39 款 → 1 略過（已發佈）、27 補完（既有 stub）�
 - E6 晟業棋類收尾：cdg-2155、5157 ✅ content 485fe9f0 / registry aa9f3ebf
 - E7 詮積：cdg-1963、0255、0256、3549 ✅ content a0c8aa00 / registry 6ea51e69（三國霸業 genre RTS＋去序號；獵艷 dev 大野狼確認）
 - E8 尼奧補完：cdg-0836、0547、0783、0167 ✅ content 0d7dddf3
-- E9 尼奧新建：cdg-5158、5159、5160、5161、5162
+- E9 尼奧新建：cdg-5158、5159、5160、5161、5162 ✅ content c1985fb3 / registry d2b54a88（4 published＋5158 stub；5159/5162 主線 WebSearch 覆驗、5161 待核）
 - E10 美商藝電（條件）：NBA LIVE 97/98
