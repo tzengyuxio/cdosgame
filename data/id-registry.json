@@ -47271,6 +47271,24 @@
       ],
       "status": "active",
       "title_zh": "烈焰奇兵"
+    },
+    "cdg-5151": {
+      "catalog_id": null,
+      "developer": "DANDA",
+      "keys": [
+        "t:RPG夢工廠|DANDA"
+      ],
+      "status": "active",
+      "title_zh": "RPG夢工廠"
+    },
+    "cdg-5152": {
+      "catalog_id": null,
+      "developer": "遊戲橘子",
+      "keys": [
+        "t:便利商店精裝版|遊戲橘子"
+      ],
+      "status": "active",
+      "title_zh": "便利商店精裝版"
     }
   }
 }
