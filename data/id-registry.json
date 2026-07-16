@@ -47446,6 +47446,24 @@
       ],
       "status": "active",
       "title_zh": "創業大富翁"
+    },
+    "cdg-5170": {
+      "catalog_id": null,
+      "developer": "鄉根",
+      "keys": [
+        "t:裝甲戰士|鄉根"
+      ],
+      "status": "active",
+      "title_zh": "裝甲戰士"
+    },
+    "cdg-5171": {
+      "catalog_id": null,
+      "developer": "鄉根",
+      "keys": [
+        "t:賽車總冠軍ＧＯ！|鄉根"
+      ],
+      "status": "active",
+      "title_zh": "賽車總冠軍ＧＯ！"
     }
   }
 }
