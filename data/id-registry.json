@@ -47392,6 +47392,42 @@
       ],
       "status": "active",
       "title_zh": "雀王傳2誘惑麻將"
+    },
+    "cdg-5164": {
+      "catalog_id": null,
+      "developer": "冠捷",
+      "keys": [
+        "t:武林降龍傳|冠捷"
+      ],
+      "status": "active",
+      "title_zh": "武林降龍傳"
+    },
+    "cdg-5167": {
+      "catalog_id": null,
+      "developer": "冠捷",
+      "keys": [
+        "t:淘氣貝克|冠捷"
+      ],
+      "status": "active",
+      "title_zh": "淘氣貝克"
+    },
+    "cdg-5168": {
+      "catalog_id": null,
+      "developer": "冠捷",
+      "keys": [
+        "t:雞蛋糕啪啪走－勇敢向前衝|冠捷"
+      ],
+      "status": "active",
+      "title_zh": "雞蛋糕啪啪走－勇敢向前衝"
+    },
+    "cdg-5169": {
+      "catalog_id": null,
+      "developer": "昱光",
+      "keys": [
+        "t:創業大富翁|昱光"
+      ],
+      "status": "active",
+      "title_zh": "創業大富翁"
     }
   }
 }
