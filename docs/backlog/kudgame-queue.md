@@ -638,42 +638,42 @@ Triage 結果：33 款 → 3 略過（已發佈）、17 補完（既有 stub）�
 - [~] 創世紀戰3第一部 — cdg-2977 ｜ 創世紀外傳：西風狂詩曲 — cdg-0898 ｜ 幻舞天使 — cdg-0592（dev=Garam & Baram 韓，清單標聖教士）
 
 ### 補完（既有 stub [ ]，pub=false）
-- [ ] 上海大富翁1940（風雲大富翁） — cdg-0287 — 北極星工作室 TBG；**風雲大富翁＝別名待補**
-- [ ] 霹靂大富翁 — cdg-2706 — 天碁多媒體 TBG（清單標皇統，developer 待核）
-- [ ] 霹靂大富翁2 — cdg-2707 — 天碁多媒體 TBG（清單標皇統）
-- [ ] 變身博士 — cdg-3809 — In Utero ADV（清單標皇統，外文代理既有款）
-- [ ] 勇敢小伊達 — cdg-1382 — Soro Soft ACT（清單標皇統）
-- [ ] 明星三缺一 — cdg-2381 — 鈊象電子（清單標華彩，developer/publisher 待核；genre null 待補）
-- [ ] 非常總統大富翁 — cdg-1378 — 聖教士 TBG（清單標華彩，developer 待核）
-- [ ] 雍正王朝－君臨天下 — cdg-0974 — 超幻媒體實驗室 RPG（清單標華彩，title「君臨天下：雍正王朝」）
-- [ ] 銀河騎士團 — cdg-2921 — 華彩 LSG
-- [ ] 生化兵器 — cdg-1925 — 晶天軟件 RPG（清單標華彩，developer/publisher 待核）
-- [ ] X少年事件簿 — cdg-0131 — Animedia RPG（清單標華彩）
-- [ ] 綜藝麻將王 — cdg-2113 — 聖世德（genre null 待補）
-- [ ] 忍者學園 — cdg-1711 — 聖教士 TBG
-- [ ] 烽火英雄 — cdg-3276 — 聖教士 SRPG
-- [ ] 真愛密碼（Replay） — cdg-1820 — 聖教士 AVG
-- [ ] 真愛密碼2（Replay 2） — cdg-1821 — 聖教士 AVG
-- [ ] 創世紀外傳：西風狂詩曲2暴風雨 — cdg-0899 — Softmax SRPG
+- [x] 上海大富翁1940（風雲大富翁） — cdg-0287 — 北極星工作室 TBG；**風雲大富翁＝別名待補**
+- [x] 霹靂大富翁 — cdg-2706 — 天碁多媒體 TBG（清單標皇統，developer 待核）
+- [x] 霹靂大富翁2 — cdg-2707 — 天碁多媒體 TBG（清單標皇統）
+- [x] 變身博士 — cdg-3809 — In Utero ADV（清單標皇統，外文代理既有款）
+- [x] 勇敢小伊達 — cdg-1382 — Soro Soft ACT（清單標皇統）
+- [x] 明星三缺一 — cdg-2381 — 鈊象電子（清單標華彩，developer/publisher 待核；genre null 待補）
+- [x] 非常總統大富翁 — cdg-1378 — 聖教士 TBG（清單標華彩，developer 待核）
+- [x] 雍正王朝－君臨天下 — cdg-0974 — 超幻媒體實驗室 RPG（清單標華彩，title「君臨天下：雍正王朝」）
+- [!] 銀河騎士團 — cdg-2921 — 華彩 LSG
+- [x] 生化兵器 — cdg-1925 — 晶天軟件 RPG（清單標華彩，developer/publisher 待核）
+- [x] X少年事件簿 — cdg-0131 — Animedia RPG（清單標華彩）
+- [x] 綜藝麻將王 — cdg-2113 — 聖世德（genre null 待補）
+- [x] 忍者學園 — cdg-1711 — 聖教士 TBG
+- [x] 烽火英雄 — cdg-3276 — 聖教士 SRPG
+- [x] 真愛密碼（Replay） — cdg-1820 — 聖教士 AVG
+- [x] 真愛密碼2（Replay 2） — cdg-1821 — 聖教士 AVG
+- [x] 創世紀外傳：西風狂詩曲2暴風雨 — cdg-0899 — Softmax SRPG
 
 ### 新建（台灣廠商，[ ]，id 鎖 cdg-5182~5186）
-- [ ] 寫真天蠶變 — cdg-5182 — 永無止境工作室 **18禁 adult**（查無 catalog，新建）
-- [ ] 西風狂劍 — cdg-5183 — 皇統（查無 catalog，新建）
-- [ ] 搶救貧窮大作戰 — cdg-5184 — 華彩（查無 catalog，新建）
-- [ ] 綠野仙蹤 — cdg-5185 — 聖教士（查無 catalog，新建）
-- [ ] 封印物語 — cdg-5186 — 聖教士（查無 catalog，新建）
+- [!] 寫真天蠶變 — cdg-5182 — 永無止境工作室 **18禁 adult**（查無 catalog，新建）
+- [x] 西風狂劍 — cdg-5183 — 皇統（查無 catalog，新建）
+- [x] 搶救貧窮大作戰 — cdg-5184 — 華彩（查無 catalog，新建）
+- [x] 綠野仙蹤 — cdg-5185 — 聖教士（查無 catalog，新建）
+- [x] 封印物語 — cdg-5186 — 聖教士（查無 catalog，新建）
 
 ### 外文款（build 研究已定，2026-07-17）
 **研究結論**：Softmax 창세기전 1/2 查無台灣繁中/代理足跡（chiuinan 總表無此系列，僅外傳西風狂詩曲 cdg-0898／創世紀戰3 cdg-2977 有台灣繁中足跡）；Captain Claw 連 chiuinan 都無、無任何台灣代理。→ 三款**不建**。**Test Drive 系列＝智冠代理、台灣正式譯名「名車大賽」，早已在 catalog（cdg-0962~0967）**，「瘋狂大車拼」為坊間別名。
 - ~~創世紀戰1 — Softmax 창세기전（1995）~~ **不建**（無台灣繁中/代理足跡，比照 cdg-2978 reject）
 - ~~創世紀戰2 — Softmax 창세기전 II（1996）~~ **不建**（全系列唯一海外拓展失敗作，無台灣足跡）
 - ~~Captain Claw — Monolith（1997）~~ **不建**（查無任何台灣代理，unverified）
-- [ ] 瘋狂大車拼1 → **cdg-0962 名車大賽**（pub=true）— 補「瘋狂大車拼」別名
-- [ ] 瘋狂大車拼2 → **cdg-0963 名車大賽2**（pub=true）— 補別名
-- [ ] 瘋狂大車拼3 → **cdg-0964 名車大賽3**（pub=true）— 補別名
-- [ ] 瘋狂大車拼4 → **cdg-0965 名車大賽4**（pub=false stub）— 補完＋別名
-- [ ] 瘋狂大車拼5 → **cdg-0966 名車大賽5**（pub=false stub）— 補完＋別名
-- [ ] 瘋狂大車拼6 → **cdg-0967 名車大賽6**（pub=false stub，developer_raw 標 Infogrames）— 補完＋別名
+- [x] 瘋狂大車拼1 → **cdg-0962 名車大賽**（pub=true）— 補「瘋狂大車拼」別名
+- [x] 瘋狂大車拼2 → **cdg-0963 名車大賽2**（pub=true）— 補別名
+- [x] 瘋狂大車拼3 → **cdg-0964 名車大賽3**（pub=true）— 補別名
+- [x] 瘋狂大車拼4 → **cdg-0965 名車大賽4**（pub=false stub）— 補完＋別名
+- [x] 瘋狂大車拼5 → **cdg-0966 名車大賽5**（pub=false stub）— 補完＋別名
+- [x] 瘋狂大車拼6 → **cdg-0967 名車大賽6**（pub=false stub，developer_raw 標 Infogrames）— 補完＋別名
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] E1 北極星＋皇統霹靂＋新建：cdg-0287、cdg-2706、cdg-2707、5182 寫真天蠶變(新)、5183 西風狂劍(新) ✅（0287 上海大富翁1940 published＋補「風雲大富翁」別名、智冠代理、region 留 null；2706 去序號「霹靂大富翁：霹靂武林大對決」＋**天碁多媒體＝開發、皇統光碟＝發行**釐清、改編霹靂狂刀、registry title 同步；2707 續作 published；**5182 寫真天蠶變＝QIX 拉線圈地美女益智（非麻將）、18禁 adult、永無止境署名/年份查無→unverified stub**；**5183 西風狂劍翻案＝韓國 ARPG「HAZARD」皇統代理繁中版、developer null/KR/localized、published**）
