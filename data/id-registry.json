@@ -47473,6 +47473,15 @@
       ],
       "status": "active",
       "title_zh": "ＩＱ爭霸"
+    },
+    "cdg-5173": {
+      "catalog_id": null,
+      "developer": "怪獸蛋",
+      "keys": [
+        "t:殭屍宅急便|怪獸蛋"
+      ],
+      "status": "active",
+      "title_zh": "殭屍宅急便"
     }
   }
 }
