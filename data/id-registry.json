@@ -5405,8 +5405,9 @@
       "keys": [
         "cat:SCD1078"
       ],
-      "status": "active",
-      "title_zh": "幻想西遊記"
+      "status": "rejected",
+      "title_zh": "幻想西遊記",
+      "reject_reason": "out of scope: 幻想西遊記（金智塔／歲月工作室，2000-05，簡體中文版、人民幣 68 元），深圳廠商自行發行之大陸產品，查無台灣發行／代理足跡（比照 cdg-0546 少林足球先例）"
     },
     "cdg-0588": {
       "catalog_id": "SCD0717",
@@ -47298,6 +47299,15 @@
       ],
       "status": "active",
       "title_zh": "火鍋店"
+    },
+    "cdg-5154": {
+      "catalog_id": null,
+      "developer": "TimeGate Studios",
+      "keys": [
+        "t:可汗～天降聖使～|TimeGate Studios"
+      ],
+      "status": "active",
+      "title_zh": "可汗～天降聖使～"
     }
   }
 }
