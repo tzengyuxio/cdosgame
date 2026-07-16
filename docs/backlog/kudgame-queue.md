@@ -603,7 +603,7 @@ Triage 結果：43 款 → 2 略過（已發佈）、33 補完（既有 stub）�
 - [!] 歡樂大富翁 — cdg-5178 — 新建 unverified stub（僅見 kudgame PC 遊戲列表歸於歡樂家庭，無專屬介紹頁/商店足跡；release_status unverified、published:false）
 - [x] 幻想城物語 — cdg-5179 — 新建 published（歡樂家庭 CMS，扮國王建設冒險者之城；誠品線上＋PTT供檔足跡，⚠year 查無留 null、genre CMS/CBG 邊界取 CMS）
 - [x] 夢幻便利商店 — cdg-5180 — 新建 published（歡樂家庭/2005/CMS 便利商店經營，含互動劇情；巴哈 ACG＋GNN Steam 報導，2019 重製上 Steam）
-- [ ] 模擬消防隊３ — cdg-5181 — 新建（美思捷達；查無 1/2 代，疑代理外國模擬款待查）
+- [x] 模擬消防隊３ — cdg-5181 — 新建 published（＝Fire Department 3，Monte Cristo/FR 開發、Frogster/DE 發行、2006；美思捷達代理國際中文版 RTS/localized；GNN sn=23082＋德文維基。GNN 定位為《消防第六分隊》續作）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] G1 酷奇思：cdg-3446 英雄本色、cdg-1374 青蛇-法海恩仇錄、cdg-5174 爵爺吉祥(新)、cdg-5175 女人要有錢(新) ✅（3446 region→TW＋pub 智冠、1374 補白蛇傳 adaptation、5174 翻案 non-adult、5175 published）
@@ -616,4 +616,10 @@ Triage 結果：43 款 → 2 略過（已發佈）、33 補完（既有 stub）�
 - [x] G8 數位玩具：cdg-2540 聖誕任務、cdg-4316 幻獸魔石、cdg-2370 烈日奇俠傳、cdg-2369 日劫 ✅（4 款皆補完 published；developer_region→TW；日劫兩款 genre RPG→ARPG＋互相 cross-link；cdg-4316 原全 null stub→查得 GNN 報導(sn=1370)確認數位玩具、補齊 year2000/PZG 連線對戰益智／registry developer null→數位玩具＋key 同步。⚠疑點：cdg-2540 外盒標「和仲科技」為數位玩具母公司，publisher_tw 保守留 []；cdg-2370 year 2001 vs 2002 兩說已標注正文）
 - [x] G9 遊戲精靈/新瑞獅：cdg-0700 反大富翁、cdg-0699 反三國志、cdg-0985 呂布與貂蟬 ✅（3 款皆補完 published；**developer 歸屬查證：清單「遊戲精靈」誤把發行商當開發商**——chiuinan 明文 0699/0985＝新瑞獅開發、杉立/遊戲精靈代理，維持 developer 新瑞獅；0700 遊戲精靈 developer_region→TW，開發歸屬待考（新瑞獅維基亦列同名反大富翁）；0699/0985 三國 RPG 互相 cross-link＋連新瑞獅絕筆《天河傳說》cdg-0471。修 subagent external_links 縮排誤置 references 下。⚠**全庫課題**：新瑞獅實為廈門(CN)公司，但庫內 7 款既有條目一律 developer_region TW，本批從眾維持 TW，待整批一致處理）
 - [x] G10 聖女之歌+烽火：cdg-2521 聖女之歌、cdg-2522 聖女之歌2、cdg-3274 烽火三國、cdg-3275 烽火三國2 ✅（4 款皆補完 published；developer_region→TW；1↔2 各自互連。**風雷時代＝唯晶前身**（1997「風雷」→2000 風雷時代→2003 唯晶科技/Winking，各代掛名尊重不強統一）；**烽火三國「遊戲天堂」＝下載入口網站 i-gamer.net 非開發/發行商**（清單抓料誤植），維持 developer 烽火工作室、正文排除 2010 對岸版/2013 中華網龍網頁版同名混淆。⚠疑點：cdg-2522 代理商 chiuinan 智冠 vs ACG 疑唯晶自發（沿用智冠待一手佐證）；烽火三國 genre 保留 SLG（網路 RTS 描述實為對岸同名款）、publisher 軟體世界僅零售品名推斷未入欄）
-- [ ] G11 收尾：cdg-1447 空戰1945、cdg-1980 鹹蛋超人大富翁、cdg-2807 瘋狂麻將王、cdg-5181 模擬消防隊3(新)
+- [x] G11 收尾：cdg-1447 空戰1945、cdg-1980 鹹蛋超人大富翁、cdg-2807 瘋狂麻將王、cdg-5181 模擬消防隊3(新) ✅（4 款皆 published；developer_region→TW、content_language→zh、genre 補：1447 STG 直向捲軸射擊（副標筧橋英烈傳典出1977空戰電影）、2807 TBG 台灣麻雀系列；1980 鹹蛋超人＝超人力霸王未授權借用、國/粵雙配音。**cdg-2807 developer 查證：維持向量科技**（清單「意念數位」查無佐證，chiuinan＋registry＋Avector 英文名一致）；cdg-5181 新建 published（Fire Department 3，registry 補登 developer Monte Cristo）。⚠疑點：cdg-5181 developer_region 取原廠 FR（非發行商 Frogster 的 DE））
+
+---
+
+**本批完成（2026-07-16→07-17）**：43 款盤點 → 2 略過、33 補完（既有 stub）、8「新建」項落地為 **6 新建 published**（cdg-5174 爵爺吉祥、5175 女人要有錢、5179 幻想城物語、5180 夢幻便利商店、5181 模擬消防隊3）＋**1 unverified stub**（cdg-5178 歡樂大富翁）＋**2 不建**（cdg-5176 青蛇奇緣、5177 花木蘭＝收斂為既有 cdg-1375/3423 極真版）。G1–G11 全 commit 完畢。
+
+待核疑點彙整：① cdg-3792 歡樂中國暗棋 developer 維持 registry「智冠」（清單標歡樂家庭，無翻案佐證）；② 飛玩資訊公司頁未建（全庫課題，cdg-0320/0837/3428/1249/2795 皆連結）；③ **新瑞獅實為廈門(CN)公司但庫內 7 款既有條目一律 developer_region TW**（G9 從眾，待整批一致處理）；④ catalog_id SCD2202 由 cdg-0297/0298/0300/2151 共用（疑同碟/合輯）；⑤ cdg-2540 聖誕任務母公司和仲科技 vs 品牌數位玩具、publisher 留 []；⑥ cdg-2522 聖女之歌2 代理商智冠 vs 唯晶自發（沿用智冠待一手佐證）；⑦ cdg-2807 瘋狂麻將王維持向量科技（清單「意念數位」查無佐證）。
