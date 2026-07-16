@@ -47554,6 +47554,15 @@
       ],
       "status": "active",
       "title_zh": "西風狂劍"
+    },
+    "cdg-5184": {
+      "catalog_id": null,
+      "developer": "宏申",
+      "keys": [
+        "t:搶救貧窮大作戰|宏申"
+      ],
+      "status": "active",
+      "title_zh": "搶救貧窮大作戰"
     }
   }
 }
