@@ -538,13 +538,13 @@ Triage 結果：41 款 → 2 略過（已發佈）、23 補完（既有 stub）�
 - [x] 阿帕契捍衛隊 — cdg-1342 — 補完 published（Simis/GB Team Apache 攻擊直升機 SIM，1998→year 訂正，en/foreign，未中文化台灣英文版流通）
 - [x] 鬥鬥龍 — cdg-3646 — 補完 published（Tensoft 天際軟體/TW/1997/ACT，雙人恐龍對戰，region→TW、native 訂正）
 - [x] 夢幻妖精 — cdg-2733 — 補完 published（ImageWorks/JP 妖精養成 LSG，業訊代理中文版，region→JP，日文維基 cited）
-- [ ] 歡樂水滸傳 — cdg-3802 — 仲環科技/2005
-- [ ] 夢幻水族箱 — cdg-2746 — 全景軟體/1999
+- [x] 歡樂水滸傳 — cdg-3802 — 補完 published（仲環科技/2005/ACT，水滸108好漢六人橫向捲軸混戰「必殺加強版」；region null 查無佐證）
+- [x] 夢幻水族箱 — cdg-2746 — 補完 published（全景軟體/1999/LSG，虛擬水族箱養魚模擬含擬真升級版；⚠與資安公司全景軟體同名不同家已辨明；region null）
 - [x] 象棋之路－西天大戰 — cdg-2137 — 補完 published（晟業自製自發/TW/2001/TBG；晟業vs杉立衝突採晟業（chiuinan＋omega兩一手來源，杉立僅二手清單）；《象棋水滸戰》西遊記改版，連結 cdg-2152/2153）
 - [x] 歡樂梭哈 — cdg-3801 — 補完 published（捷思特/冠捷/2001/TBG，梭哈撲克小品，2 IN 1 合輯）
 - [x] 歡樂麻將 — cdg-3808 — 補完 published（捷思特/冠捷/2001/TBG；**修正原錯掛大宇版 mj.htm chiuinan 頁＋fandom 圖→改正為 happymj.htm**；與大宇 cdg-3807 消歧義）
 - [x] 閃靈奇兵 — cdg-3616 — 補完 published（Family Production/KR/1998，寶斯爾代理中文版，genre RPG→ARPG，adaptation 韓動畫《靈魂機兵拉贊卡》）
-- [ ] 武士魂之適者生存 — cdg-0736 — dev Trigger/1998（梵太師）
+- [x] 武士魂之適者生存 — cdg-0736 — 補完 published（Trigger Soft/KR/1998/RTS，梵太師台灣代理確立；en/packaging（英文版隨刊流通、梵太師中文改版計畫但無廣泛出貨佐證）；genre SLG→RTS、韓文原名장보고전入aliases）
 
 ### 新建（[ ]，id 鎖 cdg-5163~5173）
 - [!] 雀王傳２誘惑麻將 — cdg-5163 — 新建 unverified stub（京群/成人真人16張麻將系列2代，查無獨立足跡、published:false，連結初代 cdg-1962；fn 澄清≠遊戲天堂《極度誘惑麻將館》）
@@ -569,4 +569,9 @@ Triage 結果：41 款 → 2 略過（已發佈）、23 補完（既有 stub）�
 - [x] F4 榮欽炸彈超人＋智傲/雄圖新建：cdg-2338、2339、1109、5165、5166 ✅
 - [x] F5 鄉根＋動作：cdg-1342、5170、5171、3646、3616 ✅ content e8d64bb1 / registry 3d58d179
 - [x] F6 棋牌/益智：cdg-2137、3801、3808、5172、2733 ✅ content 6adbf564 / registry cfa72c84
-- [ ] F7 收尾：cdg-3802、2746、0736、5173
+- [x] F7 收尾：cdg-3802、2746、0736、5173 ✅ content 06ca81e7 / registry 6935eab1
+
+---
+
+**本批完成（2026-07-16）**：41 款盤點 → 2 略過、23 補完、11 新建（cdg-5163~5173）、5 維持 reject。F1–F7 全 commit 完畢。新建 11 款落地為 **3 published**（cdg-5164 武林降龍傳、5165 永恆傳說、5166 蒼鋼騎兵）＋**8 unverified stub**（cdg-5163 雀王傳2、5167 淘氣貝克、5168 雞蛋糕啪啪走、5169 創業大富翁、5170 裝甲戰士、5171 賽車總冠軍GO、5172 IQ爭霸、5173 殭屍宅急便）。
+待核疑點：① **cdg-3807（大宇版歡樂麻將）反向錯掛 happymj/ 兩張圖**（實為捷思特版 cdg-3808 的圖），建議日後單獨清理（F6 發現）；② 歡樂梭哈/歡樂麻將 publisher 冠捷 據 chiuinan 頁，未見獨立二次佐證；③ 江湖英烈傳 cdg-1138 昱光單一來源、疑昱泉誤植待核（F3 遺留）；④ 武士魂 cdg-0736 梵太師中文版是否實際出貨無確證，採 packaging 保守處理。
