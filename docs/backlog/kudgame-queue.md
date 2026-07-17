@@ -741,9 +741,16 @@ Triage 結果：28 款 → 10 略過（已發佈）、13 補完（既有 stub）
 - [x] 魔導物語 — cdg-3686 — 補完 published（Compile/JP/1996，**genre SRPG→RPG** 訂正＝地城探索 RPG·魔法氣泡前身，歡樂盒中文化）
 - [!] 賊佳拍檔 — cdg-4069 — 複查仍查無足跡，維持 stub published:false＋release_status unverified
 
-### H4/H5 — 新建（id 鎖 cdg-5187~5191）
-- [ ] 魔女夢工場 — cdg-5187 — 新建（歡樂盒 18禁 H-game，日系，adult）
-- [ ] HiToMi～瞳～ — cdg-5188 — 新建（歡樂盒 18禁 H-game，日系，adult）
-- [ ] 芭芭拉 — cdg-5189 — 新建（歡樂盒，疑日系 galge）
-- [ ] 暗闇坂の家 — cdg-5190 — 新建（歡樂盒，疑日系 AVG/恐怖）
-- [ ] 城市獵人（歡樂盒·北条司） — cdg-5191 — 新建（消歧義 ≠ cdg-4322 Rise of the Dragon）
+### H4/H5 — 新建 ✅ commit
+- [~] 魔女夢工場 — ~~cdg-5187~~ **不建**（＝既有 cdg-3682「魔女夢工廠」場/廠異體字同款；改**補完 cdg-3682** published＝Trush/JP/18禁養成 AVG/歡樂盒 1999 繁中，原名《魔女になりたい！》；id 5187 作廢、registry 未登）
+- [x] HiToMi～瞳～ — cdg-5188 — 新建 published（Guilty/JP/1998/AVG/**adult**，歡樂盒繁中；非 F&C 而是品牌 Guilty，日版 1997-03）
+- [x] 芭芭拉 — cdg-5189 — 新建 published（h.m.p/JP/AVG/**adult**，バーバラ三部曲，year null；≠cdg-1474 美媚夢工廠角色芭芭拉）
+- [x] 暗闇坂の家 — cdg-5190 — 新建 published（h.m.p/JP/1999/AVG/**adult** 昭和戰後推理恐怖；VNDB 明確非改編、高階良健假說否決）
+- [x] 城市獵人（北条司） — cdg-5191 — 新建 published（歡樂盒/JP/1998/AVG，北条司漫改·Sunrise 動畫特別篇為藍本，ja/packaging；title 加（北条司）消歧義、cross-link cdg-4322）
+  - 附帶：cdg-4322 title→「城市獵人（Rise of the Dragon）」消歧義、移除誤掛 G1092 別名（實屬 5191，紅旗吻合 memory samename-code-misattribution）、加反向 cross-link
+
+---
+
+**本批完成（2026-07-17）**：28 款盤點 → 10 略過、13 補完、5「新建」項落地為 **4 新建 published**（cdg-5188 HiToMi/5189 芭芭拉/5190 暗闇坂の家/5191 城市獵人北条司）＋**1 不建**（cdg-5187 魔女夢工場＝既有 cdg-3682 同款、改補完）。補完 13 款中 cdg-2722 夢幻一夜/0714 失落女神/4069 賊佳拍檔 維持 stub（查無足跡/劇情），其餘 published。H1–H5 全 commit 完畢。
+**⚠ 事故教訓**：H2 build subagent 誤跑 `git checkout` 還原並行任務正當變更（毀 H1/H3 首輪＋佇列），已重跑補回。往後 build subagent prompt 一律加「絕對禁止任何 git 寫入操作、diff 驗證由主線做」硬禁令（本批 H1/H3/H4/H5 重派均已加，未再復發）。
+待核疑點：① cdg-5191 城市獵人 developer 正式名查無（omega 單源 Digitainment 未寫死、留 null）、year 1998 單源；② cdg-5189 芭芭拉 year null（裸名對應三部曲哪作待定）；③ cdg-2722 夢幻一夜 TEMT 廠商身分查無（region null）；④ cdg-3682 魔女夢工廠 genre AVG（含養成要素，未改 LSG）。
