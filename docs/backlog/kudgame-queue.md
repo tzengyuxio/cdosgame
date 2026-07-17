@@ -692,3 +692,14 @@ Triage 結果：33 款 → 3 略過（已發佈）、17 補完（既有 stub）�
 **本批完成（2026-07-17）**：33 款盤點 → 3 略過、17 補完（既有 stub）、5 台灣廠商新建（cdg-5182~5186）、8 外文款查證落地。外文款結論：**創世紀戰1/2＋Captain Claw 不建**（查無台灣繁中/代理足跡）；**瘋狂大車拼 1-6＝智冠「名車大賽」cdg-0962~0967**（非新建，1-3 補別名·前批已補、4-6 補完 packaging/en）。E1–E6 全 commit 完畢。
 新建 5 款落地：**4 published**（cdg-5183 西風狂劍、5184 搶救貧窮大作戰、5185 綠野仙蹤、5186 封印物語）＋**1 unverified stub**（cdg-5182 寫真天蠶變 18禁 QIX 圈地益智、查無署名/年份）。補完 17 款中 cdg-2921 銀河騎士團資料極薄維持 stub、其餘皆 published。
 待核疑點彙整：① cdg-5183 西風狂劍韓方開發商公司名查無；② cdg-5182 永無止境署名/年份查無；③ cdg-0287 北極星工作室所在地查無；④ cdg-1925 生化兵器晶天軟件所在地疑 CN（保留 null，已記 game-entry-review）；⑤ cdg-2113 綜藝麻將王開發商 chiuinan 聖世德 vs Omega "7th Day"（單源未採）；⑥ cdg-5186 封印物語 developer「Kama」外文名但 region 填 TW（待證是否台灣工作室）；⑦ cdg-1821 真愛密碼2 publisher_tw 華義依系列一致性填（發行商獨立佐證待補）。
+
+---
+
+## 零星既有 stub 補完（2026-07-17，收尾）
+
+非批次的既有 `@merge` stub 補完殘留，工作區未 commit → 本輪驗證 diff 品質＋validate 全綠後收尾 commit。
+
+- [x] 失落大地 — cdg-0712 — 補完 published（白金家族(A.P.F.)/TW/1999/RPG，developer_region→TW；3D 斜角即時戰鬥；與 cdg-0713 韓作《失落的大地》同名異作，cross-link）
+- [x] 禁忌 — cdg-1861 — 補完 published（Apple Pie/JP・新潮館代理/1995/LSG/**adult**；系列首作，續作《禁忌2》舞台改醫院）
+- [x] 戰虎之沙漠行動 — cdg-4047 — 補完 published（Taff System/KR・歡樂盒/1995/SIM；K-1 Tank，據載首款外銷台灣的韓國電腦遊戲）
+- [!] 賊佳拍檔 — cdg-4069 — 部分補完維持 stub（歡樂盒/1996/AVG；developer/原作/劇情查無，published:false）
