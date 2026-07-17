@@ -47761,6 +47761,42 @@
       ],
       "status": "active",
       "title_zh": "戰鬥神將3：俄羅斯戰線"
+    },
+    "cdg-5208": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:戰鬥神將4：突出部之役|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥神將4：突出部之役"
+    },
+    "cdg-5209": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:戰鬥神將5：諾曼第登陸|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥神將5：諾曼第登陸"
+    },
+    "cdg-5210": {
+      "catalog_id": null,
+      "developer": "Ensemble Studios",
+      "keys": [
+        "t:羅馬霸主|Ensemble Studios"
+      ],
+      "status": "active",
+      "title_zh": "羅馬霸主"
+    },
+    "cdg-5211": {
+      "catalog_id": null,
+      "developer": "Ensemble Studios",
+      "keys": [
+        "t:征服者入侵|Ensemble Studios"
+      ],
+      "status": "active",
+      "title_zh": "征服者入侵"
     }
   }
 }
