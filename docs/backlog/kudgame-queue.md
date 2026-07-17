@@ -963,11 +963,11 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 - [~] 幻世錄 — cdg-0564（奧汀）｜ 大富翁世界之旅 — cdg-0375（宇峻）｜ 新絕代雙驕 — cdg-2345（宇峻）｜ 幻想三國誌 — cdg-0567（宇峻奧汀，鳳凰誓資料片併此正文）
 
 ### 補完（既有 stub [ ]，pub=false）
-- [ ] 新三國演義99 — cdg-2314（業訊）
-- [ ] 橫掃千軍2：改朝換代 — cdg-3232（Cavedog，＝清單「橫掃千軍之改朝換代」）
-- [ ] 文明帝國：權傾天下1 — cdg-2309（Activision，Civilization: Call to Power）
-- [ ] 魔法門7：血統與榮耀 — cdg-3732（New World Computing）
-- [ ] 魔法門之英雄無敵3 — cdg-3739（New World Computing）
+- [x] 新三國演義99 — cdg-2314（業訊/TW/1999/native SLG；單源薄條目、developer 維持「業訊」不臆測全名）
+- [x] 橫掃千軍2：改朝換代 — cdg-3232（Total Annihilation: Kingdoms/Cavedog/US；**genre SLG→RTS**、GT 進口英文版 foreign·en、前作連 cdg-3231（非 cdg-3230 撞名款））
+- [x] 文明帝國：權傾天下 — cdg-2309（Civ: Call to Power/Activision/US/第三波 localized；**genre LSG→SLG**、**去序號「權傾天下1」→alias**＋registry 同步、商標角力考據、連二代 cdg-2310）
+- [x] 魔法門7：血統與榮耀 — cdg-3732（Might and Magic VII/NWC·3DO/US；RPG localized、series 補「魔法門」、publisher_tw 歐樂（**chiuinan 未載、PTT 回憶佐證偏弱、記 review**））
+- [x] 魔法門之英雄無敵3 — cdg-3739（HoMM3/NWC·3DO/US；SLG localized、series 補「英雄無敵」、publisher_tw 只留歐樂（chiuinan 明載歐樂影視繁中、上海育碧＝簡中移除）、連前作 cdg-3737/3738）
 - [ ] 時空英豪 — cdg-2449（Appeal，Outcast）
 - [ ] 蒼穹守護者 — cdg-3468（光譜，Sky Land）
 - [ ] 聖魔戰記：艾拉降臨 — cdg-2542（IDEA Factory，協和多媒體）
@@ -981,6 +981,6 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 - [ ] 稱霸四海 — cdg-5218（Corsairs，協和多媒體）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
-- [ ] L1 補完·三國/戰略：cdg-2314、cdg-3232、cdg-2309、cdg-3732、cdg-3739
+- [x] L1 補完·三國/戰略：cdg-2314、cdg-3232、cdg-2309、cdg-3732、cdg-3739 ✅（5 款皆 published；genre 訂正 3232 RTS/2309 SLG；2309 去序號＋registry 同步；publisher 分歧：英雄無敵3 歐樂確證、魔法門7 歐樂偏弱待核）
 - [ ] L2 補完·外文代理：cdg-2449、cdg-3468、cdg-2542、cdg-2468、cdg-0761
 - [ ] L3 新建 4 款：cdg-5215、cdg-5216、cdg-5217、cdg-5218
