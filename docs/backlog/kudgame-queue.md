@@ -844,20 +844,20 @@ Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>
 
 ### 補完（既有 stub [ ]，pub=false）
 **3DO 玩具奇兵（3 款）**
-- [ ] 玩具奇兵：世界大戰 — cdg-3554（Army Men: World War）
-- [ ] 玩具奇兵：空中霸主 — cdg-3559（Army Men: Air Tactics）
-- [ ] 玩具奇兵2 — cdg-3556（Army Men 2）
+- [x] 玩具奇兵：世界大戰 — cdg-3554（Army Men: World War，RTS foreign·en published）
+- [x] 玩具奇兵：空中霸主 — cdg-3559（Army Men: Air Tactics，RTS foreign·en published）
+- [x] 玩具奇兵2 — cdg-3556（Army Men 2，ACT foreign·en published）
 **微軟 MechWarrior（2 款）**
-- [ ] 機甲爭霸戰2 — cdg-3224（MechWarrior 2, 1995）
-- [ ] 機甲爭霸戰4：復仇者 — cdg-3226（MechWarrior 4: Vengeance, 2000）
+- [x] 機甲爭霸戰2 — cdg-3224（MechWarrior 2, 1995，SIM foreign·en published）
+- [x] 機甲爭霸戰4：復仇者 — cdg-3226（MechWarrior 4, 2000，SIM localized·zh 微軟繁中·dev→FASA）
 **微軟 世紀帝國（2 款，官方繁中 localized）**
-- [ ] 世紀帝國1 — cdg-0666（Age of Empires, 1997）
-- [ ] 世紀帝國2：帝王世紀 — cdg-0667（Age of Empires II, 1999）
+- [x] 世紀帝國 — cdg-0666（Age of Empires, 1997，RTS localized·zh·dev→Ensemble·去序號）
+- [x] 世紀帝國2：帝王世紀 — cdg-0667（Age of Empires II, 1999，RTS localized·zh·dev→Ensemble）
 **微軟 模擬飛行（2 款既有）**
-- [ ] 微軟模擬飛行5 — cdg-2024（＝清單 5.0，1993）
-- [ ] 微軟模擬飛行2000 — cdg-2025（1999）
-**英特衛 自製（1 款）**
-- [ ] 武田信玄1 — cdg-0742（Magitech/英特衛自製 SLG，2001）
+- [x] 微軟模擬飛行5 — cdg-2024（＝清單 5.0，1993，SIM foreign·en）
+- [x] 微軟模擬飛行2000 — cdg-2025（1999，SIM foreign·en）
+**英特衛 自製→代理（1 款）**
+- [x] 武田信玄 — cdg-0742（Magitech 加拿大廠·英特衛代理中文化，2001，RTS localized·zh·去序號）
 **第三波/英寶格 RCT（1 款，合併補完）**
 - [ ] 模擬樂園1 — cdg-3190（RCT1；含夢幻遊樂園/模擬樂園2002 別名＋千禧新樂園資料片併正文）
 
@@ -884,8 +884,8 @@ Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>
 - [ ] 越野大車拼2 — cdg-5214（英寶格）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
-- [ ] J1 補完·玩具奇兵＋機甲：cdg-3554、cdg-3559、cdg-3556、cdg-3224、cdg-3226
-- [ ] J2 補完·世紀帝國＋模擬飛行既有＋武田信玄：cdg-0666、cdg-0667、cdg-2024、cdg-2025、cdg-0742
+- [x] J1 補完·玩具奇兵＋機甲：cdg-3554、cdg-3559、cdg-3556、cdg-3224、cdg-3226 ✅（5 款皆 published；玩具奇兵World War/Air Tactics=RTS·機甲2=SIM foreign·en chiuinan足跡發佈；玩具奇兵2=ACT；**機甲4復仇者 localized·zh**微軟繁中·dev Microsoft→FASA Interactive；genre 全訂正 SLG→RTS/ACT/SIM）
+- [x] J2 補完·世紀帝國＋模擬飛行既有＋武田信玄：cdg-0666、cdg-0667、cdg-2024、cdg-2025、cdg-0742 ✅（5 款皆 published；世紀帝國1/2 localized·zh官方繁中·**genre SLG→RTS**·dev→Ensemble Studios·初代去序號；模擬飛行5/2000 foreign·en·LSG→SIM；**武田信玄=Magitech 加拿大廠**（推翻台灣自製假設）·英特衛代理中文化·RTS·初代去序號·developer_region CA）
 - [ ] J3 補完 RCT＋新建模擬飛行 A：cdg-3190、cdg-5199、cdg-5200、cdg-5201、cdg-5202
 - [ ] J4 新建·模擬飛行 B＋Close Combat A：cdg-5203、cdg-5204、cdg-5205、cdg-5206、cdg-5207
 - [ ] J5 新建·Close Combat B＋世紀帝國資料片：cdg-5208、cdg-5209、cdg-5210、cdg-5211
