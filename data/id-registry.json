@@ -4373,7 +4373,7 @@
     },
     "cdg-0474": {
       "catalog_id": "SCD2613",
-      "developer": "歡樂盒",
+      "developer": null,
       "keys": [
         "cat:SCD2613"
       ],
@@ -5011,7 +5011,7 @@
     },
     "cdg-0544": {
       "catalog_id": "SCD0653",
-      "developer": "歡樂盒",
+      "developer": null,
       "keys": [
         "cat:SCD0653"
       ],
@@ -6739,7 +6739,7 @@
     },
     "cdg-0732": {
       "catalog_id": "SCD2730",
-      "developer": "歡樂盒",
+      "developer": null,
       "keys": [
         "cat:SCD2730"
       ],
@@ -37992,7 +37992,7 @@
     },
     "cdg-4143": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "歡樂盒",
       "keys": [
         "t:三國列傳|None"
       ],
@@ -39653,7 +39653,7 @@
     },
     "cdg-4325": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "歡樂盒",
       "keys": [
         "t:武狀元蘇乞兒|None"
       ],
