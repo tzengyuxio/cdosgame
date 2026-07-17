@@ -35440,7 +35440,7 @@
         "t:毀天滅地|None"
       ],
       "status": "active",
-      "title_zh": "毀天滅地"
+      "title_zh": "毀天滅地（Targhan）"
     },
     "cdg-3866": {
       "catalog_id": null,
@@ -47617,6 +47617,69 @@
       ],
       "status": "active",
       "title_zh": "城市獵人（北条司）"
+    },
+    "cdg-5192": {
+      "catalog_id": null,
+      "developer": "龍愛",
+      "keys": [
+        "t:秘寶奇兵|龍愛"
+      ],
+      "status": "active",
+      "title_zh": "秘寶奇兵"
+    },
+    "cdg-5193": {
+      "catalog_id": null,
+      "developer": "龍愛",
+      "keys": [
+        "t:卡哇伊大作戰|龍愛"
+      ],
+      "status": "active",
+      "title_zh": "卡哇伊大作戰"
+    },
+    "cdg-5194": {
+      "catalog_id": null,
+      "developer": "天堂鳥",
+      "keys": [
+        "t:毀天滅地（天堂鳥）|天堂鳥"
+      ],
+      "status": "active",
+      "title_zh": "毀天滅地（天堂鳥）"
+    },
+    "cdg-5195": {
+      "catalog_id": null,
+      "developer": "天堂鳥",
+      "keys": [
+        "t:星球X計畫|天堂鳥"
+      ],
+      "status": "active",
+      "title_zh": "星球X計畫"
+    },
+    "cdg-5196": {
+      "catalog_id": null,
+      "developer": "Falcom",
+      "keys": [
+        "t:四國志|Falcom"
+      ],
+      "status": "active",
+      "title_zh": "四國志"
+    },
+    "cdg-5197": {
+      "catalog_id": null,
+      "developer": "天堂鳥",
+      "keys": [
+        "t:大地之劍|天堂鳥"
+      ],
+      "status": "active",
+      "title_zh": "大地之劍"
+    },
+    "cdg-5198": {
+      "catalog_id": null,
+      "developer": "FAMILY SOFT",
+      "keys": [
+        "t:妖魔獵人|FAMILY SOFT"
+      ],
+      "status": "active",
+      "title_zh": "妖魔獵人"
     }
   }
 }
