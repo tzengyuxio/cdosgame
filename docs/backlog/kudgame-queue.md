@@ -821,3 +821,72 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 **本批完成（2026-07-17）**：38 款盤點 → 11 略過、20 補完（既有 stub）、7 新建（cdg-5192~5198）。**7 新建全 published**（龍愛：秘寶奇兵/卡哇伊大作戰；天堂鳥線：毀天滅地/星球X計畫/大地之劍自製、四國志/妖魔獵人為中文化）。補完 20 款全 published。I1–I6 全 commit 完畢。
 重要發現：**天堂鳥「自製作品」實為自製＋日系中文化雙線**——四國志(Falcom)/妖魔獵人(Family Soft) 為中文化 localized，毀天滅地/星球X計畫/大地之劍/炸彈超人/黑道當家為自製 native；developer 依原廠所在地填 JP/TW。天堂鳥自家編目碼 TTNxxx 一律進 release_codes。
 待核疑點彙整：① 夢幻天使 cdg-2731（略過款）清單標 18禁但條目為 published SRPG 非 adult——**本批未動已發佈條目，adult flag 查證留後續**（決策已定：查證屬實補 adult）；② 虎門奇俠 cdg-2825 清單標「秀橋發行」但採 chiuinan 天泉/外星，秀橋台灣發行實證未見；③ 學園退魔傳玲子 cdg-3366 日版年 1994 vs 1996 分歧（沿用 1996）；④ 魔法泡泡龍 cdg-1187 具名台灣代理未證（僅 chiuinan 市場足跡，published packaging/en）；⑤ 星球X計畫 cdg-5195 天堂鳥自製 vs 代理 newton 分區存疑（判自製）；⑥ 秘寶奇兵 cdg-5192 龍愛×T3 Entertainment 合作開發（developer 取龍愛主導）；⑦ 神奇兔寶貝（略過）＝cdg-4525 神氣兔寶貝，未補「神奇兔寶貝」別名。
+
+---
+
+## 微軟/英寶格/ATOMICS/3DO 外文代理批次（2026-07-17）
+
+Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>2001）、11 補完（既有 stub）、16 新建（id 鎖 cdg-5199~5214）。
+
+**決策（2026-07-17，AskUserQuestion）**：
+- **英特衛相關款全 >2001**：只補完 **武田信玄1 cdg-0742（Magitech＝英特衛自製台灣 SLG，2001）**。武田信玄2/3（2005/09）、刀劍封魔錄+外傳（中國像素軟件）、魔幻世紀2（德國 SpellForce2）**皆不處理**（維持既有 stub 現狀、不新建）。
+- **RollerCoaster Tycoon**：**合併補完 cdg-3190 一款**（別名已含夢幻遊樂園/台灣新樂園/模擬樂園2002 兩代理版）；千禧新樂園（Corkscrew Follies 資料片）併入正文、不獨立建 id。
+- **外文代理新建**：微軟模擬飛行缺 2.0/3.0/4.0/5.1/95/98、Close Combat 1–5、世紀帝國資料片羅馬霸主/征服者入侵 → **有台灣代理足跡照建（packaging/localized），查無足跡留 unverified stub**。
+- **查無 catalog 足跡三款**：鬼神之門（英寶格）、劍俠-鬼神之門2（元古科技）、越野大車拼2（英寶格）→ **build 研究後 in scope 就建 published、查無公開足跡留 unverified stub**。
+
+### 略過（已發佈 [~]）
+- [~] 微軟模擬飛行 1.0 — cdg-5002（＝模擬飛行初代 Sublogic/1982，已 published）
+
+### 不處理（英特衛 >2001，維持既有 stub 不動）
+- 武田信玄2 — cdg-0743（Magitech/2005）｜ 武田信玄3 — cdg-0744（Magitech/2009）
+- 刀劍封魔錄 — cdg-2937（像素軟件/CN/2002）｜ 刀劍封魔錄外傳：上古傳說 — cdg-2938（2003）
+- 魔幻世紀2（SpellForce2/Phenomic/DE/2006）→ 不新建（既有 cdg-3688 魔幻世紀1 亦不動）
+
+### 補完（既有 stub [ ]，pub=false）
+**3DO 玩具奇兵（3 款）**
+- [ ] 玩具奇兵：世界大戰 — cdg-3554（Army Men: World War）
+- [ ] 玩具奇兵：空中霸主 — cdg-3559（Army Men: Air Tactics）
+- [ ] 玩具奇兵2 — cdg-3556（Army Men 2）
+**微軟 MechWarrior（2 款）**
+- [ ] 機甲爭霸戰2 — cdg-3224（MechWarrior 2, 1995）
+- [ ] 機甲爭霸戰4：復仇者 — cdg-3226（MechWarrior 4: Vengeance, 2000）
+**微軟 世紀帝國（2 款，官方繁中 localized）**
+- [ ] 世紀帝國1 — cdg-0666（Age of Empires, 1997）
+- [ ] 世紀帝國2：帝王世紀 — cdg-0667（Age of Empires II, 1999）
+**微軟 模擬飛行（2 款既有）**
+- [ ] 微軟模擬飛行5 — cdg-2024（＝清單 5.0，1993）
+- [ ] 微軟模擬飛行2000 — cdg-2025（1999）
+**英特衛 自製（1 款）**
+- [ ] 武田信玄1 — cdg-0742（Magitech/英特衛自製 SLG，2001）
+**第三波/英寶格 RCT（1 款，合併補完）**
+- [ ] 模擬樂園1 — cdg-3190（RCT1；含夢幻遊樂園/模擬樂園2002 別名＋千禧新樂園資料片併正文）
+
+### 新建（[ ]，id 鎖 cdg-5199~5214）
+**微軟模擬飛行缺版（6 款，Flight Simulator）**
+- [ ] 微軟模擬飛行 2.0 — cdg-5199（FS 2.0, 1984）
+- [ ] 微軟模擬飛行 3.0 — cdg-5200（FS 3.0, 1988）
+- [ ] 微軟模擬飛行 4.0 — cdg-5201（FS 4.0, 1989）
+- [ ] 微軟模擬飛行 5.1 — cdg-5202（FS 5.1, 1995）
+- [ ] 微軟模擬飛行 95 — cdg-5203（FS 95, 1996）
+- [ ] 微軟模擬飛行 98 — cdg-5204（FS 98, 1997）
+**ATOMICS 戰鬥神將 Close Combat（5 款，Atomic Games）**
+- [ ] 戰鬥神將 — cdg-5205（Close Combat, 1996）
+- [ ] 戰鬥神將2 — cdg-5206（Close Combat II: A Bridge Too Far, 1997）
+- [ ] 戰鬥神將3 — cdg-5207（Close Combat III: The Russian Front, 1998）
+- [ ] 戰鬥神將4：突出部之役 — cdg-5208（Close Combat IV: The Battle of the Bulge, 1999）
+- [ ] 戰鬥神將5：諾曼第登陸 — cdg-5209（Close Combat V: Invasion Normandy, 2000）
+**微軟 世紀帝國資料片（2 款）**
+- [ ] 羅馬霸主 — cdg-5210（Age of Empires: The Rise of Rome, 1998，本體 cdg-0666 資料片）
+- [ ] 征服者入侵 — cdg-5211（Age of Empires II: The Conquerors, 2000，本體 cdg-0667 資料片）
+**查無 catalog 足跡（3 款，研究後定位）**
+- [ ] 鬼神之門 — cdg-5212（英寶格）
+- [ ] 劍俠－鬼神之門2 — cdg-5213（元古科技）
+- [ ] 越野大車拼2 — cdg-5214（英寶格）
+
+### 批次規劃（每批 build 完 commit＋更新狀態）
+- [ ] J1 補完·玩具奇兵＋機甲：cdg-3554、cdg-3559、cdg-3556、cdg-3224、cdg-3226
+- [ ] J2 補完·世紀帝國＋模擬飛行既有＋武田信玄：cdg-0666、cdg-0667、cdg-2024、cdg-2025、cdg-0742
+- [ ] J3 補完 RCT＋新建模擬飛行 A：cdg-3190、cdg-5199、cdg-5200、cdg-5201、cdg-5202
+- [ ] J4 新建·模擬飛行 B＋Close Combat A：cdg-5203、cdg-5204、cdg-5205、cdg-5206、cdg-5207
+- [ ] J5 新建·Close Combat B＋世紀帝國資料片：cdg-5208、cdg-5209、cdg-5210、cdg-5211
+- [ ] J6 新建·查無足跡三款（研究）：cdg-5212 鬼神之門、cdg-5213 劍俠-鬼神之門2、cdg-5214 越野大車拼2
