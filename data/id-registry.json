@@ -6139,16 +6139,16 @@
     },
     "cdg-0666": {
       "catalog_id": "SCD0900",
-      "developer": "Microsoft",
+      "developer": "Ensemble Studios",
       "keys": [
         "cat:SCD0900"
       ],
       "status": "active",
-      "title_zh": "世紀帝國1"
+      "title_zh": "世紀帝國"
     },
     "cdg-0667": {
       "catalog_id": "SCD0901",
-      "developer": "Microsoft",
+      "developer": "Ensemble Studios",
       "keys": [
         "cat:SCD0901"
       ],
@@ -6834,7 +6834,7 @@
         "cat:SCD2220"
       ],
       "status": "active",
-      "title_zh": "武田信玄1"
+      "title_zh": "武田信玄"
     },
     "cdg-0743": {
       "catalog_id": "SCD2221",
@@ -29606,7 +29606,7 @@
     },
     "cdg-3226": {
       "catalog_id": "OCD0119",
-      "developer": "Microsoft",
+      "developer": "FASA Interactive",
       "keys": [
         "cat:OCD0119"
       ],
