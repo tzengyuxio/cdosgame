@@ -47797,6 +47797,33 @@
       ],
       "status": "active",
       "title_zh": "征服者入侵"
+    },
+    "cdg-5212": {
+      "catalog_id": null,
+      "developer": "北京娛動工場",
+      "keys": [
+        "t:鬼神之門|北京娛動工場"
+      ],
+      "status": "active",
+      "title_zh": "鬼神之門"
+    },
+    "cdg-5213": {
+      "catalog_id": null,
+      "developer": "北京娛動工場",
+      "keys": [
+        "t:鬼神之門2：天涯何處|北京娛動工場"
+      ],
+      "status": "active",
+      "title_zh": "鬼神之門2：天涯何處"
+    },
+    "cdg-5214": {
+      "catalog_id": null,
+      "developer": "Pitbull Syndicate",
+      "keys": [
+        "t:越野大車拼2|Pitbull Syndicate"
+      ],
+      "status": "active",
+      "title_zh": "越野大車拼2"
     }
   }
 }
