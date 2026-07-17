@@ -1747,7 +1747,7 @@
     },
     "cdg-0186": {
       "catalog_id": "SCD0555",
-      "developer": "新潮館",
+      "developer": "Apple Pie",
       "keys": [
         "cat:SCD0555"
       ],
@@ -12804,7 +12804,7 @@
     },
     "cdg-1390": {
       "catalog_id": "SCD0471",
-      "developer": "龍愛科技",
+      "developer": "龍愛",
       "keys": [
         "cat:SCD0471"
       ],
@@ -29047,12 +29047,12 @@
     },
     "cdg-3165": {
       "catalog_id": "SCD2163",
-      "developer": "IG",
+      "developer": "Intelligent Games",
       "keys": [
         "cat:SCD2163"
       ],
       "status": "active",
-      "title_zh": "樂高鐵路大亨／"
+      "title_zh": "樂高鐵路大亨"
     },
     "cdg-3166": {
       "catalog_id": "SCD1166",
