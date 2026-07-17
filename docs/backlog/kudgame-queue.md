@@ -859,7 +859,7 @@ Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>
 **英特衛 自製→代理（1 款）**
 - [x] 武田信玄 — cdg-0742（Magitech 加拿大廠·英特衛代理中文化，2001，RTS localized·zh·去序號）
 **第三波/英寶格 RCT（1 款，合併補完）**
-- [ ] 模擬樂園1 — cdg-3190（RCT1；含夢幻遊樂園/模擬樂園2002 別名＋千禧新樂園資料片併正文）
+- [x] 模擬樂園1 — cdg-3190（RCT1；去序號「模擬樂園」、genre→CBG、region GB、光譜代理；千禧新樂園資料片併正文）✅
 
 ### 新建（[ ]，id 鎖 cdg-5199~5214）
 **微軟模擬飛行缺版（6 款，Flight Simulator）**
@@ -886,7 +886,7 @@ Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] J1 補完·玩具奇兵＋機甲：cdg-3554、cdg-3559、cdg-3556、cdg-3224、cdg-3226 ✅（5 款皆 published；玩具奇兵World War/Air Tactics=RTS·機甲2=SIM foreign·en chiuinan足跡發佈；玩具奇兵2=ACT；**機甲4復仇者 localized·zh**微軟繁中·dev Microsoft→FASA Interactive；genre 全訂正 SLG→RTS/ACT/SIM）
 - [x] J2 補完·世紀帝國＋模擬飛行既有＋武田信玄：cdg-0666、cdg-0667、cdg-2024、cdg-2025、cdg-0742 ✅（5 款皆 published；世紀帝國1/2 localized·zh官方繁中·**genre SLG→RTS**·dev→Ensemble Studios·初代去序號；模擬飛行5/2000 foreign·en·LSG→SIM；**武田信玄=Magitech 加拿大廠**（推翻台灣自製假設）·英特衛代理中文化·RTS·初代去序號·developer_region CA）
-- [ ] J3 補完 RCT＋新建模擬飛行 A：cdg-3190、cdg-5199、cdg-5200、cdg-5201、cdg-5202
+- [x] J3 補完 RCT＋新建模擬飛行 A：cdg-3190、cdg-5199、cdg-5200、cdg-5201、cdg-5202 ✅（cdg-3190 模擬樂園補完 published：去序號「模擬樂園1」入 alias、**genre LSG→CBG**（主題樂園建造經營）、**region GB**、publisher_tw 光譜維持（chiuinan 明載光譜中文化代理，推翻 triage 疑英寶格/第三波）、千禧新樂園/Corkscrew Follies/Loopy Landscapes 資料片併正文不獨立建；**cdg-5199~5202 模擬飛行 2.0/3.0/4.0/5.1 四款查證全無台灣代理/繁中/包裝足跡 → unverified stub published:false**、foreign·en·SIM·DOS、developer 依史實分段（2.0 Sublogic／3.0·4.0 Bruce Artwick Organization／5.1 Microsoft）、全系列 cross-link）
 - [ ] J4 新建·模擬飛行 B＋Close Combat A：cdg-5203、cdg-5204、cdg-5205、cdg-5206、cdg-5207
 - [ ] J5 新建·Close Combat B＋世紀帝國資料片：cdg-5208、cdg-5209、cdg-5210、cdg-5211
 - [ ] J6 新建·查無足跡三款（研究）：cdg-5212 鬼神之門、cdg-5213 劍俠-鬼神之門2、cdg-5214 越野大車拼2
