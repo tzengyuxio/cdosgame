@@ -800,18 +800,24 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 - [x] 武俠英雄傳－虎門風雲／虎門奇俠 — cdg-2825（虎門奇俠，斯普軟件，秀橋，禁煙風雲視窗重製版，cross-link cdg-1635）
 
 ### 新建（[ ]，id 鎖 cdg-5192~5198）
-- [ ] 秘寶奇兵 — cdg-5192 — 龍愛科技（查無 catalog）
-- [ ] 卡哇伊大作戰 — cdg-5193 — 龍愛科技（查無 catalog；≠cdg-5099 卡哇伊小貓咪）
-- [ ] 毀天滅地 — cdg-5194 — 天堂鳥（≠cdg-3865 Silmarils 同名，標題消歧義）
-- [ ] 星球Ｘ計畫 — cdg-5195 — 天堂鳥
-- [ ] 四國志（四國誌） — cdg-5196 — 天堂鳥
-- [ ] 大地之劍 — cdg-5197 — 天堂鳥
-- [ ] 妖魔獵人 — cdg-5198 — 天堂鳥
+- [x] 秘寶奇兵 — cdg-5192 — 龍愛科技（查無 catalog）
+- [x] 卡哇伊大作戰 — cdg-5193 — 龍愛科技（查無 catalog；≠cdg-5099 卡哇伊小貓咪）
+- [x] 毀天滅地 — cdg-5194 — 天堂鳥（≠cdg-3865 Silmarils 同名，標題消歧義）
+- [x] 星球Ｘ計畫 — cdg-5195 — 天堂鳥
+- [x] 四國志（四國誌） — cdg-5196 — 天堂鳥
+- [x] 大地之劍 — cdg-5197 — 天堂鳥
+- [x] 妖魔獵人 — cdg-5198 — 天堂鳥
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] I1 龍愛麻將/三國/霹靂：cdg-1989、cdg-1990、cdg-0248、cdg-0249、cdg-2715 ✅（5 款皆 published；麻將夢幻國/三國英豪去序號＋registry 同步；三國英豪 genre ACT→ARPG、續作維持 ACT；霹靂酷樂貓改編橫內尚樹漫畫サイボーグクロちゃん official；developer 統一「龍愛」對齊 cdg-4525。⚠公司頁 /companies/龍愛 未建＝既有課題）
 - [x] I2 勇者泡泡龍系列 A：cdg-1385、cdg-1386、cdg-1387、cdg-1388、cdg-2040 ✅（5 款皆 published；泡泡龍 Bubble Bobble 式 ACT 確認保留、series 勇者泡泡龍補值互連、region→TW；紅樓夢玲瓏彩玉 PZG 落物消除/智冠代理/1997）
 - [x] I3 勇者泡泡龍系列 B＋外文：cdg-1389、cdg-1390、cdg-1187、cdg-3165、cdg-0186 ✅（5 款皆 published；夢工場 LSG/大富翁 TBG；魔法泡泡龍=Taito Puzzle Bobble PZG packaging/en（⚠具名台灣代理未證、僅 chiuinan 市場足跡）；樂高鐵路大亨=LEGO Loco 協和繁中 CBG localized、title 去尾斜線＋dev IG→Intelligent Games；千變少女米娜 developer 新潮館→Apple Pie(JP) 訂正、localized adult、與 cdg-1861 禁忌同廠）
 - [x] I4 H-game＋天堂鳥補完：cdg-2124、cdg-3366、cdg-3929、cdg-4082、cdg-2825 ✅（5 款皆 published；緊縛之館 XYZ(Grandblue)/JP·偉弘代理 adult、region→JP；玲子 dev FIX→Trush/JP·鷹揚 adult；炸彈超人 天堂鳥自製 ACT(TTN243)、黑道當家 天堂鳥 SLG(TTN279、移除假別名 G1121)、dev null→天堂鳥；虎門奇俠=cdg-1635 禁煙風雲 Windows 重製、斯普軟件/CN、pub 天泉/外星、cross-link cdg-1635。⚠待核：①虎門奇俠清單標「秀橋發行」但 chiuinan 記天泉/外星，秀橋台灣發行實證未見（保守未填）；②玲子日版年 1994(PTT/erogamescape) vs 1996(chiuinan) 分歧，沿用 1996）
-- [ ] I5 新建 A：cdg-5192 秘寶奇兵、cdg-5193 卡哇伊大作戰、cdg-5194 毀天滅地、cdg-5195 星球X計畫
-- [ ] I6 新建 B：cdg-5196 四國志、cdg-5197 大地之劍、cdg-5198 妖魔獵人
+- [x] I5 新建 A：cdg-5192 秘寶奇兵、cdg-5193 卡哇伊大作戰、cdg-5194 毀天滅地、cdg-5195 星球X計畫 ✅（4 款皆 published；秘寶奇兵 龍愛/T3 Entertainment 合作 ARPG/2002、卡哇伊大作戰 龍愛 ACT/2001（泡泡龍世界觀 spin-off）；毀天滅地=天堂鳥自製紅蠍星工作室/1998/genre null（TTN242），title 消歧義「毀天滅地（天堂鳥）」＋cdg-3865 反向改「毀天滅地（Targhan）」互 cross-link；星球X計畫 天堂鳥自製 RTS/1997/en（TTN238、ADAM: 21C Moon War Story））
+- [x] I6 新建 B：cdg-5196 四國志、cdg-5197 大地之劍、cdg-5198 妖魔獵人 ✅（3 款皆 published；⚠**多為天堂鳥中文化非自製**：四國志=Falcom《Lord Monarch Pro》localized RTS/1998（TTN219）、妖魔獵人=Family Soft localized/1997/genre null（TTN229）；僅大地之劍=天堂鳥自製西塔工作室 SRPG/1998（TTN221）。developer 依原廠填 JP/TW）
+
+---
+
+**本批完成（2026-07-17）**：38 款盤點 → 11 略過、20 補完（既有 stub）、7 新建（cdg-5192~5198）。**7 新建全 published**（龍愛：秘寶奇兵/卡哇伊大作戰；天堂鳥線：毀天滅地/星球X計畫/大地之劍自製、四國志/妖魔獵人為中文化）。補完 20 款全 published。I1–I6 全 commit 完畢。
+重要發現：**天堂鳥「自製作品」實為自製＋日系中文化雙線**——四國志(Falcom)/妖魔獵人(Family Soft) 為中文化 localized，毀天滅地/星球X計畫/大地之劍/炸彈超人/黑道當家為自製 native；developer 依原廠所在地填 JP/TW。天堂鳥自家編目碼 TTNxxx 一律進 release_codes。
+待核疑點彙整：① 夢幻天使 cdg-2731（略過款）清單標 18禁但條目為 published SRPG 非 adult——**本批未動已發佈條目，adult flag 查證留後續**（決策已定：查證屬實補 adult）；② 虎門奇俠 cdg-2825 清單標「秀橋發行」但採 chiuinan 天泉/外星，秀橋台灣發行實證未見；③ 學園退魔傳玲子 cdg-3366 日版年 1994 vs 1996 分歧（沿用 1996）；④ 魔法泡泡龍 cdg-1187 具名台灣代理未證（僅 chiuinan 市場足跡，published packaging/en）；⑤ 星球X計畫 cdg-5195 天堂鳥自製 vs 代理 newton 分區存疑（判自製）；⑥ 秘寶奇兵 cdg-5192 龍愛×T3 Entertainment 合作開發（developer 取龍愛主導）；⑦ 神奇兔寶貝（略過）＝cdg-4525 神氣兔寶貝，未補「神奇兔寶貝」別名。
