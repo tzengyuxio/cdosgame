@@ -703,3 +703,47 @@ Triage 結果：33 款 → 3 略過（已發佈）、17 補完（既有 stub）�
 - [x] 禁忌 — cdg-1861 — 補完 published（Apple Pie/JP・新潮館代理/1995/LSG/**adult**；系列首作，續作《禁忌2》舞台改醫院）
 - [x] 戰虎之沙漠行動 — cdg-4047 — 補完 published（Taff System/KR・歡樂盒/1995/SIM；K-1 Tank，據載首款外銷台灣的韓國電腦遊戲）
 - [!] 賊佳拍檔 — cdg-4069 — 部分補完維持 stub（歡樂盒/1996/AVG；developer/原作/劇情查無，published:false）
+
+---
+
+## 歡樂盒/富峰群/全球歡樂批次（2026-07-17）
+
+Triage 結果：28 款 → 10 略過（已發佈）、13 補完（既有 stub）、5 新建（id 鎖 cdg-5187~5191）。三國列傳之五虎大將經 build 查證＝既有 cdg-4143 同款、不另建。
+
+**決策（2026-07-17，AskUserQuestion）**：
+- **日系成人款照收＋adult flag**（魔女夢工場/HiToMi～瞳～ 18禁，及查證後為 adult 者）：比照公主的回憶/紅樓續夢先例；查得足跡→published、查無→unverified stub。
+- **城市獵人（歡樂盒/北条司漫改）另建新 id＋標題消歧義**：≠既有 cdg-4322（Dynamix《Rise of the Dragon》軟體世界珍藏版）。
+- **三國列傳之五虎大將 build 查證再定** → 結論：＝cdg-4143「三國列傳」同款（發行商/年份/平台三對），補完併別名、不另建。
+
+**⚠ 事故（2026-07-17）**：H2 build subagent 誤把並行 H1/H3 的正當變更＋佇列編輯當成「越權檔案」，跑 `git checkout` 全數還原（harness 標 security warning）→ H1 四檔＋H3 四檔被回退成 stub、佇列 triage 段落遭刪。H2 五檔存活已 commit（a2f4db2b＋registry）。**H1/H3 需重跑**。教訓：build subagent 一律禁止任何 git 寫入操作（checkout/restore/reset/stash），diff 驗證由主線做。
+
+### 略過（已發佈 [~]）
+- [~] 戰虎 — cdg-4047（＝戰虎之沙漠行動，上批已補完）｜ 失落的大地 — cdg-0713（韓作 Jamie）｜ 同級生２ — cdg-0952（Elf/JP）
+- [~] 禁斷の血族 — cdg-1864（禁斷之血族，C's ware）｜ 時空幻境 — cdg-2444（GamaSoft/KR）｜ 新龍門客棧 — cdg-2364（歡樂盒）
+- [~] 大地雄師 — cdg-0359（Sailon）｜ 一線生機 — cdg-0145（宏申）｜ 鴉片戰爭 — cdg-1977（金盤電子）｜ 寒漠風暴 — cdg-2903（九藝/銀河英雄）
+
+### H1 — GamaSoft 系列＋日系（需重跑 ⚠）
+- [ ] 夢幻武士：龍刻之章 — cdg-2745 — 補完 published（GamaSoft/KR/2000/SRPG，XenoAge 系列，連 cdg-2444/0629）※重跑
+- [ ] 永恆之星 — cdg-0629 — 補完 published（GamaSoft/KR/2002/SRPG，XenoAge Plus，publisher 歡樂盒＋全球歡樂）※重跑
+- [ ] 夢幻一夜 — cdg-2722 — TEMT/AVG/**adult**，region null；chiuinan 18禁確立→維持 stub published:false ※重跑
+- [ ] 失落的女神－鑽石の章 — cdg-0714 — Min Communication/LSG/2000，region null→維持 stub published:false ※重跑
+
+### H2 — 歡樂盒歷史/武俠 ✅ commit a2f4db2b / registry
+- [x] 一代女皇武則天 — cdg-0732 — 補完 published（歡樂盒發行後宮養成 LSG，developer→null 訂正、publisher_tw 歡樂盒；別名「一代女皇武則天」）
+- [x] 少林十八銅人 — cdg-0544 — 補完 published（歡樂盒/2000/SRPG 少林武術戰棋，developer→null、publisher_tw 歡樂盒）
+- [x] 天神之子：阿土 — cdg-0474 — 補完 published（歡樂盒/2000/ACT，developer→null；無改編來源查證、與 cdg-4344 神指阿土巴 區隔）
+- [x] 武狀元蘇乞兒 — cdg-4325 — 補完 published（歡樂盒/TW/1999/SRPG，改編 1992 周星馳同名電影，全 null stub→補齊）
+- [x] 三國列傳（＝三國列傳之五虎大將） — cdg-4143 — 補完 published（歡樂盒自製/TW/1997/DOS/RTS 蜀漢五虎將戰役；併入三國志之五虎大將等別名，確認同款不另建）
+
+### H3 — 既有補完收尾（需重跑 ⚠）
+- [ ] 三國演義之赤壁 — cdg-3360 — 前導軟件/CN/1997/SLG（已含別名，歡樂盒代理）※重跑
+- [ ] 惑星戰將 — cdg-1768 — 鑫盛/SLG/1998 ※重跑
+- [ ] 魔導物語 — cdg-3686 — Compile/JP/1996（genre 疑 SRPG→RPG 待訂正）※重跑
+- [ ] 賊佳拍檔 — cdg-4069 — 上批查無足跡 stub，本批複查 ※重跑
+
+### H4/H5 — 新建（id 鎖 cdg-5187~5191）
+- [ ] 魔女夢工場 — cdg-5187 — 新建（歡樂盒 18禁 H-game，日系，adult）
+- [ ] HiToMi～瞳～ — cdg-5188 — 新建（歡樂盒 18禁 H-game，日系，adult）
+- [ ] 芭芭拉 — cdg-5189 — 新建（歡樂盒，疑日系 galge）
+- [ ] 暗闇坂の家 — cdg-5190 — 新建（歡樂盒，疑日系 AVG/恐怖）
+- [ ] 城市獵人（歡樂盒·北条司） — cdg-5191 — 新建（消歧義 ≠ cdg-4322 Rise of the Dragon）
