@@ -47581,6 +47581,42 @@
       ],
       "status": "active",
       "title_zh": "封印物語"
+    },
+    "cdg-5188": {
+      "catalog_id": null,
+      "developer": "Guilty",
+      "keys": [
+        "t:HiToMi～瞳～|Guilty"
+      ],
+      "status": "active",
+      "title_zh": "HiToMi～瞳～"
+    },
+    "cdg-5189": {
+      "catalog_id": null,
+      "developer": "h.m.p",
+      "keys": [
+        "t:芭芭拉|h.m.p"
+      ],
+      "status": "active",
+      "title_zh": "芭芭拉"
+    },
+    "cdg-5190": {
+      "catalog_id": null,
+      "developer": "h.m.p",
+      "keys": [
+        "t:暗闇坂の家|h.m.p"
+      ],
+      "status": "active",
+      "title_zh": "暗闇坂の家"
+    },
+    "cdg-5191": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:城市獵人（北条司）|None"
+      ],
+      "status": "active",
+      "title_zh": "城市獵人（北条司）"
     }
   }
 }
