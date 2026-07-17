@@ -791,13 +791,13 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 - [x] LEGO 鐵路大亨 LEGO LOCO — cdg-3165（樂高鐵路大亨，IG）
 **H-game 既有 stub（3 款，adult）**
 - [x] 千變少女米娜 — cdg-0186（新潮館，adult）
-- [ ] 緊縛の館 — cdg-2124（緊縛之館，XYZ，偉弘代理，adult）
-- [ ] 學園退魔傳－玲子 — cdg-3366（FIX，鷹揚，adult）
+- [x] 緊縛の館 — cdg-2124（緊縛之館，XYZ，偉弘代理，adult）
+- [x] 學園退魔傳－玲子 — cdg-3366（FIX，鷹揚，adult）
 **天堂鳥（2 款，developer null→天堂鳥）**
-- [ ] 炸彈超人 — cdg-3929（developer null）
-- [ ] 黑道當家 — cdg-4082（developer null）
+- [x] 炸彈超人 — cdg-3929（developer null）
+- [x] 黑道當家 — cdg-4082（developer null）
 **秀橋（1 款）**
-- [ ] 武俠英雄傳－虎門風雲／虎門奇俠 — cdg-2825（虎門奇俠，斯普軟件，秀橋，禁煙風雲視窗重製版，cross-link cdg-1635）
+- [x] 武俠英雄傳－虎門風雲／虎門奇俠 — cdg-2825（虎門奇俠，斯普軟件，秀橋，禁煙風雲視窗重製版，cross-link cdg-1635）
 
 ### 新建（[ ]，id 鎖 cdg-5192~5198）
 - [ ] 秘寶奇兵 — cdg-5192 — 龍愛科技（查無 catalog）
@@ -812,6 +812,6 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 - [x] I1 龍愛麻將/三國/霹靂：cdg-1989、cdg-1990、cdg-0248、cdg-0249、cdg-2715 ✅（5 款皆 published；麻將夢幻國/三國英豪去序號＋registry 同步；三國英豪 genre ACT→ARPG、續作維持 ACT；霹靂酷樂貓改編橫內尚樹漫畫サイボーグクロちゃん official；developer 統一「龍愛」對齊 cdg-4525。⚠公司頁 /companies/龍愛 未建＝既有課題）
 - [x] I2 勇者泡泡龍系列 A：cdg-1385、cdg-1386、cdg-1387、cdg-1388、cdg-2040 ✅（5 款皆 published；泡泡龍 Bubble Bobble 式 ACT 確認保留、series 勇者泡泡龍補值互連、region→TW；紅樓夢玲瓏彩玉 PZG 落物消除/智冠代理/1997）
 - [x] I3 勇者泡泡龍系列 B＋外文：cdg-1389、cdg-1390、cdg-1187、cdg-3165、cdg-0186 ✅（5 款皆 published；夢工場 LSG/大富翁 TBG；魔法泡泡龍=Taito Puzzle Bobble PZG packaging/en（⚠具名台灣代理未證、僅 chiuinan 市場足跡）；樂高鐵路大亨=LEGO Loco 協和繁中 CBG localized、title 去尾斜線＋dev IG→Intelligent Games；千變少女米娜 developer 新潮館→Apple Pie(JP) 訂正、localized adult、與 cdg-1861 禁忌同廠）
-- [ ] I4 H-game＋天堂鳥補完：cdg-2124、cdg-3366、cdg-3929、cdg-4082、cdg-2825
+- [x] I4 H-game＋天堂鳥補完：cdg-2124、cdg-3366、cdg-3929、cdg-4082、cdg-2825 ✅（5 款皆 published；緊縛之館 XYZ(Grandblue)/JP·偉弘代理 adult、region→JP；玲子 dev FIX→Trush/JP·鷹揚 adult；炸彈超人 天堂鳥自製 ACT(TTN243)、黑道當家 天堂鳥 SLG(TTN279、移除假別名 G1121)、dev null→天堂鳥；虎門奇俠=cdg-1635 禁煙風雲 Windows 重製、斯普軟件/CN、pub 天泉/外星、cross-link cdg-1635。⚠待核：①虎門奇俠清單標「秀橋發行」但 chiuinan 記天泉/外星，秀橋台灣發行實證未見（保守未填）；②玲子日版年 1994(PTT/erogamescape) vs 1996(chiuinan) 分歧，沿用 1996）
 - [ ] I5 新建 A：cdg-5192 秘寶奇兵、cdg-5193 卡哇伊大作戰、cdg-5194 毀天滅地、cdg-5195 星球X計畫
 - [ ] I6 新建 B：cdg-5196 四國志、cdg-5197 大地之劍、cdg-5198 妖魔獵人
