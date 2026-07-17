@@ -946,3 +946,41 @@ Triage 結果：10 款清單全在庫、皆在收錄範圍（光榮經典·第�
 補充（2026-07-18 使用者裁決）：**光榮三國志系列（cdg-0210~0222 本傳＋風雲再起 cdg-0209）與信長之野望系列（cdg-1637~1650，14 款）genre 統一 HSG**，含 >2002 現代作 stub。**例外：三國志Battlefield cdg-0223＝RTS**（即時對戰，依 taxonomy「即時操作一律 RTS」，使用者拍板）；風雲再起 cdg-0209 為 HSG。
 
 > 殘留待核（非本輪 scope）：皇室血裔初代台灣名「魔法皇冠」與二代「皇室血裔2」命名體系不成對（KOEI 台灣未當系列賣，series 留 null）。
+
+---
+
+## 宇峻奧汀/魔法門/協和多媒體批次（2026-07-18）
+
+Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub）、4 新建（id 鎖 cdg-5215~5218）**；另 1 資料片併正文。
+
+**決策（2026-07-18，AskUserQuestion）**：
+- **已發佈 4 款略過**：幻世錄 cdg-0564、大富翁世界之旅 cdg-0375、新絕代雙驕 cdg-2345、幻想三國誌 cdg-0567。
+- **鳳凰誓＝幻想三國誌 cdg-0567 資料片 → 併入正文**（不獨立建 id；cdg-0567 正文已載，build 時確認一句即可）。
+- **非常天才（正先，發售存疑）→ build 研究後定**：有公開足跡就建（release_status 標存疑），查無留 unverified stub。
+- 新建外文代理款（重返克朗多/稱霸四海/美夢成真）：有台灣代理足跡建 published，查無留 unverified stub（既定規則）。
+
+### 略過（已發佈 [~]）
+- [~] 幻世錄 — cdg-0564（奧汀）｜ 大富翁世界之旅 — cdg-0375（宇峻）｜ 新絕代雙驕 — cdg-2345（宇峻）｜ 幻想三國誌 — cdg-0567（宇峻奧汀，鳳凰誓資料片併此正文）
+
+### 補完（既有 stub [ ]，pub=false）
+- [ ] 新三國演義99 — cdg-2314（業訊）
+- [ ] 橫掃千軍2：改朝換代 — cdg-3232（Cavedog，＝清單「橫掃千軍之改朝換代」）
+- [ ] 文明帝國：權傾天下1 — cdg-2309（Activision，Civilization: Call to Power）
+- [ ] 魔法門7：血統與榮耀 — cdg-3732（New World Computing）
+- [ ] 魔法門之英雄無敵3 — cdg-3739（New World Computing）
+- [ ] 時空英豪 — cdg-2449（Appeal，Outcast）
+- [ ] 蒼穹守護者 — cdg-3468（光譜，Sky Land）
+- [ ] 聖魔戰記：艾拉降臨 — cdg-2542（IDEA Factory，協和多媒體）
+- [ ] 暗黑秘石 — cdg-2468（Delphine，Dark Stone，協和多媒體）
+- [ ] 地城守護者2 — cdg-0761（Bullfrog）
+
+### 新建（[ ]，id 鎖 cdg-5215~5218）
+- [ ] 美夢成真 — cdg-5215（業訊/Nihon Create，My Dream: On Air ga Matenakute）
+- [ ] 重返克朗多 — cdg-5216（Return to Krondor，第三波；≠ cdg-3886 叛變克朗多/Betrayal）
+- [ ] 非常天才 — cdg-5217（正先，發售存疑，build 研究後定）
+- [ ] 稱霸四海 — cdg-5218（Corsairs，協和多媒體）
+
+### 批次規劃（每批 build 完 commit＋更新狀態）
+- [ ] L1 補完·三國/戰略：cdg-2314、cdg-3232、cdg-2309、cdg-3732、cdg-3739
+- [ ] L2 補完·外文代理：cdg-2449、cdg-3468、cdg-2542、cdg-2468、cdg-0761
+- [ ] L3 新建 4 款：cdg-5215、cdg-5216、cdg-5217、cdg-5218
