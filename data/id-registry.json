@@ -47680,6 +47680,42 @@
       ],
       "status": "active",
       "title_zh": "妖魔獵人"
+    },
+    "cdg-5199": {
+      "catalog_id": null,
+      "developer": "Sublogic",
+      "keys": [
+        "t:微軟模擬飛行 2.0|Sublogic"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 2.0"
+    },
+    "cdg-5200": {
+      "catalog_id": null,
+      "developer": "Bruce Artwick Organization",
+      "keys": [
+        "t:微軟模擬飛行 3.0|Bruce Artwick Organization"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 3.0"
+    },
+    "cdg-5201": {
+      "catalog_id": null,
+      "developer": "Bruce Artwick Organization",
+      "keys": [
+        "t:微軟模擬飛行 4.0|Bruce Artwick Organization"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 4.0"
+    },
+    "cdg-5202": {
+      "catalog_id": null,
+      "developer": "Microsoft",
+      "keys": [
+        "t:微軟模擬飛行 5.1|Microsoft"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 5.1"
     }
   }
 }
