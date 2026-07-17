@@ -13012,8 +13012,9 @@
       "keys": [
         "t:皇室血裔1|KOEI"
       ],
-      "status": "active",
-      "title_zh": "皇室血裔1"
+      "status": "merged",
+      "title_zh": "皇室血裔1",
+      "merged_into": "cdg-4113"
     },
     "cdg-1413": {
       "catalog_id": "SCD2702",
