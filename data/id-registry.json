@@ -47716,6 +47716,51 @@
       ],
       "status": "active",
       "title_zh": "微軟模擬飛行 5.1"
+    },
+    "cdg-5203": {
+      "catalog_id": null,
+      "developer": "Microsoft",
+      "keys": [
+        "t:微軟模擬飛行 95|Microsoft"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 95"
+    },
+    "cdg-5204": {
+      "catalog_id": null,
+      "developer": "Microsoft",
+      "keys": [
+        "t:微軟模擬飛行 98|Microsoft"
+      ],
+      "status": "active",
+      "title_zh": "微軟模擬飛行 98"
+    },
+    "cdg-5205": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:戰鬥神將|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥神將"
+    },
+    "cdg-5206": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:戰鬥神將2|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥神將2"
+    },
+    "cdg-5207": {
+      "catalog_id": null,
+      "developer": "Atomic Games",
+      "keys": [
+        "t:戰鬥神將3：俄羅斯戰線|Atomic Games"
+      ],
+      "status": "active",
+      "title_zh": "戰鬥神將3：俄羅斯戰線"
     }
   }
 }
