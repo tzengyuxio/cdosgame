@@ -784,13 +784,13 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 - [x] 勇者泡泡龍２ — cdg-1386
 - [x] 勇者泡泡龍３ — cdg-1387
 - [x] 勇者泡泡龍４ — cdg-1388（電碼城大戰）
-- [ ] 勇者泡泡龍大富翁 — cdg-1390
-- [ ] 勇者泡泡龍夢工場 — cdg-1389
+- [x] 勇者泡泡龍大富翁 — cdg-1390
+- [x] 勇者泡泡龍夢工場 — cdg-1389
 **外文既有 stub（2 款，查台灣足跡標 packaging/localized）**
-- [ ] 魔法泡泡龍 Puzzle Bobble — cdg-1187（＝泡泡龍，Taito）
-- [ ] LEGO 鐵路大亨 LEGO LOCO — cdg-3165（樂高鐵路大亨，IG）
+- [x] 魔法泡泡龍 Puzzle Bobble — cdg-1187（＝泡泡龍，Taito）
+- [x] LEGO 鐵路大亨 LEGO LOCO — cdg-3165（樂高鐵路大亨，IG）
 **H-game 既有 stub（3 款，adult）**
-- [ ] 千變少女米娜 — cdg-0186（新潮館，adult）
+- [x] 千變少女米娜 — cdg-0186（新潮館，adult）
 - [ ] 緊縛の館 — cdg-2124（緊縛之館，XYZ，偉弘代理，adult）
 - [ ] 學園退魔傳－玲子 — cdg-3366（FIX，鷹揚，adult）
 **天堂鳥（2 款，developer null→天堂鳥）**
@@ -811,7 +811,7 @@ Triage 結果：38 款 → 11 略過（已發佈）、20 補完（既有 stub）
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] I1 龍愛麻將/三國/霹靂：cdg-1989、cdg-1990、cdg-0248、cdg-0249、cdg-2715 ✅（5 款皆 published；麻將夢幻國/三國英豪去序號＋registry 同步；三國英豪 genre ACT→ARPG、續作維持 ACT；霹靂酷樂貓改編橫內尚樹漫畫サイボーグクロちゃん official；developer 統一「龍愛」對齊 cdg-4525。⚠公司頁 /companies/龍愛 未建＝既有課題）
 - [x] I2 勇者泡泡龍系列 A：cdg-1385、cdg-1386、cdg-1387、cdg-1388、cdg-2040 ✅（5 款皆 published；泡泡龍 Bubble Bobble 式 ACT 確認保留、series 勇者泡泡龍補值互連、region→TW；紅樓夢玲瓏彩玉 PZG 落物消除/智冠代理/1997）
-- [ ] I3 勇者泡泡龍系列 B＋外文：cdg-1389、cdg-1390、cdg-1187、cdg-3165、cdg-0186
+- [x] I3 勇者泡泡龍系列 B＋外文：cdg-1389、cdg-1390、cdg-1187、cdg-3165、cdg-0186 ✅（5 款皆 published；夢工場 LSG/大富翁 TBG；魔法泡泡龍=Taito Puzzle Bobble PZG packaging/en（⚠具名台灣代理未證、僅 chiuinan 市場足跡）；樂高鐵路大亨=LEGO Loco 協和繁中 CBG localized、title 去尾斜線＋dev IG→Intelligent Games；千變少女米娜 developer 新潮館→Apple Pie(JP) 訂正、localized adult、與 cdg-1861 禁忌同廠）
 - [ ] I4 H-game＋天堂鳥補完：cdg-2124、cdg-3366、cdg-3929、cdg-4082、cdg-2825
 - [ ] I5 新建 A：cdg-5192 秘寶奇兵、cdg-5193 卡哇伊大作戰、cdg-5194 毀天滅地、cdg-5195 星球X計畫
 - [ ] I6 新建 B：cdg-5196 四國志、cdg-5197 大地之劍、cdg-5198 妖魔獵人
