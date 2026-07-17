@@ -863,25 +863,25 @@ Triage 結果：32 條目 → 1 略過（已發佈）、5 不處理（英特衛>
 
 ### 新建（[ ]，id 鎖 cdg-5199~5214）
 **微軟模擬飛行缺版（6 款，Flight Simulator）**
-- [ ] 微軟模擬飛行 2.0 — cdg-5199（FS 2.0, 1984）
-- [ ] 微軟模擬飛行 3.0 — cdg-5200（FS 3.0, 1988）
-- [ ] 微軟模擬飛行 4.0 — cdg-5201（FS 4.0, 1989）
-- [ ] 微軟模擬飛行 5.1 — cdg-5202（FS 5.1, 1995）
-- [ ] 微軟模擬飛行 95 — cdg-5203（FS 95, 1996）
-- [ ] 微軟模擬飛行 98 — cdg-5204（FS 98, 1997）
+- [!] 微軟模擬飛行 2.0 — cdg-5199（FS 2.0, 1984）
+- [!] 微軟模擬飛行 3.0 — cdg-5200（FS 3.0, 1988）
+- [!] 微軟模擬飛行 4.0 — cdg-5201（FS 4.0, 1989）
+- [!] 微軟模擬飛行 5.1 — cdg-5202（FS 5.1, 1995）
+- [!] 微軟模擬飛行 95 — cdg-5203（FS 95, 1996）
+- [!] 微軟模擬飛行 98 — cdg-5204（FS 98, 1997）
 **ATOMICS 戰鬥神將 Close Combat（5 款，Atomic Games）**
-- [ ] 戰鬥神將 — cdg-5205（Close Combat, 1996）
-- [ ] 戰鬥神將2 — cdg-5206（Close Combat II: A Bridge Too Far, 1997）
-- [ ] 戰鬥神將3 — cdg-5207（Close Combat III: The Russian Front, 1998）
-- [ ] 戰鬥神將4：突出部之役 — cdg-5208（Close Combat IV: The Battle of the Bulge, 1999）
-- [ ] 戰鬥神將5：諾曼第登陸 — cdg-5209（Close Combat V: Invasion Normandy, 2000）
+- [!] 戰鬥神將 — cdg-5205（Close Combat, 1996）
+- [!] 戰鬥神將2 — cdg-5206（Close Combat II: A Bridge Too Far, 1997）
+- [!] 戰鬥神將3 — cdg-5207（Close Combat III: The Russian Front, 1998）
+- [!] 戰鬥神將4：突出部之役 — cdg-5208（Close Combat IV: The Battle of the Bulge, 1999）
+- [x] 戰鬥神將5：諾曼第登陸 — cdg-5209（Close Combat V: Invasion Normandy, 2000）
 **微軟 世紀帝國資料片（2 款）**
-- [ ] 羅馬霸主 — cdg-5210（Age of Empires: The Rise of Rome, 1998，本體 cdg-0666 資料片）
-- [ ] 征服者入侵 — cdg-5211（Age of Empires II: The Conquerors, 2000，本體 cdg-0667 資料片）
+- [x] 羅馬霸主 — cdg-5210（Age of Empires: The Rise of Rome, 1998，本體 cdg-0666 資料片）
+- [x] 征服者入侵 — cdg-5211（Age of Empires II: The Conquerors, 2000，本體 cdg-0667 資料片）
 **查無 catalog 足跡（3 款，研究後定位）**
-- [ ] 鬼神之門 — cdg-5212（英寶格）
-- [ ] 劍俠－鬼神之門2 — cdg-5213（元古科技）
-- [ ] 越野大車拼2 — cdg-5214（英寶格）
+- [x] 鬼神之門 — cdg-5212（英寶格）
+- [x] 劍俠－鬼神之門2 — cdg-5213（元古科技）
+- [x] 越野大車拼2 — cdg-5214（英寶格）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] J1 補完·玩具奇兵＋機甲：cdg-3554、cdg-3559、cdg-3556、cdg-3224、cdg-3226 ✅（5 款皆 published；玩具奇兵World War/Air Tactics=RTS·機甲2=SIM foreign·en chiuinan足跡發佈；玩具奇兵2=ACT；**機甲4復仇者 localized·zh**微軟繁中·dev Microsoft→FASA Interactive；genre 全訂正 SLG→RTS/ACT/SIM）
