@@ -722,11 +722,11 @@ Triage 結果：28 款 → 10 略過（已發佈）、13 補完（既有 stub）
 - [~] 禁斷の血族 — cdg-1864（禁斷之血族，C's ware）｜ 時空幻境 — cdg-2444（GamaSoft/KR）｜ 新龍門客棧 — cdg-2364（歡樂盒）
 - [~] 大地雄師 — cdg-0359（Sailon）｜ 一線生機 — cdg-0145（宏申）｜ 鴉片戰爭 — cdg-1977（金盤電子）｜ 寒漠風暴 — cdg-2903（九藝/銀河英雄）
 
-### H1 — GamaSoft 系列＋日系（需重跑 ⚠）
-- [ ] 夢幻武士：龍刻之章 — cdg-2745 — 補完 published（GamaSoft/KR/2000/SRPG，XenoAge 系列，連 cdg-2444/0629）※重跑
-- [ ] 永恆之星 — cdg-0629 — 補完 published（GamaSoft/KR/2002/SRPG，XenoAge Plus，publisher 歡樂盒＋全球歡樂）※重跑
-- [ ] 夢幻一夜 — cdg-2722 — TEMT/AVG/**adult**，region null；chiuinan 18禁確立→維持 stub published:false ※重跑
-- [ ] 失落的女神－鑽石の章 — cdg-0714 — Min Communication/LSG/2000，region null→維持 stub published:false ※重跑
+### H1 — GamaSoft 系列＋日系 ✅ commit（重跑後）
+- [x] 夢幻武士：龍刻之章 — cdg-2745 — 補完 published（GamaSoft/KR/2000/SRPG，XenoAge: Knight of the Rihas，時空幻境前傳，cross-link cdg-2444/0629；2001 國語配音特別版《龍刻》）
+- [x] 永恆之星 — cdg-0629 — 補完 published（GamaSoft/KR/2002/SRPG，XenoAge Plus＝時空幻境重製強化，publisher 歡樂盒＋全球歡樂，cross-link cdg-2444/2745）
+- [!] 夢幻一夜 — cdg-2722 — TEMT/AVG/**adult**（chiuinan 18禁），region null（TEMT 身分查無）；劇情查無→維持 stub published:false
+- [!] 失落的女神：鑽石之章 — cdg-0714 — Min Communication/**KR**/LSG/2000（大邱廠開發 Three Jewels 養成外銷台灣，region 補 KR）；劇情查無→維持 stub published:false
 
 ### H2 — 歡樂盒歷史/武俠 ✅ commit a2f4db2b / registry
 - [x] 一代女皇武則天 — cdg-0732 — 補完 published（歡樂盒發行後宮養成 LSG，developer→null 訂正、publisher_tw 歡樂盒；別名「一代女皇武則天」）
@@ -735,11 +735,11 @@ Triage 結果：28 款 → 10 略過（已發佈）、13 補完（既有 stub）
 - [x] 武狀元蘇乞兒 — cdg-4325 — 補完 published（歡樂盒/TW/1999/SRPG，改編 1992 周星馳同名電影，全 null stub→補齊）
 - [x] 三國列傳（＝三國列傳之五虎大將） — cdg-4143 — 補完 published（歡樂盒自製/TW/1997/DOS/RTS 蜀漢五虎將戰役；併入三國志之五虎大將等別名，確認同款不另建）
 
-### H3 — 既有補完收尾（需重跑 ⚠）
-- [ ] 三國演義之赤壁 — cdg-3360 — 前導軟件/CN/1997/SLG（已含別名，歡樂盒代理）※重跑
-- [ ] 惑星戰將 — cdg-1768 — 鑫盛/SLG/1998 ※重跑
-- [ ] 魔導物語 — cdg-3686 — Compile/JP/1996（genre 疑 SRPG→RPG 待訂正）※重跑
-- [ ] 賊佳拍檔 — cdg-4069 — 上批查無足跡 stub，本批複查 ※重跑
+### H3 — 既有補完收尾 ✅ commit（重跑後）
+- [x] 三國演義之赤壁 — cdg-3360 — 補完 published（前導軟件/CN/1997，**genre SLG→RTS**，中國破十萬套、歡樂盒代理雙碟）
+- [x] 惑星戰將 — cdg-1768 — 補完 published（鑫盛/1998，**genre SLG→RTS** 即時戰術，region null 鑫盛背景查無）
+- [x] 魔導物語 — cdg-3686 — 補完 published（Compile/JP/1996，**genre SRPG→RPG** 訂正＝地城探索 RPG·魔法氣泡前身，歡樂盒中文化）
+- [!] 賊佳拍檔 — cdg-4069 — 複查仍查無足跡，維持 stub published:false＋release_status unverified
 
 ### H4/H5 — 新建（id 鎖 cdg-5187~5191）
 - [ ] 魔女夢工場 — cdg-5187 — 新建（歡樂盒 18禁 H-game，日系，adult）
