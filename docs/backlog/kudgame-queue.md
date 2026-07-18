@@ -1108,7 +1108,7 @@ Triage 完成。`[?]` 待決；決定後轉 `[ ]` 依批 build（每 5 款）。
 - [x] 毛毛怪大歷險 — cdg-4343 — 補完（韓 Tri Ordess/梵太師 ACT、localized、published；platform null 待考）
 - [x] 非常天才 — cdg-5217 — 補完（正先實業 PZG native、published；僅 preview 足跡 release unverified）
 - [~] 地城守護者2 — cdg-0761 — 已發佈（localized存疑仍開，無新料）
-- [?] 地獄駭客 — 新建？ — **查無足跡＋疑訛誤**（研究：裸搜全是《地獄怪客》Hellboy 近音干擾；「會宇」查無實體、疑英特衛之誤；chiuinan／kudgame-list 皆無此名。疑「駭客」＝「怪客」轉錄訛誤。**待使用者確認名稱/代理商拼法**再定建 stub 或棄）⟵ Batch 3
+- [!] 地獄駭客 — cdg-5232 — 建 unverified stub（使用者裁決 2026-07-19：查無足跡＋疑訛誤仍建 stub，published:false、全欄 null、release_status unverified；正文載明疑「駭客」＝「怪客」Hellboy 訛誤、「會宇」疑英特衛之誤。待補英文原名/封面/年份）⟵ Batch 3
 - [x] 越野英雄 — cdg-2242 — 補完（V-Rally 首作去序號、Eden/英特衛、RCG packaging/en）
 - [x] 越野英雄2 — cdg-2243 — 補完（V-Rally 2、Eden/英特衛、RCG packaging/en）
 - [x] 銀焰洗劍錄 — cdg-2925 — 補完（Silver；新天地=北京新天地誤置訂正→英特衛、ARPG、packaging/en、title 台灣導向）
