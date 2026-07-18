@@ -9789,8 +9789,9 @@
       "keys": [
         "cat:SCD0097"
       ],
-      "status": "active",
-      "title_zh": "圍棋習遊記"
+      "status": "rejected",
+      "title_zh": "圍棋習遊記",
+      "reject_reason": "out of scope: 圍棋教學遊戲（晟業，別名圍棋西遊記），主要供兒童入門學習，屬 edutainment、非收錄範圍"
     },
     "cdg-1064": {
       "catalog_id": "SCD2201",
@@ -9798,8 +9799,9 @@
       "keys": [
         "cat:SCD2201"
       ],
-      "status": "active",
-      "title_zh": "圍棋習遊記：初學篇"
+      "status": "rejected",
+      "title_zh": "圍棋習遊記：初學篇",
+      "reject_reason": "out of scope: 圍棋習遊記：初學篇（晟業，圍棋習遊記後續版本），兒童入門學習向 edutainment"
     },
     "cdg-1065": {
       "catalog_id": "SCD0816",
@@ -19792,8 +19794,9 @@
       "keys": [
         "cat:SCD2207"
       ],
-      "status": "active",
-      "title_zh": "象棋習遊記"
+      "status": "rejected",
+      "title_zh": "象棋習遊記",
+      "reject_reason": "out of scope: 象棋習遊記（晟業），兒童入門學習向 edutainment"
     },
     "cdg-2155": {
       "catalog_id": "SCD0005",
