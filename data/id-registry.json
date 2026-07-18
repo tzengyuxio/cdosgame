@@ -47862,6 +47862,24 @@
       ],
       "status": "active",
       "title_zh": "稱霸四海"
+    },
+    "cdg-5219": {
+      "catalog_id": null,
+      "developer": "Infogrames",
+      "keys": [
+        "t:巫毒小子|Infogrames"
+      ],
+      "status": "active",
+      "title_zh": "巫毒小子"
+    },
+    "cdg-5223": {
+      "catalog_id": null,
+      "developer": "洛凡妮莎工作室",
+      "keys": [
+        "t:倉庫工人|洛凡妮莎工作室"
+      ],
+      "status": "active",
+      "title_zh": "倉庫工人"
     }
   }
 }
