@@ -1108,12 +1108,12 @@ Triage 完成。`[?]` 待決；決定後轉 `[ ]` 依批 build（每 5 款）。
 - [x] 毛毛怪大歷險 — cdg-4343 — 補完（韓 Tri Ordess/梵太師 ACT、localized、published；platform null 待考）
 - [x] 非常天才 — cdg-5217 — 補完（正先實業 PZG native、published；僅 preview 足跡 release unverified）
 - [~] 地城守護者2 — cdg-0761 — 已發佈（localized存疑仍開，無新料）
-- [ ] 地獄駭客 — 新建 — 會宇發行；content/registry 查無，英文原名 build 時研究
-- [ ] 越野英雄1 — cdg-2242 — 決策：1與2都 build（英特衛，V-Rally 1999）
-- [ ] 越野英雄2 — cdg-2243 — 決策：1與2都 build（英特衛，V-Rally 2 2000）
-- [ ] 銀焰洗劍錄 — cdg-2925 — 補完+publish（Silver 1999）；publisher 覆寫 新天地→英特衛（決策）
-- [ ] 艦隊指揮官 — cdg-0864 — 補完+publish（Jane's Fleet Command，美商藝電）
-- [ ] 銀河戰國列傳/Schwarzschild — cdg-2898/4074 — 決策：研究後判斷（大宇 vs 華義、2898 是否重複）
-- [ ] SEGA越野冠軍賽2 — cdg-0640 — 補完+publish（Sega Rally 2，億弘）；標題需清理
+- [ ] 地獄駭客 — 新建 — 會宇發行；content/registry 查無，英文原名 build 時研究 ⟵ Batch 3
+- [x] 越野英雄 — cdg-2242 — 補完（V-Rally 首作去序號、Eden/英特衛、RCG packaging/en）
+- [x] 越野英雄2 — cdg-2243 — 補完（V-Rally 2、Eden/英特衛、RCG packaging/en）
+- [x] 銀焰洗劍錄 — cdg-2925 — 補完（Silver；新天地=北京新天地誤置訂正→英特衛、ARPG、packaging/en、title 台灣導向）
+- [x] 艦隊指揮官 — cdg-0864 — 補完（Jane's Fleet Command、美商藝電、RTS、localized）
+- [ ] 銀河戰國列傳/Schwarzschild — cdg-2898/4074 — 決策：研究後判斷（大宇 vs 華義、2898 是否重複）⟵ Batch 3
+- [x] SEGA越野冠軍賽2 — cdg-0640 — 補完（Sega Rally 2、億弘、RCG packaging/en、title 清理為世嘉拉力賽2）
 - [x] 解放軍之怒 — cdg-0902 — 補完（SSI People's General SLG、名宇 localized、year 1998、published）
 - [x] 皇帝之橫世霸業 — cdg-1417 — 補完（詮積資訊 RTS native、published）
