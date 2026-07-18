@@ -1066,5 +1066,5 @@ Triage 結果：34 款 → **8 略過（已發佈）、15 補完（既有 stub�
 
 **本批完成（2026-07-18，英特衛/右將/成人工作室/Epic/外文代理）**：34 款盤點 → **8 略過、15 補完、5 新建 published:false、1 補完既有（cdg-4457）、1 reject（cdg-0903）、2 SKIP（魔女隨堂測驗 2010>2001／風之翼查無）、2 棄用重複（cdg-5226=cdg-0079／cdg-5227=cdg-4457）、1 維持既有 reject 未復活（丁丁在西藏=cdg-0149）**。新建落地 5 款：cdg-5219 巫毒小子、cdg-5223 倉庫工人、cdg-5224 BARYON、cdg-5225 七喜小子、cdg-5228 超級立體泡泡（皆 published:false／foreign 或 unverified）。M1–M5＋R0 全 commit 完畢，validate 全綠（games 4562/4562、errors 0）。
 **本批重要訂正／發現**：cdg-3072 末日黎明＝俄 NMG（非韓）·region RU；cdg-3601 鐵甲紀元＝新意自製 FPS（非機甲 SLG）；cdg-4058 火狐狸證據指大陸騰圖·無台灣足跡→降 published:false（scope 待定）；GP500-2 與 World Cup 94 兩起 triage 誤判重複（風速小子已是 cdg-0079·世界盃已是 cdg-4457），build 階段查出並 dedup；丁丁在西藏整系列 cdg-0149/0150/0151 早已 reject。
-**待使用者確認**：丁丁在西藏是否維持 reject（研究確認無台灣中文化足跡、預設維持不復活）。
+**丁丁在西藏（使用者裁決 2026-07-18）**：維持既有 reject cdg-0149、不復活（整個丁丁系列 0149/0150/0151 外文無台灣中文化足跡）。無檔案變動。
 **待核疑點**：見各批 review 旗標＋game-entry-review.md（cdg-4066 發行商分歧、cdg-2284 開發商分歧、cdg-4058 大陸 scope、cdg-5225 歐風代理、cdg-5228 中文名對應、cdg-5219 英特衛台灣代理）。
