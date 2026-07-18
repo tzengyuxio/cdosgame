@@ -31207,7 +31207,7 @@
         "cat:SWZ010"
       ],
       "status": "active",
-      "title_zh": "戰神1"
+      "title_zh": "戰神"
     },
     "cdg-3400": {
       "catalog_id": null,
@@ -37456,7 +37456,7 @@
         "t:龍穴歷險記3 女巫的詛咒|None"
       ],
       "status": "active",
-      "title_zh": "龍穴歷險記3 女巫的詛咒"
+      "title_zh": "龍穴歷險記3：女巫的詛咒"
     },
     "cdg-4084": {
       "catalog_id": null,
@@ -39833,7 +39833,7 @@
         "t:毛毛怪大歷險 救出蜜蜜公主篇|None"
       ],
       "status": "active",
-      "title_zh": "毛毛怪大歷險 救出蜜蜜公主篇"
+      "title_zh": "毛毛怪大歷險"
     },
     "cdg-4344": {
       "catalog_id": null,
@@ -48026,7 +48026,7 @@
         "t:阿拉伯歷險 狐狸精|Titus"
       ],
       "status": "active",
-      "title_zh": "阿拉伯歷險 狐狸精"
+      "title_zh": "阿拉伯歷險：狐狸精"
     },
     "cdg-5240": {
       "catalog_id": null,
@@ -48062,7 +48062,7 @@
         "t:妖局 十六張麻將王|None"
       ],
       "status": "active",
-      "title_zh": "妖局 十六張麻將王"
+      "title_zh": "妖局：十六張麻將王"
     },
     "cdg-5244": {
       "catalog_id": null,
@@ -48072,6 +48072,15 @@
       ],
       "status": "active",
       "title_zh": "夢幻占星館"
+    },
+    "cdg-5245": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:銀河戰國列傳 GXR：時空的使者|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "銀河戰國列傳 GXR：時空的使者"
     }
   }
 }
