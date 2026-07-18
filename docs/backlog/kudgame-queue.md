@@ -975,15 +975,20 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 - [x] 地城守護者2 — cdg-0761（Dungeon Keeper 2/Bullfrog/GB；抽驗過。genre SLG→**RTS**、series 地城守護者、連前作 cdg-0760；**publisher_tw 空、localized 存疑記 review**（chiuinan 僅繁化補丁、無官方繁中發行方，待核降 packaging/foreign））
 
 ### 新建（[ ]，id 鎖 cdg-5215~5218）
-- [ ] 美夢成真 — cdg-5215（業訊/Nihon Create，My Dream: On Air ga Matenakute）
-- [ ] 重返克朗多 — cdg-5216（Return to Krondor，第三波；≠ cdg-3886 叛變克朗多/Betrayal）
-- [ ] 非常天才 — cdg-5217（正先，發售存疑，build 研究後定）
-- [ ] 稱霸四海 — cdg-5218（Corsairs，協和多媒體）
+- [x] 美夢成真 — cdg-5215 — 新建（Nihon Create/JP 1997 聲優育成 LSG/業訊代理；**研究揭 PS·Saturn 主機獨佔、無 PC 版、查無台灣足跡**，使用者親證雜誌見過→published，業訊/平台/中文化細節記 review 待補；同名台灣廠商 美夢成真 已消歧義）
+- [x] 重返克朗多 — cdg-5216 — 新建（PyroTechnix·Sierra/US 1998 RPG/第三波 packaging·en；≠ cdg-3886 叛變克朗多；**查無第三波台灣足跡**，使用者親證→published，代理佐證記 review 待補）
+- [!] 非常天才 — cdg-5217 — unverified stub（正先實業/TW；**查無任何公開足跡**、year/genre 全 null、published:false，待一手佐證）
+- [x] 稱霸四海 — cdg-5218 — 新建（Microïds/FR 1999 海戰 SLG/協和 packaging·en；zh 維基載台灣 1999-08 上市，足跡確、published）
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] L1 補完·三國/戰略：cdg-2314、cdg-3232、cdg-2309、cdg-3732、cdg-3739 ✅（5 款皆 published；genre 訂正 3232 RTS/2309 SLG；2309 去序號＋registry 同步；publisher 分歧：英雄無敵3 歐樂確證、魔法門7 歐樂偏弱待核）
 - [x] L2 補完·外文代理：cdg-2449、cdg-3468、cdg-2542、cdg-2468、cdg-0761 ✅（5 檔抽驗完成、published；裁決點全處理：①協和統一「協和」不建公司頁 ②cdg-2449 region **BE enum 已加** schema ③cdg-3468 publisher_tw 留空 ④cdg-2542 手足 **cdg-2543 連動 SLG→HSG** ⑤cdg-0761 localized 存疑記 review。validate 全綠）
-- [ ] L3 新建 4 款：cdg-5215、cdg-5216、cdg-5217、cdg-5218
+- [x] L3 新建 4 款：cdg-5215、cdg-5216、cdg-5217、cdg-5218 ✅（3 published＋1 unverified stub；registry 補登 4 筆、validate 4558/4558；PlayStation 加入 validator PLATFORM_TOKENS。**5215/5216 查無台灣足跡但使用者親證雜誌見過→published、來源待補 review**；5217 正先實業查無足跡→stub）
+
+---
+
+**本批完成（2026-07-18）宇峻奧汀/魔法門/協和批次全結**：19 款盤點 → 4 略過、10 補完（含 L1 五款＋L2 五款）、4 新建（cdg-5215~5218：3 published＋1 stub）、鳳凰誓併 cdg-0567 正文。L1/L2/L3 全 commit 完畢。
+待核疑點：5215 業訊代理＋平台/中文化、5216 第三波代理佐證使用者待補；5217 非常天才查無足跡待一手佐證；cdg-0761 localized 存疑、cdg-3468 staff 單源（均見 game-entry-review.md）。
 
 ### ⏸ L2 接手指南（2026-07-18 斷點，reset 前寫）
 **現狀**：L2 五款 content 檔已被 subagent 寫入工作區、皆設 `published: true`、subagent 各自 validate 過（4554/4554）；但**主線未逐檔 Read 抽驗**（光榮批次教訓：subagent 回報會漂移、cdg-2542 曾兩輪回報 genre SLG↔HSG 矛盾，一律以磁碟實檔為準）。**未 commit**。

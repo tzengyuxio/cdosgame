@@ -797,3 +797,9 @@ created: 2026-06-20
 - cdg-3468《蒼穹守護者》staff 單源＋publisher_tw 慣例（2026-07-18，game-entry 補完 published:true）：①製作人員（程式 Macbear/麥克熊、美術+劇本 林俊淳、企劃 Arthur、音樂 吳菁菁+錢之潮）僅見於單一來源 Bangumi（subject/343428），chiuinan 介紹頁未列人員 → 依單源原則未填 `staff[]`，待第二來源交叉驗證再補；②發行年兩說：chiuinan「1999 出品」vs Bangumi 上市 2000-03-29（NT$640），現 year=1999、正文並記 2000-03 上市；③`publisher_tw` 留 `[]`：任務指示補「光譜」，但 schema〈原廠發行不入 catalog〉＋native TW 手足款（cdg-1354 漢堂、cdg-2746 全景）皆留空，光譜為原廠自製自發行、developer 已載，故從 schema／慣例留空；④京東二手頁見「光谱博硕」字樣，博碩是否參與發行未證實。
 
 - cdg-0761《地城守護者2》localized 存疑（2026-07-18，game-entry 補完 published:true）：現 `localization_level: localized`、`publisher_tw: []`。正文載 Bullfrog 開發、EA 原廠發行，台灣官方繁中發行方查無；chiuinan 收錄為繁中介紹頁但疑僅對應繁化補丁，非官方繁中商業版。暫維持 localized（存疑非硬傷，未達「查無足跡」降級門檻），待實體包裝／雜誌廣告確認有無官方繁中版；若確認無，應降 `packaging`／`foreign`。前作 cdg-0760 為對照。
+
+- cdg-5215《美夢成真》台灣足跡＋中文化細節待補（2026-07-18，kudgame L3 新建 published:true）：使用者親證雜誌上見過、有明確資料、後續補來源，據此 publish。研究確認遊戲本體＝1997-09 Nihon Create（日本クリエイト）之 PS/Saturn 主機獨佔聲優育成 SLG（LSG），**無 PC 版、web/MobyGames/chiuinan 皆查無台灣或業訊代理足跡**。⚠ 待補：①業訊代理的一手佐證（雜誌廣告/報導）②台灣版平台與中文化程度（現 content_language/localization_level 皆 null，localization_basis 標 pending）③與同名台灣開發商「美夢成真」（cdg-2727 夢幻咖啡屋團隊）僅同名無關，正文已消歧義。platform_note PlayStation 已加進 validator PLATFORM_TOKENS（同 commit）。
+
+- cdg-5216《重返克朗多》第三波代理佐證待補（2026-07-18，kudgame L3 新建 published:true）：使用者親證雜誌上見過、有明確資料、後續補來源，據此 publish。研究確認＝1998 PyroTechnix/Sierra 西洋 PC RPG（Return to Krondor，承 cdg-3886 叛變克朗多同 Feist 米德肯米亞世界），**惟 chiuinan 與各站查無「第三波」代理或任何台灣發行足跡**（第三波歸屬來自 kudgame 清單）。⚠ 待補：第三波台灣發行的一手佐證（型錄/包裝/廣告）；現 localization_level packaging＋en（無中文化證據，代理英文本體推定）。
+
+- cdg-5217《非常天才》查無足跡 unverified stub（2026-07-18，kudgame L3，published:false）：開發商線索＝正先實業（Front Fareast/FFE，台灣，早年電玩備份卡/相容主機商，庫內另有 cdg-0434 天使之約、cdg-0674 世紀終極賽車）。**對「非常天才」這款本身，web/巴哈/拍賣/chiuinan/rwv/omega/MobyGames 全查無任何公開產品足跡**（報導/廣告/發行紀錄/介紹頁皆無）。依 triage「完全查無→unverified stub」建，year/genre/platform 全 null、正文未杜撰玩法。待一手足跡再補。
