@@ -40849,12 +40849,13 @@
     },
     "cdg-4457": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Tiertex Design Studios",
       "keys": [
-        "t:94美國世界盃|None"
+        "t:94美國世界盃|None",
+        "t:World Cup USA 94|Tiertex Design Studios"
       ],
       "status": "active",
-      "title_zh": "94美國世界盃"
+      "title_zh": "World Cup USA 94"
     },
     "cdg-4458": {
       "catalog_id": null,
@@ -47880,6 +47881,33 @@
       ],
       "status": "active",
       "title_zh": "倉庫工人"
+    },
+    "cdg-5224": {
+      "catalog_id": null,
+      "developer": "ACRO Studio",
+      "keys": [
+        "t:BARYON|ACRO Studio"
+      ],
+      "status": "active",
+      "title_zh": "BARYON"
+    },
+    "cdg-5225": {
+      "catalog_id": null,
+      "developer": "Virgin Games",
+      "keys": [
+        "t:七喜小子|Virgin Games"
+      ],
+      "status": "active",
+      "title_zh": "七喜小子"
+    },
+    "cdg-5228": {
+      "catalog_id": null,
+      "developer": "Zombie",
+      "keys": [
+        "t:超級立體泡泡|Zombie"
+      ],
+      "status": "active",
+      "title_zh": "超級立體泡泡"
     }
   }
 }
