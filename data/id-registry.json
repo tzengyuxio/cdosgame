@@ -26604,8 +26604,9 @@
       "keys": [
         "cat:SCD0228"
       ],
-      "status": "active",
-      "title_zh": "銀河戰國列傳"
+      "status": "merged",
+      "title_zh": "銀河戰國列傳",
+      "merged_into": "cdg-4074"
     },
     "cdg-2899": {
       "catalog_id": "SCD0319",
