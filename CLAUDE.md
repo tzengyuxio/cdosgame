@@ -41,7 +41,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 批次補完工作流（kudgame queue）
 
-使用者一次貼一整批遊戲名（補完/新建條目）時，用 **triage-first 兩階段**跑，別把判斷、研究、建檔在主線交錯（會散出決策點、吃爆 context）。進度佇列＝ `docs/backlog/kudgame-queue.md`（狀態圖例見該檔）。
+使用者一次貼一整批遊戲名（補完/新建條目）時，用 **triage-first 兩階段**跑，別把判斷、研究、建檔在主線交錯（會散出決策點、吃爆 context）。進度佇列＝ `docs/backlog/kudgame-queue.md`（狀態圖例見該檔；只放當輪待處理批次）。完成史已抽離歸檔至 `docs/backlog/kudgame-done-log.md`（唯讀）、專案級後續待辦（建頁／補 alias／系列缺口）在 `docs/backlog/kudgame-followups.md`。
 
 - **階段 A — 一次大批 triage（便宜、決策集中）**：只做輕量判斷（`rg`/`jq` 查 registry 是否已存在、查年份是否 >2002、判斷 scope），**不深研究**。結果寫進 queue 檔，並把**所有需使用者決定的事集中成一張清單、一次用 AskUserQuestion 問完**（>2002 要不要建、reject 條目要不要復活、查無足跡如何處理等）。這步幾乎不吃 context，可涵蓋 20–30 款。
 - **階段 B — 分批 build（貴、無需使用者介入）**：決策已在 A 解決，照 queue 逐批**每 5 款**跑。**盡量把整批重活（研究＋建檔＋`npm run validate`）委派給 subagent、主線只抽驗 `git diff` 再 commit**，讓主線 context 少膨脹：研究一律進 subagent 只回結構化事實＋來源；subagent 回報是「打算做什麼」、涉及寫檔主線必抽驗 diff、不全信。每批 commit 拆 content／registry 兩筆並更新 queue 狀態。跑到該 reset 為止。
