@@ -47963,6 +47963,114 @@
       ],
       "status": "active",
       "title_zh": "地獄駭客"
+    },
+    "cdg-5233": {
+      "catalog_id": null,
+      "developer": "Mirage",
+      "keys": [
+        "t:鐵甲戰士|Mirage"
+      ],
+      "status": "active",
+      "title_zh": "鐵甲戰士"
+    },
+    "cdg-5234": {
+      "catalog_id": null,
+      "developer": "Tsunami Media",
+      "keys": [
+        "t:原星戰紀：邊境防衛戰|Tsunami Media"
+      ],
+      "status": "active",
+      "title_zh": "原星戰紀：邊境防衛戰"
+    },
+    "cdg-5235": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:異形軍團|None"
+      ],
+      "status": "active",
+      "title_zh": "異形軍團"
+    },
+    "cdg-5236": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:歐戰風雲|None"
+      ],
+      "status": "active",
+      "title_zh": "歐戰風雲"
+    },
+    "cdg-5237": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:北非決戰|None"
+      ],
+      "status": "active",
+      "title_zh": "北非決戰"
+    },
+    "cdg-5238": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:魔神鍋|Titus"
+      ],
+      "status": "active",
+      "title_zh": "魔神鍋"
+    },
+    "cdg-5239": {
+      "catalog_id": null,
+      "developer": "Titus",
+      "keys": [
+        "t:阿拉伯歷險 狐狸精|Titus"
+      ],
+      "status": "active",
+      "title_zh": "阿拉伯歷險 狐狸精"
+    },
+    "cdg-5240": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:全球效應|None"
+      ],
+      "status": "active",
+      "title_zh": "全球效應"
+    },
+    "cdg-5241": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:爆笑海底城|None"
+      ],
+      "status": "active",
+      "title_zh": "爆笑海底城"
+    },
+    "cdg-5242": {
+      "catalog_id": null,
+      "developer": "九藝資訊",
+      "keys": [
+        "t:決戰保齡球|九藝資訊"
+      ],
+      "status": "active",
+      "title_zh": "決戰保齡球"
+    },
+    "cdg-5243": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:妖局 十六張麻將王|None"
+      ],
+      "status": "active",
+      "title_zh": "妖局 十六張麻將王"
+    },
+    "cdg-5244": {
+      "catalog_id": null,
+      "developer": "KIWI",
+      "keys": [
+        "t:夢幻占星館|KIWI"
+      ],
+      "status": "active",
+      "title_zh": "夢幻占星館"
     }
   }
 }
