@@ -46,7 +46,7 @@ function checkRefLabels(references = {}) {
 // platform_note 受控詞彙（規範見 schema.md「platform_note」）：canonical token 以
 // 頓號「、」連接（token 內部可含「/」如 DOS/V）。未知 token 出警告（非報錯），
 // 避免 Win31/Windows95/typo 等再漂。
-const PLATFORM_TOKENS = new Set(["DOS", "DOS/V", "Apple II", "Win3.1", "Win9x", "WinXP", "Win64", "Windows", "Sega Saturn"]);
+const PLATFORM_TOKENS = new Set(["DOS", "DOS/V", "Apple II", "Win3.1", "Win9x", "WinXP", "Win64", "Windows", "Sega Saturn", "PlayStation"]);
 function checkPlatform(note) {
   if (note == null || note === "") return [];
   const bad = note.split("、").map((t) => t.trim()).filter((t) => !PLATFORM_TOKENS.has(t));
