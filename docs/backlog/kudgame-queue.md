@@ -1006,3 +1006,58 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 - **④ cdg-2542 genre HSG 連動**：手足 cdg-2543《聖魔戰記2》仍 SLG，同系列同玩法應一併改 HSG（本輪未動、屬既有資料層，可順手或記 review）。
 - **⑤ cdg-0761 localized 存疑**：台灣官方繁中發行方查無、chiuinan 僅繁化補丁；若確認無官方繁中版應改 packaging/foreign。
 - **⑥ 各款 published: true 是否維持**：foreign 進口款（cdg-2449 時空英豪）有 chiuinan 台灣流通足跡、內容完整可 published；其餘補完款內容完整亦 published。抽驗時確認正文無「查無足跡」硬傷。
+
+---
+
+## 英特衛/右將/成人工作室/Epic/外文代理批次（2026-07-18）
+
+Triage 結果：34 款 → **8 略過（已發佈）、15 補完（既有 stub）、10 新建候選、1 reject**。
+
+**決策（2026-07-18，AskUserQuestion）**：
+- **古劍奇譚1：琴心劍魄今何在 cdg-0903（2010，上海燭龍/英特衛）→ reject**（DOS-era 收錄邊界＋英特衛>2001 規則，走 game-triage 剔除既有 stub，比照櫻花大戰4 cdg-3241 前例；資料片一併不建）。
+- **三款英特衛新款（巫毒小子/魔女隨堂測驗/風之翼）→ 研究年份，≤2001 建、>2001 不建**（套用既有英特衛>2001 reject 規則）。
+- 成人款（18禁/真人 DOS）屬收錄範圍，照建（比照公主的回憶/魔術彩球）。外文進口款有台灣代理足跡→published、查無→unverified stub（既定規則）。
+
+### 略過（已發佈 [~]）
+- [~] 魔石神劍錄 — cdg-4286 ｜ 聖戰悍將 — cdg-4140 ｜ 魔神爭霸 — cdg-3771 ｜ 虎將神兵 — cdg-4067
+- [~] 水星的故事2 — cdg-4093 ｜ 伊卡斯特傳說 — cdg-1584 ｜ 天下統一 — cdg-0431（⚠dev SystemSoft、「琪珊」歸屬待核）｜ 新美女拳 — cdg-2350
+
+### reject
+- [ ] 古劍奇譚1：琴心劍魄今何在 — cdg-0903 — game-triage reject（2010 >DOS era、英特衛>2001）
+
+### 補完（既有 stub [ ]，pub=false）
+- [ ] 末日黎明 — cdg-3072（2001/NMG/英特衛/SRPG，2001 邊界可收）
+- [ ] 天命傳奇 — cdg-0454（2001/Arxel Tribe/英特衛，2001 邊界可收）
+- [ ] 鐵甲紀元：戰魂 — cdg-3601（1997/新意）
+- [ ] 星際大亨 — cdg-2408（1995/九藝/TBG）
+- [ ] 薛家將徵東神話 — cdg-4066（1998）
+- [ ] 鼓惑人心 — cdg-2284（2000/右將）
+- [ ] 超能力 — cdg-5095（右將，year null，前批 stub id）
+- [ ] 大富翁之城市英雄 — cdg-0378（1997/美夢成真/TBG）
+- [ ] 美女拳 — cdg-1465（1991/尋夢園）
+- [ ] 美女水果盤 — cdg-1469（1993/寶貝貓，18禁）
+- [ ] 火狐狸 — cdg-4058（1997/火狐狸工作室；⚠與 cdg-5034 EA 1984《火狐狸》、cdg-4687 Dynamix《火狐狸2》撞名、非同款）
+- [ ] One Must Fall 2097＝機甲旋風 — cdg-4244（1994/Epic MegaGames）
+- [ ] 光速兔崽子 — cdg-1681（1994/Epic，Jazz Jackrabbit）
+- [ ] 光速兔崽子2 — cdg-1682（1998/Epic）
+- [ ] Porntris＝性俄羅斯 — cdg-1745（1993/Image Line，真人 18禁）
+
+### 新建候選（[ ]，查無 catalog；id build 時逐一鎖定 cdg-5219+）
+- [ ] 巫毒小子/Voodoo Kid — 英特衛，研究年份定收否（Voodoo Kid 約 1997）
+- [ ] 魔女隨堂測驗 — 英特衛，研究年份定收否
+- [ ] 風之翼 — 英特衛，研究年份定收否
+- [ ] 倉庫工人 — 洛凡妮莎工作室（DOS 倉庫番/Sokoban）
+- [ ] 丁丁在西藏/Tintin in Tibet — Infogrames（1996 外文進口）
+- [ ] BARYON — ACRO（韓製射擊，外文進口）
+- [ ] Cool Spot 七喜小子 — Virgin（1993 外文進口）
+- [ ] Grand Prix 500 2 風速小子 — Microids（cdg-0079 為初代 GP500 摩托賽）
+- [ ] World Cup USA 94 — US Gold（1994 外文進口）
+- [ ] Super Bubble Pop 超級立體泡泡 — 外文進口
+
+### 批次規劃（每批 build 完 commit＋更新狀態）
+- [ ] R0 reject·古劍奇譚 cdg-0903
+- [ ] M1 補完：cdg-3072、cdg-0454、cdg-3601、cdg-2408、cdg-4066
+- [ ] M2 補完：cdg-2284、cdg-5095、cdg-0378、cdg-1465、cdg-1469
+- [ ] M3 補完：cdg-4058、cdg-4244、cdg-1681、cdg-1682、cdg-1745
+- [ ] M4 新建：巫毒小子、魔女隨堂測驗、風之翼、丁丁在西藏、倉庫工人
+- [ ] M5 新建：BARYON、Cool Spot、GP500-2、World Cup USA 94、Super Bubble Pop
