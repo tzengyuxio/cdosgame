@@ -19813,8 +19813,9 @@
       "keys": [
         "cat:SCD2206"
       ],
-      "status": "active",
-      "title_zh": "象棋追擊戰"
+      "status": "rejected",
+      "title_zh": "象棋追擊戰",
+      "reject_reason": "out of scope: 象棋對弈軟體（晟業/智冠 2007），晟業棋類軟體之一、年代過晚，非收錄範圍"
     },
     "cdg-2157": {
       "catalog_id": "SCD1564",
@@ -30371,8 +30372,9 @@
       "keys": [
         "cat:SCD1987"
       ],
-      "status": "active",
-      "title_zh": "熱血圍棋教室"
+      "status": "rejected",
+      "title_zh": "熱血圍棋教室",
+      "reject_reason": "out of scope: 熱血圍棋教室（晟業 2006），圍棋教學軟體、edutainment，非收錄範圍"
     },
     "cdg-3309": {
       "catalog_id": "SCD2652",
