@@ -968,11 +968,11 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 - [x] 文明帝國：權傾天下 — cdg-2309（Civ: Call to Power/Activision/US/第三波 localized；**genre LSG→SLG**、**去序號「權傾天下1」→alias**＋registry 同步、商標角力考據、連二代 cdg-2310）
 - [x] 魔法門7：血統與榮耀 — cdg-3732（Might and Magic VII/NWC·3DO/US；RPG localized、series 補「魔法門」、publisher_tw 歐樂（**chiuinan 未載、PTT 回憶佐證偏弱、記 review**））
 - [x] 魔法門之英雄無敵3 — cdg-3739（HoMM3/NWC·3DO/US；SLG localized、series 補「英雄無敵」、publisher_tw 只留歐樂（chiuinan 明載歐樂影視繁中、上海育碧＝簡中移除）、連前作 cdg-3737/3738）
-- [ ] 時空英豪 — cdg-2449（Appeal，Outcast）
-- [ ] 蒼穹守護者 — cdg-3468（光譜，Sky Land）
-- [ ] 聖魔戰記：艾拉降臨 — cdg-2542（IDEA Factory，協和多媒體）
-- [ ] 暗黑秘石 — cdg-2468（Delphine，Dark Stone，協和多媒體）
-- [ ] 地城守護者2 — cdg-0761（Bullfrog）
+- [x] 時空英豪 — cdg-2449（Outcast/Appeal/比利時；抽驗過。genre ADV→**AADV**、foreign·en 進口英文版、publisher_tw 空；**region BE enum 已加**（schema.md+game.schema.mjs 同 commit））
+- [x] 蒼穹守護者 — cdg-3468（光譜國產 3D RPG；抽驗過。genre RPG、**publisher_tw 依「原廠自製不入」慣例留空**、references 改 cited；2000-03 上市 vs 1999 出品；staff 單源 Bangumi 未填，記 review）
+- [x] 聖魔戰記：艾拉降臨 — cdg-2542（Spectral Force/IDEA Factory/JP/協和；抽驗過。**genre SLG→HSG**（光榮式君主大戰略、非戰棋 SRPG）、series 聖魔戰記；**手足 cdg-2543 已連動改 HSG**）
+- [x] 暗黑秘石 — cdg-2468（Darkstone/Delphine/FR/協和；抽驗過。genre RPG→**ARPG**、協和中文語音版 localized；訂正職業四×男女=八角色、七水晶重鑄時間寶珠）
+- [x] 地城守護者2 — cdg-0761（Dungeon Keeper 2/Bullfrog/GB；抽驗過。genre SLG→**RTS**、series 地城守護者、連前作 cdg-0760；**publisher_tw 空、localized 存疑記 review**（chiuinan 僅繁化補丁、無官方繁中發行方，待核降 packaging/foreign））
 
 ### 新建（[ ]，id 鎖 cdg-5215~5218）
 - [ ] 美夢成真 — cdg-5215（業訊/Nihon Create，My Dream: On Air ga Matenakute）
@@ -982,5 +982,22 @@ Triage 結果：19 款 → **4 略過（已發佈）、10 補完（既有 stub�
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
 - [x] L1 補完·三國/戰略：cdg-2314、cdg-3232、cdg-2309、cdg-3732、cdg-3739 ✅（5 款皆 published；genre 訂正 3232 RTS/2309 SLG；2309 去序號＋registry 同步；publisher 分歧：英雄無敵3 歐樂確證、魔法門7 歐樂偏弱待核）
-- [ ] L2 補完·外文代理：cdg-2449、cdg-3468、cdg-2542、cdg-2468、cdg-0761
+- [x] L2 補完·外文代理：cdg-2449、cdg-3468、cdg-2542、cdg-2468、cdg-0761 ✅（5 檔抽驗完成、published；裁決點全處理：①協和統一「協和」不建公司頁 ②cdg-2449 region **BE enum 已加** schema ③cdg-3468 publisher_tw 留空 ④cdg-2542 手足 **cdg-2543 連動 SLG→HSG** ⑤cdg-0761 localized 存疑記 review。validate 全綠）
 - [ ] L3 新建 4 款：cdg-5215、cdg-5216、cdg-5217、cdg-5218
+
+### ⏸ L2 接手指南（2026-07-18 斷點，reset 前寫）
+**現狀**：L2 五款 content 檔已被 subagent 寫入工作區、皆設 `published: true`、subagent 各自 validate 過（4554/4554）；但**主線未逐檔 Read 抽驗**（光榮批次教訓：subagent 回報會漂移、cdg-2542 曾兩輪回報 genre SLG↔HSG 矛盾，一律以磁碟實檔為準）。**未 commit**。
+
+**接手步驟**：
+1. `git status` 確認工作區有 cdg-2449/3468/2542/2468/0761 五檔改動（未 commit）。
+2. 逐檔 `Read` 抽驗：正文品質（百科散文非考據筆記）、frontmatter 值、cite/references 格式。
+3. 處理裁決點（見下），必要處主線 Edit 訂正。
+4. `npm run validate` 全綠 → commit（content 一筆＋若動 registry/schema 另筆＋queue 更新）。
+
+**待裁決點**：
+- **① 協和 canonical 名**：cdg-2468/2542 代理商。庫內 publisher_tw「協和多媒體」8 次 vs「協和」10+2 次、均無公司頁。cdg-2542 第二輪已用「協和」、cdg-2468 用「協和」→ 傾向統一「協和」，但需確認 5 檔 frontmatter `publisher_tw` 與正文連結一致（[協和](/companies/協和)），並決定要不要建公司頁。
+- **② cdg-2449 region BE**：schema `REGIONS` 無比利時。加 BE（比照前批 CA，`schema/game.schema.mjs`+`schema.md` 同 commit）或留 null（正文已純文字點明「比利時工作室 Appeal」）。
+- **③ cdg-3468 publisher_tw 留空正確**：光譜原廠自製自發行，比照 native TW 手足款慣例（漢堂/全景留空），**接受留空、勿補光譜**。
+- **④ cdg-2542 genre HSG 連動**：手足 cdg-2543《聖魔戰記2》仍 SLG，同系列同玩法應一併改 HSG（本輪未動、屬既有資料層，可順手或記 review）。
+- **⑤ cdg-0761 localized 存疑**：台灣官方繁中發行方查無、chiuinan 僅繁化補丁；若確認無官方繁中版應改 packaging/foreign。
+- **⑥ 各款 published: true 是否維持**：foreign 進口款（cdg-2449 時空英豪）有 chiuinan 台灣流通足跡、內容完整可 published；其餘補完款內容完整亦 published。抽驗時確認正文無「查無足跡」硬傷。

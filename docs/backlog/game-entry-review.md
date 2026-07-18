@@ -789,3 +789,11 @@ created: 2026-06-20
 - [ ] **cdg-0302《中國象棋》發行商「普威爾」待考**（2026-07-16，F1 補完）：kudgame 清單標【普威爾】，惟 chiuinan ccchess 頁記為吳身潤自行發佈之共享軟體（註冊費 NT$50），未指名商業發行商；web 搜尋亦查無普威爾（Prowin）代理此款之佐證。現 `publisher_tw: []`，普威爾疑為後續合輯掛名或誤植，待實體包裝佐證再定案。另：庫內 cdg-0302~0314 共 13 筆同名《中國象棋》（不同作者/程式），未做同名消歧義（僅 developer 區分），若日後發佈成批可評估加括號後綴。
 
 - cdg-1925 生化兵器：developer 晶天軟件（影子工作室）developer_region 存疑。旁證指向 CN（公司名用簡體「軟件」、僅百度/bilibili/9553 等對岸站收錄），但無來源直述公司所在地，暫留 null。華彩為台灣代理版發行者，另有福旭/天堂鳥代理版。(2026-07-17)
+
+- cdg-2314《新三國演義99》單源、玩法未考（2026-07-18，game-entry 補完 published:true）：唯一實質來源＝chiuinan 介紹頁（`intro/ch/c32/sam99.htm`），該頁本身標「[待補]」，僅載「業訊1999年出品／戰略遊戲／中文版／無保護／XP以上需設 Win9x 相容」。web（維基三國題材列表、巴哈國產總表 403、百度知道、蝦皮）皆查無實質玩法/製作陣容/開發商全名佐證。⚠ 待考項：①developer 全名「業訊資訊」係採任務給定，chiuinan 僅寫「業訊」、未見一手佐證公司登記全名；②`genre: SLG` 為保守值——僅知「戰略遊戲」，無法確認是否光榮式君主經營（武將登用＋內政外交＋會戰），若日後查得屬 KOEI-like 應改 HSG；③series 留 null（「新三國演義」未證實為系列、與既有 series《三國演義》關係不明）；④玩法/staff/銷量查無、正文未杜撰。publisher_tw 與 developer 同為業訊資訊（chiuinan「業訊出品」）。
+
+- cdg-3732《魔法門7：血統與榮耀》台灣代理商「歐樂」佐證偏弱（2026-07-18，game-entry 補完 published:true）：`publisher_tw: 歐樂` 依 PTT Old-Games 討論串（使用者「耳聞歐樂代理所出的中文版」）＋ twideem 台灣發行檔案（xpartition 19990715A，含繁中攻略）交叉佐證；惟 PTT 屬回憶性質、非一手包裝佐證，正文已加 cite。待實體包裝／雜誌廣告確認發行商全名（歐樂資訊？）與確切發行日再定案。genre RPG、series 魔法門、developer_region US 均已確認無虞。
+
+- cdg-3468《蒼穹守護者》staff 單源＋publisher_tw 慣例（2026-07-18，game-entry 補完 published:true）：①製作人員（程式 Macbear/麥克熊、美術+劇本 林俊淳、企劃 Arthur、音樂 吳菁菁+錢之潮）僅見於單一來源 Bangumi（subject/343428），chiuinan 介紹頁未列人員 → 依單源原則未填 `staff[]`，待第二來源交叉驗證再補；②發行年兩說：chiuinan「1999 出品」vs Bangumi 上市 2000-03-29（NT$640），現 year=1999、正文並記 2000-03 上市；③`publisher_tw` 留 `[]`：任務指示補「光譜」，但 schema〈原廠發行不入 catalog〉＋native TW 手足款（cdg-1354 漢堂、cdg-2746 全景）皆留空，光譜為原廠自製自發行、developer 已載，故從 schema／慣例留空；④京東二手頁見「光谱博硕」字樣，博碩是否參與發行未證實。
+
+- cdg-0761《地城守護者2》localized 存疑（2026-07-18，game-entry 補完 published:true）：現 `localization_level: localized`、`publisher_tw: []`。正文載 Bullfrog 開發、EA 原廠發行，台灣官方繁中發行方查無；chiuinan 收錄為繁中介紹頁但疑僅對應繁化補丁，非官方繁中商業版。暫維持 localized（存疑非硬傷，未達「查無足跡」降級門檻），待實體包裝／雜誌廣告確認有無官方繁中版；若確認無，應降 `packaging`／`foreign`。前作 cdg-0760 為對照。
