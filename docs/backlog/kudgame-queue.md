@@ -1068,3 +1068,33 @@ Triage 結果：34 款 → **8 略過（已發佈）、15 補完（既有 stub�
 **本批重要訂正／發現**：cdg-3072 末日黎明＝俄 NMG（非韓）·region RU；cdg-3601 鐵甲紀元＝新意自製 FPS（非機甲 SLG）；cdg-4058 火狐狸證據指大陸騰圖·無台灣足跡→降 published:false（scope 待定）；GP500-2 與 World Cup 94 兩起 triage 誤判重複（風速小子已是 cdg-0079·世界盃已是 cdg-4457），build 階段查出並 dedup；丁丁在西藏整系列 cdg-0149/0150/0151 早已 reject。
 **丁丁在西藏（使用者裁決 2026-07-18）**：維持既有 reject cdg-0149、不復活（整個丁丁系列 0149/0150/0151 外文無台灣中文化足跡）。無檔案變動。
 **待核疑點**：見各批 review 旗標＋game-entry-review.md（cdg-4066 發行商分歧、cdg-2284 開發商分歧、cdg-4058 大陸 scope、cdg-5225 歐風代理、cdg-5228 中文名對應、cdg-5219 英特衛台灣代理）。
+
+---
+
+## 電腦休閒世界批次（2026-07-18）
+
+**關鍵發現**：「電腦休閒世界」＝智冠集團旗下 1992 起的中文遊戲代理發行品牌／產品線（chiuinan SWZ 系列碼，SWZ001–022 已知 22 款；rar 檔名編號另到 095+）。這批 rar 屬明確收錄範圍（智冠代理／中文化 DOS 遊戲）。publisher_tw 統一「智冠」、「電腦休閒世界」寫正文／aliases（比照 cdg-0039 先例）。
+
+Triage 結果：10 款 → 4 略過（已 published）、3 補完（既有 stub）、3 新建。
+
+### 略過（已 published [~]，可順補通路/alias）
+- [~] 俠影記 — cdg-1628 — SWZ001／智冠 1992 ARPG，已 published
+- [~] 鐵路A計劃 — cdg-0039 — SWZ003／A-Train III，已含電腦休閒世界考據
+- [~] 羅賓漢 — cdg-3975 — 俠盜羅賓漢＝Sierra Conquests of the Longbow 1991，已 published（**build 確認電腦休閒世界羅賓漢是否同款**，若為別款如 Millennium Robin Hood 則改新建）
+- [~] 模擬城市2000－摩登都會 — cdg-3176 — SimCity 2000，已 published（**順補 alias「摩登都會」**＝智冠中文版正名，rar 095）
+
+### 補完（既有 stub → published:true）✅
+- [x] 黑暗之蠱 — cdg-2269 — 補完（Dark Seed／Cyberdreams US 1992／ADV／localized；H.R. Giger 生物機械美術、640×350 高解析；交叉連結 cdg-2270 黑暗之蠱2）
+- [x] 戰神 — cdg-3399 — 補完（Warlords／SSG AU 1990／SLG；**publisher_tw [智冠,新世界]**、零售名《魔域聖戰》、**packaging/en 英文版未中文化**；**訂正**：戰神系列 cdg-3399/3400/3401… 即 SSG Warlords 系列同一 IP，非無關）
+- [x] 決戰撲克 — cdg-4250 — 補完（Solitaire's Journey／QQP US 1992／TBG 接龍合集；中文名意譯偏離、非撲克對戰；**電腦休閒世界品號 025，唯一有品號佐證款**）
+
+### 新建（[!] unverified stub，published:false）✅ id 鎖定 cdg-5229–5231
+- [!] 百戰小旅鼠2 — cdg-5229 — 新建 unverified stub（Lemmings 2: The Tribes／DMA Design GB 1993／PZG；查無台灣足跡、publisher_tw 空；交叉連結初代 cdg-4186）
+- [!] 忍者原人 — cdg-5230 — 新建 unverified stub（＝Joe & Mac/Caveman Ninja／Data East 1991 街機、DOS 移植 New World Computing／ACT；查無台灣足跡、降 published:false 統一慣例）
+- [!] 神勇毛毛蟲 — cdg-5231 — 新建 unverified stub（原作查無定論、全欄位 null；僅 rar 孤證）
+
+**決策（2026-07-18）**：① 建電腦休閒世界系列頁（使用者指示）；② 已 published 4 款純略過、僅 cdg-3176 補「摩登都會」alias。
+
+**關鍵訂正（研究 subagent）**：① **「電腦休閒世界」＝智冠平價副品牌 imprint**（與歐風軟體、軟體世界平價版並列，非雜誌／合輯）；② **SWZ ≠ 電腦休閒世界品號**——SWZ 是 chiuinan 自訂目錄碼（Soft-World 前綴、22 款），電腦休閒世界是智冠盒上三位數品號（到 095+），兩套不同系統；③ 除決戰撲克（025 有品號）外，其餘款 imprint 歸屬僅靠 rar 掃描檔名（無品號、無獨立佐證），正文措辭已保守化為「智冠代理＋收藏歸屬」；④ cdg-0039 鐵路A計畫正文「電腦休閒世界 1992 代理」與 SWZ003 早期磁片碼有時間張力，待核（未擅改，屬已略過款）。
+
+**本批完成（2026-07-18）**：10 款盤點 → **4 略過（cdg-1628/0039/3975/3176）、3 補完 published、3 新建 unverified stub（cdg-5229/5230/5231，皆 published:false）**。validate 全綠（games 4565/4565、errors 0）。**待辦**：cdg-3176 補「摩登都會」alias；建 topic 頁「電腦休閒世界」（比照 topics/歐風軟體遊戲列表.md、只列 025/095 兩筆有據品項、不用 SWZ 表、完整編號表待從 Endless Fight 骨灰集散地掃描補）。
