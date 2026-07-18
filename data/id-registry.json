@@ -47821,8 +47821,9 @@
       "keys": [
         "t:鬼神之門|北京娛動工場"
       ],
-      "status": "active",
-      "title_zh": "鬼神之門"
+      "status": "rejected",
+      "title_zh": "鬼神之門",
+      "reject_reason": "out of scope: 鬼神之門（北京娛動工場），2002 年前後發行，遊戲與開發商均與 DOS 時代缺乏關聯"
     },
     "cdg-5213": {
       "catalog_id": null,
@@ -47830,8 +47831,9 @@
       "keys": [
         "t:鬼神之門2：天涯何處|北京娛動工場"
       ],
-      "status": "active",
-      "title_zh": "鬼神之門2：天涯何處"
+      "status": "rejected",
+      "title_zh": "鬼神之門2：天涯何處",
+      "reject_reason": "out of scope: 鬼神之門2：天涯何處（北京娛動工場 2002），前作續作，同與 DOS 時代缺乏關聯"
     },
     "cdg-5214": {
       "catalog_id": null,
