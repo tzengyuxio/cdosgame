@@ -1098,3 +1098,22 @@ Triage 結果：10 款 → 4 略過（已 published）、3 補完（既有 stub�
 **關鍵訂正（研究 subagent）**：① **「電腦休閒世界」＝智冠平價副品牌 imprint**（與歐風軟體、軟體世界平價版並列，非雜誌／合輯）；② **SWZ ≠ 電腦休閒世界品號**——SWZ 是 chiuinan 自訂目錄碼（Soft-World 前綴、22 款），電腦休閒世界是智冠盒上三位數品號（到 095+），兩套不同系統；③ 除決戰撲克（025 有品號）外，其餘款 imprint 歸屬僅靠 rar 掃描檔名（無品號、無獨立佐證），正文措辭已保守化為「智冠代理＋收藏歸屬」；④ cdg-0039 鐵路A計畫正文「電腦休閒世界 1992 代理」與 SWZ003 早期磁片碼有時間張力，待核（未擅改，屬已略過款）。
 
 **本批完成（2026-07-18）**：10 款盤點 → **4 略過（cdg-1628/0039/3975/3176）、3 補完 published、3 新建 unverified stub（cdg-5229/5230/5231，皆 published:false）**。validate 全綠（games 4565/4565、errors 0）。**待辦**：cdg-3176 補「摩登都會」alias；建 topic 頁「電腦休閒世界」（比照 topics/歐風軟體遊戲列表.md、只列 025/095 兩筆有據品項、不用 SWZ 表、完整編號表待從 Endless Fight 骨灰集散地掃描補）。
+
+## 2026-07-18 批次（13 款）
+
+Triage 完成。`[?]` 待決；決定後轉 `[ ]` 依批 build（每 5 款）。
+
+- [x] 魔法門之英雄無敵3 — cdg-3739 — 已發佈；publisher 歐樂→歐樂影視（決策覆寫，已改）
+- [ ] 超級酒店大亨2 — cdg-2229 — 補完+publish（博亞科技，native TW，2000）
+- [ ] 毛毛怪大歷險 — cdg-4343 — 決策：收錄 build（純動作平台遊戲、非 edutainment）；韓 Tri Ordess，梵太師發行（Image#1）
+- [ ] 非常天才 — cdg-5217 — 升級 unverified stub→publish（正先，益智問答 3D，Image#2 電腦玩家 preview）
+- [~] 地城守護者2 — cdg-0761 — 已發佈（localized存疑仍開，無新料）
+- [ ] 地獄駭客 — 新建 — 會宇發行；content/registry 查無，英文原名 build 時研究
+- [ ] 越野英雄1 — cdg-2242 — 決策：1與2都 build（英特衛，V-Rally 1999）
+- [ ] 越野英雄2 — cdg-2243 — 決策：1與2都 build（英特衛，V-Rally 2 2000）
+- [ ] 銀焰洗劍錄 — cdg-2925 — 補完+publish（Silver 1999）；publisher 覆寫 新天地→英特衛（決策）
+- [ ] 艦隊指揮官 — cdg-0864 — 補完+publish（Jane's Fleet Command，美商藝電）
+- [ ] 銀河戰國列傳/Schwarzschild — cdg-2898/4074 — 決策：研究後判斷（大宇 vs 華義、2898 是否重複）
+- [ ] SEGA越野冠軍賽2 — cdg-0640 — 補完+publish（Sega Rally 2，億弘）；標題需清理
+- [ ] 解放軍之怒 — cdg-0902 — 補完+publish（People's General，名宇資訊 ✓）
+- [ ] 皇帝之橫世霸業 — cdg-1417 — 補完+publish（詮積，native TW 1999）
