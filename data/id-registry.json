@@ -47825,6 +47825,42 @@
       ],
       "status": "active",
       "title_zh": "越野大車拼2"
+    },
+    "cdg-5215": {
+      "catalog_id": null,
+      "developer": "Nihon Create",
+      "keys": [
+        "t:美夢成真|Nihon Create"
+      ],
+      "status": "active",
+      "title_zh": "美夢成真"
+    },
+    "cdg-5216": {
+      "catalog_id": null,
+      "developer": "PyroTechnix",
+      "keys": [
+        "t:重返克朗多|PyroTechnix"
+      ],
+      "status": "active",
+      "title_zh": "重返克朗多"
+    },
+    "cdg-5217": {
+      "catalog_id": null,
+      "developer": "正先實業",
+      "keys": [
+        "t:非常天才|正先實業"
+      ],
+      "status": "active",
+      "title_zh": "非常天才"
+    },
+    "cdg-5218": {
+      "catalog_id": null,
+      "developer": "Microïds",
+      "keys": [
+        "t:稱霸四海|Microïds"
+      ],
+      "status": "active",
+      "title_zh": "稱霸四海"
     }
   }
 }
