@@ -26996,8 +26996,9 @@
       "keys": [
         "cat:SCD1973"
       ],
-      "status": "active",
-      "title_zh": "初段手談"
+      "status": "rejected",
+      "title_zh": "初段手談",
+      "reject_reason": "out of scope: 圍棋 AI 對弈引擎軟體（陳志行「手談」系列），無劇情/遊戲化玩法、屬棋類工具程式，非遊戲"
     },
     "cdg-2943": {
       "catalog_id": "SCD2058",
@@ -28435,8 +28436,9 @@
       "keys": [
         "cat:SCD2203"
       ],
-      "status": "active",
-      "title_zh": "棋侶：圍棋爭霸"
+      "status": "rejected",
+      "title_zh": "棋侶：圍棋爭霸",
+      "reject_reason": "out of scope: 兒童向圍棋學習軟體（晟業「棋侶」edutainment 品牌旗下），主要面向兒童教學"
     },
     "cdg-3099": {
       "catalog_id": null,
