@@ -47926,6 +47926,33 @@
       ],
       "status": "active",
       "title_zh": "超級立體泡泡"
+    },
+    "cdg-5229": {
+      "catalog_id": null,
+      "developer": "DMA Design",
+      "keys": [
+        "t:百戰小旅鼠2|DMA Design"
+      ],
+      "status": "active",
+      "title_zh": "百戰小旅鼠2"
+    },
+    "cdg-5230": {
+      "catalog_id": null,
+      "developer": "New World Computing",
+      "keys": [
+        "t:忍者原人|New World Computing"
+      ],
+      "status": "active",
+      "title_zh": "忍者原人"
+    },
+    "cdg-5231": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:神勇毛毛蟲|None"
+      ],
+      "status": "active",
+      "title_zh": "神勇毛毛蟲"
     }
   }
 }
