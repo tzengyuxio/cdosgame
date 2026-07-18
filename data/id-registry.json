@@ -37932,8 +37932,9 @@
       "keys": [
         "t:俠客遊2|None"
       ],
-      "status": "active",
-      "title_zh": "俠客遊2"
+      "status": "merged",
+      "title_zh": "俠客遊2",
+      "merged_into": "cdg-1620"
     },
     "cdg-4136": {
       "catalog_id": null,
