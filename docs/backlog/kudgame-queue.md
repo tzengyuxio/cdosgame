@@ -1058,6 +1058,6 @@ Triage 結果：34 款 → **8 略過（已發佈）、15 補完（既有 stub�
 - [x] R0 reject·古劍奇譚 cdg-0903 ✅ commit 709501dd
 - [x] M1 補完：cdg-3072、cdg-0454、cdg-3601、cdg-2408、cdg-4066 ✅ commit 97a3aa9c（4 published＋cdg-2408 玩法查無留 unpublished；重要訂正：cdg-3072 NMG＝俄 New Media Generation·region RU、cdg-3601 新意自製 FPS 非機甲 SLG、cdg-0454 genre ADV 點擊冒險、cdg-4066 補 dev 旭光資訊/genre SRPG/adaptation。待核：①cdg-4066 發行商旭光自行 vs 旭光+智冠分歧→publisher_tw 留空；②cdg-0454 台灣代理疑英特衛無一手佐證→留空；③cdg-3072 歐版年 2000 vs 台版 2001；④cdg-2408 玩法無來源）
 - [x] M2 補完：cdg-2284、cdg-5095、cdg-0378、cdg-1465、cdg-1469 ✅ commit da07da63（4 published＋cdg-5095 超能力查無足跡留 unverified stub；cdg-2284 genre ETC 節奏遊戲、清掉「G1305-」型錄碼別名；cdg-1465/1469 adult:true；美夢成真台廠 cdg-0378 與日廠 cdg-5215 已區分。待核：①cdg-2284 開發商右將 vs 獅子吼+智冠分歧（正文並陳、欄維持右將）；②cdg-5095 unverified 待二源）
-- [ ] M3 補完：cdg-4058、cdg-4244、cdg-1681、cdg-1682、cdg-1745
+- [x] M3 補完：cdg-4058、cdg-4244、cdg-1681、cdg-1682、cdg-1745 ✅ commit 1a423864（cdg-1681 光速兔崽子＝宏申代理 packaging published；cdg-1682/cdg-4244 查無台灣代理→foreign published:false；cdg-1745 Porntris＝Image Line/BE foreign adult published:false；**cdg-4058 火狐狸主線訂正**：subagent 設 published:true 但證據全指大陸騰圖聯合電子、無台灣代理足跡→降 published:false、清「G1238-」型錄碼別名、region 留 null。待核：①cdg-4058 大陸源無台灣足跡、scope 待定（記 game-entry-review）；②cdg-1682 續作台灣代理未證）
 - [ ] M4 新建：巫毒小子、魔女隨堂測驗、風之翼、丁丁在西藏、倉庫工人
 - [ ] M5 新建：BARYON、Cool Spot、GP500-2、World Cup USA 94、Super Bubble Pop
