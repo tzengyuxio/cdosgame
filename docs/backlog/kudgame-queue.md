@@ -30,29 +30,29 @@
 
 **[ ] 補完既有 stub（published:false → 補完＋publish）**
 - [x] 南極冰怪 — cdg-0199 — Prisoner of Ice/Infogrames，智冠·軟體世界，中文訊息中文語音，Image #3（軟世82期）
-- [ ] 銀色彈珠檯 — cdg-2926 — Silverball/EPIC，新藝代理發行
-- [ ] 燃燒的野球5 — cdg-3324 — Hardball 5/Accolade，軟體世界·智冠，Image #4（軟世82期）
+- [x] 銀色彈珠檯 — cdg-2926 — Silverball/EPIC，新藝代理發行
+- [x] 燃燒的野球5 — cdg-3324 — Hardball 5/Accolade，軟體世界·智冠，Image #4（軟世82期）
 - [x] 諸神的黃昏 — cdg-3339 — Interstel，電腦休閒世界獨家代理
 - [x] 上古神兵 — cdg-3895 — 電腦休閒世界獨家代理，中英雙語，CGW全美戰略榜首；軟世54期(1993/9)廣告。★Q1決：與「中古戰史」同款，正文記錄中古戰史（軟世48期1993/3）為早期廣告譯名/別名，不另開 id
 - [x] 龍穴歷險記3 — cdg-4083 — Dragon's Lair III，電腦休閒世界獨家代理，卡通動作
 - [x] 天命之戰 — cdg-4117 — Battles of Destiny，電腦休閒世界，中英雙語
-- [ ] 熱血小毛球 — cdg-4252 — Fury of the Furries，金天才資訊·台灣晶技
-- [ ] 戰國群英 — cdg-4387 — Samurai: The Way of the Warrior，立東，戰略
+- [x] 熱血小毛球 — cdg-4252 — Fury of the Furries，金天才資訊·台灣晶技
+- [x] 戰國群英 — cdg-4387 — Samurai: The Way of the Warrior，立東，戰略
 
 **[ ] 新建**
-- [ ] 鐵甲戰士 — new — Rise of the Robots/Mirage，金天才資訊·台灣晶技
-- [ ] 原星戰紀：邊境防衛戰 — new — Protostar: War on the Frontier，電腦休閒世界
-- [ ] 異形軍團 — new — Xenocide，第三波，動作
-- [ ] 歐戰風雲 — new — 資策科技
-- [ ] 北非決戰 — new — 資策科技
-- [ ] 魔神鍋 — new — Super Cauldron，漢堂，Titus 1992
-- [ ] 阿拉伯歷險 狐狸精 — new — 漢堂，Titus 1992
-- [ ] 全球效應 — new — Global Effect，電腦休閒世界
+- [x] 鐵甲戰士 — new — Rise of the Robots/Mirage，金天才資訊·台灣晶技
+- [x] 原星戰紀：邊境防衛戰 — new — Protostar: War on the Frontier，電腦休閒世界
+- [x] 異形軍團 — new — Xenocide，第三波，動作
+- [x] 歐戰風雲 — new — 資策科技
+- [x] 北非決戰 — new — 資策科技
+- [x] 魔神鍋 — new — Super Cauldron，漢堂，Titus 1992
+- [x] 阿拉伯歷險 狐狸精 — new — 漢堂，Titus 1992
+- [x] 全球效應 — new — Global Effect，電腦休閒世界
 - [x] ~~中古戰史~~ — ★Q1決：併入上古神兵 cdg-3895 作別名，不另開 id
-- [ ] 爆笑海底城 — new — 電腦休閒世界
-- [ ] 決戰保齡球 — new — 九藝資訊，運動，84年3月預定，Image #1（軟世70+71期）
-- [ ] 妖局 十六張麻將王 — new — 軟體世界，博弈
-- [ ] 夢幻占星館 — new — KIWI，Image #2（軟世70+71期），娛樂占卜工具程式。★Q2決：收錄、publish:true
+- [x] 爆笑海底城 — new — 電腦休閒世界
+- [x] 決戰保齡球 — new — 九藝資訊，運動，84年3月預定，Image #1（軟世70+71期）
+- [x] 妖局 十六張麻將王 — new — 軟體世界，博弈
+- [x] 夢幻占星館 — new — KIWI，Image #2（軟世70+71期），娛樂占卜工具程式。★Q2決：收錄、publish:true
 
 ## 相關檔案
 
