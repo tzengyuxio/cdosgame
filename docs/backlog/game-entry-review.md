@@ -805,3 +805,6 @@ created: 2026-06-20
 - cdg-5217《非常天才》查無足跡 unverified stub（2026-07-18，kudgame L3，published:false）：開發商線索＝正先實業（Front Fareast/FFE，台灣，早年電玩備份卡/相容主機商，庫內另有 cdg-0434 天使之約、cdg-0674 世紀終極賽車）。**對「非常天才」這款本身，web/巴哈/拍賣/chiuinan/rwv/omega/MobyGames 全查無任何公開產品足跡**（報導/廣告/發行紀錄/介紹頁皆無）。依 triage「完全查無→unverified stub」建，year/genre/platform 全 null、正文未杜撰玩法。待一手足跡再補。
 
 - cdg-4058《火狐狸》developer_region 存疑、與任務框定不符（2026-07-18，game-entry 補完 published:true）：任務框定為「台灣火狐狸工作室自製」，但研究證據幾乎全指向大陸——①stub provenance 全為大陸來源（fandom cn-dos／offlinelist／rwv），無任何 chiuinan 或台灣一手足跡；②發行商「騰圖聯合電子」（Tengtu）為對岸廠商；③劇情文案用簡體字、另有「大陸版說明書」；④僅豆瓣／cn-dos wiki 收錄。依 cdg-1925 先例（旁證指向 CN 但無來源直述所在地→暫留 null），`developer_region` 留 null、未逕標 TW。待一手佐證（包裝／廠商登記）確認火狐狸工作室與騰圖聯合電子所在地；若確為大陸且無台灣足跡，需重評收錄。年份三說：fandom 1997（採用）／豆瓣 1996／omega 收藏描述 1998；genre ACT（豆瓣「橫版過關／動作」）。發行商為騰圖聯合電子（非台灣發行商，publisher_tw 留空）、製作人疑為「梵太師」（omega 標題單源，未填 staff）。
+
+- cdg-3232《橫掃千軍2：改朝換代》待補廣告頁後升中文版（2026-07-18）：使用者親證有中文版、手邊有雜誌廣告頁，之後補上。惟現有 web 研究（chiuinan 介紹頁、tw.bbs.rec.videogame 販售清單、露天二手）僅見英文版流通、查無中文化；露天有單筆「第三波 大盒款」標示但可靠度低。⚠ 待使用者提供廣告頁後，據以升 `localization_level: localized`＋`content_language: zh`、補台灣發行商、正文加廣告 footnote/來源。現維持 foreign 不動。
+- cdg-5216《重返克朗多》待補廣告頁後升中文版（2026-07-18，更新前註）：使用者親證有中文版、手邊有雜誌廣告頁，之後補上。此前研究查無中文化、且 1999 對拷清單標「台灣未上市」（見前註）。⚠ 待廣告頁到位後，據以升 `localization_level: localized`＋`content_language: zh`、確認台灣發行商（現標第三波）、正文加廣告 footnote/來源。現維持 packaging/en 不動。
