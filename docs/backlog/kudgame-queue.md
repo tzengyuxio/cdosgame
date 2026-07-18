@@ -1055,8 +1055,8 @@ Triage 結果：34 款 → **8 略過（已發佈）、15 補完（既有 stub�
 - [ ] Super Bubble Pop 超級立體泡泡 — 外文進口
 
 ### 批次規劃（每批 build 完 commit＋更新狀態）
-- [ ] R0 reject·古劍奇譚 cdg-0903
-- [ ] M1 補完：cdg-3072、cdg-0454、cdg-3601、cdg-2408、cdg-4066
+- [x] R0 reject·古劍奇譚 cdg-0903 ✅ commit 709501dd
+- [x] M1 補完：cdg-3072、cdg-0454、cdg-3601、cdg-2408、cdg-4066 ✅ commit 97a3aa9c（4 published＋cdg-2408 玩法查無留 unpublished；重要訂正：cdg-3072 NMG＝俄 New Media Generation·region RU、cdg-3601 新意自製 FPS 非機甲 SLG、cdg-0454 genre ADV 點擊冒險、cdg-4066 補 dev 旭光資訊/genre SRPG/adaptation。待核：①cdg-4066 發行商旭光自行 vs 旭光+智冠分歧→publisher_tw 留空；②cdg-0454 台灣代理疑英特衛無一手佐證→留空；③cdg-3072 歐版年 2000 vs 台版 2001；④cdg-2408 玩法無來源）
 - [ ] M2 補完：cdg-2284、cdg-5095、cdg-0378、cdg-1465、cdg-1469
 - [ ] M3 補完：cdg-4058、cdg-4244、cdg-1681、cdg-1682、cdg-1745
 - [ ] M4 新建：巫毒小子、魔女隨堂測驗、風之翼、丁丁在西藏、倉庫工人
