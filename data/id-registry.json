@@ -47954,6 +47954,15 @@
       ],
       "status": "active",
       "title_zh": "神勇毛毛蟲"
+    },
+    "cdg-5232": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:地獄駭客|None"
+      ],
+      "status": "active",
+      "title_zh": "地獄駭客"
     }
   }
 }
