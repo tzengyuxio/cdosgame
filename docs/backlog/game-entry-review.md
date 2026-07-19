@@ -837,3 +837,7 @@ created: 2026-06-20
 - cdg-5244《夢幻占星館》收錄裁定/genre/上市（2026-07-19，kudgame 軟世廣告批 新建 published:true）：KIWI 台灣自製星座/血型占卜娛樂軟體，一手＝軟世70+71期廣告(類型標「工具」、廠商自陳「不是遊戲、不是CAI，是一張車票」)。★已裁定收錄(娛樂占卜、有雜誌足跡)。⚠①genre **ETC**——22 類無「工具/占卜」對應 key，落 catch-all，若日後擴充更貼近 enum 可重判；②web 查無此軟體任何額外資料、是否實際上市未證(廣告標預定二月)，release_status unverified；③size null(3.6MB 屬程式容量、寫入 footnote)。native、developer/publisher KIWI。
 
 - cdg-5245《銀河戰國列傳 GXR：時空的使者》大宇代理硬證/發行年待補（2026-07-19，game-entry 新建 published:true）：Schwarzschild GXR～時現の遣人(工畫堂/Kogado，1998 Win95，系列外傳、擴充自1997 Schwarzschild GX)。⚠①大宇資訊台灣代理僅依使用者提供＋豆瓣佐證中文版存在，大宇官方作品清單未列、無盒裝背標等一手硬證；②台灣版確切發行年(1998原作年 vs 約1999上市)與中文化程度(訊息 vs 全中文)無一手佐證，暫 localized；③platform Windows(非DOS，1998 Win95 作，據實填，同系列 EX cdg-4074 為 DOS 1995)；④日文真副標「時現の遣人」，使用者所給「時の使者/時空的使者」為中文副標回填，皆入 alias。series 銀河戰國列傳、genre SLG。
+
+## cdg-5252 大君主戰役（2026-07-19b 第三波原裝光碟精品批）
+- 第三波原裝光碟精品型錄碼 53186J064、980 元，released 確定；但中文名對應的西洋原作未能多源確證，developer/year/genre 暫 null。
+- 假說：可能為 Warlords II Deluxe（SSG, AU, 1995）。若成立，與 cdg-3400 戰神2（Warlords II, 智冠中文版）為同底本不同台灣發行 → 需決定 merge 或消歧義並存。證據為循環推論，未寫死、未 merge，待第三波實體型錄/廣告或雜誌確認。

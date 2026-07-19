@@ -48208,6 +48208,51 @@
 			],
 			"status": "active",
 			"title_zh": "雲絲頓賽車"
+		},
+		"cdg-5251": {
+			"catalog_id": null,
+			"developer": "Dynamix",
+			"keys": [
+				"t:機甲神兵--任務片|Dynamix"
+			],
+			"status": "active",
+			"title_zh": "機甲神兵--任務片"
+		},
+		"cdg-5252": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:大君主戰役|None"
+			],
+			"status": "active",
+			"title_zh": "大君主戰役"
+		},
+		"cdg-5253": {
+			"catalog_id": null,
+			"developer": "Cryo Interactive",
+			"keys": [
+				"t:失落的伊甸園|Cryo Interactive"
+			],
+			"status": "active",
+			"title_zh": "失落的伊甸園"
+		},
+		"cdg-5254": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:鐵血殺手|None"
+			],
+			"status": "active",
+			"title_zh": "鐵血殺手"
+		},
+		"cdg-5255": {
+			"catalog_id": null,
+			"developer": "Sierra On-Line",
+			"keys": [
+				"t:幻想空間合集|Sierra On-Line"
+			],
+			"status": "active",
+			"title_zh": "幻想空間合集"
 		}
 	}
 }

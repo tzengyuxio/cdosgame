@@ -78,10 +78,10 @@
 - [!] 夢魘 — cdg-5248
 - [x] 異星特警 — cdg-5249 — Creature Shock/Argonaut 1994
 - [x] 雲絲頓賽車 — cdg-5250 — NASCAR Racing/Papyrus 1994 — Winston/NASCAR 賽車
-- [ ] 機甲神兵--任務片 — new — EarthSiege 擴充/任務片
-- [ ] 大君主戰役 — new
-- [ ] 失落的伊甸園 — new — Lost Eden/Cryo
-- [ ] 鐵血殺手 — new
+- [x] 機甲神兵--任務片 — cdg-5251 — EarthSiege Expansion Pack/Dynamix 1995
+- [!] 大君主戰役 — cdg-5252 — 原作未證(released stub)；疑 Warlords II，見 review
+- [x] 失落的伊甸園 — cdg-5253 — Lost Eden/Cryo 1995
+- [!] 鐵血殺手 — cdg-5254 — 原作未證(released stub)
 - [ ] Wild Blue Yonder I — new
 - [ ] Wild Blue Yonder II — new
 - [ ] 宇宙傳奇VI — new — Space Quest 6（注意勿混 cdg-4562 新宇宙傳奇/cdg-4563 宇宙傳奇5）
@@ -93,7 +93,7 @@
 - [ ] 機甲神兵II－空中武力 — new — EarthSiege 2/空中武力
 - [ ] 南北戰爭 — new — Civil War 主題
 - [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）
-- [ ] 幻想空間合集 — new — Q1決：Larry I~VI 合集獨立條目
+- [x] 幻想空間合集 — cdg-5255 — Larry Greatest Hits/Sierra 1994
 - [ ] 空戰英雄精典合集 — new — Q1決：Aces 合集獨立條目
 - [ ] 古靈精怪大冒險 — new — ★Q2解：型錄檔 53186J063 有獨立編號→與 cdg-0926 古靈精怪(Eko)為不同第三波產品，新建
 
