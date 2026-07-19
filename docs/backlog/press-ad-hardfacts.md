@@ -24,6 +24,17 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 5. frontmatter 的 developer/publisher/year/genre **不因單張廣告更動**，有出入只列複查清單。
 6. commit 拆：`content(games): N 款補廣告硬事實`。未 push。
 
+## 進度
+
+- **2026-07-19 批 1（7 款）**：cdg-0199（早前已於 fn01 引軟體世界82期廣告，正文不動）、cdg-0640 cdg-0712 cdg-0761 cdg-0864 cdg-0902 cdg-1068 已補 `pcgamer96` footnote＋硬事實 cite。validate 通過。
+
+### frontmatter 複查（批 1，只列不改）
+
+- cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
+- cdg-0712：`publisher_tw: []` 空，廣告由**美商藝電（EA）**刊登發行（developer 白金家族維持）→ 是否補 EA。
+- cdg-0761：`publisher_tw: []` 空，正文已述美商藝電發行 → 應補 `publisher_tw` 美商藝電。
+- cdg-1068：`developer_region: JP`，廣告標「Honorock's Systems.（**韓國**）」與條目日本考據衝突；條目已有 archive.org／日本流通一手佐證支持日本說，**維持日本**，僅記錄。
+
 ## 56 張 ad 待處理清單（55 條目，cdg-3895 有兩張）
 
 電腦玩家96 與軟體世界（第48/50/54/60/82/90 期等）混合，刊期見各條目 caption：
