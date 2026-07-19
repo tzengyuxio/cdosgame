@@ -121,17 +121,17 @@
 - [!] 夢魘 — cdg-5248 — 原作查無（Noctropolis/Dark Eye/Shivers 皆無據），維持 stub false — 上一批已建 stub，本批補
 
 **[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
-- [ ] 龍之封印 — cdg-5269
-- [ ] 狂飆武士 — cdg-5270
-- [ ] 星戰風雲 — cdg-5271
-- [ ] 飛虎戰將 — cdg-5272
-- [ ] 太空小英豪 — cdg-5273
-- [ ] 拂曉巡弋 — cdg-5274
-- [ ] 星艦傳奇 — cdg-5275
-- [ ] 謀略王子 — cdg-5276
-- [ ] 比薩大亨 — cdg-5277 — Pizza Tycoon
-- [ ] 齊柏林飛船 — cdg-5278
-- [ ] 2050海底戰爭 — cdg-5279
+- [x] 龍之封印 — cdg-5269 — Dragonsphere/MicroProse 1994，碼53186J031 released publish（辨識中高信心）
+- [!] 狂飆武士 — cdg-5270 — 碼53186J041 released但原作未確認，stub false
+- [!] 星戰風雲 — cdg-5271 — 碼53186J042；疑Star Crusader(GameTek/Take-Two 1994)未證，stub false
+- [x] 飛虎戰將 — cdg-5272 — Flying Tigers/Ticsoft 1994，碼53186J045 released publish
+- [R] 太空小英豪 — cdg-5273 — SpaceKids(Evryware/MicroProse 1994) 兒童edutainment，SCOPE reject 不建檔，registry記rejected
+- [x] 拂曉巡弋 — cdg-5274 — Dawn Patrol/Rowan-Empire 1994，碼53186J068 released publish
+- [!] 星艦傳奇 — cdg-5275 — 疑Starlord/Third Millennium 1993(中信心)，型錄預告 unverified stub
+- [!] 謀略王子 — cdg-5276 — Machiavelli the Prince/Holistic 1995，預告 unverified stub
+- [!] 比薩大亨 — cdg-5277 — Pizza Tycoon/Cybernetic-MicroProse 1994，預告 unverified stub
+- [!] 齊柏林飛船 — cdg-5278 — Zeppelin: Giants of the Sky/Ikarion 1994，預告 unverified stub
+- [x] 2050海底戰爭 — cdg-5279 — Subwar 2050/Particle Systems 1993，碼53186J048 released publish
 - [!] Nerves of Steel — cdg-5280 — Rainmaker/Merit 1995 FPS，型錄預告 unverified stub
 - [!] Narvester — cdg-5281 — 確為 Harvester(DigiFX/Merit 1996)，型錄以Narvester列預告 unverified stub
 - [!] Top Gun — cdg-5282 — Top Gun: Fire at Will(SpectrumHoloByte 1996)，預告 unverified stub
