@@ -841,3 +841,7 @@ created: 2026-06-20
 ## cdg-5252 大君主戰役（2026-07-19b 第三波原裝光碟精品批）
 - 第三波原裝光碟精品型錄碼 53186J064、980 元，released 確定；但中文名對應的西洋原作未能多源確證，developer/year/genre 暫 null。
 - 假說：可能為 Warlords II Deluxe（SSG, AU, 1995）。若成立，與 cdg-3400 戰神2（Warlords II, 智冠中文版）為同底本不同台灣發行 → 需決定 merge 或消歧義並存。證據為循環推論，未寫死、未 merge，待第三波實體型錄/廣告或雜誌確認。
+
+## cdg-3896 射波 開發商爭議（2026-07-19g 廠商雜牌批）
+- 現 developer=安寶（安寶為 catalog 既有多款開發商：cdg-3897 聖城劫、cdg-5094）。但 cn-dos-games fandom wiki 把「射波(1992)」歸 **安華 Onwa**（https://cn-dos-games.fandom.com/zh/wiki/射波_(1992)、Category:Onwa）。單源，未推翻既有安寶歸屬，待二次查核確認安寶 vs 安華。
+- publisher_tw=[立東] 依使用者提供清單（立東軟體代理），外部來源未佐證立東代理足跡，catalog basis。

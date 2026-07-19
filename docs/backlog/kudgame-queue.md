@@ -294,9 +294,9 @@
 - [~] 台北夢幻幾何 — cdg-0931（花與蝴蝶/資策科技）
 
 **[ ] 補完既有短條/待發佈（published:false 或極短 → 補完＋publish）**
-- [ ] 射波 — cdg-3896（安寶；正文僅 55 字，補完＋補立東足跡）
-- [ ] 百戰小旅鼠2 — cdg-5229（DMA Lemmings 2；有正文 published:false → 抽驗後 publish）
-- [ ] 神勇毛毛蟲 — cdg-5231（有正文 published:false → 抽驗後 publish）
+- [x] 射波 — cdg-3896（安寶/立東；擴寫＋dev 安寶vs安華爭議記 review）
+- [x] 百戰小旅鼠2 — cdg-5229（Lemmings 2/DMA；publish）
+- [x] 神勇毛毛蟲 — cdg-5231（Creepers/Destiny Software 1993；publish）
 - [x] 太空魯賓遜 — cdg-3904（Robinson's Requiem/Silmarils 1994）
 - [x] 永恆之門 — cdg-4153（Ishar 3/Silmarils 1994；系列＝無限之門）
 - [x] 地下城主 — cdg-0758（FTL Dungeon Master 1987/松崗代理）
@@ -322,8 +322,8 @@
 **[ ] AMBIGUOUS — 已答（決策已定）**
 - [ ] 龍之道（立東）— ★build 研究決定：查立東龍之道＝Drakkhen 則補 cdg-4280＋掛立東；不同款則新建，4280 不動
 - [ ] 頑皮貓（亞洲金磁片16）— ★決：新建獨立 stub（≠cdg-4159 Fort Apocalypse）；查無足跡 stub false
-- [ ] 橫掃千軍（美商新美）— ★決：補完 cdg-3231（TA 本體 Cavedog 1997）＋掛美商新美；3230/3232 不動
-- [ ] SUPER大戰略DOSV（琪珊）— ★決：build 確認同款後 merge cdg-4030→cdg-2204（game-triage），補完主條
+- [x] 橫掃千軍（美商新美）— cdg-3231 補完 TA 本體(Cavedog 1997)＋掛美商新美(GT Interactive 台灣)＋publish
+- [x] SUPER大戰略DOSV（琪珊）— cdg-2204 補完(SystemSoft/琪珊)＋publish；cdg-4030 merge→2204（同款確認）
 
 ## 相關檔案
 
