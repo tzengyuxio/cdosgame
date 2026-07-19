@@ -48659,6 +48659,42 @@
       ],
       "status": "active",
       "title_zh": "武士戰弈"
+    },
+    "cdg-5299": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔法王國|None"
+      ],
+      "status": "active",
+      "title_zh": "魔法王國"
+    },
+    "cdg-5300": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:宇宙戰艦|None"
+      ],
+      "status": "active",
+      "title_zh": "宇宙戰艦"
+    },
+    "cdg-5301": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:帝國生死鬥|None"
+      ],
+      "status": "active",
+      "title_zh": "帝國生死鬥"
+    },
+    "cdg-5302": {
+      "catalog_id": null,
+      "developer": "LucasArts",
+      "keys": [
+        "t:絕地大反攻2|LucasArts"
+      ],
+      "status": "active",
+      "title_zh": "絕地大反攻2"
     }
   }
 }
