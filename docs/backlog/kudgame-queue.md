@@ -58,21 +58,26 @@
 
 決策前置：全批第三波原裝光碟進口，在收錄範圍（thirdwave-early-imports 慣例）。Q1決＝合集款建獨立條目；Q2決＝古靈精怪大冒險 build 階段研究確認同款/新款。內容完整 publish:true，查無足跡 stub false。新 id 從 cdg-5246 起。
 
-**[~] 已存在（抽驗即可）**
+**[~] 已存在且已發佈（有正文 ~330 字，抽驗即可）**
 - [~] 機甲神兵 — cdg-4664 — 機甲神兵：地球防衛戰 EarthSiege
 - [~] 國王密使VII — cdg-1049 — 國王密使7：沒有王子的新娘
-- [~] 凱蘭迪亞傳奇III — cdg-2935 — 瑪爾寇的復仇
 - [~] 大競技場 — cdg-4666 — 機甲神兵：大競技場 Battledrome
 - [~] 奇妙大百科II — cdg-1297
-- [~] 幽魂 — cdg-0607 — Gabriel Knight 1
-- [~] Gabriel Knight II — cdg-0608 — 幽魂2
+
+**[ ] 空 stub 需補完（published:false、正文 0 字）**
+★triage 更正：Gabriel Knight＝狩魔獵人（非幽魂）；Phantasmagoria＝幽魂。
+- [x] 凱蘭迪亞傳奇III — cdg-2935 — 瑪爾寇的復仇 Westwood
+- [x] 幽魂 — cdg-0607 — Phantasmagoria（Sierra/Roberta Williams 1995），非 Gabriel Knight
+- [x] Gabriel Knight II — cdg-3529 — 狩魔獵人2：心魔 The Beast Within（sibling cdg-3528 狩魔獵人：原罪 已發佈 localized）
+
+（cdg-0608 Phantasmagoria 2 非本清單款，暫不處理）
 
 **[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
-- [ ] 勁爆美國職棒 — new — 抽驗是否＝cdg-3004 勁爆美國棒球(Triple Play)，否則新建
-- [ ] 海底英雄 — new
-- [ ] 夢魘 — new
-- [ ] 異星特警 — new
-- [ ] 雲絲頓賽車 — new — Winston/NASCAR 賽車
+- [!] 勁爆美國職棒 — cdg-5246 — 抽驗是否＝cdg-3004 勁爆美國棒球(Triple Play)，否則新建
+- [!] 海底英雄 — cdg-5247
+- [!] 夢魘 — cdg-5248
+- [x] 異星特警 — cdg-5249 — Creature Shock/Argonaut 1994
+- [x] 雲絲頓賽車 — cdg-5250 — NASCAR Racing/Papyrus 1994 — Winston/NASCAR 賽車
 - [ ] 機甲神兵--任務片 — new — EarthSiege 擴充/任務片
 - [ ] 大君主戰役 — new
 - [ ] 失落的伊甸園 — new — Lost Eden/Cryo
@@ -90,7 +95,9 @@
 - [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）
 - [ ] 幻想空間合集 — new — Q1決：Larry I~VI 合集獨立條目
 - [ ] 空戰英雄精典合集 — new — Q1決：Aces 合集獨立條目
-- [ ] 古靈精怪大冒險 — ? — Q2決：build 研究確認是否＝cdg-0926 古靈精怪(Eko)
+- [ ] 古靈精怪大冒險 — new — ★Q2解：型錄檔 53186J063 有獨立編號→與 cdg-0926 古靈精怪(Eko)為不同第三波產品，新建
+
+★型錄檔 content/topics/第三波綜合軟體目錄.md「原裝光碟精品系列」為權威足跡：已發行款(53186JNNN)標 release_status:released＋release_codes；「預告」款(幽魂/GK II 已補完，其餘機甲神兵任務片除外)標 release_status:unverified。已發行有碼：機甲神兵任務片 J062、大君主戰役 J064、失落的伊甸園 J065、鐵血殺手 J066、幻想空間合集 J044、空戰英雄合集 J061、古靈精怪大冒險 J063。預告款：Wild Blue Yonder I/II、宇宙傳奇VI、Last Dynasty、3D Ultra Pinball、Lost in Town、Daedalus、警察故事V、機甲神兵II、南北戰爭、第七訪客II。
 
 ## 相關檔案
 
