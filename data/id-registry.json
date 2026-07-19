@@ -38368,8 +38368,9 @@
 			"keys": [
 				"t:3D立體彈子檯|None"
 			],
-			"status": "active",
-			"title_zh": "3D立體彈子檯"
+			"status": "merged",
+			"title_zh": "3D立體彈子檯",
+			"merged_into": "cdg-3025"
 		},
 		"cdg-4174": {
 			"catalog_id": null,

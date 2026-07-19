@@ -166,7 +166,7 @@
 **[ ] 既有空 stub（published:false）→ 補完＋publish**
 - [x] B17 飛行堡壘 — cdg-0045 — G038 — Vektor Grafix B-17 Flying Fortress 1992（勿混 cdg-0044 Mighty 8th）
 - [x] 世紀金冠軍 — cdg-4197 — G048 — MicroProse World Circuit/F1GP（勿混 cdg-0403 GP2）
-- [x] 彈子檯 — cdg-3025 — G049 — Littlewing Tristan；判定與 cdg-4173 非同款不合併(4173 Tristan 別名疑誤掛→followups)
+- [x] 彈子檯 — cdg-3025 — G049 — Littlewing Tristan；複查確認 cdg-4173「3D立體彈子檯」為同款(oldgame.tw 來源原配 Tristan)，已 merge→cdg-3025
 - [x] 腦筋急轉彎 — cdg-2151 — G056 — 新造科技 象棋殘局經典
 
 **[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
