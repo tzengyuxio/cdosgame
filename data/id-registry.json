@@ -2070,8 +2070,9 @@
       "keys": [
         "cat:OCD0092"
       ],
-      "status": "active",
-      "title_zh": "三國志12"
+      "status": "rejected",
+      "title_zh": "三國志12",
+      "reject_reason": "out of scope: 三國志12（2012），2000 年後現代作、非 DOS 時代收錄範圍"
     },
     "cdg-0222": {
       "catalog_id": null,
@@ -2079,8 +2080,9 @@
       "keys": [
         "t:三國志13|KOEI"
       ],
-      "status": "active",
-      "title_zh": "三國志13"
+      "status": "rejected",
+      "title_zh": "三國志13",
+      "reject_reason": "out of scope: 三國志13（2016），2000 年後現代作、非 DOS 時代收錄範圍"
     },
     "cdg-0223": {
       "catalog_id": "SCD2076",
@@ -8751,8 +8753,9 @@
       "keys": [
         "t:同級生1|Elf,Fanza"
       ],
-      "status": "active",
-      "title_zh": "同級生1"
+      "status": "rejected",
+      "title_zh": "同級生1",
+      "reject_reason": "out of scope: 同級生1（2021 重製版），2000 年後現代發行、非 DOS 時代收錄範圍"
     },
     "cdg-0952": {
       "catalog_id": "SCD2228",
@@ -15190,8 +15193,9 @@
       "keys": [
         "t:信長之野望16新生|KOEI"
       ],
-      "status": "active",
-      "title_zh": "信長之野望16新生"
+      "status": "rejected",
+      "title_zh": "信長之野望16新生",
+      "reject_reason": "out of scope: 信長之野望16：新生（2022），2000 年後現代作、非 DOS 時代收錄範圍"
     },
     "cdg-1651": {
       "catalog_id": null,
@@ -22072,8 +22076,9 @@
       "keys": [
         "cat:SCD0255"
       ],
-      "status": "active",
-      "title_zh": "星海爭霸2：自由之翼"
+      "status": "rejected",
+      "title_zh": "星海爭霸2：自由之翼",
+      "reject_reason": "out of scope: 星海爭霸2：自由之翼（2010），2000 年後現代作、非 DOS 時代收錄範圍"
     },
     "cdg-2406": {
       "catalog_id": "SCD1660",
@@ -22633,8 +22638,9 @@
       "keys": [
         "t:暗黑破壞神2：獄火重生|Blizzard"
       ],
-      "status": "active",
-      "title_zh": "暗黑破壞神2：獄火重生"
+      "status": "rejected",
+      "title_zh": "暗黑破壞神2：獄火重生",
+      "reject_reason": "out of scope: 暗黑破壞神2：獄火重生（2021 重製版），2000 年後現代發行、非 DOS 時代收錄範圍"
     },
     "cdg-2468": {
       "catalog_id": "SCD2621",
@@ -27086,8 +27092,9 @@
       "keys": [
         "cat:SCD1604"
       ],
-      "status": "active",
-      "title_zh": "刺客教條2"
+      "status": "rejected",
+      "title_zh": "刺客教條2",
+      "reject_reason": "out of scope: 刺客教條2（2010），2000 年後現代作、非 DOS 時代收錄範圍"
     },
     "cdg-2952": {
       "catalog_id": "SCD1605",
@@ -29850,8 +29857,9 @@
       "keys": [
         "t:火炬之光3：邊境|Echtra"
       ],
-      "status": "active",
-      "title_zh": "火炬之光3：邊境"
+      "status": "rejected",
+      "title_zh": "火炬之光3：邊境",
+      "reject_reason": "out of scope: 火炬之光3：邊境（2020），2000 年後現代 ARPG、非 DOS 時代收錄範圍"
     },
     "cdg-3252": {
       "catalog_id": "SCD2565",
