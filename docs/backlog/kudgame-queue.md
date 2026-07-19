@@ -302,11 +302,11 @@
 - [x] 地下城主 — cdg-0758（FTL Dungeon Master 1987/松崗代理）
 - [x] 妙探闖通關 大腳之謎 — cdg-1084（Sam & Max Hit the Road/LucasArts 1993）
 - [x] 魔石堡 — cdg-3768（Stonekeep/Interplay 1995）
-- [ ] 風火跳棋II — cdg-1513（倚天，空 stub）
-- [ ] 三角跳棋 — cdg-0268（船塢資訊，空 stub）
-- [ ] 終極航艦 — cdg-2079（Realtime Carrier Command/超電磁，空 stub）
-- [ ] 回到大魔域 — cdg-1041（Linel/新世界，空 stub）
-- [ ] 龍魂 — cdg-3834（Namco Dragon Spirit?/新世界，空 stub）
+- [x] 風火跳棋2 — cdg-1513（倚天自製 1991）
+- [x] 三角跳棋 — cdg-0268（船塢資訊自製 1990，孔明棋變體）
+- [x] 終極航艦 — cdg-2079（Carrier Command/Realtime GB 1988；genre→RTS）
+- [x] 回到大魔域 — cdg-1041（Neverending Story II/LinEL 瑞士 1990；region CH）
+- [x] 龍魂 — cdg-3834（Dragon Spirit/Namco 1987）
 
 **[ ] 新建（NOT FOUND；研究有原作→publish，查無→stub false）**
 - [ ] 魔法王國 — new — 立東
