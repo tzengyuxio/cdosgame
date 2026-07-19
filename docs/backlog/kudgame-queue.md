@@ -182,41 +182,41 @@
 決策前置（已答）：Q1＝捍衛雄鷹3.0E G068 併註 cdg-3048（比照 Falcon Gold）；Q2＝任務片 G074 MIG29／G081 大黃蜂**都獨立建條**（比照 cdg-5285/5286），G074 sibling cdg-4914；Q3＝絕地戰士 G085 build 研究辨識 cdg-2097 vs cdg-2098 後補正確那款、另一款不動；Q4＝末世紀 G077／血網 G078 查無足跡→建 stub false。deterministic：G067＝G089 阿卡尼亞同款都掛 cdg-1337；G091 F-14 掛既有 cdg-4886；G084 2050 掛 cdg-5279。新 id 從 cdg-5288 起。
 
 **[ ] 既有已發佈 → 補第三波遊戲休閒代理足跡（一句＋碼）**
-- [ ] 拿破崙（中文）— cdg-3042 — G060（KOEI；另有英文版 G005 同條）
-- [ ] 大海盜（黃金版）— cdg-4557 — G061（Pirates! Gold）
-- [ ] 三國志 III（中文版）— cdg-0212 — G063
-- [ ] 海獵鷹戰機 — cdg-4685 — G065（Harrier Combat Simulator）
-- [ ] 鐵路大亨（豪華版）— cdg-4558 — G069（Railroad Tycoon Deluxe）
-- [ ] 魔法皇冠（中文版）— cdg-4113 — G070
-- [ ] 元朝祕史（中文版）— cdg-3466 — G072
-- [ ] 黑暗王座（中文版）— cdg-2274 — G076（已有光碟世界足跡，若已提第三波則 skip）
-- [ ] 歐陸戰線（中文版）— cdg-3885 — G079
-- [ ] 伊忍道（中文版）— cdg-1586 — G082
-- [ ] 智聖鮮師（中文版）— cdg-3932 — G083（第三波自製）
-- [ ] 2050海底戰爭 — cdg-5279 — G084（c批已建，補 G084 碼/足跡）
-- [ ] 命運之手（中文版）— cdg-2934 — G086
-- [ ] 武將風雲錄（中文版）— cdg-1639 — G088
-- [ ] F-14艦隊防衛者 — cdg-4886 — G091（基礎版；c批 cdg-5283=黃金版，補足跡＋釐清命名避免與 5283 混淆）
+- [x] 拿破崙（中文）— cdg-3042 — G060（KOEI；另有英文版 G005 同條）
+- [x] 大海盜（黃金版）— cdg-4557 — G061（Pirates! Gold）
+- [x] 三國志 III（中文版）— cdg-0212 — G063
+- [x] 海獵鷹戰機 — cdg-4685 — G065（Harrier Combat Simulator）
+- [x] 鐵路大亨（豪華版）— cdg-4558 — G069（Railroad Tycoon Deluxe）
+- [x] 魔法皇冠（中文版）— cdg-4113 — G070
+- [x] 元朝祕史（中文版）— cdg-3466 — G072
+- [x] 黑暗王座（中文版）— cdg-2274 — G076（已有光碟世界足跡，若已提第三波則 skip）
+- [x] 歐陸戰線（中文版）— cdg-3885 — G079
+- [x] 伊忍道（中文版）— cdg-1586 — G082
+- [x] 智聖鮮師（中文版）— cdg-3932 — G083（第三波自製）
+- [x] 2050海底戰爭 — cdg-5279 — G084（c批已建，補 G084 碼/足跡）
+- [x] 命運之手（中文版）— cdg-2934 — G086
+- [x] 武將風雲錄（中文版）— cdg-1639 — G088
+- [x] F-14艦隊防衛者 — cdg-4886 — G091（基礎版；c批 cdg-5283=黃金版，補足跡＋釐清命名避免與 5283 混淆）
 
 **[ ] 既有款補註（併版本，不另開 id）**
-- [ ] 捍衛雄鷹3.0E — cdg-3048 — G068 併註 enhanced 版＋碼 53196G068（比照 Falcon Gold）
+- [x] 捍衛雄鷹3.0E — cdg-3048 — G068 併註 enhanced 版＋碼 53196G068（比照 Falcon Gold）
 
 **[ ] 既有空 stub（published:false）→ 補完＋publish**
-- [ ] 阿卡尼亞傳說 — cdg-1337 — G067＋G089（含攻略本同款，Realms of Arkania 1）
-- [ ] 人類也瘋狂 — cdg-1560 — G080（The Humans）
-- [ ] 絕地戰士 — cdg-2097 或 cdg-2098 — G085；★build 研究辨識後補正確那款
+- [x] 阿卡尼亞傳說 — cdg-1337 — G067＋G089（含攻略本同款，Realms of Arkania 1）
+- [x] 人類也瘋狂 — cdg-1560 — G080（The Humans）
+- [x] 絕地戰士 — cdg-2097 — G085；辨識＝In Extremis(3WG085 相符)，補完 publish；cdg-2098(Total Mayhem/SCD2473)未動
 
 **[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
-- [ ] F-15鷹式戰鬥機III — cdg-5288 — G066 — F-15 Strike Eagle III/MicroProse 1992
-- [ ] NFL美式足球教練俱樂部 — cdg-5289 — G071 — NFL Coaches Club Football/Dynamix
-- [ ] 銀河霸王 — cdg-5290 — G073 — 疑 Master of Orion/MicroProse（build 確認）
-- [ ] MIG29（任務片）— cdg-5291 — G074 — MiG-29 資料片，sibling cdg-4914
-- [ ] 歌劇魅影 — cdg-5292 — G075 — Phantom of the Opera（冒險）
-- [ ] 末世紀 — cdg-5293 — G077 — 查無足跡，stub false
-- [ ] 血網 — cdg-5294 — G078 — 查無足跡，stub false
-- [ ] 大黃蜂（任務片）— cdg-5295 — G081 — F/A-18 Hornet 資料片（主程式不在庫，獨立建）
-- [ ] 1942特遣艦隊 — cdg-5296 — G087 — Task Force 1942/MicroProse
-- [ ] 印地大賽車 — cdg-5297 — G090 — 疑 IndyCar Racing/Papyrus 1993（build 確認）
+- [x] F-15鷹式戰鬥機III — cdg-5288 — G066 — F-15 Strike Eagle III/MicroProse 1992
+- [x] NFL美式足球教練俱樂部 — cdg-5289 — G071 — NFL Coaches Club Football/Dynamix
+- [x] 銀河霸王 — cdg-5290 — G073 — 疑 Master of Orion/MicroProse（build 確認）
+- [ ] MIG29（任務片）— cdg-5291 — G074 — MiG-29: Deadly Adversary of Falcon 3.0/SpectrumHoloByte，sibling cdg-3048(非4914)
+- [x] 歌劇魅影 — cdg-5292 — G075 — Phantom of the Opera（冒險）
+- [x] 末世紀 — cdg-5293 — G077 — 查無足跡，stub false
+- [x] 血網 — cdg-5294 — G078 — BloodNet/MicroProse 1993 RPG，publish true
+- [x] 大黃蜂（任務片）— cdg-5295 — G081 — F/A-18 Hornet 資料片（主程式不在庫，獨立建）
+- [x] 1942特遣艦隊 — cdg-5296 — G087 — Task Force 1942/MicroProse
+- [x] 印地大賽車 — cdg-5297 — G090 — 疑 IndyCar Racing/Papyrus 1993（build 確認）
 
 ## 相關檔案
 
