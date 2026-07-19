@@ -297,11 +297,11 @@
 - [ ] 射波 — cdg-3896（安寶；正文僅 55 字，補完＋補立東足跡）
 - [ ] 百戰小旅鼠2 — cdg-5229（DMA Lemmings 2；有正文 published:false → 抽驗後 publish）
 - [ ] 神勇毛毛蟲 — cdg-5231（有正文 published:false → 抽驗後 publish）
-- [ ] 太空魯賓遜 — cdg-3904（松崗，空 stub）
-- [ ] 永恆之門 — cdg-4153（松崗，空 stub）
-- [ ] 地下城主 — cdg-0758（FTL Dungeon Master/松崗，空 stub）
-- [ ] 妙探闖通關 大腳之謎 — cdg-1084（Lucas Sam&Max?/松崗，空 stub）
-- [ ] 魔石堡 — cdg-3768（Interplay/松崗，空 stub）
+- [x] 太空魯賓遜 — cdg-3904（Robinson's Requiem/Silmarils 1994）
+- [x] 永恆之門 — cdg-4153（Ishar 3/Silmarils 1994；系列＝無限之門）
+- [x] 地下城主 — cdg-0758（FTL Dungeon Master 1987/松崗代理）
+- [x] 妙探闖通關 大腳之謎 — cdg-1084（Sam & Max Hit the Road/LucasArts 1993）
+- [x] 魔石堡 — cdg-3768（Stonekeep/Interplay 1995）
 - [ ] 風火跳棋II — cdg-1513（倚天，空 stub）
 - [ ] 三角跳棋 — cdg-0268（船塢資訊，空 stub）
 - [ ] 終極航艦 — cdg-2079（Realtime Carrier Command/超電磁，空 stub）
