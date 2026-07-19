@@ -49,6 +49,15 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-3232：`publisher_tw: []` 空，廣告刊「第三波資訊」為台灣代理發行、宏碁 Acer TWP 在 GT Interactive 再授權下經銷 → 應補 publisher_tw 第三波（正文已述、frontmatter 待訂）。
 - cdg-3274：`publisher_tw: []` 空，廣告標「總經銷 光固流通（LiSound）／全球代理 CDSOFT」→ 與正文原有「以軟體世界的品名於零售通路流通」說法衝突（後者無出處，已於本次改寫移除該句、改採廣告經銷資訊）；publisher_tw 是否採光固流通待訂。封面主視覺署名「李志清 九九」。
 
+- **2026-07-19 批 5（6 款）**：cdg-3339 cdg-3436 cdg-3468 cdg-3556 cdg-3620 cdg-3732 已補 footnote＋硬事實 cite（3339＝軟體世界48期 `softworld48`／3436＝軟體世界90期 `softworld90`／3620＝軟體世界82期 `softworld82`／餘 `pcgamer96`）。validate 通過、無 dangling cite。
+
+### frontmatter 複查（批 5，只列不改）
+
+- cdg-3436：`publisher_tw` 現作「天堂鳥」，廣告分工為「天堂鳥資訊企劃製作／福旭國際股份有限公司銷售發行」→ 是否補 publisher_tw 福旭國際待訂。
+- cdg-3468：`publisher_tw: []` 空，廣告發行商標「光譜資訊（副廠牌 T-Time）」→ 應補 publisher_tw 光譜。
+- cdg-3556：`publisher_tw: []` 空，廣告代理發行「歐樂影視國際股份有限公司」（playerhouse.com.tw，疑與 cdg-3732 之「歐樂」同源）→ 應補 publisher_tw 歐樂影視國際。
+- cdg-3339：`publisher_tw` 現作「智冠」，body 已述「智冠旗下電腦休閒世界」代理，廣告一致（電腦休閒世界獨家代理、Aisa Recording 台港製造）；無衝突，僅記錄。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
