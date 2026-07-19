@@ -90,9 +90,9 @@
 - [x] Lost in Town — cdg-5263 — Urban Runner/Coktel 1996（unverified）
 - [x] The Daedalus Encounter — cdg-5264 — Mechadeus/Virgin 1995（unverified）
 - [x] 警察故事V－霹靂小組 — cdg-5265 — 警察故事5：霹靂小組 Police Quest: SWAT/Sierra 1995（unverified）
-- [ ] 機甲神兵II－空中武力 — new — EarthSiege 2/空中武力
-- [ ] 南北戰爭 — new — Civil War 主題
-- [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）
+- [x] 機甲神兵II－空中武力 — cdg-5266 — 機甲神兵2：空中武力 EarthSiege 2/Dynamix 1996（unverified）
+- [!] 南北戰爭 — cdg-5267 — 原作未證(unverified stub)，SLG
+- [x] 第七訪客II－第十一小時 — cdg-5268 — 第七訪客2：第十一小時 The 11th Hour/Trilobyte 1995（unverified）
 - [x] 幻想空間合集 — cdg-5255 — Larry Greatest Hits/Sierra 1994
 - [x] 空戰英雄精典合集 — cdg-5256 — Aces Collector's Edition/Dynamix 1995
 - [x] 古靈精怪大冒險 — cdg-5257 — Woodruff and the Schnibble/Coktel Vision 1994（與 cdg-0926 不同款）

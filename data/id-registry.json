@@ -48343,6 +48343,33 @@
 			],
 			"status": "active",
 			"title_zh": "警察故事5：霹靂小組"
+		},
+		"cdg-5266": {
+			"catalog_id": null,
+			"developer": "Dynamix",
+			"keys": [
+				"t:機甲神兵2：空中武力|Dynamix"
+			],
+			"status": "active",
+			"title_zh": "機甲神兵2：空中武力"
+		},
+		"cdg-5267": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:南北戰爭|None"
+			],
+			"status": "active",
+			"title_zh": "南北戰爭"
+		},
+		"cdg-5268": {
+			"catalog_id": null,
+			"developer": "Trilobyte",
+			"keys": [
+				"t:第七訪客2：第十一小時|Trilobyte"
+			],
+			"status": "active",
+			"title_zh": "第七訪客2：第十一小時"
 		}
 	}
 }
