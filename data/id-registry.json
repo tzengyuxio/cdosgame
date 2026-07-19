@@ -10663,8 +10663,9 @@
       "keys": [
         "cat:SCD0207"
       ],
-      "status": "active",
-      "title_zh": "決戰時刻：光榮戰役"
+      "status": "rejected",
+      "title_zh": "決戰時刻：光榮戰役",
+      "reject_reason": "out of scope: Pacific Gunner (2002)，外文 Windows 遊戲、2000 年後、無台灣中文化足跡"
     },
     "cdg-1156": {
       "catalog_id": "SCD0206",
@@ -10672,8 +10673,9 @@
       "keys": [
         "cat:SCD0206"
       ],
-      "status": "active",
-      "title_zh": "決戰時刻：獵虎行動"
+      "status": "rejected",
+      "title_zh": "決戰時刻：獵虎行動",
+      "reject_reason": "out of scope: Tiger Hunt (2002)，外文 Windows 遊戲、2000 年後、無台灣中文化足跡"
     },
     "cdg-1157": {
       "catalog_id": "SCD0208",
@@ -10681,8 +10683,9 @@
       "keys": [
         "cat:SCD0208"
       ],
-      "status": "active",
-      "title_zh": "決戰時刻：鋼鐵任務"
+      "status": "rejected",
+      "title_zh": "決戰時刻：鋼鐵任務",
+      "reject_reason": "out of scope: Steel Tide (2002)，外文 Windows 遊戲、2000 年後、無台灣中文化足跡"
     },
     "cdg-1158": {
       "catalog_id": "Z061",
