@@ -48648,6 +48648,16 @@
 			],
 			"status": "active",
 			"title_zh": "印地大賽車"
+		},
+		"cdg-5298": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:武士戰弈|None",
+				"code:第三波|53196G093"
+			],
+			"status": "active",
+			"title_zh": "武士戰弈"
 		}
 	}
 }
