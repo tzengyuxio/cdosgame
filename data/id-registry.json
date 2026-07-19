@@ -15800,8 +15800,9 @@
       "keys": [
         "cat:Z036"
       ],
-      "status": "active",
-      "title_zh": "忍者龍劍傳2：暗黑的邪神劍"
+      "status": "rejected",
+      "title_zh": "忍者龍劍傳2：暗黑的邪神劍",
+      "reject_reason": "out of scope: 忍者龍劍傳2：暗黑的邪神劍（Tecmo, 1991），外文（英文）DOS 移植作、無台灣中文化／代理足跡"
     },
     "cdg-1714": {
       "catalog_id": null,
@@ -15809,8 +15810,9 @@
       "keys": [
         "t:忍者龜：機台版|Konami"
       ],
-      "status": "active",
-      "title_zh": "忍者龜：機台版"
+      "status": "rejected",
+      "title_zh": "忍者龜：機台版",
+      "reject_reason": "out of scope: 忍者龜：機台版（Konami, 1991），外文（英文）DOS 移植作、無台灣中文化／代理足跡"
     },
     "cdg-1715": {
       "catalog_id": "SWE055",
@@ -20546,8 +20548,9 @@
       "keys": [
         "cat:Z038,SCD1045"
       ],
-      "status": "active",
-      "title_zh": "超級魂斗羅"
+      "status": "rejected",
+      "title_zh": "超級魂斗羅",
+      "reject_reason": "out of scope: 超級魂斗羅（Konami, 1990），外文（英文）DOS 移植作、無台灣中文化／代理足跡"
     },
     "cdg-2233": {
       "catalog_id": "SCD0114",
@@ -38326,8 +38329,9 @@
       "keys": [
         "t:燃燒坦克|None"
       ],
-      "status": "active",
-      "title_zh": "燃燒坦克"
+      "status": "rejected",
+      "title_zh": "燃燒坦克",
+      "reject_reason": "out of scope: 燃燒坦克（1990），外文 DOS 移植作、無台灣中文化／代理足跡"
     },
     "cdg-4170": {
       "catalog_id": null,
