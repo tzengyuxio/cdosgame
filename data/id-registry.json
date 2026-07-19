@@ -5594,10 +5594,11 @@
 			"catalog_id": "SCD0604",
 			"developer": "Sierra",
 			"keys": [
-				"cat:SCD0604"
+				"cat:SCD0604",
+				"t:幽魂|Sierra"
 			],
 			"status": "active",
-			"title_zh": "幽魂1"
+			"title_zh": "幽魂"
 		},
 		"cdg-0608": {
 			"catalog_id": "SCD0605",
