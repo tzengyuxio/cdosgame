@@ -37564,8 +37564,9 @@
 			"keys": [
 				"t:四川省III 天府之國|None"
 			],
-			"status": "active",
-			"title_zh": "四川省III 天府之國"
+			"status": "merged",
+			"title_zh": "四川省III 天府之國",
+			"merged_into": "cdg-1032"
 		},
 		"cdg-4087": {
 			"catalog_id": null,
