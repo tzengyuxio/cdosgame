@@ -35,6 +35,13 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-2229：`publisher_tw: []` 空，廣告標「代理發行：**生圓國際**」→ 應補 publisher_tw 生圓國際。
 - cdg-2314：`developer: 業訊`，廣告除 PROPILOT（業訊）外另見 **TEAM A.SEED**、**yumap** 團隊 logo → developer 恐誤判（業訊或為純發行），待複查。
 
+- **2026-07-19 批 3（6 款）**：cdg-2357 cdg-2468 cdg-2542 cdg-2733 cdg-2925 cdg-2926 已補 footnote＋硬事實 cite（2357＝軟體世界82期 `softworld82`／90期無新事實，2926＝軟體世界60期 `softworld60`，餘 `pcgamer96`）。validate 通過。
+
+### frontmatter 複查（批 3，只列不改）
+
+- cdg-2357：`publisher_tw: []` 空，兩張廣告發行主體皆智冠科技（軟體世界）→ 應補 publisher_tw 智冠；`developer: 智冠` 僅發行掛名、實際開發團隊未明，待複查。
+- cdg-2468：職業名單出入——廣告列「戰士、盜賊、僧侶、祭司、女巫……8 大角色」，正文作「戰士、法師、盜賊、僧侶」四職×男女＝八名 → body 內容待複查。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
