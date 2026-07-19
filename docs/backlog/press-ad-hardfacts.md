@@ -78,6 +78,16 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-5155：`publisher_tw: []` 空，廣告台灣總經銷為智冠（軟體世界）、捷友研發生產 → 應補 publisher_tw（智冠？發行分工待訂）。
 - cdg-4391：廣告版面另列智冠科技（角色未明），developer/publisher 安峻維持；廣告「1999」係預告用語，year 2000 不改。
 
+- **2026-07-19 批 8（6 款）**：cdg-5230 cdg-5233 cdg-5238 cdg-5239 補 footnote＋硬事實 cite；cdg-5234 廣告無新硬事實 → 不動；cdg-5232 從 unverified stub 依廣告重建。validate 通過、無 dangling cite。
+  - **cdg-5232 例外處置（大修）**：廣告確認「地獄駭客」＝ Acclaim《Shadow Man》，會宇娛樂多媒體代理、前衛波經銷。已補 published true／year 1999／developer Acclaim(US)／publisher_tw 會宇娛樂多媒體／genre AVG／localization packaging／release_status released／slug shadow-man／alias Shadow Man，正文重寫。
+  - **cdg-5230 忍者原人**：廣告證實電腦休閒世界台灣發行 → release_status unverified→released；補六大關/雙打等玩法。
+  - **cdg-5224**：依使用者指示，標題改以中文品名「超時空戰機」為 title_zh、BARYON 轉 alias。
+
+### frontmatter 複查（批 8，只列不改）
+
+- cdg-5230：`developer: New World Computing`——廣告顯示原作 Data East（1991）、PC 移植另有 Elite Systems（1993）；正文已述兩移植商，frontmatter 僅列 NWC，是否補 Elite／改標待訂。`publisher_tw: 智冠`，廣告在地標示為亞洲雷射（Asia Recording）台港製造＋電腦休閒世界（＝智冠旗下），非衝突。
+- cdg-5232：developer 暫填 Acclaim(US)（廣告原廠標誌），實際開發studio為 Acclaim Studios Teesside(UK)，待細訂；公司頁「會宇娛樂多媒體」尚未建立（body 未內連）。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
