@@ -54,6 +54,44 @@
 - [x] 妖局 十六張麻將王 — new — 軟體世界，博弈
 - [x] 夢幻占星館 — new — KIWI，Image #2（軟世70+71期），娛樂占卜工具程式。★Q2決：收錄、publish:true
 
+### 批次 2026-07-19b（第三波「原裝光碟精品」目錄，進口西洋遊戲；packaging＋第三波代理＋en）
+
+決策前置：全批第三波原裝光碟進口，在收錄範圍（thirdwave-early-imports 慣例）。Q1決＝合集款建獨立條目；Q2決＝古靈精怪大冒險 build 階段研究確認同款/新款。內容完整 publish:true，查無足跡 stub false。新 id 從 cdg-5246 起。
+
+**[~] 已存在（抽驗即可）**
+- [~] 機甲神兵 — cdg-4664 — 機甲神兵：地球防衛戰 EarthSiege
+- [~] 國王密使VII — cdg-1049 — 國王密使7：沒有王子的新娘
+- [~] 凱蘭迪亞傳奇III — cdg-2935 — 瑪爾寇的復仇
+- [~] 大競技場 — cdg-4666 — 機甲神兵：大競技場 Battledrome
+- [~] 奇妙大百科II — cdg-1297
+- [~] 幽魂 — cdg-0607 — Gabriel Knight 1
+- [~] Gabriel Knight II — cdg-0608 — 幽魂2
+
+**[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
+- [ ] 勁爆美國職棒 — new — 抽驗是否＝cdg-3004 勁爆美國棒球(Triple Play)，否則新建
+- [ ] 海底英雄 — new
+- [ ] 夢魘 — new
+- [ ] 異星特警 — new
+- [ ] 雲絲頓賽車 — new — Winston/NASCAR 賽車
+- [ ] 機甲神兵--任務片 — new — EarthSiege 擴充/任務片
+- [ ] 大君主戰役 — new
+- [ ] 失落的伊甸園 — new — Lost Eden/Cryo
+- [ ] 鐵血殺手 — new
+- [ ] Wild Blue Yonder I — new
+- [ ] Wild Blue Yonder II — new
+- [ ] 宇宙傳奇VI — new — Space Quest 6（注意勿混 cdg-4562 新宇宙傳奇/cdg-4563 宇宙傳奇5）
+- [ ] Last Dynasty — new
+- [ ] 3D Ultra Pinball — new — Sierra
+- [ ] Lost in Town — new
+- [ ] The Daedalus Encounter — new — FMV
+- [ ] 警察故事V－霹靂小組 — new — Police Quest: SWAT（承 cdg-4649 警察故事4）
+- [ ] 機甲神兵II－空中武力 — new — EarthSiege 2/空中武力
+- [ ] 南北戰爭 — new — Civil War 主題
+- [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）
+- [ ] 幻想空間合集 — new — Q1決：Larry I~VI 合集獨立條目
+- [ ] 空戰英雄精典合集 — new — Q1決：Aces 合集獨立條目
+- [ ] 古靈精怪大冒險 — ? — Q2決：build 研究確認是否＝cdg-0926 古靈精怪(Eko)
+
 ## 相關檔案
 
 - [kudgame-done-log.md](kudgame-done-log.md) — 完成史（已做完的 20 批，唯讀歸檔）
