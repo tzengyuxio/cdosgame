@@ -3788,8 +3788,9 @@
       "keys": [
         "cat:OCD0108"
       ],
-      "status": "active",
-      "title_zh": "大航海世紀1404"
+      "status": "rejected",
+      "title_zh": "大航海世紀1404",
+      "reject_reason": "out of scope: 大航海世紀1404（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0410": {
       "catalog_id": "SCD0704",
@@ -6857,8 +6858,9 @@
       "keys": [
         "cat:SCD2222"
       ],
-      "status": "active",
-      "title_zh": "武田信玄3"
+      "status": "rejected",
+      "title_zh": "武田信玄3",
+      "reject_reason": "out of scope: 武田信玄3（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0745": {
       "catalog_id": "SCD0410",
@@ -14390,8 +14392,9 @@
       "keys": [
         "cat:SCD1347"
       ],
-      "status": "active",
-      "title_zh": "人類也瘋狂：拜見祖先"
+      "status": "rejected",
+      "title_zh": "人類也瘋狂：拜見祖先",
+      "reject_reason": "out of scope: 人類也瘋狂：拜見祖先（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1562": {
       "catalog_id": "SCD1346",
@@ -15183,8 +15186,9 @@
       "keys": [
         "cat:SCD1059"
       ],
-      "status": "active",
-      "title_zh": "信長之野望13天道"
+      "status": "rejected",
+      "title_zh": "信長之野望13天道",
+      "reject_reason": "out of scope: 信長之野望13：天道（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1649": {
       "catalog_id": null,
@@ -17039,8 +17043,9 @@
       "keys": [
         "cat:SCD0441"
       ],
-      "status": "active",
-      "title_zh": "神諭2"
+      "status": "rejected",
+      "title_zh": "神諭2",
+      "reject_reason": "out of scope: 神諭2（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1851": {
       "catalog_id": "OCD0027",
@@ -18204,8 +18209,9 @@
       "keys": [
         "cat:SCD1282"
       ],
-      "status": "active",
-      "title_zh": "鷹戰"
+      "status": "rejected",
+      "title_zh": "鷹戰",
+      "reject_reason": "out of scope: 鷹戰（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1979": {
       "catalog_id": "SCD2290",
@@ -19610,8 +19616,9 @@
       "keys": [
         "cat:SCD1126"
       ],
-      "status": "active",
-      "title_zh": "總統萬歲3"
+      "status": "rejected",
+      "title_zh": "總統萬歲3",
+      "reject_reason": "out of scope: 總統萬歲3（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2133": {
       "catalog_id": "SCD1127",
@@ -29734,8 +29741,9 @@
       "keys": [
         "cat:SCD1754"
       ],
-      "status": "active",
-      "title_zh": "橫衝直撞：狂飆樂園"
+      "status": "rejected",
+      "title_zh": "橫衝直撞：狂飆樂園",
+      "reject_reason": "out of scope: 橫衝直撞：狂飆樂園（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3236": {
       "catalog_id": "SCD2619",
@@ -30237,8 +30245,9 @@
       "keys": [
         "cat:SCD2246"
       ],
-      "status": "active",
-      "title_zh": "無間車手"
+      "status": "rejected",
+      "title_zh": "無間車手",
+      "reject_reason": "out of scope: 無間車手（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3291": {
       "catalog_id": "SCD1686",
@@ -31057,8 +31066,9 @@
       "keys": [
         "cat:SCD2369"
       ],
-      "status": "active",
-      "title_zh": "戰地英雄：復仇突擊隊"
+      "status": "rejected",
+      "title_zh": "戰地英雄：復仇突擊隊",
+      "reject_reason": "out of scope: 戰地英雄：復仇突擊隊（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3380": {
       "catalog_id": "SCD1418",
@@ -31640,8 +31650,9 @@
       "keys": [
         "cat:SCD0569"
       ],
-      "status": "active",
-      "title_zh": "英雄大帝：傳奇"
+      "status": "rejected",
+      "title_zh": "英雄大帝：傳奇",
+      "reject_reason": "out of scope: 英雄大帝：傳奇（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3444": {
       "catalog_id": "SCD0570",
@@ -31649,8 +31660,9 @@
       "keys": [
         "cat:SCD0570"
       ],
-      "status": "active",
-      "title_zh": "英雄大帝：女王之刃"
+      "status": "rejected",
+      "title_zh": "英雄大帝：女王之刃",
+      "reject_reason": "out of scope: 英雄大帝：女王之刃（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3445": {
       "catalog_id": "SCD1017",
@@ -32499,8 +32511,9 @@
       "keys": [
         "cat:SCD1472"
       ],
-      "status": "active",
-      "title_zh": "猴島小英雄5：猴島傳說"
+      "status": "rejected",
+      "title_zh": "猴島小英雄5：猴島傳說",
+      "reject_reason": "out of scope: 猴島小英雄5：猴島傳說（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3538": {
       "catalog_id": "OCD0047",
@@ -32599,8 +32612,9 @@
       "keys": [
         "cat:SCD2588"
       ],
-      "status": "active",
-      "title_zh": "獵殺潛航4：太平洋海狼"
+      "status": "rejected",
+      "title_zh": "獵殺潛航4：太平洋海狼",
+      "reject_reason": "out of scope: 獵殺潛航4：太平洋海狼（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3549": {
       "catalog_id": "SCD0982",
@@ -32626,8 +32640,9 @@
       "keys": [
         "cat:SCD2501"
       ],
-      "status": "active",
-      "title_zh": "獵魔者：過量"
+      "status": "rejected",
+      "title_zh": "獵魔者：過量",
+      "reject_reason": "out of scope: 獵魔者：過量（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3552": {
       "catalog_id": "SCD1016",
@@ -33942,8 +33957,9 @@
       "keys": [
         "cat:SCD1379"
       ],
-      "status": "active",
-      "title_zh": "魔戒：勇者無雙"
+      "status": "rejected",
+      "title_zh": "魔戒：勇者無雙",
+      "reject_reason": "out of scope: 魔戒：勇者無雙（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3696": {
       "catalog_id": "SCD1371",
@@ -34104,8 +34120,9 @@
       "keys": [
         "cat:SCD1164"
       ],
-      "status": "active",
-      "title_zh": "魔法學園異聞錄"
+      "status": "rejected",
+      "title_zh": "魔法學園異聞錄",
+      "reject_reason": "out of scope: 魔法學園異聞錄（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3714": {
       "catalog_id": "SCD1811",
@@ -34683,8 +34700,9 @@
       "keys": [
         "cat:SCD2519"
       ],
-      "status": "active",
-      "title_zh": "魔鬼剋星（Ghostbusters: The Video Game）"
+      "status": "rejected",
+      "title_zh": "魔鬼剋星（Ghostbusters: The Video Game）",
+      "reject_reason": "out of scope: 魔鬼剋星 Ghostbusters: The Video Game（2009），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3778": {
       "catalog_id": "SWT026",
