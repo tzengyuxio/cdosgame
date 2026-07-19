@@ -48253,6 +48253,51 @@
 			],
 			"status": "active",
 			"title_zh": "幻想空間合集"
+		},
+		"cdg-5256": {
+			"catalog_id": null,
+			"developer": "Dynamix",
+			"keys": [
+				"t:空戰英雄精典合集|Dynamix"
+			],
+			"status": "active",
+			"title_zh": "空戰英雄精典合集"
+		},
+		"cdg-5257": {
+			"catalog_id": null,
+			"developer": "Coktel Vision",
+			"keys": [
+				"t:古靈精怪大冒險|Coktel Vision"
+			],
+			"status": "active",
+			"title_zh": "古靈精怪大冒險"
+		},
+		"cdg-5258": {
+			"catalog_id": null,
+			"developer": "Digital Ranch",
+			"keys": [
+				"t:Wild Blue Yonder|Digital Ranch"
+			],
+			"status": "active",
+			"title_zh": "Wild Blue Yonder"
+		},
+		"cdg-5259": {
+			"catalog_id": null,
+			"developer": "Digital Ranch",
+			"keys": [
+				"t:Wild Blue Yonder II|Digital Ranch"
+			],
+			"status": "active",
+			"title_zh": "Wild Blue Yonder II"
+		},
+		"cdg-5260": {
+			"catalog_id": null,
+			"developer": "Sierra On-Line",
+			"keys": [
+				"t:宇宙傳奇6|Sierra On-Line"
+			],
+			"status": "active",
+			"title_zh": "宇宙傳奇6"
 		}
 	}
 }

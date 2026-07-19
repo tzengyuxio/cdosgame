@@ -82,9 +82,9 @@
 - [!] 大君主戰役 — cdg-5252 — 原作未證(released stub)；疑 Warlords II，見 review
 - [x] 失落的伊甸園 — cdg-5253 — Lost Eden/Cryo 1995
 - [!] 鐵血殺手 — cdg-5254 — 原作未證(released stub)
-- [ ] Wild Blue Yonder I — new
-- [ ] Wild Blue Yonder II — new
-- [ ] 宇宙傳奇VI — new — Space Quest 6（注意勿混 cdg-4562 新宇宙傳奇/cdg-4563 宇宙傳奇5）
+- [!] Wild Blue Yonder I — cdg-5258 — 軍機互動紀錄光碟/Digital Ranch 1994（預告 unverified）
+- [!] Wild Blue Yonder II — cdg-5259 — Digital Ranch 1995（預告 unverified）
+- [x] 宇宙傳奇6 — cdg-5260 — Space Quest 6/Sierra 1995（release_status unverified，第三波預告）
 - [ ] Last Dynasty — new
 - [ ] 3D Ultra Pinball — new — Sierra
 - [ ] Lost in Town — new
@@ -94,8 +94,8 @@
 - [ ] 南北戰爭 — new — Civil War 主題
 - [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）
 - [x] 幻想空間合集 — cdg-5255 — Larry Greatest Hits/Sierra 1994
-- [ ] 空戰英雄精典合集 — new — Q1決：Aces 合集獨立條目
-- [ ] 古靈精怪大冒險 — new — ★Q2解：型錄檔 53186J063 有獨立編號→與 cdg-0926 古靈精怪(Eko)為不同第三波產品，新建
+- [x] 空戰英雄精典合集 — cdg-5256 — Aces Collector's Edition/Dynamix 1995
+- [x] 古靈精怪大冒險 — cdg-5257 — Woodruff and the Schnibble/Coktel Vision 1994（與 cdg-0926 不同款）
 
 ★型錄檔 content/topics/第三波綜合軟體目錄.md「原裝光碟精品系列」為權威足跡：已發行款(53186JNNN)標 release_status:released＋release_codes；「預告」款(幽魂/GK II 已補完，其餘機甲神兵任務片除外)標 release_status:unverified。已發行有碼：機甲神兵任務片 J062、大君主戰役 J064、失落的伊甸園 J065、鐵血殺手 J066、幻想空間合集 J044、空戰英雄合集 J061、古靈精怪大冒險 J063。預告款：Wild Blue Yonder I/II、宇宙傳奇VI、Last Dynasty、3D Ultra Pinball、Lost in Town、Daedalus、警察故事V、機甲神兵II、南北戰爭、第七訪客II。
 
