@@ -28,6 +28,13 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 
 - **2026-07-19 批 1（7 款）**：cdg-0199（早前已於 fn01 引軟體世界82期廣告，正文不動）、cdg-0640 cdg-0712 cdg-0761 cdg-0864 cdg-0902 cdg-1068 已補 `pcgamer96` footnote＋硬事實 cite。validate 通過。
 
+- **2026-07-19 批 2（6 款）**：cdg-1134 cdg-1417 cdg-1620 cdg-2229 cdg-2242 cdg-2314 已補 footnote＋硬事實 cite（1620＝軟體世界82期 `softworld82`，餘 `pcgamer96`）。validate 通過。
+
+### frontmatter 複查（批 2，只列不改）
+
+- cdg-2229：`publisher_tw: []` 空，廣告標「代理發行：**生圓國際**」→ 應補 publisher_tw 生圓國際。
+- cdg-2314：`developer: 業訊`，廣告除 PROPILOT（業訊）外另見 **TEAM A.SEED**、**yumap** 團隊 logo → developer 恐誤判（業訊或為純發行），待複查。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
