@@ -5144,8 +5144,9 @@
       "keys": [
         "cat:SCD1992"
       ],
-      "status": "active",
-      "title_zh": "工人物語6：帝國的興起"
+      "status": "rejected",
+      "title_zh": "工人物語6：帝國的興起",
+      "reject_reason": "out of scope: 工人物語6：帝國的興起（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0559": {
       "catalog_id": "SCD2788",
@@ -5517,8 +5518,9 @@
       "keys": [
         "cat:SCD2664"
       ],
-      "status": "active",
-      "title_zh": "幽浮：末日餘暉"
+      "status": "rejected",
+      "title_zh": "幽浮：末日餘暉",
+      "reject_reason": "out of scope: 幽浮：末日餘暉（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0600": {
       "catalog_id": "3WZ006,SCD2657",
@@ -6208,8 +6210,9 @@
       "keys": [
         "cat:SCD1052"
       ],
-      "status": "active",
-      "title_zh": "世紀爭霸3"
+      "status": "rejected",
+      "title_zh": "世紀爭霸3",
+      "reject_reason": "out of scope: 世紀爭霸3（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0674": {
       "catalog_id": "SCD1863",
@@ -6609,8 +6612,9 @@
       "keys": [
         "cat:SCD2704"
       ],
-      "status": "active",
-      "title_zh": "失落的王冠：捉鬼大冒險"
+      "status": "rejected",
+      "title_zh": "失落的王冠：捉鬼大冒險",
+      "reject_reason": "out of scope: 失落的王冠：捉鬼大冒險（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0718": {
       "catalog_id": "SCD0910",
@@ -10514,8 +10518,9 @@
       "keys": [
         "cat:SCD2572"
       ],
-      "status": "active",
-      "title_zh": "決勝戰場"
+      "status": "rejected",
+      "title_zh": "決勝戰場",
+      "reject_reason": "out of scope: 決勝戰場（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1142": {
       "catalog_id": "OCD0089",
@@ -12266,8 +12271,9 @@
       "keys": [
         "cat:SCD2145"
       ],
-      "status": "active",
-      "title_zh": "野戰雄獅2"
+      "status": "rejected",
+      "title_zh": "野戰雄獅2",
+      "reject_reason": "out of scope: 野戰雄獅2（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1331": {
       "catalog_id": "SCD1478",
@@ -17965,8 +17971,9 @@
       "keys": [
         "cat:SCD1803"
       ],
-      "status": "active",
-      "title_zh": "異界英豪"
+      "status": "rejected",
+      "title_zh": "異界英豪",
+      "reject_reason": "out of scope: 異界英豪（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1954": {
       "catalog_id": "SCD0590",
@@ -18393,8 +18400,9 @@
       "keys": [
         "cat:SCD0276"
       ],
-      "status": "active",
-      "title_zh": "麻將探秘2"
+      "status": "rejected",
+      "title_zh": "麻將探秘2",
+      "reject_reason": "out of scope: 麻將探秘2（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2001": {
       "catalog_id": "SCD0652",
@@ -21850,8 +21858,9 @@
       "keys": [
         "cat:SCD1583"
       ],
-      "status": "active",
-      "title_zh": "明日的世界"
+      "status": "rejected",
+      "title_zh": "明日的世界",
+      "reject_reason": "out of scope: 明日的世界（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2381": {
       "catalog_id": "SCD0069",
@@ -22729,8 +22738,9 @@
       "keys": [
         "cat:SCD2079"
       ],
-      "status": "active",
-      "title_zh": "最後生機"
+      "status": "rejected",
+      "title_zh": "最後生機",
+      "reject_reason": "out of scope: 最後生機（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2478": {
       "catalog_id": "SCD0871",
@@ -27471,8 +27481,9 @@
       "keys": [
         "cat:SCD2235"
       ],
-      "status": "active",
-      "title_zh": "加勒比海：海盜傳奇"
+      "status": "rejected",
+      "title_zh": "加勒比海：海盜傳奇",
+      "reject_reason": "out of scope: 加勒比海：海盜傳奇（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2993": {
       "catalog_id": "SCD2770",
@@ -28157,8 +28168,9 @@
       "keys": [
         "cat:OCD0085"
       ],
-      "status": "active",
-      "title_zh": "末日之戰"
+      "status": "rejected",
+      "title_zh": "末日之戰",
+      "reject_reason": "out of scope: 末日之戰（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3067": {
       "catalog_id": "SCD1648",
@@ -29636,8 +29648,9 @@
       "keys": [
         "cat:SCD0326"
       ],
-      "status": "active",
-      "title_zh": "機甲蘿莉"
+      "status": "rejected",
+      "title_zh": "機甲蘿莉",
+      "reject_reason": "out of scope: 機甲蘿莉（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3228": {
       "catalog_id": "SCD1141",
@@ -29949,8 +29962,9 @@
       "keys": [
         "cat:SCD2607"
       ],
-      "status": "active",
-      "title_zh": "火線獵殺：先進戰士2"
+      "status": "rejected",
+      "title_zh": "火線獵殺：先進戰士2",
+      "reject_reason": "out of scope: 火線獵殺：先進戰士2（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3262": {
       "catalog_id": "SCD0897",
@@ -31941,8 +31955,9 @@
       "keys": [
         "cat:SCD2495"
       ],
-      "status": "active",
-      "title_zh": "藍貓"
+      "status": "rejected",
+      "title_zh": "藍貓",
+      "reject_reason": "out of scope: 藍貓（2007），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3480": {
       "catalog_id": "SCD2543",
