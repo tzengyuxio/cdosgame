@@ -54,7 +54,7 @@ node scripts/process_media.mjs --write     # APPLY：轉 WebP、寫 media[]、�
   - key: <刊物碼><期號>
     text: '〈報導標題〉，《刊名》第 N 期（年）「單元」，頁 X。'
   ```
-  刊物碼：**電腦玩家＝`pcgamer`**（`pcgamer96`）；其餘刊物依 `<刊物英文簡碼><期號>` 命名（軟體世界、電腦遊戲世界…）。
+  key 命名＝`<刊名縮寫><期號>[<語意後綴>]`（全小寫，同期多則加後綴如 `ad` 消歧義），縮寫對照表與規則見 `docs/refs-convention.md`「footnote key 命名」。常用：電腦玩家＝`ace`、軟體世界＝`swm`、新遊戲時代＝`sgm`、電腦遊戲世界＝`cgw`。
 - **正文 cite**：每句出自報導的新增事實，句末 `<sup class="cite" data-ref="<key>"></sup>`。
 - **press 圖說**：`media[]` 的 `kind: press` 那筆 `caption` 改成 `<刊名 期號>・<單元> p.<頁碼>`（例：`電腦玩家 第96期・先睹為快 p.121`）。
 

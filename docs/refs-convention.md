@@ -79,7 +79,23 @@ external_links:
 
 **Footnote 兩種形式**：
 - **純字串**（legacy）：無 key，無法被 `<sup class="cite" data-ref="…">` 引用；單純放在「註釋」段、不參與 backref。多用於不需 body cite 的純背景補充。
-- **keyed 物件 `{ key, text }`**：body 可用 `<sup class="cite" data-ref="<key>"></sup>` 引用，dynamic JS 自動編號（body 出現序）並建立雙向 backref。**Key 用 `fn01`、`fn02`… 編號形式**（不取語意名）——條目本地序號、避免跨條目重名與重命名負擔。`text` 內可內嵌 `<a>` 連到其他條目，站內路徑（`/games/...`、`/people/...`）會自動補 `BASE` 前綴（由 `CiteSections.astro` 的 `prefixBase` helper 處理；rehypeBaseLinks 不過 footnote 的 `set:html`）。
+- **keyed 物件 `{ key, text }`**：body 可用 `<sup class="cite" data-ref="<key>"></sup>` 引用，dynamic JS 自動編號（body 出現序）並建立雙向 backref。**Key 命名見下「footnote key 命名」**。`text` 內可內嵌 `<a>` 連到其他條目，站內路徑（`/games/...`、`/people/...`）會自動補 `BASE` 前綴（由 `CiteSections.astro` 的 `prefixBase` helper 處理；rehypeBaseLinks 不過 footnote 的 `set:html`）。
+
+## footnote key 命名
+
+`key` 僅供正文 `data-ref` 對應與同源多次引用共用，**條目本地作用域**（跨條目不共享、不衝突），只需在單一條目內可預測、可辨識。判準是**該來源有沒有天然穩定的識別碼**：
+
+- **有天然識別碼者用語意化 key**：雜誌／刊物來源（掃描報導、廣告、產品目錄等指向具體刊物者）的天然識別碼＝刊名＋期號，故 `key = <刊名縮寫><期號>[<語意後綴>]`，全小寫。同刊同期多則靠後綴消歧義（如廣告 `ad`）。例：`swm70`、`ace96`、`ace96ad`、`cgw124`。**不加 `fn_` 前綴**、不用純序號——這類 key 在 diff／review 時自證來源（`press-import` 全靠 diff 抓錯引），語意化好認、好重用。
+- **無天然識別碼者用序號 key**：版權年份、標題畫面字樣、包裝標示等不指向具體外部刊物的一次性註腳，本無可辨識碼，用 `fn01`、`fn02`… 本地序號即可，避免硬湊語意名與重命名負擔。
+
+**刊名縮寫對照**（新刊物在此增列，勿在條目自創縮寫如 `sw`/`swf`/`softworld`）：
+
+| 刊物 | 縮寫 | 備註 |
+|---|---|---|
+| 電腦玩家 | `ace` | 單一代碼（早期報頭即 ACE，貼合 DOS 時代）；只給期號即可，不分期 |
+| 軟體世界 | `swm` | |
+| 新遊戲時代 | `sgm` | |
+| 電腦遊戲世界 | `cgw` | |
 
 **雙形式可混用**：同一份 `footnotes` 可前段純字串、後段 keyed，順序決定列表編號（顯示 1, 2, 3…）。被引用者編號照樣由 body 出現序決定，與列表中位置無關。
 
