@@ -309,10 +309,10 @@
 - [x] 龍魂 — cdg-3834（Dragon Spirit/Namco 1987）
 
 **[ ] 新建（NOT FOUND；研究有原作→publish，查無→stub false）**
-- [ ] 魔法王國 — new — 立東
-- [ ] 宇宙戰艦 — new — 亞洲軟體 金磁片03
-- [ ] 帝國生死鬥 — new — 松崗
-- [ ] 絕地大反攻2 — new — 松崗（疑 Star Wars Return of the Jedi 相關）
+- [!] 魔法王國 — cdg-5299 — 立東，查無足跡 stub false（疑與魔法口袋 cdg-5093 混淆，待證）
+- [!] 宇宙戰艦 — cdg-5300 — 亞洲金磁片03，查無足跡 stub false
+- [!] 帝國生死鬥 — cdg-5301 — 松崗，查無足跡 stub false
+- [x] 絕地大反攻2 — cdg-5302 — Star Wars: Rebel Assault II/LucasArts 1995，松崗，publish
 - [ ] 哈雷計畫 — new — 終結者資訊
 - [ ] 齊爾達傳說 — new — 新世界38（疑 Zelda 類）
 - [ ] 短路小旅鼠 — new — 新世界61（疑 Lemmings 衍生）
@@ -320,7 +320,7 @@
 - [ ] 帝國之光榮 — new — 資策科技
 
 **[ ] AMBIGUOUS — 已答（決策已定）**
-- [ ] 龍之道（立東）— ★build 研究決定：查立東龍之道＝Drakkhen 則補 cdg-4280＋掛立東；不同款則新建，4280 不動
+- [x] 龍之道（立東）— cdg-4280 補完＝Drakkhen(Infogrames 1989)＋掛立東，publish（判定同款，未新建）
 - [ ] 頑皮貓（亞洲金磁片16）— ★決：新建獨立 stub（≠cdg-4159 Fort Apocalypse）；查無足跡 stub false
 - [x] 橫掃千軍（美商新美）— cdg-3231 補完 TA 本體(Cavedog 1997)＋掛美商新美(GT Interactive 台灣)＋publish
 - [x] SUPER大戰略DOSV（琪珊）— cdg-2204 補完(SystemSoft/琪珊)＋publish；cdg-4030 merge→2204（同款確認）
