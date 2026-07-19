@@ -138,6 +138,45 @@
 - [x] F-14艦隊防衛者（黃金版）— cdg-5283 — Fleet Defender Gold/MicroProse，型錄碼53186J047 released publish
 - [!] 1942太平洋空戰（光碟黃金版）— cdg-5284 — 1942 Pacific Air War Gold/MicroProse 1994，預告 unverified stub
 
+### 批次 2026-07-19d（第三波「遊戲休閒系列」目錄，磁片時代代理主力；碼 53196GNNN。多為光榮 KOEI 歷史 SLG 中文版與西洋中文化大作）
+
+決策前置（已答）：Q1＝任務片（戰虎行動、無敵飛狼任務片）**獨立建條**（比照 cdg-5251 機甲神兵任務片），主程式互 sibling 連結；Q2＝彈子檯 cdg-3025 vs cdg-4173 於 build 階段研究後決定合併或分立；Q3＝跳躍小頑童查無足跡→**建 stub published:false**；Q4＝四川省 cdg-4086 併入 cdg-1032（game-triage）。既有已發佈款補一句第三波遊戲休閒代理足跡（碼）。新 id 從 cdg-5285 起。權威足跡＝content/topics/第三波綜合軟體目錄.md〈遊戲休閒系列〉表。
+
+**[ ] 既有已發佈 → 補第三波遊戲休閒代理足跡（一句＋碼）**
+- [ ] 三國志 II／三國志 II（中文版）— cdg-0211 — G001/G020（中日文同條）
+- [ ] 成吉思汗／成吉思汗（中文版）— cdg-3465 — G003/G040
+- [ ] 信長之野望 II — cdg-1638 — G004
+- [ ] 大航海時代／大航海時代（中文版）— cdg-0418 — G006/G050
+- [ ] 將族（中文版）— cdg-2147 — G007（光譜 象棋大師3）
+- [ ] 奇人黑桃 2（中文版）— cdg-1295 — G013
+- [ ] 沙丘魔堡（中文版）— cdg-1174 — G015（Cryo Dune）
+- [ ] 文明帝國 — cdg-2303 — G016
+- [ ] 精典俄羅斯方塊 — cdg-2107 — G017（Tetris Classic）
+- [ ] 超級俄羅斯方塊 — cdg-2186 — G018（Super Tetris；勿混 cdg-2187）
+- [ ] 巫術七代 — cdg-1105 — G024（Wizardry 7）
+- [ ] 水滸傳 — cdg-3901 — G002（KOEI 日/英版）★型錄 G002 誤連 0621，順手修正連結
+- [ ] 水滸傳（中文版）— cdg-0621 — G031（天命之誓 中文版）
+- [ ] 巫術六代（中文版）— cdg-1104 — G032
+- [ ] 沙丘魔堡 II — cdg-1175 — G035（Westwood Dune II）
+- [ ] 凱蘭迪亞傳奇（中文版）— cdg-2933 — G042
+- [ ] 三界諭－邦沛之謎（中文版）— cdg-0202 — G046
+- [ ] 信長之野望（中文版）— cdg-1637 — G053（一代，loc=packaging）
+- [ ] 四川省III（中文版）— cdg-1032 — G058
+
+**[ ] 既有空 stub（published:false）→ 補完＋publish**
+- [x] B17 飛行堡壘 — cdg-0045 — G038 — Vektor Grafix B-17 Flying Fortress 1992（勿混 cdg-0044 Mighty 8th）
+- [x] 世紀金冠軍 — cdg-4197 — G048 — MicroProse World Circuit/F1GP（勿混 cdg-0403 GP2）
+- [ ] 彈子檯 — cdg-3025 — G049 — Littlewing Tristan；★build 時查與 cdg-4173 是否同源
+- [ ] 腦筋急轉彎 — cdg-2151 — G056 — 新造科技 象棋殘局經典
+
+**[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
+- [x] 捍衛雄鷹 3.0（任務片）—戰虎行動 — cdg-5285 — G030 — Falcon 3.0: Operation Fighting Tiger，sibling cdg-3048
+- [x] 無敵飛狼（任務片）— cdg-5286 — G044 — Gunship 資料片，sibling cdg-3912
+- [x] 跳躍小頑童 — cdg-5287 — G055 — 查無足跡，stub published:false 待考
+
+**[ ] 合併（game-triage）**
+- [x] 四川省III 天府之國 — cdg-4086 → 併入 cdg-1032
+
 ## 相關檔案
 
 - [kudgame-done-log.md](kudgame-done-log.md) — 完成史（已做完的 20 批，唯讀歸檔）

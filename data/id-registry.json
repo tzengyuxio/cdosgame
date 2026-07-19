@@ -48517,6 +48517,36 @@
 			],
 			"status": "active",
 			"title_zh": "2050海底戰爭"
+		},
+		"cdg-5285": {
+			"catalog_id": null,
+			"developer": "Sphere",
+			"keys": [
+				"t:捍衛雄鷹3.0（任務片）—戰虎行動|Sphere",
+				"code:第三波|53196G030"
+			],
+			"status": "active",
+			"title_zh": "捍衛雄鷹3.0（任務片）—戰虎行動"
+		},
+		"cdg-5286": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:無敵飛狼（任務片）|MicroProse",
+				"code:第三波|53196G044"
+			],
+			"status": "active",
+			"title_zh": "無敵飛狼（任務片）"
+		},
+		"cdg-5287": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:跳躍小頑童|None",
+				"code:第三波|53196G055"
+			],
+			"status": "active",
+			"title_zh": "跳躍小頑童"
 		}
 	}
 }
