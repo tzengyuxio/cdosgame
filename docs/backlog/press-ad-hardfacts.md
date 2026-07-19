@@ -67,6 +67,17 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-4083／cdg-4117：publisher_tw 智冠，廣告僅見「電腦休閒世界獨家代理／Asia Recording」無智冠字樣（同 3339 型態，電腦休閒世界＝智冠旗下，非衝突，僅記錄）。
 - cdg-4069：developer 仍為 null——廣告未揭露開發商／製作團隊。
 
+- **2026-07-19 批 7（6 款）**：cdg-4391 cdg-5155 cdg-5215 cdg-5216 cdg-5218 cdg-5224 已補 footnote＋硬事實 cite（5224＝軟體世界82期 `softworld82`／5215 業訊廣告用獨立 key `pcgamer96ad` 區隔既有先睹為快 press／餘 `pcgamer96`）。validate 通過、無 dangling cite。
+  - **cdg-5224 例外處置**：廣告直接推翻正文「未見台灣代理」之敘述——《軟體世界》82 期歡樂盒以中文品名「超時空戰機」發行。已據硬證據更正：`published: false→true`、`publisher_tw: []→歡樂盒`、`localization_level: foreign→packaging`、加 alias「超時空戰機」、改寫末句。
+
+### frontmatter 複查（批 7，只列不改）
+
+- cdg-5216：`content_language: en`／`localization_level: packaging`，廣告標「中文版」→ 是否實為中文化（zh/localized）待訂。
+- cdg-5218：`content_language: en`，廣告標「內容全面中文化」→ content_language／localization_level 待訂。
+- cdg-5215：`content_language: null`／`localization_level: null`，廣告標「完全中文化」→ 應補 content_language zh、localization_level localized。
+- cdg-5155：`publisher_tw: []` 空，廣告台灣總經銷為智冠（軟體世界）、捷友研發生產 → 應補 publisher_tw（智冠？發行分工待訂）。
+- cdg-4391：廣告版面另列智冠科技（角色未明），developer/publisher 安峻維持；廣告「1999」係預告用語，year 2000 不改。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
