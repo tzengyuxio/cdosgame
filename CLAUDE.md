@@ -38,6 +38,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **讀 derived 摘要，不 curl 大傾印**：要 chiuinan 介紹頁連結時，`grep` **`derived/chiuinan-intro-links.tsv`**（catalog_id／中文名 → intro_url），**不要**去 curl／grep 693KB 的 `raw/chiuinan/list-1.htm`。其他大 `raw/` 傾印同理，優先讀 `derived/` 摘要；需要新摘要就先寫個 `scripts/` 預處理腳本產到 `derived/`，再讀。
 - **大檔用 jq/rg 查、勿整檔 Read**：`data/id-registry.json`（約 1MB／4.5 萬行）等大檔不要用 `Read`/`cat` 整檔載入 context——會佔滿一大塊 context 且沒必要。查單筆用 `jq '.ids["cdg-NNNN"]'`、找位置用 `rg -n`、看小段用 `sed -n 'A,Bp'`、改單筆用 `Edit` 精準 old_string。檔案本身不慢（jq 全解析 0.02s），瓶頸只在「整檔進 context」，別為此改資料結構。
 - **落檔前用 git 驗證**：宣稱「完成」前跑 `git status`／`git diff` 看實際改了什麼，別憑印象回報（長 session 尤其）。改完 `genre` 等 enum 欄位後，跑 `npm run validate` 或 `Read` 回該行確認實際寫入值（曾有 `genre: TAB` 這種無效值寫入卻漏掉）。
+- **指令回空 = 自己的指令有問題，不是工具壞掉**：搜尋/查詢回空或近空時，第一假設**永遠**是「沒中或語法用錯」——最常見是 `rg` 用了 grep 風格的 `\|`（rg 的 `|` 才是「或」，`\|` 是字面直槓、必匹配不到），或把 `echo "==="; rg …` 的標頭當成「有輸出」。先重看指令、換正確語法重跑。**絕不判定成「工具回空／glitch／注入／顯示問題」**——Bash 工具不會間歇性回空，回空就是 no-match。誤判成工具故障會讓你丟掉手上已近完成的答案、轉去發散查證無關檔案而空轉。
 
 ## 批次補完工作流（kudgame queue）
 
