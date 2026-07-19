@@ -210,7 +210,7 @@
 - [x] F-15鷹式戰鬥機III — cdg-5288 — G066 — F-15 Strike Eagle III/MicroProse 1992
 - [x] NFL美式足球教練俱樂部 — cdg-5289 — G071 — NFL Coaches Club Football/Dynamix
 - [x] 銀河霸王 — cdg-5290 — G073 — 疑 Master of Orion/MicroProse（build 確認）
-- [ ] MIG29（任務片）— cdg-5291 — G074 — MiG-29: Deadly Adversary of Falcon 3.0/SpectrumHoloByte，sibling cdg-3048(非4914)
+- [x] MIG29（任務片）— cdg-5291 — G074 — MiG-29: Deadly Adversary of Falcon 3.0/SpectrumHoloByte，sibling cdg-3048(非4914)
 - [x] 歌劇魅影 — cdg-5292 — G075 — Phantom of the Opera（冒險）
 - [x] 末世紀 — cdg-5293 — G077 — 查無足跡，stub false
 - [x] 血網 — cdg-5294 — G078 — BloodNet/MicroProse 1993 RPG，publish true
