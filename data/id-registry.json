@@ -48416,6 +48416,106 @@
 			],
 			"status": "active",
 			"title_zh": "1942太平洋空戰（光碟黃金版）"
+		},
+		"cdg-5269": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:龍之封印|MicroProse"
+			],
+			"status": "active",
+			"title_zh": "龍之封印"
+		},
+		"cdg-5270": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:狂飆武士|"
+			],
+			"status": "active",
+			"title_zh": "狂飆武士"
+		},
+		"cdg-5271": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:星戰風雲|"
+			],
+			"status": "active",
+			"title_zh": "星戰風雲"
+		},
+		"cdg-5272": {
+			"catalog_id": null,
+			"developer": "Ticsoft",
+			"keys": [
+				"t:飛虎戰將|Ticsoft"
+			],
+			"status": "active",
+			"title_zh": "飛虎戰將"
+		},
+		"cdg-5273": {
+			"catalog_id": null,
+			"developer": "Evryware",
+			"keys": [
+				"t:太空小英豪|Evryware"
+			],
+			"status": "rejected",
+			"title_zh": "太空小英豪",
+			"reason": "out-of-scope: SpaceKids 兒童 edutainment"
+		},
+		"cdg-5274": {
+			"catalog_id": null,
+			"developer": "Rowan Software",
+			"keys": [
+				"t:拂曉巡弋|Rowan Software"
+			],
+			"status": "active",
+			"title_zh": "拂曉巡弋"
+		},
+		"cdg-5275": {
+			"catalog_id": null,
+			"developer": "Third Millennium Software",
+			"keys": [
+				"t:星艦傳奇|Third Millennium Software"
+			],
+			"status": "active",
+			"title_zh": "星艦傳奇"
+		},
+		"cdg-5276": {
+			"catalog_id": null,
+			"developer": "Holistic Design",
+			"keys": [
+				"t:謀略王子|Holistic Design"
+			],
+			"status": "active",
+			"title_zh": "謀略王子"
+		},
+		"cdg-5277": {
+			"catalog_id": null,
+			"developer": "Cybernetic Corporation",
+			"keys": [
+				"t:比薩大亨|Cybernetic Corporation"
+			],
+			"status": "active",
+			"title_zh": "比薩大亨"
+		},
+		"cdg-5278": {
+			"catalog_id": null,
+			"developer": "Ikarion",
+			"keys": [
+				"t:齊柏林飛船|Ikarion"
+			],
+			"status": "active",
+			"title_zh": "齊柏林飛船"
+		},
+		"cdg-5279": {
+			"catalog_id": null,
+			"developer": "Particle Systems",
+			"keys": [
+				"t:2050海底戰爭|Particle Systems"
+			],
+			"status": "active",
+			"title_zh": "2050海底戰爭"
 		}
 	}
 }
