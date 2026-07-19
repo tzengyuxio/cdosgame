@@ -132,11 +132,11 @@
 - [ ] 比薩大亨 — cdg-5277 — Pizza Tycoon
 - [ ] 齊柏林飛船 — cdg-5278
 - [ ] 2050海底戰爭 — cdg-5279
-- [ ] Nerves of Steel — cdg-5280
-- [ ] Narvester — cdg-5281 — 疑 Harvester，build 階段確認
-- [ ] Top Gun — cdg-5282
-- [ ] F-14艦隊防衛者（黃金版）— cdg-5283 — Fleet Defender Gold，≠cdg-4587 F-14雄貓
-- [ ] 1942太平洋空戰（光碟黃金版）— cdg-5284 — 1942 Pacific Air War Gold，≠Aces 系列
+- [!] Nerves of Steel — cdg-5280 — Rainmaker/Merit 1995 FPS，型錄預告 unverified stub
+- [!] Narvester — cdg-5281 — 確為 Harvester(DigiFX/Merit 1996)，型錄以Narvester列預告 unverified stub
+- [!] Top Gun — cdg-5282 — Top Gun: Fire at Will(SpectrumHoloByte 1996)，預告 unverified stub
+- [x] F-14艦隊防衛者（黃金版）— cdg-5283 — Fleet Defender Gold/MicroProse，型錄碼53186J047 released publish
+- [!] 1942太平洋空戰（光碟黃金版）— cdg-5284 — 1942 Pacific Air War Gold/MicroProse 1994，預告 unverified stub
 
 ## 相關檔案
 
