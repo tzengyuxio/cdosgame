@@ -99,6 +99,45 @@
 
 ★型錄檔 content/topics/第三波綜合軟體目錄.md「原裝光碟精品系列」為權威足跡：已發行款(53186JNNN)標 release_status:released＋release_codes；「預告」款(幽魂/GK II 已補完，其餘機甲神兵任務片除外)標 release_status:unverified。已發行有碼：機甲神兵任務片 J062、大君主戰役 J064、失落的伊甸園 J065、鐵血殺手 J066、幻想空間合集 J044、空戰英雄合集 J061、古靈精怪大冒險 J063。預告款：Wild Blue Yonder I/II、宇宙傳奇VI、Last Dynasty、3D Ultra Pinball、Lost in Town、Daedalus、警察故事V、機甲神兵II、南北戰爭、第七訪客II。
 
+### 批次 2026-07-19c（第三波「光碟世界」目錄，進口/代理；packaging＋第三波＋多 en）
+
+決策前置（已答）：Q1＝捍衛雄鷹光碟黃金版(Falcon Gold)註記在 cdg-3048 不另開 id；Q2＝黃金版獨立款(F-14艦隊防衛者/1942太平洋空戰)一律新開 id；Q3＝既有已發佈 8 款補一句第三波光碟世界代理/黃金版足跡。內容完整 publish:true，查無足跡 stub false。新 id 從 cdg-5269 起（16 款）。
+
+**[~] 既有已發佈 → 補第三波光碟足跡（一句代理/黃金版註記）**
+- [ ] 黑暗王座 — cdg-2274 — Lands of Lore
+- [ ] 決戰大魔域 — cdg-1152 — Return to Zork
+- [ ] 殖民帝國 — cdg-4249 — Colonization
+- [ ] 太空大富翁 — cdg-4527 — Gazillionaire
+- [ ] 幽浮2－深海出擊 — cdg-0601 — X-COM: Terror from the Deep
+- [ ] 雷電 — cdg-2681 — Raiden（雷電1）
+- [ ] 楚留香傳奇（中文版）— cdg-3108 — 楚留香傳奇之血海飄香
+- [ ] 捍衛雄鷹（光碟黃金版）— cdg-3048 — Falcon Gold＝Falcon 3.0 CD 再版，註記於此
+
+**[ ] 既有空 stub（published:false）→ 補完＋publish**
+- [ ] 幽浮 — cdg-4209 — X-COM: Enemy Unknown / UFO Defense
+- [ ] 運輸大亨 — cdg-2583 — Transport Tycoon
+- [ ] 魔法大帝 — cdg-4276 — 魔法帝國 Master of Magic（別名已含魔法大帝）
+- [ ] 銀河飛龍－統一大業 — cdg-2919 — ST:TNG A Final Unity
+- [ ] 夢魘 — cdg-5248 — 上一批已建 stub，本批補
+
+**[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
+- [ ] 龍之封印 — cdg-5269
+- [ ] 狂飆武士 — cdg-5270
+- [ ] 星戰風雲 — cdg-5271
+- [ ] 飛虎戰將 — cdg-5272
+- [ ] 太空小英豪 — cdg-5273
+- [ ] 拂曉巡弋 — cdg-5274
+- [ ] 星艦傳奇 — cdg-5275
+- [ ] 謀略王子 — cdg-5276
+- [ ] 比薩大亨 — cdg-5277 — Pizza Tycoon
+- [ ] 齊柏林飛船 — cdg-5278
+- [ ] 2050海底戰爭 — cdg-5279
+- [ ] Nerves of Steel — cdg-5280
+- [ ] Narvester — cdg-5281 — 疑 Harvester，build 階段確認
+- [ ] Top Gun — cdg-5282
+- [ ] F-14艦隊防衛者（黃金版）— cdg-5283 — Fleet Defender Gold，≠cdg-4587 F-14雄貓
+- [ ] 1942太平洋空戰（光碟黃金版）— cdg-5284 — 1942 Pacific Air War Gold，≠Aces 系列
+
 ## 相關檔案
 
 - [kudgame-done-log.md](kudgame-done-log.md) — 完成史（已做完的 20 批，唯讀歸檔）
