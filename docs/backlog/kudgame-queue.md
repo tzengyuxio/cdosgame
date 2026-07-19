@@ -85,11 +85,11 @@
 - [!] Wild Blue Yonder I — cdg-5258 — 軍機互動紀錄光碟/Digital Ranch 1994（預告 unverified）
 - [!] Wild Blue Yonder II — cdg-5259 — Digital Ranch 1995（預告 unverified）
 - [x] 宇宙傳奇6 — cdg-5260 — Space Quest 6/Sierra 1995（release_status unverified，第三波預告）
-- [ ] Last Dynasty — new
-- [ ] 3D Ultra Pinball — new — Sierra
-- [ ] Lost in Town — new
-- [ ] The Daedalus Encounter — new — FMV
-- [ ] 警察故事V－霹靂小組 — new — Police Quest: SWAT（承 cdg-4649 警察故事4）
+- [x] Last Dynasty — cdg-5261 — The Last Dynasty/Coktel 1995（unverified）
+- [x] 3D Ultra Pinball — cdg-5262 — Dynamix 1995（unverified）
+- [x] Lost in Town — cdg-5263 — Urban Runner/Coktel 1996（unverified）
+- [x] The Daedalus Encounter — cdg-5264 — Mechadeus/Virgin 1995（unverified）
+- [x] 警察故事V－霹靂小組 — cdg-5265 — 警察故事5：霹靂小組 Police Quest: SWAT/Sierra 1995（unverified）
 - [ ] 機甲神兵II－空中武力 — new — EarthSiege 2/空中武力
 - [ ] 南北戰爭 — new — Civil War 主題
 - [ ] 第七訪客II－第十一小時 — new — The 11th Hour（注意 第七訪客 7th Guest 本身未收）

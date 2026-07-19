@@ -48298,6 +48298,51 @@
 			],
 			"status": "active",
 			"title_zh": "宇宙傳奇6"
+		},
+		"cdg-5261": {
+			"catalog_id": null,
+			"developer": "Coktel Vision",
+			"keys": [
+				"t:Last Dynasty|Coktel Vision"
+			],
+			"status": "active",
+			"title_zh": "Last Dynasty"
+		},
+		"cdg-5262": {
+			"catalog_id": null,
+			"developer": "Dynamix",
+			"keys": [
+				"t:3D Ultra Pinball|Dynamix"
+			],
+			"status": "active",
+			"title_zh": "3D Ultra Pinball"
+		},
+		"cdg-5263": {
+			"catalog_id": null,
+			"developer": "Coktel Vision",
+			"keys": [
+				"t:Lost in Town|Coktel Vision"
+			],
+			"status": "active",
+			"title_zh": "Lost in Town"
+		},
+		"cdg-5264": {
+			"catalog_id": null,
+			"developer": "Mechadeus",
+			"keys": [
+				"t:The Daedalus Encounter|Mechadeus"
+			],
+			"status": "active",
+			"title_zh": "The Daedalus Encounter"
+		},
+		"cdg-5265": {
+			"catalog_id": null,
+			"developer": "Sierra On-Line",
+			"keys": [
+				"t:警察故事5：霹靂小組|Sierra On-Line"
+			],
+			"status": "active",
+			"title_zh": "警察故事5：霹靂小組"
 		}
 	}
 }
