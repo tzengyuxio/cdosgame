@@ -104,21 +104,21 @@
 決策前置（已答）：Q1＝捍衛雄鷹光碟黃金版(Falcon Gold)註記在 cdg-3048 不另開 id；Q2＝黃金版獨立款(F-14艦隊防衛者/1942太平洋空戰)一律新開 id；Q3＝既有已發佈 8 款補一句第三波光碟世界代理/黃金版足跡。內容完整 publish:true，查無足跡 stub false。新 id 從 cdg-5269 起（16 款）。
 
 **[~] 既有已發佈 → 補第三波光碟足跡（一句代理/黃金版註記）**
-- [ ] 黑暗王座 — cdg-2274 — Lands of Lore
-- [ ] 決戰大魔域 — cdg-1152 — Return to Zork
-- [ ] 殖民帝國 — cdg-4249 — Colonization
-- [ ] 太空大富翁 — cdg-4527 — Gazillionaire
-- [ ] 幽浮2－深海出擊 — cdg-0601 — X-COM: Terror from the Deep
-- [ ] 雷電 — cdg-2681 — Raiden（雷電1）
-- [ ] 楚留香傳奇（中文版）— cdg-3108 — 楚留香傳奇之血海飄香
-- [ ] 捍衛雄鷹（光碟黃金版）— cdg-3048 — Falcon Gold＝Falcon 3.0 CD 再版，註記於此
+- [x] 黑暗王座 — cdg-2274 — Lands of Lore
+- [x] 決戰大魔域 — cdg-1152 — Return to Zork
+- [x] 殖民帝國 — cdg-4249 — Colonization
+- [x] 太空大富翁 — cdg-4527 — Gazillionaire
+- [x] 幽浮2－深海出擊 — cdg-0601 — X-COM: Terror from the Deep
+- [x] 雷電 — cdg-2681 — Raiden；原為空stub，補最小正文＋足跡（仍 published:false）
+- [x] 楚留香傳奇（中文版）— cdg-3108 — 楚留香傳奇之血海飄香
+- [x] 捍衛雄鷹（光碟黃金版）— cdg-3048 — Falcon Gold＝Falcon 3.0 CD 再版，註記於此
 
 **[ ] 既有空 stub（published:false）→ 補完＋publish**
-- [ ] 幽浮 — cdg-4209 — X-COM: Enemy Unknown / UFO Defense
-- [ ] 運輸大亨 — cdg-2583 — Transport Tycoon
-- [ ] 魔法大帝 — cdg-4276 — 魔法帝國 Master of Magic（別名已含魔法大帝）
-- [ ] 銀河飛龍－統一大業 — cdg-2919 — ST:TNG A Final Unity
-- [ ] 夢魘 — cdg-5248 — 上一批已建 stub，本批補
+- [x] 幽浮 — cdg-4209 — X-COM: Enemy Unknown / UFO Defense
+- [x] 運輸大亨 — cdg-2583 — Transport Tycoon
+- [x] 魔法大帝 — cdg-4276 — 魔法帝國 Master of Magic（別名已含魔法大帝）
+- [x] 銀河飛龍－統一大業 — cdg-2919 — ST:TNG A Final Unity
+- [!] 夢魘 — cdg-5248 — 原作查無（Noctropolis/Dark Eye/Shivers 皆無據），維持 stub false — 上一批已建 stub，本批補
 
 **[ ] 新建（第三波代理，publish:true；查無足跡則 stub）**
 - [ ] 龍之封印 — cdg-5269
