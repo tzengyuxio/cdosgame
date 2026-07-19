@@ -48548,6 +48548,106 @@
 			],
 			"status": "active",
 			"title_zh": "跳躍小頑童"
+		},
+		"cdg-5288": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:F-15鷹式戰鬥機3|MicroProse",
+				"code:第三波|53196G066"
+			],
+			"status": "active",
+			"title_zh": "F-15鷹式戰鬥機3"
+		},
+		"cdg-5289": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:NFL美式足球教練俱樂部|MicroProse",
+				"code:第三波|53196G071"
+			],
+			"status": "active",
+			"title_zh": "NFL美式足球教練俱樂部"
+		},
+		"cdg-5290": {
+			"catalog_id": null,
+			"developer": "SimTex",
+			"keys": [
+				"t:銀河霸王|SimTex",
+				"code:第三波|53196G073"
+			],
+			"status": "active",
+			"title_zh": "銀河霸王"
+		},
+		"cdg-5291": {
+			"catalog_id": null,
+			"developer": "Spectrum HoloByte",
+			"keys": [
+				"t:MIG29（任務片）|Spectrum HoloByte",
+				"code:第三波|53196G074"
+			],
+			"status": "active",
+			"title_zh": "MIG29（任務片）"
+		},
+		"cdg-5292": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:歌劇魅影|MicroProse",
+				"code:第三波|53196G075"
+			],
+			"status": "active",
+			"title_zh": "歌劇魅影"
+		},
+		"cdg-5293": {
+			"catalog_id": null,
+			"developer": null,
+			"keys": [
+				"t:末世紀|None",
+				"code:第三波|53196G077"
+			],
+			"status": "active",
+			"title_zh": "末世紀"
+		},
+		"cdg-5294": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:血網|MicroProse",
+				"code:第三波|53196G078"
+			],
+			"status": "active",
+			"title_zh": "血網"
+		},
+		"cdg-5295": {
+			"catalog_id": null,
+			"developer": "Graphic Simulations Corporation",
+			"keys": [
+				"t:大黃蜂（任務片）|Graphic Simulations Corporation",
+				"code:第三波|53196G081"
+			],
+			"status": "active",
+			"title_zh": "大黃蜂（任務片）"
+		},
+		"cdg-5296": {
+			"catalog_id": null,
+			"developer": "MicroProse",
+			"keys": [
+				"t:1942特遣艦隊|MicroProse",
+				"code:第三波|53196G087"
+			],
+			"status": "active",
+			"title_zh": "1942特遣艦隊"
+		},
+		"cdg-5297": {
+			"catalog_id": null,
+			"developer": "Papyrus Design Group",
+			"keys": [
+				"t:印地大賽車|Papyrus Design Group",
+				"code:第三波|53196G090"
+			],
+			"status": "active",
+			"title_zh": "印地大賽車"
 		}
 	}
 }
