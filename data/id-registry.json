@@ -14287,8 +14287,9 @@
       "keys": [
         "cat:SCD0122"
       ],
-      "status": "active",
-      "title_zh": "首富麻將館"
+      "status": "rejected",
+      "title_zh": "首富麻將館",
+      "reject_reason": "out of scope: 首富麻將館（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1551": {
       "catalog_id": "SCD2364",
@@ -14772,8 +14773,9 @@
       "keys": [
         "cat:SCD0524"
       ],
-      "status": "active",
-      "title_zh": "便利商店4市場制霸"
+      "status": "rejected",
+      "title_zh": "便利商店4市場制霸",
+      "reject_reason": "out of scope: 便利商店4市場制霸（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1604": {
       "catalog_id": "SCD0525",
@@ -15986,8 +15988,9 @@
       "keys": [
         "cat:SCD1158"
       ],
-      "status": "active",
-      "title_zh": "思念百分百"
+      "status": "rejected",
+      "title_zh": "思念百分百",
+      "reject_reason": "out of scope: 思念百分百（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1737": {
       "catalog_id": "SCD1896",
@@ -16686,8 +16689,9 @@
       "keys": [
         "cat:SCD0163"
       ],
-      "status": "active",
-      "title_zh": "真‧三國無雙5"
+      "status": "rejected",
+      "title_zh": "真‧三國無雙5",
+      "reject_reason": "out of scope: 真‧三國無雙5（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1813": {
       "catalog_id": null,
@@ -19016,8 +19020,9 @@
       "keys": [
         "cat:OCD0084"
       ],
-      "status": "active",
-      "title_zh": "終極動員令：紅色警戒3"
+      "status": "rejected",
+      "title_zh": "終極動員令：紅色警戒3",
+      "reject_reason": "out of scope: 終極動員令：紅色警戒3（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2068": {
       "catalog_id": "SCD2327",
@@ -23576,8 +23581,9 @@
       "keys": [
         "t:逆轉霹靂|金狐狸"
       ],
-      "status": "active",
-      "title_zh": "逆轉霹靂"
+      "status": "rejected",
+      "title_zh": "逆轉霹靂",
+      "reject_reason": "out of scope: 逆轉霹靂（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2568": {
       "catalog_id": null,
@@ -25678,8 +25684,9 @@
       "keys": [
         "cat:SCD2498"
       ],
-      "status": "active",
-      "title_zh": "瘋狂水電工"
+      "status": "rejected",
+      "title_zh": "瘋狂水電工",
+      "reject_reason": "out of scope: 瘋狂水電工（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2797": {
       "catalog_id": "SCD1576",
@@ -26170,8 +26177,9 @@
       "keys": [
         "cat:SCD2083"
       ],
-      "status": "active",
-      "title_zh": "蠟筆小新總動員"
+      "status": "rejected",
+      "title_zh": "蠟筆小新總動員",
+      "reject_reason": "out of scope: 蠟筆小新總動員（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2851": {
       "catalog_id": "SCD1778",
@@ -26270,8 +26278,9 @@
       "keys": [
         "cat:SCD2810"
       ],
-      "status": "active",
-      "title_zh": "金帳汗國"
+      "status": "rejected",
+      "title_zh": "金帳汗國",
+      "reject_reason": "out of scope: 金帳汗國（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2862": {
       "catalog_id": "SWZ020",
@@ -27093,8 +27102,9 @@
       "keys": [
         "cat:SCD1603"
       ],
-      "status": "active",
-      "title_zh": "刺客教條1"
+      "status": "rejected",
+      "title_zh": "刺客教條1",
+      "reject_reason": "out of scope: 刺客教條1（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2951": {
       "catalog_id": "SCD1604",
@@ -28599,8 +28609,9 @@
       "keys": [
         "cat:SCD2243"
       ],
-      "status": "active",
-      "title_zh": "極地先鋒"
+      "status": "rejected",
+      "title_zh": "極地先鋒",
+      "reject_reason": "out of scope: 極地先鋒（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3114": {
       "catalog_id": "SCD1894",
@@ -28978,8 +28989,9 @@
       "keys": [
         "cat:SCD2765"
       ],
-      "status": "active",
-      "title_zh": "榮耀戰場3"
+      "status": "rejected",
+      "title_zh": "榮耀戰場3",
+      "reject_reason": "out of scope: 榮耀戰場3（2008），2000 年後現代遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3155": {
       "catalog_id": "SCD2467",
