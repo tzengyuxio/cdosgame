@@ -313,15 +313,15 @@
 - [!] 宇宙戰艦 — cdg-5300 — 亞洲金磁片03，查無足跡 stub false
 - [!] 帝國生死鬥 — cdg-5301 — 松崗，查無足跡 stub false
 - [x] 絕地大反攻2 — cdg-5302 — Star Wars: Rebel Assault II/LucasArts 1995，松崗，publish
-- [ ] 哈雷計畫 — new — 終結者資訊
-- [ ] 齊爾達傳說 — new — 新世界38（疑 Zelda 類）
-- [ ] 短路小旅鼠 — new — 新世界61（疑 Lemmings 衍生）
-- [ ] 火爆摔角 — new — 新世紀M 003
-- [ ] 帝國之光榮 — new — 資策科技
+- [x] 哈雷計畫 — cdg-5303 — The Halley Project/Mindscape 1985，終結者資訊，publish
+- [x] 齊爾達傳說 — cdg-5304 — Zeliard/Game Arts 1990（非任天堂 Zelda），新世界38，publish
+- [!] 短路小旅鼠 — cdg-5305 — 新世界61，查無定論 stub false
+- [!] 火爆摔角 — cdg-5306 — 新世紀M003，查無 stub false
+- [x] 帝國之光榮 — cdg-5307 — 資策科技台灣自製 SLG 1992（有續作II），publish
 
 **[ ] AMBIGUOUS — 已答（決策已定）**
 - [x] 龍之道（立東）— cdg-4280 補完＝Drakkhen(Infogrames 1989)＋掛立東，publish（判定同款，未新建）
-- [ ] 頑皮貓（亞洲金磁片16）— ★決：新建獨立 stub（≠cdg-4159 Fort Apocalypse）；查無足跡 stub false
+- [!] 頑皮貓（亞洲金磁片16）— cdg-5308 新建 stub false（≠cdg-4159＝Alley Cat；4159 標題已改「頑皮貓（Alley Cat）」對稱消歧義）
 - [x] 橫掃千軍（美商新美）— cdg-3231 補完 TA 本體(Cavedog 1997)＋掛美商新美(GT Interactive 台灣)＋publish
 - [x] SUPER大戰略DOSV（琪珊）— cdg-2204 補完(SystemSoft/琪珊)＋publish；cdg-4030 merge→2204（同款確認）
 
