@@ -58,6 +58,15 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-3556：`publisher_tw: []` 空，廣告代理發行「歐樂影視國際股份有限公司」（playerhouse.com.tw，疑與 cdg-3732 之「歐樂」同源）→ 應補 publisher_tw 歐樂影視國際。
 - cdg-3339：`publisher_tw` 現作「智冠」，body 已述「智冠旗下電腦休閒世界」代理，廣告一致（電腦休閒世界獨家代理、Aisa Recording 台港製造）；無衝突，僅記錄。
 
+- **2026-07-19 批 6（6 款）**：cdg-3739 cdg-4069 cdg-4083 cdg-4117 cdg-4252 已補 footnote＋硬事實 cite（4069＝軟體世界82期 `softworld82`／4083＝軟體世界48期 `softworld48`／4117＝軟體世界50期 `softworld50`／4252＝軟體世界60期改寫既存 `fn01`／3739＝`pcgamer96`）。cdg-3895（兩張 ad-01/48期＋ad-02/54期）廣告事實已於既存 `fn01`＋正文完整涵蓋（中古戰史→上古神兵改名、中英雙語、電腦休閒世界代理）→ **正文不動**。validate 通過、無 dangling cite。
+
+### frontmatter 複查（批 6，只列不改）
+
+- cdg-3895：`content_language: zh`，但兩張廣告與正文均述「中英雙語版本」→ content_language 是否改 zh+en 待訂；publisher_tw 現作智冠，廣告為「電腦休閒世界獨家代理／Asia Recording 台港製造」（電腦休閒世界＝智冠旗下，非衝突）。
+- cdg-4117：`content_language: zh`，廣告標「中英雙語版本」（正文亦已述）→ content_language 待訂。
+- cdg-4083／cdg-4117：publisher_tw 智冠，廣告僅見「電腦休閒世界獨家代理／Asia Recording」無智冠字樣（同 3339 型態，電腦休閒世界＝智冠旗下，非衝突，僅記錄）。
+- cdg-4069：developer 仍為 null——廣告未揭露開發商／製作團隊。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
