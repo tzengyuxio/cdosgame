@@ -42,6 +42,13 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 - cdg-2357：`publisher_tw: []` 空，兩張廣告發行主體皆智冠科技（軟體世界）→ 應補 publisher_tw 智冠；`developer: 智冠` 僅發行掛名、實際開發團隊未明，待複查。
 - cdg-2468：職業名單出入——廣告列「戰士、盜賊、僧侶、祭司、女巫……8 大角色」，正文作「戰士、法師、盜賊、僧侶」四職×男女＝八名 → body 內容待複查。
 
+- **2026-07-19 批 4（6 款）**：cdg-3176 cdg-3232 cdg-3274 cdg-3277 cdg-3324 已補 footnote＋硬事實 cite（3176＝軟體世界60期 `softworld60`／3324＝軟體世界82期沿用既存 `fn01`／餘 `pcgamer96`）。cdg-3190 廣告事實已於既存 `fn01` 涵蓋且正文完整，**ad 只入庫、正文不動**。validate 通過、無 dangling cite。
+
+### frontmatter 複查（批 4，只列不改）
+
+- cdg-3232：`publisher_tw: []` 空，廣告刊「第三波資訊」為台灣代理發行、宏碁 Acer TWP 在 GT Interactive 再授權下經銷 → 應補 publisher_tw 第三波（正文已述、frontmatter 待訂）。
+- cdg-3274：`publisher_tw: []` 空，廣告標「總經銷 光固流通（LiSound）／全球代理 CDSOFT」→ 與正文原有「以軟體世界的品名於零售通路流通」說法衝突（後者無出處，已於本次改寫移除該句、改採廣告經銷資訊）；publisher_tw 是否採光固流通待訂。封面主視覺署名「李志清 九九」。
+
 ### frontmatter 複查（批 1，只列不改）
 
 - cdg-0640：`publisher_tw` 現作「億弘」，廣告全名「**憶弘**國際股份有限公司」（憶，心字旁）→ 用字待訂。
