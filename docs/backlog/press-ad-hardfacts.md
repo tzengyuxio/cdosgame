@@ -1,5 +1,5 @@
 ---
-status: pending
+status: done
 created: 2026-07-19
 source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批次）
 ---
@@ -87,6 +87,17 @@ source: press-import（raw/media/_inbox 電腦玩家96＋軟體世界多期批�
 
 - cdg-5230：`developer: New World Computing`——廣告顯示原作 Data East（1991）、PC 移植另有 Elite Systems（1993）；正文已述兩移植商，frontmatter 僅列 NWC，是否補 Elite／改標待訂。`publisher_tw: 智冠`，廣告在地標示為亞洲雷射（Asia Recording）台港製造＋電腦休閒世界（＝智冠旗下），非衝突。
 - cdg-5232：developer 暫填 Acclaim(US)（廣告原廠標誌），實際開發studio為 Acclaim Studios Teesside(UK)，待細訂；公司頁「會宇娛樂多媒體」尚未建立（body 未內連）。
+
+- **2026-07-19 批 9（6 款・收尾）**：cdg-5241 cdg-5243 cdg-5245 cdg-2309 cdg-2449 補 footnote＋硬事實 cite；cdg-5240 廣告無新規格 → 僅翻 release_status released。5240/5241/5243 release_status unverified→released（廣告證實台灣發行）。2309 用獨立 key `pcgamer96ad` 區隔既有評析 press。validate 通過、無 dangling cite。
+  - **cdg-2449 例外處置**：廣告推翻正文「未見本地代理」——《電腦玩家》96 期華義國際廣告證實華義代理（原廠 Infogrames）。已補 publisher_tw 華義、localization_level foreign→packaging、localization_basis→tw-publisher，正文更正。
+
+**✅ 56 張 ad 全數處理完畢（55 條目，批 1–9）。** 各批 frontmatter 複查清單見下，待使用者裁定（多為 publisher_tw 補空、content_language 中英雙語、developer 誤植等，皆只列不改）。
+
+### frontmatter 複查（批 9，只列不改）
+
+- cdg-2449：publisher_tw 已補華義（廣告直接證據）；content_language 維持 en（廣告未標中文化）。
+- cdg-5243：developer／year 仍 null（廣告未揭露）；publisher_tw 智冠，廣告標示「軟體世界／CORY WORLD」（＝智冠關係企業，非衝突）。
+- cdg-5241：year 仍 null（廣告僅給原作 1991/1993，台灣上市年不明）。
 
 ### frontmatter 複查（批 1，只列不改）
 
