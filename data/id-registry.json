@@ -48695,6 +48695,60 @@
       ],
       "status": "active",
       "title_zh": "絕地大反攻2"
+    },
+    "cdg-5303": {
+      "catalog_id": null,
+      "developer": "Tom Snyder Productions",
+      "keys": [
+        "t:哈雷計畫|Tom Snyder Productions"
+      ],
+      "status": "active",
+      "title_zh": "哈雷計畫"
+    },
+    "cdg-5304": {
+      "catalog_id": null,
+      "developer": "Game Arts",
+      "keys": [
+        "t:齊爾達傳說|Game Arts"
+      ],
+      "status": "active",
+      "title_zh": "齊爾達傳說"
+    },
+    "cdg-5305": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:短路小旅鼠|None"
+      ],
+      "status": "active",
+      "title_zh": "短路小旅鼠"
+    },
+    "cdg-5306": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:火爆摔角|None"
+      ],
+      "status": "active",
+      "title_zh": "火爆摔角"
+    },
+    "cdg-5307": {
+      "catalog_id": null,
+      "developer": "資策科技",
+      "keys": [
+        "t:帝國之光榮|資策科技"
+      ],
+      "status": "active",
+      "title_zh": "帝國之光榮"
+    },
+    "cdg-5308": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:頑皮貓（亞洲軟體）|None"
+      ],
+      "status": "active",
+      "title_zh": "頑皮貓（亞洲軟體）"
     }
   }
 }
