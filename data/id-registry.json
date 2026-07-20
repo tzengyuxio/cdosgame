@@ -48781,6 +48781,51 @@
       ],
       "status": "active",
       "title_zh": "百戰小旅鼠瘋狂版"
+    },
+    "cdg-5312": {
+      "catalog_id": null,
+      "developer": "Eldritch Games",
+      "keys": [
+        "t:魔鬼的女兒|Eldritch Games"
+      ],
+      "status": "active",
+      "title_zh": "魔鬼的女兒"
+    },
+    "cdg-5313": {
+      "catalog_id": null,
+      "developer": "Millennium Interactive",
+      "keys": [
+        "t:羅馬帝國AD92|Millennium Interactive"
+      ],
+      "status": "active",
+      "title_zh": "羅馬帝國AD92"
+    },
+    "cdg-5314": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:模擬生命|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "模擬生命"
+    },
+    "cdg-5315": {
+      "catalog_id": null,
+      "developer": "White Wolf Productions",
+      "keys": [
+        "t:完美將軍：二次大戰篇|White Wolf Productions"
+      ],
+      "status": "active",
+      "title_zh": "完美將軍：二次大戰篇"
+    },
+    "cdg-5316": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:鐵路A計畫：開天闢地篇|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "鐵路A計畫：開天闢地篇"
     }
   }
 }
