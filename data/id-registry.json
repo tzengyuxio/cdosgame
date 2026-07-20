@@ -2670,8 +2670,9 @@
       "keys": [
         "cat:SCD2250"
       ],
-      "status": "active",
-      "title_zh": "上海城市賽車"
+      "status": "rejected",
+      "title_zh": "上海城市賽車",
+      "reject_reason": "out of scope: Team6《上海城市賽車》(2004)，昌哲代理——該代理商引進作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-0287": {
       "catalog_id": "SCD0467",
@@ -3293,8 +3294,9 @@
       "keys": [
         "cat:SCD1115"
       ],
-      "status": "active",
-      "title_zh": "大唐英雄傳"
+      "status": "rejected",
+      "title_zh": "大唐英雄傳",
+      "reject_reason": "out of scope: 昌哲科技《大唐英雄傳》(2003)，該廠作品均為 2000 年後、與 DOS 時代廠商或系列無關聯"
     },
     "cdg-0355": {
       "catalog_id": "SCD0614",
@@ -4752,8 +4754,9 @@
       "keys": [
         "cat:SCD2100"
       ],
-      "status": "active",
-      "title_zh": "小小探險家奧斯卡：森林歷險記"
+      "status": "rejected",
+      "title_zh": "小小探險家奧斯卡：森林歷險記",
+      "reject_reason": "out of scope: Tivola《小小探險家奧斯卡：森林歷險記》(1998)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0514": {
       "catalog_id": "SCD2014",
@@ -11610,8 +11613,9 @@
       "keys": [
         "cat:SCD0335"
       ],
-      "status": "active",
-      "title_zh": "淘氣鬼闖通關"
+      "status": "rejected",
+      "title_zh": "淘氣鬼闖通關",
+      "reject_reason": "out of scope: 兔兔米《淘氣鬼闖通關》(2001)，朔太代理——該代理商作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-1252": {
       "catalog_id": "SCD0759",
@@ -18965,8 +18969,9 @@
       "keys": [
         "cat:SCD0361"
       ],
-      "status": "active",
-      "title_zh": "紙莎草書1：輪迴千年的呼喚"
+      "status": "rejected",
+      "title_zh": "紙莎草書1：輪迴千年的呼喚",
+      "reject_reason": "out of scope: 朔太《紙莎草書1：輪迴千年的呼喚》(2004)，該廠作品均為 2000 年後、與 DOS 時代廠商或系列無關聯"
     },
     "cdg-2053": {
       "catalog_id": "OCD0097",
@@ -18974,8 +18979,9 @@
       "keys": [
         "cat:OCD0097"
       ],
-      "status": "active",
-      "title_zh": "紙莎草書2：蠍之封印"
+      "status": "rejected",
+      "title_zh": "紙莎草書2：蠍之封印",
+      "reject_reason": "out of scope: 朔太《紙莎草書2：蠍之封印》(2004)，該廠作品均為 2000 年後、與 DOS 時代廠商或系列無關聯"
     },
     "cdg-2054": {
       "catalog_id": "SCD0445",
@@ -22818,8 +22824,9 @@
       "keys": [
         "cat:SCD2248"
       ],
-      "status": "active",
-      "title_zh": "曼哈頓獵車傳奇"
+      "status": "rejected",
+      "title_zh": "曼哈頓獵車傳奇",
+      "reject_reason": "out of scope: Blimb《曼哈頓獵車傳奇》(2003)，昌哲代理——該代理商引進作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-2476": {
       "catalog_id": "SSG022",
@@ -23023,8 +23030,9 @@
       "keys": [
         "cat:SCD2247"
       ],
-      "status": "active",
-      "title_zh": "最速傳說之街道制霸"
+      "status": "rejected",
+      "title_zh": "最速傳說之街道制霸",
+      "reject_reason": "out of scope: Team6《最速傳說之街道制霸》(2005)，昌哲代理——該代理商引進作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-2497": {
       "catalog_id": "SCD2283",
@@ -23051,8 +23059,9 @@
       "keys": [
         "cat:SCD1151"
       ],
-      "status": "active",
-      "title_zh": "月狐傳說：小狐仙"
+      "status": "rejected",
+      "title_zh": "月狐傳說：小狐仙",
+      "reject_reason": "out of scope: 朔太《月狐傳說：小狐仙》(2002)，該廠作品均為 2000 年後、與 DOS 時代廠商或系列無關聯"
     },
     "cdg-2500": {
       "catalog_id": null,
@@ -23223,8 +23232,9 @@
       "keys": [
         "cat:OCD0061"
       ],
-      "status": "active",
-      "title_zh": "聖域破壞神"
+      "status": "rejected",
+      "title_zh": "聖域破壞神",
+      "reject_reason": "out of scope: Ascaron《聖域破壞神》(2004)，昌哲代理——該代理商引進作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-2519": {
       "catalog_id": "SCD2536",
