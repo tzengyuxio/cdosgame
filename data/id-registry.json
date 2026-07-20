@@ -8647,8 +8647,9 @@
       "keys": [
         "cat:SCD2436"
       ],
-      "status": "active",
-      "title_zh": "台灣辣妹16張麻將"
+      "status": "rejected",
+      "title_zh": "台灣辣妹16張麻將",
+      "reject_reason": "out of scope: 帥呆了《台灣辣妹16張麻將》(2003)，該廠作品均為 2000 年後、無 DOS 時代足跡，廠商亦不具代表性"
     },
     "cdg-0936": {
       "catalog_id": "SCD2569",
@@ -31796,8 +31797,9 @@
       "keys": [
         "cat:SCD0338"
       ],
-      "status": "active",
-      "title_zh": "荒島大作戰"
+      "status": "rejected",
+      "title_zh": "荒島大作戰",
+      "reject_reason": "out of scope: 帥呆了《荒島大作戰》(2002)，該廠作品均為 2000 年後、無 DOS 時代足跡，廠商亦不具代表性"
     },
     "cdg-3451": {
       "catalog_id": null,
