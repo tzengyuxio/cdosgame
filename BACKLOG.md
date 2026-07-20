@@ -47,6 +47,7 @@
 - [ ] **cdg-2940/2941《初戀》系列 `developer_region` 補 JP**（2026-07-16）：兩款 developer 記 Family Soft、region 仍 null。cdg-2520 補完時已確證 Family Soft ＝株式会社ファミリーソフト（1987 東京練馬，**JP**），且官網沿革頁同列《ぱらPAR∀パラダイス》與《初恋ばれんたいん》→ 同一家公司無疑。當時不在授權範圍故未動。另 `content/companies/富峰群.md` 不存在（庫內至少 5 款掛該發行商、已有 alias redirect 到 /companies/遊戲橘子），可一併評估是否補公司頁。
 - [ ] **`content/companies/旭力亞.md` 唯一來源不支撐內文**（2026-07-16）：該頁唯一引用為 Softmax 維基條（`zh.wikipedia.org/wiki/Softmax_(游戏开发商)`），但實抓全文未出現「旭力亞」，「台灣代理旭力亞」之說目前無來源支撐。另 `raw/kudgame-list.txt` 的【旭力亞】分組疑把「展略」混入（實測：《公主幻想曲》官網記展略科技(Info-Mission)代理、《少林足球》標題畫面亦為 Info-Mission），清查時一併釐清兩家關係。
 - [ ] **掃描「只有簡中版、沒有繁中版」的條目**（2026-07-16）：疑有一批只出簡中版、從未在台發行的款被標成 `zh`+`localized`，依「catalog 只留台灣發行/代理」應 reject 或改標。**優先掃 `published: false`**（未經人工複核的 stub 是聚集地）。已連續踩到三筆並 reject：cdg-0587 幻想西遊記（金智塔）、cdg-2978 創世紀戰3第二部、cdg-0546 少林足球 → 屬系統性資料層問題。掃描起點、判準與陷阱集中於 **`docs/backlog/simplified-only-scan.md`**；適合獨立 session 做。
+- [ ] **topic 頁納入 media pipeline**（2026-07-21）：`content/topics/*.md` 目前無 `media` 欄位、`[slug].astro` 也不渲染圖，`process_media.mjs` 的 coll 僅支援 games／companies／people／teams。首例 `content/topics/電腦休閒世界.md` 的型錄兩頁改以 body 內嵌 `<figure>` 處理，圖手動轉檔（≤1MP／webp／q82，另產 thumb）放 `public/media/topics/<slug>/`、原圖與手寫 manifest 放 `raw/media/topics/<slug>/`——因此不受 `validate` 檢查、也不進 triage 流程。topic 掛圖若變多，應比照其他實體頁把 topics 正式納入 media schema、模板與 pipeline。
 - [ ] SEO — 站台搜尋引擎最佳化：title/meta description、Open Graph/Twitter card、sitemap.xml、結構化資料（schema.org Game/VideoGame）、canonical 與 base-path 友善的內部連結（2026-06-20）
 - [ ] 廣告處理 — 評估與導入網站廣告（版位規劃、廣告聯播網選擇、與復古版面的視覺相容、隱私/同意聲明）（2026-06-20）
 

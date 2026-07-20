@@ -7,6 +7,7 @@ import { breadcrumb } from '../../lib/jsonld.js';
 import EntityRefs from '../../components/EntityRefs.astro';
 import GameList from '../../components/GameList.astro';
 import Share from '../../components/Share.astro';
+import Lightbox from '../../components/Lightbox.astro';
 import { matchesListGames } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
@@ -51,6 +52,7 @@ const jsonLd = [breadcrumb(site, [
       )}
       <EntityRefs entity={t} />
       <Share />
+      <Lightbox />
     </div>
   </div>
 </Base>
