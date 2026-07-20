@@ -41,7 +41,7 @@ const showDevTools = import.meta.env.DEV;
     // editor-facing only for now; 18禁 / 未發售 let editors curate flagged entries.
     if (import.meta.env.DEV) {
       FACETS.splice(2, 0, ['platform','平台']);   // keep 平台 between 類型 and 年代 in dev
-      FACETS.push(['adult','18禁'], ['release','發售狀態']);
+      FACETS.push(['adult','18禁'], ['release','發售狀態'], ['img','圖片'], ['draft','發佈狀態']);
     }
     const SORTS = ['year:asc', 'year:desc', 'title:asc', 'vendor:asc'];
     if (import.meta.env.DEV) SORTS.push('id:asc', 'id:desc');

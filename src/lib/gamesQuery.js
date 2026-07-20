@@ -60,6 +60,10 @@ function facetValues(g, facet) {
   // dev-only status filters (toggles, not full partitions): non-matching games
   // return [] so they drop out only while the toggle is selected.
   if (facet === 'adult') return g.adult ? ['18禁'] : [];
+  // img is a full partition (every entry is one or the other) so editors can pull
+  // up either side; accepts both the index record (img) and raw entry data (media).
+  if (facet === 'img') return (g.img ?? g.media?.length ?? 0) > 0 ? ['有圖'] : ['無圖'];
+  if (facet === 'draft') return g.published === false ? ['未發佈'] : [];
   if (facet === 'release') {
     const rs = g.release_status;
     if (!rs || rs === 'released') return [];
@@ -100,7 +104,7 @@ export function paginate(games, page, size = 50) {
 }
 
 export function deriveFacets(games) {
-  const acc = { genre: new Map(), vendor: new Map(), loc: new Map(), platform: new Map(), adult: new Map(), release: new Map() };
+  const acc = { genre: new Map(), vendor: new Map(), loc: new Map(), platform: new Map(), adult: new Map(), release: new Map(), img: new Map(), draft: new Map() };
   const decadeCount = new Map();          // decade → count
   const yearCount = new Map();            // decade → Map(yearStr → count)
   const bump = (m, k) => m.set(k, (m.get(k) || 0) + 1);
@@ -123,6 +127,8 @@ export function deriveFacets(games) {
     else bump(acc.platform, NONE);
     for (const a of facetValues(g, 'adult')) bump(acc.adult, a);
     for (const r of facetValues(g, 'release')) bump(acc.release, r);
+    for (const i of facetValues(g, 'img')) bump(acc.img, i);
+    for (const d2 of facetValues(g, 'draft')) bump(acc.draft, d2);
   }
   const byCount = m => [...m.entries()].sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
   // 在地化 lists in meaning order (原生→中文化→中文包裝→外文→未分類), not by count.
@@ -148,6 +154,7 @@ export function deriveFacets(games) {
   return {
     decade, genre: byCount(acc.genre), loc: byLoc(acc.loc), vendor: byCount(acc.vendor),
     platform: byPlatform(acc.platform), adult: byCount(acc.adult), release: byCount(acc.release),
+    img: byCount(acc.img), draft: byCount(acc.draft),
   };
 }
 
