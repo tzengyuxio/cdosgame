@@ -33812,8 +33812,9 @@
       "keys": [
         "cat:SCD1045#3"
       ],
-      "status": "active",
-      "title_zh": "魂斗羅"
+      "status": "rejected",
+      "title_zh": "魂斗羅",
+      "reject_reason": "out of scope: Konami《魂斗羅》(1988)，DOS 外文原版、無台灣中文化或中文包裝足跡"
     },
     "cdg-3662": {
       "catalog_id": "SCD2346",
