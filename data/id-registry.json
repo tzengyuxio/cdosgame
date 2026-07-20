@@ -16993,8 +16993,9 @@
       "keys": [
         "cat:SCD2300"
       ],
-      "status": "active",
-      "title_zh": "神奇大冒險"
+      "status": "rejected",
+      "title_zh": "神奇大冒險",
+      "reject_reason": "out of scope: Rebelmind《神奇大冒險》(2003)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-1838": {
       "catalog_id": "SWT092",
@@ -19176,8 +19177,9 @@
       "keys": [
         "cat:SCD2580"
       ],
-      "status": "active",
-      "title_zh": "終極殺陣之瘋狂計程車美國篇"
+      "status": "rejected",
+      "title_zh": "終極殺陣之瘋狂計程車美國篇",
+      "reject_reason": "out of scope: Blimb《終極殺陣之瘋狂計程車美國篇》(2002)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-2076": {
       "catalog_id": "SCD2768",
@@ -19954,8 +19956,9 @@
       "keys": [
         "cat:SCD0543"
       ],
-      "status": "active",
-      "title_zh": "超世紀戰警：殺出屠夫灣"
+      "status": "rejected",
+      "title_zh": "超世紀戰警：殺出屠夫灣",
+      "reject_reason": "out of scope: Starbreeze《超世紀戰警：殺出屠夫灣》(2004)，外文 Windows 遊戲、逾收錄年代、無台灣中文化／代理發行足跡"
     },
     "cdg-2161": {
       "catalog_id": "SWT188",
@@ -21988,8 +21991,9 @@
       "keys": [
         "cat:SCD1825"
       ],
-      "status": "active",
-      "title_zh": "明星夢工廠"
+      "status": "rejected",
+      "title_zh": "明星夢工廠",
+      "reject_reason": "out of scope: Monte Cristo《明星夢工廠》(2004)，外文 Windows 遊戲、逾收錄年代、無 DOS 時代關聯"
     },
     "cdg-2385": {
       "catalog_id": "SCD0539",
@@ -27270,8 +27274,9 @@
       "keys": [
         "cat:SCD2349"
       ],
-      "status": "active",
-      "title_zh": "前進柏林2：圍城之戰"
+      "status": "rejected",
+      "title_zh": "前進柏林2：圍城之戰",
+      "reject_reason": "out of scope: City《前進柏林2：圍城之戰》(2005)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-2959": {
       "catalog_id": "SCD2350",
@@ -29614,8 +29619,9 @@
       "keys": [
         "cat:SCD2577"
       ],
-      "status": "active",
-      "title_zh": "機動特戰隊：迅狼計畫"
+      "status": "rejected",
+      "title_zh": "機動特戰隊：迅狼計畫",
+      "reject_reason": "out of scope: Byte《機動特戰隊：迅狼計畫》(2006)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-3213": {
       "catalog_id": "OCD0048",
@@ -29623,8 +29629,9 @@
       "keys": [
         "cat:OCD0048"
       ],
-      "status": "active",
-      "title_zh": "機器人歷險記"
+      "status": "rejected",
+      "title_zh": "機器人歷險記",
+      "reject_reason": "out of scope: Eurocom《機器人歷險記》(2005)，外文 Windows 遊戲、逾收錄年代、無 DOS 時代關聯"
     },
     "cdg-3214": {
       "catalog_id": "SWE140",
@@ -31433,8 +31440,9 @@
       "keys": [
         "cat:SCD0301"
       ],
-      "status": "active",
-      "title_zh": "戰鬥之翼"
+      "status": "rejected",
+      "title_zh": "戰鬥之翼",
+      "reject_reason": "out of scope: City《戰鬥之翼》(2006)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-3411": {
       "catalog_id": "SCD2009",
@@ -33054,8 +33062,9 @@
       "keys": [
         "cat:SCD0322"
       ],
-      "status": "active",
-      "title_zh": "鋼鐵意志"
+      "status": "rejected",
+      "title_zh": "鋼鐵意志",
+      "reject_reason": "out of scope: Gameyus《鋼鐵意志》(2005)，美思捷達代理——該代理商引進作品均為 2000 年後、無 DOS 時代關聯足跡"
     },
     "cdg-3588": {
       "catalog_id": "SCD0239",
