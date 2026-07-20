@@ -40282,8 +40282,9 @@
       "keys": [
         "t:帝國豪華版|None"
       ],
-      "status": "active",
-      "title_zh": "帝國豪華版"
+      "status": "merged",
+      "title_zh": "帝國豪華版",
+      "merged_into": "cdg-4654"
     },
     "cdg-4384": {
       "catalog_id": null,
