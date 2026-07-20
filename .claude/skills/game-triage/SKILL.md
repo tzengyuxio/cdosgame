@@ -36,6 +36,7 @@ allowed-tools: Bash, Read, Edit, Grep, Glob, WebSearch, WebFetch
   - 被中文名或「學習/教育」字樣誤判為非遊戲，其實是**有玩法的遊戲**（雲霄飛車/經營模擬、edutainment 冒險/解謎）。
   - 標題像教材、實為某系列遊戲的一作。
 - **範圍判準**（照 scope.md／about.astro）：非台灣市場、外文且無台灣中文化/代理足跡、純學習/教材/課程/工具軟體 → out；**兒童向 edutainment 即使具解謎/冒險玩法也 out**（使用者已定調，見 project memory `scope-edutainment-excluded`）。
+- **判「無台灣足跡」前先確認台灣譯名**：庫內 `title_zh` 未必是當年通行譯名，用錯名字查必然落空（實測假陰性頭號成因，比來源 403 更常誤判）。詳見 memory `tw-title-variants-false-negative`。
 - **邊界/政策不明 → 先問使用者**，別自作主張刪；使用者給的 reject 清單若含疑似真遊戲，回報並確認後再處理。
 
 ### 2. 斷鏈檢查
