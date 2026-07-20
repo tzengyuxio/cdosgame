@@ -7914,16 +7914,16 @@
         "cat:Z098"
       ],
       "status": "active",
-      "title_zh": "航空大亨"
+      "title_zh": "航空大亨（Air Bucks）"
     },
     "cdg-0859": {
       "catalog_id": "SCD2159",
-      "developer": "Spellbound",
+      "developer": "Spellbound Software",
       "keys": [
         "cat:SCD2159"
       ],
       "status": "active",
-      "title_zh": "航空大亨1"
+      "title_zh": "航空大亨（Airline Tycoon）"
     },
     "cdg-0860": {
       "catalog_id": "SCD2160",
