@@ -1771,8 +1771,9 @@
       "keys": [
         "cat:SCD2696"
       ],
-      "status": "active",
-      "title_zh": "午夜檯球王"
+      "status": "rejected",
+      "title_zh": "午夜檯球王",
+      "reject_reason": "out of scope: AI Factory《午夜檯球王》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0189": {
       "catalog_id": "SCD1867",
@@ -1789,8 +1790,9 @@
       "keys": [
         "t:午夜鏢王3|AI Factory"
       ],
-      "status": "active",
-      "title_zh": "午夜鏢王3"
+      "status": "rejected",
+      "title_zh": "午夜鏢王3",
+      "reject_reason": "out of scope: AI Factory《午夜鏢王3》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0191": {
       "catalog_id": "Z007",
@@ -3925,8 +3927,9 @@
       "keys": [
         "cat:SCD1621"
       ],
-      "status": "active",
-      "title_zh": "大貨車極限競賽"
+      "status": "rejected",
+      "title_zh": "大貨車極限競賽",
+      "reject_reason": "out of scope: Stellar Stone《大貨車極限競賽》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0424": {
       "catalog_id": "SCD1070",
@@ -4190,8 +4193,9 @@
       "keys": [
         "cat:SCD2695"
       ],
-      "status": "active",
-      "title_zh": "天使鬥惡魔"
+      "status": "rejected",
+      "title_zh": "天使鬥惡魔",
+      "reject_reason": "out of scope: Enigma《天使鬥惡魔》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0453": {
       "catalog_id": "OCD0127",
@@ -4599,8 +4603,9 @@
       "keys": [
         "cat:SCD2320"
       ],
-      "status": "active",
-      "title_zh": "太空小蜜蜂"
+      "status": "rejected",
+      "title_zh": "太空小蜜蜂",
+      "reject_reason": "out of scope: Taito《太空小蜜蜂》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0498": {
       "catalog_id": null,
@@ -5519,8 +5524,9 @@
       "keys": [
         "cat:SCD2662"
       ],
-      "status": "active",
-      "title_zh": "幽浮：末日浩劫"
+      "status": "rejected",
+      "title_zh": "幽浮：末日浩劫",
+      "reject_reason": "out of scope: Altar《幽浮：末日浩劫》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0598": {
       "catalog_id": "SCD2663",
@@ -6409,8 +6415,9 @@
       "keys": [
         "cat:SCD1930"
       ],
-      "status": "active",
-      "title_zh": "印地賽車系列賽"
+      "status": "rejected",
+      "title_zh": "印地賽車系列賽",
+      "reject_reason": "out of scope: Brain in a Jar《印地賽車系列賽》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0693": {
       "catalog_id": "Z090,SCD1928",
@@ -8245,8 +8252,9 @@
       "keys": [
         "cat:SCD1082"
       ],
-      "status": "active",
-      "title_zh": "西洋棋高手8"
+      "status": "rejected",
+      "title_zh": "西洋棋高手8",
+      "reject_reason": "out of scope: Chessbase《西洋棋高手8》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0893": {
       "catalog_id": "Z041,SCD2677",
@@ -9385,8 +9393,9 @@
       "keys": [
         "cat:SCD2472"
       ],
-      "status": "active",
-      "title_zh": "喋血珍珠港"
+      "status": "rejected",
+      "title_zh": "喋血珍珠港",
+      "reject_reason": "out of scope: Made By KIDDIES《喋血珍珠港》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1015": {
       "catalog_id": "SCD1224",
@@ -11618,8 +11627,9 @@
       "keys": [
         "cat:SCD1692"
       ],
-      "status": "active",
-      "title_zh": "深藍國際電腦象棋"
+      "status": "rejected",
+      "title_zh": "深藍國際電腦象棋",
+      "reject_reason": "out of scope: Inertia《深藍國際電腦象棋》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1254": {
       "catalog_id": "SCD1393",
@@ -11756,8 +11766,9 @@
       "keys": [
         "cat:SCD1757"
       ],
-      "status": "active",
-      "title_zh": "漫畫賽車王"
+      "status": "rejected",
+      "title_zh": "漫畫賽車王",
+      "reject_reason": "out of scope: Simian Industries《漫畫賽車王》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1269": {
       "catalog_id": "SCD2186",
@@ -12047,8 +12058,9 @@
       "keys": [
         "cat:SCD1071"
       ],
-      "status": "active",
-      "title_zh": "奇妙大百科：倒水奇謀"
+      "status": "rejected",
+      "title_zh": "奇妙大百科：倒水奇謀",
+      "reject_reason": "out of scope: Pangea《奇妙大百科：倒水奇謀》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1301": {
       "catalog_id": "SCD0817",
@@ -15331,8 +15343,9 @@
       "keys": [
         "t:倫敦賽車手：全球挑戰賽|Davilex"
       ],
-      "status": "active",
-      "title_zh": "倫敦賽車手：全球挑戰賽"
+      "status": "rejected",
+      "title_zh": "倫敦賽車手：全球挑戰賽",
+      "reject_reason": "out of scope: Davilex《倫敦賽車手：全球挑戰賽》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1659": {
       "catalog_id": "SCD1843",
@@ -19189,8 +19202,9 @@
       "keys": [
         "cat:SCD1855"
       ],
-      "status": "active",
-      "title_zh": "終極破壞賽車"
+      "status": "rejected",
+      "title_zh": "終極破壞賽車",
+      "reject_reason": "out of scope: 3Romans《終極破壞賽車》(2003)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2079": {
       "catalog_id": "Z122",
