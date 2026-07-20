@@ -3,7 +3,7 @@ import { z } from "zod";
 
 export const COMPANY_MEDIA_KINDS = ["logo", "building", "product", "ad", "press", "other"];
 export const PERSON_MEDIA_KINDS = ["portrait", "photo", "press", "other"];
-export const TEAM_MEDIA_KINDS = ["logo", "photo", "press", "other"];
+export const TEAM_MEDIA_KINDS = ["logo", "photo", "ad", "press", "other"];
 
 // mediaArray(kinds, { games }) → Zod array. `games: true` adds an optional
 // `games: [cdg-…]` field, for an image (e.g. a 代理 ad) that features several
