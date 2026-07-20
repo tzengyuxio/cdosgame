@@ -845,3 +845,9 @@ created: 2026-06-20
 ## cdg-3896 射波 開發商爭議（2026-07-19g 廠商雜牌批）
 - 現 developer=安寶（安寶為 catalog 既有多款開發商：cdg-3897 聖城劫、cdg-5094）。但 cn-dos-games fandom wiki 把「射波(1992)」歸 **安華 Onwa**（https://cn-dos-games.fandom.com/zh/wiki/射波_(1992)、Category:Onwa）。單源，未推翻既有安寶歸屬，待二次查核確認安寶 vs 安華。
 - publisher_tw=[立東] 依使用者提供清單（立東軟體代理），外部來源未佐證立東代理足跡，catalog basis。
+
+## cdg-5229 百戰小旅鼠2 原作誤植訂正（2026-07-21 電腦休閒世界盒裝批）
+- 原登記為 Lemmings 2: The Tribes（1993），但電腦休閒世界盒裝實物顯示中文品名「百戰小旅鼠2」對應的是 **Oh No! More Lemmings**（Psygnosis, 1991，初代的關卡資料片），書背 NO.14、NT$180。已據實物改 title_aliases／slug／year／references 與正文。
+- 連帶待查：該條目既有的 `ad-01.webp`（電腦遊戲世界 第103期廣告）當初是按 Lemmings 2 認定收入，需回頭確認該廣告實際宣傳的是哪一款。
+- Lemmings 2: The Tribes 目前在 catalog 無條目；若日後查到台灣發行足跡再另建。
+- 後續（同日）：該廣告確認為 **Lemmings 2: The Tribes**，中文品名《百戰小旅鼠瘋狂版》（電腦休閒世界獨家代理），已另建 cdg-5311 並把 ad-01 圖與 manifest 一併移轉；cdg-5229 不再持有該廣告。
