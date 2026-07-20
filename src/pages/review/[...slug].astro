@@ -74,7 +74,7 @@ const total = groups.reduce((n, [, a]) => n + a.length, 0);
       timer = setTimeout(() => {
         fetch(SAVE + '/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(state) })
           .then(r => { if (!r.ok) throw 0; status.textContent = '已存檔 ✓ → data/review-state.json'; status.className = 'rv-status rv-ok'; })
-          .catch(() => { status.textContent = '⚠ save-server 未啟動，請按「下載」存檔（或先跑 node scripts/review-save-server.mjs）'; status.className = 'rv-status rv-err'; });
+          .catch(() => { status.textContent = '⚠ save-server 未啟動，請按「下載」存檔（或先跑 node scripts/serve_review_state.mjs）'; status.className = 'rv-status rv-err'; });
       }, 400);
     }
     document.getElementById('rv-download').addEventListener('click', () => {
@@ -101,7 +101,7 @@ const total = groups.reduce((n, [, a]) => n + a.length, 0);
       document.querySelectorAll('.review-list li').forEach(li => li._apply(state[li.dataset.path]));
       status.textContent = Object.keys(state).length ? '已載入既有審閱狀態（save-server 連線中）' : 'save-server 連線中 ✓';
       status.className = 'rv-status rv-ok';
-    }).catch(() => { status.textContent = 'save-server 未啟動——標記仍可用，存檔請按「下載」（或跑 node scripts/review-save-server.mjs）'; status.className = 'rv-status rv-err'; });
+    }).catch(() => { status.textContent = 'save-server 未啟動——標記仍可用，存檔請按「下載」（或跑 node scripts/serve_review_state.mjs）'; status.className = 'rv-status rv-err'; });
   </script>
 
   <style>

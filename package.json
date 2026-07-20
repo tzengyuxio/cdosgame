@@ -12,7 +12,7 @@
     "validate": "node scripts/validate_content.mjs",
     "stats": "node scripts/stats.mjs",
     "check:duplicate-links": "node scripts/find_duplicate_game_links.mjs",
-    "review": "node scripts/review-save-server.mjs"
+    "review": "node scripts/serve_review_state.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

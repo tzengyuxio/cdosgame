@@ -23,6 +23,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **頁面/資料架構（新增頁面類型前必讀）**：`docs/information-architecture.md`（站上有哪些頁面類型 games/companies/series/teams/people/events/topics、slug 與路由通則、跨實體連結方式）。公司頁細則見 `docs/company-pages.md`、遊戲 id 規則見 `docs/id-policy.md`。
 - **圖片入庫**：`raw/media/_hold/` →（`scripts/triage_media.mjs` 識圖／命名）→ `_inbox/` →（`process_media.mjs`）→ 站上。操作見 `docs/media-triage.md`，媒體規範見 `docs/media.md`。AI 讀圖結果落在 `derived/media-ocr/<hash>.json`（gitignored），**補條目時讀 sidecar、不重讀圖**。
+- **檔名慣例**：`scripts/` 用 snake_case、盡量 `動詞_名詞`（`triage_media` / `process_media`）——Python 模組名不能含 dash，且腳本間有 cross-import（如 `from parse_chiuinan import split_title`），`.mjs` 跟隨同目錄慣例；`docs/` 用 kebab-case 名詞片語（URL 慣例）。兩者不同是各自跟隨語言／媒介慣例的結果，不要為了「統一」而改。
 - **schema 是唯一權威**：欄位定義與所有 enum（含 `localization_level`、`genre`）一律以 `schema.md` + `schema/game.schema.mjs`（Zod）為準，勿在別處另記一份（易 drift）。genre 分類判準另見 `docs/genre-taxonomy.md`。
 - **收錄範圍**：時間/平台、中文化分級、自製vs商業、地域等判準均已定案，見 `scope.md`。
 - **raw（原封）/ derived（提煉）/ content（catalog）** 三層；raw 圖檔與 `node_modules` gitignored，manifest 與 content md 進版控。收料落地慣例（provenance、刪檔陷阱）見 `sources.md` 末段。

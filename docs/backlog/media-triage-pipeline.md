@@ -137,7 +137,7 @@ kind 與 caption 共用一份，**表達不了 kind 不同的需求**（大富�
 
 - [x] 1. `scripts/triage_media.mjs` — 掃描／雜湊／reconcile／registry 對照／改名搬移
 - [x] 2. `docs/media-triage.md` — 操作文件
-- [ ] 3. `scripts/media-review-server.mjs` — 邊看圖邊裁決的 review 頁（抄 `review-save-server.mjs` 骨架）
+- [ ] 3. `scripts/serve_media_review.mjs` — 邊看圖邊裁決的 review 頁（抄 `serve_review_state.mjs` 骨架）
 - [ ] 4. `process_media.mjs` manifest 增記 hash（撞號已由 `triage_media` 配號解掉；
       但 `process_media` 本身仍會在 `outFull` 已存在時**靜默跳過**，值得補一行警告）
 - [ ] 5. `press-import` skill 改讀 sidecar 而非重讀圖

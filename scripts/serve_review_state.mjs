@@ -1,6 +1,6 @@
 // Tiny dev helper for the /review dashboard: persists the reviewer's
 // publish/feedback marks to data/review-state.json. Run alongside `npm run dev`:
-//   node scripts/review-save-server.mjs
+//   node scripts/serve_review_state.mjs
 // The /review page POSTs marks here (Astro's own dev middleware can't read POST
 // bodies reliably, so this standalone Node server handles it). Read-only tooling
 // then reads data/review-state.json to know what to publish / fix.
