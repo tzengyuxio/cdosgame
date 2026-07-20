@@ -1,7 +1,9 @@
 ---
-const { path, right = '' } = Astro.props;
+// `note` renders as a shell comment after the prompt; `draft` recolours the bar
+// (used dev-side to flag unpublished entries — PROD never emits those pages).
+const { path, right = '', note = '', draft = false } = Astro.props;
 ---
-<div class="dosbar">
-  <span class="dospath">C:\CDOSGAME\{path}\&gt;<span class="cursor"></span></span>
+<div class:list={["dosbar", draft && "dosbar-draft"]}>
+  <span class="dospath">C:\CDOSGAME\{path}\&gt;{note && <span class="dosnote">{note}</span>}<span class="cursor"></span></span>
   {right && <span class="doscodes">{right}</span>}
 </div>

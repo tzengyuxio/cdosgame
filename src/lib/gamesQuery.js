@@ -167,6 +167,9 @@ export function toIndexRecord(d) {
     // at their default so the index stays lean.
     ...(d.adult === true ? { adult: true } : {}),
     ...(d.release_status && d.release_status !== 'released' ? { release_status: d.release_status } : {}),
+    // image count: lets the catalogue list flag entries that already have media
+    // (and how many), omitted when zero to keep the index lean.
+    ...(d.media?.length ? { img: d.media.length } : {}),
   };
 }
 

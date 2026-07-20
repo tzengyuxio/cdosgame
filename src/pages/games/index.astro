@@ -87,6 +87,7 @@ const showDevTools = import.meta.env.DEV;
         <li><a href="${BASE}/games/${g.id}">
           <span class="r-title">${esc(g.title_zh)}</span>
           ${g.published === false ? '<span class="r-draft">未發佈</span>' : ''}
+          ${g.img ? `<span class="r-img" title="含圖 ${g.img} 張">📷${g.img > 1 ? ' ' + g.img : ''}</span>` : ''}
           <span class="r-id">${g.id}</span>
           <span class="r-meta">${g.year ?? '—'} · ${esc(g.developer || g.publisher_tw[0] || '—')} · ${esc(genreLabel(g.genre) || '—')} · ${g.localization_level || '—'}</span>
         </a></li>`).join('');

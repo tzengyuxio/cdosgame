@@ -85,9 +85,21 @@ const staffByRole = staff => {
   }
   return groups;
 };
+// dev-only draft banner: PROD never emits unpublished pages, so this renders
+// only on localhost. Lists what still looks thin, to judge publish-readiness.
+const bodyLen = entry.body?.replace(/<[^>]*>/g, '').trim().length ?? 0;
+const gaps = g.published === false ? [
+  !g.year && '年份',
+  !g.developer && '開發商',
+  !g.genre && '類型',
+  !g.media?.length && '圖片',
+  bodyLen < 200 && `正文偏短（${bodyLen} 字）`,
+  !g.references && '參考資料',
+].filter(Boolean) : [];
 ---
 <Base title={`${g.title_zh}｜中文 DOS 遊戲資料庫`} description={description} ogType="article" ogImage={ogImage} jsonLd={jsonLd}>
-  <DosBar path={`GAMES\\${g.title_zh}`} right={g.id} />
+  <DosBar path={`GAMES\\${g.title_zh}`} right={g.id} draft={g.published === false}
+    note={g.published === false ? (gaps.length > 0 ? `REM 未發佈｜待補：${gaps.join('、')}` : 'REM 未發佈｜欄位齊備，可考慮發佈') : ''} />
   <div class="game-wiki">
     <div class="gw-main">
       <h1 class="game-title">{g.title_zh}{g.year && <span class="year">({g.year})</span>}</h1>

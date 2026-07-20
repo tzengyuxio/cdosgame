@@ -133,6 +133,11 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .results a:hover{background:#faf6ee;text-decoration:none}
 .r-title{font-weight:600}
 .r-id{color:var(--muted);font-size:12px;font-family:var(--mono);white-space:nowrap;opacity:.65}
+.dosbar-draft{background:#c0392b;color:#fff}
+.dosbar-draft .dospath,.dosbar-draft .doscodes{color:#fff}
+.dosbar-draft .cursor{background:#fff}
+.dosnote{margin-left:10px;opacity:.85;font-size:12px}
+.r-img{flex:none;font-size:11px;font-family:var(--mono);opacity:.75;white-space:nowrap}
 .r-draft{font-size:11px;font-family:var(--mono);font-weight:600;color:#fff;background:#c0392b;padding:1px 6px;border-radius:3px;white-space:nowrap}
 .results li:has(.r-draft){background:#fff7f4}
 .r-meta{color:var(--muted);font-size:13px;font-family:var(--mono);white-space:nowrap;margin-left:auto}
