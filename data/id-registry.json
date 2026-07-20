@@ -7824,8 +7824,9 @@
       "keys": [
         "cat:SCD2442"
       ],
-      "status": "active",
-      "title_zh": "自由計畫"
+      "status": "rejected",
+      "title_zh": "自由計畫",
+      "reject_reason": "out of scope: City《自由計畫》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0844": {
       "catalog_id": "SCD1543",
@@ -11723,8 +11724,9 @@
       "keys": [
         "cat:SCD2484"
       ],
-      "status": "active",
-      "title_zh": "湯姆克蘭西之間諜遊戲2"
+      "status": "rejected",
+      "title_zh": "湯姆克蘭西之間諜遊戲2",
+      "reject_reason": "out of scope: Ubisoft《湯姆克蘭西之間諜遊戲2》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1261": {
       "catalog_id": "SCD2485",
@@ -11990,8 +11992,9 @@
       "keys": [
         "cat:SCD0787"
       ],
-      "status": "active",
-      "title_zh": "亞特蘭提斯4：進化"
+      "status": "rejected",
+      "title_zh": "亞特蘭提斯4：進化",
+      "reject_reason": "out of scope: AIE《亞特蘭提斯4：進化》(2004)，非 DOS 遊戲；Cryo 亞特蘭提斯系列始於 1997，與同名的 LucasArts《亞特蘭提斯之謎》(1992, DOS) 分屬無關系列"
     },
     "cdg-1290": {
       "catalog_id": "SCD0788",
@@ -13054,8 +13057,9 @@
       "keys": [
         "cat:SCD1357"
       ],
-      "status": "active",
-      "title_zh": "改裝車大賽2：光榮締造者"
+      "status": "rejected",
+      "title_zh": "改裝車大賽2：光榮締造者",
+      "reject_reason": "out of scope: Canopy《改裝車大賽2：光榮締造者》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1406": {
       "catalog_id": "SCD0331",
@@ -13816,8 +13820,9 @@
       "keys": [
         "t:美式摩托車|Creat"
       ],
-      "status": "active",
-      "title_zh": "美式摩托車"
+      "status": "rejected",
+      "title_zh": "美式摩托車",
+      "reject_reason": "out of scope: Creat《美式摩托車》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1489": {
       "catalog_id": "SCD0718",
@@ -14623,8 +14628,9 @@
       "keys": [
         "cat:SCD1457"
       ],
-      "status": "active",
-      "title_zh": "代號：鋼鐵行動1"
+      "status": "rejected",
+      "title_zh": "代號：鋼鐵行動1",
+      "reject_reason": "out of scope: StormRegion《代號：鋼鐵行動1》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1577": {
       "catalog_id": "SCD1458",
@@ -15516,8 +15522,9 @@
       "keys": [
         "t:傷心黑白棋|504軟體"
       ],
-      "status": "active",
-      "title_zh": "傷心黑白棋"
+      "status": "rejected",
+      "title_zh": "傷心黑白棋",
+      "reject_reason": "out of scope: 504軟體《傷心黑白棋》(2004)，非 DOS 遊戲，該廠僅此一作、與 DOS 時代無關聯"
     },
     "cdg-1674": {
       "catalog_id": null,
@@ -18379,8 +18386,9 @@
       "keys": [
         "cat:SCD1211"
       ],
-      "status": "active",
-      "title_zh": "麥奇小子多媒體幼教評量光碟"
+      "status": "rejected",
+      "title_zh": "麥奇小子多媒體幼教評量光碟",
+      "reject_reason": "out of scope: 麥奇資訊《麥奇小子多媒體幼教評量光碟》(2004)，幼教評量教材，非遊戲"
     },
     "cdg-1986": {
       "catalog_id": "SCD2282",
@@ -18507,8 +18515,9 @@
       "keys": [
         "cat:SCD1069"
       ],
-      "status": "active",
-      "title_zh": "麻將探秘"
+      "status": "rejected",
+      "title_zh": "麻將探秘",
+      "reject_reason": "out of scope: iWin《麻將探秘》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2000": {
       "catalog_id": "SCD0276",
@@ -18935,8 +18944,9 @@
       "keys": [
         "cat:SCD1201"
       ],
-      "status": "active",
-      "title_zh": "紅色獵鷹"
+      "status": "rejected",
+      "title_zh": "紅色獵鷹",
+      "reject_reason": "out of scope: InterActive Vision《紅色獵鷹》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2046": {
       "catalog_id": null,
@@ -19881,8 +19891,9 @@
       "keys": [
         "t:象棋巫師|象棋百科全書網"
       ],
-      "status": "active",
-      "title_zh": "象棋巫師"
+      "status": "rejected",
+      "title_zh": "象棋巫師",
+      "reject_reason": "out of scope: 象棋百科全書網《象棋巫師》(2004)，象棋引擎／工具軟體，非遊戲"
     },
     "cdg-2149": {
       "catalog_id": null,
@@ -19984,8 +19995,9 @@
       "keys": [
         "cat:SCD1954"
       ],
-      "status": "active",
-      "title_zh": "貓女"
+      "status": "rejected",
+      "title_zh": "貓女",
+      "reject_reason": "out of scope: Argonaut《貓女》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2160": {
       "catalog_id": "SCD0543",
@@ -20954,8 +20966,9 @@
       "keys": [
         "cat:SCD1945"
       ],
-      "status": "active",
-      "title_zh": "黑幫教父"
+      "status": "rejected",
+      "title_zh": "黑幫教父",
+      "reject_reason": "out of scope: Mediamobsters《黑幫教父》(2004)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2267": {
       "catalog_id": "SWZ017",
@@ -21576,8 +21589,9 @@
       "keys": [
         "cat:SCD2088"
       ],
-      "status": "active",
-      "title_zh": "新成吉思汗：帝國霸業"
+      "status": "rejected",
+      "title_zh": "新成吉思汗：帝國霸業",
+      "reject_reason": "out of scope: 天泉《新成吉思汗：帝國霸業》(2004)，非 DOS 遊戲，該廠作品均為 2004 年、與 DOS 時代無交集（與 KOEI 蒼狼與白鹿、金盤成吉思汗無系列關聯）"
     },
     "cdg-2335": {
       "catalog_id": null,
