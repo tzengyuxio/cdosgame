@@ -48754,6 +48754,33 @@
       ],
       "status": "active",
       "title_zh": "頑皮貓（亞洲軟體）"
+    },
+    "cdg-5309": {
+      "catalog_id": null,
+      "developer": "Millennium Interactive",
+      "keys": [
+        "t:羅賓漢|Millennium Interactive"
+      ],
+      "status": "active",
+      "title_zh": "羅賓漢"
+    },
+    "cdg-5310": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:摩登都會|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "摩登都會"
+    },
+    "cdg-5311": {
+      "catalog_id": null,
+      "developer": "DMA Design",
+      "keys": [
+        "t:百戰小旅鼠瘋狂版|DMA Design"
+      ],
+      "status": "active",
+      "title_zh": "百戰小旅鼠瘋狂版"
     }
   }
 }
