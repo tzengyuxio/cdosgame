@@ -588,8 +588,9 @@
       "keys": [
         "cat:SCD1736"
       ],
-      "status": "active",
-      "title_zh": "F1一級方程式賽車2002／"
+      "status": "rejected",
+      "title_zh": "F1一級方程式賽車2002／",
+      "reject_reason": "out of scope: Image Space《F1一級方程式賽車2002》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0063": {
       "catalog_id": "SCD1734",
@@ -1760,8 +1761,9 @@
       "keys": [
         "cat:SCD1902"
       ],
-      "status": "active",
-      "title_zh": "午夜地下街頭飆車賽"
+      "status": "rejected",
+      "title_zh": "午夜地下街頭飆車賽",
+      "reject_reason": "out of scope: Canopy《午夜地下街頭飆車賽》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0188": {
       "catalog_id": "SCD2696",
@@ -2948,8 +2950,9 @@
       "keys": [
         "cat:SCD2101"
       ],
-      "status": "active",
-      "title_zh": "中英快打無影手"
+      "status": "rejected",
+      "title_zh": "中英快打無影手",
+      "reject_reason": "out of scope: 榮欽《中英快打無影手》(2001)，中英打字練習工具軟體，非遊戲"
     },
     "cdg-0318": {
       "catalog_id": "Z033",
@@ -3141,8 +3144,9 @@
       "keys": [
         "t:二戰風雲：沙漠之鼠|Canopy"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲：沙漠之鼠"
+      "status": "rejected",
+      "title_zh": "二戰風雲：沙漠之鼠",
+      "reject_reason": "out of scope: Canopy《二戰風雲：沙漠之鼠》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0339": {
       "catalog_id": "SCD1246",
@@ -3196,8 +3200,9 @@
       "keys": [
         "cat:SCD1243"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲之鐵道快砲"
+      "status": "rejected",
+      "title_zh": "二戰風雲之鐵道快砲",
+      "reject_reason": "out of scope: Asylum《二戰風雲之鐵道快砲》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0345": {
       "catalog_id": null,
@@ -3754,8 +3759,9 @@
       "keys": [
         "cat:SCD1729"
       ],
-      "status": "active",
-      "title_zh": "大獎賽4"
+      "status": "rejected",
+      "title_zh": "大獎賽4",
+      "reject_reason": "out of scope: MicroProse《大獎賽4》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0406": {
       "catalog_id": "SCD1751",
@@ -4211,8 +4217,9 @@
       "keys": [
         "cat:SCD0957"
       ],
-      "status": "active",
-      "title_zh": "天命傳奇2"
+      "status": "rejected",
+      "title_zh": "天命傳奇2",
+      "reject_reason": "out of scope: Arxel Tribe《天命傳奇2》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0456": {
       "catalog_id": null,
@@ -4628,8 +4635,9 @@
       "keys": [
         "cat:SCD2622,SCD2623"
       ],
-      "status": "active",
-      "title_zh": "太空遊俠1"
+      "status": "rejected",
+      "title_zh": "太空遊俠1",
+      "reject_reason": "out of scope: Elemental《太空遊俠1》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0502": {
       "catalog_id": "SCD2622,SCD2623",
@@ -4748,8 +4756,9 @@
       "keys": [
         "cat:SCD2014"
       ],
-      "status": "active",
-      "title_zh": "小小探險家奧斯卡：農場奇遇記"
+      "status": "rejected",
+      "title_zh": "小小探險家奧斯卡：農場奇遇記",
+      "reject_reason": "out of scope: Tivola《小小探險家奧斯卡：農場奇遇記》(2001)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0515": {
       "catalog_id": "SCD2096",
@@ -4757,8 +4766,9 @@
       "keys": [
         "cat:SCD2096"
       ],
-      "status": "active",
-      "title_zh": "小小發明家：與大師相會"
+      "status": "rejected",
+      "title_zh": "小小發明家：與大師相會",
+      "reject_reason": "out of scope: 正謙《小小發明家：與大師相會》(2001)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0516": {
       "catalog_id": "SCD2097",
@@ -4766,8 +4776,9 @@
       "keys": [
         "cat:SCD2097"
       ],
-      "status": "active",
-      "title_zh": "小小發明家：駭客任務"
+      "status": "rejected",
+      "title_zh": "小小發明家：駭客任務",
+      "reject_reason": "out of scope: 正謙《小小發明家：駭客任務》(2002)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0517": {
       "catalog_id": "SCD2271",
@@ -4784,8 +4795,9 @@
       "keys": [
         "cat:SCD0631"
       ],
-      "status": "active",
-      "title_zh": "小小馬蓋先：叢林大冒險"
+      "status": "rejected",
+      "title_zh": "小小馬蓋先：叢林大冒險",
+      "reject_reason": "out of scope: 草莓軟體《小小馬蓋先：叢林大冒險》(2001)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0519": {
       "catalog_id": "SCD2538",
@@ -4829,8 +4841,9 @@
       "keys": [
         "cat:SCD2272"
       ],
-      "status": "active",
-      "title_zh": "小白狗庫比"
+      "status": "rejected",
+      "title_zh": "小白狗庫比",
+      "reject_reason": "out of scope: Kidnkid《小白狗庫比》(2001)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0524": {
       "catalog_id": "SCD2273",
@@ -4883,8 +4896,9 @@
       "keys": [
         "cat:SCD1506"
       ],
-      "status": "active",
-      "title_zh": "小精靈全明星"
+      "status": "rejected",
+      "title_zh": "小精靈全明星",
+      "reject_reason": "out of scope: Infogrames《小精靈全明星》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0530": {
       "catalog_id": "SCD1513",
@@ -5194,8 +5208,9 @@
       "keys": [
         "cat:SCD2640"
       ],
-      "status": "active",
-      "title_zh": "巨獸島"
+      "status": "rejected",
+      "title_zh": "巨獸島",
+      "reject_reason": "out of scope: Planet Moon《巨獸島》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0564": {
       "catalog_id": "SCD0618",
@@ -5569,8 +5584,9 @@
       "keys": [
         "cat:SCD2661"
       ],
-      "status": "active",
-      "title_zh": "幽浮5：執法者"
+      "status": "rejected",
+      "title_zh": "幽浮5：執法者",
+      "reject_reason": "out of scope: MicroProse《幽浮5：執法者》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0605": {
       "catalog_id": null,
@@ -6612,8 +6628,9 @@
       "keys": [
         "cat:SCD0632"
       ],
-      "status": "active",
-      "title_zh": "失落的帝國：拯救古文明"
+      "status": "rejected",
+      "title_zh": "失落的帝國：拯救古文明",
+      "reject_reason": "out of scope: Zombie Studios《失落的帝國：拯救古文明》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0717": {
       "catalog_id": "SCD2704",
@@ -6922,8 +6939,9 @@
       "keys": [
         "t:立體彈珠台：太空軍校生 3|Microsoft"
       ],
-      "status": "active",
-      "title_zh": "立體彈珠台：太空軍校生 3"
+      "status": "rejected",
+      "title_zh": "立體彈珠台：太空軍校生 3",
+      "reject_reason": "out of scope: Microsoft《立體彈珠台：太空軍校生 3》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0751": {
       "catalog_id": "SCD1927",
@@ -7103,8 +7121,9 @@
       "keys": [
         "cat:SCD1687"
       ],
-      "status": "active",
-      "title_zh": "坎貝拉越野賽車1"
+      "status": "rejected",
+      "title_zh": "坎貝拉越野賽車1",
+      "reject_reason": "out of scope: Fun Labs《坎貝拉越野賽車1》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0771": {
       "catalog_id": "SCD1688",
@@ -7112,8 +7131,9 @@
       "keys": [
         "cat:SCD1688"
       ],
-      "status": "active",
-      "title_zh": "坎貝拉越野賽車2"
+      "status": "rejected",
+      "title_zh": "坎貝拉越野賽車2",
+      "reject_reason": "out of scope: Fun Labs《坎貝拉越野賽車2》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0772": {
       "catalog_id": "SCD1689",
@@ -7602,8 +7622,9 @@
       "keys": [
         "cat:SCD2798"
       ],
-      "status": "active",
-      "title_zh": "百戰天蟲：射波"
+      "status": "rejected",
+      "title_zh": "百戰天蟲：射波",
+      "reject_reason": "out of scope: Team 17《百戰天蟲：射波》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0825": {
       "catalog_id": "SCD2795",
@@ -8042,8 +8063,9 @@
       "keys": [
         "cat:SCD1857"
       ],
-      "status": "active",
-      "title_zh": "街頭拼裝賽車"
+      "status": "rejected",
+      "title_zh": "街頭拼裝賽車",
+      "reject_reason": "out of scope: Invictus《街頭拼裝賽車》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0873": {
       "catalog_id": "Z074",
@@ -8723,8 +8745,9 @@
       "keys": [
         "cat:SCD1502"
       ],
-      "status": "active",
-      "title_zh": "吃豆人世界2"
+      "status": "rejected",
+      "title_zh": "吃豆人世界2",
+      "reject_reason": "out of scope: Namco《吃豆人世界2》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0947": {
       "catalog_id": "SCD1503",
@@ -8852,8 +8875,9 @@
       "keys": [
         "cat:SCD2330"
       ],
-      "status": "active",
-      "title_zh": "名流高爾夫2003"
+      "status": "rejected",
+      "title_zh": "名流高爾夫2003",
+      "reject_reason": "out of scope: Microsoft《名流高爾夫2003》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0961": {
       "catalog_id": "SCD1683",
@@ -8924,8 +8948,9 @@
       "keys": [
         "cat:SCD1685"
       ],
-      "status": "active",
-      "title_zh": "名車大賽"
+      "status": "rejected",
+      "title_zh": "名車大賽",
+      "reject_reason": "out of scope: Pitbull Syndicate《名車大賽》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0969": {
       "catalog_id": "SCD1684",
@@ -9117,8 +9142,9 @@
       "keys": [
         "cat:SCD2567"
       ],
-      "status": "active",
-      "title_zh": "哆啦"
+      "status": "rejected",
+      "title_zh": "哆啦",
+      "reject_reason": "out of scope: SEGA《哆啦》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0990": {
       "catalog_id": "SCD0309",
@@ -9126,8 +9152,9 @@
       "keys": [
         "cat:SCD0309"
       ],
-      "status": "active",
-      "title_zh": "哇靠轟炸雞"
+      "status": "rejected",
+      "title_zh": "哇靠轟炸雞",
+      "reject_reason": "out of scope: Zuxxez《哇靠轟炸雞》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0991": {
       "catalog_id": "SCD0875",
@@ -9550,8 +9577,9 @@
       "keys": [
         "cat:SCD0650"
       ],
-      "status": "active",
-      "title_zh": "四川麻將帝國"
+      "status": "rejected",
+      "title_zh": "四川麻將帝國",
+      "reject_reason": "out of scope: eGames《四川麻將帝國》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1036": {
       "catalog_id": "SCD2507",
@@ -10756,8 +10784,9 @@
       "keys": [
         "cat:SCD2451"
       ],
-      "status": "active",
-      "title_zh": "決死突擊隊1"
+      "status": "rejected",
+      "title_zh": "決死突擊隊1",
+      "reject_reason": "out of scope: nFusion《決死突擊隊1》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1166": {
       "catalog_id": "SCD2452",
@@ -10765,8 +10794,9 @@
       "keys": [
         "cat:SCD2452"
       ],
-      "status": "active",
-      "title_zh": "決死突擊隊2"
+      "status": "rejected",
+      "title_zh": "決死突擊隊2",
+      "reject_reason": "out of scope: nFusion《決死突擊隊2》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1167": {
       "catalog_id": "SCD1821",
@@ -12952,8 +12982,9 @@
       "keys": [
         "cat:SCD2493"
       ],
-      "status": "active",
-      "title_zh": "式神之城1"
+      "status": "rejected",
+      "title_zh": "式神之城1",
+      "reject_reason": "out of scope: Alfa《式神之城1》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1403": {
       "catalog_id": "SCD2494",
@@ -13375,8 +13406,9 @@
       "keys": [
         "cat:SCD2806"
       ],
-      "status": "active",
-      "title_zh": "空戰霸主：一戰烽火"
+      "status": "rejected",
+      "title_zh": "空戰霸主：一戰烽火",
+      "reject_reason": "out of scope: Tatanka《空戰霸主：一戰烽火》(2002)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1449": {
       "catalog_id": null,
@@ -18721,8 +18753,9 @@
       "keys": [
         "cat:SCD2337"
       ],
-      "status": "active",
-      "title_zh": "微軟高爾夫2001"
+      "status": "rejected",
+      "title_zh": "微軟高爾夫2001",
+      "reject_reason": "out of scope: Microsoft《微軟高爾夫2001》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2032": {
       "catalog_id": "SCD0266",
@@ -18935,8 +18968,9 @@
       "keys": [
         "cat:SCD0445"
       ],
-      "status": "active",
-      "title_zh": "級位檢定六千題"
+      "status": "rejected",
+      "title_zh": "級位檢定六千題",
+      "reject_reason": "out of scope: 晟業《級位檢定六千題》(2001)，圍棋級位檢定題庫教學軟體，非遊戲"
     },
     "cdg-2055": {
       "catalog_id": "SCD1766",
@@ -19118,8 +19152,9 @@
       "keys": [
         "cat:SCD2579"
       ],
-      "status": "active",
-      "title_zh": "終極殺陣"
+      "status": "rejected",
+      "title_zh": "終極殺陣",
+      "reject_reason": "out of scope: IncaGold《終極殺陣》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2075": {
       "catalog_id": "SCD2580",
@@ -19517,8 +19552,9 @@
       "keys": [
         "cat:SCD2557"
       ],
-      "status": "active",
-      "title_zh": "網球大師系列"
+      "status": "rejected",
+      "title_zh": "網球大師系列",
+      "reject_reason": "out of scope: Microids《網球大師系列》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2119": {
       "catalog_id": "SCD2666",
@@ -21818,8 +21854,9 @@
       "keys": [
         "cat:SCD1206"
       ],
-      "status": "active",
-      "title_zh": "日文狂飆50音：魔力速記"
+      "status": "rejected",
+      "title_zh": "日文狂飆50音：魔力速記",
+      "reject_reason": "out of scope: 榮欽《日文狂飆50音：魔力速記》(2001)，日語五十音學習軟體，非遊戲"
     },
     "cdg-2372": {
       "catalog_id": "SCD1577",
@@ -22108,8 +22145,9 @@
       "keys": [
         "cat:SCD2455"
       ],
-      "status": "active",
-      "title_zh": "星海梟雄2"
+      "status": "rejected",
+      "title_zh": "星海梟雄2",
+      "reject_reason": "out of scope: Particle《星海梟雄2》(2001)，外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2404": {
       "catalog_id": "SCD0254",
