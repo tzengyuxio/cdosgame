@@ -147,6 +147,11 @@ media: z.array(z.object({
 
 ## 5. 交付流程（你給圖 → 我入庫）
 
+> **`_inbox` 之前還有一層 `_hold`**：人工挑好的圖先進 `raw/media/_hold/<來源資料夾>/`，
+> 由 `scripts/triage_media.mjs` 識圖、配序號、改名後才移進 `_inbox`。
+> 讀圖的 OCR 與抽出的硬資訊會落成 sidecar，補條目時直接讀、不重讀圖。
+> 操作見 **`docs/media-triage.md`**；本節（§5）講的是 `_inbox` 之後。
+
 ### 5.1 收件夾（inbox）＋ `process_media.mjs`
 
 把原圖丟進 **`raw/media/_inbox/`**（gitignored），檔名照 §5.2 帶資訊。由 **`scripts/process_media.mjs`** 入庫，兩種模式：
@@ -214,7 +219,7 @@ cdg-1564__title__self__cover.png                  → 標題畫面，且指定�
 |---|---|---|---|---|
 | 公司 | `public/media/companies/<公司名>/` | `logo`／`building`／`product`／`ad`／`press`／`other` | `logo` | `_inbox/companies/<公司名>/<kind>__<來源>…` |
 | 人物 | `public/media/people/<人名>/` | `portrait`／`photo`／`press`／`other` | `portrait` | `_inbox/people/<人名>/<kind>__<來源>…` |
-| 團隊 | `public/media/teams/<團隊名>/` | `logo`／`photo`／`press`／`other` | `logo` | `_inbox/teams/<團隊名>/<kind>__<來源>…` |
+| 團隊 | `public/media/teams/<團隊名>/` | `logo`／`photo`／`ad`／`press`／`other` | `logo` | `_inbox/teams/<團隊名>/<kind>__<來源>…` |
 
 （slug 是中文名，所以用**子資料夾**交付，不放進扁平檔名。）
 

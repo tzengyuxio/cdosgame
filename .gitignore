@@ -31,3 +31,6 @@ dist/
 
 # transient /review dashboard state (publish/feedback marks)
 data/review-state.json
+
+# 圖片入庫 sidecar：OCR 全文是可重生的中間產物，不進版控
+derived/media-ocr/
