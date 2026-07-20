@@ -5504,8 +5504,9 @@
       "keys": [
         "cat:SCD2762"
       ],
-      "status": "active",
-      "title_zh": "幻象殺手"
+      "status": "rejected",
+      "title_zh": "幻象殺手",
+      "reject_reason": "out of scope: Quantic Dream《幻象殺手》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0594": {
       "catalog_id": "SSG040",
@@ -19634,8 +19635,9 @@
       "keys": [
         "t:網球巨人|Skunk"
       ],
-      "status": "active",
-      "title_zh": "網球巨人"
+      "status": "rejected",
+      "title_zh": "網球巨人",
+      "reject_reason": "out of scope: Skunk《網球巨人》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2121": {
       "catalog_id": "SCD2591",
@@ -20519,8 +20521,9 @@
       "keys": [
         "cat:SCD1900"
       ],
-      "status": "active",
-      "title_zh": "超級特技賽車"
+      "status": "rejected",
+      "title_zh": "超級特技賽車",
+      "reject_reason": "out of scope: Gabriel《超級特技賽車》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2218": {
       "catalog_id": "SCD2720",
@@ -20728,8 +20731,9 @@
       "keys": [
         "cat:SCD1707"
       ],
-      "status": "active",
-      "title_zh": "越野競速錦標賽2005"
+      "status": "rejected",
+      "title_zh": "越野競速錦標賽2005",
+      "reject_reason": "out of scope: Invictus《越野競速錦標賽2005》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2241": {
       "catalog_id": "SCD2244",
@@ -20901,8 +20905,9 @@
       "keys": [
         "cat:SCD1907"
       ],
-      "status": "active",
-      "title_zh": "黃金賽車年代"
+      "status": "rejected",
+      "title_zh": "黃金賽車年代",
+      "reject_reason": "out of scope: Brain in a Jar《黃金賽車年代》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2260": {
       "catalog_id": "SCD2301",
@@ -23981,8 +23986,9 @@
       "keys": [
         "cat:SCD1899"
       ],
-      "status": "active",
-      "title_zh": "都市極限飆車"
+      "status": "rejected",
+      "title_zh": "都市極限飆車",
+      "reject_reason": "out of scope: Data Design《都市極限飆車》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2595": {
       "catalog_id": null,
@@ -24889,8 +24895,9 @@
       "keys": [
         "cat:SCD0842"
       ],
-      "status": "active",
-      "title_zh": "電影夢工廠"
+      "status": "rejected",
+      "title_zh": "電影夢工廠",
+      "reject_reason": "out of scope: Lionhead《電影夢工廠》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2693": {
       "catalog_id": "SCD0841",
@@ -25388,8 +25395,9 @@
       "keys": [
         "cat:SCD1473"
       ],
-      "status": "active",
-      "title_zh": "夢幻海洋公園"
+      "status": "rejected",
+      "title_zh": "夢幻海洋公園",
+      "reject_reason": "out of scope: Enlight《夢幻海洋公園》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2748": {
       "catalog_id": "SCD0373",
@@ -25668,8 +25676,9 @@
       "keys": [
         "cat:SCD1623"
       ],
-      "status": "active",
-      "title_zh": "瘋狂卡車2"
+      "status": "rejected",
+      "title_zh": "瘋狂卡車2",
+      "reject_reason": "out of scope: Eutechnyx《瘋狂卡車2》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2779": {
       "catalog_id": "SWE003",
@@ -25915,8 +25924,9 @@
       "keys": [
         "cat:SCD1796"
       ],
-      "status": "active",
-      "title_zh": "瘋狂青蛙賽車1"
+      "status": "rejected",
+      "title_zh": "瘋狂青蛙賽車1",
+      "reject_reason": "out of scope: Neko《瘋狂青蛙賽車1》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-2806": {
       "catalog_id": "SCD1797",
@@ -27320,8 +27330,9 @@
       "keys": [
         "cat:SCD2348"
       ],
-      "status": "active",
-      "title_zh": "前進柏林1"
+      "status": "rejected",
+      "title_zh": "前進柏林1",
+      "reject_reason": "out of scope: City《前進柏林1》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯（二代 cdg-2958 已 reject）"
     },
     "cdg-2958": {
       "catalog_id": "SCD2349",
@@ -27924,8 +27935,9 @@
       "keys": [
         "cat:SCD0675"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃2006"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃2006",
+      "reject_reason": "out of scope: EA《勁爆美國職籃2006》(2005)，非 DOS 遊戲；NBA Live 系列在台灣的關聯性足跡不足以構成 DOS 時代系列脈絡"
     },
     "cdg-3023": {
       "catalog_id": "SCD1099",
@@ -28629,8 +28641,9 @@
       "keys": [
         "t:棋天大聖|王驕"
       ],
-      "status": "active",
-      "title_zh": "棋天大聖"
+      "status": "rejected",
+      "title_zh": "棋天大聖",
+      "reject_reason": "out of scope: 王驕《棋天大聖》(2005)，非 DOS 遊戲，該廠僅此一作、與 DOS 時代無關聯"
     },
     "cdg-3100": {
       "catalog_id": null,
@@ -28778,8 +28791,9 @@
       "keys": [
         "cat:OCD0121"
       ],
-      "status": "active",
-      "title_zh": "極度誘惑麻將館"
+      "status": "rejected",
+      "title_zh": "極度誘惑麻將館",
+      "reject_reason": "out of scope: 遊戲天堂《極度誘惑麻將館》(2005)，非 DOS 遊戲，該廠作品均為 2003 年後、與 DOS 時代無交集"
     },
     "cdg-3116": {
       "catalog_id": "SCD2223",
@@ -29120,8 +29134,9 @@
       "keys": [
         "cat:SCD2763"
       ],
-      "status": "active",
-      "title_zh": "榮耀戰場1"
+      "status": "rejected",
+      "title_zh": "榮耀戰場1",
+      "reject_reason": "out of scope: Gearbox《榮耀戰場1》(2005)，非 DOS 遊戲；與同名的 cdg-3151《榮耀戰場》(1993, DOS, MicroProse Fields of Glory) 僅譯名相同、分屬無關作品"
     },
     "cdg-3153": {
       "catalog_id": "SCD2764",
@@ -29129,8 +29144,9 @@
       "keys": [
         "cat:SCD2764"
       ],
-      "status": "active",
-      "title_zh": "榮耀戰場2"
+      "status": "rejected",
+      "title_zh": "榮耀戰場2",
+      "reject_reason": "out of scope: Gearbox《榮耀戰場2》(2005)，非 DOS 遊戲；與同名的 cdg-3151《榮耀戰場》(1993, DOS, MicroProse Fields of Glory) 僅譯名相同、分屬無關作品"
     },
     "cdg-3154": {
       "catalog_id": "SCD2765",
@@ -30978,8 +30994,9 @@
       "keys": [
         "cat:SCD1755"
       ],
-      "status": "active",
-      "title_zh": "賽車女郎"
+      "status": "rejected",
+      "title_zh": "賽車女郎",
+      "reject_reason": "out of scope: Data Design《賽車女郎》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-3355": {
       "catalog_id": "SWT058",
@@ -31005,8 +31022,9 @@
       "keys": [
         "cat:SCD1940"
       ],
-      "status": "active",
-      "title_zh": "賽道狂飆：日出"
+      "status": "rejected",
+      "title_zh": "賽道狂飆：日出",
+      "reject_reason": "out of scope: Nadeo《賽道狂飆：日出》(2005)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-3358": {
       "catalog_id": "SCD1941",
@@ -31312,8 +31330,9 @@
       "keys": [
         "cat:SCD0564"
       ],
-      "status": "active",
-      "title_zh": "戰慄突擊"
+      "status": "rejected",
+      "title_zh": "戰慄突擊",
+      "reject_reason": "out of scope: Monolith《戰慄突擊》(2005)，非 DOS 遊戲；與 Valve「戰慄時空」系列僅譯名前綴相同、無系列關聯"
     },
     "cdg-3391": {
       "catalog_id": "Z001",
