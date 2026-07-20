@@ -53,16 +53,34 @@ const norm = (s) => String(s || "")
   .replace(/[；：，。、．・！？「」『』（）()《》〈〉【】\[\]{}~～\-—_+.,:;!?'"]/g, "")
   .toLowerCase();
 
+// Index content/games/*.md — the authority since FROZEN v0.2.0. Crucially this
+// picks up title_aliases: many games are known under a different name in period
+// ads than the one we chose as title_zh (中古戰史 → 上古神兵), and the registry
+// stores no aliases at all.
 function buildTitleIndex() {
-  const reg = JSON.parse(readFileSync(REGISTRY, "utf8"));
+  const reg = JSON.parse(readFileSync(REGISTRY, "utf8")).ids;
   const idx = new Map();
-  for (const [id, v] of Object.entries(reg.ids)) {
-    if (v.status !== "active" || !v.title_zh) continue;
-    if (!existsSync(join("content/games", `${id}.md`))) continue;
-    const k = norm(v.title_zh);
-    if (!k) continue;
+  const add = (key, entry) => {
+    const k = norm(key);
+    if (!k) return;
     if (!idx.has(k)) idx.set(k, []);
-    idx.get(k).push({ cdg: id, title: v.title_zh, developer: v.developer || null });
+    if (!idx.get(k).some((e) => e.cdg === entry.cdg)) idx.get(k).push(entry);
+  };
+  for (const f of readdirSync("content/games")) {
+    if (!f.endsWith(".md")) continue;
+    const id = basename(f, ".md");
+    if (reg[id]?.status && reg[id].status !== "active") continue;
+    const head = readFileSync(join("content/games", f), "utf8").split("\n---", 2)[0];
+    const title = head.match(/^title_zh:\s*(.+)$/m)?.[1]?.trim().replace(/^["']|["']$/g, "");
+    if (!title) continue;
+    const entry = { cdg: id, title, developer: reg[id]?.developer || head.match(/^developer:\s*(.+)$/m)?.[1]?.trim() || null };
+    add(title, entry);
+    // title_aliases is a YAML list of "- name" lines until the next top-level key
+    const aliasBlock = head.match(/^title_aliases:\s*\n((?:\s*-\s*.+\n?)*)/m)?.[1];
+    if (aliasBlock) for (const line of aliasBlock.split("\n")) {
+      const a = line.match(/^\s*-\s*(.+?)\s*$/)?.[1]?.replace(/^["']|["']$/g, "");
+      if (a) add(a, entry);
+    }
   }
   return idx;
 }
@@ -76,6 +94,9 @@ function sourceInfo(dir) {
   const m = dir.match(/^(?:\d+_)?(.+?)[_\s]*(?:第)?(?:No\.)?(\d+)(?:\+\d+)?期?/i);
   return m ? { source: null, publication: m[1].replace(/_/g, ""), issue: Number(m[2]), _inferred: true } : { source: null, _inferred: true };
 }
+// title_guess is free text an AI wrote; keep filenames tame (drop parenthetical
+// notes and path-hostile characters) without touching the sidecar value.
+const fsSafe = (t) => String(t || "").replace(/[（(].*?[）)]/g, "").replace(/[/:\\?*|"<>]/g, " ").replace(/\s+/g, " ").trim();
 const defaultCaption = (src) => (src.publication && src.issue ? `${src.publication} 第${src.issue}期` : "");
 
 // ── targets ─────────────────────────────────────────────────────────────
@@ -108,7 +129,10 @@ function parseName(name) {
   const segs = stem.split(/[_\s]+/).filter(Boolean);
   const page = segs.find((s) => /^p\d+/i.test(s)) || null;
   const tail = segs[segs.length - 1];
-  const title_guess = tail && !/^\d+$/.test(tail) && !/^p\d+/i.test(tail) && !/^ssc/i.test(tail) ? tail : null;
+  // Reject scanner artefacts: anything starting with a digit or a scanner prefix
+  // (SSC_0030, 0001-combined), and page-position words that aren't titles.
+  const NOISE = /^(combined|cover|inside|front|back|封面|封底|目錄|扉頁)|(裡|combined)$/i;
+  const title_guess = tail && !/^\d/.test(tail) && !/^(ss[a-z]|p\d)/i.test(tail) && !NOISE.test(tail) ? tail : null;
   return { state: "raw", target: null, title_guess, page };
 }
 
@@ -141,9 +165,12 @@ function inboxPath(t, ext) {
   return join(t.coll, t.slug, [rawKind, t.source, t.caption].filter(Boolean).join("__") + ext);
 }
 
+// A target with slug:null means "kind/source known, entry unknown" — it carries
+// the ad/press classification for an `unk` so the filename can still say so.
 function deriveStatus(s) {
   if (s.status === "skip") return "skip";
-  if (s.targets.length) return s.targets.every(targetComplete) ? "resolved" : "needs-kind";
+  const placed = s.targets.filter((t) => t.slug);
+  if (placed.length) return placed.every(targetComplete) ? "resolved" : "needs-kind";
   if (s.candidates.length > 1) return "ambiguous";
   if (s.status === "unk") return "unk";
   return "pending-vision";
@@ -177,8 +204,8 @@ if (cmd === "show" || cmd === "set") {
     for (const k of ["kind", "source", "caption"]) if (flag(k) !== undefined) tgt[k] = flag(k);
   } else {
     // no target spec → edit the first target in place
+    if (!s.targets.length) s.targets.push({ coll: "games", slug: null, kind: null, source: src.source || "", caption: defaultCaption(src) });
     const tgt = s.targets[0];
-    if (!tgt) { console.error("尚無 target，請用 --cdg 或 --add 指定"); process.exit(1); }
     for (const k of ["kind", "source", "caption"]) if (flag(k) !== undefined) tgt[k] = flag(k);
   }
   for (const k of ["title_guess", "enrich"]) if (flag(k) !== undefined) s[k] = flag(k);
@@ -242,7 +269,11 @@ for (const g of groups.values()) {
   for (const f of g.files) {
     const fn = parseName(f.name);
     if (fn.state === "skip") s.status = "skip";
-    if (fn.state === "unk") s.status = "unk";
+    if (fn.state === "unk") {
+      s.status = "unk";
+      // keep the kind/source the filename carries on a slug-less placeholder
+      if (fn.kind && !s.targets.length) s.targets.push({ coll: "games", slug: null, kind: fn.kind, source: fn.source || "", caption: "" });
+    }
     if (fn.title_guess) s.title_guess = fn.title_guess;
     if (fn.page) s.page = fn.page;
     if (fn.target) {
@@ -269,7 +300,7 @@ for (const g of groups.values()) {
   s.status = deriveStatus(s);
   // Allocate inbox paths ONCE — allocSeq is stateful, so calling it again for the
   // report and then for the move would burn a sequence number each time.
-  const paths = s.status === "resolved" ? s.targets.map((t) => inboxPath(t, extname(g.files[0].name))) : [];
+  const paths = s.status === "resolved" ? s.targets.filter((t) => t.slug).map((t) => inboxPath(t, extname(g.files[0].name))) : [];
   rows.push({ ...g, s, paths });
 }
 
@@ -293,7 +324,7 @@ for (const [st, label] of buckets) {
   for (const r of rs) {
     console.log(`  ${r.hash}  ${r.files.map((f) => f.rel).join("  +  ")}`);
     if (st === "resolved") for (const pth of r.paths) console.log(`      → ${pth}`);
-    else if (st === "needs-kind") for (const t of r.s.targets) console.log(`      ${targetKey(t)}，缺 ${[!t.kind && "kind", !t.source && "source"].filter(Boolean).join("/")}`);
+    else if (st === "needs-kind") for (const t of r.s.targets.filter((x) => x.slug)) console.log(`      ${targetKey(t)}，缺 ${[!t.kind && "kind", !t.source && "source"].filter(Boolean).join("/")}`);
     else if (st === "ambiguous") console.log(`      候選: ${r.s.candidates.map((c) => `${c.cdg}(${c.title})`).join(" ")}`);
   }
   console.log("");
@@ -356,13 +387,14 @@ for (const r of rows) {
   const ext = extname(r.files[0].name);
 
   if (r.s.status === "resolved") {
+    const placed = r.s.targets.filter((t) => t.slug);
     r.paths.forEach((pth, i) => {
       const dest = join(INBOX, pth);
       mkdirSync(join(dest, ".."), { recursive: true });
       if (i < r.files.length) { renameSync(r.files[i].file, dest); moved++; }
       else { copyFileSync(r.files[0].file, dest); copied++; }
     });
-    for (const f of r.files.slice(r.s.targets.length)) {
+    for (const f of r.files.slice(placed.length)) {
       const dir = join(HOLD, "_extra");
       mkdirSync(dir, { recursive: true });
       renameSync(f.file, join(dir, f.name));
@@ -375,11 +407,14 @@ for (const r of rows) {
   const prefix = r.s.status === "skip" ? "skip" : r.s.status === "unk" ? "unk" : null;
   if (!prefix) continue;
   for (const f of r.files) {
-    if (f.name.startsWith(`${prefix}__`)) continue;
     const t = r.s.targets[0];
+    // Strip any prefix we previously applied, so a name can be upgraded once the
+    // kind/title are known (unk__SSC_0027 → unk__ad__scan__拿破崙戰記).
+    const bare = basename(f.name, ext).replace(/^(unk|skip)__/, "");
     const stem = prefix === "unk" && t?.kind
-      ? ["unk", t.kind, t.source, r.s.title_guess].filter(Boolean).join("__")
-      : `${prefix}__${basename(f.name, ext)}`;
+      ? ["unk", t.kind, t.source, fsSafe(r.s.title_guess)].filter(Boolean).join("__")
+      : `${prefix}__${bare}`;
+    if (stem + ext === f.name) continue;
     renameSync(f.file, join(f.file, "..", stem + ext));
     renamed++;
   }
