@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "about": "raw/media/_hold/<資料夾名> → 來源資訊對照表（見 docs/media-triage.md）",
+    "note": "key 是自由字串、可多對一（別名／簡寫各給一筆）。source 必須是 data/media-sources.json 的合法 code（誰數位化的，如 scan／boneash），不是刊物本身——刊物寫在 publication／issue，由 triage_media 組成 caption。source 為 null 表示待確認，該資料夾的圖不會被移進 _inbox。 預設：軟體世界＝boneash、其他雜誌掃描＝scan；有例外請逐筆改。"
+  },
+  "dirs": {
+    "0486_電腦玩家_No.096_1999-07": {
+      "source": "scan",
+      "publication": "電腦玩家",
+      "issue": 96,
+      "date": "1999-07"
+    },
+    "軟體世界_第048期_1993年3月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 48,
+      "date": "1993-03"
+    },
+    "軟體世界_第004期_1989年7月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 4,
+      "date": "1989-07"
+    },
+    "軟體世界_第040期_1992年7月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 40,
+      "date": "1992-07"
+    },
+    "軟體世界_第050期_1993年5月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 50,
+      "date": "1993-05"
+    },
+    "軟體世界_第052期_1993年7月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 52,
+      "date": "1993-07"
+    },
+    "軟體世界_第054期_1993年9月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 54,
+      "date": "1993-09"
+    },
+    "軟世60期1994年3月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 60,
+      "date": "1994-03"
+    },
+    "軟體世界_第070+071期_1995春節特別號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": "70+71",
+      "date": "1995-02",
+      "note": "春節特別號，合刊"
+    },
+    "軟體世界_第082期_1996年1月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 82,
+      "date": "1996-01"
+    },
+    "軟體世界_第083期_1996年2月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 83,
+      "date": "1996-02"
+    },
+    "軟體世界_第090期_1996年9月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 90,
+      "date": "1996-09"
+    },
+    "軟體世界_第097期_1997年5月號": {
+      "source": "boneash",
+      "publication": "軟體世界",
+      "issue": 97,
+      "date": "1997-05"
+    }
+  }
+}
