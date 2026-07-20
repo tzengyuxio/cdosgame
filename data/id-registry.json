@@ -36943,8 +36943,9 @@
       "keys": [
         "t:鐵路Ａ計劃|None"
       ],
-      "status": "active",
-      "title_zh": "鐵路Ａ計劃"
+      "status": "merged",
+      "title_zh": "鐵路Ａ計劃",
+      "merged_into": "cdg-0039"
     },
     "cdg-4020": {
       "catalog_id": null,
