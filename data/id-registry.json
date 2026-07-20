@@ -139,8 +139,9 @@
       "keys": [
         "cat:SCD2205"
       ],
-      "status": "active",
-      "title_zh": "2001中國象棋個人賽"
+      "status": "rejected",
+      "title_zh": "2001中國象棋個人賽",
+      "reject_reason": "out of scope: 晟業《2001中國象棋個人賽》(2002)，非 DOS 遊戲，該廠最早作品為 1997 年 Win3.1、與 DOS 時代無交集"
     },
     "cdg-0015": {
       "catalog_id": "SCD1591",
@@ -1276,8 +1277,9 @@
       "keys": [
         "cat:SCD0987"
       ],
-      "status": "active",
-      "title_zh": "Yes！封神榜"
+      "status": "rejected",
+      "title_zh": "Yes！封神榜",
+      "reject_reason": "out of scope: 十乾科技《Yes！封神榜》(2002)，非 DOS 遊戲，該廠僅此一作、與 DOS 時代無關聯"
     },
     "cdg-0136": {
       "catalog_id": "SCD0462",
@@ -2561,8 +2563,9 @@
       "keys": [
         "cat:SCD0732"
       ],
-      "status": "active",
-      "title_zh": "上古卷軸3：魔捲晨風"
+      "status": "rejected",
+      "title_zh": "上古卷軸3：魔捲晨風",
+      "reject_reason": "out of scope: Bethesda《上古卷軸3：魔捲晨風》(2002)，非 DOS 遊戲，本作與其台灣代理（英特衛）均無 DOS 時代關聯"
     },
     "cdg-0275": {
       "catalog_id": "SCD0733",
@@ -2734,8 +2737,9 @@
       "keys": [
         "cat:SCD0347"
       ],
-      "status": "active",
-      "title_zh": "中世紀：全軍破敵"
+      "status": "rejected",
+      "title_zh": "中世紀：全軍破敵",
+      "reject_reason": "out of scope: Creative Assembly《中世紀：全軍破敵》(2002)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0294": {
       "catalog_id": "SCD0349",
@@ -3138,8 +3142,9 @@
       "keys": [
         "cat:SCD1247"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲：前線指揮官"
+      "status": "rejected",
+      "title_zh": "二戰風雲：前線指揮官",
+      "reject_reason": "out of scope: The Bitmap Brothers《二戰風雲：前線指揮官》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0338": {
       "catalog_id": null,
@@ -3157,8 +3162,9 @@
       "keys": [
         "cat:SCD1246"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲：血染諾曼底"
+      "status": "rejected",
+      "title_zh": "二戰風雲：血染諾曼底",
+      "reject_reason": "out of scope: 《二戰風雲：血染諾曼底》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0340": {
       "catalog_id": "SCD0212",
@@ -3166,8 +3172,9 @@
       "keys": [
         "cat:SCD0212"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲：鋼鐵之爪1"
+      "status": "rejected",
+      "title_zh": "二戰風雲：鋼鐵之爪1",
+      "reject_reason": "out of scope: Topware《二戰風雲：鋼鐵之爪1》(2002)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0341": {
       "catalog_id": "SCD1248",
@@ -3185,8 +3192,9 @@
       "keys": [
         "cat:SCD1242"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲之勝利大逃亡"
+      "status": "rejected",
+      "title_zh": "二戰風雲之勝利大逃亡",
+      "reject_reason": "out of scope: Pivotal《二戰風雲之勝利大逃亡》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0343": {
       "catalog_id": "SCD1245",
@@ -3194,8 +3202,9 @@
       "keys": [
         "cat:SCD1245"
       ],
-      "status": "active",
-      "title_zh": "二戰風雲之太平洋海戰"
+      "status": "rejected",
+      "title_zh": "二戰風雲之太平洋海戰",
+      "reject_reason": "out of scope: 《二戰風雲之太平洋海戰》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0344": {
       "catalog_id": "SCD1243",
@@ -3810,8 +3819,9 @@
       "keys": [
         "cat:SCD0704"
       ],
-      "status": "active",
-      "title_zh": "大航海世紀1503"
+      "status": "rejected",
+      "title_zh": "大航海世紀1503",
+      "reject_reason": "out of scope: Max Design《大航海世紀1503》(2002)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0411": {
       "catalog_id": "SCD0703",
@@ -4296,8 +4306,9 @@
       "keys": [
         "cat:SCD2698"
       ],
-      "status": "active",
-      "title_zh": "天堂與地獄"
+      "status": "rejected",
+      "title_zh": "天堂與地獄",
+      "reject_reason": "out of scope: MadCat《天堂與地獄》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0464": {
       "catalog_id": "SCD2168",
@@ -5052,8 +5063,9 @@
       "keys": [
         "cat:SCD2735"
       ],
-      "status": "active",
-      "title_zh": "少林英雄：新方世玉傳奇"
+      "status": "rejected",
+      "title_zh": "少林英雄：新方世玉傳奇",
+      "reject_reason": "out of scope: 萬智源《少林英雄：新方世玉傳奇》(2002)，非 DOS 遊戲，該廠作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-0546": {
       "catalog_id": "SCD2699",
@@ -5345,8 +5357,9 @@
       "keys": [
         "cat:SCD0687"
       ],
-      "status": "active",
-      "title_zh": "幻想水滸傳2"
+      "status": "rejected",
+      "title_zh": "幻想水滸傳2",
+      "reject_reason": "out of scope: KONAMI《幻想水滸傳2》(2003)，非 DOS 遊戲，系列（首作 1998 Windows）與廠商均無 DOS 時代關聯"
     },
     "cdg-0578": {
       "catalog_id": "SWE021",
@@ -5705,8 +5718,9 @@
       "keys": [
         "cat:SCD2306"
       ],
-      "status": "active",
-      "title_zh": "水族天地"
+      "status": "rejected",
+      "title_zh": "水族天地",
+      "reject_reason": "out of scope: e-frontier《水族天地》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0617": {
       "catalog_id": "SCD2787",
@@ -6225,8 +6239,9 @@
       "keys": [
         "cat:SCD1050"
       ],
-      "status": "active",
-      "title_zh": "世紀爭霸1"
+      "status": "rejected",
+      "title_zh": "世紀爭霸1",
+      "reject_reason": "out of scope: Stainless Steel《世紀爭霸1》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0672": {
       "catalog_id": "SCD1051",
@@ -6272,8 +6287,9 @@
       "keys": [
         "cat:SCD1053"
       ],
-      "status": "active",
-      "title_zh": "世紀霸業"
+      "status": "rejected",
+      "title_zh": "世紀霸業",
+      "reject_reason": "out of scope: Stainless Steel《世紀霸業》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0677": {
       "catalog_id": "SCD0911",
@@ -7059,8 +7075,9 @@
       "keys": [
         "cat:SCD2341"
       ],
-      "status": "active",
-      "title_zh": "地城英雄誌"
+      "status": "rejected",
+      "title_zh": "地城英雄誌",
+      "reject_reason": "out of scope: Arkane《地城英雄誌》(2002)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0763": {
       "catalog_id": "OCD0063",
@@ -7733,8 +7750,9 @@
       "keys": [
         "cat:SCD0355"
       ],
-      "status": "active",
-      "title_zh": "百花物語：鏡花緣"
+      "status": "rejected",
+      "title_zh": "百花物語：鏡花緣",
+      "reject_reason": "out of scope: 聯志《百花物語：鏡花緣》(2002)，非 DOS 遊戲，該廠作品均為 2000 年後、與 DOS 時代無交集"
     },
     "cdg-0836": {
       "catalog_id": "SCD0480",
@@ -9174,8 +9192,9 @@
       "keys": [
         "cat:SCD0875"
       ],
-      "status": "active",
-      "title_zh": "哈利波特1：神秘的魔法石"
+      "status": "rejected",
+      "title_zh": "哈利波特1：神秘的魔法石",
+      "reject_reason": "out of scope: KnowWonder《哈利波特1：神秘的魔法石》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-0992": {
       "catalog_id": "SCD0876",
@@ -9253,8 +9272,9 @@
       "keys": [
         "cat:SCD0112"
       ],
-      "status": "active",
-      "title_zh": "哈拉麻將王"
+      "status": "rejected",
+      "title_zh": "哈拉麻將王",
+      "reject_reason": "out of scope: 向量科技《哈拉麻將王》(2001)，非 DOS 遊戲，該廠最早作品為 1998 年 Windows、與 DOS 時代無交集"
     },
     "cdg-1000": {
       "catalog_id": "SCD1850",
@@ -9378,8 +9398,9 @@
       "keys": [
         "cat:SCD2474"
       ],
-      "status": "active",
-      "title_zh": "善與惡1"
+      "status": "rejected",
+      "title_zh": "善與惡1",
+      "reject_reason": "out of scope: Lionhead《善與惡1》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1013": {
       "catalog_id": "SCD2475",
@@ -10695,8 +10716,9 @@
       "keys": [
         "cat:SCD2445"
       ],
-      "status": "active",
-      "title_zh": "決戰惡魔島之冒險迷城：奪寶大作戰"
+      "status": "rejected",
+      "title_zh": "決戰惡魔島之冒險迷城：奪寶大作戰",
+      "reject_reason": "out of scope: 捷思特《決戰惡魔島之冒險迷城：奪寶大作戰》(2002)，非 DOS 遊戲，該廠最早作品為 1999 年 Windows、與 DOS 時代無交集"
     },
     "cdg-1155": {
       "catalog_id": "SCD0207",
@@ -10846,8 +10868,9 @@
       "keys": [
         "cat:SCD1465"
       ],
-      "status": "active",
-      "title_zh": "沉默小組1943"
+      "status": "rejected",
+      "title_zh": "沉默小組1943",
+      "reject_reason": "out of scope: Nival《沉默小組1943》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1171": {
       "catalog_id": "SCD2625",
@@ -10973,8 +10996,9 @@
       "keys": [
         "cat:SCD0748"
       ],
-      "status": "active",
-      "title_zh": "法櫃奇兵：帝王之墓"
+      "status": "rejected",
+      "title_zh": "法櫃奇兵：帝王之墓",
+      "reject_reason": "out of scope: LucasArts《法櫃奇兵之王陵再現》(2003)，非 DOS 遊戲；雖有台灣代理足跡（美商藝電，中英文包裝），但與 DOS 時代廠商或系列無關聯"
     },
     "cdg-1185": {
       "catalog_id": "SCD0706",
@@ -11084,8 +11108,9 @@
       "keys": [
         "cat:SCD2215"
       ],
-      "status": "active",
-      "title_zh": "波霸奇兵"
+      "status": "rejected",
+      "title_zh": "波霸奇兵",
+      "reject_reason": "out of scope: Ubisoft《波霸奇兵》(2002)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1197": {
       "catalog_id": "SCD1532",
@@ -11567,8 +11592,9 @@
       "keys": [
         "cat:SCD2460"
       ],
-      "status": "active",
-      "title_zh": "海灘英雄"
+      "status": "rejected",
+      "title_zh": "海灘英雄",
+      "reject_reason": "out of scope: Davilex《海灘英雄》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1247": {
       "catalog_id": "SCD2723",
@@ -12347,8 +12373,9 @@
       "keys": [
         "cat:SCD1478"
       ],
-      "status": "active",
-      "title_zh": "野生動物園1"
+      "status": "rejected",
+      "title_zh": "野生動物園1",
+      "reject_reason": "out of scope: B-Alive《野生動物園1》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1332": {
       "catalog_id": "SCD1479",
@@ -15081,8 +15108,9 @@
       "keys": [
         "cat:SCD1723"
       ],
-      "status": "active",
-      "title_zh": "俠盜獵車手：罪惡城市"
+      "status": "rejected",
+      "title_zh": "俠盜獵車手：罪惡城市",
+      "reject_reason": "out of scope: Rockstar《俠盜獵車手：罪惡城市》(2003)，非 DOS 遊戲；雖有台灣代理足跡（英寶格），但與 DOS 時代廠商或系列無關聯"
     },
     "cdg-1630": {
       "catalog_id": "SCD1724",
@@ -15626,8 +15654,9 @@
       "keys": [
         "cat:SCD1183"
       ],
-      "status": "active",
-      "title_zh": "全面攻擊"
+      "status": "rejected",
+      "title_zh": "全面攻擊",
+      "reject_reason": "out of scope: Wargaming《全面攻擊》(2003)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
     },
     "cdg-1689": {
       "catalog_id": "SCD1268",
@@ -17583,8 +17612,9 @@
       "keys": [
         "cat:SCD0084"
       ],
-      "status": "active",
-      "title_zh": "彩虹麻將新樂園"
+      "status": "rejected",
+      "title_zh": "彩虹麻將新樂園",
+      "reject_reason": "out of scope: 冠捷《彩虹麻將新樂園》(2003)，非 DOS 遊戲，該廠作品均為 2001 年後、與 DOS 時代無交集"
     },
     "cdg-1902": {
       "catalog_id": "SCD0795",
@@ -19694,8 +19724,9 @@
       "keys": [
         "cat:SCD1125"
       ],
-      "status": "active",
-      "title_zh": "總統萬歲2"
+      "status": "rejected",
+      "title_zh": "總統萬歲2",
+      "reject_reason": "out of scope: Frog City《總統萬歲2》(2001)，非 DOS 遊戲，系列（Tropico，首作 2001）與廠商均無 DOS 時代關聯"
     },
     "cdg-2132": {
       "catalog_id": "SCD1126",
