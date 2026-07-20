@@ -48835,6 +48835,60 @@
       ],
       "status": "active",
       "title_zh": "ㄆㄚˊㄉㄞˋ一族"
+    },
+    "cdg-5318": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:非自然選擇|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "非自然選擇"
+    },
+    "cdg-5319": {
+      "catalog_id": null,
+      "developer": "I·Motion",
+      "keys": [
+        "t:馬可波羅|I·Motion"
+      ],
+      "status": "active",
+      "title_zh": "馬可波羅"
+    },
+    "cdg-5320": {
+      "catalog_id": null,
+      "developer": "Condor Software",
+      "keys": [
+        "t:超擬真足球爭霸|Condor Software"
+      ],
+      "status": "active",
+      "title_zh": "超擬真足球爭霸"
+    },
+    "cdg-5321": {
+      "catalog_id": null,
+      "developer": "Mindscape",
+      "keys": [
+        "t:世紀大空戰|Mindscape"
+      ],
+      "status": "active",
+      "title_zh": "世紀大空戰"
+    },
+    "cdg-5322": {
+      "catalog_id": null,
+      "developer": "弘煜",
+      "keys": [
+        "t:危機都市|弘煜"
+      ],
+      "status": "active",
+      "title_zh": "危機都市"
+    },
+    "cdg-5323": {
+      "catalog_id": null,
+      "developer": "智冠",
+      "keys": [
+        "t:奇門遁甲之神算伯溫|智冠"
+      ],
+      "status": "active",
+      "title_zh": "奇門遁甲之神算伯溫"
     }
   }
 }
