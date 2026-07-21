@@ -48841,8 +48841,9 @@
       "keys": [
         "t:宇宙戰艦|None"
       ],
-      "status": "active",
-      "title_zh": "宇宙戰艦"
+      "status": "merged",
+      "title_zh": "宇宙戰艦",
+      "merged_into": "cdg-5046"
     },
     "cdg-5301": {
       "catalog_id": null,
@@ -48914,8 +48915,9 @@
       "keys": [
         "t:頑皮貓（亞洲軟體）|None"
       ],
-      "status": "active",
-      "title_zh": "頑皮貓（亞洲軟體）"
+      "status": "merged",
+      "title_zh": "頑皮貓（亞洲軟體）",
+      "merged_into": "cdg-4159"
     },
     "cdg-5309": {
       "catalog_id": null,
