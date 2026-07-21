@@ -39506,8 +39506,9 @@
       "keys": [
         "t:究鏡三界：神影幻遊 Limit3Area|None"
       ],
-      "status": "active",
-      "title_zh": "究鏡三界：神影幻遊 Limit3Area"
+      "status": "rejected",
+      "title_zh": "究鏡三界：神影幻遊 Limit3Area",
+      "reject_reason": "out of scope: 卞谷科技《究鏡三界：神影幻遊 Limit3Area》(2005)，台灣原生中文但為 2005 年 Windows 作，該廠與 DOS 時代無關聯足跡"
     },
     "cdg-4283": {
       "catalog_id": null,
@@ -40333,8 +40334,9 @@
       "keys": [
         "t:失落的維京人2|None"
       ],
-      "status": "active",
-      "title_zh": "失落的維京人2"
+      "status": "rejected",
+      "title_zh": "失落的維京人2",
+      "reject_reason": "out of scope: Blizzard／Beam Software《失落的維京人2》(1997)，DOS 外文原版、查無台灣中文化或代理足跡；系列一代 cdg-3977（珍232）雖有台灣足跡，惟該系列未達援引「補完系列脈絡」破例之份量"
     },
     "cdg-4374": {
       "catalog_id": null,
