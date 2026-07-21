@@ -27,6 +27,15 @@ Notes / References / External links。決策見 ADR-003。渲染元件：`src/co
 
 民間漢化／中文化連結的歸屬依上節 SOP：**正文有提及** → `references`（被該句 `[N]` 引用、標 `cited`）；**正文未提及、純補充** → `external_links`。
 
+## cite 標籤的位置
+
+**`<sup class="cite">` 一律放在句號【之前】**：`……敵我同時行動<sup class="cite" data-ref="cgw169"></sup>。`
+不是 `……敵我同時行動。<sup class="cite" data-ref="cgw169"></sup>`。
+
+- 連續多個 cite 同樣整組放在句號前：`……內容<sup …a></sup><sup …b></sup>。`
+- 句中（非句末）的 cite 緊接被引述的詞句即可，不涉本規則；引號、括號、分號前的 cite 保持原樣。
+- 全庫已於 2026-07-22 正規化（翻轉 3071 處）。日後新寫的條目直接照此格式，不需再批次處理。
+
 ## 編號規則
 
 - **正文 cite 編號**：每個 `<sup class="cite" data-ref="…">` 引用點**按 body 出現順序遞增** `[1][2][3]…`，每個點各一個號——即使多處 `data-ref` 指向同一個 ref/footnote，也遞增、不共用同號。
