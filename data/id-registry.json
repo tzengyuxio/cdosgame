@@ -31570,8 +31570,9 @@
       "keys": [
         "cat:SCD2717"
       ],
-      "status": "active",
-      "title_zh": "艾帝絲魔法大冒險"
+      "status": "merged",
+      "title_zh": "艾帝絲魔法大冒險",
+      "merged_into": "cdg-3836"
     },
     "cdg-3417": {
       "catalog_id": "SCD0268",
@@ -35831,8 +35832,9 @@
       "keys": [
         "t:魔獸爭霸2|None"
       ],
-      "status": "active",
-      "title_zh": "魔獸爭霸2"
+      "status": "merged",
+      "title_zh": "魔獸爭霸2",
+      "merged_into": "cdg-3751"
     },
     "cdg-3883": {
       "catalog_id": null,
@@ -37102,8 +37104,9 @@
       "keys": [
         "t:凱薩大帝|None"
       ],
-      "status": "active",
-      "title_zh": "凱薩大帝"
+      "status": "merged",
+      "title_zh": "凱薩大帝",
+      "merged_into": "cdg-2928"
     },
     "cdg-4022": {
       "catalog_id": null,
@@ -37813,8 +37816,9 @@
       "keys": [
         "t:魔獸爭霸2 簡|None"
       ],
-      "status": "active",
-      "title_zh": "魔獸爭霸2 簡"
+      "status": "merged",
+      "title_zh": "魔獸爭霸2 簡",
+      "merged_into": "cdg-3751"
     },
     "cdg-4098": {
       "catalog_id": null,
@@ -37858,8 +37862,9 @@
       "keys": [
         "t:魔獸爭霸2 繁|None"
       ],
-      "status": "active",
-      "title_zh": "魔獸爭霸2 繁"
+      "status": "merged",
+      "title_zh": "魔獸爭霸2 繁",
+      "merged_into": "cdg-3751"
     },
     "cdg-4103": {
       "catalog_id": null,
@@ -38678,8 +38683,9 @@
       "keys": [
         "t:塔莫倫戰士|None"
       ],
-      "status": "active",
-      "title_zh": "塔莫倫戰士"
+      "status": "merged",
+      "title_zh": "塔莫倫戰士",
+      "merged_into": "cdg-4972"
     },
     "cdg-4192": {
       "catalog_id": null,
@@ -39072,8 +39078,9 @@
       "keys": [
         "t:披薩大亨|None"
       ],
-      "status": "active",
-      "title_zh": "披薩大亨"
+      "status": "merged",
+      "title_zh": "披薩大亨",
+      "merged_into": "cdg-5277"
     },
     "cdg-4235": {
       "catalog_id": null,
@@ -40027,8 +40034,9 @@
       "keys": [
         "t:聖章～女神傳說|None"
       ],
-      "status": "active",
-      "title_zh": "聖章～女神傳說"
+      "status": "merged",
+      "title_zh": "聖章～女神傳說",
+      "merged_into": "cdg-4818"
     },
     "cdg-4340": {
       "catalog_id": null,
@@ -48895,8 +48903,9 @@
       "keys": [
         "t:帝國之光榮|資策科技"
       ],
-      "status": "active",
-      "title_zh": "帝國之光榮"
+      "status": "merged",
+      "title_zh": "帝國之光榮",
+      "merged_into": "cdg-1117"
     },
     "cdg-5308": {
       "catalog_id": null,
