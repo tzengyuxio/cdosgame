@@ -321,7 +321,7 @@
 
 **[ ] AMBIGUOUS — 已答（決策已定）**
 - [x] 龍之道（立東）— cdg-4280 補完＝Drakkhen(Infogrames 1989)＋掛立東，publish（判定同款，未新建）
-- [!] 頑皮貓（亞洲金磁片16）— cdg-5308 新建 stub false（≠cdg-4159＝Alley Cat；4159 標題已改「頑皮貓（Alley Cat）」對稱消歧義）
+- [x] 頑皮貓（亞洲金磁片16）— cdg-5308 merge→cdg-4159（**推翻先前「≠cdg-4159」判定**：金磁片包裝英文名即 Alley Cat，同款確認；亞洲軟體併入 4159 的 publisher_tw／release_codes）
 - [x] 橫掃千軍（美商新美）— cdg-3231 補完 TA 本體(Cavedog 1997)＋掛美商新美(GT Interactive 台灣)＋publish
 - [x] SUPER大戰略DOSV（琪珊）— cdg-2204 補完(SystemSoft/琪珊)＋publish；cdg-4030 merge→2204（同款確認）
 
