@@ -35785,8 +35785,9 @@
       "keys": [
         "t:瑪麗姐妹|None"
       ],
-      "status": "active",
-      "title_zh": "瑪麗姐妹"
+      "status": "merged",
+      "title_zh": "瑪麗姐妹",
+      "merged_into": "cdg-3959"
     },
     "cdg-3878": {
       "catalog_id": null,
@@ -37949,8 +37950,9 @@
       "keys": [
         "t:魔術綵球|None"
       ],
-      "status": "active",
-      "title_zh": "魔術綵球"
+      "status": "merged",
+      "title_zh": "魔術綵球",
+      "merged_into": "cdg-4575"
     },
     "cdg-4113": {
       "catalog_id": null,
@@ -40160,8 +40162,9 @@
       "keys": [
         "t:獸爪快打|None"
       ],
-      "status": "active",
-      "title_zh": "獸爪快打"
+      "status": "rejected",
+      "title_zh": "獸爪快打",
+      "reject_reason": "out of scope: GameTek《獸爪快打》(Brutal: Paws of Fury, 1994)，DOS 外文原版、查無台灣中文化或代理足跡"
     },
     "cdg-4355": {
       "catalog_id": null,
@@ -40188,8 +40191,9 @@
       "keys": [
         "t:冠軍足球經理2|None"
       ],
-      "status": "active",
-      "title_zh": "冠軍足球經理2"
+      "status": "rejected",
+      "title_zh": "冠軍足球經理2",
+      "reject_reason": "out of scope: Sports Interactive／Domark《冠軍足球經理2》(Championship Manager 2, 1995)，DOS 外文原版、查無台灣中文化或代理足跡"
     },
     "cdg-4358": {
       "catalog_id": null,
@@ -40197,8 +40201,9 @@
       "keys": [
         "t:危險的里克1|None"
       ],
-      "status": "active",
-      "title_zh": "危險的里克1"
+      "status": "merged",
+      "title_zh": "危險的里克1",
+      "merged_into": "cdg-4245"
     },
     "cdg-4359": {
       "catalog_id": null,
@@ -40206,8 +40211,9 @@
       "keys": [
         "t:危險的里克2|None"
       ],
-      "status": "active",
-      "title_zh": "危險的里克2"
+      "status": "rejected",
+      "title_zh": "危險的里克2",
+      "reject_reason": "out of scope: Core Design《危險的里克2》(Rick Dangerous 2, 1990)，DOS 外文原版、查無台灣中文化或代理足跡"
     },
     "cdg-4360": {
       "catalog_id": null,
@@ -40279,8 +40285,9 @@
       "keys": [
         "t:叢林吉爾|None"
       ],
-      "status": "active",
-      "title_zh": "叢林吉爾"
+      "status": "rejected",
+      "title_zh": "叢林吉爾",
+      "reject_reason": "out of scope: Epic MegaGames《叢林吉爾》(Jill of the Jungle, 1992)，DOS 外文 shareware、查無台灣中文化或代理足跡"
     },
     "cdg-4368": {
       "catalog_id": null,
@@ -40288,8 +40295,9 @@
       "keys": [
         "t:叢林吉爾2：地下冒險|None"
       ],
-      "status": "active",
-      "title_zh": "叢林吉爾2：地下冒險"
+      "status": "rejected",
+      "title_zh": "叢林吉爾2：地下冒險",
+      "reject_reason": "out of scope: Epic MegaGames《叢林吉爾2：地下冒險》(Jill Goes Underground, 1992)，DOS 外文 shareware、查無台灣中文化或代理足跡"
     },
     "cdg-4369": {
       "catalog_id": null,
@@ -40297,8 +40305,9 @@
       "keys": [
         "t:叢林吉爾3：拯救王子|None"
       ],
-      "status": "active",
-      "title_zh": "叢林吉爾3：拯救王子"
+      "status": "rejected",
+      "title_zh": "叢林吉爾3：拯救王子",
+      "reject_reason": "out of scope: Epic MegaGames《叢林吉爾3：拯救王子》(Jill Saves the Prince, 1992)，DOS 外文 shareware、查無台灣中文化或代理足跡"
     },
     "cdg-4370": {
       "catalog_id": null,
