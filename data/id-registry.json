@@ -20454,7 +20454,7 @@
     },
     "cdg-2210": {
       "catalog_id": "SCD1763",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1763"
       ],
@@ -26693,7 +26693,7 @@
     },
     "cdg-2888": {
       "catalog_id": "SCD1691",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1691"
       ],
@@ -27036,7 +27036,7 @@
     },
     "cdg-2926": {
       "catalog_id": "Z053",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:Z053"
       ],
@@ -33920,12 +33920,12 @@
     },
     "cdg-3673": {
       "catalog_id": "SCD1011",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1011"
       ],
       "status": "active",
-      "title_zh": "魔域幻境1"
+      "title_zh": "魔域幻境"
     },
     "cdg-3674": {
       "catalog_id": "SCD1012",
@@ -33938,7 +33938,7 @@
     },
     "cdg-3675": {
       "catalog_id": "SCD1008",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1008"
       ],
@@ -33947,7 +33947,7 @@
     },
     "cdg-3676": {
       "catalog_id": "SCD1009",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1009"
       ],
@@ -33956,7 +33956,7 @@
     },
     "cdg-3677": {
       "catalog_id": "SCD1010",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD1010"
       ],
@@ -33965,7 +33965,7 @@
     },
     "cdg-3678": {
       "catalog_id": "SCD2667",
-      "developer": "EPIC",
+      "developer": "Epic MegaGames",
       "keys": [
         "cat:SCD2667"
       ],
