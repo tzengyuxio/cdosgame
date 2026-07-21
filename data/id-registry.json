@@ -32890,8 +32890,9 @@
       "keys": [
         "cat:SCD1084"
       ],
-      "status": "active",
-      "title_zh": "玩具奇兵"
+      "status": "rejected",
+      "title_zh": "玩具奇兵",
+      "reject_reason": "out of scope: Army Men: RTS (2002)，外文 Windows 即時戰略、2000 年後、無台灣中文化／代理發行足跡"
     },
     "cdg-3561": {
       "catalog_id": "SCD1581",
