@@ -27,6 +27,7 @@
 - **遊戲用 `cdg-NNNN` 編號**（唯一例外）——因為遊戲量最大、標題最易變動，見 [`id-policy.md`](id-policy.md)。
 - **其餘所有實體與專題頁，slug 一律用「中文正名」**（與既有 companies/series 一致），連結時 `encodeURIComponent`。
 - **同名消歧**：撞名時 slug 加括號限定，如 `王世昌(大宇)`、`王世昌(漢堂)`；其他名稱進 `aliases` 供搜尋。
+- **外國廠商該用哪個名字**（沒有通用中文名時漢字／英文怎麼選、該信遊戲畫面還是包裝盒）見 [`company-pages.md`](company-pages.md)「廠商名稱怎麼定」。
 - 改 slug（正名）＝會斷舊網址，須補 Astro redirect（見「待議」）。故 slug 一旦發佈盡量別改。
 
 ### 路由集合 ＝ 聚合(game 欄位) ∪ collection 既有 md 檔
