@@ -25,6 +25,9 @@ import { createHash } from "node:crypto";
 import { MEDIA_KINDS } from "../schema/game.schema.mjs";
 import { COMPANY_MEDIA_KINDS, PERSON_MEDIA_KINDS, TEAM_MEDIA_KINDS } from "../schema/media.schema.mjs";
 
+// Renames here consume irreplaceable scans: abort rather than clobber.
+const die = (msg) => { console.error(`✗ ${msg}`); process.exit(1); };
+
 const HOLD = "raw/media/_hold";
 const INBOX = "raw/media/_inbox";
 const SIDECAR_DIR = "derived/media-ocr";
@@ -391,6 +394,7 @@ for (const r of rows) {
     r.paths.forEach((pth, i) => {
       const dest = join(INBOX, pth);
       mkdirSync(join(dest, ".."), { recursive: true });
+      if (existsSync(dest)) die(`目標檔已存在，拒絕覆蓋：${dest}`);
       if (i < r.files.length) { renameSync(r.files[i].file, dest); moved++; }
       else { copyFileSync(r.files[0].file, dest); copied++; }
     });
@@ -411,11 +415,16 @@ for (const r of rows) {
     // Strip any prefix we previously applied, so a name can be upgraded once the
     // kind/title are known (unk__SSC_0027 → unk__ad__scan__拿破崙戰記).
     const bare = basename(f.name, ext).replace(/^(unk|skip)__/, "");
-    const stem = prefix === "unk" && t?.kind
-      ? ["unk", t.kind, t.source, fsSafe(r.s.title_guess)].filter(Boolean).join("__")
+    const title = prefix === "unk" && t?.kind ? fsSafe(r.s.title_guess) : null;
+    // Without a title the composed stem is just unk__<kind>__<source>, which every
+    // untitled file in the folder would share — keep `bare` so it stays unique.
+    const stem = title
+      ? ["unk", t.kind, t.source, title].filter(Boolean).join("__")
       : `${prefix}__${bare}`;
     if (stem + ext === f.name) continue;
-    renameSync(f.file, join(f.file, "..", stem + ext));
+    const dest = join(f.file, "..", stem + ext);
+    if (existsSync(dest)) die(`改名目標已存在，拒絕覆蓋：${dest}`);
+    renameSync(f.file, dest);
     renamed++;
   }
 }
