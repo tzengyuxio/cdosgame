@@ -39524,8 +39524,9 @@
       "keys": [
         "t:夢幻情人 Play Lovers|None"
       ],
-      "status": "active",
-      "title_zh": "夢幻情人 Play Lovers"
+      "status": "rejected",
+      "title_zh": "夢幻情人 Play Lovers",
+      "reject_reason": "out of scope: 《夢幻情人 Play Lovers》(2001)，原生中文但為 2001 年 Windows 作，與 DOS 時代廠商或系列無可關聯足跡"
     },
     "cdg-4285": {
       "catalog_id": null,
@@ -40167,8 +40168,9 @@
       "keys": [
         "t:再續桃花：夢幻桃花源|None"
       ],
-      "status": "active",
-      "title_zh": "再續桃花：夢幻桃花源"
+      "status": "rejected",
+      "title_zh": "再續桃花：夢幻桃花源",
+      "reject_reason": "out of scope: 《再續桃花：夢幻桃花源》（酷蘇拉工作室）為收錄 10 款 h-game HCG 的大補帖光碟，不含遊戲本體、亦非正式代理發行，非遊戲條目"
     },
     "cdg-4356": {
       "catalog_id": null,
@@ -40312,8 +40314,9 @@
       "keys": [
         "t:城市奇俠：騎哥幫五人組|None"
       ],
-      "status": "active",
-      "title_zh": "城市奇俠：騎哥幫五人組"
+      "status": "rejected",
+      "title_zh": "城市奇俠：騎哥幫五人組",
+      "reject_reason": "out of scope: Headbone Interactive《城市奇俠：騎哥幫五人組》(The Gigglebone Gang: Infinity City，元尊文化代理)，兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-4372": {
       "catalog_id": null,
