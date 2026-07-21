@@ -49,6 +49,8 @@
 - [ ] **掃描「只有簡中版、沒有繁中版」的條目**（2026-07-16）：疑有一批只出簡中版、從未在台發行的款被標成 `zh`+`localized`，依「catalog 只留台灣發行/代理」應 reject 或改標。**優先掃 `published: false`**（未經人工複核的 stub 是聚集地）。已連續踩到三筆並 reject：cdg-0587 幻想西遊記（金智塔）、cdg-2978 創世紀戰3第二部、cdg-0546 少林足球 → 屬系統性資料層問題。掃描起點、判準與陷阱集中於 **`docs/backlog/simplified-only-scan.md`**；適合獨立 session 做。
 - [ ] **topic 頁納入 media pipeline**（2026-07-21）：`content/topics/*.md` 目前無 `media` 欄位、`[slug].astro` 也不渲染圖，`process_media.mjs` 的 coll 僅支援 games／companies／people／teams。首例 `content/topics/電腦休閒世界.md` 的型錄兩頁改以 body 內嵌 `<figure>` 處理，圖手動轉檔（≤1MP／webp／q82，另產 thumb）放 `public/media/topics/<slug>/`、原圖與手寫 manifest 放 `raw/media/topics/<slug>/`——因此不受 `validate` 檢查、也不進 triage 流程。topic 掛圖若變多，應比照其他實體頁把 topics 正式納入 media schema、模板與 pipeline。
 - [ ] **明訂 cite `<sup>` 與句號的相對位置，並全庫正規化**（2026-07-22）：使用者已定調 **cite 放在句號【之前】**（`……文字<sup class="cite"></sup>。`）。但全庫現況相反——句號在前的 `。<sup>` 有 3001 處、句號在後的 `<sup>。` 僅 495 處，多數派要改。應先在 `docs/refs-convention.md` 明訂並在 `game-entry` skill 呼應，再寫腳本全庫翻轉（注意連續多個 cite 的情形，如 `<sup A></sup><sup B></sup>。`，別讓其中一個落到句號後變孤兒）。**等《遊戲世界》169／180 期的補條目工作全部 commit 完再做**。
+- [ ] **統一廠商名稱「富士通」／「FUJITSU」**（2026-07-22）：庫內同一家公司兩種寫法並存（如 cdg-0074、cdg-1802、cdg-1803、cdg-1804、cdg-3369、cdg-4864），應一律收斂為中文「富士通」，並確認是否需補 alias redirect（機制見 `docs/backlog/company-aliases.md`）。
+- [ ] **「福旭」缺公司頁**（2026-07-22）：cdg-0162、cdg-1684、cdg-1925、cdg-3436、cdg-3906 掛此發行商但無 `content/companies/福旭.md`。《遊戲世界》169 期評測載《光闇紀事》「發行公司 福旭／代理經銷 智冠」，而該作 developer 為天堂鳥——福旭很可能是天堂鳥的關係企業，建頁時一併查證兩者關係。
 - [ ] SEO — 站台搜尋引擎最佳化：title/meta description、Open Graph/Twitter card、sitemap.xml、結構化資料（schema.org Game/VideoGame）、canonical 與 base-path 友善的內部連結（2026-06-20）
 - [ ] 廣告處理 — 評估與導入網站廣告（版位規劃、廣告聯播網選擇、與復古版面的視覺相容、隱私/同意聲明）（2026-06-20）
 
