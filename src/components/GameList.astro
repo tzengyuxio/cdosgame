@@ -1,6 +1,6 @@
 ---
 import { gameUrl } from '../lib/links.js';
-import { genreLabel } from '../lib/labels.js';
+import { genreLabel, vendorLabel } from '../lib/labels.js';
 const { games } = Astro.props;
 ---
 <ul class="results">
@@ -12,7 +12,7 @@ const { games } = Astro.props;
         <span class="r-img" title={`含圖 ${g.media.length} 張`} aria-label={`含圖 ${g.media.length} 張`}>📷{g.media.length > 1 && ` ${g.media.length}`}</span>
       )}
       <span class="r-id">{g.id}</span>
-      <span class="r-meta">{g.year ?? '—'} · {g.developer || g.publisher_tw?.[0] || '—'} · {genreLabel(g.genre) || '—'}</span>
+      <span class="r-meta">{g.year ?? '—'} · {vendorLabel(g)} · {genreLabel(g.genre) || '—'}</span>
     </a></li>
   ))}
 </ul>

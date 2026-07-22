@@ -24,3 +24,7 @@
 - [x] **既有條目正名——機械正名部分**（結案 2026-07-22）：cdg-0977「吞食天地1三國外傳」→去編號「吞食天地三國外傳」；cdg-3265「黃金城之秘」→「黃金城之謎」；cdg-2261「黃飛鴻－鐵雞鬥蜈蚣」→破折號改全形冒號。（尚存 cdg-1883／cdg-3737 兩命名判斷題，仍在 BACKLOG 待使用者定調。）
 - [x] **大宇長產品目錄表遷成 `/topics`**（2026-06-20 → 結案 2026-07-22）：`content/topics/大宇資訊產品目錄.md` 已建（`parent: 大宇`、含 G/A 系列目錄），topics collection＋頁面（`src/pages/topics/[slug].astro`、`index.astro`）已實作（全庫 17 個 topic），`大宇.md` 已不再內嵌目錄表；公司頁 `[name].astro` 自動列出 `parent==該公司` 的 topic（「專題／延伸條目」），不需手動回連。backlog 舊述「topics 尚未落地」已過時。
 - [x] **廠商／人物頁的數量篩選**（2026-06-28 → 結案 2026-07-22）：`CountFilter.astro`（分段控制：全部／3款+／5款+／10款+，預設 3）即「只顯示有 N 筆以上」的最簡版，已上線於 `/companies` 與 `/people` 兩個索引頁。
+
+## 站台功能（續2）
+
+- [x] **遊戲列表的廠商欄並列製作／出版**（2026-06-28 → 結案 2026-07-22）：新增 `vendorLabel(g)`（`src/lib/labels.js`）——`developer`≠`publisher_tw[0]` 時顯示「製作／發行」（斜線、製作在前，如「Artdink／第三波」），相同或缺一則顯示單一。套用於 `GameList.astro`（SSR 分類/年代/公司列表）與 `games/index.astro`（/games client 篩選列表）。18禁 facet 仍 dev-only（另項）。build 通過、43 測試全綠。

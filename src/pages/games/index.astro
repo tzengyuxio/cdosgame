@@ -30,7 +30,7 @@ const showDevTools = import.meta.env.DEV;
 
   <script>
     import { searchGames, applyFacets, sortGames, paginate, deriveFacets, NONE } from '../../lib/gamesQuery.js';
-    import { locLabel, genreLabel } from '../../lib/labels.js';
+    import { locLabel, genreLabel, vendorLabel } from '../../lib/labels.js';
 
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     // Panel order is utility-first: 在地化 (the project's defining axis) on top,
@@ -89,7 +89,7 @@ const showDevTools = import.meta.env.DEV;
           ${g.published === false ? '<span class="r-draft">未發佈</span>' : ''}
           ${g.img ? `<span class="r-img" title="含圖 ${g.img} 張">📷${g.img > 1 ? ' ' + g.img : ''}</span>` : ''}
           <span class="r-id">${g.id}</span>
-          <span class="r-meta">${g.year ?? '—'} · ${esc(g.developer || g.publisher_tw[0] || '—')} · ${esc(genreLabel(g.genre) || '—')} · ${g.localization_level || '—'}</span>
+          <span class="r-meta">${g.year ?? '—'} · ${esc(vendorLabel(g))} · ${esc(genreLabel(g.genre) || '—')} · ${g.localization_level || '—'}</span>
         </a></li>`).join('');
 
       const pg = document.getElementById('pager');
