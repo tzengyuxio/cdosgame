@@ -40,7 +40,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `staff[]`：`{role, name, person?}`；`person` 填有 /people 頁者的 slug。**收錄範圍**（完整定義見 schema.md）：台灣研發團隊/人員為主 → 其次中國大陸與香港人員 → 再次為日本/歐美**知名人士**（赤井孝美、Trevor Chan、Sid Meier、竹井正樹 等）；外商作品的一般開發人員不入。**署名照 credit 原樣**，勿把假名/英文名漢字化（曾誤把 たかしあきら 寫成「高志明」、給 Trevor Chan 杜撰「陳嘉倫」「陳鶴鳴」）。
 - `series` / `dev_team`：字串，連到 `/series`、`/teams`。
 - **`chiuinan_id` vs `release_codes`（兩者別搞混，最常見誤填）**：
-  - `chiuinan_id`（單一字串、可 null，**新條目用此名**；舊名 `catalog_id` schema 仍接受、載入時正規化）＝**外部典藏／資料庫的交叉參照碼**（chiuinan 等站的 `SCD`／`SWT`／`JXD`／`3WZ`… 索引碼，供來源比對/去重，registry 以 `cat:<code>` 當 key）。前綴規則見 `sources.md` §1。**不是廠商自家編號**。
+  - `chiuinan_id`（單一字串、可 null，**新條目用此名**；舊名 `catalog_id` schema 仍接受、載入時正規化）＝惰性遷移：**編輯到仍用舊名 `catalog_id` 的既有條目時，順手把該檔的欄位名改成 `chiuinan_id`**（值不動；不要為此另開批次，只在本來就要 touch 的檔上遷移）。＝**外部典藏／資料庫的交叉參照碼**（chiuinan 等站的 `SCD`／`SWT`／`JXD`／`3WZ`… 索引碼，供來源比對/去重，registry 以 `cat:<code>` 當 key）。前綴規則見 `sources.md` §1。**不是廠商自家編號**。
   - `release_codes[]`（`issuer`+`code`）＝**廠商自家在產品上標的發行/編目編號**：第三波型錄碼 `511000NNN`／`53196G`／`53197G`／`53185J`／`53186J`、包裝碼 `PC`／`710`（同流水號）、軟體世界 貴/珍/平版碼，**一律放這裡**（`issuer: 第三波` 等）。
   - ⚠ **型錄碼 `511000`／`53186J` 等一律進 `release_codes(issuer 第三波)`、不放 `chiuinan_id`**（16BIT 舊條目曾把 511000 放此欄，已批次校正歸位）。第三波編號體系全貌見 `content/topics/第三波綜合軟體目錄.md` 附錄。
 **⚠ 邊角案例 traps**（撞到再翻 **`references/frontmatter-gotchas.md`** 取完整規則與範例）：
