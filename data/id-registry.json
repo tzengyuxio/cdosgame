@@ -397,8 +397,9 @@
       "keys": [
         "cat:SCD0139"
       ],
-      "status": "active",
-      "title_zh": "A列車7"
+      "status": "rejected",
+      "title_zh": "A列車7",
+      "reject_reason": "out of scope: A列車7（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0042": {
       "catalog_id": "OCD0107",
@@ -3839,8 +3840,9 @@
       "keys": [
         "cat:SCD0705"
       ],
-      "status": "active",
-      "title_zh": "大航海世紀1701"
+      "status": "rejected",
+      "title_zh": "大航海世紀1701",
+      "reject_reason": "out of scope: 大航海世紀1701（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0413": {
       "catalog_id": "SCD0707",
@@ -8620,8 +8622,9 @@
       "keys": [
         "cat:SCD1781"
       ],
-      "status": "active",
-      "title_zh": "可樂米物語"
+      "status": "rejected",
+      "title_zh": "可樂米物語",
+      "reject_reason": "out of scope: 可樂米物語（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0930": {
       "catalog_id": "SCD1842",
@@ -11170,8 +11173,9 @@
       "keys": [
         "cat:SCD2155"
       ],
-      "status": "active",
-      "title_zh": "泰坦任務"
+      "status": "rejected",
+      "title_zh": "泰坦任務",
+      "reject_reason": "out of scope: 泰坦任務（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1203": {
       "catalog_id": "SCD1117,SCD0823",
@@ -16805,8 +16809,9 @@
       "keys": [
         "cat:SCD0162"
       ],
-      "status": "active",
-      "title_zh": "真‧三國無雙4"
+      "status": "rejected",
+      "title_zh": "真‧三國無雙4",
+      "reject_reason": "out of scope: 真‧三國無雙4（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1812": {
       "catalog_id": "SCD0163",
@@ -19392,8 +19397,9 @@
       "keys": [
         "cat:SCD1824,SCD1259"
       ],
-      "status": "active",
-      "title_zh": "絕冬城之夜2"
+      "status": "rejected",
+      "title_zh": "絕冬城之夜2",
+      "reject_reason": "out of scope: 絕冬城之夜2（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2093": {
       "catalog_id": "SCD2582",
@@ -21211,8 +21217,9 @@
       "keys": [
         "cat:SCD1963"
       ],
-      "status": "active",
-      "title_zh": "教父"
+      "status": "rejected",
+      "title_zh": "教父",
+      "reject_reason": "out of scope: 教父（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2292": {
       "catalog_id": "SCD1032",
@@ -34417,8 +34424,9 @@
       "keys": [
         "cat:OCD0122"
       ],
-      "status": "active",
-      "title_zh": "魔法門：黑暗彌賽亞"
+      "status": "rejected",
+      "title_zh": "魔法門：黑暗彌賽亞",
+      "reject_reason": "out of scope: 魔法門：黑暗彌賽亞（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3725": {
       "catalog_id": "JXZ009",
