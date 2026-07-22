@@ -49259,6 +49259,51 @@
       ],
       "status": "active",
       "title_zh": "雷鷹神兵"
+    },
+    "cdg-5335": {
+      "catalog_id": null,
+      "developer": "BlueSky Software",
+      "keys": [
+        "t:兔寶寶闖通關|BlueSky Software"
+      ],
+      "status": "active",
+      "title_zh": "兔寶寶闖通關"
+    },
+    "cdg-5336": {
+      "catalog_id": null,
+      "developer": "Distinctive Software",
+      "keys": [
+        "t:神探：迪克崔西|Distinctive Software"
+      ],
+      "status": "active",
+      "title_zh": "神探：迪克崔西"
+    },
+    "cdg-5337": {
+      "catalog_id": null,
+      "developer": "NovaLogic",
+      "keys": [
+        "t:火箭人|NovaLogic"
+      ],
+      "status": "active",
+      "title_zh": "火箭人"
+    },
+    "cdg-5338": {
+      "catalog_id": null,
+      "developer": "光譜",
+      "keys": [
+        "t:福爾摩莎和他的狗|光譜"
+      ],
+      "status": "active",
+      "title_zh": "福爾摩莎和他的狗"
+    },
+    "cdg-5339": {
+      "catalog_id": null,
+      "developer": "Imagitec Design",
+      "keys": [
+        "t:布萊恩傳奇：海盜小子|Imagitec Design"
+      ],
+      "status": "active",
+      "title_zh": "布萊恩傳奇：海盜小子"
     }
   }
 }
