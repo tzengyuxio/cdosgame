@@ -201,6 +201,11 @@ if (cmd === "show" || cmd === "set") {
   if (spec) {
     const t = parseTarget(spec);
     if (!t) { console.error(`無法解析 target：${spec}`); process.exit(1); }
+    // Drop vision placeholders (slug null); --cdg replaces the existing game
+    // target instead of appending, so re-running set is idempotent. --add still
+    // stacks targets (for 一圖多用 across collections).
+    s.targets = s.targets.filter((x) => x.slug !== null);
+    if (flag("cdg") !== undefined) s.targets = s.targets.filter((x) => x.coll !== "games");
     const exist = s.targets.find((x) => targetKey(x) === targetKey(t));
     const tgt = exist || { ...t, kind: null, source: src.source || "", caption: defaultCaption(src) };
     if (!exist) s.targets.push(tgt);
