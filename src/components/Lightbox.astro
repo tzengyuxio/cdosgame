@@ -36,9 +36,14 @@
       img.src = t.dataset.full;
       img.alt = t.dataset.caption || '';
       const parts = [];
-      if (t.dataset.caption) parts.push(`<span class="c">${t.dataset.caption}</span>`);
-      if (t.dataset.magUrl) {
-        parts.push(`<span class="s">雜誌：<a href="${t.dataset.magUrl}" target="_blank" rel="noopener nofollow">${t.dataset.magLabel || '該期'}</a></span>`);
+      if (t.dataset.caption) {
+        // Linkify the「刊名＋期號」substring in place (grid caption stays plain;
+        // the link only surfaces here in the lightbox), so it isn't repeated.
+        let cap = t.dataset.caption;
+        if (t.dataset.magUrl && t.dataset.magLabel) {
+          cap = cap.replace(t.dataset.magLabel, `<a href="${t.dataset.magUrl}" target="_blank" rel="noopener nofollow">${t.dataset.magLabel}</a>`);
+        }
+        parts.push(`<span class="c">${cap}</span>`);
       }
       if (t.dataset.source) {
         const src = t.dataset.sourceUrl
