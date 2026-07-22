@@ -40,6 +40,18 @@ created: 2026-07-16
 - **斷鏈檢查別漏**：cdg-0587／cdg-2978 都有其他條目正文連入，reject 後需把連結改為純文字（同名／續作的考據事實本身有保留價值）。
 - 批量處理時把 registry 標記＋刪檔寫成一次性 `jq`／腳本，別逐檔手 Edit（見 `game-triage` skill 的 no-op 失敗模式警告）。
 
+## 進度
+
+**第一輪（2026-07-22）——最高信心組合 `CN + publisher_tw:[] + published:false`（8 款）：**
+- **reject 3**：cdg-0818 成吉思汗（金盤 1996，非 KOEI 同名作，順修 KOEI.md 誤列 featured）、cdg-3030 抗日：地雷戰（金山 1998）、cdg-3485 齊天大聖（前導 1998，品技1994 同名作另存 cdg-3484、已 delink cdg-3486）。
+- **保留改標 1**：cdg-1444 秦殤前傳：復活（目標軟件 2004）——chiuinan 標「中文版」非「簡中版」，查有台灣繁中（英寶格代理、《電腦玩家》157 期），`publisher_tw` 改英寶格。⚠ 2004 年、是否發佈另議。
+- **暫擱 4**：cdg-3835 金瓶梅、cdg-3845 打磚塊、cdg-3910 天旋地轉、cdg-3935 侏羅紀公園——皆 `rwv@merge` 全 null 殘料，`developer_region: CN` 是源站自動帶、不可靠；屬「未分類 rwv 殘料」另一類，不當簡中誤標處理（避免 omega-stub 誤判）。
+
+**未做（後續輪）：**
+- combo A（`published:false + publisher_tw:[] + localized`，約 94 款）：多為外文款缺資料而非簡中誤標，最強訊號 chiuinan 備註「沒出繁中版」不在 derived、需逐頁抓；宜先寫個腳本把 chiuinan intro 的簡繁標記預解析到 derived 再掃。
+- 已發佈款（published:true）二輪掃：風險較低，暫緩。
+- 標題自帶「簡中/簡體」那批查證為 false lead（多是台灣遊戲的簡體別名，如仙劍/軒轅劍3），非掃描對象。
+
 ## 相關
 
 - [kudgame-queue.md](kudgame-queue.md) — B18 的 reject 紀錄與教訓
