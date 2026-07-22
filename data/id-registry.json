@@ -19664,8 +19664,9 @@
       "keys": [
         "cat:SCD2666"
       ],
-      "status": "active",
-      "title_zh": "網球大師系列2003"
+      "status": "rejected",
+      "title_zh": "網球大師系列2003",
+      "reject_reason": "out of scope: Microids《網球大師系列2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2120": {
       "catalog_id": null,
@@ -24170,8 +24171,9 @@
       "keys": [
         "cat:SCD1436"
       ],
-      "status": "active",
-      "title_zh": "雪樂山單字遊戲大全2"
+      "status": "rejected",
+      "title_zh": "雪樂山單字遊戲大全2",
+      "reject_reason": "out of scope: Sierra《雪樂山單字遊戲大全2》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2609": {
       "catalog_id": "SCD1437",
@@ -24179,8 +24181,9 @@
       "keys": [
         "cat:SCD1437"
       ],
-      "status": "active",
-      "title_zh": "雪樂山單字遊戲大全3"
+      "status": "rejected",
+      "title_zh": "雪樂山單字遊戲大全3",
+      "reject_reason": "out of scope: Sierra《雪樂山單字遊戲大全3》(2001)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2610": {
       "catalog_id": "SCD1434",
@@ -24188,8 +24191,9 @@
       "keys": [
         "cat:SCD1434"
       ],
-      "status": "active",
-      "title_zh": "雪樂山填字遊戲"
+      "status": "rejected",
+      "title_zh": "雪樂山填字遊戲",
+      "reject_reason": "out of scope: Sierra《雪樂山填字遊戲》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2611": {
       "catalog_id": "SCD1433",
@@ -24206,8 +24210,9 @@
       "keys": [
         "cat:SCD1415"
       ],
-      "status": "active",
-      "title_zh": "雪樂山接龍"
+      "status": "rejected",
+      "title_zh": "雪樂山接龍",
+      "reject_reason": "out of scope: Sierra《雪樂山接龍》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2613": {
       "catalog_id": "SCD1416",
@@ -24242,8 +24247,9 @@
       "keys": [
         "cat:SCD1404"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2003"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2003",
+      "reject_reason": "out of scope: Sierra《雪樂山撲克遊戲大全2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2617": {
       "catalog_id": "SCD1405",
@@ -24300,8 +24306,9 @@
       "keys": [
         "cat:SCD1402"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全4"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全4",
+      "reject_reason": "out of scope: Sierra《雪樂山撲克遊戲大全4》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2623": {
       "catalog_id": "SCD1403",
@@ -24309,8 +24316,9 @@
       "keys": [
         "cat:SCD1403"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全5"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全5",
+      "reject_reason": "out of scope: Sierra《雪樂山撲克遊戲大全5》(2001)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2624": {
       "catalog_id": "SCD1438",
@@ -24346,8 +24354,9 @@
       "keys": [
         "cat:SCD1427"
       ],
-      "status": "active",
-      "title_zh": "雪樂山益智遊戲大全2003"
+      "status": "rejected",
+      "title_zh": "雪樂山益智遊戲大全2003",
+      "reject_reason": "out of scope: Sierra《雪樂山益智遊戲大全2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2628": {
       "catalog_id": "SCD1428",
@@ -24373,8 +24382,9 @@
       "keys": [
         "cat:SCD1425"
       ],
-      "status": "active",
-      "title_zh": "雪樂山益智遊戲大全4"
+      "status": "rejected",
+      "title_zh": "雪樂山益智遊戲大全4",
+      "reject_reason": "out of scope: Sierra《雪樂山益智遊戲大全4》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2631": {
       "catalog_id": "SCD1426",
@@ -24382,8 +24392,9 @@
       "keys": [
         "cat:SCD1426"
       ],
-      "status": "active",
-      "title_zh": "雪樂山益智遊戲大全5"
+      "status": "rejected",
+      "title_zh": "雪樂山益智遊戲大全5",
+      "reject_reason": "out of scope: Sierra《雪樂山益智遊戲大全5》(2001)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2632": {
       "catalog_id": "SCD1423",
@@ -24419,8 +24430,9 @@
       "keys": [
         "cat:SCD1421"
       ],
-      "status": "active",
-      "title_zh": "雪樂山經典遊戲集2"
+      "status": "rejected",
+      "title_zh": "雪樂山經典遊戲集2",
+      "reject_reason": "out of scope: Sierra《雪樂山經典遊戲集2》(2001)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2636": {
       "catalog_id": "SCD0096",
@@ -24467,8 +24479,9 @@
       "keys": [
         "cat:SCD1452"
       ],
-      "status": "active",
-      "title_zh": "雪樂山角子機遊戲3"
+      "status": "rejected",
+      "title_zh": "雪樂山角子機遊戲3",
+      "reject_reason": "out of scope: Sierra《雪樂山角子機遊戲3》(2001)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2641": {
       "catalog_id": "SCD1432",
@@ -24486,8 +24499,9 @@
       "keys": [
         "cat:SCD1429"
       ],
-      "status": "active",
-      "title_zh": "雪樂山解謎遊戲大全2003"
+      "status": "rejected",
+      "title_zh": "雪樂山解謎遊戲大全2003",
+      "reject_reason": "out of scope: Sierra《雪樂山解謎遊戲大全2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2643": {
       "catalog_id": "SCD1430",
@@ -24532,8 +24546,9 @@
       "keys": [
         "cat:SCD1446"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2003"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2003",
+      "reject_reason": "out of scope: Sierra《雪樂山賭博遊戲大全2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2648": {
       "catalog_id": "SCD1447",
@@ -24599,8 +24614,9 @@
       "keys": [
         "cat:SCD1445"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全5"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全5",
+      "reject_reason": "out of scope: Sierra《雪樂山賭博遊戲大全5》(2000)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2655": {
       "catalog_id": "SCD1411",
@@ -24672,8 +24688,9 @@
       "keys": [
         "cat:SCD1658"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車2002"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車2002",
+      "reject_reason": "out of scope: Papyrus《雲斯頓賽車2002》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2663": {
       "catalog_id": "SCD1659",
@@ -24918,8 +24935,9 @@
       "keys": [
         "cat:SCD1651"
       ],
-      "status": "active",
-      "title_zh": "雷霆雲斯頓賽車2003"
+      "status": "rejected",
+      "title_zh": "雷霆雲斯頓賽車2003",
+      "reject_reason": "out of scope: EA《雷霆雲斯頓賽車2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2690": {
       "catalog_id": "SCD1652",
@@ -27963,8 +27981,9 @@
       "keys": [
         "cat:SCD0672"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃2003"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃2003",
+      "reject_reason": "out of scope: EA《勁爆美國職籃2003》(2002)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3020": {
       "catalog_id": "SCD0673",
