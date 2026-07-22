@@ -21901,8 +21901,9 @@
       "keys": [
         "cat:SCD2162"
       ],
-      "status": "active",
-      "title_zh": "新鐵路大亨"
+      "status": "rejected",
+      "title_zh": "新鐵路大亨",
+      "reject_reason": "out of scope: 新鐵路大亨（Trains and Trucks Tycoon, 2002），外文 Windows 商業作、2000 年後且非 DOS 時代國產廠商後續"
     },
     "cdg-2363": {
       "catalog_id": "SCD0583",
@@ -33416,8 +33417,9 @@
       "keys": [
         "cat:SCD2166"
       ],
-      "status": "active",
-      "title_zh": "鐵路大亨3"
+      "status": "rejected",
+      "title_zh": "鐵路大亨3",
+      "reject_reason": "out of scope: 鐵路大亨3（Railroad Tycoon 3, 2003），外文 Windows 商業作、2000 年後且非 DOS 時代國產廠商後續"
     },
     "cdg-3608": {
       "catalog_id": "SCD1216",
