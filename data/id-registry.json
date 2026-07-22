@@ -49204,9 +49204,9 @@
     },
     "cdg-5328": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Strategic Studies Group",
       "keys": [
-        "t:海戰雄風|None"
+        "t:海戰雄風|Strategic Studies Group"
       ],
       "status": "active",
       "title_zh": "海戰雄風"
