@@ -22,7 +22,10 @@ const showDevTools = import.meta.env.DEV;
           )}
         </select>
       </div>
-      <div id="count" class="count"></div>
+      <div class="count-row">
+        <span id="count" class="count"></span>
+        <span id="active-filters" class="active-filters"></span>
+      </div>
       <ul id="results" class="results"></ul>
       <div id="pager" class="pager"></div>
     </div>
@@ -54,6 +57,18 @@ const showDevTools = import.meta.env.DEV;
 
     const esc = s => (s ?? '').toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 
+    const selLabel = (key, value) =>
+      key === 'loc' ? locLabel(value) : key === 'genre' ? genreLabel(value) : value;
+    // Per-facet emoji for active-filter chips; colour lives in .chip-<key> CSS.
+    const FACET_EMOJI = {
+      loc: '🌐', genre: '🎮', decade: '📅', vendor: '🏢',
+      platform: '💾', adult: '🔞', release: '📦', img: '📷', draft: '📝',
+    };
+    // Flatten every checked facet value into {key, value} rows (checkbox order).
+    const activeSelections = () =>
+      FACETS.flatMap(([key]) => state.sel[key].map(value => ({ key, value })));
+    const clearFacets = () => { for (const [f] of FACETS) state.sel[f] = []; vendorFilter = ''; state.page = 1; render(); };
+
     function readURL(){
       const p = new URLSearchParams(location.search);
       state.q = p.get('q') || '';
@@ -83,6 +98,25 @@ const showDevTools = import.meta.env.DEV;
       const { items, total, pages, page } = paginate(filtered, state.page, 50);
       state.page = page;
       document.getElementById('count').textContent = `${total} 款`;
+      const af = document.getElementById('active-filters');
+      af.innerHTML = '';
+      const sels = activeSelections();
+      for (const { key, value } of sels) {
+        const chip = document.createElement('button');
+        chip.type = 'button'; chip.className = `filter-chip chip-${key}`; chip.title = '移除此篩選';
+        chip.innerHTML = `<span class="e">${FACET_EMOJI[key] || '🏷️'}</span> ${esc(selLabel(key, value))} <span class="x">×</span>`;
+        chip.onclick = () => { state.sel[key] = state.sel[key].filter(v => v !== value); state.page = 1; render(); };
+        af.append(chip);
+      }
+      if (sels.length) {
+        const sep = document.createElement('span');
+        sep.className = 'filter-sep'; sep.textContent = '|';
+        const reset = document.createElement('button');
+        reset.type = 'button'; reset.className = 'filter-reset';
+        reset.innerHTML = '🔄 重置篩選';
+        reset.onclick = clearFacets;
+        af.append(sep, reset);
+      }
       document.getElementById('results').innerHTML = items.map(g => `
         <li><a href="${BASE}/games/${g.id}">
           <span class="r-title">${esc(g.title_zh)}</span>

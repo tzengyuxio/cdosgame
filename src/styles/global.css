@@ -126,7 +126,27 @@ figure.fig figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .controls{display:flex;gap:10px;margin-bottom:10px}
 .controls #search{flex:1;padding:8px 10px;border:1px solid var(--border);border-radius:4px;font-size:14px}
 .controls select{padding:8px;border:1px solid var(--border);border-radius:4px}
-.count{color:var(--muted);font-size:13px;margin-bottom:8px}
+.count-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:8px}
+.count{color:var(--muted);font-size:13px}
+.active-filters{display:flex;flex-wrap:wrap;gap:6px}
+.filter-chip{display:inline-flex;align-items:center;gap:4px;padding:2px 8px 2px 6px;border:1px solid var(--chip-bd,var(--border));border-radius:12px;background:var(--chip-bg,#f5f2ec);color:var(--chip-fg,inherit);font:inherit;font-size:12px;line-height:1.6;cursor:pointer}
+.filter-chip .e{font-size:11px}
+.filter-chip .x{color:var(--chip-fg,var(--muted));opacity:.55;font-size:13px}
+.filter-chip:hover{filter:brightness(.96)}
+.filter-chip:hover .x{opacity:1}
+/* Per-facet colours: soft tint background + saturated text/border, cream-theme friendly. */
+.chip-loc{--chip-bg:#e7f0f7;--chip-fg:#2f6690;--chip-bd:#c5dcec}
+.chip-genre{--chip-bg:#e8f2e4;--chip-fg:#4a7c3f;--chip-bd:#cbe3c2}
+.chip-decade{--chip-bg:#faf0d8;--chip-fg:#9a6a0f;--chip-bd:#eeddb4}
+.chip-vendor{--chip-bg:#f2e9df;--chip-fg:#8a5a2a;--chip-bd:#e2d2be}
+.chip-platform{--chip-bg:#efe8f5;--chip-fg:#6a4a8a;--chip-bd:#ddd0ea}
+.chip-adult{--chip-bg:#f7e6e6;--chip-fg:#a53434;--chip-bd:#ecc9c9}
+.chip-release{--chip-bg:#e9eef2;--chip-fg:#4f6472;--chip-bd:#d2dbe2}
+.chip-img{--chip-bg:#e2f1f0;--chip-fg:#2a7a72;--chip-bd:#c4e4e1}
+.chip-draft{--chip-bg:#f7ede2;--chip-fg:#a5622a;--chip-bd:#ecd8c2}
+.filter-sep{color:var(--border)}
+.filter-reset{display:inline-flex;align-items:center;gap:4px;padding:2px 10px;border:1px solid var(--border);border-radius:12px;background:none;color:var(--brown);font:inherit;font-size:12px;line-height:1.6;cursor:pointer}
+.filter-reset:hover{border-color:var(--brown);background:#f7ede2}
 .results{list-style:none;margin:0;padding:0}
 .results li{border-bottom:1px solid #f2eee4}
 .results a{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:8px 4px;color:var(--fg)}
