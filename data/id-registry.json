@@ -9553,8 +9553,9 @@
       "keys": [
         "cat:SCD2102"
       ],
-      "status": "active",
-      "title_zh": "四季花神系列：了然歷險記"
+      "status": "rejected",
+      "title_zh": "四季花神系列：了然歷險記",
+      "reject_reason": "out of scope: 四季花神系列：了然歷險記（酷家族多媒體, 1997），兒童向多媒體娛教，非遊戲"
     },
     "cdg-1027": {
       "catalog_id": "SCD0109",
@@ -10340,8 +10341,9 @@
       "keys": [
         "cat:SCD0486"
       ],
-      "status": "active",
-      "title_zh": "巴布工程師：公園建造記"
+      "status": "rejected",
+      "title_zh": "巴布工程師：公園建造記",
+      "reject_reason": "out of scope: 巴布工程師：公園建造記（Bob the Builder, 2002），外文 Windows 兒童向商業作、2000 年後且無台灣中文化發行足跡"
     },
     "cdg-1112": {
       "catalog_id": "Z082,SCD1759",
@@ -10490,8 +10492,9 @@
       "keys": [
         "cat:SCD0630"
       ],
-      "status": "active",
-      "title_zh": "我的第一本漫畫書"
+      "status": "rejected",
+      "title_zh": "我的第一本漫畫書",
+      "reject_reason": "out of scope: 我的第一本漫畫書（皇嘉/皇統, 1997），兒童向漫畫創作工具軟體，非遊戲"
     },
     "cdg-1128": {
       "catalog_id": null,
@@ -15188,8 +15191,9 @@
       "keys": [
         "cat:SCD1722"
       ],
-      "status": "active",
-      "title_zh": "俠盜獵車手3"
+      "status": "rejected",
+      "title_zh": "俠盜獵車手3",
+      "reject_reason": "out of scope: 俠盜獵車手3（Grand Theft Auto III, 2002），外文 Windows 商業作、2000 年後且無台灣中文化發行足跡"
     },
     "cdg-1634": {
       "catalog_id": "SCD1696",
@@ -23748,8 +23752,9 @@
       "keys": [
         "cat:SCD2416"
       ],
-      "status": "active",
-      "title_zh": "迷霧之島4"
+      "status": "rejected",
+      "title_zh": "迷霧之島4",
+      "reject_reason": "out of scope: 迷霧之島4（Myst IV: Revelation, 2004），外文 Windows 商業作、2000 年後且無台灣中文化發行足跡"
     },
     "cdg-2563": {
       "catalog_id": "SCD2417",
@@ -31681,8 +31686,9 @@
       "keys": [
         "cat:SCD0797"
       ],
-      "status": "active",
-      "title_zh": "芭比卡通小導演"
+      "status": "rejected",
+      "title_zh": "芭比卡通小導演",
+      "reject_reason": "out of scope: 芭比卡通小導演（Barbie Storymaker, 草莓軟體代理, 1997），兒童向動畫創作工具軟體，非遊戲"
     },
     "cdg-3419": {
       "catalog_id": "SCD0798",
@@ -31699,8 +31705,9 @@
       "keys": [
         "cat:SCD1212"
       ],
-      "status": "active",
-      "title_zh": "芭比美人魚尋寶記"
+      "status": "rejected",
+      "title_zh": "芭比美人魚尋寶記",
+      "reject_reason": "out of scope: 芭比美人魚尋寶記（草莓軟體代理, 1997），兒童向 edutainment，非收錄範圍"
     },
     "cdg-3421": {
       "catalog_id": "SCD0307",
@@ -32313,8 +32320,9 @@
       "keys": [
         "cat:SCD2118"
       ],
-      "status": "active",
-      "title_zh": "齊天大聖賣到老傳奇：我的第一本漫畫書"
+      "status": "rejected",
+      "title_zh": "齊天大聖賣到老傳奇：我的第一本漫畫書",
+      "reject_reason": "out of scope: 齊天大聖賣到老傳奇：我的第一本漫畫書（皇嘉科技, 1997），兒童向互動漫畫娛教軟體，非遊戲"
     },
     "cdg-3488": {
       "catalog_id": "SCD0015",
@@ -33572,8 +33580,9 @@
       "keys": [
         "cat:SCD2238"
       ],
-      "status": "active",
-      "title_zh": "駭客任務1：重裝上陣"
+      "status": "rejected",
+      "title_zh": "駭客任務1：重裝上陣",
+      "reject_reason": "out of scope: 駭客任務1：重裝上陣（Enter the Matrix, 2003），外文 Windows 商業作、2000 年後且非 DOS 時代國產廠商後續"
     },
     "cdg-3625": {
       "catalog_id": "SCD2239",
