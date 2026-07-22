@@ -16,6 +16,7 @@
 - [x] 編輯內容 seed（2026-06-18）：11 廠商 + 10 系列簡介（web 查證 draft，`content/companies/*.md`、`content/series/*.md`）；含新增系列 明星志願/美少女夢工場/成吉思汗(蒼狼與白鹿)/天使帝國。簡介為 draft 待使用者校訂
 - [x] **統一廠商名稱「富士通」／「FUJITSU」**（2026-07-22）：cdg-1802/1803/1804/3369 的 `developer` 由 FUJITSU 收斂為「富士通」（cdg-0074、4864 原已是中文），registry 鏡像同步。**訂正（同日稍後）**：當初誤判「無公司頁、不需 alias」——實則有 `content/companies/FUJITSU.md`（name_zh 富士通），改名遊戲 vendor 後頁面 id 對不上，造成「富士通」vendor 連到不存在的頁。已將公司頁 `FUJITSU.md → 富士通.md`、`COMPANY_ALIASES` 補 `FUJITSU: '富士通'`（舊網址 redirect）。教訓：改 vendor 字串前先查有無對應公司頁（含英文檔名）。
 - [x] **`publisher_tw` 誤收非台灣發行商：奧美電子**（2026-07-16 → 結案 2026-07-22）：奧美電子是中國大陸簡中發行商，被機械映射進 `publisher_tw`。清查 3 款結果**全有台灣發行足跡、皆不 reject**，已移除誤填的奧美：cdg-0768 地面控制→台灣《戰略高手》(2000-08-30，代理未坐實，publisher_tw 清空)、cdg-0769 地面控制2→台灣繁中《戰略高手2》(2004-07-29，斐凡迪環球)、cdg-1418 皇帝→台灣《模擬中國》(2002-10-15，松崗)。台灣譯名補進 alias。三款仍為 published:false stub（正文待補）。⚠ 對照：同 artifact 曾致 cdg-0546《少林足球》reject，但少林足球確實查無台灣足跡、與這三款不同。
+- [x] **genre 分類體系重整**（2026-06-20 指出 → 結案 2026-07-22）：已由 v2 taxonomy 取代——舊 12/13 中文名重整為 **22 key / 7 group**，正本 `docs/genre-taxonomy.md`、key 存值（中文顯示名可改不動 content）、遷移腳本 `scripts/migrate_genre_keys.py`，含 SLG/HSG/RTS 等判準與遷移狀態表；backlog 當初暫定改名（計策戰略→策略、大富翁→桌遊棋牌）皆已納入（策略 group、TBG 棋牌桌遊）。
 
 ## 站台功能（續）
 
@@ -28,3 +29,4 @@
 ## 站台功能（續2）
 
 - [x] **遊戲列表的廠商欄並列製作／出版**（2026-06-28 → 結案 2026-07-22）：新增 `vendorLabel(g)`（`src/lib/labels.js`）——有與 developer 不同的台灣代理時顯示「製作／發行」（斜線、製作在前），**多家代理全列、以「、」隔開**（如「KOEI／第三波、歐風、新世界」）；過濾掉與 developer 同名的 publisher（免「大宇／大宇」）；台灣自製（僅 dev 或 dev＝唯一發行）顯示單一。套用於 `GameList.astro`（SSR 分類/年代/公司列表）與 `games/index.astro`（/games client 篩選列表）。加 `labels.test.js` 覆蓋 7 案例。18禁 facet 仍 dev-only（另項）。build 通過、44 測試全綠。
+- [x] **SEO — 站台搜尋引擎最佳化**（2026-06-20 → 結案 2026-07-22）：全數完成且超出規劃。`Base.astro` 出 title/meta description/canonical/OG 全套（含 `og:locale=zh_TW`）/Twitter `summary_large_image`；`@astrojs/sitemap` 整合並自訂 `<lastmod>`（`sitemapLastmod`）；`src/lib/jsonld.js` 結構化資料涵蓋 VideoGame、Organization、Person、CreativeWorkSeries、WebSite、Dataset、BreadcrumbList（原僅列 Game/VideoGame）；內部連結經 `companyUrl`/`seriesUrl` 等 helper base-path 友善。
