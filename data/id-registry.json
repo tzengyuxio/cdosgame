@@ -2747,8 +2747,9 @@
       "keys": [
         "cat:SCD0349"
       ],
-      "status": "active",
-      "title_zh": "中世紀2：全軍破敵"
+      "status": "rejected",
+      "title_zh": "中世紀2：全軍破敵",
+      "reject_reason": "out of scope: 中世紀2：全軍破敵（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0295": {
       "catalog_id": null,
@@ -5219,8 +5220,9 @@
       "keys": [
         "cat:OCD0103"
       ],
-      "status": "active",
-      "title_zh": "巨星麻將館"
+      "status": "rejected",
+      "title_zh": "巨星麻將館",
+      "reject_reason": "out of scope: 巨星麻將館（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0563": {
       "catalog_id": "SCD2640",
@@ -5439,8 +5441,9 @@
       "keys": [
         "cat:SCD0716"
       ],
-      "status": "active",
-      "title_zh": "幻想西遊：佛魔重生"
+      "status": "rejected",
+      "title_zh": "幻想西遊：佛魔重生",
+      "reject_reason": "out of scope: 幻想西遊：佛魔重生（2005），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0587": {
       "catalog_id": "SCD1078",
@@ -6766,8 +6769,9 @@
       "keys": [
         "cat:OCD0072"
       ],
-      "status": "active",
-      "title_zh": "正宗明星麻將"
+      "status": "rejected",
+      "title_zh": "正宗明星麻將",
+      "reject_reason": "out of scope: 正宗明星麻將（2004），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0729": {
       "catalog_id": "SCD0029",
@@ -8690,8 +8694,9 @@
       "keys": [
         "cat:SCD0078"
       ],
-      "status": "active",
-      "title_zh": "台灣麻將全民開打"
+      "status": "rejected",
+      "title_zh": "台灣麻將全民開打",
+      "reject_reason": "out of scope: 台灣麻將全民開打（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-0938": {
       "catalog_id": "SCD1597",
@@ -11829,8 +11834,9 @@
       "keys": [
         "cat:SCD0454"
       ],
-      "status": "active",
-      "title_zh": "激戰女優"
+      "status": "rejected",
+      "title_zh": "激戰女優",
+      "reject_reason": "out of scope: 激戰女優（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1272": {
       "catalog_id": "SCD0455",
@@ -11838,8 +11844,9 @@
       "keys": [
         "cat:SCD0455"
       ],
-      "status": "active",
-      "title_zh": "激戰女狼2"
+      "status": "rejected",
+      "title_zh": "激戰女狼2",
+      "reject_reason": "out of scope: 激戰女狼2（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1273": {
       "catalog_id": "SCD0803",
@@ -13876,8 +13883,9 @@
       "keys": [
         "cat:SCD0490"
       ],
-      "status": "active",
-      "title_zh": "翡翠群星大富翁"
+      "status": "rejected",
+      "title_zh": "翡翠群星大富翁",
+      "reject_reason": "out of scope: 翡翠群星大富翁（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1495": {
       "catalog_id": "SCD0481",
@@ -15299,8 +15307,9 @@
       "keys": [
         "t:信長之野望14創造|KOEI"
       ],
-      "status": "active",
-      "title_zh": "信長之野望14創造"
+      "status": "rejected",
+      "title_zh": "信長之野望14創造",
+      "reject_reason": "out of scope: 信長之野望14：創造（2013），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1650": {
       "catalog_id": null,
@@ -16635,8 +16644,9 @@
       "keys": [
         "cat:SCD0616"
       ],
-      "status": "active",
-      "title_zh": "愛麗絲驚魂記2：瘋狂再臨"
+      "status": "rejected",
+      "title_zh": "愛麗絲驚魂記2：瘋狂再臨",
+      "reject_reason": "out of scope: 愛麗絲驚魂記2：瘋狂再臨（2011），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1795": {
       "catalog_id": "OCD0116",
@@ -17053,8 +17063,9 @@
       "keys": [
         "cat:OCD0062"
       ],
-      "status": "active",
-      "title_zh": "神戒"
+      "status": "rejected",
+      "title_zh": "神戒",
+      "reject_reason": "out of scope: 神戒（2007），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-1840": {
       "catalog_id": "SWZ009",
@@ -19866,8 +19877,9 @@
       "keys": [
         "cat:SCD2200"
       ],
-      "status": "active",
-      "title_zh": "象棋兵法7：飛相局"
+      "status": "rejected",
+      "title_zh": "象棋兵法7：飛相局",
+      "reject_reason": "out of scope: 象棋兵法7：飛相局（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2146": {
       "catalog_id": null,
@@ -21732,8 +21744,9 @@
       "keys": [
         "cat:SCD0681"
       ],
-      "status": "active",
-      "title_zh": "新絕代雙驕：魚戲江湖"
+      "status": "rejected",
+      "title_zh": "新絕代雙驕：魚戲江湖",
+      "reject_reason": "out of scope: 新絕代雙驕：魚戲江湖（2009），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2350": {
       "catalog_id": "RSZ001",
@@ -22041,8 +22054,9 @@
       "keys": [
         "cat:SCD0540"
       ],
-      "status": "active",
-      "title_zh": "明星便利商店"
+      "status": "rejected",
+      "title_zh": "明星便利商店",
+      "reject_reason": "out of scope: 明星便利商店（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2384": {
       "catalog_id": "SCD1825",
@@ -25489,8 +25503,9 @@
       "keys": [
         "cat:SCD1975"
       ],
-      "status": "active",
-      "title_zh": "夢幻飛機場2：星光航道"
+      "status": "rejected",
+      "title_zh": "夢幻飛機場2：星光航道",
+      "reject_reason": "out of scope: 夢幻飛機場2：星光航道（2005），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2758": {
       "catalog_id": "SCD1232",
@@ -26421,8 +26436,9 @@
       "keys": [
         "cat:SCD2804"
       ],
-      "status": "active",
-      "title_zh": "金剛"
+      "status": "rejected",
+      "title_zh": "金剛",
+      "reject_reason": "out of scope: 金剛（2005），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2860": {
       "catalog_id": null,
@@ -26646,8 +26662,9 @@
       "keys": [
         "cat:SCD2805"
       ],
-      "status": "active",
-      "title_zh": "金牛犢"
+      "status": "rejected",
+      "title_zh": "金牛犢",
+      "reject_reason": "out of scope: 金牛犢（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2883": {
       "catalog_id": "OCD0025",
@@ -28507,8 +28524,9 @@
       "keys": [
         "cat:SCD2298"
       ],
-      "status": "active",
-      "title_zh": "林海雪原"
+      "status": "rejected",
+      "title_zh": "林海雪原",
+      "reject_reason": "out of scope: 林海雪原（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3085": {
       "catalog_id": "SCD2681",
@@ -28553,8 +28571,9 @@
       "keys": [
         "cat:SCD0310"
       ],
-      "status": "active",
-      "title_zh": "校園戀愛大戰"
+      "status": "rejected",
+      "title_zh": "校園戀愛大戰",
+      "reject_reason": "out of scope: 校園戀愛大戰（2005），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3090": {
       "catalog_id": "SCD0690",
@@ -29044,8 +29063,9 @@
       "keys": [
         "cat:SCD0921"
       ],
-      "status": "active",
-      "title_zh": "極道車魂3"
+      "status": "rejected",
+      "title_zh": "極道車魂3",
+      "reject_reason": "out of scope: 極道車魂3（2005），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3143": {
       "catalog_id": "SCD1904",
@@ -29639,8 +29659,9 @@
       "keys": [
         "cat:SCD1283"
       ],
-      "status": "active",
-      "title_zh": "模擬雪山度假村"
+      "status": "rejected",
+      "title_zh": "模擬雪山度假村",
+      "reject_reason": "out of scope: 模擬雪山度假村（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3207": {
       "catalog_id": "SCD1203",
@@ -30390,8 +30411,9 @@
       "keys": [
         "cat:SCD1643"
       ],
-      "status": "active",
-      "title_zh": "無盡的旅程2：夢殞"
+      "status": "rejected",
+      "title_zh": "無盡的旅程2：夢殞",
+      "reject_reason": "out of scope: 無盡的旅程2：夢殞（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3289": {
       "catalog_id": "SCD1964",
@@ -30942,8 +30964,9 @@
       "keys": [
         "cat:SCD0518"
       ],
-      "status": "active",
-      "title_zh": "賭王鬥千王之明星大對決"
+      "status": "rejected",
+      "title_zh": "賭王鬥千王之明星大對決",
+      "reject_reason": "out of scope: 賭王鬥千王之明星大對決（2006），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3349": {
       "catalog_id": "SSG014",
