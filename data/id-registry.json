@@ -49241,6 +49241,24 @@
       ],
       "status": "active",
       "title_zh": "寶石戰士"
+    },
+    "cdg-5333": {
+      "catalog_id": null,
+      "developer": "Graftgold",
+      "keys": [
+        "t:北歐戰國誌|Graftgold"
+      ],
+      "status": "active",
+      "title_zh": "北歐戰國誌"
+    },
+    "cdg-5334": {
+      "catalog_id": null,
+      "developer": "Core Design",
+      "keys": [
+        "t:雷鷹神兵|Core Design"
+      ],
+      "status": "active",
+      "title_zh": "雷鷹神兵"
     }
   }
 }
