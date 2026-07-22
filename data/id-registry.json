@@ -49232,6 +49232,15 @@
       ],
       "status": "active",
       "title_zh": "幻之國度"
+    },
+    "cdg-5332": {
+      "catalog_id": null,
+      "developer": "Paradigm Creators",
+      "keys": [
+        "t:寶石戰士|Paradigm Creators"
+      ],
+      "status": "active",
+      "title_zh": "寶石戰士"
     }
   }
 }
