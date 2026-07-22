@@ -14,11 +14,9 @@
   - **部分更改**：欄位級的「回報錯誤」按鈕 → 預填 issue（帶 id + 欄位）。
   考量：審核流程（呼應 `published` 閘與人工審核精神）、防濫用、與 `data/` 生成流程如何回灌（PR 改 content/ 還是改 derived/？content 是生成物，見 astro-handoff）。
 
-- [ ] **大宇長產品目錄表遷成 `/topics`**（2026-06-20）：`content/companies/大宇.md` 內嵌的 G/A 系列產品目錄表很長，依 IA 規範（`docs/information-architecture.md`）應遷成 `/topics/大宇資訊產品目錄`，公司頁改放「專題」連結。需先實作 `topics` 類型（events/topics 尚未落地）。
-- [ ] **`/games` 篩選軸加入 18禁／改編來源**（2026-06-20）：`adult`、`adaptation.medium` 已是欄位，可加進目錄頁 facet 篩選（成人遊戲、漫畫改編／布袋戲改編…）。
+- [ ] **`/games` 篩選軸加入改編來源 facet**（2026-06-20，2026-07-22 收斂）：依 `adaptation.medium` 加 facet（漫畫改編／小說改編／布袋戲改編…）。`facetValues`（`src/lib/gamesQuery.js`）目前無 adaptation facet，須新增。**18禁 不做公開 facet**——`adult` facet 已存在但刻意只在 `astro dev` 出現（`games/index.astro:42` 的 `import.meta.env.DEV` 包住，供編輯者篩選、不上公開站），維持現狀。
 - [ ] **改編作品瀏覽頁**（2026-06-20）：依 `adaptation.medium` 做 `/adaptations` 或「漫畫改編／小說改編／布袋戲改編…」瀏覽軸，類似 genres/years。
 - [ ] **遊戲列表的廠商欄並列製作／出版**（2026-06-28）：目錄頁與 genre 篩選後的遊戲列表，最右側 meta「`<年份>・<廠商>・<類型>`」目前廠商只顯示一個。希望當「製作公司」與「出版/發行公司」**不同**時兩者並列顯示（相同則仍顯示一個）。**呈現形式未定**（如 `製作／出版`、加圖示、分隔符…），實作前先定樣式。涉及 `developer` vs `publisher_tw` 欄位取值與列表元件。
-- [ ] **廠商／人物頁的數量篩選**（2026-06-28）：`/companies`、`/people`（及索引頁）希望能依關聯數量篩選。**篩選方式未定**，最簡版為「只顯示有 N 筆以上的條目」（例：≥10 款遊戲的公司、參與 ≥3 款的人物）。需定門檻是固定級距還是可調（slider/下拉），與既有索引呈現如何整合。
 - [ ] **新增「角色」大類**（2026-06-28）：為遊戲角色建立獨立頁面。**歸屬未定**——可能成為與 games/companies/series 平行的新實體類型（`/characters/<名>`），也可能先掛在 `/topics` 下。需依 `docs/information-architecture.md` 規範決定 collection／路由／slug／聚合來源（角色↔遊戲關聯欄位），並評估資料量是否值得獨立大類。
 - [ ] **tag 可點擊 → 同 tag 遊戲列表**（2026-07-11）：讓條目上的 tag 都變成可點擊連結，點擊後進入「有同一 tag 的遊戲列表頁」（filter 結果頁，如 `/tags/<tag>` 或 `/games?tag=<tag>`），**不必**像 `adnd` 那樣做成獨立 topic 頁面。多數 tag 只需純列表即可；少數重點 tag 才升級成有介紹的 topic。呼應「Tag 受控詞彙擴充候選」（`docs/backlog/tag-candidates.md`）。
 - [ ] **遊戲條目正文結構規劃**（2026-06-28）：訂定一組常用 `## h2` 章節慣例，除現有「簡介／製作人員」外，候選有 世界觀、角色、攻略、祕技、花絮、開發 等。**需完整討論**：哪些該入條目、哪些可合併或排除（呼應現行「攻略／祕技不主動蒐集、避免膨脹成攻略本」原則）、章節順序與命名、是否分「核心章節 vs 選填章節」。定案後更新 `/game-entry` skill 的房屋風格。
