@@ -179,8 +179,9 @@
       "keys": [
         "cat:SCD0116"
       ],
-      "status": "active",
-      "title_zh": "3D世紀暗棋"
+      "status": "rejected",
+      "title_zh": "3D世紀暗棋",
+      "reject_reason": "out of scope: 3D世紀暗棋（伊世紀 2000），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0019": {
       "catalog_id": "SCD1500",
@@ -263,8 +264,9 @@
       "keys": [
         "cat:SCD0114"
       ],
-      "status": "active",
-      "title_zh": "3D黑白棋"
+      "status": "rejected",
+      "title_zh": "3D黑白棋",
+      "reject_reason": "out of scope: 3D黑白棋（伊世紀 2001），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0028": {
       "catalog_id": "SCD1697",
@@ -2349,8 +2351,9 @@
       "keys": [
         "cat:SCD0114#2"
       ],
-      "status": "active",
-      "title_zh": "三國象棋皇"
+      "status": "rejected",
+      "title_zh": "三國象棋皇",
+      "reject_reason": "out of scope: 三國象棋皇（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0252": {
       "catalog_id": "SCD0167",
@@ -3014,8 +3017,9 @@
       "keys": [
         "cat:SCD0114#3"
       ],
-      "status": "active",
-      "title_zh": "中華象棋"
+      "status": "rejected",
+      "title_zh": "中華象棋",
+      "reject_reason": "out of scope: 中華象棋（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0324": {
       "catalog_id": "SWT275,SCD1762",
@@ -3260,8 +3264,9 @@
       "keys": [
         "cat:SCD0114#4"
       ],
-      "status": "active",
-      "title_zh": "五子爆笑棋"
+      "status": "rejected",
+      "title_zh": "五子爆笑棋",
+      "reject_reason": "out of scope: 五子爆笑棋（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0350": {
       "catalog_id": "SCD0478",
@@ -4740,8 +4745,9 @@
       "keys": [
         "cat:SCD0133"
       ],
-      "status": "active",
-      "title_zh": "小企鵝接龍"
+      "status": "rejected",
+      "title_zh": "小企鵝接龍",
+      "reject_reason": "out of scope: 小企鵝接龍（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0511": {
       "catalog_id": "SCD0483",
@@ -5213,8 +5219,9 @@
       "keys": [
         "cat:SCD0535"
       ],
-      "status": "active",
-      "title_zh": "巨星大老二"
+      "status": "rejected",
+      "title_zh": "巨星大老二",
+      "reject_reason": "out of scope: 巨星大老二（伊世紀 2001），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0562": {
       "catalog_id": "OCD0103",
@@ -5908,8 +5915,9 @@
       "keys": [
         "cat:SCD0534"
       ],
-      "status": "active",
-      "title_zh": "王牌撲克十三張"
+      "status": "rejected",
+      "title_zh": "王牌撲克十三張",
+      "reject_reason": "out of scope: 王牌撲克十三張（伊世紀 2001），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-0637": {
       "catalog_id": "SCD1198",
@@ -9938,8 +9946,9 @@
       "keys": [
         "cat:SCD0133#2"
       ],
-      "status": "active",
-      "title_zh": "女優火車頭"
+      "status": "rejected",
+      "title_zh": "女優火車頭",
+      "reject_reason": "out of scope: 女優火車頭（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1070": {
       "catalog_id": "SCD0657",
@@ -10040,8 +10049,9 @@
       "keys": [
         "cat:SCD2778"
       ],
-      "status": "active",
-      "title_zh": "妖姬跳跳棋"
+      "status": "rejected",
+      "title_zh": "妖姬跳跳棋",
+      "reject_reason": "out of scope: 妖姬跳跳棋（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1081": {
       "catalog_id": "SCD2708",
@@ -10717,8 +10727,9 @@
       "keys": [
         "cat:SCD0133#3"
       ],
-      "status": "active",
-      "title_zh": "決戰女優撲克"
+      "status": "rejected",
+      "title_zh": "決戰女優撲克",
+      "reject_reason": "out of scope: 決戰女優撲克（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1154": {
       "catalog_id": "SCD2445",
@@ -11697,8 +11708,9 @@
       "keys": [
         "cat:SCD0133#4"
       ],
-      "status": "active",
-      "title_zh": "清涼空當接龍"
+      "status": "rejected",
+      "title_zh": "清涼空當接龍",
+      "reject_reason": "out of scope: 清涼空當接龍（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1257": {
       "catalog_id": "SCD0133",
@@ -11706,8 +11718,9 @@
       "keys": [
         "cat:SCD0133#5"
       ],
-      "status": "active",
-      "title_zh": "清涼美眉撲克"
+      "status": "rejected",
+      "title_zh": "清涼美眉撲克",
+      "reject_reason": "out of scope: 清涼美眉撲克（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1258": {
       "catalog_id": "SCD1136",
@@ -13697,8 +13710,9 @@
       "keys": [
         "cat:SCD0133#6"
       ],
-      "status": "active",
-      "title_zh": "美女速算撲克"
+      "status": "rejected",
+      "title_zh": "美女速算撲克",
+      "reject_reason": "out of scope: 美女速算撲克（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1474": {
       "catalog_id": "SCD1159",
@@ -14973,8 +14987,9 @@
       "keys": [
         "cat:SCD0334"
       ],
-      "status": "active",
-      "title_zh": "俏妞對決21點"
+      "status": "rejected",
+      "title_zh": "俏妞對決21點",
+      "reject_reason": "out of scope: 俏妞對決21點（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1613": {
       "catalog_id": "SCD0133",
@@ -14982,8 +14997,9 @@
       "keys": [
         "cat:SCD0133#7"
       ],
-      "status": "active",
-      "title_zh": "俏妞對辣妹接龍"
+      "status": "rejected",
+      "title_zh": "俏妞對辣妹接龍",
+      "reject_reason": "out of scope: 俏妞對辣妹接龍（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-1614": {
       "catalog_id": "JXZ007",
@@ -18580,8 +18596,9 @@
       "keys": [
         "cat:SCD0108"
       ],
-      "status": "active",
-      "title_zh": "麻將皇"
+      "status": "rejected",
+      "title_zh": "麻將皇",
+      "reject_reason": "out of scope: 麻將皇（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2005": {
       "catalog_id": "SCD1087",
@@ -20686,8 +20703,9 @@
       "keys": [
         "cat:SCD0114#5"
       ],
-      "status": "active",
-      "title_zh": "超級麻將磚塊"
+      "status": "rejected",
+      "title_zh": "超級麻將磚塊",
+      "reject_reason": "out of scope: 超級麻將磚塊（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2234": {
       "catalog_id": "SCD1891",
@@ -20824,8 +20842,9 @@
       "keys": [
         "cat:SCD0114#6"
       ],
-      "status": "active",
-      "title_zh": "趣味四川麻將"
+      "status": "rejected",
+      "title_zh": "趣味四川麻將",
+      "reject_reason": "out of scope: 趣味四川麻將（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2249": {
       "catalog_id": "Z062",
@@ -22081,8 +22100,9 @@
       "keys": [
         "cat:SCD0539"
       ],
-      "status": "active",
-      "title_zh": "明星對戰梭哈"
+      "status": "rejected",
+      "title_zh": "明星對戰梭哈",
+      "reject_reason": "out of scope: 明星對戰梭哈（伊世紀 2001），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2386": {
       "catalog_id": "SSG049,SCD2786",
@@ -22780,8 +22800,9 @@
       "keys": [
         "cat:SCD0095"
       ],
-      "status": "active",
-      "title_zh": "暗藏棋機"
+      "status": "rejected",
+      "title_zh": "暗藏棋機",
+      "reject_reason": "out of scope: 暗藏棋機（伊世紀 2000），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2463": {
       "catalog_id": "SCD0745",
@@ -26296,8 +26317,9 @@
       "keys": [
         "cat:SCD0133#8"
       ],
-      "status": "active",
-      "title_zh": "蜘蛛女郎撲克"
+      "status": "rejected",
+      "title_zh": "蜘蛛女郎撲克",
+      "reject_reason": "out of scope: 蜘蛛女郎撲克（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2844": {
       "catalog_id": "SCD0746",
@@ -27578,8 +27600,9 @@
       "keys": [
         "cat:SCD0114#7"
       ],
-      "status": "active",
-      "title_zh": "創意跳棋"
+      "status": "rejected",
+      "title_zh": "創意跳棋",
+      "reject_reason": "out of scope: 創意跳棋（伊世紀 2002），2000 年後休閒博弈/撲克棋牌小品、未撰寫且無台灣 DOS 時代足跡"
     },
     "cdg-2982": {
       "catalog_id": "SCD0404",
