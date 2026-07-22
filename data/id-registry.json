@@ -4563,8 +4563,9 @@
       "keys": [
         "cat:SCD0283"
       ],
-      "status": "active",
-      "title_zh": "太平洋戰爭之空中纏鬥"
+      "status": "rejected",
+      "title_zh": "太平洋戰爭之空中纏鬥",
+      "reject_reason": "out of scope: InterActive Vision《太平洋戰爭之空中纏鬥》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-0491": {
       "catalog_id": "SWT176,SWT215",
@@ -10138,8 +10139,9 @@
       "keys": [
         "t:妹妹公主射擊版|D5"
       ],
-      "status": "active",
-      "title_zh": "妹妹公主射擊版"
+      "status": "rejected",
+      "title_zh": "妹妹公主射擊版",
+      "reject_reason": "out of scope: D5《妹妹公主射擊版》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-1090": {
       "catalog_id": "SWT131",
@@ -12519,8 +12521,9 @@
       "keys": [
         "cat:SCD1200"
       ],
-      "status": "active",
-      "title_zh": "阿帕契：拂曉出擊"
+      "status": "rejected",
+      "title_zh": "阿帕契：拂曉出擊",
+      "reject_reason": "out of scope: InterActive Vision《阿帕契：拂曉出擊》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-1344": {
       "catalog_id": "Z125",
@@ -17394,8 +17397,9 @@
       "keys": [
         "cat:SCD1888"
       ],
-      "status": "active",
-      "title_zh": "福特名車賽3"
+      "status": "rejected",
+      "title_zh": "福特名車賽3",
+      "reject_reason": "out of scope: Razorworks《福特名車賽3》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-1873": {
       "catalog_id": "SCD1860",
@@ -17846,8 +17850,9 @@
       "keys": [
         "cat:SCD0456"
       ],
-      "status": "active",
-      "title_zh": "毀滅戰士3"
+      "status": "rejected",
+      "title_zh": "毀滅戰士3",
+      "reject_reason": "out of scope: id《毀滅戰士3》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-1923": {
       "catalog_id": "SCD0281",
@@ -24364,8 +24369,9 @@
       "keys": [
         "cat:SCD1428"
       ],
-      "status": "active",
-      "title_zh": "雪樂山益智遊戲大全2005"
+      "status": "rejected",
+      "title_zh": "雪樂山益智遊戲大全2005",
+      "reject_reason": "out of scope: Sierra《雪樂山益智遊戲大全2005》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2629": {
       "catalog_id": "SCD1424",
@@ -24519,8 +24525,9 @@
       "keys": [
         "cat:SCD1431"
       ],
-      "status": "active",
-      "title_zh": "雪樂山解謎遊戲大全2005"
+      "status": "rejected",
+      "title_zh": "雪樂山解謎遊戲大全2005",
+      "reject_reason": "out of scope: Sierra《雪樂山解謎遊戲大全2005》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2645": {
       "catalog_id": "SCD1441",
@@ -25275,8 +25282,9 @@
       "keys": [
         "cat:SCD2559"
       ],
-      "status": "active",
-      "title_zh": "夢幻俄羅斯方塊3"
+      "status": "rejected",
+      "title_zh": "夢幻俄羅斯方塊3",
+      "reject_reason": "out of scope: Magnussoft《夢幻俄羅斯方塊3》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2727": {
       "catalog_id": "SCD1072",
@@ -25565,8 +25573,9 @@
       "keys": [
         "cat:SCD1232"
       ],
-      "status": "active",
-      "title_zh": "夢幻高爾夫：極限之旅"
+      "status": "rejected",
+      "title_zh": "夢幻高爾夫：極限之旅",
+      "reject_reason": "out of scope: Antidote《夢幻高爾夫：極限之旅》(2004)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-2759": {
       "catalog_id": "SCD0365",
@@ -32355,8 +32364,9 @@
       "keys": [
         "cat:SCD1628"
       ],
-      "status": "active",
-      "title_zh": "肌肉賽車3"
+      "status": "rejected",
+      "title_zh": "肌肉賽車3",
+      "reject_reason": "out of scope: 3 Romans《肌肉賽車3》(2003)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3494": {
       "catalog_id": "SCD2125",
@@ -32714,8 +32724,9 @@
       "keys": [
         "cat:SCD1619"
       ],
-      "status": "active",
-      "title_zh": "猛男卡車秀"
+      "status": "rejected",
+      "title_zh": "猛男卡車秀",
+      "reject_reason": "out of scope: 3 Romans《猛男卡車秀》(2003)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3533": {
       "catalog_id": "SWT069,SCD1467\nSCD1468,SCD1469",
@@ -33084,8 +33095,9 @@
       "keys": [
         "cat:SCD1620"
       ],
-      "status": "active",
-      "title_zh": "罪惡卡車"
+      "status": "rejected",
+      "title_zh": "罪惡卡車",
+      "reject_reason": "out of scope: Bugbear《罪惡卡車》(2003)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3573": {
       "catalog_id": "SCD0662",
@@ -33582,8 +33594,9 @@
       "keys": [
         "cat:SCD2241"
       ],
-      "status": "active",
-      "title_zh": "駭客入侵2：虛幻之戰"
+      "status": "rejected",
+      "title_zh": "駭客入侵2：虛幻之戰",
+      "reject_reason": "out of scope: Ion Storm《駭客入侵2：虛幻之戰》(2003)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3628": {
       "catalog_id": "SCD0799",
@@ -33951,8 +33964,9 @@
       "keys": [
         "t:魔圍棋|Sylvain Gelly"
       ],
-      "status": "active",
-      "title_zh": "魔圍棋"
+      "status": "rejected",
+      "title_zh": "魔圍棋",
+      "reject_reason": "out of scope: Sylvain Gelly《魔圍棋》(2006)，外文 Windows 商業作、2000 年後、無台灣中文化發行足跡"
     },
     "cdg-3668": {
       "catalog_id": "SCD2190",
