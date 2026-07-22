@@ -28,7 +28,7 @@
 | `tags` | string[] | | **跨類標記**（受控詞彙 `TAGS`，預設 []）：一款可多個（與單值 `series` 互補）。存 **ASCII key**（如 `adnd`），key 限 `[a-z0-9-]`（`&`／中文只進顯示 label，見 `src/lib/labels.js`）。經 topic `list_games.{tag}` 自動聚合成專題（如「龍與地下城遊戲」）。現有：`adnd`（顯示「龍與地下城」）=AD&D 進階龍與地下城授權作；`compilation`（顯示「合輯」）=把多款不同遊戲打包成一套的產品（有別於 `editions` 的同款版本變體）|
 | `size` | string \| null | | 發行媒體容量，**數量在前**：`1CD`／`2CD`／`1DVD`、磁片 `4×360K`（非硬碟安裝量；chiuinan 帶入的純數字 MB 已一律 null）|
 | `platform_note` | string \| null | | 平台，**受控詞彙**（validate 會警告未知 token）。canonical token：`DOS`、`DOS/V`（日文 DOS/V，與 DOS 不同）、`Apple II`、`Win3.1`、`Win9x`、`WinXP`、`Win64`、`Windows`（世代不明時才用）、主機全稱如 `Sega Saturn`。**多平台以頓號「、」連接**（token 內部可含 `/`，如 `DOS/V`），依世代序 `Apple II→DOS→DOS/V→Win3.1→Win9x→WinXP→Win64→主機`（例 `Win3.1、WinXP`、`DOS、DOS/V`）。DOS 遊戲一律寫 `DOS`（早期用 `無` 當哨兵、已退役）。顯示器/版本/需光碟等**非平台註記不入此欄**（挪正文）。**18 禁改用 `adult` 旗標** |
-| `catalog_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號）|
+| `chiuinan_id` | string \| null | | chiuinan **典藏庫**編號（SCD/JXP…，來源側索引，非廠商編號；前綴規則見 `sources.md` §1 青衫之友）。**新條目用此名**；舊名 `catalog_id` 仍被 schema 接受（載入時 preprocess 正規化為 `chiuinan_id`），磁碟上的舊檔逐步遷移、不必一次改 |
 | `license_status` | `official`\|`unofficial`\| null | | 台灣發行授權狀態。**預設 null（未考據）**；`unofficial`=未授權代理/水貨/盜版（如軟體世界貴族版系列）|
 | `release_status` | `released`\|`unreleased`\|`unverified` | | **發行確定性**。預設 `released`（既有款）；`unreleased`=有公開足跡但確認流產/未上市；`unverified`=有報導/廣告但找不到實體佐證、存疑。整款層級（與 `release_codes.placeholder` 的單版本層級正交）。顯示標籤見 `src/lib/labels.js` |
 | `release_codes` | object[] | | **廠商自家發行編號**（各家機制不同）：`issuer`+`code`，選填 `status`（`released`/`placeholder`）/`note`。`placeholder`=保留未發行（轉珍藏版）|

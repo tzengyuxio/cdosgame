@@ -36,7 +36,7 @@ export const MEDIA_KINDS = [
   "title", "screenshot", "map", "credits", "other",
 ];
 
-export const gameSchema = z.object({
+const gameObject = z.object({
   // identity
   id: z.string().regex(/^cdg-\d{4,}$/),
   // publish gate: false = visible in dev only, excluded from the production site.
@@ -75,7 +75,7 @@ export const gameSchema = z.object({
   // chiuinan-sourced descriptors
   size: z.string().nullable(),
   platform_note: z.string().nullable(),
-  catalog_id: z.string().nullable(),            // chiuinan archive ref (SCD/JXP...)
+  chiuinan_id: z.string().nullable(),           // chiuinan preservation-archive ref (SCD/JXP...); see sources.md §1. Legacy alias `catalog_id` accepted via preprocess below.
 
   // authorization of the Taiwan distribution. null = 未考據 (default, since much is
   // unclear); unofficial = 未授權代理/水貨/盜版 (e.g. 軟體世界 貴族版 series).
@@ -157,5 +157,18 @@ export const gameSchema = z.object({
   rwv_source_id: z.string().optional(),
   rwv_match: z.enum(["exact", "edition", "alt"]).optional(),
 });
+
+// Field rename catalog_id → chiuinan_id (see BACKLOG / sources.md §1): the on-disk
+// name is migrated lazily. This preprocess makes `chiuinan_id` the canonical name
+// in-memory so all consumers see one field regardless of which key the .md file uses.
+// Must run BEFORE the object parse — z.object strips unknown keys, so an un-migrated
+// file's `catalog_id` would otherwise be dropped silently. chiuinan_id wins if both present.
+export const gameSchema = z.preprocess((data) => {
+  if (data && typeof data === "object" && !("chiuinan_id" in data) && "catalog_id" in data) {
+    const { catalog_id, ...rest } = data;
+    return { ...rest, chiuinan_id: catalog_id };
+  }
+  return data;
+}, gameObject);
 
 export default gameSchema;
