@@ -3485,8 +3485,9 @@
       "keys": [
         "t:大富翁10|大宇"
       ],
-      "status": "active",
-      "title_zh": "大富翁10"
+      "status": "rejected",
+      "title_zh": "大富翁10",
+      "reject_reason": "out of scope: 大宇《大富翁10》(2019)，遠超 DOS 年代之 Windows/線上商業作"
     },
     "cdg-0374": {
       "catalog_id": null,
@@ -3494,8 +3495,9 @@
       "keys": [
         "t:大富翁11|大宇"
       ],
-      "status": "active",
-      "title_zh": "大富翁11"
+      "status": "rejected",
+      "title_zh": "大富翁11",
+      "reject_reason": "out of scope: 大宇《大富翁11》(2021)，遠超 DOS 年代之 Windows 商業作"
     },
     "cdg-0375": {
       "catalog_id": "SCD0464",
@@ -4177,8 +4179,9 @@
       "keys": [
         "cat:SCD2232"
       ],
-      "status": "active",
-      "title_zh": "天使帝國4"
+      "status": "rejected",
+      "title_zh": "天使帝國4",
+      "reject_reason": "out of scope: 大宇《天使帝國4》(2016)，遠超 DOS 年代之 Windows 商業作"
     },
     "cdg-0449": {
       "catalog_id": "SCD2693",
@@ -21387,8 +21390,9 @@
       "keys": [
         "t:文明帝國5|Firaxis"
       ],
-      "status": "active",
-      "title_zh": "文明帝國5"
+      "status": "rejected",
+      "title_zh": "文明帝國5",
+      "reject_reason": "out of scope: Firaxis《文明帝國5》(2010)，外文 Windows 商業作、遠超 DOS 年代"
     },
     "cdg-2308": {
       "catalog_id": null,
@@ -21396,8 +21400,9 @@
       "keys": [
         "t:文明帝國6|Firaxis"
       ],
-      "status": "active",
-      "title_zh": "文明帝國6"
+      "status": "rejected",
+      "title_zh": "文明帝國6",
+      "reject_reason": "out of scope: Firaxis《文明帝國6》(2016)，外文 Windows 商業作、遠超 DOS 年代"
     },
     "cdg-2309": {
       "catalog_id": "SCD0233",
@@ -34689,7 +34694,7 @@
         "cat:SWZ004,SCD0251"
       ],
       "status": "active",
-      "title_zh": "魔獸爭霸1：人類與獸人"
+      "title_zh": "魔獸爭霸：人類與獸人"
     },
     "cdg-3751": {
       "catalog_id": "SCD0252",
@@ -37984,8 +37989,9 @@
       "keys": [
         "t:鬼屋魔影2|None"
       ],
-      "status": "active",
-      "title_zh": "鬼屋魔影2"
+      "status": "merged",
+      "title_zh": "鬼屋魔影2",
+      "merged_into": "cdg-3651"
     },
     "cdg-4109": {
       "catalog_id": null,
@@ -39429,8 +39435,9 @@
       "keys": [
         "t:蚯蚓吉姆|None"
       ],
-      "status": "active",
-      "title_zh": "蚯蚓吉姆"
+      "status": "rejected",
+      "title_zh": "蚯蚓吉姆",
+      "reject_reason": "out of scope: Shiny/Interplay《蚯蚓吉姆》(Earthworm Jim)，外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-4266": {
       "catalog_id": null,
@@ -39438,8 +39445,9 @@
       "keys": [
         "t:蚯蚓吉姆2|None"
       ],
-      "status": "active",
-      "title_zh": "蚯蚓吉姆2"
+      "status": "rejected",
+      "title_zh": "蚯蚓吉姆2",
+      "reject_reason": "out of scope: Shiny/Interplay《蚯蚓吉姆2》(Earthworm Jim 2)，外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-4267": {
       "catalog_id": null,
@@ -49128,6 +49136,69 @@
       ],
       "status": "active",
       "title_zh": "三國之星海風雲：孫權的野心"
+    },
+    "cdg-5325": {
+      "catalog_id": null,
+      "developer": "JC Research",
+      "keys": [
+        "t:棋藝風雲錄|JC Research"
+      ],
+      "status": "active",
+      "title_zh": "棋藝風雲錄"
+    },
+    "cdg-5326": {
+      "catalog_id": null,
+      "developer": "世紀縱橫",
+      "keys": [
+        "t:中華VR職棒98|世紀縱橫"
+      ],
+      "status": "active",
+      "title_zh": "中華VR職棒98"
+    },
+    "cdg-5327": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:拿破崙戰記|None"
+      ],
+      "status": "active",
+      "title_zh": "拿破崙戰記"
+    },
+    "cdg-5328": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:海戰雄風|None"
+      ],
+      "status": "active",
+      "title_zh": "海戰雄風"
+    },
+    "cdg-5329": {
+      "catalog_id": null,
+      "developer": "天堂鳥",
+      "keys": [
+        "t:大宗師|天堂鳥"
+      ],
+      "status": "active",
+      "title_zh": "大宗師"
+    },
+    "cdg-5330": {
+      "catalog_id": null,
+      "developer": "YOXI工作室",
+      "keys": [
+        "t:除魔守護神|YOXI工作室"
+      ],
+      "status": "active",
+      "title_zh": "除魔守護神"
+    },
+    "cdg-5331": {
+      "catalog_id": null,
+      "developer": "致文",
+      "keys": [
+        "t:幻之國度|致文"
+      ],
+      "status": "active",
+      "title_zh": "幻之國度"
     }
   }
 }
