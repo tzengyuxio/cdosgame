@@ -14,7 +14,7 @@
   - **部分更改**：欄位級的「回報錯誤」按鈕 → 預填 issue（帶 id + 欄位）。
   考量：審核流程（呼應 `published` 閘與人工審核精神）、防濫用、與 `data/` 生成流程如何回灌（PR 改 content/ 還是改 derived/？content 是生成物，見 astro-handoff）。
 
-- [ ] **`/companies` 索引納入已發佈 profile**（2026-06-20）：目前廠商索引由「有已發佈遊戲的廠商」驅動，導致已 `published` 但尚無已發佈遊戲的公司頁（智冠/華義/天堂鳥/歡樂盒/精訊/第三波）不出現在索引、只能靠直連到達。考慮把索引改成 union「已發佈遊戲聚合 ∪ 已發佈 company md」（count 可能為 0，需處理呈現）。同理 people/teams 目前無索引頁。
+- [ ] **`/companies` 索引納入已發佈 profile**（2026-06-20，2026-07-22 訂正）：廠商索引由 `vendorsOf`（developer＋publisher_tw）聚合**已發佈遊戲**驅動（`src/pages/companies/index.astro`），有 profile 頁但**掛它的已發佈遊戲數＝0** 的公司不進索引、只能直連。⚠ 原列的智冠/華義/天堂鳥/歡樂盒/精訊/第三波**是錯的**——經 Python 實查它們各有 60–393 款已發佈遊戲、本就在索引（原例誤把公司頁 id 與 vendor 字串的正規化差異當成缺席）。**真正 0 遊戲的 profile 僅 `遊戲新幹線`**（全庫無任何遊戲提及）。**由來**：早期先建了公司頁作範例，當時遊戲的 developer/publisher_tw 還沒回填，故匯總數＝0、無法出現在索引；隨資料陸續回填，這些公司早已自然進索引——所以本項多屬**已被資料回填消解的歷史殘留**。改法（若仍要做）：索引來源改 union「vendor 聚合 ∪ 已發佈 company md」，count=0 者是否無視 `HIDE_BELOW=3` 永遠顯示待定。**當前真實 target 僅 `遊戲新幹線` 1 家（且其作品多為 2000 後線上遊戲、未必該進 DOS catalog），影響面極小、優先度低**。附：people/teams 索引頁其實已存在（backlog 舊述已過時）。
 - [ ] **大宇長產品目錄表遷成 `/topics`**（2026-06-20）：`content/companies/大宇.md` 內嵌的 G/A 系列產品目錄表很長，依 IA 規範（`docs/information-architecture.md`）應遷成 `/topics/大宇資訊產品目錄`，公司頁改放「專題」連結。需先實作 `topics` 類型（events/topics 尚未落地）。
 - [ ] **`/games` 篩選軸加入 18禁／改編來源**（2026-06-20）：`adult`、`adaptation.medium` 已是欄位，可加進目錄頁 facet 篩選（成人遊戲、漫畫改編／布袋戲改編…）。
 - [ ] **改編作品瀏覽頁**（2026-06-20）：依 `adaptation.medium` 做 `/adaptations` 或「漫畫改編／小說改編／布袋戲改編…」瀏覽軸，類似 genres/years。
