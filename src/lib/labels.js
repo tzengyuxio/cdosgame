@@ -78,13 +78,16 @@ export const genreLabel = v => GENRE_LABELS[v] || v;
 export const genreGroup = v => GENRE_GROUPS[v] || 'etc';
 export const groupLabel = v => GROUP_LABELS[v] || v;
 
-// Vendor display for list rows: 製作（developer）and 發行（publisher_tw[0]）shown
-// as "製作／發行" only when they differ; otherwise just the single available name
-// (Taiwan self-made titles, or foreign titles with only one known party).
+// Vendor display for list rows: 製作（developer）／發行（publisher_tw）. Show the
+// developer and the Taiwan publishers as "製作／發行1、發行2…" whenever there is a
+// publisher distinct from the developer; collapse to a single name for Taiwan
+// self-made titles (dev only, or dev also being the sole publisher).
 export const vendorLabel = g => {
   const dev = g.developer;
-  const pub = (g.publisher_tw || [])[0];
-  return dev && pub && dev !== pub ? `${dev}／${pub}` : (dev || pub || '—');
+  const pubs = g.publisher_tw || [];
+  const otherPubs = pubs.filter(p => p !== dev);
+  if (dev && otherPubs.length) return `${dev}／${otherPubs.join('、')}`;
+  return dev || pubs.join('、') || '—';
 };
 
 // Controlled tag vocabulary — stable ASCII key (stored in game frontmatter `tags[]`
