@@ -7609,8 +7609,9 @@
       "keys": [
         "cat:SCD2091"
       ],
-      "status": "active",
-      "title_zh": "成吉思汗"
+      "status": "rejected",
+      "title_zh": "成吉思汗",
+      "reject_reason": "out of scope: 成吉思汗（金盤電子 1996，簡中版），大陸原創策略遊戲、查無台灣發行足跡（非 KOEI 同名作）"
     },
     "cdg-0819": {
       "catalog_id": "SCD2089",
@@ -28060,8 +28061,9 @@
       "keys": [
         "cat:SCD1081"
       ],
-      "status": "active",
-      "title_zh": "抗日：地雷戰"
+      "status": "rejected",
+      "title_zh": "抗日：地雷戰",
+      "reject_reason": "out of scope: 抗日：地雷戰（金山軟件 1998，簡中版），大陸發行、查無台灣發行足跡"
     },
     "cdg-3031": {
       "catalog_id": "SCD2707",
@@ -32255,8 +32257,9 @@
       "keys": [
         "cat:SCD2213"
       ],
-      "status": "active",
-      "title_zh": "齊天大聖"
+      "status": "rejected",
+      "title_zh": "齊天大聖",
+      "reject_reason": "out of scope: 齊天大聖（前導軟件 1998，簡中版），大陸原創 RPG、查無台灣足跡（品技1994 同名作另存 cdg-3484）"
     },
     "cdg-3486": {
       "catalog_id": "SCD0719",

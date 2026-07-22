@@ -12,7 +12,7 @@ founder: [襟川陽一, 襟川惠子]
 roles: [developer, publisher]
 website: https://www.koeitecmo.co.jp/
 featured_series: [三國志, 信長之野望, 大航海時代, 成吉思汗]
-featured_games: [cdg-0211, cdg-1637, cdg-0418, cdg-0818]
+featured_games: [cdg-0211, cdg-1637, cdg-0418]
 references:
   - title: "Koei – Wikipedia"
     url: https://en.wikipedia.org/wiki/Koei
