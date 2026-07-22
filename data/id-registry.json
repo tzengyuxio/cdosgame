@@ -21810,8 +21810,9 @@
       "keys": [
         "cat:SWT174"
       ],
-      "status": "active",
-      "title_zh": "新英雄傳奇1"
+      "status": "merged",
+      "title_zh": "新英雄傳奇1",
+      "merged_into": "cdg-4607"
     },
     "cdg-2353": {
       "catalog_id": "Z051",
@@ -31787,8 +31788,9 @@
       "keys": [
         "cat:SWT086"
       ],
-      "status": "active",
-      "title_zh": "英雄傳奇2"
+      "status": "merged",
+      "title_zh": "英雄傳奇2",
+      "merged_into": "cdg-4179"
     },
     "cdg-3431": {
       "catalog_id": "SWT190",
@@ -31796,8 +31798,9 @@
       "keys": [
         "cat:SWT190"
       ],
-      "status": "active",
-      "title_zh": "英雄傳奇3"
+      "status": "merged",
+      "title_zh": "英雄傳奇3",
+      "merged_into": "cdg-4183"
     },
     "cdg-3432": {
       "catalog_id": "SWT277,SCD1332",
