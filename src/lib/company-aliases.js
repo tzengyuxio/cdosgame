@@ -24,4 +24,6 @@ export const COMPANY_ALIASES = {
   'Kure Software Koubou': '呉ソフトウェア工房',
   吳氏工房: '呉ソフトウェア工房',
   吳氏工坊: '呉ソフトウェア工房',
+  // 中英別名（同公司）：catalog 統一用中文「富士通」，舊資料/公司頁舊檔名用 FUJITSU。
+  FUJITSU: '富士通',
 };
