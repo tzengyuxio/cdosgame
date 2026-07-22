@@ -27,4 +27,4 @@
 
 ## 站台功能（續2）
 
-- [x] **遊戲列表的廠商欄並列製作／出版**（2026-06-28 → 結案 2026-07-22）：新增 `vendorLabel(g)`（`src/lib/labels.js`）——`developer`≠`publisher_tw[0]` 時顯示「製作／發行」（斜線、製作在前，如「Artdink／第三波」），相同或缺一則顯示單一。套用於 `GameList.astro`（SSR 分類/年代/公司列表）與 `games/index.astro`（/games client 篩選列表）。18禁 facet 仍 dev-only（另項）。build 通過、43 測試全綠。
+- [x] **遊戲列表的廠商欄並列製作／出版**（2026-06-28 → 結案 2026-07-22）：新增 `vendorLabel(g)`（`src/lib/labels.js`）——有與 developer 不同的台灣代理時顯示「製作／發行」（斜線、製作在前），**多家代理全列、以「、」隔開**（如「KOEI／第三波、歐風、新世界」）；過濾掉與 developer 同名的 publisher（免「大宇／大宇」）；台灣自製（僅 dev 或 dev＝唯一發行）顯示單一。套用於 `GameList.astro`（SSR 分類/年代/公司列表）與 `games/index.astro`（/games client 篩選列表）。加 `labels.test.js` 覆蓋 7 案例。18禁 facet 仍 dev-only（另項）。build 通過、44 測試全綠。
