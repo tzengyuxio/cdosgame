@@ -21292,8 +21292,9 @@
       "keys": [
         "cat:SCD0639"
       ],
-      "status": "active",
-      "title_zh": "數碼寶貝02"
+      "status": "rejected",
+      "title_zh": "數碼寶貝02",
+      "reject_reason": "out of scope: 數碼寶貝02（卉谷 2000），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2302": {
       "catalog_id": "SCD2049",
@@ -21301,8 +21302,9 @@
       "keys": [
         "cat:SCD2049"
       ],
-      "status": "active",
-      "title_zh": "數碼寶貝03：馴獸師之王"
+      "status": "rejected",
+      "title_zh": "數碼寶貝03：馴獸師之王",
+      "reject_reason": "out of scope: 數碼寶貝03：馴獸師之王（卉谷 2002），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2303": {
       "catalog_id": "3WG016",
@@ -21974,8 +21976,9 @@
       "keys": [
         "cat:SCD2766"
       ],
-      "status": "active",
-      "title_zh": "昆蟲霸主"
+      "status": "rejected",
+      "title_zh": "昆蟲霸主",
+      "reject_reason": "out of scope: 昆蟲霸主（卉谷 2004），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-2377": {
       "catalog_id": "SCD1022",
@@ -34163,8 +34166,9 @@
       "keys": [
         "cat:SCD1376"
       ],
-      "status": "active",
-      "title_zh": "魔戒之戰：中土世界爭霸"
+      "status": "rejected",
+      "title_zh": "魔戒之戰：中土世界爭霸",
+      "reject_reason": "out of scope: 魔戒之戰：中土世界爭霸（The Lord of the Rings: War of the Ring, 2003, Liquid），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3700": {
       "catalog_id": "SCD1380",
@@ -34453,8 +34457,9 @@
       "keys": [
         "t:魔法門678三代整合版|Rodril"
       ],
-      "status": "active",
-      "title_zh": "魔法門678三代整合版"
+      "status": "rejected",
+      "title_zh": "魔法門678三代整合版",
+      "reject_reason": "out of scope: 魔法門678三代整合版（2017 Rodril 粉絲整合 mod），非商業產品、2000 年後、非 DOS 時代收錄範圍"
     },
     "cdg-3732": {
       "catalog_id": "SCD0003",
@@ -34544,8 +34549,9 @@
       "keys": [
         "cat:OCD0064"
       ],
-      "status": "active",
-      "title_zh": "魔法門之英雄無敵5"
+      "status": "rejected",
+      "title_zh": "魔法門之英雄無敵5",
+      "reject_reason": "out of scope: 魔法門之英雄無敵5（Heroes of Might and Magic V, 2006, Ubisoft），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3742": {
       "catalog_id": "SCD0260",
@@ -34553,8 +34559,9 @@
       "keys": [
         "cat:SCD0260"
       ],
-      "status": "active",
-      "title_zh": "魔法門之英雄無敵6"
+      "status": "rejected",
+      "title_zh": "魔法門之英雄無敵6",
+      "reject_reason": "out of scope: 魔法門之英雄無敵6（Might & Magic: Heroes VI, 2011, Ubisoft），2000 年後現代 Windows 遊戲、非 DOS 時代收錄範圍"
     },
     "cdg-3743": {
       "catalog_id": "SCD1312",
