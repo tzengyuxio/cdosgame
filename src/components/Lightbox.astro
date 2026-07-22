@@ -37,6 +37,9 @@
       img.alt = t.dataset.caption || '';
       const parts = [];
       if (t.dataset.caption) parts.push(`<span class="c">${t.dataset.caption}</span>`);
+      if (t.dataset.magUrl) {
+        parts.push(`<span class="s">雜誌：<a href="${t.dataset.magUrl}" target="_blank" rel="noopener nofollow">${t.dataset.magLabel || '該期'}</a></span>`);
+      }
       if (t.dataset.source) {
         const src = t.dataset.sourceUrl
           ? `<a href="${t.dataset.sourceUrl}" target="_blank" rel="noopener">${t.dataset.source}</a>`

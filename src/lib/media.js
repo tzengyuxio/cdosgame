@@ -1,6 +1,7 @@
 // Helpers for the curated media library (see docs/media.md). Works for any
 // collection: games / companies / people. Paths are /media/<coll>/<slug>/<src>.
 import { withBase } from './links.js';
+import { magazineHref } from './magazine-links.js';
 import sources from '../../data/media-sources.json';
 
 // Gallery categories (kind → grouped, ordered display). Covers all collections'
@@ -115,6 +116,7 @@ export function decorate(m, coll, slug) {
     thumb: thumbUrl(coll, slug, m.src),
     src_obj: expandSource(m.source, m.source_url),
     gallery_caption: galleryCaption(m, coll),
+    mag: magazineHref(m.caption),
   };
 }
 

@@ -153,6 +153,8 @@ const gaps = g.published === false ? [
             data-source={coverItem.src_obj.name}
             data-source-url={coverItem.src_obj.url || ''}
             data-credit={coverItem.credit || ''}
+            data-mag-url={coverItem.mag?.url || ''}
+            data-mag-label={coverItem.mag?.label || ''}
           >
             <img src={coverItem.full} alt={coverItem.caption || g.title_zh} />
           </button>

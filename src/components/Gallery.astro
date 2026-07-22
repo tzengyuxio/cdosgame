@@ -31,6 +31,8 @@ const renderGroups = flat
                 data-source={m.src_obj.name}
                 data-source-url={m.src_obj.url || ''}
                 data-credit={m.credit || ''}
+                data-mag-url={m.mag?.url || ''}
+                data-mag-label={m.mag?.label || ''}
               >
                 <img src={m.thumb} alt={m.gallery_caption} loading="lazy" />
               </button>

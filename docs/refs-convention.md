@@ -108,6 +108,16 @@ external_links:
 
 **雙形式可混用**：同一份 `footnotes` 可前段純字串、後段 keyed，順序決定列表編號（顯示 1, 2, 3…）。被引用者編號照樣由 body 出現序決定，與列表中位置無關。
 
+## 雜誌 NostaLib 連結
+
+提到雜誌時，連到 NostaLib（懷舊圖書館）該期頁面。URL 為確定式：`https://nostalibrary.tzengyuxio.me/magazines/<code>/no.<NNN>`，`<code>` 即上表縮寫（swm/ace/sgm/cgw）。**文字期號不補零、URL 補零**（`第40期` → `no.040`）；合刊用連字號（`第70+71期` → `no.070-071`）；特殊期號 `試刊號` → `no.000`、`創刊號` → `no.001`。helper（`magazineIssueUrl`／`magazineHref`）見 `src/lib/magazine-links.js`。個別期號是否確實存在於 NostaLib 未自動驗證，有疑慮者可在 footnote 手寫完整 URL 覆蓋。
+
+**落點政策——連結只放「來源層」，靠既有機制去重：**
+
+- **footnote（主要落點）**：雜誌 footnote 就是來源，把 `《刊名》第 N 期` 片段包成 `<a href="…/no.NNN">《刊名》第 N 期</a>`（footnote `text` 走 `set:html`、支援內嵌 `<a>`；外部連結由 `CiteSections.astro` 自動補 `target="_blank" rel="noopener nofollow"`，撰寫時不必手寫 target）。keyed footnote 天然去重：同 key 被正文多句引用，連結只出現一條。
+- **內文不連**：正文提到雜誌，句末已有 `<sup class="cite">[N]` 指向該（已連結）footnote，內文再內嵌 URL 是重複又雜亂。
+- **caption 連結只在 lightbox（放大圖）**：`media[].caption` 裡的「刊名＋期號」由 `src/lib/magazine-links.js` 的 `magazineHref` 在建置時解析，掛在縮圖 button 的 `data-mag-url`／`data-mag-label`；**縮圖 caption 維持純文字**，使用者點開放大後 lightbox 才顯示一條「雜誌：<刊名期號> ↗」連結（比照既有「來源：」那條 metadata）。這樣 grid 不散連結、一次只現當前圖那條。**不需在 caption 手寫 `<a>`**。lightbox caption **一律連**（解析到刊名期號就連，不管該期在 footnote 有沒有連過——兩者不同介面、不同語意，lightbox 一次只顯示一張，不構成重複）。解析器容忍 `《》`、可選「第」、無空格、合刊 `N+M`；新 caption 盡量寫成 `刊名 第N期・單元 p.頁碼` 以利解析。
+
 ## 「丟連結」工作流程（SOP）
 
 收到新連結時：

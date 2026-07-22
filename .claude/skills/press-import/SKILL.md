@@ -52,11 +52,12 @@ node scripts/process_media.mjs --write     # APPLY：轉 WebP、寫 media[]、�
   ```yaml
   footnotes:
   - key: <刊物碼><期號>
-    text: '〈報導標題〉，《刊名》第 N 期（年）「單元」，頁 X。'
+    text: '〈報導標題〉，<a href="https://nostalibrary.tzengyuxio.me/magazines/<code>/no.<NNN>">《刊名》第 N 期</a>（年）「單元」，頁 X。'
   ```
   key 命名＝`<刊名縮寫><期號>[<語意後綴>]`（全小寫，同期多則加後綴如 `ad` 消歧義），縮寫對照表與規則見 `docs/refs-convention.md`「footnote key 命名」。常用：電腦玩家＝`ace`、軟體世界＝`swm`、新遊戲時代＝`sgm`、電腦遊戲世界＝`cgw`。
-- **正文 cite**：每句出自報導的新增事實，句末 `<sup class="cite" data-ref="<key>"></sup>`。
-- **press 圖說**：`media[]` 的 `kind: press` 那筆 `caption` 改成 `<刊名 期號>・<單元> p.<頁碼>`（例：`電腦玩家 第96期・先睹為快 p.121`）。
+  **雜誌 footnote 一律把 `《刊名》第 N 期` 包成 NostaLib 連結**（URL＝`…/magazines/<code>/no.<NNN>`，NNN 三位補零、合刊用連字號；`target` 由 `CiteSections.astro` 自動補）。落點政策與去重見 `docs/refs-convention.md`「雜誌 NostaLib 連結」。
+- **正文 cite**：每句出自報導的新增事實，句末 `<sup class="cite" data-ref="<key>"></sup>`。**內文提到雜誌不另加連結**（連結只在 footnote）。
+- **press 圖說**：`media[]` 的 `kind: press` 那筆 `caption` 改成 `<刊名 期號>・<單元> p.<頁碼>`（例：`電腦玩家 第96期・先睹為快 p.121`）。caption 的「刊名＋期號」會在 lightbox（放大圖）自動連 NostaLib（縮圖 caption 純文字），**不必手寫 `<a>`**。
 
 **內容鐵律**：
 - **主觀評語（宣傳/評測語氣）不可當客觀事實**——用「報導稱／評為／據上市前報導」框住。
