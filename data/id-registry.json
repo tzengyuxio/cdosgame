@@ -36344,8 +36344,9 @@
       "keys": [
         "t:正宗臺灣16張麻將|None"
       ],
-      "status": "active",
-      "title_zh": "正宗臺灣16張麻將"
+      "status": "merged",
+      "title_zh": "正宗臺灣16張麻將",
+      "merged_into": "cdg-0724"
     },
     "cdg-3932": {
       "catalog_id": "3WG083",
@@ -37327,8 +37328,9 @@
       "keys": [
         "t:臺灣麻將|None"
       ],
-      "status": "active",
-      "title_zh": "臺灣麻將"
+      "status": "merged",
+      "title_zh": "臺灣麻將",
+      "merged_into": "cdg-0006"
     },
     "cdg-4039": {
       "catalog_id": null,
@@ -37345,8 +37347,9 @@
       "keys": [
         "t:大戰略SP 釣魚臺風雲篇|None"
       ],
-      "status": "active",
-      "title_zh": "大戰略SP 釣魚臺風雲篇"
+      "status": "merged",
+      "title_zh": "大戰略SP 釣魚臺風雲篇",
+      "merged_into": "cdg-0395"
     },
     "cdg-4041": {
       "catalog_id": null,
