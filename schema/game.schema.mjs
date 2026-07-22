@@ -85,7 +85,7 @@ const gameObject = z.object({
   // catalog); unreleased = 有公開足跡但確認流產/未上市; unverified = 有報導/廣告但
   // 找不到實體佐證, 存疑. 自製 vs 代理 already encoded by developer/publisher_tw, so
   // both流產 cases share `unreleased`. Game-level — orthogonal to release_codes.placeholder
-  // (that is edition-level). See docs/superpowers/specs/2026-06-28-release-status-design.md.
+  // (that is edition-level). See docs/adr/ADR-001-release-status-flag.md.
   release_status: z.enum(["released", "unreleased", "unverified"]).default("released"),
 
   // publisher's OWN product numbers (each company numbers differently). e.g.
