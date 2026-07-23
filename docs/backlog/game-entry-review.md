@@ -131,7 +131,7 @@ created: 2026-06-20
 - [x] 撼天神塔VT 重複 — `cdg-1800`「撼天神塔VT：犧牲者之塔」有 chiuinan 圖與 catalog，作正本；`cdg-4138`「撼天神塔VT」為 offlinelist/rwv 空 stub，待 dedup/merge（2026-06-24）
 - [ ] Amaranth KH（cdg-4075）細節待補 — 巴哈表格記 FUGA／幸福鴨代理、1996-08-15；既有來源僅 Fandom merge 與表格，劇情、系統、是否與 FUGA 系列哪一作對應仍待實物或日文資料查證（2026-06-24）
 - [x] Amaranth 3D／亞瑪蘭斯（cdg-1346）年份 — chiuinan/既有 metadata 作 1999，巴哈表格作 1998?；metadata 暫維持 1999，正文並陳（2026-06-24）→ 複核結案：year=1999 已落地、正文並陳 1998? 差異，決策已定（cdg-1346 仍 published:false 屬另案）（2026-07-23）
-- [ ] 金錢帝國黃金版台灣代理佐證 — cdg-4541 依本站作者提供題名與憶弘國際線索建檔；線上來源可佐證《金錢帝國》對應《Capitalism》、開發商為微啟軟件，以及《Capitalism Plus》版本內容，仍需包裝、目錄或雜誌廣告確認代理資訊、發行年份與中文化程度（2026-06-24）
+- [x] 金錢帝國黃金版台灣代理佐證 — cdg-4541 依本站作者提供題名與憶弘國際線索建檔；線上來源可佐證《金錢帝國》對應《Capitalism》、開發商為微啟軟件，以及《Capitalism Plus》版本內容，仍需包裝、目錄或雜誌廣告確認代理資訊、發行年份與中文化程度（2026-06-24）→ 複核結案：developer=Enlight/HK、year=1996、publisher_tw=憶弘國際 已落地；代理佐證缺口為低價值待補（2026-07-23）
 - [ ] 美少女夢工場 Q 正名 — `cdg-1476` 目前 title_zh 為「美少女夢工場」，但內容與 chiuinan path 指向 Princess Maker Q；本批只處理精訊初代正本 `cdg-1477`，`cdg-1476` 待另案正名（2026-06-24）
 - [ ] 瘋狂醫院（cdg-2802）開發實體 — 巴哈表格記「龍翔製作、精訊發行」，既有條目/registry 原記精訊；本次採表格製作／發行分工，龍翔與精訊關係待實體資料佐證（2026-06-24）
 - [ ] 轉校生（cdg-1896）代理權傳聞 — 舊正文提到天堂鳥先代理後轉華義、且可能與辦公室遭砸事件相關，但缺可引用來源；本次自正文移除，待實體雜誌或訪談佐證（2026-06-24）
@@ -141,7 +141,7 @@ created: 2026-06-20
 - [ ] 鋼鐵騎士團系列原版／台版年份 — cdg-3593《鋼鐵騎士團》台灣表格作 1996-03，FM Towns 清單作 1993-12-18；cdg-3594《鋼鐵騎士團2》台灣表格作 1996-12-05，FM Towns 清單作 1995-01，Fandom 圖源另見 1994 記法。metadata 暫採台灣版年份，待包裝或日文原始資料確認（2026-06-24）
 - [ ] 天堂鳥代理款台版確切發行日 — 本批多款 year 由「日版原作年」訂正為「天堂鳥台版年」（YES!HG cdg-0134→1996、武姬神傳說 cdg-0737→1995、新世紀興亡史 cdg-2318→1995、逆玉王 cdg-2564→1995、麻雀幻想曲3 cdg-2015→1996、天地無用 cdg-0461→1994、科學小飛俠 cdg-1430→1995、魔石英雄傳 cdg-3767→1995、麗獸 cdg-3581→1996）；台版確切月日多為 Fandom/部落格二手，待一手佐證（2026-06-24）
 - [ ] 武姬神傳說（cdg-0737）語言 — 維基中文DOS遊戲列表記「英文版」，但研究查無 GIGA《Variable Geo》官方英文 PC 版；content_language 暫留 zh，待確認天堂鳥版實際語言（2026-06-24）
-- [ ] 天使們的午後2（cdg-0441）— 實為 JAST《天使たちの午後 コレクション2》合輯（非單一續作）；台版年 1995/1996 異說、確切日期缺一手（2026-06-24）
+- [x] 天使們的午後2（cdg-0441）— 實為 JAST《天使たちの午後 コレクション2》合輯（非單一續作）；台版年 1995/1996 異說、確切日期缺一手（2026-06-24）→ 複核結案：developer=JAST、year=1995、天堂鳥、adult 已落地；確切日期缺一手為低價值待補（2026-07-23）
 - [x] 麻將情趣屋（cdg-1997）developer — 使用者裁定**採維基「大三元工作室」開發、天堂鳥發行**之說（developer→大三元工作室、publisher_tw→天堂鳥、引天堂鳥資訊維基）；續作《麻將情趣屋2》cdg-1998 仍為天堂鳥自製（2026-06-24）
 - [ ] 碰龍美戰士（cdg-2513）— 疑日商 PARSLEY 原作（亦記碰美龍戰士）、天堂鳥代理，來源僅搜尋彙整偏弱；developer 暫留天堂鳥、genre 留 null，待一手佐證（2026-06-24）
 - [ ] 紅色誘惑（cdg-2046）／新世紀興亡史（cdg-2318）18禁存疑 — 品牌（Discovery／Fuga）為成人廠，但兩作本身：RED 未見於 ErogameScape/VNDB 且實機無成人內容、新世紀興亡史青衫中文介紹無成人跡象；暫不標 adult，待確認台版是否刪減（2026-06-24）
@@ -173,13 +173,13 @@ created: 2026-06-20
 - [ ] 陸軍棋（cdg-1363）歸屬存疑 — 智冠/TW/native/1991 主要靠 chiuinan＋社群整理（巴哈國產總表/中文DOS列表），無強一手佐證；軟體世界珍藏版珍115（softworld scan 確證），developer 智冠待二次佐證（2026-06-28）
 - [ ] 快快樂樂學打字（cdg-4586）— Dvorak on Typing 開發商 Park Place Productions／Presage Software、發行 Interplay（非清單可能暗示的 Software Toolworks）；平台各源不一（DOS/Win/Mac/Amiga）、年份 1991 存疑；珍107（2026-06-28）
 - [x] 妙賊奇弗（cdg-4585）開發商更正 — 清單若標 New World Computing 有誤，實為 Naughty Dog 首作、Electronic Arts 發行（已採）；珍106（2026-06-28）
-- [ ] F-29/F-14（cdg-4584/4587）同名作辨識 — F-29 Retaliator 採 Digital Image Design(GB)/Ocean 發行、原版 1989 Amiga（DOS 1991）；F-14 Tomcat 同名遊戲多款，本批指 Dynamix/Activision 1990 DOS 版（2026-06-28）
-- [ ] 幽靈騎士(cdg-4230)/魔眼殺機(cdg-3763) 已掛 adnd 標籤 — 兩款 AD&D 授權作已加 tags:[adnd]、納入「龍與地下城」專題；魔眼殺機 developer 由 SSI 訂正為 Westwood Associates（SSI 為發行商）（2026-06-28）
-- [ ] 新A-10坦克殺手（A-10 Tank Killer 1.5, 珍119）不另立條目 — 已由 cdg-0034「A-10坦克殺手」涵蓋（含 1.5 版，release_codes 珍028＋珍119、alias 新A-10坦克殺手），本批使用者列出但無需新建（2026-06-28）
-- [ ] 印度王（cdg-4590）僅英國發行 — Champion of the Raj（Level 9 Computing/PSS, 1991）查無美國等地發行，僅 Amiga/ST/PC 英國版；台灣軟體世界珍藏版珍121 收錄（2026-06-28）
+- [x] F-29/F-14（cdg-4584/4587）同名作辨識 — F-29 Retaliator 採 Digital Image Design(GB)/Ocean 發行、原版 1989 Amiga（DOS 1991）；F-14 Tomcat 同名遊戲多款，本批指 Dynamix/Activision 1990 DOS 版（2026-06-28）→ 複核結案：4584 developer=Digital Image Design、4587 developer=Dynamix 各自正確（2026-07-23）
+- [x] 幽靈騎士(cdg-4230)/魔眼殺機(cdg-3763) 已掛 adnd 標籤 — 兩款 AD&D 授權作已加 tags:[adnd]、納入「龍與地下城」專題；魔眼殺機 developer 由 SSI 訂正為 Westwood Associates（SSI 為發行商）（2026-06-28）→ 複核結案：兩檔 tags:[adnd]、3763 developer=Westwood Associates 已落地（2026-07-23）
+- [x] 新A-10坦克殺手（A-10 Tank Killer 1.5, 珍119）不另立條目 — 已由 cdg-0034「A-10坦克殺手」涵蓋（含 1.5 版，release_codes 珍028＋珍119、alias 新A-10坦克殺手），本批使用者列出但無需新建（2026-06-28）→ 複核結案：cdg-0034 已含珍028/珍119＋alias，涵蓋決策已落地（2026-07-23）
+- [x] 印度王（cdg-4590）僅英國發行 — Champion of the Raj（Level 9 Computing/PSS, 1991）查無美國等地發行，僅 Amiga/ST/PC 英國版；台灣軟體世界珍藏版珍121 收錄（2026-06-28）→ 複核結案：developer=Level 9 Computing、珍121 已落地（2026-07-23）
 - [ ] Ｄ計劃（cdg-3954）developer_region 存疑 — D/Generation 設計者 Robert Cook 個人國籍未確證，部分資料視為英國團隊；暫依發行商 Mindscape 標 US，待查（2026-06-28）
-- [ ] 魔獸紀元（cdg-4589）開發實況 — Tunnels & Trolls: Crusaders of Khazan 為美日合作：New World Computing（US）設計監督、程式外包日本 Logical Design Works；developer 主欄維持 New World Computing/US（2026-06-28）
-- [ ] 艾薇拉（cdg-3965）genre — Elvira 為恐怖 RPG/冒險混血，本批採 RPG（依 CGW 1991 RPG 年度獎定位），若偏圖形冒險操作面亦可 ADV（2026-06-28）
+- [x] 魔獸紀元（cdg-4589）開發實況 — Tunnels & Trolls: Crusaders of Khazan 為美日合作：New World Computing（US）設計監督、程式外包日本 Logical Design Works；developer 主欄維持 New World Computing/US（2026-06-28）→ 複核結案：developer=New World Computing/US 已落地（2026-07-23）
+- [x] 艾薇拉（cdg-3965）genre — Elvira 為恐怖 RPG/冒險混血，本批採 RPG（依 CGW 1991 RPG 年度獎定位），若偏圖形冒險操作面亦可 ADV（2026-06-28）→ 複核結案：genre=RPG 已落地（2026-07-23）
 - [ ] 天生好手2（cdg-4595）開發商存疑 — Earl Weaver Baseball II：Internet Archive 等列 Mirage Graphics、維基僅標 EA 發行未列開發商；本批 developer 暫採 Electronic Arts，待 MobyGames credits 核實。初代天生好手＝cdg-4015（Earl Weaver Baseball I, 1988, 貴005），本批未動（2026-06-28）
 - [x] 幻影法師（cdg-4597）genre/developer — Shadow Sorcerer：部分來源把歐版代理 U.S. Gold 誤列 developer，實為 SSI（已採）；genre 即時戰術 AD&D 介於 SRPG/SLG，本批採 SRPG。已掛 adnd 標籤（與異域之門 cdg-1938 同）（2026-06-28）
 - [x] 納粹飛行祕史（cdg-4010）developer — Secret Weapons of the Luftwaffe 1991 年掛 Lucasfilm Games（已採），首席 Lawrence Holland 團隊後獨立為 Totally Games；維基有時標 Totally Games（2026-06-28）
