@@ -10230,7 +10230,8 @@
       "catalog_id": "SCD1363",
       "developer": "Sir-Tech",
       "keys": [
-        "cat:SCD1363"
+        "cat:SCD1363",
+        "t:巫術：瘋狂城主的試練場|None"
       ],
       "status": "active",
       "title_zh": "巫術1"
@@ -16692,7 +16693,8 @@
       "catalog_id": "OCD0036",
       "developer": "Falcom",
       "keys": [
-        "cat:OCD0036"
+        "cat:OCD0036",
+        "t:復活邪魔|None"
       ],
       "status": "active",
       "title_zh": "撼天神塔：復活邪魔"
@@ -27529,7 +27531,8 @@
       "catalog_id": "SWT160,SWE274\nOCD053",
       "developer": "Origin",
       "keys": [
-        "cat:SWT160,SWE274\nOCD053"
+        "cat:SWT160,SWE274\nOCD053",
+        "t:創世紀 VII：黑月之門|None"
       ],
       "status": "active",
       "title_zh": "創世紀7：黑月之門"
@@ -27538,7 +27541,8 @@
       "catalog_id": "SWT216,SWT263\nOCD053",
       "developer": "Origin",
       "keys": [
-        "cat:SWT216,SWT263\nOCD053"
+        "cat:SWT216,SWT263\nOCD053",
+        "t:創世紀 VII第二部：巨蛇之島|None"
       ],
       "status": "active",
       "title_zh": "創世紀7第二部：巨蛇之島"
@@ -27592,7 +27596,8 @@
       "catalog_id": "SWT105",
       "developer": "Origin",
       "keys": [
-        "cat:SWT105"
+        "cat:SWT105",
+        "t:火星之旅|None"
       ],
       "status": "active",
       "title_zh": "創世紀外傳2：火星之旅"
@@ -37044,8 +37049,9 @@
       "keys": [
         "t:創世紀 VII：黑月之門|None"
       ],
-      "status": "active",
-      "title_zh": "創世紀 VII：黑月之門"
+      "status": "merged",
+      "title_zh": "創世紀 VII：黑月之門",
+      "merged_into": "cdg-2969"
     },
     "cdg-4003": {
       "catalog_id": null,
@@ -37916,8 +37922,9 @@
       "keys": [
         "t:復活邪魔|None"
       ],
-      "status": "active",
-      "title_zh": "復活邪魔"
+      "status": "merged",
+      "title_zh": "復活邪魔",
+      "merged_into": "cdg-1796"
     },
     "cdg-4096": {
       "catalog_id": null,
@@ -38424,8 +38431,9 @@
       "catalog_id": null,
       "developer": "天堂鳥",
       "keys": [
-        "t:邪神|天堂鳥",
-        "t:Evil God|天堂鳥"
+        "t:Evil God|天堂鳥",
+        "t:邪神 Evil God|None",
+        "t:邪神|天堂鳥"
       ],
       "status": "active",
       "title_zh": "邪神"
@@ -38785,8 +38793,9 @@
       "keys": [
         "t:巫術：瘋狂城主的試練場|None"
       ],
-      "status": "active",
-      "title_zh": "巫術：瘋狂城主的試練場"
+      "status": "merged",
+      "title_zh": "巫術：瘋狂城主的試練場",
+      "merged_into": "cdg-1099"
     },
     "cdg-4190": {
       "catalog_id": null,
@@ -38813,8 +38822,9 @@
       "keys": [
         "t:火星之旅|None"
       ],
-      "status": "active",
-      "title_zh": "火星之旅"
+      "status": "merged",
+      "title_zh": "火星之旅",
+      "merged_into": "cdg-2976"
     },
     "cdg-4193": {
       "catalog_id": null,
@@ -38831,8 +38841,9 @@
       "keys": [
         "t:創世紀 VII第二部：巨蛇之島|None"
       ],
-      "status": "active",
-      "title_zh": "創世紀 VII第二部：巨蛇之島"
+      "status": "merged",
+      "title_zh": "創世紀 VII第二部：巨蛇之島",
+      "merged_into": "cdg-2970"
     },
     "cdg-4195": {
       "catalog_id": null,
@@ -39765,8 +39776,9 @@
       "keys": [
         "t:邪神 Evil God|None"
       ],
-      "status": "active",
-      "title_zh": "邪神 Evil God"
+      "status": "merged",
+      "title_zh": "邪神 Evil God",
+      "merged_into": "cdg-4150"
     },
     "cdg-4297": {
       "catalog_id": null,
