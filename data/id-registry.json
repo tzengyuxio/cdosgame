@@ -32751,8 +32751,9 @@
       "keys": [
         "cat:SWT069,SCD1467\nSCD1468,SCD1469"
       ],
-      "status": "active",
-      "title_zh": "猴島小英雄1：猴島的秘密"
+      "status": "merged",
+      "title_zh": "猴島小英雄1：猴島的秘密",
+      "merged_into": "cdg-3863"
     },
     "cdg-3534": {
       "catalog_id": "SWT156\nSCD1468,SCD1469",
@@ -35771,9 +35772,10 @@
       "merged_into": "cdg-2264"
     },
     "cdg-3863": {
-      "catalog_id": null,
+      "catalog_id": "SWT069,SCD1467\nSCD1468,SCD1469",
       "developer": null,
       "keys": [
+        "cat:SWT069,SCD1467\nSCD1468,SCD1469",
         "t:猴島小英雄|None"
       ],
       "status": "active",
