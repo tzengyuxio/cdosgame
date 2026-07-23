@@ -11653,8 +11653,9 @@
       "keys": [
         "cat:SCD0487"
       ],
-      "status": "active",
-      "title_zh": "海賊"
+      "status": "rejected",
+      "title_zh": "海賊",
+      "reject_reason": "out of scope: 海賊X海賊（2002），飛玩資訊開發之 Windows 大富翁類遊戲，年代晚且作品與廠商均無 DOS 足跡或關聯"
     },
     "cdg-1250": {
       "catalog_id": "SCD1033",
