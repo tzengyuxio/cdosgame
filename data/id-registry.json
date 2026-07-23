@@ -8780,8 +8780,9 @@
       "keys": [
         "cat:SCD2046"
       ],
-      "status": "active",
-      "title_zh": "史艷文－寶島囡仔王：台語‧鄉土通2"
+      "status": "rejected",
+      "title_zh": "史艷文－寶島囡仔王：台語‧鄉土通2",
+      "reject_reason": "out of scope: 台語‧鄉土通2（史艷文－寶島囡仔王），兒童台語／鄉土語言學習軟體，非遊戲"
     },
     "cdg-0945": {
       "catalog_id": "Z068",
