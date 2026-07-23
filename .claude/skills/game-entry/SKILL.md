@@ -33,7 +33,19 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - `genre`：22 個 v2 key 之一（**存 key、非中文名**，如 `SLG`／`RPG`／`HSG`）；7 group、各類定義與判準（HSG＝光榮/三國志 like、戀愛養成分 LSG/AVG 等）見 `docs/genre-taxonomy.md`。中文顯示名由 `src/lib/labels.js` 推導。
 - `localization_level`：native／localized／packaging／foreign（依原生開發 vs 代理中文化）。
 - `developer_region`：開發商所在地（TW/JP/…）——**會影響關聯區塊**（台灣開發商只列開發商）。
+- **`developer` / `dev_team` / `publisher_tw` 三欄對應（七層角色→三欄，明文杜絕誤掛）**：一款遊戲可能有到七層角色，維持三欄、固定落點——
+  1. 原作者（個人）→ 知名者進 `staff[]`（role 作者/原作）、否則正文；**不進 developer**。
+  2. 開發小組 → `dev_team`（DOMO小組、狂徒創作群…）。
+  3. 原開發商（公司）→ `developer`（單一）。
+  4. **原發行商 → 只寫正文**。⚠ **鐵則：`developer` 絕不放原發行商**（最常見病灶＝外國款把原發行商誤掛 developer；如 Command H.Q. 的 developer 應是 Ozark Softscape、非 Microplay）。
+  5–6. 台灣中文化商／代理／發行商 → `publisher_tw`（**中文化商 ≠ 發行商時兩者並列**，如富峰群中文化＋智冠發行→`[富峰群, 智冠]`）。
+  7. 台灣經銷商 → 正文或不記。
+  - 純國產自製自發行：`developer` 填該台灣公司、`publisher_tw` 依「原廠發行不入」慣例**留空**（先例 cdg-1354/2746/3468）。
 - `release_status`：發行確定性，**預設 `released` 可省略**。流產／未上市標 `unreleased`、有報導/廣告但查無實體標 `unverified`（佐證寫進正文＋footnotes，別只標 enum）。收錄邊界＝有公開產品足跡即可（不限已上市）；見 `scope.md` §5。
+- **`year` / `year_basis` / `year_precision`（本站以台灣記憶為主，`year`＝台灣發行年）**：純國產＝原版年＝台灣年、直接填、basis 免標。代理外國作照此優先序決定 `year`——
+  - ① **有正式授權代理** → 該正式代理的台灣發行年（如信長2＝第三波）；② 多家非正式引進 → 有一手佐證的**最早台灣流通年**；③ 台灣年完全不可考 → **fallback 原版年**。
+  - **`year_basis`**（null＝`tw_release`）：只要 `year` 不是台灣發行年就標——`original`（fallback 原版首發年）｜`original_platform`（採原版某平台年，非首發）｜`award_or_preview`（僅獲獎/曝光/預告年）｜`unknown`（沿用舊值未考證）。台灣中文化代理上市年**仍算 `tw_release`**（就是台灣發行年；原版年寫正文），不另立值。
+  - **`year_precision`**（null＝`exact`）：約略/推定或只知年代填 `approximate`，`year` 填代表值（90 年代前期→1992），正文說明。
 - `size`：數量前置；CD/DVD 雙版本用全形「／」、同版多片用「+」；**不寫純數字 MB／硬碟安裝量**。
 - `platform_note`：作業系統平台（`無`=DOS、`Windows`…）。**18 禁不放這裡 → 用 `adult: true`**。
 - `adaptation`：改編來源 `{medium, title, author?}`（漫畫/小說/電影…）。
@@ -73,6 +85,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **`## 版本` 區塊（同一作的多個版本先集中記在本體條目）**：資料片、中英文改版、重製版、移植版、不同公司重出的版本…**資料還不多時一律先寫進本體條目的 `## 版本`**，不急著發新 id。等某個版本累積到足夠獨立成篇，再拆出去、把該列改成 cross-link。
   - 形式：`## 版本` 底下用清單，一行一版本，`**<年份> <版本名>**` 起頭，接一句說明（誰發行／改了什麼），事實照常掛 `<sup class="cite">`。
   - 判準與 `docs/id-policy.md` 一致：載體／包裝／小增補本來就同 id；重製／在地化／實質內容改變**遲早**要獨立 id，但「遲早」不等於現在——先在 `## 版本` 留下可查證的紀錄，勝過為一句話發一個空號。
+  - **加強版（enhancement kit）vs 獨立商品**（解掉「威力加強版 vs 白色情人節」的表面矛盾）：**威力加強版／資料片／同名再發**（內容＝本體＋增補、依附本體）→ **同 id、進 `## 版本`／`editions[]`**（如「三國志7 威力加強版」不獨立、列在三國志7 下）；**改名／獨立商品化／實質重製**（有各自台灣品名與足跡）→ **獨立條目＋cross-link、`series` 留 null**（如 cdg-2940 初戀 ↔ cdg-2941 白色情人節）。id-policy 對「加強版」灰色地帶的預設是保守同 id。
   - 已獨立成條目的版本不重複敘述，只留一行指向它。
   - 範例（cdg-0621 水滸傳～天命之誓）：
     ```markdown

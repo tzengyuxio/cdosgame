@@ -49,6 +49,18 @@ const gameObject = z.object({
 
   // release facts
   year: z.number().int().min(1970).max(2030).nullable(),
+  // What `year` means. Site is Taiwan-memory oriented so `year` is the Taiwan
+  // release year by default; when that is unknowable it falls back to another
+  // basis, always flagged here. null/absent ⇒ tw_release. See docs + game-entry skill.
+  //  tw_release        台灣發行年（含正式代理／中文化代理上市）— 預設
+  //  original          原版首發年（台灣年不可考時 fallback）
+  //  original_platform 原版某平台年（非首發平台，如採 DOS 版年）
+  //  award_or_preview  僅獲獎／雜誌曝光／預告年可考
+  //  unknown           來源不明（遷移期未考證的過渡值）
+  year_basis: z.enum(['tw_release', 'original', 'original_platform', 'award_or_preview', 'unknown']).nullable().default(null),
+  // How exact `year` is. null/absent ⇒ exact; 'approximate' = 約略年或只知年代
+  // (fill `year` with a representative value, e.g. 90 年代前期 → 1992).
+  year_precision: z.enum(['exact', 'approximate']).nullable().default(null),
   developer: z.string().nullable(),
   developer_region: z.enum(REGIONS).nullable(),
   // in-house development team/sub-studio, e.g. 大宇's DOMO小組 / 狂徒創作群

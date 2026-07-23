@@ -15,8 +15,10 @@
 | `title_zh` | string | ✓ | 繁中主名。**寫法**：序號用**半形**阿拉伯數字（`工人物語2`，非「工人物語２」）；主標題與副標題間用**全形冒號**（`工人物語2：黃金版`）；**系列初代不帶序號**（`工人物語`，非「工人物語1」，舊名留 `title_aliases`）。訂正舊資料時 `data/id-registry.json` 的 `title_zh` 要同步。同名不同作的消歧義後綴另見 [`docs/id-policy.md`](docs/id-policy.md) |
 | `title_aliases` | string[] | | 別名/英文原名（預設 []）|
 | `slug` | string \| null | | 網址用，英文別名 slugify；無則 null |
-| `year` | int 1970–2030 \| null | | 發行年（收集到 2024；2004 後為收集邊界外）|
-| `developer` | string \| null | | 開發商 |
+| `year` | int 1970–2030 \| null | | **台灣發行年**（本站以台灣記憶為主）；純國產＝原版年＝台灣年。收集到 2024，2004 後為邊界外。年份「屬哪一種／準不準」見下兩欄 |
+| `year_basis` | enum \| null | | `year` 是哪一種年份（null＝`tw_release`）：`tw_release`（台灣發行/代理/中文化上市，預設）｜`original`（原版首發年，台灣年不可考的 fallback）｜`original_platform`（原版某平台年，非首發平台）｜`award_or_preview`（僅獲獎/曝光/預告年）｜`unknown`（來源不明，遷移過渡值）。規則見 `game-entry` skill |
+| `year_precision` | enum \| null | | `year` 準不準（null＝`exact`）：`exact`（確切，預設）｜`approximate`（約略年或只知年代——`year` 填代表值，如 90 年代前期→1992，正文說明）|
+| `developer` | string \| null | | **原開發商**（第 3 層）；國外＝開發公司、國內＝自製公司。**鐵則：絕不放原發行商**（原發行商只寫正文）。七層角色→三欄對應見 `game-entry` skill |
 | `developer_region` | enum \| null | | 開發地：`TW HK CN MO JP US CA BE FR ES GB DE CH PL CZ HR KR SG IE SE AU IL HU SU RU` |
 | `dev_team` | string \| null | | 廠內開發團隊／小組（如大宇 `DOMO小組`、`狂徒創作群`）|
 | `publisher_tw` | string[] | | 台灣發行/代理商（預設 []；原廠發行不入 catalog）|
