@@ -40688,8 +40688,9 @@
       "keys": [
         "t:星際爭霸戰：裁決儀式|None"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰：裁決儀式"
+      "status": "merged",
+      "title_zh": "星際爭霸戰：裁決儀式",
+      "merged_into": "cdg-2437"
     },
     "cdg-4396": {
       "catalog_id": null,
