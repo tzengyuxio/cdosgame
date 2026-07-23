@@ -14336,8 +14336,9 @@
       "keys": [
         "cat:SWZ018"
       ],
-      "status": "active",
-      "title_zh": "飛狼突擊1"
+      "status": "merged",
+      "title_zh": "飛狼突擊1",
+      "merged_into": "cdg-4784"
     },
     "cdg-1541": {
       "catalog_id": "SWE016",
@@ -29300,8 +29301,9 @@
       "keys": [
         "cat:SCD1952"
       ],
-      "status": "active",
-      "title_zh": "槍林彈雨"
+      "status": "rejected",
+      "title_zh": "槍林彈雨",
+      "reject_reason": "out of scope: Iron Storm（2002），Windows 平台、2000 年後之外商作品，不在 DOS 時代台灣市場收錄範圍"
     },
     "cdg-3160": {
       "catalog_id": null,
