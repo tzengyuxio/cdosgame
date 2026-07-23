@@ -187,7 +187,7 @@ created: 2026-06-20
 - [x] 艾薇拉2（cdg-3971）年份 — Elvira II 維基 infobox 作 1992，MobyGames/IA/CRPG Addict 多數作 1991，採 1991（2026-06-28）→ 複核結案：year=1991 已落地（2026-07-23）
 - [x] 異域之門（cdg-1938）developer — Gateway to the Savage Frontier 開發商 Beyond Software（後改名 Stormfront Studios），MobyGames 多標 Stormfront；本批採 Beyond Software，與明星職棒 cdg-2393 同屬該團隊（2026-06-28）→ 複核結案：developer=Beyond Software 已落地（2026-07-23）
 - [x] 創世紀7黑月之門 重複 — cdg-2969「創世紀7：黑月之門」（本批補完發佈，Origin/智冠/含 chiuinan，作正本）與 cdg-4002「創世紀 VII：黑月之門」（boneash 空 stub、dev null、原掛 珍160）同為 Ultima VII；本批把 珍160 補到 cdg-2969，cdg-4002 待 dedup/退役（2026-06-28）
-- [ ] 星際爭霸戰 珍161 誤掛 8 筆 — softworld scan 把 珍161 同時掛在所有同名「星際爭霸戰」條目（cdg-2417~2425）；實際 珍161＝cdg-2417（Star Trek: 25th Anniversary, Interplay, 本批補完）；cdg-2418~2425（克林貢/博格/新世界/世代/星艦指揮官系列等）仍殘留錯誤 珍161 release_code，待清理（2026-06-28）
+- [x] 星際爭霸戰 珍161 誤掛 8 筆 — softworld scan 把 珍161 同時掛在所有同名「星際爭霸戰」條目（cdg-2417~2425）；實際 珍161＝cdg-2417（Star Trek: 25th Anniversary, Interplay, 本批補完）；cdg-2418~2425（克林貢/博格/新世界/世代/星艦指揮官系列等）仍殘留錯誤 珍161 release_code，待清理（2026-06-28） → 複核結案：珍161/SWT161 現僅掛 cdg-2417，cdg-2418~2425 全數 clean（2026-07-23）
 - [x] 攻佔比佛利山莊（cdg-4600）發行商 — The Taking of Beverly Hills 實為 Off The Wall Productions 開發、Capstone Software 發行（已採），清單標 EA 不予採信（查無 EA 版）（2026-06-28）
 - [x] 捍衛雄鷹3.0（cdg-3048）developer — Falcon 3.0 開發掛名 Sphere, Inc.，Spectrum HoloByte 為其發行品牌（同一公司，後改名 Spectrum HoloByte）；developer 維持 Sphere（2026-06-28）→ 複核結案：developer=Sphere 已落地（2026-07-23）
 - [x] 黑暗之池(cdg-2268) 已掛 adnd 標籤 — Pools of Darkness 為 Pool of Radiance 系列完結 Gold Box AD&D 作；本批另確認亞特蘭提斯之謎 cdg-1292 早已完整發佈（珍166），未重做（2026-06-28）→ 複核結案：tags:[adnd] 已落地（2026-07-23）
@@ -261,19 +261,19 @@ created: 2026-06-20
 ### (a) 疑似重複 → 退役 stub、併入 published（每筆須先確認「同款重複」非「不同版本/續作」，並決定保留 id 與 metadata 取捨）
 - [ ] 俄羅斯方塊2：保留 cdg-4725（Doka 1989 貴171, PUB）／退役 cdg-1609（Doka,Sphere 1989 stub）
 - [ ] 太閤立志傳：保留 cdg-0503（KOEI 1995 PUB）／退役 cdg-4201（1995 null stub）
-- [ ] 歡樂滿點：保留 cdg-4594（Sierra 1991 珍137 PUB）／退役 cdg-3803（同 stub）
-- [ ] 醫生也瘋狂2：腦科篇：保留 cdg-4583（Software Toolworks 1990 珍100 PUB）／退役 cdg-2599
-- [ ] 銀河帝國大決戰：保留 cdg-4693（Interstel 1987 貴071 PUB）／退役 cdg-4025（null stub）
-- [ ] 鐵路A計畫：保留 cdg-0039（Artdink 1992 PUB）／退役 cdg-4085（null stub）
+- [x] 歡樂滿點：保留 cdg-4594（Sierra 1991 珍137 PUB）／退役 cdg-3803（同 stub） → 複核結案：退役 cdg-3803 registry merged→cdg-4594、content 檔已刪（2026-07-23）
+- [x] 醫生也瘋狂2：腦科篇：保留 cdg-4583（Software Toolworks 1990 珍100 PUB）／退役 cdg-2599 → 複核結案：退役 cdg-2599 registry merged→cdg-4583、content 檔已刪（2026-07-23）
+- [x] 銀河帝國大決戰：保留 cdg-4693（Interstel 1987 貴071 PUB）／退役 cdg-4025（null stub） → 複核結案：退役 cdg-4025 registry merged→cdg-4693、content 檔已刪（2026-07-23）
+- [x] 鐵路A計畫：保留 cdg-0039（Artdink 1992 PUB）／退役 cdg-4085（null stub） → 複核結案：退役 cdg-4085 registry merged→cdg-0039、content 檔已刪（2026-07-23）
 - [ ] 雀之塔：cdg-4616（珍201 PUB 但 dev/year 空）⇄ cdg-1961（智冠 1993 stub，metadata 較全）— ⚠ 保留 PUB 的 4616 但須把 1961 的 智冠/1993 併過去
 - [ ] 香港麻將：保留 cdg-4610（Nine Dragons 1992 珍180 PUB）／退役 cdg-1552（九龍＝Nine Dragons stub）
 
 ### (b) 同碼誤掛在不同款的 stub 上 → 從 stub 移除 release_code 與連帶 softworld@boneash-scan provenance（碼屬 PUB 正主）
 - [ ] 星際爭霸戰：珍161 屬 cdg-2417（Interplay 1992）；cdg-2418~2437 共 20 款 Star Trek STUB 全誤掛 珍161 → 逐一移除（量大）
-- [ ] 三國志：貴078 屬 cdg-0210（KOEI 1985）；cdg-0223（2002）移除
-- [ ] 名車大賽：貴019 屬 cdg-0962（1987 Test Drive）；cdg-0968（2002）移除
+- [ ] 三國志：貴078 屬 cdg-0210（KOEI 1985）；cdg-0223（2002）移除 ⚠ 複核：cdg-0223 仍 status=active＋content 檔在，「移除」未落地 → 待 game-triage reject（先複查是否真 out-of-scope）（2026-07-23）
+- [x] 名車大賽：貴019 屬 cdg-0962（1987 Test Drive）；cdg-0968（2002）移除 → 複核結案：cdg-0968 registry rejected、content 檔已刪、貴019 歸 cdg-0962（2026-07-23）
 - [ ] 大海盜：貴023 屬 cdg-0399（MicroProse 1987）；cdg-0400（Firaxis 2004 重製）移除
-- [ ] 槍林彈雨：貴180 屬 cdg-3158（1988）；cdg-3159（2002）移除
+- [ ] 槍林彈雨：貴180 屬 cdg-3158（1988）；cdg-3159（2002）移除 ⚠ 複核：cdg-3159 仍 status=active＋content 檔在，「移除」未落地 → 待 game-triage reject（先複查是否真 out-of-scope）（2026-07-23）
 
 ### (c) 不同遊戲純撞名、stub 未發佈（低急迫，日後該 stub 發佈時再加括號消歧義）
 七寶奇謀、三隻眼變成、俠客英雄傳、卒業、古墓奇兵、大唐英雄傳、大戰略、天龍八部、封神演義、拱豬、花木蘭、超級俄羅斯方塊、齊天大聖（13 組）
