@@ -211,25 +211,25 @@ created: 2026-06-20
 - [ ] 畫面狩獵者2（cdg-4624）GETCAP II — 螢幕擷取工具（非遊戲，珍217），同初代 cdg-4608 難考據，ETC＋多欄 null（2026-06-28）
 - [ ] 明星職棒2（cdg-2394）年份 — Tony La Russa Baseball II 多源記 1993 年 3 月（採 1993）；清單標 1992 疑混淆到 1992 Players Expansion Disk。本批補上 release_codes 珍211＋series（2026-06-28）
 - [ ] 本批 3 款資料片（expansion）— 紅爵士資料片(cdg-4620,珍210)、太平洋空戰英雄資料片(cdg-4623,珍215)皆 Dynamix；連同前批狂島浴血資料片(cdg-4615,珍200)，均須本體才能玩，已各自 cross-link 本體並標明資料片性質（2026-06-28）
-- [ ] 第九批 3 款中文/雙語版（localized）— 魔眼殺機3血戰札諾爾 cdg-3765（珍218，adnd）、瘋狂主宰 cdg-2775（珍222）、魔胎 cdg-3773（珍231，標「中英文雙語版」）皆智冠官方中文化（content_language zh）；魔胎/橋牌高手/明星職棒資料片同屬 Capstone 系列（2026-06-28）
+- [x] 第九批 3 款中文/雙語版（localized）— 魔眼殺機3血戰札諾爾 cdg-3765（珍218，adnd）、瘋狂主宰 cdg-2775（珍222）、魔胎 cdg-3773（珍231，標「中英文雙語版」）皆智冠官方中文化（content_language zh）；魔胎/橋牌高手/明星職棒資料片同屬 Capstone 系列（2026-06-28） → 複核結案：魔眼殺機3/瘋狂主宰/魔胎 content_language=zh、localized、珍碼已落地（2026-07-23）
 - [ ] 瘋狂主宰（cdg-2775）genre — Mega Lo Mania 被視為首款含科技樹的即時戰略，agent 傾向 RTS；本批沿用既有 SLG（上帝/策略遊戲，borderline RTS），待定奪（2026-06-28）
 - [x] 大海戰：北大西洋篇（cdg-4227）developer — Great Naval Battles：本批採 SSI（發行兼常見開發掛名），惟 Internet Archive 標開發 IO Design Group，待 MobyGames credits 確認；genre 採 SIM（艦長視角/逐甲板損管/即時），亦可 SLG（2026-06-28）
-- [ ] 永生不滅（cdg-3995）— The Immortal 設計者 Will Harvey（developer 暫填其名）、EA 發行、DOS 版 Sandcastle 移植；year 採首發 1990（Apple IIGS），DOS 版 1991；genre AADV（2026-06-28）
+- [x] 永生不滅（cdg-3995）— The Immortal 設計者 Will Harvey（developer 暫填其名）、EA 發行、DOS 版 Sandcastle 移植；year 採首發 1990（Apple IIGS），DOS 版 1991；genre AADV（2026-06-28） → 複核結案：developer=Will Harvey、year=1990、genre=AADV 已落地（2026-07-23）
 - [ ] 橋牌高手（cdg-4629）同名歧義 — Bridge Master 有兩款 1992 DOS 同名作（Greenleaf/Capstone vs Intelligent Software）；依珍藏版與 Capstone 系列同捆判定為 Greenleaf/Capstone，待盒裝實物複核（2026-06-28）
-- [ ] 魔法船(cdg-4628)/魔眼殺機3(cdg-3765) 已掛 adnd — Spelljammer、EOB III 為 AD&D 授權；瘋狂主宰非 D&D 不掛（2026-06-28）
+- [x] 魔法船(cdg-4628)/魔眼殺機3(cdg-3765) 已掛 adnd — Spelljammer、EOB III 為 AD&D 授權；瘋狂主宰非 D&D 不掛（2026-06-28）→ 複核結案：cdg-4628 tags:[adnd] 已落地（2026-07-23）
 - [ ] 白浪忍者（cdg-4639）平台存疑 — Surf Ninjas 國際間僅見 NuFX 開發、Sega 發行的 Sega Game Gear 掌機版，查無 DOS/PC 版；軟體世界珍藏版卻以 DOS 收錄（珍250）。暫標 release_status: unverified、developer NuFX/US，待盒裝實物確認是否真有 DOS 版或為同名異作（2026-06-28）
 - [x] 大海戰系列 developer 一致性 — 本批資料片美軍艦隊（cdg-4635,珍245）/戰場編輯（cdg-4638,珍249）沿用本體 cdg-4227 的 developer SSI；惟研究指實際開發為 IO Design Group（SSI 僅發行），與 cdg-4227 既有待查項同源，整個大海戰家族 developer 待一併訂正（2026-06-28）
 - [ ] 仗義遊俠2（cdg-4633）genre — Paladin II 為奇幻回合制戰術 RPG（含角色匯入/養成），採 SLG 沿用珍藏版「戰略」分類；亦可論 SRPG（戰棋角色扮演），待定奪（2026-06-28）
-- [ ] 魔法門外傳2 重複已 merge — cdg-3729（正本，珍239，智冠中文版）；cdg-4001（珍239 來源）、cdg-4089（offlinelist 裸重複）已設 status:merged → cdg-3729、content 檔刪除（2026-06-28）
+- [x] 魔法門外傳2 重複已 merge — cdg-3729（正本，珍239，智冠中文版）；cdg-4001（珍239 來源）、cdg-4089（offlinelist 裸重複）已設 status:merged → cdg-3729、content 檔刪除（2026-06-28） → 複核結案：正本完整、cdg-4001/4089 registry merged→cdg-3729、content 檔已刪（2026-07-23）
 - [ ] 中華職棒經理人資料片（cdg-4091）細節 — 智冠 1994-04-15 發行，掛 1993 本體《中華職棒》(cdg-0321,職棒四年) 之下；「經理模式/每月增補球員」描述部分來源實談《中華職棒2》，正文已保守寫為「加入經理/教練導向玩法」，具體新增項目待台灣史料佐證。本體年份 1993（非 1994）（2026-06-28）
-- [ ] 高速小霸王（cdg-3642）— Speed Racer in The Challenge of Racer X 為純賽車（採 RCG），非賽車+動作；賽車+橫向動作者為另作 My Most Dangerous Adventures (1994)。原作評價極差（CGW 列史上最爛第28），正文中性未著墨（2026-06-28）
-- [ ] 工人物語 dedup 已處理 — cdg-4020「工人物語：建國篇」(boneash 裸 stub) 與 cdg-0553「工人物語1」(The Settlers/Serf City，SWT293) 同款同珍293 → cdg-4020 設 merged→cdg-0553、content 刪除（2026-06-28）
+- [x] 高速小霸王（cdg-3642）— Speed Racer in The Challenge of Racer X 為純賽車（採 RCG），非賽車+動作；賽車+橫向動作者為另作 My Most Dangerous Adventures (1994)。原作評價極差（CGW 列史上最爛第28），正文中性未著墨（2026-06-28） → 複核結案：genre=RCG 已落地（2026-07-23）
+- [x] 工人物語 dedup 已處理 — cdg-4020「工人物語：建國篇」(boneash 裸 stub) 與 cdg-0553「工人物語1」(The Settlers/Serf City，SWT293) 同款同珍293 → cdg-4020 設 merged→cdg-0553、content 刪除（2026-06-28） → 複核結案：cdg-4020 registry merged→cdg-0553、content 檔已刪（2026-07-23）
 - [x] 大海戰2（cdg-4660）developer — GNB Vol II: Guadalcanal 同大海戰家族，採 SSI 與本體一致；Internet Archive/MobyGames 標 IO Design Group 開發，與 cdg-4227 既有待查項同源，整族待一併訂正（2026-06-28）
-- [ ] schema REGIONS 擴充 — 新增 SE（瑞典，Digital Illusions：乒乓彈珠檯 cdg-0324／夢幻彈珠檯 cdg-2736）、AU（澳洲，Animation F/X：驚魂塔 cdg-3635）；game.schema.mjs + schema.md 同步（2026-06-28）
+- [x] schema REGIONS 擴充 — 新增 SE（瑞典，Digital Illusions：乒乓彈珠檯 cdg-0324／夢幻彈珠檯 cdg-2736）、AU（澳洲，Animation F/X：驚魂塔 cdg-3635）；game.schema.mjs + schema.md 同步（2026-06-28） → 複核結案：developer_region=SE 落地、schema REGIONS/schema.md 已含 SE（2026-07-23）
 - [ ] cite 機制踩坑（已修）— game 頁僅 references.cited（keyed）會帶 data-key、被 [N] 連結；general key（wikipedia/mobygames/chiuinan…）無 data-key、cite 連不到。第 1–4 批曾誤用 general key 當 data-ref（壞 cite），已全數改為 cited keyed 並驗證 96 cite 全解析。既有舊條目（如 cdg-1292）仍有同模式待掃（2026-06-28）
 - [ ] 銀河艦隊同名混淆（已修）— cdg-2901「銀河艦隊」實為精訊 Galaxy Fleet（台灣自製 1992,JXD006），曾被 fuzzy 誤掛珍311；珍311 實為 Wing Commander: Armada（Origin）→ 已寫入 cdg-2916（銀河飛將無敵艦隊,SWT311/珍311），並從 cdg-2901 移除誤掛的珍311 與 softworld provenance（2026-06-28）
 - [ ] 魔域傳奇：神聖之符（cdg-4078）中文版待確認 — offlinelist 檔名標「中文版」，但無 chiuinan 中文頁佐證、國際源僅見英文版（DreamForge/SSI 1994）；暫採 packaging/en，若智冠中文版獲證則改 localized/zh（珍313,adnd）（2026-06-28）
-- [ ] schema REGIONS 再擴充 — 新增 IL（以色列，Compro Games：超擬真機車爭霸戰 cdg-2168）（2026-06-28）
+- [x] schema REGIONS 再擴充 — 新增 IL（以色列，Compro Games：超擬真機車爭霸戰 cdg-2168）（2026-06-28） → 複核結案：developer_region=IL 落地、schema REGIONS/schema.md 已含 IL（2026-07-23）
 - [ ] 台灣自製三款資料稀少 — 宇宙英雄 cdg-4121（艾生,珍309,年代1994/1995兩說）、超級灌籃大賽 cdg-4130（智冠,珍322,BASK,仿NBA Jam,developer 未明確署名暫填智冠）、暗棋聖手 cdg-2461（至通,珍314）；玩法/年代細節待台灣史料補強（2026-06-28）
 - [x] 大海戰2(cdg-4660)已建 — 見前項 GNB 家族 developer 待訂正（2026-06-28）
 - [ ] 卡通快打（cdg-0684）為韓國遊戲 — Pee & Gity 開發商 Family Production 是南韓商（非台灣自製）；智冠中文版（珍326），developer_region 訂為 KR、localized/zh；原作年代 1993/1994 兩說、中文版約1995（2026-06-28）
