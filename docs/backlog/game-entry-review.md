@@ -183,17 +183,17 @@ created: 2026-06-20
 - [ ] 天生好手2（cdg-4595）開發商存疑 — Earl Weaver Baseball II：Internet Archive 等列 Mirage Graphics、維基僅標 EA 發行未列開發商；本批 developer 暫採 Electronic Arts，待 MobyGames credits 核實。初代天生好手＝cdg-4015（Earl Weaver Baseball I, 1988, 貴005），本批未動（2026-06-28）
 - [x] 幻影法師（cdg-4597）genre/developer — Shadow Sorcerer：部分來源把歐版代理 U.S. Gold 誤列 developer，實為 SSI（已採）；genre 即時戰術 AD&D 介於 SRPG/SLG，本批採 SRPG。已掛 adnd 標籤（與異域之門 cdg-1938 同）（2026-06-28）
 - [x] 納粹飛行祕史（cdg-4010）developer — Secret Weapons of the Luftwaffe 1991 年掛 Lucasfilm Games（已採），首席 Lawrence Holland 團隊後獨立為 Totally Games；維基有時標 Totally Games（2026-06-28）
-- [ ] 小人物狂想曲2（cdg-4598）已標 adult:true — Les Manley: Lost in L.A. 為成人喜劇冒險（與 Leisure Suit Larry 並列）；前作小人物狂想曲＝cdg-3918（珍060）（2026-06-28）
-- [ ] 艾薇拉2（cdg-3971）年份 — Elvira II 維基 infobox 作 1992，MobyGames/IA/CRPG Addict 多數作 1991，採 1991（2026-06-28）
-- [ ] 異域之門（cdg-1938）developer — Gateway to the Savage Frontier 開發商 Beyond Software（後改名 Stormfront Studios），MobyGames 多標 Stormfront；本批採 Beyond Software，與明星職棒 cdg-2393 同屬該團隊（2026-06-28）
+- [x] 小人物狂想曲2（cdg-4598）已標 adult:true — Les Manley: Lost in L.A. 為成人喜劇冒險（與 Leisure Suit Larry 並列）；前作小人物狂想曲＝cdg-3918（珍060）（2026-06-28）→ 複核結案：adult=true 已落地（2026-07-23）
+- [x] 艾薇拉2（cdg-3971）年份 — Elvira II 維基 infobox 作 1992，MobyGames/IA/CRPG Addict 多數作 1991，採 1991（2026-06-28）→ 複核結案：year=1991 已落地（2026-07-23）
+- [x] 異域之門（cdg-1938）developer — Gateway to the Savage Frontier 開發商 Beyond Software（後改名 Stormfront Studios），MobyGames 多標 Stormfront；本批採 Beyond Software，與明星職棒 cdg-2393 同屬該團隊（2026-06-28）→ 複核結案：developer=Beyond Software 已落地（2026-07-23）
 - [x] 創世紀7黑月之門 重複 — cdg-2969「創世紀7：黑月之門」（本批補完發佈，Origin/智冠/含 chiuinan，作正本）與 cdg-4002「創世紀 VII：黑月之門」（boneash 空 stub、dev null、原掛 珍160）同為 Ultima VII；本批把 珍160 補到 cdg-2969，cdg-4002 待 dedup/退役（2026-06-28）
 - [ ] 星際爭霸戰 珍161 誤掛 8 筆 — softworld scan 把 珍161 同時掛在所有同名「星際爭霸戰」條目（cdg-2417~2425）；實際 珍161＝cdg-2417（Star Trek: 25th Anniversary, Interplay, 本批補完）；cdg-2418~2425（克林貢/博格/新世界/世代/星艦指揮官系列等）仍殘留錯誤 珍161 release_code，待清理（2026-06-28）
 - [x] 攻佔比佛利山莊（cdg-4600）發行商 — The Taking of Beverly Hills 實為 Off The Wall Productions 開發、Capstone Software 發行（已採），清單標 EA 不予採信（查無 EA 版）（2026-06-28）
-- [ ] 捍衛雄鷹3.0（cdg-3048）developer — Falcon 3.0 開發掛名 Sphere, Inc.，Spectrum HoloByte 為其發行品牌（同一公司，後改名 Spectrum HoloByte）；developer 維持 Sphere（2026-06-28）
-- [ ] 黑暗之池(cdg-2268) 已掛 adnd 標籤 — Pools of Darkness 為 Pool of Radiance 系列完結 Gold Box AD&D 作；本批另確認亞特蘭提斯之謎 cdg-1292 早已完整發佈（珍166），未重做（2026-06-28）
-- [ ] 天際寒星（cdg-4603）年份 — Planet's Edge：MobyGames/實體包裝/IA 作 1991、維基作 1992，採 1991（2026-06-28）
-- [ ] 四川省2（cdg-1029）— 智冠台灣自製麻將消除（含 18 禁女郎圖，adult:true 沿用既有），native/zh/PZG、軟體世界珍153；玩法描述屬一般四川省麻將通則、無單獨佐證（2026-06-28）
-- [ ] 新英雄傳奇1（cdg-4607）為 VGA 重製版 — Quest for Glory I (Remake, 珍174)，與 cdg-3429「英雄傳奇」EGA 原作（Hero's Quest 1989, 珍036）是不同產品；本批新建並交叉連結。series 暫填「英雄傳奇」與烈火神兵 cdg-4179 一致（2026-06-28）
+- [x] 捍衛雄鷹3.0（cdg-3048）developer — Falcon 3.0 開發掛名 Sphere, Inc.，Spectrum HoloByte 為其發行品牌（同一公司，後改名 Spectrum HoloByte）；developer 維持 Sphere（2026-06-28）→ 複核結案：developer=Sphere 已落地（2026-07-23）
+- [x] 黑暗之池(cdg-2268) 已掛 adnd 標籤 — Pools of Darkness 為 Pool of Radiance 系列完結 Gold Box AD&D 作；本批另確認亞特蘭提斯之謎 cdg-1292 早已完整發佈（珍166），未重做（2026-06-28）→ 複核結案：tags:[adnd] 已落地（2026-07-23）
+- [x] 天際寒星（cdg-4603）年份 — Planet's Edge：MobyGames/實體包裝/IA 作 1991、維基作 1992，採 1991（2026-06-28）→ 複核結案：year=1991 已落地（2026-07-23）
+- [x] 四川省2（cdg-1029）— 智冠台灣自製麻將消除（含 18 禁女郎圖，adult:true 沿用既有），native/zh/PZG、軟體世界珍153；玩法描述屬一般四川省麻將通則、無單獨佐證（2026-06-28）→ 複核結案：智冠/native/zh/PZG/adult/珍153 全數已落地（2026-07-23）
+- [x] 新英雄傳奇1（cdg-4607）為 VGA 重製版 — Quest for Glory I (Remake, 珍174)，與 cdg-3429「英雄傳奇」EGA 原作（Hero's Quest 1989, 珍036）是不同產品；本批新建並交叉連結。series 暫填「英雄傳奇」與烈火神兵 cdg-4179 一致（2026-06-28）→ 複核結案：cdg-4607 完整（series=英雄傳奇、珍174、正文連向 cdg-3429）；cdg-3429 反向補鏈為低價值、未做（2026-07-23）
 - [x] 美國鼠譚（cdg-4606）developer — An American Tail DOS 版實為 Manley & Associates 開發、Capstone Software 發行（已採），非清單假設的 Hi-Tech Expressions（2026-06-28）
 - [ ] 畫面狩獵者（cdg-4608）GETCAP — 為螢幕擷取工具軟體（非遊戲），西文資料庫查無；developer/year/平台皆 null 待考；軟體世界珍178、續作 GETCAP II 珍217；疑為台灣本地或附帶工具（2026-06-28）
 - [ ] 香港麻將（cdg-4610）developer_region — Nine Dragons Software 國別未確認（EA 發行推測 US，另有澳洲說）；暫採 US 待查（2026-06-28）
