@@ -26108,8 +26108,9 @@
       "keys": [
         "cat:SCD2293"
       ],
-      "status": "active",
-      "title_zh": "發音通："
+      "status": "rejected",
+      "title_zh": "發音通：",
+      "reject_reason": "out of scope: 發音通（KK音標發音學習, 1997），語言學習工具軟體、非遊戲"
     },
     "cdg-2816": {
       "catalog_id": null,
@@ -27827,8 +27828,9 @@
       "keys": [
         "cat:SCD2631"
       ],
-      "status": "active",
-      "title_zh": "加菲貓的打字夥伴"
+      "status": "rejected",
+      "title_zh": "加菲貓的打字夥伴",
+      "reject_reason": "out of scope: 加菲貓的打字夥伴（Garfield's Typing Pal, 2003），打字教材軟體、非遊戲"
     },
     "cdg-3001": {
       "catalog_id": "SCD2630",
@@ -28101,8 +28103,9 @@
       "keys": [
         "cat:SCD2103"
       ],
-      "status": "active",
-      "title_zh": "打字狀元專業版"
+      "status": "rejected",
+      "title_zh": "打字狀元專業版",
+      "reject_reason": "out of scope: 打字狀元專業版（1999），打字教材軟體、非遊戲"
     },
     "cdg-3030": {
       "catalog_id": "SCD1081",
@@ -41175,8 +41178,9 @@
       "keys": [
         "t:瑪利歐教你打字|None"
       ],
-      "status": "active",
-      "title_zh": "瑪利歐教你打字"
+      "status": "rejected",
+      "title_zh": "瑪利歐教你打字",
+      "reject_reason": "out of scope: 瑪利歐教你打字（Mario Teaches Typing），打字教材軟體、非遊戲"
     },
     "cdg-4449": {
       "catalog_id": null,
