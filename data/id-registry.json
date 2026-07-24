@@ -16917,8 +16917,9 @@
       "keys": [
         "cat:SCD1090"
       ],
-      "status": "active",
-      "title_zh": "真情色麻將"
+      "status": "rejected",
+      "title_zh": "真情色麻將",
+      "reject_reason": "out of scope: 遊戲天堂《真情色麻將》(2003)，成人脫衣麻將 shovelware、無考據價值"
     },
     "cdg-1820": {
       "catalog_id": "SCD0620",
@@ -19532,8 +19533,9 @@
       "keys": [
         "cat:SCD0366"
       ],
-      "status": "active",
-      "title_zh": "絕色大老二"
+      "status": "rejected",
+      "title_zh": "絕色大老二",
+      "reject_reason": "out of scope: 京群《絕色大老二》(2003)，18禁脫衣撲克 shovelware、無考據價值"
     },
     "cdg-2104": {
       "catalog_id": "SCD1092",
