@@ -49344,6 +49344,24 @@
       ],
       "status": "active",
       "title_zh": "布萊恩傳奇：海盜小子"
+    },
+    "cdg-5340": {
+      "catalog_id": null,
+      "developer": "Silmarils",
+      "keys": [
+        "t:大陸傳奇：滅之使者|Silmarils"
+      ],
+      "status": "active",
+      "title_zh": "大陸傳奇：滅之使者"
+    },
+    "cdg-5341": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:超級火鳳凰|None"
+      ],
+      "status": "active",
+      "title_zh": "超級火鳳凰"
     }
   }
 }
