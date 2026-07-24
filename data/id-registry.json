@@ -23269,8 +23269,9 @@
       "keys": [
         "cat:SCD0503"
       ],
-      "status": "active",
-      "title_zh": "碧雪情天外傳：冰雪傳奇"
+      "status": "rejected",
+      "title_zh": "碧雪情天外傳：冰雪傳奇",
+      "reject_reason": "out of scope: 碧雪情天外傳：冰雪傳奇（2002），創意鷹翔開發之 Windows 遊戲、2000 年後大陸作品，無台灣 DOS 市場關聯"
     },
     "cdg-2510": {
       "catalog_id": "OCD0029",
