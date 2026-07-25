@@ -5326,8 +5326,9 @@
       "keys": [
         "t:幻想三國誌5|宇峻奧汀,鳳凰遊戲"
       ],
-      "status": "active",
-      "title_zh": "幻想三國誌5"
+      "status": "rejected",
+      "title_zh": "幻想三國誌5",
+      "reject_reason": "out of scope: 幻想三國誌5（2018），宇峻奧汀近代 Windows RPG、2000 年後，非本 DOS 資料庫收錄範圍"
     },
     "cdg-0573": {
       "catalog_id": null,
@@ -15134,8 +15135,9 @@
       "keys": [
         "t:俠客風雲傳|河洛工作室"
       ],
-      "status": "active",
-      "title_zh": "俠客風雲傳"
+      "status": "rejected",
+      "title_zh": "俠客風雲傳",
+      "reject_reason": "out of scope: 俠客風雲傳（2015），河洛工作室近代 Windows RPG（武林群俠傳重製）、2000 年後，非本 DOS 資料庫收錄範圍"
     },
     "cdg-1627": {
       "catalog_id": null,
@@ -15143,8 +15145,9 @@
       "keys": [
         "t:俠客風雲傳前傳|河洛工作室"
       ],
-      "status": "active",
-      "title_zh": "俠客風雲傳前傳"
+      "status": "rejected",
+      "title_zh": "俠客風雲傳前傳",
+      "reject_reason": "out of scope: 俠客風雲傳前傳（2016），河洛工作室近代 Windows RPG、2000 年後，非本 DOS 資料庫收錄範圍"
     },
     "cdg-1628": {
       "catalog_id": "SWZ001",
@@ -15769,8 +15772,9 @@
       "keys": [
         "t:冒險奇譚1|Game Arts"
       ],
-      "status": "active",
-      "title_zh": "冒險奇譚1"
+      "status": "rejected",
+      "title_zh": "冒險奇譚1",
+      "reject_reason": "out of scope: 冒險奇譚1（Grandia, 2019），Game Arts 之 Windows 遊戲中文版、2000 年後，非本 DOS 資料庫收錄範圍"
     },
     "cdg-1695": {
       "catalog_id": "OCD0059",
@@ -23416,8 +23420,9 @@
       "keys": [
         "t:聖女之歌零|唯晶"
       ],
-      "status": "active",
-      "title_zh": "聖女之歌零"
+      "status": "rejected",
+      "title_zh": "聖女之歌零",
+      "reject_reason": "out of scope: 聖女之歌零（2016），唯晶科技近代 Windows RPG、2000 年後，非本 DOS 資料庫收錄範圍"
     },
     "cdg-2525": {
       "catalog_id": "SCD2808",
