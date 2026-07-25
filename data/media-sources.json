@@ -58,5 +58,9 @@
   "old-games.ru": {
     "name": "Old-Games.RU",
     "url": "https://www.old-games.ru/"
+  },
+  "youtube": {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/"
   }
 }
