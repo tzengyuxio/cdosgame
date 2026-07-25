@@ -14798,8 +14798,9 @@
       "keys": [
         "cat:SCD0229"
       ],
-      "status": "active",
-      "title_zh": "伊蘇4：塞爾塞塔的樹海"
+      "status": "rejected",
+      "title_zh": "伊蘇4：塞爾塞塔的樹海",
+      "reject_reason": "out of scope: 伊蘇4：塞爾塞塔的樹海（Ys: Foliage Ocean of Celceta, 2015），Falcom 之 Windows 遊戲、英特衛代理、2000 年後，非台灣 DOS 收錄範圍"
     },
     "cdg-1591": {
       "catalog_id": "SCD0226",
@@ -23770,8 +23771,9 @@
       "keys": [
         "cat:SCD2417"
       ],
-      "status": "active",
-      "title_zh": "迷霧之島5"
+      "status": "rejected",
+      "title_zh": "迷霧之島5",
+      "reject_reason": "out of scope: 迷霧之島5（Myst 5: End of Ages, 2005），Cyan 外文 Windows 遊戲、無台灣中文化／代理足跡、2000 年後"
     },
     "cdg-2564": {
       "catalog_id": "TTNZ007,SCD2406",
@@ -33281,8 +33283,9 @@
       "keys": [
         "cat:SCD0321"
       ],
-      "status": "active",
-      "title_zh": "鋼鐵雄心2"
+      "status": "rejected",
+      "title_zh": "鋼鐵雄心2",
+      "reject_reason": "out of scope: 鋼鐵雄心2（Hearts of Iron 2, 2005），Paradox 外文策略遊戲之 Windows 作、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-3590": {
       "catalog_id": "SCD2063",
