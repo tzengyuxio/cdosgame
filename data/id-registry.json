@@ -2934,8 +2934,9 @@
       "keys": [
         "t:中國象棋大師|先博多"
       ],
-      "status": "active",
-      "title_zh": "中國象棋大師"
+      "status": "rejected",
+      "title_zh": "中國象棋大師",
+      "reject_reason": "out of scope: 中國象棋大師（大陸河南先博多 1996），簡體、針對大陸市場之棋譜教學軟體，無台灣代理／發行足跡"
     },
     "cdg-0315": {
       "catalog_id": "SCD0452",
