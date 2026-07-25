@@ -24167,8 +24167,9 @@
       "keys": [
         "cat:SCD1413"
       ],
-      "status": "active",
-      "title_zh": "雪樂山傷心小棧與黑桃"
+      "status": "rejected",
+      "title_zh": "雪樂山傷心小棧與黑桃",
+      "reject_reason": "out of scope: 雪樂山傷心小棧與黑桃（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2605": {
       "catalog_id": "SCD1439",
@@ -24196,8 +24197,9 @@
       "keys": [
         "cat:SCD1435"
       ],
-      "status": "active",
-      "title_zh": "雪樂山單字遊戲大全1"
+      "status": "rejected",
+      "title_zh": "雪樂山單字遊戲大全1",
+      "reject_reason": "out of scope: 雪樂山單字遊戲大全1（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2608": {
       "catalog_id": "SCD1436",
@@ -24235,8 +24237,9 @@
       "keys": [
         "cat:SCD1433"
       ],
-      "status": "active",
-      "title_zh": "雪樂山戰艦與戰爭"
+      "status": "rejected",
+      "title_zh": "雪樂山戰艦與戰爭",
+      "reject_reason": "out of scope: 雪樂山戰艦與戰爭（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2612": {
       "catalog_id": "SCD1415",
@@ -24254,8 +24257,9 @@
       "keys": [
         "cat:SCD1416"
       ],
-      "status": "active",
-      "title_zh": "雪樂山接龍與四川麻將"
+      "status": "rejected",
+      "title_zh": "雪樂山接龍與四川麻將",
+      "reject_reason": "out of scope: 雪樂山接龍與四川麻將（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2614": {
       "catalog_id": "SCD1406,SCD1414",
@@ -24263,8 +24267,9 @@
       "keys": [
         "cat:SCD1406,SCD1414"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克",
+      "reject_reason": "out of scope: 雪樂山撲克（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2615": {
       "catalog_id": "SCD1400",
@@ -24272,8 +24277,9 @@
       "keys": [
         "cat:SCD1400"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全2"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全2",
+      "reject_reason": "out of scope: 雪樂山撲克遊戲大全2（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2616": {
       "catalog_id": "SCD1404",
@@ -24331,8 +24337,9 @@
       "keys": [
         "cat:SCD1401"
       ],
-      "status": "active",
-      "title_zh": "雪樂山撲克遊戲大全3"
+      "status": "rejected",
+      "title_zh": "雪樂山撲克遊戲大全3",
+      "reject_reason": "out of scope: 雪樂山撲克遊戲大全3（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2622": {
       "catalog_id": "SCD1402",
@@ -24370,8 +24377,9 @@
       "keys": [
         "cat:SCD1409"
       ],
-      "status": "active",
-      "title_zh": "雪樂山橋牌"
+      "status": "rejected",
+      "title_zh": "雪樂山橋牌",
+      "reject_reason": "out of scope: 雪樂山橋牌（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2626": {
       "catalog_id": "SCD1410",
@@ -24379,8 +24387,9 @@
       "keys": [
         "cat:SCD1410"
       ],
-      "status": "active",
-      "title_zh": "雪樂山橋牌與龍克牌"
+      "status": "rejected",
+      "title_zh": "雪樂山橋牌與龍克牌",
+      "reject_reason": "out of scope: 雪樂山橋牌與龍克牌（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2627": {
       "catalog_id": "SCD1427",
@@ -24408,8 +24417,9 @@
       "keys": [
         "cat:SCD1424"
       ],
-      "status": "active",
-      "title_zh": "雪樂山益智遊戲大全3"
+      "status": "rejected",
+      "title_zh": "雪樂山益智遊戲大全3",
+      "reject_reason": "out of scope: 雪樂山益智遊戲大全3（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2630": {
       "catalog_id": "SCD1425",
@@ -24437,8 +24447,9 @@
       "keys": [
         "cat:SCD1423"
       ],
-      "status": "active",
-      "title_zh": "雪樂山經典益智遊戲大全"
+      "status": "rejected",
+      "title_zh": "雪樂山經典益智遊戲大全",
+      "reject_reason": "out of scope: 雪樂山經典益智遊戲大全（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2633": {
       "catalog_id": "SCD1451",
@@ -24456,8 +24467,9 @@
       "keys": [
         "cat:SCD1420"
       ],
-      "status": "active",
-      "title_zh": "雪樂山經典遊戲集1"
+      "status": "rejected",
+      "title_zh": "雪樂山經典遊戲集1",
+      "reject_reason": "out of scope: 雪樂山經典遊戲集1（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2635": {
       "catalog_id": "SCD1421",
@@ -24495,8 +24507,9 @@
       "keys": [
         "cat:SCD1453"
       ],
-      "status": "active",
-      "title_zh": "雪樂山角子機與視頻撲克1"
+      "status": "rejected",
+      "title_zh": "雪樂山角子機與視頻撲克1",
+      "reject_reason": "out of scope: 雪樂山角子機與視頻撲克1（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2639": {
       "catalog_id": "SCD1454",
@@ -24564,8 +24577,9 @@
       "keys": [
         "cat:SCD1441"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全1"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全1",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全1（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2646": {
       "catalog_id": "SCD1442",
@@ -24573,8 +24587,9 @@
       "keys": [
         "cat:SCD1442"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全2"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全2",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全2（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2647": {
       "catalog_id": "SCD1446",
@@ -24632,8 +24647,9 @@
       "keys": [
         "cat:SCD1443"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全3"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全3",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全3（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2653": {
       "catalog_id": "SCD1444",
@@ -24641,8 +24657,9 @@
       "keys": [
         "cat:SCD1444"
       ],
-      "status": "active",
-      "title_zh": "雪樂山賭博遊戲大全4"
+      "status": "rejected",
+      "title_zh": "雪樂山賭博遊戲大全4",
+      "reject_reason": "out of scope: 雪樂山賭博遊戲大全4（雪樂山/Sierra 休閒遊戲合集，外文、無台灣中文化／代理發行足跡）"
     },
     "cdg-2654": {
       "catalog_id": "SCD1445",
@@ -28802,8 +28819,9 @@
       "keys": [
         "cat:SCD0333"
       ],
-      "status": "active",
-      "title_zh": "棋靈王之明星象棋"
+      "status": "rejected",
+      "title_zh": "棋靈王之明星象棋",
+      "reject_reason": "out of scope: 棋靈王之明星象棋（冠捷 2004），發行年代過晚、非 DOS 時代，且非光譜/弘煜類延伸收錄廠商"
     },
     "cdg-3104": {
       "catalog_id": "Z069",
