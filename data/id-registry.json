@@ -37512,12 +37512,12 @@
     },
     "cdg-4049": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "天信電腦",
       "keys": [
-        "t:拳形巖|None"
+        "t:拳形岩|None"
       ],
       "status": "active",
-      "title_zh": "拳形巖"
+      "title_zh": "拳形岩"
     },
     "cdg-4050": {
       "catalog_id": null,
