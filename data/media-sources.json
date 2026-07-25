@@ -1,16 +1,62 @@
 {
-  "self": { "name": "本站製作", "url": null },
-  "scan": { "name": "本站掃描", "url": null },
-  "boneash": { "name": "骨灰集散地", "url": "https://boneash.oldgame.tw/" },
-  "haruo": { "name": "哈魯歐遊戲廳", "url": "https://www.facebook.com/haruogames/" },
-  "chiuinan": { "name": "青衫之友交流網", "url": "https://chiuinan.github.io/game/" },
-  "fandom": { "name": "CN DOS Games Wiki", "url": "https://cn-dos-games.fandom.com/zh" },
-  "omega": { "name": "Omega 老遊戲討論區", "url": "https://omega.idv.tw/" },
-  "mobygames": { "name": "MobyGames", "url": "https://www.mobygames.com/" },
-  "wikipedia": { "name": "維基百科", "url": "https://zh.wikipedia.org/" },
-  "bahamut": { "name": "巴哈姆特", "url": "https://www.gamer.com.tw/" },
-  "ymdks": { "name": "遊戲說明書數位化保存", "url": "https://www.facebook.com/profile.php?id=61556196389143" },
-  "bravehome": { "name": "勇者之家", "url": "https://www.facebook.com/retrogamelib" },
-  "kudgame": { "name": "隱名 遊戲部落格", "url": "https://kudgame.blogspot.com/" },
-  "swf": { "name": "施文馮 提供", "url": "https://www.facebook.com/share/p/1DpumYh1xf/" }
+  "self": {
+    "name": "本站製作",
+    "url": null
+  },
+  "scan": {
+    "name": "本站掃描",
+    "url": null
+  },
+  "boneash": {
+    "name": "骨灰集散地",
+    "url": "https://boneash.oldgame.tw/"
+  },
+  "haruo": {
+    "name": "哈魯歐遊戲廳",
+    "url": "https://www.facebook.com/haruogames/"
+  },
+  "chiuinan": {
+    "name": "青衫之友交流網",
+    "url": "https://chiuinan.github.io/game/"
+  },
+  "fandom": {
+    "name": "CN DOS Games Wiki",
+    "url": "https://cn-dos-games.fandom.com/zh"
+  },
+  "omega": {
+    "name": "Omega 老遊戲討論區",
+    "url": "https://omega.idv.tw/"
+  },
+  "mobygames": {
+    "name": "MobyGames",
+    "url": "https://www.mobygames.com/"
+  },
+  "wikipedia": {
+    "name": "維基百科",
+    "url": "https://zh.wikipedia.org/"
+  },
+  "bahamut": {
+    "name": "巴哈姆特",
+    "url": "https://www.gamer.com.tw/"
+  },
+  "ymdks": {
+    "name": "遊戲說明書數位化保存",
+    "url": "https://www.facebook.com/profile.php?id=61556196389143"
+  },
+  "bravehome": {
+    "name": "勇者之家",
+    "url": "https://www.facebook.com/retrogamelib"
+  },
+  "kudgame": {
+    "name": "隱名 遊戲部落格",
+    "url": "https://kudgame.blogspot.com/"
+  },
+  "swf": {
+    "name": "施文馮 提供",
+    "url": "https://www.facebook.com/share/p/1DpumYh1xf/"
+  },
+  "old-games.ru": {
+    "name": "Old-Games.RU",
+    "url": "https://www.old-games.ru/"
+  }
 }
