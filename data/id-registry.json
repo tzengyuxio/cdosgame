@@ -3129,8 +3129,9 @@
       "keys": [
         "cat:SCD2355"
       ],
-      "status": "active",
-      "title_zh": "二戰戰役：硫磺島"
+      "status": "rejected",
+      "title_zh": "二戰戰役：硫磺島",
+      "reject_reason": "out of scope: 二戰戰役：硫磺島（2006），Direct Action 外文 Windows 遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-0336": {
       "catalog_id": "SCD1249",
@@ -15206,8 +15207,9 @@
       "keys": [
         "cat:SCD1696"
       ],
-      "status": "active",
-      "title_zh": "俠盜騎兵"
+      "status": "rejected",
+      "title_zh": "俠盜騎兵",
+      "reject_reason": "out of scope: 俠盜騎兵（Rogue Trooper, 2006），Rebellion 外文 Windows 遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-1635": {
       "catalog_id": "SCD1305",
@@ -19589,8 +19591,9 @@
       "keys": [
         "cat:SCD1815"
       ],
-      "status": "active",
-      "title_zh": "經典英式車賽"
+      "status": "rejected",
+      "title_zh": "經典英式車賽",
+      "reject_reason": "out of scope: 經典英式車賽（2006），Data Design 外文 Windows 賽車遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-2110": {
       "catalog_id": "SCD0485",
@@ -23208,8 +23211,9 @@
       "keys": [
         "cat:SCD1613"
       ],
-      "status": "active",
-      "title_zh": "硬卡車：啟示錄"
+      "status": "rejected",
+      "title_zh": "硬卡車：啟示錄",
+      "reject_reason": "out of scope: 硬卡車：啟示錄（Hard Truck Apocalypse, 2006），Targem 外文 Windows 遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-2503": {
       "catalog_id": "SCD1610",
@@ -25381,8 +25385,9 @@
       "keys": [
         "cat:SCD1764"
       ],
-      "status": "active",
-      "title_zh": "夢幻彈珠台3"
+      "status": "rejected",
+      "title_zh": "夢幻彈珠台3",
+      "reject_reason": "out of scope: 夢幻彈珠台3（2006），TopWare 外文 Windows 遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-2736": {
       "catalog_id": "SWT287",
@@ -31148,8 +31153,9 @@
       "keys": [
         "cat:SCD1941"
       ],
-      "status": "active",
-      "title_zh": "賽道狂飆：組合"
+      "status": "rejected",
+      "title_zh": "賽道狂飆：組合",
+      "reject_reason": "out of scope: 賽道狂飆：組合（TrackMania, 2006），Nadeo 外文 Windows 賽車遊戲、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-3359": {
       "catalog_id": "Z012",
@@ -31372,8 +31378,9 @@
       "keys": [
         "cat:SCD1419"
       ],
-      "status": "active",
-      "title_zh": "戰地風雲2"
+      "status": "rejected",
+      "title_zh": "戰地風雲2",
+      "reject_reason": "out of scope: 戰地風雲2（Battlefield 2, 2006），DICE 外文 Windows FPS、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-3383": {
       "catalog_id": "SCD0200",
@@ -31428,8 +31435,9 @@
       "keys": [
         "cat:SCD2039,SCD2040\nSCD2041"
       ],
-      "status": "active",
-      "title_zh": "戰慄時空2首部曲：浩劫重生"
+      "status": "rejected",
+      "title_zh": "戰慄時空2首部曲：浩劫重生",
+      "reject_reason": "out of scope: 戰慄時空2首部曲：浩劫重生（Half-Life 2: Episode One, 2006），Valve 外文 Windows FPS、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-3389": {
       "catalog_id": "SCD2499",
@@ -32293,8 +32301,9 @@
       "keys": [
         "cat:SCD1969"
       ],
-      "status": "active",
-      "title_zh": "蘭島物語：少女的約定"
+      "status": "rejected",
+      "title_zh": "蘭島物語：少女的約定",
+      "reject_reason": "out of scope: 蘭島物語：少女的約定（2007），Circle 之外文 Windows galgame、2000 年後、無台灣重要廠商足跡"
     },
     "cdg-3483": {
       "catalog_id": "SCD0658",
