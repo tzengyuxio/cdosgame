@@ -49034,8 +49034,9 @@
       "keys": [
         "t:短路小旅鼠|None"
       ],
-      "status": "active",
-      "title_zh": "短路小旅鼠"
+      "status": "merged",
+      "title_zh": "短路小旅鼠",
+      "merged_into": "cdg-4186"
     },
     "cdg-5306": {
       "catalog_id": null,
