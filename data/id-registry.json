@@ -26524,8 +26524,9 @@
       "keys": [
         "t:金剛戰神|Magic"
       ],
-      "status": "active",
-      "title_zh": "金剛戰神"
+      "status": "rejected",
+      "title_zh": "金剛戰神",
+      "reject_reason": "out of scope: 金剛戰神（Magic, 2002），2000 年後 Windows 動作遊戲、非台灣重要廠商作品，無收錄依據"
     },
     "cdg-2861": {
       "catalog_id": "SCD2810",
@@ -30307,8 +30308,9 @@
       "keys": [
         "cat:SCD0520"
       ],
-      "status": "active",
-      "title_zh": "炮灰向前衝"
+      "status": "rejected",
+      "title_zh": "炮灰向前衝",
+      "reject_reason": "out of scope: 炮灰向前衝（Perfect go go go, 2002），廈門火鳳凰開發之對岸 Windows 遊戲、2000 年後，非台灣市場收錄範圍"
     },
     "cdg-3268": {
       "catalog_id": "SCD2598",
