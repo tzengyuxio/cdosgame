@@ -21624,7 +21624,7 @@
         "cat:SCD0362"
       ],
       "status": "active",
-      "title_zh": "新官能教習1"
+      "title_zh": "新官能教習"
     },
     "cdg-2330": {
       "catalog_id": "OCD0087",
@@ -25640,7 +25640,7 @@
         "cat:OCD0076"
       ],
       "status": "active",
-      "title_zh": "夢幻麻將館1"
+      "title_zh": "夢幻麻將館"
     },
     "cdg-2761": {
       "catalog_id": "SCD1101",
@@ -28821,7 +28821,7 @@
       ],
       "status": "rejected",
       "title_zh": "棋靈王之明星象棋",
-      "reject_reason": "out of scope: 棋靈王之明星象棋（冠捷 2004），發行年代過晚、非 DOS 時代，且非光譜/弘煜類延伸收錄廠商"
+      "reject_reason": "out of scope: 棋靈王之明星象棋（冠捷 2004），發行年代過晚（非 DOS 時代），且遊戲與廠商皆無足夠代表性，非光譜/弘煜類延伸收錄"
     },
     "cdg-3104": {
       "catalog_id": "Z069",
@@ -35346,7 +35346,7 @@
         "cat:OCD0086"
       ],
       "status": "active",
-      "title_zh": "豔鬼麻將1"
+      "title_zh": "豔鬼麻將"
     },
     "cdg-3811": {
       "catalog_id": "SCD0018",
