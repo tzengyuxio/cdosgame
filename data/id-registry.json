@@ -9481,8 +9481,9 @@
       "keys": [
         "cat:SCD2284"
       ],
-      "status": "active",
-      "title_zh": "單字通：單字大補帖"
+      "status": "rejected",
+      "title_zh": "單字通：單字大補帖",
+      "reject_reason": "out of scope: 單字通：單字大補帖（Word Power Made Fun, 1997），英語單字學習軟體，非遊戲"
     },
     "cdg-1019": {
       "catalog_id": "SCD2287",
@@ -9880,8 +9881,9 @@
       "keys": [
         "cat:SCD1999"
       ],
-      "status": "active",
-      "title_zh": "圍棋基礎訓練與段位測試"
+      "status": "rejected",
+      "title_zh": "圍棋基礎訓練與段位測試",
+      "reject_reason": "out of scope: 圍棋基礎訓練與段位測試（俞斌考題，1997），圍棋教學/段位測試工具軟體，非遊戲"
     },
     "cdg-1062": {
       "catalog_id": "SWE246",
