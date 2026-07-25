@@ -19841,7 +19841,7 @@
         "t:象棋|終結者資訊"
       ],
       "status": "active",
-      "title_zh": "象棋"
+      "title_zh": "象棋（1985）"
     },
     "cdg-2136": {
       "catalog_id": "SCD2526",
@@ -49384,6 +49384,15 @@
       ],
       "status": "active",
       "title_zh": "超級火鳳凰"
+    },
+    "cdg-5342": {
+      "catalog_id": null,
+      "developer": "JIN ZHONG Electronics",
+      "keys": [
+        "t:象棋|JIN ZHONG Electronics"
+      ],
+      "status": "active",
+      "title_zh": "象棋（1987）"
     }
   }
 }
