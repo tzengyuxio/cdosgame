@@ -49421,6 +49421,15 @@
       ],
       "status": "active",
       "title_zh": "世紀大災難"
+    },
+    "cdg-5344": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:傀儡英雄|None"
+      ],
+      "status": "active",
+      "title_zh": "傀儡英雄"
     }
   }
 }
