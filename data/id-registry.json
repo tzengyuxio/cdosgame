@@ -49412,6 +49412,15 @@
       ],
       "status": "active",
       "title_zh": "象棋（1987）"
+    },
+    "cdg-5343": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:世紀大災難|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "世紀大災難"
     }
   }
 }
