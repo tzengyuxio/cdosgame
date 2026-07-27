@@ -24714,8 +24714,9 @@
       "keys": [
         "cat:SCD1653"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車1"
+      "status": "merged",
+      "title_zh": "雲斯頓賽車1",
+      "merged_into": "cdg-5250"
     },
     "cdg-2660": {
       "catalog_id": "SCD1657",
