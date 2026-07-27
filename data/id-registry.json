@@ -49431,6 +49431,15 @@
       ],
       "status": "active",
       "title_zh": "傀儡英雄"
+    },
+    "cdg-5345": {
+      "catalog_id": null,
+      "developer": "Terminal Reality",
+      "keys": [
+        "t:極速風暴|Terminal Reality"
+      ],
+      "status": "active",
+      "title_zh": "極速風暴"
     }
   }
 }
