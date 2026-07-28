@@ -464,8 +464,9 @@
       "keys": [
         "cat:SCD1559"
       ],
-      "status": "active",
-      "title_zh": "DDR99 Diet Diet Revolution '99"
+      "status": "rejected",
+      "title_zh": "DDR99 Diet Diet Revolution '99",
+      "reject_reason": "out of scope: DDR99 Diet Diet Revolution 99（1999，Ez Works），Windows 健身／減重應用小品，非遊戲"
     },
     "cdg-0049": {
       "catalog_id": "SCD1600",
@@ -1116,8 +1117,9 @@
       "keys": [
         "cat:SCD2094"
       ],
-      "status": "active",
-      "title_zh": "Sound it out！說的容易：字母篇"
+      "status": "rejected",
+      "title_zh": "Sound it out！說的容易：字母篇",
+      "reject_reason": "out of scope: Sound it out！說的容易：字母篇（1999，酷家族多媒體），兒童英語學習軟體，非遊戲"
     },
     "cdg-0118": {
       "catalog_id": null,
@@ -1359,8 +1361,9 @@
       "keys": [
         "cat:SCD1732"
       ],
-      "status": "active",
-      "title_zh": "一級方程式賽車99"
+      "status": "rejected",
+      "title_zh": "一級方程式賽車99",
+      "reject_reason": "out of scope: 一級方程式賽車99（1999，Studio 33），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0144": {
       "catalog_id": "SCD2531",
@@ -1677,8 +1680,9 @@
       "keys": [
         "cat:SCD1933"
       ],
-      "status": "active",
-      "title_zh": "公路爭霸戰2"
+      "status": "rejected",
+      "title_zh": "公路爭霸戰2",
+      "reject_reason": "out of scope: 公路爭霸戰2（1999，Activision），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0178": {
       "catalog_id": null,
@@ -2870,8 +2874,9 @@
       "keys": [
         "cat:OCD0030"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之西洋雙陸棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之西洋雙陸棋篇",
+      "reject_reason": "out of scope: 中國象棋之西洋雙陸棋篇（1997，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0307": {
       "catalog_id": "OCD0030,SCD0420",
@@ -2909,8 +2914,9 @@
       "keys": [
         "cat:SCD0420"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之麻將"
+      "status": "rejected",
+      "title_zh": "中國象棋之麻將",
+      "reject_reason": "out of scope: 中國象棋之麻將（1995，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0311": {
       "catalog_id": "OCD0030,SCD0420",
@@ -4938,8 +4944,9 @@
       "keys": [
         "cat:SCD1510"
       ],
-      "status": "active",
-      "title_zh": "小精靈3"
+      "status": "rejected",
+      "title_zh": "小精靈3",
+      "reject_reason": "out of scope: 小精靈3 Creatures 3（1999，Creature Labs），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0529": {
       "catalog_id": "SCD1506",
@@ -4957,8 +4964,9 @@
       "keys": [
         "cat:SCD1513"
       ],
-      "status": "active",
-      "title_zh": "小精靈歷險記"
+      "status": "rejected",
+      "title_zh": "小精靈歷險記",
+      "reject_reason": "out of scope: 小精靈歷險記（1999，Creature Labs），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0531": {
       "catalog_id": "Z070",
@@ -5142,8 +5150,9 @@
       "keys": [
         "cat:SCD1541"
       ],
-      "status": "active",
-      "title_zh": "山地自行車大賽"
+      "status": "rejected",
+      "title_zh": "山地自行車大賽",
+      "reject_reason": "out of scope: 山地自行車大賽（1999，Creative Carnage），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0551": {
       "catalog_id": "SCD1077",
@@ -5234,8 +5243,9 @@
       "keys": [
         "cat:SCD2752"
       ],
-      "status": "active",
-      "title_zh": "巨人的冒險"
+      "status": "rejected",
+      "title_zh": "巨人的冒險",
+      "reject_reason": "out of scope: 巨人的冒險（1999，EAI），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0561": {
       "catalog_id": "SCD0535",
@@ -6026,8 +6036,9 @@
       "keys": [
         "cat:SCD2749"
       ],
-      "status": "active",
-      "title_zh": "世界拳擊理事會拳王爭霸"
+      "status": "rejected",
+      "title_zh": "世界拳擊理事會拳王爭霸",
+      "reject_reason": "out of scope: 世界拳擊理事會拳王爭霸（1999，IA），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0646": {
       "catalog_id": "SCD0082",
@@ -14328,8 +14339,9 @@
       "keys": [
         "cat:SCD0079"
       ],
-      "status": "active",
-      "title_zh": "風雅對局 本因坊"
+      "status": "rejected",
+      "title_zh": "風雅對局 本因坊",
+      "reject_reason": "out of scope: 風雅對局 本因坊（2001，普威爾），2000 年後 Windows 圍棋對局小品、無正文"
     },
     "cdg-1534": {
       "catalog_id": "SCD0192",
@@ -25156,8 +25168,9 @@
       "keys": [
         "cat:SCD1231"
       ],
-      "status": "active",
-      "title_zh": "電梯大作戰"
+      "status": "rejected",
+      "title_zh": "電梯大作戰",
+      "reject_reason": "out of scope: 電梯大作戰（2000，Taito／普威爾代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-2696": {
       "catalog_id": "SCD1148",
@@ -33705,8 +33718,9 @@
       "keys": [
         "cat:SCD2294"
       ],
-      "status": "active",
-      "title_zh": "長諾中英打高手"
+      "status": "rejected",
+      "title_zh": "長諾中英打高手",
+      "reject_reason": "out of scope: 長諾中英打高手（1997，精懋／長諾、高商圖書發行），中英打練習工具軟體，非遊戲"
     },
     "cdg-3613": {
       "catalog_id": "SCD2156",
@@ -33855,8 +33869,9 @@
       "keys": [
         "cat:SCD0799"
       ],
-      "status": "active",
-      "title_zh": "騎士芭比"
+      "status": "rejected",
+      "title_zh": "騎士芭比",
+      "reject_reason": "out of scope: 騎士芭比（1998，Mattel），兒童向 Windows 外文款、無台灣中文化／代理發行足跡"
     },
     "cdg-3629": {
       "catalog_id": "SCD0450",
@@ -34490,8 +34505,9 @@
       "keys": [
         "cat:SCD1371"
       ],
-      "status": "active",
-      "title_zh": "魔戒1"
+      "status": "rejected",
+      "title_zh": "魔戒1",
+      "reject_reason": "out of scope: 魔戒1（1998，Arxel Tribe），Windows 外文款無正文 stub、無台灣代理足跡佐證"
     },
     "cdg-3697": {
       "catalog_id": "SCD1372",
@@ -35436,8 +35452,9 @@
       "keys": [
         "cat:SCD2292"
       ],
-      "status": "active",
-      "title_zh": "歡樂幼兒園"
+      "status": "rejected",
+      "title_zh": "歡樂幼兒園",
+      "reject_reason": "out of scope: 歡樂幼兒園（1998，FunnyBone／草莓代理），幼兒向 edutainment，非收錄範圍"
     },
     "cdg-3800": {
       "catalog_id": "SSG008",
