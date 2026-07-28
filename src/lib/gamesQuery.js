@@ -42,9 +42,17 @@ export function decadeOf(year) {
   return `${Math.floor(year / 10) * 10}s`;
 }
 
+// A game's `developer` is a single string that may list co-developers separated
+// by comma/、/slash (publishers are already an array). Split into individual
+// company names. Deliberately does NOT split on spaces — company names contain
+// them (e.g. "TAD Corporation").
+export function splitDevelopers(developer) {
+  if (!developer) return [];
+  return String(developer).split(/\s*[,，、／\/]\s*/).map(s => s.trim()).filter(Boolean);
+}
+
 export function vendorsOf(g) {
-  const v = [];
-  if (g.developer) v.push(g.developer);
+  const v = [...splitDevelopers(g.developer)];
   for (const p of (g.publisher_tw || [])) v.push(p);
   return v;
 }

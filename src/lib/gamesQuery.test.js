@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  normalize, searchGames, decadeOf, vendorsOf, applyFacets,
+  normalize, searchGames, decadeOf, vendorsOf, splitDevelopers, applyFacets,
   sortGames, paginate, deriveFacets, toIndexRecord, NONE,
   seriesOf, groupBy, relatedFor, distinctValues,
   yearRange, topValue, platformsOf,
@@ -15,6 +15,15 @@ const G = [
 
 test('normalize strips punctuation and case', () => {
   assert.equal(normalize('A-B C：D'), 'abcd');
+});
+
+test('splitDevelopers splits co-developers on comma/、/slash but keeps spaced names', () => {
+  assert.deepEqual(splitDevelopers('明日工作室,岡業'), ['明日工作室', '岡業']);
+  assert.deepEqual(splitDevelopers('次方,區格'), ['次方', '區格']);
+  assert.deepEqual(splitDevelopers('TAD Corporation,Interactive Designs'), ['TAD Corporation', 'Interactive Designs']);
+  assert.deepEqual(splitDevelopers('Magnetic Fields / Pixelkraft'), ['Magnetic Fields', 'Pixelkraft']);
+  assert.deepEqual(splitDevelopers('大宇'), ['大宇']);
+  assert.deepEqual(splitDevelopers(null), []);
 });
 
 test('searchGames matches title, english + simplified alias, empty=all', () => {

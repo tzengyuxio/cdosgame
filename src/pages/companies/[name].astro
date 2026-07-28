@@ -11,6 +11,7 @@ import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import { coverOf, decorate, galleryGroups, coverFigcaption } from '../../lib/media.js';
 import { COMPANY_ALIASES } from '../../lib/company-aliases.js';
+import { splitDevelopers } from '../../lib/gamesQuery.js';
 
 export async function getStaticPaths() {
   const games = await getCollection('games', e => import.meta.env.PROD ? e.data.published : true);
@@ -23,9 +24,9 @@ export async function getStaticPaths() {
   const get = n => { if (!map.has(n)) map.set(n, { developed: [], published: [] }); return map.get(n); };
   for (const e of games) {
     const g = e.data;
-    const dev = g.developer ? canon(g.developer) : null;
-    if (dev) get(dev).developed.push(g);
-    for (const p of (g.publisher_tw || [])) { const cp = canon(p); if (cp !== dev) get(cp).published.push(g); }
+    const devs = splitDevelopers(g.developer).map(canon);
+    for (const d of devs) get(d).developed.push(g);
+    for (const p of (g.publisher_tw || [])) { const cp = canon(p); if (!devs.includes(cp)) get(cp).published.push(g); }
   }
   // route set = vendors of (published) games ∪ company md whose published gate is on
   const showAll = !import.meta.env.PROD;
@@ -50,7 +51,7 @@ const { developed = [], published = [], redirectTo = null } = Astro.props;
 // period-accurate vendor label: when a game was released under a former name that
 // canon()s to this page, annotate it (e.g. on 貳碼科技, 三國風雲 was「世紀縱橫」).
 const canon = n => COMPANY_ALIASES[n] || n;
-const devVia = g => (g.developer && g.developer !== name) ? g.developer : null;
+const devVia = g => { const d = splitDevelopers(g.developer).find(x => canon(x) === name); return d && d !== name ? d : null; };
 const pubVia = g => (g.publisher_tw || []).find(p => p !== name && canon(p) === name) || null;
 // alias route: client-redirect to the canonical company page, tagging the source
 const siteBase = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/, '');
