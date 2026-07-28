@@ -427,8 +427,9 @@
       "keys": [
         "cat:SCD2466"
       ],
-      "status": "active",
-      "title_zh": "B17飛行堡壘：第八飛行中隊"
+      "status": "rejected",
+      "title_zh": "B17飛行堡壘：第八飛行中隊",
+      "reject_reason": "out of scope: B17飛行堡壘：第八飛行中隊（2000，Wayward），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0045": {
       "catalog_id": "3WG038",
@@ -575,8 +576,9 @@
       "keys": [
         "cat:SCD1733"
       ],
-      "status": "active",
-      "title_zh": "F1一級方程式賽車2000／"
+      "status": "rejected",
+      "title_zh": "F1一級方程式賽車2000／",
+      "reject_reason": "out of scope: F1一級方程式賽車2000（2000，Image Space），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0061": {
       "catalog_id": "SCD1735",
@@ -603,8 +605,9 @@
       "keys": [
         "cat:SCD1734"
       ],
-      "status": "active",
-      "title_zh": "F1一級方程式錦標賽2000賽季"
+      "status": "rejected",
+      "title_zh": "F1一級方程式錦標賽2000賽季",
+      "reject_reason": "out of scope: F1一級方程式錦標賽2000賽季（2000，Image Space），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0064": {
       "catalog_id": "SCD1745",
@@ -612,8 +615,9 @@
       "keys": [
         "cat:SCD1745"
       ],
-      "status": "active",
-      "title_zh": "F1世界大獎賽"
+      "status": "rejected",
+      "title_zh": "F1世界大獎賽",
+      "reject_reason": "out of scope: F1世界大獎賽（2000，Lankhor），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0065": {
       "catalog_id": "SCD1746",
@@ -1259,8 +1263,9 @@
       "keys": [
         "cat:SCD1517"
       ],
-      "status": "active",
-      "title_zh": "X摩托2000"
+      "status": "rejected",
+      "title_zh": "X摩托2000",
+      "reject_reason": "out of scope: X摩托2000（2000，Deibus），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0133": {
       "catalog_id": "SCD0643",
@@ -2740,8 +2745,9 @@
       "keys": [
         "t:中世紀2|Incredible Simulations"
       ],
-      "status": "active",
-      "title_zh": "中世紀2"
+      "status": "rejected",
+      "title_zh": "中世紀2",
+      "reject_reason": "out of scope: 中世紀2（2000，Incredible Simulations），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0293": {
       "catalog_id": "SCD0347",
@@ -7849,8 +7855,9 @@
       "keys": [
         "cat:SCD1540"
       ],
-      "status": "active",
-      "title_zh": "自由式花樣自行車賽"
+      "status": "rejected",
+      "title_zh": "自由式花樣自行車賽",
+      "reject_reason": "out of scope: 自由式花樣自行車賽（2000，Z-Axis），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0840": {
       "catalog_id": "SCD1542",
@@ -7858,8 +7865,9 @@
       "keys": [
         "cat:SCD1542"
       ],
-      "status": "active",
-      "title_zh": "自由自行車大賽"
+      "status": "rejected",
+      "title_zh": "自由自行車大賽",
+      "reject_reason": "out of scope: 自由自行車大賽（2000，Silverfish），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0841": {
       "catalog_id": "SCD0744",
@@ -8194,8 +8202,9 @@
       "keys": [
         "cat:SCD1959"
       ],
-      "status": "active",
-      "title_zh": "袋鼠小天王1"
+      "status": "rejected",
+      "title_zh": "袋鼠小天王1",
+      "reject_reason": "out of scope: 袋鼠小天王1（2000，Tate），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0877": {
       "catalog_id": "SCD1960",
@@ -20533,8 +20542,9 @@
       "keys": [
         "cat:SCD1535"
       ],
-      "status": "active",
-      "title_zh": "超級摩托魂"
+      "status": "rejected",
+      "title_zh": "超級摩托魂",
+      "reject_reason": "out of scope: 超級摩托魂（1999，Milestone），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2200": {
       "catalog_id": "SWT072",
@@ -20871,8 +20881,9 @@
       "keys": [
         "cat:SCD1518"
       ],
-      "status": "active",
-      "title_zh": "越野摩托大獎賽"
+      "status": "rejected",
+      "title_zh": "越野摩托大獎賽",
+      "reject_reason": "out of scope: 越野摩托大獎賽（1999，Dawn），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2237": {
       "catalog_id": "SCD1582",
@@ -23748,8 +23759,9 @@
       "keys": [
         "cat:SCD2757"
       ],
-      "status": "active",
-      "title_zh": "迪士尼泰山"
+      "status": "rejected",
+      "title_zh": "迪士尼泰山",
+      "reject_reason": "out of scope: 迪士尼泰山（1999，Eurocom），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2547": {
       "catalog_id": "SCD2758",
@@ -23757,8 +23769,9 @@
       "keys": [
         "cat:SCD2758"
       ],
-      "status": "active",
-      "title_zh": "迪士尼泰山：活動中心"
+      "status": "rejected",
+      "title_zh": "迪士尼泰山：活動中心",
+      "reject_reason": "out of scope: 迪士尼泰山：活動中心（1999，Disney），兒童向 Windows 外文 edutainment，非收錄範圍"
     },
     "cdg-2548": {
       "catalog_id": "SCD2756",
@@ -23766,8 +23779,9 @@
       "keys": [
         "cat:SCD2756"
       ],
-      "status": "active",
-      "title_zh": "迪士尼泰山叢林大冒險"
+      "status": "rejected",
+      "title_zh": "迪士尼泰山叢林大冒險",
+      "reject_reason": "out of scope: 迪士尼泰山叢林大冒險（1999，Disney），兒童向 Windows 外文款、無台灣中文化／代理發行足跡"
     },
     "cdg-2549": {
       "catalog_id": "SCD0801",
@@ -26457,8 +26471,9 @@
       "keys": [
         "cat:SCD2195"
       ],
-      "status": "active",
-      "title_zh": "虹彩六號2"
+      "status": "rejected",
+      "title_zh": "虹彩六號2",
+      "reject_reason": "out of scope: 虹彩六號2（1999，Red Storm），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2835": {
       "catalog_id": "SCD2196",
@@ -26682,8 +26697,9 @@
       "keys": [
         "cat:SCD1358"
       ],
-      "status": "active",
-      "title_zh": "農夫也瘋狂"
+      "status": "rejected",
+      "title_zh": "農夫也瘋狂",
+      "reject_reason": "out of scope: 農夫也瘋狂（1999，Lupine），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2859": {
       "catalog_id": "SCD2804",
@@ -26964,8 +26980,9 @@
       "keys": [
         "cat:SCD2479"
       ],
-      "status": "active",
-      "title_zh": "釣鱸高手3"
+      "status": "rejected",
+      "title_zh": "釣鱸高手3",
+      "reject_reason": "out of scope: 釣鱸高手3（1999，Dynamix），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2888": {
       "catalog_id": "SCD1691",
@@ -27055,8 +27072,9 @@
       "keys": [
         "cat:SCD0203"
       ],
-      "status": "active",
-      "title_zh": "銀河征戰錄"
+      "status": "rejected",
+      "title_zh": "銀河征戰錄",
+      "reject_reason": "out of scope: 銀河征戰錄（1999，Dynamix），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2898": {
       "catalog_id": "SCD0228",
@@ -30847,8 +30865,9 @@
       "keys": [
         "cat:SCD2263"
       ],
-      "status": "active",
-      "title_zh": "熱力美國職棒2000"
+      "status": "rejected",
+      "title_zh": "熱力美國職棒2000",
+      "reject_reason": "out of scope: 熱力美國職棒2000（1999，Team .366），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3303": {
       "catalog_id": "SCD2264",
@@ -31079,8 +31098,9 @@
       "keys": [
         "cat:SCD1833"
       ],
-      "status": "active",
-      "title_zh": "爆破賽車"
+      "status": "rejected",
+      "title_zh": "爆破賽車",
+      "reject_reason": "out of scope: 爆破賽車（1999，Pitbull Syndicate），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3328": {
       "catalog_id": "HTG026",
@@ -32258,8 +32278,9 @@
       "keys": [
         "cat:SCD2353"
       ],
-      "status": "active",
-      "title_zh": "莫蒂爾1"
+      "status": "rejected",
+      "title_zh": "莫蒂爾1",
+      "reject_reason": "out of scope: 莫蒂爾1（1999，Mirage），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3454": {
       "catalog_id": "SCD2354",
