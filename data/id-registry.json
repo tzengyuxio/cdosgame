@@ -6547,8 +6547,9 @@
       "keys": [
         "cat:SCD2043"
       ],
-      "status": "active",
-      "title_zh": "反恐精英：叢林行動"
+      "status": "rejected",
+      "title_zh": "反恐精英：叢林行動",
+      "reject_reason": "out of scope: 反恐精英：叢林行動（2006，City），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-0702": {
       "catalog_id": "SCD0822",
@@ -12079,8 +12080,9 @@
       "keys": [
         "t:亞特蘭提斯之天空巡邏|Big Fish"
       ],
-      "status": "active",
-      "title_zh": "亞特蘭提斯之天空巡邏"
+      "status": "rejected",
+      "title_zh": "亞特蘭提斯之天空巡邏",
+      "reject_reason": "out of scope: 亞特蘭提斯之天空巡邏（2006，Big Fish），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-1292": {
       "catalog_id": "SWT166",
@@ -13111,8 +13113,9 @@
       "keys": [
         "cat:SCD2494"
       ],
-      "status": "active",
-      "title_zh": "式神之城3"
+      "status": "rejected",
+      "title_zh": "式神之城3",
+      "reject_reason": "out of scope: 式神之城3（2006，Alfa System），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-1404": {
       "catalog_id": "SCD1356",
@@ -16596,8 +16599,9 @@
       "keys": [
         "cat:SCD2078"
       ],
-      "status": "active",
-      "title_zh": "惡魔使者"
+      "status": "rejected",
+      "title_zh": "惡魔使者",
+      "reject_reason": "out of scope: 惡魔使者（2007，Metropolis），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-1780": {
       "catalog_id": "Z037,SCD1045",
@@ -21522,8 +21526,9 @@
       "keys": [
         "t:斑馬|Gunnar Andersson"
       ],
-      "status": "active",
-      "title_zh": "斑馬"
+      "status": "rejected",
+      "title_zh": "斑馬",
+      "reject_reason": "out of scope: 斑馬（2005，Gunnar Andersson），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2312": {
       "catalog_id": "SCD2395",
@@ -22983,8 +22988,9 @@
       "keys": [
         "cat:SCD1525"
       ],
-      "status": "active",
-      "title_zh": "暴力機車"
+      "status": "rejected",
+      "title_zh": "暴力機車",
+      "reject_reason": "out of scope: 暴力機車（2005，Sproing），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2471": {
       "catalog_id": "SCD1568",
@@ -23019,8 +23025,9 @@
       "keys": [
         "cat:SCD0323"
       ],
-      "status": "active",
-      "title_zh": "曙光特攻"
+      "status": "rejected",
+      "title_zh": "曙光特攻",
+      "reject_reason": "out of scope: 曙光特攻（2005，Metropolis／英特衛代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-2475": {
       "catalog_id": "SCD2248",
@@ -23385,8 +23392,9 @@
       "keys": [
         "cat:SCD1798"
       ],
-      "status": "active",
-      "title_zh": "碰撞飛車"
+      "status": "rejected",
+      "title_zh": "碰撞飛車",
+      "reject_reason": "out of scope: 碰撞飛車（2006，Moonbyte），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2513": {
       "catalog_id": null,
@@ -28986,8 +28994,9 @@
       "keys": [
         "cat:SCD1884"
       ],
-      "status": "active",
-      "title_zh": "極品醉車1"
+      "status": "rejected",
+      "title_zh": "極品醉車1",
+      "reject_reason": "out of scope: 極品醉車1（2005，Juice），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3111": {
       "catalog_id": "SCD1885",
@@ -29183,8 +29192,9 @@
       "keys": [
         "cat:SCD1277"
       ],
-      "status": "active",
-      "title_zh": "極速快感9"
+      "status": "rejected",
+      "title_zh": "極速快感9",
+      "reject_reason": "out of scope: 極速快感9（2005，EA），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3132": {
       "catalog_id": "SCD1278",
@@ -30682,8 +30692,9 @@
       "keys": [
         "cat:SCD1686"
       ],
-      "status": "active",
-      "title_zh": "無限試駕"
+      "status": "rejected",
+      "title_zh": "無限試駕",
+      "reject_reason": "out of scope: 無限試駕（2006，Eden），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3292": {
       "catalog_id": "SCD1664",
@@ -31560,8 +31571,9 @@
       "keys": [
         "cat:SCD2038,SCD2040"
       ],
-      "status": "active",
-      "title_zh": "戰慄時空1：次世代"
+      "status": "rejected",
+      "title_zh": "戰慄時空1：次世代",
+      "reject_reason": "out of scope: 戰慄時空1：次世代（2004，Valve），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3386": {
       "catalog_id": "SCD2038,SCD2040\nSCD2041",
@@ -31569,8 +31581,9 @@
       "keys": [
         "cat:SCD2038,SCD2040\nSCD2041"
       ],
-      "status": "active",
-      "title_zh": "戰慄時空2"
+      "status": "rejected",
+      "title_zh": "戰慄時空2",
+      "reject_reason": "out of scope: 戰慄時空2 Half-Life 2（2004，Valve），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3387": {
       "catalog_id": "SCD2041",
@@ -32203,8 +32216,9 @@
       "keys": [
         "cat:SCD2354"
       ],
-      "status": "active",
-      "title_zh": "莫蒂爾2"
+      "status": "rejected",
+      "title_zh": "莫蒂爾2",
+      "reject_reason": "out of scope: 莫蒂爾2（2004，Mirage），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3455": {
       "catalog_id": null,
@@ -32385,8 +32399,9 @@
       "keys": [
         "cat:SCD1925"
       ],
-      "status": "active",
-      "title_zh": "蓮花跑車挑戰賽"
+      "status": "rejected",
+      "title_zh": "蓮花跑車挑戰賽",
+      "reject_reason": "out of scope: 蓮花跑車挑戰賽（2003，Kuju），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3475": {
       "catalog_id": "OCD0001",
@@ -33334,8 +33349,9 @@
       "keys": [
         "cat:SCD1901"
       ],
-      "status": "active",
-      "title_zh": "羅密歐賽車"
+      "status": "rejected",
+      "title_zh": "羅密歐賽車",
+      "reject_reason": "out of scope: 羅密歐賽車（2005，Milestone），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3577": {
       "catalog_id": "SCD1108",
@@ -33581,8 +33597,9 @@
       "keys": [
         "cat:SCD2506"
       ],
-      "status": "active",
-      "title_zh": "鐵血悍將"
+      "status": "rejected",
+      "title_zh": "鐵血悍將",
+      "reject_reason": "out of scope: 鐵血悍將（2005，Sigma／翎盛代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-3604": {
       "catalog_id": "1CD2505",
@@ -33682,8 +33699,9 @@
       "keys": [
         "t:閃電霹靂車|Project YNP"
       ],
-      "status": "active",
-      "title_zh": "閃電霹靂車"
+      "status": "rejected",
+      "title_zh": "閃電霹靂車",
+      "reject_reason": "out of scope: 閃電霹靂車（2004，Project YNP），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3615": {
       "catalog_id": "SCD2449",
@@ -33727,8 +33745,9 @@
       "keys": [
         "cat:SCD0661"
       ],
-      "status": "active",
-      "title_zh": "關鍵任務：戰火風雲"
+      "status": "rejected",
+      "title_zh": "關鍵任務：戰火風雲",
+      "reject_reason": "out of scope: 關鍵任務：戰火風雲（2004，NovaLogic），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3620": {
       "catalog_id": "SCD1217",
@@ -34239,8 +34258,9 @@
       "keys": [
         "cat:SCD1012"
       ],
-      "status": "active",
-      "title_zh": "魔域幻境2"
+      "status": "rejected",
+      "title_zh": "魔域幻境2",
+      "reject_reason": "out of scope: 魔域幻境2 Unreal II（2003，Legend），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3675": {
       "catalog_id": "SCD1008",
@@ -34267,8 +34287,9 @@
       "keys": [
         "cat:SCD1010"
       ],
-      "status": "active",
-      "title_zh": "魔域幻境之浴血戰場"
+      "status": "rejected",
+      "title_zh": "魔域幻境之浴血戰場",
+      "reject_reason": "out of scope: 魔域幻境之浴血戰場 Unreal Tournament 2004（Epic），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3678": {
       "catalog_id": "SCD2667",
@@ -39302,8 +39323,9 @@
       "keys": [
         "t:卡通畫家|None"
       ],
-      "status": "active",
-      "title_zh": "卡通畫家"
+      "status": "rejected",
+      "title_zh": "卡通畫家",
+      "reject_reason": "out of scope: 卡通畫家 Cartooners，合併而來的全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4223": {
       "catalog_id": null,
