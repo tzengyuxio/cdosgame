@@ -67,4 +67,11 @@ export const COMPANY_ALIASES = {
   // 大宇在中國大陸的子公司「北京軟星科技」，canonical 取通行簡稱「北京軟星」
   // （與另一子公司「上海軟星」對稱），「軟星科技（北京）」為全稱異寫。
   '軟星科技（北京）': '北京軟星',
+  // 大小寫／簡稱不一的同一家外商。canonical 取庫內通行寫法（SEGA 23 筆 vs Sega 2 筆、
+  // SSG 4 筆 vs 全名 1 筆）；Simtex（MicroProse 旗下工作室）的正寫為首字大寫。
+  Sega: 'SEGA',
+  'Strategic Studies Group': 'SSG',
+  SimTex: 'Simtex',
+  // 智冠旗下工作室，全名紅螞蟻工作室；比照上面「全名→通行簡稱」合併。
+  紅螞蟻工作室: '紅螞蟻',
 };
