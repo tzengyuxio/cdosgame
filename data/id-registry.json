@@ -13120,8 +13120,9 @@
       "keys": [
         "cat:SCD1356"
       ],
-      "status": "active",
-      "title_zh": "改裝車大賽1：美國街頭飆車"
+      "status": "rejected",
+      "title_zh": "改裝車大賽1：美國街頭飆車",
+      "reject_reason": "out of scope: 改裝車大賽1：美國街頭飆車（2003，Canopy），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-1405": {
       "catalog_id": "SCD1357",
@@ -15489,8 +15490,9 @@
       "keys": [
         "cat:SCD1844"
       ],
-      "status": "active",
-      "title_zh": "倫敦賽車手2"
+      "status": "rejected",
+      "title_zh": "倫敦賽車手2",
+      "reject_reason": "out of scope: 倫敦賽車手2（2002，Davilex／意念數位代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-1661": {
       "catalog_id": "SCD1845",
@@ -15545,8 +15547,9 @@
       "keys": [
         "cat:SCD1007"
       ],
-      "status": "active",
-      "title_zh": "傭兵戰場2"
+      "status": "rejected",
+      "title_zh": "傭兵戰場2",
+      "reject_reason": "out of scope: 傭兵戰場2（2002，Raven／松崗代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-1667": {
       "catalog_id": "SCD0168",
@@ -19094,8 +19097,9 @@
       "keys": [
         "cat:SCD1570"
       ],
-      "status": "active",
-      "title_zh": "紐約瘋狂出租車2"
+      "status": "rejected",
+      "title_zh": "紐約瘋狂出租車2",
+      "reject_reason": "out of scope: 紐約瘋狂出租車2（2003，Team6），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2050": {
       "catalog_id": "SCD1062",
@@ -19224,8 +19228,9 @@
       "keys": [
         "cat:SCD0780,SCD0778"
       ],
-      "status": "active",
-      "title_zh": "終極動員令：叛國者"
+      "status": "rejected",
+      "title_zh": "終極動員令：叛國者",
+      "reject_reason": "out of scope: 終極動員令：叛國者（2002，Westwood），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2064": {
       "catalog_id": "SCD0783,SCD0778",
@@ -20737,8 +20742,9 @@
       "keys": [
         "cat:SCD1562"
       ],
-      "status": "active",
-      "title_zh": "超級遙控名車賽"
+      "status": "rejected",
+      "title_zh": "超級遙控名車賽",
+      "reject_reason": "out of scope: 超級遙控名車賽（2002，BumbleBeast），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2228": {
       "catalog_id": "SCD0913",
@@ -20829,8 +20835,9 @@
       "keys": [
         "cat:SCD1582"
       ],
-      "status": "active",
-      "title_zh": "越野摩托王"
+      "status": "rejected",
+      "title_zh": "越野摩托王",
+      "reject_reason": "out of scope: 越野摩托王（2002，Dawn），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2238": {
       "catalog_id": "SCD1521",
@@ -23049,8 +23056,9 @@
       "keys": [
         "cat:SCD0871"
       ],
-      "status": "active",
-      "title_zh": "最後一戰"
+      "status": "rejected",
+      "title_zh": "最後一戰",
+      "reject_reason": "out of scope: 最後一戰 Halo（2003，Microsoft），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2479": {
       "catalog_id": null,
@@ -24207,8 +24215,9 @@
       "keys": [
         "cat:SCD1799"
       ],
-      "status": "active",
-      "title_zh": "雪佛萊極品跑車賽"
+      "status": "rejected",
+      "title_zh": "雪佛萊極品跑車賽",
+      "reject_reason": "out of scope: 雪佛萊極品跑車賽（2003，Steel Monkeys），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2602": {
       "catalog_id": "SCD0792",
@@ -25389,8 +25398,9 @@
       "keys": [
         "t:夢幻俄羅斯方塊2|Magnussoft"
       ],
-      "status": "active",
-      "title_zh": "夢幻俄羅斯方塊2"
+      "status": "rejected",
+      "title_zh": "夢幻俄羅斯方塊2",
+      "reject_reason": "out of scope: 夢幻俄羅斯方塊2（2002，Magnussoft），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2726": {
       "catalog_id": "SCD2559",
@@ -26067,8 +26077,9 @@
       "keys": [
         "cat:SCD1573"
       ],
-      "status": "active",
-      "title_zh": "瘋狂計程車3"
+      "status": "rejected",
+      "title_zh": "瘋狂計程車3",
+      "reject_reason": "out of scope: 瘋狂計程車3（2003，Hitmaker），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-2800": {
       "catalog_id": "SCD0645",
@@ -26583,8 +26594,9 @@
       "keys": [
         "cat:SCD2237"
       ],
-      "status": "active",
-      "title_zh": "辣妹大進擊"
+      "status": "rejected",
+      "title_zh": "辣妹大進擊",
+      "reject_reason": "out of scope: 辣妹大進擊 Meat Puppet（1997，Kronos），Windows 外文款無正文 stub、無台灣中文化／代理發行足跡"
     },
     "cdg-2856": {
       "catalog_id": "SCD1624",
@@ -27011,8 +27023,9 @@
       "keys": [
         "cat:SCD0318"
       ],
-      "status": "active",
-      "title_zh": "銀河生死鬥2"
+      "status": "rejected",
+      "title_zh": "銀河生死鬥2",
+      "reject_reason": "out of scope: 銀河生死鬥2（2001，Dynamix），2000 年後 Windows 外文款無正文 stub、無台灣中文化足跡"
     },
     "cdg-2901": {
       "catalog_id": "JXD006",
@@ -27438,8 +27451,9 @@
       "keys": [
         "cat:SCD1462"
       ],
-      "status": "active",
-      "title_zh": "刺客任務2：無聲殺手"
+      "status": "rejected",
+      "title_zh": "刺客任務2：無聲殺手",
+      "reject_reason": "out of scope: 刺客任務2：無聲殺手（2002，IO／天人互動代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-2948": {
       "catalog_id": "SCD1463",
@@ -27958,8 +27972,9 @@
       "keys": [
         "cat:SCD1848"
       ],
-      "status": "active",
-      "title_zh": "勁爆水上滑板"
+      "status": "rejected",
+      "title_zh": "勁爆水上滑板",
+      "reject_reason": "out of scope: 勁爆水上滑板（2003，Beenox），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3003": {
       "catalog_id": "SCD2668",
@@ -28253,8 +28268,9 @@
       "keys": [
         "cat:SCD2759"
       ],
-      "status": "active",
-      "title_zh": "拂曉出擊：珍珠港"
+      "status": "rejected",
+      "title_zh": "拂曉出擊：珍珠港",
+      "reject_reason": "out of scope: 拂曉出擊：珍珠港（2001，MAUS），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3034": {
       "catalog_id": "SSG012",
@@ -28271,8 +28287,9 @@
       "keys": [
         "cat:SCD1699"
       ],
-      "status": "active",
-      "title_zh": "拉里拉格蘭4"
+      "status": "rejected",
+      "title_zh": "拉里拉格蘭4",
+      "reject_reason": "out of scope: 拉里拉格蘭4（2001，Xpiral），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3036": {
       "catalog_id": null,
@@ -28491,8 +28508,9 @@
       "keys": [
         "cat:SCD1531"
       ],
-      "status": "active",
-      "title_zh": "摩托雷神3"
+      "status": "rejected",
+      "title_zh": "摩托雷神3",
+      "reject_reason": "out of scope: 摩托雷神3（2001，Delphine），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3060": {
       "catalog_id": "SWE098",
@@ -29311,8 +29329,9 @@
       "keys": [
         "cat:SCD2743"
       ],
-      "status": "active",
-      "title_zh": "極限運動"
+      "status": "rejected",
+      "title_zh": "極限運動",
+      "reject_reason": "out of scope: 極限運動（2001，Innerloop），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3148": {
       "catalog_id": "SCD2742",
@@ -30352,8 +30371,9 @@
       "keys": [
         "cat:SCD2605"
       ],
-      "status": "active",
-      "title_zh": "火線獵殺"
+      "status": "rejected",
+      "title_zh": "火線獵殺",
+      "reject_reason": "out of scope: 火線獵殺（2001，Red Storm），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3260": {
       "catalog_id": "SCD2606",
@@ -31127,8 +31147,9 @@
       "keys": [
         "cat:SCD1353,SCD1354"
       ],
-      "status": "active",
-      "title_zh": "貨車也瘋狂3：專業賽車"
+      "status": "rejected",
+      "title_zh": "貨車也瘋狂3：專業賽車",
+      "reject_reason": "out of scope: 貨車也瘋狂3：專業賽車（2001，MotorSims），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3344": {
       "catalog_id": "SCD1355",
@@ -32505,8 +32526,9 @@
       "keys": [
         "cat:SCD1626"
       ],
-      "status": "active",
-      "title_zh": "肌肉賽車1"
+      "status": "rejected",
+      "title_zh": "肌肉賽車1",
+      "reject_reason": "out of scope: 肌肉賽車1（2001，Small Rockets），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3492": {
       "catalog_id": "SCD1627",
@@ -34060,8 +34082,9 @@
       "keys": [
         "cat:SCD1898"
       ],
-      "status": "active",
-      "title_zh": "鬼馬卡車賽"
+      "status": "rejected",
+      "title_zh": "鬼馬卡車賽",
+      "reject_reason": "out of scope: 鬼馬卡車賽（2001，Iridon），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3660": {
       "catalog_id": "HTG031",
@@ -35258,8 +35281,9 @@
       "keys": [
         "cat:SCD1837"
       ],
-      "status": "active",
-      "title_zh": "歐洲城市賽車"
+      "status": "rejected",
+      "title_zh": "歐洲城市賽車",
+      "reject_reason": "out of scope: 歐洲城市賽車（2001，Davilex／意念數位代理），2000 年後 Windows 代理作品無正文 stub"
     },
     "cdg-3790": {
       "catalog_id": "SCD1836",
