@@ -15527,8 +15527,9 @@
       "keys": [
         "cat:SCD1843"
       ],
-      "status": "active",
-      "title_zh": "倫敦賽車手1"
+      "status": "rejected",
+      "title_zh": "倫敦賽車手1",
+      "reject_reason": "out of scope: 倫敦賽車手1（1999，Davilex），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1660": {
       "catalog_id": "SCD1844",
@@ -15575,8 +15576,9 @@
       "keys": [
         "cat:SCD1856"
       ],
-      "status": "active",
-      "title_zh": "傑夫賽車"
+      "status": "rejected",
+      "title_zh": "傑夫賽車",
+      "reject_reason": "out of scope: 傑夫賽車（1999，Real Sports），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1665": {
       "catalog_id": "SCD1006",
@@ -16272,8 +16274,9 @@
       "keys": [
         "cat:SCD1514"
       ],
-      "status": "active",
-      "title_zh": "急速狂飆500／"
+      "status": "rejected",
+      "title_zh": "急速狂飆500／",
+      "reject_reason": "out of scope: 急速狂飆500（1999，Melbourne House），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1740": {
       "catalog_id": "SCD0174",
@@ -16487,8 +16490,9 @@
       "keys": [
         "cat:SCD1222"
       ],
-      "status": "active",
-      "title_zh": "恐龍獵人2"
+      "status": "rejected",
+      "title_zh": "恐龍獵人2",
+      "reject_reason": "out of scope: 恐龍獵人2 Turok 2（1999，Iguana），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1763": {
       "catalog_id": "SCD1223",
@@ -17788,8 +17792,9 @@
       "keys": [
         "cat:SCD0795"
       ],
-      "status": "active",
-      "title_zh": "彪馬街頭足球"
+      "status": "rejected",
+      "title_zh": "彪馬街頭足球",
+      "reject_reason": "out of scope: 彪馬街頭足球（1999，PixelStorm），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1903": {
       "catalog_id": "SWZ013,SCD1810",
@@ -18448,8 +18453,9 @@
       "keys": [
         "cat:SCD0664"
       ],
-      "status": "active",
-      "title_zh": "鱷魚中隊／"
+      "status": "rejected",
+      "title_zh": "鱷魚中隊／",
+      "reject_reason": "out of scope: 鱷魚中隊（1999，Atari），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1975": {
       "catalog_id": "SCD0278",
@@ -18867,8 +18873,9 @@
       "keys": [
         "cat:SCD2719"
       ],
-      "status": "active",
-      "title_zh": "征服狂牛"
+      "status": "rejected",
+      "title_zh": "征服狂牛",
+      "reject_reason": "out of scope: 征服狂牛（1999，Radish），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2020": {
       "catalog_id": "SCD1922",
@@ -18876,8 +18883,9 @@
       "keys": [
         "cat:SCD1922"
       ],
-      "status": "active",
-      "title_zh": "復仇者競賽"
+      "status": "rejected",
+      "title_zh": "復仇者競賽",
+      "reject_reason": "out of scope: 復仇者競賽（1999，Promethean），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2021": {
       "catalog_id": "Z088",
@@ -19092,8 +19100,9 @@
       "keys": [
         "cat:SCD1905"
       ],
-      "status": "active",
-      "title_zh": "紅線"
+      "status": "rejected",
+      "title_zh": "紅線",
+      "reject_reason": "out of scope: 紅線（1999，Beyond Games），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2044": {
       "catalog_id": "3WG036",
@@ -20158,8 +20167,9 @@
       "keys": [
         "cat:SCD1564"
       ],
-      "status": "active",
-      "title_zh": "豪華遙控賽車"
+      "status": "rejected",
+      "title_zh": "豪華遙控賽車",
+      "reject_reason": "out of scope: 豪華遙控賽車（1999，Dynamix），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2158": {
       "catalog_id": "SCD2302",
@@ -28043,8 +28053,9 @@
       "keys": [
         "cat:SCD2630"
       ],
-      "status": "active",
-      "title_zh": "加菲貓的瘋狂愛貓"
+      "status": "rejected",
+      "title_zh": "加菲貓的瘋狂愛貓",
+      "reject_reason": "out of scope: 加菲貓的瘋狂愛貓（1999，FiniteMonkey），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3002": {
       "catalog_id": "SCD1848",
@@ -37590,8 +37601,9 @@
       "keys": [
         "t:中關村啟示錄|None"
       ],
-      "status": "active",
-      "title_zh": "中關村啟示錄"
+      "status": "rejected",
+      "title_zh": "中關村啟示錄",
+      "reject_reason": "out of scope: 中關村啟示錄（1996），全 null stub，中國大陸作品、無台灣發行足跡"
     },
     "cdg-4029": {
       "catalog_id": null,
@@ -38572,8 +38584,9 @@
       "keys": [
         "t:中國民航|None"
       ],
-      "status": "active",
-      "title_zh": "中國民航"
+      "status": "rejected",
+      "title_zh": "中國民航",
+      "reject_reason": "out of scope: 中國民航（1996），全 null stub，中國大陸作品、無台灣發行足跡"
     },
     "cdg-4134": {
       "catalog_id": null,
@@ -38581,8 +38594,9 @@
       "keys": [
         "t:中國球王|None"
       ],
-      "status": "active",
-      "title_zh": "中國球王"
+      "status": "rejected",
+      "title_zh": "中國球王",
+      "reject_reason": "out of scope: 中國球王（1996），全 null stub，中國大陸作品、無台灣發行足跡"
     },
     "cdg-4135": {
       "catalog_id": null,
@@ -41709,8 +41723,9 @@
       "keys": [
         "t:小朋友齊打交|None"
       ],
-      "status": "active",
-      "title_zh": "小朋友齊打交"
+      "status": "rejected",
+      "title_zh": "小朋友齊打交",
+      "reject_reason": "out of scope: 小朋友齊打交，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4475": {
       "catalog_id": null,
@@ -41754,8 +41769,9 @@
       "keys": [
         "t:指揮官基恩 1|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 1"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 1",
+      "reject_reason": "out of scope: 指揮官基恩 1 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4480": {
       "catalog_id": null,
@@ -41763,8 +41779,9 @@
       "keys": [
         "t:指揮官基恩 2|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 2"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 2",
+      "reject_reason": "out of scope: 指揮官基恩 2 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4481": {
       "catalog_id": null,
@@ -41772,8 +41789,9 @@
       "keys": [
         "t:指揮官基恩 3|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 3"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 3",
+      "reject_reason": "out of scope: 指揮官基恩 3 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4482": {
       "catalog_id": null,
@@ -41781,8 +41799,9 @@
       "keys": [
         "t:指揮官基恩：基恩之夢|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩：基恩之夢"
+      "status": "rejected",
+      "title_zh": "指揮官基恩：基恩之夢",
+      "reject_reason": "out of scope: 指揮官基恩：基恩之夢 Keen Dreams，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4483": {
       "catalog_id": null,
@@ -41790,8 +41809,9 @@
       "keys": [
         "t:指揮官基恩 4|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 4"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 4",
+      "reject_reason": "out of scope: 指揮官基恩 4 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4484": {
       "catalog_id": null,
@@ -41799,8 +41819,9 @@
       "keys": [
         "t:指揮官基恩 5|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 5"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 5",
+      "reject_reason": "out of scope: 指揮官基恩 5 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4485": {
       "catalog_id": null,
@@ -41808,8 +41829,9 @@
       "keys": [
         "t:指揮官基恩 6|None"
       ],
-      "status": "active",
-      "title_zh": "指揮官基恩 6"
+      "status": "rejected",
+      "title_zh": "指揮官基恩 6",
+      "reject_reason": "out of scope: 指揮官基恩 6 Commander Keen，全 null stub，無正文亦無台灣中文化／代理發行足跡"
     },
     "cdg-4486": {
       "catalog_id": null,
@@ -42024,8 +42046,9 @@
       "keys": [
         "t:辛普森大戰外星人|None"
       ],
-      "status": "active",
-      "title_zh": "辛普森大戰外星人"
+      "status": "rejected",
+      "title_zh": "辛普森大戰外星人",
+      "reject_reason": "out of scope: 辛普森大戰外星人，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4510": {
       "catalog_id": null,
@@ -42033,8 +42056,9 @@
       "keys": [
         "t:辛普森小丑屋|None"
       ],
-      "status": "active",
-      "title_zh": "辛普森小丑屋"
+      "status": "rejected",
+      "title_zh": "辛普森小丑屋",
+      "reject_reason": "out of scope: 辛普森小丑屋，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4511": {
       "catalog_id": null,
@@ -42069,8 +42093,9 @@
       "keys": [
         "t:雨果的恐怖之屋1|None"
       ],
-      "status": "active",
-      "title_zh": "雨果的恐怖之屋1"
+      "status": "rejected",
+      "title_zh": "雨果的恐怖之屋1",
+      "reject_reason": "out of scope: 雨果的恐怖之屋1，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4515": {
       "catalog_id": null,
@@ -42078,8 +42103,9 @@
       "keys": [
         "t:雨果的恐怖之屋2|None"
       ],
-      "status": "active",
-      "title_zh": "雨果的恐怖之屋2"
+      "status": "rejected",
+      "title_zh": "雨果的恐怖之屋2",
+      "reject_reason": "out of scope: 雨果的恐怖之屋2，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4516": {
       "catalog_id": null,
@@ -42087,8 +42113,9 @@
       "keys": [
         "t:雨果的恐怖之屋3|None"
       ],
-      "status": "active",
-      "title_zh": "雨果的恐怖之屋3"
+      "status": "rejected",
+      "title_zh": "雨果的恐怖之屋3",
+      "reject_reason": "out of scope: 雨果的恐怖之屋3，全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4517": {
       "catalog_id": null,
