@@ -51,4 +51,12 @@ export const COMPANY_ALIASES = {
   旭光資訊: '旭光',
   唐山科技: '唐山',
   玩酷小組: '玩酷',
+  // 西洋廠商拼寫/簡稱整合（同公司不同寫法）。canonical 取通行寫法；
+  // Infograms 為誤拼，canonical 用正確的 Infogrames。
+  Infograms: 'Infogrames',
+  'Electronic Arts': 'EA',
+  'Beam Software': 'Beam',
+  'Raven Software': 'Raven',
+  Team17: 'Team 17',
+  'Ocean Software': 'Ocean',
 };
