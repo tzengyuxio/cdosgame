@@ -9918,8 +9918,9 @@
       "keys": [
         "cat:SCD1912"
       ],
-      "status": "active",
-      "title_zh": "國際超級車賽"
+      "status": "rejected",
+      "title_zh": "國際超級車賽",
+      "reject_reason": "out of scope: 國際超級車賽（1996，Magnetic Fields），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1058": {
       "catalog_id": "SCD1743",
@@ -11233,8 +11234,9 @@
       "keys": [
         "cat:SCD1532"
       ],
-      "status": "active",
-      "title_zh": "泥地摩托"
+      "status": "rejected",
+      "title_zh": "泥地摩托",
+      "reject_reason": "out of scope: 泥地摩托（1996，Graftgold），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1198": {
       "catalog_id": "SCD1702",
@@ -12336,8 +12338,9 @@
       "keys": [
         "cat:SCD1917"
       ],
-      "status": "active",
-      "title_zh": "死亡拉力賽"
+      "status": "rejected",
+      "title_zh": "死亡拉力賽",
+      "reject_reason": "out of scope: 死亡拉力賽（1996，Remedy），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1314": {
       "catalog_id": null,
@@ -13645,8 +13648,9 @@
       "keys": [
         "cat:SCD2547"
       ],
-      "status": "active",
-      "title_zh": "美國職棒大聯盟97"
+      "status": "rejected",
+      "title_zh": "美國職棒大聯盟97",
+      "reject_reason": "out of scope: 美國職棒大聯盟97（1996，EA），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1455": {
       "catalog_id": "SCD2548",
@@ -32932,8 +32936,9 @@
       "keys": [
         "cat:SCD1916"
       ],
-      "status": "active",
-      "title_zh": "狂暴競速賽"
+      "status": "rejected",
+      "title_zh": "狂暴競速賽",
+      "reject_reason": "out of scope: 狂暴競速賽（1996，Hexerei），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3518": {
       "catalog_id": "SCD1761",
@@ -32950,8 +32955,9 @@
       "keys": [
         "cat:SCD1915"
       ],
-      "status": "active",
-      "title_zh": "狂熱車賽"
+      "status": "rejected",
+      "title_zh": "狂熱車賽",
+      "reject_reason": "out of scope: 狂熱車賽（1996，Tangor），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3520": {
       "catalog_id": "SCD0848",
@@ -33998,8 +34004,9 @@
       "keys": [
         "cat:SCD0009"
       ],
-      "status": "active",
-      "title_zh": "驚爆實感賽車2"
+      "status": "rejected",
+      "title_zh": "驚爆實感賽車2",
+      "reject_reason": "out of scope: 驚爆實感賽車2（1996，Milestone），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3633": {
       "catalog_id": "SCD0010",
