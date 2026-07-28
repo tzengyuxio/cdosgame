@@ -47776,8 +47776,9 @@
       "keys": [
         "t:摩天大樓|OpenBook Co."
       ],
-      "status": "active",
-      "title_zh": "摩天大樓"
+      "status": "merged",
+      "title_zh": "摩天大樓",
+      "merged_into": "cdg-3181"
     },
     "cdg-5124": {
       "catalog_id": null,
