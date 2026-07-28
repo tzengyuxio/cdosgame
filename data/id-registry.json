@@ -7870,8 +7870,9 @@
       "keys": [
         "cat:SCD1543"
       ],
-      "status": "active",
-      "title_zh": "自行車隊經理"
+      "status": "rejected",
+      "title_zh": "自行車隊經理",
+      "reject_reason": "out of scope: 自行車隊經理 Cycling Manager（2001，Cyanide），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0845": {
       "catalog_id": null,
@@ -8847,8 +8848,9 @@
       "keys": [
         "cat:SCD1505"
       ],
-      "status": "active",
-      "title_zh": "吃豆人女士：探索黃金迷宮"
+      "status": "rejected",
+      "title_zh": "吃豆人女士：探索黃金迷宮",
+      "reject_reason": "out of scope: 吃豆人女士：探索黃金迷宮 Ms. Pac-Man: Quest for the Golden Maze（2001），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0950": {
       "catalog_id": "Z067",
@@ -12066,8 +12068,9 @@
       "keys": [
         "cat:SCD0788"
       ],
-      "status": "active",
-      "title_zh": "亞特蘭提斯5：神聖遺產"
+      "status": "rejected",
+      "title_zh": "亞特蘭提斯5：神聖遺產",
+      "reject_reason": "out of scope: 亞特蘭提斯5：神聖遺產 The Secrets of Atlantis（2006，AIE），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1291": {
       "catalog_id": null,
@@ -14904,8 +14907,9 @@
       "keys": [
         "cat:SCD1390"
       ],
-      "status": "active",
-      "title_zh": "侏儸紀公園：恐龍戰役"
+      "status": "rejected",
+      "title_zh": "侏儸紀公園：恐龍戰役",
+      "reject_reason": "out of scope: 侏儸紀公園：恐龍戰役 Jurassic Park: Dinosaur Battles（2002），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1599": {
       "catalog_id": "SCD1391",
@@ -14913,8 +14917,9 @@
       "keys": [
         "cat:SCD1391"
       ],
-      "status": "active",
-      "title_zh": "侏儸紀公園3：恐龍防御者"
+      "status": "rejected",
+      "title_zh": "侏儸紀公園3：恐龍防御者",
+      "reject_reason": "out of scope: 侏儸紀公園3：恐龍防御者 Jurassic Park 3: Dino Defender（2001），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1600": {
       "catalog_id": "SCD1392",
@@ -15752,8 +15757,9 @@
       "keys": [
         "cat:SCD1268"
       ],
-      "status": "active",
-      "title_zh": "再戰毀滅公爵"
+      "status": "rejected",
+      "title_zh": "再戰毀滅公爵",
+      "reject_reason": "out of scope: 再戰毀滅公爵 Duke Nukem: Manhattan Project（2002，Sunstorm／3D Realms），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1690": {
       "catalog_id": null,
@@ -18174,8 +18180,9 @@
       "keys": [
         "cat:SCD2761"
       ],
-      "status": "active",
-      "title_zh": "異次元啟示錄"
+      "status": "rejected",
+      "title_zh": "異次元啟示錄",
+      "reject_reason": "out of scope: 異次元啟示錄（2004，K-D Lab／1C），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1952": {
       "catalog_id": "SCD2450",
@@ -22634,8 +22641,9 @@
       "keys": [
         "cat:SCD0950"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰：Legacy（2006，Mad Doc），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2435": {
       "catalog_id": "SCD0943",
@@ -26896,8 +26904,9 @@
       "keys": [
         "cat:SCD0937"
       ],
-      "status": "active",
-      "title_zh": "銀河前哨"
+      "status": "rejected",
+      "title_zh": "銀河前哨",
+      "reject_reason": "out of scope: 銀河前哨 Star Trek: Deep Space Nine – Dominion Wars（2001，Gizmo），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2890": {
       "catalog_id": "SCD0935",
@@ -29257,8 +29266,9 @@
       "keys": [
         "cat:SCD1904"
       ],
-      "status": "active",
-      "title_zh": "極限模擬飛行"
+      "status": "rejected",
+      "title_zh": "極限模擬飛行",
+      "reject_reason": "out of scope: 極限模擬飛行 Xtreme Air Racing（2001，Victory），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3144": {
       "catalog_id": "SCD1196",
@@ -30317,8 +30327,9 @@
       "keys": [
         "cat:SCD2755"
       ],
-      "status": "active",
-      "title_zh": "火線命令"
+      "status": "rejected",
+      "title_zh": "火線命令",
+      "reject_reason": "out of scope: 火線命令（2004，ValuSoft），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3258": {
       "catalog_id": "SCD1661",
@@ -31896,8 +31907,9 @@
       "keys": [
         "cat:SCD1981"
       ],
-      "status": "active",
-      "title_zh": "英倫霸主3"
+      "status": "rejected",
+      "title_zh": "英倫霸主3",
+      "reject_reason": "out of scope: 英倫霸主3 Lords of the Realm 3（2004，Impressions Games），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3428": {
       "catalog_id": "SCD0242",
@@ -32694,8 +32706,9 @@
       "keys": [
         "cat:SCD1213"
       ],
-      "status": "active",
-      "title_zh": "特洛伊木馬屠城記"
+      "status": "rejected",
+      "title_zh": "特洛伊木馬屠城記",
+      "reject_reason": "out of scope: 特洛伊木馬屠城記 Battle for Troy（2004，Zono），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3514": {
       "catalog_id": "SCD1226,SCD1228",
@@ -33532,8 +33545,9 @@
       "keys": [
         "cat:1CD2505"
       ],
-      "status": "active",
-      "title_zh": "鐵血悍將：鐵甲戰略"
+      "status": "rejected",
+      "title_zh": "鐵血悍將：鐵甲戰略",
+      "reject_reason": "out of scope: 鐵血悍將：鐵甲戰略 Parkan: Iron Strategy（2001，Nikita），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3605": {
       "catalog_id": "SWT087,SCD2164",
@@ -48453,8 +48467,9 @@
       "keys": [
         "t:超級立體泡泡|Zombie"
       ],
-      "status": "active",
-      "title_zh": "超級立體泡泡"
+      "status": "rejected",
+      "title_zh": "超級立體泡泡",
+      "reject_reason": "out of scope: 超級立體泡泡 Super Bubble Pop（2002，Zombie），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-5229": {
       "catalog_id": null,
