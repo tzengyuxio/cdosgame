@@ -8139,8 +8139,9 @@
       "keys": [
         "cat:Z087,SCD1891"
       ],
-      "status": "active",
-      "title_zh": "街機撞球"
+      "status": "rejected",
+      "title_zh": "街機撞球",
+      "reject_reason": "out of scope: 街機撞球（1994，Team 17），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0870": {
       "catalog_id": "SCD1911",
@@ -10239,8 +10240,9 @@
       "keys": [
         "cat:SCD1914"
       ],
-      "status": "active",
-      "title_zh": "威力賽車"
+      "status": "rejected",
+      "title_zh": "威力賽車",
+      "reject_reason": "out of scope: 威力賽車（1994，Rage），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1093": {
       "catalog_id": "SCD2055",
@@ -12345,8 +12347,9 @@
       "keys": [
         "t:死亡賽車|InSide Team"
       ],
-      "status": "active",
-      "title_zh": "死亡賽車"
+      "status": "rejected",
+      "title_zh": "死亡賽車",
+      "reject_reason": "out of scope: 死亡賽車（1994，InSide Team），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1316": {
       "catalog_id": "SCD0819",
@@ -15041,8 +15044,9 @@
       "keys": [
         "t:俄羅斯拼盤|MIR Dialogue"
       ],
-      "status": "active",
-      "title_zh": "俄羅斯拼盤"
+      "status": "rejected",
+      "title_zh": "俄羅斯拼盤",
+      "reject_reason": "out of scope: 俄羅斯拼盤（1993，MIR Dialogue），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1607": {
       "catalog_id": "SWE037",
@@ -15087,8 +15091,9 @@
       "keys": [
         "t:俄羅斯方塊專業版|Michiel Ouwehand"
       ],
-      "status": "active",
-      "title_zh": "俄羅斯方塊專業版"
+      "status": "rejected",
+      "title_zh": "俄羅斯方塊專業版",
+      "reject_reason": "out of scope: 俄羅斯方塊專業版（1993，Michiel Ouwehand），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1612": {
       "catalog_id": "SCD0334",
@@ -16115,8 +16120,9 @@
       "keys": [
         "cat:Z046,SCD1260"
       ],
-      "status": "active",
-      "title_zh": "快打旋風2"
+      "status": "rejected",
+      "title_zh": "快打旋風2",
+      "reject_reason": "out of scope: 快打旋風2（1993，Capcom），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1722": {
       "catalog_id": "SCD1262",
@@ -16471,8 +16477,9 @@
       "keys": [
         "cat:SCD1394"
       ],
-      "status": "active",
-      "title_zh": "恐龍公園大亨"
+      "status": "rejected",
+      "title_zh": "恐龍公園大亨",
+      "reject_reason": "out of scope: 恐龍公園大亨（1993，Manley & Associates），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1760": {
       "catalog_id": null,
@@ -16480,8 +16487,9 @@
       "keys": [
         "t:恐龍物語之回到未來|Rozner Labs"
       ],
-      "status": "active",
-      "title_zh": "恐龍物語之回到未來"
+      "status": "rejected",
+      "title_zh": "恐龍物語之回到未來",
+      "reject_reason": "out of scope: 恐龍物語之回到未來（1993，Rozner Labs），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1761": {
       "catalog_id": "SCD1221",
@@ -20784,8 +20792,9 @@
       "keys": [
         "cat:SCD1712"
       ],
-      "status": "active",
-      "title_zh": "超級越野賽車1"
+      "status": "rejected",
+      "title_zh": "超級越野賽車1",
+      "reject_reason": "out of scope: 超級越野賽車1（1993，Magnetic Fields／Pixelkraft），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2224": {
       "catalog_id": "SCD1713",
