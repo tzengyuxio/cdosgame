@@ -18,6 +18,18 @@ export const RELEASE_LABELS = {
 
 export const releaseLabel = v => RELEASE_LABELS[v] || '';
 
+// Where `year` comes from when it is not the Taiwan release year (the default).
+// tw_release/null render nothing — only a non-default basis needs flagging.
+// Wording matches the 發行年 table on /about/conventions.
+export const YEAR_BASIS_LABELS = {
+  original: '原版首發年',
+  original_platform: '原版某平台年',
+  award_or_preview: '獲獎／曝光年',
+  unknown: '來由不明',
+};
+
+export const yearBasisLabel = v => YEAR_BASIS_LABELS[v] || '';
+
 // Genre taxonomy v2 — see docs/genre-taxonomy.md. Frontmatter stores the stable
 // KEY (e.g. SLG); the Chinese display name and group membership are derived here,
 // so renaming a label or regrouping never touches content. Object key order is

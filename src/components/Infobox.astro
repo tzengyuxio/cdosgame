@@ -1,18 +1,20 @@
 ---
 import { companyUrl, genreUrl, yearUrl, seriesUrl, teamUrl } from '../lib/links.js';
-import { locLabel, genreLabel } from '../lib/labels.js';
+import { locLabel, genreLabel, yearBasisLabel } from '../lib/labels.js';
 const { g } = Astro.props;
 const devs = g.developer ? g.developer.split(',').map(s => s.trim()).filter(Boolean) : [];
 const pubs = g.publisher_tw || [];
 const codes = (g.release_codes || []).map(rc => `${rc.issuer} ${rc.code}`).join('、');
 const editions = (g.editions || []).map(e => e.name).join('、');
+// 發行年預設記台灣發行年；非預設來由與約略年都在 infobox 標出（見 /about/conventions）
+const basis = yearBasisLabel(g.year_basis);
 ---
 <div class="infobox-wrap">
   <table class="infobox">
     {devs.length > 0 && <tr><th>開發</th><td>{devs.map((d, i) => <>{i > 0 && '、'}<a class="lk" href={companyUrl(d)}>{d}</a></>)}</td></tr>}
     {g.dev_team && <tr><th>開發團隊</th><td><a class="lk" href={teamUrl(g.dev_team)}>{g.dev_team}</a></td></tr>}
     {pubs.length > 0 && <tr><th>台灣發行</th><td>{pubs.map((p, i) => <>{i > 0 && '、'}<a class="lk" href={companyUrl(p)}>{p}</a></>)}</td></tr>}
-    {g.year && <tr><th>發行年</th><td>{g.year_precision === 'approximate' && <span class="approx" title="推定年份，非確切發行年">約 </span>}<a class="lk" href={yearUrl(g.year)}>{g.year}</a></td></tr>}
+    {g.year && <tr><th>發行年</th><td>{g.year_precision === 'approximate' && <span class="year-note" title="約略年，非確切發行年">約 </span>}<a class="lk" href={yearUrl(g.year)}>{g.year}</a>{basis && <span class="year-note" title="此年份非台灣發行年">（{basis}）</span>}</td></tr>}
     {g.genre && <tr><th>類型</th><td><a class="lk" href={genreUrl(g.genre)}>{genreLabel(g.genre)}</a></td></tr>}
     {g.series && <tr><th>系列</th><td><a class="lk" href={seriesUrl(g.series)}>{g.series}</a></td></tr>}
     {g.adaptation && <tr><th>改編自</th><td>{g.adaptation.medium}《{g.adaptation.title}》{g.adaptation.author && `（${g.adaptation.author}）`}</td></tr>}
