@@ -13498,8 +13498,9 @@
       "keys": [
         "cat:SCD0137"
       ],
-      "status": "active",
-      "title_zh": "空中司令"
+      "status": "rejected",
+      "title_zh": "空中司令",
+      "reject_reason": "out of scope: 空中司令（2001，Shrapnel Games），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1446": {
       "catalog_id": "SCD1199",
@@ -17350,8 +17351,9 @@
       "keys": [
         "cat:SCD0698"
       ],
-      "status": "active",
-      "title_zh": "神龍紀元"
+      "status": "rejected",
+      "title_zh": "神龍紀元",
+      "reject_reason": "out of scope: 神龍紀元（2001，Ubisoft），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1861": {
       "catalog_id": null,
@@ -19427,8 +19429,9 @@
       "keys": [
         "cat:SCD1483"
       ],
-      "status": "active",
-      "title_zh": "終極遊樂園"
+      "status": "rejected",
+      "title_zh": "終極遊樂園",
+      "reject_reason": "out of scope: 終極遊樂園 Ultimate Ride（2001，Gigawatt），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2086": {
       "catalog_id": "SCD2665",
@@ -22615,8 +22618,9 @@
       "keys": [
         "cat:SCD0945"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰：Armada 2（2001，Mad Doc），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2432": {
       "catalog_id": "SCD0942",
@@ -22633,8 +22637,9 @@
       "keys": [
         "cat:SCD0948"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰：Away Team（2001，Reflexive），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2434": {
       "catalog_id": "SCD0950",
