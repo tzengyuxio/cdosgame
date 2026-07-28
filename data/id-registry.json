@@ -28805,8 +28805,9 @@
       "keys": [
         "cat:SCD1744"
       ],
-      "status": "active",
-      "title_zh": "格蘭匹治大賽卡雷拉站"
+      "status": "rejected",
+      "title_zh": "格蘭匹治大賽卡雷拉站",
+      "reject_reason": "out of scope: 格蘭匹治大賽卡雷拉站（2001，IG），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3092": {
       "catalog_id": "SCD1288",
@@ -30840,8 +30841,9 @@
       "keys": [
         "cat:SCD2652"
       ],
-      "status": "active",
-      "title_zh": "熱血棒球"
+      "status": "rejected",
+      "title_zh": "熱血棒球",
+      "reject_reason": "out of scope: 熱血棒球（2002，Humongous），2000 年後 Windows 外文款無正文 stub"
     },
     "cdg-3310": {
       "catalog_id": "SCD0533",
