@@ -72,6 +72,7 @@ export const COMPANY_ALIASES = {
   Sega: 'SEGA',
   'Strategic Studies Group': 'SSG',
   SimTex: 'Simtex',
-  // 智冠旗下工作室，全名紅螞蟻工作室；比照上面「全名→通行簡稱」合併。
-  紅螞蟻工作室: '紅螞蟻',
+  // 智冠旗下工作室：此處反過來以全名為 canonical（不套「全名→簡稱」慣例），
+  // 「工作室」三字正好點出它是團隊而非獨立公司。
+  紅螞蟻: '紅螞蟻工作室',
 };
