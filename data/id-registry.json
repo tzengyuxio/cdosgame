@@ -1230,8 +1230,9 @@
       "keys": [
         "cat:SCD0104"
       ],
-      "status": "active",
-      "title_zh": "WIN麻將"
+      "status": "rejected",
+      "title_zh": "WIN麻將",
+      "reject_reason": "out of scope: WIN麻將（1999，捷友），Windows 麻將小品、無正文"
     },
     "cdg-0130": {
       "catalog_id": null,
@@ -7866,8 +7867,9 @@
       "keys": [
         "cat:SCD0744"
       ],
-      "status": "active",
-      "title_zh": "自由與榮耀"
+      "status": "rejected",
+      "title_zh": "自由與榮耀",
+      "reject_reason": "out of scope: 自由與榮耀（1999，洪恩軟件），中國大陸開發之簡體中文 Windows 作品、無台灣發行足跡"
     },
     "cdg-0842": {
       "catalog_id": "SCD1073",
@@ -8135,8 +8137,9 @@
       "keys": [
         "cat:SCD1911"
       ],
-      "status": "active",
-      "title_zh": "街頭小撬車大賽"
+      "status": "rejected",
+      "title_zh": "街頭小撬車大賽",
+      "reject_reason": "out of scope: 街頭小撬車大賽（1999，nFusion），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0871": {
       "catalog_id": null,
@@ -8256,8 +8259,9 @@
       "keys": [
         "cat:SCD2490"
       ],
-      "status": "active",
-      "title_zh": "裝甲動員令：無畏戰車"
+      "status": "rejected",
+      "title_zh": "裝甲動員令：無畏戰車",
+      "reject_reason": "out of scope: 裝甲動員令：無畏戰車（1999，Zipper），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0884": {
       "catalog_id": "SCD2144",
@@ -8984,8 +8988,9 @@
       "keys": [
         "cat:SCD1683"
       ],
-      "status": "active",
-      "title_zh": "名車勒芒24小時耐力賽"
+      "status": "rejected",
+      "title_zh": "名車勒芒24小時耐力賽",
+      "reject_reason": "out of scope: 名車勒芒24小時耐力賽（1999，Infogrames），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0962": {
       "catalog_id": "SWE019",
@@ -9085,8 +9090,9 @@
       "keys": [
         "cat:SCD1682"
       ],
-      "status": "active",
-      "title_zh": "名車越野大賽3"
+      "status": "rejected",
+      "title_zh": "名車越野大賽3",
+      "reject_reason": "out of scope: 名車越野大賽3（1999，Infogrames），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0973": {
       "catalog_id": "SCD0126",
@@ -9352,8 +9358,9 @@
       "keys": [
         "cat:SCD1850"
       ],
-      "status": "active",
-      "title_zh": "哈雷戴維森：穿越美國"
+      "status": "rejected",
+      "title_zh": "哈雷戴維森：穿越美國",
+      "reject_reason": "out of scope: 哈雷戴維森：穿越美國（1999，Canopy／G2M），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1001": {
       "catalog_id": "SCD1851",
@@ -9721,8 +9728,9 @@
       "keys": [
         "cat:SCD1718"
       ],
-      "status": "active",
-      "title_zh": "四驅車大賽1"
+      "status": "rejected",
+      "title_zh": "四驅車大賽1",
+      "reject_reason": "out of scope: 四驅車大賽1（1999，ATD），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1040": {
       "catalog_id": "SCD1719",
@@ -11221,8 +11229,9 @@
       "keys": [
         "cat:SCD1703"
       ],
-      "status": "active",
-      "title_zh": "泥道賽車"
+      "status": "rejected",
+      "title_zh": "泥道賽車",
+      "reject_reason": "out of scope: 泥道賽車（1999，Ratbag），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1200": {
       "catalog_id": "SCD1704",
@@ -24012,8 +24021,9 @@
       "keys": [
         "cat:SCD1382"
       ],
-      "status": "active",
-      "title_zh": "連環殺手"
+      "status": "rejected",
+      "title_zh": "連環殺手",
+      "reject_reason": "out of scope: 連環殺手（1999，VCC），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2576": {
       "catalog_id": "SWE254",
@@ -24825,8 +24835,9 @@
       "keys": [
         "cat:SCD1650"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓2000"
+      "status": "rejected",
+      "title_zh": "雲斯頓2000",
+      "reject_reason": "out of scope: 雲斯頓2000（1999，Stormfront），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2659": {
       "catalog_id": "SCD1653",
@@ -24883,8 +24894,9 @@
       "keys": [
         "cat:SCD1655"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車3"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車3",
+      "reject_reason": "out of scope: 雲斯頓賽車3（1999，Papyrus），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2665": {
       "catalog_id": "SCD1656",
@@ -24901,8 +24913,9 @@
       "keys": [
         "cat:SCD1637"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車傳奇"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車傳奇",
+      "reject_reason": "out of scope: 雲斯頓賽車傳奇（1999，Papyrus），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2667": {
       "catalog_id": "SCD1638",
@@ -24919,8 +24932,9 @@
       "keys": [
         "cat:SCD1636"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車進化"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車進化",
+      "reject_reason": "out of scope: 雲斯頓賽車進化（1999，Stormfront），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2669": {
       "catalog_id": "SSG025",
