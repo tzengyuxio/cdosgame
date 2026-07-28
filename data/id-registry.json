@@ -4982,8 +4982,9 @@
       "keys": [
         "cat:Z070"
       ],
-      "status": "active",
-      "title_zh": "小精靈軌道賽車"
+      "status": "rejected",
+      "title_zh": "小精靈軌道賽車",
+      "reject_reason": "out of scope: 小精靈軌道賽車（1995，Mad Data／WSP），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0532": {
       "catalog_id": "SWE263",
@@ -6026,8 +6027,9 @@
       "keys": [
         "cat:SCD1918"
       ],
-      "status": "active",
-      "title_zh": "世界巡迴公路賽"
+      "status": "rejected",
+      "title_zh": "世界巡迴公路賽",
+      "reject_reason": "out of scope: 世界巡迴公路賽（1995，Teacy），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0644": {
       "catalog_id": null,
@@ -6513,8 +6515,9 @@
       "keys": [
         "cat:SCD1929"
       ],
-      "status": "active",
-      "title_zh": "印第大賽車2"
+      "status": "rejected",
+      "title_zh": "印第大賽車2",
+      "reject_reason": "out of scope: 印第大賽車2（1995，Papyrus），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0695": {
       "catalog_id": "SCD0747",
@@ -6549,8 +6552,9 @@
       "keys": [
         "cat:SCD1758"
       ],
-      "status": "active",
-      "title_zh": "原始人大賽車"
+      "status": "rejected",
+      "title_zh": "原始人大賽車",
+      "reject_reason": "out of scope: 原始人大賽車（1995，Core Design），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0699": {
       "catalog_id": "SCD0387",
@@ -6586,8 +6590,9 @@
       "keys": [
         "cat:SCD0822"
       ],
-      "status": "active",
-      "title_zh": "叛艦迷航正義之旅"
+      "status": "rejected",
+      "title_zh": "叛艦迷航正義之旅",
+      "reject_reason": "out of scope: 叛艦迷航正義之旅（1995，Midnight），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0703": {
       "catalog_id": "JXD021",
@@ -7038,8 +7043,9 @@
       "keys": [
         "cat:SCD1927"
       ],
-      "status": "active",
-      "title_zh": "立體狂飆"
+      "status": "rejected",
+      "title_zh": "立體狂飆",
+      "reject_reason": "out of scope: 立體狂飆（1995，Refinery），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0752": {
       "catalog_id": "SWE224",
@@ -7504,8 +7510,9 @@
       "keys": [
         "cat:SCD2315"
       ],
-      "status": "active",
-      "title_zh": "完全失真"
+      "status": "rejected",
+      "title_zh": "完全失真",
+      "reject_reason": "out of scope: 完全失真（1995，Warp），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0802": {
       "catalog_id": "SCD0638,SCD0636",
@@ -7700,8 +7707,9 @@
       "keys": [
         "cat:SCD2444"
       ],
-      "status": "active",
-      "title_zh": "百慕達"
+      "status": "rejected",
+      "title_zh": "百慕達",
+      "reject_reason": "out of scope: 百慕達（1995，Century），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0823": {
       "catalog_id": "SCD2793",
@@ -18910,8 +18918,9 @@
       "keys": [
         "cat:Z088"
       ],
-      "status": "active",
-      "title_zh": "微型賽車1"
+      "status": "rejected",
+      "title_zh": "微型賽車1",
+      "reject_reason": "out of scope: 微型賽車1（1994，Codemasters），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2022": {
       "catalog_id": "SCD1909",
@@ -19533,8 +19542,9 @@
       "keys": [
         "t:終極雙陸棋|Sentient"
       ],
-      "status": "active",
-      "title_zh": "終極雙陸棋"
+      "status": "rejected",
+      "title_zh": "終極雙陸棋",
+      "reject_reason": "out of scope: 終極雙陸棋（1994，Sentient），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2088": {
       "catalog_id": "SCD1574",
@@ -20783,8 +20793,9 @@
       "keys": [
         "cat:SCD1711"
       ],
-      "status": "active",
-      "title_zh": "超級越野賽車"
+      "status": "rejected",
+      "title_zh": "超級越野賽車",
+      "reject_reason": "out of scope: 超級越野賽車（1994，InSide Team），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2223": {
       "catalog_id": "SCD1712",
@@ -26289,8 +26300,9 @@
       "keys": [
         "cat:SCD2386"
       ],
-      "status": "active",
-      "title_zh": "瘋狗2：失落的黃金"
+      "status": "rejected",
+      "title_zh": "瘋狗2：失落的黃金",
+      "reject_reason": "out of scope: 瘋狗2：失落的黃金（1994，ALG），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2811": {
       "catalog_id": "SCD1667",
@@ -28188,8 +28200,9 @@
       "keys": [
         "cat:SCD0665"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃95"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃95",
+      "reject_reason": "out of scope: 勁爆美國職籃95（1994，EA），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3013": {
       "catalog_id": "SCD0666",
@@ -28197,8 +28210,9 @@
       "keys": [
         "cat:SCD0666"
       ],
-      "status": "active",
-      "title_zh": "勁爆美國職籃96"
+      "status": "rejected",
+      "title_zh": "勁爆美國職籃96",
+      "reject_reason": "out of scope: 勁爆美國職籃96（1995，EA），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3014": {
       "catalog_id": "SCD0667",
@@ -28563,8 +28577,9 @@
       "keys": [
         "t:接龍|Microsoft"
       ],
-      "status": "active",
-      "title_zh": "接龍"
+      "status": "rejected",
+      "title_zh": "接龍",
+      "reject_reason": "out of scope: 接龍（1995，Microsoft），Windows 隨附紙牌小品、無台灣獨立發行足跡"
     },
     "cdg-3053": {
       "catalog_id": "SCD1908",
@@ -29048,8 +29063,9 @@
       "keys": [
         "cat:Z069"
       ],
-      "status": "active",
-      "title_zh": "森林小精靈"
+      "status": "rejected",
+      "title_zh": "森林小精靈",
+      "reject_reason": "out of scope: 森林小精靈（1994，CAPS），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3105": {
       "catalog_id": "SCD0419",
@@ -38494,8 +38510,9 @@
       "keys": [
         "t:地獄之吼|None"
       ],
-      "status": "active",
-      "title_zh": "地獄之吼"
+      "status": "rejected",
+      "title_zh": "地獄之吼",
+      "reject_reason": "out of scope: 地獄之吼（1994），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4121": {
       "catalog_id": null,
@@ -38531,8 +38548,9 @@
       "keys": [
         "t:異形殺手|None"
       ],
-      "status": "active",
-      "title_zh": "異形殺手"
+      "status": "rejected",
+      "title_zh": "異形殺手",
+      "reject_reason": "out of scope: 異形殺手（1994），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4125": {
       "catalog_id": null,
@@ -38961,8 +38979,9 @@
       "keys": [
         "t:魔動王子|None"
       ],
-      "status": "active",
-      "title_zh": "魔動王子"
+      "status": "rejected",
+      "title_zh": "魔動王子",
+      "reject_reason": "out of scope: 魔動王子（1994），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4171": {
       "catalog_id": "511000035",
