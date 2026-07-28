@@ -13897,8 +13897,9 @@
       "keys": [
         "cat:SCD0415"
       ],
-      "status": "active",
-      "title_zh": "美少女戰士麻將"
+      "status": "rejected",
+      "title_zh": "美少女戰士麻將",
+      "reject_reason": "out of scope: 美少女戰士麻將（1993，日本物產／創意科技代理），Windows 平台中文化款、代理商查無 DOS 時代相關足跡"
     },
     "cdg-1484": {
       "catalog_id": null,
