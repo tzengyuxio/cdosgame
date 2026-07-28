@@ -2636,8 +2636,9 @@
       "keys": [
         "cat:SCD0172"
       ],
-      "status": "active",
-      "title_zh": "上天下地闖通關"
+      "status": "rejected",
+      "title_zh": "上天下地闖通關",
+      "reject_reason": "out of scope: 上天下地闖通關（1998，正謙），兒童知識學習向 edutainment，非收錄範圍"
     },
     "cdg-0281": {
       "catalog_id": "SCD1776",
@@ -6632,8 +6633,9 @@
       "keys": [
         "cat:SCD2276"
       ],
-      "status": "active",
-      "title_zh": "多多筆2：森林遊樂園"
+      "status": "rejected",
+      "title_zh": "多多筆2：森林遊樂園",
+      "reject_reason": "out of scope: 多多筆2：森林遊樂園（1997，大方廣資訊／碁峰代理），兒童學習向 edutainment，非收錄範圍"
     },
     "cdg-0708": {
       "catalog_id": "SCD0202",
@@ -10199,8 +10201,9 @@
       "keys": [
         "cat:SCD2112"
       ],
-      "status": "active",
-      "title_zh": "妮娜的願望"
+      "status": "rejected",
+      "title_zh": "妮娜的願望",
+      "reject_reason": "out of scope: 妮娜的願望（1998，翻新資訊／鉅盛代理），兒童向 edutainment，非收錄範圍"
     },
     "cdg-1089": {
       "catalog_id": null,
@@ -12517,8 +12520,9 @@
       "keys": [
         "cat:SCD0141"
       ],
-      "status": "active",
-      "title_zh": "阿凡提尋寶歷險"
+      "status": "rejected",
+      "title_zh": "阿凡提尋寶歷險",
+      "reject_reason": "out of scope: 阿凡提尋寶歷險（1997，鉅盛），兒童向 edutainment，非收錄範圍"
     },
     "cdg-1335": {
       "catalog_id": "SCD0261",
@@ -13069,8 +13073,9 @@
       "keys": [
         "cat:SCD2187"
       ],
-      "status": "active",
-      "title_zh": "勇闖侏儸紀"
+      "status": "rejected",
+      "title_zh": "勇闖侏儸紀",
+      "reject_reason": "out of scope: 勇闖侏儸紀（1997，豐騰科技），兒童知識學習向 edutainment，非收錄範圍"
     },
     "cdg-1395": {
       "catalog_id": "SCD0854",
@@ -14940,8 +14945,9 @@
       "keys": [
         "cat:SCD1030"
       ],
-      "status": "active",
-      "title_zh": "作曲家"
+      "status": "rejected",
+      "title_zh": "作曲家",
+      "reject_reason": "out of scope: 作曲家（1998，坦克軟體／勁源光碟代理），音樂創作學習軟體，非遊戲"
     },
     "cdg-1597": {
       "catalog_id": "SCD1389",
@@ -19956,8 +19962,9 @@
       "keys": [
         "cat:SCD2289"
       ],
-      "status": "active",
-      "title_zh": "繽紛故事王國1：三隻小豬"
+      "status": "rejected",
+      "title_zh": "繽紛故事王國1：三隻小豬",
+      "reject_reason": "out of scope: 繽紛故事王國1：三隻小豬（1996，聯合電子／新雅文化代理），兒童童話向 edutainment，非收錄範圍"
     },
     "cdg-2135": {
       "catalog_id": null,
@@ -20683,8 +20690,9 @@
       "keys": [
         "cat:SCD0794"
       ],
-      "status": "active",
-      "title_zh": "超級怪精靈"
+      "status": "rejected",
+      "title_zh": "超級怪精靈",
+      "reject_reason": "out of scope: 超級怪精靈（1998，Siria／中科代理），兒童向 edutainment，非收錄範圍"
     },
     "cdg-2214": {
       "catalog_id": "SSG019",
@@ -22909,8 +22917,9 @@
       "keys": [
         "cat:SCD2285"
       ],
-      "status": "active",
-      "title_zh": "智高推推樂"
+      "status": "rejected",
+      "title_zh": "智高推推樂",
+      "reject_reason": "out of scope: 智高推推樂（1998，鉅盛），兒童益智學習向 edutainment，非收錄範圍"
     },
     "cdg-2455": {
       "catalog_id": null,
@@ -25221,8 +25230,9 @@
       "keys": [
         "cat:SCD1148"
       ],
-      "status": "active",
-      "title_zh": "電腦奇幻屋"
+      "status": "rejected",
+      "title_zh": "電腦奇幻屋",
+      "reject_reason": "out of scope: 電腦奇幻屋（1997，巨璣），兒童向互動學習軟體，非收錄範圍"
     },
     "cdg-2697": {
       "catalog_id": "SWE179",
@@ -26554,8 +26564,9 @@
       "keys": [
         "cat:SCD2299"
       ],
-      "status": "active",
-      "title_zh": "蛋頭小子古堡尋奇"
+      "status": "rejected",
+      "title_zh": "蛋頭小子古堡尋奇",
+      "reject_reason": "out of scope: 蛋頭小子古堡尋奇（1997，包爾科技），兒童向 edutainment，非收錄範圍"
     },
     "cdg-2842": {
       "catalog_id": "SCD0993",
@@ -28662,8 +28673,9 @@
       "keys": [
         "cat:SCD2727"
       ],
-      "status": "active",
-      "title_zh": "未來零點"
+      "status": "rejected",
+      "title_zh": "未來零點",
+      "reject_reason": "out of scope: 未來零點（2000，Osis／地球村代理），互動學習向多媒體軟體，非遊戲"
     },
     "cdg-3066": {
       "catalog_id": "OCD0085",
