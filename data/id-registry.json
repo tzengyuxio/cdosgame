@@ -825,8 +825,9 @@
       "keys": [
         "cat:SCD2401"
       ],
-      "status": "active",
-      "title_zh": "ID4星際終結者"
+      "status": "rejected",
+      "title_zh": "ID4星際終結者",
+      "reject_reason": "out of scope: ID4星際終結者（1997，Radical），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0088": {
       "catalog_id": "SCD1300",
@@ -2839,8 +2840,9 @@
       "keys": [
         "cat:OCD0030,SCD0420"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之四子棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之四子棋篇",
+      "reject_reason": "out of scope: 中國象棋之四子棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0304": {
       "catalog_id": "OCD0030\nSCD0420,SCD0447",
@@ -2848,8 +2850,9 @@
       "keys": [
         "cat:OCD0030\nSCD0420,SCD0447"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之五子棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之五子棋篇",
+      "reject_reason": "out of scope: 中國象棋之五子棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0305": {
       "catalog_id": "OCD0030\nSCD0420,SCD0447",
@@ -2857,8 +2860,9 @@
       "keys": [
         "cat:OCD0030\nSCD0420,SCD0447#2"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之西洋棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之西洋棋篇",
+      "reject_reason": "out of scope: 中國象棋之西洋棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0306": {
       "catalog_id": "OCD0030",
@@ -2875,8 +2879,9 @@
       "keys": [
         "cat:OCD0030,SCD0420#2"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之英式西洋棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之英式西洋棋篇",
+      "reject_reason": "out of scope: 中國象棋之英式西洋棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0308": {
       "catalog_id": "OCD0030,SCD0420",
@@ -2884,8 +2889,9 @@
       "keys": [
         "cat:OCD0030,SCD0420#3"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之圍棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之圍棋篇",
+      "reject_reason": "out of scope: 中國象棋之圍棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0309": {
       "catalog_id": "OCD0030\nSCD0420,SCD0447",
@@ -2893,8 +2899,9 @@
       "keys": [
         "cat:OCD0030\nSCD0420,SCD0447#3"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之象棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之象棋篇",
+      "reject_reason": "out of scope: 中國象棋之象棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0310": {
       "catalog_id": "SCD0420",
@@ -2911,8 +2918,9 @@
       "keys": [
         "cat:OCD0030,SCD0420#4"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之黑白棋篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之黑白棋篇",
+      "reject_reason": "out of scope: 中國象棋之黑白棋篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0312": {
       "catalog_id": "OCD0030\nSCD0420,SCD0447",
@@ -2920,8 +2928,9 @@
       "keys": [
         "cat:OCD0030\nSCD0420,SCD0447#4"
       ],
-      "status": "active",
-      "title_zh": "中國象棋之橋牌篇"
+      "status": "rejected",
+      "title_zh": "中國象棋之橋牌篇",
+      "reject_reason": "out of scope: 中國象棋之橋牌篇（1996，普威爾），Windows 3.1 棋類小品合輯分項、無正文"
     },
     "cdg-0313": {
       "catalog_id": null,
@@ -2958,8 +2967,9 @@
       "keys": [
         "t:中文輸入法練習|Microsoft"
       ],
-      "status": "active",
-      "title_zh": "中文輸入法練習"
+      "status": "rejected",
+      "title_zh": "中文輸入法練習",
+      "reject_reason": "out of scope: 中文輸入法練習（1995，Microsoft），輸入法練習工具軟體，非遊戲"
     },
     "cdg-0317": {
       "catalog_id": "SCD2101",
@@ -7045,8 +7055,9 @@
       "keys": [
         "cat:SCD2115"
       ],
-      "status": "active",
-      "title_zh": "童話大進擊"
+      "status": "rejected",
+      "title_zh": "童話大進擊",
+      "reject_reason": "out of scope: 童話大進擊（1995，光復），兒童向 Windows edutainment，非收錄範圍"
     },
     "cdg-0756": {
       "catalog_id": "SWT158,SCD2086",
@@ -12636,8 +12647,9 @@
       "keys": [
         "cat:SCD2109"
       ],
-      "status": "active",
-      "title_zh": "阿毛家族系列：我愛恐龍"
+      "status": "rejected",
+      "title_zh": "阿毛家族系列：我愛恐龍",
+      "reject_reason": "out of scope: 阿毛家族系列：我愛恐龍（1995，昱泉），兒童向 Windows edutainment，非收錄範圍"
     },
     "cdg-1352": {
       "catalog_id": "SCD0144",
@@ -15598,8 +15610,9 @@
       "keys": [
         "t:傷心小棧|Microsoft"
       ],
-      "status": "active",
-      "title_zh": "傷心小棧"
+      "status": "rejected",
+      "title_zh": "傷心小棧",
+      "reject_reason": "out of scope: 傷心小棧（1995，Microsoft），Windows 隨附紙牌小品、無台灣獨立發行足跡"
     },
     "cdg-1672": {
       "catalog_id": null,
@@ -16315,8 +16328,9 @@
       "keys": [
         "cat:SCD1632"
       ],
-      "status": "active",
-      "title_zh": "怪獸大卡車"
+      "status": "rejected",
+      "title_zh": "怪獸大卡車",
+      "reject_reason": "out of scope: 怪獸大卡車（1997，Reflections），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1749": {
       "catalog_id": "SCD1396",
@@ -18413,8 +18427,9 @@
       "keys": [
         "cat:SCD0278"
       ],
-      "status": "active",
-      "title_zh": "鱷魚冒險記1"
+      "status": "rejected",
+      "title_zh": "鱷魚冒險記1",
+      "reject_reason": "out of scope: 鱷魚冒險記1（1997，Argonaut），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1976": {
       "catalog_id": "SCD0279",
@@ -19413,8 +19428,9 @@
       "keys": [
         "cat:SCD2480"
       ],
-      "status": "active",
-      "title_zh": "終極警探三部曲1"
+      "status": "rejected",
+      "title_zh": "終極警探三部曲1",
+      "reject_reason": "out of scope: 終極警探三部曲1（1997，Probe），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2083": {
       "catalog_id": "SCD2480",
@@ -19422,8 +19438,9 @@
       "keys": [
         "cat:SCD2480#2"
       ],
-      "status": "active",
-      "title_zh": "終極警探三部曲2"
+      "status": "rejected",
+      "title_zh": "終極警探三部曲2",
+      "reject_reason": "out of scope: 終極警探三部曲2（1997，n-Space），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2084": {
       "catalog_id": "SWE174",
@@ -22983,8 +23000,9 @@
       "keys": [
         "cat:SCD1528"
       ],
-      "status": "active",
-      "title_zh": "暴力摩托"
+      "status": "rejected",
+      "title_zh": "暴力摩托",
+      "reject_reason": "out of scope: 暴力摩托（1996，Papyrus），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2470": {
       "catalog_id": "SCD1525",
@@ -24823,8 +24841,9 @@
       "keys": [
         "cat:SCD1654"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車2"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車2",
+      "reject_reason": "out of scope: 雲斯頓賽車2（1996，Papyrus），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2662": {
       "catalog_id": "SCD1658",
@@ -28620,8 +28639,9 @@
       "keys": [
         "cat:SCD1254"
       ],
-      "status": "active",
-      "title_zh": "末日大戰"
+      "status": "rejected",
+      "title_zh": "末日大戰",
+      "reject_reason": "out of scope: 末日大戰（1996，Mirage），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3070": {
       "catalog_id": "Z115",
