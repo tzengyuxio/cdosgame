@@ -59,4 +59,12 @@ export const COMPANY_ALIASES = {
   'Raven Software': 'Raven',
   Team17: 'Team 17',
   'Ocean Software': 'Ocean',
+  // 唯晶科技（Winking，1996 於台灣成立）：正式名為「唯晶科技」，中國大陸另有上海、
+  // 南京兩間子公司（上海唯晶信息科技等），舊資料寫成「唯晶」／「唯晶信息」。
+  // 參考 https://zh.wikipedia.org/zh-tw/唯晶科技
+  唯晶: '唯晶科技',
+  唯晶信息: '唯晶科技',
+  // 大宇在中國大陸的子公司「北京軟星科技」，canonical 取通行簡稱「北京軟星」
+  // （與另一子公司「上海軟星」對稱），「軟星科技（北京）」為全稱異寫。
+  '軟星科技（北京）': '北京軟星',
 };
