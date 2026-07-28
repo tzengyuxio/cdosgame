@@ -720,8 +720,9 @@
       "keys": [
         "cat:SCD2045"
       ],
-      "status": "active",
-      "title_zh": "FRB右腦飛行"
+      "status": "rejected",
+      "title_zh": "FRB右腦飛行",
+      "reject_reason": "out of scope: FRB右腦飛行（1998，大時科技），右腦開發訓練軟體，非遊戲"
     },
     "cdg-0077": {
       "catalog_id": "SCD2311",
@@ -951,8 +952,9 @@
       "keys": [
         "cat:SCD2138"
       ],
-      "status": "active",
-      "title_zh": "LIS太空號數學歷險"
+      "status": "rejected",
+      "title_zh": "LIS太空號數學歷險",
+      "reject_reason": "out of scope: LIS太空號數學歷險 Lost in Space Math Adventure（1998，Sound Source／正謙代理），兒童數學學習軟體，非遊戲"
     },
     "cdg-0101": {
       "catalog_id": "SCD0461",
@@ -38320,8 +38322,9 @@
       "keys": [
         "t:烽火沙丘|None"
       ],
-      "status": "active",
-      "title_zh": "烽火沙丘"
+      "status": "rejected",
+      "title_zh": "烽火沙丘",
+      "reject_reason": "out of scope: 烽火沙丘（1995），offlinelist 合併而來的全 null stub，無台灣發行足跡可考"
     },
     "cdg-4128": {
       "catalog_id": null,
@@ -39283,8 +39286,9 @@
       "keys": [
         "t:廢土|None"
       ],
-      "status": "active",
-      "title_zh": "廢土"
+      "status": "rejected",
+      "title_zh": "廢土",
+      "reject_reason": "out of scope: 廢土，rwv 合併而來的全 null stub，無台灣發行足跡可考"
     },
     "cdg-4232": {
       "catalog_id": null,
