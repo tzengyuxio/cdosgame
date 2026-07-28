@@ -7298,8 +7298,9 @@
       "keys": [
         "cat:SCD2281"
       ],
-      "status": "active",
-      "title_zh": "基礎日語火速上口"
+      "status": "rejected",
+      "title_zh": "基礎日語火速上口",
+      "reject_reason": "out of scope: 基礎日語火速上口（1999，甦活光碟），日語學習軟體，非遊戲"
     },
     "cdg-0783": {
       "catalog_id": "SCD0389",
@@ -18025,8 +18026,9 @@
       "keys": [
         "cat:SCD2131"
       ],
-      "status": "active",
-      "title_zh": "生活美語5：遊戲式題庫綜合版"
+      "status": "rejected",
+      "title_zh": "生活美語5：遊戲式題庫綜合版",
+      "reject_reason": "out of scope: 生活美語5：遊戲式題庫綜合版（1999，捷思特／冠捷代理），英語學習題庫軟體，非遊戲"
     },
     "cdg-1934": {
       "catalog_id": "SCD0117",
@@ -21394,8 +21396,9 @@
       "keys": [
         "cat:SCD2052"
       ],
-      "status": "active",
-      "title_zh": "數字王國歷險記"
+      "status": "rejected",
+      "title_zh": "數字王國歷險記",
+      "reject_reason": "out of scope: 數字王國歷險記（1999，鉅盛／正謙代理），兒童數學學習向 edutainment，非收錄範圍"
     },
     "cdg-2298": {
       "catalog_id": "SCD2053",
@@ -21403,8 +21406,9 @@
       "keys": [
         "cat:SCD2053"
       ],
-      "status": "active",
-      "title_zh": "數字翹家記"
+      "status": "rejected",
+      "title_zh": "數字翹家記",
+      "reject_reason": "out of scope: 數字翹家記（1998，鉅盛／正謙代理），兒童數學學習向 edutainment，非收錄範圍"
     },
     "cdg-2299": {
       "catalog_id": "SCD2051",
@@ -40775,8 +40779,9 @@
       "keys": [
         "t:巫師學校1：追女記|None"
       ],
-      "status": "active",
-      "title_zh": "巫師學校1：追女記"
+      "status": "rejected",
+      "title_zh": "巫師學校1：追女記",
+      "reject_reason": "out of scope: 巫師學校1：追女記，合併而來的全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4381": {
       "catalog_id": null,
@@ -40784,8 +40789,9 @@
       "keys": [
         "t:巫師學校2：入學記|None"
       ],
-      "status": "active",
-      "title_zh": "巫師學校2：入學記"
+      "status": "rejected",
+      "title_zh": "巫師學校2：入學記",
+      "reject_reason": "out of scope: 巫師學校2：入學記，合併而來的全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4382": {
       "catalog_id": null,
@@ -40793,8 +40799,9 @@
       "keys": [
         "t:巫師學校3：春假|None"
       ],
-      "status": "active",
-      "title_zh": "巫師學校3：春假"
+      "status": "rejected",
+      "title_zh": "巫師學校3：春假",
+      "reject_reason": "out of scope: 巫師學校3：春假，合併而來的全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4383": {
       "catalog_id": null,
@@ -40930,8 +40937,9 @@
       "keys": [
         "t:智力大考驗|None"
       ],
-      "status": "active",
-      "title_zh": "智力大考驗"
+      "status": "rejected",
+      "title_zh": "智力大考驗",
+      "reject_reason": "out of scope: 智力大考驗，合併而來的全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4398": {
       "catalog_id": null,
