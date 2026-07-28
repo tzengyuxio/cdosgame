@@ -22279,8 +22279,9 @@
       "keys": [
         "cat:SCD1207"
       ],
-      "status": "active",
-      "title_zh": "星座"
+      "status": "rejected",
+      "title_zh": "星座",
+      "reject_reason": "out of scope: 星座 DNA（2001，主安科技），星座主題英文單字教學軟體，非遊戲"
     },
     "cdg-2400": {
       "catalog_id": "SCD0102",
