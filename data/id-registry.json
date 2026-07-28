@@ -58,7 +58,7 @@
     },
     "cdg-0006": {
       "catalog_id": null,
-      "developer": "第三波",
+      "developer": "陳精誠",
       "keys": [
         "t:16張臺灣麻將|第三波"
       ],
@@ -37696,13 +37696,12 @@
     },
     "cdg-4038": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "黃文塘",
       "keys": [
         "t:臺灣麻將|None"
       ],
-      "status": "merged",
-      "title_zh": "臺灣麻將",
-      "merged_into": "cdg-0006"
+      "status": "active",
+      "title_zh": "台灣麻將"
     },
     "cdg-4039": {
       "catalog_id": null,
@@ -49724,6 +49723,15 @@
       ],
       "status": "active",
       "title_zh": "極速風暴"
+    },
+    "cdg-5346": {
+      "catalog_id": null,
+      "developer": "董鎌盛",
+      "keys": [
+        "t:雙龍麻將|董鎌盛"
+      ],
+      "status": "active",
+      "title_zh": "雙龍麻將"
     }
   }
 }
