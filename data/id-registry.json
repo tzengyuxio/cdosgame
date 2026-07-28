@@ -23101,8 +23101,9 @@
       "keys": [
         "cat:SCD1568"
       ],
-      "status": "active",
-      "title_zh": "暴走出租車"
+      "status": "rejected",
+      "title_zh": "暴走出租車",
+      "reject_reason": "out of scope: 暴走出租車（2001，Stellar Stone），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2472": {
       "catalog_id": "SCD1524",
@@ -23848,8 +23849,9 @@
       "keys": [
         "cat:SCD1853"
       ],
-      "status": "active",
-      "title_zh": "迪斯尼卡通賽車"
+      "status": "rejected",
+      "title_zh": "迪斯尼卡通賽車",
+      "reject_reason": "out of scope: 迪斯尼卡通賽車（2001，Crystal Dynamics），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2551": {
       "catalog_id": "SCD2193",
@@ -24037,8 +24039,9 @@
       "keys": [
         "cat:SCD1633"
       ],
-      "status": "active",
-      "title_zh": "通卡怪獸大卡車"
+      "status": "rejected",
+      "title_zh": "通卡怪獸大卡車",
+      "reject_reason": "out of scope: 通卡怪獸大卡車（2001，Data Design），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2571": {
       "catalog_id": "SCD0663",
@@ -24198,8 +24201,9 @@
       "keys": [
         "cat:SCD1566"
       ],
-      "status": "active",
-      "title_zh": "遙控特技賽車"
+      "status": "rejected",
+      "title_zh": "遙控特技賽車",
+      "reject_reason": "out of scope: 遙控特技賽車（2001，Team 17），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2588": {
       "catalog_id": "SCD1565",
@@ -24968,8 +24972,9 @@
       "keys": [
         "cat:SCD1656"
       ],
-      "status": "active",
-      "title_zh": "雲斯頓賽車4"
+      "status": "rejected",
+      "title_zh": "雲斯頓賽車4",
+      "reject_reason": "out of scope: 雲斯頓賽車4（2001，Papyrus），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2666": {
       "catalog_id": "SCD1637",
