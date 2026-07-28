@@ -17351,8 +17351,9 @@
       "keys": [
         "cat:SCD2441"
       ],
-      "status": "active",
-      "title_zh": "神風手"
+      "status": "rejected",
+      "title_zh": "神風手",
+      "reject_reason": "out of scope: 神風手（2003，學習工場），學習向軟體，非遊戲"
     },
     "cdg-1854": {
       "catalog_id": "SCD2465",
@@ -19793,8 +19794,9 @@
       "keys": [
         "cat:SCD2123"
       ],
-      "status": "active",
-      "title_zh": "綠色小英雄：叢林探險"
+      "status": "rejected",
+      "title_zh": "綠色小英雄：叢林探險",
+      "reject_reason": "out of scope: 綠色小英雄：叢林探險（1999，豐騰科技），兒童環境知識學習向 edutainment，非收錄範圍"
     },
     "cdg-2117": {
       "catalog_id": "SCD2555",
@@ -29592,8 +29594,9 @@
       "keys": [
         "cat:SCD2140"
       ],
-      "status": "active",
-      "title_zh": "樂在棋中：12生肖童話樂園"
+      "status": "rejected",
+      "title_zh": "樂在棋中：12生肖童話樂園",
+      "reject_reason": "out of scope: 樂在棋中：12生肖童話樂園（1998，正謙），兒童向 edutainment，非收錄範圍"
     },
     "cdg-3163": {
       "catalog_id": "SCD1495",
@@ -32564,8 +32567,9 @@
       "keys": [
         "cat:SCD1036"
       ],
-      "status": "active",
-      "title_zh": "藝術才子：天才小畫匠"
+      "status": "rejected",
+      "title_zh": "藝術才子：天才小畫匠",
+      "reject_reason": "out of scope: 藝術才子：天才小畫匠（1998，映夢文化），兒童繪畫學習向 edutainment，非收錄範圍"
     },
     "cdg-3482": {
       "catalog_id": "SCD1969",
