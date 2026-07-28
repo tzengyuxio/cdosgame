@@ -11170,8 +11170,9 @@
       "keys": [
         "cat:SCD1702"
       ],
-      "status": "active",
-      "title_zh": "泥地摩托車賽"
+      "status": "rejected",
+      "title_zh": "泥地摩托車賽",
+      "reject_reason": "out of scope: 泥地摩托車賽 Dirt Bike Racing（2002，NAWAR），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1199": {
       "catalog_id": "SCD1703",
@@ -13646,8 +13647,9 @@
       "keys": [
         "t:美國陸軍後備隊汽笛車大賽|Hoplite"
       ],
-      "status": "active",
-      "title_zh": "美國陸軍後備隊汽笛車大賽"
+      "status": "rejected",
+      "title_zh": "美國陸軍後備隊汽笛車大賽",
+      "reject_reason": "out of scope: 美國陸軍後備隊汽笛車大賽 USAR Hooters Pro Cup Racing（2002，Hoplite），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1464": {
       "catalog_id": "SCD0359",
@@ -13918,8 +13920,9 @@
       "keys": [
         "cat:SCD2508"
       ],
-      "status": "active",
-      "title_zh": "義大利黑手黨"
+      "status": "rejected",
+      "title_zh": "義大利黑手黨",
+      "reject_reason": "out of scope: 義大利黑手黨 The Italian Job（2002，Pixelogic），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1494": {
       "catalog_id": "SCD0490",
@@ -16176,8 +16179,9 @@
       "keys": [
         "cat:SCD1896"
       ],
-      "status": "active",
-      "title_zh": "急速傳說：維倫紐夫的賽車生涯"
+      "status": "rejected",
+      "title_zh": "急速傳說：維倫紐夫的賽車生涯",
+      "reject_reason": "out of scope: 急速傳說：維倫紐夫的賽車生涯（2002，Ubisoft），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1738": {
       "catalog_id": "SCD1737",
@@ -16417,8 +16421,9 @@
       "keys": [
         "cat:SCD1223"
       ],
-      "status": "active",
-      "title_zh": "恐龍獵人4"
+      "status": "rejected",
+      "title_zh": "恐龍獵人4",
+      "reject_reason": "out of scope: 恐龍獵人4 Turok: Evolution（2002，Acclaim），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1764": {
       "catalog_id": "SCD0617",
@@ -16582,8 +16587,9 @@
       "keys": [
         "cat:SCD1045"
       ],
-      "status": "active",
-      "title_zh": "惡魔城2：詛咒的封印"
+      "status": "rejected",
+      "title_zh": "惡魔城2：詛咒的封印",
+      "reject_reason": "out of scope: 惡魔城2：詛咒的封印 Castlevania 2（2002，Konami），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1782": {
       "catalog_id": "SCD1045",
@@ -20152,8 +20158,9 @@
       "keys": [
         "t:超擬真桌球2|Groove"
       ],
-      "status": "active",
-      "title_zh": "超擬真桌球2"
+      "status": "rejected",
+      "title_zh": "超擬真桌球2",
+      "reject_reason": "out of scope: 超擬真桌球2 Real Pool 2（2002，Groove），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2168": {
       "catalog_id": "SCD1523",
@@ -20297,8 +20304,9 @@
       "keys": [
         "t:超級五子棋|機車小子"
       ],
-      "status": "active",
-      "title_zh": "超級五子棋"
+      "status": "rejected",
+      "title_zh": "超級五子棋",
+      "reject_reason": "out of scope: 超級五子棋（2002，機車小子），2000 年後 Windows 休閒棋類作品、無台灣發行足跡"
     },
     "cdg-2184": {
       "catalog_id": "SCD2777",
@@ -24034,8 +24042,9 @@
       "keys": [
         "cat:SCD1565"
       ],
-      "status": "active",
-      "title_zh": "遙控車橫行天下"
+      "status": "rejected",
+      "title_zh": "遙控車橫行天下",
+      "reject_reason": "out of scope: 遙控車橫行天下 R.C. Cars（2002，Creat Studio），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2589": {
       "catalog_id": null,
@@ -25811,8 +25820,9 @@
       "keys": [
         "cat:SCD1622"
       ],
-      "status": "active",
-      "title_zh": "瘋狂卡車1"
+      "status": "rejected",
+      "title_zh": "瘋狂卡車1",
+      "reject_reason": "out of scope: 瘋狂卡車1 Big Mutha Truckers（2002，Eutechnyx），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2778": {
       "catalog_id": "SCD1623",
@@ -26004,8 +26014,9 @@
       "keys": [
         "cat:SCD1572"
       ],
-      "status": "active",
-      "title_zh": "瘋狂計程車1"
+      "status": "rejected",
+      "title_zh": "瘋狂計程車1",
+      "reject_reason": "out of scope: 瘋狂計程車1 Crazy Taxi（2002，Hitmaker），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2799": {
       "catalog_id": "SCD1573",
