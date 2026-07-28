@@ -873,7 +873,7 @@ triage 時擱置、使用者暫不裁定的兩項，日後有想法再處理：
 
 - [ ] 伊世紀的 Windows 作（cdg-0251 三國象棋皇、cdg-0323 中華象棋、cdg-0349 五子爆笑棋、cdg-1153 決戰女優撲克）— 該廠 2002 年仍在產 DOS 遊戲（cdg-1069 女優火車頭、cdg-1256 清涼空當接龍、cdg-1257 清涼美眉撲克，`platform_note: DOS`，已確定保留），故「廠商與 DOS 時代有交集」是否成立、能否據此收錄同期的非 DOS 作，判準未定。暫予保留（2026-07-21）
 - [ ] cdg-1065 圓桌武士：紅龍騎士傳說（Cryo, 2001）— catalog 有 cdg-1066／1067 圓桌武士1／2（1990/91, DOS），但開發商不同，可能僅譯名撞名而非系列續作，未查證。暫予保留（2026-07-21）
-- [ ] cdg-1173 沙丘王子復仇記（Widescreen, 2003）— catalog 有 cdg-1174／1175 沙丘魔堡1／2（1992, DOS），同上，系列關係未查證。暫予保留（2026-07-21）
+- [x] cdg-1173 沙丘王子復仇記（Widescreen, 2003）— catalog 有 cdg-1174／1175 沙丘魔堡1／2（1992, DOS），同上，系列關係未查證。~~暫予保留（2026-07-21）~~ → 使用者 2026-07-29 裁定 reject（2000 年後 Windows 外商中文化代理作品）
 - [ ] cdg-1782 惡魔城傳說（Castlevania 3，Konami, 2002）— 同批 2002 年 Windows 外文款其餘 11 筆已 reject，本款因帶台灣發行碼「軟體世界 貴204」（`status: released`）暫予保留。惟其 `localization_level: foreign` ＋ `publisher_tw: []` 卻有貴族版碼，正是同名 fuzzy-merge 誤掛的紅旗（見 memory `samename-code-misattribution`）。待查證軟體世界貴族版 204 實際是哪一款：若確為誤掛則移除該碼並 reject，若確有此發行則補齊條目。（2026-07-28 triage 批）
 
 判準參考：收錄與否以 `src/pages/about.astro` 為準（DOS 主線為主；非 DOS 作需有 DOS 時代廠商／系列關聯），`localization_level` 只是分級標記、不是收錄判準。撞名陷阱實例見 cdg-1289（Cryo 亞特蘭提斯系列與 LucasArts《亞特蘭提斯之謎》無關）。

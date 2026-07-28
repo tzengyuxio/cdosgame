@@ -4561,8 +4561,9 @@
       "keys": [
         "t:太平洋戰爭|2 by 3"
       ],
-      "status": "active",
-      "title_zh": "太平洋戰爭"
+      "status": "rejected",
+      "title_zh": "太平洋戰爭",
+      "reject_reason": "out of scope: 太平洋戰爭 War in the Pacific（2004，2 by 3 Games），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0490": {
       "catalog_id": "SCD0283",
@@ -5194,8 +5195,9 @@
       "keys": [
         "cat:OCD0128"
       ],
-      "status": "active",
-      "title_zh": "工人物語5：帝王之路"
+      "status": "rejected",
+      "title_zh": "工人物語5：帝王之路",
+      "reject_reason": "out of scope: 工人物語5：帝王之路（2004，Blue Byte／松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0558": {
       "catalog_id": "SCD1992",
@@ -5557,8 +5559,9 @@
       "keys": [
         "cat:SCD1801"
       ],
-      "status": "active",
-      "title_zh": "幻魔霸主"
+      "status": "rejected",
+      "title_zh": "幻魔霸主",
+      "reject_reason": "out of scope: 幻魔霸主 Armies of Exigo（2004，Black Hole），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0597": {
       "catalog_id": "SCD2662",
@@ -5763,8 +5766,9 @@
       "keys": [
         "t:水晶之約1：夢幻假日|Crazy Bugs"
       ],
-      "status": "active",
-      "title_zh": "水晶之約1：夢幻假日"
+      "status": "rejected",
+      "title_zh": "水晶之約1：夢幻假日",
+      "reject_reason": "out of scope: 水晶之約1：夢幻假日（2004，Crazy Bugs），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0619": {
       "catalog_id": "HTG030",
@@ -7168,8 +7172,9 @@
       "keys": [
         "cat:SCD2773"
       ],
-      "status": "active",
-      "title_zh": "地面控制2：大撤退"
+      "status": "rejected",
+      "title_zh": "地面控制2：大撤退",
+      "reject_reason": "out of scope: 地面控制2：大撤退（2004，Massive／斐凡迪環球代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0770": {
       "catalog_id": "SCD1687",
@@ -8180,8 +8185,9 @@
       "keys": [
         "cat:SCD2007"
       ],
-      "status": "active",
-      "title_zh": "被遺忘的國度：魔之石"
+      "status": "rejected",
+      "title_zh": "被遺忘的國度：魔之石",
+      "reject_reason": "out of scope: 被遺忘的國度：魔之石（2004，Stormfront／星空娛動代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0879": {
       "catalog_id": "SWT329,SCD2067",
@@ -10947,8 +10953,9 @@
       "keys": [
         "cat:SCD2754"
       ],
-      "status": "active",
-      "title_zh": "沙丘王子復仇記"
+      "status": "rejected",
+      "title_zh": "沙丘王子復仇記",
+      "reject_reason": "out of scope: 沙丘王子復仇記（2003，Widescreen／旭力亞代理），2000 年後 Windows 外商中文化代理作品，與 DOS 時代沙丘魔堡系列無開發傳承"
     },
     "cdg-1174": {
       "catalog_id": "3WG015,SCD1023",
@@ -13041,8 +13048,9 @@
       "keys": [
         "cat:SCD1482"
       ],
-      "status": "active",
-      "title_zh": "動物園大亨2"
+      "status": "rejected",
+      "title_zh": "動物園大亨2",
+      "reject_reason": "out of scope: 動物園大亨2 Zoo Tycoon 2（2004，Blue Fang），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-1398": {
       "catalog_id": "SCD1477",
@@ -17212,8 +17220,9 @@
       "keys": [
         "cat:OCD0118"
       ],
-      "status": "active",
-      "title_zh": "神話世紀"
+      "status": "rejected",
+      "title_zh": "神話世紀",
+      "reject_reason": "out of scope: 神話世紀 Age of Mythology（2002，Ensemble／Microsoft），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-1848": {
       "catalog_id": "SCD0442",
@@ -17250,8 +17259,9 @@
       "keys": [
         "cat:OCD0027"
       ],
-      "status": "active",
-      "title_zh": "神諭外傳"
+      "status": "rejected",
+      "title_zh": "神諭外傳",
+      "reject_reason": "out of scope: 神諭外傳 Beyond Divinity（2004，Larian／英特衛代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-1852": {
       "catalog_id": "SCD0804",
@@ -17405,8 +17415,9 @@
       "keys": [
         "t:福爾摩斯探案集之銀耳環|Frogwares"
       ],
-      "status": "active",
-      "title_zh": "福爾摩斯探案集之銀耳環"
+      "status": "rejected",
+      "title_zh": "福爾摩斯探案集之銀耳環",
+      "reject_reason": "out of scope: 福爾摩斯探案集之銀耳環（2004，Frogwares），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-1869": {
       "catalog_id": null,
@@ -19463,8 +19474,9 @@
       "keys": [
         "cat:SCD1258,SCD1259"
       ],
-      "status": "active",
-      "title_zh": "絕冬城之夜1"
+      "status": "rejected",
+      "title_zh": "絕冬城之夜1",
+      "reject_reason": "out of scope: 絕冬城之夜1 Neverwinter Nights（2002，BioWare），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2092": {
       "catalog_id": "SCD1824,SCD1259",
@@ -19509,8 +19521,9 @@
       "keys": [
         "cat:SCD1965"
       ],
-      "status": "active",
-      "title_zh": "絕地任務"
+      "status": "rejected",
+      "title_zh": "絕地任務",
+      "reject_reason": "out of scope: 絕地任務 Alcatraz（2010，Silden），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2097": {
       "catalog_id": "3WG085",
@@ -27843,8 +27856,9 @@
       "keys": [
         "cat:SCD2770"
       ],
-      "status": "active",
-      "title_zh": "加勒比海盜"
+      "status": "rejected",
+      "title_zh": "加勒比海盜",
+      "reject_reason": "out of scope: 加勒比海盜 Sea Dogs II（2003，Akella／東方娛動代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2994": {
       "catalog_id": "SCD2771",
@@ -29711,8 +29725,9 @@
       "keys": [
         "cat:SCD2575"
       ],
-      "status": "active",
-      "title_zh": "模擬樂園番外篇：運輸王"
+      "status": "rejected",
+      "title_zh": "模擬樂園番外篇：運輸王",
+      "reject_reason": "out of scope: 模擬樂園番外篇：運輸王 Chris Sawyer's Locomotion（2004），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3194": {
       "catalog_id": "SCD0546",
@@ -31712,8 +31727,9 @@
       "keys": [
         "cat:OCD0066"
       ],
-      "status": "active",
-      "title_zh": "戰鎚40000：破曉之戰"
+      "status": "rejected",
+      "title_zh": "戰鎚40000：破曉之戰",
+      "reject_reason": "out of scope: 戰鎚40000：破曉之戰 Dawn of War（2004，Relic），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3410": {
       "catalog_id": "SCD0301",
@@ -33278,8 +33294,9 @@
       "keys": [
         "cat:SCD0348"
       ],
-      "status": "active",
-      "title_zh": "羅馬：全軍破敵"
+      "status": "rejected",
+      "title_zh": "羅馬：全軍破敵",
+      "reject_reason": "out of scope: 羅馬：全軍破敵 Rome: Total War（2004，Creative Assembly／松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3579": {
       "catalog_id": "SCD0352",
@@ -33287,8 +33304,9 @@
       "keys": [
         "cat:SCD0352"
       ],
-      "status": "active",
-      "title_zh": "羅馬爭霸"
+      "status": "rejected",
+      "title_zh": "羅馬爭霸",
+      "reject_reason": "out of scope: 羅馬爭霸（2003，Independent Arts），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3580": {
       "catalog_id": "SCD2590",
@@ -34403,8 +34421,9 @@
       "keys": [
         "cat:SCD1380"
       ],
-      "status": "active",
-      "title_zh": "魔戒前傳：哈比人歷險記"
+      "status": "rejected",
+      "title_zh": "魔戒前傳：哈比人歷險記",
+      "reject_reason": "out of scope: 魔戒前傳：哈比人歷險記 The Hobbit（2003，Fizz Factor），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3701": {
       "catalog_id": "SWT097,SCD1365\nSCD1373",
@@ -34825,8 +34844,9 @@
       "keys": [
         "cat:SCD0964"
       ],
-      "status": "active",
-      "title_zh": "魔法風雲會：天命戰場"
+      "status": "rejected",
+      "title_zh": "魔法風雲會：天命戰場",
+      "reject_reason": "out of scope: 魔法風雲會：天命戰場 Magic: The Gathering – Battlegrounds（2003），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3747": {
       "catalog_id": "SCD0963",
@@ -35582,8 +35602,9 @@
       "keys": [
         "cat:SCD2008"
       ],
-      "status": "active",
-      "title_zh": "龍與地下城：龍晶傳奇"
+      "status": "rejected",
+      "title_zh": "龍與地下城：龍晶傳奇",
+      "reject_reason": "out of scope: 龍與地下城：龍晶傳奇 Dragonshard（2005，Liquid），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3830": {
       "catalog_id": "SCD0369",
