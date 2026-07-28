@@ -8622,8 +8622,9 @@
       "keys": [
         "cat:SCD1145"
       ],
-      "status": "active",
-      "title_zh": "古奇格蘭迪的十項全能賽"
+      "status": "rejected",
+      "title_zh": "古奇格蘭迪的十項全能賽",
+      "reject_reason": "out of scope: 古奇格蘭迪的十項全能賽（1997，Microforum），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0921": {
       "catalog_id": "SCD2780",
@@ -8962,8 +8963,9 @@
       "keys": [
         "cat:SCD2325"
       ],
-      "status": "active",
-      "title_zh": "名流高爾夫1998"
+      "status": "rejected",
+      "title_zh": "名流高爾夫1998",
+      "reject_reason": "out of scope: 名流高爾夫1998（1997，Access），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0957": {
       "catalog_id": "SCD2326",
@@ -9092,8 +9094,9 @@
       "keys": [
         "cat:SCD1680"
       ],
-      "status": "active",
-      "title_zh": "名車越野大賽1"
+      "status": "rejected",
+      "title_zh": "名車越野大賽1",
+      "reject_reason": "out of scope: 名車越野大賽1（1997，Elite Systems），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0971": {
       "catalog_id": "SCD1681",
@@ -12686,8 +12689,9 @@
       "keys": [
         "cat:SCD0142"
       ],
-      "status": "active",
-      "title_zh": "阿比逃亡記"
+      "status": "rejected",
+      "title_zh": "阿比逃亡記",
+      "reject_reason": "out of scope: 阿比逃亡記 Oddworld: Abe’s Oddysee（1997，Oddworld），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1351": {
       "catalog_id": "SCD2109",
@@ -12925,8 +12929,9 @@
       "keys": [
         "cat:SCD2647"
       ],
-      "status": "active",
-      "title_zh": "青蛙過街1"
+      "status": "rejected",
+      "title_zh": "青蛙過街1",
+      "reject_reason": "out of scope: 青蛙過街1 Frogger（1997，Sony），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1377": {
       "catalog_id": "SCD2648",
