@@ -1,3 +1,5 @@
+import { COMPANY_ALIASES } from './company-aliases.js';
+
 export const NONE = '未分類';
 
 // localization_level facet display order: a meaning axis (most→least Chinese),
@@ -51,9 +53,15 @@ export function splitDevelopers(developer) {
   return String(developer).split(/\s*[,，、／\/]\s*/).map(s => s.trim()).filter(Boolean);
 }
 
+// alias → canonical, so the廠商 index and vendor facet collapse former/alternate
+// company names onto one entry (same mapping the company page聚合 uses). Callers
+// that need the period-accurate original name (game facts, card subtitles) read
+// g.developer directly instead of going through vendorsOf.
+const canonVendor = n => COMPANY_ALIASES[n] || n;
+
 export function vendorsOf(g) {
-  const v = [...splitDevelopers(g.developer)];
-  for (const p of (g.publisher_tw || [])) v.push(p);
+  const v = splitDevelopers(g.developer).map(canonVendor);
+  for (const p of (g.publisher_tw || [])) v.push(canonVendor(p));
   return v;
 }
 
