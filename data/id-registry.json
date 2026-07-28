@@ -35301,7 +35301,8 @@
       "keys": [
         "t:歡樂跳棋|不明"
       ],
-      "status": "active",
+      "status": "rejected",
+      "reject_reason": "out of scope: 歡樂跳棋（1998），簡體中文版 Windows 遊戲、無台灣中文化／代理發行足跡",
       "title_zh": "歡樂跳棋"
     },
     "cdg-3806": {
