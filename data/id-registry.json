@@ -7113,8 +7113,9 @@
       "keys": [
         "cat:OCD0063"
       ],
-      "status": "active",
-      "title_zh": "地城領主"
+      "status": "rejected",
+      "title_zh": "地城領主",
+      "reject_reason": "out of scope: 地城領主 Dungeon Lords（2005，Heuristic Park／英特衛代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-0764": {
       "catalog_id": "SWT012",
@@ -19332,8 +19333,9 @@
       "keys": [
         "cat:SCD0589"
       ],
-      "status": "active",
-      "title_zh": "終極生化少女"
+      "status": "rejected",
+      "title_zh": "終極生化少女",
+      "reject_reason": "out of scope: 終極生化少女（2009，KID／娛樂通、松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2078": {
       "catalog_id": "SCD1855",
@@ -19672,8 +19674,9 @@
       "keys": [
         "cat:SCD2362"
       ],
-      "status": "active",
-      "title_zh": "綠巨人浩克"
+      "status": "rejected",
+      "title_zh": "綠巨人浩克",
+      "reject_reason": "out of scope: 綠巨人浩克 Hulk（2003，Radical／松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2115": {
       "catalog_id": "SCD2638",
@@ -21317,8 +21320,9 @@
       "keys": [
         "cat:SCD0313"
       ],
-      "status": "active",
-      "title_zh": "散碎的原色"
+      "status": "rejected",
+      "title_zh": "散碎的原色",
+      "reject_reason": "out of scope: 散碎的原色 Separate Hearts（2008，KID／娛樂通、英特衛代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2294": {
       "catalog_id": "SCD1949",
@@ -22222,8 +22226,9 @@
       "keys": [
         "cat:SCD2782"
       ],
-      "status": "active",
-      "title_zh": "明星手札"
+      "status": "rejected",
+      "title_zh": "明星手札",
+      "reject_reason": "out of scope: 明星手札 Pop Life（2004，Monte Cristo），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2392": {
       "catalog_id": "SWT023",
@@ -22560,8 +22565,9 @@
       "keys": [
         "cat:SCD0947"
       ],
-      "status": "active",
-      "title_zh": "星際爭霸戰"
+      "status": "rejected",
+      "title_zh": "星際爭霸戰",
+      "reject_reason": "out of scope: 星際爭霸戰：精英部隊2 Star Trek: Elite Force 2（2003，Ritual），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2429": {
       "catalog_id": "SCD0949",
@@ -24078,8 +24084,9 @@
       "keys": [
         "cat:SCD0381"
       ],
-      "status": "active",
-      "title_zh": "邪惡天才"
+      "status": "rejected",
+      "title_zh": "邪惡天才",
+      "reject_reason": "out of scope: 邪惡天才 Evil Genius（2004，Elixir），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2592": {
       "catalog_id": "SWZ006",
@@ -26199,8 +26206,9 @@
       "keys": [
         "cat:SCD1955"
       ],
-      "status": "active",
-      "title_zh": "精靈傳說"
+      "status": "rejected",
+      "title_zh": "精靈傳說",
+      "reject_reason": "out of scope: 精靈傳說 Battle Mages（2004，Targem／英寶格代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2818": {
       "catalog_id": "SCD2561",
@@ -27263,8 +27271,9 @@
       "keys": [
         "cat:SCD1647"
       ],
-      "status": "active",
-      "title_zh": "凱撒大帝4"
+      "status": "rejected",
+      "title_zh": "凱撒大帝4",
+      "reject_reason": "out of scope: 凱撒大帝4 Caesar 4（2006，Tilted Mill／松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-2933": {
       "catalog_id": "3WG042",
@@ -28537,8 +28546,9 @@
       "keys": [
         "cat:SCD1649"
       ],
-      "status": "active",
-      "title_zh": "末日危城2"
+      "status": "rejected",
+      "title_zh": "末日危城2",
+      "reject_reason": "out of scope: 末日危城2 Dungeon Siege 2（2005，GPG），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3069": {
       "catalog_id": "SCD1254",
@@ -29691,8 +29701,9 @@
       "keys": [
         "cat:SCD1489"
       ],
-      "status": "active",
-      "title_zh": "模擬樂園3"
+      "status": "rejected",
+      "title_zh": "模擬樂園3",
+      "reject_reason": "out of scope: 模擬樂園3 RollerCoaster Tycoon 3（2004，Frontier），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3193": {
       "catalog_id": "SCD2575",
@@ -33695,8 +33706,9 @@
       "keys": [
         "cat:SCD2239"
       ],
-      "status": "active",
-      "title_zh": "駭客任務2：關鍵抉擇"
+      "status": "rejected",
+      "title_zh": "駭客任務2：關鍵抉擇",
+      "reject_reason": "out of scope: 駭客任務2：關鍵抉擇 The Matrix: Path of Neo（2005，Shiny），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3626": {
       "catalog_id": "SCD2240",
@@ -34250,8 +34262,9 @@
       "keys": [
         "cat:SCD1165"
       ],
-      "status": "active",
-      "title_zh": "魔導戰記"
+      "status": "rejected",
+      "title_zh": "魔導戰記",
+      "reject_reason": "out of scope: 魔導戰記 Mimana Iyar Chronicle（2009，工畫堂／娛樂通、英特衛代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3686": {
       "catalog_id": "SCD0828",
@@ -34277,8 +34290,9 @@
       "keys": [
         "cat:SCD2601"
       ],
-      "status": "active",
-      "title_zh": "魔幻世紀"
+      "status": "rejected",
+      "title_zh": "魔幻世紀",
+      "reject_reason": "out of scope: 魔幻世紀 SpellForce: The Order of Dawn（2006，Phenomic／松崗代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3689": {
       "catalog_id": "SCD1000",
@@ -34461,8 +34475,9 @@
       "keys": [
         "cat:SCD1956"
       ],
-      "status": "active",
-      "title_zh": "魔法之戰：黑暗印記"
+      "status": "rejected",
+      "title_zh": "魔法之戰：黑暗印記",
+      "reject_reason": "out of scope: 魔法之戰：黑暗印記 Battle Mages: Sign of Darkness（2005，Targem／英寶格代理），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
     },
     "cdg-3709": {
       "catalog_id": "SCD0592",
