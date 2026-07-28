@@ -8083,8 +8083,9 @@
       "keys": [
         "cat:SCD1820"
       ],
-      "status": "active",
-      "title_zh": "血祭2：天選者"
+      "status": "rejected",
+      "title_zh": "血祭2：天選者",
+      "reject_reason": "out of scope: 血祭2：天選者 Blood 2: The Chosen（1998，Monolith），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0869": {
       "catalog_id": "Z087,SCD1891",
@@ -8910,8 +8911,9 @@
       "keys": [
         "cat:SCD2326"
       ],
-      "status": "active",
-      "title_zh": "名流高爾夫1999"
+      "status": "rejected",
+      "title_zh": "名流高爾夫1999",
+      "reject_reason": "out of scope: 名流高爾夫1999 Links LS 1999（1998，Access），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0958": {
       "catalog_id": "SCD2328",
@@ -9038,8 +9040,9 @@
       "keys": [
         "cat:SCD1681"
       ],
-      "status": "active",
-      "title_zh": "名車越野大賽2"
+      "status": "rejected",
+      "title_zh": "名車越野大賽2",
+      "reject_reason": "out of scope: 名車越野大賽2 Test Drive Off-Road 2（1998，Pitbull Syndicate），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0972": {
       "catalog_id": "SCD1682",
@@ -10495,8 +10498,9 @@
       "keys": [
         "cat:SCD2108"
       ],
-      "status": "active",
-      "title_zh": "我的牛津藝術學院"
+      "status": "rejected",
+      "title_zh": "我的牛津藝術學院",
+      "reject_reason": "out of scope: 我的牛津藝術學院 My Oxford Picture Box（1998，Oxford／協和代理），兒童藝術學習向 edutainment，非收錄範圍"
     },
     "cdg-1127": {
       "catalog_id": "SCD0630",
@@ -12717,8 +12721,9 @@
       "keys": [
         "cat:SCD0328"
       ],
-      "status": "active",
-      "title_zh": "陸軍元帥"
+      "status": "rejected",
+      "title_zh": "陸軍元帥",
+      "reject_reason": "out of scope: 陸軍元帥（1998，DiD），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1363": {
       "catalog_id": null,
@@ -24156,8 +24161,9 @@
       "keys": [
         "cat:SCD1520"
       ],
-      "status": "active",
-      "title_zh": "雪上摩托冠軍賽"
+      "status": "rejected",
+      "title_zh": "雪上摩托冠軍賽",
+      "reject_reason": "out of scope: 雪上摩托冠軍賽 Whiteout（2002，Vicarious Visions），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2601": {
       "catalog_id": "SCD1799",
@@ -25063,8 +25069,9 @@
       "keys": [
         "cat:SCD1756"
       ],
-      "status": "active",
-      "title_zh": "電擊車"
+      "status": "rejected",
+      "title_zh": "電擊車",
+      "reject_reason": "out of scope: 電擊車 Buzzing Cars（2002，Epsitec SA），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2695": {
       "catalog_id": "SCD1231",
@@ -27920,8 +27927,9 @@
       "keys": [
         "cat:SCD2668"
       ],
-      "status": "active",
-      "title_zh": "勁爆熱舞"
+      "status": "rejected",
+      "title_zh": "勁爆熱舞",
+      "reject_reason": "out of scope: 勁爆熱舞 Dance Dance Revolution（2002，Konami），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3004": {
       "catalog_id": null,
@@ -29080,8 +29088,9 @@
       "keys": [
         "cat:SCD1274"
       ],
-      "status": "active",
-      "title_zh": "極速快感6"
+      "status": "rejected",
+      "title_zh": "極速快感6",
+      "reject_reason": "out of scope: 極速快感6 Need for Speed: Hot Pursuit 2（2002，EA），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3129": {
       "catalog_id": "SCD1275",
@@ -29336,8 +29345,9 @@
       "keys": [
         "cat:SCD2467"
       ],
-      "status": "active",
-      "title_zh": "榮譽勳章：反攻諾曼第"
+      "status": "rejected",
+      "title_zh": "榮譽勳章：反攻諾曼第",
+      "reject_reason": "out of scope: 榮譽勳章：反攻諾曼第 Medal of Honor: Allied Assault（2002，2015），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3156": {
       "catalog_id": "SCD2468",
@@ -30498,8 +30508,9 @@
       "keys": [
         "cat:SCD2217"
       ],
-      "status": "active",
-      "title_zh": "無人永生2：危險間諜"
+      "status": "rejected",
+      "title_zh": "無人永生2：危險間諜",
+      "reject_reason": "out of scope: 無人永生2 No One Lives Forever 2（2002，Monolith），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3282": {
       "catalog_id": "SCD2218",
@@ -30744,8 +30755,9 @@
       "keys": [
         "cat:SCD1920"
       ],
-      "status": "active",
-      "title_zh": "熱力賽車"
+      "status": "rejected",
+      "title_zh": "熱力賽車",
+      "reject_reason": "out of scope: 熱力賽車 Total Immersion Racing（2002，Razorworks），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3308": {
       "catalog_id": "SCD1987",
@@ -31426,8 +31438,9 @@
       "keys": [
         "cat:SCD1417"
       ],
-      "status": "active",
-      "title_zh": "戰地風雲1942"
+      "status": "rejected",
+      "title_zh": "戰地風雲1942",
+      "reject_reason": "out of scope: 戰地風雲1942 Battlefield 1942（2002，DICE），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3382": {
       "catalog_id": "SCD1419",
@@ -31723,8 +31736,9 @@
       "keys": [
         "cat:SCD2011"
       ],
-      "status": "active",
-      "title_zh": "戰鬥模擬飛行3：歐洲之戰"
+      "status": "rejected",
+      "title_zh": "戰鬥模擬飛行3：歐洲之戰",
+      "reject_reason": "out of scope: 戰鬥模擬飛行3 Combat Flight Simulator 3（2002，Microsoft），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3414": {
       "catalog_id": "SCD2387",
@@ -32453,8 +32467,9 @@
       "keys": [
         "cat:SCD1627"
       ],
-      "status": "active",
-      "title_zh": "肌肉賽車2"
+      "status": "rejected",
+      "title_zh": "肌肉賽車2",
+      "reject_reason": "out of scope: 肌肉賽車2 Muscle Car 2（2002，3 Romans），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3493": {
       "catalog_id": "SCD1628",
@@ -34149,8 +34164,9 @@
       "keys": [
         "cat:SCD1009"
       ],
-      "status": "active",
-      "title_zh": "魔域幻境之浴血戰場"
+      "status": "rejected",
+      "title_zh": "魔域幻境之浴血戰場",
+      "reject_reason": "out of scope: 魔域幻境之浴血戰場 Unreal Tournament 2003（2002，Epic），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3677": {
       "catalog_id": "SCD1010",
