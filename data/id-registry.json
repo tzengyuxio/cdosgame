@@ -2780,8 +2780,9 @@
       "keys": [
         "cat:SCD0584,SCD2202"
       ],
-      "status": "active",
-      "title_zh": "中國棋王之無敵五子棋"
+      "status": "rejected",
+      "title_zh": "中國棋王之無敵五子棋",
+      "reject_reason": "out of scope: 中國棋王之無敵五子棋（1999，新造科技），Windows 休閒棋類作品，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-0298": {
       "catalog_id": "SCD0584,SCD2202",
@@ -2789,8 +2790,9 @@
       "keys": [
         "cat:SCD0584,SCD2202#2"
       ],
-      "status": "active",
-      "title_zh": "中國棋王之象棋大對決"
+      "status": "rejected",
+      "title_zh": "中國棋王之象棋大對決",
+      "reject_reason": "out of scope: 中國棋王之象棋大對決（2000，新造科技），2000 年後 Windows 休閒棋類作品，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-0299": {
       "catalog_id": "SCD0584,SCD2202",
@@ -3349,8 +3351,9 @@
       "keys": [
         "cat:SCD0952"
       ],
-      "status": "active",
-      "title_zh": "大地英豪"
+      "status": "rejected",
+      "title_zh": "大地英豪",
+      "reject_reason": "out of scope: 大地英豪（2000，火鳳凰），2000 年後 Windows 遊戲，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-0359": {
       "catalog_id": "SCD2785",
@@ -4857,8 +4860,9 @@
       "keys": [
         "cat:SCD0414"
       ],
-      "status": "active",
-      "title_zh": "小棋侶"
+      "status": "rejected",
+      "title_zh": "小棋侶",
+      "reject_reason": "out of scope: 小棋侶（2001，晟業），2000 年後 Windows 休閒棋類作品，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-0522": {
       "catalog_id": "SCD0470",
@@ -7635,8 +7639,9 @@
       "keys": [
         "cat:SCD2769"
       ],
-      "status": "active",
-      "title_zh": "百劍"
+      "status": "rejected",
+      "title_zh": "百劍",
+      "reject_reason": "out of scope: 百劍 Hundred Swords（2001，Smilebit），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0821": {
       "catalog_id": "SCD1156",
@@ -10847,8 +10852,9 @@
       "keys": [
         "cat:SCD0110"
       ],
-      "status": "active",
-      "title_zh": "決戰陸軍棋"
+      "status": "rejected",
+      "title_zh": "決戰陸軍棋",
+      "reject_reason": "out of scope: 決戰陸軍棋（2001，新造科技），2000 年後 Windows 休閒棋類作品，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-1165": {
       "catalog_id": "SCD2451",
@@ -11979,8 +11985,9 @@
       "keys": [
         "cat:SCD0874"
       ],
-      "status": "active",
-      "title_zh": "亨利與哈利"
+      "status": "rejected",
+      "title_zh": "亨利與哈利",
+      "reject_reason": "out of scope: 亨利與哈利（2001，翻新資訊），2000 年後 Windows 遊戲，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-1284": {
       "catalog_id": "Z116",
@@ -12626,8 +12633,9 @@
       "keys": [
         "cat:SCD0145"
       ],
-      "status": "active",
-      "title_zh": "阿毛的西洋繪畫之旅"
+      "status": "rejected",
+      "title_zh": "阿毛的西洋繪畫之旅",
+      "reject_reason": "out of scope: 阿毛的西洋繪畫之旅（2001，昱泉），西洋繪畫學習向 edutainment 作品，非收錄範圍"
     },
     "cdg-1354": {
       "catalog_id": "SCD0154",
@@ -15828,8 +15836,9 @@
       "keys": [
         "cat:SCD2361"
       ],
-      "status": "active",
-      "title_zh": "凝望戰士"
+      "status": "rejected",
+      "title_zh": "凝望戰士",
+      "reject_reason": "out of scope: 凝望戰士（2001，火鳳凰），2000 年後 Windows 遊戲，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-1701": {
       "catalog_id": "HTG003",
@@ -16194,8 +16203,9 @@
       "keys": [
         "cat:SCD0174"
       ],
-      "status": "active",
-      "title_zh": "急速碰碰車"
+      "status": "rejected",
+      "title_zh": "急速碰碰車",
+      "reject_reason": "out of scope: 急速碰碰車 Racing Devils（2001，Dark Code），2000 年後 Windows 外文遊戲"
     },
     "cdg-1741": {
       "catalog_id": "SCD1675",
@@ -16918,8 +16928,9 @@
       "keys": [
         "cat:SCD2461"
       ],
-      "status": "active",
-      "title_zh": "真命龍子"
+      "status": "rejected",
+      "title_zh": "真命龍子",
+      "reject_reason": "out of scope: 真命龍子 Gorasul（2001，Silver Style），2000 年後 Windows 外文遊戲、無台灣中文化足跡"
     },
     "cdg-1819": {
       "catalog_id": "SCD1090",
@@ -17177,8 +17188,9 @@
       "keys": [
         "cat:SCD2558"
       ],
-      "status": "active",
-      "title_zh": "神秘的俄羅斯方塊"
+      "status": "rejected",
+      "title_zh": "神秘的俄羅斯方塊",
+      "reject_reason": "out of scope: 神秘的俄羅斯方塊 Tetris Worlds（2001），2000 年後 Windows 外文遊戲"
     },
     "cdg-1847": {
       "catalog_id": "OCD0118",
@@ -18458,8 +18470,9 @@
       "keys": [
         "cat:SCD2282"
       ],
-      "status": "active",
-      "title_zh": "麥當勞快樂學英語"
+      "status": "rejected",
+      "title_zh": "麥當勞快樂學英語",
+      "reject_reason": "out of scope: 麥當勞快樂學英語（2001，昱泉），幼教英語學習軟體，非遊戲"
     },
     "cdg-1987": {
       "catalog_id": "SCD2208",
@@ -18540,8 +18553,9 @@
       "keys": [
         "cat:SCD0651"
       ],
-      "status": "active",
-      "title_zh": "麻將巨作"
+      "status": "rejected",
+      "title_zh": "麻將巨作",
+      "reject_reason": "out of scope: 麻將巨作 Mahjongg Classic（2001，Small Rocket），2000 年後 Windows 外文遊戲"
     },
     "cdg-1996": {
       "catalog_id": "SCD0007",
@@ -20246,8 +20260,9 @@
       "keys": [
         "cat:SCD1859"
       ],
-      "status": "active",
-      "title_zh": "超未來極速獵車"
+      "status": "rejected",
+      "title_zh": "超未來極速獵車",
+      "reject_reason": "out of scope: 超未來極速獵車（2001，Nikita／新造科技代理），2000 年後 Windows 外文遊戲，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-2180": {
       "catalog_id": "OCD0069",
@@ -21969,8 +21984,9 @@
       "keys": [
         "cat:SCD2251"
       ],
-      "status": "active",
-      "title_zh": "方程式挑戰賽"
+      "status": "rejected",
+      "title_zh": "方程式挑戰賽",
+      "reject_reason": "out of scope: 方程式挑戰賽（2004，Aqua／新造科技代理），2000 年後 Windows 外文遊戲，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-2368": {
       "catalog_id": "SWE168",
@@ -28442,8 +28458,9 @@
       "keys": [
         "cat:SCD2779"
       ],
-      "status": "active",
-      "title_zh": "撲克大決戰"
+      "status": "rejected",
+      "title_zh": "撲克大決戰",
+      "reject_reason": "out of scope: 撲克大決戰（2002，新造科技），2000 年後 Windows 休閒牌類作品，非 DOS 時代作品、廠商不屬延伸收錄範圍"
     },
     "cdg-3063": {
       "catalog_id": "SWE218",
@@ -30506,8 +30523,9 @@
       "keys": [
         "cat:SCD2114"
       ],
-      "status": "active",
-      "title_zh": "無尾熊哈奇系列：生活常識配對配"
+      "status": "rejected",
+      "title_zh": "無尾熊哈奇系列：生活常識配對配",
+      "reject_reason": "out of scope: 無尾熊哈奇系列：生活常識配對配（2001，正謙），幼童生活常識教學作品，非收錄範圍"
     },
     "cdg-3286": {
       "catalog_id": "SCD0122",
@@ -32102,8 +32120,9 @@
       "keys": [
         "t:華容道大師3000|茅吉"
       ],
-      "status": "active",
-      "title_zh": "華容道大師3000"
+      "status": "rejected",
+      "title_zh": "華容道大師3000",
+      "reject_reason": "out of scope: 華容道大師3000（2001，茅吉），簡體中文版 Windows 休閒益智作品、無台灣發行足跡"
     },
     "cdg-3458": {
       "catalog_id": "SCD2383",
