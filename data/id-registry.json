@@ -7885,8 +7885,9 @@
       "keys": [
         "cat:SCD1073"
       ],
-      "status": "active",
-      "title_zh": "自由與榮耀2"
+      "status": "rejected",
+      "title_zh": "自由與榮耀2",
+      "reject_reason": "out of scope: 自由與榮耀2（2001，洪恩軟件），中國大陸開發之簡體中文 Windows 作品、無台灣發行足跡"
     },
     "cdg-0843": {
       "catalog_id": "SCD2442",
@@ -20380,8 +20381,9 @@
       "keys": [
         "cat:OCD0069"
       ],
-      "status": "active",
-      "title_zh": "超炫3"
+      "status": "rejected",
+      "title_zh": "超炫3",
+      "reject_reason": "out of scope: 超炫3（2001，鶴見），2000 年後 Windows 休閒小品、無正文亦無台灣發行足跡"
     },
     "cdg-2181": {
       "catalog_id": "SCD1771",
@@ -20516,8 +20518,9 @@
       "keys": [
         "t:超級拖拉機|YY軟件"
       ],
-      "status": "active",
-      "title_zh": "超級拖拉機"
+      "status": "rejected",
+      "title_zh": "超級拖拉機",
+      "reject_reason": "out of scope: 超級拖拉機（2003，YY軟件），2000 年後 Windows 休閒小品、無正文亦無台灣發行足跡"
     },
     "cdg-2196": {
       "catalog_id": "SCD1522",
@@ -24027,8 +24030,9 @@
       "keys": [
         "t:連珠終結者|溫向東"
       ],
-      "status": "active",
-      "title_zh": "連珠終結者"
+      "status": "rejected",
+      "title_zh": "連珠終結者",
+      "reject_reason": "out of scope: 連珠終結者（2002，溫向東），2000 年後 Windows 五子棋小品、無正文亦無台灣發行足跡"
     },
     "cdg-2574": {
       "catalog_id": null,
