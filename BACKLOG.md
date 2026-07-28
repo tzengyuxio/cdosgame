@@ -22,7 +22,7 @@
 
 ## 資料
 
-- [ ] **`catalog_id` → `chiuinan_id` 磁碟遷移收尾**（機制已落地 2026-07-22，原提 2026-06-22）：schema alias shim 已上線——`chiuinan_id` 為正名、in-memory 全部正規化，舊名 `catalog_id` 由 preprocess 相容接受（`schema/game.schema.mjs`）。新條目一律寫 `chiuinan_id`（skill 已更新）；磁碟上 4318 個舊檔仍是 `catalog_id`，**逐步遷移、不急於一次改**（碰到就改，或日後搭別的全庫 migration 一次 sed）。剩餘動作純屬可選清理：content md 舊鍵、registry `catalog_id` 欄與 `cat:` key 前綴（append-only、非 runtime 讀取，可永遠不動）。前端不顯示此欄，正確性已由 shim 保證。
+- [ ] **`catalog_id` → `chiuinan_id` 磁碟遷移收尾**（機制已落地 2026-07-22，原提 2026-06-22）：schema alias shim 已上線——`chiuinan_id` 為正名、in-memory 全部正規化，舊名 `catalog_id` 由 preprocess 相容接受（`schema/game.schema.mjs`）。新條目一律寫 `chiuinan_id`（skill 已更新）；磁碟上仍用舊名 `catalog_id` 的還有 2254 檔，**逐步遷移、不急於一次改**（碰到就改，或日後搭別的全庫 migration 一次 sed）。2026-07-29 已先清掉無值的佔位欄（`chiuinan_id` 補 `.default(null)`，1584 檔的 `: null` 行整行刪除），剩下的都是真的帶碼、需逐筆確認的。剩餘動作純屬可選清理：content md 舊鍵、registry `catalog_id` 欄與 `cat:` key 前綴（append-only、非 runtime 讀取，可永遠不動）。前端不顯示此欄，正確性已由 shim 保證。
   - 補佐證（2026-06-23）：cdg-1628《俠影記》的 `catalog_id: SWZ001` 一度被誤以為「智冠軟世界武俠系列」內部編號，研究後確認 SWZ 是 chiuinan 的跨廠商 catalog（SWZ002=Maxis《模擬螞蟻》、SWZ003=Artdink《A 列車 3》），與智冠無關——是「`catalog_id` 名稱誤導」的具體案例
 - [ ] **game `slug` 欄位的去留**（2026-06-28）：schema 有 `slug`（英文別名 slugify，如 `a-10-tank-killer`），但全專案無任何處讀取，遊戲網址一律用 `id`（`/games/cdg-NNNN`）。兩個方向擇一：(a) **接成可讀網址／alias redirect**（`/games/a-10-tank-killer` → `cdg-NNNN`，SEO 友善但要處理唯一性、缺值、舊網址穩定）；(b) **確認用不到就從 schema 移除**，免得是個誤導性的死欄位。背景見 `docs/id-policy.md`「排序/顯示」段。
 - [ ] 補新條目 metadata（合併進來的 developer/genre/content_language 多為 null）

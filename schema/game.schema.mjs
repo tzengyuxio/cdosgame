@@ -87,7 +87,10 @@ const gameObject = z.object({
   // chiuinan-sourced descriptors
   size: z.string().nullable(),
   platform_note: z.string().nullable(),
-  chiuinan_id: z.string().nullable(),           // chiuinan preservation-archive ref (SCD/JXP...); see sources.md §1. Legacy alias `catalog_id` accepted via preprocess below.
+  // chiuinan preservation-archive ref (SCD/JXP...); see sources.md §1. Legacy alias
+  // `catalog_id` accepted via preprocess below. Defaults to null so entries without a
+  // chiuinan code simply omit the field rather than carrying a `: null` placeholder.
+  chiuinan_id: z.string().nullable().default(null),
 
   // authorization of the Taiwan distribution. null = 未考據 (default, since much is
   // unclear); unofficial = 未授權代理/水貨/盜版 (e.g. 軟體世界 貴族版 series).
