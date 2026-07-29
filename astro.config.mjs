@@ -2,6 +2,7 @@ import { defineConfig, passthroughImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 import { lastModified, latestModified } from './src/lib/gitdates.js';
+import { magazineHref } from './src/lib/magazine-links.js';
 
 // Served at the root of a custom domain (cdosgame.simagame.me, see public/CNAME).
 // BASE is the path prefix for internal links — empty string at a domain root.
@@ -70,6 +71,23 @@ function rehypeMedia() {
     // derive collection + slug from the content file path (games/companies/people)
     const pm = String(file?.path || file?.history?.[0] || '').match(/content\/(games|companies|people)\/(.+?)\.md$/);
     const dir = pm ? `${BASE}/media/${pm[1]}/${pm[2]}` : null;
+    // 圖說裡的「刊名＋期號」連到 NostaLib 該期（與圖庫 lightbox 同一份對照表）。
+    // 嵌入圖的圖說就在版面上，直接掛連結；圖庫縮圖則維持純文字、放大才顯示。
+    const captionNodes = (alt) => {
+      const mag = magazineHref(alt);
+      const at = mag ? alt.indexOf(mag.label) : -1;
+      if (at < 0) return [{ type: 'text', value: alt }];
+      const link = {
+        type: 'element', tagName: 'a',
+        properties: { href: mag.url, target: '_blank', rel: 'noopener nofollow' },
+        children: [{ type: 'text', value: mag.label }],
+      };
+      return [
+        ...(at ? [{ type: 'text', value: alt.slice(0, at) }] : []),
+        link,
+        ...(at + mag.label.length < alt.length ? [{ type: 'text', value: alt.slice(at + mag.label.length) }] : []),
+      ];
+    };
     const toFigure = (alt, src) => {
       const [name, align = 'right'] = src.slice('media:'.length).split('#');
       const href = dir ? `${dir}/${name}` : name;
@@ -77,7 +95,7 @@ function rehypeMedia() {
         type: 'element', tagName: 'figure', properties: { className: ['fig', align] },
         children: [
           { type: 'element', tagName: 'img', properties: { className: ['fig-img'], src: href, alt, loading: 'lazy', dataFull: href, dataCaption: alt }, children: [] },
-          ...(alt ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: [{ type: 'text', value: alt }] }] : []),
+          ...(alt ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: captionNodes(alt) }] : []),
         ],
       };
     };
