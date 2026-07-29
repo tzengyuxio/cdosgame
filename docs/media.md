@@ -106,9 +106,9 @@ media: z.array(z.object({
 - **封面決定順序**（`coverOf()` in `src/lib/media.js`）：
   1. `media[]` 中 `cover: true` 的那張（即便 `gallery: false` 也照用）。
   2. 否則從**未被 `gallery: false` 隱藏**的項目中，依 kind 優先序找第一張：
-     `key-visual` → `box-front` → `title` → `manual-cover` → `logo` → `portrait` → `ad`。
+     `key-visual` → `box-front` → `title` → `manual-cover` → `logo` → `portrait`（**遊戲頁另在鏈末納入 `ad`**，其他集合不納）。
   3. 都沒有 → infobox 顯示「封面待補」佔位。
-  - 設計：`key-visual`（繪師主視覺原畫）排最前——純插畫無盒裝雜訊（條碼／代理商貼紙／反光），最適合 infobox 縮圖與 og:image；`ad` 排在 `logo` / `portrait` 之後，避免公司或人物頁有 ad 時把 ad 當門面；`gallery: false` 的 ad（如第三波代理光榮廣告，因已聚合到多遊戲頁、企業頁不再單獨呈現）也不會被偷渡成 og:image。供 infobox 縮圖與 `og:image`。
+  - 設計：`key-visual`（繪師主視覺原畫）排最前——純插畫無盒裝雜訊（條碼／代理商貼紙／反光），最適合 infobox 縮圖與 og:image；`ad` 只對遊戲頁生效且排在最後——遊戲廣告印的是該作自身美術，缺盒裝／標題圖時可暫代門面；公司／人物／團隊頁的廣告屬時代文獻而非門面，一律不當封面（改用 `media:` 嵌進正文）；`gallery: false` 的 ad（如第三波代理光榮廣告，因已聚合到多遊戲頁、企業頁不再單獨呈現）也不會被偷渡成 og:image。供 infobox 縮圖與 `og:image`。
 - **`source` 是代碼**（如 `boneash`），渲染時查 `data/media-sources.json` 展開為「骨灰集散地」＋連結；未登錄則原樣顯示。`source_url` 可覆寫成單張的特定頁網址。
 - **必填欄位**：`src`/`kind`/`source`。`validate` 會擋掉缺 `source`、`src` 檔案不存在、或多於一張 `cover` 的情況。
 - 既有 `cover`（字串）與 `images{}` 維持為來源 provenance 紀錄，**新顯示邏輯只看 `media[]`**；舊 `cover.png` 之類（指向 raw）不再用於顯示，逐步以 `media[]` 取代。
@@ -132,11 +132,11 @@ media: z.array(z.object({
 
 | 機制 | 放哪 | 怎麼標 |
 |---|---|---|
-| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則 `coverOf` 自動沿 priority 鏈找（key-visual → box-front → title → manual-cover → logo → portrait → ad，跳過 `gallery: false`）|
+| **封面** | infobox（＋og:image） | `media[]` 那筆加 `cover: true`；不給則 `coverOf` 自動沿 priority 鏈找（key-visual → box-front → title → manual-cover → logo → portrait，跳過 `gallery: false`）。**`ad` 只在遊戲頁納入鏈末**——遊戲廣告印的就是該作自己的美術，沒有盒裝/標題圖時可當門面；公司／人物／團隊頁的廣告是關於該實體的時代文獻、不是它的門面，一律不當封面，改用 `media:` 語法嵌進正文|
 | **粗略槽位／排序** | 正文頂、或調類別內順序 | `slot: "hero"`（置頂大圖）、`order: N`（同類排序） |
-| **正文任意位置** | 文章中任一段旁 | 在 `.md` 正文寫 `![圖說](media:screenshot-01){align=right}` |
+| **正文任意位置** | 文章中任一段旁 | 在 `.md` 正文寫 `![圖說](media:screenshot-01.webp#right)`（**檔名要帶副檔名**；對齊寫在 `#` 之後，right／left／center，省略即 right）|
 
-**`media:` 正文嵌入語法**：由 rehype 外掛（比照站上既有 `rehypeBaseLinks`）把 `media:<src>` 解析成該款 `public/media/games/<id>/<src>`、包成 `<figure>`＋圖說，依 `{align=right|left|center}` 浮動。外掛從內容檔路徑讀出 `cdg-NNNN`，正文只需寫短檔名。被嵌入的圖若設 `gallery: false` 則不再重複出現在底部圖庫（預設仍保留）。
+**`media:` 正文嵌入語法**：由 rehype 外掛（比照站上既有 `rehypeBaseLinks`）把 `media:<src>` 解析成該實體的 `public/media/<coll>/<slug>/<src>`、包成 `<figure>`＋圖說，依 `#right|#left|#center` 浮動（預設 right）。`<src>` 是**完整檔名含副檔名**（`ad-01.webp`）——少了副檔名會產生壞連結、圖片不顯示。games／companies／people 三種集合皆適用。被嵌入的圖若設 `gallery: false` 則不再重複出現在底部圖庫（預設仍保留）。
 
 ### 其他
 

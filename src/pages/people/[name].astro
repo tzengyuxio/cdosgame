@@ -58,7 +58,7 @@ const site = (Astro.site?.href || 'https://cdosgame.simagame.me/').replace(/\/$/
 const canonical = site + Astro.url.pathname;
 const sameAs = [...(c?.references || []).map(r => r.url), ...Object.values(c?.external_links || {})];
 const media = c?.media || [];
-const cover = coverOf(media);
+const cover = coverOf(media, 'people');
 const coverItem = cover ? decorate(cover, 'people', name) : null;
 const mediaGroups = galleryGroups(media, 'people', name);
 const ogImage = cover ? `/media/people/${name}/${cover.src}` : undefined;

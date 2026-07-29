@@ -94,14 +94,20 @@ export function expandSource(code, sourceUrl) {
 // the same kind, so this naturally picks the first ad / manual-cover.
 // `key-visual` (the artist's key art) leads: it's the game's cleanest face for
 // the infobox/og:image, without box-scan clutter (barcodes, dealer stickers).
-// `ad` is last so a publisher's magazine ad doesn't beat a real logo/portrait.
-const COVER_KIND_PRIORITY = ['key-visual', 'box-front', 'title', 'manual-cover', 'logo', 'portrait', 'ad'];
-export function coverOf(media = []) {
+// `ad` is last so a publisher's magazine ad doesn't beat a real logo/portrait,
+// and it counts as a cover for GAMES only: a game's ad shows that game's own
+// artwork, so it is a fair stand-in when no box/title scan exists (357 entries
+// rely on it). On company/person/team pages an ad is a period document about the
+// entity, not its face — those keep the placeholder and put the ad in the body
+// via the `media:` embed syntax instead.
+const COVER_KIND_PRIORITY = ['key-visual', 'box-front', 'title', 'manual-cover', 'logo', 'portrait'];
+const GAME_COVER_KIND_PRIORITY = [...COVER_KIND_PRIORITY, 'ad'];
+export function coverOf(media = [], coll = 'games') {
   if (!media.length) return null;
   const explicit = media.find(m => m.cover);
   if (explicit) return explicit;
   const visible = media.filter(m => m.gallery !== false);
-  for (const kind of COVER_KIND_PRIORITY) {
+  for (const kind of (coll === 'games' ? GAME_COVER_KIND_PRIORITY : COVER_KIND_PRIORITY)) {
     const hit = visible.find(m => m.kind === kind);
     if (hit) return hit;
   }

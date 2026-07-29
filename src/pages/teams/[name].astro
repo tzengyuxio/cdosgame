@@ -41,7 +41,7 @@ const featured = (c?.featured_games || []).map(id => developed.find(g => g.id ==
 const STATUS = { active: '運作中', defunct: '已解散', merged: '已合併', renamed: '已更名' };
 const lifespan = c?.founded ? (c.dissolved ? `${c.founded}–${c.dissolved}` : `${c.founded}`) : null;
 const media = c?.media || [];
-const cover = coverOf(media);
+const cover = coverOf(media, 'teams');
 const coverItem = cover ? decorate(cover, 'teams', name) : null;
 const mediaGroups = galleryGroups(media, 'teams', name);
 ---
