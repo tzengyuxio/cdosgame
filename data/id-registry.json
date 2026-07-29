@@ -9254,8 +9254,9 @@
       "keys": [
         "cat:SCD2711"
       ],
-      "status": "active",
-      "title_zh": "和平使者"
+      "status": "rejected",
+      "title_zh": "和平使者",
+      "reject_reason": "out of scope: 和平使者（1999，Jinxter），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-0988": {
       "catalog_id": "SCD2309",
@@ -12642,8 +12643,9 @@
       "keys": [
         "cat:SCD2280"
       ],
-      "status": "active",
-      "title_zh": "阿拉丁之阿布歷險記"
+      "status": "rejected",
+      "title_zh": "阿拉丁之阿布歷險記",
+      "reject_reason": "out of scope: 阿拉丁之阿布歷險記（1999，迪士尼／草莓軟體代理），兒童向 Windows 外文款、僅中文包裝"
     },
     "cdg-1346": {
       "catalog_id": "SCD1076",
@@ -14245,8 +14247,9 @@
       "keys": [
         "cat:SCD0916"
       ],
-      "status": "active",
-      "title_zh": "風火輪：撞毀"
+      "status": "rejected",
+      "title_zh": "風火輪：撞毀",
+      "reject_reason": "out of scope: 風火輪：撞毀（1999，Prolific），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1519": {
       "catalog_id": "SCD1877",
@@ -14799,8 +14802,9 @@
       "keys": [
         "cat:SCD1459"
       ],
-      "status": "active",
-      "title_zh": "代號雄鷹"
+      "status": "rejected",
+      "title_zh": "代號雄鷹",
+      "reject_reason": "out of scope: 代號雄鷹（1999，Refraction），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-1579": {
       "catalog_id": "SCD0629",
