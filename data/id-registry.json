@@ -49806,6 +49806,15 @@
       ],
       "status": "active",
       "title_zh": "雙龍麻將"
+    },
+    "cdg-5347": {
+      "catalog_id": null,
+      "developer": "Ronin",
+      "keys": [
+        "t:天銥計劃|Ronin"
+      ],
+      "status": "active",
+      "title_zh": "天銥計劃"
     }
   }
 }
