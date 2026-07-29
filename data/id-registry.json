@@ -26309,8 +26309,9 @@
       "keys": [
         "cat:SCD2385"
       ],
-      "status": "active",
-      "title_zh": "瘋狗1"
+      "status": "rejected",
+      "title_zh": "瘋狗1",
+      "reject_reason": "out of scope: 瘋狗1（1992，ALG），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2810": {
       "catalog_id": "SCD2386",
@@ -27029,8 +27030,9 @@
       "keys": [
         "cat:SCD2477"
       ],
-      "status": "active",
-      "title_zh": "釣鱸高手1"
+      "status": "rejected",
+      "title_zh": "釣鱸高手1",
+      "reject_reason": "out of scope: 釣鱸高手1（1995，Dynamix），Windows 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2886": {
       "catalog_id": "SCD2478",
@@ -34073,8 +34075,9 @@
       "keys": [
         "cat:SCD1926"
       ],
-      "status": "active",
-      "title_zh": "高爆極速飛車"
+      "status": "rejected",
+      "title_zh": "高爆極速飛車",
+      "reject_reason": "out of scope: 高爆極速飛車（1995，Bullfrog），DOS 外文遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-3639": {
       "catalog_id": "SCD1308",
@@ -38890,8 +38893,9 @@
       "keys": [
         "t:殺出機械城|None"
       ],
-      "status": "active",
-      "title_zh": "殺出機械城"
+      "status": "rejected",
+      "title_zh": "殺出機械城",
+      "reject_reason": "out of scope: 殺出機械城（1990），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4159": {
       "catalog_id": "511000048",
@@ -39214,8 +39218,9 @@
       "keys": [
         "t:巫域之心|None"
       ],
-      "status": "active",
-      "title_zh": "巫域之心"
+      "status": "rejected",
+      "title_zh": "巫域之心",
+      "reject_reason": "out of scope: 巫域之心（1990），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4194": {
       "catalog_id": null,
@@ -39345,8 +39350,9 @@
       "keys": [
         "t:SD祖魯戰記|None"
       ],
-      "status": "active",
-      "title_zh": "SD祖魯戰記"
+      "status": "rejected",
+      "title_zh": "SD祖魯戰記",
+      "reject_reason": "out of scope: SD祖魯戰記（1990），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4208": {
       "catalog_id": null,
@@ -39354,8 +39360,9 @@
       "keys": [
         "t:天龍特攻隊|None"
       ],
-      "status": "active",
-      "title_zh": "天龍特攻隊"
+      "status": "rejected",
+      "title_zh": "天龍特攻隊",
+      "reject_reason": "out of scope: 天龍特攻隊（1990），全 null stub，無正文亦無台灣發行足跡可考"
     },
     "cdg-4209": {
       "catalog_id": null,
