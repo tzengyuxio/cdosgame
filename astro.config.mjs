@@ -81,13 +81,23 @@ function rehypeMedia() {
         ],
       };
     };
+    const isMediaImg = (n) => n.tagName === 'img'
+      && typeof n.properties?.src === 'string' && n.properties.src.startsWith('media:');
     const visit = (node) => {
+      // a paragraph holding nothing but media images: 1 → unwrap to a lone
+      // <figure>, 2+ → a .fig-row flex strip so they sit side by side, in order.
+      if (node.tagName === 'p') {
+        const kids = node.children.filter(c => !(c.type === 'text' && !c.value.trim()));
+        if (kids.length && kids.every(isMediaImg)) {
+          const figs = kids.map(c => toFigure(c.properties.alt || '', c.properties.src));
+          Object.assign(node, figs.length === 1 ? figs[0]
+            : { type: 'element', tagName: 'div', properties: { className: ['fig-row'] }, children: figs });
+          return;
+        }
+      }
       for (const child of node.children || []) {
-        if (child.tagName === 'img' && typeof child.properties?.src === 'string' && child.properties.src.startsWith('media:')) {
-          const fig = toFigure(child.properties.alt || '', child.properties.src);
-          const onlyChild = node.tagName === 'p'
-            && node.children.filter(c => !(c.type === 'text' && !c.value.trim())).length === 1;
-          Object.assign(onlyChild ? node : child, fig);  // unwrap <p><img></p>, else replace img
+        if (isMediaImg(child)) {
+          Object.assign(child, toFigure(child.properties.alt || '', child.properties.src));
           continue;
         }
         visit(child);
