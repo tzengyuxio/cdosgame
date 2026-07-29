@@ -108,6 +108,8 @@ external_links:
 
 **雙形式可混用**：同一份 `footnotes` 可前段純字串、後段 keyed，順序決定列表編號（顯示 1, 2, 3…）。被引用者編號照樣由 body 出現序決定，與列表中位置無關。
 
+**footnote 內的網址一律錨點式**：`text` 走 `set:html` 但不會 autolink，裸網址只會變成一長串純文字。要附連結就把最貼近該 URL 的片段包成 `<a href="…">`——雜誌來源包 `《刊名》第 N 期`（見下節），網路貼文／頁面包篇名 `〈…〉`，其餘包最能代表該頁的短語。`target`／`rel` 由 `CiteSections.astro` 自動補，不必手寫。
+
 ## 雜誌 NostaLib 連結
 
 提到雜誌時，連到 NostaLib（懷舊圖書館）該期頁面。URL 為確定式：`https://nostalib.simagame.me/magazines/<code>/no.<NNN>/`（**結尾帶斜線**），`<code>` 即上表縮寫（swm/ace/sgm/cgw）。**文字期號不補零、URL 補零**（`第40期` → `no.040`）；合刊用連字號（`第70+71期` → `no.070-071`）；特殊期號 `試刊號` → `no.000`、`創刊號` → `no.001`。helper（`magazineIssueUrl`／`magazineHref`）見 `src/lib/magazine-links.js`。個別期號是否確實存在於 NostaLib 未自動驗證，有疑慮者可在 footnote 手寫完整 URL 覆蓋。
