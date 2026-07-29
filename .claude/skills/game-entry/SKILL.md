@@ -103,7 +103,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - **cite 標籤放在句號【之前】**：`……敵我同時行動<sup class="cite" data-ref="key"></sup>。`（連續多個 cite 整組放句號前）。全庫已正規化，別再寫成句號在前。
 - **參考資料**（`references`）＝內容來源；general 來源（chiuinan/fandom/omega…）自動列出、**不編號**。**某句需標來源** → 在 `references.cited` 加一筆（keyed：`<key>: { label, url }`，`label` 即標題；或 legacy：`"標題": url`），正文該句末接 `<sup class="cite" data-ref="<key>"></sup>`——**用 dynamic `data-ref`，不要手寫 `#cite-N`**；編號、backref、`#cite-N` 錨點全由系統自動產生。寫法、編號規則與範例見 `docs/refs-convention.md`〈編號規則〉〈frontmatter 寫法〉。
 - **註釋**（`footnotes: ["純文字補充…"]`）＝說明性補充，也可被 `[N]` 引用（編號接在 references 之後 `[k+1…]`）。keyed footnote 的 `key` 命名：雜誌來源用 `<刊名縮寫><期號>`（如 `swm70`、`ace96`），其餘一次性註腳用 `fn01`…，規則與刊名對照見 `docs/refs-convention.md`「footnote key 命名」。
-  - **雜誌 footnote 附 NostaLib 連結**：把 `《刊名》第 N 期` 包成 `<a href="https://nostalibrary.tzengyuxio.me/magazines/<code>/no.<NNN>">…</a>`（`text` 走 `set:html`，`target` 由 `CiteSections` 自動補）；**內文提及雜誌不另連**，`media` caption 的刊名期號由渲染層自動連。政策見 `docs/refs-convention.md`「雜誌 NostaLib 連結」。
+  - **雜誌 footnote 附 NostaLib 連結**：把 `《刊名》第 N 期` 包成 `<a href="https://nostalib.simagame.me/magazines/<code>/no.<NNN>">…</a>`（`text` 走 `set:html`，`target` 由 `CiteSections` 自動補）；**內文提及雜誌不另連**，`media` caption 的刊名期號由渲染層自動連。政策見 `docs/refs-convention.md`「雜誌 NostaLib 連結」。
 - **外部連結**（`external_links`）＝**非來源**的相關連結（重複、無法爬取、延伸備用），不編號。
 - **「丟連結」SOP**：使用者貼連結時 → ① 讀內容 → ② 判斷是否據此改寫/增補正文 → ③ 依「**有沒有用作來源**」歸 `references`（被引用再標 cited 給 `[N]`）或 `external_links`。
 

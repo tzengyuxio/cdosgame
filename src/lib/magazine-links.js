@@ -9,14 +9,17 @@
 //      該期 URL，掛在縮圖 button 的 data-mag-url/label；lightbox 放大時才渲染成
 //      「雜誌：<刊名期號>」連結（縮圖 caption 本身維持純文字，不散連結）。
 
-export const MAG_BASE = 'https://nostalibrary.tzengyuxio.me/magazines';
+export const MAG_BASE = 'https://nostalib.simagame.me/magazines';
 
 // 刊名（正文/caption 用字）→ NostaLib code。key 亦為 footnote key 前綴。
+// 同一刊物不同時期的刊名並列（《電腦遊戲世界》後改名《遊戲世界》，期號連續、
+// 同屬 cgw）；比對時長名在前，免得「遊戲世界」先吃掉「電腦遊戲世界」。
 export const MAG_CODES = {
   軟體世界: 'swm',
   電腦玩家: 'ace',
   新遊戲時代: 'sgm',
   電腦遊戲世界: 'cgw',
+  遊戲世界: 'cgw',
 };
 
 // (code, issue) → 該期 NostaLib URL。issue 可為 '40' 或合刊 '70-71'。
@@ -27,7 +30,7 @@ export function magazineIssueUrl(code, issue) {
     .split('-')
     .map(pad)
     .join('-');
-  return `${MAG_BASE}/${code}/no.${norm}`;
+  return `${MAG_BASE}/${code}/no.${norm}/`;
 }
 
 // 特殊期號 → 期數（NostaLib 慣例：試刊號＝no.000、創刊號＝no.001）。

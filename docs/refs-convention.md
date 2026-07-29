@@ -110,7 +110,7 @@ external_links:
 
 ## 雜誌 NostaLib 連結
 
-提到雜誌時，連到 NostaLib（懷舊圖書館）該期頁面。URL 為確定式：`https://nostalibrary.tzengyuxio.me/magazines/<code>/no.<NNN>`，`<code>` 即上表縮寫（swm/ace/sgm/cgw）。**文字期號不補零、URL 補零**（`第40期` → `no.040`）；合刊用連字號（`第70+71期` → `no.070-071`）；特殊期號 `試刊號` → `no.000`、`創刊號` → `no.001`。helper（`magazineIssueUrl`／`magazineHref`）見 `src/lib/magazine-links.js`。個別期號是否確實存在於 NostaLib 未自動驗證，有疑慮者可在 footnote 手寫完整 URL 覆蓋。
+提到雜誌時，連到 NostaLib（懷舊圖書館）該期頁面。URL 為確定式：`https://nostalib.simagame.me/magazines/<code>/no.<NNN>/`（**結尾帶斜線**），`<code>` 即上表縮寫（swm/ace/sgm/cgw）。**文字期號不補零、URL 補零**（`第40期` → `no.040`）；合刊用連字號（`第70+71期` → `no.070-071`）；特殊期號 `試刊號` → `no.000`、`創刊號` → `no.001`。helper（`magazineIssueUrl`／`magazineHref`）見 `src/lib/magazine-links.js`。個別期號是否確實存在於 NostaLib 未自動驗證，有疑慮者可在 footnote 手寫完整 URL 覆蓋。
 
 **落點政策——連結只放「來源層」，靠既有機制去重：**
 

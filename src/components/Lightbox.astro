@@ -25,9 +25,19 @@
     if (!nodes.length) return;
     const thumbs = [];
     const idxOf = new Map();
+    // Duplicates carry different metadata: an in-body .fig-img only knows its
+    // caption, while the gallery thumb also has source / magazine-issue data.
+    // Keep the first node for ordering, but fold in whatever fields it lacks so
+    // the lightbox shows the full footer no matter which copy was clicked.
+    // Prefer the gallery/cover copy over an in-body .fig-img: only the gallery
+    // carries source + magazine-issue data, and its caption is the one those
+    // fields were derived from (a body caption is usually worded differently, so
+    // mixing the two would break the「刊名＋期號」replace below).
     for (const n of nodes) {
       const key = n.dataset.full;
-      if (!idxOf.has(key)) { idxOf.set(key, thumbs.length); thumbs.push(n); }
+      if (!idxOf.has(key)) { idxOf.set(key, thumbs.length); thumbs.push(n); continue; }
+      const i = idxOf.get(key);
+      if (!thumbs[i].dataset.source && n.dataset.source) thumbs[i] = n;
     }
     let i = -1;
     const show = (n) => {

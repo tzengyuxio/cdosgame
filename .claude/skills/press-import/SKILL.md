@@ -52,7 +52,7 @@ node scripts/process_media.mjs --write     # APPLY：轉 WebP、寫 media[]、�
   ```yaml
   footnotes:
   - key: <刊物碼><期號>
-    text: '〈報導標題〉，<a href="https://nostalibrary.tzengyuxio.me/magazines/<code>/no.<NNN>">《刊名》第 N 期</a>（年）「單元」，頁 X。'
+    text: '〈報導標題〉，<a href="https://nostalib.simagame.me/magazines/<code>/no.<NNN>">《刊名》第 N 期</a>（年）「單元」，頁 X。'
   ```
   key 命名＝`<刊名縮寫><期號>[<語意後綴>]`（全小寫，同期多則加後綴如 `ad` 消歧義），縮寫對照表與規則見 `docs/refs-convention.md`「footnote key 命名」。常用：電腦玩家＝`ace`、軟體世界＝`swm`、新遊戲時代＝`sgm`、電腦遊戲世界＝`cgw`。
   **雜誌 footnote 一律把 `《刊名》第 N 期` 包成 NostaLib 連結**（URL＝`…/magazines/<code>/no.<NNN>`，NNN 三位補零、合刊用連字號；`target` 由 `CiteSections.astro` 自動補）。落點政策與去重見 `docs/refs-convention.md`「雜誌 NostaLib 連結」。
