@@ -10198,7 +10198,7 @@
         "cat:Z056"
       ],
       "status": "active",
-      "title_zh": "妙賊也瘋狂1"
+      "title_zh": "妙賊也瘋狂"
     },
     "cdg-1087": {
       "catalog_id": "SCD1349",
@@ -26068,7 +26068,7 @@
         "cat:SCD1829"
       ],
       "status": "active",
-      "title_zh": "瘋狂大飆車1"
+      "title_zh": "瘋狂大飆車"
     },
     "cdg-2784": {
       "catalog_id": "SCD1830",
@@ -35274,7 +35274,7 @@
         "cat:SCD0451"
       ],
       "status": "active",
-      "title_zh": "魔石英雄傳"
+      "title_zh": "魔石英雄傳2"
     },
     "cdg-3768": {
       "catalog_id": "OCD0019",
@@ -36090,8 +36090,9 @@
       "keys": [
         "t:富貴列車|None"
       ],
-      "status": "active",
-      "title_zh": "富貴列車"
+      "status": "merged",
+      "title_zh": "富貴列車",
+      "merged_into": "cdg-0811"
     },
     "cdg-3857": {
       "catalog_id": null,
@@ -38101,7 +38102,7 @@
         "t:Schwarzschild EX|工畫堂"
       ],
       "status": "active",
-      "title_zh": "銀河戰國列傳EX-鐵鎖的星群"
+      "title_zh": "銀河列國誌之鐵鎖的星群"
     },
     "cdg-4075": {
       "catalog_id": null,
@@ -38596,13 +38597,13 @@
     },
     "cdg-4127": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "Impressions Games",
       "keys": [
-        "t:烽火沙丘|None"
+        "t:烽火沙丘|Impressions Games"
       ],
-      "status": "rejected",
+      "status": "active",
       "title_zh": "烽火沙丘",
-      "reject_reason": "out of scope: 烽火沙丘（1995），offlinelist 合併而來的全 null stub，無台灣發行足跡可考"
+      "revive_reason": "軟體世界第81期 P183 松崗廣告預告中文 CD-ROM 版，台灣發行足跡確立"
     },
     "cdg-4128": {
       "catalog_id": null,
@@ -38646,8 +38647,9 @@
       "keys": [
         "t:魔石英雄傳說2|None"
       ],
-      "status": "active",
-      "title_zh": "魔石英雄傳說2"
+      "status": "merged",
+      "title_zh": "魔石英雄傳說2",
+      "merged_into": "cdg-3767"
     },
     "cdg-4133": {
       "catalog_id": null,
@@ -49887,6 +49889,87 @@
       ],
       "status": "active",
       "title_zh": "王座爭奪戰"
+    },
+    "cdg-5356": {
+      "catalog_id": null,
+      "developer": "Pixelkraft",
+      "keys": [
+        "t:超級越野賽車|Pixelkraft"
+      ],
+      "status": "active",
+      "title_zh": "超級越野賽車"
+    },
+    "cdg-5357": {
+      "catalog_id": null,
+      "developer": "雷神資訊科技",
+      "keys": [
+        "t:九個太陽|雷神資訊科技"
+      ],
+      "status": "active",
+      "title_zh": "九個太陽"
+    },
+    "cdg-5358": {
+      "catalog_id": null,
+      "developer": "松詮資訊",
+      "keys": [
+        "t:政治樸克|松詮資訊"
+      ],
+      "status": "active",
+      "title_zh": "政治樸克"
+    },
+    "cdg-5359": {
+      "catalog_id": null,
+      "developer": "Right Stuff",
+      "keys": [
+        "t:魔水晶物語|Right Stuff"
+      ],
+      "status": "active",
+      "title_zh": "魔水晶物語"
+    },
+    "cdg-5360": {
+      "catalog_id": null,
+      "developer": "Panoramic Software",
+      "keys": [
+        "t:決戰地獄火|Panoramic Software"
+      ],
+      "status": "active",
+      "title_zh": "決戰地獄火"
+    },
+    "cdg-5361": {
+      "catalog_id": null,
+      "developer": "NovaLogic",
+      "keys": [
+        "t:飛狼大戰卡曼契|NovaLogic"
+      ],
+      "status": "active",
+      "title_zh": "飛狼大戰卡曼契"
+    },
+    "cdg-5362": {
+      "catalog_id": null,
+      "developer": "Rocket Science Games",
+      "keys": [
+        "t:瘋狂之翼|Rocket Science Games"
+      ],
+      "status": "active",
+      "title_zh": "瘋狂之翼"
+    },
+    "cdg-5363": {
+      "catalog_id": null,
+      "developer": "Rocket Science Games",
+      "keys": [
+        "t:科幻北極星|Rocket Science Games"
+      ],
+      "status": "active",
+      "title_zh": "科幻北極星"
+    },
+    "cdg-5364": {
+      "catalog_id": null,
+      "developer": "Rocket Science Games",
+      "keys": [
+        "t:凱迪拉克大戰恐龍族|Rocket Science Games"
+      ],
+      "status": "active",
+      "title_zh": "凱迪拉克大戰恐龍族"
     }
   }
 }
