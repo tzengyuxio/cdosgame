@@ -28064,8 +28064,9 @@
       "keys": [
         "cat:SCD0854#2"
       ],
-      "status": "active",
-      "title_zh": "加菲貓：陷入困境"
+      "status": "rejected",
+      "title_zh": "加菲貓：陷入困境",
+      "reject_reason": "out of scope: Garfield: Caught in the Act（1996），外文 Windows 遊戲、無台灣中文化／代理發行足跡"
     },
     "cdg-2997": {
       "catalog_id": "SCD2632",
@@ -33726,7 +33727,7 @@
     },
     "cdg-3601": {
       "catalog_id": "SCD1809",
-      "developer": "新意",
+      "developer": "新藝",
       "keys": [
         "cat:SCD1809"
       ],
