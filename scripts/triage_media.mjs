@@ -401,7 +401,8 @@ for (const r of rows) {
       mkdirSync(join(dest, ".."), { recursive: true });
       if (existsSync(dest)) die(`目標檔已存在，拒絕覆蓋：${dest}`);
       if (i < r.files.length) { renameSync(r.files[i].file, dest); moved++; }
-      else { copyFileSync(r.files[0].file, dest); copied++; }
+      // The first file has already been moved into _inbox by now; copy from there.
+      else { copyFileSync(join(INBOX, r.paths[0]), dest); copied++; }
     });
     for (const f of r.files.slice(placed.length)) {
       const dir = join(HOLD, "_extra");
