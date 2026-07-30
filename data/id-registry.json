@@ -49815,6 +49815,42 @@
       ],
       "status": "active",
       "title_zh": "天銥計劃"
+    },
+    "cdg-5348": {
+      "catalog_id": null,
+      "developer": "大宇",
+      "keys": [
+        "t:百無禁忌MISS阿性|大宇"
+      ],
+      "status": "active",
+      "title_zh": "百無禁忌MISS阿性"
+    },
+    "cdg-5349": {
+      "catalog_id": null,
+      "developer": "Callisto Corporation",
+      "keys": [
+        "t:時鐘大聖|Callisto Corporation"
+      ],
+      "status": "active",
+      "title_zh": "時鐘大聖"
+    },
+    "cdg-5350": {
+      "catalog_id": null,
+      "developer": "Zoo Corporation",
+      "keys": [
+        "t:爆破俄羅斯|Zoo Corporation"
+      ],
+      "status": "active",
+      "title_zh": "爆破俄羅斯"
+    },
+    "cdg-5351": {
+      "catalog_id": null,
+      "developer": "捷友",
+      "keys": [
+        "t:辛巴達幻境奇航|捷友"
+      ],
+      "status": "active",
+      "title_zh": "辛巴達幻境奇航"
     }
   }
 }
