@@ -4494,7 +4494,7 @@
         "t:天路賽車|BlueMoon"
       ],
       "status": "active",
-      "title_zh": "天路賽車"
+      "title_zh": "獨闖天界"
     },
     "cdg-0480": {
       "catalog_id": null,
@@ -22577,7 +22577,7 @@
         "cat:SCD2576"
       ],
       "status": "active",
-      "title_zh": "星際大爭霸"
+      "title_zh": "星際大爭霸（Zeitgeist）"
     },
     "cdg-2414": {
       "catalog_id": "SWZ016",
@@ -49851,6 +49851,42 @@
       ],
       "status": "active",
       "title_zh": "辛巴達幻境奇航"
+    },
+    "cdg-5352": {
+      "catalog_id": null,
+      "developer": "Techtonics",
+      "keys": [
+        "t:星際大爭霸（Star Reach）|Techtonics"
+      ],
+      "status": "active",
+      "title_zh": "星際大爭霸（Star Reach）"
+    },
+    "cdg-5353": {
+      "catalog_id": null,
+      "developer": "Quantum Quality Productions",
+      "keys": [
+        "t:第二次世界大戰：南太平洋戰役|Quantum Quality Productions"
+      ],
+      "status": "active",
+      "title_zh": "第二次世界大戰：南太平洋戰役"
+    },
+    "cdg-5354": {
+      "catalog_id": null,
+      "developer": "Digital Image Design",
+      "keys": [
+        "t:魔鬼飛行任務|Digital Image Design"
+      ],
+      "status": "active",
+      "title_zh": "魔鬼飛行任務"
+    },
+    "cdg-5355": {
+      "catalog_id": null,
+      "developer": "German Design Group",
+      "keys": [
+        "t:王座爭奪戰|German Design Group"
+      ],
+      "status": "active",
+      "title_zh": "王座爭奪戰"
     }
   }
 }
