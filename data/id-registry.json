@@ -19300,7 +19300,7 @@
         "cat:SCD0776,SCD0778"
       ],
       "status": "active",
-      "title_zh": "終極動員令1"
+      "title_zh": "終極動員令"
     },
     "cdg-2061": {
       "catalog_id": "SCD0777,SCD0778",
@@ -49971,6 +49971,15 @@
       ],
       "status": "active",
       "title_zh": "凱迪拉克大戰恐龍族"
+    },
+    "cdg-5365": {
+      "catalog_id": null,
+      "developer": "New World Computing",
+      "keys": [
+        "t:銀河帝國大決戰II|New World Computing"
+      ],
+      "status": "active",
+      "title_zh": "銀河帝國大決戰II"
     }
   }
 }
