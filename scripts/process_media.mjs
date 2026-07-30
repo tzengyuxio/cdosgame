@@ -42,7 +42,9 @@ const normId = (s) => {
 
 // → { coll, slug, rawKind, kind, source, caption, cover } | null
 function parse(file, coll, slug) {
-  let fields = basename(file, extname(file)).split("__").map((x) => x.trim()).filter(Boolean);
+  // `__~…` is a human annotation stamped by triage_media (entry title + your own
+  // notes, for eyeballing the inbox). Never part of the caption.
+  let fields = basename(file, extname(file)).split("__").map((x) => x.trim()).filter(Boolean).filter((x) => !x.startsWith("~"));
   if (!slug) { slug = coll === "games" ? normId(fields[0]) : fields[0]; fields = fields.slice(1); }
   const cover = fields.includes("cover");
   fields = fields.filter((x) => x !== "cover");
@@ -150,6 +152,22 @@ if (!WRITE) {
     for (const v of vs) for (const l of itemYaml({ ...v.meta, src: v.src })) console.log(l);
     if (key.startsWith("companies/") && vs.some((v) => v.meta.kind === "ad"))
       console.log(`  # 多款代理廣告記得補 games: [cdg-XXXX]`);
+    console.log("");
+  }
+  // Same-kind images already on the entry: the incoming scan may be the very same
+  // ad reprinted in another issue. Machine can't tell — list them, you look.
+  const dups = [];
+  for (const [key, vs] of Object.entries(byEntity)) {
+    const dir = join("public/media", vs[0].meta.coll, vs[0].meta.slug);
+    if (!existsSync(dir)) continue;
+    for (const kind of new Set(vs.map((v) => v.meta.kind))) {
+      const have = readdirSync(dir).filter((f) => f.endsWith(".webp") && f.replace(/-\d+\.webp$/, "") === kind);
+      if (have.length) dups.push(`  ${key}  新進 ${vs.filter((v) => v.meta.kind === kind).length} 張 ${kind}，既有：${have.sort().join(" ")}`);
+    }
+  }
+  if (dups.length) {
+    console.log(`# 請人工比對是否重複（同 kind 已有圖，可能是同一則廣告在別期重刊）\n`);
+    for (const d of dups) console.log(d);
     console.log("");
   }
   process.exit(errors.length ? 1 : 0);

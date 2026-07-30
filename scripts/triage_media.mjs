@@ -88,6 +88,19 @@ function buildTitleIndex() {
   return idx;
 }
 
+// title_zh of one entry, for the filename annotation. Cached: called per target.
+const titleCache = new Map();
+function titleOfEntry(slug) {
+  if (!titleCache.has(slug)) {
+    const p = join("content/games", `${slug}.md`);
+    const head = existsSync(p) ? readFileSync(p, "utf8").split("\n---", 2)[0] : "";
+    const t = head.match(/^title_zh:\s*(.+)$/m)?.[1]?.trim().replace(/^["']|["']$/g, "") || null;
+    // `__` would fake a field boundary; `/` would fake a directory.
+    titleCache.set(slug, t ? t.replace(/__+/g, "_").replace(/\//g, "／") : null);
+  }
+  return titleCache.get(slug);
+}
+
 // ── source maps ─────────────────────────────────────────────────────────
 const dirMap = existsSync(SOURCE_DIRS) ? JSON.parse(readFileSync(SOURCE_DIRS, "utf8")).dirs || {} : {};
 const validCodes = new Set(Object.keys(JSON.parse(readFileSync(SOURCE_CODES, "utf8"))));
@@ -118,8 +131,13 @@ function parseTarget(spec) {          // "teams/狂徒創作群" | "cdg-1783"
 // Structured (already triaged):  cdg-1783__ad-01__boneash__caption
 //                                unk__ad__scan__新毀滅巫師   ·   skip__…
 // Unstructured (raw scan):       262_P261_新毀滅巫師.jpg  ·  SSC_0030_重裝機甲兵2.jpg
+// A trailing `__~…` field is a human annotation (the game title we stamp on, plus
+// whatever note you typed while eyeballing the scans). It never reaches the caption:
+// both this script and process_media drop it.
+const stripNote = (stem) => stem.split("__").filter((x) => !x.trim().startsWith("~")).join("__");
+
 function parseName(name) {
-  const stem = basename(name, extname(name));
+  const stem = stripNote(basename(name, extname(name)));
   const f = stem.split("__").map((x) => x.trim()).filter(Boolean);
   if (/^cdg-\d{3,}$/i.test(f[0] || "")) {
     const kind = (f[1] || "").replace(/-\d+$/, "");
@@ -162,10 +180,19 @@ function allocSeq(t) {
 }
 
 // Inbox path for one target (games go flat; other collections use <coll>/<slug>/).
+// Stamp the entry's own title onto the inbox filename so a human can eyeball
+// "did this scan really go to that game?" without opening every .md. Dropped again
+// on the way in (see stripNote), so it never becomes part of the caption.
+function noteField(t) {
+  const title = t.coll === "games" ? titleOfEntry(t.slug) : t.slug;
+  return title ? `~${title}` : null;
+}
+
 function inboxPath(t, ext) {
   const rawKind = allocSeq(t);
-  if (t.coll === "games") return [t.slug, rawKind, t.source, t.caption].filter(Boolean).join("__") + ext;
-  return join(t.coll, t.slug, [rawKind, t.source, t.caption].filter(Boolean).join("__") + ext);
+  const note = noteField(t);
+  if (t.coll === "games") return [t.slug, rawKind, t.source, t.caption, note].filter(Boolean).join("__") + ext;
+  return join(t.coll, t.slug, [rawKind, t.source, t.caption, note].filter(Boolean).join("__") + ext);
 }
 
 // A target with slug:null means "kind/source known, entry unknown" — it carries

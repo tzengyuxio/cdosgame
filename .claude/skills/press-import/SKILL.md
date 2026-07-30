@@ -32,6 +32,11 @@ node scripts/process_media.mjs --write     # APPLY：轉 WebP、寫 media[]、�
 ```
 `--write` 是**整批** inbox（press＋ad 一起），fail-fast 且冪等。入庫後每個條目多一筆 `media[] { kind: press, source: scan, caption: "<刊名 期號>" }`。
 
+PLAN 有兩件事要在 `--write` 前處理完：
+
+- **檔名末尾的 `__~<遊戲名>` 是註記欄**（`triage_media` 蓋上的，供人核對圖有沒有派錯款），入庫時自動丟棄、不會進 caption——**不必也不要手動去刪**。
+- **PLAN 末尾列出的「同 kind 已有圖」清單要逐條看過**：同一則廣告在別期重刊很常見，機器分不出來。派 subagent 把新圖與 `public/media/games/<id>/` 既有同 kind 圖目視比對（判「同一則 vs 不同廣告」），重複的先從 `_inbox` 刪掉再入庫。
+
 ### 3. 研究（平行 subagent，主線不吃圖）
 每張 press 開一個 subagent（`Task`／`general-purpose`），**各讀 1 張圖**（資訊量大，1 對 1 最準）＋對應條目，**只回結構化事實、不寫檔、不 git**：
 

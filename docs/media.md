@@ -172,13 +172,16 @@ node scripts/process_media.mjs --write     # APPLY：實際執行
 檔名格式（欄位以 `__` 雙底線分隔）：
 
 ```
-<cdg-id>__<kind>[-NN]__<source>[__<圖說>].<ext>
+<cdg-id>__<kind>[-NN]__<source>[__<圖說>][__~<註記>].<ext>
 ```
 
 - `<cdg-id>`：`cdg-1564` 或省略前綴的 `1564`。
 - `<kind>`：第 2 節控制詞彙；多張同類用 `-01`、`-02`。
 - `<source>`：**來源代碼**（見 5.4），如 `boneash`、`haruo`、`self`。
 - `<圖說>`：選填，中文可，過長就省略、改用對話告訴我或寫進 5.3 的 sidecar。
+- `<~註記>`：選填，**以 `~` 開頭的欄位是給人看的註記，入庫時整欄丟棄、不會進 caption**。
+  `triage_media` 移進 `_inbox` 時會自動蓋上該條目的 `title_zh`（讓你用檔名就能核對圖有沒有派錯款），
+  你也可以直接在後面加自己的備忘（`__~妖魔道 這張存疑`）。
 - `<ext>`：png／jpg／webp 皆可。
 
 範例：

@@ -65,6 +65,21 @@ node scripts/process_media.mjs             # DRY-RUN 檢查
 node scripts/process_media.mjs --write     # 實際入庫
 ```
 
+搬進 `_inbox` 的檔名末尾會多一個 `__~<遊戲名>` 欄位——**給你核對用的註記**，
+入庫時整欄丟棄、不會進 caption：
+
+```
+cdg-1982__press-04__boneash__軟體世界 第63期__~鹿鼎記之皇城爭霸.jpg
+```
+
+派錯款一眼就看得出來（`cdg-1982` 對不上圖的內容）。你也可以在後面接自己的備忘
+（`__~鹿鼎記之皇城爭霸 這張存疑`），或整個欄位改寫；`~` 開頭的欄位一律不入庫。
+要改真正的 caption 仍是改前面那個圖說欄位。
+
+DRY-RUN 末尾會列出「**同 kind 已有圖**」的條目——同一則廣告在別期重刊很常見，
+機器分不出來，你（或派個 agent）把新圖與 `public/media/games/<id>/` 既有的同 kind 圖
+逐張目視比對，重複的就從 `_inbox` 刪掉再入庫。
+
 ### 5. 補條目
 
 補正文時**讀 sidecar 而不是重讀圖**：
@@ -142,6 +157,7 @@ node scripts/triage_media.mjs show <hash>
 查無    unk__ad__scan__新毀滅巫師.jpg              ← 無序號
 不入庫  skip__軟體世界第4期發行目錄.jpg
 已識別  cdg-2336__ad-01__boneash__軟體世界 第82期.jpg  ← 有序號
+進 inbox cdg-2336__ad-01__boneash__軟體世界 第82期__~新毀滅巫師.jpg  ← `~` 欄＝註記，不入庫
 ```
 
 ## 三個要記住的點
