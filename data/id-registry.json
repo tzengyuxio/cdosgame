@@ -11894,7 +11894,7 @@
     },
     "cdg-1265": {
       "catalog_id": null,
-      "developer": "精訊",
+      "developer": "洪慧治",
       "keys": [
         "t:漁歌麻將|精訊"
       ],
@@ -20102,7 +20102,7 @@
     },
     "cdg-2146": {
       "catalog_id": null,
-      "developer": "Fatman",
+      "developer": "虞希舜",
       "keys": [
         "t:象棋大師|Fatman"
       ],
@@ -42354,7 +42354,7 @@
     },
     "cdg-4534": {
       "catalog_id": null,
-      "developer": "精訊",
+      "developer": "蔡明宏",
       "keys": [
         "t:屠龍戰記|精訊",
         "t:Dragon Odyssey|精訊"
@@ -46121,7 +46121,7 @@
     },
     "cdg-4948": {
       "catalog_id": null,
-      "developer": "精訊",
+      "developer": "西門孟",
       "keys": [
         "t:血型占星術|精訊"
       ],
@@ -49989,6 +49989,51 @@
       ],
       "status": "active",
       "title_zh": "時間之旅"
+    },
+    "cdg-5367": {
+      "catalog_id": null,
+      "developer": "SubLOGIC",
+      "keys": [
+        "t:模擬飛行II|SubLOGIC"
+      ],
+      "status": "active",
+      "title_zh": "模擬飛行II"
+    },
+    "cdg-5368": {
+      "catalog_id": null,
+      "developer": "Electronic Arts",
+      "keys": [
+        "t:組合式音樂枱|Electronic Arts"
+      ],
+      "status": "active",
+      "title_zh": "組合式音樂枱"
+    },
+    "cdg-5369": {
+      "catalog_id": null,
+      "developer": "Ozark Softscape",
+      "keys": [
+        "t:七座金城|Ozark Softscape"
+      ],
+      "status": "active",
+      "title_zh": "七座金城"
+    },
+    "cdg-5370": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:單飛駕駛|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "單飛駕駛"
+    },
+    "cdg-5371": {
+      "catalog_id": null,
+      "developer": "MicroProse",
+      "keys": [
+        "t:北約防衛戰|MicroProse"
+      ],
+      "status": "active",
+      "title_zh": "北約防衛戰"
     }
   }
 }
