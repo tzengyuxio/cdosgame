@@ -6297,13 +6297,12 @@
     },
     "cdg-0671": {
       "catalog_id": "SCD1050",
-      "developer": "Stainless Steel",
+      "developer": "Stainless Steel Studios",
       "keys": [
         "cat:SCD1050"
       ],
-      "status": "rejected",
-      "title_zh": "世紀爭霸1",
-      "reject_reason": "out of scope: Stainless Steel《世紀爭霸1》(2001)，非 DOS 遊戲，系列與廠商均無 DOS 時代關聯"
+      "status": "active",
+      "title_zh": "世紀爭霸"
     },
     "cdg-0672": {
       "catalog_id": "SCD1051",
@@ -11422,13 +11421,12 @@
     },
     "cdg-1216": {
       "catalog_id": "SCD1118",
-      "developer": "CAPCOM",
+      "developer": "Capcom",
       "keys": [
         "cat:SCD1118"
       ],
-      "status": "rejected",
-      "title_zh": "洛克人",
-      "reject_reason": "out of scope: CAPCOM《洛克人 DASH 鋼之冒險心》(Mega Man Legends, 2000)，主機作、無台灣 PC 中文化發行足跡"
+      "status": "active",
+      "title_zh": "洛克人DASH：鋼鐵之心"
     },
     "cdg-1217": {
       "catalog_id": "SCD0829",
@@ -19592,9 +19590,8 @@
       "keys": [
         "cat:SCD1258,SCD1259"
       ],
-      "status": "rejected",
-      "title_zh": "絕冬城之夜1",
-      "reject_reason": "out of scope: 絕冬城之夜1 Neverwinter Nights（2002，BioWare），2000 年後 Windows 外商中文化代理作品，遠離 DOS 時代收錄範圍"
+      "status": "active",
+      "title_zh": "絕冬城之夜"
     },
     "cdg-2092": {
       "catalog_id": "SCD1824,SCD1259",
@@ -31676,13 +31673,12 @@
     },
     "cdg-3381": {
       "catalog_id": "SCD1417",
-      "developer": "DICE",
+      "developer": "Digital Illusions CE",
       "keys": [
         "cat:SCD1417"
       ],
-      "status": "rejected",
-      "title_zh": "戰地風雲1942",
-      "reject_reason": "out of scope: 戰地風雲1942 Battlefield 1942（2002，DICE），2000 年後 Windows 外文遊戲、無台灣中文化／代理發行足跡"
+      "status": "active",
+      "title_zh": "戰地風雲1942"
     },
     "cdg-3382": {
       "catalog_id": "SCD1419",
@@ -50052,6 +50048,60 @@
       ],
       "status": "active",
       "title_zh": "電動剋星頹廢版"
+    },
+    "cdg-5374": {
+      "catalog_id": null,
+      "developer": "目標軟體",
+      "keys": [
+        "t:傲世三國|目標軟體"
+      ],
+      "status": "active",
+      "title_zh": "傲世三國"
+    },
+    "cdg-5378": {
+      "catalog_id": null,
+      "developer": "正先實業",
+      "keys": [
+        "t:熱舞2000|正先實業"
+      ],
+      "status": "active",
+      "title_zh": "熱舞2000"
+    },
+    "cdg-5379": {
+      "catalog_id": null,
+      "developer": "Konami Computer Entertainment Japan",
+      "keys": [
+        "t:特攻神諜|Konami Computer Entertainment Japan"
+      ],
+      "status": "active",
+      "title_zh": "特攻神諜"
+    },
+    "cdg-5380": {
+      "catalog_id": null,
+      "developer": "Relic Entertainment",
+      "keys": [
+        "t:萬艦齊發|Relic Entertainment"
+      ],
+      "status": "active",
+      "title_zh": "萬艦齊發"
+    },
+    "cdg-5381": {
+      "catalog_id": null,
+      "developer": "Sting",
+      "keys": [
+        "t:神機世界2：遙遠的約定|Sting"
+      ],
+      "status": "active",
+      "title_zh": "神機世界2：遙遠的約定"
+    },
+    "cdg-5383": {
+      "catalog_id": null,
+      "developer": "光榮",
+      "keys": [
+        "t:三國志Internet|光榮"
+      ],
+      "status": "active",
+      "title_zh": "三國志Internet"
     }
   }
 }
