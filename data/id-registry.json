@@ -41454,7 +41454,7 @@
     },
     "cdg-4436": {
       "catalog_id": null,
-      "developer": null,
+      "developer": "何政修",
       "keys": [
         "t:遊戲剋星2|None"
       ],
@@ -50034,6 +50034,24 @@
       ],
       "status": "active",
       "title_zh": "北約防衛戰"
+    },
+    "cdg-5372": {
+      "catalog_id": null,
+      "developer": "何政修",
+      "keys": [
+        "t:遊戲剋星|何政修"
+      ],
+      "status": "active",
+      "title_zh": "遊戲剋星"
+    },
+    "cdg-5373": {
+      "catalog_id": null,
+      "developer": "陳偉谷",
+      "keys": [
+        "t:電動剋星頹廢版|陳偉谷"
+      ],
+      "status": "active",
+      "title_zh": "電動剋星頹廢版"
     }
   }
 }
