@@ -1,0 +1,55 @@
+# Manual guidebook -> game decisions for scripts/fetch_nostalib_guidebooks.mjs.
+# source_id <TAB> cdg ids (";" separated, or "none") <TAB> note
+# Only rows the automatic title match gets wrong or cannot resolve belong here.
+twp/pc-002	cdg-1104
+twp/pc-003	cdg-0211	書名的「電腦暨遊樂器版」指涵蓋範圍，非另一款遊戲
+twp/pc-007	cdg-2274;cdg-2934	合集：黑暗王座＋凱蘭迪亞傳奇2 命運之手
+twp/pc-015	cdg-2065	初代紅色警戒
+twp/pc-016	cdg-2465
+twp/pc-017	cdg-0622	天導一○八星＝水滸傳2
+twp/pc-018	cdg-0800
+twp/pc-021	none	紅色警戒資料片「絕地逢生」，catalog 未獨立收
+twp/pc-022	cdg-0907
+twp/pc-023	cdg-1642
+twp/pc-024	cdg-1942	書名無代數，暫定初代待確認
+twp/pc-031	cdg-4561	三箭之誓＝毛利元就傳
+twp/pc-055	cdg-1624
+twp/pc-059	cdg-3582	書名無代數，暫定初代待確認
+twp/pc-062	cdg-3467	蒼狼與白鹿4：成吉思汗
+twp/pc-066	cdg-3086
+twp/pc-069	none	泛系列讀物，非單一作品攻略
+twp/pc-072	cdg-1643	烈風傳＝信長之野望8
+twp/pc-073	cdg-1643	烈風傳＝信長之野望8
+twp/pc-075	cdg-3732
+twp/pc-079	cdg-2061
+twp/pc-081	cdg-5380
+twp/pc-083	cdg-5383	光榮網路對戰版，使用者決定納入
+twp/pc-084	cdg-0667	世紀帝國2：帝王世紀
+twp/pc-085	cdg-2387
+twp/pc-087	cdg-1884	軒轅劍參＝雲和山的彼端
+twp/pc-089	cdg-2972	真神之道＝創世紀9 羽化昇天的另一譯名，待確認
+twp/pc-091	cdg-5378
+twp/pc-093	cdg-1216	即洛克人DASH 鋼鐵之心（第三波中文版）
+twp/pc-096	cdg-1876	初代笑傲江湖（別名撞到日月神教）
+twp/pc-109	cdg-2066
+twp/pc-112	cdg-5379	台灣微軟代理（實物盒背佐證）
+twp/pc-113	cdg-1885	軒轅劍外傳：天之痕
+twp/pc-117	cdg-0216	威力加強版仍歸三國志7
+twp/pc-120	cdg-5374
+twp/pc-122	none	龍族，線上遊戲，不收
+twp/pc-129	none	暗黑破壞神2 資料片「毀滅之王」，catalog 未獨立收
+twp/pc-136	cdg-3926
+twp/pc-137	cdg-0819	成吉思汗：大漠英雄傳
+twp/pc-145	cdg-3780
+twp/pc-154	none	PSO 夢幻之星網路版，網路遊戲
+twp/pc-156	cdg-0671
+twp/pc-159	cdg-2341
+twp/pc-160	cdg-1886	軒轅劍肆＝黑龍舞兮雲飛揚
+twp/pc-164	cdg-2091
+twp/pc-166	cdg-5381
+twp/pc-167	cdg-2091	世界設定集，同款
+twp/pc-169	cdg-3381
+twp/pc-170	cdg-3703
+twp/pc-172	cdg-3178	福爾摩沙＝模擬城市4
+twp/ps-001	cdg-0893	PS 平台攻略本，是否同款待確認
+twp/ps-002	none	龍士傳說，PS 平台，catalog 無條目
