@@ -49980,6 +49980,15 @@
       ],
       "status": "active",
       "title_zh": "銀河帝國大決戰II"
+    },
+    "cdg-5366": {
+      "catalog_id": null,
+      "developer": "潛龍",
+      "keys": [
+        "t:時間之旅|潛龍"
+      ],
+      "status": "active",
+      "title_zh": "時間之旅"
     }
   }
 }
