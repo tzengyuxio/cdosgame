@@ -62,5 +62,9 @@
   "youtube": {
     "name": "YouTube",
     "url": "https://www.youtube.com/"
+  },
+  "lowscore": {
+    "name": "低分少年",
+    "url": "https://www.facebook.com/profile.php?id=100064010268564"
   }
 }
