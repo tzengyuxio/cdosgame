@@ -28475,7 +28475,8 @@
       "keys": [
         "t:拱豬大賽|世紀鼎點"
       ],
-      "status": "active",
+      "reject_reason": "out of scope: 拱豬大賽 Pig Heart（北京世紀鼎點 1997），中國大陸 Windows 撲克遊戲、無台灣發行／代理足跡",
+      "status": "rejected",
       "title_zh": "拱豬大賽"
     },
     "cdg-3040": {
