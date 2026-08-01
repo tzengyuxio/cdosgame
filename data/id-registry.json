@@ -3006,12 +3006,12 @@
     },
     "cdg-0319": {
       "catalog_id": "SCD1110",
-      "developer": "歡樂家庭",
+      "developer": "宇洲資訊",
       "keys": [
         "cat:SCD1110"
       ],
       "status": "active",
-      "title_zh": "中華一番客棧1"
+      "title_zh": "中華一番客棧"
     },
     "cdg-0320": {
       "catalog_id": "SCD1111",
@@ -24968,9 +24968,8 @@
       "keys": [
         "cat:SCD1655"
       ],
-      "status": "rejected",
-      "title_zh": "雲斯頓賽車3",
-      "reject_reason": "out of scope: 雲斯頓賽車3（1999，Papyrus），Windows 外文遊戲、無台灣中文化／代理發行足跡"
+      "status": "active",
+      "title_zh": "雲斯頓賽車3"
     },
     "cdg-2665": {
       "catalog_id": "SCD1656",
@@ -41239,9 +41238,8 @@
       "keys": [
         "t:海豚鳥節奏王國|None"
       ],
-      "status": "rejected",
-      "title_zh": "海豚鳥節奏王國",
-      "reject_reason": "out of scope: 無任何可考據資料（年代/開發商/發行商全缺）的 offlinelist 空殼"
+      "status": "active",
+      "title_zh": "海豚鳥節奏王國"
     },
     "cdg-4413": {
       "catalog_id": null,
@@ -50132,6 +50130,87 @@
       ],
       "status": "active",
       "title_zh": "阿土闖江湖"
+    },
+    "cdg-5387": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:魔導異元素：精靈戰士篇|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "魔導異元素：精靈戰士篇"
+    },
+    "cdg-5388": {
+      "catalog_id": null,
+      "developer": "藍海豚",
+      "keys": [
+        "t:戀戀情深|藍海豚"
+      ],
+      "status": "active",
+      "title_zh": "戀戀情深"
+    },
+    "cdg-5389": {
+      "catalog_id": null,
+      "developer": "Westwood Studios",
+      "keys": [
+        "t:救世傳說|Westwood Studios"
+      ],
+      "status": "active",
+      "title_zh": "救世傳說"
+    },
+    "cdg-5390": {
+      "catalog_id": null,
+      "developer": "工畫堂",
+      "keys": [
+        "t:銀河戰國列傳II：星海霸主|工畫堂"
+      ],
+      "status": "active",
+      "title_zh": "銀河戰國列傳II：星海霸主"
+    },
+    "cdg-5392": {
+      "catalog_id": null,
+      "developer": "華義",
+      "keys": [
+        "t:再戰江湖|華義"
+      ],
+      "status": "active",
+      "title_zh": "再戰江湖"
+    },
+    "cdg-5393": {
+      "catalog_id": null,
+      "developer": "DATT JAPAN",
+      "keys": [
+        "t:泡泡精靈|DATT JAPAN"
+      ],
+      "status": "active",
+      "title_zh": "泡泡精靈"
+    },
+    "cdg-5394": {
+      "catalog_id": null,
+      "developer": "Megamedia Australia",
+      "keys": [
+        "t:海霸王|Megamedia Australia"
+      ],
+      "status": "active",
+      "title_zh": "海霸王"
+    },
+    "cdg-5395": {
+      "catalog_id": null,
+      "developer": "JC Research",
+      "keys": [
+        "t:異度空間|JC Research"
+      ],
+      "status": "active",
+      "title_zh": "異度空間"
+    },
+    "cdg-5396": {
+      "catalog_id": null,
+      "developer": "Exortus",
+      "keys": [
+        "t:撒旦之城|Exortus"
+      ],
+      "status": "active",
+      "title_zh": "撒旦之城"
     }
   }
 }
