@@ -36422,7 +36422,8 @@
       "keys": [
         "t:日蝕|None"
       ],
-      "status": "active",
+      "merged_into": "cdg-2372",
+      "status": "merged",
       "title_zh": "日蝕"
     },
     "cdg-3893": {
