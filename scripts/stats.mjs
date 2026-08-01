@@ -116,8 +116,6 @@ function tallyMedia() {
     total = 0,
     bytes = 0,
     missing = 0;
-  const counts = [];
-  const byKind = {};
   for (const g of games) {
     const media = Array.isArray(g.fm.media) ? g.fm.media : [];
     let n = 0;
@@ -125,18 +123,13 @@ function tallyMedia() {
       if (!it || !it.src) continue;
       n++;
       total++;
-      const kind = it.kind || "(未標)";
-      byKind[kind] = (byKind[kind] || 0) + 1;
       const sz = sizeOf(join("public/media/games", g.slug, it.src));
       if (sz === null) missing++;
       else bytes += sz;
     }
-    if (n > 0) {
-      withImg++;
-      counts.push(n);
-    }
+    if (n > 0) withImg++;
   }
-  return { pub: games.length, withImg, total, bytes, missing, counts, byKind };
+  return { pub: games.length, withImg, total, bytes, missing };
 }
 
 // Tally legacy images: block (raw/ paths) for published games.
@@ -188,24 +181,6 @@ function sectionImages(includeRaw) {
       ["圖片總容量", MB(r.bytes), ""],
     ],
     ["left", "right", "left"],
-  );
-  const dist = {};
-  r.counts.forEach((c) => (dist[c] = (dist[c] || 0) + 1));
-  console.log("");
-  console.log("張數分布");
-  printTable(
-    ["張數", "遊戲款數"],
-    Object.entries(dist).map(([k, v]) => [k, v]),
-    ["right", "right"],
-  );
-  console.log("");
-  console.log("分類(kind)");
-  printTable(
-    ["kind", "張數"],
-    Object.entries(r.byKind)
-      .sort((a, b) => b[1] - a[1])
-      .map(([k, v]) => [k, v]),
-    ["left", "right"],
   );
   if (includeRaw) {
     const rr = tallyRaw();
