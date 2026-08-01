@@ -58,7 +58,7 @@ const sortedExternalLinks = [
         </li>
       ))}
       {generalRefs.map((it, j) => (
-        <li value={k + j + 1}>
+        <li id={it.key && `cite-ref-${k + j + 1}`} value={k + j + 1} data-key={it.key}>
           <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
         </li>
       ))}

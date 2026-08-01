@@ -3,6 +3,7 @@ import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DosBar from '../../components/DosBar.astro';
 import GameList from '../../components/GameList.astro';
+import EntityRefs from '../../components/EntityRefs.astro';
 import { groupBy, topValue, yearRange } from '../../lib/gamesQuery.js';
 import { genreLabel } from '../../lib/labels.js';
 import { companyUrl, genreUrl, topicUrl, withBase } from '../../lib/links.js';
@@ -58,6 +59,7 @@ const jsonLd = [
       {topics.length > 0 && (
         <><h2>專題／延伸條目</h2><ul class="glist">{topics.map(t => <li><a class="lk" href={topicUrl(t.id)}>{t.data.name_zh || t.id}</a></li>)}</ul></>
       )}
+      {entry && <EntityRefs entity={entry.data} />}
     </div>
     <aside class="gw-ib">
       <div class="infobox-wrap">

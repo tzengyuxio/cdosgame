@@ -9,6 +9,10 @@ export const seriesSchema = z.object({
   aliases: z.array(z.string()).default([]),
   lead_developer: z.string().optional(),
   summary: z.string().optional(),
+  // Citation footer, same shape as companies/teams/people (see docs/refs-convention.md).
+  footnotes: z.array(z.union([z.string(), z.object({ key: z.string(), text: z.string() })])).default([]),
+  references: z.array(z.object({ title: z.string().optional(), url: z.string().url(), cited: z.boolean().optional(), key: z.string().optional() })).default([]),
+  external_links: z.record(z.string(), z.string().url()).default({}),
 });
 
 export default seriesSchema;
