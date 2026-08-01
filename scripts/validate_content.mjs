@@ -43,6 +43,40 @@ function checkRefLabels(references = {}) {
   return warnings;
 }
 
+// 正文的 <sup class="cite" data-ref="KEY"> 必須指得到某個來源，否則渲染成 href="#"
+// 的死連結（見 docs/refs-convention.md）。可指的目標：references.cited 的 key、
+// keyed footnote 的 key，以及 general 來源本身的 key（chiuinan/fandom/wikipedia…）。
+const CITE_RE = /<sup class="cite" data-ref="([^"]+)"/g;
+// 雜誌來源的 key ＝ <刊名縮寫><期號>[<語意後綴>]；縮寫表見 docs/refs-convention.md。
+const MAGAZINE_CODES = ["ace", "swm", "sgm", "cgw"];
+const MAGAZINE_KEY_RE = new RegExp(`^(${MAGAZINE_CODES.join("|")})(\\d{1,3}(-\\d{1,3})?)([a-z]+\\d*)?$`);
+
+function citeKeys(data) {
+  const keys = new Set();
+  for (const [k, v] of Object.entries(data.references || {})) {
+    if (k === "cited") for (const ck of Object.keys(v || {})) keys.add(ck);
+    else keys.add(k);
+  }
+  // entity collections keep references as an array of {url, title, key?}
+  if (Array.isArray(data.references)) for (const r of data.references) if (r.key) keys.add(r.key);
+  for (const fn of data.footnotes || []) if (typeof fn === "object" && fn.key) keys.add(fn.key);
+  return keys;
+}
+
+function checkCites(body, data) {
+  const errors = [];
+  const warnings = [];
+  const known = citeKeys(data);
+  const used = new Set([...body.matchAll(CITE_RE)].map((m) => m[1]));
+  for (const key of used) {
+    if (!known.has(key)) errors.push(`cite data-ref="${key}" 指不到任何來源（會渲染成死連結）`);
+    // catch self-invented magazine abbreviations (sw/swf/pcgamer…) before they spread
+    else if (/^(sw|swf|pcgamer|softworld_mag)\d*$/.test(key)) warnings.push(`cite key "${key}" 疑似自創刊名縮寫；見 docs/refs-convention.md 對照表`);
+    else if (MAGAZINE_CODES.some((c) => key.startsWith(c)) && !MAGAZINE_KEY_RE.test(key)) warnings.push(`cite key "${key}" 不符雜誌 key 格式 <縮寫><期號>[<後綴>]`);
+  }
+  return { errors, warnings };
+}
+
 // platform_note 受控詞彙（規範見 schema.md「platform_note」）：canonical token 以
 // 頓號「、」連接（token 內部可含「/」如 DOS/V）。未知 token 出警告（非報錯），
 // 避免 Win31/Windows95/typo 等再漂。
@@ -101,6 +135,9 @@ for (const { dir, schema, checkId, coll } of COLLECTIONS) {
       if (coll === "games") {
         for (const w of checkPlatform(data.platform_note)) warnings.push({ f, issue: w });
       }
+      const cc = checkCites(text.slice(m[0].length), data);
+      for (const e of cc.errors) errors.push({ f, issue: e });
+      for (const w of cc.warnings) warnings.push({ f, issue: w });
     } else {
       errors.push({ f, issue: r.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ") });
     }
