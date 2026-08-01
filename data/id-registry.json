@@ -40606,7 +40606,8 @@
       "keys": [
         "t:神指阿土巴|None"
       ],
-      "status": "active",
+      "reject_reason": "out of scope: 神指阿土巴（草莓軟體 1999），Windows 平台的中文打字練習軟體，非遊戲且不在 DOS 收錄範圍",
+      "status": "rejected",
       "title_zh": "神指阿土巴"
     },
     "cdg-4345": {
