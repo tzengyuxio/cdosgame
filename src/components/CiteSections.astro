@@ -27,6 +27,14 @@ const prefixBase = (html) => html
 // Body cite numbering tracks appearance order in prose; the link target is each
 // item's unique id (cite-fn-N / cite-ref-N). data-key joins prose ↔ list item.
 const k = citedRefs.length;
+// NostaLib guidebook links get a chip so they stand out among the other
+// external links (mapping lives in derived/nostalib-guidebooks.tsv).
+const isGuidebook = (url = '') => /nostalib\.simagame\.me\/guidebooks\//.test(url);
+// Guidebooks list first (one line per book); everything else keeps its authored order.
+const sortedExternalLinks = [
+  ...externalLinks.filter(it => isGuidebook(it.url)),
+  ...externalLinks.filter(it => !isGuidebook(it.url)),
+];
 ---
 {footnotes.length > 0 && (
   <section class="sources">
@@ -61,8 +69,11 @@ const k = citedRefs.length;
   <section class="sources">
     <h2>外部連結</h2>
     <ul class="refs">
-      {externalLinks.map(it => (
-        <li><a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a></li>
+      {sortedExternalLinks.map(it => (
+        <li>
+          {isGuidebook(it.url) && <span class="chip chip-guidebook">攻略本</span>}
+          <a class="lk" href={it.url} target="_blank" rel="noopener nofollow">{it.text || it.url} ↗</a>
+        </li>
       ))}
     </ul>
   </section>
