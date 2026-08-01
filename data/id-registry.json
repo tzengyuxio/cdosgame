@@ -32799,7 +32799,7 @@
     },
     "cdg-3501": {
       "catalog_id": "SCD2731",
-      "developer": "Trigger",
+      "developer": "Trigger Soft",
       "keys": [
         "cat:SCD2731"
       ],
@@ -48285,7 +48285,7 @@
         "t:ＩＱ爭霸|藍海豚"
       ],
       "status": "active",
-      "title_zh": "ＩＱ爭霸"
+      "title_zh": "IQ爭霸"
     },
     "cdg-5173": {
       "catalog_id": null,
@@ -50211,6 +50211,42 @@
       ],
       "status": "active",
       "title_zh": "撒旦之城"
+    },
+    "cdg-5398": {
+      "catalog_id": null,
+      "developer": "Behaviour Interactive",
+      "keys": [
+        "t:兔寶寶歷險記|Behaviour Interactive"
+      ],
+      "status": "active",
+      "title_zh": "兔寶寶歷險記"
+    },
+    "cdg-5399": {
+      "catalog_id": null,
+      "developer": "RayLand Interactive",
+      "keys": [
+        "t:勁爆狂飆|RayLand Interactive"
+      ],
+      "status": "active",
+      "title_zh": "勁爆狂飆"
+    },
+    "cdg-5400": {
+      "catalog_id": null,
+      "developer": "Arxel Tribe",
+      "keys": [
+        "t:浮士德|Arxel Tribe"
+      ],
+      "status": "active",
+      "title_zh": "浮士德"
+    },
+    "cdg-5401": {
+      "catalog_id": null,
+      "developer": "Leaping Lizard Software",
+      "keys": [
+        "t:蟲蟲入侵|Leaping Lizard Software"
+      ],
+      "status": "active",
+      "title_zh": "蟲蟲入侵"
     }
   }
 }
