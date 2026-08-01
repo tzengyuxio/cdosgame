@@ -61,8 +61,12 @@ a.chip:hover{background:var(--brown);color:#fff;border-color:var(--brown);text-d
 /* lightbox */
 .lightbox{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center}
 .lightbox[hidden]{display:none}
-.lb-fig{margin:0;max-width:92vw;max-height:92vh;display:flex;flex-direction:column;align-items:center}
+.lb-fig{margin:0;max-width:92vw;max-height:92vh;display:flex;flex-direction:column;align-items:center;position:relative}
 .lb-img{max-width:92vw;max-height:84vh;object-fit:contain;background:#222}
+/* Thumb stand-in while the full image loads: soften it and show a spinner. */
+.lb-fig.is-loading .lb-img{filter:blur(2px);opacity:.85}
+.lb-fig.is-loading::after{content:"";position:absolute;top:50%;left:50%;width:2rem;height:2rem;margin:-1rem 0 0 -1rem;border:3px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:lb-spin .8s linear infinite}
+@keyframes lb-spin{to{transform:rotate(360deg)}}
 .lb-cap{color:#eee;font-size:13px;margin-top:8px;text-align:center}
 .lb-cap .c{display:block}
 .lb-cap .s{color:#bbb;font-size:12px}

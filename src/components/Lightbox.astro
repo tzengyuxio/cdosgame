@@ -7,7 +7,7 @@
   <button class="lb-btn lb-prev" type="button" aria-label="上一張">‹</button>
   <button class="lb-btn lb-next" type="button" aria-label="下一張">›</button>
   <figure class="lb-fig" onclick="event.stopPropagation()">
-    <img class="lb-img" src="" alt="" />
+    <img class="lb-img" src="" alt="" decoding="async" />
     <figcaption class="lb-cap"></figcaption>
   </figure>
 </div>
@@ -40,10 +40,35 @@
       if (!thumbs[i].dataset.source && n.dataset.source) thumbs[i] = n;
     }
     let i = -1;
+    // Bumped on every show()/close() so a slow full-size load can't overwrite a
+    // newer picture when it finally arrives.
+    let token = 0;
+    const fig = lb.querySelector('.lb-fig');
+    // The gallery serves a separate (much smaller) thumb file, so the full image
+    // only starts downloading on click. Paint the already-cached thumb first and
+    // swap in the full one when it lands, rather than opening onto a blank frame.
+    const showImage = (full, thumb) => {
+      const mine = ++token;
+      if (!thumb || thumb === full) {
+        img.src = full;
+        fig.classList.toggle('is-loading', !img.complete);
+        img.onload = () => { if (mine === token) fig.classList.remove('is-loading'); };
+        return;
+      }
+      img.src = thumb;
+      fig.classList.add('is-loading');
+      const full_ = new Image();
+      full_.onload = () => {
+        if (mine !== token) return;
+        img.src = full;
+        fig.classList.remove('is-loading');
+      };
+      full_.src = full;
+    };
     const show = (n) => {
       i = (n + thumbs.length) % thumbs.length;
       const t = thumbs[i];
-      img.src = t.dataset.full;
+      showImage(t.dataset.full, t.querySelector('img')?.currentSrc || t.querySelector('img')?.src);
       img.alt = t.dataset.caption || '';
       const parts = [];
       if (t.dataset.caption) {
@@ -64,7 +89,7 @@
       cap.innerHTML = parts.join('');
       lb.hidden = false;
     };
-    const close = () => { lb.hidden = true; img.src = ''; };
+    const close = () => { token += 1; lb.hidden = true; img.src = ''; fig.classList.remove('is-loading'); };
     nodes.forEach((t) => t.addEventListener('click', () => show(idxOf.get(t.dataset.full))));
     lb.addEventListener('click', close);
     lb.querySelector('.lb-close').addEventListener('click', (e) => { e.stopPropagation(); close(); });
