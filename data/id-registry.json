@@ -50103,6 +50103,33 @@
       ],
       "status": "active",
       "title_zh": "三國志Internet"
+    },
+    "cdg-5384": {
+      "catalog_id": null,
+      "developer": "亞碟",
+      "keys": [
+        "t:麻雀之城|亞碟"
+      ],
+      "status": "active",
+      "title_zh": "麻雀之城"
+    },
+    "cdg-5385": {
+      "catalog_id": null,
+      "developer": "業訊",
+      "keys": [
+        "t:勇者向前衝|業訊"
+      ],
+      "status": "active",
+      "title_zh": "勇者向前衝"
+    },
+    "cdg-5386": {
+      "catalog_id": null,
+      "developer": "歡樂盒",
+      "keys": [
+        "t:阿土闖江湖|歡樂盒"
+      ],
+      "status": "active",
+      "title_zh": "阿土闖江湖"
     }
   }
 }
