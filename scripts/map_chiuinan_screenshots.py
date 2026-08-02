@@ -16,7 +16,7 @@ from parse_chiuinan import split_title
 TREE = Path("raw/chiuinan/repo-tree.txt")
 OUT = Path("derived/chiuinan-screenshots.json")
 RAW_BASE = "https://raw.githubusercontent.com/chiuinan/chiuinan.github.io/master/game/game/"
-LINK_RE = re.compile(r'href="(intro/[a-z]+/c?[0-9]+/[A-Za-z0-9_]+)\.htm"[^>]*>([^<]+)')
+LINK_RE = re.compile(r'href="(intro/[a-z]+/[a-z]?[0-9]+/[A-Za-z0-9_]+)\.htm"[^>]*>([^<]+)')
 IMG_RE = re.compile(r"\.(png|jpe?g|gif)$", re.I)
 
 
