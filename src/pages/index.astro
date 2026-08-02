@@ -48,8 +48,12 @@ const adGroupsJson = asJson(adGroups);
 // 截圖 pools title and screenshot, matching the gallery category in lib/media.js.
 // Unweighted: title screens read as a logo, gameplay shots say what the game
 // looks like, and the mix is the point — revisit only if one starts to dominate.
+// Screens are landscape, so this wall runs 6 wider columns instead of 8 — at the
+// 8-column width a gameplay shot is too small to read as anything but a colour
+// block. 12 tiles also divides evenly by the 4-column mobile breakpoint.
+const SHOT_WALL_N = 12;
 const shotGroups = groupsByKind(['title', 'screenshot']);
-const featuredShots = pickFeaturedMedia(shotGroups, WALL_N, () => 0.5);
+const featuredShots = pickFeaturedMedia(shotGroups, SHOT_WALL_N, () => 0.5);
 const shotGroupsJson = asJson(shotGroups);
 // 最近更新 feed: newest-edited entries across all entity types, keyed by each
 // content file's last git-commit date. Empty (section hidden) on shallow clones
@@ -203,17 +207,17 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     import { thumbUrl } from '../lib/media.js';
 
     const esc = value => String(value).replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[char]);
-    const resample = (dataId, wallId, altSuffix) => {
+    const resample = (dataId, wallId, altSuffix, limit) => {
       const data = document.getElementById(dataId);
       const wall = document.getElementById(wallId);
       if (!data || !wall) return;
-      const picked = pickFeaturedMedia(JSON.parse(data.textContent || '[]'), 16);
+      const picked = pickFeaturedMedia(JSON.parse(data.textContent || '[]'), limit);
       wall.innerHTML = picked.map(m =>
         `<a class="cwall" href="${esc(gameUrl(m.id))}"><img src="${esc(thumbUrl('games', m.id, m.src))}" alt="${esc(m.t)} ${altSuffix}" loading="lazy"><span class="t">${esc(m.t)}</span></a>`
       ).join('');
     };
-    resample('featured-ad-data', 'adwall', '廣告');
-    resample('featured-shot-data', 'shotwall', '截圖');
+    resample('featured-ad-data', 'adwall', '廣告', 16);
+    resample('featured-shot-data', 'shotwall', '截圖', 12);
 
     const tabs = [...document.querySelectorAll('#featured-tabs [role="tab"]')];
     const activateTab = (activeTab, moveFocus = false) => {
