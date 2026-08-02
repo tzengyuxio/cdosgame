@@ -34496,7 +34496,7 @@
         "cat:SWE125"
       ],
       "status": "active",
-      "title_zh": "魔宮傳奇"
+      "title_zh": "魔宮傳奇（Indiana Jones and the Temple of Doom）"
     },
     "cdg-3684": {
       "catalog_id": "SCD2303",
@@ -50257,6 +50257,15 @@
       ],
       "status": "active",
       "title_zh": "火線群英"
+    },
+    "cdg-5404": {
+      "catalog_id": null,
+      "developer": "Ultrasoft",
+      "keys": [
+        "t:魔宮傳奇|Ultrasoft"
+      ],
+      "status": "active",
+      "title_zh": "魔宮傳奇（Shadowkeep）"
     }
   }
 }
