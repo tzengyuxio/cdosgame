@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
 import { seriesUrl, decadeUrl, gameUrl, companyUrl, teamUrl, personUrl, topicUrl, withBase } from '../lib/links.js';
 import { coverOf, thumbUrl } from '../lib/media.js';
-import { pickFeaturedAds } from '../lib/featuredAds.js';
+import { pickFeaturedMedia } from '../lib/featuredMedia.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified, lastModified } from '../lib/gitdates.js';
 
@@ -32,16 +32,25 @@ const coverPool = coverGames.map(toCard);
 const featured = [...coverGames]
   .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
   .slice(0, WALL_N).map(toCard);
-const adGroups = games.map(g => ({
+// Ad + screenshot walls share a shape: group by entry, sample one image per entry
+// so a game holding several images cannot swallow several tiles.
+// Only id/title/filenames travel in the inline JSON; URLs are rebuilt on both
+// sides with the shared helpers, which keeps the homepage payload small.
+const groupsByKind = kinds => games.map(g => ({
   id: g.id,
-  u: gameUrl(g.id),
   t: g.title_zh,
-  ads: (g.media || [])
-    .filter(m => m.kind === 'ad' && m.src)
-    .map(m => ({ img: thumbUrl('games', g.id, m.src) })),
-})).filter(g => g.ads.length > 0);
-const featuredAds = pickFeaturedAds(adGroups, WALL_N, () => 0.5);
-const adGroupsJson = JSON.stringify(adGroups).replaceAll('<', '\\u003c');
+  items: (g.media || []).filter(m => kinds.includes(m.kind) && m.src).map(m => m.src),
+})).filter(g => g.items.length > 0);
+const asJson = v => JSON.stringify(v).replaceAll('<', '\\u003c');
+const adGroups = groupsByKind(['ad']);
+const featuredAds = pickFeaturedMedia(adGroups, WALL_N, () => 0.5);
+const adGroupsJson = asJson(adGroups);
+// 截圖 pools title and screenshot, matching the gallery category in lib/media.js.
+// Unweighted: title screens read as a logo, gameplay shots say what the game
+// looks like, and the mix is the point — revisit only if one starts to dominate.
+const shotGroups = groupsByKind(['title', 'screenshot']);
+const featuredShots = pickFeaturedMedia(shotGroups, WALL_N, () => 0.5);
+const shotGroupsJson = asJson(shotGroups);
 // 最近更新 feed: newest-edited entries across all entity types, keyed by each
 // content file's last git-commit date. Empty (section hidden) on shallow clones
 // where git history is unavailable.
@@ -87,17 +96,18 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     <a class="btn" href={withBase('/games')}>瀏覽全部</a> <button class="btn" id="random">隨機探索</button>
   </section>
 
-  {adGroups.length > 0 ? (
+  {adGroups.length > 0 || shotGroups.length > 0 ? (
     <h2 class="featured-heading">
       <span class="featured-tablist" id="featured-tabs" role="tablist" aria-label="精選內容">
         <button class="featured-tab" id="featured-covers-tab" type="button" role="tab" aria-selected="true" aria-controls="featured-covers-panel">精選封面</button>
-        <button class="featured-tab" id="featured-ads-tab" type="button" role="tab" aria-selected="false" aria-controls="featured-ads-panel" tabindex="-1">精選廣告</button>
+        {adGroups.length > 0 && <button class="featured-tab" id="featured-ads-tab" type="button" role="tab" aria-selected="false" aria-controls="featured-ads-panel" tabindex="-1">精選廣告</button>}
+        {shotGroups.length > 0 && <button class="featured-tab" id="featured-shots-tab" type="button" role="tab" aria-selected="false" aria-controls="featured-shots-panel" tabindex="-1">精選截圖</button>}
       </span>
     </h2>
   ) : (
     <h2 class="section-h">精選封面</h2>
   )}
-  <div id="featured-covers-panel" role={adGroups.length > 0 ? 'tabpanel' : undefined} aria-labelledby={adGroups.length > 0 ? 'featured-covers-tab' : undefined}>
+  <div id="featured-covers-panel" role={adGroups.length > 0 || shotGroups.length > 0 ? 'tabpanel' : undefined} aria-labelledby={adGroups.length > 0 || shotGroups.length > 0 ? 'featured-covers-tab' : undefined}>
     <div class="coverwall" id="coverwall">
       {featured.map(c => (
         <a class="cwall" href={c.u}>
@@ -111,9 +121,21 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     <div id="featured-ads-panel" role="tabpanel" aria-labelledby="featured-ads-tab" hidden>
       <div class="coverwall" id="adwall">
         {featuredAds.map(ad => (
-          <a class="cwall" href={ad.u}>
-            <img src={ad.img} alt={`${ad.t} 廣告`} loading="lazy" />
+          <a class="cwall" href={gameUrl(ad.id)}>
+            <img src={thumbUrl('games', ad.id, ad.src)} alt={`${ad.t} 廣告`} loading="lazy" />
             <span class="t">{ad.t}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+  {shotGroups.length > 0 && (
+    <div id="featured-shots-panel" role="tabpanel" aria-labelledby="featured-shots-tab" hidden>
+      <div class="coverwall shotwall" id="shotwall">
+        {featuredShots.map(s => (
+          <a class="cwall" href={gameUrl(s.id)}>
+            <img src={thumbUrl('games', s.id, s.src)} alt={`${s.t} 截圖`} loading="lazy" />
+            <span class="t">{s.t}</span>
           </a>
         ))}
       </div>
@@ -174,19 +196,24 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
   </script>
 
   {adGroups.length > 0 && <script id="featured-ad-data" type="application/json" is:inline set:html={adGroupsJson} />}
+  {shotGroups.length > 0 && <script id="featured-shot-data" type="application/json" is:inline set:html={shotGroupsJson} />}
   <script>
-    import { pickFeaturedAds } from '../lib/featuredAds.js';
+    import { pickFeaturedMedia } from '../lib/featuredMedia.js';
+    import { gameUrl } from '../lib/links.js';
+    import { thumbUrl } from '../lib/media.js';
 
     const esc = value => String(value).replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[char]);
-    const adData = document.getElementById('featured-ad-data');
-    const adwall = document.getElementById('adwall');
-    if (adData && adwall) {
-      const groups = JSON.parse(adData.textContent || '[]');
-      const picked = pickFeaturedAds(groups, 16);
-      adwall.innerHTML = picked.map(ad =>
-        `<a class="cwall" href="${esc(ad.u)}"><img src="${esc(ad.img)}" alt="${esc(ad.t)} 廣告" loading="lazy"><span class="t">${esc(ad.t)}</span></a>`
+    const resample = (dataId, wallId, altSuffix) => {
+      const data = document.getElementById(dataId);
+      const wall = document.getElementById(wallId);
+      if (!data || !wall) return;
+      const picked = pickFeaturedMedia(JSON.parse(data.textContent || '[]'), 16);
+      wall.innerHTML = picked.map(m =>
+        `<a class="cwall" href="${esc(gameUrl(m.id))}"><img src="${esc(thumbUrl('games', m.id, m.src))}" alt="${esc(m.t)} ${altSuffix}" loading="lazy"><span class="t">${esc(m.t)}</span></a>`
       ).join('');
-    }
+    };
+    resample('featured-ad-data', 'adwall', '廣告');
+    resample('featured-shot-data', 'shotwall', '截圖');
 
     const tabs = [...document.querySelectorAll('#featured-tabs [role="tab"]')];
     const activateTab = (activeTab, moveFocus = false) => {
