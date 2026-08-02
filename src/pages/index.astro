@@ -240,6 +240,35 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
         activateTab(tabs[(index + step + tabs.length) % tabs.length], true);
       });
     });
+
+    // Idle hint: outline one unselected tab at a time, at a random 6–14s gap, so
+    // the tabs read as targets without a permanent badge. Motion on an otherwise
+    // static page is easy to overdo, so it is heavily fenced — it never runs for
+    // readers who ask for reduced motion, pauses while the tablist is off-screen
+    // or the page is hidden, and stops for good the moment a tab is used.
+    const tablist = document.getElementById('featured-tabs');
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (tablist && tabs.length > 1 && !still.matches) {
+      let visible = false, timer = 0, done = false;
+      const stop = () => { done = true; clearTimeout(timer); };
+      const schedule = () => {
+        clearTimeout(timer);
+        if (done || !visible || document.hidden) return;
+        timer = setTimeout(() => {
+          const idle = tabs.filter(t => t.getAttribute('aria-selected') !== 'true' && !t.matches(':hover'));
+          const tab = idle[Math.floor(Math.random() * idle.length)];
+          if (tab) {
+            tab.classList.add('hint');
+            tab.addEventListener('animationend', () => tab.classList.remove('hint'), { once: true });
+          }
+          schedule();
+        }, 6000 + Math.random() * 8000);
+      };
+      tabs.forEach(t => t.addEventListener('click', stop, { once: true }));
+      tablist.addEventListener('keydown', stop, { once: true });
+      document.addEventListener('visibilitychange', schedule);
+      new IntersectionObserver(([e]) => { visible = e.isIntersecting; schedule(); }).observe(tablist);
+    }
   </script>
 
   <script>
