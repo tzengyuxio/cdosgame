@@ -100,6 +100,12 @@
 ### 14. Fandom 頁 External Links 連結集 ★ ～ ★★ 🟡
 - `cn-dos-games.fandom.com/zh` 首頁底部 External Links 區，**一批日後找資料的起點站**。多為個人考據站／論壇／影片，覆蓋與深度不一，需逐站交叉查證。完整清單見下方「Fandom External Links 盤點」。
 
+### 15. YouTube 頻道「搞玩愛」★★ 🟢
+- **收什麼**：中文 DOS 遊戲的**實機遊玩影片**，標題格式固定為「DOS <遊戲名>」，多為單款從頭玩到尾的長片（十餘分鐘至一個半小時）。已見天師鍾馗、南宋英烈傳、末日寶典、米蘭斯紀事、俠影記、三國志英傑傳、天龍八部、妙狐神探、黑暗之蠱、超人戰記、勇者傳說、凱蘭迪亞傳奇1／2、英雄傳說、亂世伏魔錄、黑暗天使、狂龍傳等。
+- **頻道**：https://www.youtube.com/@%E6%90%9E%E7%8E%A9%E6%84%9B （影片列表 `/videos`）
+- **取法**：`curl` 頻道 `/videos` 頁後 `rg -o '"label":"[^"]*"'` 即可抽出「DOS <遊戲名> <片長>」清單（頁面為 JS 渲染，但標題在初始 HTML 的 JSON 內）。
+- **價值**：無法取得實體或映像時，**確認玩法、畫面、中文化程度**的一手畫面證據；也可作條目的 `external_links`（非文字來源，除非據影片內容改寫正文）。
+
 ## Fandom External Links 盤點（2026-06-15）
 
 來源：`cn-dos-games.fandom.com/zh/wiki/CN_DOS_Games_Wiki`（MediaWiki API 取，頁面 WebFetch 會 403）。已涵蓋者標註對應的既有來源。
