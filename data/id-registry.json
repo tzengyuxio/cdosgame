@@ -50266,6 +50266,15 @@
       ],
       "status": "active",
       "title_zh": "魔宮傳奇（Shadowkeep）"
+    },
+    "cdg-5405": {
+      "catalog_id": null,
+      "developer": "Maxis",
+      "keys": [
+        "t:模擬城市2000 世紀光碟大補帖|Maxis"
+      ],
+      "status": "active",
+      "title_zh": "模擬城市2000 世紀光碟大補帖"
     }
   }
 }
