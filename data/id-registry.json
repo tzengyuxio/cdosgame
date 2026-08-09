@@ -48020,7 +48020,8 @@
       "keys": [
         "t:紅樓夢之十二金釵2001|智冠"
       ],
-      "status": "active",
+      "merged_into": "cdg-2039",
+      "status": "merged",
       "title_zh": "紅樓夢之十二金釵2001"
     },
     "cdg-5144": {
