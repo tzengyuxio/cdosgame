@@ -50277,6 +50277,24 @@
       ],
       "status": "active",
       "title_zh": "模擬城市2000：世紀光碟大補帖"
+    },
+    "cdg-5406": {
+      "catalog_id": null,
+      "developer": "Bullfrog Productions",
+      "keys": [
+            "t:極道梟雄2|Bullfrog Productions"
+      ],
+      "status": "active",
+      "title_zh": "極道梟雄2"
+    },
+    "cdg-5407": {
+      "catalog_id": null,
+      "developer": "Quicksilver Software",
+      "keys": [
+            "t:新世界爭霸戰|Quicksilver Software"
+      ],
+      "status": "active",
+      "title_zh": "新世界爭霸戰"
     }
   }
 }
