@@ -68,7 +68,7 @@ const gameObject = z.object({
   publisher_tw: z.array(z.string()).default([]),
 
   // classification
-  content_language: z.enum(["zh", "en", "ja"]).nullable(),
+  content_language: z.enum(["zh", "en", "ja", "fr"]).nullable(),
   genre: z.enum(GENRES).nullable(),
   localization_level: z.enum(["native", "localized", "packaging", "foreign"]).nullable(),
   series: z.string().nullable().default(null),
