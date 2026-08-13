@@ -8,6 +8,16 @@ export const LOC_LABELS = {
 
 export const locLabel = v => LOC_LABELS[v] || v;
 
+// Human-readable labels for the content_language enum.
+export const LANG_LABELS = {
+  zh: '中文',
+  en: '英文',
+  ja: '日文',
+  fr: '法文',
+};
+
+export const langLabel = v => LANG_LABELS[v] || v;
+
 // Human-readable labels for the release_status enum.
 // released is the normal case and renders no badge — only the two exceptional
 // states surface a label.
