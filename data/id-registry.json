@@ -2092,9 +2092,8 @@
       "keys": [
         "cat:OCD0092"
       ],
-      "status": "rejected",
-      "title_zh": "三國志12",
-      "reject_reason": "out of scope: 三國志12（2012），2000 年後現代作、非 DOS 時代收錄範圍"
+      "status": "active",
+      "title_zh": "三國志12"
     },
     "cdg-0222": {
       "catalog_id": null,
@@ -50282,7 +50281,7 @@
       "catalog_id": null,
       "developer": "Bullfrog Productions",
       "keys": [
-            "t:極道梟雄2|Bullfrog Productions"
+        "t:極道梟雄2|Bullfrog Productions"
       ],
       "status": "active",
       "title_zh": "極道梟雄2"
@@ -50291,7 +50290,7 @@
       "catalog_id": null,
       "developer": "Quicksilver Software",
       "keys": [
-            "t:新世界爭霸戰|Quicksilver Software"
+        "t:新世界爭霸戰|Quicksilver Software"
       ],
       "status": "active",
       "title_zh": "新世界爭霸戰"
