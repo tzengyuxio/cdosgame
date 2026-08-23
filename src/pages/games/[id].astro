@@ -10,6 +10,7 @@ import Share from '../../components/Share.astro';
 import Gallery from '../../components/Gallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import { coverOf, decorate, coverFigcaption, groupDecorated, GAME_CATEGORIES } from '../../lib/media.js';
+import { imageSize } from '../../lib/imageSize.js';
 import { genreUrl, seriesUrl, personUrl, topicUrl, withBase } from '../../lib/links.js';
 import { gameJsonLd, breadcrumb } from '../../lib/jsonld.js';
 import { lastModified } from '../../lib/gitdates.js';
@@ -156,7 +157,7 @@ const gaps = g.published === false ? [
             data-mag-url={coverItem.mag?.url || ''}
             data-mag-label={coverItem.mag?.label || ''}
           >
-            <img src={coverItem.full} alt={coverItem.caption || g.title_zh} />
+            <img src={coverItem.full} alt={coverItem.caption || g.title_zh} fetchpriority="high" {...imageSize(coverItem.full) || {}} />
           </button>
           <figcaption>{coverFigcaption(coverItem)}</figcaption>
         </figure>

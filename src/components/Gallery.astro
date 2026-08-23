@@ -7,6 +7,7 @@
 // total), collapse to ONE flat wrapping grid with no category headers — avoids a
 // long, empty-looking page of single-item sections. Richer galleries keep the
 // per-category headers for navigation.
+import { imageSize } from '../lib/imageSize.js';
 const { groups = [] } = Astro.props;
 const FLAT_MAX = 4; // ≤ this many images total → flat grid, no headers
 const total = groups.reduce((n, g) => n + g.items.length, 0);
@@ -34,7 +35,7 @@ const renderGroups = flat
                 data-mag-url={m.mag?.url || ''}
                 data-mag-label={m.mag?.label || ''}
               >
-                <img src={m.thumb} alt={m.gallery_caption} loading="lazy" />
+                <img src={m.thumb} alt={m.gallery_caption} loading="lazy" decoding="async" {...imageSize(m.thumb) || {}} />
               </button>
               <figcaption class="media-cap">{m.gallery_caption}</figcaption>
             </figure>
