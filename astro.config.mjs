@@ -132,6 +132,11 @@ export default defineConfig({
   // the native `sharp` dependency.
   image: { service: passthroughImageService() },
   markdown: { rehypePlugins: [rehypeBaseLinks, rehypeMedia] },
+  // The single stylesheet is ~6 KiB over the wire but sat on the critical path
+  // as a second round trip (Lighthouse measured 474 ms). Inlining it trades a
+  // little repetition per page for one less blocking request; the host caps
+  // caching at 10 minutes anyway, so a shared CSS file buys little.
+  build: { inlineStylesheets: 'always' },
   // 公司改名／別名的舊網址導向不在這裡設定：改由 companies/[name].astro 依精選表
   // src/lib/company-aliases.js 生成「即時 client redirect + 重導向自橫幅」的頁面，
   // 避免 Astro 內建 redirect 的白頁閃動。

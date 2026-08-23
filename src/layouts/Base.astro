@@ -55,11 +55,12 @@ const gaOn = import.meta.env.PROD && GA_ID && !GA_ID.includes('XXXX');
 
     {ldBlocks.map(o => <script type="application/ld+json" is:inline set:html={JSON.stringify(o)} />)}
 
+    {/* Analytics is deferred to idle time: gtag.js is ~70 KiB of script the
+        first paint does not need, and loading it in the head competes with the
+        cover wall for bandwidth and main thread on mobile. The queue is set up
+        immediately so nothing is lost while the tag is still on its way. */}
     {gaOn && (
-      <>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
-        <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}></script>
-      </>
+      <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');var load=function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);};if('requestIdleCallback' in window){addEventListener('load',function(){requestIdleCallback(load,{timeout:3000});});}else{addEventListener('load',function(){setTimeout(load,1500);});}`} />
     )}
   </head>
   <body>
