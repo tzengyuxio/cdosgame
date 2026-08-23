@@ -90,6 +90,19 @@ GitHub Pages 維持原樣當來源站。**repo 與 CI 完全不動。**
 先 A（改 DNS 即可、可回復、不動 repo），量一次 PSI 確認那 505 KiB 消失。
 真的要脫離 GitHub Pages 再評估 B，屆時先確認上面的檔案數上限。
 
+## 併看：repo 容量
+
+搬圖床這條退路不只跟 Pages 的檔案數上限有關，repo 本身的體積也在推同一個方向。
+
+- `git count-objects -vH` 實測 **size-pack 884 MiB**（2026-08-24），幾乎全是 `public/media`。
+- GitHub 沒有硬性容量上限，但**超過 1 GB 會開始收到瘦身建議**，以目前收料速度不遠了。
+- WebP 已是壓縮格式，git 再壓幾乎無效：`mini/` 那批 37.5 MiB 的圖，打包後仍要推 36.8 MiB。
+  換句話說 **repo 體積 ≈ 圖檔體積**，沒有壓縮紅利可指望。
+- 圖檔進了 git 就永遠留在 history 裡，刪檔也縮不回去（要 rewrite history 才行）。
+
+所以「圖檔改走 R2 或獨立圖床」同時解掉三件事：Pages 檔案數上限、repo 體積、以及本文件
+主旨的快取控制（R2＋Cloudflare 可以直接設 `immutable`）。真要動的話，這是一次處理完的好時機。
+
 ## 相關
 
 - 圖片尺寸策略：`docs/media.md`
