@@ -24,7 +24,7 @@ archive 非必要，但建議保留原始掃描，日後可重壓不同尺寸／
 ## 2. 目錄與命名
 
 - **一款一資料夾**：`public/media/games/cdg-NNNN/`。
-- **檔名 = `<kind>[-NN].webp`**；縮圖放 `thumb/` 子夾、**同名**。
+- **檔名 = `<kind>[-NN].webp`**；縮圖放 `thumb/`（360px）與 `mini/`（160px）子夾、**同名**。
 - 多張同類用 `-01`、`-02`（zero-pad，依頁序／邏輯序）。
 - 全小寫、kebab-case，不含中文／空白（中文資訊放 frontmatter 的 `caption`）。
 
@@ -75,10 +75,12 @@ public/media/games/cdg-1564/
 ├── title.webp
 ├── screenshot-01.webp
 ├── screenshot-02.webp
-└── thumb/
-    ├── box-front.webp
-    ├── screenshot-01.webp
-    └── …（與上對應、同名）
+├── thumb/
+│   ├── box-front.webp
+│   ├── screenshot-01.webp
+│   └── …（與上對應、同名）
+└── mini/
+    └── …（同上，160px）
 ```
 
 ## 3. Frontmatter（schema 擴充）
@@ -247,7 +249,10 @@ media:
 - **品質建議**：
   - 截圖（DOS 256 色／像素）→ WebP **無損或近無損**（檔案本就很小）。
   - 盒裝／說明書／廣告（照片、掃描）→ WebP **lossy q≈80**。
-  - 縮圖 → 寬約 **360px**、q≈75，放 `thumb/`。
+  - 縮圖 → 兩種尺寸，皆 q≈75：
+    - `thumb/` 寬 **360px** — 給條目頁圖庫（卡片最大 200 CSS px，需應付 Retina）。
+    - `mini/` 寬 **160px** — 給首頁精選牆（磚塊在手機上僅約 84 CSS px；供 360px 檔等於白費一半流量）。兩者以 `srcset` 一併提供，由視窗自行挑選。
+    - 補產既有圖的 `mini/`：`node scripts/backfill_mini.mjs`（冪等，`--dry-run` 可先看）。
 - **工具**：`magick`（已安裝）；入庫自動化見 `scripts/process_media.mjs`（見 §5.1）。
 
 > **WebP vs tinified JPG**：同畫質 WebP 通常小 25–35%，且支援透明與無損（截圖划算）；tinified JPG 僅勝在古董相容性，對本站無意義。原始掃描以原格式存 archive，交付一律轉 WebP。

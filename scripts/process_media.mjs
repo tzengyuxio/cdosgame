@@ -61,7 +61,12 @@ function webp(input, output, lossless) {
   const args = lossless ? [input, ...resize, "-define", "webp:lossless=true", output] : [input, ...resize, "-quality", "82", output];
   execFileSync("magick", args);
 }
+// Two derived sizes. thumb/ (360px) serves the gallery grids, whose cards run up
+// to 200 CSS px wide. mini/ (160px) serves the homepage walls, whose tiles are
+// ~84 CSS px on a phone — shipping the 360px file there wasted roughly half the
+// homepage's bytes. Both are offered as one srcset, so each viewport picks one.
 const thumb = (input, output) => execFileSync("magick", [input, "-resize", "360x>", "-quality", "75", output]);
+const mini = (input, output) => execFileSync("magick", [input, "-resize", "160x>", "-quality", "75", output]);
 
 // YAML scalar: quote only when the value could otherwise be misparsed.
 const yamlStr = (s) => (/[:#[\]{}&*!|>'"%@`,]/.test(s) || /^[\s>-]/.test(s)) ? JSON.stringify(s) : s;
@@ -180,11 +185,15 @@ if (errors.length) { console.error("\n✗ 有錯誤，已中止，未變更任�
 for (const v of valid) {
   const outDir = join("public/media", v.meta.coll, v.meta.slug);
   const thumbDir = join(outDir, "thumb");
+  const miniDir = join(outDir, "mini");
   mkdirSync(thumbDir, { recursive: true });
+  mkdirSync(miniDir, { recursive: true });
   const outFull = join(outDir, v.src);
   const outThumb = join(thumbDir, v.src);
+  const outMini = join(miniDir, v.src);
   if (!existsSync(outFull)) webp(v.file, outFull, LOSSLESS_KINDS.has(v.meta.kind));
   if (!existsSync(outThumb)) thumb(v.file, outThumb);
+  if (!existsSync(outMini)) mini(v.file, outMini);
 }
 // 2) merge media[] into each .md (dedupe by src)
 let added = 0;
