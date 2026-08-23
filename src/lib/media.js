@@ -78,6 +78,12 @@ export const coverFigcaption = m => {
 
 export const mediaUrl = (coll, slug, src) => withBase(`/media/${coll}/${slug}/${src}`);
 export const thumbUrl = (coll, slug, src) => withBase(`/media/${coll}/${slug}/thumb/${src}`);
+export const miniUrl = (coll, slug, src) => withBase(`/media/${coll}/${slug}/mini/${src}`);
+// The homepage walls render tiles far smaller than the 360px thumb: ~84 CSS px
+// on a phone, ~131 (covers) / ~178 (screenshots) on desktop. Offering both
+// sizes lets a phone take the 160px file and a Retina desktop the 360px one.
+export const wallSrcset = (coll, slug, src) =>
+  `${miniUrl(coll, slug, src)} 160w, ${thumbUrl(coll, slug, src)} 360w`;
 
 // Resolve a source code to { name, url }. Per-item source_url overrides the
 // registry URL; unknown codes display as-is.

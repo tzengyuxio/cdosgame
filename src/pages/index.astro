@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { groupBy, distinctValues, vendorsOf, decadeOf, yearRange } from '../lib/gamesQuery.js';
 import { seriesUrl, decadeUrl, gameUrl, companyUrl, teamUrl, personUrl, topicUrl, withBase } from '../lib/links.js';
-import { coverOf, thumbUrl } from '../lib/media.js';
+import { coverOf, thumbUrl, miniUrl, wallSrcset } from '../lib/media.js';
 import { pickFeaturedMedia } from '../lib/featuredMedia.js';
 import { websiteJsonLd, datasetJsonLd } from '../lib/jsonld.js';
 import { latestModified, lastModified } from '../lib/gitdates.js';
@@ -21,13 +21,18 @@ const decades = distinctValues(games, g => decadeOf(g.year)).sort((a, b) => a.va
 // client does weighted sampling on each visit. SSR renders a stable, high-weight
 // subset as the no-JS fallback.
 const WALL_N = 16;
+// Tile widths the srcset has to satisfy: main is 1168px wide with 20px padding,
+// so 8 cover columns land at ~131px and 6 screenshot columns at ~178px; below
+// 680px both walls drop to 4 columns, i.e. roughly a quarter of the viewport.
+const COVER_SIZES = '(max-width: 680px) 23vw, 131px';
+const SHOT_SIZES = '(max-width: 680px) 23vw, 178px';
 // Localization weights: 原生中文/中文化 covers are scarce (~70 with box-front) vs
 // abundant packaging scans (~450), so a mild ×3 would still leave packaging ~68%.
 // ×8 lifts native+localized exposure to ~55% of the 16 tiles — the intended target.
 const COVER_WEIGHTS = { native: 8, localized: 8, packaging: 1, foreign: 1 };
 const coverWeight = g => COVER_WEIGHTS[g.localization_level] ?? 1;
 const coverGames = games.filter(g => (g.media || []).some(m => m.kind === 'box-front'));
-const toCard = g => ({ u: gameUrl(g.id), img: thumbUrl('games', g.id, coverOf(g.media).src), t: g.title_zh, w: coverWeight(g) });
+const toCard = g => ({ i: g.id, s: coverOf(g.media).src, t: g.title_zh, w: coverWeight(g) });
 const coverPool = coverGames.map(toCard);
 const featured = [...coverGames]
   .sort((a, b) => coverWeight(b) - coverWeight(a) || (b.media?.length || 0) - (a.media?.length || 0))
@@ -114,8 +119,8 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
   <div id="featured-covers-panel" role={adGroups.length > 0 || shotGroups.length > 0 ? 'tabpanel' : undefined} aria-labelledby={adGroups.length > 0 || shotGroups.length > 0 ? 'featured-covers-tab' : undefined}>
     <div class="coverwall" id="coverwall">
       {featured.map(c => (
-        <a class="cwall" href={c.u}>
-          <img src={c.img} alt={`${c.t} 封面`} loading="lazy" />
+        <a class="cwall" href={gameUrl(c.i)}>
+          <img src={miniUrl('games', c.i, c.s)} srcset={wallSrcset('games', c.i, c.s)} sizes={COVER_SIZES} alt={`${c.t} 封面`} loading="lazy" decoding="async" />
           <span class="t">{c.t}</span>
         </a>
       ))}
@@ -126,7 +131,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
       <div class="coverwall" id="adwall">
         {featuredAds.map(ad => (
           <a class="cwall" href={gameUrl(ad.id)}>
-            <img src={thumbUrl('games', ad.id, ad.src)} alt={`${ad.t} 廣告`} loading="lazy" />
+            <img src={miniUrl('games', ad.id, ad.src)} srcset={wallSrcset('games', ad.id, ad.src)} sizes={COVER_SIZES} alt={`${ad.t} 廣告`} loading="lazy" decoding="async" />
             <span class="t">{ad.t}</span>
           </a>
         ))}
@@ -138,7 +143,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
       <div class="coverwall shotwall" id="shotwall">
         {featuredShots.map(s => (
           <a class="cwall" href={gameUrl(s.id)}>
-            <img src={thumbUrl('games', s.id, s.src)} alt={`${s.t} 截圖`} loading="lazy" />
+            <img src={miniUrl('games', s.id, s.src)} srcset={wallSrcset('games', s.id, s.src)} sizes={SHOT_SIZES} alt={`${s.t} 截圖`} loading="lazy" decoding="async" />
             <span class="t">{s.t}</span>
           </a>
         ))}
@@ -181,7 +186,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
 
   <p class="browse-more">瀏覽更多：<a class="lk" href={withBase('/companies')}>廠商</a> · <a class="lk" href={withBase('/series')}>系列</a> · <a class="lk" href={withBase('/genres')}>類型</a> · <a class="lk" href={withBase('/people')}>人物</a> · <a class="lk" href={withBase('/topics')}>專題</a></p>
 
-  <script is:inline define:vars={{ pool: coverPool, wallN: WALL_N }}>
+  <script is:inline define:vars={{ pool: coverPool, wallN: WALL_N, base: withBase(''), sizes: COVER_SIZES }}>
     // Weighted sampling without replacement (Efraimidis-Spirakis: key = U^(1/w),
     // take the top-k keys) on each visit, so scarce 原生中文/中文化 covers surface
     // more often than the abundant packaging scans.
@@ -193,8 +198,13 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
         .slice(0, wallN)
         .map(x => x.c);
       const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-      wall.innerHTML = pick.map(c =>
-        `<a class="cwall" href="${esc(c.u)}"><img src="${esc(c.img)}" alt="${esc(c.t)} 封面" loading="lazy"><span class="t">${esc(c.t)}</span></a>`
+      // The wall is resampled before the SSR tiles have loaded, so the LCP image
+      // is one of these. The first row is above the fold on every breakpoint —
+      // fetch it eagerly and at high priority; the rest stay lazy.
+      const EAGER = 4;
+      const media = (size, c) => `${base}/media/games/${c.i}/${size}/${c.s}`;
+      wall.innerHTML = pick.map((c, i) =>
+        `<a class="cwall" href="${base}/games/${esc(c.i)}"><img src="${esc(media('mini', c))}" srcset="${esc(media('mini', c))} 160w, ${esc(media('thumb', c))} 360w" sizes="${esc(sizes)}" alt="${esc(c.t)} 封面" ${i < EAGER ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span class="t">${esc(c.t)}</span></a>`
       ).join('');
     }
   </script>
@@ -204,20 +214,35 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
   <script>
     import { pickFeaturedMedia } from '../lib/featuredMedia.js';
     import { gameUrl } from '../lib/links.js';
-    import { thumbUrl } from '../lib/media.js';
+    import { miniUrl, wallSrcset } from '../lib/media.js';
 
     const esc = value => String(value).replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[char]);
-    const resample = (dataId, wallId, altSuffix, limit) => {
+    // Kept in step with COVER_SIZES / SHOT_SIZES in this file's frontmatter —
+    // a module script cannot read those, and the walls must agree on tile width.
+    const COVER_SIZES = '(max-width: 680px) 23vw, 131px';
+    const SHOT_SIZES = '(max-width: 680px) 23vw, 178px';
+    const resample = (dataId, wallId, altSuffix, limit, sizes) => {
       const data = document.getElementById(dataId);
       const wall = document.getElementById(wallId);
       if (!data || !wall) return;
       const picked = pickFeaturedMedia(JSON.parse(data.textContent || '[]'), limit);
       wall.innerHTML = picked.map(m =>
-        `<a class="cwall" href="${esc(gameUrl(m.id))}"><img src="${esc(thumbUrl('games', m.id, m.src))}" alt="${esc(m.t)} ${altSuffix}" loading="lazy"><span class="t">${esc(m.t)}</span></a>`
+        `<a class="cwall" href="${esc(gameUrl(m.id))}"><img src="${esc(miniUrl('games', m.id, m.src))}" srcset="${esc(wallSrcset('games', m.id, m.src))}" sizes="${esc(sizes)}" alt="${esc(m.t)} ${altSuffix}" loading="lazy" decoding="async"><span class="t">${esc(m.t)}</span></a>`
       ).join('');
     };
-    resample('featured-ad-data', 'adwall', '廣告', 16);
-    resample('featured-shot-data', 'shotwall', '截圖', 12);
+    // The ad and screenshot walls sit in hidden panels, so building them on load
+    // costs a JSON.parse of the inline data plus 28 tiles of DOM that most
+    // visitors never see. Each wall is sampled the first time its tab opens.
+    const WALL_JOBS = {
+      'featured-ads-panel': () => resample('featured-ad-data', 'adwall', '廣告', 16, COVER_SIZES),
+      'featured-shots-panel': () => resample('featured-shot-data', 'shotwall', '截圖', 12, SHOT_SIZES),
+    };
+    const ensureWall = panelId => {
+      const job = WALL_JOBS[panelId];
+      if (!job) return;
+      delete WALL_JOBS[panelId];
+      job();
+    };
 
     const tabs = [...document.querySelectorAll('#featured-tabs [role="tab"]')];
     const activateTab = (activeTab, moveFocus = false) => {
@@ -226,7 +251,10 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
         tab.setAttribute('aria-selected', String(active));
         tab.tabIndex = active ? 0 : -1;
         const panel = document.getElementById(tab.getAttribute('aria-controls'));
-        if (panel) panel.hidden = !active;
+        if (panel) {
+          if (active) ensureWall(panel.id);
+          panel.hidden = !active;
+        }
       }
       if (moveFocus) activeTab.focus();
     };
