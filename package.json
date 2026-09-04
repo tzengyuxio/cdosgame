@@ -6,7 +6,7 @@
   "description": "中文 DOS 遊戲資料庫 — platform-neutral catalog",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/flatten_sitemap.mjs",
     "preview": "astro preview",
     "test": "node --test 'src/lib/**/*.test.js'",
     "validate": "node scripts/validate_content.mjs",
