@@ -16,6 +16,9 @@ a:hover{text-decoration:underline}
 main{max-width:1168px;margin:0 auto;padding:24px 20px}
 .site-footer{border-top:1px solid var(--border);padding:14px 0;color:var(--muted);font-size:12.5px}
 .footer-inner{max-width:1168px;margin:0 auto;padding:0 20px;text-align:center;line-height:1.7}
+.sister-sites{margin-bottom:4px}
+.footer-inner .sep{margin:0 .7em;opacity:.5}
+.sister-sites a{color:var(--muted)}
 .muted{color:var(--muted)}
 
 /* DOS 頂條 */

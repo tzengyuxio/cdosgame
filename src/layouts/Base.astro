@@ -72,7 +72,10 @@ const gaOn = import.meta.env.PROD && GA_ID && !GA_ID.includes('XXXX');
     </header>
     <main><slot /></main>
     <footer class="site-footer">
-      <div class="footer-inner">© 中文 DOS 遊戲資料庫 2026　|　本站所引用之各商標及圖形，所有權歸各註冊公司所有　|　Built with Love ❤️</div>
+      <div class="footer-inner">
+        <div class="sister-sites"><a href="https://nostalib.simagame.me/" target="_blank" rel="noopener">NostaLib · 懷舊圖書館</a><span class="sep">|</span><a href="https://tocr.simagame.me/" target="_blank" rel="noopener">TOCR · 遊戲雜誌目錄索引</a></div>
+        <div>© 中文 DOS 遊戲資料庫 2026<span class="sep">|</span>本站所引用之各商標及圖形，所有權歸各註冊公司所有<span class="sep">|</span>Built with Love ❤️</div>
+      </div>
     </footer>
   </body>
 </html>
