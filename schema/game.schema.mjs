@@ -33,7 +33,7 @@ export const MEDIA_KINDS = [
   "box-front", "box-back", "box-spine", "package",
   "bonus", "poster",
   "disc", "floppy", "manual-cover", "manual", "ad", "press",
-  "title", "screenshot", "map", "credits", "other",
+  "title", "screenshot", "map", "credits", "photo", "other",
 ];
 
 const gameObject = z.object({
