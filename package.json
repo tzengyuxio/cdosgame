@@ -15,9 +15,10 @@
     "review": "node scripts/serve_review_state.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
-    "astro": "^5.0.0",
+    "@astrojs/markdown-remark": "^7.3.1",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.5",
     "js-yaml": "^4.1.0",
-    "zod": "^3.23.0"
+    "zod": "^4.6.5"
   }
 }
