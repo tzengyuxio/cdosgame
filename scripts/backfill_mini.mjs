@@ -2,7 +2,7 @@
 // already has a 360px thumb/. process_media.mjs writes both sizes for anything
 // new, so this only has to catch up the library that predates mini/.
 // Run: node scripts/backfill_mini.mjs [--dry-run]
-import { readdirSync, existsSync, mkdirSync, statSync } from "node:fs";
+import { readdirSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname, basename } from "node:path";
 import { execFileSync } from "node:child_process";
 

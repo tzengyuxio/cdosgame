@@ -50,7 +50,7 @@ export function decadeOf(year) {
 // them (e.g. "TAD Corporation").
 export function splitDevelopers(developer) {
   if (!developer) return [];
-  return String(developer).split(/\s*[,，、／\/]\s*/).map(s => s.trim()).filter(Boolean);
+  return String(developer).split(/\s*[,，、／/]\s*/).map(s => s.trim()).filter(Boolean);
 }
 
 // alias → canonical, so the廠商 index and vendor facet collapse former/alternate

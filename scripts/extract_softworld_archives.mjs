@@ -109,7 +109,7 @@ function recursiveFiles(dir) {
   return files;
 }
 
-function extractWithUnar(archivePath, plannedOutputs, args) {
+function extractWithUnar(archivePath, plannedOutputs, _args) {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "softworld-archive-"));
   try {
     execFileSync("unar", ["-q", "-f", "-o", tempDir, archivePath], {

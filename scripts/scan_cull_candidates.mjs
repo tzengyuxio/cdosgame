@@ -67,7 +67,7 @@ if (fs.existsSync(INTRO_TSV)) {
 // --- pass 1: index published normalized titles (for dup signal) ------------
 const norm = (s) =>
   (s || "")
-    .replace(/[（）()【】\[\]：:・·…—\-\s　,，。.、'"'"!！?？]/g, "")
+    .replace(/[（）()【】[\]：:・·…—\-\s　,，。.、'"'"!！?？]/g, "")
     .toLowerCase();
 
 const publishedTitles = new Map(); // normTitle -> id

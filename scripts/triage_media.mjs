@@ -53,7 +53,7 @@ const writeSidecar = (s) => { mkdirSync(SIDECAR_DIR, { recursive: true }); write
 // Normalize aggressively: a title typed into a filename rarely matches punctuation exactly.
 const norm = (s) => String(s || "")
   .replace(/[\s　]/g, "")
-  .replace(/[；：，。、．・！？「」『』（）()《》〈〉【】\[\]{}~～\-—_+.,:;!?'"]/g, "")
+  .replace(/[；：，。、．・！？「」『』（）()《》〈〉【】[\]{}~～\-—_+.,:;!?'"]/g, "")
   .toLowerCase();
 
 // Index content/games/*.md — the authority since FROZEN v0.2.0. Crucially this
