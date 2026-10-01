@@ -25,11 +25,12 @@ def task(key, g):
         return None
     url = f"{BASE}/{urllib.parse.quote(key)}/{urllib.parse.quote(cover)}"
     dest = IMG_DIR / key / cover
+    names = g.get("name") or {}
     rec = {
         "local_path": str(dest),
         "source_url": url,
         "identifier": key,
-        "title_zh_hant": g.get("name", {}).get("zh-Hant"),
+        "title_zh_hant": names.get("zh-Hant"),
         "source": "rwv/chinese-dos-games",
         "license_note": "code GPL-3.0; asset redistribution disputed — see raw/rwv/PROVENANCE.md",
         "fetched": "2026-06-14",

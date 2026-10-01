@@ -211,10 +211,6 @@ a.lk:hover{background:#eef6fb;text-decoration:none}
 .rel{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:14px}
 .cats{background:#f6f2e9;border:1px solid var(--border);border-top:0;border-radius:0 0 5px 5px;padding:10px 20px;font-size:13px;color:#666}
 .cats a{margin:0 2px}
-.exgrp{display:flex;gap:8px;margin:6px 0;font-size:14px}
-.exgrp .lbl{flex:0 0 56px;color:var(--muted);font-size:12px;font-family:var(--mono);padding-top:1px}
-.exlinks{display:flex;flex-direction:column;gap:3px;min-width:0}
-.exgrp .src{color:#bbb;font-size:11px;margin-left:4px}
 .stafflist{list-style:none;margin:6px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:3px 20px;font-size:14px}
 .stafflist li{display:flex;gap:10px}
 .stafflist .role{color:var(--muted);min-width:64px;font-size:13px}

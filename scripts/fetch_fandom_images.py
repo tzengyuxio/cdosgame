@@ -31,10 +31,11 @@ def fetch_image_urls(titles):
         q = urllib.parse.quote("|".join(batch))
         data = curl_json(f"{API}?action=query&prop=pageimages&piprop=original"
                          f"&titles={q}&format=json&formatversion=2")
-        for p in data.get("query", {}).get("pages", []):
-            src = p.get("original", {}).get("source")
-            if src:
-                out[p["title"]] = src
+        query = data.get("query") or {}
+        for p in query.get("pages") or []:
+            original = p.get("original")
+            if original and original.get("source"):
+                out[p["title"]] = original["source"]
     return out
 
 

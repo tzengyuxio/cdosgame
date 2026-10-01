@@ -23,7 +23,7 @@ const PUBLISHED_GAME_IDS = (() => {
   const ids = new Set();
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.md')) continue;
-    const fm = (readFileSync(new URL(file, dir), 'utf8').match(/^---\n([\s\S]*?)\n---/) || [, ''])[1];
+    const fm = (readFileSync(new URL(file, dir), 'utf8').match(/^---\n([\s\S]*?)\n---/) || [null, ''])[1];
     const id = (fm.match(/^id:\s*(\S+)/m) || [])[1];
     if (id && /^published:\s*true\s*$/m.test(fm)) ids.add(id);
   }
