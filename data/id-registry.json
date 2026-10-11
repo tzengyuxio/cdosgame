@@ -50294,6 +50294,15 @@
       ],
       "status": "active",
       "title_zh": "新世界爭霸戰"
+    },
+    "cdg-5408": {
+      "catalog_id": null,
+      "developer": "十乾科技",
+      "keys": [
+        "t:封神榜 YES!|十乾科技"
+      ],
+      "status": "active",
+      "title_zh": "封神榜 YES!"
     }
   }
 }
