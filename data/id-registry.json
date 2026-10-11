@@ -50303,6 +50303,60 @@
       ],
       "status": "active",
       "title_zh": "封神榜 YES!"
+    },
+    "cdg-5409": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:悠遊記|"
+      ],
+      "status": "active",
+      "title_zh": "悠遊記"
+    },
+    "cdg-5410": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:魔域空間|"
+      ],
+      "status": "active",
+      "title_zh": "魔域空間"
+    },
+    "cdg-5411": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:神隱少年|"
+      ],
+      "status": "active",
+      "title_zh": "神隱少年"
+    },
+    "cdg-5412": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:勇者爆爆龍|"
+      ],
+      "status": "active",
+      "title_zh": "勇者爆爆龍"
+    },
+    "cdg-5413": {
+      "catalog_id": null,
+      "developer": null,
+      "keys": [
+        "t:夢幻組合集2：遊戲雙響炮|"
+      ],
+      "status": "active",
+      "title_zh": "夢幻組合集2：遊戲雙響炮"
+    },
+    "cdg-5414": {
+      "catalog_id": null,
+      "developer": "GUST",
+      "keys": [
+        "t:瑪莉・艾莉・莉莉～鍊金工房|GUST"
+      ],
+      "status": "active",
+      "title_zh": "瑪莉・艾莉・莉莉～鍊金工房"
     }
   }
 }
