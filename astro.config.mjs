@@ -7,6 +7,10 @@ import { magazineHref } from './src/lib/magazine-links.js';
 // Served at the root of a custom domain (cdosgame.simagame.me, see public/CNAME).
 // BASE is the path prefix for internal links — empty string at a domain root.
 const BASE = '';
+// Same rule as slash() in src/lib/links.js (that module reads import.meta.env,
+// so the config cannot import it).
+const slash = p => p.replace(/^([^?#]*?)\/?([?#].*)?$/, (m, path, rest = '') =>
+  /\.[a-z0-9]+$/i.test(path) ? m : `${path}/${rest}`);
 
 // In a production build only published games get a detail page (see the
 // `PROD ? data.published : true` gate in the routes). Entity bodies — e.g. a
@@ -47,7 +51,7 @@ function rehypeBaseLinks() {
           out.push(...(node.children || [])); // unwrap: keep the link text only
           continue;
         }
-        if (href.startsWith('/') && !href.startsWith('//')) node.properties.href = BASE + href;
+        if (href.startsWith('/') && !href.startsWith('//')) node.properties.href = slash(BASE + href);
         else if (/^https?:\/\//.test(href) || href.startsWith('//')) {
           // external link → open in a new tab
           node.properties.target = '_blank';
