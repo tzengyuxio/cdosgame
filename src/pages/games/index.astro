@@ -118,7 +118,7 @@ const showDevTools = import.meta.env.DEV;
         af.append(sep, reset);
       }
       document.getElementById('results').innerHTML = items.map(g => `
-        <li><a href="${BASE}/games/${g.id}">
+        <li><a href="${BASE}/games/${g.id}/">
           <span class="r-title">${esc(g.title_zh)}</span>
           ${g.published === false ? '<span class="r-draft">未發佈</span>' : ''}
           ${g.img ? `<span class="r-img" title="含圖 ${g.img} 張">📷${g.img > 1 ? ' ' + g.img : ''}</span>` : ''}

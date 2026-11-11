@@ -10,7 +10,7 @@ const BASE = '';
 // Same rule as slash() in src/lib/links.js (that module reads import.meta.env,
 // so the config cannot import it).
 const slash = p => p.replace(/^([^?#]*?)\/?([?#].*)?$/, (m, path, rest = '') =>
-  /\.[a-z0-9]+$/i.test(path) ? m : `${path}/${rest}`);
+  !path || /\.[a-z0-9]+$/i.test(path) ? m : `${path}/${rest}`);
 
 // In a production build only published games get a detail page (see the
 // `PROD ? data.published : true` gate in the routes). Entity bodies — e.g. a

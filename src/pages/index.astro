@@ -204,7 +204,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
       const EAGER = 4;
       const media = (size, c) => `${base}/media/games/${c.i}/${size}/${c.s}`;
       wall.innerHTML = pick.map((c, i) =>
-        `<a class="cwall" href="${base}/games/${esc(c.i)}"><img src="${esc(media('mini', c))}" srcset="${esc(media('mini', c))} 160w, ${esc(media('thumb', c))} 360w" sizes="${esc(sizes)}" alt="${esc(c.t)} 封面" ${i < EAGER ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span class="t">${esc(c.t)}</span></a>`
+        `<a class="cwall" href="${base}/games/${esc(c.i)}/"><img src="${esc(media('mini', c))}" srcset="${esc(media('mini', c))} 160w, ${esc(media('thumb', c))} 360w" sizes="${esc(sizes)}" alt="${esc(c.t)} 封面" ${i < EAGER ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span class="t">${esc(c.t)}</span></a>`
       ).join('');
     }
   </script>
@@ -303,7 +303,7 @@ const jsonLd = [websiteJsonLd({ site, description: desc }), datasetJsonLd({ site
     const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
     document.getElementById('random')?.addEventListener('click', async () => {
       const g = await (await fetch(`${BASE}/games.json`)).json();
-      if (g.length) location.href = `${BASE}/games/${g[Math.floor(Math.random() * g.length)].id}`;
+      if (g.length) location.href = `${BASE}/games/${g[Math.floor(Math.random() * g.length)].id}/`;
     });
   </script>
 </Base>

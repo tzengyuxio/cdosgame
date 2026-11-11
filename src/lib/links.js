@@ -7,7 +7,7 @@ const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 // slashed form. Add the trailing slash to page paths (not to files such as
 // /sitemap.xml, and keeping any ?query or #hash after it).
 export const slash = p => p.replace(/^([^?#]*?)\/?([?#].*)?$/, (m, path, rest = '') =>
-  /\.[a-z0-9]+$/i.test(path) ? m : `${path}/${rest}`);
+  !path || /\.[a-z0-9]+$/i.test(path) ? m : `${path}/${rest}`);
 export const withBase = p => slash(`${BASE}${p}`);
 export const homeUrl = () => `${BASE}/`;
 export const gameUrl = id => `${BASE}/games/${id}/`;
