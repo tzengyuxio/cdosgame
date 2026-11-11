@@ -50357,6 +50357,42 @@
       ],
       "status": "active",
       "title_zh": "瑪莉・艾莉・莉莉～鍊金工房"
+    },
+    "cdg-5415": {
+      "catalog_id": null,
+      "developer": "LucasArts",
+      "keys": [
+        "t:Full Throttle|LucasArts"
+      ],
+      "status": "active",
+      "title_zh": "極速天龍"
+    },
+    "cdg-5416": {
+      "catalog_id": null,
+      "developer": "LucasArts",
+      "keys": [
+        "t:Grim Fandango|LucasArts"
+      ],
+      "status": "active",
+      "title_zh": "神通鬼大"
+    },
+    "cdg-5417": {
+      "catalog_id": null,
+      "developer": "LucasArts",
+      "keys": [
+        "t:Star Wars: Dark Forces|LucasArts"
+      ],
+      "status": "active",
+      "title_zh": "死星戰將"
+    },
+    "cdg-5418": {
+      "catalog_id": null,
+      "developer": "Take-Two Interactive",
+      "keys": [
+        "t:Hell: A Cyberpunk Thriller|Take-Two Interactive"
+      ],
+      "status": "active",
+      "title_zh": "地獄之門"
     }
   }
 }
