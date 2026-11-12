@@ -328,3 +328,19 @@ sup.cite:target,sup.cite.cite-flash{background:#fbeec2;border-radius:3px;padding
 @keyframes cite-flash{from{background:#f6d860}to{background:#fbeec2}}
 .entity-sub{color:var(--muted);font-size:13px;font-family:var(--mono);margin-bottom:12px}
 @media(max-width:680px){.glist{columns:1}}
+/* package comparison tables (topics) */
+.pkg-scroll{overflow-x:auto}
+.pkg-table{border-collapse:collapse;width:100%;font-size:.9em}
+.pkg-table th,.pkg-table td{border:1px solid var(--border);padding:6px;vertical-align:top}
+.pkg-table thead th{background:var(--bg-alt,#f4efe6);white-space:nowrap}
+.pkg-table tbody th{white-space:nowrap;text-align:left}
+.pkg-img{text-align:center}
+.pkg-img .media-thumb img{height:220px;width:auto;max-height:none;max-width:none}
+.pkg-notes{min-width:220px}
+.pkg-notes ul{margin:0;padding-left:1.2em}
+.pkg-none{color:var(--muted,#999);vertical-align:middle!important}
+.media-card.pkg-wide{max-width:100%}
+.media-card.pkg-wide .media-thumb img{max-width:100%;max-height:none}
+.pkg-pair{flex-wrap:nowrap}
+.media-card.pkg-half{max-width:calc(50% - 6px);flex:1 1 0}
+.media-card.pkg-half .media-thumb img{max-width:100%;max-height:none}
