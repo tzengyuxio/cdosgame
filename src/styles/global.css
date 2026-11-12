@@ -344,3 +344,4 @@ sup.cite:target,sup.cite.cite-flash{background:#fbeec2;border-radius:3px;padding
 .pkg-pair{flex-wrap:nowrap}
 .media-card.pkg-half{max-width:calc(50% - 6px);flex:1 1 0}
 .media-card.pkg-half .media-thumb img{max-width:100%;max-height:none}
+.media-card.pkg-wide,.media-card.pkg-half{gap:2px;margin-bottom:24px}
