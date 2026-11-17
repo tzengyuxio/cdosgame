@@ -50393,6 +50393,33 @@
       ],
       "status": "active",
       "title_zh": "地獄之門"
+    },
+    "cdg-5419": {
+      "catalog_id": null,
+      "developer": "JAST",
+      "keys": [
+        "t:天使的迷都|JAST"
+      ],
+      "status": "active",
+      "title_zh": "天使的迷都"
+    },
+    "cdg-5420": {
+      "catalog_id": null,
+      "developer": "Military Simulations",
+      "keys": [
+        "t:重返巴格達|Military Simulations"
+      ],
+      "status": "active",
+      "title_zh": "重返巴格達"
+    },
+    "cdg-5421": {
+      "catalog_id": null,
+      "developer": "The 8th Day",
+      "keys": [
+        "t:雌雄總動員|The 8th Day"
+      ],
+      "status": "active",
+      "title_zh": "雌雄總動員"
     }
   }
 }
