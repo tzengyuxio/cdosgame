@@ -36722,8 +36722,9 @@
       "keys": [
         "t:妖擊隊|None"
       ],
-      "status": "active",
-      "title_zh": "妖擊隊"
+      "status": "merged",
+      "title_zh": "妖擊隊",
+      "merged_into": "cdg-1082"
     },
     "cdg-3926": {
       "catalog_id": null,
