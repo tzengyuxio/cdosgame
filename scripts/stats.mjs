@@ -3,7 +3,7 @@
 // Usage:
 //   npm run stats                 # all sections
 //   npm run stats -- --content    # content-page overview only
-//   npm run stats -- --images     # media image stats only
+//   npm run stats -- --images     # media image stats only (totals + per kind / per source)
 //   npm run stats -- --completeness   # missing-field gaps only
 //   npm run stats -- --include-raw    # (with --images) also tally raw/ images: block
 //
@@ -116,6 +116,15 @@ function tallyMedia() {
     total = 0,
     bytes = 0,
     missing = 0;
+  // per kind / per source: { images, games:Set }
+  const byKind = new Map(),
+    bySource = new Map();
+  const bump = (map, key, slug) => {
+    const e = map.get(key) ?? { images: 0, games: new Set() };
+    e.images++;
+    e.games.add(slug);
+    map.set(key, e);
+  };
   for (const g of games) {
     const media = Array.isArray(g.fm.media) ? g.fm.media : [];
     let n = 0;
@@ -123,13 +132,15 @@ function tallyMedia() {
       if (!it || !it.src) continue;
       n++;
       total++;
+      bump(byKind, it.kind ?? "(none)", g.slug);
+      bump(bySource, it.source ?? "(none)", g.slug);
       const sz = sizeOf(join("public/media/games", g.slug, it.src));
       if (sz === null) missing++;
       else bytes += sz;
     }
     if (n > 0) withImg++;
   }
-  return { pub: games.length, withImg, total, bytes, missing };
+  return { pub: games.length, withImg, total, bytes, missing, byKind, bySource };
 }
 
 // Tally legacy images: block (raw/ paths) for published games.
@@ -182,6 +193,16 @@ function sectionImages(includeRaw) {
     ],
     ["left", "right", "left"],
   );
+  for (const [label, map] of [["種類 kind", r.byKind], ["來源 source", r.bySource]]) {
+    console.log("");
+    printTable(
+      [label, "張數", "佔圖片", "遊戲數", "佔已發佈"],
+      [...map]
+        .sort((a, b) => b[1].images - a[1].images)
+        .map(([k, e]) => [k, e.images, pct(e.images, r.total), e.games.size, pct(e.games.size, r.pub)]),
+      ["left", "right", "right", "right", "right"],
+    );
+  }
   if (includeRaw) {
     const rr = tallyRaw();
     console.log("");
