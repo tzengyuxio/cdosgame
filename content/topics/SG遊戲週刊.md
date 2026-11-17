@@ -13,6 +13,8 @@ references:
   - title: "『SG遊戲週刊』創刊 - 巴哈姆特 GNN"
     url: https://gnn.gamer.com.tw/detail.php?sn=11209
     cited: true
+  - title: "SG遊戲週刊 | TOCR 台灣遊戲雜誌目錄索引"
+    url: https://tocr.simagame.me/magazines/sg-game
 ---
 
 《SG 遊戲週刊》（SG Game Weekly）是 2003 年 9 月創刊的家用主機遊戲週刊，由前 G2 工作組的咕咕鐘與 KO 桑帶領籌組，宣稱獲得美國、日本廠商支援與台灣廠商協助。創刊時對外表明的定位，是希望做出「不只是遊戲情報」的刊物，除情報介紹外另設計多個特別單元，並提供兩百本試閱本給巴哈姆特網友<sup class="cite" data-ref="gnn2003"></sup>。
